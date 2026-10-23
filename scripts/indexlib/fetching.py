@@ -1,12 +1,12 @@
 """Newest-first AAR selection and a durable fetch-to-extract handoff."""
 
-import hashlib
 import logging
 import zipfile
 from urllib.parse import quote, urljoin
 from xml.etree.ElementTree import ParseError
 from defusedxml.common import DefusedXmlException
 from .archives import read_manifest
+from .http import within_share
 from .evidence import components_at, merge, parse_manifest
 from .parsing import metadata, module_info, pom
 from .repositories import metadata_url
@@ -50,15 +50,9 @@ def _version(store, client, artifact, version, max_aar_mb):
     manifest, sha256 = read_manifest(client, url, int(max_aar_mb * 1024 * 1024))
     # The newest manifest determines whether historical versions are worth fetching.
     components = parse_manifest(manifest)
-    key = hashlib.sha256(f"{repository}|{coordinate}|{version}".encode()).hexdigest()
-    relative = ".cache/manifests/" + key + ".xml"
-    path = store.root / relative
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_bytes(manifest)
-    job = {"coordinate": coordinate, "repository": repository, "version": version,
-           "fetchedAt": timestamp(), "sha256": sha256, "dependencies": dependencies, "manifest": relative}
-    store.state.setdefault("extractions", []).append(job)
-    store.save()
+    # Extract inline: evidence is written as soon as the manifest is read, so nothing waits in a queue or cache.
+    evidence = merge(store.evidence(coordinate), coordinate, repository, version, timestamp(), sha256, dependencies, components)
+    write_json(store.evidence_path(coordinate), evidence)
     return components
 
 
@@ -89,8 +83,19 @@ def _already_fetched(store, coordinate, version):
     return None
 
 
+# Leave time in every run for the report (and draining manifests queued by older crawler versions).
+EXTRACT_RESERVE_SECONDS = 10 * 60
+
+
 @checkpointed
 def fetch(store, client, *, max_versions=20, max_aar_mb=50, **_):
+    if client.deadline is None:
+        return _fetch(store, client, max_versions, max_aar_mb)
+    share = max(0.0, client.deadline - client.clock() - EXTRACT_RESERVE_SECONDS)
+    return within_share(client, share, lambda: _fetch(store, client, max_versions, max_aar_mb), "Fetch")
+
+
+def _fetch(store, client, max_versions, max_aar_mb):
     progress = store.state.setdefault("fetch", {})
     if "queue" not in progress:
         progress["queue"] = sorted(store.state.get("artifacts", {}))
@@ -135,17 +140,16 @@ def fetch(store, client, *, max_versions=20, max_aar_mb=50, **_):
 
 @checkpointed
 def extract(store, client, **_):
+    """Drain manifests queued by crawler versions that fetched and extracted in separate stages."""
     pending = store.state.setdefault("extractions", [])
     for _ in range(len(pending)):
         client.check()
         job = pending[0]
         path = store.root / job["manifest"]
         if not path.exists():
-            LOG.warning("Manifest cache missing; run fetch to recover %s:%s", job["coordinate"], job["version"])
-            completed = store.state.get("completed", [])
-            if "fetch" in completed:
-                completed.remove("fetch")
-            pending.append(pending.pop(0))
+            # The version is not in evidence, so the next fetch cycle downloads it again.
+            LOG.warning("Manifest cache missing; dropping queued %s:%s for refetch", job["coordinate"], job["version"])
+            pending.pop(0)
             store.save()
             continue
         evidence = merge(store.evidence(job["coordinate"]), job["coordinate"], job["repository"], job["version"],

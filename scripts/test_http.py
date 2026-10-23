@@ -92,3 +92,11 @@ class HttpTests(FixtureTest):
         client.get("https://api.github.com/search/code?q=x", search=True)
         retry_waits = [seconds for seconds in self.clock.sleeps if seconds >= 1]
         self.assertEqual(retry_waits[:2], [60.0, 120.0])
+
+    def test_given_cdn_host_when_requested_twice_then_shorter_interval_is_used(self):
+        client = self.client([response()] * 4)
+        client.get("https://repo1.maven.org/maven2/a")
+        client.get("https://repo1.maven.org/maven2/b")
+        client.get("https://vendor.example/a")
+        client.get("https://vendor.example/b")
+        self.assertEqual(self.clock.sleeps, [0.1, 0.5])
