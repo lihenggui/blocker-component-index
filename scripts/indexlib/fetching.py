@@ -1,6 +1,5 @@
 """Newest-first AAR selection and a durable fetch-to-extract handoff."""
 
-import hashlib
 import logging
 import zipfile
 from urllib.parse import quote, urljoin
@@ -51,15 +50,9 @@ def _version(store, client, artifact, version, max_aar_mb):
     manifest, sha256 = read_manifest(client, url, int(max_aar_mb * 1024 * 1024))
     # The newest manifest determines whether historical versions are worth fetching.
     components = parse_manifest(manifest)
-    key = hashlib.sha256(f"{repository}|{coordinate}|{version}".encode()).hexdigest()
-    relative = ".cache/manifests/" + key + ".xml"
-    path = store.root / relative
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_bytes(manifest)
-    job = {"coordinate": coordinate, "repository": repository, "version": version,
-           "fetchedAt": timestamp(), "sha256": sha256, "dependencies": dependencies, "manifest": relative}
-    store.state.setdefault("extractions", []).append(job)
-    store.save()
+    # Extract inline: evidence is written as soon as the manifest is read, so nothing waits in a queue or cache.
+    evidence = merge(store.evidence(coordinate), coordinate, repository, version, timestamp(), sha256, dependencies, components)
+    write_json(store.evidence_path(coordinate), evidence)
     return components
 
 
@@ -90,8 +83,8 @@ def _already_fetched(store, coordinate, version):
     return None
 
 
-# Leave time in every run for extract and report, so fetched manifests always become evidence.
-EXTRACT_RESERVE_SECONDS = 15 * 60
+# Leave time in every run for the report (and draining manifests queued by older crawler versions).
+EXTRACT_RESERVE_SECONDS = 10 * 60
 
 
 @checkpointed
@@ -147,17 +140,16 @@ def _fetch(store, client, max_versions, max_aar_mb):
 
 @checkpointed
 def extract(store, client, **_):
+    """Drain manifests queued by crawler versions that fetched and extracted in separate stages."""
     pending = store.state.setdefault("extractions", [])
     for _ in range(len(pending)):
         client.check()
         job = pending[0]
         path = store.root / job["manifest"]
         if not path.exists():
-            LOG.warning("Manifest cache missing; run fetch to recover %s:%s", job["coordinate"], job["version"])
-            completed = store.state.get("completed", [])
-            if "fetch" in completed:
-                completed.remove("fetch")
-            pending.append(pending.pop(0))
+            # The version is not in evidence, so the next fetch cycle downloads it again.
+            LOG.warning("Manifest cache missing; dropping queued %s:%s for refetch", job["coordinate"], job["version"])
+            pending.pop(0)
             store.save()
             continue
         evidence = merge(store.evidence(job["coordinate"]), job["coordinate"], job["repository"], job["version"],
