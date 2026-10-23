@@ -7,11 +7,15 @@ from html.parser import HTMLParser
 from urllib.parse import quote, urlencode, urljoin, urlsplit
 from xml.etree.ElementTree import ParseError as ET_ERROR
 from defusedxml.common import DefusedXmlException
+from .http import within_share
 from .parsing import BUILTINS, metadata, xml
+from .versions import ordered
 from .storage import checkpointed, timestamp, valid_coordinate
 
 LOG = logging.getLogger(__name__)
 CENTRAL = BUILTINS[1]
+# Directory listings can expose huge non-Android trees; bound the crawl per repository and cycle.
+LISTING_LIMIT = 2000
 
 
 class Links(HTMLParser):
@@ -156,7 +160,7 @@ def central_shards(task):
     return children
 
 
-def _run_task(task, client, store):
+def _run_task(task, client, store, max_versions=20):
     repository, kind = task["repository"], task["kind"]
     followups = []
 
@@ -183,22 +187,31 @@ def _run_task(task, client, store):
         if task.get("coordinate") and discovered and value != discovered:
             raise ValueError(f"Metadata coordinate mismatch: expected {value}, got {discovered}")
         if value and versions:
-            store.artifact(repository, value, versions)
+            store.artifact(repository, value, versions[-max_versions:])
     elif kind == "google-index":
         for group in xml(response.body):
             followups.append({"repository": repository, "kind": "google-group", "group": group.tag,
                               "url": repository + "/" + group.tag.replace(".", "/") + "/group-index.xml"})
     elif kind == "google-group":
+        # group-index.xml already lists versions, so no per-artifact metadata request is needed.
         for artifact in xml(response.body):
-            coordinate(task["group"], artifact.tag)
+            versions = [v.strip() for v in (artifact.get("versions") or "").split(",") if v.strip()]
+            if versions:
+                store.artifact(repository, task["group"] + ":" + artifact.tag, ordered(versions)[-max_versions:])
+            else:
+                coordinate(task["group"], artifact.tag)
     elif kind == "central-search":
         value = response.json()["response"]
         total, docs = value["numFound"], value["docs"]
         start = task.get("start", 0)
         if not task.get("exact") and (total > 10000 or (not docs and start < total)):
             return [{**child, "url": _central_url(child["prefix"], child.get("exact", False))} for child in central_shards(task)]
+        # Search hits carry the latest version; fetch reads full metadata only if that version declares components.
         for item in docs:
-            coordinate(item["g"], item["a"])
+            if item.get("latestVersion"):
+                store.artifact(repository, item["g"] + ":" + item["a"], [item["latestVersion"]], latest_only=True)
+            else:
+                coordinate(item["g"], item["a"])
         if docs and start + len(docs) < total:
             start += len(docs)
             followups.append({**task, "start": start, "url": _central_url(task.get("prefix", ""), task.get("exact", False), start)})
@@ -233,7 +246,11 @@ def _run_task(task, client, store):
 
 
 @checkpointed
-def enumerate_artifacts(store, client, **_):
+def enumerate_artifacts(store, client, *, max_minutes=300, max_versions=20, **_):
+    return within_share(client, max_minutes * 60 / 3, lambda: _enumerate(store, client, max_versions), "Enumeration")
+
+
+def _enumerate(store, client, max_versions):
     progress = store.state.setdefault("enumerate", {})
     initial = []
     seeds = store.state.get("coordinates", {})
@@ -277,26 +294,36 @@ def enumerate_artifacts(store, client, **_):
     progress["queue"] = [task for task in progress["queue"] if eligible(task)]
     if "deferred" in progress:
         progress["deferred"] = [task for task in progress["deferred"] if eligible(task)]
-    known = set(progress["seen"]) | {json.dumps(task, sort_keys=True) for task in progress["queue"] + progress.get("deferred", [])}
-    progress["queue"].extend(task for task in initial if json.dumps(task, sort_keys=True) not in known)
+    known = set(progress["seen"]) | {task["url"] for task in progress["queue"] + progress.get("deferred", [])}
+    progress["queue"].extend(task for task in initial if task["url"] not in known)
     store.save()
     queue = progress["queue"]
     queue.extend(progress.pop("deferred", []))
     failed = progress.setdefault("deferred", [])
     seen = set(progress["seen"])
-    queued = {json.dumps(value, sort_keys=True) for value in queue}
+    queued = {value["url"] for value in queue}
+    listed = progress.setdefault("listed", {})
     while queue:
         client.check()
         task = queue[0]
+        if task["kind"] == "listing" and listed.get(task["repository"], 0) >= LISTING_LIMIT:
+            if listed[task["repository"]] == LISTING_LIMIT:
+                LOG.warning("Listing of %s capped at %s pages this cycle", task["repository"], LISTING_LIMIT)
+                listed[task["repository"]] += 1
+            queue.pop(0)
+            queued.discard(task["url"])
+            continue
         try:
-            followups = _run_task(task, client, store)
-            key = json.dumps(task, sort_keys=True)
+            followups = _run_task(task, client, store, max_versions)
+            if task["kind"] == "listing":
+                listed[task["repository"]] = listed.get(task["repository"], 0) + 1
+            key = task["url"]
             progress["seen"].append(key)
             queue.pop(0)
             seen.add(key)
             queued.discard(key)
             for value in followups:
-                key = json.dumps(value, sort_keys=True)
+                key = value["url"]
                 if key not in seen and key not in queued:
                     queue.append(value)
                     queued.add(key)

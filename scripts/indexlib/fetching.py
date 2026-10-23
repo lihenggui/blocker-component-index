@@ -8,7 +8,8 @@ from xml.etree.ElementTree import ParseError
 from defusedxml.common import DefusedXmlException
 from .archives import read_manifest
 from .evidence import components_at, merge, parse_manifest
-from .parsing import module_info, pom
+from .parsing import metadata, module_info, pom
+from .repositories import metadata_url
 from .storage import checkpointed, timestamp, write_json
 from .versions import ordered
 
@@ -61,6 +62,19 @@ def _version(store, client, artifact, version, max_aar_mb):
     return components
 
 
+def _history(store, client, artifact, max_versions):
+    """Search-enumerated artifacts only know their latest version; read the rest from maven-metadata.xml."""
+    response = client.get(metadata_url(artifact["repository"], artifact["coordinate"]))
+    if response.status != 200:
+        return None
+    _, versions = metadata(response.body)
+    if not versions:
+        return None
+    artifact["versions"] = versions[-max_versions:]
+    artifact.pop("latestOnly", None)
+    return list(reversed(artifact["versions"]))
+
+
 def _already_fetched(store, coordinate, version):
     evidence = store.evidence(coordinate)
     if evidence and version in evidence["versions"]:
@@ -94,6 +108,8 @@ def fetch(store, client, *, max_versions=20, max_aar_mb=50, **_):
                 latest = _already_fetched(store, coordinate, versions[0])
                 if latest is None:
                     latest = _version(store, client, artifact, versions[0], max_aar_mb)
+                if latest and artifact.get("latestOnly"):
+                    versions = _history(store, client, artifact, max_versions) or versions
                 if latest:
                     for version in versions[1:max_versions]:
                         client.check()

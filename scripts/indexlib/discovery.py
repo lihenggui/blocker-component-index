@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 from urllib.parse import quote, urlencode, urlsplit
 from .parsing import BUILTINS, FILES, coordinates, gradle_repositories, normalize_repository
-from .http import DeadlineReached
+from .http import within_share
 from .storage import checkpointed, read_json, timestamp, valid_coordinate
 
 LOG = logging.getLogger(__name__)
@@ -252,16 +252,4 @@ def _discover(store, client):
 
 @checkpointed
 def discover(store, client, *, max_minutes=300, **_):
-    original_deadline = getattr(client, "deadline", None)
-    clock = getattr(client, "clock", time.monotonic)
-    deadline = clock() + max_minutes * 60 / 3
-    client.deadline = min(original_deadline, deadline) if original_deadline is not None else deadline
-    try:
-        return _discover(store, client)
-    except DeadlineReached:
-        if original_deadline is not None and original_deadline <= deadline:
-            raise
-        LOG.info("Discovery budget reached; continuing other stages with discovery unfinished")
-        return False
-    finally:
-        client.deadline = original_deadline
+    return within_share(client, max_minutes * 60 / 3, lambda: _discover(store, client), "Discovery")
