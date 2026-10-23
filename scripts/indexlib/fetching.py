@@ -7,6 +7,7 @@ from urllib.parse import quote, urljoin
 from xml.etree.ElementTree import ParseError
 from defusedxml.common import DefusedXmlException
 from .archives import read_manifest
+from .http import within_share
 from .evidence import components_at, merge, parse_manifest
 from .parsing import metadata, module_info, pom
 from .repositories import metadata_url
@@ -89,8 +90,19 @@ def _already_fetched(store, coordinate, version):
     return None
 
 
+# Leave time in every run for extract and report, so fetched manifests always become evidence.
+EXTRACT_RESERVE_SECONDS = 15 * 60
+
+
 @checkpointed
 def fetch(store, client, *, max_versions=20, max_aar_mb=50, **_):
+    if client.deadline is None:
+        return _fetch(store, client, max_versions, max_aar_mb)
+    share = max(0.0, client.deadline - client.clock() - EXTRACT_RESERVE_SECONDS)
+    return within_share(client, share, lambda: _fetch(store, client, max_versions, max_aar_mb), "Fetch")
+
+
+def _fetch(store, client, max_versions, max_aar_mb):
     progress = store.state.setdefault("fetch", {})
     if "queue" not in progress:
         progress["queue"] = sorted(store.state.get("artifacts", {}))

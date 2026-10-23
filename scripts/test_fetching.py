@@ -182,3 +182,18 @@ class FetchTests(FixtureTest):
         saved = Store(self.root).state["fetch"]
         self.assertEqual(saved["queue"], [COORDINATE])
         self.assertEqual(saved["failures"], {})
+
+    def test_given_run_deadline_when_fetching_then_time_is_reserved_for_extraction(self):
+        from test_http import Clock
+        clock = Clock()
+        clock.now = 0.0
+        client = FixtureClient(self.routes(), clock=clock, deadline=20 * 60)
+
+        def slow(url, **kwargs):
+            clock.now += 6 * 60
+            client.check()
+            return self.routes()[url]
+        client.handler = slow
+        self.assertFalse(fetch(self.store, client))
+        self.assertEqual(client.deadline, 20 * 60)
+        self.assertLessEqual(clock.now, 20 * 60 - 15 * 60 + 6 * 60)

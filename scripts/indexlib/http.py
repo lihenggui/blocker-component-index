@@ -10,6 +10,9 @@ from urllib.error import HTTPError
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
+# Maven Central and Google Maven are served from CDNs that tolerate a faster per-host pace.
+CDN_HOSTS = {"dl.google.com", "maven.google.com", "repo1.maven.org", "repo.maven.apache.org"}
+CDN_INTERVAL = 0.1
 USER_AGENT = "blocker-component-index (+https://github.com/lihenggui/blocker-component-index)"
 
 
@@ -75,7 +78,8 @@ class HttpClient:
 
     def _pace(self, host, search):
         now = self.clock()
-        self.pause(max(0.0, self.last_host.get(host, -float("inf")) + self.interval - now))
+        interval = min(self.interval, CDN_INTERVAL) if host in CDN_HOSTS else self.interval
+        self.pause(max(0.0, self.last_host.get(host, -float("inf")) + interval - now))
         resource = "search" if search else "core"
         if host == "api.github.com":
             remaining, reset = self.budgets.get(resource, (1, 0))
