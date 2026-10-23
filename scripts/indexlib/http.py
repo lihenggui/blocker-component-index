@@ -123,6 +123,9 @@ class HttpClient:
                 if attempt == 4:
                     raise OSError(f"HTTP {response.status}: {url}")
                 delay = retry_delay(response.headers, attempt, self.wall())
+                if host == "api.github.com" and (response.status == 429 or secondary) and "retry-after" not in response.headers:
+                    # GitHub's secondary limits clear after about a minute; short exponential waits just burn retries.
+                    delay = max(delay, 60.0 * (attempt + 1))
                 if response.headers.get("x-ratelimit-remaining") == "0":
                     delay = max(delay, float(response.headers.get("x-ratelimit-reset", 0)) - self.wall() + 1)
                 self.pause(delay)
