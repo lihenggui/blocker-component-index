@@ -1,0 +1,47 @@
+name: Crawl component index
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+
+concurrency: crawl
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5.6.0
+        with:
+          python-version: '3.12'
+      - run: pip install -r scripts/requirements.txt
+      - uses: actions/checkout@v4.2.2
+        with:
+          repository: lihenggui/blocker-general-rules
+          path: .rules
+          persist-credentials: false
+      - uses: actions/cache@v4.2.3
+        with:
+          path: .cache/manifests/
+          key: crawl-${{ github.run_id }}
+          restore-keys: crawl-
+      - run: python scripts/crawl.py all --max-minutes 300 --rules-dir .rules
+        env:
+          CODE_SEARCH_TOKEN: ${{ secrets.CODE_SEARCH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save crawl progress and evidence
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ reports/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update component index'
+            git push origin HEAD:main
+          fi

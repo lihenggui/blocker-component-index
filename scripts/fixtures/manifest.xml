@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.example.sdk">
+  <application>
+    <activity android:name=".Screen" android:exported="false" android:process=":sdk" android:permission="org.example.ACCESS">
+      <intent-filter><action android:name="sdk.OPEN"/><action android:name="sdk.OPEN"/><category android:name="sdk.Z"/></intent-filter>
+      <intent-filter><action android:name="sdk.CLOSE"/><category android:name="sdk.A"/></intent-filter>
+      <meta-data android:name="sdk.z" android:value="ignored"/>
+      <meta-data android:name="sdk.a" android:value="ignored"/>
+      <meta-data android:name="sdk.a" android:value="ignored"/>
+    </activity>
+    <activity-alias android:name="Alias" android:targetActivity=".Screen" android:exported="true"/>
+    <service android:name="${serviceClass}"/>
+    <receiver android:name="org.example.Receiver"/>
+    <provider android:name="Provider" android:authorities="${applicationId}.provider;org.example.second"/>
+  </application>
+</manifest>

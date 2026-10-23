@@ -1,0 +1,13 @@
+repositories {
+    maven { url 'https://SDK.Example.org/releases/' }
+    maven { setUrl("http://downloads.example.org/maven/") }
+    maven { url "https://repo1.maven.org/maven2" }
+    maven { url "https://plugins.gradle.org/m2" }
+    maven { url "https://${repoHost}/maven" }
+    maven { url "file:/tmp/maven" }
+    maven { url "http://127.0.0.1/repository" }
+}
+dependencies {
+    implementation 'org.example:one:1.2.3'
+    api group: 'org.example', name: 'two', version: '2.0'
+}
