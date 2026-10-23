@@ -1,10 +1,13 @@
 from unittest.mock import patch
+from pathlib import Path
+import yaml
 from crawl import STAGES, run
 from indexlib.evidence import components_at
-from indexlib.http import DeadlineReached
+from indexlib.http import DeadlineReached, HttpClient
 from indexlib.parsing import BUILTINS
 from indexlib.repositories import metadata_url
 from indexlib.storage import Store
+from test_http import Clock
 from test_support import FixtureClient, FixtureTest, aar, metadata_fixture, response
 
 
@@ -55,7 +58,7 @@ class PipelineTests(FixtureTest):
         calls.clear()
         with patch.dict(STAGES, {name: stage(name) for name in STAGES}):
             self.assertEqual(run(Store(self.root), FixtureClient(), "all"), 0)
-        self.assertEqual(calls, ["fetch", "extract", "group", "report"])
+        self.assertEqual(calls, ["discover", "fetch", "extract", "group", "report"])
 
     def test_given_partial_upstream_stage_when_pipeline_runs_then_later_stages_remain_eligible_for_next_run(self):
         stages = {name: (lambda *args, **kwargs: True) for name in STAGES}
@@ -63,3 +66,35 @@ class PipelineTests(FixtureTest):
         with patch.dict(STAGES, stages):
             self.assertEqual(run(self.store, FixtureClient(), "all"), 0)
         self.assertEqual(Store(self.root).state["completed"], ["discover", "probe"])
+
+    def test_given_discovery_search_wait_exceeds_one_third_budget_when_all_runs_then_remaining_stages_run_with_original_deadline(self):
+        clock = Clock()
+        requests = []
+
+        def transport(url, headers, limit, timeout):
+            requests.append(url)
+            return response(status=429, headers={"Retry-After": "61"})
+        client = HttpClient(deadline=180, clock=clock, wall=clock, sleep=clock.sleep, transport=transport, token="fixture")
+        calls = []
+
+        def stage(name):
+            def execute(store, client, **kwargs):
+                self.assertEqual(client.deadline, 180)
+                calls.append(name)
+                return True
+            return execute
+        with patch.dict(STAGES, {name: stage(name) for name in STAGES if name != "discover"}):
+            self.assertEqual(run(self.store, client, "all", max_minutes=3), 0)
+        self.assertEqual(calls, ["probe", "enumerate", "fetch", "extract", "group", "report"])
+        self.assertEqual(len(requests), 1)
+        self.assertEqual(clock.sleeps, [])
+        self.assertEqual(len(Store(self.root).state["discover"]["queue"]), 16)
+        self.assertEqual(Store(self.root).state["completed"], [])
+
+    def test_given_weekly_workflow_when_loaded_then_cache_action_is_pinned_and_only_manifests_are_cached(self):
+        path = Path(__file__).resolve().parent.parent / ".github/workflows/crawl.yml"
+        workflow = yaml.load(path.read_text(), Loader=yaml.BaseLoader)
+        caches = [step for step in workflow["jobs"]["crawl"]["steps"] if step.get("uses", "").startswith("actions/cache@")]
+        self.assertEqual(len(caches), 1)
+        self.assertEqual(caches[0]["uses"], "actions/cache@v4.2.3")
+        self.assertEqual(caches[0]["with"]["path"], ".cache/manifests/")

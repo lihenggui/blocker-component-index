@@ -1,7 +1,7 @@
 """Rule-compatible substring coverage, grouped only for presentation."""
 
 from collections import Counter
-from .storage import read_json
+from .storage import checkpointed, read_json
 
 
 def group_label(group_id, overrides):
@@ -9,6 +9,7 @@ def group_label(group_id, overrides):
     return sorted(matches, key=lambda item: (-item[0], item[1]))[0][1] if matches else group_id
 
 
+@checkpointed
 def group(store, client, **_):
     client.check()
     # Grouping is computed by the report; it adds nothing to the evidence schema.
@@ -27,6 +28,7 @@ def _cell(value):
     return str(value).replace("|", "\\|").replace("\n", " ")
 
 
+@checkpointed
 def report(store, client, *, rules_dir=None, **_):
     client.check()
     if rules_dir is None:

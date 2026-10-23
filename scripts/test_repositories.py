@@ -164,3 +164,59 @@ class RepositoryTests(FixtureTest):
     def test_given_group_prefix_contains_solr_operators_when_sharded_then_operators_are_escaped_as_literal_characters(self):
         url = _central_url("org.example-sdk+")
         self.assertEqual(parse_qs(urlsplit(url).query)["q"], ["p:aar AND g:org.example\\-sdk\\+*"])
+
+    def test_given_repository_scoped_dependency_seed_when_metadata_repositories_enumerated_then_other_repositories_are_not_queried(self):
+        first = self.repository()
+        self.repository("https://other.example.org/repo")
+        self.store.seed("org.example:sdk", first)
+        client = FixtureClient({metadata_url(first, "org.example:sdk"): response(metadata_fixture())})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual([url for url, _ in client.calls], [metadata_url(first, "org.example:sdk")])
+
+    def test_given_mixed_mirror_with_attributed_seeds_when_enumerated_then_only_unresolved_attributed_coordinates_are_tried(self):
+        url = self.repository(caps=["mirror"])
+        self.store.seed("org.example:vendor", url)
+        self.store.seed("org.other:resolved", url)
+        self.store.seed("org.config:global")
+        self.store.artifact("https://central.example.org", "org.other:resolved", ["1"])
+        client = FixtureClient({metadata_url(url, "org.example:vendor"): response(metadata_fixture("org.example:vendor"))})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual(len(client.calls), 1)
+        self.assertEqual(self.store.state["artifacts"]["org.example:vendor"]["repository"], url)
+        self.assertEqual(self.store.repositories[0]["capabilities"], ["mirror"])
+
+    def test_given_stale_unattributed_mirror_tasks_when_resumed_then_old_global_and_enumeration_tasks_are_discarded(self):
+        url = self.repository(caps=["mirror"])
+        self.store.seed("org.example:vendor", url)
+        self.store.seed("org.config:global")
+        self.store.state["enumerate"] = {"queue": [
+            {"repository": url, "kind": "metadata", "coordinate": "org.config:global", "url": metadata_url(url, "org.config:global")},
+            {"repository": url, "kind": "listing", "url": url + "/"},
+        ]}
+        client = FixtureClient({metadata_url(url, "org.example:vendor"): response(metadata_fixture("org.example:vendor"))})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual(len(client.calls), 1)
+
+    def test_given_legacy_global_tasks_without_current_seeds_when_resumed_then_unattributed_metadata_requests_are_discarded(self):
+        url = self.repository()
+        self.store.state["enumerate"] = {"queue": [
+            {"repository": url, "kind": "metadata", "coordinate": "org.old:dependency", "url": metadata_url(url, "org.old:dependency")}]}
+        client = FixtureClient()
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual(client.calls, [])
+
+    def test_given_repository_failing_three_probes_when_probed_then_it_is_dropped_for_this_cycle(self):
+        url = self.repository()
+        with patch("indexlib.repositories.capabilities", side_effect=OSError("fixture offline")) as call:
+            for _ in range(3):
+                probe(self.store, FixtureClient())
+        self.assertEqual(call.call_count, 3)
+        self.assertFalse(Store(self.root).state.get("probe"))
+        self.assertEqual(next(item for item in Store(self.root).repositories if item["url"] == url)["capabilities"], ["metadata"])
+
+    def test_given_metadata_answered_with_401_when_enumerated_then_task_is_treated_as_missing(self):
+        url = self.repository()
+        self.store.seed("org.example:sdk", url)
+        client = FixtureClient({metadata_url(url, "org.example:sdk"): response(b"", status=401)})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertFalse(Store(self.root).state.get("enumerate"))

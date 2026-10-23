@@ -30,7 +30,8 @@ class FetchTests(FixtureTest):
         evidence = self.store.evidence(COORDINATE)
         self.assertEqual(list(evidence["versions"]), ["1", "2", "3"])
         self.assertEqual(evidence["components"][0]["versionRanges"], [["1", "1"], ["3", "3"]])
-        self.assertEqual(len(list((self.root / ".cache/downloads").glob("*.aar"))), 3)
+        self.assertFalse(list(self.root.rglob("*.aar")))
+        self.assertEqual(len(list((self.root / ".cache/manifests").glob("*.xml"))), 3)
 
     def test_given_latest_has_no_components_when_fetched_then_older_versions_are_not_downloaded(self):
         client = FixtureClient(self.routes(empty_latest=True))
@@ -69,7 +70,8 @@ class FetchTests(FixtureTest):
     def test_given_pom_repositories_when_fetched_then_feedback_is_queued_for_next_discovery(self):
         fetch(self.store, FixtureClient(self.routes()), max_versions=1)
         self.assertEqual(Store(self.root).state["pom_repositories"], ["https://pom.example.org/maven"])
-        self.assertEqual(Store(self.root).state["coordinates"]["*"], ["org.dep:compile", "org.dep:managed", "org.dep:runtime"])
+        self.assertEqual(Store(self.root).state["coordinates"][REPOSITORY], ["org.dep:compile", "org.dep:managed", "org.dep:runtime"])
+        self.assertNotIn("*", self.store.state["coordinates"])
 
     def test_given_jar_packaging_when_fetched_then_no_aar_or_evidence_is_created(self):
         self.store.state["artifacts"][COORDINATE]["versions"] = ["1"]
@@ -89,7 +91,8 @@ class FetchTests(FixtureTest):
                                 REPOSITORY + "/org/example/sdk/1/custom.aar": response(aar())})
         self.assertTrue(fetch(self.store, client))
         self.assertEqual(self.store.state["extractions"][0]["dependencies"], ["org.dep:lib:5"])
-        self.assertIn("org.dep:lib", self.store.state["coordinates"]["*"])
+        self.assertIn("org.dep:lib", self.store.state["coordinates"][REPOSITORY])
+        self.assertNotIn("*", self.store.state["coordinates"])
 
     def test_given_missing_pom_when_module_declares_aar_then_the_module_variant_can_still_be_indexed(self):
         self.store.state["artifacts"][COORDINATE]["versions"] = ["1"]
@@ -106,7 +109,7 @@ class FetchTests(FixtureTest):
         self.store.state["completed"] = ["discover", "probe", "enumerate", "fetch"]
         job = self.store.state["extractions"][0]
         (self.root / job["manifest"]).unlink()
-        self.store.save()
+        self.store.save(force=True)
         saved = Store(self.root)
         self.assertFalse(extract(saved, FixtureClient()))
         self.assertNotIn("fetch", saved.state["completed"])
@@ -125,3 +128,43 @@ class FetchTests(FixtureTest):
         self.assertEqual(len(client.calls), 2)
         extract(self.store, client)
         self.assertEqual(list(self.store.evidence(COORDINATE)["versions"]), ["1", "2", "3", "4"])
+
+    def test_given_permanently_failing_coordinate_when_three_attempts_fail_then_it_is_dropped_until_the_next_cycle(self):
+        self.store.state["artifacts"][COORDINATE]["versions"] = ["1"]
+        self.store.save(force=True)
+        base = REPOSITORY + "/org/example/sdk/1/sdk-1"
+        for attempt in range(1, 4):
+            store = Store(self.root)
+            client = FixtureClient({base + ".pom": response(status=503)})
+            with self.assertLogs("indexlib.fetching", level="WARNING") as logs:
+                finished = fetch(store, client)
+            self.assertEqual(finished, attempt == 3)
+            saved = Store(self.root).state["fetch"]
+            self.assertEqual(saved["failures"][COORDINATE], attempt)
+            self.assertEqual(len(client.calls), 1)
+        self.assertIn("retry next cycle", " ".join(logs.output))
+        self.assertNotIn("queue", saved)
+        store = Store(self.root)
+        client = FixtureClient({base + ".pom": response("<project><packaging>aar</packaging></project>"), base + ".aar": response(aar())})
+        self.assertTrue(fetch(store, client))
+        self.assertNotIn(COORDINATE, Store(self.root).state["fetch"]["failures"])
+        self.assertEqual(len(client.calls), 2)
+
+    def test_given_failure_then_success_when_a_later_cycle_fails_then_consecutive_failure_count_restarts_at_one(self):
+        self.store.state["artifacts"][COORDINATE]["versions"] = ["1"]
+        base = REPOSITORY + "/org/example/sdk/1/sdk-1"
+        self.assertFalse(fetch(self.store, FixtureClient({base + ".pom": response(status=503)})))
+        self.assertTrue(fetch(self.store, FixtureClient({base + ".pom": response("<project><packaging>aar</packaging></project>"), base + ".aar": response(aar())})))
+        extract(self.store, FixtureClient())
+        self.store.state["artifacts"][COORDINATE]["versions"].append("2")
+        self.assertFalse(fetch(self.store, FixtureClient({REPOSITORY + "/org/example/sdk/2/sdk-2.pom": response(status=503)})))
+        self.assertEqual(Store(self.root).state["fetch"]["failures"][COORDINATE], 1)
+
+    def test_given_deadline_during_fetch_when_progress_saved_then_budget_interruption_is_not_counted_as_failure(self):
+        self.store.state["artifacts"][COORDINATE]["versions"] = ["1"]
+        client = FixtureClient({REPOSITORY + "/org/example/sdk/1/sdk-1.pom": DeadlineReached()})
+        with self.assertRaises(DeadlineReached):
+            fetch(self.store, client)
+        saved = Store(self.root).state["fetch"]
+        self.assertEqual(saved["queue"], [COORDINATE])
+        self.assertEqual(saved["failures"], {})

@@ -76,9 +76,7 @@ def _inflate(data, entry, limit):
     return raw
 
 
-def read_manifest(client, url, cache, max_bytes):
-    cache.mkdir(parents=True, exist_ok=True)
-    archive = cache / (hashlib.sha256(url.encode()).hexdigest() + ".aar")
+def read_manifest(client, url, max_bytes):
     response = client.get(url, headers={"Range": "bytes=-65536"}, limit=max_bytes)
     if response.status == 206:
         try:
@@ -110,7 +108,6 @@ def read_manifest(client, url, cache, max_bytes):
         raise OSError(f"Full AAR HTTP {response.status}: {url}")
     if len(response.body) > max_bytes:
         raise ValueError("AAR exceeds size cap")
-    archive.write_bytes(response.body)
     with zipfile.ZipFile(io.BytesIO(response.body)) as zipped:
         info = zipped.getinfo("AndroidManifest.xml")
         if info.file_size > min(max_bytes, 16 * 1024 * 1024):

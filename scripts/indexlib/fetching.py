@@ -9,7 +9,7 @@ from defusedxml.common import DefusedXmlException
 from .archives import read_manifest
 from .evidence import components_at, merge, parse_manifest
 from .parsing import module_info, pom
-from .storage import timestamp, write_json
+from .storage import checkpointed, timestamp, write_json
 from .versions import ordered
 
 LOG = logging.getLogger(__name__)
@@ -29,7 +29,7 @@ def _version(store, client, artifact, version, max_aar_mb):
         if url not in pending:
             pending.append(url)
     for dependency in dependencies:
-        store.seed(":".join(dependency.split(":")[:2]))
+        store.seed(":".join(dependency.split(":")[:2]), repository)
     store.save()
     files = []
     if response.status == 404 or b"published-with-gradle-metadata" in response.body:
@@ -41,12 +41,12 @@ def _version(store, client, artifact, version, max_aar_mb):
         elif module.status != 404:
             raise OSError(f"Gradle module HTTP {module.status}: {coordinate}:{version}")
     for dependency in dependencies:
-        store.seed(":".join(dependency.split(":")[:2]))
+        store.seed(":".join(dependency.split(":")[:2]), repository)
     store.save()
     if packaging != "aar" and not files:
         return None
     url = urljoin(base, files[0]) if files else base + stem + ".aar"
-    manifest, sha256 = read_manifest(client, url, store.root / ".cache/downloads", int(max_aar_mb * 1024 * 1024))
+    manifest, sha256 = read_manifest(client, url, int(max_aar_mb * 1024 * 1024))
     # The newest manifest determines whether historical versions are worth fetching.
     components = parse_manifest(manifest)
     key = hashlib.sha256(f"{repository}|{coordinate}|{version}".encode()).hexdigest()
@@ -75,11 +75,14 @@ def _already_fetched(store, coordinate, version):
     return None
 
 
+@checkpointed
 def fetch(store, client, *, max_versions=20, max_aar_mb=50, **_):
     progress = store.state.setdefault("fetch", {})
     if "queue" not in progress:
         progress["queue"] = sorted(store.state.get("artifacts", {}))
+        progress["failures"] = {}
         store.save()
+    failures = progress.setdefault("failures", {})
     pending = progress["queue"]
     for _ in range(len(pending)):
         client.check()
@@ -97,16 +100,24 @@ def fetch(store, client, *, max_versions=20, max_aar_mb=50, **_):
                         if _already_fetched(store, coordinate, version) is None:
                             _version(store, client, artifact, version, max_aar_mb)
             pending.pop(0)
+            failures.pop(coordinate, None)
         except (OSError, ValueError, ParseError, KeyError, zipfile.BadZipFile, DefusedXmlException) as exc:
-            LOG.warning("Fetch will retry %s: %s", coordinate, exc)
-            pending.append(pending.pop(0))
+            failures[coordinate] = failures.get(coordinate, 0) + 1
+            pending.pop(0)
+            if failures[coordinate] >= 3:
+                LOG.warning("Fetch dropped %s after 3 consecutive failures; retry next cycle: %s", coordinate, exc)
+            else:
+                LOG.warning("Fetch will retry %s (failure %s/3): %s", coordinate, failures[coordinate], exc)
+                pending.append(coordinate)
+            store.save(force=True)
         store.save()
     if not pending:
-        progress.clear()
+        progress.pop("queue", None)
     store.save()
     return not pending
 
 
+@checkpointed
 def extract(store, client, **_):
     pending = store.state.setdefault("extractions", [])
     for _ in range(len(pending)):

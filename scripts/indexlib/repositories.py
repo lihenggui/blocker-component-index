@@ -8,7 +8,7 @@ from urllib.parse import quote, urlencode, urljoin, urlsplit
 from xml.etree.ElementTree import ParseError as ET_ERROR
 from defusedxml.common import DefusedXmlException
 from .parsing import BUILTINS, metadata, xml
-from .storage import timestamp, valid_coordinate
+from .storage import checkpointed, timestamp, valid_coordinate
 
 LOG = logging.getLogger(__name__)
 CENTRAL = BUILTINS[1]
@@ -107,9 +107,11 @@ def capabilities(url, client):
     return ["metadata"]
 
 
+@checkpointed
 def probe(store, client, **_):
     progress = store.state.setdefault("probe", {})
     pending = progress.setdefault("queue", [item["url"] for item in store.repositories])
+    failures = progress.setdefault("failures", {})
     for _ in range(len(pending)):
         client.check()
         url = pending[0]
@@ -118,12 +120,20 @@ def probe(store, client, **_):
             repository["capabilities"] = capabilities(url, client)
             repository["lastChecked"] = timestamp()
             pending.pop(0)
+            failures.pop(url, None)
         except OSError as exc:
-            LOG.warning("Probe will retry %s: %s", url, exc)
-            pending.append(pending.pop(0))
+            failures[url] = failures.get(url, 0) + 1
+            pending.pop(0)
+            if failures[url] >= 3:
+                # Unreachable hosts keep empty capabilities and are probed again next cycle.
+                LOG.warning("Probe dropped %s after 3 consecutive failures; retry next cycle: %s", url, exc)
+            else:
+                LOG.warning("Probe will retry %s (failure %s/3): %s", url, failures[url], exc)
+                pending.append(url)
+            store.save(force=True)
         store.save()
     if not pending:
-        del progress["queue"]
+        progress.clear()
         store.save()
         return True
     return False
@@ -159,7 +169,8 @@ def _run_task(task, client, store):
     response = client.get(task["url"], limit=64 * 1024 * 1024)
     if response.status == 404 and kind == "artifactory" and task["url"] == endpoints(repository)["artifactory"][0]:
         return [{**task, "url": endpoints(repository)["artifactory"][1]}]
-    if response.status == 404:
+    # Some hosts (e.g. JitPack) answer unknown coordinates with 401/403 rather than 404.
+    if response.status == 404 or (kind == "metadata" and response.status in (401, 403)):
         return []
     if response.status != 200:
         # Central sometimes rejects paging beyond its window. Split instead of losing hits.
@@ -221,21 +232,24 @@ def _run_task(task, client, store):
     return followups
 
 
+@checkpointed
 def enumerate_artifacts(store, client, **_):
     progress = store.state.setdefault("enumerate", {})
     initial = []
     seeds = store.state.get("coordinates", {})
     for item in store.repositories:
         repository, caps = item["url"], item["capabilities"]
-        if not caps or "mirror" in caps:
+        if not caps:
             continue
         best = caps[0]
         urls = endpoints(repository)
-        if best == "metadata":
-            known = set(seeds.get("*", [])) | set(seeds.get(repository, []))
-            known.update(coord for coord, artifact in store.state.get("artifacts", {}).items() if artifact["repository"] == repository)
+        if best in ("metadata", "mirror"):
+            known = set(seeds.get(repository, []))
+            if best == "metadata":
+                known.update(seeds.get("*", []))
+                known.update(coord for coord, artifact in store.state.get("artifacts", {}).items() if artifact["repository"] == repository)
             for value in sorted(known):
-                resolved = store.state.get("artifacts", {}).get(value)
+                resolved = store.state.get("artifacts", {}).get(value) or store.evidence(value)
                 if not resolved or resolved["repository"] == repository:
                     initial.append({"repository": repository, "kind": "metadata", "coordinate": value, "url": metadata_url(repository, value)})
         else:
@@ -244,12 +258,33 @@ def enumerate_artifacts(store, client, **_):
             initial.append({"repository": repository, "kind": best, "url": url})
     progress.setdefault("queue", [])
     progress.setdefault("seen", [])
+    caps_by_repository = {item["url"]: item["capabilities"] for item in store.repositories}
+
+    def eligible(task):
+        caps = caps_by_repository.get(task["repository"], [])
+        if not caps or caps[0] not in ("metadata", "mirror"):
+            return True
+        if task["kind"] != "metadata" or "coordinate" not in task:
+            return False
+        coordinate = task["coordinate"]
+        resolved = store.state.get("artifacts", {}).get(coordinate) or store.evidence(coordinate)
+        if resolved and resolved["repository"] != task["repository"]:
+            return False
+        attributed = coordinate in seeds.get(task["repository"], [])
+        return attributed or (caps[0] == "metadata" and (
+            coordinate in seeds.get("*", []) or (resolved and resolved["repository"] == task["repository"])))
+
+    progress["queue"] = [task for task in progress["queue"] if eligible(task)]
+    if "deferred" in progress:
+        progress["deferred"] = [task for task in progress["deferred"] if eligible(task)]
     known = set(progress["seen"]) | {json.dumps(task, sort_keys=True) for task in progress["queue"] + progress.get("deferred", [])}
     progress["queue"].extend(task for task in initial if json.dumps(task, sort_keys=True) not in known)
     store.save()
     queue = progress["queue"]
     queue.extend(progress.pop("deferred", []))
     failed = progress.setdefault("deferred", [])
+    seen = set(progress["seen"])
+    queued = {json.dumps(value, sort_keys=True) for value in queue}
     while queue:
         client.check()
         task = queue[0]
@@ -258,8 +293,8 @@ def enumerate_artifacts(store, client, **_):
             key = json.dumps(task, sort_keys=True)
             progress["seen"].append(key)
             queue.pop(0)
-            seen = set(progress["seen"])
-            queued = {json.dumps(value, sort_keys=True) for value in queue + failed}
+            seen.add(key)
+            queued.discard(key)
             for value in followups:
                 key = json.dumps(value, sort_keys=True)
                 if key not in seen and key not in queued:
@@ -268,6 +303,7 @@ def enumerate_artifacts(store, client, **_):
         except (OSError, ValueError, ET_ERROR, DefusedXmlException) as exc:
             LOG.warning("Enumeration will retry %s: %s", task["url"], exc)
             failed.append(queue.pop(0))
+            store.save(force=True)
         store.save()
     progress["queue"] = list(failed)
     progress.pop("deferred", None)

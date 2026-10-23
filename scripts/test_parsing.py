@@ -56,3 +56,10 @@ class ParsingTests(FixtureTest):
         )
         '''
         self.assertEqual(coordinates(text), ["org.example:one", "org.example:two"])
+
+    def test_given_empty_call_parentheses_when_parsed_then_coordinates_are_still_extracted(self):
+        text = '''
+        repositories { google() }
+        implementation 'org.example:one:1'
+        '''
+        self.assertEqual(coordinates(text), ["org.example:one"])

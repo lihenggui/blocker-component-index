@@ -29,20 +29,21 @@ class ArchiveTests(FixtureTest):
                     first, last = map(int, re.fullmatch(r"bytes=(\d+)-(\d+)", value).groups())
                 return response(raw[first:last + 1], 206, {"Content-Range": f"bytes {first}-{last}/{len(raw)}"})
             client = FixtureClient(handler=handler)
-            manifest, digest = read_manifest(client, "https://sdk.example/a.aar", self.root / ".cache", 1024 * 1024)
+            manifest, digest = read_manifest(client, "https://sdk.example/a.aar", 1024 * 1024)
             self.assertEqual(manifest, (FIXTURES / "manifest.xml").read_bytes())
             self.assertEqual(digest, hashlib.sha256(manifest).hexdigest())
             self.assertTrue(all("Range" in kwargs["headers"] for _, kwargs in client.calls))
             self.assertFalse(list((self.root / ".cache").glob("*.aar")))
 
-    def test_given_range_ignored_when_manifest_read_then_full_bytes_are_cached_and_hashed(self):
+    def test_given_range_ignored_when_manifest_read_then_full_bytes_are_hashed_without_persisting_the_aar(self):
         raw = aar()
         client = FixtureClient({"https://sdk.example/a.aar": response(raw)})
-        manifest, digest = read_manifest(client, "https://sdk.example/a.aar", self.root / ".cache", 1024 * 1024)
+        manifest, digest = read_manifest(client, "https://sdk.example/a.aar", 1024 * 1024)
         self.assertEqual(manifest, (FIXTURES / "manifest.xml").read_bytes())
         self.assertEqual(digest, hashlib.sha256(raw).hexdigest())
         self.assertEqual(len(client.calls), 1)
-        self.assertEqual(next((self.root / ".cache").glob("*.aar")).read_bytes(), raw)
+        self.assertFalse(list(self.root.rglob("*.aar")))
+        self.assertFalse((self.root / ".cache/downloads").exists())
 
     def test_given_range_supported_only_for_tail_when_manifest_read_then_full_download_fallback_succeeds(self):
         raw = aar()
@@ -53,7 +54,7 @@ class ArchiveTests(FixtureTest):
             calls += 1
             return (response(raw, 206, {"Content-Range": f"bytes 0-{len(raw) - 1}/{len(raw)}"})
                     if calls == 1 else response(raw))
-        manifest, digest = read_manifest(FixtureClient(handler=handler), "https://sdk.example/a.aar", self.root / ".cache", 1024 * 1024)
+        manifest, digest = read_manifest(FixtureClient(handler=handler), "https://sdk.example/a.aar", 1024 * 1024)
         self.assertEqual(manifest, (FIXTURES / "manifest.xml").read_bytes())
         self.assertEqual(digest, hashlib.sha256(raw).hexdigest())
 
@@ -61,7 +62,7 @@ class ArchiveTests(FixtureTest):
         raw = aar()
         client = HttpClient(transport=lambda *args: response(raw))
         with self.assertRaises(DownloadTooLarge):
-            read_manifest(client, "https://sdk.example/a.aar", self.root / ".cache", 32)
+            read_manifest(client, "https://sdk.example/a.aar", 32)
 
     def test_given_truncated_directory_or_non_zip_when_parsed_then_invalid_archive_is_rejected(self):
         with self.assertRaises(ValueError):

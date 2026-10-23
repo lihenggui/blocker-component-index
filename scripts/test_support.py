@@ -4,6 +4,7 @@ import io
 import json
 from pathlib import Path
 import tempfile
+import time
 import unittest
 from unittest.mock import patch
 import zipfile
@@ -40,14 +41,18 @@ def metadata_fixture(coordinate="org.example:sdk", versions=("1", "2", "3")):
 class FixtureClient:
     token = None
 
-    def __init__(self, routes=None, handler=None, token=None):
+    def __init__(self, routes=None, handler=None, token=None, clock=time.monotonic, deadline=None):
         self.routes = routes or {}
         self.handler = handler
         self.token = token
         self.calls = []
+        self.clock = clock
+        self.deadline = deadline
 
     def check(self):
-        pass
+        if self.deadline is not None and self.clock() >= self.deadline:
+            from indexlib.http import DeadlineReached
+            raise DeadlineReached()
 
     def get(self, url, **kwargs):
         self.check()

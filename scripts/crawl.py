@@ -6,7 +6,7 @@ import logging
 import os
 from pathlib import Path
 import time
-from indexlib.discovery import bootstrap, discover
+from indexlib.discovery import discover
 from indexlib.fetching import extract, fetch
 from indexlib.http import DeadlineReached, HttpClient
 from indexlib.reporting import group, report
@@ -28,29 +28,31 @@ def run(store, client, stage, **options):
     stages = list(STAGES) if stage == "all" else [stage]
     completed = store.state.setdefault("completed", [])
     try:
-        if stage == "all" and bootstrap(store):
-            completed[:] = [name for name in completed if name == "discover"]
         for name in stages:
-            if stage == "all" and name in completed:
+            if stage == "all" and name in completed and name != "discover":
                 continue
             client.check()
             logging.info("Stage: %s", name)
-            finished = STAGES[name](store, client, **options)
-            preceding = list(STAGES)[:list(STAGES).index(name)]
-            if finished and stage == "all" and all(previous in completed for previous in preceding):
-                completed.append(name)
-                store.save()
+            try:
+                finished = STAGES[name](store, client, **options)
+                if stage == "all" and name == "discover" and not finished:
+                    completed.clear()
+                preceding = list(STAGES)[:list(STAGES).index(name)]
+                if finished and stage == "all" and name not in completed and all(previous in completed for previous in preceding):
+                    completed.append(name)
+            finally:
+                store.save(force=True)
         if stage == "all" and all(name in completed for name in STAGES):
             completed.clear()
-            store.save()
+            store.save(force=True)
         return 0
     except DeadlineReached:
         logging.info("Time budget reached; progress saved for the next run")
-        store.save()
+        store.save(force=True)
         return 0
     except (OSError, ValueError) as exc:
         logging.error("Progress saved; retry on the next run: %s", exc)
-        store.save()
+        store.save(force=True)
         return 1
 
 
@@ -71,7 +73,7 @@ def main():
     client = HttpClient(deadline=time.monotonic() + args.max_minutes * 60,
                         token=os.environ.get("CODE_SEARCH_TOKEN") or os.environ.get("GITHUB_TOKEN"))
     return run(store, client, args.stage, max_versions=args.max_versions,
-               max_aar_mb=args.max_aar_mb, rules_dir=args.rules_dir)
+               max_aar_mb=args.max_aar_mb, rules_dir=args.rules_dir, max_minutes=args.max_minutes)
 
 
 if __name__ == "__main__":

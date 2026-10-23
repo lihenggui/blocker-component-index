@@ -26,9 +26,9 @@ jobs:
           repository: lihenggui/blocker-general-rules
           path: .rules
           persist-credentials: false
-      - uses: actions/cache@v4
+      - uses: actions/cache@v4.2.3
         with:
-          path: .cache/
+          path: .cache/manifests/
           key: crawl-${{ github.run_id }}
           restore-keys: crawl-
       - run: python scripts/crawl.py all --max-minutes 300 --rules-dir .rules

@@ -53,7 +53,7 @@ def coordinates(text, *, catalog=False):
     # Map notation permits either key: value or key = value, in either order.
     notation = r"\b[A-Za-z_]\w*\s*(?:\(([^)]*)\)|((?:group|name)\s*[:=][^\n]+(?:,\s*\n\s*[^\n]+)*))"
     for match in re.finditer(notation, text):
-        fields = dict(re.findall(r"\b(group|name)\s*[:=]\s*[\"']([^\"']+)[\"']", match.group(1) or match.group(2)))
+        fields = dict(re.findall(r"\b(group|name)\s*[:=]\s*[\"']([^\"']+)[\"']", match.group(1) or match.group(2) or ""))
         if fields.get("group") and fields.get("name"):
             result.add(fields["group"] + ":" + fields["name"])
     if catalog:
