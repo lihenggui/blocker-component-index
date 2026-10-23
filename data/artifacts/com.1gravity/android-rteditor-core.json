@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.1gravity:android-rteditor-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.6": {
+      "fetchedAt": "2026-10-23T21:26:29Z",
+      "sha256": "4cdac451817f3764ee9dbfa04910ad99065137d2adca117dc0d8bc2520060296",
+      "dependencies": [
+        "com.1gravity:android-colorpicker:2.0.3"
+      ]
+    },
+    "1.6.7": {
+      "fetchedAt": "2026-10-23T21:26:27Z",
+      "sha256": "2b5ef67f4ef715f0a418dd208a9c6d24f12bcc45371de73803419b70b259722e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-reflect:1.2.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.21"
+      ]
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-23T21:26:27Z",
+      "sha256": "011bba613a1f7900097998cc4784ebf30e0eb56283ddd694e7475770bed57b9c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.7",
+          "1.7.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.onegravity.rteditor.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

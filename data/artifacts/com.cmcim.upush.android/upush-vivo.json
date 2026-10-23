@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.cmcim.upush.android:upush-vivo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:11:42Z",
+      "sha256": "b6a489f9dc0c9fdd4d6414fa3087d853999ac2a678dfa4afe73220727168d3bc",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.cmcim.upush.android.sdk.vivo.receiver.PushMessageReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

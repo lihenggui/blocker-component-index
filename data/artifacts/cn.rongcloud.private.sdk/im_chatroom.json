@@ -1,0 +1,100 @@
+{
+  "coordinate": "cn.rongcloud.private.sdk:im_chatroom",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.1.3": {
+      "fetchedAt": "2026-10-23T21:01:34Z",
+      "sha256": "cf67993adfc95569a09c4763643537c25dc193e271eee5a0b5db15fc4979bfe6",
+      "dependencies": []
+    },
+    "5.2.1.52": {
+      "fetchedAt": "2026-10-23T21:01:34Z",
+      "sha256": "ac1ed399ea5d083d4929bd8263066647e0b0fb293828fbbd35c67cf8df8500ed",
+      "dependencies": []
+    },
+    "5.3.1.50": {
+      "fetchedAt": "2026-10-23T21:01:33Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.3.1.50_test": {
+      "fetchedAt": "2026-10-23T21:01:32Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.3.3.52": {
+      "fetchedAt": "2026-10-23T21:01:31Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.3.3.53": {
+      "fetchedAt": "2026-10-23T21:01:31Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.3.3.56": {
+      "fetchedAt": "2026-10-23T21:01:30Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.3.3.57": {
+      "fetchedAt": "2026-10-23T21:01:29Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.6.2.50": {
+      "fetchedAt": "2026-10-23T21:01:28Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.6.2.52": {
+      "fetchedAt": "2026-10-23T21:01:27Z",
+      "sha256": "f5f7ae2ed43b114b4ea36bfd09cf02e54d611d6e7dad527fc75d0f25e20fbf78",
+      "dependencies": []
+    },
+    "5.6.2.56": {
+      "fetchedAt": "2026-10-23T21:01:27Z",
+      "sha256": "73600387c3d25d2bcb3f3e3dfddd60f54b87d2ed4d8c47f65e6ce41eebcc3de9",
+      "dependencies": []
+    },
+    "5.8.1.55": {
+      "fetchedAt": "2026-10-23T21:01:26Z",
+      "sha256": "40136b6ace18c0cdd2396c894f3e657ae76385549b34a2b8b43c336dfac4605a",
+      "dependencies": []
+    },
+    "5.12.0.50": {
+      "fetchedAt": "2026-10-23T21:01:24Z",
+      "sha256": "40136b6ace18c0cdd2396c894f3e657ae76385549b34a2b8b43c336dfac4605a",
+      "dependencies": []
+    },
+    "5.12.0.54": {
+      "fetchedAt": "2026-10-23T21:01:25Z",
+      "sha256": "40136b6ace18c0cdd2396c894f3e657ae76385549b34a2b8b43c336dfac4605a",
+      "dependencies": []
+    },
+    "5.20.0.50": {
+      "fetchedAt": "2026-10-23T21:01:24Z",
+      "sha256": "73600387c3d25d2bcb3f3e3dfddd60f54b87d2ed4d8c47f65e6ce41eebcc3de9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "io.rong.imlib.chatroom.base.ChatRoomContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.1.3",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.ChatRoomContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

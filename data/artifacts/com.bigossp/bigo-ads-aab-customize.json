@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.bigossp:bigo-ads-aab-customize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.2.0": {
+      "fetchedAt": "2026-10-23T22:34:09Z",
+      "sha256": "c5c3415c6f5dfe8686131d89702304769af121bbeb4ad311a3894812a66c4fa3",
+      "dependencies": [
+        "com.bigossp:bigo-ads-customize:4.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "sg.bigo.ads.controller.provider.BigoAdsProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.2.0",
+          "4.0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.BigoAdsProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

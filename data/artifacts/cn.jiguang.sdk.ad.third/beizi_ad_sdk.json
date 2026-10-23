@@ -1,0 +1,157 @@
+{
+  "coordinate": "cn.jiguang.sdk.ad.third:beizi_ad_sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.4.20.20": {
+      "fetchedAt": "2026-10-23T20:49:56Z",
+      "sha256": "ab19a2d3c42e9d959f27e0b6875f1f2f59033cab43112fa48f4326778f152064",
+      "dependencies": []
+    },
+    "3.4.20.32": {
+      "fetchedAt": "2026-10-23T20:49:55Z",
+      "sha256": "53b0ee487c0d6c27f9126c7633f5553b4d64d020f2e217a3c65d043c59d3ce0e",
+      "dependencies": []
+    },
+    "3.4.20.35": {
+      "fetchedAt": "2026-10-23T20:49:54Z",
+      "sha256": "986a38ad5422d8fcd2b04eed52fcd4a0699b337e236b598c3b08078a4b4a28d7",
+      "dependencies": []
+    },
+    "3.5.0.22": {
+      "fetchedAt": "2026-10-23T20:49:53Z",
+      "sha256": "98a0b3da0ba596c232ddcd01ffda9521f2244b716f67cdaf09a2899a4d5c264d",
+      "dependencies": []
+    },
+    "3.5.0.33": {
+      "fetchedAt": "2026-10-23T20:49:52Z",
+      "sha256": "a733d6d61eef56d6059d635e79bee640109f42c7beec30a052306840f3296156",
+      "dependencies": []
+    },
+    "3.5.0.43": {
+      "fetchedAt": "2026-10-23T20:49:51Z",
+      "sha256": "f695eff647887413bc4cb434b412626f64048173012706aab75592b345df5a6f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.beizi.ad.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0.22",
+          "3.5.0.43"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.4.20.20",
+          "3.4.20.35"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.4.20.20",
+          "3.5.0.43"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.internal.activity.BeiZiDownloadDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0.22",
+          "3.5.0.43"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.internal.activity.BeiZiInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0.22",
+          "3.5.0.43"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.internal.activity.BeiZiRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0.43",
+          "3.5.0.43"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.internal.activity.DownloadAppInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0.22",
+          "3.5.0.43"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

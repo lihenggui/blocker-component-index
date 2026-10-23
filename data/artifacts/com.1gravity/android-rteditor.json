@@ -1,0 +1,175 @@
+{
+  "coordinate": "com.1gravity:android-rteditor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.2": {
+      "fetchedAt": "2026-10-23T21:26:24Z",
+      "sha256": "f1ebe65fb4739ae91f1a3bc71e9ad89fc0d0ea849dc23ea9c0c572cbc89d3075",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "com.1gravity:android-colorpicker:2.2.1",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "1.7.3": {
+      "fetchedAt": "2026-10-23T21:26:23Z",
+      "sha256": "f1ebe65fb4739ae91f1a3bc71e9ad89fc0d0ea849dc23ea9c0c572cbc89d3075",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "com.1gravity:android-colorpicker:2.2.2",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.7.4": {
+      "fetchedAt": "2026-10-23T21:26:22Z",
+      "sha256": "a6abdad73d893c42f50f09dbcda27dd30301b9f1c9f626fab7bc05f6c6ab38ee",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "com.1gravity:android-colorpicker:2.2.3",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "1.7.5": {
+      "fetchedAt": "2026-10-23T21:26:21Z",
+      "sha256": "a6abdad73d893c42f50f09dbcda27dd30301b9f1c9f626fab7bc05f6c6ab38ee",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "com.1gravity:android-colorpicker:2.2.3",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "1.7.6": {
+      "fetchedAt": "2026-10-23T21:26:20Z",
+      "sha256": "a6abdad73d893c42f50f09dbcda27dd30301b9f1c9f626fab7bc05f6c6ab38ee",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "com.1gravity:android-colorpicker:2.2.4",
+        "org.greenrobot:eventbus:3.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.7.7": {
+      "fetchedAt": "2026-10-23T21:26:18Z",
+      "sha256": "7dc1871c7e16a490a2e67e518e06008174671581c6a7d66d1c6cfc4ffa31b511",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "com.1gravity:android-colorpicker:2.2.4",
+        "org.greenrobot:eventbus:3.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.7.8": {
+      "fetchedAt": "2026-10-23T21:26:17Z",
+      "sha256": "7dc1871c7e16a490a2e67e518e06008174671581c6a7d66d1c6cfc4ffa31b511",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "com.1gravity:android-colorpicker:2.2.4",
+        "org.greenrobot:eventbus:3.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.8.0": {
+      "fetchedAt": "2026-10-23T21:26:16Z",
+      "sha256": "0778fb2af904c93ab523ff1d21529038642b36eeb2eb5b98ac993594b127bfb0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.1gravity:android-colorpicker:2.2.4",
+        "org.greenrobot:eventbus:3.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.2",
+          "1.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.onegravity.rteditor.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.onegravity.rteditor.media.choose.MediaChooserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.4",
+          "1.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onegravity.rteditor.media.choose.MediaChooserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.2",
+          "1.7.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onegravity.rteditor.media.crop.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.4",
+          "1.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onegravity.rteditor.media.crop.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.2",
+          "1.7.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

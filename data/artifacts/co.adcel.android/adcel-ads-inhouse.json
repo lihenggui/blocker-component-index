@@ -1,0 +1,89 @@
+{
+  "coordinate": "co.adcel.android:adcel-ads-inhouse",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T21:13:50Z",
+      "sha256": "e441baf4049f68f468915fbe8858ec34137a6d3554d5369f20846f924b5f784c",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation:2.0.0"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-23T21:13:49Z",
+      "sha256": "11838b0c4391220816406dc655f50dc104da75bdec66e6814dd378c04c2ae63b",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation:2.0.3"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-23T21:13:49Z",
+      "sha256": "70540c3dddbc308707ada1cf18a52dd3f971ca962b284159f886c54d4ea7d2cb",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation:2.0.4"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-23T21:13:47Z",
+      "sha256": "e2ceacc4f5a341b00a04361b8b68be9a71bdda6dabc5c5a1eb2ba8b16d24d6f2",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation:2.0.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "co.adcel.ads.inhouse.InHouseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.adcel.ads.inhouse.provider.AdCelProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.co.adcel.inhouse.tracking",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.adcel.ads.inhouse.receiver.InstallTrackerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

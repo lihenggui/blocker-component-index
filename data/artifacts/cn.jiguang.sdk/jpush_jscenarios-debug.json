@@ -1,0 +1,248 @@
+{
+  "coordinate": "cn.jiguang.sdk:jpush_jscenarios-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.4.2": {
+      "fetchedAt": "2026-10-23T20:55:54Z",
+      "sha256": "3a6db6dcca0f16d772092f8b39e75a8b0ccc2c93abe839a583909029d41b7d90",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.android.service.JTransitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.android.service.JTransitActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.asus.AsusPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.scenarios.service.SmartFenceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.huawei.hms.location.permission.PENDINGINTENT",
+      "authorities": null,
+      "actions": [
+        "com.huawei.hms.location.action.common.geofence"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DataProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": "${applicationId}.DataProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.jiguang.InitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.JNotifyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.JNotifyActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.PUSH_TIME",
+        "cn.jpush.android.intent.PushService",
+        "cn.jpush.android.intent.REGISTER",
+        "cn.jpush.android.intent.REPORT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.SchedulerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PopWinActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PopWinActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.4.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PushActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

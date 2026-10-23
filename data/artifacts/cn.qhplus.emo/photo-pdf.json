@@ -1,0 +1,56 @@
+{
+  "coordinate": "cn.qhplus.emo:photo-pdf",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-23T21:00:43Z",
+      "sha256": "adb0424f8afd3adfca1f3e058497af940cd64368fbf1958c5cf21f966600fa88",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.core:core-ktx:1.10.1",
+        "cn.qhplus.emo:photo:0.9.0",
+        "com.google.accompanist:accompanist-systemuicontroller:0.32.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "0.12.0": {
+      "fetchedAt": "2026-10-23T21:00:41Z",
+      "sha256": "adb0424f8afd3adfca1f3e058497af940cd64368fbf1958c5cf21f966600fa88",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.8.2",
+        "androidx.core:core-ktx:1.12.0",
+        "cn.qhplus.emo:photo:0.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "0.14.0": {
+      "fetchedAt": "2026-10-23T21:00:39Z",
+      "sha256": "adb0424f8afd3adfca1f3e058497af940cd64368fbf1958c5cf21f966600fa88",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.2",
+        "androidx.core:core-ktx:1.13.1",
+        "cn.qhplus.emo:photo:0.14.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.qhplus.emo.photo.pdf.PdfActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

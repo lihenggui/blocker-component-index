@@ -1,0 +1,70 @@
+{
+  "coordinate": "cn.huolala:batteryapi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T20:47:31Z",
+      "sha256": "959944ed7fe449d937751842f5c65b19deb253962130b59b42daeb5d37e9c825",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "com.google.code.gson:gson:2.8.8",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T20:47:31Z",
+      "sha256": "959944ed7fe449d937751842f5c65b19deb253962130b59b42daeb5d37e9c825",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "com.google.code.gson:gson:2.8.8",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.huolala.battery.api.hookstub.lifecycle.BatteryLaunch",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.battery.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.huolala.battery.api.hookstub.location.LocationMessengerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.battery.main.process"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

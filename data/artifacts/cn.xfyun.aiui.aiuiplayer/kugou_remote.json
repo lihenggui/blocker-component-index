@@ -1,0 +1,64 @@
+{
+  "coordinate": "cn.xfyun.aiui.aiuiplayer:kugou_remote",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1010": {
+      "fetchedAt": "2026-10-23T21:12:37Z",
+      "sha256": "5fee058cf01524c59e90b6d9b7da594f2c19dbd697a2b88bb6f3388f5d4a33bb",
+      "dependencies": [
+        "AIUIPlayer:common:1010",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.github.kittinunf.fuel:fuel-android:2.0.1",
+        "com.github.kittinunf.fuel:fuel:2.0.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1011": {
+      "fetchedAt": "2026-10-23T21:12:37Z",
+      "sha256": "5fee058cf01524c59e90b6d9b7da594f2c19dbd697a2b88bb6f3388f5d4a33bb",
+      "dependencies": [
+        "AIUIPlayer:common:1011",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.github.kittinunf.fuel:fuel-android:2.0.1",
+        "com.github.kittinunf.fuel:fuel:2.0.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1012": {
+      "fetchedAt": "2026-10-23T21:12:36Z",
+      "sha256": "5fee058cf01524c59e90b6d9b7da594f2c19dbd697a2b88bb6f3388f5d4a33bb",
+      "dependencies": [
+        "cn.xfyun.aiui.aiuiplayer:common:1011",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.github.kittinunf.fuel:fuel-android:2.0.1",
+        "com.github.kittinunf.fuel:fuel:2.0.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.iflytek.aiui.player.players.login.KuGouLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1010",
+          "1012"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

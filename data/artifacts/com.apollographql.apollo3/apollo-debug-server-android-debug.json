@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.apollographql.apollo3:apollo-debug-server-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.0-beta.3": {
+      "fetchedAt": "2026-10-23T21:58:15Z",
+      "sha256": "8fc4bc17e615fc17b0e2e100d66cc1fdeef99bd9dbae73360ba023846cffa8af",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.apollographql.apollo3:apollo-api:4.0.0-beta.3",
+        "com.apollographql.apollo3:apollo-ast:4.0.0-beta.3",
+        "com.apollographql.apollo3:apollo-normalized-cache:4.0.0-beta.3"
+      ]
+    },
+    "4.0.0-beta.4": {
+      "fetchedAt": "2026-10-23T21:58:15Z",
+      "sha256": "8fc4bc17e615fc17b0e2e100d66cc1fdeef99bd9dbae73360ba023846cffa8af",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.apollographql.apollo3:apollo-api:4.0.0-beta.4",
+        "com.apollographql.apollo3:apollo-ast:4.0.0-beta.4",
+        "com.apollographql.apollo3:apollo-normalized-cache:4.0.0-beta.4"
+      ]
+    },
+    "4.0.0-beta.5": {
+      "fetchedAt": "2026-10-23T21:58:14Z",
+      "sha256": "8fc4bc17e615fc17b0e2e100d66cc1fdeef99bd9dbae73360ba023846cffa8af",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.apollographql.apollo3:apollo-ast:4.0.0-beta.5",
+        "com.apollographql.apollo3:apollo-normalized-cache-api:4.0.0-beta.5",
+        "com.apollographql.apollo3:apollo-normalized-cache:4.0.0-beta.5",
+        "com.apollographql.apollo3:apollo-runtime:4.0.0-beta.5"
+      ]
+    },
+    "4.0.0-beta.6": {
+      "fetchedAt": "2026-10-23T21:58:12Z",
+      "sha256": "8fc4bc17e615fc17b0e2e100d66cc1fdeef99bd9dbae73360ba023846cffa8af",
+      "dependencies": [
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.apollographql.apollo3:apollo-ast:4.0.0-beta.6",
+        "com.apollographql.apollo3:apollo-normalized-cache-api:4.0.0-beta.6",
+        "com.apollographql.apollo3:apollo-normalized-cache:4.0.0-beta.6",
+        "com.apollographql.apollo3:apollo-runtime:4.0.0-beta.6"
+      ]
+    },
+    "4.0.0-beta.7": {
+      "fetchedAt": "2026-10-23T21:58:11Z",
+      "sha256": "8fc4bc17e615fc17b0e2e100d66cc1fdeef99bd9dbae73360ba023846cffa8af",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.apollographql.apollo3:apollo-ast:4.0.0-beta.7",
+        "com.apollographql.apollo3:apollo-normalized-cache-api:4.0.0-beta.7",
+        "com.apollographql.apollo3:apollo-normalized-cache:4.0.0-beta.7",
+        "com.apollographql.apollo3:apollo-runtime:4.0.0-beta.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.0-beta.3",
+          "4.0.0-beta.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.apollographql.apollo3.debugserver.internal.initializer.ApolloDebugServerInitializer"
+      ]
+    }
+  ]
+}

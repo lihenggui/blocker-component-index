@@ -1,0 +1,43 @@
+{
+  "coordinate": "cn.feige:feige-sip-common",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T20:44:57Z",
+      "sha256": "64bffffeb057ad94eb96acf1b092a1f621419991cf7bf102f1cd1e9997423538",
+      "dependencies": [
+        "com.github.voismart:crypto:0.1.0",
+        "com.google.code.gson:gson:2.9.0",
+        "org.greenrobot:eventbus:3.3.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T20:44:56Z",
+      "sha256": "9df320f3905334d7a913769ce715ab673c88d06b273d19928141076e6cd724e6",
+      "dependencies": [
+        "com.github.voismart:crypto:0.1.0",
+        "com.google.code.gson:gson:2.9.0",
+        "org.greenrobot:eventbus:3.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.gotev.sipservice.SipService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

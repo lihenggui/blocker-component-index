@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.aigens:aigens-sdk-adyen-payments",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5.1": {
+      "fetchedAt": "2026-10-23T21:40:19Z",
+      "sha256": "ca83c81de6fe79dd279b79da53dbfae523efb8b10d58bfcce2fa9a34d88edef0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.0",
+        "com.adyen.checkout:drop-in:5.8.0",
+        "com.capacitorjs:core:5.7.8",
+        "com.google.android.material:material:1.5.0"
+      ]
+    },
+    "0.5.2": {
+      "fetchedAt": "2026-10-23T21:40:19Z",
+      "sha256": "ca83c81de6fe79dd279b79da53dbfae523efb8b10d58bfcce2fa9a34d88edef0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.0",
+        "com.adyen.checkout:drop-in:5.8.0",
+        "com.capacitorjs:core:5.7.8",
+        "com.google.android.material:material:1.5.0"
+      ]
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-23T21:40:18Z",
+      "sha256": "ca83c81de6fe79dd279b79da53dbfae523efb8b10d58bfcce2fa9a34d88edef0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.0",
+        "com.adyen.checkout:drop-in:5.8.0",
+        "com.capacitorjs:core:5.7.8",
+        "com.google.android.material:material:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.aigens.sdk.adyen.payments.AigensDropInService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.5.1",
+          "5.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

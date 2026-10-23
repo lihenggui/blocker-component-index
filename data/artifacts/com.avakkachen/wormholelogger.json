@@ -1,0 +1,73 @@
+{
+  "coordinate": "com.avakkachen:wormholelogger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:00Z",
+      "sha256": "822b08464dc5b57ed1b186717f7e32790eb59c9c3b154179ec5e87670b7b1884",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.20"
+      ]
+    },
+    "1.0.0-1-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:00Z",
+      "sha256": "822b08464dc5b57ed1b186717f7e32790eb59c9c3b154179ec5e87670b7b1884",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-1-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.20"
+      ]
+    },
+    "1.0.0-2-STAGING": {
+      "fetchedAt": "2026-10-23T22:24:59Z",
+      "sha256": "3e441a25afc1954442df9019b5373aa310c22f73d8ad014b66361e95f5f54338",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-2-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.20"
+      ]
+    },
+    "1.0.0-3-STAGING": {
+      "fetchedAt": "2026-10-23T22:24:58Z",
+      "sha256": "3e441a25afc1954442df9019b5373aa310c22f73d8ad014b66361e95f5f54338",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-3-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    },
+    "1.0.0-4-STAGING": {
+      "fetchedAt": "2026-10-23T22:24:58Z",
+      "sha256": "d88a6de5d2122422058cbde0276f0d4f7bb6d6a9f3218b217c187e8bc05a292b",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-4-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    },
+    "1.0.0-5-STAGING": {
+      "fetchedAt": "2026-10-23T22:24:57Z",
+      "sha256": "d88a6de5d2122422058cbde0276f0d4f7bb6d6a9f3218b217c187e8bc05a292b",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-5-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "wormholelogger.log.LogProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-2-STAGING",
+          "1.0.0-5-STAGING"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.wormhole.logprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

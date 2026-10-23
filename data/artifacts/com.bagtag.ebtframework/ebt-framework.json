@@ -1,0 +1,40 @@
+{
+  "coordinate": "com.bagtag.ebtframework:ebt-framework",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T22:28:12Z",
+      "sha256": "ec048979d9f37b136a61496ac06cc9889fe5cd15c757df976d130e756cd539e7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.1.0",
+        "com.google.android.material:material:1.0.0",
+        "nl.coffeeit.bagtag:sdk-client:1.7.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bagtag.ebtframework.activities.BagtagLibraryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

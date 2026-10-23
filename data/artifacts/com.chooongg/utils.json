@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.chooongg:utils",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T23:04:42Z",
+      "sha256": "2b8c2ff567260ff24b8d7e16c48dad48b68e53ba9f1e3880ac88426155520f25",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0-alpha03",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.material:material:1.11.0-alpha03",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.chooongg.utils.ChooonggUtilsInitializer"
+      ]
+    }
+  ]
+}

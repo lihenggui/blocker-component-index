@@ -1,0 +1,47 @@
+{
+  "coordinate": "cn.wandersnail:common-base",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T21:11:45Z",
+      "sha256": "7cd43f91c5425765d5ad784d00d36ec5c1139b1829d64f47730fc05d85baae9d",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T21:11:44Z",
+      "sha256": "101e7a6083098767cf74a70af17bb0d22c67a848708e36317b9f2564477d1dad",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T21:11:44Z",
+      "sha256": "febe018abdc27e2167e2df74d150f5d83d898b78a426376dbb0ccecfc93a7201",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T21:11:43Z",
+      "sha256": "799647ca1936472c18e87cc2ef29b519662290876936a3662f9fb3b198a69b81",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.cnlive:vlion",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3.5": {
+      "fetchedAt": "2026-10-23T23:12:01Z",
+      "sha256": "b3f72ad053cc433276a1e28ab75c4bb3150a9ebf6181ea7e9faab792c804ad7e",
+      "dependencies": []
+    },
+    "0.3.6": {
+      "fetchedAt": "2026-10-23T23:12:00Z",
+      "sha256": "4066a0eca687a4c176dd2e6ce8513c9fe87c2107a8d86ea638fd0c910510fd3e",
+      "dependencies": []
+    },
+    "0.3.7": {
+      "fetchedAt": "2026-10-23T23:12:00Z",
+      "sha256": "815617769fcedab5ddea21dc6c42043ba776ff515661c182701857307bab2287",
+      "dependencies": []
+    },
+    "0.3.8": {
+      "fetchedAt": "2026-10-23T23:11:59Z",
+      "sha256": "83a634e9ced4f506a8dc45d7972cd0a6765cf24ebdd84bca5362716697284d01",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.vlion.ad.core.VLionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.3.5",
+          "0.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE",
+        "android.intent.action.PACKAGE_ADDED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.vlion.ad.moudle.video.VideoViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.5",
+          "0.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.vlion.ad.moudle.video.VlionVideoViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.7",
+          "0.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.vlion.ad.view.webview.VLionWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.5",
+          "0.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

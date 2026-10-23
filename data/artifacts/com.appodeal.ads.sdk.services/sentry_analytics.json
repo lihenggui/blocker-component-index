@@ -1,0 +1,68 @@
+{
+  "coordinate": "com.appodeal.ads.sdk.services:sentry_analytics",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.1.0": {
+      "fetchedAt": "2026-10-23T22:12:01Z",
+      "sha256": "22b1372055130e6af1d895d8d2f70a1cc22f6f146ef8874aba317cec36f67e3d",
+      "dependencies": [
+        "com.appodeal.ads.sdk.core:internal:3.0.1",
+        "com.appodeal.ads.sdk.core:public:3.0.1",
+        "com.appodeal.ads:network:3.0.1",
+        "io.sentry:sentry-android:6.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "3.0.1.1": {
+      "fetchedAt": "2026-10-23T22:12:00Z",
+      "sha256": "22b1372055130e6af1d895d8d2f70a1cc22f6f146ef8874aba317cec36f67e3d",
+      "dependencies": [
+        "com.appodeal.ads.sdk.core:internal:3.0.1",
+        "com.appodeal.ads.sdk.core:public:3.0.1",
+        "com.appodeal.ads:network:3.0.1",
+        "io.sentry:sentry-android:6.10.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.sentry.android.core.SentryInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.1.0",
+          "3.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SentryInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.sentry.android.core.SentryPerformanceProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.1.0",
+          "3.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SentryPerformanceProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

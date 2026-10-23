@@ -1,0 +1,158 @@
+{
+  "coordinate": "cn.rongcloud.sdk:callplus_lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.20.0": {
+      "fetchedAt": "2026-10-23T21:06:24Z",
+      "sha256": "3be72c5844022ad52936dc45f4f0caca0b8c798f3afef8e988a8a749e42884cf",
+      "dependencies": []
+    },
+    "2.22.0": {
+      "fetchedAt": "2026-10-23T21:06:08Z",
+      "sha256": "3be72c5844022ad52936dc45f4f0caca0b8c798f3afef8e988a8a749e42884cf",
+      "dependencies": []
+    },
+    "2.24.0": {
+      "fetchedAt": "2026-10-23T21:06:23Z",
+      "sha256": "3be72c5844022ad52936dc45f4f0caca0b8c798f3afef8e988a8a749e42884cf",
+      "dependencies": []
+    },
+    "2.26.0": {
+      "fetchedAt": "2026-10-23T21:06:22Z",
+      "sha256": "3be72c5844022ad52936dc45f4f0caca0b8c798f3afef8e988a8a749e42884cf",
+      "dependencies": []
+    },
+    "2.28.0": {
+      "fetchedAt": "2026-10-23T21:06:21Z",
+      "sha256": "3be72c5844022ad52936dc45f4f0caca0b8c798f3afef8e988a8a749e42884cf",
+      "dependencies": []
+    },
+    "2.30.0": {
+      "fetchedAt": "2026-10-23T21:06:21Z",
+      "sha256": "3be72c5844022ad52936dc45f4f0caca0b8c798f3afef8e988a8a749e42884cf",
+      "dependencies": []
+    },
+    "2.32.0": {
+      "fetchedAt": "2026-10-23T21:06:20Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.34.0": {
+      "fetchedAt": "2026-10-23T21:06:19Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.36.0": {
+      "fetchedAt": "2026-10-23T21:06:18Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.36.1": {
+      "fetchedAt": "2026-10-23T21:06:17Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.36.2": {
+      "fetchedAt": "2026-10-23T21:06:17Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.38.0": {
+      "fetchedAt": "2026-10-23T21:06:16Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.40.0": {
+      "fetchedAt": "2026-10-23T21:06:15Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.42.0": {
+      "fetchedAt": "2026-10-23T21:06:14Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.42.1": {
+      "fetchedAt": "2026-10-23T21:06:13Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.44.0": {
+      "fetchedAt": "2026-10-23T21:06:12Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.44.1": {
+      "fetchedAt": "2026-10-23T21:06:11Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.46.0": {
+      "fetchedAt": "2026-10-23T21:06:10Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    },
+    "2.46.1": {
+      "fetchedAt": "2026-10-23T21:06:09Z",
+      "sha256": "9b272de12c8c00b2cb23c27d30243f2b1a5d34209eb5ce6b0ccdd6668c4ae743",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.rongcloud.calllib.im.GroupCallContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.20.0",
+          "2.46.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.GroupCallContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.rongcloud.calllib.utils.PhoneStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.32.0",
+          "2.46.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.rongcloud.calllib.utils.PhoneStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.20.0",
+          "2.30.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

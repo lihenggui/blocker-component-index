@@ -1,0 +1,52 @@
+{
+  "coordinate": "cn.testin.analysis:testin-ab",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.2.4": {
+      "fetchedAt": "2026-10-23T21:10:39Z",
+      "sha256": "a5694941067bbe659b0265f9359a295b9416c7d291db38e9bb9b0f363cf1b9c2",
+      "dependencies": []
+    },
+    "4.2.5": {
+      "fetchedAt": "2026-10-23T21:10:38Z",
+      "sha256": "a5694941067bbe659b0265f9359a295b9416c7d291db38e9bb9b0f363cf1b9c2",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.testin.analysis.TesterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.4",
+          "4.2.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.testin.analysis.db.TestinABContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.2.4",
+          "4.2.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TestinABContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

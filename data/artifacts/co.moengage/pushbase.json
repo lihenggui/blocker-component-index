@@ -1,0 +1,135 @@
+{
+  "coordinate": "co.moengage:pushbase",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.8.0": {
+      "fetchedAt": "2026-10-23T21:19:07Z",
+      "sha256": "548dcd6253c845920b716c16e7f0c1e0c91cde278eaf8aefa2a4ef47d836b206",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2"
+      ]
+    },
+    "6.9.1": {
+      "fetchedAt": "2026-10-23T21:19:05Z",
+      "sha256": "a69bc9dee000a0d29e0c36ba781a9e99abc768c5838a0d6eb87e1ef7fdf1cee5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2"
+      ]
+    },
+    "7.0.2": {
+      "fetchedAt": "2026-10-23T21:19:04Z",
+      "sha256": "a69bc9dee000a0d29e0c36ba781a9e99abc768c5838a0d6eb87e1ef7fdf1cee5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "8.3.0": {
+      "fetchedAt": "2026-10-23T21:19:01Z",
+      "sha256": "a69bc9dee000a0d29e0c36ba781a9e99abc768c5838a0d6eb87e1ef7fdf1cee5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "8.3.2": {
+      "fetchedAt": "2026-10-23T21:19:03Z",
+      "sha256": "a69bc9dee000a0d29e0c36ba781a9e99abc768c5838a0d6eb87e1ef7fdf1cee5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "9.0.1": {
+      "fetchedAt": "2026-10-23T21:19:02Z",
+      "sha256": "a69bc9dee000a0d29e0c36ba781a9e99abc768c5838a0d6eb87e1ef7fdf1cee5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.pushbase.activities.PushClickDialogTracker",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.8.0",
+          "9.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.pushbase.activities.PushTracker",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.8.0",
+          "9.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.pushbase.internal.MoEPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.8.0",
+          "9.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.pushbase.internal.MoEPushWorker",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.8.0",
+          "9.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.pushbase.internal.activity.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.8.0",
+          "9.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

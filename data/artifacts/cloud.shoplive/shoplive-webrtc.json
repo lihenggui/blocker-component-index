@@ -1,0 +1,114 @@
+{
+  "coordinate": "cloud.shoplive:shoplive-webrtc",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0": {
+      "fetchedAt": "2026-10-23T20:39:26Z",
+      "sha256": "d5865cf786765476064f8c743286d56ab423b9d7ddb73483d6bb10b7e5604ea5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.camera:camera-camera2:1.2.3",
+        "androidx.camera:camera-core:1.2.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "com.github.bumptech.glide:glide:4.14.2",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "io.github.webrtc-sdk:android:125.6422.06.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T20:39:25Z",
+      "sha256": "d5865cf786765476064f8c743286d56ab423b9d7ddb73483d6bb10b7e5604ea5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.camera:camera-camera2:1.2.3",
+        "androidx.camera:camera-core:1.2.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "com.github.bumptech.glide:glide:4.14.2",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "io.github.webrtc-sdk:android:125.6422.06.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cloud.shoplive.sdk.webrtc.ShopLiveWebRTCDirectStreamerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cloud.shoplive.sdk.webrtc.ShopLiveWebRTCPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cloud.shoplive.sdk.webrtc.ShopLiveWebRTCStreamerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cloud.shoplive.sdk.webrtc.provider.ShopLiveWebRTCStethoModuleProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.cloud.shoplive.sdk.webrtc.provider.ShopLiveWebRTCStethoModuleProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.bingzer.android.driven:driven-gdrive",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:43:25Z",
+      "sha256": "49a8bb5c4deafdb79218153878e25b9068c2dc34f3ebcbdb6cf69164ff9c483d",
+      "dependencies": [
+        "com.bingzer.android.driven:driven:1.0.0",
+        "com.google.api-client:google-api-client-android:1.18.0-rc",
+        "com.google.apis:google-api-services-drive:v2-rev126-1.18.0-rc",
+        "com.squareup.dagger:dagger:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bingzer.android.driven.gdrive.app.GoogleDriveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

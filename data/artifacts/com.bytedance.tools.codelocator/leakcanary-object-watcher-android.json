@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.bytedance.tools.codelocator:leakcanary-object-watcher-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.12": {
+      "fetchedAt": "2026-10-23T22:55:12Z",
+      "sha256": "2d85c9f0fe40636a6f854a1bb7a9d0fdd0c507b3ac2b2201203facad7e73d55d",
+      "dependencies": [
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.12",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "2.13": {
+      "fetchedAt": "2026-10-23T22:55:11Z",
+      "sha256": "2d85c9f0fe40636a6f854a1bb7a9d0fdd0c507b3ac2b2201203facad7e73d55d",
+      "dependencies": [
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "leakcanary.internal.MainProcessAppWatcherInstaller",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.leakcanary-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

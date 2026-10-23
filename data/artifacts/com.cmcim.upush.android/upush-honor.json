@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.cmcim.upush.android:upush-honor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:11:39Z",
+      "sha256": "d9fc7c368637bb1947cfec895c2e8cd904eb94b1c95c50d31580f25271cf5530",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.cmcim.upush.android.sdk.honor.service.UHonorMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

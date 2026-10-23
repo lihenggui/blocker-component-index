@@ -1,0 +1,126 @@
+{
+  "coordinate": "com.chimerapps.niddler:niddler",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.0": {
+      "fetchedAt": "2026-10-23T23:04:33Z",
+      "sha256": "3d2023afb3749c5eda45de22e8c7446c46697e1938253b9e130652382e2f5164",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-lib-base:1.4.0"
+      ]
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-23T23:04:33Z",
+      "sha256": "3d2023afb3749c5eda45de22e8c7446c46697e1938253b9e130652382e2f5164",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.4.1"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-23T23:04:32Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-lib-base:1.5.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-23T23:04:31Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.5.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-23T23:04:31Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.5.2"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-23T23:04:30Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.5.3"
+      ]
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-23T23:04:29Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.5.4"
+      ]
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-23T23:04:28Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.5.5"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-23T23:04:28Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.6.0"
+      ]
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-23T23:04:27Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.6.1"
+      ]
+    },
+    "1.6.2": {
+      "fetchedAt": "2026-10-23T23:04:26Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.6.2"
+      ]
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-23T23:04:25Z",
+      "sha256": "63b9b3a6aa82dfa2f1387641d36bafc7cfa8e9a5872edb2081eb54de80297539",
+      "dependencies": [
+        "com.chimerapps.niddler:niddler-base:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chimerapps.niddler.service.NiddlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.7.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.icapps.niddler.service.NiddlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.0",
+          "1.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

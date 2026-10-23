@@ -1,0 +1,130 @@
+{
+  "coordinate": "com.buglife.sdk:buglife-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.3": {
+      "fetchedAt": "2026-10-23T22:50:35Z",
+      "sha256": "a8ad8575deca825ab6ad1abf26db63a04a8950afe058954baab67cacc6669f14",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:support-dynamic-animation:28.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.1"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-23T22:50:33Z",
+      "sha256": "6709d81d8d8660d36ddb79d14211d43763a7aa5318ab6e79be40b3f8a49f1f15",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:support-dynamic-animation:28.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.buglife.sdk.ParametersActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.3",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.buglife.sdk.ReportActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.buglife.sdk.ScreenshotAnnotatorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.buglife.sdk.VideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.buglife.sdk.reporting.SubmitReportLegacyService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.buglife.sdk.reporting.SubmitReportService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

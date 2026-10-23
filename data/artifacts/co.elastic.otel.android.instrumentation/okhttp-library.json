@@ -1,0 +1,19 @@
+{
+  "coordinate": "co.elastic.otel.android.instrumentation:okhttp-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T21:16:34Z",
+      "sha256": "bfd26eb48586934eafe6e014a8baf7b7a317a45a10ea66060a58a2f1ef6273dc",
+      "dependencies": [
+        "co.elastic.otel.android.instrumentation:api:1.1.0",
+        "co.elastic.otel.android:agent-common:1.1.0",
+        "io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-incubator:2.16.0-alpha",
+        "io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:2.16.0",
+        "io.opentelemetry.instrumentation:opentelemetry-okhttp-3.0:2.16.0-alpha",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    }
+  },
+  "components": []
+}

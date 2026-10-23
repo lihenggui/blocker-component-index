@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.ca.apim:mas-connecta",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-23T22:56:22Z",
+      "sha256": "e6f07d3f41498dff16b6bdbcdd1c09a98c3321f0fca65d902ea4bd734e7bcfdc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.ca.apim:mas-foundation:2.2.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0"
+      ]
+    },
+    "2.3.00": {
+      "fetchedAt": "2026-10-23T22:56:21Z",
+      "sha256": "5e06c2de58cc885bf260ad110bf73d5fad61b0aef53780e3a7566f5e7e03a6fe",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.ca.apim:mas-foundation:2.3.00",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0"
+      ]
+    },
+    "2.4.00": {
+      "fetchedAt": "2026-10-23T22:56:20Z",
+      "sha256": "17ad0fbbfa4f16776747a7c87215b3ecfdc2be24a54cda85540e26be71461a63",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.ca.apim:mas-foundation:2.4.00",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0"
+      ]
+    },
+    "2.5.00": {
+      "fetchedAt": "2026-10-23T22:56:19Z",
+      "sha256": "94aa1bcaa7fedc7677e98f865600d89daab9686334df14ab6072ce553d4912b3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.ca.apim:mas-foundation:2.5.00",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.00"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "coordinate": "cn.entertech.android:log-local",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.8": {
+      "fetchedAt": "2026-10-23T20:44:22Z",
+      "sha256": "71e5c90e1fb2297c90321c283e583cef5bfc44d51dd71f6ea45ac6ac947b5caf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:base:0.0.6",
+        "cn.entertech.android:log-api:1.0.8",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-23T20:44:21Z",
+      "sha256": "71e5c90e1fb2297c90321c283e583cef5bfc44d51dd71f6ea45ac6ac947b5caf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:base:0.0.8-flowtime",
+        "cn.entertech.android:log-api:1.0.9",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T20:44:20Z",
+      "sha256": "71e5c90e1fb2297c90321c283e583cef5bfc44d51dd71f6ea45ac6ac947b5caf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:base:0.0.8-flowtime",
+        "cn.entertech.android:log-api:1.1.0",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-23T20:44:17Z",
+      "sha256": "71e5c90e1fb2297c90321c283e583cef5bfc44d51dd71f6ea45ac6ac947b5caf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:base:1.0.2",
+        "cn.entertech.android:log-api:1.1.1",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-23T20:44:19Z",
+      "sha256": "71e5c90e1fb2297c90321c283e583cef5bfc44d51dd71f6ea45ac6ac947b5caf",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.1",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose:compose-bom:2025.12.01",
+        "androidx.core:core-ktx:1.17.0",
+        "cn.entertech.android:log-api:1.2.0",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1",
+        "org.jetbrains.kotlinx:kotlinx-io-core:0.8.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-23T20:44:19Z",
+      "sha256": "71e5c90e1fb2297c90321c283e583cef5bfc44d51dd71f6ea45ac6ac947b5caf",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.1",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose:compose-bom:2025.12.01",
+        "androidx.core:core-ktx:1.17.0",
+        "cn.entertech.android:log-api:1.2.1",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1",
+        "org.jetbrains.kotlinx:kotlinx-io-core:0.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.entertech.log.local.LogFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.log.file.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.entertech.log.local.LogListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.log.local.ShowLogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

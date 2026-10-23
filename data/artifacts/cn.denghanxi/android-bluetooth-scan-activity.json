@@ -1,0 +1,53 @@
+{
+  "coordinate": "cn.denghanxi:android-bluetooth-scan-activity",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T20:42:32Z",
+      "sha256": "83e04519eb882f167fadb5f9f10d42f214663a6b8c48051770ef4a2c1bb6e154",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.1.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.9.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.7",
+        "org.slf4j:slf4j-api:2.0.7"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T20:42:31Z",
+      "sha256": "83e04519eb882f167fadb5f9f10d42f214663a6b8c48051770ef4a2c1bb6e154",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.2.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.11.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.8",
+        "org.slf4j:slf4j-api:2.0.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.denghanxi.android_bluetooth_scan.lib.BluetoothScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

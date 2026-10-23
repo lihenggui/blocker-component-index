@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.aispeech.android:lib-dds",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3.2": {
+      "fetchedAt": "2026-10-23T21:42:06Z",
+      "sha256": "9cff37146edd5a82aefd8673538d8c12898b9e4d39a389b0ca6242f214751817",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.aispeech.aiutils.notification.NeNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3.2",
+          "1.0.3.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.accessibilityservice.AccessibilityService"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.accessibilityservice"
+      ]
+    },
+    {
+      "name": "com.aispeech.dui.dds.debug.DebugReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3.2",
+          "1.0.3.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "aios.intent.action.call",
+        "aios.intent.action.config",
+        "aios.intent.action.event",
+        "aios.intent.action.publish",
+        "aios.intent.action.remote"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

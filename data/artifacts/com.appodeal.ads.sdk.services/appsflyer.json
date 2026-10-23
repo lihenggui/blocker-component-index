@@ -1,0 +1,55 @@
+{
+  "coordinate": "com.appodeal.ads.sdk.services:appsflyer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.1.0": {
+      "fetchedAt": "2026-10-23T22:11:56Z",
+      "sha256": "938d214df8edc60eed0a50a15ef5fd2ea0dbde8a968ec7b112e6f8443989cf59",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appodeal.ads.sdk.core:internal:3.0.1",
+        "com.appodeal.ads.sdk.core:public:3.0.1",
+        "com.appsflyer:adrevenue:6.9.0",
+        "com.appsflyer:af-android-sdk:6.9.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "3.0.1.1": {
+      "fetchedAt": "2026-10-23T22:11:55Z",
+      "sha256": "938d214df8edc60eed0a50a15ef5fd2ea0dbde8a968ec7b112e6f8443989cf59",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appodeal.ads.sdk.core:internal:3.0.1",
+        "com.appodeal.ads.sdk.core:public:3.0.1",
+        "com.appsflyer:adrevenue:6.9.1",
+        "com.appsflyer:af-android-sdk:6.9.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appsflyer.SingleInstallBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.1.0",
+          "3.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

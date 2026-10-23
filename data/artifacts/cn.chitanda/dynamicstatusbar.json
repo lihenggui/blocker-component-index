@@ -1,0 +1,152 @@
+{
+  "coordinate": "cn.chitanda:dynamicstatusbar",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-23T20:41:21Z",
+      "sha256": "da3ac59180c9accb0f97fcec594d5eb96c8fa2a5cfe07ef7018e9b90206aa445",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0-rc02",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    },
+    "2.0": {
+      "fetchedAt": "2026-10-23T20:41:20Z",
+      "sha256": "da3ac59180c9accb0f97fcec594d5eb96c8fa2a5cfe07ef7018e9b90206aa445",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    },
+    "2.1": {
+      "fetchedAt": "2026-10-23T20:41:19Z",
+      "sha256": "da3ac59180c9accb0f97fcec594d5eb96c8fa2a5cfe07ef7018e9b90206aa445",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
+      ]
+    },
+    "2.2": {
+      "fetchedAt": "2026-10-23T20:41:19Z",
+      "sha256": "30114fe3df9ae9222ca201537fa9b7d6610e73aa9fc6ba59a1f29dd8e206f8e1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+      ]
+    },
+    "2.3": {
+      "fetchedAt": "2026-10-23T20:41:18Z",
+      "sha256": "6513e8a0e8b0cde1f28335c8c63916adb4242ae9f6548542e47e96dc5183c827",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-23T20:41:18Z",
+      "sha256": "6513e8a0e8b0cde1f28335c8c63916adb4242ae9f6548542e47e96dc5183c827",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+      ]
+    },
+    "2.4.1": {
+      "fetchedAt": "2026-10-23T20:41:17Z",
+      "sha256": "6513e8a0e8b0cde1f28335c8c63916adb4242ae9f6548542e47e96dc5183c827",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+      ]
+    },
+    "2.5.0": {
+      "fetchedAt": "2026-10-23T20:41:17Z",
+      "sha256": "17323fca05ca8cb4481a4ea8e86dd9f09e6efe0437dcaac40eef75df6a988c7a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+      ]
+    },
+    "2.5.1": {
+      "fetchedAt": "2026-10-23T20:41:16Z",
+      "sha256": "17323fca05ca8cb4481a4ea8e86dd9f09e6efe0437dcaac40eef75df6a988c7a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+      ]
+    },
+    "2.5.2": {
+      "fetchedAt": "2026-10-23T20:41:16Z",
+      "sha256": "17323fca05ca8cb4481a4ea8e86dd9f09e6efe0437dcaac40eef75df6a988c7a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+      ]
+    },
+    "2.5.3": {
+      "fetchedAt": "2026-10-23T20:41:15Z",
+      "sha256": "17323fca05ca8cb4481a4ea8e86dd9f09e6efe0437dcaac40eef75df6a988c7a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
+      ]
+    },
+    "2.5.4": {
+      "fetchedAt": "2026-10-23T20:41:14Z",
+      "sha256": "138b0b974b7886271396c84a57a0a169633d249c3804ec8768a659105f443aed",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.chitanda.dynamicstatusbar.init.InitContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.3",
+          "2.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DynamicStatusBarInitContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.chitanda.dynamicstatusbar.init.InitContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.2",
+          "2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "{applicationId}.DynamicStatusBarInitContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

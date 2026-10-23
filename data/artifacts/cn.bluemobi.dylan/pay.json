@@ -1,0 +1,81 @@
+{
+  "coordinate": "cn.bluemobi.dylan:pay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-23T20:41:08Z",
+      "sha256": "cd95e80b445ea6e497de9b237633099c9e4a88f24733e864d2571bc0b011458b",
+      "dependencies": [
+        "com.orhanobut:logger:1.8"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-23T20:41:08Z",
+      "sha256": "746f816d8f46ad317b8a796376ba45712a990407c26ec3c321b25d1c95f1721e",
+      "dependencies": [
+        "com.orhanobut:logger:1.8"
+      ]
+    },
+    "0.7.9": {
+      "fetchedAt": "2026-10-23T20:41:07Z",
+      "sha256": "411ab4b6af02c95f0210a3d8abe0089bd5f87b3eb6f741fe553efc8baf0381f1",
+      "dependencies": [
+        "com.orhanobut:logger:1.8",
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.1.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.bluemobi.dylan.pay.wechatpay.PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.9",
+          "0.7.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.7.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.7.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

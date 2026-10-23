@@ -1,0 +1,87 @@
+{
+  "coordinate": "com.adpushup:apmediationsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:35:49Z",
+      "sha256": "1cf69e4d0cc376e430c79cdd6f0c28a516b2179a63c50555045ef1c256fadf32",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.media:media:1.7.0",
+        "androidx.work:work-runtime-ktx:2.7.0",
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.gms:play-services-ads:23.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-23T21:35:47Z",
+      "sha256": "8355a94bd22710a5f9a172e679627dcd6316bfbfff287e4b746a324a080830ff",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.media:media:1.7.0",
+        "androidx.work:work-runtime-ktx:2.7.0",
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.gms:play-services-ads:23.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adpushup.apmediationsdk.activities.ApInterstitialAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpushup.apmediationsdk.activities.ApNIAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.2",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpushup.apmediationsdk.activities.ApRewardedAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

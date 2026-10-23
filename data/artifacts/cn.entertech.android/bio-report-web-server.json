@@ -1,0 +1,45 @@
+{
+  "coordinate": "cn.entertech.android:bio-report-web-server",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T20:43:46Z",
+      "sha256": "a4d24f4b35813e59daf9b7538b6cea82409d986f9b56a5dc84e80fd96b8db9d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:affective-cloud-protocol:0.0.1-vr-control",
+        "cn.entertech.android:affective_sdk_api:1.2.7-vr-control",
+        "cn.entertech.android:base:1.0.1-demo",
+        "cn.entertech.android:bio-report-web-api:0.0.3",
+        "cn.entertech.android:device:0.0.1",
+        "cn.entertech.android:log-api:1.0.9",
+        "cn.entertech.android:log-local:1.0.9",
+        "cn.entertech.android:log:1.0.9",
+        "cn.entertech.android:server:0.0.2-vr-control-debug",
+        "com.google.android.material:material:1.12.0",
+        "com.google.code.gson:gson:2.8.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.entertech.web.report.bio.server.WebReportHttpServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

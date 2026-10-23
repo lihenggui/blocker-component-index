@@ -1,0 +1,165 @@
+{
+  "coordinate": "com.box:box-android-browse-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T22:45:50Z",
+      "sha256": "ab3ac52e829c8527fcaf43e37c78c91b8cdf3a80f327d4b982c9e4bf677a91d6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "com.android.support:recyclerview-v7:22.1.1",
+        "com.box:box-android-sdk:3.0.1"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-23T22:45:49Z",
+      "sha256": "aa6e2bb4d5d245822b66be6786ce6b800853b0b4a3e2c7663016cd2edf2b1857",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "com.android.support:recyclerview-v7:22.1.1",
+        "com.box:box-android-sdk:3.0.2"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-23T22:45:48Z",
+      "sha256": "eb94d4305e79cf15534d6884b7dc9c73bd7bcea701dce363b7d064b5df821fb0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "com.android.support:recyclerview-v7:22.1.1",
+        "com.box:box-android-sdk:3.0.3"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:45:47Z",
+      "sha256": "76036fb7e2d904a40a23e740ac29f56dc976f773518036d21b39208c3f115586",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.android.support:support-v4:23.4.0",
+        "com.box:box-android-sdk:[4.0,4.1)",
+        "org.apache.commons:commons-lang3:3.1"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T22:45:46Z",
+      "sha256": "738e68a99453f8d6e4726b3b9d91fe6ca2cae282f225a43790c77013150b4e37",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.android.support:support-v4:23.4.0",
+        "com.box:box-android-sdk:4.0.8",
+        "org.apache.commons:commons-lang3:3.1"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-23T22:45:44Z",
+      "sha256": "e78555ffa501d8c6c76a82cbe4ddeedcfb8a3b7ee92f27bdcfe2785bd2abbb6e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.android.support:support-v4:23.4.0",
+        "com.box:box-android-sdk:4.0.9",
+        "org.apache.commons:commons-lang3:3.1"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-23T22:45:43Z",
+      "sha256": "ce3976ece7929fe33fb97cf4e3875980c62fce9cfb6d809a6ec859a42715bcec",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.android.support:support-v4:23.4.0",
+        "com.box:box-android-sdk:4.0.10",
+        "org.apache.commons:commons-lang3:3.1"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-23T22:45:43Z",
+      "sha256": "78caae6801b5cf955e3f4afcc31815a9bdeda07d04e39ebbb2413fbf74cc6cff",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.android.support:recyclerview-v7:26.1.0",
+        "com.android.support:support-v4:26.1.0",
+        "com.box:box-android-sdk:4.2.0",
+        "org.apache.commons:commons-lang3:3.1"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T22:45:42Z",
+      "sha256": "080419d82e38d1726b164b1d7f563e6cbcfc5b0cf0acf336b295d6b19e34b5d9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.box:box-android-sdk:5.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T22:45:41Z",
+      "sha256": "c8d08dbd5ba801ffefbd7c3c9fa634c16b57913c83c4a82e43cf222ab95c24e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.box:box-android-sdk:5.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.box.androidsdk.browse.activities.BoxBrowseFileActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "3.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.SEARCH"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "com.box.androidsdk.browse.activities.BoxBrowseFolderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "3.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.box.androidsdk.browse.activities.FilterSearchResults",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "3.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

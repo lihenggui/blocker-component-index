@@ -1,0 +1,215 @@
+{
+  "coordinate": "co.adcel.android:adcel-ads-mediation-interstitial",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T21:14:01Z",
+      "sha256": "448777a291ebfa6a628e3ddcd838978b4bc1bcf565a429207c1294c406370513",
+      "dependencies": [
+        "androidx.cardview:cardview:1.0.0",
+        "co.adcel.android:adcel-ads-mediation:2.0.0",
+        "co.adcel.android:adcel-ads-rtb:2.0.0",
+        "co.adcel.android:adcel-pangle:3.1.0.1",
+        "co.adcel.android:adcel-smaato:9.1.8",
+        "co.ogury:ogury-sdk:5.0.10",
+        "com.adcolony:sdk:4.6.3",
+        "com.amazon.android:mobile-ads:6.0.0",
+        "com.android.support:customtabs:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.applovin:applovin-sdk:10.3.3",
+        "com.criteo.publisher:criteo-publisher-sdk:3.10.2",
+        "com.facebook.android:audience-network-sdk:6.7.0",
+        "com.google.firebase:firebase-ads:20.3.0",
+        "com.inmobi.monetization:inmobi-ads:9.2.1",
+        "com.ironsource.sdk:mediationsdk:7.1.10",
+        "com.mopub:mopub-sdk:5.18.0",
+        "com.my.target:mytarget-sdk:5.13.4",
+        "com.squareup.picasso:picasso:2.71828",
+        "com.startapp:inapp-sdk:4.8.11",
+        "com.tapjoy:tapjoy-android-sdk:12.8.1",
+        "com.unity3d.ads:unity-ads:3.7.5",
+        "com.vungle:publisher-sdk-android:6.10.2",
+        "com.yandex.android:mobileads:4.2.0",
+        "com.yandex.android:mobmetricalib:3.20.1"
+      ]
+    },
+    "2.0.0.1": {
+      "fetchedAt": "2026-10-23T21:14:00Z",
+      "sha256": "f63db161ca7abff7ec94c2b794a64b1498e1aa3b2c1067c0cefd277f65b8fdd0",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation-mopub-single-listener:2.0.0.0",
+        "co.adcel.android:adcel-ads-mediation:2.0.0.0"
+      ]
+    },
+    "2.0.0.2": {
+      "fetchedAt": "2026-10-23T21:13:59Z",
+      "sha256": "df9a1298c5129779c28ea86733487c4f865c4fc0f09a80755fe815dbf4b70600",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation-mopub-single-listener:2.0.0.0",
+        "co.adcel.android:adcel-ads-mediation:2.0.0.0"
+      ]
+    },
+    "2.0.0.3": {
+      "fetchedAt": "2026-10-23T21:13:58Z",
+      "sha256": "0a5a4265b42b54a6ff6c0f4d5ea95640fbc25c28474acaf41325a872714f5b2b",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation-mopub-single-listener:2.0.0.1",
+        "co.adcel.android:adcel-ads-mediation:2.0.0.0"
+      ]
+    },
+    "2.0.0.4": {
+      "fetchedAt": "2026-10-23T21:13:57Z",
+      "sha256": "993b8bd8841fdcf5a95f84955d9aefd4f35f53ce814ee50790934010bd14d23d",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation-mopub-single-listener:2.0.0.1",
+        "co.adcel.android:adcel-ads-mediation:2.0.0.0"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-23T21:13:56Z",
+      "sha256": "1849dc8387f3772bad8c49163cf97ce7217b9d633f8079a7b1d97d66d8e383b8",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation-mopub-single-listener:2.0.4",
+        "co.adcel.android:adcel-ads-mediation:2.0.4"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-23T21:13:55Z",
+      "sha256": "ae4fba32e29c1ab1d24b704f3c76138832cd54f7bcf3dc861f5894d1ea3f273f",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation-mopub-single-listener:2.0.5",
+        "co.adcel.android:adcel-ads-mediation:2.0.5"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-23T21:13:54Z",
+      "sha256": "d519f0feb0a4fd5a3b988722a14f6a29e701908bfd2ef47e44ba34e191d200f2",
+      "dependencies": [
+        "co.adcel.android:adcel-ads-mediation-mopub-single-listener:2.0.6",
+        "co.adcel.android:adcel-ads-mediation:2.0.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.ExpandedBannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.interstitial.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.video.VASTAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapjoy.TJAdUnitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapjoy.TJContentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

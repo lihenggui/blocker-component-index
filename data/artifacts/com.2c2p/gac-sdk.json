@@ -1,0 +1,306 @@
+{
+  "coordinate": "com.2c2p:gac-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:26:48Z",
+      "sha256": "84f0b9f6f0dd2ab55c83f09e5d1245e1fb5ea4f287f66995b0687d278038267f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.camera:camera-camera2:1.4.1",
+        "androidx.camera:camera-core:1.4.1",
+        "androidx.camera:camera-lifecycle:1.4.1",
+        "androidx.camera:camera-view:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.alibaba:fastjson:2.0.21.android",
+        "com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0",
+        "com.google.android.material:material:1.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.zoloz.android.build:zolozkit:1.4.9.250106110026",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.pgpainless:pgpainless-core:1.7.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T21:26:47Z",
+      "sha256": "84f0b9f6f0dd2ab55c83f09e5d1245e1fb5ea4f287f66995b0687d278038267f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.camera:camera-camera2:1.4.2",
+        "androidx.camera:camera-core:1.4.2",
+        "androidx.camera:camera-lifecycle:1.4.2",
+        "androidx.camera:camera-view:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.alibaba:fastjson:2.0.21.android",
+        "com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0",
+        "com.google.android.material:material:1.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.zoloz.android.build:zolozkit:1.4.9.250106110026",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.pgpainless:pgpainless-core:1.7.2"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T21:26:46Z",
+      "sha256": "84f0b9f6f0dd2ab55c83f09e5d1245e1fb5ea4f287f66995b0687d278038267f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.camera:camera-camera2:1.4.2",
+        "androidx.camera:camera-core:1.4.2",
+        "androidx.camera:camera-lifecycle:1.4.2",
+        "androidx.camera:camera-view:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.alibaba:fastjson:2.0.21.android",
+        "com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0",
+        "com.google.android.material:material:1.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.zoloz.android.build:zolozkit:1.4.9.250106110026",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.pgpainless:pgpainless-core:1.7.2"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T21:26:45Z",
+      "sha256": "84f0b9f6f0dd2ab55c83f09e5d1245e1fb5ea4f287f66995b0687d278038267f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.camera:camera-camera2:1.4.2",
+        "androidx.camera:camera-core:1.4.2",
+        "androidx.camera:camera-lifecycle:1.4.2",
+        "androidx.camera:camera-view:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.alibaba:fastjson:2.0.21.android",
+        "com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0",
+        "com.google.android.material:material:1.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.zoloz.android.build:zolozkit:1.4.9.250106110026",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.pgpainless:pgpainless-core:1.7.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.gac.utils.CameraUtil",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.consent.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.comfirmpasscode.SetConfirmPasscodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.information.PersonalInformationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.information.tabs.TabsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.instruction.InstructionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.passcode.SetPasscodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.preview.OCRPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.signup.SignUpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.verifyIdentity.VerifyIdentityInstructionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gac.view.register.verifyotp.VerifyOTPActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

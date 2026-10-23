@@ -1,0 +1,96 @@
+{
+  "coordinate": "com.automateitapp:automateit.plugin.sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:24:49Z",
+      "sha256": "edbd79886b77c6c8c6ea977733d715bc3df26f537db0c61da705d3081ff8d974",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T22:24:49Z",
+      "sha256": "edbd79886b77c6c8c6ea977733d715bc3df26f537db0c61da705d3081ff8d974",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T22:24:48Z",
+      "sha256": "edbd79886b77c6c8c6ea977733d715bc3df26f537db0c61da705d3081ff8d974",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T22:24:47Z",
+      "sha256": "edbd79886b77c6c8c6ea977733d715bc3df26f537db0c61da705d3081ff8d974",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T22:24:46Z",
+      "sha256": "1c068194426db0f880efb535eb1ef0ef80ad3b2f3ab336235f2383a47eb6f81b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.smarterapps.automateitplugin.AutomateItPluginGateway",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.smarterapps.permission.AUTOMATEIT_PLUGIN",
+      "authorities": null,
+      "actions": [
+        "com.smarterapps.intent.AUTOMATEIT_PLUGIN_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smarterapps.automateitplugin.internal.DummyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.smarterapps.permission.AUTOMATEIT_PLUGIN",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smarterapps.automateitplugin.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.bluecats:bluecats-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.3": {
+      "fetchedAt": "2026-10-23T22:44:38Z",
+      "sha256": "3fdabc314b6f78393a9bb064735e672158ae0e391b9686373df96ea60f2282ee",
+      "dependencies": [
+        "com.android.support:support-compat:26.1.0",
+        "com.android.support:support-core-utils:26.1.0",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "2.1.6-r1": {
+      "fetchedAt": "2026-10-23T22:44:37Z",
+      "sha256": "1040474653cdbaff75fa00f661459e03ff0fe8808e90586bc652af1c6fc4db6b",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "2.1.7": {
+      "fetchedAt": "2026-10-23T22:44:36Z",
+      "sha256": "18bc8473e2d474fad87f25b80576bd762a7e984c410012492598725d4b6c8968",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "2.1.7-r3": {
+      "fetchedAt": "2026-10-23T22:44:36Z",
+      "sha256": "1b9aaf50145e9e1eacda4ba0a1d07d30e6b7307e5fa33cfddf88afef258604fa",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "2.1.8": {
+      "fetchedAt": "2026-10-23T22:44:35Z",
+      "sha256": "f74fd7b76abbc18708fb76e2192b83845c31722fe8678859fd7342eb47969aba",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "2.1.8-r1": {
+      "fetchedAt": "2026-10-23T22:44:34Z",
+      "sha256": "fd72f240de2d0827fcb61977b5ab1ef173087f74d4e1a8c0107b56229b41fe4c",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bluecats.sdk.BlueCatsSDKService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.3",
+          "2.1.8-r1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

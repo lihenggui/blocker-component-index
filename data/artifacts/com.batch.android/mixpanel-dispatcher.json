@@ -1,0 +1,67 @@
+{
+  "coordinate": "com.batch.android:mixpanel-dispatcher",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:31:40Z",
+      "sha256": "04fa5ed8bff31d0cb0a872d0d043674d10668ac67a822c7fa0dabe7aa3565a16",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.16.1",
+        "com.mixpanel.android:mixpanel-android:5.8.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T22:31:39Z",
+      "sha256": "04fa5ed8bff31d0cb0a872d0d043674d10668ac67a822c7fa0dabe7aa3565a16",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.16.1",
+        "com.mixpanel.android:mixpanel-android:5.8.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-23T22:31:39Z",
+      "sha256": "240f51dfda5bede47940c87a9b35b3fc5f76c406af0e94b1e5b454959fb5f97b",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.16.1",
+        "com.mixpanel.android:mixpanel-android:5.8.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:31:38Z",
+      "sha256": "30173d6b29d19bb216949033d63825eef42efbd22ec7014fa53c7346a4512c21",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.17.0",
+        "com.mixpanel.android:mixpanel-android:5.8.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T22:31:37Z",
+      "sha256": "69986fd76c16ac065bb0d31328f7eaeb19b45bc48149dfb801e1413555332ed3",
+      "dependencies": [
+        "com.batch.android:batch-sdk:2.1.0",
+        "com.mixpanel.android:mixpanel-android:5.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.batch.android.eventdispatcher.DispatcherDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.batch.android.eventdispatcher:com.batch.android.dispatcher.mixpanel.MixpanelRegistrar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.com2us.android.adiz:hive-adiz-adapter-liftoff",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-23T23:13:01Z",
+      "sha256": "46b2e6bfd0b596d94156d82e8cf86ade34d50ad648bbf51f3ec7029a114e2f23",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.1.1",
+        "com.google.ads.mediation:vungle:7.4.1.0",
+        "com.google.android.gms:play-services-ads:23.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-23T23:13:00Z",
+      "sha256": "46b2e6bfd0b596d94156d82e8cf86ade34d50ad648bbf51f3ec7029a114e2f23",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.1.2",
+        "com.google.ads.mediation:vungle:7.4.1.0",
+        "com.google.android.gms:play-services-ads:23.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.1.3": {
+      "fetchedAt": "2026-10-23T23:12:59Z",
+      "sha256": "46b2e6bfd0b596d94156d82e8cf86ade34d50ad648bbf51f3ec7029a114e2f23",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.1.3",
+        "com.google.ads.mediation:vungle:7.4.1.0",
+        "com.google.android.gms:play-services-ads:23.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.hive.adiz.MediationLiftoffInitializer"
+      ]
+    }
+  ]
+}

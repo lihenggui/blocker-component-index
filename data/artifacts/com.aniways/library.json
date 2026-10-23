@@ -1,0 +1,135 @@
+{
+  "coordinate": "com.aniways:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-23T21:56:24Z",
+      "sha256": "03e48f850a16aed9f7c0fdcc99b04b6b69a0f690d9360339b2eb22cc3e9a0856",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.2",
+        "com.android.support:cardview-v7:[21,)",
+        "com.android.support:gridlayout-v7:[21,)",
+        "com.android.support:support-v4:21.0.2"
+      ]
+    },
+    "2.3.05": {
+      "fetchedAt": "2026-10-23T21:56:23Z",
+      "sha256": "03e48f850a16aed9f7c0fdcc99b04b6b69a0f690d9360339b2eb22cc3e9a0856",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.2",
+        "com.android.support:cardview-v7:[21,)",
+        "com.android.support:gridlayout-v7:[21,)",
+        "com.android.support:support-v4:21.0.2"
+      ]
+    },
+    "2.3.08": {
+      "fetchedAt": "2026-10-23T21:56:22Z",
+      "sha256": "03e48f850a16aed9f7c0fdcc99b04b6b69a0f690d9360339b2eb22cc3e9a0856",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.android.support:cardview-v7:[21,)",
+        "com.android.support:gridlayout-v7:[21,)",
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "2.3.09": {
+      "fetchedAt": "2026-10-23T21:56:22Z",
+      "sha256": "03e48f850a16aed9f7c0fdcc99b04b6b69a0f690d9360339b2eb22cc3e9a0856",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.android.support:cardview-v7:[21,)",
+        "com.android.support:gridlayout-v7:[21,)",
+        "com.android.support:support-v4:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.aniways.analytics.service.AniwaysAnalyticsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.3.09"
+        ]
+      ],
+      "exported": null,
+      "process": ":AniwaysService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.aniways.billing.AniwaysCreditsStoreActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.3.09"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.aniways.service.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.3.09"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.aniways.service.AniwaysIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.3.09"
+        ]
+      ],
+      "exported": null,
+      "process": ":AniwaysService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.aniways.settings.AniwaysSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.3.09"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

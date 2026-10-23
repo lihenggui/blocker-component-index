@@ -1,0 +1,257 @@
+{
+  "coordinate": "com.ca.apim:masui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-23T22:56:33Z",
+      "sha256": "2494dde072aae83f590e6c0bc837919172b1b0c20461b3cbb7949ee35606823f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.browser:browser:1.0.0",
+        "androidx.gridlayout:gridlayout:1.0.0",
+        "com.ca.apim:mas-foundation:2.2.0",
+        "com.google.android.material:material:1.0.0",
+        "net.openid:appauth:0.7.0"
+      ]
+    },
+    "2.3.00": {
+      "fetchedAt": "2026-10-23T22:56:32Z",
+      "sha256": "7a8520a1c51c96748d92f411eb1a4cbcc5cfd1db869c8559ca311e069961b01e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.gridlayout:gridlayout:1.0.0",
+        "com.ca.apim:mas-foundation:2.3.00",
+        "com.google.android.material:material:1.0.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    },
+    "2.4.00": {
+      "fetchedAt": "2026-10-23T22:56:31Z",
+      "sha256": "e0fa11c94eebf5b1b661bf457fe128455471f3132c622e90352dce56da6d5941",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.gridlayout:gridlayout:1.0.0",
+        "com.ca.apim:mas-foundation:2.4.00",
+        "com.google.android.material:material:1.0.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    },
+    "2.5.00": {
+      "fetchedAt": "2026-10-23T22:56:29Z",
+      "sha256": "4a125ce74be4c586af5cc97ea6927ba1b195d8016347ecaff7cfe4801d5d5828",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.2",
+        "androidx.browser:browser:1.4.0",
+        "androidx.gridlayout:gridlayout:1.0.0",
+        "com.ca.apim:mas-foundation:2.5.00",
+        "com.google.android.material:material:1.0.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    },
+    "2.5.1": {
+      "fetchedAt": "2026-10-23T22:56:30Z",
+      "sha256": "59c76f1aed1cb1a1211459e4e96fb0a01a42bdfc71a3f43c2de970dd1200cff6",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.2",
+        "androidx.browser:browser:1.4.0",
+        "androidx.gridlayout:gridlayout:1.0.0",
+        "com.ca.apim:mas-foundation:2.5.1",
+        "com.google.android.material:material:1.0.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ca.mas.ui.MASAppAuthRedirectHandlerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ca.mas.ui.MASEnterpriseWebApplicationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ca.mas.ui.MASFinishActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ca.mas.ui.MASLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ca.mas.ui.MASOAuthRedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ca.mas.ui.MASSessionUnlockActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "MASUI.intent.action.SessionUnlock"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.ca.mas.ui.otp.MASOtpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.00",
+          "2.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.00",
+          "2.3.00"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

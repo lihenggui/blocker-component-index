@@ -1,0 +1,158 @@
+{
+  "coordinate": "com.adobe.creativesdk:typekit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.1062": {
+      "fetchedAt": "2026-10-23T21:31:57Z",
+      "sha256": "a394d33325c4273b2308a3f86e8e846f8108b6fcd5a37d716d8e2dbeecc9c74d",
+      "dependencies": [
+        "ch.tutti.android.bottomsheet:library:1.0",
+        "com.adobe.creativesdk.foundation:assetux:0.9.1062",
+        "com.adobe.creativesdk.foundation:auth:0.9.1062",
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:cardview-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.android.support:recyclerview-v7:23.1.1",
+        "de.greenrobot:eventbus:2.4.0",
+        "org.apmem.tools:layouts:1.10",
+        "uk.co.chrisjenx:calligraphy:2.1.0"
+      ]
+    },
+    "0.9.1186": {
+      "fetchedAt": "2026-10-23T21:31:56Z",
+      "sha256": "9204ba934dc25f5d7db11adba68ed9e65169b51b3a614a3f6d8983f6c39158ad",
+      "dependencies": [
+        "ch.tutti.android.bottomsheet:library:1.0",
+        "com.adobe.creativesdk.foundation:assetux:0.9.1186",
+        "com.adobe.creativesdk.foundation:auth:0.9.1186",
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:cardview-v7:24.2.1",
+        "com.android.support:design:24.2.1",
+        "com.android.support:recyclerview-v7:24.2.1",
+        "de.greenrobot:eventbus:2.4.0",
+        "org.apmem.tools:layouts:1.10",
+        "uk.co.chrisjenx:calligraphy:2.1.0"
+      ]
+    },
+    "0.9.1251": {
+      "fetchedAt": "2026-10-23T21:31:56Z",
+      "sha256": "07e97e3b6e7de4d4b6c61b0f22ee0519def4376bc418ada6433ea25a32199ab0",
+      "dependencies": [
+        "ch.tutti.android.bottomsheet:library:1.0",
+        "com.adobe.creativesdk.foundation:assetux:0.9.1251",
+        "com.adobe.creativesdk.foundation:auth:0.9.1251",
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.android.support:cardview-v7:25.0.1",
+        "com.android.support:design:25.0.1",
+        "com.android.support:recyclerview-v7:25.0.1",
+        "de.greenrobot:eventbus:2.4.0",
+        "org.apmem.tools:layouts:1.10",
+        "uk.co.chrisjenx:calligraphy:2.1.0"
+      ]
+    },
+    "0.9.2001-30": {
+      "fetchedAt": "2026-10-23T21:31:55Z",
+      "sha256": "236396656c050a6936db4e6704b1647f670b177091e365e95793c71a85600a44",
+      "dependencies": [
+        "com.adobe.creativesdk.foundation:auth:0.9.2001-30",
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.android.support:cardview-v7:25.0.1",
+        "com.android.support:design:25.0.1",
+        "com.android.support:recyclerview-v7:25.0.1",
+        "com.android.support:support-v4:25.0.1",
+        "de.greenrobot:eventbus:2.4.0",
+        "org.apmem.tools:layouts:1.10",
+        "uk.co.chrisjenx:calligraphy:2.1.0"
+      ]
+    },
+    "0.9.2006-5": {
+      "fetchedAt": "2026-10-23T21:31:54Z",
+      "sha256": "a42a354fad99382f5ed84fd4248897d5129f6c1bddbf5f87a734b3cc23db054c",
+      "dependencies": [
+        "com.adobe.creativesdk.foundation:auth:0.9.2006-5",
+        "com.android.support:appcompat-v7:26.0.1",
+        "com.android.support:cardview-v7:26.0.1",
+        "com.android.support:design:26.0.1",
+        "com.android.support:recyclerview-v7:26.0.1",
+        "com.android.support:support-v4:26.0.1",
+        "de.greenrobot:eventbus:2.4.0",
+        "org.apmem.tools:layouts:1.10",
+        "uk.co.chrisjenx:calligraphy:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adobe.creativesdk.typekit.TypekitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.1062",
+          "0.9.2006-5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "adobe.intent.action.GET_CONTENT"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.adobe.creativesdk.typekit.TypekitFilterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.1062",
+          "0.9.2006-5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adobe.creativesdk.typekit.TypekitFontInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.1062",
+          "0.9.2006-5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adobe.creativesdk.typekit.TypekitSampleTextPicker",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.1062",
+          "0.9.1251"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

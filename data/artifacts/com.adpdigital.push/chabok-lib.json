@@ -1,0 +1,174 @@
+{
+  "coordinate": "com.adpdigital.push:chabok-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.7.0": {
+      "fetchedAt": "2026-10-23T21:35:24Z",
+      "sha256": "c01817d2559aefc79847d248e0e2724a4e2061b60dae705ec6df61f795bd66ff",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.google.android.gms:play-services-base:16.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "me.leolin:ShortcutBadger:1.1.18"
+      ]
+    },
+    "3.7.1": {
+      "fetchedAt": "2026-10-23T21:35:23Z",
+      "sha256": "6654b189ad523e7972a7f974177d4125a9af61ccf5c6a16c71b63e5976dd6bc6",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.google.android.gms:play-services-base:16.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "me.leolin:ShortcutBadger:1.1.18"
+      ]
+    },
+    "3.7.2": {
+      "fetchedAt": "2026-10-23T21:35:23Z",
+      "sha256": "414004c6c25623969e0976b6ca21b14958f0756113009b88f59e01305de4d38b",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.google.android.gms:play-services-base:16.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "me.leolin:ShortcutBadger:1.1.18"
+      ]
+    },
+    "3.7.3": {
+      "fetchedAt": "2026-10-23T21:35:22Z",
+      "sha256": "590cb9e640ba118876e534949246c8a3d32597cd921568cd49a1ae3834d75597",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.google.android.gms:play-services-base:16.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "me.leolin:ShortcutBadger:1.1.18"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adpdigital.push.AdpBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.0",
+          "3.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "${applicationId}.permission.CHABOK_PERMISSION",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "com.adpdigital.push.service.RESTART"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpdigital.push.ChabokContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.7.0",
+          "3.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.chabokcontentprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpdigital.push.ChabokFirebaseMessaging",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.7.0",
+          "3.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpdigital.push.ChabokReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.0",
+          "3.7.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INSTALL_PACKAGES",
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpdigital.push.ChabokWatchDog",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.0",
+          "3.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "${applicationId}.permission.CHABOK_PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpdigital.push.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.7.0",
+          "3.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adpdigital.push.service.ChabokNotificationOpenedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.0",
+          "3.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "${applicationId}.permission.CHABOK_PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

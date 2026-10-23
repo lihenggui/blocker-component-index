@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.chenenyu.router:router",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.5": {
+      "fetchedAt": "2026-10-23T23:03:51Z",
+      "sha256": "acc605abf34c476450a73501ec6460076bd26d85b58fe063df27511778108962",
+      "dependencies": [
+        "com.chenenyu.router:annotation:0.5.0"
+      ]
+    },
+    "1.7.6": {
+      "fetchedAt": "2026-10-23T23:03:50Z",
+      "sha256": "bb2f966fee237dca7b88f5e6cb2aaeef5552bafaaabcc8bd4f9771d696725735",
+      "dependencies": [
+        "com.chenenyu.router:annotation:0.5.0"
+      ]
+    },
+    "1.8.0": {
+      "fetchedAt": "2026-10-23T23:03:49Z",
+      "sha256": "06ecfb55b17c023f13d9791ec1a064d2e3af9a80e727d9e7fe099ce42a06bbd9",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.chenenyu.router:annotation:0.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.8.0",
+          "1.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.chenenyu.router.RouterInitializer"
+      ]
+    }
+  ]
+}

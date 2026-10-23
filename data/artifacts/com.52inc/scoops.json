@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.52inc:scoops",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-23T21:27:50Z",
+      "sha256": "a5f8b5b6aec6b34a398c5927d75d2ba40fbbebb794929defc9b89583a6ae6ce3",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-23T21:27:50Z",
+      "sha256": "b71ba5da5b4f62db530c7a0fda72c3d376d935f9b04389c482bf9453ed685ddd",
+      "dependencies": [
+        "com.52inc:scoops-core:0.3.0",
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.android.support:recyclerview-v7:24.0.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:27:49Z",
+      "sha256": "b71ba5da5b4f62db530c7a0fda72c3d376d935f9b04389c482bf9453ed685ddd",
+      "dependencies": [
+        "com.52inc:scoops-core:1.0.0",
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.android.support:recyclerview-v7:24.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ftinc.scoop.ui.ScoopSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

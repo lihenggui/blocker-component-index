@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.bytedance.tools.codelocator:leakcanary-android-process",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.12": {
+      "fetchedAt": "2026-10-23T22:55:08Z",
+      "sha256": "f1679310e33123b90863f175193d23296a18408783e98225d207f64c4473ce98",
+      "dependencies": [
+        "androidx.work:work-multiprocess:2.7.0",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.12",
+        "com.bytedance.tools.codelocator:shark-log:2.12",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "2.13": {
+      "fetchedAt": "2026-10-23T22:55:06Z",
+      "sha256": "f1679310e33123b90863f175193d23296a18408783e98225d207f64c4473ce98",
+      "dependencies": [
+        "androidx.work:work-multiprocess:2.7.0",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.13",
+        "com.bytedance.tools.codelocator:shark-log:2.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "leakcanary.internal.RemoteLeakCanaryWorkerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": false,
+      "process": ":leakcanary",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

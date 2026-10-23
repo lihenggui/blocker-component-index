@@ -1,0 +1,89 @@
+{
+  "coordinate": "com.blankj:utilcode",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.30.7": {
+      "fetchedAt": "2026-10-23T22:43:41Z",
+      "sha256": "c94c032421914ef37daf35e93784185534818f71af8798eb05ca35f66047a99c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.blankj.utilcode.util.MessengerUtils$ServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.30.7",
+          "1.30.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.messenger"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.30.7",
+          "1.30.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.utilcode.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.30.7",
+          "1.30.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsTransActivity4MainProcess",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.30.7",
+          "1.30.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

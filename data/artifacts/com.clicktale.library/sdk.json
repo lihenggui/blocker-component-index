@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.clicktale.library:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.1.1.95": {
+      "fetchedAt": "2026-10-23T23:09:36Z",
+      "sha256": "07be6fb3fce837e2a303ae9b401fad52e921b62e45115c156402e4c24c39b9f7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.clicktale.clicktalesdk.CTJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.1.95",
+          "3.1.1.95"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clicktale.clicktalesdk.CTService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.1.95",
+          "3.1.1.95"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clicktale.clicktalesdk.CTWifiReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.1.1.95",
+          "3.1.1.95"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clicktale.clicktalesdk.detectors.life_cycle.LifecycleInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.1.1.95",
+          "3.1.1.95"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.clicktalesdk.lifecycle_detector",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

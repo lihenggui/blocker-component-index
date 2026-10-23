@@ -1,0 +1,36 @@
+{
+  "coordinate": "cn.jiguang.sdk:jshare-sinamodel",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T20:55:57Z",
+      "sha256": "435f2ba504a2080b5eb44e6643aa768822d3ddacbb0f15de8c40d0c2c5f4a454",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.jiguang.share.android.ui.JiguangShellActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

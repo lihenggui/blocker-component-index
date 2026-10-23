@@ -1,0 +1,98 @@
+{
+  "coordinate": "com.chooongg.android:ktx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T23:04:39Z",
+      "sha256": "8f4c7b78688fd2e13afdd8cb06b621d3bd466f2d5456c2555d6239a5daf91fd9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T23:04:38Z",
+      "sha256": "7cb43d833c95d6be187bdab91e0db398fd5ec586f27bf0dff845eb00f4d75492",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T23:04:37Z",
+      "sha256": "38d7daa1a78b2b536791ee76cd8885ee64f1e81238100b9069b18617b0f7db18",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0-alpha03",
+        "androidx.core:core-ktx:1.13.0-rc01",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.material:material:1.12.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.chooongg.ChooonggKtxInitializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.chooongg.android.ChooonggUtilsInitializer"
+      ]
+    },
+    {
+      "name": "com.chooongg.android.ChoooonggFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.chooongg.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

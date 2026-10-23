@@ -1,0 +1,114 @@
+{
+  "coordinate": "com.audioburst:player-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T22:21:44Z",
+      "sha256": "639f822062ab5a33d93d2f65f7ec81917f6fe21d7b5350b24e59179cfb871b40",
+      "dependencies": [
+        "com.audioburst:mobile-library:0.0.20",
+        "com.google.android.exoplayer:exoplayer-core:2.13.3",
+        "com.google.android.exoplayer:exoplayer-hls:2.13.3",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.3",
+        "com.google.android.exoplayer:extension-mediasession:2.13.3",
+        "com.google.android.exoplayer:extension-okhttp:2.13.3",
+        "junit:junit:4.13.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T22:21:44Z",
+      "sha256": "639f822062ab5a33d93d2f65f7ec81917f6fe21d7b5350b24e59179cfb871b40",
+      "dependencies": [
+        "com.audioburst:mobile-library:0.0.21",
+        "com.google.android.exoplayer:exoplayer-core:2.13.3",
+        "com.google.android.exoplayer:exoplayer-hls:2.13.3",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.3",
+        "com.google.android.exoplayer:extension-mediasession:2.13.3",
+        "com.google.android.exoplayer:extension-okhttp:2.13.3",
+        "junit:junit:4.13.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T22:21:43Z",
+      "sha256": "639f822062ab5a33d93d2f65f7ec81917f6fe21d7b5350b24e59179cfb871b40",
+      "dependencies": [
+        "com.audioburst:mobile-library:0.0.21",
+        "com.google.android.exoplayer:exoplayer-core:2.13.3",
+        "com.google.android.exoplayer:exoplayer-hls:2.13.3",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.3",
+        "com.google.android.exoplayer:extension-mediasession:2.13.3",
+        "com.google.android.exoplayer:extension-okhttp:2.13.3",
+        "junit:junit:4.13.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-23T22:21:42Z",
+      "sha256": "639f822062ab5a33d93d2f65f7ec81917f6fe21d7b5350b24e59179cfb871b40",
+      "dependencies": [
+        "com.audioburst:mobile-library:[0.0,0.1)",
+        "com.google.android.exoplayer:exoplayer-core:2.13.3",
+        "com.google.android.exoplayer:exoplayer-hls:2.13.3",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.3",
+        "com.google.android.exoplayer:extension-mediasession:2.13.3",
+        "com.google.android.exoplayer:extension-okhttp:2.13.3",
+        "junit:junit:4.13.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-23T22:21:42Z",
+      "sha256": "292d98472484ff6f6f683bea4103e064ce1f1406ee2528376860180b04326fca",
+      "dependencies": [
+        "com.audioburst:mobile-library:[0.0,0.1)",
+        "com.google.android.exoplayer:exoplayer-core:2.13.3",
+        "com.google.android.exoplayer:exoplayer-hls:2.13.3",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.3",
+        "com.google.android.exoplayer:extension-mediasession:2.13.3",
+        "com.google.android.exoplayer:extension-okhttp:2.13.3",
+        "junit:junit:4.13.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-23T22:21:41Z",
+      "sha256": "1b9d8e63543171647cf0d1a7d74d74b58257316a5f78f341f14d822106321fb5",
+      "dependencies": [
+        "com.audioburst:mobile-library:[0.0,0.1)",
+        "com.google.android.exoplayer:exoplayer-core:2.16.1",
+        "com.google.android.exoplayer:exoplayer-hls:2.16.1",
+        "com.google.android.exoplayer:exoplayer-ui:2.16.1",
+        "com.google.android.exoplayer:extension-mediasession:2.16.1",
+        "com.google.android.exoplayer:extension-okhttp:2.16.1",
+        "junit:junit:4.13.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.audioburst.player.core.media.MediaService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INTERNET",
+      "authorities": null,
+      "actions": [
+        "android.media.action.MEDIA_PLAY_FROM_SEARCH",
+        "android.media.browse.MediaBrowserService"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "coordinate": "co.elastic.otel.android.instrumentation:okhttp-bytebuddy",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T21:16:33Z",
+      "sha256": "919209c9abc042a575ccd520e1984a38314229c4d2c4fd32ef038d8e77dbdd8e",
+      "dependencies": [
+        "co.elastic.otel.android.instrumentation:api:1.1.0",
+        "co.elastic.otel.android.instrumentation:okhttp-library:1.1.0",
+        "co.elastic.otel.android:agent-common:1.1.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "net.bytebuddy:byte-buddy:1.17.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    }
+  },
+  "components": []
+}

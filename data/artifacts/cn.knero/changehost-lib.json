@@ -1,0 +1,49 @@
+{
+  "coordinate": "cn.knero:changehost-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-23T20:56:32Z",
+      "sha256": "6c0ddda8f00c8549a42c730ecfc11d6f93f7163f3097adb43a2953f3b38b4ad1",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.knero.library.activity.ServiceLocationSettingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.knero.library.services.FloatItemService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

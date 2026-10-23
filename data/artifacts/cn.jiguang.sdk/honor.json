@@ -1,0 +1,32 @@
+{
+  "coordinate": "cn.jiguang.sdk:honor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.7.0.a": {
+      "fetchedAt": "2026-10-23T20:53:42Z",
+      "sha256": "9cbb21278b18f08497dfc6156021c924fdcd22d1720af38702d26d6cdf1c33b7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.jpush.android.service.JHonorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.7.0.a",
+          "4.7.0.a"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

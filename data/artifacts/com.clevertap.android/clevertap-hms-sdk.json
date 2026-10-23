@@ -1,0 +1,120 @@
+{
+  "coordinate": "com.clevertap.android:clevertap-hms-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T23:08:56Z",
+      "sha256": "2d5b70b5aa33a622d317d70d3ed0c85862d3f7d51715a36b91433f91441f202e",
+      "dependencies": [
+        "com.huawei.hms:push:5.0.0.300"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T23:08:56Z",
+      "sha256": "b5c5a6471773fac7bc4bc24b8743eec4775e611b4eac8796056a27831dba4f2f",
+      "dependencies": [
+        "com.huawei.hms:push:5.1.1.301"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T23:08:55Z",
+      "sha256": "7f51086bdc7ef46bdf4038e85d479f0d77518ea407614a4ba8351ce82cb93a87",
+      "dependencies": [
+        "com.huawei.hms:push:5.3.0.304"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T23:08:54Z",
+      "sha256": "058fa2b3602b99db18a6f0cc28139c25e4901b90914a000b69bcb58ee8a9cbb2",
+      "dependencies": [
+        "com.huawei.hms:push:6.1.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-23T23:08:53Z",
+      "sha256": "058fa2b3602b99db18a6f0cc28139c25e4901b90914a000b69bcb58ee8a9cbb2",
+      "dependencies": [
+        "com.huawei.hms:push:6.1.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-23T23:08:52Z",
+      "sha256": "058fa2b3602b99db18a6f0cc28139c25e4901b90914a000b69bcb58ee8a9cbb2",
+      "dependencies": [
+        "com.huawei.hms:push:6.3.0.304",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-23T23:08:51Z",
+      "sha256": "058fa2b3602b99db18a6f0cc28139c25e4901b90914a000b69bcb58ee8a9cbb2",
+      "dependencies": [
+        "com.huawei.hms:push:6.5.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.3.2": {
+      "fetchedAt": "2026-10-23T23:08:50Z",
+      "sha256": "e812795d8d1d70da0c7c36e3cac08d3718f87493fc980c82ecc79f025edfc827",
+      "dependencies": [
+        "com.huawei.hms:push:6.7.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.3.3": {
+      "fetchedAt": "2026-10-23T23:08:50Z",
+      "sha256": "e812795d8d1d70da0c7c36e3cac08d3718f87493fc980c82ecc79f025edfc827",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.3.4": {
+      "fetchedAt": "2026-10-23T23:08:49Z",
+      "sha256": "eda544a127e5d63d52ab0ea0b50edf621b1ef5bc75cc5e0dbc82d6301106c7e7",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-23T23:08:48Z",
+      "sha256": "11011a0b049438f8f2166ed9efb1ec165b913daeb8190e0bf9a8b738d48b2cca",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.10"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-23T23:08:47Z",
+      "sha256": "11011a0b049438f8f2166ed9efb1ec165b913daeb8190e0bf9a8b738d48b2cca",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.clevertap.android.hms.CTHmsMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

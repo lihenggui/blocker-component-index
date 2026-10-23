@@ -1,0 +1,281 @@
+{
+  "coordinate": "com.cmcim.upush.android:upush",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:11:37Z",
+      "sha256": "5d7b0d0e0edf3a0c60fdef68dfd5ec7ce74e91003a93ea5bcf62def906a1ed61",
+      "dependencies": []
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T23:11:36Z",
+      "sha256": "eef40f72d2d30772012c800b9c7a63ee3e6f8f6249195a6914bc5460e993c7eb",
+      "dependencies": []
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-23T23:11:35Z",
+      "sha256": "bd0de8eb5eebbdf62c20a50c34ae30272eb8c826c48168e6f990ae918d53158f",
+      "dependencies": []
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-23T23:11:34Z",
+      "sha256": "a5ae11a810540552e664d8ac2664ffdb2f26c371e9a30f175ccb8852307c84c8",
+      "dependencies": []
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-23T23:11:33Z",
+      "sha256": "6d23bf95a6b0c05d7068ef3b18f1a68e475a3e5dbf8be46c7f38a132cfd834d0",
+      "dependencies": []
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-23T23:11:33Z",
+      "sha256": "c07ac6b6d1b2c5ff6faaa1f159fc3c0a9dc8605b80317d58cac4b4c0a5a471ec",
+      "dependencies": []
+    },
+    "2.0.9": {
+      "fetchedAt": "2026-10-23T23:11:32Z",
+      "sha256": "a263129cca96194d280f285c46ccfdef3f459f5d8525373d55045423a826d463",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-23T23:11:31Z",
+      "sha256": "60e57f77f994729eda500dd7977a7fa7ddac981f661a1707d52d397302e1e904",
+      "dependencies": []
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-23T23:11:30Z",
+      "sha256": "91026fa10d821bb586b4472a72437fec80b0f6ffed335ede855bae9d24075897",
+      "dependencies": []
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-23T23:11:29Z",
+      "sha256": "1990d2c7cae5314378599b9f8c4d5fd734e0565701f10640d0a8987b65264b7d",
+      "dependencies": []
+    },
+    "2.1.3": {
+      "fetchedAt": "2026-10-23T23:11:28Z",
+      "sha256": "8abbcb08064614edc61a208d1ee52634eaa812bb0c4030add7657e5f516a1294",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.cmcim.upush.android.sdk.UPushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "com.cmcim.upush.android.sdk.UPushActivity"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.UPushActivity1",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "upush.action.NOTIFICATION_CLICKED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.UPushActivity1",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.3",
+          "2.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "upush.action.NOTIFICATION_CLICKED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.receiver.UHeartbeatReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":upush2",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.cmcim.upush.android.sdk.broadcast.HEART_BEAT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.receiver.UHeartbeatReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.3",
+          "2.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": ":upush2",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.cmcim.upush.android.sdk.broadcast.HEART_BEAT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.receiver.UNetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.9",
+          "2.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.Net.wifi.WIFI_STATE_CHANGED",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.receiver.UNetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.receiver.UPushSysEventReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.PACKAGE_DATA_CLEARED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.service.UPushDaemonService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": ":daemon",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.service.UPushJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cmcim.upush.android.sdk.service.UPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": ":upush2",
+      "permission": "com.cmcim.upush.service.permission.RemoteAccess",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

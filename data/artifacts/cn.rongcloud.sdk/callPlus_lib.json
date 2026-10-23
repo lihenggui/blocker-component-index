@@ -1,0 +1,75 @@
+{
+  "coordinate": "cn.rongcloud.sdk:callPlus_lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0.0.1": {
+      "fetchedAt": "2026-10-23T21:05:47Z",
+      "sha256": "64e32c931f9fca62eb6404d5047475f8092c22b64e2fd893600bc988a3c0a44a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.0.0.2": {
+      "fetchedAt": "2026-10-23T21:05:46Z",
+      "sha256": "64e32c931f9fca62eb6404d5047475f8092c22b64e2fd893600bc988a3c0a44a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.0.0.3": {
+      "fetchedAt": "2026-10-23T21:05:45Z",
+      "sha256": "64e32c931f9fca62eb6404d5047475f8092c22b64e2fd893600bc988a3c0a44a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.0.0.4": {
+      "fetchedAt": "2026-10-23T21:05:44Z",
+      "sha256": "64e32c931f9fca62eb6404d5047475f8092c22b64e2fd893600bc988a3c0a44a",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.rongcloud.calllib.im.GroupCallContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.0.0.1",
+          "0.0.0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.GroupCallContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.rongcloud.calllib.utils.PhoneStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.0.0.1",
+          "0.0.0.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.citcon.sdk:unionpay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T23:05:50Z",
+      "sha256": "f832f90ce586bc0f6b6388eba124db675288d4dfda411113664a383e6e05d218",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-23T23:05:48Z",
+      "sha256": "f832f90ce586bc0f6b6388eba124db675288d4dfda411113664a383e6e05d218",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-23T23:05:47Z",
+      "sha256": "be675dc6c02830f75e52d414376a62b2ab8521b17e2d229b7b2e4fb3d755a05a",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.unionpay.UPPayWapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.unionpay.uppay.PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

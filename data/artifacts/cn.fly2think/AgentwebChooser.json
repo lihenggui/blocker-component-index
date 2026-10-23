@@ -1,0 +1,70 @@
+{
+  "coordinate": "cn.fly2think:AgentwebChooser",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T20:45:08Z",
+      "sha256": "2a4566423442c2db634d97f8eacfd1c8f320e215dcd13938a3398b45bc6c21f7",
+      "dependencies": [
+        "com.just.agentweb:agentweb:4.1.4"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T20:45:07Z",
+      "sha256": "2a4566423442c2db634d97f8eacfd1c8f320e215dcd13938a3398b45bc6c21f7",
+      "dependencies": [
+        "com.github.Justson.AgentWeb:agentweb-core:v5.0.0-alpha"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T20:45:05Z",
+      "sha256": "2a4566423442c2db634d97f8eacfd1c8f320e215dcd13938a3398b45bc6c21f7",
+      "dependencies": [
+        "com.github.HuanTanSheng:EasyPhotos:2.4.5",
+        "com.github.Justson.AgentWeb:agentweb-core:v5.0.0-alpha",
+        "com.github.bumptech.glide:glide:4.0.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-23T20:45:04Z",
+      "sha256": "2a4566423442c2db634d97f8eacfd1c8f320e215dcd13938a3398b45bc6c21f7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.HuanTanSheng:EasyPhotos:3.1.5",
+        "com.github.Justson.AgentWeb:agentweb-core:v5.0.6-androidx",
+        "com.github.bumptech.glide:glide:4.12.0"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-23T20:45:03Z",
+      "sha256": "2a4566423442c2db634d97f8eacfd1c8f320e215dcd13938a3398b45bc6c21f7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.HuanTanSheng:EasyPhotos:3.1.5",
+        "com.github.Justson.AgentWeb:agentweb-core:v5.0.6-androidx",
+        "com.github.bumptech.glide:glide:4.12.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.just.agentweb.filechooser.WLWebFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.WLWebFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

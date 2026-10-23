@@ -1,0 +1,30 @@
+{
+  "coordinate": "cn.com.analysys:analysys_core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.8": {
+      "fetchedAt": "2026-10-23T20:42:17Z",
+      "sha256": "a5813a58adde62c7b472d1c54ff793c433cab9f9f008b2c362a83573aff8dfc7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.analysys.database.AnsContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.3.8",
+          "4.3.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AnsContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

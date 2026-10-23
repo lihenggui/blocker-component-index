@@ -1,0 +1,202 @@
+{
+  "coordinate": "co.roverlabs:rover-estimote",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T21:23:00Z",
+      "sha256": "ce5966dc459514b4eb09571b621bcb236848b154c0447974057175190e2d509a",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.0.1",
+        "com.android.support:appcompat-v7:23.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-23T21:23:00Z",
+      "sha256": "730b83f6df0cf1efee0f0c5051d1ef400bc5a437fd42c15d3e6be25158beab88",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.0.2",
+        "com.android.support:appcompat-v7:23.1.0"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-23T21:22:59Z",
+      "sha256": "71e1529988bbb2d3969fbb1a4129e67448a7c4d015406bcbeb301585db7acba0",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.0.3",
+        "com.android.support:appcompat-v7:23.1.0"
+      ]
+    },
+    "3.0.4": {
+      "fetchedAt": "2026-10-23T21:22:58Z",
+      "sha256": "34136020d205c45b79e2fecf33bc55320808c444c0d0f0a77435c6253c334043",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.0.4",
+        "com.android.support:appcompat-v7:23.1.0"
+      ]
+    },
+    "3.0.5": {
+      "fetchedAt": "2026-10-23T21:22:57Z",
+      "sha256": "19fc3eb70b80ac239b3b408351a7e2164a614138539d8b74262f4b882effc579",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.0.5",
+        "com.android.support:appcompat-v7:23.1.1"
+      ]
+    },
+    "3.0.6": {
+      "fetchedAt": "2026-10-23T21:22:56Z",
+      "sha256": "16d42656591b0652cba781ee54f8382e066d9913a0f03e92ab088fbb255e868f",
+      "dependencies": [
+        "MyTestApplication:rover-core:unspecified",
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services:8.4.0"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-23T21:22:55Z",
+      "sha256": "5d99ce0d9a12ed725424dee791115aa80408d9399f61d2fee11d0e28f3e6c4ee",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.1.0",
+        "com.android.support:appcompat-v7:23.1.1"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-23T21:22:54Z",
+      "sha256": "d7d3d2ea5b4c2aa80f76ab3811b99303347892aad390b0ad48f69abcb8e7126b",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.2.0",
+        "com.google.android.gms:play-services:8.4.0"
+      ]
+    },
+    "3.2.1": {
+      "fetchedAt": "2026-10-23T21:22:54Z",
+      "sha256": "ff8df44acc4b6fce0147a03dcb0310a926123409be20c209159c48fa5f2c8070",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.2.0",
+        "com.google.android.gms:play-services-location:8.4.0"
+      ]
+    },
+    "3.2.2": {
+      "fetchedAt": "2026-10-23T21:22:53Z",
+      "sha256": "2792701192f240a791f95e1db28010b585e448bbf7ed3f2bced1c02ef27195b1",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.2.0",
+        "com.google.android.gms:play-services-location:8.4.0"
+      ]
+    },
+    "3.2.3": {
+      "fetchedAt": "2026-10-23T21:22:52Z",
+      "sha256": "0c0973d9ed355651e7d70bb29002c296da2362fefff3aab71f6f77a2379ea8b6",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.2.1",
+        "com.google.android.gms:play-services-location:8.4.0"
+      ]
+    },
+    "3.2.4": {
+      "fetchedAt": "2026-10-23T21:22:52Z",
+      "sha256": "be3b0d3d351988e10a304f356682539c63b9477696e0fd38f1983408b77ec36e",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.2.2",
+        "com.google.android.gms:play-services-location:8.4.0"
+      ]
+    },
+    "3.2.5": {
+      "fetchedAt": "2026-10-23T21:22:51Z",
+      "sha256": "893327f6313c847810b993dddbdbcfb747f52a53a1f8dc5e08f7f02a0575849f",
+      "dependencies": [
+        "co.roverlabs:rover-core:3.2.2",
+        "com.google.android.gms:play-services-location:8.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "co.roverlabs.estimote.GeofenceTransitions",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.6",
+          "3.2.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.roverlabs.estimote.LocationTransitions",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.0",
+          "3.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.roverlabs.estimote.LocationUpdates",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.6",
+          "3.0.6"
+        ],
+        [
+          "3.2.0",
+          "3.2.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.roverlabs.estimote.RoverEstimoteService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.0",
+          "3.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.estimote.sdk.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.2.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-startup",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.12": {
+      "fetchedAt": "2026-10-23T22:55:16Z",
+      "sha256": "ad9adf30a307dd0e5596843df6619cfb1689371574dc4a20d47be6dec005c8c6",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.12",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "2.13": {
+      "fetchedAt": "2026-10-23T22:55:15Z",
+      "sha256": "ad9adf30a307dd0e5596843df6619cfb1689371574dc4a20d47be6dec005c8c6",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "leakcanary.AppWatcherStartupInitializer"
+      ]
+    }
+  ]
+}

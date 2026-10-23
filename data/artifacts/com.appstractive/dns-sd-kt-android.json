@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.appstractive:dns-sd-kt-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:13:36Z",
+      "sha256": "55b23028694790a2358ac355bda8d0f8c5682b1dcc0e9171eabaa0ce0827d49a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T22:13:35Z",
+      "sha256": "55b23028694790a2358ac355bda8d0f8c5682b1dcc0e9171eabaa0ce0827d49a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T22:13:34Z",
+      "sha256": "7d88e38d41ceb6b6876a78b922f55787b6f03539fe5eda0c8d213f8435828bd7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T22:13:33Z",
+      "sha256": "7d88e38d41ceb6b6876a78b922f55787b6f03539fe5eda0c8d213f8435828bd7",
+      "dependencies": [
+        "DNS-SD:lib-java:unspecified",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T22:13:30Z",
+      "sha256": "7d88e38d41ceb6b6876a78b922f55787b6f03539fe5eda0c8d213f8435828bd7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.appstractive:dns-sd-java:1.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-23T22:13:32Z",
+      "sha256": "a46226cce6c7b8cb8dc3062f0a326dd3738d940b84e0390ddd3b2025cf597af0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T22:13:31Z",
+      "sha256": "9107fb020cf29c853a4eff0c3511b4b91bd24c231b16ede2c4316210b5167485",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.appstractive.dnssd.AppContextInitializer"
+      ]
+    }
+  ]
+}

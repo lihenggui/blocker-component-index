@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.automatic:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-23T22:24:54Z",
+      "sha256": "4084d8fd456c0f1045911fa28ff1fbe5c934a3c8a24a2f7c26c4d3a23d164897",
+      "dependencies": []
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-23T22:24:53Z",
+      "sha256": "f951e3bf4933cae88a4a8e191b0f7294c0a517e3349385563617e4891b784992",
+      "dependencies": []
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-23T22:24:53Z",
+      "sha256": "4b0443422dcf6d778fd1e5c06db1be2cf8814a0f1f53e8d63acc99d297404138",
+      "dependencies": []
+    },
+    "0.2.2": {
+      "fetchedAt": "2026-10-23T22:24:52Z",
+      "sha256": "413508580fcd28c1ecd0f6488f4b5676eb45235f9a08e510576f3890eb961e65",
+      "dependencies": []
+    },
+    "0.3": {
+      "fetchedAt": "2026-10-23T22:24:51Z",
+      "sha256": "2a3516177325000fa02705d122a73db5fcb13871ec2cb45fb8a8439be8e8b3ea",
+      "dependencies": []
+    },
+    "0.4": {
+      "fetchedAt": "2026-10-23T22:24:50Z",
+      "sha256": "eaa4b5a77c89a50dc3edf8d0678ab751653714ef35cc690687ac780f1b2e7fe9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.automatic.android.sdk.ServiceBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.2",
+          "0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.automatic.ACTION_PING"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

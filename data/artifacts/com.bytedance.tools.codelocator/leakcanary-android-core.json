@@ -1,0 +1,127 @@
+{
+  "coordinate": "com.bytedance.tools.codelocator:leakcanary-android-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.12": {
+      "fetchedAt": "2026-10-23T22:55:04Z",
+      "sha256": "b20feb4d6c80447baaecac9ac052372d37d77925b52cab04ec688096ffbc91cb",
+      "dependencies": [
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-androidx:2.12",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.12",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-support-fragments:2.12",
+        "com.bytedance.tools.codelocator:shark-android:2.12",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "2.13": {
+      "fetchedAt": "2026-10-23T22:55:03Z",
+      "sha256": "b20feb4d6c80447baaecac9ac052372d37d77925b52cab04ec688096ffbc91cb",
+      "dependencies": [
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-androidx:2.13",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-core:2.13",
+        "com.bytedance.tools.codelocator:leakcanary-object-watcher-android-support-fragments:2.13",
+        "com.bytedance.tools.codelocator:shark-android:2.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "leakcanary.internal.LeakCanaryFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.squareup.leakcanary.fileprovider.${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "leakcanary.internal.NotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "leakcanary.internal.RequestPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "leakcanary.internal.activity.LeakActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "leakcanary.internal.activity.LeakLauncherActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER",
+        "android.intent.category.LEANBACK_LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

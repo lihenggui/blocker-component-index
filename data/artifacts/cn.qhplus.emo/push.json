@@ -1,0 +1,198 @@
+{
+  "coordinate": "cn.qhplus.emo:push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.12.0": {
+      "fetchedAt": "2026-10-23T21:00:45Z",
+      "sha256": "a46919bd7521b91b0da9320548aa5822f3fd5c77ccd31d81805f309b02ac7979",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.annotation:annotation:1.7.1",
+        "androidx.core:core-ktx:1.12.0",
+        "cn.qhplus.emo:core:0.12.0",
+        "cn.qhplus.emo:device:0.12.0",
+        "cn.qhplus.emo:kv:0.12.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.hihonor.mcs:push:7.0.61.302",
+        "com.huawei.hms:push:6.12.0.300",
+        "commons-codec:commons-codec:1.16.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "0.14.0": {
+      "fetchedAt": "2026-10-23T21:00:44Z",
+      "sha256": "a46919bd7521b91b0da9320548aa5822f3fd5c77ccd31d81805f309b02ac7979",
+      "dependencies": [
+        "androidx.activity:activity:1.9.2",
+        "androidx.annotation:annotation:1.8.2",
+        "androidx.core:core-ktx:1.13.1",
+        "cn.qhplus.emo:core:0.14.0",
+        "cn.qhplus.emo:device:0.14.0",
+        "cn.qhplus.emo:kv:0.14.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.hihonor.mcs:push:7.0.61.302",
+        "com.huawei.hms:push:6.12.0.300",
+        "commons-codec:commons-codec:1.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.qhplus.emo.push.PushDeepLinkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.qhplus.emo.push.honor.HonorPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.qhplus.emo.push.huawei.HwPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.qhplus.emo.push.mi.MiPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.qhplus.emo.push.vivo.VivoPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.12.0",
+          "0.14.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

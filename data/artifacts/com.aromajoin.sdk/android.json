@@ -1,0 +1,80 @@
+{
+  "coordinate": "com.aromajoin.sdk:android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.4.4": {
+      "fetchedAt": "2026-10-23T22:18:22Z",
+      "sha256": "c1f8e53f6a9a7f9365600056b07a1115c0e92b947c8c2cc4852189967328ef35",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.aromajoin.sdk:core:2.5.2"
+      ]
+    },
+    "2.4.5": {
+      "fetchedAt": "2026-10-23T22:18:21Z",
+      "sha256": "71a242e51eacfbdce26632546850d5a1608b3eee2eecdd60c2f3c7ebe6fad90b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.aromajoin.sdk:core:2.5.2"
+      ]
+    },
+    "2.4.6": {
+      "fetchedAt": "2026-10-23T22:18:19Z",
+      "sha256": "b97b2e3409ed1f89a2466cc2d8765fd6705d63d76e6c1bd2b5ab35440684be9b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.aromajoin.sdk:core:2.5.2",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-23T22:18:20Z",
+      "sha256": "25ab6047e40aaab981cc05c67de4f49024c3e6e50b205eef313569e27de8d9c3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.aromajoin.sdk:core:3.1.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.aromajoin.sdk.android.ble.ui.ASConnectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0",
+          "3.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.aromajoin.sdk.android.ble.ui.ASConnectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.4",
+          "2.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

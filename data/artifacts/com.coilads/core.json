@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.coilads:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.8": {
+      "fetchedAt": "2026-10-23T23:12:35Z",
+      "sha256": "b8463fcf2c76f20cf2b645f1ac583e6090c056f06dc5b2e128963c7e2ea2da19",
+      "dependencies": [
+        "androidx.core:core-ktx:1.1.0",
+        "com.coilads:base:0.1.8",
+        "com.coilads:common:0.1.8",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.coilads.core.regulation.RegulationsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.8",
+          "0.1.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

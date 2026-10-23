@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.bingzer.android.driven:driven-dropbox",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:43:23Z",
+      "sha256": "82405ee94c5608c4db0071d4dd5ca2179dd7555291f00a01bd1b8be16afbf3e0",
+      "dependencies": [
+        "com.bingzer.android.driven:driven:1.0.0",
+        "com.squareup.dagger:dagger:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bingzer.android.driven.dropbox.app.DropboxActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

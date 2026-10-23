@@ -1,0 +1,343 @@
+{
+  "coordinate": "co.customer360:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0": {
+      "fetchedAt": "2026-10-23T21:15:14Z",
+      "sha256": "2eb44448faa8dbbd2b34c80263ee06f82918486d4dd4f7b6ec30ed9c1c7abf3f",
+      "dependencies": []
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T21:15:13Z",
+      "sha256": "3480bb9f0ef3d057f6a98e53dbd7c4ca329896a45d867ebe59fbde74dcda26af",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:15:12Z",
+      "sha256": "42bcc4682e4c79e11c580d5e8267b731b67630ceef24e595c6e512c8ee89c02b",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T21:15:11Z",
+      "sha256": "42bcc4682e4c79e11c580d5e8267b731b67630ceef24e595c6e512c8ee89c02b",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T21:15:11Z",
+      "sha256": "42bcc4682e4c79e11c580d5e8267b731b67630ceef24e595c6e512c8ee89c02b",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T21:15:10Z",
+      "sha256": "42bcc4682e4c79e11c580d5e8267b731b67630ceef24e595c6e512c8ee89c02b",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cus360.inapp.app.chat.ActivityChat",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.app.thankyou.ActivityThankYou",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.app.ticket.createticket.ActivityCreateTicket",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.app.ticket.createticket.ActivityPreview",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.app.ticket.ticketlisting.ActivityTicketDetailsConversation",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.app.ticket.ticketlisting.ActivityTicketListing",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.app.ticket.ticketlisting.gallery.ActivityPhotoGallery",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.base.gcm.GcmBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "@string/cus_host_packagename"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.base.gcm.GcmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.app.thankyou.ActivityThankYou",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.app.ticket.createticket.ActivityCreateTicket",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.app.ticket.createticket.ActivityPreview",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.app.ticket.ticketlisting.ActivityTicketDetailsConversation",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.app.ticket.ticketlisting.ActivityTicketListing",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.app.ticket.ticketlisting.gallery.ActivityPhotoGallery",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.base.gcm.GcmBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "@string/cus_host_packagename"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cus360.inapp.helpdesk.base.gcm.GcmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

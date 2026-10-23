@@ -1,0 +1,68 @@
+{
+  "coordinate": "cn.6xyun.android:service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-23T20:39:43Z",
+      "sha256": "c0db3dbdf7014a44ebe3f781303ddcdb11f56204aaee8b042cf781563a698b7e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.liux.android.service.BootBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liux.android.service.BootContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.liux.android.service",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liux.android.service.ServiceManagerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":sm",
+      "permission": "com.liux.android.service.permission.ACCESS_SERVICE_MANAGER",
+      "authorities": null,
+      "actions": [
+        "com.liux.android.service.action.SERVICE_MANAGER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

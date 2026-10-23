@@ -1,0 +1,139 @@
+{
+  "coordinate": "cn.shanyaliux.serialport:serialport",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.1.7": {
+      "fetchedAt": "2026-10-23T21:10:20Z",
+      "sha256": "ac2b0698a12a378e427b03b58bd9bc93f4634fb1c6892042eb0cac8803405e81",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-service:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.android.material:material:1.3.0",
+        "com.guolindev.permissionx:permissionx:1.6.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+      ]
+    },
+    "4.1.8": {
+      "fetchedAt": "2026-10-23T21:10:19Z",
+      "sha256": "1dead067ce81cee19f2ec709bfc2ed176476ae53deb5712dfe1bb95c3a6d1644",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-service:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.android.material:material:1.3.0",
+        "com.guolindev.permissionx:permissionx:1.6.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+      ]
+    },
+    "4.1.9": {
+      "fetchedAt": "2026-10-23T21:10:18Z",
+      "sha256": "1dead067ce81cee19f2ec709bfc2ed176476ae53deb5712dfe1bb95c3a6d1644",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-service:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.android.material:material:1.3.0",
+        "com.guolindev.permissionx:permissionx:1.6.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+      ]
+    },
+    "4.2.0": {
+      "fetchedAt": "2026-10-23T21:10:17Z",
+      "sha256": "1dead067ce81cee19f2ec709bfc2ed176476ae53deb5712dfe1bb95c3a6d1644",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-service:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.android.material:material:1.3.0",
+        "com.guolindev.permissionx:permissionx:1.6.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "world.shanya.serialport.discovery.DiscoveryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.7",
+          "4.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "world.shanya.serialport.server.SerialPortServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.8",
+          "4.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "world.shanya.serialport.service.SerialPortService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.7",
+          "4.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

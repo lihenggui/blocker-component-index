@@ -1,0 +1,112 @@
+{
+  "coordinate": "com.amazon.alexa.aacs:aacstts",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.1": {
+      "fetchedAt": "2026-10-23T21:46:39Z",
+      "sha256": "f70e7707972e3d00d2b7741831534f05332f3b86bdf5a268e91e8c69c60112ba",
+      "dependencies": []
+    },
+    "3.2": {
+      "fetchedAt": "2026-10-23T21:46:38Z",
+      "sha256": "7b2bbeb5439a758ed6af08bd7392a761e1cf1b21957f79b93b2bb5b04e04ad09",
+      "dependencies": []
+    },
+    "3.2.1": {
+      "fetchedAt": "2026-10-23T21:46:37Z",
+      "sha256": "7b2bbeb5439a758ed6af08bd7392a761e1cf1b21957f79b93b2bb5b04e04ad09",
+      "dependencies": []
+    },
+    "3.3": {
+      "fetchedAt": "2026-10-23T21:46:37Z",
+      "sha256": "1f12e91b5c4af87ebac5aad28efd09670a1458f42efbcf3e7bf6b490342ec271",
+      "dependencies": []
+    },
+    "4.0": {
+      "fetchedAt": "2026-10-23T21:46:36Z",
+      "sha256": "bc573d5669eb8bff9cf94f371d2996de21b5f00904e7d870f709e7a7fdafff32",
+      "dependencies": []
+    },
+    "4.1": {
+      "fetchedAt": "2026-10-23T21:46:35Z",
+      "sha256": "905222b92194ef51b8bb7809e0444c8ab16ea563f2e5ee8df77fc62d65a5c097",
+      "dependencies": []
+    },
+    "4.2": {
+      "fetchedAt": "2026-10-23T21:46:34Z",
+      "sha256": "482a4a78e28716c7eba7d16fe58baf90c9b6da35151a82564a5f6ff0037a08a1",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.amazon.aacstts.AmazonTextToSpeechService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1",
+          "4.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":aacstts",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.TTS_SERVICE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.aacstts.AmazonTextToSpeechService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.2",
+          "4.2"
+        ]
+      ],
+      "exported": true,
+      "process": ":aacstts",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.TTS_SERVICE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.aacstts.TTSIntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.1",
+          "4.2"
+        ]
+      ],
+      "exported": true,
+      "process": ":aacstts",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.amazon.aacs.aasb.ConnectionStatusChanged",
+        "com.amazon.aacs.aasb.GetCapabilities",
+        "com.amazon.aacs.aasb.PrepareSpeechCompleted",
+        "com.amazon.aacs.aasb.PrepareSpeechFailed",
+        "com.amazon.aacs.aasb.StopService"
+      ],
+      "categories": [
+        "com.amazon.aacs.aasb.AASB",
+        "com.amazon.aacs.aasb.AlexaClient",
+        "com.amazon.aacs.aasb.TextToSpeech"
+      ],
+      "metaData": []
+    }
+  ]
+}

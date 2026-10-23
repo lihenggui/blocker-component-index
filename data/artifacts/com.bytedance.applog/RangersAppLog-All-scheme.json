@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.bytedance.applog:RangersAppLog-All-scheme",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.11.0": {
+      "fetchedAt": "2026-10-23T22:54:17Z",
+      "sha256": "dcc2ca724ac02f5b4c2cc00ed5e56efcde4a49a6c88bd76a4d73a938a8978402",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "6.14.2": {
+      "fetchedAt": "2026-10-23T22:54:16Z",
+      "sha256": "e7ad75e3595d2060b86c6fdd027f5406c7046dd939f5a8758d7c52cafd1a7a7f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.applog.simulate.SimulateLaunchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.14.2",
+          "6.14.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.applog.util.SimulateLaunchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.11.0",
+          "6.11.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

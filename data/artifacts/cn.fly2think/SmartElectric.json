@@ -1,0 +1,73 @@
+{
+  "coordinate": "cn.fly2think:SmartElectric",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T20:45:30Z",
+      "sha256": "af58b9e3f020789461f50a5044306594006901c22795a11517a66aec1e326924",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T20:45:29Z",
+      "sha256": "af58b9e3f020789461f50a5044306594006901c22795a11517a66aec1e326924",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T20:45:28Z",
+      "sha256": "af58b9e3f020789461f50a5044306594006901c22795a11517a66aec1e326924",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T20:45:27Z",
+      "sha256": "af58b9e3f020789461f50a5044306594006901c22795a11517a66aec1e326924",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T20:45:26Z",
+      "sha256": "af58b9e3f020789461f50a5044306594006901c22795a11517a66aec1e326924",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-23T20:45:24Z",
+      "sha256": "af58b9e3f020789461f50a5044306594006901c22795a11517a66aec1e326924",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.smart.electric.ElectricContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ElectricContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.azerion:azerion-sdk-ads-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T22:25:29Z",
+      "sha256": "b51c77fb27c91d009e0f38565850024a272ea78264c48ac605ed74e2bd999dcb",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.1",
+        "com.google.android.exoplayer:exoplayer-core:2.13.2",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.2",
+        "com.google.android.exoplayer:extension-ima:2.13.2",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.picasso:picasso:2.71828",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.19"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:25:29Z",
+      "sha256": "a72a09dc400998ce1b6275a8c388fbbc49f213a5d7f46aa1368e4983ab11e25c",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.1",
+        "com.google.android.exoplayer:exoplayer-core:2.17.1",
+        "com.google.android.exoplayer:exoplayer-ui:2.17.1",
+        "com.google.android.exoplayer:extension-ima:2.17.1",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.picasso:picasso:2.71828",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.19"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T22:25:28Z",
+      "sha256": "704a0233aec7072abf5a00517d77457fefef23d933de5410ff216b4d639d3bcc",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.1",
+        "com.google.android.exoplayer:exoplayer-core:2.17.1",
+        "com.google.android.exoplayer:exoplayer-ui:2.17.1",
+        "com.google.android.exoplayer:extension-ima:2.17.1",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.picasso:picasso:2.71828",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.19"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-23T22:25:27Z",
+      "sha256": "dd0ef57bdb548b0a5b26748d7c876817501e1929e5a6d9b73bbef6229ee16c64",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.1",
+        "com.google.android.exoplayer:exoplayer-core:2.17.1",
+        "com.google.android.exoplayer:exoplayer-ui:2.17.1",
+        "com.google.android.exoplayer:extension-ima:2.17.1",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.picasso:picasso:2.71828",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.19"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.azerion.sdk.ads.core.ui.AzerionAdsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.azerion.sdk.ads.fullscreenad.AzerionAdsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

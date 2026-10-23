@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.bugtags.library:bugtags-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5.0": {
+      "fetchedAt": "2026-10-23T22:52:07Z",
+      "sha256": "92026622a3eaac932b06b717876b28a1774e9436d885a020a4f8926209fef401",
+      "dependencies": [
+        "com.android.support:support-v4:22.0.0",
+        "com.mcxiaoke.volley:library:1.0.16",
+        "com.nineoldandroids:library:2.4.0"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-23T22:52:06Z",
+      "sha256": "5b7ff31a7f1f170d100e26159f4b31d8cd188a4cb24764b07c3ef8e62a883de1",
+      "dependencies": [
+        "com.android.support:support-v4:22.2.0",
+        "com.mcxiaoke.volley:library:1.0.16",
+        "com.nineoldandroids:library:2.4.0"
+      ]
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-23T22:52:05Z",
+      "sha256": "48c13b347becd0fe2569f359c11e6d4b0fc33bbef16867805b27768d8c0b5688",
+      "dependencies": [
+        "com.android.support:support-v4:22.2.0",
+        "com.mcxiaoke.volley:library:1.0.16",
+        "com.nineoldandroids:library:2.4.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:52:04Z",
+      "sha256": "8f30061d262748644407c02fd84923912e52e806aa5c88a60fd20254cfd48bb3",
+      "dependencies": [
+        "com.android.support:support-v4:22.2.0",
+        "com.mcxiaoke.volley:library:1.0.16",
+        "com.nineoldandroids:library:2.4.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T22:52:03Z",
+      "sha256": "77e4b418868025124d906b0fcf97bc967ad7565159d21c589d1ba8b5c0ce9587",
+      "dependencies": [
+        "com.android.support:support-v4:22.2.0",
+        "com.mcxiaoke.volley:library:1.0.16",
+        "com.nineoldandroids:library:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bugtags.library.BugTagsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bugtags.library.BugtagsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bugtags.library.BugtagsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bugtags.library.BugtagsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.5.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

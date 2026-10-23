@@ -1,0 +1,73 @@
+{
+  "coordinate": "com.adobe.marketing.mobile:edgeconsent",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:33:22Z",
+      "sha256": "ed2f4740e23edf6b4f4d66213baf655f7185841a4c25056c90e33473493ab0ee",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:1.8.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T21:33:22Z",
+      "sha256": "a60aecee77b42e4defa9241326a0cd22b2e1b2c4e8e4aeb5b4dd20d605415ead",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:1.8.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T21:33:21Z",
+      "sha256": "e51df3f9f161ce109db4ce9be3094e0db2dcc2a534c388bfeeb4e01cd3695e84",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:2.0.0",
+        "com.adobe.marketing.mobile:edge:2.0.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T21:33:21Z",
+      "sha256": "32d2f8dee4b81d2a559b064f8b89b3ad190381e4c7df9a5f73c009a005518bfb",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:3.0.0",
+        "com.adobe.marketing.mobile:edge:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T21:33:20Z",
+      "sha256": "40b92e3ffe839017ef60d1e61f81b4617449898ef8a9aa66d6808cfac267b720",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:3.3.0",
+        "com.adobe.marketing.mobile:edge:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-23T21:33:20Z",
+      "sha256": "40b92e3ffe839017ef60d1e61f81b4617449898ef8a9aa66d6808cfac267b720",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:3.3.0",
+        "com.adobe.marketing.mobile:edge:3.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adobe.marketing.mobile.ExtensionDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.adobe.marketing.mobile.edge.consent.ConsentExtension"
+      ]
+    }
+  ]
+}

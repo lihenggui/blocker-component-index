@@ -1,0 +1,119 @@
+{
+  "coordinate": "com.ashokvarma.android:sqlite-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-23T22:19:09Z",
+      "sha256": "82833f3921e2c874214a0b2a28f195c57f8e7f49a92ac162d314e36b09b7246c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:design:25.3.1"
+      ]
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-23T22:19:09Z",
+      "sha256": "4029093ad3674936d83dbc8d2f2b41ac8d7b67dba60004dc7350f566d63857e9",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:design:25.3.1"
+      ]
+    },
+    "1.0.0RC1": {
+      "fetchedAt": "2026-10-23T22:19:08Z",
+      "sha256": "704687622d5847159633e2d968e2d9e59af4541c2d113dce9c852c553030159c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:design:25.3.1"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:19:07Z",
+      "sha256": "7f1388f424f27f563054a6e72b8cb8f76335469e332d1cfb9da6c97985db29ef",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:design:25.3.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T22:19:06Z",
+      "sha256": "cfa67379f0111a86ffa1e8bf7dda432efa3bcbb2f0ec8b23fb8ec4bfec1a0998",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.android.support:design:26.1.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T22:19:06Z",
+      "sha256": "2cd8d32764d612c3496be8a409828d503fb64194c2e53c509167c8494fbd356b",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-23T22:19:05Z",
+      "sha256": "13e732fde1b28b1e0ef29e03ba628f4615af52304ceb1f0a9147118189d63c1f",
+      "dependencies": []
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-23T22:19:04Z",
+      "sha256": "bf3377cb932430fa7b5b786d23714eed9c6328806d5646687c4963f7c300e012",
+      "dependencies": []
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-23T22:19:03Z",
+      "sha256": "8f047019ccde639e912e35b9436a359d4cfc75643006ae4d90e55a4ba0af7f3f",
+      "dependencies": []
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-23T22:19:02Z",
+      "sha256": "1daddb8991bad725231c91a93adfece9b6fb452756c4caa7b7a7b7fd7326178f",
+      "dependencies": []
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-23T22:19:02Z",
+      "sha256": "e0f504c2a8c4c3ef0f694bcb55cfda9e3365c2c7d3f2310fd5ca675da783ab6a",
+      "dependencies": []
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-23T22:19:01Z",
+      "sha256": "43d8efa7ef97426d915a8193d6bb987b0d129b9c7b2e4be32b196549cffca657",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.ashokvarma.sqlitemanager",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.ashokvarma.sqlitemanager.SqliteManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "coordinate": "com.appliedrec.verid:ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.21.11": {
+      "fetchedAt": "2026-10-23T22:04:22Z",
+      "sha256": "6a2bc90c05d36edfa09648214201845ec34fd679e28d895f4b7044a14af867a4",
+      "dependencies": [
+        "androidx.annotation:annotation:[1.1.0,2.0,0[",
+        "androidx.appcompat:appcompat:[1.1.0,2.0.0[",
+        "androidx.constraintlayout:constraintlayout:[1.1.3,2.0.0[",
+        "androidx.exifinterface:exifinterface:[1.1.0,2.0.0[",
+        "androidx.preference:preference:[1.1.1,2.0.0[",
+        "androidx.room:room-runtime:2.5.2",
+        "com.appliedrec.verid:core:1.21.11",
+        "com.appliedrec.verid:native:1.21.11",
+        "com.google.code.gson:gson:[2.8.5,3.0.0["
+      ]
+    },
+    "1.21.12": {
+      "fetchedAt": "2026-10-23T22:04:20Z",
+      "sha256": "5c4e142984c1a809028b9c55c5b1d7be79a920df31b989f4777477a6343f4fcb",
+      "dependencies": [
+        "androidx.annotation:annotation:[1.1.0,2.0,0[",
+        "androidx.appcompat:appcompat:[1.1.0,2.0.0[",
+        "androidx.constraintlayout:constraintlayout:[1.1.3,2.0.0[",
+        "androidx.exifinterface:exifinterface:[1.1.0,2.0.0[",
+        "androidx.preference:preference:[1.1.1,2.0.0[",
+        "androidx.room:room-runtime:2.5.2",
+        "com.appliedrec.verid:core:1.21.12",
+        "com.appliedrec.verid:native:1.21.12",
+        "com.google.code.gson:gson:[2.8.5,3.0.0["
+      ]
+    },
+    "1.21.13": {
+      "fetchedAt": "2026-10-23T22:04:21Z",
+      "sha256": "5c4e142984c1a809028b9c55c5b1d7be79a920df31b989f4777477a6343f4fcb",
+      "dependencies": [
+        "androidx.annotation:annotation:[1.1.0,2.0,0[",
+        "androidx.appcompat:appcompat:[1.1.0,2.0.0[",
+        "androidx.constraintlayout:constraintlayout:[1.1.3,2.0.0[",
+        "androidx.exifinterface:exifinterface:[1.1.0,2.0.0[",
+        "androidx.preference:preference:[1.1.1,2.0.0[",
+        "androidx.room:room-runtime:2.5.2",
+        "com.appliedrec.verid:core:1.21.13",
+        "com.appliedrec.verid:native:1.21.13",
+        "com.google.code.gson:gson:[2.8.5,3.0.0["
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appliedrec.verid.ui.TipsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.21.11",
+          "1.21.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appliedrec.verid.ui.VerIDSessionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.21.11",
+          "1.21.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

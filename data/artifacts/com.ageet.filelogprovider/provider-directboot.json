@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.ageet.filelogprovider:provider-directboot",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-23T21:40:03Z",
+      "sha256": "f8ea4a4a80ce8e4aa7e977161cfba4f9738173b54015de44fa500dc8e37ff986",
+      "dependencies": [
+        "com.ageet.filelogprovider:provider:0.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-23T21:40:02Z",
+      "sha256": "36d3a5675e02e4e7dafa66e2b8599b67760a6038352dcf156ec5bb871300199b",
+      "dependencies": [
+        "com.ageet.filelogprovider:provider:0.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ageet.filelogprovider.FileLogProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider.file_log",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

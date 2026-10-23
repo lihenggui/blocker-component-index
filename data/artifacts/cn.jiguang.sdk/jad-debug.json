@@ -1,0 +1,114 @@
+{
+  "coordinate": "cn.jiguang.sdk:jad-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.2": {
+      "fetchedAt": "2026-10-23T20:53:48Z",
+      "sha256": "942635b17e039f7a1dda4c6d98927372ae12f2a157bb721490762995597c41ff",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.jiguang.ads.base.component.JAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.2",
+          "5.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jiguang.ads.base.component.JUnionAdActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JAdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.2",
+          "5.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.JAdFileProvider",
+      "actions": [
+        "cn.jpush.android.intent.FileProvider"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JAdProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.2",
+          "5.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ads.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JAdReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.2",
+          "5.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "cn.jiguang.ads.component.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JTransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.2",
+          "5.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jiguang.ads.component.JTransparentActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

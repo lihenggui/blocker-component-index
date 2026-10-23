@@ -1,0 +1,128 @@
+{
+  "coordinate": "co.lujun:tpsharelogin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T21:18:43Z",
+      "sha256": "de723e9bfb8e80b340aec241d787c712885fa8f6f374c90a0e1f1fd4c08b358d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "io.reactivex:rxandroid:1.0.1",
+        "io.reactivex:rxjava:1.0.14"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T21:18:42Z",
+      "sha256": "144809355b4398d337b274c16161abf8c9c24d59f90c84981bd61af807adc1e2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "io.reactivex:rxandroid:1.0.1",
+        "io.reactivex:rxjava:1.0.14"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-23T21:18:41Z",
+      "sha256": "961e5863e2dd4c2e24598ca6755bc6ecef953df0129caf0651e9f9e8c3da4e58",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:1.1.6",
+        "io.reactivex:rxandroid:1.0.1",
+        "io.reactivex:rxjava:1.0.14"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "co.lujun.tpsharelogin.platform.qq.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.lujun.tpsharelogin.platform.weibo.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "co.lujun.tpsharelogin.platform.weixin.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.component.WeiboSdkBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.batch.android:atinternet-dispatcher",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:31:12Z",
+      "sha256": "365df3e65b89cc358d9bea6c7c105a5765c8297847c77b667139300af0808cc9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "com.atinternet:Tracker:2.14.0",
+        "com.batch.android:batch-sdk:1.15.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T22:31:11Z",
+      "sha256": "7642a4c3b1caf60d23dfd704a26b18e3486d7603b038ba38648fc707f41eb03e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "com.atinternet:Tracker:2.14.0",
+        "com.batch.android:batch-sdk:1.15.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:31:10Z",
+      "sha256": "fbe70f6564ce89209e51388a186ea175f262a1dc88aedddb23eff42d8cf10624",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "com.atinternet:Tracker:2.14.0",
+        "com.batch.android:batch-sdk:1.17.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T22:31:09Z",
+      "sha256": "01cf710433e04bbb2d519a3aed666d5fa6944a60af223ef160bb8bccbfa66391",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.atinternet:Tracker:2.14.0",
+        "com.batch.android:batch-sdk:1.19.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T22:31:09Z",
+      "sha256": "01cf710433e04bbb2d519a3aed666d5fa6944a60af223ef160bb8bccbfa66391",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.atinternet:Tracker:2.14.0",
+        "com.batch.android:batch-sdk:1.19.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.batch.android.eventdispatcher.DispatcherDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.batch.android.eventdispatcher:com.batch.android.dispatcher.atinternet.AtInternetRegistrar"
+      ]
+    }
+  ]
+}

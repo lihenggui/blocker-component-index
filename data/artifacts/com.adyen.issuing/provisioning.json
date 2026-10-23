@@ -1,0 +1,105 @@
+{
+  "coordinate": "com.adyen.issuing:provisioning",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-23T21:37:45Z",
+      "sha256": "d07c88d7602a2aba81b222a6ca5fcde887adc800d631c8aae9f595489b8f704f",
+      "dependencies": [
+        "com.google.android.gms:play-services-tapandpay:18.3.3",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi-kotlin:1.15.1",
+        "org.bitbucket.b_c:jose4j:0.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-23T21:37:44Z",
+      "sha256": "d07c88d7602a2aba81b222a6ca5fcde887adc800d631c8aae9f595489b8f704f",
+      "dependencies": [
+        "com.google.android.gms:play-services-tapandpay:18.3.3",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi-kotlin:1.15.1",
+        "org.bitbucket.b_c:jose4j:0.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-23T21:37:43Z",
+      "sha256": "d07c88d7602a2aba81b222a6ca5fcde887adc800d631c8aae9f595489b8f704f",
+      "dependencies": [
+        "com.google.android.gms:play-services-tapandpay:18.3.3",
+        "org.bitbucket.b_c:jose4j:0.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-23T21:37:42Z",
+      "sha256": "5c00c7f6bbf0c1633dd6e38c492a532b759295690b7ae08e67a7a83c0a506609",
+      "dependencies": [
+        "androidx.activity:activity:1.9.3",
+        "androidx.compose.runtime:runtime:1.7.6",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+        "com.google.android.gms:play-services-tapandpay:18.3.3",
+        "org.bitbucket.b_c:jose4j:0.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-23T21:37:41Z",
+      "sha256": "5c00c7f6bbf0c1633dd6e38c492a532b759295690b7ae08e67a7a83c0a506609",
+      "dependencies": [
+        "androidx.activity:activity:1.9.3",
+        "androidx.compose.runtime:runtime:1.7.7",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+        "com.google.android.gms:play-services-tapandpay:18.3.3",
+        "org.bitbucket.b_c:jose4j:0.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "0.3.3": {
+      "fetchedAt": "2026-10-23T21:37:42Z",
+      "sha256": "411a54c6724ea013d85d7d6c52d88bbcf613542ffddb240c58ab93baf7904ea4",
+      "dependencies": [
+        "androidx.activity:activity:1.10.1",
+        "androidx.compose.runtime:runtime:1.8.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.9.1",
+        "com.adyen.issuing:core:0.3.3",
+        "com.google.android.gms:play-services-tapandpay:18.3.3",
+        "org.bitbucket.b_c:jose4j:0.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adyen.issuing.mobile.provisioning.client.internal.ProvisioningActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.0",
+          "0.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

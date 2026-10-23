@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.avakkachen:wormholelogger-portal",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:05Z",
+      "sha256": "97963d49ec1a3c87d8b5d464cdb28e67d0d87ff868c8401bf1e1713d6e06295d",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.20"
+      ]
+    },
+    "1.0.0-1-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:04Z",
+      "sha256": "97963d49ec1a3c87d8b5d464cdb28e67d0d87ff868c8401bf1e1713d6e06295d",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-1-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.20"
+      ]
+    },
+    "1.0.0-2-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:03Z",
+      "sha256": "97963d49ec1a3c87d8b5d464cdb28e67d0d87ff868c8401bf1e1713d6e06295d",
+      "dependencies": [
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-2-STAGING",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.20"
+      ]
+    },
+    "1.0.0-3-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:03Z",
+      "sha256": "10d4d5e05b79adff040409bbc22ed691bfd5988f64af05f864c40424639c3b37",
+      "dependencies": [
+        "android.arch.work:work-runtime-ktx:1.0.0",
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-3-STAGING",
+        "com.google.firebase:firebase-auth:16.2.0",
+        "com.google.firebase:firebase-storage:16.1.0",
+        "com.squareup.moshi:moshi:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    },
+    "1.0.0-4-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:02Z",
+      "sha256": "59f312f912c3a05aaf5bb1f0b58a8b96990a1e1a74ab29446b96afe79adc250a",
+      "dependencies": [
+        "android.arch.persistence.room:runtime:1.1.1",
+        "android.arch.work:work-runtime-ktx:1.0.0",
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-4-STAGING",
+        "com.google.firebase:firebase-auth:16.2.0",
+        "com.google.firebase:firebase-database:16.1.0",
+        "com.google.firebase:firebase-storage:16.1.0",
+        "com.squareup.moshi:moshi:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    },
+    "1.0.0-5-STAGING": {
+      "fetchedAt": "2026-10-23T22:25:01Z",
+      "sha256": "59f312f912c3a05aaf5bb1f0b58a8b96990a1e1a74ab29446b96afe79adc250a",
+      "dependencies": [
+        "android.arch.persistence.room:runtime:1.1.1",
+        "android.arch.work:work-runtime-ktx:1.0.0",
+        "com.avakkachen:WormholeLoggerCommon:1.0.0-5-STAGING",
+        "com.google.firebase:firebase-auth:16.2.0",
+        "com.google.firebase:firebase-database:16.1.0",
+        "com.google.firebase:firebase-storage:16.1.0",
+        "com.squareup.moshi:moshi:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "wormholelogger.service.WormholeLoggerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-STAGING",
+          "1.0.0-5-STAGING"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "wormholelogger.intent.WormholeLoggerService"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

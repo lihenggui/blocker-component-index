@@ -1,0 +1,138 @@
+{
+  "coordinate": "com.adobe.target.mobile:target-vec",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.2": {
+      "fetchedAt": "2026-10-23T21:35:21Z",
+      "sha256": "11251d437ddd12f0512cfbe1a7011886631fc8409205977846536724043b926a",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "commons-beanutils:commons-beanutils-core:1.8.3",
+        "io.github.xdex:SocketclusterClientJava:1.7.5"
+      ]
+    },
+    "0.2.3-beta": {
+      "fetchedAt": "2026-10-23T21:35:20Z",
+      "sha256": "9f5dcf91d825bce0fe0512a1854622a484789c1f766818e2ebe839919e47ca6b",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-fragment:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "commons-beanutils:commons-beanutils-core:1.8.3",
+        "io.github.xdex:SocketclusterClientJava:1.7.5"
+      ]
+    },
+    "0.2.4-beta": {
+      "fetchedAt": "2026-10-23T21:35:19Z",
+      "sha256": "1b177b500d93b41f826a016d7e39ffffc97a988bf683edb4541c92fc6e8bbf90",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-fragment:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "commons-beanutils:commons-beanutils-core:1.8.3",
+        "io.github.sac:SocketclusterClientJava:1.7.5"
+      ]
+    },
+    "0.2.5-beta": {
+      "fetchedAt": "2026-10-23T21:35:19Z",
+      "sha256": "cad603c00f409939bc48856e944f0849236d7b08a7694774aad2caeb396addee",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-fragment:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "commons-beanutils:commons-beanutils-core:1.8.3",
+        "io.github.sac:SocketclusterClientJava:1.7.5"
+      ]
+    },
+    "0.2.6-beta": {
+      "fetchedAt": "2026-10-23T21:35:18Z",
+      "sha256": "cea6975b9205fdbc5a0a843535c48cf2fcc7fff5219b458e982588b3cc3bc4d7",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-fragment:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "commons-beanutils:commons-beanutils-core:1.8.3",
+        "io.github.sac:SocketclusterClientJava:1.7.5"
+      ]
+    },
+    "0.3.0-beta": {
+      "fetchedAt": "2026-10-23T21:35:17Z",
+      "sha256": "2bde451fb357f8b5b1575c6a18251bd57f8c25ffff3e078cd3acf17e0e86c883",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-compat:28.0.0",
+        "com.android.support:support-fragment:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "commons-beanutils:commons-beanutils-core:1.8.3",
+        "io.github.sac:SocketclusterClientJava:1.7.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adobe.target.mobile.core.preview.MessageFullScreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.2",
+          "0.3.0-beta"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adobe.target.mobile.networking.NaradaClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.2",
+          "0.3.0-beta"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adobe.target.mobile.networking.SimulatedNaradaClient",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.2",
+          "0.3.0-beta"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

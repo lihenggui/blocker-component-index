@@ -1,0 +1,46 @@
+{
+  "coordinate": "com.astrapay:astrapay-qris-beta",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.5": {
+      "fetchedAt": "2026-10-23T22:19:47Z",
+      "sha256": "d6766a9d539e6a784066aa5e8b569c345fc7fcfb496b4c97b54dbc06954c8ce1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.camera:camera-camera2:1.2.1",
+        "androidx.camera:camera-core:1.2.1",
+        "androidx.camera:camera-lifecycle:1.2.1",
+        "androidx.camera:camera-view:1.2.1",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.databinding:databinding-adapters:8.5.0",
+        "androidx.databinding:databinding-common:8.5.0",
+        "androidx.databinding:databinding-ktx:8.5.0",
+        "androidx.databinding:databinding-runtime:8.5.0",
+        "androidx.databinding:viewbinding:8.5.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "com.google.android.material:material:1.12.0",
+        "com.google.mlkit:barcode-scanning:17.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.astrapay.apqrisscanner.ApQrisScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

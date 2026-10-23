@@ -1,0 +1,54 @@
+{
+  "coordinate": "com.bidstack:bidstack-mobile-ads-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.0": {
+      "fetchedAt": "2026-10-23T22:33:21Z",
+      "sha256": "5b9a7e14b8fd6b8d0b7f70ca6502e5d8ac52ecbc56bb253aeda18657d28572a5",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "com.datadoghq:dd-sdk-android:1.12.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bidstack.mobileAdsSdk.BidstackFullscreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.0",
+          "1.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bidstack.mobileAdsSdk.DataDogProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.8.0",
+          "1.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DataDogProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

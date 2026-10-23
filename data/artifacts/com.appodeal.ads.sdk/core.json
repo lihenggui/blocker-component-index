@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.appodeal.ads.sdk:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T22:12:02Z",
+      "sha256": "f900f97c09189ef972574ebc9faebaefae765b95ef3739270c93319611d60ab4",
+      "dependencies": [
+        "com.appodeal.ads.sdk.core:internal:3.0.1",
+        "com.appodeal.ads.sdk.core:public:3.0.1",
+        "com.appodeal.ads:advertising:3.0.1",
+        "com.appodeal.ads:consent:3.0.1",
+        "com.appodeal.ads:network:3.0.1",
+        "com.explorestack:iab:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appodeal.ads.ApdContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ApdContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appodeal.ads.AppodealPackageAddedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appodeal.ads.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appodeal.ads.VideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

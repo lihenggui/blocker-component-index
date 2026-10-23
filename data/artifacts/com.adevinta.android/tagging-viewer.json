@@ -1,0 +1,124 @@
+{
+  "coordinate": "com.adevinta.android:tagging-viewer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T21:29:39Z",
+      "sha256": "4781d26579572420764045a24153227f6082a431350256dbbc48a963cda99d23",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.lifecycle:lifecycle-livedata:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T21:29:38Z",
+      "sha256": "4781d26579572420764045a24153227f6082a431350256dbbc48a963cda99d23",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.lifecycle:lifecycle-livedata:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T21:29:37Z",
+      "sha256": "4781d26579572420764045a24153227f6082a431350256dbbc48a963cda99d23",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.lifecycle:lifecycle-livedata:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-23T21:29:36Z",
+      "sha256": "4d0faa30a20b2ff6165e5c64fa4c160881449de3a0e077141431723d7af918de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.lifecycle:lifecycle-livedata:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-23T21:29:35Z",
+      "sha256": "9a65b6ab517f5aa760bdc4994129a196da0d52747010cfe77766ec896cf30156",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.1",
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.4.0",
+        "androidx.lifecycle:lifecycle-livedata:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-23T21:29:34Z",
+      "sha256": "9a65b6ab517f5aa760bdc4994129a196da0d52747010cfe77766ec896cf30156",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.1",
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-livedata:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adevinta.android.taggingviewer.DetailedTaggingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adevinta.android.taggingviewer.internal.TaggingViewerInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.taggingviewerinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

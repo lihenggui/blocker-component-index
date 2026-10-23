@@ -1,0 +1,144 @@
+{
+  "coordinate": "com.clostra.newnode:newnode",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:09:45Z",
+      "sha256": "1900cd688848992c665db4f12f95d0908b1df64845353224aa1e434069ff23f7",
+      "dependencies": [
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.0.2"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-23T23:09:44Z",
+      "sha256": "ed296be792dda62b55922e53d9c08171c6d9458ce26a0c3698f80a0c1ef8fac2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.0.2"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-23T23:09:43Z",
+      "sha256": "ed296be792dda62b55922e53d9c08171c6d9458ce26a0c3698f80a0c1ef8fac2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.0.2"
+      ]
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-23T23:09:42Z",
+      "sha256": "ed296be792dda62b55922e53d9c08171c6d9458ce26a0c3698f80a0c1ef8fac2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.0.2"
+      ]
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-23T23:09:41Z",
+      "sha256": "ed296be792dda62b55922e53d9c08171c6d9458ce26a0c3698f80a0c1ef8fac2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.0.2"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-23T23:09:40Z",
+      "sha256": "0a4f99a9a0a72b103b0cae05dbd148017d97758c1c0793bc93406845fdae5fd4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.2.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-23T23:09:38Z",
+      "sha256": "0a4f99a9a0a72b103b0cae05dbd148017d97758c1c0793bc93406845fdae5fd4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.2.0"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-23T23:09:37Z",
+      "sha256": "da1d257c9820b6f298c2d7f4b7555e2bc0118bc991f035425d6cffc93e7520d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.clostra.newnode.internal.NearbyHelper.BatteryLevelReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BATTERY_LOW",
+        "android.intent.action.BATTERY_OKAY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clostra.newnode.internal.NewNode$BatteryLevelReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.3",
+          "2.1.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BATTERY_LOW",
+        "android.intent.action.BATTERY_OKAY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clostra.newnode.internal.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

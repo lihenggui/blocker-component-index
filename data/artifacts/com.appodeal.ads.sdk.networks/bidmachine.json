@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.appodeal.ads.sdk.networks:bidmachine",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.1.0": {
+      "fetchedAt": "2026-10-23T22:11:42Z",
+      "sha256": "3c20177227bd8d404a052ecb638ffaff01f36baf8ddbadb2cc6a8293b09919d5",
+      "dependencies": [
+        "com.appodeal.ads.sdk:core:3.0.1",
+        "io.bidmachine:ads.networks.amazon:1.9.10.7",
+        "io.bidmachine:ads.networks.criteo:1.9.10.10",
+        "io.bidmachine:ads.networks.pangle:1.9.10.4",
+        "io.bidmachine:ads:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.1.0",
+          "3.0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ApdBidMachineContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

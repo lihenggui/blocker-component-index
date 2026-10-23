@@ -1,0 +1,134 @@
+{
+  "coordinate": "com.airsaid:sample-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:41:55Z",
+      "sha256": "3aacdfd53d0861b6c036a06959640fe68d72f72f3544b896e5189e283155f381",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.airsaid:sample-api:1.0.0",
+        "com.google.code.gson:gson:2.8.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T21:41:54Z",
+      "sha256": "3aacdfd53d0861b6c036a06959640fe68d72f72f3544b896e5189e283155f381",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.airsaid:sample-api:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T21:41:53Z",
+      "sha256": "c74ffa58a414e489fb2d0b054ac3224767295e7b20fe17082909890afade9e52",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.airsaid:sample-api:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-23T21:41:52Z",
+      "sha256": "c74ffa58a414e489fb2d0b054ac3224767295e7b20fe17082909890afade9e52",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.airsaid:sample-api:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-23T21:41:51Z",
+      "sha256": "c74ffa58a414e489fb2d0b054ac3224767295e7b20fe17082909890afade9e52",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.airsaid:sample-api:1.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-23T21:41:50Z",
+      "sha256": "c74ffa58a414e489fb2d0b054ac3224767295e7b20fe17082909890afade9e52",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.airsaid:sample-api:1.1.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.airsaid.sample.core.initializer.AndroidSampleInitializer"
+      ]
+    },
+    {
+      "name": "com.airsaid.sample.core.appcompat.SampleFragmentContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "coordinate": "com.amazon.android.amazonpay:apay-android-commonlibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.2": {
+      "fetchedAt": "2026-10-23T21:46:48Z",
+      "sha256": "efc554ceafb77e68fdaae1ea15847203ccf5d9c19db0683f669ec5f91f0471be",
+      "dependencies": [
+        "androidx.work:work-runtime:2.7.1",
+        "ch.qos.logback:logback-classic:1.2.6",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0"
+      ]
+    },
+    "1.3.3": {
+      "fetchedAt": "2026-10-23T21:46:47Z",
+      "sha256": "f2764cbfaae15d4b1ee7a98ce7110c710c59c0a50e01c3103a15cf1d38b0c1df",
+      "dependencies": [
+        "androidx.work:work-runtime:2.7.1",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0"
+      ]
+    },
+    "1.3.6": {
+      "fetchedAt": "2026-10-23T21:46:46Z",
+      "sha256": "6ed00785bf45e58867630eecd21b8f2cf97166fd2f8b4c5514316f7675460e05",
+      "dependencies": [
+        "androidx.work:work-runtime:2.7.1",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.code.gson:gson:2.10.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amazon.android.apay.commonlibrary.browsinglib.activity.BrowsingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.android.apay.commonlibrary.browsinglib.activity.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

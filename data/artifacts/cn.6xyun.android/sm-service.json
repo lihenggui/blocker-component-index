@@ -1,0 +1,147 @@
+{
+  "coordinate": "cn.6xyun.android:sm-service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.2": {
+      "fetchedAt": "2026-10-23T20:39:49Z",
+      "sha256": "bd7777b7e726f14023774bb2f43e5cdec1ad037395233fdc511eabefe50e3d22",
+      "dependencies": [
+        "cn.6xyun.android:sm-api:[0.1.0,)"
+      ]
+    },
+    "0.1.4": {
+      "fetchedAt": "2026-10-23T20:39:49Z",
+      "sha256": "e15783d16ecbb34e1feab8413c37e0e8a35403075eac89b82121607d2ba423c7",
+      "dependencies": []
+    },
+    "0.1.5": {
+      "fetchedAt": "2026-10-23T20:39:47Z",
+      "sha256": "e15783d16ecbb34e1feab8413c37e0e8a35403075eac89b82121607d2ba423c7",
+      "dependencies": []
+    },
+    "0.1.6": {
+      "fetchedAt": "2026-10-23T20:39:46Z",
+      "sha256": "e15783d16ecbb34e1feab8413c37e0e8a35403075eac89b82121607d2ba423c7",
+      "dependencies": []
+    },
+    "0.1.7": {
+      "fetchedAt": "2026-10-23T20:39:45Z",
+      "sha256": "d06e33b71fa4987f286efe376af4d1b4834d29bf019de657e5ba7de4049a58d4",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.liux.android.sm.BootBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liux.android.sm.BootContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${smServiceComponentPrefix}.sm_boot_content_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liux.android.sm.SMBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.7",
+          "0.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liux.android.sm.SMContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.7",
+          "0.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${smServiceComponentPrefix}.sm_boot_content_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liux.android.sm.SMService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${smServiceComponentPrefix}.permission.ACCESS_SM_SERVICE",
+      "authorities": null,
+      "actions": [
+        "${smServiceComponentPrefix}.action.SM_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liux.android.sm.ServiceManagerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.1.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${smServiceComponentPrefix}.permission.ACCESS_SM_SERVICE",
+      "authorities": null,
+      "actions": [
+        "${smServiceComponentPrefix}.action.SM_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

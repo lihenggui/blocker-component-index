@@ -1,0 +1,580 @@
+{
+  "coordinate": "cn.jiguang.sdk:jpush-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.6.0": {
+      "fetchedAt": "2026-10-23T20:55:07Z",
+      "sha256": "f4dc6c5a9d932dcd19af70e9da88a81cd0e87022514c1294d243d4d63c652654",
+      "dependencies": []
+    },
+    "4.8.1": {
+      "fetchedAt": "2026-10-23T20:55:07Z",
+      "sha256": "4ebccfc6e11b8863ebb87748e71e9f4c95340948db9161beb6d137144e942297",
+      "dependencies": []
+    },
+    "4.8.3": {
+      "fetchedAt": "2026-10-23T20:55:06Z",
+      "sha256": "e08fcaa706b3b663169288fa80569cff900be0272eb5a7fa3748883f2cb72c6c",
+      "dependencies": []
+    },
+    "4.8.5": {
+      "fetchedAt": "2026-10-23T20:55:05Z",
+      "sha256": "28380185ce10395a02551822e1d057e91ae0acf27f45ce5656ebb529dccddee2",
+      "dependencies": []
+    },
+    "5.0.3": {
+      "fetchedAt": "2026-10-23T20:55:04Z",
+      "sha256": "7b7e8171a895b9a1b137d6c0b284c70f8965ac0e9c4d96cf6f9116829cb0479c",
+      "dependencies": []
+    },
+    "5.0.7": {
+      "fetchedAt": "2026-10-23T20:55:03Z",
+      "sha256": "852254aeedbc9ae43b8b5d74ac36b090f1c5ba289aa8689e514716083f9a8bb9",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-23T20:55:03Z",
+      "sha256": "10dbc7402f520f9d6fbae62f3b74d1940b846b792ebcd6a46e3cad8708a98d02",
+      "dependencies": []
+    },
+    "5.5.3": {
+      "fetchedAt": "2026-10-23T20:55:02Z",
+      "sha256": "6bd4001a4c3604a9e4f4f78b4798be5000bb0e4707349aee0b1355aaf3eab6ed",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.android.service.JTransitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.3",
+          "4.8.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.JPUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "cn.android.service.JTransitActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.android.service.JTransitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.1"
+        ],
+        [
+          "4.8.5",
+          "5.5.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.android.service.JTransitActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.union.ads.service.JAdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.8.1",
+          "4.8.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.JAdFileProvider",
+      "actions": [
+        "cn.jpush.android.intent.FileProvider"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.jpush.android.asus.AsusPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "5.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "5.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.DActivity"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DaemonService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.DaemonService"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DataProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": "${JPUSH_PKGNAME}.DataProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DataProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.5.3",
+          "5.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": "${applicationId}.DataProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${JPUSH_PKGNAME}.DownloadProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.3",
+          "5.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.jiguang.InitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.JNotifyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.3",
+          "4.8.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.JPUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.JNotifyActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.JNotifyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.1"
+        ],
+        [
+          "4.8.5",
+          "5.5.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.JNotifyActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.8.3",
+          "4.8.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.3",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.5.3",
+          "5.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "5.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.PUSH_TIME",
+        "cn.jpush.android.intent.PushService",
+        "cn.jpush.android.intent.REGISTER",
+        "cn.jpush.android.intent.REPORT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.SchedulerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "5.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PopWinActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.3",
+          "4.8.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.JPUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PopWinActivity"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PopWinActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.1"
+        ],
+        [
+          "4.8.5",
+          "5.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PopWinActivity"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PopWinActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.3",
+          "5.5.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PopWinActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.3",
+          "4.8.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.JPUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PushActivity"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.8.1"
+        ],
+        [
+          "4.8.5",
+          "5.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PushActivity"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.3",
+          "5.5.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PushActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

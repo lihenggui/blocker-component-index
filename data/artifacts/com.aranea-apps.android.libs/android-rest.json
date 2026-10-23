@@ -1,0 +1,100 @@
+{
+  "coordinate": "com.aranea-apps.android.libs:android-rest",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0.0": {
+      "fetchedAt": "2026-10-23T22:16:57Z",
+      "sha256": "b64574afc380c4f9d31c6bc30fb4c1359057f7b09f9ca8684d7ce7a3b7c56447",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.+",
+        "com.aranea-apps.android.libs:android-logger:1.0.+",
+        "com.squareup.okhttp:okhttp:1.6.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-23T22:16:57Z",
+      "sha256": "b64574afc380c4f9d31c6bc30fb4c1359057f7b09f9ca8684d7ce7a3b7c56447",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.1",
+        "com.aranea-apps.android.libs:android-logger:1.0.10",
+        "com.squareup.okhttp:okhttp-apache:2.1.0",
+        "com.squareup.okhttp:okhttp:2.1.0"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-23T22:16:56Z",
+      "sha256": "b64574afc380c4f9d31c6bc30fb4c1359057f7b09f9ca8684d7ce7a3b7c56447",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.1",
+        "com.aranea-apps.android.libs:android-logger:1.0.10",
+        "com.squareup.okhttp:okhttp-apache:2.2.0",
+        "com.squareup.okhttp:okhttp:2.2.0"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-23T22:16:55Z",
+      "sha256": "b64574afc380c4f9d31c6bc30fb4c1359057f7b09f9ca8684d7ce7a3b7c56447",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.1",
+        "com.aranea-apps.android.libs:android-logger:1.0.10",
+        "com.squareup.okhttp:okhttp-apache:2.2.0",
+        "com.squareup.okhttp:okhttp:2.2.0"
+      ]
+    },
+    "2.6.0": {
+      "fetchedAt": "2026-10-23T22:16:55Z",
+      "sha256": "f3ed2ceea96e28eed963fc9e40a89b0f2f184c3b9b8f2898bfcdbd021047cf2a",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.4",
+        "com.squareup.okhttp:okhttp-apache:2.3.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-23T22:16:54Z",
+      "sha256": "f3ed2ceea96e28eed963fc9e40a89b0f2f184c3b9b8f2898bfcdbd021047cf2a",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.4",
+        "com.squareup.okhttp:okhttp-apache:2.3.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    },
+    "2.8.0": {
+      "fetchedAt": "2026-10-23T22:16:53Z",
+      "sha256": "f3ed2ceea96e28eed963fc9e40a89b0f2f184c3b9b8f2898bfcdbd021047cf2a",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.4",
+        "com.squareup.okhttp:okhttp-apache:2.3.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    },
+    "2.9.0": {
+      "fetchedAt": "2026-10-23T22:16:52Z",
+      "sha256": "f3ed2ceea96e28eed963fc9e40a89b0f2f184c3b9b8f2898bfcdbd021047cf2a",
+      "dependencies": [
+        "com.aranea-apps.android.libs:android-async-runners:1.0.4",
+        "com.squareup.okhttp:okhttp-apache:2.3.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.araneaapps.android.libs.asyncrunners.services.ExecutorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0.0",
+          "2.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

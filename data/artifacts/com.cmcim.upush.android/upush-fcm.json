@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.cmcim.upush.android:upush-fcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:11:38Z",
+      "sha256": "63e85f7994ae2785f7f533f40504075bdc9312114403ff4972c9b449bff86200",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.cmcim.upush.android.sdk.fcm.service.UPushFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

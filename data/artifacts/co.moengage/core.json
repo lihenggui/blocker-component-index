@@ -1,0 +1,96 @@
+{
+  "coordinate": "co.moengage:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.7.0": {
+      "fetchedAt": "2026-10-23T21:18:51Z",
+      "sha256": "0b15e3abc289d011c175298c056d0baeecbf15943655403438445c93cc069ee4",
+      "dependencies": []
+    },
+    "6.8.3": {
+      "fetchedAt": "2026-10-23T21:18:50Z",
+      "sha256": "047606e15cddd0393ed3ce1d9a1ce785e6284d6eb237f6cab58ccbfc27d5bc76",
+      "dependencies": []
+    },
+    "6.9.3": {
+      "fetchedAt": "2026-10-23T21:18:49Z",
+      "sha256": "047606e15cddd0393ed3ce1d9a1ce785e6284d6eb237f6cab58ccbfc27d5bc76",
+      "dependencies": []
+    },
+    "7.3.0": {
+      "fetchedAt": "2026-10-23T21:18:48Z",
+      "sha256": "b9cfbaa5125b79b77416a0b52b12b3dff61c12c878b400efff4f3311af117609",
+      "dependencies": []
+    },
+    "7.5.0": {
+      "fetchedAt": "2026-10-23T21:18:45Z",
+      "sha256": "047606e15cddd0393ed3ce1d9a1ce785e6284d6eb237f6cab58ccbfc27d5bc76",
+      "dependencies": []
+    },
+    "7.5.2": {
+      "fetchedAt": "2026-10-23T21:18:47Z",
+      "sha256": "6b43c54180dea3668d24212c7ca58f6ba3ecc8ab1a723d78ec0f07e78285f71d",
+      "dependencies": []
+    },
+    "8.0.1": {
+      "fetchedAt": "2026-10-23T21:18:46Z",
+      "sha256": "a8619cbd96a06c9bec18387f55f6e3fb00ace4ee3d9e7f3188607287bc4af82a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.moe.pushlibrary.activities.MoEActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.7.0",
+          "8.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.core.internal.data.reports.DataSyncJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.7.0",
+          "7.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.core.internal.storage.providers.MoEngageFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "8.0.1",
+          "8.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.moengage.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

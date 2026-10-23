@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.com2us.android.adiz:hive-adiz-adapter-applovin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:12:57Z",
+      "sha256": "36aad5b88eb1c90a5ad22c150b0efec318610d625e1419652e1b63d942950e75",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.0.0",
+        "com.google.ads.mediation:applovin:12.4.2.0",
+        "com.google.android.gms:play-services-ads:23.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T23:12:56Z",
+      "sha256": "36aad5b88eb1c90a5ad22c150b0efec318610d625e1419652e1b63d942950e75",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.0.1",
+        "com.google.ads.mediation:applovin:12.5.0.1",
+        "com.google.android.gms:play-services-ads:23.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-23T23:12:55Z",
+      "sha256": "36aad5b88eb1c90a5ad22c150b0efec318610d625e1419652e1b63d942950e75",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.1.0",
+        "com.google.ads.mediation:applovin:13.0.0.1",
+        "com.google.android.gms:play-services-ads:23.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-23T23:12:54Z",
+      "sha256": "36aad5b88eb1c90a5ad22c150b0efec318610d625e1419652e1b63d942950e75",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.1.1",
+        "com.google.ads.mediation:applovin:13.0.0.1",
+        "com.google.android.gms:play-services-ads:23.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-23T23:12:53Z",
+      "sha256": "36aad5b88eb1c90a5ad22c150b0efec318610d625e1419652e1b63d942950e75",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.1.2",
+        "com.google.ads.mediation:applovin:13.0.0.1",
+        "com.google.android.gms:play-services-ads:23.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.1.3": {
+      "fetchedAt": "2026-10-23T23:12:52Z",
+      "sha256": "36aad5b88eb1c90a5ad22c150b0efec318610d625e1419652e1b63d942950e75",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.com2us.android.adiz:hive-adiz:2.1.3",
+        "com.google.ads.mediation:applovin:13.0.0.1",
+        "com.google.android.gms:play-services-ads:23.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.hive.adiz.MediationAppLovinInitializer"
+      ]
+    }
+  ]
+}

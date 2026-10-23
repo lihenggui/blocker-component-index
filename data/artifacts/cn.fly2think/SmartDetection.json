@@ -1,0 +1,49 @@
+{
+  "coordinate": "cn.fly2think:SmartDetection",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T20:45:23Z",
+      "sha256": "94033604c88332e886990b63e2650ace2c5c03a27391684124f87073bc0c4d6a",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T20:45:22Z",
+      "sha256": "94033604c88332e886990b63e2650ace2c5c03a27391684124f87073bc0c4d6a",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T20:45:21Z",
+      "sha256": "94033604c88332e886990b63e2650ace2c5c03a27391684124f87073bc0c4d6a",
+      "dependencies": [
+        "cn.com.superLei:blelibrary:3.1.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.smart.detection.DetectionContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DetectionContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

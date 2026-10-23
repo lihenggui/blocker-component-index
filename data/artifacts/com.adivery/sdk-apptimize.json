@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.adivery:sdk-apptimize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.7.2": {
+      "fetchedAt": "2026-10-23T21:30:19Z",
+      "sha256": "2879dfb8a3fb981514a772004eb65147eaa3513664a8b646c3b9094daef94d73",
+      "dependencies": [
+        "ir.apptimize:sdk:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "4.7.3": {
+      "fetchedAt": "2026-10-23T21:30:18Z",
+      "sha256": "2879dfb8a3fb981514a772004eb65147eaa3513664a8b646c3b9094daef94d73",
+      "dependencies": [
+        "ir.apptimize:sdk:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "4.7.4": {
+      "fetchedAt": "2026-10-23T21:30:18Z",
+      "sha256": "c3c186fc20c14cbed0bb497352d2656b1f1085ccc867c9f4df0a09f4b5282bd9",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "4.7.5": {
+      "fetchedAt": "2026-10-23T21:30:17Z",
+      "sha256": "c3c186fc20c14cbed0bb497352d2656b1f1085ccc867c9f4df0a09f4b5282bd9",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "4.7.6": {
+      "fetchedAt": "2026-10-23T21:30:16Z",
+      "sha256": "c3c186fc20c14cbed0bb497352d2656b1f1085ccc867c9f4df0a09f4b5282bd9",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adivery.sdk.core.UninstallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.7.2",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_FULLY_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adivery.sdk.networks.adivery.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.7.2",
+          "4.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

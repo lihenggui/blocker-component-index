@@ -1,0 +1,149 @@
+{
+  "coordinate": "com.blankj:utilcodex",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.30.6": {
+      "fetchedAt": "2026-10-23T22:43:43Z",
+      "sha256": "8ceb012ad3cf80c1244b04f64ba75529cd6d41a8bbcbadd8be510d7ba60c8eaf",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72"
+      ]
+    },
+    "1.30.7-alpha0": {
+      "fetchedAt": "2026-10-23T22:43:43Z",
+      "sha256": "c64233817b9710d2cc6fc653fb76aafe6f52840f4d9039f53c1f7ea1fd2b2c62",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72"
+      ]
+    },
+    "1.31.0": {
+      "fetchedAt": "2026-10-23T22:43:43Z",
+      "sha256": "16c46505af92f7174853d8d986e3add35981349ba4ccdd17fa195cde2e160556",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72"
+      ]
+    },
+    "1.31.1": {
+      "fetchedAt": "2026-10-23T22:43:42Z",
+      "sha256": "8c98b76bbe23e6a3f8437df45a2b4317902c9bb0e29915166e3791d52181bf56",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.blankj.utilcode.util.MessengerUtils$ServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.30.6",
+          "1.31.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.messenger"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.30.6",
+          "1.31.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.utilcode.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.31.1",
+          "1.31.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.30.6",
+          "1.31.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsTransActivity4MainProcess",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.31.1",
+          "1.31.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.blankj.utilcode.util.UtilsTransActivity4MainProcess",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.30.6",
+          "1.31.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

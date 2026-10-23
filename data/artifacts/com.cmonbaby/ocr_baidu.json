@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.cmonbaby:ocr_baidu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T23:11:54Z",
+      "sha256": "e7e889b480a7a81afb4c5af29261abcc32a136068aa17efd7243b510a3469f37",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.exifinterface:exifinterface:1.3.2"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T23:11:53Z",
+      "sha256": "e26bb0e0101d08a2475d0d9ce8b1ad80f2088e3dff7758dd5be6e2ba604a9a13",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.ocr.ui.camera.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

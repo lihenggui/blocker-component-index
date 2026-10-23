@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.cmcim.upush.android:push-internal",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.1.4": {
+      "fetchedAt": "2026-10-23T23:11:27Z",
+      "sha256": "7c6e818cc0a7fbbaae08c8ec57d438b2e1e88e4f211074f3722c5379e5e6c6f4",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.4",
+          "4.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.meizu.flyme.permission.PUSH",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.4",
+          "4.1.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

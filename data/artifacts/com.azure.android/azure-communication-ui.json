@@ -1,0 +1,116 @@
+{
+  "coordinate": "com.azure.android:azure-communication-ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta.1": {
+      "fetchedAt": "2026-10-23T22:26:24Z",
+      "sha256": "0535e43bbdc2adf32afaae89006142da545907eec93db080c2860e4797bba1fc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "com.azure.android:azure-communication-calling:2.0.0-beta.1",
+        "com.azure.android:azure-core:1.0.0-beta.9",
+        "com.microsoft.device:dualscreen-layout:1.0.0-alpha01",
+        "com.microsoft.fluentui:fluentui_drawer:0.0.10",
+        "com.microsoft.fluentui:fluentui_others:0.0.10",
+        "com.microsoft.fluentui:fluentui_persona:0.0.10",
+        "com.microsoft.fluentui:fluentui_transients:0.0.10"
+      ]
+    },
+    "1.0.0-beta.2": {
+      "fetchedAt": "2026-10-23T22:26:22Z",
+      "sha256": "76dbdd48ff86c98aa221b29ece59fde3988bc96719962c7533377a111d5daedc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "com.azure.android:azure-communication-calling:2.1.0-beta.1",
+        "com.azure.android:azure-core:1.0.0-beta.9",
+        "com.microsoft.device:dualscreen-layout:1.0.0-alpha01",
+        "com.microsoft.fluentui:fluentui_drawer:0.0.15",
+        "com.microsoft.fluentui:fluentui_others:0.0.15",
+        "com.microsoft.fluentui:fluentui_persona:0.0.15",
+        "com.microsoft.fluentui:fluentui_transients:0.0.15"
+      ]
+    },
+    "1.0.0-beta.3": {
+      "fetchedAt": "2026-10-23T22:26:22Z",
+      "sha256": "76dbdd48ff86c98aa221b29ece59fde3988bc96719962c7533377a111d5daedc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "com.azure.android:azure-communication-calling:2.1.0-beta.1",
+        "com.azure.android:azure-core:1.0.0-beta.9",
+        "com.microsoft.device:dualscreen-layout:1.0.0-alpha01",
+        "com.microsoft.fluentui:fluentui_drawer:0.0.15",
+        "com.microsoft.fluentui:fluentui_others:0.0.15",
+        "com.microsoft.fluentui:fluentui_persona:0.0.15",
+        "com.microsoft.fluentui:fluentui_transients:0.0.15"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.azure.android.communication.ui.presentation.CallCompositeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.0.0-beta.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.azure.android.communication.ui.presentation.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta.1",
+          "1.0.0-beta.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.azure.android.communication.ui.service.calling.InCallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-beta.1",
+          "1.0.0-beta.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

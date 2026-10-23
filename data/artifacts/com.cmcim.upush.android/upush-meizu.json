@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.cmcim.upush.android:upush-meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:11:40Z",
+      "sha256": "91e19ac4386fd7c202ab304974928e0b0e6dcc8a97b7f0ae9c22ff4d3430a54e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.cmcim.upush.android.sdk.meizu.receiver.UPushMeizuMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "coordinate": "co.moengage:sdk-debugger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.0": {
+      "fetchedAt": "2026-10-23T21:19:07Z",
+      "sha256": "24f8f34ebe1105746865259e163d0be9c7012b0c27a56ea2b3ae8b85ff088da5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T21:19:08Z",
+      "sha256": "24f8f34ebe1105746865259e163d0be9c7012b0c27a56ea2b3ae8b85ff088da5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.sdk.debugger.MoEDebuggerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

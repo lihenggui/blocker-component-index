@@ -1,0 +1,61 @@
+{
+  "coordinate": "com.cleveradssolutions:mobfox",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.2.0": {
+      "fetchedAt": "2026-10-23T23:07:17Z",
+      "sha256": "13a8d6df389ce1bb17923bdf77b283e9884979e67d1b21a09d5156c01ac9b311",
+      "dependencies": [
+        "com.android.volley:volley:1.1.1",
+        "com.cleveradssolutions:cas-sdk:2.1.1",
+        "com.github.mobfox:mfx-android-sdk:4.3.2"
+      ]
+    },
+    "4.3.2.1": {
+      "fetchedAt": "2026-10-23T23:07:16Z",
+      "sha256": "92fa34c74e5175ea876e4f5aab00749dec4196187131ee30d7b40cc9bf0ef450",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.android.volley:volley:1.1.1",
+        "com.cleveradssolutions:cas-sdk:2.1.6",
+        "com.github.mobfox:mfx-android-sdk:4.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mobfox.android.core.InAppBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.2.0",
+          "4.3.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobfox.android.dmp.services.MobFoxService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.3.2.0",
+          "4.3.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

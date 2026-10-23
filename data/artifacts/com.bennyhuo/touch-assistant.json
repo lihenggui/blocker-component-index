@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.bennyhuo:touch-assistant",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-23T22:33:14Z",
+      "sha256": "9b9c021cdf6b9ba2239cffab27a338b43e2363d2b7c83410ada81ab7ff7cacbc",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.slf4j:slf4j-api:1.7.25"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-23T22:33:14Z",
+      "sha256": "45cb42531ea03ec32f3e75ababbf02a8d398db39e213a470d0ed7d57aee0e6a4",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.slf4j:slf4j-api:1.7.25"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-23T22:33:12Z",
+      "sha256": "45cb42531ea03ec32f3e75ababbf02a8d398db39e213a470d0ed7d57aee0e6a4",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.slf4j:slf4j-api:1.7.25"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bennyhuo.android.touchassistant.content.TouchAssistantService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

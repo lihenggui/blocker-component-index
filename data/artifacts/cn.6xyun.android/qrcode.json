@@ -1,0 +1,41 @@
+{
+  "coordinate": "cn.6xyun.android:qrcode",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-23T20:39:42Z",
+      "sha256": "563d91da461db28fde0f014e363612e76c68828a7062e2bff84adf207da9e23b",
+      "dependencies": [
+        "androidx.core:core:1.0.2",
+        "com.google.zxing:core:3.4.0"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-23T20:39:41Z",
+      "sha256": "20ff76e91029b34752cf5d7f5461308abf1a02c3a7e19f4b28c9a4d8e1664001",
+      "dependencies": [
+        "androidx.core:core:1.13.0",
+        "com.google.zxing:core:3.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.liux.android.qrcode.QRCodeScanningActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

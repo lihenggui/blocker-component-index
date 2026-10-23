@@ -1,0 +1,112 @@
+{
+  "coordinate": "com.applivery:applvsdklib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.4.2": {
+      "fetchedAt": "2026-10-23T22:06:03Z",
+      "sha256": "3756c2659c3392d827249f61d87f1ba84b444c9068e8bb739ee56172c5d2f620",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.code.gson:gson:2.6.2",
+        "com.karumi:dexter:2.2.2",
+        "com.squareup.okhttp3:logging-interceptor:3.2.0",
+        "com.squareup.retrofit2:converter-gson:2.0.0",
+        "com.squareup.retrofit2:retrofit:2.0.0"
+      ]
+    },
+    "2.4.3": {
+      "fetchedAt": "2026-10-23T22:06:02Z",
+      "sha256": "853edb0041292c506b07091b1d9bbe632cc5440e543eaa924446937e014ac4b5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.code.gson:gson:2.6.2",
+        "com.karumi:dexter:2.2.2",
+        "com.squareup.okhttp3:logging-interceptor:3.2.0",
+        "com.squareup.retrofit2:converter-gson:2.0.0",
+        "com.squareup.retrofit2:retrofit:2.0.0"
+      ]
+    },
+    "2.6.3": {
+      "fetchedAt": "2026-10-23T22:06:02Z",
+      "sha256": "b815e1bd0ba24d5560fa5b91e4556b818fd751b2f163b0c8d77ff97c4f7e6c47",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.karumi:dexter:5.0.0",
+        "com.squareup.okhttp3:logging-interceptor:3.11.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    },
+    "2.6.5": {
+      "fetchedAt": "2026-10-23T22:06:01Z",
+      "sha256": "af84bcf92691a36cd9864638da98cc5eac9099b299b980c921bbbe78e475e6db",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.karumi:dexter:5.0.0",
+        "com.squareup.okhttp3:logging-interceptor:3.11.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T22:06:00Z",
+      "sha256": "af0024bf1f39248baaee979d4170115ce901e0b43cecca2c831e2f6d6b3d66f3",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.karumi:dexter:5.0.0",
+        "com.squareup.okhttp3:logging-interceptor:3.11.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.4.2",
+          "2.6.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.applivery.applvsdklib.tools.androidimplementations.AppliveryFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.6.5",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

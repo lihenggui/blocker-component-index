@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.bambora.checkout:androidsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:30:37Z",
+      "sha256": "b98c9fe99ee686364b6069ca4f10373ee64fa841aaa91a93f03952b264781b3b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T22:30:36Z",
+      "sha256": "b98c9fe99ee686364b6069ca4f10373ee64fa841aaa91a93f03952b264781b3b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-23T22:30:35Z",
+      "sha256": "b98c9fe99ee686364b6069ca4f10373ee64fa841aaa91a93f03952b264781b3b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bambora.android.java.checkoutsdk.BamboraCheckoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

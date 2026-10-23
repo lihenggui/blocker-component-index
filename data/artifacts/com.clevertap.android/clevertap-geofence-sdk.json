@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.clevertap.android:clevertap-geofence-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T23:08:46Z",
+      "sha256": "9d4da28375577e4ff6dfcec1e7ab8125603b5ecfd2c605d63a029e4815ff974c",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T23:08:45Z",
+      "sha256": "11b87eb12d1470de71862cdb00f7c4605ea4d9b912c25239adc3fe121121f3cf",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T23:08:44Z",
+      "sha256": "2895e5fbb4bc32b3d865a321b5e25d4326ca2187b79e86a52837846ceaf0813a",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T23:08:43Z",
+      "sha256": "28f00248e297f7e13ed9746804f4c277df7cfb9ae88e9cb1cd25bbbc864a8f78",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-23T23:08:42Z",
+      "sha256": "81361e115af764bbe9eb4687bdd7d987e6a985bef13e3520bc89c8770a424528",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-23T23:08:41Z",
+      "sha256": "6e619b5fdcd9418123b12b1d02296b5b643a5215706535056f7911d8864f2d89",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-23T23:08:41Z",
+      "sha256": "817b689b752a3c3b326b63fdf9243545ce3e35aadc7a680ba6a24ff50864e048",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.clevertap.android.geofence.CTGeofenceBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clevertap.android.geofence.CTGeofenceBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clevertap.android.geofence.CTGeofenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clevertap.android.geofence.CTLocationUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

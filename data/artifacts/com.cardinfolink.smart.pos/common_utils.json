@@ -1,0 +1,107 @@
+{
+  "coordinate": "com.cardinfolink.smart.pos:common_utils",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-23T22:58:10Z",
+      "sha256": "a804f9487b5a8e2b91f29c30998d2a3fcc6dfb5af73f8cc2d523772cf11a66c6",
+      "dependencies": [
+        "com.android.support:support-v4:27.1.1",
+        "com.google.code.gson:gson:2.8.5",
+        "commons-io:commons-io:2.4",
+        "io.reactivex:rxandroid:1.2.1",
+        "io.reactivex:rxjava:1.3.0"
+      ]
+    },
+    "2.0": {
+      "fetchedAt": "2026-10-23T22:58:09Z",
+      "sha256": "01a4de03a3e15752262e4ac476b50eab3e1872f16cc4614294e8cf490b47069a",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "commons-io:commons-io:2.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.3"
+      ]
+    },
+    "2.1": {
+      "fetchedAt": "2026-10-23T22:58:08Z",
+      "sha256": "01a4de03a3e15752262e4ac476b50eab3e1872f16cc4614294e8cf490b47069a",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "commons-io:commons-io:2.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.3"
+      ]
+    },
+    "2.6.5": {
+      "fetchedAt": "2026-10-23T22:58:07Z",
+      "sha256": "01a4de03a3e15752262e4ac476b50eab3e1872f16cc4614294e8cf490b47069a",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "commons-io:commons-io:2.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.cardinfolink.common_utils.log.FileHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.6.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cardinfolink.common_utils.log.LogJobSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.6.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cardinfolink.common_utils.log.ScreenOnOffReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.6.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.SCREEN_OFF",
+        "android.intent.action.SCREEN_ON",
+        "android.intent.action.USER_PRESENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

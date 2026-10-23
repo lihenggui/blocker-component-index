@@ -1,0 +1,126 @@
+{
+  "coordinate": "com.andretietz.retroauth:retroauth-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.3.2": {
+      "fetchedAt": "2026-10-23T21:52:03Z",
+      "sha256": "1b3587cfdc119e8fd86859efa0799d735b9cb80e65f1e39f15a848ba0556d4d8",
+      "dependencies": [
+        "com.andretietz.retroauth:retroauth:2.3.2",
+        "com.android.support:appcompat-v7:23.0.0"
+      ]
+    },
+    "3.0.0-beta11": {
+      "fetchedAt": "2026-10-23T21:52:02Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.andretietz.retroauth:retroauth:3.0.0-beta11"
+      ]
+    },
+    "3.0.0-beta12": {
+      "fetchedAt": "2026-10-23T21:52:02Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.andretietz.retroauth:retroauth:3.0.0-beta12"
+      ]
+    },
+    "3.0.0-beta14": {
+      "fetchedAt": "2026-10-23T21:52:01Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.andretietz.retroauth:retroauth:3.0.0-beta14"
+      ]
+    },
+    "3.0.0-beta19": {
+      "fetchedAt": "2026-10-23T21:52:01Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.andretietz.retroauth:retroauth:3.0.0-beta19"
+      ]
+    },
+    "3.0.0-beta20": {
+      "fetchedAt": "2026-10-23T21:52:01Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.andretietz.retroauth:retroauth:3.0.0-beta20"
+      ]
+    },
+    "3.0.0-beta21": {
+      "fetchedAt": "2026-10-23T21:52:00Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.andretietz.retroauth:retroauth:3.0.0-beta21"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T21:52:00Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0-rc01",
+        "com.andretietz.retroauth:retroauth:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T21:51:59Z",
+      "sha256": "d8cc90dde6d6a78e898364d561a21bbf0047ead0b367d19446023a9907785d11",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0-rc01",
+        "com.andretietz.retroauth:retroauth:3.0.1"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-23T21:51:59Z",
+      "sha256": "483a2a101eb2442ba79f44e92d1d3c2e8dbfcab4fc0bbb193c2a8d96a34ddc6b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.andretietz.retroauth:retroauth:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.1.0",
+          "3.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.andretietz.retroauth.RetroauthInitProvider"
+      ]
+    },
+    {
+      "name": "com.andretietz.retroauth.RetroauthInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0-beta11",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.retroauthinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

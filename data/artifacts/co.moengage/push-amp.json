@@ -1,0 +1,55 @@
+{
+  "coordinate": "co.moengage:push-amp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-23T21:19:00Z",
+      "sha256": "1e793664467caae693388bfef33a3be2d1b5db091fc64cdaa4bba8c8b14b6d23",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-23T21:18:59Z",
+      "sha256": "a9ca0d328a17b218419717095b3e89b13e039ca688ae04b725c0b99a97d4e062",
+      "dependencies": []
+    },
+    "4.6.0": {
+      "fetchedAt": "2026-10-23T21:18:58Z",
+      "sha256": "a9ca0d328a17b218419717095b3e89b13e039ca688ae04b725c0b99a97d4e062",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-23T21:18:55Z",
+      "sha256": "a9ca0d328a17b218419717095b3e89b13e039ca688ae04b725c0b99a97d4e062",
+      "dependencies": []
+    },
+    "5.2.2": {
+      "fetchedAt": "2026-10-23T21:18:57Z",
+      "sha256": "810e4246aa3b9d55dd139abca98ad9745827c204d286b89ddaf32bd9e005d6f1",
+      "dependencies": []
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-23T21:18:56Z",
+      "sha256": "810e4246aa3b9d55dd139abca98ad9745827c204d286b89ddaf32bd9e005d6f1",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.pushamp.internal.PushAmpSyncJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

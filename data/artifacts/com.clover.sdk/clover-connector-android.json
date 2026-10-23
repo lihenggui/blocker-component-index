@@ -1,0 +1,89 @@
+{
+  "coordinate": "com.clover.sdk:clover-connector-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2-RC1": {
+      "fetchedAt": "2026-10-23T23:10:21Z",
+      "sha256": "6033cd45ffa5aba0148d9fcbad19599422b75c3d91f1677191b8251e8989c2e5",
+      "dependencies": [
+        "com.clover.sdk:clover-android-sdk:168",
+        "com.clover:clover-remote-interface:195",
+        "com.google.code.gson:gson:2.3.1",
+        "com.neovisionaries:nv-websocket-client:1.31"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-23T23:10:20Z",
+      "sha256": "6033cd45ffa5aba0148d9fcbad19599422b75c3d91f1677191b8251e8989c2e5",
+      "dependencies": [
+        "com.clover.sdk:clover-android-sdk:168",
+        "com.clover:clover-remote-interface:195",
+        "com.google.code.gson:gson:2.3.1",
+        "com.neovisionaries:nv-websocket-client:1.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.clover.remote.client.transport.usb.pos.PosUsbBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2-RC1",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.hardware.usb.action.USB_DEVICE_DETACHED"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.hardware.usb.action.USB_DEVICE_DETACHED"
+      ]
+    },
+    {
+      "name": "com.clover.remote.client.transport.usb.pos.PosUsbRemoteProtocolService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2-RC1",
+          "1.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.clover.remote.client.transport.usb.pos.PosUsbRemoteProtocolService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clover.remote.client.transport.usb.pos.UsbActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2-RC1",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+      ]
+    }
+  ]
+}

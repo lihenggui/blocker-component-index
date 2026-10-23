@@ -1,0 +1,102 @@
+{
+  "coordinate": "cn.entertech.android:device_communicate_serialport",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T20:44:14Z",
+      "sha256": "d07d8ddcb15a20161651114974d6136bcb99f49cc4c348225839e1c4e9b44b50",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:device_communicate_api:0.0.2",
+        "com.google.android.material:material:1.9.0",
+        "com.google.auto.service:auto-service:1.0-rc6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T20:44:12Z",
+      "sha256": "d07d8ddcb15a20161651114974d6136bcb99f49cc4c348225839e1c4e9b44b50",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:device_communicate_api:0.0.3",
+        "com.google.android.material:material:1.9.0",
+        "com.google.auto.service:auto-service:1.0-rc6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-23T20:44:11Z",
+      "sha256": "d07d8ddcb15a20161651114974d6136bcb99f49cc4c348225839e1c4e9b44b50",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:device_communicate_api:0.0.4",
+        "com.google.android.material:material:1.9.0",
+        "com.google.auto.service:auto-service:1.0-rc6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-23T20:44:10Z",
+      "sha256": "d07d8ddcb15a20161651114974d6136bcb99f49cc4c348225839e1c4e9b44b50",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:device_communicate_api:0.0.5",
+        "com.google.android.material:material:1.9.0",
+        "com.google.auto.service:auto-service:1.0-rc6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-23T20:44:09Z",
+      "sha256": "d07d8ddcb15a20161651114974d6136bcb99f49cc4c348225839e1c4e9b44b50",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "cn.entertech.android:device_communicate_api:0.0.5",
+        "com.google.android.material:material:1.9.0",
+        "com.google.auto.service:auto-service:1.0-rc6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.entertech.serialport.SerialPortContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "serial_port_init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.serialport.SerialPortService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": ":serial",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

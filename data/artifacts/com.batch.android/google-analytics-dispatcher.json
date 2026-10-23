@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.batch.android:google-analytics-dispatcher",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:31:33Z",
+      "sha256": "ea2f49c351befd48bbef4c379f7213ea42df4006ac957d539542fe9d4a582af9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "com.batch.android:batch-sdk:1.15.0",
+        "com.google.android.gms:play-services-analytics:17.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.batch.android.eventdispatcher.DispatcherDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.batch.android.eventdispatcher:com.batch.android.dispatcher.googleanalytics.GoogleAnalyticsRegistrar"
+      ]
+    }
+  ]
+}

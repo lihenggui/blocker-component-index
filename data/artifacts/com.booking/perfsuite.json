@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.booking:perfsuite",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-23T22:45:33Z",
+      "sha256": "7dca3f9c4c00601b39879df59afcd59e989dd785687e408af28b66b35a0c6ab5",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-23T22:45:32Z",
+      "sha256": "7dca3f9c4c00601b39879df59afcd59e989dd785687e408af28b66b35a0c6ab5",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "0.3": {
+      "fetchedAt": "2026-10-23T22:45:31Z",
+      "sha256": "7dca3f9c4c00601b39879df59afcd59e989dd785687e408af28b66b35a0c6ab5",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.fragment:fragment:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.booking.perfsuite.startup.AppStartTimeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.startuptime",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.aptopayments.sdk:iap",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:16:21Z",
+      "sha256": "1e11e19606c94c6f13bc2836caf0b22c4849a9394572ac881b1f0a6284d0b7f2",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.0.4",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "com.aptopayments.sdk:mobile:3.20.0",
+        "com.aptopayments.sdk:ui:3.20.2",
+        "com.google.android.gms:play-services-oss-licenses:17.0.0",
+        "com.google.android.gms:play-services-tapandpay:18.1.0",
+        "com.google.android.material:material:1.2.1",
+        "com.jakewharton.threetenabp:threetenabp:1.2.4",
+        "io.insert-koin:koin-android:2.1.6",
+        "io.insert-koin:koin-androidx-viewmodel:2.1.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.aptopayments.iap.IAPActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

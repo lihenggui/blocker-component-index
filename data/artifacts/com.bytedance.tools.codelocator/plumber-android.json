@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.bytedance.tools.codelocator:plumber-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.12": {
+      "fetchedAt": "2026-10-23T22:55:19Z",
+      "sha256": "0551b48dfc42ea51ed22bcd91285f708d1dc7530cdd2eccd4c7e23b70fc25ef5",
+      "dependencies": [
+        "com.bytedance.tools.codelocator:plumber-android-core:2.12",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "2.13": {
+      "fetchedAt": "2026-10-23T22:55:18Z",
+      "sha256": "0551b48dfc42ea51ed22bcd91285f708d1dc7530cdd2eccd4c7e23b70fc25ef5",
+      "dependencies": [
+        "com.bytedance.tools.codelocator:plumber-android-core:2.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "leakcanary.internal.PlumberInstaller",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.12",
+          "2.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.plumber-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

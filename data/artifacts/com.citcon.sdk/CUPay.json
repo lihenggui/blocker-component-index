@@ -1,0 +1,167 @@
+{
+  "coordinate": "com.citcon.sdk:CUPay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T23:05:05Z",
+      "sha256": "dfb915d668050bcccbcc37912139e3ab9d4752653986472bb6dbf3ca7c910012",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:databinding-adapters:4.2.2",
+        "androidx.databinding:databinding-common:4.2.2",
+        "androidx.databinding:databinding-runtime:4.2.2",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "com.citcon.api:drop-in:1.21.8.01",
+        "com.google.android.gms:play-services-wallet:18.1.3",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.1-alpha": {
+      "fetchedAt": "2026-10-23T23:05:04Z",
+      "sha256": "ae6fbe61ec8e2263a5cc78ce9febed7a8734da1c3fa39980bb4a5b17210488fc",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:databinding-adapters:4.2.2",
+        "androidx.databinding:databinding-common:4.2.2",
+        "androidx.databinding:databinding-runtime:4.2.2",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "com.citcon.api:drop-in:3.21.12",
+        "com.citcon.sdk:alipay:15.8.03",
+        "com.citcon.sdk:mobile:2.4.1",
+        "com.citcon.sdk:unionpay:3.3.0",
+        "com.google.android.gms:play-services-wallet:19.0.0",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.braintreepayments.api.BraintreeBrowserSwitchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "3.0.1-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.dropin.AddCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.1-alpha",
+          "3.0.1-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.dropin.DropInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.1-alpha",
+          "3.0.1-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.dropin.VaultManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.1-alpha",
+          "3.0.1-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.sdk.ui.main.view.CUPaySDKActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "3.0.1-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.sdk.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.1-alpha",
+          "3.0.1-alpha"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

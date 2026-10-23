@@ -1,0 +1,54 @@
+{
+  "coordinate": "com.clostra:newnode",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:09:46Z",
+      "sha256": "1900cd688848992c665db4f12f95d0908b1df64845353224aa1e434069ff23f7",
+      "dependencies": [
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bugsnag:bugsnag-android:4.7.0",
+        "com.google.android.gms:play-services-nearby:18.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.clostra.newnode.internal.NearbyHelper.BatteryLevelReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BATTERY_LOW",
+        "android.intent.action.BATTERY_OKAY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clostra.newnode.internal.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

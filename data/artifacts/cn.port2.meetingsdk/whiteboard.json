@@ -1,0 +1,34 @@
+{
+  "coordinate": "cn.port2.meetingsdk:whiteboard",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.0": {
+      "fetchedAt": "2026-10-23T20:59:55Z",
+      "sha256": "559d7b1282206c4d57ca9e7c03c239556c91dca30fb6070529178d4bbf37a618",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.9.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.agora.dimensionlibrary.WindowShowService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.0",
+          "1.0.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

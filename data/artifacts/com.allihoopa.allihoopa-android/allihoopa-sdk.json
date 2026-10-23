@@ -1,0 +1,159 @@
+{
+  "coordinate": "com.allihoopa.allihoopa-android:allihoopa-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T21:45:44Z",
+      "sha256": "661e18b87bef00d55148d014f8f1823f79b43db2ee0affe568e00370040fe72b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0",
+        "com.android.support:support-v4:24.2.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T21:45:43Z",
+      "sha256": "ff748ed9e2089c7280d10707ee4935002ff58dc42ab168d2ef309d0a35dae646",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.0",
+        "com.android.support:support-v4:22.0.0"
+      ]
+    },
+    "0.1.0": {
+      "fetchedAt": "2026-10-23T21:45:42Z",
+      "sha256": "7a96e57ef7779746c4963adf261710d8f40ab2b629eaf6d427374d2ea48406ef",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-23T21:45:41Z",
+      "sha256": "2cbc165cff48d7b4781a1824e5081ba3592d5d05570afa64ca7eaeb9ac086247",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-23T21:45:41Z",
+      "sha256": "06948212a0241463655223ed23c009332be84a8c8fd25571f211b6133a5d5ec0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.2.3": {
+      "fetchedAt": "2026-10-23T21:45:40Z",
+      "sha256": "7309c4eeec61d5295823bdafdb7e93595fe97abd35b69f8350b9e21aca5ee8e5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-23T21:45:39Z",
+      "sha256": "dd2d4dfcfc722cf139c515166ad4f708761631f11c66ccbeb95506e52abb205b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-23T21:45:38Z",
+      "sha256": "79aa016a1d92c45fb41d18b5ad1979ce02bce40301aebf076f6003663aa18593",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-23T21:45:38Z",
+      "sha256": "ab5eea31a735ed1980a78ef620fd88b31b298c334a713e59b38e5613d9c9f071",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.4.1": {
+      "fetchedAt": "2026-10-23T21:45:37Z",
+      "sha256": "2da992347b9b8fc972fa07c4edccbc82e12a2fbe084a32ab6336a030f60e0cf5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    },
+    "0.4.2": {
+      "fetchedAt": "2026-10-23T21:45:36Z",
+      "sha256": "1a3fcf9ff99ddb85e588b3519ddf19f24eee258fbed34b66841f1bdff35f187e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-annotations:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.3",
+          "0.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.allihoopa.sdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.1",
+          "0.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.allihoopa.sdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.allihoopa.sdk.AuthenticateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

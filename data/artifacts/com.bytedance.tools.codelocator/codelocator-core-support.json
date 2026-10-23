@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.bytedance.tools.codelocator:codelocator-core-support",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:54:47Z",
+      "sha256": "820325f0c54376b2bcff78320db3950d37dedf2f1a9e6efe3cda0a87ee1f2242",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.bytedance.tools.codelocator:codelocator-model:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.tools.codelocator.CodeLocatorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.CodeLocatorProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

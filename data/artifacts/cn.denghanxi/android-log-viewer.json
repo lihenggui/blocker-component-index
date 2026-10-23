@@ -1,0 +1,64 @@
+{
+  "coordinate": "cn.denghanxi:android-log-viewer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T20:42:35Z",
+      "sha256": "653e23e190bcf69778a8a352bc7fcc3e5e1474d80639125a2153860126365770",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "com.google.android.material:material:1.7.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.4",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T20:42:34Z",
+      "sha256": "653e23e190bcf69778a8a352bc7fcc3e5e1474d80639125a2153860126365770",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "com.google.android.material:material:1.7.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.4",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.denghanxi.android_log_viewer_lib.ui.LogViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.denghanxi.android_log_viewer_lib.ui.detail.LogViewerDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

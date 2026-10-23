@@ -1,0 +1,126 @@
+{
+  "coordinate": "com.chillibits:simplesettings",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.0": {
+      "fetchedAt": "2026-10-23T23:04:25Z",
+      "sha256": "f15948cdbdf50dcd879510347239ecedfe8f353e82bacfa4ec9a3714d9e940ca",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0-alpha07",
+        "androidx.appcompat:appcompat:1.3.0-rc01",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.5.0-rc02",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.github.ibrahimsn98:live-preferences:1.9",
+        "com.github.skydoves:colorpickerpreference:2.0.5",
+        "com.google.android.material:material:1.3.0",
+        "com.mikepenz:aboutlibraries-core:8.8.5",
+        "com.mikepenz:aboutlibraries:8.8.5",
+        "com.mikepenz:fastadapter:5.4.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-23T23:04:24Z",
+      "sha256": "f15948cdbdf50dcd879510347239ecedfe8f353e82bacfa4ec9a3714d9e940ca",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0-beta02",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.github.ibrahimsn98:live-preferences:1.9",
+        "com.github.skydoves:colorpickerpreference:2.0.5",
+        "com.google.android.material:material:1.3.0",
+        "com.mikepenz:aboutlibraries-core:8.9.0",
+        "com.mikepenz:aboutlibraries:8.9.0",
+        "com.mikepenz:fastadapter:5.4.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "1.3.2": {
+      "fetchedAt": "2026-10-23T23:04:23Z",
+      "sha256": "f15948cdbdf50dcd879510347239ecedfe8f353e82bacfa4ec9a3714d9e940ca",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.github.ibrahimsn98:live-preferences:1.9",
+        "com.github.skydoves:colorpickerpreference:2.0.5",
+        "com.google.android.material:material:1.4.0",
+        "com.mikepenz:aboutlibraries-core:8.9.1",
+        "com.mikepenz:aboutlibraries:8.9.1",
+        "com.mikepenz:fastadapter:5.4.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "1.3.4": {
+      "fetchedAt": "2026-10-23T23:04:22Z",
+      "sha256": "d6b3903bb9ed3f20d7213201260b677a4ed07a535fc15cd7b498fe9dd508c26b",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.1.2",
+        "androidx.navigation:navigation-fragment-ktx:2.4.1",
+        "androidx.navigation:navigation-ui-ktx:2.4.1",
+        "androidx.preference:preference-ktx:1.2.0",
+        "com.github.ibrahimsn98:live-preferences:1.9",
+        "com.github.skydoves:colorpickerpreference:2.0.6",
+        "com.google.android.material:material:1.5.0",
+        "com.mikepenz:aboutlibraries-core:8.9.4",
+        "com.mikepenz:aboutlibraries:8.9.4",
+        "com.mikepenz:fastadapter:5.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chillibits.simplesettings.ui.SimpleSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mikepenz.aboutlibraries.ui.LibsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

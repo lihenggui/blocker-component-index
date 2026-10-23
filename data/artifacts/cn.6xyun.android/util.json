@@ -1,0 +1,47 @@
+{
+  "coordinate": "cn.6xyun.android:util",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.6": {
+      "fetchedAt": "2026-10-23T20:39:56Z",
+      "sha256": "e03530b6725668f15a55371e4dbd67eb8662b48dad29dbd3522a6fdf706d5cb6",
+      "dependencies": []
+    },
+    "0.2.7": {
+      "fetchedAt": "2026-10-23T20:39:54Z",
+      "sha256": "b436a0a89114c931b5e3076aa92b2f27b3fa55d93d37b5b04b709dea2b837ced",
+      "dependencies": []
+    },
+    "0.2.8": {
+      "fetchedAt": "2026-10-23T20:39:53Z",
+      "sha256": "b436a0a89114c931b5e3076aa92b2f27b3fa55d93d37b5b04b709dea2b837ced",
+      "dependencies": []
+    },
+    "0.2.9": {
+      "fetchedAt": "2026-10-23T20:39:52Z",
+      "sha256": "b436a0a89114c931b5e3076aa92b2f27b3fa55d93d37b5b04b709dea2b837ced",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.liux.android.util.extra.ExtraFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.6",
+          "0.2.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.extra.ExtraFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

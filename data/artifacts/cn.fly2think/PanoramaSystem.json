@@ -1,0 +1,142 @@
+{
+  "coordinate": "cn.fly2think:PanoramaSystem",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T20:45:20Z",
+      "sha256": "aa5e068be7a08724e458576c5a7b6d1696dc2a523ac96eaecc0534b4f255e394",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T20:45:19Z",
+      "sha256": "aa5e068be7a08724e458576c5a7b6d1696dc2a523ac96eaecc0534b4f255e394",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T20:45:18Z",
+      "sha256": "aa5e068be7a08724e458576c5a7b6d1696dc2a523ac96eaecc0534b4f255e394",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T20:45:17Z",
+      "sha256": "aa5e068be7a08724e458576c5a7b6d1696dc2a523ac96eaecc0534b4f255e394",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T20:45:16Z",
+      "sha256": "aa5e068be7a08724e458576c5a7b6d1696dc2a523ac96eaecc0534b4f255e394",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-23T20:45:15Z",
+      "sha256": "aa5e068be7a08724e458576c5a7b6d1696dc2a523ac96eaecc0534b4f255e394",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-23T20:45:14Z",
+      "sha256": "81522b74665ec260c0c3a23efedf7c0cbdef8c008ec03615baaa31ba22a4f3b5",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-23T20:45:13Z",
+      "sha256": "81522b74665ec260c0c3a23efedf7c0cbdef8c008ec03615baaa31ba22a4f3b5",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-23T20:45:11Z",
+      "sha256": "81522b74665ec260c0c3a23efedf7c0cbdef8c008ec03615baaa31ba22a4f3b5",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-23T20:45:09Z",
+      "sha256": "81522b74665ec260c0c3a23efedf7c0cbdef8c008ec03615baaa31ba22a4f3b5",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.9.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.zhy:okhttputils:2.6.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.smart.panorama.ApplicationContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ContextProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smart.panorama.PanoramaSystemContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.PanoramaSystemContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

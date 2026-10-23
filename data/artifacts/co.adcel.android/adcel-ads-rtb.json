@@ -1,0 +1,58 @@
+{
+  "coordinate": "co.adcel.android:adcel-ads-rtb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T21:14:06Z",
+      "sha256": "aed7d537e8352073a9a2709f019b68e61d85609a1f26e284fa672b37ff751fe5",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "co.adcel.android:adcel-ads-base:2.0.0",
+        "com.instreamatic:adman-android-view:7.15.2",
+        "com.instreamatic:adman-android-voice:7.15.2",
+        "com.instreamatic:adman-android:7.15.2"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-23T21:14:05Z",
+      "sha256": "81aa5eb29e02579a2275cb5fd54567f4f8672aac3b3c72718da2cbecbbb6f7b4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "co.adcel.android:adcel-ads-mediation:2.0.4",
+        "com.instreamatic:adman-android-view:7.15.2",
+        "com.instreamatic:adman-android-voice:7.15.2",
+        "com.instreamatic:adman-android:7.15.2"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-23T21:14:04Z",
+      "sha256": "1bdc8eb0039fc70648aafdfc250105ab6bae31f9d03a5eddf7438f2bec6d4e4c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "co.adcel.android:adcel-ads-mediation:2.0.5",
+        "com.instreamatic:adman-android-view:7.15.2",
+        "com.instreamatic:adman-android-voice:7.15.2",
+        "com.instreamatic:adman-android:7.15.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "co.adcel.ads.rtb.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

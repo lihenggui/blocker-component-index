@@ -1,0 +1,30 @@
+{
+  "coordinate": "cn.jiguang.sdk:jshare-facebookmodel",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T20:55:56Z",
+      "sha256": "45832c58286ff00e66c386178ad15c94b8cbe763e0c6c06c5364c438865bf051",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.jiguang.share.facebook.FacebookContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "com.facebook.app.FacebookContentProvider${FACEBOOK_APPID}",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

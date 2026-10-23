@@ -1,0 +1,136 @@
+{
+  "coordinate": "cn.jiguang.sdk.ad.third:jiguang",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.4": {
+      "fetchedAt": "2026-10-23T20:50:48Z",
+      "sha256": "b0c2c5914300c8028837223f838e76b9992f879b950ff3bc8335941a9e860659",
+      "dependencies": []
+    },
+    "5.0.6": {
+      "fetchedAt": "2026-10-23T20:50:47Z",
+      "sha256": "5be19a431aeb9b98153082f6343ea02c82f6a5024708d77a4831f7936b1663ac",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.jiguang.ads.base.component.JAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jiguang.ads.base.component.JUnionAdActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JAdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.JAdFileProvider",
+      "actions": [
+        "cn.jpush.android.intent.FileProvider"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JAdProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ads.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JAdReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.6",
+          "5.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "${applicationId}.permission.JAD_MESSAGE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JAdReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "cn.jiguang.ads.component.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jiguang.ads.base.component.JTransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jiguang.ads.component.JTransparentActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

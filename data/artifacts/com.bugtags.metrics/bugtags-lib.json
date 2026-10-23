@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.bugtags.metrics:bugtags-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.4.1": {
+      "fetchedAt": "2026-10-23T22:52:24Z",
+      "sha256": "a44b9bbf1216b4012ecbd8c10cf32d81b0a1f37d283f1184257a1cd190a25d22",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bugtags.library.BugtagsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.4.1",
+          "2.4.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

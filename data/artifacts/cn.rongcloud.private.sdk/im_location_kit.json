@@ -1,0 +1,293 @@
+{
+  "coordinate": "cn.rongcloud.private.sdk:im_location_kit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.2.1.52": {
+      "fetchedAt": "2026-10-23T21:03:08Z",
+      "sha256": "1d83f3b467b5c927405fb5b762426ada9fc0efd493d13d290cf5179bc8b64443",
+      "dependencies": []
+    },
+    "5.3.3.52": {
+      "fetchedAt": "2026-10-23T21:03:07Z",
+      "sha256": "4d072817240d6dd6aab2a12af0064626d9b21abfad2452e63a3e71b26b2ce52f",
+      "dependencies": []
+    },
+    "5.3.3.53": {
+      "fetchedAt": "2026-10-23T21:03:06Z",
+      "sha256": "4d072817240d6dd6aab2a12af0064626d9b21abfad2452e63a3e71b26b2ce52f",
+      "dependencies": []
+    },
+    "5.3.3.56": {
+      "fetchedAt": "2026-10-23T21:03:05Z",
+      "sha256": "4d072817240d6dd6aab2a12af0064626d9b21abfad2452e63a3e71b26b2ce52f",
+      "dependencies": []
+    },
+    "5.3.3.57": {
+      "fetchedAt": "2026-10-23T21:03:03Z",
+      "sha256": "4d072817240d6dd6aab2a12af0064626d9b21abfad2452e63a3e71b26b2ce52f",
+      "dependencies": []
+    },
+    "5.6.2.50": {
+      "fetchedAt": "2026-10-23T21:03:02Z",
+      "sha256": "4d072817240d6dd6aab2a12af0064626d9b21abfad2452e63a3e71b26b2ce52f",
+      "dependencies": []
+    },
+    "5.6.2.52": {
+      "fetchedAt": "2026-10-23T21:03:00Z",
+      "sha256": "4d072817240d6dd6aab2a12af0064626d9b21abfad2452e63a3e71b26b2ce52f",
+      "dependencies": []
+    },
+    "5.6.2.56": {
+      "fetchedAt": "2026-10-23T21:02:59Z",
+      "sha256": "9aa13a85ba687902e7d8331c0624dff7ad5f77f7a62a466c3ebeb3bfda4188c5",
+      "dependencies": []
+    },
+    "5.8.1.55": {
+      "fetchedAt": "2026-10-23T21:02:58Z",
+      "sha256": "8fc30ffa10cb90a08348cfe69fb29d8f8e92d4167d69deb504a65c9b90777cd9",
+      "dependencies": []
+    },
+    "5.12.0.50": {
+      "fetchedAt": "2026-10-23T21:02:55Z",
+      "sha256": "8fc30ffa10cb90a08348cfe69fb29d8f8e92d4167d69deb504a65c9b90777cd9",
+      "dependencies": []
+    },
+    "5.12.0.54": {
+      "fetchedAt": "2026-10-23T21:02:56Z",
+      "sha256": "6636f2ad0ba6b3e0527f0cc9738c82054fda045b377f8dd00507ca52727f38e4",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.amap.api.location.APSService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.12.0.54",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.amap.api.location.APSService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.2.1.52",
+          "5.12.0.50"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.AMapLocationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2.1.52",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "rong.location.AMapLocationActivity",
+        "rong.location.AMapLocationActivity2D"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.AMapPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.3.52",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "rong.location.AMapPreviewActivity"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.AMapPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2.1.52",
+          "5.2.1.52"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.AMapRealTimeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.12.0.54",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.AMapRealTimeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2.1.52",
+          "5.12.0.50"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.LocationInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.12.0.54",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.LocationInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.LocationInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.2.1.52",
+          "5.12.0.50"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.LocationInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.RongLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.12.0.54",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.RongLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.3.52",
+          "5.12.0.50"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.SearchLocationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.12.0.54",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.location.SearchLocationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2.1.52",
+          "5.12.0.50"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

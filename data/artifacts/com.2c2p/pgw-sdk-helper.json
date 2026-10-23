@@ -1,0 +1,96 @@
+{
+  "coordinate": "com.2c2p:pgw-sdk-helper",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.1.1": {
+      "fetchedAt": "2026-10-23T21:26:51Z",
+      "sha256": "8e8ee81fea21e53de703bf13f27d82e3ad63912c92fc1c61e6d06db61b52419d",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0"
+      ]
+    },
+    "4.2.0": {
+      "fetchedAt": "2026-10-23T21:26:50Z",
+      "sha256": "e733453f9d078b6d82919e9b98785f5a3522e39168f72a0893f4c6c5a9210ff0",
+      "dependencies": [
+        "androidx.activity:activity:1.9.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-23T21:26:50Z",
+      "sha256": "e733453f9d078b6d82919e9b98785f5a3522e39168f72a0893f4c6c5a9210ff0",
+      "dependencies": [
+        "androidx.activity:activity:1.9.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ccpp.pgw.sdk.helper.android.payment.deeplink.DeepLinkPayment",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.1",
+          "4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.ccpp.pgw.sdk.helper.android.payment.googlepay.GooglePayPayment",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.1",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ccpp.pgw.sdk.helper.android.payment.zalopay.ZaloPayPayment",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.1",
+          "4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

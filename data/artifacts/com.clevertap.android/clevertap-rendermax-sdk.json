@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.clevertap.android:clevertap-rendermax-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T23:09:00Z",
+      "sha256": "89a3073286640abb25e119999279bafa7d0bf9e0a7a6c011447eb76c03efb357",
+      "dependencies": [
+        "com.guardsquare:dexguard-runtime:9.3.21"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T23:08:59Z",
+      "sha256": "da28af2e8ea7cd4f456bf2af3c7331f60f604665daa25771178dafb483f73e75",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T23:08:58Z",
+      "sha256": "faca5f4e873cf8d944f2bf29d49c115c314a6c1333202763ed42232647f9c24a",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T23:08:57Z",
+      "sha256": "2f560016e552e346e0fcdbf7d027b41e21124d2cd41d5cdba43742ed5809106e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "c.a.b.e.registerForContextMenu",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clevertap.android.pushsdk.registerForContextMenu",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.clevertap.android.pushsdk.unregisterForContextMenu",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "e.c.b.b.openContextMenu",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

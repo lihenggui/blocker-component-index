@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.appaloosa-store:appaloosa-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T22:01:49Z",
+      "sha256": "020d6f463d65aad6ce4beead61ca7440f1f6f34a92642dab03b9e020cedead4c",
+      "dependencies": [
+        "com.octo.android.robospice:robospice-spring-android:1.4.12",
+        "org.codehaus.jackson:jackson-mapper-asl:1.9.13"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.octo.appaloosasdk.ui.activity.AppaloosaDevPanelActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.astrapay.qris.sdk:qris-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-23T22:19:19Z",
+      "sha256": "ce84ad7b4415a00425421b75033b83c5ac0956c7a4a780b86539a789f387c59d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.camera:camera-camera2:1.2.1",
+        "androidx.camera:camera-core:1.2.1",
+        "androidx.camera:camera-lifecycle:1.2.1",
+        "androidx.camera:camera-view:1.2.1",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "com.google.android.material:material:1.12.0",
+        "com.google.mlkit:barcode-scanning:17.0.0",
+        "com.intuit.sdp:sdp-android:1.0.6",
+        "com.intuit.ssp:ssp-android:1.0.6",
+        "com.moengage:geofence:3.2.0",
+        "com.moengage:inapp:6.7.0",
+        "com.moengage:inbox-core:2.4.0",
+        "com.moengage:moe-android-sdk:12.8.00",
+        "com.moengage:push-amp:4.4.0",
+        "com.moengage:realtime-trigger:2.4.0",
+        "com.moengage:rich-notification:4.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.astrapay.qris.sdk.internal.AstrapayQrisActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

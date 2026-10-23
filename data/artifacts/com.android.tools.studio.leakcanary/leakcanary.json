@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.android.tools.studio.leakcanary:leakcanary",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T21:55:38Z",
+      "sha256": "dafb1eda0364e224f1aa6327ae907ee4f5d9d7e36d2d1fe2e2f5b73c35802d1b",
+      "dependencies": [
+        "com.squareup.leakcanary:leakcanary-android:2.14"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T21:55:37Z",
+      "sha256": "dafb1eda0364e224f1aa6327ae907ee4f5d9d7e36d2d1fe2e2f5b73c35802d1b",
+      "dependencies": [
+        "com.squareup.leakcanary:leakcanary-android:2.14"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-23T21:55:36Z",
+      "sha256": "dafb1eda0364e224f1aa6327ae907ee4f5d9d7e36d2d1fe2e2f5b73c35802d1b",
+      "dependencies": [
+        "com.squareup.leakcanary:leakcanary-android:2.14"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:55:35Z",
+      "sha256": "dafb1eda0364e224f1aa6327ae907ee4f5d9d7e36d2d1fe2e2f5b73c35802d1b",
+      "dependencies": [
+        "com.squareup.leakcanary:leakcanary-android:2.14"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.tools.studio.leakcanary.HelperInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.studio-leakcanary-helper-init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

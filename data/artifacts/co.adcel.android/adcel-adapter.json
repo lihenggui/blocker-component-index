@@ -1,0 +1,262 @@
+{
+  "coordinate": "co.adcel.android:adcel-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.12.0": {
+      "fetchedAt": "2026-10-23T21:13:43Z",
+      "sha256": "937ffa52e606de63c138f6210a74ed2eea4aa61c92835b6c4c4bba92194df0b2",
+      "dependencies": []
+    },
+    "1.12.1": {
+      "fetchedAt": "2026-10-23T21:13:42Z",
+      "sha256": "73b8580c9e55f5f63e3b87d0a17029af6c0dcf3bd98d7de6e1ba9952bcf79135",
+      "dependencies": []
+    },
+    "1.12.2": {
+      "fetchedAt": "2026-10-23T21:13:41Z",
+      "sha256": "9c4aae7b9ad25c2ca656ed4ec74e2b4b5e2b3e127239bdf6ddefac06d8c32809",
+      "dependencies": []
+    },
+    "1.12.3": {
+      "fetchedAt": "2026-10-23T21:13:40Z",
+      "sha256": "4879c59ac83606c1240e835a4594f2c840a8a06c8e2352f1acd4b9fe34d07fa7",
+      "dependencies": []
+    },
+    "1.12.4": {
+      "fetchedAt": "2026-10-23T21:13:39Z",
+      "sha256": "5abb2f70b5f67e5ebe24357d68a5a05549e0c6bbb5e241e8455c7b467b0608fb",
+      "dependencies": []
+    },
+    "1.12.5": {
+      "fetchedAt": "2026-10-23T21:13:38Z",
+      "sha256": "05957a0dd106c7472f8d8187160ccbf88d9604a81cc736fe146f039dc200edad",
+      "dependencies": []
+    },
+    "1.13.0": {
+      "fetchedAt": "2026-10-23T21:13:36Z",
+      "sha256": "a1ab7a63260df363edecc0650712b09547d5a1e39f01d2c5b11adfae755869cc",
+      "dependencies": []
+    },
+    "1.13.1": {
+      "fetchedAt": "2026-10-23T21:13:35Z",
+      "sha256": "55bf27f1e5d0faaeadcbfe2031cf83c14e23aedb4f03d7d084323eb113da2c44",
+      "dependencies": []
+    },
+    "1.13.2": {
+      "fetchedAt": "2026-10-23T21:13:34Z",
+      "sha256": "ad9ba8bc5734894552a501222e8e3abceba174cf586b887107f3a294722a1d59",
+      "dependencies": []
+    },
+    "1.13.3": {
+      "fetchedAt": "2026-10-23T21:13:33Z",
+      "sha256": "b51ef426a033bbf6e8fb2a687638e04c4bd04039544486a1eafe5249e0f0f931",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.ads.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.common.MoPubBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MoPubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MraidVideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.RewardedMraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.my.target.ads.MyTargetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.ExpandedBannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.interstitial.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.video.VASTAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yandex.mobile.ads.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.12.0",
+          "1.13.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

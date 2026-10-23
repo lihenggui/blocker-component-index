@@ -1,0 +1,94 @@
+{
+  "coordinate": "com.bytedance.tools.codelocator:codelocator-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:54:47Z",
+      "sha256": "44abe8ce0de8a9b7a3abefcaa99882df832dc1573b386c443e72f7e22caf9ce8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.bytedance.tools.codelocator:codelocator-model:1.0.1"
+      ]
+    },
+    "1.0.0-support": {
+      "fetchedAt": "2026-10-23T22:54:46Z",
+      "sha256": "87eec6467852bdd51ce505c9ebd571c96baa689799619f2d923afb49df48c298",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.bytedance.tools.codelocator:codelocator-model:1.0.0-support"
+      ]
+    },
+    "1.9.9": {
+      "fetchedAt": "2026-10-23T22:54:45Z",
+      "sha256": "820325f0c54376b2bcff78320db3950d37dedf2f1a9e6efe3cda0a87ee1f2242",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.bytedance.tools.codelocator:codelocator-model:1.9.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:54:44Z",
+      "sha256": "820325f0c54376b2bcff78320db3950d37dedf2f1a9e6efe3cda0a87ee1f2242",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.bytedance.tools.codelocator:codelocator-model:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T22:54:43Z",
+      "sha256": "820325f0c54376b2bcff78320db3950d37dedf2f1a9e6efe3cda0a87ee1f2242",
+      "dependencies": [
+        "CodeLocatorApp:CodeLocatorModel:unspecified",
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-23T22:54:42Z",
+      "sha256": "820325f0c54376b2bcff78320db3950d37dedf2f1a9e6efe3cda0a87ee1f2242",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.bytedance.tools.codelocator:codelocator-model:2.0.2"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-23T22:54:41Z",
+      "sha256": "a2cec1784b10a0a9234d432884c5e034b210a5a0409e7edc7601f2945e1cf12d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.bytedance.tools.codelocator:codelocator-model:2.0.3",
+        "com.github.ChickenHook:RestrictionBypass:2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-23T22:54:39Z",
+      "sha256": "a2cec1784b10a0a9234d432884c5e034b210a5a0409e7edc7601f2945e1cf12d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bytedance.tools.codelocator:codelocator-model:2.0.4",
+        "com.github.ChickenHook:RestrictionBypass:2.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.tools.codelocator.CodeLocatorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.CodeLocatorProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

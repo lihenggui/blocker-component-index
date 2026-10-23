@@ -1,0 +1,40 @@
+{
+  "coordinate": "cn.bluemobi.dylan:uncaughtexception",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5": {
+      "fetchedAt": "2026-10-23T20:41:14Z",
+      "sha256": "9831ab2b1dfc341edba638e30dc8e7b67663b1c58fd6c84d157da5471859ea74",
+      "dependencies": []
+    },
+    "0.7": {
+      "fetchedAt": "2026-10-23T20:41:13Z",
+      "sha256": "7073b527dc77658d1ae6c05c761f396ab1a6405f147cd7b4318439f1b3359216",
+      "dependencies": []
+    },
+    "0.8": {
+      "fetchedAt": "2026-10-23T20:41:12Z",
+      "sha256": "a78e0c2c9bb90a620aae4016135c15b0a6391809009b7644bdb02db63a3f6214",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.bluemobi.dylan.uncaughtexception.activity.DefaultErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.8"
+        ]
+      ],
+      "exported": null,
+      "process": ":error_activity",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

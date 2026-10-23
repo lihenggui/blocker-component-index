@@ -1,0 +1,283 @@
+{
+  "coordinate": "cn.rongcloud.sdk:global_im_uikit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:07:06Z",
+      "sha256": "04d1f6ef061c6a0f79d9eaa7709935f956adfaec424eb8d1faea02d63e1393a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.1",
+        "androidx.camera:camera-lifecycle:1.2.1",
+        "androidx.camera:camera-view:1.2.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.lifecycle:lifecycle-process:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.room:room-runtime:2.4.2",
+        "cn.rongcloud.sdk:im_libcore:5.6.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T21:07:05Z",
+      "sha256": "69b64e1fb45dea560d2feab07dcd151b200e5a1d32c2c5858ad9fc455e697814",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.1",
+        "androidx.camera:camera-lifecycle:1.2.1",
+        "androidx.camera:camera-view:1.2.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.lifecycle:lifecycle-process:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.room:room-runtime:2.4.2",
+        "cn.rongcloud.sdk:im_libcore:5.6.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.google.android.material:material:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.rongcloud.im.uikit.chat.ChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.chatlist.ChatListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.camera.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.core.context.ContextContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.ContextContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.picture.PicturePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.picture.PictureSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.picture.PictureVideoPlayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.preview.FilePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.preview.GifPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.preview.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.preview.VideoPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.preview.combineV1.CombineWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rongcloud.im.uikit.internal.preview.combineV2.CombinePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

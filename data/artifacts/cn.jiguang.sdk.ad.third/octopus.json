@@ -1,0 +1,257 @@
+{
+  "coordinate": "cn.jiguang.sdk.ad.third:octopus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.8.7": {
+      "fetchedAt": "2026-10-23T20:51:20Z",
+      "sha256": "e1157ace74c488acb306a7e9f43afb9c5359dff98ea91f9f5c989eeb8480f24f",
+      "dependencies": []
+    },
+    "1.5.9.13": {
+      "fetchedAt": "2026-10-23T20:51:19Z",
+      "sha256": "1b83a03e977744ae718e5b4031e45fcc7d5dc2c4d872d9eabdf8a5bc55afeaee",
+      "dependencies": []
+    },
+    "1.6.0.2": {
+      "fetchedAt": "2026-10-23T20:51:18Z",
+      "sha256": "39b324b8deddaf33f9dd0d27efab1a322d3b14ec30922f50d5f1ae232b85af75",
+      "dependencies": []
+    },
+    "1.6.1.1": {
+      "fetchedAt": "2026-10-23T20:51:17Z",
+      "sha256": "5bf68a4ed47b669c572379db767a1ee67ce0c8fd388281cf0c26dd5ee955b4f3",
+      "dependencies": []
+    },
+    "1.6.1.8": {
+      "fetchedAt": "2026-10-23T20:51:16Z",
+      "sha256": "0158369052b1d9c8fc52d8f0a0fe24d9470d9f4ea0d25f8df8a216a66a7d7f62",
+      "dependencies": []
+    },
+    "1.6.2.0": {
+      "fetchedAt": "2026-10-23T20:51:15Z",
+      "sha256": "9911c9b9c3d87118d3fcaf0e59bce6af9659995e222884217eeb91fcf6d8e24a",
+      "dependencies": []
+    },
+    "1.6.2.2": {
+      "fetchedAt": "2026-10-23T20:51:14Z",
+      "sha256": "716e9405b5ed443e0ec534cd1898c94458e298f6340196de0e04589992680369",
+      "dependencies": []
+    },
+    "1.6.3.6": {
+      "fetchedAt": "2026-10-23T20:51:14Z",
+      "sha256": "16d9440c19aeaee8c1e9a7c377467ac8f2d459f9005b29c87621f2ff9b3d5f00",
+      "dependencies": []
+    },
+    "1.6.3.8": {
+      "fetchedAt": "2026-10-23T20:51:08Z",
+      "sha256": "709b8c52e0ec24f4eb24db7a5eabfed2f4aacbb3524edeee5b161cebdc7e6301",
+      "dependencies": []
+    },
+    "2.5.9.23": {
+      "fetchedAt": "2026-10-23T20:51:13Z",
+      "sha256": "9cfcf61d716a77129b27eadfffa54adb7f4647d7a25526d85603b85b4d1f6532",
+      "dependencies": []
+    },
+    "2.5.10.5": {
+      "fetchedAt": "2026-10-23T20:51:12Z",
+      "sha256": "98a8607771586719f90d80de2566183146e20dc9026ad8ece366adc9bcf70f04",
+      "dependencies": []
+    },
+    "2.5.11.17": {
+      "fetchedAt": "2026-10-23T20:51:11Z",
+      "sha256": "68bae22ffd4d66027c02cbded617cdc7369c0f0421aa90361918a6afde15f7af",
+      "dependencies": []
+    },
+    "2.6.1.8": {
+      "fetchedAt": "2026-10-23T20:51:10Z",
+      "sha256": "1730689d92bd9ebdd1566ff73f0fe146d54aa18e93c02726452c7673baecf550",
+      "dependencies": []
+    },
+    "2.6.3.10": {
+      "fetchedAt": "2026-10-23T20:51:09Z",
+      "sha256": "2a6459ded17c41dfa5f4add95bd55d228ec917a391d686c45e5f86356a76b2c8",
+      "dependencies": []
+    },
+    "2.6.5.10": {
+      "fetchedAt": "2026-10-23T20:51:09Z",
+      "sha256": "1b63676e5bedced609874fd5f51915d1ee1e99798921d1317ebfff3f360f1e8d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.octopus.ad.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.8.7",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.8.7",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.OctopusProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5.8.7",
+          "1.5.8.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.octopus.ad.OctopusProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5.9.13",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.octopus.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.octopus.ad.TransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.1.1",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.internal.activity.BrowserAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.3.6",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.internal.activity.DownloadDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.0.2",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.internal.activity.EndingPageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.9.23",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.internal.activity.StopoverDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.9.23",
+          "2.6.5.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.utils.AndroidOPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.9.13",
+          "1.5.9.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

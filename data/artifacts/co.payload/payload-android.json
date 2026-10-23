@@ -1,0 +1,58 @@
+{
+  "coordinate": "co.payload:payload-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-23T21:19:40Z",
+      "sha256": "f7f4abad95c0acc0893947eda6fddf8a8642f8151c5145f63f2a257cc5bbe0e0",
+      "dependencies": [
+        "co.payload:payload:0.1.2",
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-23T21:19:39Z",
+      "sha256": "a9ba5dce4006d063f5c253ccc33d2bf9f36952f145a6491502b822037076e778",
+      "dependencies": [
+        "co.payload:payload:0.1.3",
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "1.1.6": {
+      "fetchedAt": "2026-10-23T21:19:38Z",
+      "sha256": "adff4b56becab8b877c8b574e53fa996600d3b744584e021874c6f11db50cc04",
+      "dependencies": [
+        "co.payload:payload:0.1.3",
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "1.1.7": {
+      "fetchedAt": "2026-10-23T21:19:38Z",
+      "sha256": "cd4964a88bd1fdb78f6ce4efb4a71920912f0d05c6def433c2ce507f3ccda12b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "co.payload:payload:0.1.3",
+        "com.google.android.gms:play-services-wallet:18.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "co.payload.android.GooglePayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.7",
+          "1.1.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

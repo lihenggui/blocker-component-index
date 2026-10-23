@@ -1,0 +1,54 @@
+{
+  "coordinate": "cn.fly2think:UpdateApp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T20:47:02Z",
+      "sha256": "4e5c2c45121fb9190bd4aeb8de919e89c48443ed37eaa8192f8016c73c5dd67d",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T20:47:01Z",
+      "sha256": "4e5c2c45121fb9190bd4aeb8de919e89c48443ed37eaa8192f8016c73c5dd67d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vector.update_app.UpdateFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.vector.update_app.service.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

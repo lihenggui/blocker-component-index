@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.applovin.mediation:amazon-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.0.0.0": {
+      "fetchedAt": "2026-10-23T22:06:20Z",
+      "sha256": "3116e0f37f2b5514a10396619f64615a0f633f5e9b8920fc38d403e9a42e691b",
+      "dependencies": [
+        "com.amazon.android:mobile-ads:6.0.0"
+      ]
+    },
+    "6.0.0.0.1": {
+      "fetchedAt": "2026-10-23T22:06:19Z",
+      "sha256": "c057924a6ee065ac6a43368c41e3e26734fca950ea7c92b0fb1a33cf89850a19",
+      "dependencies": [
+        "com.amazon.android:mobile-ads:6.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amazon.device.ads.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0.0.0",
+          "6.0.0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

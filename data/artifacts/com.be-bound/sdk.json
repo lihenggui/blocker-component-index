@@ -1,0 +1,97 @@
+{
+  "coordinate": "com.be-bound:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:32:40Z",
+      "sha256": "adad1b8030d389d0c1c7dc8c623c9d9087cc2a300c23e1aa1ae9e136b80ddf1a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.android.support:support-v4:23.3.0",
+        "com.be-bound:common-library:1.0.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T22:32:39Z",
+      "sha256": "910bc86be48ed4679f598420b69c891e6ff5d7fa21a5ff84a86c182dbe9b16a2",
+      "dependencies": [
+        "com.be-bound:common-library:1.0.11"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T22:32:38Z",
+      "sha256": "910bc86be48ed4679f598420b69c891e6ff5d7fa21a5ff84a86c182dbe9b16a2",
+      "dependencies": [
+        "com.be-bound:common-library:1.0.12"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bebound.sdk.receiver.internal.ApplicationChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_CHANGED",
+        "android.intent.action.PACKAGE_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bebound.sdk.receiver.internal.BeAppReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "bebound.permission.BEBOUND",
+      "authorities": null,
+      "actions": [
+        "bebound.intent.action.internal.ERROR_REQUEST",
+        "bebound.intent.action.internal.RECEIVE_PUSH",
+        "bebound.intent.action.internal.RECEIVE_RESPONSE",
+        "bebound.intent.action.internal.REGISTRATION_RESULT",
+        "bebound.intent.action.internal.REQUEST_SENT",
+        "bebound.intent.action.internal.SESSION_EXPIRED",
+        "bebound.intent.action.internal.USER_MAPPED",
+        "bebound.intent.action.internal.USER_SUBSCRIBED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bebound.sdk.receiver.internal.ConnectivityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "bebound.permission.BEBOUND",
+      "authorities": null,
+      "actions": [
+        "bebound.intent.action.ON_CONNECTIVITY_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

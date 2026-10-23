@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.baidu.lbsyun:carnavi_testtest",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.1.2": {
+      "fetchedAt": "2026-10-23T22:29:56Z",
+      "sha256": "aa4ec4e920bd7080aef06f7e5ed3f3c2866fbdfd92651a79313fac3b7e50c4cf",
+      "dependencies": [
+        "com.baidu.lbsyun:javapoet:1.9.0",
+        "com.baidu.lbsyun:protobuf:1.0.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.navisdk.adapter.BNavFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.1.2",
+          "7.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bnav_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.baidu.navisdk.ui.video.BNVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.1.2",
+          "7.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

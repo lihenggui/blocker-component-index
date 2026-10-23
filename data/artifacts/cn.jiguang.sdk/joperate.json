@@ -1,0 +1,66 @@
+{
+  "coordinate": "cn.jiguang.sdk:joperate",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T20:54:32Z",
+      "sha256": "6d11c45701886856a9826af258bdb017903f762bebae61a2805977962703f2ea",
+      "dependencies": []
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T20:54:31Z",
+      "sha256": "3a7bb74e8bdc1c89c48ea6b5598370e63540d3eb8836fec9c6ca4d31de257772",
+      "dependencies": []
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-23T20:54:31Z",
+      "sha256": "e58679a135672cb549095c1712acfc5c7f5ae21906fe4d7ca0927fbfc82f66f4",
+      "dependencies": []
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-23T20:54:27Z",
+      "sha256": "7766b762b99ac379cdd59039d4860b18d9247ace6adbc00b6fd7c788e753d282",
+      "dependencies": []
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-23T20:54:27Z",
+      "sha256": "c361d6296c8358772ee7687742436f7e3a2c063103620d636b5649a755b93991",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:+"
+      ]
+    },
+    "2.0.9": {
+      "fetchedAt": "2026-10-23T20:54:26Z",
+      "sha256": "0c601c25e60f2288a2d0f4fd05599dc96493df9c91882c870dd5f28a332333d5",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:+"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-23T20:54:25Z",
+      "sha256": "b2dcb0936969f8d4270471ee58d61be6805f840f42d36155617f060e35108473",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:+"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.jpush.android.service.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

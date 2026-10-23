@@ -1,0 +1,140 @@
+{
+  "coordinate": "com.akexorcist:knoxactivator",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:42:20Z",
+      "sha256": "64b1683920f720942020deb7cf62d21b9defdc84dc6717c25323bb20ac15bc7e",
+      "dependencies": [
+        "com.squareup:otto:1.3.8"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T21:42:19Z",
+      "sha256": "1c57e4666c31d3fcf8468418d93ea307996b329b1af5cecf7de6626ba4d7cc4f",
+      "dependencies": [
+        "com.squareup:otto:1.3.8"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T21:42:19Z",
+      "sha256": "c2ce083f834728d781d53cbea5647f96f10819ad10cf6d3f9997d070086fa18c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.akexorcist.knoxactivator.receiver.AdminActivationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_DEVICE_ADMIN",
+      "authorities": null,
+      "actions": [
+        "android.app.action.DEVICE_ADMIN_DISABLED",
+        "android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED",
+        "android.app.action.DEVICE_ADMIN_ENABLED"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.app.device_admin"
+      ]
+    },
+    {
+      "name": "com.akexorcist.knoxactivator.receiver.KnoxDeviceAdminReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_DEVICE_ADMIN",
+      "authorities": null,
+      "actions": [
+        "android.app.action.DEVICE_ADMIN_ENABLED"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.app.device_admin"
+      ]
+    },
+    {
+      "name": "com.akexorcist.knoxactivator.receiver.LicenseActivationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "edm.intent.action.license.status"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.samsung.android.knox.IntentConverterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.sec.CBA_INSTALL_STATUS",
+        "android.intent.action.sec.SIM_CARD_CHANGED",
+        "com.samsung.action.knox.certenroll.CEP_CERT_ENROLL_STATUS",
+        "com.samsung.action.knox.certenroll.CEP_SERVICE_DISCONNECTED",
+        "com.samsung.android.mdm.VPN_BIND_RESULT",
+        "com.samsung.edm.intent.action.APPLICATION_FOCUS_CHANGE",
+        "com.samsung.edm.intent.action.CERTIFICATE_REMOVED",
+        "com.samsung.edm.intent.action.ENFORCE_SMIME_ALIAS_RESULT",
+        "com.samsung.edm.intent.action.EXCHANGE_CBA_INSTALL_STATUS",
+        "com.samsung.edm.intent.action.SIM_CARD_CHANGED",
+        "com.samsung.edm.intent.event.NTP_SERVER_UNREACHABLE",
+        "com.sec.action.NO_USER_ACTIVITY",
+        "com.sec.action.USER_ACTIVITY",
+        "com.sec.enterprise.intent.action.BLOCKED_DOMAIN",
+        "com.sec.enterprise.intent.action.UPDATE_FOTA_VERSION_RESULT",
+        "com.sec.enterprise.knox.intent.action.KNOX_ATTESTATION_RESULT",
+        "edm.intent.action.EMAIL_ACCOUNT_ADD_RESULT",
+        "edm.intent.action.EMAIL_ACCOUNT_DELETE_RESULT",
+        "edm.intent.action.EXCHANGE_ACCOUNT_ADD_RESULT",
+        "edm.intent.action.EXCHANGE_ACCOUNT_DELETE_RESULT",
+        "edm.intent.action.device.inside",
+        "edm.intent.action.device.location.unavailable",
+        "edm.intent.action.device.outside",
+        "edm.intent.action.disable.kiosk.mode.result",
+        "edm.intent.action.enable.kiosk.mode.result",
+        "edm.intent.action.knox_license.status",
+        "edm.intent.action.ldap.createacct.result",
+        "edm.intent.action.license.status",
+        "edm.intent.action.unexpected.kiosk.behavior",
+        "edm.intent.application.action.prevent.start",
+        "edm.intent.application.action.prevent.stop",
+        "edm.intent.certificate.action.certificate.failure"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

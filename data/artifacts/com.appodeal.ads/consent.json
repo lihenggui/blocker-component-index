@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.appodeal.ads:consent",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T22:12:04Z",
+      "sha256": "92decd5618c657a33ef31c8eeafd6f9e7c244030a84d896ac0fdb27286d2295a",
+      "dependencies": [
+        "com.appodeal.ads.sdk.core:internal:3.0.1",
+        "com.appodeal.ads:advertising:3.0.1",
+        "com.appodeal.ads:network:3.0.1",
+        "org.jetbrains.kotlin:kotlin-reflect:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appodeal.consent.view.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

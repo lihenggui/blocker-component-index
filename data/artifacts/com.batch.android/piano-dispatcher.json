@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.batch.android:piano-dispatcher",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-rc.1": {
+      "fetchedAt": "2026-10-23T22:31:43Z",
+      "sha256": "f9e6f3f3e7937931f18d379b6983077bf14b67dbbd6aa197789283ac9b404c7f",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.19.3",
+        "io.piano:analytics:3.2.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:31:43Z",
+      "sha256": "f9e6f3f3e7937931f18d379b6983077bf14b67dbbd6aa197789283ac9b404c7f",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.19.3",
+        "io.piano:analytics:3.2.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T22:31:42Z",
+      "sha256": "f9e6f3f3e7937931f18d379b6983077bf14b67dbbd6aa197789283ac9b404c7f",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.19.3",
+        "io.piano:analytics:3.2.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:31:41Z",
+      "sha256": "975f61a272347a84e1414b79b87f7b950e3887d4232b76913adf12db336f927b",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.20.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.batch.android.eventdispatcher.DispatcherDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-rc.1",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.batch.android.eventdispatcher:com.batch.android.dispatcher.piano.PianoRegistrar"
+      ]
+    }
+  ]
+}

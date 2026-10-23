@@ -1,0 +1,351 @@
+{
+  "coordinate": "cn.rongcloud.private.sdk:call_kit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.6.2.50": {
+      "fetchedAt": "2026-10-23T21:01:22Z",
+      "sha256": "8d7e566f68cdeace89f3d201e098c7e35b19cd851d442a2fc4a0710120a035ec",
+      "dependencies": [
+        "androidx.media:media:1.2.1",
+        "cn.rongcloud.private.sdk:call_lib:5.6.2.50",
+        "cn.rongcloud.private.sdk:im_kit:5.6.2.50",
+        "com.github.bumptech.glide:glide:4.9.0"
+      ]
+    },
+    "5.6.2.56": {
+      "fetchedAt": "2026-10-23T21:01:21Z",
+      "sha256": "443e05735c631bdb296de438afeaf4f9e204c8bcaf884dcdff7c6c33277bfe3a",
+      "dependencies": [
+        "androidx.media:media:1.2.1",
+        "cn.rongcloud.private.sdk:call_lib:5.6.2.56",
+        "cn.rongcloud.private.sdk:im_kit:5.6.2.56",
+        "com.github.bumptech.glide:glide:4.9.0"
+      ]
+    },
+    "5.12.0.50": {
+      "fetchedAt": "2026-10-23T21:01:18Z",
+      "sha256": "0a9f3f08c4922b51175e820e80a0ea258368e6887da2c36e2e853d5a1f05d08b",
+      "dependencies": [
+        "androidx.media:media:1.2.1",
+        "cn.rongcloud.private.sdk:call_lib:5.12.0.50",
+        "cn.rongcloud.private.sdk:im_kit:5.12.0.50",
+        "com.github.bumptech.glide:glide:4.9.0"
+      ]
+    },
+    "5.12.0.54": {
+      "fetchedAt": "2026-10-23T21:01:20Z",
+      "sha256": "60366a7bc18207bcb46320c2b4ef21ad2b52c74bed3695244b3171bc86612c1d",
+      "dependencies": [
+        "androidx.media:media:1.2.1",
+        "cn.rongcloud.private.sdk:call_lib:5.12.0.54",
+        "cn.rongcloud.private.sdk:im_kit:5.12.0.54",
+        "com.github.bumptech.glide:glide:4.9.0"
+      ]
+    },
+    "5.20.0.50": {
+      "fetchedAt": "2026-10-23T21:01:19Z",
+      "sha256": "4681fed6683588ad81d03c39bceb0a45044749f7a1d0fc082e37d1706bd85476",
+      "dependencies": [
+        "androidx.media:media:1.2.1",
+        "cn.rongcloud.private.sdk:call_lib:5.20.0.50",
+        "cn.rongcloud.private.sdk:im_kit:5.20.0.50",
+        "com.github.bumptech.glide:glide:4.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.rong.callkit.CallForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.12.0.50",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.CallSelectMemberActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.2.50",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.MultiAudioCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.12.0.50",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.rong.intent.action.voip.MULTIAUDIO"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.MultiAudioCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.2.50",
+          "5.6.2.56"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.rong.intent.action.voip.MULTIAUDIO"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.MultiVideoCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.12.0.50",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.rong.intent.action.voip.MULTIVIDEO"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.MultiVideoCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.2.50",
+          "5.6.2.56"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.rong.intent.action.voip.MULTIVIDEO"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.SingleCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.12.0.50",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.rong.intent.action.voip.SINGLEAUDIO",
+        "io.rong.intent.action.voip.SINGLEVIDEO"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.SingleCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.2.50",
+          "5.6.2.56"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.rong.intent.action.voip.SINGLEAUDIO",
+        "io.rong.intent.action.voip.SINGLEVIDEO"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.VoIPBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.12.0.54",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "${applicationId}.permission.RECEIVE_PUSH_NOTIFICATION",
+      "authorities": null,
+      "actions": [
+        "action.push.CallInviteMessage",
+        "action.push.CallInviteMessage.CLICKED",
+        "action.push.voip.hangup.click",
+        "action.voip.notification.clear"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.VoIPBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.12.0.50",
+          "5.12.0.50"
+        ],
+        [
+          "5.20.0.50",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "action.push.CallInviteMessage",
+        "action.push.CallInviteMessage.CLICKED",
+        "action.push.voip.hangup.click",
+        "action.voip.notification.clear"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.VoIPBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.6.2.50",
+          "5.6.2.56"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "action.push.CallInviteMessage",
+        "action.push.CallInviteMessage.CLICKED",
+        "action.push.voip.hangup.click",
+        "action.voip.notification.clear"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.util.RTCPhoneStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.12.0.54",
+          "5.12.0.54"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.READ_PHONE_STATE",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.util.RTCPhoneStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.12.0.50",
+          "5.12.0.50"
+        ],
+        [
+          "5.20.0.50",
+          "5.20.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.callkit.util.RTCPhoneStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.6.2.50",
+          "5.6.2.56"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

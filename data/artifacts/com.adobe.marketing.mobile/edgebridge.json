@@ -1,0 +1,62 @@
+{
+  "coordinate": "com.adobe.marketing.mobile:edgebridge",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:33:19Z",
+      "sha256": "c333dfbd06643fa991e9cba72dda10586c1c60fc44cab99803ddcc3ae275955e",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:1.11.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T21:33:18Z",
+      "sha256": "56eaaf4e3c6829e75c143c4a259efb1ad77c613a1e605b5f474ba63e0f215aed",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:2.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-23T21:33:18Z",
+      "sha256": "56eaaf4e3c6829e75c143c4a259efb1ad77c613a1e605b5f474ba63e0f215aed",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:2.2.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T21:33:17Z",
+      "sha256": "6b9f9e0b2537c49cffbe085bfb8b35a7574895b77b96bcd75d5e34a677460535",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T21:33:16Z",
+      "sha256": "39078716d7ba51146b469d96c132b02778b5ffddc15b5b4d1183052b2fb8deb5",
+      "dependencies": [
+        "com.adobe.marketing.mobile:core:3.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adobe.marketing.mobile.ExtensionDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.adobe.marketing.mobile.edge.bridge.EdgeBridgeExtension"
+      ]
+    }
+  ]
+}

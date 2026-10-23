@@ -1,0 +1,70 @@
+{
+  "coordinate": "com.buglife.sdk:crashlife-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T22:50:38Z",
+      "sha256": "358d3fa4c285ec070ec0107874c85081a8b0081a2579cde66439ab228cf469a8",
+      "dependencies": [
+        "ru.ivanarh.ndcrash:jndcrash-libunwind:0.7"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T22:50:37Z",
+      "sha256": "64a8b77e947468008c9970f6a5f747ea1dade6d493aafb6b8d9e5995f9ea71b4",
+      "dependencies": [
+        "ru.ivanarh.ndcrash:jndcrash-libunwind:0.7"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T22:50:36Z",
+      "sha256": "c98dabd64332abf80b461ad4baaadc6d4e536b5da6d96bc7486f1b86051ff71c",
+      "dependencies": [
+        "ru.ivanarh.ndcrash:jndcrash-libunwind:0.7"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-23T22:50:36Z",
+      "sha256": "5f2e6405ea976d6075c1267131acbf489efc51f89522834fadb73e74ebc66159",
+      "dependencies": [
+        "ru.ivanarh.ndcrash:jndcrash-libunwind:0.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.buglife.crashlife.sdk.CrashService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": ":reportprocess",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.buglife.crashlife.sdk.DebugMenuActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

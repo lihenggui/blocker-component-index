@@ -1,0 +1,134 @@
+{
+  "coordinate": "cn.ellabook:flutter-saassdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T20:42:54Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "EllaSass:flutter_lib:unspecified",
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.flutter:flutter_embedding_release:1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T20:42:52Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T20:42:50Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-23T20:42:49Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-23T20:42:48Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-23T20:42:46Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-23T20:42:44Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-23T20:42:42Z",
+      "sha256": "1cf5abf6db58d63c3b3720c8a21e151eec9a38aeb673d6f621c10262dbd7fed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.ellabook.EllaBookViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ellabook.saassdk.EllaContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MyContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ellabook.saassdk.EllaReaderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ellabook.saassdk.utils.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

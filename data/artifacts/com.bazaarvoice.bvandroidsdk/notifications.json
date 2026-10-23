@@ -1,0 +1,118 @@
+{
+  "coordinate": "com.bazaarvoice.bvandroidsdk:notifications",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "8.14.0": {
+      "fetchedAt": "2026-10-23T22:32:08Z",
+      "sha256": "f8c09cb291538d11cdc414e97df39a06dedea33fa67ab0f7bd6f5843ec853a02",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.14.0"
+      ]
+    },
+    "8.15.0": {
+      "fetchedAt": "2026-10-23T22:32:07Z",
+      "sha256": "f8c09cb291538d11cdc414e97df39a06dedea33fa67ab0f7bd6f5843ec853a02",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.15.0"
+      ]
+    },
+    "8.16.0": {
+      "fetchedAt": "2026-10-23T22:32:06Z",
+      "sha256": "f8c09cb291538d11cdc414e97df39a06dedea33fa67ab0f7bd6f5843ec853a02",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.16.0"
+      ]
+    },
+    "8.17.0": {
+      "fetchedAt": "2026-10-23T22:32:05Z",
+      "sha256": "f8c09cb291538d11cdc414e97df39a06dedea33fa67ab0f7bd6f5843ec853a02",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.17.0"
+      ]
+    },
+    "8.18.0": {
+      "fetchedAt": "2026-10-23T22:32:04Z",
+      "sha256": "f8c09cb291538d11cdc414e97df39a06dedea33fa67ab0f7bd6f5843ec853a02",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.18.0"
+      ]
+    },
+    "8.19.0": {
+      "fetchedAt": "2026-10-23T22:32:00Z",
+      "sha256": "f8c09cb291538d11cdc414e97df39a06dedea33fa67ab0f7bd6f5843ec853a02",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.19.0"
+      ]
+    },
+    "8.20.0": {
+      "fetchedAt": "2026-10-23T22:32:03Z",
+      "sha256": "c543ec53e55d8542fc2c3c78fd72380543586b1272f6bd438f58b017e01b0e8f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.20.0"
+      ]
+    },
+    "8.21.0": {
+      "fetchedAt": "2026-10-23T22:32:02Z",
+      "sha256": "c543ec53e55d8542fc2c3c78fd72380543586b1272f6bd438f58b017e01b0e8f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.21.0"
+      ]
+    },
+    "8.22.0": {
+      "fetchedAt": "2026-10-23T22:32:01Z",
+      "sha256": "c543ec53e55d8542fc2c3c78fd72380543586b1272f6bd438f58b017e01b0e8f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.bazaarvoice.bvandroidsdk:common:8.22.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bazaarvoice.bvandroidsdk.BVNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "8.14.0",
+          "8.22.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.bazaarvoice.bvandroidsdk.action.NOTIFICATION_BUTTON_TAPPED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bazaarvoice.bvandroidsdk.BVNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.14.0",
+          "8.22.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.bazaarvoice.bvandroidsdk.action.SHOW_NOTIF"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

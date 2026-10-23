@@ -1,0 +1,82 @@
+{
+  "coordinate": "com.chuangke18:easyweb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.8": {
+      "fetchedAt": "2026-10-23T23:04:51Z",
+      "sha256": "92c41051956bdef1d66fefc960dcfa10ae03ec0fff3955323f7d233d47846cff",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.0-alpha8",
+        "com.android.support:support-v4:23.4.0",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-23T23:04:50Z",
+      "sha256": "92c41051956bdef1d66fefc960dcfa10ae03ec0fff3955323f7d233d47846cff",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.0-alpha8",
+        "com.android.support:support-v4:23.4.0",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    },
+    "0.5.2": {
+      "fetchedAt": "2026-10-23T23:04:49Z",
+      "sha256": "92c41051956bdef1d66fefc960dcfa10ae03ec0fff3955323f7d233d47846cff",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.0-alpha8",
+        "com.android.support:support-v4:23.4.0",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    },
+    "0.5.3": {
+      "fetchedAt": "2026-10-23T23:04:48Z",
+      "sha256": "92c41051956bdef1d66fefc960dcfa10ae03ec0fff3955323f7d233d47846cff",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.0-alpha8",
+        "com.android.support:support-v4:23.4.0",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xx.easyweb.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.4.8",
+          "0.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": ":easyWeb",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ckjr.webprocess.WebActivity"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xx.easyweb.WebService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.8",
+          "0.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": ":easyWeb",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "coordinate": "com.bigossp:bigo-ads-customize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.2": {
+      "fetchedAt": "2026-10-23T22:34:26Z",
+      "sha256": "ca3ea16367a8321c18f6227cbbe89089bcd9f73fd4b203a0b0e1750a337ea9ba",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "sg.bigo.ads.ad.splash.AdSplashActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "sg.bigo.ads.ad.splash.LandscapeAdSplashActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "sg.bigo.ads.api.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "sg.bigo.ads.controller.provider.BigoAdsProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.BigoAdsProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "sg.bigo.ads.core.mraid.MraidVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

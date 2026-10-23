@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.ca.apim:mas-foundation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-23T22:56:27Z",
+      "sha256": "930bbc021291df5a2ff48cfdd5c0ce2fd26cc4328fdfaecba90424ade9798689",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.core:core:1.0.0",
+        "com.google.zxing:core:3.4.0",
+        "com.nimbusds:nimbus-jose-jwt:8.6"
+      ]
+    },
+    "2.3.00": {
+      "fetchedAt": "2026-10-23T22:56:26Z",
+      "sha256": "f67067db5f5897192dd2a251d2e9c5fa70ff8625c97e0a5a47b0b29ce5f1e467",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.core:core:1.5.0",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.sqlite:sqlite:2.2.0",
+        "com.google.zxing:core:3.4.0",
+        "com.nimbusds:nimbus-jose-jwt:9.22",
+        "net.zetetic:android-database-sqlcipher:4.5.1",
+        "org.bouncycastle:bcpkix-jdk15to18:1.71"
+      ]
+    },
+    "2.4.00": {
+      "fetchedAt": "2026-10-23T22:56:25Z",
+      "sha256": "5534635aafc869d8817bb34c44fca6c259effb7ef2c1ae60a8b3a5c99879ded7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.core:core:1.5.0",
+        "androidx.loader:loader:1.1.0",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.sqlite:sqlite:2.2.0",
+        "com.google.zxing:core:3.4.0",
+        "com.nimbusds:nimbus-jose-jwt:9.22",
+        "net.zetetic:android-database-sqlcipher:4.5.1",
+        "org.bouncycastle:bcpkix-jdk15to18:1.71"
+      ]
+    },
+    "2.5.00": {
+      "fetchedAt": "2026-10-23T22:56:23Z",
+      "sha256": "76ca8c8998a53df88acfef35643ed127a87023fbdf9bb371fab7d0e9e0110ae7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.2",
+        "androidx.core:core:1.5.0",
+        "androidx.loader:loader:1.1.0",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.sqlite:sqlite:2.4.0",
+        "com.google.zxing:core:3.4.0",
+        "com.nimbusds:nimbus-jose-jwt:9.22",
+        "net.zetetic:android-database-sqlcipher:4.5.1",
+        "org.bouncycastle:bcpkix-jdk15to18:1.71"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ca.mas.core.service.MssoService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.5.00"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "coordinate": "com.10darts:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.20": {
+      "fetchedAt": "2026-10-23T21:26:09Z",
+      "sha256": "2a31d44b7906a3fe827a47b0bd6b096c01a4a64bc401cc1d88d2a74f1c800e6e",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:9.8.0",
+        "com.google.android.gms:play-services-location:9.8.0",
+        "org.apache.httpcomponents:httpclient-android:4.3.5",
+        "org.apache.httpcomponents:httpmime:4.3.5"
+      ]
+    },
+    "1.21": {
+      "fetchedAt": "2026-10-23T21:26:09Z",
+      "sha256": "fadef9103d657a0f1dfc1ffe973cbf0d49a262c539823b93e9b829b62abd4413",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:9.8.0",
+        "com.google.android.gms:play-services-location:9.8.0",
+        "org.apache.httpcomponents:httpclient-android:4.3.5",
+        "org.apache.httpcomponents:httpmime:4.3.5"
+      ]
+    },
+    "1.22": {
+      "fetchedAt": "2026-10-23T21:26:08Z",
+      "sha256": "f1d424c9945d437f64bbfe1acde5e63b03e620874237c7dcc0ef55304060a375",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:9.8.0",
+        "com.google.android.gms:play-services-location:9.8.0",
+        "org.apache.httpcomponents:httpclient-android:4.3.5",
+        "org.apache.httpcomponents:httpmime:4.3.5"
+      ]
+    },
+    "1.23": {
+      "fetchedAt": "2026-10-23T21:26:07Z",
+      "sha256": "87717cd0697937727cfbcbddb549933e1150acd7906a3de1582537ea3aed2454",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:9.8.0",
+        "com.google.android.gms:play-services-location:9.8.0",
+        "org.apache.httpcomponents:httpclient-android:4.3.5",
+        "org.apache.httpcomponents:httpmime:4.3.5"
+      ]
+    },
+    "1.24": {
+      "fetchedAt": "2026-10-23T21:26:06Z",
+      "sha256": "794459b357abb4aa64e026dbcee72e731ceb7fa2b3a2dce1791fc937d83c9f84",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:9.8.0",
+        "com.google.android.gms:play-services-location:9.8.0",
+        "org.apache.httpcomponents:httpclient-android:4.3.5",
+        "org.apache.httpcomponents:httpmime:4.3.5"
+      ]
+    },
+    "1.25": {
+      "fetchedAt": "2026-10-23T21:26:06Z",
+      "sha256": "310821756209605d2b46e456f5fe770164435f2ac3e33bd30be7571ae20a0f11",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:11.0.4",
+        "com.google.android.gms:play-services-location:11.0.4",
+        "org.apache.httpcomponents:httpclient-android:4.3.5",
+        "org.apache.httpcomponents:httpmime:4.3.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.gcm.GcmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.20",
+          "1.25"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE",
+        "com.google.android.c2dm.intent.REGISTRATION"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tendarts.sdk.communications.NetworkChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.22",
+          "1.25"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tendarts.sdk.communications.PendingCommunicationsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.22",
+          "1.25"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tendarts.sdk.gcm.DartsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.20",
+          "1.25"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.darts.sdk.CLEAR_PUSHES",
+        "com.darts.sdk.OPEN_LIST",
+        "com.darts.sdk.OPEN_PUSH"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tendarts.sdk.gcm.GCMInstanceIdListener",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.20",
+          "1.25"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tendarts.sdk.gcm.GCMListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.20",
+          "1.25"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tendarts.sdk.gcm.GCMRegistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.20",
+          "1.25"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tendarts.sdk.monitoring.IntentMonitorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.21",
+          "1.25"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

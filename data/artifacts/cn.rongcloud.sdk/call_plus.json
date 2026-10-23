@@ -1,0 +1,52 @@
+{
+  "coordinate": "cn.rongcloud.sdk:call_plus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0.0.5": {
+      "fetchedAt": "2026-10-23T21:06:05Z",
+      "sha256": "64e32c931f9fca62eb6404d5047475f8092c22b64e2fd893600bc988a3c0a44a",
+      "dependencies": [
+        "cn.rongcloud.sdk:rtc_lib:0.0.0.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.rongcloud.calllib.im.GroupCallContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.0.0.5",
+          "0.0.0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.GroupCallContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.rongcloud.calllib.utils.PhoneStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.0.0.5",
+          "0.0.0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

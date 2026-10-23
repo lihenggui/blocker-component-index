@@ -1,0 +1,274 @@
+{
+  "coordinate": "cn.jiguang.sdk:jpush-debug-custom",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.8.7": {
+      "fetchedAt": "2026-10-23T20:55:08Z",
+      "sha256": "d5af2d422066a392c667778db7f73bcb2ad62bccc0829298333b344b6e360c94",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.android.service.JTransitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.android.service.JTransitActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.asus.AsusPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.DActivity"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DaemonService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.DaemonService"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DataProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": "${JPUSH_PKGNAME}.DataProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.DownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${JPUSH_PKGNAME}.DownloadProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.JNotifyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.JNotifyActivity"
+      ],
+      "categories": [
+        "${applicationId}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.PUSH_TIME",
+        "cn.jpush.android.intent.PushService",
+        "cn.jpush.android.intent.REGISTER",
+        "cn.jpush.android.intent.REPORT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.service.SchedulerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PopWinActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PopWinActivity"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.jpush.android.ui.PushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.7",
+          "4.8.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.ui.PushActivity"
+      ],
+      "categories": [
+        "${JPUSH_PKGNAME}",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

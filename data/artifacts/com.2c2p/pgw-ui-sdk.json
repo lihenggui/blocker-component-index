@@ -1,0 +1,91 @@
+{
+  "coordinate": "com.2c2p:pgw-ui-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.0": {
+      "fetchedAt": "2026-10-23T21:26:57Z",
+      "sha256": "8f391d51f0f13bfc83e745b2795fe7a3348cbd29f030c920a510892ebe09da21",
+      "dependencies": [
+        "androidx.webkit:webkit:1.9.0",
+        "androidx.window:window:1.2.0",
+        "com.2c2p:pgw-sdk-helper-zalopay:3.1.0",
+        "com.2c2p:pgw-sdk-helper:4.1.1",
+        "com.2c2p:pgw-sdk:4.6.0",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.5",
+        "com.google.android.gms:play-services-wallet:19.3.0"
+      ]
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-23T21:26:56Z",
+      "sha256": "8f391d51f0f13bfc83e745b2795fe7a3348cbd29f030c920a510892ebe09da21",
+      "dependencies": [
+        "androidx.webkit:webkit:1.11.0",
+        "androidx.window:window:1.3.0",
+        "com.2c2p:pgw-sdk-helper-zalopay:3.1.0",
+        "com.2c2p:pgw-sdk-helper:4.2.0",
+        "com.2c2p:pgw-sdk:4.7.0",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.5",
+        "com.google.android.gms:play-services-wallet:19.4.0"
+      ]
+    },
+    "4.0.2": {
+      "fetchedAt": "2026-10-23T21:26:55Z",
+      "sha256": "8f391d51f0f13bfc83e745b2795fe7a3348cbd29f030c920a510892ebe09da21",
+      "dependencies": [
+        "androidx.webkit:webkit:1.12.1",
+        "androidx.window:window:1.3.0",
+        "com.2c2p:pgw-sdk-helper-zalopay:3.1.0",
+        "com.2c2p:pgw-sdk-helper:4.2.1",
+        "com.2c2p:pgw-sdk:4.7.0",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.5",
+        "com.google.android.gms:play-services-wallet:19.4.0"
+      ]
+    },
+    "4.0.3": {
+      "fetchedAt": "2026-10-23T21:26:53Z",
+      "sha256": "8f391d51f0f13bfc83e745b2795fe7a3348cbd29f030c920a510892ebe09da21",
+      "dependencies": [
+        "androidx.webkit:webkit:1.12.1",
+        "androidx.window:window:1.3.0",
+        "com.2c2p:pgw-sdk-helper-zalopay:3.1.0",
+        "com.2c2p:pgw-sdk-helper:4.2.1",
+        "com.2c2p:pgw-sdk:4.7.1",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.5",
+        "com.google.android.gms:play-services-wallet:19.4.0"
+      ]
+    },
+    "4.0.4": {
+      "fetchedAt": "2026-10-23T21:26:52Z",
+      "sha256": "8f391d51f0f13bfc83e745b2795fe7a3348cbd29f030c920a510892ebe09da21",
+      "dependencies": [
+        "androidx.webkit:webkit:1.12.1",
+        "androidx.window:window:1.3.0",
+        "com.2c2p:pgw-sdk-helper-zalopay:3.1.0",
+        "com.2c2p:pgw-sdk-helper:4.2.1",
+        "com.2c2p:pgw-sdk:4.7.1",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.13.5",
+        "com.getkeepsafe.relinker:relinker:1.4.5",
+        "com.google.android.gms:play-services-wallet:19.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.flutter.embedding.android.FlutterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.bigossp:bigo-ads-aab-lite",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.0.1": {
+      "fetchedAt": "2026-10-23T22:34:10Z",
+      "sha256": "c5c3415c6f5dfe8686131d89702304769af121bbeb4ad311a3894812a66c4fa3",
+      "dependencies": [
+        "com.bigossp:bigo-ads-lite:5.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "sg.bigo.ads.controller.provider.BigoAdsProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.0.1",
+          "5.0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.BigoAdsProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

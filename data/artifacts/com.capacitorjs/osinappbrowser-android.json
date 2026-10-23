@@ -1,0 +1,126 @@
+{
+  "coordinate": "com.capacitorjs:osinappbrowser-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:57:40Z",
+      "sha256": "f18db9ce6b2ab369a18558106c342daf48d256a72f1a68a1767a801f1d983d35",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.3",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.1.0-tst": {
+      "fetchedAt": "2026-10-23T22:57:39Z",
+      "sha256": "f18db9ce6b2ab369a18558106c342daf48d256a72f1a68a1767a801f1d983d35",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.3",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.3",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-23T22:57:38Z",
+      "sha256": "f18db9ce6b2ab369a18558106c342daf48d256a72f1a68a1767a801f1d983d35",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.3",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.constraintlayout:constraintlayout:2.2.0",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+        "androidx.webkit:webkit:1.12.1",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.2.0-dev2": {
+      "fetchedAt": "2026-10-23T22:57:37Z",
+      "sha256": "f18db9ce6b2ab369a18558106c342daf48d256a72f1a68a1767a801f1d983d35",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.3",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.constraintlayout:constraintlayout:2.2.0",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+        "androidx.webkit:webkit:1.12.1",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-23T22:57:36Z",
+      "sha256": "90bf705767167606bf63dac1cb0ac8b1bc027fe82a8056afa1d5bf7850600611",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.3",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.constraintlayout:constraintlayout:2.2.0",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+        "androidx.webkit:webkit:1.12.1",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.outsystems.plugins.inappbrowser.osinappbrowserlib.views.OSIABCustomTabsControllerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.outsystems.plugins.inappbrowser.osinappbrowserlib.views.OSIABWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

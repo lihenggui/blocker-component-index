@@ -1,0 +1,46 @@
+{
+  "coordinate": "cn.rongcloud.sdk:call_plus_wrapper",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T21:06:08Z",
+      "sha256": "032030b7e00d89c7fb163ee3fa85bd5a5a387b32933e08725de273b61c5e21c6",
+      "dependencies": []
+    },
+    "2.1.8": {
+      "fetchedAt": "2026-10-23T21:06:06Z",
+      "sha256": "bbe55f278f877cf03556db0d3582dfb78b16f88757b9acbad61bc8f8dc884e32",
+      "dependencies": [
+        "cn.rongcloud.sdk:callplus_lib:2.1.8",
+        "cn.rongcloud.sdk:rtc_lib:5.18.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-23T21:06:07Z",
+      "sha256": "bbe55f278f877cf03556db0d3582dfb78b16f88757b9acbad61bc8f8dc884e32",
+      "dependencies": [
+        "cn.rongcloud.sdk:callplus_lib:2.26.0",
+        "cn.rongcloud.sdk:rtc_lib:5.26.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.rong.calllib.wrapper.im.CallAdapterContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rong.CallAdapterContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

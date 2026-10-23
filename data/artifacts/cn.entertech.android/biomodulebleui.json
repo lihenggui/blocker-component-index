@@ -1,0 +1,199 @@
+{
+  "coordinate": "cn.entertech.android:biomodulebleui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.8": {
+      "fetchedAt": "2026-10-23T20:43:53Z",
+      "sha256": "5d9844c01171870c2b7bf2bc87f62b3d376f551ded13702ac68a5683812270c2",
+      "dependencies": [
+        "FlowtimeBle:biomoduleble:unspecified",
+        "FlowtimeBle:dfu:unspecified",
+        "androidx.cardview:cardview:1.0.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.orhanobut:logger:1.15",
+        "com.polidea.rxandroidble2:rxandroidble:1.11.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.20"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-23T20:43:54Z",
+      "sha256": "5d9844c01171870c2b7bf2bc87f62b3d376f551ded13702ac68a5683812270c2",
+      "dependencies": [
+        "FlowtimeBle:biomoduleble-dfu:unspecified",
+        "FlowtimeBle:biomoduleble:unspecified",
+        "androidx.cardview:cardview:1.0.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.orhanobut:logger:1.15",
+        "com.polidea.rxandroidble2:rxandroidble:1.11.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.DeviceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.DeviceCanNotConnectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.DeviceManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.DeviceTurnOnActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.DeviceUpdateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.DfuNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.MultipleDeviceListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.activity.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.entertech.bleuisdk.ui.service.DfuService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "no.nordicsemi.android.action.DFU_UPLOAD"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

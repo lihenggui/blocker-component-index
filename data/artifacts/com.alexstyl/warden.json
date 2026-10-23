@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.alexstyl:warden",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha1": {
+      "fetchedAt": "2026-10-23T21:43:19Z",
+      "sha256": "ddf05a287f251feb4dbd19f681fe81e7417a932031bd49cde0516f41b868f277",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+      ]
+    },
+    "1.0.0-alpha2": {
+      "fetchedAt": "2026-10-23T21:43:18Z",
+      "sha256": "ddf05a287f251feb4dbd19f681fe81e7417a932031bd49cde0516f41b868f277",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alexstyl.warden.WardenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha1",
+          "1.0.0-alpha2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

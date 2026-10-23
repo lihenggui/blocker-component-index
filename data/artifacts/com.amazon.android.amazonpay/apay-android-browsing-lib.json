@@ -1,0 +1,126 @@
+{
+  "coordinate": "com.amazon.android.amazonpay:apay-android-browsing-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T21:46:45Z",
+      "sha256": "612b61761151ef8230b08144d631609cdefc7d5e0e3c559bf3ce026ac4339dab",
+      "dependencies": []
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T21:46:45Z",
+      "sha256": "f57175ccac785e7d8fb88e61fb53a7a342fa0c7fb5d7ad55b43d1ed79c55e595",
+      "dependencies": []
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T21:46:44Z",
+      "sha256": "f57175ccac785e7d8fb88e61fb53a7a342fa0c7fb5d7ad55b43d1ed79c55e595",
+      "dependencies": []
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-23T21:46:43Z",
+      "sha256": "f57175ccac785e7d8fb88e61fb53a7a342fa0c7fb5d7ad55b43d1ed79c55e595",
+      "dependencies": [
+        "androidx.work:work-runtime:2.7.1",
+        "ch.qos.logback:logback-classic:1.2.6",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-23T21:46:43Z",
+      "sha256": "f57175ccac785e7d8fb88e61fb53a7a342fa0c7fb5d7ad55b43d1ed79c55e595",
+      "dependencies": []
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-23T21:46:42Z",
+      "sha256": "f57175ccac785e7d8fb88e61fb53a7a342fa0c7fb5d7ad55b43d1ed79c55e595",
+      "dependencies": []
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-23T21:46:41Z",
+      "sha256": "f57175ccac785e7d8fb88e61fb53a7a342fa0c7fb5d7ad55b43d1ed79c55e595",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.amazon.android.amazonpay.browsinglib.activity.BrowsingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.android.amazonpay.browsinglib.activity.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.android.apay.browsinglib.activity.BrowsingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.android.apay.browsinglib.activity.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

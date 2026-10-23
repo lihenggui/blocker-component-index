@@ -1,0 +1,163 @@
+{
+  "coordinate": "com.braintreepayments.api:braintree-api",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.7": {
+      "fetchedAt": "2026-10-23T22:47:09Z",
+      "sha256": "eebe1bf1e4ea6102d56f3281c9ef71c3fafe73096c9bc649e6bde3e3352f6389",
+      "dependencies": [
+        "com.braintreepayments.api:data:1.7.7",
+        "com.google.code.gson:gson:[2.2.4,3.0)",
+        "com.paypal.sdk:paypal-partner-android-sdk:2.12.5"
+      ]
+    },
+    "1.7.8": {
+      "fetchedAt": "2026-10-23T22:47:09Z",
+      "sha256": "f4703be02add1e0c1ed846aa033c37e62327a664878341d4c0574dc9cfcfcaf6",
+      "dependencies": [
+        "com.braintreepayments.api:data:1.7.8",
+        "com.google.code.gson:gson:[2.2.4,3.0)",
+        "com.paypal.sdk:paypal-partner-android-sdk:2.12.5"
+      ]
+    },
+    "1.7.9": {
+      "fetchedAt": "2026-10-23T22:47:08Z",
+      "sha256": "319ab62a9bff2c76bcfa8f1d3a0dfc202d67d0e7eb78a6ef3a4d30402354fd0d",
+      "dependencies": [
+        "com.braintreepayments.api:data:1.7.9",
+        "com.google.code.gson:gson:[2.2.4,3.0)",
+        "com.paypal.sdk:paypal-partner-android-sdk:2.13.3"
+      ]
+    },
+    "1.7.10": {
+      "fetchedAt": "2026-10-23T22:47:07Z",
+      "sha256": "10aa83ddaa7b7901558d0e526ea505bb5a9a5c4ff8298373e0fe40ca684c70cc",
+      "dependencies": [
+        "com.braintreepayments.api:data:1.7.10",
+        "com.google.code.gson:gson:[2.2.4,3.0)",
+        "com.paypal.sdk:paypal-partner-android-sdk:2.15.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.7",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.FuturePaymentInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.7",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.7",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.PayPalProfileSharingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.7",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.PayPalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.7.7",
+          "1.7.10"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.PayPalTouchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.7",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.ProfileSharingConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.7",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

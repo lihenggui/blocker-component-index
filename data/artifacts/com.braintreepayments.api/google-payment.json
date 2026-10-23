@@ -1,0 +1,118 @@
+{
+  "coordinate": "com.braintreepayments.api:google-payment",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:48:04Z",
+      "sha256": "fe4cdcebb09a4e8037abe589c01342104ea414333dbfe6d6ed1319e3564bb948",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:48:04Z",
+      "sha256": "427f4281d9e7e2cabbdd1ba2b01faf08b6c594d8025f805bf43c1227004ccf0a",
+      "dependencies": []
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-23T22:48:03Z",
+      "sha256": "264bd6d9f3bd78d4c624adfd4f0da3ee533b77371140393fcc9d2aae40e59fff",
+      "dependencies": []
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T22:48:02Z",
+      "sha256": "107a7c1ccaf4be80673f7137b8cff2c1633b9d3228e77150910b5dada2924186",
+      "dependencies": []
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T22:48:02Z",
+      "sha256": "e525d86c8959cec065f7c6eaa7884c67d95426d92c89bee667dc4e9dda6a1787",
+      "dependencies": []
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-23T22:48:01Z",
+      "sha256": "8b66e901abb793c054fc32f8fc99ce87267ac9b4611f22a53a9482d40c752541",
+      "dependencies": []
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-23T22:48:00Z",
+      "sha256": "c5e58b9382f28985c444ededfbad30e286bd9ba4cc0b88db67e3ee2d86c725d8",
+      "dependencies": []
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-23T22:48:00Z",
+      "sha256": "fdbee372ac7124dfab7ea45be48570c839c9e796531a413bc9f52a02da4f87d9",
+      "dependencies": []
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-23T22:47:59Z",
+      "sha256": "c816067f9e619cb7170e73749b1fcd4ee41be1ea3cc2cfb036de0b1408b13067",
+      "dependencies": []
+    },
+    "3.3.1": {
+      "fetchedAt": "2026-10-23T22:47:58Z",
+      "sha256": "210c5895d81fef7453dd1c746708a7352e069c3b6e110eb61ed32cd305b4839d",
+      "dependencies": []
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-23T22:47:58Z",
+      "sha256": "70f97b5808720ba8357ee7cde990aa97c93e453a56274e3dda9ab72567367bc8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.google.android.gms:play-services-wallet:16.0.1"
+      ]
+    },
+    "3.5.0": {
+      "fetchedAt": "2026-10-23T22:47:57Z",
+      "sha256": "0719b70fd70fc671477d746b970a74d14b1a8f681bc7ffb0cbac14a3a031b5b7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.google.android.gms:play-services-wallet:16.0.1"
+      ]
+    },
+    "4.0.0-beta1": {
+      "fetchedAt": "2026-10-23T22:47:56Z",
+      "sha256": "05ec021ac577db29f63cd3b6525d564c9e47404c700621ff6345e9980043c54b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.braintreepayments.api:braintree-core:4.0.0-beta1",
+        "com.google.android.gms:play-services-wallet:16.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.braintreepayments.api.GooglePayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.0-beta1",
+          "4.0.0-beta1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.braintreepayments.api.GooglePaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

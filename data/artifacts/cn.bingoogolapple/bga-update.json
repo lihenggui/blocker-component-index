@@ -1,0 +1,37 @@
+{
+  "coordinate": "cn.bingoogolapple:bga-update",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T20:40:59Z",
+      "sha256": "272e5b1ca3631d95d5971488448a41b00f7a726ebd1a4254dfbad2d2f8bd9bfc",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T20:40:58Z",
+      "sha256": "fe5838d557ff8ef20c31292d0cf93bf2b4cc2f719e7d8f2e172fd9be2b0c12db",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bga_update.file_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

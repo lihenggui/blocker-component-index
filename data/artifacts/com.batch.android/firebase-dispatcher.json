@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.batch.android:firebase-dispatcher",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:31:32Z",
+      "sha256": "956fb8d8d2a1c0f406e00116dce97564aafb98dce2783f4194f84894ff84e77c",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.15.0",
+        "com.google.firebase:firebase-core:16.0.4"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T22:31:32Z",
+      "sha256": "0e3ea6fdb9eca506943e7e12d81d717df853a76a058d6a575ea23b71b686961d",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.17.0",
+        "com.google.firebase:firebase-core:16.0.4"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-23T22:31:31Z",
+      "sha256": "8a3b06e47e329ae01a11afc3414e70469805bad226a1434cf3da870fbfe0d4a8",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.19.0",
+        "com.google.firebase:firebase-core:16.0.4"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-23T22:31:30Z",
+      "sha256": "8a3b06e47e329ae01a11afc3414e70469805bad226a1434cf3da870fbfe0d4a8",
+      "dependencies": [
+        "com.batch.android:batch-sdk:1.19.0",
+        "com.google.firebase:firebase-core:16.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.batch.android.eventdispatcher.DispatcherDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.batch.android.eventdispatcher:com.batch.android.dispatcher.firebase.FirebaseRegistrar"
+      ]
+    }
+  ]
+}

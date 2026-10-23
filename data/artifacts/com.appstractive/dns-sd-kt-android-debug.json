@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.appstractive:dns-sd-kt-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T22:13:40Z",
+      "sha256": "55b23028694790a2358ac355bda8d0f8c5682b1dcc0e9171eabaa0ce0827d49a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T22:13:39Z",
+      "sha256": "55b23028694790a2358ac355bda8d0f8c5682b1dcc0e9171eabaa0ce0827d49a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T22:13:38Z",
+      "sha256": "7d88e38d41ceb6b6876a78b922f55787b6f03539fe5eda0c8d213f8435828bd7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T22:13:38Z",
+      "sha256": "7d88e38d41ceb6b6876a78b922f55787b6f03539fe5eda0c8d213f8435828bd7",
+      "dependencies": [
+        "DNS-SD:lib-java:unspecified",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T22:13:36Z",
+      "sha256": "7d88e38d41ceb6b6876a78b922f55787b6f03539fe5eda0c8d213f8435828bd7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.appstractive:dns-sd-java:1.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.appstractive.dnssd.AppContextInitializer"
+      ]
+    }
+  ]
+}

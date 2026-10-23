@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.cmcim.upush.android:upush-huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T23:11:40Z",
+      "sha256": "a5a700b1c3eccfc17ef35386590047ad38ee48dd2a9fc41931b5bb991e5eb285",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.cmcim.upush.android.sdk.huawei.service.UHmsMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

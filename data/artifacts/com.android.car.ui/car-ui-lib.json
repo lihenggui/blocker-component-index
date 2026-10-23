@@ -1,0 +1,130 @@
+{
+  "coordinate": "com.android.car.ui:car-ui-lib",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T21:52:34Z",
+      "sha256": "2dff27420e189d1562a767237a55c22b48676cb8eddfa65428dacdbda4f7f8d7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-23T21:52:33Z",
+      "sha256": "2dff27420e189d1562a767237a55c22b48676cb8eddfa65428dacdbda4f7f8d7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-23T21:52:32Z",
+      "sha256": "6f19b268f97e8b5798ced32136878a698875d14490818c9c5adff862fdc25ba7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-23T21:52:31Z",
+      "sha256": "068572124ffa97e28107e61b4c547dd5a9f58dbdacea9e67186e4d09a17374a8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-23T21:52:30Z",
+      "sha256": "068572124ffa97e28107e61b4c547dd5a9f58dbdacea9e67186e4d09a17374a8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "2.5.0": {
+      "fetchedAt": "2026-10-23T21:52:29Z",
+      "sha256": "068572124ffa97e28107e61b4c547dd5a9f58dbdacea9e67186e4d09a17374a8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "2.5.1": {
+      "fetchedAt": "2026-10-23T21:52:28Z",
+      "sha256": "068572124ffa97e28107e61b4c547dd5a9f58dbdacea9e67186e4d09a17374a8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "2.6.0": {
+      "fetchedAt": "2026-10-23T21:52:26Z",
+      "sha256": "068572124ffa97e28107e61b4c547dd5a9f58dbdacea9e67186e4d09a17374a8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.car.ui.core.CarUiInstaller",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": "@string/car_ui_installer_process_name",
+      "permission": null,
+      "authorities": "${applicationId}.CarUiInstaller",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.android.car.ui.core.SearchResultsProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.6.0"
+        ]
+      ],
+      "exported": true,
+      "process": "@string/car_ui_installer_process_name",
+      "permission": null,
+      "authorities": "${applicationId}.SearchResultsProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

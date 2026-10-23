@@ -1,0 +1,371 @@
+{
+  "coordinate": "cn.com.analysys:analysys-core-easytouch",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.5.5": {
+      "fetchedAt": "2026-10-23T20:41:44Z",
+      "sha256": "241b0cb837fdc99224e9aca0d1fc8f08385ef2aaa33c112417b7a0f498d86432",
+      "dependencies": [
+        "com.huawei.hms:push:4.0.3.300",
+        "com.meizu.flyme.internet:push-internal:3.8.7"
+      ]
+    },
+    "4.4.5.7": {
+      "fetchedAt": "2026-10-23T20:41:43Z",
+      "sha256": "d0750b49cb5759d1df3e103c72fd85d7c28960387345ca442a6e764544583a73",
+      "dependencies": [
+        "com.huawei.hms:push:4.0.3.300",
+        "com.meizu.flyme.internet:push-internal:3.8.7"
+      ]
+    },
+    "4.4.6": {
+      "fetchedAt": "2026-10-23T20:41:42Z",
+      "sha256": "4d9174c345143db7d4972af6bc89c6a2d7ca1982ca0d6b7226e1a190cc9fa771",
+      "dependencies": [
+        "com.huawei.hms:push:3.0.3.301",
+        "com.meizu.flyme.internet:push-internal:3.8.7",
+        "com.umeng.umsdk:oppo-push:1.0.1",
+        "com.umeng.umsdk:vivo-push:2.3.1",
+        "com.umeng.umsdk:xiaomi-push:3.6.17"
+      ]
+    },
+    "4.4.7": {
+      "fetchedAt": "2026-10-23T20:41:41Z",
+      "sha256": "235bafc5c3a0b53fae0b0860c88a699bc4145d95fe1a9bfbcea6b70ac911e8a4",
+      "dependencies": [
+        "com.huawei.hms:push:3.0.3.301",
+        "com.meizu.flyme.internet:push-internal:3.8.7"
+      ]
+    },
+    "4.4.8": {
+      "fetchedAt": "2026-10-23T20:41:40Z",
+      "sha256": "235bafc5c3a0b53fae0b0860c88a699bc4145d95fe1a9bfbcea6b70ac911e8a4",
+      "dependencies": [
+        "com.huawei.hms:push:3.0.3.301",
+        "com.meizu.flyme.internet:push-internal:3.8.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.analysys.database.AnsContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AnsContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.analysys.push.HuaweiPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.analysys.push.MeizuPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.5.7"
+        ],
+        [
+          "4.4.7",
+          "4.4.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.analysys.push.MeizuPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.6",
+          "4.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "com.analysys.easytouch"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.analysys.push.VivoPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.5.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.analysys.push.XiaomiPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.coloros.mcssdk.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.6",
+          "4.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.mcssdk.AppPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.5.7"
+        ],
+        [
+          "4.4.7",
+          "4.4.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.mcssdk.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.5.7"
+        ],
+        [
+          "4.4.7",
+          "4.4.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.5.5",
+          "4.4.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "coordinate": "com.amazon.android.amazonpay:AmazonPayAndroidSDKCommonLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.3": {
+      "fetchedAt": "2026-10-23T21:46:41Z",
+      "sha256": "f2764cbfaae15d4b1ee7a98ce7110c710c59c0a50e01c3103a15cf1d38b0c1df",
+      "dependencies": []
+    },
+    "1.3.4": {
+      "fetchedAt": "2026-10-23T21:46:40Z",
+      "sha256": "f2764cbfaae15d4b1ee7a98ce7110c710c59c0a50e01c3103a15cf1d38b0c1df",
+      "dependencies": [
+        "androidx.work:work-runtime:2.7.1",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0"
+      ]
+    },
+    "1.3.5": {
+      "fetchedAt": "2026-10-23T21:46:39Z",
+      "sha256": "f2764cbfaae15d4b1ee7a98ce7110c710c59c0a50e01c3103a15cf1d38b0c1df",
+      "dependencies": [
+        "androidx.work:work-runtime:2.7.1",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amazon.android.apay.commonlibrary.browsinglib.activity.BrowsingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.3",
+          "1.3.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.android.apay.commonlibrary.browsinglib.activity.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.3",
+          "1.3.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}
