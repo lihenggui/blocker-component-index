@@ -86,3 +86,9 @@ class HttpTests(FixtureTest):
         with self.assertRaises(OSError):
             client.get("https://repo.example/a")
         self.assertEqual(len(self.calls), 5)
+
+    def test_given_github_429_without_retry_after_when_searched_then_backoff_waits_at_least_a_minute_per_attempt(self):
+        client = self.client([response(status=429), response(status=429), response()])
+        client.get("https://api.github.com/search/code?q=x", search=True)
+        retry_waits = [seconds for seconds in self.clock.sleeps if seconds >= 1]
+        self.assertEqual(retry_waits[:2], [60.0, 120.0])
