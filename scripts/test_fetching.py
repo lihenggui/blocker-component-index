@@ -1,7 +1,7 @@
 from indexlib.fetching import extract, fetch
 from indexlib.http import DeadlineReached
 from indexlib.storage import Store
-from test_support import FIXTURES, FixtureClient, FixtureTest, aar, response
+from test_support import FIXTURES, FixtureClient, FixtureTest, aar, metadata_fixture, response
 
 REPOSITORY = "https://sdk.example.org/repo"
 COORDINATE = "org.example:sdk"
@@ -41,6 +41,20 @@ class FetchTests(FixtureTest):
         extract(self.store, client)
         self.assertEqual(self.store.evidence(COORDINATE)["components"], [])
         self.assertEqual(list(self.store.evidence(COORDINATE)["versions"]), ["3"])
+
+    def test_given_latest_only_artifact_with_components_when_fetched_then_history_comes_from_metadata(self):
+        self.store.artifact(REPOSITORY, COORDINATE, ["3"], latest_only=True)
+        routes = self.routes()
+        routes[f"{REPOSITORY}/org/example/sdk/maven-metadata.xml"] = response(metadata_fixture())
+        self.assertTrue(fetch(self.store, FixtureClient(routes)))
+        self.assertEqual([job["version"] for job in self.store.state["extractions"]], ["3", "2", "1"])
+        self.assertNotIn("latestOnly", self.store.state["artifacts"][COORDINATE])
+
+    def test_given_latest_only_artifact_without_components_when_fetched_then_metadata_is_not_requested(self):
+        self.store.artifact(REPOSITORY, COORDINATE, ["3"], latest_only=True)
+        client = FixtureClient(self.routes(empty_latest=True))
+        self.assertTrue(fetch(self.store, client))
+        self.assertEqual(len(client.calls), 2)
 
     def test_given_version_cap_when_fetched_then_only_the_latest_requested_versions_are_downloaded(self):
         self.assertTrue(fetch(self.store, FixtureClient(self.routes()), max_versions=2))

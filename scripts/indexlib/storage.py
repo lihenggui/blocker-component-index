@@ -77,7 +77,7 @@ class Store:
                 completed = self.state.get("completed", [])
                 completed[:] = [stage for stage in completed if stage in ("discover", "probe")]
 
-    def artifact(self, repository, coordinate, versions):
+    def artifact(self, repository, coordinate, versions, *, latest_only=False):
         if not valid_coordinate(coordinate) or not versions:
             return
         artifacts = self.state.setdefault("artifacts", {})
@@ -87,3 +87,6 @@ class Store:
         if owner != repository:
             return
         artifacts[coordinate] = {"repository": repository, "coordinate": coordinate, "versions": versions}
+        if latest_only:
+            # Crawl state only: fetch reads full history from maven-metadata.xml when the latest version has components.
+            artifacts[coordinate]["latestOnly"] = True

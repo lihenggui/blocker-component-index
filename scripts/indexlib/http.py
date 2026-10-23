@@ -1,6 +1,7 @@
 """The crawler's only HTTP transport, including pacing and deadline handling."""
 
 import email.utils
+import logging
 import json
 import time
 from collections import deque
@@ -152,3 +153,19 @@ class HttpClient:
                 if len(body) > limit:
                     raise DownloadTooLarge(url)
             return Response(stream.code, dict(stream.headers), bytes(body))
+
+
+def within_share(client, seconds, stage, label):
+    """Run stage() with at most `seconds` of the client's budget; False if that share ran out first."""
+    original = client.deadline
+    share = client.clock() + seconds
+    client.deadline = min(original, share) if original is not None else share
+    try:
+        return stage()
+    except DeadlineReached:
+        if original is not None and original <= share:
+            raise
+        logging.getLogger(__name__).info("%s budget reached; continuing other stages with it unfinished", label)
+        return False
+    finally:
+        client.deadline = original

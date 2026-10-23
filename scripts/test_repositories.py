@@ -65,10 +65,10 @@ class RepositoryTests(FixtureTest):
     def test_given_google_index_when_enumerated_then_groups_artifacts_and_metadata_are_followed(self):
         url = self.repository(caps=["google-index", "metadata"])
         client = FixtureClient({url + "/master-index.xml": response("<metadata><org.example/></metadata>"),
-                                url + "/org/example/group-index.xml": response('<org.example><sdk versions="1,2,3"/></org.example>'),
-                                metadata_url(url, "org.example:sdk"): response(metadata_fixture())})
-        self.assertTrue(enumerate_artifacts(self.store, client))
-        self.assertIn("org.example:sdk", Store(self.root).state["artifacts"])
+                                url + "/org/example/group-index.xml": response('<org.example><sdk versions="1,2,3"/></org.example>')})
+        self.assertTrue(enumerate_artifacts(self.store, client, max_versions=2))
+        self.assertEqual(Store(self.root).state["artifacts"]["org.example:sdk"]["versions"], ["2", "3"])
+        self.assertEqual(len(client.calls), 2)
 
     def test_given_nexus_continuation_when_enumerated_then_next_page_and_metadata_are_checkpointed(self):
         url = self.repository(caps=["nexus3", "metadata"])
@@ -93,6 +93,25 @@ class RepositoryTests(FixtureTest):
                                 metadata_url(url, "org.example:sdk"): response(metadata_fixture())})
         self.assertTrue(enumerate_artifacts(self.store, client))
         self.assertIn("org.example:sdk", self.store.state["artifacts"])
+
+    def test_given_central_search_hit_with_latest_version_when_enumerated_then_no_metadata_request_is_made(self):
+        url = self.repository(BUILTINS[1], ["central-search", "metadata"])
+        client = FixtureClient({_central_url(): response({"response": {"numFound": 1, "docs": [{"g": "org.example", "a": "sdk", "latestVersion": "3"}]}})})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual(self.store.state["artifacts"]["org.example:sdk"],
+                         {"repository": url, "coordinate": "org.example:sdk", "versions": ["3"], "latestOnly": True})
+        self.assertEqual(len(client.calls), 1)
+
+    def test_given_listing_beyond_page_limit_when_enumerated_then_crawl_stops_at_the_limit(self):
+        url = self.repository(caps=["listing", "metadata"])
+
+        def handler(target, **kwargs):
+            # Every directory links two deeper directories, an unbounded tree.
+            return response('<a href="a/">a</a><a href="b/">b</a>')
+        client = FixtureClient(handler=handler)
+        with patch("indexlib.repositories.LISTING_LIMIT", 5):
+            self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual(len(client.calls), 5)
 
     def test_given_central_search_paging_when_enumerated_then_all_pages_are_resolved(self):
         url = self.repository(BUILTINS[1], ["central-search", "metadata"])
@@ -129,8 +148,8 @@ class RepositoryTests(FixtureTest):
             if calls == 1:
                 raise OSError("fixture failure")
             raise DeadlineReached()
-        with self.assertRaises(DeadlineReached):
-            enumerate_artifacts(self.store, FixtureClient(handler=handler))
+        # Without an overall deadline, a deadline inside the stage is its own budget share running out.
+        self.assertFalse(enumerate_artifacts(self.store, FixtureClient(handler=handler)))
         saved = Store(self.root)
         self.assertEqual(len(saved.state["enumerate"]["queue"]), 1)
         self.assertEqual(len(saved.state["enumerate"]["deferred"]), 1)
@@ -141,8 +160,7 @@ class RepositoryTests(FixtureTest):
     def test_given_new_repository_during_enumeration_resume_when_run_then_new_and_pending_repositories_are_processed(self):
         first = self.repository()
         self.store.seed("org.example:sdk")
-        with self.assertRaises(DeadlineReached):
-            enumerate_artifacts(self.store, FixtureClient({metadata_url(first, "org.example:sdk"): DeadlineReached()}))
+        self.assertFalse(enumerate_artifacts(self.store, FixtureClient({metadata_url(first, "org.example:sdk"): DeadlineReached()})))
         saved = Store(self.root)
         second = "https://new.example.org/repo"
         add_repository(saved, second, "pom")["capabilities"] = ["metadata"]
