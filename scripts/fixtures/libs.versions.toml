@@ -1,0 +1,6 @@
+[versions]
+sdk = "1.0"
+[libraries]
+one = { module = "org.example:one", version.ref = "sdk" }
+two = { group = "org.example", name = "two", version = "2.0" }
+three = "org.example:three:3.0"

@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <groupId>org.example</groupId><artifactId>sdk</artifactId><version>3.0</version>
+  <packaging>aar</packaging>
+  <properties><dep.version>2.1</dep.version><repo.host>pom.example.org</repo.host></properties>
+  <repositories><repository><id>sdk</id><url>https://${repo.host}/maven/</url></repository></repositories>
+  <dependencyManagement><dependencies><dependency><groupId>org.dep</groupId><artifactId>managed</artifactId><version>4.0</version></dependency></dependencies></dependencyManagement>
+  <dependencies>
+    <dependency><groupId>org.dep</groupId><artifactId>compile</artifactId><version>${dep.version}</version></dependency>
+    <dependency><groupId>org.dep</groupId><artifactId>runtime</artifactId><version>${project.version}</version><scope>runtime</scope></dependency>
+    <dependency><groupId>org.dep</groupId><artifactId>managed</artifactId></dependency>
+    <dependency><groupId>org.dep</groupId><artifactId>optional</artifactId><version>1</version><optional>true</optional></dependency>
+    <dependency><groupId>org.dep</groupId><artifactId>test</artifactId><version>1</version><scope>test</scope></dependency>
+    <dependency><groupId>org.dep</groupId><artifactId>provided</artifactId><version>1</version><scope>provided</scope></dependency>
+  </dependencies>
+</project>
