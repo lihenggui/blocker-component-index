@@ -98,3 +98,15 @@ class PipelineTests(FixtureTest):
         self.assertEqual(len(caches), 1)
         self.assertEqual(caches[0]["uses"], "actions/cache@v4.2.3")
         self.assertEqual(caches[0]["with"]["path"], ".cache/manifests/")
+
+    def test_given_discovery_search_denied_when_all_runs_then_later_stages_still_run_and_exit_is_nonzero(self):
+        calls = []
+
+        def denied(*args, **kwargs):
+            raise OSError("GitHub search HTTP 403")
+
+        stages = {name: (lambda *args, name=name, **kwargs: calls.append(name) or True) for name in STAGES}
+        stages["discover"] = denied
+        with patch.dict(STAGES, stages):
+            self.assertEqual(run(self.store, FixtureClient(), "all"), 1)
+        self.assertEqual(calls, [name for name in STAGES if name != "discover"])

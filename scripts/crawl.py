@@ -27,6 +27,7 @@ def positive(value):
 def run(store, client, stage, **options):
     stages = list(STAGES) if stage == "all" else [stage]
     completed = store.state.setdefault("completed", [])
+    failed = False
     try:
         for name in stages:
             if stage == "all" and name in completed and name != "discover":
@@ -34,7 +35,14 @@ def run(store, client, stage, **options):
             client.check()
             logging.info("Stage: %s", name)
             try:
-                finished = STAGES[name](store, client, **options)
+                try:
+                    finished = STAGES[name](store, client, **options)
+                except (OSError, ValueError) as exc:
+                    if stage != "all":
+                        raise
+                    # One failing stage (e.g. GitHub search denied) must not block the others.
+                    logging.error("Stage %s failed; progress saved, continuing: %s", name, exc)
+                    failed, finished = True, False
                 if stage == "all" and name == "discover" and not finished:
                     completed.clear()
                 preceding = list(STAGES)[:list(STAGES).index(name)]
@@ -45,7 +53,7 @@ def run(store, client, stage, **options):
         if stage == "all" and all(name in completed for name in STAGES):
             completed.clear()
             store.save(force=True)
-        return 0
+        return 1 if failed else 0
     except DeadlineReached:
         logging.info("Time budget reached; progress saved for the next run")
         store.save(force=True)
