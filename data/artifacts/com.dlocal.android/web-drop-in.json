@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.dlocal.android:web-drop-in",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T05:09:51Z",
+      "sha256": "0b2dd22521b5ff3fa3e6976b3ce261c4f640e5b5e9fd43ef1b7219926b9f0b34",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T05:09:50Z",
+      "sha256": "0b2dd22521b5ff3fa3e6976b3ce261c4f640e5b5e9fd43ef1b7219926b9f0b34",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T05:09:49Z",
+      "sha256": "0b2dd22521b5ff3fa3e6976b3ce261c4f640e5b5e9fd43ef1b7219926b9f0b34",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-24T05:09:48Z",
+      "sha256": "0b2dd22521b5ff3fa3e6976b3ce261c4f640e5b5e9fd43ef1b7219926b9f0b34",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dlocal.webdropin.internal.DLWebDropInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

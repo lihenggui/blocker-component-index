@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.enioka.scanner:provider-os-bluebird",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:22:28Z",
+      "sha256": "f93f61bd87d12e4d2797e85fc0b8e0d6b0b6a1c8eba23f391f944e9412028dd0",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:22:23Z",
+      "sha256": "f93f61bd87d12e4d2797e85fc0b8e0d6b0b6a1c8eba23f391f944e9412028dd0",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-24T05:22:27Z",
+      "sha256": "f93f61bd87d12e4d2797e85fc0b8e0d6b0b6a1c8eba23f391f944e9412028dd0",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-24T05:22:26Z",
+      "sha256": "f93f61bd87d12e4d2797e85fc0b8e0d6b0b6a1c8eba23f391f944e9412028dd0",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.3"
+      ]
+    },
+    "3.1.0-RC1": {
+      "fetchedAt": "2026-10-24T05:22:25Z",
+      "sha256": "f93f61bd87d12e4d2797e85fc0b8e0d6b0b6a1c8eba23f391f944e9412028dd0",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC1"
+      ]
+    },
+    "3.1.0-RC2": {
+      "fetchedAt": "2026-10-24T05:22:24Z",
+      "sha256": "f93f61bd87d12e4d2797e85fc0b8e0d6b0b6a1c8eba23f391f944e9412028dd0",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.enioka.scanner.sdk.bluebird.BluebirdProvider",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.1.0-RC2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.enioka.scan.PROVIDE_SCANNER"
+      ],
+      "categories": [],
+      "metaData": [
+        "intent"
+      ]
+    }
+  ]
+}

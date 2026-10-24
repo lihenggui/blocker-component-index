@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.github.TooLazyy:com.example.trovanconnector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T05:59:26Z",
+      "sha256": "0401bf002d0ce95b4f7a59d1855b26719276c6ae2143d0d6479518c6672a7a91",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.2",
+        "com.github.bright:slf4android:0.1.3",
+        "com.github.orhanobut:hawk:1.23",
+        "com.polidea.rxandroidble:rxandroidble:1.2.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.trovanconnector.bluetooth.BluetoothService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

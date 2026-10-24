@@ -1,0 +1,54 @@
+{
+  "coordinate": "com.github.goutham106:gmtheme",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-24T06:12:05Z",
+      "sha256": "5c552570a299c5a0ce8762c35fb78571e2f531a4b6ab5103048ea6b6c7819577",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.preference:preference:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.jaredrummler:colorpicker-compat:1.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gm.theme.prefs.GmThemePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gm.theme.prefs.ThemeSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

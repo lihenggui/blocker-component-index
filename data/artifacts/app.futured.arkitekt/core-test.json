@@ -1,0 +1,27 @@
+{
+  "coordinate": "app.futured.arkitekt:core-test",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.2.2": {
+      "fetchedAt": "2026-10-23T17:59:17Z",
+      "sha256": "a6580580b641c2e81173e791642f39c4e0e0994f9882d9995fff0d1cef1d8816",
+      "dependencies": [
+        "androidx.arch.core:core-testing:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2",
+        "app.futured.arkitekt:core:5.2.2",
+        "app.futured.arkitekt:cr-usecases:5.2.2",
+        "app.futured.arkitekt:dagger:5.2.2",
+        "com.github.Plastix.RxSchedulerRule:rx2:1.0.2",
+        "com.google.dagger:dagger-android-support:2.48.1",
+        "io.mockk:mockk:1.13.8",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.21",
+        "io.reactivex.rxjava2:rxkotlin:2.4.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3"
+      ]
+    }
+  },
+  "components": []
+}

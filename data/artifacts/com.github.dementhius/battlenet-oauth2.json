@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.github.dementhius:battlenet-oauth2",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T06:08:06Z",
+      "sha256": "bafbdd9eecf1dd91e231c7bd6b14a103821b092866a888db876b7e751f05a311",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.0-alpha3",
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.google.apis:google-api-services-oauth2:v2-rev112-1.22.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dementh.lib.battlenet_oauth2.activities.BnOAuthAccessTokenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

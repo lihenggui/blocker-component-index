@@ -1,0 +1,191 @@
+{
+  "coordinate": "com.gitee.zzhhz:ZHRecorder",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T05:54:52Z",
+      "sha256": "0abffd8ea5866fb109ccb90f603563090c6943ac119ca7ea74b47d1fd31c0476",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.danikula:videocache:2.7.0",
+        "com.github.yangjie10930:EpMedia:v0.9.5",
+        "com.googlecode.mp4parser:isoparser:1.1.21",
+        "junit:junit:4.12"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T05:54:52Z",
+      "sha256": "0abffd8ea5866fb109ccb90f603563090c6943ac119ca7ea74b47d1fd31c0476",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.danikula:videocache:2.7.0",
+        "com.github.yangjie10930:EpMedia:v0.9.5",
+        "com.googlecode.mp4parser:isoparser:1.1.21",
+        "junit:junit:4.12"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T05:54:51Z",
+      "sha256": "b8b30611f5da5fa048dba8867e1e731966250eb592041443f042026007efdf86",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.danikula:videocache:2.7.0",
+        "com.github.yangjie10930:EpMedia:v0.9.5",
+        "com.googlecode.mp4parser:isoparser:1.1.22",
+        "junit:junit:4.13.2",
+        "pub.devrel:easypermissions:0.3.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T05:54:50Z",
+      "sha256": "92b6e43b4a9248de222ffb46dd3c91bf0821da212838a2f9e26d190e9a2c93de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.github.yangjie10930:EpMedia:v0.9.5",
+        "com.googlecode.mp4parser:isoparser:1.1.22",
+        "junit:junit:4.13.2"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T05:54:49Z",
+      "sha256": "92b6e43b4a9248de222ffb46dd3c91bf0821da212838a2f9e26d190e9a2c93de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.github.yangjie10930:EpMedia:v0.9.5",
+        "com.googlecode.mp4parser:isoparser:1.1.22",
+        "junit:junit:4.13.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zzh.lib.recorder.whole.createVideoByVoice.localEdit.LocalVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.recorder.whole.editVideo.VideoEditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.recorder.whole.pickvideo.VideoPickActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.recorder.whole.record.RecorderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.recorder.whole.selCover.SelCoverTimeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.recorder.whole.videoPlayer.VideoPlayerActivity2",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.recorder.whole.videoPlayer.VideoViewPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

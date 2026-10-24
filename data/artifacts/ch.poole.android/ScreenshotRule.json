@@ -1,0 +1,43 @@
+{
+  "coordinate": "ch.poole.android:ScreenshotRule",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-23T18:32:46Z",
+      "sha256": "a6a2582b72937ffa7804075c88096a2b3c3f219456f267fa4dca16fc62f1d96b",
+      "dependencies": [
+        "androidx.test.ext:junit:1.1.1",
+        "androidx.test:rules:1.1.1",
+        "com.squareup.spoon:spoon-client:2.0.0-SNAPSHOT"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-23T18:32:43Z",
+      "sha256": "ef6632a3180de2b315df15719e1b98d4031e702ce5923845026049c876d3e044",
+      "dependencies": [
+        "androidx.test.ext:junit:1.1.1",
+        "androidx.test:rules:1.1.1",
+        "com.squareup.spoon:spoon-client:2.0.0-SNAPSHOT"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ch.poole.android.screenshotrule.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

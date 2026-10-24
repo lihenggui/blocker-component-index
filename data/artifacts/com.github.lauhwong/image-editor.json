@@ -1,0 +1,62 @@
+{
+  "coordinate": "com.github.lauhwong:image-editor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T06:19:28Z",
+      "sha256": "8acfa7ed6f9ba2356a6bb741e6b531c7448592318a758bb317a4ac9522fab830",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:design:25.3.1",
+        "org.jetbrains.kotlin:kotlin-reflect:1.1.2-4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-4"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-24T06:19:27Z",
+      "sha256": "8acfa7ed6f9ba2356a6bb741e6b531c7448592318a758bb317a4ac9522fab830",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:design:25.3.1",
+        "org.jetbrains.kotlin:kotlin-reflect:1.1.2-4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.miracle.view.imageeditor.EditorTextInputActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.miracle.view.imageeditor.ImageEditorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

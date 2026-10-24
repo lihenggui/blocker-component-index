@@ -1,0 +1,118 @@
+{
+  "coordinate": "com.gitee.hljdrl:ffkit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T05:51:38Z",
+      "sha256": "4f7c82adfef73d9a419083f45adb0f8805b6e837672198b4bfa23467cde37fec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.gitee.hljdrl:utils:2.0.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T05:51:37Z",
+      "sha256": "4f7c82adfef73d9a419083f45adb0f8805b6e837672198b4bfa23467cde37fec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.gitee.hljdrl:utils:2.0.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T05:51:37Z",
+      "sha256": "4f7c82adfef73d9a419083f45adb0f8805b6e837672198b4bfa23467cde37fec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.gitee.hljdrl:utils:2.0.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T05:51:36Z",
+      "sha256": "4f7c82adfef73d9a419083f45adb0f8805b6e837672198b4bfa23467cde37fec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.gitee.hljdrl:utils:2.0.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T05:51:35Z",
+      "sha256": "4f7c82adfef73d9a419083f45adb0f8805b6e837672198b4bfa23467cde37fec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.gitee.hljdrl:utils:2.0.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gitee.hljdrl.ffkit.app.FFKitAboutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gitee.hljdrl.ffkit.app.FFKitHomeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.gitee.hljdrl.ffkit.app.FFSupporterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

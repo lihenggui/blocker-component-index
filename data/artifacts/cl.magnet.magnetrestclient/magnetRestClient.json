@@ -1,0 +1,58 @@
+{
+  "coordinate": "cl.magnet.magnetrestclient:magnetRestClient",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T18:44:39Z",
+      "sha256": "9720736c1bbe043dcb0803fad66e61a9ee7013a8a43c6621d23dd3c07fb79fa0",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3",
+        "com.google.code.gson:gson:2.3.1",
+        "com.mcxiaoke.volley:library:1.0.15",
+        "com.squareup.okhttp:okhttp-urlconnection:2.3.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T18:44:37Z",
+      "sha256": "ce2f5e1136d17da105204e66a3de71342cbad87826a4b1329f67c6eee0be13a7",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3",
+        "com.google.code.gson:gson:2.3.1",
+        "com.mcxiaoke.volley:library:1.0.15",
+        "com.squareup.okhttp:okhttp-urlconnection:2.3.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T18:44:34Z",
+      "sha256": "ca4c9b26d5118764c872e2869e4a594ab5583b0265820578d67db026b7174d2a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "com.google.code.gson:gson:2.3.1",
+        "com.mcxiaoke.volley:library:1.0.15",
+        "com.squareup.okhttp:okhttp-urlconnection:2.3.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cl.magnet.magnetrestclient.UpgradeRequiredActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

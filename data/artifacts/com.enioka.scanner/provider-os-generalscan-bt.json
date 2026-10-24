@@ -1,0 +1,75 @@
+{
+  "coordinate": "com.enioka.scanner:provider-os-generalscan-bt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:22:34Z",
+      "sha256": "64cd850ed4a0726e1cb4b2496469fab3912b0d0c3995baa1f0cbd94de3ef5282",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:22:29Z",
+      "sha256": "64cd850ed4a0726e1cb4b2496469fab3912b0d0c3995baa1f0cbd94de3ef5282",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-24T05:22:33Z",
+      "sha256": "64cd850ed4a0726e1cb4b2496469fab3912b0d0c3995baa1f0cbd94de3ef5282",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-24T05:22:32Z",
+      "sha256": "64cd850ed4a0726e1cb4b2496469fab3912b0d0c3995baa1f0cbd94de3ef5282",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.3"
+      ]
+    },
+    "3.1.0-RC1": {
+      "fetchedAt": "2026-10-24T05:22:31Z",
+      "sha256": "64cd850ed4a0726e1cb4b2496469fab3912b0d0c3995baa1f0cbd94de3ef5282",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC1"
+      ]
+    },
+    "3.1.0-RC2": {
+      "fetchedAt": "2026-10-24T05:22:30Z",
+      "sha256": "64cd850ed4a0726e1cb4b2496469fab3912b0d0c3995baa1f0cbd94de3ef5282",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.enioka.scanner.sdk.generalscan.GsSppScannerProvider",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.1.0-RC2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.enioka.scan.PROVIDE_SPP_SCANNER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

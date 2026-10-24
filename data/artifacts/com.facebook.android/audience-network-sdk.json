@@ -1,0 +1,111 @@
+{
+  "coordinate": "com.facebook.android:audience-network-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.10.0": {
+      "fetchedAt": "2026-10-24T05:29:25Z",
+      "sha256": "74757f7cd937ee01fb66bb1339e9e9a3d89463aef89e6e04dbcd39fbb96624ee",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:recyclerview-v7:23.1.0",
+        "com.google.android.gms:play-services-ads:8.1.0"
+      ]
+    },
+    "4.10.1": {
+      "fetchedAt": "2026-10-24T05:29:24Z",
+      "sha256": "16969e13f5fae0d7a341086e7ff359902c51b59a3547daa3354d2d69eaccf64d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:recyclerview-v7:23.1.0",
+        "com.google.android.gms:play-services-ads:8.1.0"
+      ]
+    },
+    "4.11.0": {
+      "fetchedAt": "2026-10-24T05:29:24Z",
+      "sha256": "c24bf94f756d7b4f47254e5b59dc5038be08277425ca5983fd002a6720ca9add",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:recyclerview-v7:23.1.0",
+        "com.google.android.gms:play-services-ads:8.4.0"
+      ]
+    },
+    "4.12.0": {
+      "fetchedAt": "2026-10-24T05:29:23Z",
+      "sha256": "268d9dff2b62b5060a3045b3f7071a9bb1d3c1df3a5d324e378f829c4f45f024",
+      "dependencies": [
+        "ads:AdQuality:unspecified",
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:recyclerview-v7:23.1.0",
+        "com.google.android.gms:play-services-ads:8.4.0"
+      ]
+    },
+    "4.12.1": {
+      "fetchedAt": "2026-10-24T05:29:22Z",
+      "sha256": "b751e6529899f83c60a3a56e9a814a9867e4d42807ee45fbbe2d8a4b569b69db",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:recyclerview-v7:23.1.0",
+        "com.google.android.gms:play-services-ads:8.4.0"
+      ]
+    },
+    "4.13.0": {
+      "fetchedAt": "2026-10-24T05:29:22Z",
+      "sha256": "c2d452545419cbbf537d3d8953f5bc058a14cc58423ac3d729a949787a7cd376",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:recyclerview-v7:23.1.0",
+        "com.google.android.gms:play-services-ads:8.4.0"
+      ]
+    },
+    "6.20.0": {
+      "fetchedAt": "2026-10-24T05:29:21Z",
+      "sha256": "66c02baef1fc64188143dbf7b85ab0afa149b28cfa7748b71f38138021babc34",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:11.0.4"
+      ]
+    },
+    "6.21.0": {
+      "fetchedAt": "2026-10-24T05:29:21Z",
+      "sha256": "f86767c9170111bcc9e33af57f40b8382165fea1783afc1e11596f314e1cc1f7",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:11.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.20.0",
+          "6.21.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.AudienceNetworkContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.20.0",
+          "6.21.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AudienceNetworkContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

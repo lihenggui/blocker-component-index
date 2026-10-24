@@ -1,0 +1,75 @@
+{
+  "coordinate": "com.emergetools.distribution:distribution",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T05:18:24Z",
+      "sha256": "959cf2da9e7af11f695829375b20f45ebb2f94c0a4183e80f9b39df8a32723b0",
+      "dependencies": [
+        "androidx.compose.foundation:foundation-layout-android:1.7.3",
+        "androidx.compose.material3:material3-android:1.3.0",
+        "androidx.compose.runtime:runtime-android:1.7.3",
+        "androidx.lifecycle:lifecycle-process:2.7.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T05:18:23Z",
+      "sha256": "549a4f1a5367d5e887e8fd16b79653c71124f6eb107d2de0c0de5f71f5d86ade",
+      "dependencies": [
+        "androidx.compose.foundation:foundation-layout-android:1.7.3",
+        "androidx.compose.material3:material3-android:1.3.0",
+        "androidx.compose.runtime:runtime-android:1.7.3",
+        "androidx.lifecycle:lifecycle-process:2.7.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-24T05:18:22Z",
+      "sha256": "549a4f1a5367d5e887e8fd16b79653c71124f6eb107d2de0c0de5f71f5d86ade",
+      "dependencies": [
+        "androidx.compose.foundation:foundation-layout-android:1.7.6",
+        "androidx.compose.material3:material3-android:1.3.1",
+        "androidx.compose.runtime:runtime-android:1.7.6",
+        "androidx.lifecycle:lifecycle-process:2.8.7",
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.10.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.emergetools.distribution.DistributionInitializer"
+      ]
+    }
+  ]
+}

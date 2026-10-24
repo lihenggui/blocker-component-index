@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.droidkit:pickers",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5": {
+      "fetchedAt": "2026-10-24T05:12:31Z",
+      "sha256": "7bbf9cffdc8f0e3f17969dc22b97a3b42e9496cf42e8114dbe5bd43accad91d9",
+      "dependencies": [
+        "com.android.support:support-v13:20.0.0",
+        "com.droidkit:progress:0.4+",
+        "com.google.android.gms:play-services:5.0.89"
+      ]
+    },
+    "0.6": {
+      "fetchedAt": "2026-10-24T05:12:30Z",
+      "sha256": "7bbf9cffdc8f0e3f17969dc22b97a3b42e9496cf42e8114dbe5bd43accad91d9",
+      "dependencies": [
+        "com.android.support:support-v13:20.0.0",
+        "com.droidkit:progress:0.4+",
+        "com.google.android.gms:play-services:5.0.89"
+      ]
+    },
+    "0.7": {
+      "fetchedAt": "2026-10-24T05:12:29Z",
+      "sha256": "7827c6ccef61c277ef8a4b3bc6d1ea08b257e418ac1d90775148d59c01c6ef93",
+      "dependencies": [
+        "com.android.support:support-v13:20.0.0",
+        "com.droidkit:progress:0.4+",
+        "com.google.android.gms:play-services:5.0.89"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.droidkit.pickers.file.FilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.droidkit.pickers.map.MapPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

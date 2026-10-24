@@ -1,0 +1,129 @@
+{
+  "coordinate": "com.github.hcmlab:libssj",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.4.11": {
+      "fetchedAt": "2026-10-24T06:13:47Z",
+      "sha256": "0269efa2fb62be159a0df33b4cefe014474c69f0949281d4d8214e08e19d03ad",
+      "dependencies": []
+    },
+    "0.4.5": {
+      "fetchedAt": "2026-10-24T06:13:46Z",
+      "sha256": "797caa9af5be57542de83a6d3b0673f7b46e9463db19ecf7e84715f3f81d20b2",
+      "dependencies": []
+    },
+    "0.5": {
+      "fetchedAt": "2026-10-24T06:13:45Z",
+      "sha256": "0e6f68ef54bd69e6799209859b0ec2cca0a5ab03ec9afef52c9ca8f06f8de964",
+      "dependencies": []
+    },
+    "0.6": {
+      "fetchedAt": "2026-10-24T06:13:44Z",
+      "sha256": "0d6b44ca15c8dd800b10531b38ce0053b254c251b0242fb7740ec67f3ec9ce15",
+      "dependencies": []
+    },
+    "0.6.1": {
+      "fetchedAt": "2026-10-24T06:13:43Z",
+      "sha256": "433b1b06898f8f627ba38767a24422965ffd10b7577e470662e0c969dcf6dacb",
+      "dependencies": []
+    },
+    "0.6.2": {
+      "fetchedAt": "2026-10-24T06:13:42Z",
+      "sha256": "4a22e78f19372c8f355cdef3c0cd91f2acb6e1fd968ac25bf16f4f5bc9ec2c46",
+      "dependencies": []
+    },
+    "0.6.3": {
+      "fetchedAt": "2026-10-24T06:13:41Z",
+      "sha256": "51807872ba69ea245d82fb8c53c85194632c88fcd4275dc441d730ff3b5d6769",
+      "dependencies": []
+    },
+    "0.7": {
+      "fetchedAt": "2026-10-24T06:13:39Z",
+      "sha256": "1647952185e93c4ccffbb0c27b4cd52bf00cc31c7894c8f36676188a1c94658c",
+      "dependencies": []
+    },
+    "0.7.1": {
+      "fetchedAt": "2026-10-24T06:13:38Z",
+      "sha256": "da9c5a8075767edb4de31179b6ad44c34b61c9b4aba1355fd55e2b50a6911895",
+      "dependencies": []
+    },
+    "0.7.2": {
+      "fetchedAt": "2026-10-24T06:13:37Z",
+      "sha256": "a4492d174e4c651126e02a5df6e50dc81e105e447009623f72dd17c5a826d3b2",
+      "dependencies": []
+    },
+    "0.7.3": {
+      "fetchedAt": "2026-10-24T06:13:36Z",
+      "sha256": "d744b70a7ea96474fe476662b3eccdf72cfcdfbe08d4f31794facbdf459d6bea",
+      "dependencies": []
+    },
+    "0.7.4": {
+      "fetchedAt": "2026-10-24T06:13:34Z",
+      "sha256": "c71cfcf1b1a7546d7b508baea52066f83ecc0cce42ae6988c0ebe93063810219",
+      "dependencies": []
+    },
+    "0.7.5": {
+      "fetchedAt": "2026-10-24T06:13:32Z",
+      "sha256": "e4cd910cc87d21bf65725db800a5908c9edc8e7f125934ec8d63c00fab0b73bc",
+      "dependencies": []
+    },
+    "0.7.6": {
+      "fetchedAt": "2026-10-24T06:13:31Z",
+      "sha256": "b3a23e988ef6e678d920e888ff7fb5d87bffc4b72d1aca846e57a32b6b1154db",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.angel.sdk.BleController",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.4.11",
+          "0.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.empatica.empalink.EmpaLinkBLE",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.4.11",
+          "0.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.estimote.sdk.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

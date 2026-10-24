@@ -1,0 +1,40 @@
+{
+  "coordinate": "com.eyeofcloud.ab:android-sdk-event-handler",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.13.4": {
+      "fetchedAt": "2026-10-24T05:28:24Z",
+      "sha256": "6276c3f1b9a716bc63f1d4d54cecb89f46f7242eb4eb892a94c0cc3a78cb1d89",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.eyeofcloud.ab:android-sdk-shared:3.13.4",
+        "commons-codec:commons-codec:1.15",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.eyeofcloud.ab.android.event_handler.EventRescheduler",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.13.4",
+          "3.13.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

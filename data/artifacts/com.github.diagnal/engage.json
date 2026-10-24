@@ -1,0 +1,112 @@
+{
+  "coordinate": "com.github.diagnal:engage",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.6": {
+      "fetchedAt": "2026-10-24T06:08:38Z",
+      "sha256": "7121556a57e6d5dab21a411e2d5af3aea9629b69901d9d5f1608c5392d2d7656",
+      "dependencies": [
+        "com.android.support:support-annotations:27.0.0",
+        "com.google.firebase:firebase-core:11.4.2",
+        "com.google.firebase:firebase-messaging:11.4.2",
+        "com.squareup.okhttp3:logging-interceptor:3.9.0",
+        "com.squareup.okhttp3:okhttp:3.9.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.diagnal.engage.InstallReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.6",
+          "1.1.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.diagnal.engage.campaign.preview.CampaignPreviewCallbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.6",
+          "1.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.diagnal.engage.messaging.FirebaseIDService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.6",
+          "1.1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.diagnal.engage.messaging.MessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.6",
+          "1.1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.diagnal.engage.messaging.VideoCampaignActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.6",
+          "1.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

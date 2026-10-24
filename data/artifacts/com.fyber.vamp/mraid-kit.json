@@ -1,0 +1,42 @@
+{
+  "coordinate": "com.fyber.vamp:mraid-kit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.8.2": {
+      "fetchedAt": "2026-10-24T05:40:36Z",
+      "sha256": "3e1864953603bcc066f61da23ed41b14b328191d1d4ffc4911a52b64a72062b7",
+      "dependencies": []
+    },
+    "7.8.3": {
+      "fetchedAt": "2026-10-24T05:40:36Z",
+      "sha256": "3e1864953603bcc066f61da23ed41b14b328191d1d4ffc4911a52b64a72062b7",
+      "dependencies": []
+    },
+    "7.8.4": {
+      "fetchedAt": "2026-10-24T05:40:35Z",
+      "sha256": "3e1864953603bcc066f61da23ed41b14b328191d1d4ffc4911a52b64a72062b7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.fyber.inneractive.sdk.mraid.IAMraidKit",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.8.2",
+          "7.8.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fyber.inneractive.sdk.intent.action.REGISTER_KIT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

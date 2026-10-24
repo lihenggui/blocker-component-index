@@ -1,0 +1,112 @@
+{
+  "coordinate": "com.github.loren-wang:AndroidCustomToolsFromLorenWang",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.1.3": {
+      "fetchedAt": "2026-10-24T06:20:49Z",
+      "sha256": "c327e9ad13c03bc5b2631fa4ccde130e6949bbd5eebb5d265434c51dbd77afa7",
+      "dependencies": []
+    },
+    "3.1.4": {
+      "fetchedAt": "2026-10-24T06:20:48Z",
+      "sha256": "b28c7222d06046722dcb67395a2a527d4f5144f65fd775297eab25d1074e4b1b",
+      "dependencies": []
+    },
+    "3.1.5": {
+      "fetchedAt": "2026-10-24T06:20:47Z",
+      "sha256": "0bb656163690b2e202e1574999e184da9fb9f5a312c04967cd8c41baea79e61a",
+      "dependencies": []
+    },
+    "3.1.6": {
+      "fetchedAt": "2026-10-24T06:20:47Z",
+      "sha256": "6482348d29e8ca17b5b8f70f89bdfef33c524726fb38307da24744bed80e1c6a",
+      "dependencies": []
+    },
+    "3.1.7": {
+      "fetchedAt": "2026-10-24T06:20:46Z",
+      "sha256": "9549a05a9f39f3911f758eee414b51ae232b9901d0022851becdf68bf7a21320",
+      "dependencies": []
+    },
+    "3.1.8": {
+      "fetchedAt": "2026-10-24T06:20:45Z",
+      "sha256": "4dfac0ef0bf96ed4e3746c0e3233414bb842438aa2381dc535d0febebb033461",
+      "dependencies": []
+    },
+    "3.1.9": {
+      "fetchedAt": "2026-10-24T06:20:45Z",
+      "sha256": "cdc9e20fd08efdb904935af6d711bc753c3bb5e0ec31c6860260ef450fdb5a0c",
+      "dependencies": []
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-24T06:20:44Z",
+      "sha256": "cb9c0120ddc33231da5bac8c946fb3787ee5a2776035b7b6eadbf3648242219a",
+      "dependencies": []
+    },
+    "4.0.0-alpha01": {
+      "fetchedAt": "2026-10-24T06:20:43Z",
+      "sha256": "8ee2cb1a47ef4e6556f2faef2021751e960433d9e86295ad6ae73a6c0e97b8ec",
+      "dependencies": [
+        "com.github.loren-wang:JavaCustomToolsFromLorenWang:4.0.0",
+        "com.github.loren-wang:JavaDataParseFromLorenWang:3.0.0"
+      ]
+    },
+    "4.0.0-alpha02": {
+      "fetchedAt": "2026-10-24T06:20:42Z",
+      "sha256": "8ee2cb1a47ef4e6556f2faef2021751e960433d9e86295ad6ae73a6c0e97b8ec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.loren-wang:JavaCustomToolsFromLorenWang:4.0.0",
+        "com.github.loren-wang:JavaDataParseFromLorenWang:3.0.0",
+        "com.readystatesoftware.systembartint:systembartint:1.0.3"
+      ]
+    },
+    "4.0.0-alpha03": {
+      "fetchedAt": "2026-10-24T06:20:42Z",
+      "sha256": "8ee2cb1a47ef4e6556f2faef2021751e960433d9e86295ad6ae73a6c0e97b8ec",
+      "dependencies": []
+    },
+    "4.0.0-alpha04": {
+      "fetchedAt": "2026-10-24T06:20:41Z",
+      "sha256": "883e4b60045e040896ff52bb94b97538a06ea7fc89051f3a4230ce5849fcc3a7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.location.f",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0-alpha01",
+          "4.0.0-alpha04"
+        ]
+      ],
+      "exported": null,
+      "process": ":remote",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.map.geolocation.s",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0-alpha01",
+          "4.0.0-alpha04"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

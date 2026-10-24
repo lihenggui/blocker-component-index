@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.github.lukaspili.reactive-billing:reactive-billing",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-24T06:20:58Z",
+      "sha256": "8b1e6da96e52312be2f69ce93dcedf275036d0be7d60d962019da4cb8d7fdff4",
+      "dependencies": [
+        "com.jakewharton.rxrelay:rxrelay:1.1.0"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-24T06:20:57Z",
+      "sha256": "776392a2351d03497f9ba5a64f10bb8d75307966faf9f4ff5a4d1e04a85e04c4",
+      "dependencies": [
+        "com.jakewharton.rxrelay:rxrelay:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.lukaspili.reactivebilling.ReactiveBillingShadowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

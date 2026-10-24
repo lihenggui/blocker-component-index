@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.github.allenxuan:ShowPowerfulWeb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T06:01:05Z",
+      "sha256": "65e098d374675588f60bdccac69cf76b32d3092dce91fc2bd92560cb762ba66f",
+      "dependencies": [
+        "com.android.support:customtabs:23.1.1",
+        "com.thefinestartist:finestwebview:1.1.2"
+      ]
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-24T06:01:05Z",
+      "sha256": "a88223997a549e2e8bf67fc4a00ea927dc99c54611bded74d52ccbb645e2085e",
+      "dependencies": [
+        "com.android.support:customtabs:23.1.1",
+        "com.thefinestartist:finestwebview:1.1.2"
+      ]
+    },
+    "0.6.0": {
+      "fetchedAt": "2026-10-24T06:01:04Z",
+      "sha256": "4a1e4944aa443c9c1dfac0fcec8b4804bd482d47028ababcb4e06121ce39d1ac",
+      "dependencies": [
+        "com.android.support:customtabs:23.1.1",
+        "com.thefinestartist:finestwebview:1.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.allenxuan.xuanyihuang.showpowerfulweb.ShareBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.6.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.thefinestartist.finestwebview.FinestWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.6.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

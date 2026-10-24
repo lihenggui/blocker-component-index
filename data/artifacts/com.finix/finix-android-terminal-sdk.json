@@ -1,0 +1,82 @@
+{
+  "coordinate": "com.finix:finix-android-terminal-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:35:08Z",
+      "sha256": "ff447b6ec7fc498017b3fc8c8d6ee5c88cc778545dcf8978f4f1dfd9f70fa5a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.4",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.4",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.4",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.4",
+        "com.google.android.material:material:1.6.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-jackson:2.9.0",
+        "com.squareup.retrofit2:converter-jaxb:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:converter-simplexml:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:35:07Z",
+      "sha256": "ff447b6ec7fc498017b3fc8c8d6ee5c88cc778545dcf8978f4f1dfd9f70fa5a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.4",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.4",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.4",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.4",
+        "com.google.android.material:material:1.6.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-jackson:2.9.0",
+        "com.squareup.retrofit2:converter-jaxb:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:converter-simplexml:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ingenico.pclservice.BluetoothService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ingenico.pclservice.PclService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

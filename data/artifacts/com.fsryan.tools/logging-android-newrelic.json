@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.fsryan.tools:logging-android-newrelic",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.3": {
+      "fetchedAt": "2026-10-24T05:40:25Z",
+      "sha256": "29185eba4b04e777be90ed62d1eb58c80b59b44ba56a2f40f3f3ddedeb13d04f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.fsryan.tools:logging-android:0.2.3",
+        "com.fsryan.tools:logging:0.2.3",
+        "com.newrelic.agent.android:android-agent:5.28.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T05:40:24Z",
+      "sha256": "5ba6e6870e9d99549b5663184dd541e0d119f972f3c9d8fc9e5bb46dd25d1f9b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.fsryan.tools:logging-android:0.3.0",
+        "com.fsryan.tools:logging:0.3.0",
+        "com.newrelic.agent.android:android-agent:5.28.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-24T05:40:24Z",
+      "sha256": "5ba6e6870e9d99549b5663184dd541e0d119f972f3c9d8fc9e5bb46dd25d1f9b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.fsryan.tools:logging-android:0.3.1",
+        "com.fsryan.tools:logging:0.3.1",
+        "com.newrelic.agent.android:android-agent:5.28.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "0.3.2": {
+      "fetchedAt": "2026-10-24T05:40:23Z",
+      "sha256": "5ba6e6870e9d99549b5663184dd541e0d119f972f3c9d8fc9e5bb46dd25d1f9b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.fsryan.tools:logging-android:0.3.2",
+        "com.fsryan.tools:logging:0.3.2",
+        "com.newrelic.agent.android:android-agent:6.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T05:40:22Z",
+      "sha256": "d9e3c24fbce39b8f12eeb77e4602206495fdcaf7c7a97c3dccfd4b3acbcda385",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.fsryan.tools:logging-android:0.4.0",
+        "com.newrelic.agent.android:android-agent:6.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "0.4.1": {
+      "fetchedAt": "2026-10-24T05:40:22Z",
+      "sha256": "d9e3c24fbce39b8f12eeb77e4602206495fdcaf7c7a97c3dccfd4b3acbcda385",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.fsryan.tools:logging-android:0.4.1",
+        "com.newrelic.agent.android:android-agent:6.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "0.4.2": {
+      "fetchedAt": "2026-10-24T05:40:21Z",
+      "sha256": "71abe0a67c668a8efc31f6b78cd63cea204746b95ddb9301210474be2ff520a8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.fsryan.tools:logging-android:0.4.2",
+        "com.newrelic.agent.android:android-agent:6.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.fsryan.tools.logging.android.newrelic.NewRelicInitContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.NewRelicInitContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.eygraber:android-debug-db",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T05:28:31Z",
+      "sha256": "d63c3097b8e5f6a7862a76f173912c9544cc4ef2acead439a661e792b67ab897",
+      "dependencies": [
+        "com.eygraber:android-debug-db-base:2.0.3"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T05:28:30Z",
+      "sha256": "d63c3097b8e5f6a7862a76f173912c9544cc4ef2acead439a661e792b67ab897",
+      "dependencies": [
+        "com.eygraber:android-debug-db-base:2.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amitshekhar.debug.DebugDBInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.3",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DebugDBInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

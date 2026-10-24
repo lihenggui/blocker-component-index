@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.deepleaper:tblibs4",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:03:52Z",
+      "sha256": "0bc0b11a36defd776d0cb559126d772fb272196500c0caa8fb6647482fcc74c5",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:03:51Z",
+      "sha256": "0bc0b11a36defd776d0cb559126d772fb272196500c0caa8fb6647482fcc74c5",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323",
+        "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323",
+        "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "com.alibaba-inc.check.login.status.resume"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "coordinate": "com.engagelab.plugin:oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T05:20:10Z",
+      "sha256": "03af3cf072a4523c7963763a4bb67be91eceb00c6a150cb8ae828d4f75ba6f78",
+      "dependencies": []
+    },
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T05:20:09Z",
+      "sha256": "f567b1335388bf16ef49eb1d2b7380f530bdf874cd1a80bb925175cf2eb2e8d4",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-24T05:20:09Z",
+      "sha256": "f567b1335388bf16ef49eb1d2b7380f530bdf874cd1a80bb925175cf2eb2e8d4",
+      "dependencies": []
+    },
+    "4.5.3": {
+      "fetchedAt": "2026-10-24T05:20:08Z",
+      "sha256": "f567b1335388bf16ef49eb1d2b7380f530bdf874cd1a80bb925175cf2eb2e8d4",
+      "dependencies": []
+    },
+    "4.5.4": {
+      "fetchedAt": "2026-10-24T05:20:07Z",
+      "sha256": "f567b1335388bf16ef49eb1d2b7380f530bdf874cd1a80bb925175cf2eb2e8d4",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:20:06Z",
+      "sha256": "f567b1335388bf16ef49eb1d2b7380f530bdf874cd1a80bb925175cf2eb2e8d4",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T05:19:58Z",
+      "sha256": "f567b1335388bf16ef49eb1d2b7380f530bdf874cd1a80bb925175cf2eb2e8d4",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:20:05Z",
+      "sha256": "f567b1335388bf16ef49eb1d2b7380f530bdf874cd1a80bb925175cf2eb2e8d4",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:20:05Z",
+      "sha256": "86fab112bde4da3a44b3096ae57c029df326a8787dd27a9cb4fa73050422a6f8",
+      "dependencies": []
+    },
+    "5.2.1": {
+      "fetchedAt": "2026-10-24T05:20:04Z",
+      "sha256": "86fab112bde4da3a44b3096ae57c029df326a8787dd27a9cb4fa73050422a6f8",
+      "dependencies": []
+    },
+    "5.2.3": {
+      "fetchedAt": "2026-10-24T05:20:04Z",
+      "sha256": "86fab112bde4da3a44b3096ae57c029df326a8787dd27a9cb4fa73050422a6f8",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T05:20:03Z",
+      "sha256": "86fab112bde4da3a44b3096ae57c029df326a8787dd27a9cb4fa73050422a6f8",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T05:20:02Z",
+      "sha256": "86fab112bde4da3a44b3096ae57c029df326a8787dd27a9cb4fa73050422a6f8",
+      "dependencies": []
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T05:20:02Z",
+      "sha256": "86fab112bde4da3a44b3096ae57c029df326a8787dd27a9cb4fa73050422a6f8",
+      "dependencies": []
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T05:20:01Z",
+      "sha256": "3755b82ea623f7ec5de79e839a8ed3d6f42a586802a30b6b8a8a9c1cf4b9dda3",
+      "dependencies": []
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T05:20:00Z",
+      "sha256": "9a69b7b8651f217f6b0c4bf7ab2ace5d26681f915e34acc9455386def649214c",
+      "dependencies": []
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T05:20:00Z",
+      "sha256": "9a69b7b8651f217f6b0c4bf7ab2ace5d26681f915e34acc9455386def649214c",
+      "dependencies": []
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T05:19:59Z",
+      "sha256": "9a69b7b8651f217f6b0c4bf7ab2ace5d26681f915e34acc9455386def649214c",
+      "dependencies": []
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T05:19:59Z",
+      "sha256": "9a69b7b8651f217f6b0c4bf7ab2ace5d26681f915e34acc9455386def649214c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.engagelab.privates.push.platform.oppo.callback.MTOppoVoipService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.4.2",
+          "5.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.heytap.msp.push.action.RECEIVE_ENHANCED_DATA_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

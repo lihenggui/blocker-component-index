@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.fyber.vamp:core-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.8.2": {
+      "fetchedAt": "2026-10-24T05:40:34Z",
+      "sha256": "a3718396a995fa9932b252c24aef131dc5b8232a5225d787cf1de4650723eb19",
+      "dependencies": []
+    },
+    "7.8.3": {
+      "fetchedAt": "2026-10-24T05:40:34Z",
+      "sha256": "a3718396a995fa9932b252c24aef131dc5b8232a5225d787cf1de4650723eb19",
+      "dependencies": []
+    },
+    "7.8.4": {
+      "fetchedAt": "2026-10-24T05:40:33Z",
+      "sha256": "a3718396a995fa9932b252c24aef131dc5b8232a5225d787cf1de4650723eb19",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.2",
+          "7.8.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.2",
+          "7.8.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.2",
+          "7.8.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fyber.inneractive.sdk.dv.DVKit",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.8.2",
+          "7.8.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fyber.inneractive.sdk.intent.action.REGISTER_KIT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

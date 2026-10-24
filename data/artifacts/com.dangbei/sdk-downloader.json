@@ -1,0 +1,95 @@
+{
+  "coordinate": "com.dangbei:sdk-downloader",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T04:59:31Z",
+      "sha256": "3e51332b7383a191ec4ff3bb276fb5201bd771b61162e9f069792f1bb44198a3",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.4.1"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T04:59:30Z",
+      "sha256": "44788f97190cae15759c73728c04b8ba3a4b102be790a9f91e7858fc7e8077e6",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.4.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T04:59:29Z",
+      "sha256": "4913d621c8bd850b6f81227d42155e581900f612affaaa5aafdbd529a54a9d20",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.4.1"
+      ]
+    },
+    "1.0.1.1": {
+      "fetchedAt": "2026-10-24T04:59:29Z",
+      "sha256": "8f8a6960fae9949a227e0d3a3f6227f8ad2d59c5403a919b60e52d034f712fd8",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.4.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T04:59:28Z",
+      "sha256": "a13073498ccee96ab9f7e7f68f44553f7f6c4aae657f4c0a359d45e9264c562d",
+      "dependencies": [
+        "com.dangbei:edeviceid:1.0.8",
+        "com.squareup.okhttp3:okhttp:3.4.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T04:59:27Z",
+      "sha256": "89949317e33e66c91db226e570b88247657a4d7f0583aa99ff99662805d22cd3",
+      "dependencies": [
+        "com.dangbei:edeviceid:1.0.8",
+        "com.j256.ormlite:ormlite-android:5.0",
+        "com.squareup.okhttp3:okhttp:3.4.1"
+      ]
+    },
+    "1.0.4.1": {
+      "fetchedAt": "2026-10-24T04:59:26Z",
+      "sha256": "ff7fbfc0991a29ee37eede3231507aeb8928d783452fec582cb9d64b7bb7d8f8",
+      "dependencies": [
+        "com.j256.ormlite:ormlite-android:5.0",
+        "com.squareup.okhttp3:okhttp:3.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dangbeimarket.downloader.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dangbeimarket.downloader.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "unspecified",
+          "1.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

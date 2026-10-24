@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.eygraber:android-debug-db-encrypt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T05:28:33Z",
+      "sha256": "a16fe15e4979681c2f3b867971350c34934d5ae08df3717a9368951304e0f13f",
+      "dependencies": [
+        "com.eygraber:android-debug-db-base:2.0.3",
+        "com.getkeepsafe.relinker:relinker:1.4.3"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T05:28:32Z",
+      "sha256": "a16fe15e4979681c2f3b867971350c34934d5ae08df3717a9368951304e0f13f",
+      "dependencies": [
+        "com.eygraber:android-debug-db-base:2.0.4",
+        "com.getkeepsafe.relinker:relinker:1.4.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amitshekhar.debug.encrypt.DebugDBEncryptInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.3",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DebugDBEncryptInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

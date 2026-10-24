@@ -1,0 +1,76 @@
+{
+  "coordinate": "com.github.ggotardo:halley-http",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T06:11:52Z",
+      "sha256": "7e25dec1d4e193c65d67c14c50c895d532fb77783e749ba183f137773c6a146b",
+      "dependencies": [
+        "com.google.code.gson:gson:2.3",
+        "com.netflix.rxjava:rxjava-android:0.20.5"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T06:11:52Z",
+      "sha256": "f1f2744b30bc31d528f2d998fb0770e38f09a31d410ae41f4c5e5f6942651699",
+      "dependencies": [
+        "com.google.code.gson:gson:2.3",
+        "com.netflix.rxjava:rxjava-android:0.20.5"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-24T06:11:51Z",
+      "sha256": "907f1d9a873c6956bbc14e5bea41c9c05adffc21232af6ed280efc67c3495fab",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0",
+        "com.google.code.gson:gson:2.3",
+        "io.reactivex:rxandroid:0.22.0"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-24T06:11:51Z",
+      "sha256": "b2409849efad0d5de96c9d3ac739c4d11084fd97ea209433f5e4f00dc7887f36",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3",
+        "com.google.code.gson:gson:2.3",
+        "io.reactivex:rxandroid:0.22.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.halley.http.core.MockActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.halley.http.get.SampleTestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

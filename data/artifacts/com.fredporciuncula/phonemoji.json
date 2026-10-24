@@ -1,0 +1,87 @@
+{
+  "coordinate": "com.fredporciuncula:phonemoji",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T05:38:57Z",
+      "sha256": "f2eaf2d5dcd299d8574911dc452d00f3884783638b2b5a81d802e4d9c2aab426",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.material:material:1.4.0",
+        "io.michaelrocks:libphonenumber-android:8.12.33",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T05:38:57Z",
+      "sha256": "f2eaf2d5dcd299d8574911dc452d00f3884783638b2b5a81d802e4d9c2aab426",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.material:material:1.4.0",
+        "io.michaelrocks:libphonenumber-android:8.12.37",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-24T05:38:56Z",
+      "sha256": "c87c1d5ba62ea88322e10739a52ddcddb2f1d94ee44e1ef41971114f2ae44ea9",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.6.1",
+        "io.michaelrocks:libphonenumber-android:8.12.52",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T05:38:55Z",
+      "sha256": "f2eaf2d5dcd299d8574911dc452d00f3884783638b2b5a81d802e4d9c2aab426",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.8.0",
+        "io.michaelrocks:libphonenumber-android:8.13.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T05:38:54Z",
+      "sha256": "f2eaf2d5dcd299d8574911dc452d00f3884783638b2b5a81d802e4d9c2aab426",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.8.0",
+        "io.michaelrocks:libphonenumber-android:8.13.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T05:38:53Z",
+      "sha256": "f2eaf2d5dcd299d8574911dc452d00f3884783638b2b5a81d802e4d9c2aab426",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.8.0",
+        "io.michaelrocks:libphonenumber-android:8.13.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.5.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.fredporciuncula.phonemoji.internal.PhoneNumberUtilInitializer"
+      ]
+    }
+  ]
+}

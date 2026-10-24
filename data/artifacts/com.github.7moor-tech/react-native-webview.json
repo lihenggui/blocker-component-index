@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.github.7moor-tech:react-native-webview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "11.15.1-jitsi-19686623": {
+      "fetchedAt": "2026-10-24T05:56:24Z",
+      "sha256": "fe28b357b66d368df8fd7d32f250c748c7c73d1a06fc8bb10e8f57c8b0c76400",
+      "dependencies": [
+        "androidx.webkit:webkit:1.4.0",
+        "com.facebook.react:react-native:0.69",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "11.15.1-jitsi-19686623",
+          "11.15.1-jitsi-19686623"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.github.andrejlukasevic:document-scanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T06:01:58Z",
+      "sha256": "1d1f09c3a9832f32487f02eef7c7ff64dc99505d8ba7a36662115324cf9b5581",
+      "dependencies": [
+        "com.davemorrissey.labs:subsampling-scale-image-view:2.3.0",
+        "org.opencv:opencv-android:2.4.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.scanlibrary.ScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

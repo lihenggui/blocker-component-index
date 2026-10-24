@@ -1,0 +1,96 @@
+{
+  "coordinate": "com.consoliads:vungle-mediation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v6.10.2": {
+      "fetchedAt": "2026-10-24T04:53:14Z",
+      "sha256": "0ace8b8d08a99d8548c4fb794ad29c6f59e529faf0e18c7309ce6c41b0149a0f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.consoliads:consoliadsmediation:v13.2.0"
+      ]
+    },
+    "v6.10.2-1.0": {
+      "fetchedAt": "2026-10-24T04:53:13Z",
+      "sha256": "0ace8b8d08a99d8548c4fb794ad29c6f59e529faf0e18c7309ce6c41b0149a0f",
+      "dependencies": []
+    },
+    "v6.10.2-1.1": {
+      "fetchedAt": "2026-10-24T04:53:12Z",
+      "sha256": "9a319ac635923c8dc095e666b1adbf76d78601f314e94cce842cb50e5f282602",
+      "dependencies": []
+    },
+    "v6.10.2-1.2": {
+      "fetchedAt": "2026-10-24T04:53:12Z",
+      "sha256": "3b5b3d59c2d67f18ec6298a1873c196bf0294f69b20970c7be930d9340477ee6",
+      "dependencies": []
+    },
+    "v6.12.0-1.0": {
+      "fetchedAt": "2026-10-24T04:53:11Z",
+      "sha256": "9a319ac635923c8dc095e666b1adbf76d78601f314e94cce842cb50e5f282602",
+      "dependencies": []
+    },
+    "6.12.0_v13_1.0": {
+      "fetchedAt": "2026-10-24T04:53:10Z",
+      "sha256": "9a319ac635923c8dc095e666b1adbf76d78601f314e94cce842cb50e5f282602",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vungle.warren.NetworkProviderReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "v6.10.2",
+          "v6.10.2-1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.vungle.warren.ui.VungleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v6.10.2",
+          "6.12.0_v13_1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vungle.warren.utility.VungleProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "v6.10.2-1.1",
+          "6.12.0_v13_1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.vungle-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

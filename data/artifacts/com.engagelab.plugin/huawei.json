@@ -1,0 +1,122 @@
+{
+  "coordinate": "com.engagelab.plugin:huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T05:19:17Z",
+      "sha256": "e2428750caa8051a1023abba65a80eb76227d4d00f8dd8b6b6fb6f1cfbd0f098",
+      "dependencies": []
+    },
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T05:19:17Z",
+      "sha256": "8e1180407e3a2f42179d788e2201c1a6a5caa8640fd64787c6e0285f7b0f56f3",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-24T05:19:16Z",
+      "sha256": "8e1180407e3a2f42179d788e2201c1a6a5caa8640fd64787c6e0285f7b0f56f3",
+      "dependencies": []
+    },
+    "4.5.3": {
+      "fetchedAt": "2026-10-24T05:19:16Z",
+      "sha256": "8e1180407e3a2f42179d788e2201c1a6a5caa8640fd64787c6e0285f7b0f56f3",
+      "dependencies": []
+    },
+    "4.5.4": {
+      "fetchedAt": "2026-10-24T05:19:15Z",
+      "sha256": "8e1180407e3a2f42179d788e2201c1a6a5caa8640fd64787c6e0285f7b0f56f3",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:19:14Z",
+      "sha256": "8e1180407e3a2f42179d788e2201c1a6a5caa8640fd64787c6e0285f7b0f56f3",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T05:19:07Z",
+      "sha256": "8e1180407e3a2f42179d788e2201c1a6a5caa8640fd64787c6e0285f7b0f56f3",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:19:14Z",
+      "sha256": "8e1180407e3a2f42179d788e2201c1a6a5caa8640fd64787c6e0285f7b0f56f3",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:19:13Z",
+      "sha256": "ee51cbc5343ef239b777f36111d4f22a9118746956d143f8cae4a983eebbcc6d",
+      "dependencies": []
+    },
+    "5.2.1": {
+      "fetchedAt": "2026-10-24T05:19:13Z",
+      "sha256": "ee51cbc5343ef239b777f36111d4f22a9118746956d143f8cae4a983eebbcc6d",
+      "dependencies": []
+    },
+    "5.2.3": {
+      "fetchedAt": "2026-10-24T05:19:12Z",
+      "sha256": "ee51cbc5343ef239b777f36111d4f22a9118746956d143f8cae4a983eebbcc6d",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T05:19:12Z",
+      "sha256": "ee51cbc5343ef239b777f36111d4f22a9118746956d143f8cae4a983eebbcc6d",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T05:19:11Z",
+      "sha256": "ee51cbc5343ef239b777f36111d4f22a9118746956d143f8cae4a983eebbcc6d",
+      "dependencies": []
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T05:19:11Z",
+      "sha256": "ee51cbc5343ef239b777f36111d4f22a9118746956d143f8cae4a983eebbcc6d",
+      "dependencies": []
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T05:19:10Z",
+      "sha256": "ee51cbc5343ef239b777f36111d4f22a9118746956d143f8cae4a983eebbcc6d",
+      "dependencies": []
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T05:19:10Z",
+      "sha256": "4c2b696a779d32167dd983a47270ccd522af5d9832c62d66957ef6f725f888a3",
+      "dependencies": []
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T05:19:09Z",
+      "sha256": "4c2b696a779d32167dd983a47270ccd522af5d9832c62d66957ef6f725f888a3",
+      "dependencies": []
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T05:19:08Z",
+      "sha256": "4c2b696a779d32167dd983a47270ccd522af5d9832c62d66957ef6f725f888a3",
+      "dependencies": []
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T05:19:08Z",
+      "sha256": "4c2b696a779d32167dd983a47270ccd522af5d9832c62d66957ef6f725f888a3",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.engagelab.privates.push.platform.huawei.callback.MTHuaweiCallback",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

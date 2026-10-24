@@ -1,0 +1,108 @@
+{
+  "coordinate": "com.gimbal.android:airship-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T05:51:19Z",
+      "sha256": "c2aea6cc9cffb4f4081756214e88dbc9e5841cfd4dd23c7266c807a618d51810",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.9.1",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.9.1"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T05:51:18Z",
+      "sha256": "f5242c9302311e3a8e2871ed07db47b72e624de8afa2e544c884ebe791851f44",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.9.1",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.9.1"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T05:51:18Z",
+      "sha256": "003749b6b13be50363c73cbb80d6dea5018d875d6ba6e8094e92b030f211be75",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.9.2",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.9.2"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T05:51:17Z",
+      "sha256": "003749b6b13be50363c73cbb80d6dea5018d875d6ba6e8094e92b030f211be75",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.10.0",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.10.0"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T05:51:16Z",
+      "sha256": "003749b6b13be50363c73cbb80d6dea5018d875d6ba6e8094e92b030f211be75",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.10.0",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.10.0"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-24T05:51:13Z",
+      "sha256": "5c5caa5d777514b1502b748082f56fe7f4e0e50e6ebd1eb26cc4a9ffe7e930d1",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.10.0",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.10.0"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-24T05:51:16Z",
+      "sha256": "5c5caa5d777514b1502b748082f56fe7f4e0e50e6ebd1eb26cc4a9ffe7e930d1",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.10.0",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.10.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:51:15Z",
+      "sha256": "5c5caa5d777514b1502b748082f56fe7f4e0e50e6ebd1eb26cc4a9ffe7e930d1",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.10.0",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.10.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:51:14Z",
+      "sha256": "5c5caa5d777514b1502b748082f56fe7f4e0e50e6ebd1eb26cc4a9ffe7e930d1",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.10.0",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.gimbal.airship.AirshipAdapterInitializer"
+      ]
+    }
+  ]
+}

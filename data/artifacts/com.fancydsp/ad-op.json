@@ -1,0 +1,202 @@
+{
+  "coordinate": "com.fancydsp:ad-op",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.4": {
+      "fetchedAt": "2026-10-24T05:33:11Z",
+      "sha256": "f2bbd3e4bcabc56f92aed38bf55afb33fc80cf627f578b2641c50af23296a9da",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.squareup.wire:wire-runtime:2.2.0",
+        "fancyadsdk:lib_support_widget:unspecified",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.18"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T05:33:10Z",
+      "sha256": "7308d420e7ea8fa31e66985f20a65d6669ef5f661ac9285b6ccef49f3ff17ec6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.squareup.wire:wire-runtime:2.2.0",
+        "fancyadsdk:lib_support_widget:unspecified",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.18"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.instant.upgrade.service.UpgradeDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.mobad.activity.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.mobad.api.MobFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.4.4",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MobFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.nearme.instant.router.ui.UpdateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.instant.router.ui.UpdateFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.router.upgrade.file",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.opos.cmn.biz.webview.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.opos.mobad.activity.VideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.opos.mobad.provider.MobAdGlobalProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.4.4",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MobAdGlobalProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.opos.mobad.service.AdService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.opos.mobad.service.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":mobDownloader",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

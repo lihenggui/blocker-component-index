@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.github.developerpaul123.simplebluetoothlibrary:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T06:08:22Z",
+      "sha256": "e5152d4076b566a16e7c3270bbc9d7292e5f9020a804c2237b1e91720d7fae77",
+      "dependencies": []
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-24T06:08:22Z",
+      "sha256": "4996961b33ed3df88ba877c30fb8d7bb35493ad35dad30bcd4f44627784f7fcd",
+      "dependencies": []
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-24T06:08:21Z",
+      "sha256": "79be314bb0d1850f140f751b5968297f0fe065f3b3d5efdf3ed593cffc05716e",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "1.3": {
+      "fetchedAt": "2026-10-24T06:08:20Z",
+      "sha256": "87c29918fab0ed7ab94f5488b1c94b2ec51dd0f8f75d1439cee02f06794627bc",
+      "dependencies": [
+        "com.afollestad:material-dialogs:0.6.4.6",
+        "com.android.support:appcompat-v7:22.0.0",
+        "com.android.support:support-v4:22.0.0"
+      ]
+    },
+    "1.4": {
+      "fetchedAt": "2026-10-24T06:08:19Z",
+      "sha256": "99fc99750b447896bb4404790993f9f46c0c274a38df60d9198b770b6f2d44d6",
+      "dependencies": [
+        "com.afollestad:material-dialogs:0.7.8.1",
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.devpaul.bluetoothutillib.dialogs.DeviceDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

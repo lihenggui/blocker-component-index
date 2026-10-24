@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.github.axet:android-firebase-fake",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T06:04:09Z",
+      "sha256": "7d596048f73b33c9e7babc7971bd9dbd134163d405fff567e80abfe53632d911",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T06:04:08Z",
+      "sha256": "e33da8fee28970f6c5339ce54f9c3d22ddcfd237dc9b2ccb6fb74690f6e52175",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T06:04:07Z",
+      "sha256": "42a151f6d71c889a3b25993369a950acac0c5e5457b2b1db63beb8602fc3433c",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-24T06:04:07Z",
+      "sha256": "9a69ce0721652b4e2cee21f640dc181eb4a6de4c03329a12f5c4bd9d0a8c2b8d",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T06:04:06Z",
+      "sha256": "dce3859ed2b66ae33338ceb496c0ca3bc10c80b1555631782b63c2fc1331e44c",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-24T06:04:05Z",
+      "sha256": "dcc37846415f81617ce96103a66541ac81794c91c9a8ec4d2a5324f6b1b585c9",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-24T06:04:05Z",
+      "sha256": "27de6e845d74befe94f49976e2c592e61c1bc60071cc9d548995028a68e67089",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.firebase.provider.FirebaseInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.firebaseinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

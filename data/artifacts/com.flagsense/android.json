@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.flagsense:android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:36:54Z",
+      "sha256": "cd19f0f3fd5cdfc4b9211efe8b6c2c66ee3c881579c027b925a73c8e6abfad3c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.5.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.3",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.flagsense.android.listener.FSConnectivityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

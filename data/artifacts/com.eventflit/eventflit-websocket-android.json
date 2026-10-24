@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.eventflit:eventflit-websocket-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T05:24:57Z",
+      "sha256": "b4f1a18635850941bdb1655f77ccc4b6b94b924fa5eee2b5d359412a65d12413",
+      "dependencies": [
+        "com.eventflit:eventflit-java-client:0.1.0",
+        "com.loopj.android:android-async-http:1.4.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.eventflit.android.notifications.fcm.FCMInstanceIDService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

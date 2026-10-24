@@ -1,0 +1,128 @@
+{
+  "coordinate": "androidx.credentials.providerevents:providerevents-play-services",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T16:59:51Z",
+      "sha256": "9a3ae9194b53332dec41efb1c0268fe1133f608cef4d03183cc107ea126449bb",
+      "dependencies": [
+        "androidx.credentials.providerevents:providerevents:1.0.0-alpha01",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha05"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T16:59:49Z",
+      "sha256": "6e95b280f02a92900d86a7045f3b4055e92b404084aaa869524e4094f103e143",
+      "dependencies": [
+        "androidx.credentials.providerevents:providerevents:1.0.0-alpha02",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-23T16:59:46Z",
+      "sha256": "a8d0fa72c6431ef6ef827b8cfdf3e5deb8bcc37d52ef11d5439a5bd29db20a3d",
+      "dependencies": [
+        "androidx.core:core:1.16.0",
+        "androidx.credentials.providerevents:providerevents:1.0.0-alpha03",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08"
+      ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-10-23T16:59:44Z",
+      "sha256": "a8d0fa72c6431ef6ef827b8cfdf3e5deb8bcc37d52ef11d5439a5bd29db20a3d",
+      "dependencies": [
+        "androidx.core:core:1.16.0",
+        "androidx.credentials.providerevents:providerevents:1.0.0-alpha04",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "1.0.0-alpha05": {
+      "fetchedAt": "2026-10-23T16:59:41Z",
+      "sha256": "a8d0fa72c6431ef6ef827b8cfdf3e5deb8bcc37d52ef11d5439a5bd29db20a3d",
+      "dependencies": [
+        "androidx.core:core:1.16.0",
+        "androidx.credentials.providerevents:providerevents:1.0.0-alpha05",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "1.0.0-alpha06": {
+      "fetchedAt": "2026-10-23T16:59:39Z",
+      "sha256": "a8d0fa72c6431ef6ef827b8cfdf3e5deb8bcc37d52ef11d5439a5bd29db20a3d",
+      "dependencies": [
+        "androidx.core:core:1.16.0",
+        "androidx.credentials.providerevents:providerevents:1.0.0-alpha06",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha11",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-23T16:59:36Z",
+      "sha256": "3336a37f2b2b39960d752dca46ae2eec91ee7800de59efbbbfbe6d8fb7e7f313",
+      "dependencies": [
+        "androidx.core:core:1.16.0",
+        "androidx.credentials.providerevents:providerevents:1.0.0-beta01",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha12",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.credentials.providerevents.playservices.HiddenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "androidx.credentials.providerevents.playservices.ImportExportFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.importexport.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "androidx.credentials.providerevents.playservices.ProviderEventsMetadataHolder",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "androidx.credentials.providerevents.PROVIDER_EVENTS_API_PROVIDER_KEY"
+      ]
+    }
+  ]
+}

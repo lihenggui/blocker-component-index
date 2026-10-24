@@ -1,0 +1,90 @@
+{
+  "coordinate": "com.dastanapps.dastanlib:common",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T05:00:15Z",
+      "sha256": "d71186acae624926f19173a12f3e62612cde311ebf48c643a79830d10b2a6d5c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.android.gms:play-services-analytics:17.0.0",
+        "com.google.android.gms:play-services-auth:17.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.firebase:firebase-auth:19.2.0",
+        "com.google.firebase:firebase-config:19.0.4",
+        "com.google.firebase:firebase-core:17.2.1",
+        "com.google.firebase:firebase-database:19.2.0",
+        "com.google.firebase:firebase-invites:17.0.0",
+        "com.google.firebase:firebase-messaging:20.1.0",
+        "com.mcxiaoke.volley:library:1.0.19",
+        "com.squareup.okhttp3:okhttp:4.7.2",
+        "com.squareup.okhttp:okhttp-urlconnection:2.7.5",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.slf4j:slf4j-android:1.7.7"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:00:14Z",
+      "sha256": "d71186acae624926f19173a12f3e62612cde311ebf48c643a79830d10b2a6d5c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.multidex:multidex:2.0.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "com.mcxiaoke.volley:library:1.0.19",
+        "com.squareup.okhttp3:okhttp:4.7.2",
+        "com.squareup.okhttp:okhttp-urlconnection:2.7.5",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.slf4j:slf4j-android:1.7.7"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T05:00:13Z",
+      "sha256": "d71186acae624926f19173a12f3e62612cde311ebf48c643a79830d10b2a6d5c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.multidex:multidex:2.0.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "com.mcxiaoke.volley:library:1.0.19",
+        "com.squareup.okhttp3:okhttp:4.7.2",
+        "com.squareup.okhttp:okhttp-urlconnection:2.7.5",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.slf4j:slf4j-android:1.7.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dastanapps.dastanlib.push.MyFCMListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

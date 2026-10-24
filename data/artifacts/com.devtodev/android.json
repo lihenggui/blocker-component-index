@@ -1,0 +1,56 @@
+{
+  "coordinate": "com.devtodev:android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.14.10": {
+      "fetchedAt": "2026-10-24T05:05:17Z",
+      "sha256": "18aec9b7e6544e944e57104059859a383a746758282442345e1a50dc9db6b903",
+      "dependencies": []
+    },
+    "1.15.0": {
+      "fetchedAt": "2026-10-24T05:05:16Z",
+      "sha256": "4ce2c41a01f7d19492ebed4eccbca56d900759a4066f8f983591f7fb954e593a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.devtodev.push.logic.DTDFcmMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.14.10",
+          "1.15.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devtodev.push.logic.PushClickReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.14.10",
+          "1.15.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.devtodev.android.push.CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

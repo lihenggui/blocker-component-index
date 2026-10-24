@@ -1,0 +1,179 @@
+{
+  "coordinate": "com.devtodev:android-messaging",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T05:05:43Z",
+      "sha256": "9f1c9be655ea15f2812474e391cd9d4a4fd3862f4ec78d04c6d8bd170d1a59f0",
+      "dependencies": []
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-24T05:05:42Z",
+      "sha256": "9f1c9be655ea15f2812474e391cd9d4a4fd3862f4ec78d04c6d8bd170d1a59f0",
+      "dependencies": []
+    },
+    "2.1.3": {
+      "fetchedAt": "2026-10-24T05:05:41Z",
+      "sha256": "b7419d888b57b11a007cc817a0ed8a3dacce5bc94880264fb6f3fc762a20a6ad",
+      "dependencies": []
+    },
+    "2.1.4": {
+      "fetchedAt": "2026-10-24T05:05:41Z",
+      "sha256": "3098346dbefed62a9cbae1db3f7b9b59fe66f74dc654c42d5b3ec8bc2dfd4800",
+      "dependencies": []
+    },
+    "2.1.5": {
+      "fetchedAt": "2026-10-24T05:05:40Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T05:05:39Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-24T05:05:39Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.2.2": {
+      "fetchedAt": "2026-10-24T05:05:38Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-24T05:05:37Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-24T05:05:37Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-24T05:05:36Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-24T05:05:35Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-24T05:05:35Z",
+      "sha256": "d8673bdc6ba0ece9878598e75951b494a044b6d06783e75772921ac69a6a3446",
+      "dependencies": []
+    },
+    "2.3.5": {
+      "fetchedAt": "2026-10-24T05:05:34Z",
+      "sha256": "38da9dbdfdadbb29da0d5dec73b27256b6ca2c80d49cc9d3135e2a656a6c9fe5",
+      "dependencies": []
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-24T05:05:34Z",
+      "sha256": "38da9dbdfdadbb29da0d5dec73b27256b6ca2c80d49cc9d3135e2a656a6c9fe5",
+      "dependencies": []
+    },
+    "2.5.0": {
+      "fetchedAt": "2026-10-24T05:05:31Z",
+      "sha256": "937401d5a236c998d1542ad4369bf3476900031071985f7edb1adc7ff181986b",
+      "dependencies": []
+    },
+    "2.5.1": {
+      "fetchedAt": "2026-10-24T05:05:33Z",
+      "sha256": "ed2c5f70c784812f7328d3d7f36014e870f8221b85ee15fbe6fb5b6704061767",
+      "dependencies": []
+    },
+    "2.6.0": {
+      "fetchedAt": "2026-10-24T05:05:33Z",
+      "sha256": "ed2c5f70c784812f7328d3d7f36014e870f8221b85ee15fbe6fb5b6704061767",
+      "dependencies": []
+    },
+    "2.6.1": {
+      "fetchedAt": "2026-10-24T05:05:32Z",
+      "sha256": "ed2c5f70c784812f7328d3d7f36014e870f8221b85ee15fbe6fb5b6704061767",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.devtodev.push.PushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.3",
+          "2.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.devtodev.android.push.CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devtodev.push.internal.PushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.5",
+          "2.6.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.devtodev.android.push.CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devtodev.push.internal.logic.DTDFcmMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.6.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devtodev.push.internal.logic.PushClickReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.6.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.devtodev.android.push.CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

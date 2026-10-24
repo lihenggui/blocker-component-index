@@ -1,0 +1,71 @@
+{
+  "coordinate": "com.github.grigorevp:native-defaults-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T06:12:18Z",
+      "sha256": "5e6d54ec919a2ca0036c3a8324c26d4a1cb957eaad252024f2bc92cc0025eb3d",
+      "dependencies": [
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T06:12:17Z",
+      "sha256": "5e6d54ec919a2ca0036c3a8324c26d4a1cb957eaad252024f2bc92cc0025eb3d",
+      "dependencies": [
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T06:12:17Z",
+      "sha256": "5e6d54ec919a2ca0036c3a8324c26d4a1cb957eaad252024f2bc92cc0025eb3d",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T06:12:16Z",
+      "sha256": "547439812bc3e1eda5fda4a6fe3d1a0c195e4874e5487ce9d5b7eba569baab39",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T06:12:15Z",
+      "sha256": "547439812bc3e1eda5fda4a6fe3d1a0c195e4874e5487ce9d5b7eba569baab39",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.github.grigorevp.library.NativeDefaultsInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "coordinate": "cloud.shoplive:shoplive-exoplayer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.19.1.12": {
+      "fetchedAt": "2026-10-23T18:49:56Z",
+      "sha256": "46815147f59e1df40160952af7327b2b579686f2986a4532cb25ff04c4f96e5a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "com.google.android.exoplayer:exoplayer-core:2.19.1",
+        "com.google.android.exoplayer:exoplayer-hls:2.19.1",
+        "com.google.android.exoplayer:exoplayer-ui:2.19.1",
+        "com.google.android.exoplayer:extension-okhttp:2.19.1",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "2.19.1.18": {
+      "fetchedAt": "2026-10-23T18:49:59Z",
+      "sha256": "9b72872a0cf2839e397a0e195d0a2ed96ea45716b8212220f17c99a40c6f2965",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "com.google.android.exoplayer:exoplayer-core:2.19.1",
+        "com.google.android.exoplayer:exoplayer-hls:2.19.1",
+        "com.google.android.exoplayer:exoplayer-ui:2.19.1",
+        "com.google.android.exoplayer:extension-okhttp:2.19.1",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cloud.shoplive.sdk.exoplayer.provider.ShopLiveStethoModuleProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.19.1.12",
+          "2.19.1.18"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.cloud.shoplive.sdk.exoplayer.provider.ShopLiveStethoModuleProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

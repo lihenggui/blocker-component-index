@@ -1,0 +1,92 @@
+{
+  "coordinate": "com.gitee.jacksonliao:ImageSelect",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T05:51:48Z",
+      "sha256": "677ca72dbf131af4a0f14261615c7dfa0c0f5822472b677a21ae65fb495fefec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.exifinterface:exifinterface:1.2.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0",
+        "com.github.chrisbanes:PhotoView:2.2.0",
+        "me.relex:circleindicator:1.1.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sl.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.jhworks.library.core.ui.ImageDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jhworks.library.core.ui.ImagePageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jhworks.library.core.ui.ImageSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.github.fhbianling:source-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T06:10:38Z",
+      "sha256": "1a06270634174213fa0dfa3e3fa04ddea464ed270cd83794927f7efada8c1430",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bian.source.core.view.DirSourceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bian.source.core.view.FileSourceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

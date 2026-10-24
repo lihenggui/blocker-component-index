@@ -1,0 +1,98 @@
+{
+  "coordinate": "com.github.dozzatq:share",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9alpha": {
+      "fetchedAt": "2026-10-24T06:09:16Z",
+      "sha256": "eec77da8ecfdc9ffe061c00c16038dab2669ab16bd475d633c6e80e56994ff87",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:design:23.4.0"
+      ]
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-24T06:09:16Z",
+      "sha256": "15fe6c1557db1d34a089a5db32626075ffac15799c7d527760a53fb908117eeb",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:design:24.2.1"
+      ]
+    },
+    "0.9.2": {
+      "fetchedAt": "2026-10-24T06:09:15Z",
+      "sha256": "4da5cf2cf213b1c4a15e3b6cf6debcfed145689346d3a8500082664175024f59",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:design:24.2.1"
+      ]
+    },
+    "0.9.3": {
+      "fetchedAt": "2026-10-24T06:09:14Z",
+      "sha256": "85f19cf0b42dbe326c981b4af04e52403374f9471bc88ce2589abcd1a6211ab0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:design:24.2.1"
+      ]
+    },
+    "0.9.4": {
+      "fetchedAt": "2026-10-24T06:09:14Z",
+      "sha256": "0790e65d24da023ca255e464259fa6ee3bf1e3dcfaa0dc81cdab2287ba9e3bad",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:design:24.2.1"
+      ]
+    },
+    "0.9.5": {
+      "fetchedAt": "2026-10-24T06:09:13Z",
+      "sha256": "42fc9c6a89c9abb0f71d16ae785ebc67bc0cbd249fd31b23d52334181f54bd59",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:design:24.2.1"
+      ]
+    },
+    "0.9.6": {
+      "fetchedAt": "2026-10-24T06:09:12Z",
+      "sha256": "3427a12d689ed91ead46fdd41a3e6d87ac0ff764a374ec2c9b5faf0a35141012",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:design:24.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.dozzatq.blaze.BlazeDownloader.BlazeDownloaderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.1",
+          "0.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.dozzatq.blaze.share.BlazeShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9alpha",
+          "0.9.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

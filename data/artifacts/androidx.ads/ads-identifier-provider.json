@@ -1,0 +1,71 @@
+{
+  "coordinate": "androidx.ads:ads-identifier-provider",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T16:34:56Z",
+      "sha256": "38fdee12a2e06c8e8b06252d6cb6b4247045242e28fbfb6a6cb4b8e89b53663c",
+      "dependencies": [
+        "androidx.ads:ads-identifier-common:1.0.0-alpha01",
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core:1.1.0-rc01",
+        "com.google.auto.value:auto-value-annotations:1.6.3"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T16:34:54Z",
+      "sha256": "38fdee12a2e06c8e8b06252d6cb6b4247045242e28fbfb6a6cb4b8e89b53663c",
+      "dependencies": [
+        "androidx.ads:ads-identifier-common:1.0.0-alpha02",
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core:1.1.0",
+        "com.google.auto.value:auto-value-annotations:1.6.3"
+      ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-10-23T16:34:52Z",
+      "sha256": "38fdee12a2e06c8e8b06252d6cb6b4247045242e28fbfb6a6cb4b8e89b53663c",
+      "dependencies": [
+        "androidx.ads:ads-identifier-common:1.0.0-alpha04",
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core:1.1.0",
+        "com.google.auto.value:auto-value-annotations:1.6.3"
+      ]
+    },
+    "1.0.0-alpha05": {
+      "fetchedAt": "2026-10-23T16:34:50Z",
+      "sha256": "65ae79e8ae85443f67bdc2af00aff9b5232a3609a8de91c40ff1a206b1cd2f95",
+      "dependencies": [
+        "androidx.ads:ads-identifier-common:1.0.0-alpha05",
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core:1.1.0",
+        "com.google.auto.value:auto-value-annotations:1.6.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.ads.identifier.provider.internal.AdvertisingIdService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha05"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "androidx.ads.identifier.provider.GET_AD_ID"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "instantapps.clients.allowed"
+      ]
+    }
+  ]
+}

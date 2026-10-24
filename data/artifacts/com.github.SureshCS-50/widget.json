@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.SureshCS-50:widget",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-24T05:59:25Z",
+      "sha256": "cb10c962b319651e89145abe2a9b680cde0c1c3544004db87a3b5871a3e9e23c",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.happyfox.widget.HFCWidgetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.happyfox.widget.ShowHelp"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

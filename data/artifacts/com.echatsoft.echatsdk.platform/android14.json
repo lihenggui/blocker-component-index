@@ -1,0 +1,30 @@
+{
+  "coordinate": "com.echatsoft.echatsdk.platform:android14",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.0": {
+      "fetchedAt": "2026-10-24T05:14:24Z",
+      "sha256": "0dae269c1e30f60518f37fd37c856da386344b0824f9693dd745a235ea4d1d7a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.echatsoft.echatsdk.service.EChatFasionCoreService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.0",
+          "1.0.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":chat",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

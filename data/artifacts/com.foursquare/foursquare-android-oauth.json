@@ -1,0 +1,78 @@
+{
+  "coordinate": "com.foursquare:foursquare-android-oauth",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:38:28Z",
+      "sha256": "89a26fc2d7921e18052887a786373810fefbd993f7804732f7ae29135499eaeb",
+      "dependencies": [
+        "com.google.android:android:4.1.1.4"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T05:38:28Z",
+      "sha256": "89a26fc2d7921e18052887a786373810fefbd993f7804732f7ae29135499eaeb",
+      "dependencies": [
+        "com.google.android:android:4.1.1.4"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T05:38:27Z",
+      "sha256": "aa13f00e50bdadac6ca197381da6f810ba94ca389b2ed509bb720778e174a7da",
+      "dependencies": [
+        "com.google.android:android:4.1.1.4"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T05:38:27Z",
+      "sha256": "6892bd7a123a58e6960439a9b92ca54d33956330d2ba4cd08ba2ef0a024cba42",
+      "dependencies": [
+        "com.google.android:android:4.1.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.31"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T05:38:26Z",
+      "sha256": "6892bd7a123a58e6960439a9b92ca54d33956330d2ba4cd08ba2ef0a024cba42",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.foursquare.android.nativeoauth.FoursquareOAuthWebviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.foursquare.android.nativeoauth.TokenExchangeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

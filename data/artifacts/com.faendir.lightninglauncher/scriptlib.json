@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.faendir.lightninglauncher:scriptlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2": {
+      "fetchedAt": "2026-10-24T05:32:02Z",
+      "sha256": "38fd21e781bf020732f64a80b0bb2be037016de274de359c59852c6842c8160b",
+      "dependencies": [
+        "com.android.support:support-annotations:24.0.0",
+        "org.apache.commons:commons-lang3:3.4"
+      ]
+    },
+    "3.0": {
+      "fetchedAt": "2026-10-24T05:32:01Z",
+      "sha256": "18d2f8c4fb0dc2451927b2a0600292f5e36664db656e0b786ba032faa2985711",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0-beta01",
+        "org.apache.commons:commons-text:1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.faendir.lightning_launcher.scriptlib.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2",
+          "3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.faendir.lightning_launcher.scriptlib.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2",
+          "3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

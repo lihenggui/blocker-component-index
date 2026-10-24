@@ -1,0 +1,99 @@
+{
+  "coordinate": "chat.sdk:firebase-push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.5.9": {
+      "fetchedAt": "2026-10-23T18:35:28Z",
+      "sha256": "51df692a846bd0c7304eca2094147dd909f538068982cc363e80a077f5e1954f",
+      "dependencies": [
+        "chat.sdk:core:5.5.9",
+        "chat.sdk:firebase-adapter:5.5.9",
+        "chat.sdk:ui:5.5.9",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "5.6.1": {
+      "fetchedAt": "2026-10-23T18:35:25Z",
+      "sha256": "51df692a846bd0c7304eca2094147dd909f538068982cc363e80a077f5e1954f",
+      "dependencies": [
+        "chat.sdk:core:5.6.1",
+        "chat.sdk:firebase-adapter:5.6.1",
+        "chat.sdk:ui:5.6.1",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "5.6.5": {
+      "fetchedAt": "2026-10-23T18:35:23Z",
+      "sha256": "51df692a846bd0c7304eca2094147dd909f538068982cc363e80a077f5e1954f",
+      "dependencies": [
+        "chat.sdk:core:5.6.5",
+        "chat.sdk:firebase-adapter:5.6.5",
+        "chat.sdk:ui:5.6.5",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "5.6.6": {
+      "fetchedAt": "2026-10-23T18:35:20Z",
+      "sha256": "51df692a846bd0c7304eca2094147dd909f538068982cc363e80a077f5e1954f",
+      "dependencies": [
+        "chat.sdk:core:5.6.6",
+        "chat.sdk:firebase-adapter:5.6.6",
+        "chat.sdk:ui:5.6.6",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "5.6.7": {
+      "fetchedAt": "2026-10-23T18:35:12Z",
+      "sha256": "51df692a846bd0c7304eca2094147dd909f538068982cc363e80a077f5e1954f",
+      "dependencies": [
+        "chat.sdk:core:5.6.7",
+        "chat.sdk:firebase-adapter:5.6.7",
+        "chat.sdk:ui:5.6.7",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "5.6.10": {
+      "fetchedAt": "2026-10-23T18:35:17Z",
+      "sha256": "b7723f04f296ddf05a2c23b56775a7051f11db39cc60b8b6f044711344bad58b",
+      "dependencies": [
+        "chat.sdk:core:5.6.10",
+        "chat.sdk:firebase-adapter:5.6.10",
+        "chat.sdk:ui:5.6.10",
+        "com.google.firebase:firebase-bom:30.1.0",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "5.6.11": {
+      "fetchedAt": "2026-10-23T18:35:15Z",
+      "sha256": "b7723f04f296ddf05a2c23b56775a7051f11db39cc60b8b6f044711344bad58b",
+      "dependencies": [
+        "chat.sdk:core:5.6.11",
+        "chat.sdk:firebase-adapter:5.6.11",
+        "chat.sdk:ui:5.6.11",
+        "com.google.firebase:firebase-bom:30.1.0",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "sdk.chat.firebase.push.DefaultMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.9",
+          "5.6.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

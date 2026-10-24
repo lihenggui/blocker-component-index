@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.fleker:hourglass-wear",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T06:10:55Z",
+      "sha256": "88e4bb73ef0874d100a32a7e9aeb106bdf903cd1b7731db4d4f8681a4174e99e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.github.fleker:settingsmanager-wearable:1.2.1",
+        "com.google.android.gms:play-services-wearable:8.1.0",
+        "com.google.android.support:wearable:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.felkertech.hourglass_library_wear.MessageListener",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.wearable.BIND_LISTENER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

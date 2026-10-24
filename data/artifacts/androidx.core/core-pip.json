@@ -1,0 +1,59 @@
+{
+  "coordinate": "androidx.core:core-pip",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T16:58:09Z",
+      "sha256": "16293b51791cc641111bd2e5412485558223f734132f41cbe62f2b9939a400c7",
+      "dependencies": [
+        "androidx.core:core:1.18.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T16:58:06Z",
+      "sha256": "16293b51791cc641111bd2e5412485558223f734132f41cbe62f2b9939a400c7",
+      "dependencies": [
+        "androidx.core:core:1.18.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-23T16:58:04Z",
+      "sha256": "16293b51791cc641111bd2e5412485558223f734132f41cbe62f2b9939a400c7",
+      "dependencies": [
+        "androidx.core:core:1.18.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-10-23T16:58:01Z",
+      "sha256": "0256869338e60ecfab841077279c85da3bd9127c1aa4a98add57feb293821665",
+      "dependencies": [
+        "androidx.activity:activity:1.13.0",
+        "androidx.core:core:1.18.0",
+        "androidx.lifecycle:lifecycle-common:2.8.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.pip.contentpip.ContentPipInternalActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha04",
+          "1.0.0-alpha04"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

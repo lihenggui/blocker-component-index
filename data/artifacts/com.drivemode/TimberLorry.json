@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.drivemode:TimberLorry",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:12:23Z",
+      "sha256": "5bb7a6ba796408f244bbf0d69d1a1fa64d34c675dbd86cc3e0a61772d68f648f",
+      "dependencies": [
+        "com.android.support:support-annotations:20.0.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:12:22Z",
+      "sha256": "5bb7a6ba796408f244bbf0d69d1a1fa64d34c675dbd86cc3e0a61772d68f648f",
+      "dependencies": [
+        "com.android.support:support-annotations:20.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.drivemode.timberlorry.buffer.BufferProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.drivemode.timberlorry.buffer.BufferProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.drivemode.timberlorry.collector.CollectorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": ":sync",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.content.SyncAdapter"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.content.SyncAdapter"
+      ]
+    },
+    {
+      "name": "com.drivemode.timberlorry.internal.authenticator.StubAuthenticatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.accounts.AccountAuthenticator"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.accounts.AccountAuthenticator"
+      ]
+    }
+  ]
+}

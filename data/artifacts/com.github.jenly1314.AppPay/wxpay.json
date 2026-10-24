@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.github.jenly1314.AppPay:wxpay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T06:16:29Z",
+      "sha256": "507a7199bc34f55f3d3fb695810176968c35255d738955f5584d848eaf956461",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.24",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T06:16:27Z",
+      "sha256": "a32cb0392663cb6235d3b4d667339976082edc8c3cac63a30d96cd7f717068ad",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.24",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.king.pay.wxpay.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

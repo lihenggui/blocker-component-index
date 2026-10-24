@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.fancydsp:ad-jd",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.2-r": {
+      "fetchedAt": "2026-10-24T05:32:53Z",
+      "sha256": "0faf2f388aba00969dcdc5122a4e6196cd9de8e3377d04c69a613d818f7ac394",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.2-r",
+          "2.0.2-r"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jd.ad.sdk.dl.cache.multiprocess.JADMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.2-r",
+          "2.0.2-r"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.JADMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

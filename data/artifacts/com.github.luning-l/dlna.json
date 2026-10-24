@@ -1,0 +1,120 @@
+{
+  "coordinate": "com.github.luning-l:dlna",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T06:21:37Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.luning-l:xlog:0.0.8",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T06:21:36Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.luning-l:xlog:0.0.8",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T06:21:35Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.luning-l:UtilsX:0.0.24",
+        "com.github.luning-l:xlog:0.0.8",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-24T06:21:35Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.luning-l:UtilsX:0.0.24",
+        "com.github.luning-l:xlog:0.0.8",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T06:21:34Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.luning-l:UtilsX:0.0.25",
+        "com.github.luning-l:xlog:0.0.9",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-24T06:21:31Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.luning-l:UtilsX:0.0.25",
+        "com.github.luning-l:xlog:0.0.9",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-24T06:21:30Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": []
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-24T06:21:30Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": []
+    },
+    "0.0.9": {
+      "fetchedAt": "2026-10-24T06:21:29Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": []
+    },
+    "0.0.10": {
+      "fetchedAt": "2026-10-24T06:21:28Z",
+      "sha256": "208e91869b908cdb7bf72eeff116779b2f335737dd73f09980b093d85604ddc3",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.eryanet.dlna.dmr.RenderPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.fourthline.cling.android.AndroidUpnpServiceImpl",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "coordinate": "com.github.euzee:serviceManager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T06:10:16Z",
+      "sha256": "eb90678502bc914bc6a82fe15920274329c9a14082874ccdca964880b76791c0",
+      "dependencies": [
+        "com.android.support:support-v4:26.1.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T06:10:15Z",
+      "sha256": "0fa4bc88f0662abdd8482cb6d66361deb0366ba647bac97ff1f7292cdc96eb65",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "sm.euzee.github.com.servicemanager.LocalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "sm.euzee.github.com.servicemanager.LongTermService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

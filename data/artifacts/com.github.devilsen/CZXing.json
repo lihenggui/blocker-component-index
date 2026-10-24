@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.github.devilsen:CZXing",
+  "repository": "https://jitpack.io",
+  "versions": {
+    "0.8.1": {
+      "fetchedAt": "2026-10-24T06:08:29Z",
+      "sha256": "900910323b5cbd4e7f33a5392fd885b5953474a54c6647d457a92261ecf53d27",
+      "dependencies": []
+    },
+    "1.2.1-alpha1": {
+      "fetchedAt": "2026-10-24T06:08:27Z",
+      "sha256": "a4e7408529875180e49e85e82cc97077126d9f39f99ced9fec0d949e905c9683",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appcompat:appcompat:1.7.0"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-24T06:08:24Z",
+      "sha256": "a4e7408529875180e49e85e82cc97077126d9f39f99ced9fec0d949e905c9683",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appcompat:appcompat:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.devilsen.czxing.ResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.devilsen.czxing.ScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

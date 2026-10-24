@@ -1,0 +1,70 @@
+{
+  "coordinate": "com.gitee.hljdrl:cordova-appx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.1.0003": {
+      "fetchedAt": "2026-10-24T05:51:26Z",
+      "sha256": "2b7f8f706febe574799721c12f388e58eb0c659225d521464ce9b29d0ca1f29f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.databinding:databinding-adapters:4.2.1",
+        "androidx.databinding:databinding-common:4.2.1",
+        "androidx.databinding:databinding-runtime:4.2.1",
+        "androidx.databinding:viewbinding:4.2.1",
+        "com.gitee.hljdrl:cordova-framework:9.1.0003",
+        "com.gitee.hljdrl:cordova-plugins:9.1.0003",
+        "com.google.android.material:material:1.2.1"
+      ]
+    },
+    "9.1.0004": {
+      "fetchedAt": "2026-10-24T05:51:25Z",
+      "sha256": "2b7f8f706febe574799721c12f388e58eb0c659225d521464ce9b29d0ca1f29f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.databinding:databinding-adapters:4.2.2",
+        "androidx.databinding:databinding-common:4.2.2",
+        "androidx.databinding:databinding-runtime:4.2.2",
+        "androidx.databinding:viewbinding:4.2.2",
+        "com.gitee.hljdrl:cordova-framework:9.1.0004",
+        "com.gitee.hljdrl:cordova-plugins:9.1.0004",
+        "com.google.android.material:material:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ffsky.cordova.app.AppCompatWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0003",
+          "9.1.0004"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ffsky.cordova.app.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0003",
+          "9.1.0004"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

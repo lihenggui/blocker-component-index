@@ -1,0 +1,185 @@
+{
+  "coordinate": "com.engagelab.plugin:meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T05:19:30Z",
+      "sha256": "5ff6dd317ac51f64c2b9e3ddccec4dfe4c43abe3e2f102e20dc60ad64bc37f05",
+      "dependencies": []
+    },
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T05:19:29Z",
+      "sha256": "54383775a440c4d254f5fe305899d73721ab9b73cf43d48ab6d6bf278984644f",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-24T05:19:28Z",
+      "sha256": "54383775a440c4d254f5fe305899d73721ab9b73cf43d48ab6d6bf278984644f",
+      "dependencies": []
+    },
+    "4.5.3": {
+      "fetchedAt": "2026-10-24T05:19:28Z",
+      "sha256": "54383775a440c4d254f5fe305899d73721ab9b73cf43d48ab6d6bf278984644f",
+      "dependencies": []
+    },
+    "4.5.4": {
+      "fetchedAt": "2026-10-24T05:19:27Z",
+      "sha256": "54383775a440c4d254f5fe305899d73721ab9b73cf43d48ab6d6bf278984644f",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:19:26Z",
+      "sha256": "54383775a440c4d254f5fe305899d73721ab9b73cf43d48ab6d6bf278984644f",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T05:19:18Z",
+      "sha256": "54383775a440c4d254f5fe305899d73721ab9b73cf43d48ab6d6bf278984644f",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:19:26Z",
+      "sha256": "54383775a440c4d254f5fe305899d73721ab9b73cf43d48ab6d6bf278984644f",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:19:25Z",
+      "sha256": "16980c1ab0f0cb3cd6cf67230da08ef7c848449523b6c6ed5d5a1a3463d2a317",
+      "dependencies": []
+    },
+    "5.2.1": {
+      "fetchedAt": "2026-10-24T05:19:24Z",
+      "sha256": "16980c1ab0f0cb3cd6cf67230da08ef7c848449523b6c6ed5d5a1a3463d2a317",
+      "dependencies": []
+    },
+    "5.2.3": {
+      "fetchedAt": "2026-10-24T05:19:24Z",
+      "sha256": "16980c1ab0f0cb3cd6cf67230da08ef7c848449523b6c6ed5d5a1a3463d2a317",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T05:19:23Z",
+      "sha256": "16980c1ab0f0cb3cd6cf67230da08ef7c848449523b6c6ed5d5a1a3463d2a317",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T05:19:23Z",
+      "sha256": "16980c1ab0f0cb3cd6cf67230da08ef7c848449523b6c6ed5d5a1a3463d2a317",
+      "dependencies": []
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T05:19:22Z",
+      "sha256": "16980c1ab0f0cb3cd6cf67230da08ef7c848449523b6c6ed5d5a1a3463d2a317",
+      "dependencies": []
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T05:19:21Z",
+      "sha256": "16980c1ab0f0cb3cd6cf67230da08ef7c848449523b6c6ed5d5a1a3463d2a317",
+      "dependencies": []
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T05:19:21Z",
+      "sha256": "09d2410ce0859a43c8d2f8f8f637deb6a974be652883cfba31a9c260eed044be",
+      "dependencies": []
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T05:19:20Z",
+      "sha256": "09d2410ce0859a43c8d2f8f8f637deb6a974be652883cfba31a9c260eed044be",
+      "dependencies": []
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T05:19:20Z",
+      "sha256": "09d2410ce0859a43c8d2f8f8f637deb6a974be652883cfba31a9c260eed044be",
+      "dependencies": []
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T05:19:19Z",
+      "sha256": "09d2410ce0859a43c8d2f8f8f637deb6a974be652883cfba31a9c260eed044be",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.engagelab.privates.push.platform.meizu.callback.MTMeizuCallback",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.2.0",
+          "5.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.meizu.cloud.push.permission.MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.engagelab.privates.push.platform.meizu.callback.MTMeizuCallback",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.meizu.flyme.permission.PUSH",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

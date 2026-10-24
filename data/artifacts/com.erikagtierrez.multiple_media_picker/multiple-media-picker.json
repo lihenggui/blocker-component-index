@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.erikagtierrez.multiple_media_picker:multiple-media-picker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:23:35Z",
+      "sha256": "49117597fe2967169379608d4e35bdf4dfc95efc9c0319bf4e97bb584000ebe2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0",
+        "com.android.support:design:24.1.1",
+        "com.android.support:support-v4:24.1.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:23:35Z",
+      "sha256": "49117597fe2967169379608d4e35bdf4dfc95efc9c0319bf4e97bb584000ebe2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0",
+        "com.android.support:design:24.1.1",
+        "com.android.support:support-v4:24.1.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.erikagtierrez.multiple_media_picker.Gallery",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.erikagtierrez.multiple_media_picker.OpenGallery",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

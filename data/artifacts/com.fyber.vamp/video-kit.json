@@ -1,0 +1,42 @@
+{
+  "coordinate": "com.fyber.vamp:video-kit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.8.2": {
+      "fetchedAt": "2026-10-24T05:40:38Z",
+      "sha256": "2ac8622dab9b07ba0e9441318f3f3c057ccfc28efe877383bc401a29201506df",
+      "dependencies": []
+    },
+    "7.8.3": {
+      "fetchedAt": "2026-10-24T05:40:37Z",
+      "sha256": "2ac8622dab9b07ba0e9441318f3f3c057ccfc28efe877383bc401a29201506df",
+      "dependencies": []
+    },
+    "7.8.4": {
+      "fetchedAt": "2026-10-24T05:40:37Z",
+      "sha256": "2ac8622dab9b07ba0e9441318f3f3c057ccfc28efe877383bc401a29201506df",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.fyber.inneractive.sdk.video.IAVideoKit",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.8.2",
+          "7.8.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fyber.inneractive.sdk.intent.action.REGISTER_KIT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

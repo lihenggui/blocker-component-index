@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.deeplyinc.listen.cloud.sdk:listen",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.7.0": {
+      "fetchedAt": "2026-10-24T05:03:56Z",
+      "sha256": "0c5177d160c72dbd8225b304f034e51945f7f205960f7a9ce6bdbedb458ecd1f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.preference:preference-ktx:1.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.grpc:grpc-okhttp:1.53.0",
+        "io.grpc:grpc-protobuf-lite:1.53.0",
+        "io.grpc:grpc-stub:1.53.0",
+        "org.apache.tomcat:annotations-api:6.0.53",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20-RC",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "0.7.1": {
+      "fetchedAt": "2026-10-24T05:03:55Z",
+      "sha256": "0c5177d160c72dbd8225b304f034e51945f7f205960f7a9ce6bdbedb458ecd1f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.preference:preference-ktx:1.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.grpc:grpc-okhttp:1.53.0",
+        "io.grpc:grpc-protobuf-lite:1.53.0",
+        "io.grpc:grpc-stub:1.53.0",
+        "org.apache.tomcat:annotations-api:6.0.53",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20-RC",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.deeplyinc.listen.cloud.sdk.ListenInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ListenInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.github.android-tools:devpanel",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.2-alpha": {
+      "fetchedAt": "2026-10-24T06:02:15Z",
+      "sha256": "f8123f7a71db255d939cbd28da3136564205f8c98d2ec5fe231f4a22590e46c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "net.cachapa.expandablelayout:expandablelayout:2.9.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.40"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.busylee.devpanel.ui.DevPanelActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.2-alpha",
+          "0.1.2-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

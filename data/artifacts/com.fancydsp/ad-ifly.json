@@ -1,0 +1,68 @@
+{
+  "coordinate": "com.fancydsp:ad-ifly",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.4": {
+      "fetchedAt": "2026-10-24T05:32:52Z",
+      "sha256": "35b71b115933367a6dcc5bcb6139e4e6ee53cb818f694193c6fcb7e1d551de81",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.iflytek.voiceads.download.IFlyFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.4.4",
+          "1.4.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.iFlyFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.iflytek.voiceads.request.IFLYBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.4",
+          "1.4.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ptg.ifly.activity.IFlyRewardAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.4",
+          "1.4.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

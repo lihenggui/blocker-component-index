@@ -1,0 +1,122 @@
+{
+  "coordinate": "com.engagelab.plugin:honor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T05:19:06Z",
+      "sha256": "e06e1efe78d9c06548f166d058f52a31dbf85ac81f0ec20d3c89830e8ee9ac9e",
+      "dependencies": []
+    },
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T05:19:05Z",
+      "sha256": "b64761aca0cbd08d5173a817ac78dae46eff5c2004028411b0d624a2f7db215f",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-24T05:19:04Z",
+      "sha256": "b64761aca0cbd08d5173a817ac78dae46eff5c2004028411b0d624a2f7db215f",
+      "dependencies": []
+    },
+    "4.5.3": {
+      "fetchedAt": "2026-10-24T05:19:04Z",
+      "sha256": "b64761aca0cbd08d5173a817ac78dae46eff5c2004028411b0d624a2f7db215f",
+      "dependencies": []
+    },
+    "4.5.4": {
+      "fetchedAt": "2026-10-24T05:19:03Z",
+      "sha256": "b64761aca0cbd08d5173a817ac78dae46eff5c2004028411b0d624a2f7db215f",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:19:02Z",
+      "sha256": "b64761aca0cbd08d5173a817ac78dae46eff5c2004028411b0d624a2f7db215f",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T05:18:54Z",
+      "sha256": "b64761aca0cbd08d5173a817ac78dae46eff5c2004028411b0d624a2f7db215f",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:19:02Z",
+      "sha256": "b64761aca0cbd08d5173a817ac78dae46eff5c2004028411b0d624a2f7db215f",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:19:01Z",
+      "sha256": "7062386ee99b9cb659293c30d6407a9380e573e8abf3d5f22ed6a6590e6ea929",
+      "dependencies": []
+    },
+    "5.2.1": {
+      "fetchedAt": "2026-10-24T05:19:00Z",
+      "sha256": "7062386ee99b9cb659293c30d6407a9380e573e8abf3d5f22ed6a6590e6ea929",
+      "dependencies": []
+    },
+    "5.2.3": {
+      "fetchedAt": "2026-10-24T05:19:00Z",
+      "sha256": "7062386ee99b9cb659293c30d6407a9380e573e8abf3d5f22ed6a6590e6ea929",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T05:18:59Z",
+      "sha256": "7062386ee99b9cb659293c30d6407a9380e573e8abf3d5f22ed6a6590e6ea929",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T05:18:59Z",
+      "sha256": "7062386ee99b9cb659293c30d6407a9380e573e8abf3d5f22ed6a6590e6ea929",
+      "dependencies": []
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T05:18:58Z",
+      "sha256": "7062386ee99b9cb659293c30d6407a9380e573e8abf3d5f22ed6a6590e6ea929",
+      "dependencies": []
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T05:18:57Z",
+      "sha256": "7062386ee99b9cb659293c30d6407a9380e573e8abf3d5f22ed6a6590e6ea929",
+      "dependencies": []
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T05:18:57Z",
+      "sha256": "611f55b1e6eb1d6bdfd0ee1442b3ebbae1ae8b5c15d08339453fd46d636c2cc6",
+      "dependencies": []
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T05:18:56Z",
+      "sha256": "611f55b1e6eb1d6bdfd0ee1442b3ebbae1ae8b5c15d08339453fd46d636c2cc6",
+      "dependencies": []
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T05:18:55Z",
+      "sha256": "611f55b1e6eb1d6bdfd0ee1442b3ebbae1ae8b5c15d08339453fd46d636c2cc6",
+      "dependencies": []
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T05:18:55Z",
+      "sha256": "611f55b1e6eb1d6bdfd0ee1442b3ebbae1ae8b5c15d08339453fd46d636c2cc6",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.engagelab.privates.push.platform.honor.callback.MTHonorCallback",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

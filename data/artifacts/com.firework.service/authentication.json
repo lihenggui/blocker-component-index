@@ -1,0 +1,23 @@
+{
+  "coordinate": "com.firework.service:authentication",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.21.0": {
+      "fetchedAt": "2026-10-24T05:36:32Z",
+      "sha256": "be811055d21a45b1384848fa3acde22f58746c156ccb51e051e6b4fb9ad09853",
+      "dependencies": [
+        "com.firework.core.di:di-core:8.0.0",
+        "com.firework.core.network:http:7.1.0",
+        "com.firework.core:logger:8.1.0",
+        "com.firework.core:storage:7.0.1",
+        "com.firework.core:utility:7.0.0",
+        "com.firework.gson:gson:2.10.1.0",
+        "com.firework.service:common:6.21.0",
+        "com.firework.service:userAgent:6.21.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+      ]
+    }
+  },
+  "components": []
+}

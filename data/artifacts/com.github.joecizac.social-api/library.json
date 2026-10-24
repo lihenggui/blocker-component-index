@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.github.joecizac.social-api:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T06:17:42Z",
+      "sha256": "0ecc345966da568e06678b9bcf18ed9911de6107fb44d9d4c729d003af505bf8",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:design:23.1.0",
+        "com.facebook.android:facebook-android-sdk:4.1.0",
+        "com.google.code.gson:gson:2.3.1",
+        "com.mcxiaoke.volley:library:1.0.19"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "unspecified",
+          "unspecified"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.socialapi.VirtualActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "unspecified",
+          "unspecified"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.enioka.scanner:provider-os-athesi-e5l",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:22:17Z",
+      "sha256": "b54a9831422bfc7ae223fec1bc1a7b33960b2bc8042eadf4aebf38e4514ad930",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:22:12Z",
+      "sha256": "b54a9831422bfc7ae223fec1bc1a7b33960b2bc8042eadf4aebf38e4514ad930",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-24T05:22:16Z",
+      "sha256": "b54a9831422bfc7ae223fec1bc1a7b33960b2bc8042eadf4aebf38e4514ad930",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-24T05:22:15Z",
+      "sha256": "b54a9831422bfc7ae223fec1bc1a7b33960b2bc8042eadf4aebf38e4514ad930",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.3"
+      ]
+    },
+    "3.1.0-RC1": {
+      "fetchedAt": "2026-10-24T05:22:14Z",
+      "sha256": "b54a9831422bfc7ae223fec1bc1a7b33960b2bc8042eadf4aebf38e4514ad930",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC1"
+      ]
+    },
+    "3.1.0-RC2": {
+      "fetchedAt": "2026-10-24T05:22:14Z",
+      "sha256": "b54a9831422bfc7ae223fec1bc1a7b33960b2bc8042eadf4aebf38e4514ad930",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.enioka.scanner.sdk.athesi.RD50TE.AthesiRD50TEProvider",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.1.0-RC2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.enioka.scan.PROVIDE_SCANNER"
+      ],
+      "categories": [],
+      "metaData": [
+        "intent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.getkeepsafe.cashier:cashier-google-play-billing-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3.7": {
+      "fetchedAt": "2026-10-24T05:50:06Z",
+      "sha256": "b766f848c901b4dae016e42324f2721657ecf51a47b59f11f59e7af9b463008c",
+      "dependencies": [
+        "com.getkeepsafe.cashier:cashier-google-play-billing:0.3.7"
+      ]
+    },
+    "0.3.8": {
+      "fetchedAt": "2026-10-24T05:50:05Z",
+      "sha256": "b766f848c901b4dae016e42324f2721657ecf51a47b59f11f59e7af9b463008c",
+      "dependencies": [
+        "com.getkeepsafe.cashier:cashier-google-play-billing:0.3.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.getkeepsafe.cashier.billing.debug.FakeGooglePlayCheckoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.7",
+          "0.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

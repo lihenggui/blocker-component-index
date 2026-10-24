@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.freshworks.sdk:authentication",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-24T05:39:35Z",
+      "sha256": "871e9284adf0840025c02f45cc267064db9e6988ee3cf7149d6725bd8ee49819",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-common-java8:2.3.1",
+        "androidx.lifecycle:lifecycle-process:2.3.1",
+        "androidx.security:security-crypto:1.1.0-alpha06",
+        "net.openid:appauth:0.11.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2"
+      ]
+    },
+    "1.0.0-beta02": {
+      "fetchedAt": "2026-10-24T05:39:34Z",
+      "sha256": "871e9284adf0840025c02f45cc267064db9e6988ee3cf7149d6725bd8ee49819",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-common-java8:2.3.1",
+        "androidx.lifecycle:lifecycle-process:2.3.1",
+        "androidx.security:security-crypto:1.1.0-alpha06",
+        "net.openid:appauth:0.11.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.freshworks.freshidsession.UrlRedirectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

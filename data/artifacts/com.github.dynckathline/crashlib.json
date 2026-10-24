@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.github.dynckathline:crashlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T06:09:29Z",
+      "sha256": "e158ae15b9750de91afac81cb9aed7150e70d2f9652a61522ea22340e94556e1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.qmai.crashlib.CrashDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qmai.crashlib.CrashFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.crashFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qmai.crashlib.CrashListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qmai.crashlib.CrashTestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

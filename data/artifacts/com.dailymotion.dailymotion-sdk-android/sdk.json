@@ -1,0 +1,95 @@
+{
+  "coordinate": "com.dailymotion.dailymotion-sdk-android:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.7": {
+      "fetchedAt": "2026-10-24T04:59:19Z",
+      "sha256": "4f01b3b7132c1c5c069a849cad263c8dac09e8fcb47c1ba207635ec71d419356",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.2.8": {
+      "fetchedAt": "2026-10-24T04:59:19Z",
+      "sha256": "4f01b3b7132c1c5c069a849cad263c8dac09e8fcb47c1ba207635ec71d419356",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.2.9": {
+      "fetchedAt": "2026-10-24T04:59:18Z",
+      "sha256": "4f01b3b7132c1c5c069a849cad263c8dac09e8fcb47c1ba207635ec71d419356",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.2.10": {
+      "fetchedAt": "2026-10-24T04:59:17Z",
+      "sha256": "4f01b3b7132c1c5c069a849cad263c8dac09e8fcb47c1ba207635ec71d419356",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.2.11": {
+      "fetchedAt": "2026-10-24T04:59:17Z",
+      "sha256": "3e3b8292cb1282e938cc9567f0378e4eeb8d0558a425da954c454d0166479b47",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "0.2.12": {
+      "fetchedAt": "2026-10-24T04:59:16Z",
+      "sha256": "3e3b8292cb1282e938cc9567f0378e4eeb8d0558a425da954c454d0166479b47",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dailymotion.android.player.sdk.PlayerSdkInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.11",
+          "0.2.12"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.player.sdk.PlayerSdkInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "coordinate": "ai.devrev.sdk:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.6": {
+      "fetchedAt": "2026-10-23T16:19:31Z",
+      "sha256": "46b23334a526c10761b0fc75ea9f8195874f4c8a096d6b25616aa9476604b644",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.webkit:webkit:1.6.1",
+        "com.google.android.material:material:1.8.0",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-logging:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "io.ktor:ktor-server-auth-jwt:2.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "0.9.7": {
+      "fetchedAt": "2026-10-23T16:19:28Z",
+      "sha256": "46b23334a526c10761b0fc75ea9f8195874f4c8a096d6b25616aa9476604b644",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.webkit:webkit:1.6.1",
+        "com.google.android.material:material:1.8.0",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-logging:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "io.ktor:ktor-server-auth-jwt:2.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ai.devrev.sdk.plug.activity.PlugActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.6",
+          "0.9.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

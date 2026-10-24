@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.github.jenly1314.AppPay:unionpay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T06:16:27Z",
+      "sha256": "aa5a03199a1c2478392149755aceeba4b9e7c9a247a40a9f7304a15c12c6eac7",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T06:16:25Z",
+      "sha256": "aa5a03199a1c2478392149755aceeba4b9e7c9a247a40a9f7304a15c12c6eac7",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.unionpay.UPPayWapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

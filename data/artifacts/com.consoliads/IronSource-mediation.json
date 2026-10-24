@@ -1,0 +1,67 @@
+{
+  "coordinate": "com.consoliads:IronSource-mediation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v7.1.11": {
+      "fetchedAt": "2026-10-24T04:52:03Z",
+      "sha256": "606bb2386b91bfb5b535b90175af100c045889d2d97bc42f26fe17042d44b3e1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.consoliads:consoliadsmediation:v13.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ironsource.sdk.controller.ControllerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v7.1.11",
+          "v7.1.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ironsource.sdk.controller.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v7.1.11",
+          "v7.1.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ironsource.sdk.controller.OpenUrlActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v7.1.11",
+          "v7.1.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

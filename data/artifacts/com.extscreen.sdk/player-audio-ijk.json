@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.extscreen.sdk:player-audio-ijk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.1.2": {
+      "fetchedAt": "2026-10-24T05:27:34Z",
+      "sha256": "eabc108a8a1f7f2b072258980e7489b3b90ca9daf32a24ea5286a1c6dbce99a8",
+      "dependencies": [
+        "com.extscreen.sdk:player-ijk:3.1.3",
+        "com.extscreen.sdk:player-manager:3.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "eskit.sdk.support.player.audio.ijk.ESAudioPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.2",
+          "3.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

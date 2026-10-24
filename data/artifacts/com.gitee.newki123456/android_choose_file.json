@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.gitee.newki123456:android_choose_file",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:51:58Z",
+      "sha256": "f691015fdc7210ffc3ae7e15f5aea4d430bc0d9f9f37adedb082578de4ead74b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.newki.choosefile.ChooseFileActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.newki.choosefile.provider.ChooseFileDocumentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.MANAGE_DOCUMENTS",
+      "authorities": "com.newki.choosefile.authorities",
+      "actions": [
+        "android.content.action.DOCUMENTS_PROVIDER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.newki.choosefile.provider.ChooseFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.newki.choosefile.file.path.share",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "coordinate": "com.engagelab.plugin:google",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T05:18:53Z",
+      "sha256": "400c7c05363599288886fcc4c4fac01eb36873d61ce997b5040d30c0f60e1356",
+      "dependencies": []
+    },
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T05:18:53Z",
+      "sha256": "5544a8323bd93f82e5b16f1150d436b22faba8cf546990e388ed16c5acc848f8",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-24T05:18:52Z",
+      "sha256": "5544a8323bd93f82e5b16f1150d436b22faba8cf546990e388ed16c5acc848f8",
+      "dependencies": []
+    },
+    "4.5.3": {
+      "fetchedAt": "2026-10-24T05:18:51Z",
+      "sha256": "5544a8323bd93f82e5b16f1150d436b22faba8cf546990e388ed16c5acc848f8",
+      "dependencies": []
+    },
+    "4.5.4": {
+      "fetchedAt": "2026-10-24T05:18:51Z",
+      "sha256": "5544a8323bd93f82e5b16f1150d436b22faba8cf546990e388ed16c5acc848f8",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:18:50Z",
+      "sha256": "5544a8323bd93f82e5b16f1150d436b22faba8cf546990e388ed16c5acc848f8",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T05:18:42Z",
+      "sha256": "5544a8323bd93f82e5b16f1150d436b22faba8cf546990e388ed16c5acc848f8",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:18:50Z",
+      "sha256": "5544a8323bd93f82e5b16f1150d436b22faba8cf546990e388ed16c5acc848f8",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:18:49Z",
+      "sha256": "0a8a3edd659ccd5746b932f446938f346cbf3016c73ae9647fa7ba3c1fbd2ac4",
+      "dependencies": []
+    },
+    "5.2.1": {
+      "fetchedAt": "2026-10-24T05:18:48Z",
+      "sha256": "0a8a3edd659ccd5746b932f446938f346cbf3016c73ae9647fa7ba3c1fbd2ac4",
+      "dependencies": []
+    },
+    "5.2.3": {
+      "fetchedAt": "2026-10-24T05:18:48Z",
+      "sha256": "0a8a3edd659ccd5746b932f446938f346cbf3016c73ae9647fa7ba3c1fbd2ac4",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T05:18:47Z",
+      "sha256": "0a8a3edd659ccd5746b932f446938f346cbf3016c73ae9647fa7ba3c1fbd2ac4",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T05:18:46Z",
+      "sha256": "0a8a3edd659ccd5746b932f446938f346cbf3016c73ae9647fa7ba3c1fbd2ac4",
+      "dependencies": []
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T05:18:46Z",
+      "sha256": "0a8a3edd659ccd5746b932f446938f346cbf3016c73ae9647fa7ba3c1fbd2ac4",
+      "dependencies": []
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T05:18:45Z",
+      "sha256": "0a8a3edd659ccd5746b932f446938f346cbf3016c73ae9647fa7ba3c1fbd2ac4",
+      "dependencies": []
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T05:18:44Z",
+      "sha256": "fc1746da4eb6b11bb8246f0decafc1bb66421aab6c6470b46d6e5fd221f9cb16",
+      "dependencies": []
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T05:18:44Z",
+      "sha256": "fc1746da4eb6b11bb8246f0decafc1bb66421aab6c6470b46d6e5fd221f9cb16",
+      "dependencies": []
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T05:18:43Z",
+      "sha256": "fc1746da4eb6b11bb8246f0decafc1bb66421aab6c6470b46d6e5fd221f9cb16",
+      "dependencies": []
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T05:18:43Z",
+      "sha256": "fc1746da4eb6b11bb8246f0decafc1bb66421aab6c6470b46d6e5fd221f9cb16",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.engagelab.privates.push.platform.google.callback.MTGoogleCallback",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

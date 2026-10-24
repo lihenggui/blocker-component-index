@@ -1,0 +1,166 @@
+{
+  "coordinate": "com.freshworks.sdk:freshservicesupportsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-24T05:39:42Z",
+      "sha256": "549302f8ea8eed1b7831763ebd536a70a1ca75242e5bc9c1da19b54d2ca4e151",
+      "dependencies": [
+        "androidx.activity:activity:1.9.1",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.security:security-crypto:1.1.0-alpha06",
+        "com.freshworks.sdk:authentication:1.0.0-beta02",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1"
+      ]
+    },
+    "1.0.0-beta02": {
+      "fetchedAt": "2026-10-24T05:39:41Z",
+      "sha256": "549302f8ea8eed1b7831763ebd536a70a1ca75242e5bc9c1da19b54d2ca4e151",
+      "dependencies": [
+        "androidx.activity:activity:1.9.1",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.security:security-crypto:1.1.0-alpha06",
+        "com.freshworks.sdk:authentication:1.0.0-beta02",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.freshworks.sdk.freshservicesupportsdk.helper.RequestUserPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.freshworks.sdk.freshservicesupportsdk.ui.authentication.AuthenticationResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.freshworks.sdk.freshservicesupportsdk.ui.content.ContentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.freshworks.sdk.freshservicesupportsdk.ui.content.receiver.AttachmentDownloadCompleteReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.freshworks.sdk.freshservicesupportsdk.ui.launch.LaunchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

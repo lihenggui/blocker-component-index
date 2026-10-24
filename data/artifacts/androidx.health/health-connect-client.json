@@ -1,0 +1,68 @@
+{
+  "coordinate": "androidx.health:health-connect-client",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T17:10:30Z",
+      "sha256": "f3f70dad54e662429865963f72621b8373f7ce8ef5c709b9ce433689bdb2413a",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0",
+        "androidx.annotation:annotation:1.2.0",
+        "com.google.guava:guava:31.1-android",
+        "com.google.guava:listenablefuture:1.0",
+        "com.google.protobuf:protobuf-javalite:3.19.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.6.1"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T17:10:27Z",
+      "sha256": "99a352665451947184d826e0006e7a04c44f8093741b7a9c8a8fbb0eb50cbd6e",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0",
+        "androidx.annotation:annotation:1.2.0",
+        "com.google.guava:guava:31.1-android",
+        "com.google.guava:listenablefuture:1.0",
+        "com.google.protobuf:protobuf-javalite:3.19.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.6.1"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-23T17:10:24Z",
+      "sha256": "c4c3183fd7a0810f57a4c0ca57309855694edf172b49dad9c295f332712b8a28",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0",
+        "androidx.annotation:annotation:1.2.0",
+        "com.google.guava:guava:31.1-android",
+        "com.google.guava:listenablefuture:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.health.platform.client.impl.sdkservice.HealthDataSdkService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha03"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "androidx.health.platform.client.ACTION_BIND_SDK_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

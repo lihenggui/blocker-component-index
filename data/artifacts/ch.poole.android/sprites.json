@@ -1,0 +1,43 @@
+{
+  "coordinate": "ch.poole.android:sprites",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T18:33:00Z",
+      "sha256": "6956cdaa54b826ce5b5713782e362ff390e5df993d704a50aafea775a4b68fee",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.core:core:1.0.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-23T18:32:58Z",
+      "sha256": "5910fc0201ae0c1213b435781934f5fe8329ff6a20ccfc3fa0ec57dccaf35467",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.core:core:1.0.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ch.poole.android.sprite.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

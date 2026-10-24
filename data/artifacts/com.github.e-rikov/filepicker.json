@@ -1,0 +1,56 @@
+{
+  "coordinate": "com.github.e-rikov:filepicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T06:09:40Z",
+      "sha256": "fc3e6b9647e83ae308256a4224692e5e12bbb1053ed1816e41409b1e8d0085f7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.evgeniy.rikov.filepicker.FilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.GET_CONTENT"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "android.intent.category.OPENABLE"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "ru.evgeniy.rikov.filepicker.LocalStorageProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.MANAGE_DOCUMENTS",
+      "authorities": "ru.evgeniy.rikov.localstorage.documents",
+      "actions": [
+        "android.content.action.DOCUMENTS_PROVIDER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

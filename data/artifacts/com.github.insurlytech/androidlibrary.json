@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.insurlytech:androidlibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.4": {
+      "fetchedAt": "2026-10-24T06:14:46Z",
+      "sha256": "f93057fdb6bc3d570f2fc927f38b18a68260b682b69a8a63beb48f39b0c32898",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.security:security-crypto-ktx:1.1.0-alpha03",
+        "com.zetapush:android-client:3.0.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zetapush.library.ZetaPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

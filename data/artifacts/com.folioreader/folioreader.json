@@ -1,0 +1,40 @@
+{
+  "coordinate": "com.folioreader:folioreader",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T05:37:55Z",
+      "sha256": "2294ce096acb7f6932143a7e383cfa35583c129e64a7cff0f35cbdd5112177b6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:recyclerview-v7:23.1.1",
+        "com.android.support:support-v4:23.1.1",
+        "com.daimajia.swipelayout:library:1.2.0",
+        "com.folioreader:webViewMarker:0.1.1",
+        "com.j256.ormlite:ormlite-android:4.48",
+        "com.j256.ormlite:ormlite-core:4.48",
+        "org.codehaus.jackson:jackson-core-asl:1.9.13",
+        "org.codehaus.jackson:jackson-mapper-asl:1.9.13"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.folioreader.activity.HighlightListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

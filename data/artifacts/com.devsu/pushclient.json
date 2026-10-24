@@ -1,0 +1,290 @@
+{
+  "coordinate": "com.devsu:pushclient",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:05:15Z",
+      "sha256": "66b5fa3a7c7381ea675a4acccbf2a0417f6c98aa4c44f384be52536bbabb1668",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T05:05:15Z",
+      "sha256": "16136f8688485c0bfe3bce7cb795c4ff825b6335d9466f16c39ac8dfe757ff20",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T05:05:14Z",
+      "sha256": "e4eac57396742684906d464bc51e010318704a8c946b6d05084d7cc8410aea6a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0",
+        "com.google.android.gms:play-services-gcm:9.4.0",
+        "com.google.firebase:firebase-messaging:9.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.devsu.library.pushclient.service.IdListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.PushClientIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.PushListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.RegistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.UnregistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.firebase.FirebaseIdListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.firebase.FirebasePushListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.firebase.FirebaseRegistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.firebase.FirebaseUnregistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.gcm.GcmIdListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.gcm.GcmPushListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.gcm.GcmRegistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.devsu.library.pushclient.service.gcm.GcmUnregistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.gcm.GcmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE",
+        "com.google.android.c2dm.intent.REGISTRATION"
+      ],
+      "categories": [
+        "com.devsu.library.pushclient"
+      ],
+      "metaData": []
+    }
+  ]
+}

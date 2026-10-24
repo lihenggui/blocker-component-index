@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.eyeofcloud.ab:android-sdk-datafile-handler",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.13.4": {
+      "fetchedAt": "2026-10-24T05:28:23Z",
+      "sha256": "1efb19b196f1f9826e1764672771c718243d0dd56349b76bd43d3becd60a9f3f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.eyeofcloud.ab:android-sdk-shared:3.13.4",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.eyeofcloud.ab.android.datafile_handler.DatafileRescheduler",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.13.4",
+          "3.13.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

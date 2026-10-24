@@ -1,0 +1,125 @@
+{
+  "coordinate": "com.flurry.android:analytics",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "12.0.3": {
+      "fetchedAt": "2026-10-24T05:37:36Z",
+      "sha256": "b590b88fa29605758ae9a7520642e7e555fb79825d022cc5278811227cd00bb6",
+      "dependencies": []
+    },
+    "12.1.0": {
+      "fetchedAt": "2026-10-24T05:37:36Z",
+      "sha256": "cbc937708b0b8967d99fd5383845db4d17c1d02a6f4c867dfeefb683d2f52403",
+      "dependencies": []
+    },
+    "12.2.0": {
+      "fetchedAt": "2026-10-24T05:37:35Z",
+      "sha256": "cc8fb63098e6eab4a807bed923f70d83041e378b2bdb06825d46864fb580ee43",
+      "dependencies": []
+    },
+    "12.3.0": {
+      "fetchedAt": "2026-10-24T05:37:34Z",
+      "sha256": "3783f944e0ca4b9737a650e2df6ee68b064e12cdcc99360953344db936786688",
+      "dependencies": []
+    },
+    "12.4.0": {
+      "fetchedAt": "2026-10-24T05:37:33Z",
+      "sha256": "10e86b3f6dcdcb70594d4b7106755340dfd2baab1d472aeff9f6e625b295f52b",
+      "dependencies": []
+    },
+    "12.5.0": {
+      "fetchedAt": "2026-10-24T05:37:32Z",
+      "sha256": "3274b0d007b57af51af6f46ac35c492c015997b2067a6de27d2227da1b3399c7",
+      "dependencies": []
+    },
+    "12.7.0": {
+      "fetchedAt": "2026-10-24T05:37:32Z",
+      "sha256": "fa4f04a13aa59453956e849f572bf86ec5fc321b53ce9e34a18ecbe968803845",
+      "dependencies": []
+    },
+    "12.9.0": {
+      "fetchedAt": "2026-10-24T05:37:31Z",
+      "sha256": "721c1e4545fb79c05127bb3e86f40c6799745b3822512070c4b124519f8f71c1",
+      "dependencies": []
+    },
+    "12.11.0": {
+      "fetchedAt": "2026-10-24T05:37:30Z",
+      "sha256": "46b3c9d8c120b573d103bfbddfa00ba5d3ed87f1a8e61b559dde4a11ff82649a",
+      "dependencies": []
+    },
+    "12.13.0": {
+      "fetchedAt": "2026-10-24T05:37:30Z",
+      "sha256": "bb91dbbf18da11eabeb3c3870a2090e72d63ff1e9f7f3013502a7b996c9d99b3",
+      "dependencies": []
+    },
+    "13.0.0": {
+      "fetchedAt": "2026-10-24T05:37:29Z",
+      "sha256": "ce8f2267156b1417a037b0dbaf01087a9beee67fb28edb94ab00e89597ed04b7",
+      "dependencies": []
+    },
+    "13.0.1": {
+      "fetchedAt": "2026-10-24T05:37:29Z",
+      "sha256": "c9fdc93fd7b14c6ba203b69002c82e02b49ea3b4498270531b40a32e960fa494",
+      "dependencies": []
+    },
+    "13.1.0": {
+      "fetchedAt": "2026-10-24T05:37:28Z",
+      "sha256": "8d0c1d0ed1cd32dc240c4e7512fecef92749db25301379f3c40e6c864d5de9e0",
+      "dependencies": []
+    },
+    "13.2.0": {
+      "fetchedAt": "2026-10-24T05:37:27Z",
+      "sha256": "dc740a58a61e04be75f2b9e113e0798da3ee49f73aac2664ca41f766b4aef2bd",
+      "dependencies": []
+    },
+    "13.3.0": {
+      "fetchedAt": "2026-10-24T05:37:27Z",
+      "sha256": "bc2882420703e6d4918db653d898383f59783bd7ce9b9eb205890f2f6b874694",
+      "dependencies": []
+    },
+    "14.0.0": {
+      "fetchedAt": "2026-10-24T05:37:26Z",
+      "sha256": "68897d2861db6339d8c6b4f4eb721f7dd4881617a92d54ca65c4d741f843d82d",
+      "dependencies": []
+    },
+    "14.1.0": {
+      "fetchedAt": "2026-10-24T05:37:26Z",
+      "sha256": "68897d2861db6339d8c6b4f4eb721f7dd4881617a92d54ca65c4d741f843d82d",
+      "dependencies": []
+    },
+    "14.2.0": {
+      "fetchedAt": "2026-10-24T05:37:25Z",
+      "sha256": "68897d2861db6339d8c6b4f4eb721f7dd4881617a92d54ca65c4d741f843d82d",
+      "dependencies": []
+    },
+    "14.3.0": {
+      "fetchedAt": "2026-10-24T05:37:25Z",
+      "sha256": "68897d2861db6339d8c6b4f4eb721f7dd4881617a92d54ca65c4d741f843d82d",
+      "dependencies": []
+    },
+    "14.4.0": {
+      "fetchedAt": "2026-10-24T05:37:24Z",
+      "sha256": "68897d2861db6339d8c6b4f4eb721f7dd4881617a92d54ca65c4d741f843d82d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.flurry.android.agent.FlurryContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "12.0.3",
+          "14.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FlurryContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "coordinate": "com.github.dynckathline:filePicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.4": {
+      "fetchedAt": "2026-10-24T06:09:33Z",
+      "sha256": "44bf197edfd9db7ef85411b4203c3f582aa360808bbacc27e26ee60a6baa38b5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.documentfile:documentfile:1.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.1"
+      ]
+    },
+    "1.2.5": {
+      "fetchedAt": "2026-10-24T06:09:32Z",
+      "sha256": "30323caeb510e8877efb1e9341a64c5e57964c384a9deacd1268e223d6c680b4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.documentfile:documentfile:1.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.1"
+      ]
+    },
+    "1.2.6": {
+      "fetchedAt": "2026-10-24T06:09:31Z",
+      "sha256": "395baaf70787bcd62e670fdd2672eaf3f53860a75dbb76f55c21af226bf4097b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.documentfile:documentfile:1.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.kathline.library.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.kathline.library.ui.ZFileListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kathline.library.ui.ZFilePicActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kathline.library.ui.ZFileQWActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kathline.library.ui.ZFileVideoPlayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

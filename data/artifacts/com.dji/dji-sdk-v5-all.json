@@ -1,0 +1,86 @@
+{
+  "coordinate": "com.dji:dji-sdk-v5-all",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:08:58Z",
+      "sha256": "baca9e85544d50e14f49533bbb99a60fb263011af9546249d27a185a0864ac5c",
+      "dependencies": [
+        "androidx.room:room-compiler:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0",
+        "com.alibaba:fastjson:1.1.72.android",
+        "com.commonsware.cwac:saferoom.x:1.3.0",
+        "com.dji:library-networkrtk-helper:2.0.2",
+        "com.google.code.gson:gson:2.8.6",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "org.aspectj:aspectjrt:1.9.6",
+        "org.java-websocket:Java-WebSocket:1.5.1"
+      ]
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:08:56Z",
+      "sha256": "c1fcc1d07469fdb783588a4b03142555203bfde32efc6994443e6c6029de08df",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0",
+        "com.dji:library-networkrtk-helper:2.0.2",
+        "com.google.code.gson:gson:2.9.1",
+        "io.reactivex.rxjava2:rxjava:2.2.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "net.zetetic:android-database-sqlcipher:4.5.0",
+        "org.aspectj:aspectjrt:1.9.6",
+        "org.java-websocket:Java-WebSocket:1.5.1"
+      ]
+    },
+    "5.1.1": {
+      "fetchedAt": "2026-10-24T05:08:55Z",
+      "sha256": "c1fcc1d07469fdb783588a4b03142555203bfde32efc6994443e6c6029de08df",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0",
+        "com.dji:library-networkrtk-helper:2.0.2",
+        "com.google.code.gson:gson:2.9.1",
+        "io.reactivex.rxjava2:rxjava:2.2.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "net.zetetic:android-database-sqlcipher:4.5.0",
+        "org.aspectj:aspectjrt:1.9.6",
+        "org.java-websocket:Java-WebSocket:1.5.1"
+      ]
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:08:53Z",
+      "sha256": "e9f42f071cd403a9dba4d04d76ebc332a5be7283b7e4d19c77ffb2e4e321a704",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0",
+        "com.google.code.gson:gson:2.9.1",
+        "io.reactivex.rxjava2:rxjava:2.2.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "net.zetetic:android-database-sqlcipher:4.5.0",
+        "org.aspectj:aspectjrt:1.9.6",
+        "org.java-websocket:Java-WebSocket:1.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dji.v5.inner.background.BackGroundWatcherInstaller",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.1.0",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.background-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

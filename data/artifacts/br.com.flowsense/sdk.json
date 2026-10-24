@@ -1,0 +1,442 @@
+{
+  "coordinate": "br.com.flowsense:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.0.6": {
+      "fetchedAt": "2026-10-23T18:14:17Z",
+      "sha256": "fb57385ac1461137645f8b6cb467f151927366653d5fd64ea9aa3934cd468e71",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-23T18:14:15Z",
+      "sha256": "19987af9f0666ee62474ec8cab3a65dd246fee21d7ef070ffccd18c897e40d44",
+      "dependencies": []
+    },
+    "5.0.2": {
+      "fetchedAt": "2026-10-23T18:14:13Z",
+      "sha256": "6c13c6a7fe281adfbd606437df13df2772167539ebde47a18a1b1394ba1456b9",
+      "dependencies": []
+    },
+    "5.0.3": {
+      "fetchedAt": "2026-10-23T18:14:11Z",
+      "sha256": "733ee9395a148aaa3d86ce2d567c2e76cbc68e742aa01aa78483ed79b00a2759",
+      "dependencies": []
+    },
+    "5.0.4": {
+      "fetchedAt": "2026-10-23T18:14:09Z",
+      "sha256": "28b8563cf0ddedfca03049b3719b0fd7d22b4a8bbc681e0024051337a4666076",
+      "dependencies": []
+    },
+    "5.0.5": {
+      "fetchedAt": "2026-10-23T18:14:07Z",
+      "sha256": "be210cb98e1a240a19711a952c4903c6cffe4b148b31433133e93bd19c9a3188",
+      "dependencies": []
+    },
+    "5.0.6": {
+      "fetchedAt": "2026-10-23T18:14:05Z",
+      "sha256": "f4e89813e7b2c052d1c93efc134db530d6ddc8605f0a6dc6142bb094b3fdbb74",
+      "dependencies": []
+    },
+    "5.0.7": {
+      "fetchedAt": "2026-10-23T18:14:03Z",
+      "sha256": "dded98d1d254ddc09e127a031f535087e97ecd3219169ea346290a6fb94ad50c",
+      "dependencies": []
+    },
+    "5.0.8": {
+      "fetchedAt": "2026-10-23T18:14:01Z",
+      "sha256": "81e7eb427380adb234a87e141c547c3dc27dc065bfca0f8e2e321f2c59e2978b",
+      "dependencies": []
+    },
+    "5.0.9": {
+      "fetchedAt": "2026-10-23T18:13:59Z",
+      "sha256": "00e9ea1a86ff8f12daa4ad9ceaaf65e0cdbb864d3c2b1d558304ef498f393f33",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-23T18:13:57Z",
+      "sha256": "a64fd6bb9273e83945e7414cf1c3a06d943bfbab8cf1a2ce0fc13e2f45436da2",
+      "dependencies": []
+    },
+    "5.1.1": {
+      "fetchedAt": "2026-10-23T18:13:55Z",
+      "sha256": "9816d4d1f24d4e7148444ed80da26aeb4b9870bbdeb49782a87984657b584f7d",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-23T18:13:52Z",
+      "sha256": "6f79cdfa7cc4fb7915c0f2395a93d4017d0bf5cb099140b084ab0c6a04f11035",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.flowsense.flowsensesdk.DailyJobs.AliveAlarmIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.DailyJobs.AliveIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.DailyJobs.AliveScheduler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.CheckInAlarmIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.CheckInJobIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.CheckInScheduler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.GeofenceBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.GeofenceIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.GetGeofencesJobIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.GetInstantLocation",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.JobIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.JobSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.LocationService.LocationIntent",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.PushNotification.CarrousselClick",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.PushNotification.FCM.FSFirebaseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.PushNotification.IntermediateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.Receivers.AppUpgradeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.Receivers.BootCompletedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.Receivers.ConnectedToWifiReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.Receivers.ConnectedToWifiReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.7",
+          "5.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.flowsense.flowsensesdk.Receivers.NotificationDismissed",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0.6",
+          "5.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

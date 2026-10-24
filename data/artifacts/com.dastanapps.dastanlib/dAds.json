@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.dastanapps.dastanlib:dAds",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T05:00:16Z",
+      "sha256": "0ecbe71df3c4143c20e5c8ced145308c702122c527c1a3aef6ba644a8b2b7dbc",
+      "dependencies": [
+        "com.dastanapps.dastanlib:common:1.0",
+        "com.facebook.android:audience-network-sdk:6.4.0",
+        "com.flurry.android:analytics:6.4.2",
+        "com.github.vungle:vungle-android-sdk:5.3.0",
+        "com.google.android.gms:play-services-ads:20.1.0",
+        "com.google.android.gms:play-services-measurement-api:18.0.3",
+        "com.google.android.gms:play-services-measurement-base:18.0.3",
+        "com.google.firebase:firebase-analytics:18.0.3",
+        "com.google.firebase:firebase-crashlytics:17.4.1",
+        "com.mopub:mopub-sdk-banner:5.0.0",
+        "com.mopub:mopub-sdk-rewardedvideo:5.0.0",
+        "com.startapp:inapp-sdk:3.7.1",
+        "com.unity3d.ads:unity-ads:3.7.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:00:16Z",
+      "sha256": "0ecbe71df3c4143c20e5c8ced145308c702122c527c1a3aef6ba644a8b2b7dbc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.dastanapps.dastanlib:common:1.0.1",
+        "com.facebook.android:audience-network-sdk:6.4.0",
+        "com.flurry.android:analytics:6.4.2",
+        "com.google.android.gms:play-services-ads:20.1.0",
+        "com.google.android.gms:play-services-measurement-api:19.0.0",
+        "com.google.android.gms:play-services-measurement-base:19.0.0",
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-crashlytics:18.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.ads.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

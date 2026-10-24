@@ -1,0 +1,97 @@
+{
+  "coordinate": "ai.zerek:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T16:31:35Z",
+      "sha256": "d5460783443403973e0976cc090ce0597b7b6a31a5fd9932dc0423f873de0d52",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.core:core-ktx:1.7.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.12.0",
+        "com.github.mrmike:ok2curl:0.7.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.31"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T16:31:33Z",
+      "sha256": "d5460783443403973e0976cc090ce0597b7b6a31a5fd9932dc0423f873de0d52",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.core:core-ktx:1.7.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.12.0",
+        "com.github.mrmike:ok2curl:0.7.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.31"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T16:31:31Z",
+      "sha256": "32600140be0fda8a2458369ceb33070a4483eaf46c7d34803df8bca2a3928f2b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.core:core-ktx:1.7.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.12.0",
+        "com.github.mrmike:ok2curl:0.7.0",
+        "com.google.android.exoplayer:exoplayer:2.15.0",
+        "com.google.android.gms:play-services-location:19.0.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ai.zerek.sdk.core.providers.APFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.apfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "ai.zerek.sdk.ui.components.video.APAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

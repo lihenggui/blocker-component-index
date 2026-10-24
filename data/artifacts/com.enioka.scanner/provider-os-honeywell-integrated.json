@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.enioka.scanner:provider-os-honeywell-integrated",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:22:44Z",
+      "sha256": "083e271434c40c8f12432b6f4a8a996c9b1b131c5f21586471447b2a828b1fa7",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:22:40Z",
+      "sha256": "083e271434c40c8f12432b6f4a8a996c9b1b131c5f21586471447b2a828b1fa7",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-24T05:22:44Z",
+      "sha256": "083e271434c40c8f12432b6f4a8a996c9b1b131c5f21586471447b2a828b1fa7",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-24T05:22:43Z",
+      "sha256": "083e271434c40c8f12432b6f4a8a996c9b1b131c5f21586471447b2a828b1fa7",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.3"
+      ]
+    },
+    "3.1.0-RC1": {
+      "fetchedAt": "2026-10-24T05:22:42Z",
+      "sha256": "083e271434c40c8f12432b6f4a8a996c9b1b131c5f21586471447b2a828b1fa7",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC1"
+      ]
+    },
+    "3.1.0-RC2": {
+      "fetchedAt": "2026-10-24T05:22:41Z",
+      "sha256": "083e271434c40c8f12432b6f4a8a996c9b1b131c5f21586471447b2a828b1fa7",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.enioka.scanner.sdk.honeywelloss.integrated.HoneywellOssIntegratedScannerProvider",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.1.0-RC2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.enioka.scan.PROVIDE_SCANNER"
+      ],
+      "categories": [],
+      "metaData": [
+        "intent"
+      ]
+    }
+  ]
+}

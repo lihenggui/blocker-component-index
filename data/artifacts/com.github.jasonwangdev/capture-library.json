@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.github.jasonwangdev:capture-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T06:15:38Z",
+      "sha256": "57287508ad023dfc362b06b34ddd80b48e1f8f7849006ed86c80518e6b130ad3",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

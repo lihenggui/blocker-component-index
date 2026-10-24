@@ -1,0 +1,144 @@
+{
+  "coordinate": "com.eventflit:pushnotifications",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T05:24:58Z",
+      "sha256": "8b4b1477ceef9f010f5e6790999aec1d01e564872a4bfa71b06fdbf64bb050cd",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.30"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T05:24:58Z",
+      "sha256": "8b4b1477ceef9f010f5e6790999aec1d01e564872a4bfa71b06fdbf64bb050cd",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.eventflit.pushnotifications.fcm.FCMInstanceIDService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.eventflit.pushnotifications.fcm.FCMMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.eventflit.pushnotifications.internal.PushNotificationsInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pushnotificationsinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.eventflit.pushnotifications.reporting.FCMMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.eventflit.pushnotifications.reporting.OpenNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.eventflit.pushnotifications.OPEN_TRACKING"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.eventflit.pushnotifications.reporting.ReportingJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

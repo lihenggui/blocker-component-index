@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.frogermcs.dagger2metrics:dagger2metrics-runtime",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2": {
+      "fetchedAt": "2026-10-24T05:39:47Z",
+      "sha256": "2105c558bad66fdd3a97b91d46ee5376445d92eed98be09fd8e6e3d9205ecbd0",
+      "dependencies": [
+        "com.android.support:support-v4:23.1.1",
+        "org.aspectj:aspectjrt:1.8.8"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-24T05:39:46Z",
+      "sha256": "2105c558bad66fdd3a97b91d46ee5376445d92eed98be09fd8e6e3d9205ecbd0",
+      "dependencies": [
+        "com.android.support:support-v4:23.1.1",
+        "org.aspectj:aspectjrt:1.8.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.frogermcs.dagger2metrics.internal.ui.AboutMetricsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2",
+          "0.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.frogermcs.dagger2metrics.internal.ui.MetricsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2",
+          "0.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

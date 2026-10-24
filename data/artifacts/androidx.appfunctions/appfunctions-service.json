@@ -1,0 +1,142 @@
+{
+  "coordinate": "androidx.appfunctions:appfunctions-service",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T16:36:44Z",
+      "sha256": "0f181c7b7bd8fb944854f8a9e7fdb57be558dbaa60c9b71c382551f5d16d47ff",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0-rc01",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha01",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.8.1"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T16:36:42Z",
+      "sha256": "6b80c7d0b82e64ed950dc004eefa041014a393cbad475234039787b29d3b750e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0-rc01",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha02",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.8.1"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-23T16:36:39Z",
+      "sha256": "b4d808d8f4d3cb1f3dfb524dd34e27dd6371662d87c4e65353c35ef092b168f4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0-rc01",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha03",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.8.1"
+      ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-10-23T16:36:37Z",
+      "sha256": "b4d808d8f4d3cb1f3dfb524dd34e27dd6371662d87c4e65353c35ef092b168f4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha04",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.8.1"
+      ]
+    },
+    "1.0.0-alpha05": {
+      "fetchedAt": "2026-10-23T16:36:34Z",
+      "sha256": "b4d808d8f4d3cb1f3dfb524dd34e27dd6371662d87c4e65353c35ef092b168f4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha05",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.9.0"
+      ]
+    },
+    "1.0.0-alpha06": {
+      "fetchedAt": "2026-10-23T16:36:32Z",
+      "sha256": "b4d808d8f4d3cb1f3dfb524dd34e27dd6371662d87c4e65353c35ef092b168f4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha06",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.9.0"
+      ]
+    },
+    "1.0.0-alpha07": {
+      "fetchedAt": "2026-10-23T16:36:29Z",
+      "sha256": "b4d808d8f4d3cb1f3dfb524dd34e27dd6371662d87c4e65353c35ef092b168f4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha07",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.9.0"
+      ]
+    },
+    "1.0.0-alpha08": {
+      "fetchedAt": "2026-10-23T16:36:27Z",
+      "sha256": "b4d808d8f4d3cb1f3dfb524dd34e27dd6371662d87c4e65353c35ef092b168f4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha08",
+        "com.google.guava:guava:32.0.1-android",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.9.0"
+      ]
+    },
+    "1.0.0-alpha09": {
+      "fetchedAt": "2026-10-23T16:36:24Z",
+      "sha256": "b4d808d8f4d3cb1f3dfb524dd34e27dd6371662d87c4e65353c35ef092b168f4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.0",
+        "androidx.appfunctions:appfunctions:1.0.0-alpha09",
+        "com.google.guava:guava:32.0.1-android",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.appfunctions.service.ExtensionAppFunctionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha09"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_APP_FUNCTION_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.app.appfunctions.AppFunctionService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "androidx.appfunctions.service.PlatformAppFunctionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha02",
+          "1.0.0-alpha09"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_APP_FUNCTION_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.app.appfunctions.AppFunctionService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

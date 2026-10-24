@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.github.developerpaul123.filepickerlibrary:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T06:08:17Z",
+      "sha256": "267ff7acb41da8123536541f19b175bf6e4ef6ccde135116f8e0f0051e28f983",
+      "dependencies": []
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-24T06:08:16Z",
+      "sha256": "a17edcc2671c0423bd8c5837196654e9d418d6477e10982cbddac2f30b1d4756",
+      "dependencies": [
+        "com.melnykov:floatingactionbutton:1.1.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T06:08:15Z",
+      "sha256": "9e1b3fc0638c50c576c93ef733ba683f0279e9d73c411af01dfe2b82268fc48e",
+      "dependencies": []
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-24T06:08:15Z",
+      "sha256": "8478c08ba9448d406c655d5ed12a3353ddbe3bbd51d14ab52e3393227c3476ae",
+      "dependencies": [
+        "com.afollestad:material-dialogs:0.6.7.2",
+        "com.android.support:appcompat-v7:22.0.0",
+        "com.android.support:cardview-v7:22.0.0",
+        "com.github.developerpaul123.filepickerlibrary:materialfabmenu:1.2",
+        "com.nispok:snackbar:2.10.6"
+      ]
+    },
+    "1.3": {
+      "fetchedAt": "2026-10-24T06:08:14Z",
+      "sha256": "6b744b2425572e565cc68115c564f8420277d4cea788815a0a27b4e151d2c673",
+      "dependencies": [
+        "com.afollestad:material-dialogs:0.6.7.2",
+        "com.android.support:appcompat-v7:22.0.0",
+        "com.android.support:cardview-v7:22.0.0",
+        "com.github.developerpaul123.filepickerlibrary:materialfabmenu:1.3",
+        "com.nispok:snackbar:2.10.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.devpaul.filepickerlibrary.FilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

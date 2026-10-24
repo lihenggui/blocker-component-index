@@ -1,0 +1,46 @@
+{
+  "coordinate": "com.feedad.android:com.feedad.android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.12": {
+      "fetchedAt": "2026-10-24T05:33:45Z",
+      "sha256": "c6f892628cad2a94dd356427094b333b374ab4a5aa80398faa92e07676db546f",
+      "dependencies": [
+        "com.google.protobuf:protobuf-lite:3.0.1"
+      ]
+    },
+    "1.1.13": {
+      "fetchedAt": "2026-10-24T05:33:44Z",
+      "sha256": "1d7abddb0a265f370dfeaf0fbf4611767f090eb152ac587b4cd2b994a8742875",
+      "dependencies": [
+        "com.google.protobuf:protobuf-lite:3.0.1"
+      ]
+    },
+    "1.1.14": {
+      "fetchedAt": "2026-10-24T05:33:43Z",
+      "sha256": "9d42e05ad2cc32efdd940cac42ab3126aebae2dd17f9cdc47967cec34659639c",
+      "dependencies": [
+        "com.google.protobuf:protobuf-lite:3.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.feedad.android.core.FeedAdService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.12",
+          "1.1.14"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

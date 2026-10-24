@@ -1,0 +1,107 @@
+{
+  "coordinate": "cat.ereza:customactivityoncrash",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T18:26:56Z",
+      "sha256": "8bc1ed6b54de1e93e342c918f25ac1fa9f7fd2cc63e636d749d4440981ee322e",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T18:26:54Z",
+      "sha256": "abe00ac0836ca43fffed930207c31cf68bea41fbeff51405eaf52effc8efe7ca",
+      "dependencies": []
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-23T18:26:52Z",
+      "sha256": "f5c5c5a05f3e7c67d00e9b85493511c2e9156780d130d34622d90997ff91b3b6",
+      "dependencies": []
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-23T18:26:50Z",
+      "sha256": "b824fc9482760986ec002e13b37c2a82531999728075d5107c7e06dc50f3fa5e",
+      "dependencies": []
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-23T18:26:48Z",
+      "sha256": "b2ccc9cf0284c749599cc092eadb8d7c8a9598fa467bba2e6f5d0a5fcafab4ba",
+      "dependencies": []
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-23T18:26:46Z",
+      "sha256": "62c61d91553d56f20f64b53d0fa846df6f91933567cb07694140176ac45a3460",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-23T18:26:44Z",
+      "sha256": "12c071a1377a25f7935d413565b00520692d088cde2842ecf05cdc8ea1bcc5ec",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-23T18:26:42Z",
+      "sha256": "efad4714e7b855647468124c026e9a886995a4e3ae42414e6b6592143858910a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-23T18:26:40Z",
+      "sha256": "6deee5932548f07d9c1cdd5f0286bb15b87db5967624c37f6ef6f563a88edd34",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.1"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-23T18:26:38Z",
+      "sha256": "f637b2de6ef1b0957a16f1d8c4f183a6a3ab6f29af4b07c2c43f553132a92cab",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-23T18:26:36Z",
+      "sha256": "886b3f40c42cf1ba8991eaa7a679adda7d98441a7c3ac4f85ea6adf2c701e40a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cat.ereza.customactivityoncrash.activity.DefaultErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":error_activity",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cat.ereza.customactivityoncrash.provider.CaocInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.customactivityoncrashinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

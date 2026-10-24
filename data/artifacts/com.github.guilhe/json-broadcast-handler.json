@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.github.guilhe:json-broadcast-handler",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T06:12:29Z",
+      "sha256": "bac92f78234cfd050b4777908936cf62caf9d8afa1779ec72edad922a6757db0",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T06:12:28Z",
+      "sha256": "bac92f78234cfd050b4777908936cf62caf9d8afa1779ec72edad922a6757db0",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.broadcast.handler.JsonBroadcasterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "JsonBroadcaster.extra"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

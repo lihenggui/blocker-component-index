@@ -1,0 +1,129 @@
+{
+  "coordinate": "com.gitee.h1281943237:adx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T05:51:23Z",
+      "sha256": "c7897dca342938280e80a745fec2a01a2b015b4f0e989e72444be2b8b87d4fab",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.material:material:1.8.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T05:51:22Z",
+      "sha256": "1981bc50e3cf8155105d28b64928d419c3cf9f45ebe925e7a33ef3eaf7b23020",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.material:material:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.beizi.ad.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dhsz.sdk.api.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dhsz.sdk.api.DHSZFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.dhszfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.dhsz.sdk.api.DownUtil",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dhsz.sdk.utils.utilcode.util.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

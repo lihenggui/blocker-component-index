@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.consoliads:mintegral-mediation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v15.4.61": {
+      "fetchedAt": "2026-10-24T04:52:55Z",
+      "sha256": "8691359a443dad0d3288b9bbf387af5715163af8f8989356d8083ee8e9031b90",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0"
+      ]
+    },
+    "v15.8.01-1.0": {
+      "fetchedAt": "2026-10-24T04:52:54Z",
+      "sha256": "8691359a443dad0d3288b9bbf387af5715163af8f8989356d8083ee8e9031b90",
+      "dependencies": []
+    },
+    "v15.8.01-1.1": {
+      "fetchedAt": "2026-10-24T04:52:53Z",
+      "sha256": "6384a99e0fcf8cadfb3c10f6b01d2004a2d1b26be400b8dd06ced113c362379f",
+      "dependencies": [
+        "com.mbridge.msdk.oversea:interactiveads:15.8.01",
+        "com.mbridge.msdk.oversea:reward:15.8.01"
+      ]
+    },
+    "v16.2.31-1.0": {
+      "fetchedAt": "2026-10-24T04:52:52Z",
+      "sha256": "7d56e8834233f89f25e26eb694b8595645d7f9991510893962b3f78463da14b9",
+      "dependencies": []
+    },
+    "16.2.31_v13_1.1": {
+      "fetchedAt": "2026-10-24T04:52:51Z",
+      "sha256": "7d56e8834233f89f25e26eb694b8595645d7f9991510893962b3f78463da14b9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.mbridge.msdk.activity.MBCommonActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v15.4.61",
+          "16.2.31_v13_1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mbridge.msdk.interactiveads.activity.InteractiveShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v15.4.61",
+          "v15.8.01-1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mbridge.msdk.interstitial.view.MBInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v15.4.61",
+          "16.2.31_v13_1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mbridge.msdk.reward.player.MBRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v15.4.61",
+          "16.2.31_v13_1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

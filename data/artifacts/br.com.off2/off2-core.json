@@ -1,0 +1,661 @@
+{
+  "coordinate": "br.com.off2:off2-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T18:16:53Z",
+      "sha256": "3e04c7ea43191897410947e18a8fc2766fa1280b9e6a6974d4a6c3798932a910",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.firebase:firebase-auth:9.6.1",
+        "com.google.firebase:firebase-core:9.6.1",
+        "com.google.firebase:firebase-database:9.6.1",
+        "com.google.firebase:firebase-messaging:9.6.1",
+        "commons-io:commons-io:2.5"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-23T18:16:51Z",
+      "sha256": "3e04c7ea43191897410947e18a8fc2766fa1280b9e6a6974d4a6c3798932a910",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.firebase:firebase-auth:9.6.1",
+        "com.google.firebase:firebase-core:9.6.1",
+        "com.google.firebase:firebase-database:9.6.1",
+        "com.google.firebase:firebase-messaging:9.6.1",
+        "commons-io:commons-io:2.5"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-23T18:16:49Z",
+      "sha256": "dd1bbf75563bb38d7283eca9745fe09b5845da805168e4504ae3cd05122f7b68",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-23T18:16:47Z",
+      "sha256": "dd1bbf75563bb38d7283eca9745fe09b5845da805168e4504ae3cd05122f7b68",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-23T18:16:45Z",
+      "sha256": "dd1bbf75563bb38d7283eca9745fe09b5845da805168e4504ae3cd05122f7b68",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-23T18:16:43Z",
+      "sha256": "dd1bbf75563bb38d7283eca9745fe09b5845da805168e4504ae3cd05122f7b68",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-23T18:16:41Z",
+      "sha256": "dd1bbf75563bb38d7283eca9745fe09b5845da805168e4504ae3cd05122f7b68",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.squareup.okhttp3:okhttp:3.11.0"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-23T18:16:39Z",
+      "sha256": "69bda0fa5c6257cb9dda6c82589c6073b1b69a0fd58fb3f9eea070b23eedb8db",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.squareup.okhttp3:okhttp:3.11.0"
+      ]
+    },
+    "0.0.9": {
+      "fetchedAt": "2026-10-23T18:16:36Z",
+      "sha256": "221e420b2e58a0d0dcf38129d39785aad6d7abc471e80d8d33f23e0d3de719f6",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.squareup.okhttp3:okhttp:3.11.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "br.com.off2.liboff2.BootCompleteReceiverACRCloud",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.BroadcastPostPublicidade",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.BroadcastPostService",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "POST_NOTIFICATION_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.BroadcastReceiverUploadBaldes",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ACTION_BROADCAST_UPLOAD_BALDE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.MyFirebaseInstanceIDService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.MyFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.NotificationDismissedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.NotificationOpenReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.RestartServiceBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "RESTART_SERVICE_ARCCLOUD"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.ServiceDownloadDb",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.ServiceIntentOffLine",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.ServiceManagerPublicidade",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.ServicePostFirstUpdate",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.ServicePostNotification",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.ServicePostPublicidade",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.ServicoOffllineOff2",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.WatchDogManagerPublicidade",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ACTION_MANAGER_PUBLICIDADE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.WatchDogServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ACTION_WATCHDOG_OF_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.WatchDogServiceReceiverStop",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ACTION_WATCHDOG_OF_SERVICE_STOP"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.WatchDogServiceUploadBlade",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ACTION_WATCHDOG_OF_SERVICE_UPLOAD"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.broadcast.BootCompleteReceiverACRCloud",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.broadcast.BroadcastServiceRecord",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.broadcast.BroadcastServiceRotina",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.broadcast.NotificationDismissedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.broadcast.NotificationOpenReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.broadcast.WatchDogServiceRotina",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.service.ServiceAppRegistro",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.service.ServiceConfigPublicidade",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.service.ServiceManagerPublicidade",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.service.ServicePostNotification",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.service.ServiceRecord",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.off2.liboff2.service.ServiceRotina",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "coordinate": "androidx.credentials.registry:registry-provider-play-services",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T17:00:16Z",
+      "sha256": "77ff6cb7a180bd0c4ce48137ec7e10ad9b191c2f1d8b65f6c643ac21966b0675",
+      "dependencies": [
+        "androidx.credentials.registry:registry-provider:1.0.0-alpha01",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha02",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T17:00:14Z",
+      "sha256": "3cc99eac36e46f3cf3270de5015b2e7548e4f317f74573aa1211e9f4d3aedcff",
+      "dependencies": [
+        "androidx.credentials.registry:registry-provider:1.0.0-alpha02",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-23T17:00:11Z",
+      "sha256": "3cc99eac36e46f3cf3270de5015b2e7548e4f317f74573aa1211e9f4d3aedcff",
+      "dependencies": [
+        "androidx.credentials.registry:registry-provider:1.0.0-alpha03",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08"
+      ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-10-23T17:00:09Z",
+      "sha256": "3cc99eac36e46f3cf3270de5015b2e7548e4f317f74573aa1211e9f4d3aedcff",
+      "dependencies": [
+        "androidx.credentials.registry:registry-provider:1.0.0-alpha04",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "1.0.0-alpha05": {
+      "fetchedAt": "2026-10-23T17:00:06Z",
+      "sha256": "3cc99eac36e46f3cf3270de5015b2e7548e4f317f74573aa1211e9f4d3aedcff",
+      "dependencies": [
+        "androidx.credentials.registry:registry-provider:1.0.0-alpha05",
+        "com.google.android.gms:play-services-identity-credentials:16.0.0-alpha08",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.credentials.registry.provider.playservices.RegistryManagerProviderMetadataHolder",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "androidx.credentials.registry.provider.REGISTRY_MANAGER_PROVIDER_KEY"
+      ]
+    }
+  ]
+}

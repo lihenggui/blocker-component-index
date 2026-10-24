@@ -1,0 +1,126 @@
+{
+  "coordinate": "com.gitee.zzhhz:HPay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T05:54:39Z",
+      "sha256": "d4320210244adcfd99e0e10ab185c33744685356968c84965f56978ba4eb1b87",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T05:54:38Z",
+      "sha256": "d4320210244adcfd99e0e10ab185c33744685356968c84965f56978ba4eb1b87",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T05:54:37Z",
+      "sha256": "d4320210244adcfd99e0e10ab185c33744685356968c84965f56978ba4eb1b87",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.08",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-24T05:54:36Z",
+      "sha256": "d4320210244adcfd99e0e10ab185c33744685356968c84965f56978ba4eb1b87",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.08",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T05:54:35Z",
+      "sha256": "d4320210244adcfd99e0e10ab185c33744685356968c84965f56978ba4eb1b87",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.08",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-24T05:54:34Z",
+      "sha256": "d4320210244adcfd99e0e10ab185c33744685356968c84965f56978ba4eb1b87",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.08",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.unionpay.UPPayWapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.pay.PaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zzh.lib.pay.wxpay.AppRegister",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "coordinate": "com.github.auryc-inc:android-sdk-dev",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T06:03:47Z",
+      "sha256": "c3f7d68835340eb3177547e34af85a73fc51835d653b2cc77d5748f819918d13",
+      "dependencies": [
+        "androidx.core:core:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.0.0",
+        "com.arthenica:mobile-ffmpeg-min-gpl:4.2.2.LTS",
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.protobuf:protobuf-lite:3.0.0",
+        "com.jakewharton.timber:timber:4.6.0",
+        "com.karumi:dexter:4.1.0",
+        "com.squareup.okhttp3:okhttp:3.8.1",
+        "com.squareup:seismic:1.0.2",
+        "io.hypertrack:smart-scheduler:0.0.11",
+        "io.jsonwebtoken:jjwt:0.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "auryc.com.callback.NetworkChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.job.CreateVideo",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.job.GarbageCleaner",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.job.UploadEvents",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.job.UploadVideo",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.service.EventUploader",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.service.GarbageCleaner",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.service.ScreenRecorder",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.service.VideoCreator",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "auryc.com.service.VideoUploader",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

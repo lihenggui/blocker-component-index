@@ -1,0 +1,74 @@
+{
+  "coordinate": "au.com.gridstone.debugdrawer:debugdrawer-timber",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.6": {
+      "fetchedAt": "2026-10-23T18:10:03Z",
+      "sha256": "9cf44f16e998dafecef7eaf48b11bf68c4943e425fca5b789d4b1ba8c7e566cb",
+      "dependencies": [
+        "androidx.core:core:1.0.2",
+        "au.com.gridstone.debugdrawer:debugdrawer:0.9.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41"
+      ]
+    },
+    "0.9.7": {
+      "fetchedAt": "2026-10-23T18:10:01Z",
+      "sha256": "9cf44f16e998dafecef7eaf48b11bf68c4943e425fca5b789d4b1ba8c7e566cb",
+      "dependencies": [
+        "androidx.core:core:1.1.0",
+        "au.com.gridstone.debugdrawer:debugdrawer:0.9.7",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.61"
+      ]
+    },
+    "0.9.8": {
+      "fetchedAt": "2026-10-23T18:09:58Z",
+      "sha256": "2d85c27bb5963f016f43dfa90048bf26a53a0674fe98ba8bf2761e7de8556e7d",
+      "dependencies": [
+        "androidx.core:core:1.3.2",
+        "au.com.gridstone.debugdrawer:debugdrawer:0.9.8",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "au.com.gridstone.debugdrawer.timber.DebugDrawerTimberFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.9.6",
+          "0.9.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.au.com.gridstone.debugdrawer.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "au.com.gridstone.debugdrawer.timber.LumberYardInstaller",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.9.6",
+          "0.9.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.lumberyard-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

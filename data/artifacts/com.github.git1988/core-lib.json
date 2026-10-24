@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.github.git1988:core-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T06:11:56Z",
+      "sha256": "8c14dca189e23e30fd99fb4430009635ca452d6e2d1b7a0a55001c22e3c26c32",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "mavenlibrary.allstate.com.mylibrary.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

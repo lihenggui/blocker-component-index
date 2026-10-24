@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.devbrackets.android:playlistcore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T05:05:08Z",
+      "sha256": "220d89ae612b83e6f8cd70ba9ca3414c2d7f82e8e45c3b257cf194be5a0d5b49",
+      "dependencies": [
+        "androidx.media:media:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.20"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T05:05:07Z",
+      "sha256": "c6e96d603896dca77c5306e51533f0cd73afe0833f8f4248bf9bd49fc4fafcc2",
+      "dependencies": [
+        "androidx.media:media:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.devbrackets.android.playlistcore.components.mediasession.DefaultMediaSessionControlsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MEDIA_BUTTON"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

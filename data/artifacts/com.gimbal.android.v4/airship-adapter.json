@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.gimbal.android.v4:airship-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:51:01Z",
+      "sha256": "2b48f3bccaf793524de0bc5470873a2a8797507ac4337ee78a531d2054f15f95",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.gimbal.android.v4:gimbal-sdk:4.8.0",
+        "com.gimbal.android.v4:gimbal-slf4j-impl:4.8.0",
+        "com.urbanairship.android:urbanairship-core:16.7.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.gimbal.airship.AirshipAdapterInitializer"
+      ]
+    },
+    {
+      "name": "com.gimbal.airship.AirshipReadyReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.urbanairship.AIRSHIP_READY"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    }
+  ]
+}

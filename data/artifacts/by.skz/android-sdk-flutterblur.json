@@ -1,0 +1,341 @@
+{
+  "coordinate": "by.skz:android-sdk-flutterblur",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.6.7.4": {
+      "fetchedAt": "2026-10-23T18:22:00Z",
+      "sha256": "d78ee81d27a39f4334e4f8cff8edea45d46d805e2b2023d23cbc27253e54eebd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.android.exoplayer:exoplayer-core:2.11.8",
+        "com.google.android.exoplayer:exoplayer-dash:2.11.8",
+        "com.google.android.exoplayer:exoplayer-ui:2.11.8",
+        "com.google.android.exoplayer:exoplayer:2.11.8",
+        "com.google.android.exoplayer:extension-ima:2.11.8",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.guava:guava:29.0-android",
+        "com.google.zxing:core:3.4.1",
+        "com.karumi:dexter:6.2.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.9"
+      ]
+    },
+    "2.6.7.5": {
+      "fetchedAt": "2026-10-23T18:21:57Z",
+      "sha256": "d78ee81d27a39f4334e4f8cff8edea45d46d805e2b2023d23cbc27253e54eebd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.android.exoplayer:exoplayer-core:2.11.8",
+        "com.google.android.exoplayer:exoplayer-dash:2.11.8",
+        "com.google.android.exoplayer:exoplayer-ui:2.11.8",
+        "com.google.android.exoplayer:exoplayer:2.11.8",
+        "com.google.android.exoplayer:extension-ima:2.11.8",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.guava:guava:29.0-android",
+        "com.google.zxing:core:3.4.1",
+        "com.karumi:dexter:6.2.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.9"
+      ]
+    },
+    "2.6.7.6": {
+      "fetchedAt": "2026-10-23T18:21:54Z",
+      "sha256": "d78ee81d27a39f4334e4f8cff8edea45d46d805e2b2023d23cbc27253e54eebd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.android.exoplayer:exoplayer-core:2.11.8",
+        "com.google.android.exoplayer:exoplayer-dash:2.11.8",
+        "com.google.android.exoplayer:exoplayer-ui:2.11.8",
+        "com.google.android.exoplayer:exoplayer:2.11.8",
+        "com.google.android.exoplayer:extension-ima:2.11.8",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.guava:guava:29.0-android",
+        "com.google.mediapipe:solution-core:RELEASE",
+        "com.google.zxing:core:3.4.1",
+        "com.karumi:dexter:6.2.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.ziggeo.androidsdk.analytics.AnalyticsIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.crashtracking.CrashTrackingIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":ziggeoCrashTracker",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.fileselector.FileSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.net.uploading.impl.UploadingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.recorder.ScreenRecordingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.ui.activities.AudioRecorderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.ui.activities.CameraRecorderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.ui.activities.ImageViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.ui.activities.PlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.ui.activities.QrScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.ui.activities.ScreenRecorderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.ui.activities.UriParserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.ziggeo.androidsdk.videoeditor.VideoEditorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.7.4",
+          "2.6.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "coordinate": "com.easemob:kefu-easeui-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.7": {
+      "fetchedAt": "2026-10-24T05:13:56Z",
+      "sha256": "83d14475f8d5ffc313561d42c67a143a266328cc3680dd765ed18a4f90448245",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0-alpha1",
+        "com.android.support:support-v4:28.0.0",
+        "com.easemob:kefu-sdk:1.2.7.1",
+        "com.github.bumptech.glide:glide:4.7.1",
+        "kefu-sdk-android:player:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hyphenate.chat.EMChatService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.chat.EMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.chat.EMMonitorReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.intent.action.USER_PRESENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.ui.BaseChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.ui.ImageGridActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.ui.LocalVideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.ui.RecorderVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.ui.ShowBigImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.ui.ShowNormalFileActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.ui.ShowVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyphenate.helpdesk.easeui.util.EaseFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.7",
+          "1.2.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ease",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

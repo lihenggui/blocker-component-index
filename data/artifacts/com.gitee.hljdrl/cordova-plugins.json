@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.gitee.hljdrl:cordova-plugins",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.1.0": {
+      "fetchedAt": "2026-10-24T05:51:31Z",
+      "sha256": "a8b5eac2ddf50a68115a9d1af355fa9840d4991679f38177e661b92fa991e560",
+      "dependencies": []
+    },
+    "9.1.0001": {
+      "fetchedAt": "2026-10-24T05:51:30Z",
+      "sha256": "a8b5eac2ddf50a68115a9d1af355fa9840d4991679f38177e661b92fa991e560",
+      "dependencies": []
+    },
+    "9.1.0002": {
+      "fetchedAt": "2026-10-24T05:51:29Z",
+      "sha256": "a8b5eac2ddf50a68115a9d1af355fa9840d4991679f38177e661b92fa991e560",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.gitee.hljdrl:cordova-framework:9.1.0002"
+      ]
+    },
+    "9.1.0003": {
+      "fetchedAt": "2026-10-24T05:51:29Z",
+      "sha256": "a8b5eac2ddf50a68115a9d1af355fa9840d4991679f38177e661b92fa991e560",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.gitee.hljdrl:cordova-framework:9.1.0003"
+      ]
+    },
+    "9.1.0004": {
+      "fetchedAt": "2026-10-24T05:51:28Z",
+      "sha256": "a8b5eac2ddf50a68115a9d1af355fa9840d4991679f38177e661b92fa991e560",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.gitee.hljdrl:cordova-framework:9.1.0004"
+      ]
+    },
+    "9.1.0006": {
+      "fetchedAt": "2026-10-24T05:51:27Z",
+      "sha256": "4c7dfdc7f4fbf2aa556ec3481ef5cebf6afee94075778f6638b4a7bcf6581a57",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.gitee.hljdrl:cordova-framework:9.1.0006"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.apache.cordova.camera.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.0006"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.cordova.plugin.camera.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

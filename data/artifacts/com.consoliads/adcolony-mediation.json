@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.consoliads:adcolony-mediation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v4.6.5": {
+      "fetchedAt": "2026-10-24T04:52:10Z",
+      "sha256": "2937f05134d0a7e7be4691ae23e3806149ebee41e18df35ed04cac46c931c10b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "native_mediation_android:consoliadsmediation:unspecified"
+      ]
+    },
+    "v4.6.5-1.0": {
+      "fetchedAt": "2026-10-24T04:52:09Z",
+      "sha256": "2937f05134d0a7e7be4691ae23e3806149ebee41e18df35ed04cac46c931c10b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.adcolony:sdk:4.6.5",
+        "com.consoliads:consoliadsmediation:v13.2.0"
+      ]
+    },
+    "v4.6.5-1.2": {
+      "fetchedAt": "2026-10-24T04:52:08Z",
+      "sha256": "2937f05134d0a7e7be4691ae23e3806149ebee41e18df35ed04cac46c931c10b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.consoliads:consoliadsmediation:v13.2.1"
+      ]
+    },
+    "v4.7.1-1.0": {
+      "fetchedAt": "2026-10-24T04:52:07Z",
+      "sha256": "a290af486807cb7a78acd4495116710187b1ac3c0208137a640628ec90ad29f8",
+      "dependencies": []
+    },
+    "v4.8.0-1.0": {
+      "fetchedAt": "2026-10-24T04:52:06Z",
+      "sha256": "74eb18b1862860a48c744811293a5ff22a77491f641849126f03cb183686e227",
+      "dependencies": []
+    },
+    "4.8.0_v13_1.0": {
+      "fetchedAt": "2026-10-24T04:52:06Z",
+      "sha256": "74eb18b1862860a48c744811293a5ff22a77491f641849126f03cb183686e227",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.consoliads:consoliadsmediation:13.2.2"
+      ]
+    },
+    "13.1.0": {
+      "fetchedAt": "2026-10-24T04:52:05Z",
+      "sha256": "2937f05134d0a7e7be4691ae23e3806149ebee41e18df35ed04cac46c931c10b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.consoliads:consoliadsmediation:13.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adcolony.sdk.AdColonyAdViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v4.6.5",
+          "13.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adcolony.sdk.AdColonyInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v4.6.5",
+          "13.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "coordinate": "com.engagelab.plugin:vivo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T05:20:26Z",
+      "sha256": "899d64a2acb67b1394cd3bfc596bface8ab82b3be6988c458dbaa12a67949b63",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-24T05:20:25Z",
+      "sha256": "899d64a2acb67b1394cd3bfc596bface8ab82b3be6988c458dbaa12a67949b63",
+      "dependencies": []
+    },
+    "4.5.3": {
+      "fetchedAt": "2026-10-24T05:20:25Z",
+      "sha256": "899d64a2acb67b1394cd3bfc596bface8ab82b3be6988c458dbaa12a67949b63",
+      "dependencies": []
+    },
+    "4.5.4": {
+      "fetchedAt": "2026-10-24T05:20:24Z",
+      "sha256": "899d64a2acb67b1394cd3bfc596bface8ab82b3be6988c458dbaa12a67949b63",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:20:23Z",
+      "sha256": "899d64a2acb67b1394cd3bfc596bface8ab82b3be6988c458dbaa12a67949b63",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T05:20:13Z",
+      "sha256": "899d64a2acb67b1394cd3bfc596bface8ab82b3be6988c458dbaa12a67949b63",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:20:23Z",
+      "sha256": "899d64a2acb67b1394cd3bfc596bface8ab82b3be6988c458dbaa12a67949b63",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:20:22Z",
+      "sha256": "f01c03a10c7cd7f77cf775ba5ca15b0ee4e58d7dee5892130136a3bc554fc3b7",
+      "dependencies": []
+    },
+    "5.2.1": {
+      "fetchedAt": "2026-10-24T05:20:21Z",
+      "sha256": "f01c03a10c7cd7f77cf775ba5ca15b0ee4e58d7dee5892130136a3bc554fc3b7",
+      "dependencies": []
+    },
+    "5.2.3": {
+      "fetchedAt": "2026-10-24T05:20:20Z",
+      "sha256": "f01c03a10c7cd7f77cf775ba5ca15b0ee4e58d7dee5892130136a3bc554fc3b7",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T05:20:20Z",
+      "sha256": "f01c03a10c7cd7f77cf775ba5ca15b0ee4e58d7dee5892130136a3bc554fc3b7",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T05:20:19Z",
+      "sha256": "f01c03a10c7cd7f77cf775ba5ca15b0ee4e58d7dee5892130136a3bc554fc3b7",
+      "dependencies": []
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T05:20:18Z",
+      "sha256": "f01c03a10c7cd7f77cf775ba5ca15b0ee4e58d7dee5892130136a3bc554fc3b7",
+      "dependencies": []
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T05:20:18Z",
+      "sha256": "fbc3573a0046a5c91558ffd0410d27545e18bc379942d93edb1626aa74fe44fd",
+      "dependencies": []
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T05:20:17Z",
+      "sha256": "7d7d24dd78aff1f4f2be0c6625d45a6c8e9143ed80340537cb5f51ea23ad382c",
+      "dependencies": []
+    },
+    "5.4.3.1": {
+      "fetchedAt": "2026-10-24T05:20:16Z",
+      "sha256": "704e54ddefc9ff12d97151867338b94ab72983f18488e6e1167e16b0769e3089",
+      "dependencies": []
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T05:20:15Z",
+      "sha256": "704e54ddefc9ff12d97151867338b94ab72983f18488e6e1167e16b0769e3089",
+      "dependencies": []
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T05:20:15Z",
+      "sha256": "704e54ddefc9ff12d97151867338b94ab72983f18488e6e1167e16b0769e3089",
+      "dependencies": []
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T05:20:14Z",
+      "sha256": "704e54ddefc9ff12d97151867338b94ab72983f18488e6e1167e16b0769e3089",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.engagelab.privates.push.platform.vivo.callback.MTVivoCallback",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.5.1",
+          "5.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.1",
+          "5.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

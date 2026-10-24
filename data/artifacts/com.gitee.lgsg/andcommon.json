@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.gitee.lgsg:andcommon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:51:55Z",
+      "sha256": "8ba81027526f5e2a3a1b2a221d0d19ba5276a088f161d6cc4e9896f4ef81103b",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T05:51:53Z",
+      "sha256": "8ba81027526f5e2a3a1b2a221d0d19ba5276a088f161d6cc4e9896f4ef81103b",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T05:51:53Z",
+      "sha256": "8ba81027526f5e2a3a1b2a221d0d19ba5276a088f161d6cc4e9896f4ef81103b",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T05:51:52Z",
+      "sha256": "50a8cd682d44bc050d1b7095d4083c22b0cf6cb3671e34178f641ffcf7640007",
+      "dependencies": []
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-24T05:51:51Z",
+      "sha256": "ab07deec96e5102f3f77d70514bef56aaa1231e081d75e1238242f2e1c136437",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.kesion.andcommon.common.service.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.service.notification.NotificationListenerService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

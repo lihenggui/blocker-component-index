@@ -1,0 +1,111 @@
+{
+  "coordinate": "cloud.proxi.sdkv3:cloud.proxi.sdkv3",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-23T18:49:00Z",
+      "sha256": "2a4157fc38519b6e61ace7e0f127675d239d846c191683c28a5f0aa129c556e4",
+      "dependencies": [
+        "TestApp:shared:1.0",
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "0.0.41": {
+      "fetchedAt": "2026-10-23T18:48:58Z",
+      "sha256": "bb2f9a59dc73860c5ea8136792a19fa913d327a2cac58f2a49a69c2a6b19e424",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-common-java8:2.5.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "androidx.room:room-runtime:2.5.2",
+        "androidx.test.ext:junit:1.1.3",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "cloud.proxi.sdkv3:cloud.proxi.sharedv3:0.0.41",
+        "com.github.yandextaxitech:binaryprefs:1.0.1",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.43.2",
+        "com.squareup.moshi:moshi-kotlin:1.13.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.3.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cloud.proxi.sdk.RebootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.41",
+          "0.0.41"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cloud.proxi.sdk.location.GeofenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.41",
+          "0.0.41"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cloud.proxi.sdk.location.LocationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.41",
+          "0.0.41"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cloud.proxi.sdk.location.services.HandleCustomEventService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.41",
+          "0.0.41"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

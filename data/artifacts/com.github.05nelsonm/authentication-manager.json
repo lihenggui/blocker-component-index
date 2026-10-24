@@ -1,0 +1,130 @@
+{
+  "coordinate": "com.github.05nelsonm:authentication-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-RC1": {
+      "fetchedAt": "2026-10-24T05:55:04Z",
+      "sha256": "d505a6ba199567b70fc988e63cec2339446421972dc07d6654fb3dafcddade10",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.databinding:databinding-adapters:3.6.2",
+        "androidx.databinding:databinding-common:3.6.2",
+        "androidx.databinding:databinding-runtime:3.6.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0",
+        "androidx.security:security-crypto:1.0.0-beta01",
+        "com.google.dagger:dagger:2.27",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.71",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
+      ]
+    },
+    "1.0.0-RC2": {
+      "fetchedAt": "2026-10-24T05:55:03Z",
+      "sha256": "29b4c9c4e3c36afc2eacee03220cc2c33be77015473f30c9a65cc63979b80977",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.databinding:databinding-adapters:3.6.3",
+        "androidx.databinding:databinding-common:3.6.3",
+        "androidx.databinding:databinding-runtime:3.6.3",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0",
+        "androidx.security:security-crypto:1.0.0-rc01",
+        "com.google.dagger:dagger:2.27",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.71",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
+      ]
+    },
+    "1.0.0-RC3": {
+      "fetchedAt": "2026-10-24T05:55:02Z",
+      "sha256": "9ecb52fe42a3f6a544f97731ef525f4d0764a12183df3ee719a2dc1e6fb7ea2d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.databinding:databinding-adapters:3.6.3",
+        "androidx.databinding:databinding-common:3.6.3",
+        "androidx.databinding:databinding-runtime:3.6.3",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0",
+        "androidx.security:security-crypto:1.0.0-rc01",
+        "com.google.dagger:dagger:2.27",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.71",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
+      ]
+    },
+    "1.0.0-RC4": {
+      "fetchedAt": "2026-10-24T05:55:01Z",
+      "sha256": "b752a908e26ad90ace8814c52ae98dd1bc23bc1b4ba2266aaa3eba74241a84c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.databinding:databinding-adapters:3.6.3",
+        "androidx.databinding:databinding-common:3.6.3",
+        "androidx.databinding:databinding-runtime:3.6.3",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0",
+        "androidx.security:security-crypto:1.0.0-rc01",
+        "com.google.dagger:dagger:2.27",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.71",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "github.zero5nelsonm.authentication_manager.ui.AuthManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-RC1",
+          "1.0.0-RC1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "github.zero5nelsonm.authentication_manager.ui.AuthenticationManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-RC2",
+          "1.0.0-RC4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "coordinate": "androidx.remotecallback:remotecallback",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-23T17:29:56Z",
+      "sha256": "4e854998e9d707f1c9afe4f0640f4b4c62208341bc3fda2b2c76374258c633ca",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.collection:collection:1.1.0-alpha01"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-23T17:29:54Z",
+      "sha256": "4e854998e9d707f1c9afe4f0640f4b4c62208341bc3fda2b2c76374258c633ca",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0-rc01",
+        "androidx.collection:collection:1.1.0-rc01"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-23T17:29:52Z",
+      "sha256": "acc6eb1bacfb20d5ef6d2810eb0f465d3edb2c058e5dd8ee10892bdce4df5ad7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.1",
+        "androidx.collection:collection:1.4.2",
+        "org.jspecify:jspecify:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.remotecallback.ProviderRelayReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-alpha03",
+          "1.0.0-alpha03"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "androidx.remotecallback.ProviderRelayReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

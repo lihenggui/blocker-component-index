@@ -1,0 +1,107 @@
+{
+  "coordinate": "com.freshworks.sdk:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1-beta": {
+      "fetchedAt": "2026-10-24T05:39:40Z",
+      "sha256": "a2fd9d0c13cd1e5f0d8f441af1dad70d18c24ae7508de0c87fa48af9ec00273a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.webkit:webkit:1.5.0",
+        "com.freshworks.sdk:backend:0.0.1-beta",
+        "com.google.android.material:material:1.8.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.google.dagger:dagger-android-support:2.48.1",
+        "com.google.dagger:dagger-android:2.48.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.2-beta": {
+      "fetchedAt": "2026-10-24T05:39:38Z",
+      "sha256": "aa1ba0d13730ed605ca076bd364c35c732df30c994262f328b898273e877d6e8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.exifinterface:exifinterface:1.3.7",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.webkit:webkit:1.10.0",
+        "com.freshworks.sdk:backend:0.0.2-beta",
+        "com.google.android.material:material:1.11.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.google.dagger:dagger-android-support:2.48.1",
+        "com.google.dagger:dagger-android:2.48.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.3-beta": {
+      "fetchedAt": "2026-10-24T05:39:37Z",
+      "sha256": "ac25cb9022582827ae3d784bfc171f087733606d0b791c53da839e0cda1fcce7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.exifinterface:exifinterface:1.3.7",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.webkit:webkit:1.10.0",
+        "com.freshworks.sdk:backend:0.0.3-beta",
+        "com.google.android.material:material:1.11.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.google.dagger:dagger-android-support:2.48.1",
+        "com.google.dagger:dagger-android:2.48.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2-beta",
+          "0.0.3-beta"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.freshworks.sdk.ui.SDKWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1-beta",
+          "0.0.3-beta"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

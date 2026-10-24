@@ -1,0 +1,114 @@
+{
+  "coordinate": "com.github.asne:asne-vk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T06:03:43Z",
+      "sha256": "78522cf5cf2eb31ae848b4e7a53eccff6e8653e3959f1f559ca88f4c413e3f71",
+      "dependencies": [
+        "com.android.support:appcompat-v7:20.0.0",
+        "com.github.asne:asne-core:0.2.0",
+        "com.vk:androidsdk:1.3.1"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-24T06:03:42Z",
+      "sha256": "78522cf5cf2eb31ae848b4e7a53eccff6e8653e3959f1f559ca88f4c413e3f71",
+      "dependencies": [
+        "com.android.support:appcompat-v7:20.0.0",
+        "com.github.asne:asne-core:0.2.1",
+        "com.vk:androidsdk:1.3.1"
+      ]
+    },
+    "0.2.8": {
+      "fetchedAt": "2026-10-24T06:03:42Z",
+      "sha256": "fd1a89722db24634f7a2b7ed2a223679a56622f32fd8d1aafc8dc9482ed54808",
+      "dependencies": [
+        "com.android.support:appcompat-v7:20.0.0",
+        "com.github.asne:asne-core:0.2.8",
+        "com.vk:androidsdk:1.3.1"
+      ]
+    },
+    "0.2.9": {
+      "fetchedAt": "2026-10-24T06:03:41Z",
+      "sha256": "fd1a89722db24634f7a2b7ed2a223679a56622f32fd8d1aafc8dc9482ed54808",
+      "dependencies": [
+        "com.android.support:appcompat-v7:20.0.0",
+        "com.github.asne:asne-core:0.2.9",
+        "com.vk:androidsdk:1.3.1"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T06:03:40Z",
+      "sha256": "fd1a89722db24634f7a2b7ed2a223679a56622f32fd8d1aafc8dc9482ed54808",
+      "dependencies": [
+        "com.android.support:appcompat-v7:20.0.0",
+        "com.github.asne:asne-core:0.3.0",
+        "com.vk:androidsdk:1.3.1"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-24T06:03:39Z",
+      "sha256": "fd1a89722db24634f7a2b7ed2a223679a56622f32fd8d1aafc8dc9482ed54808",
+      "dependencies": [
+        "com.android.support:appcompat-v7:20.0.0",
+        "com.github.asne:asne-core:0.3.1",
+        "com.vk:androidsdk:1.3.3"
+      ]
+    },
+    "0.3.3": {
+      "fetchedAt": "2026-10-24T06:03:39Z",
+      "sha256": "2006a7b4054a11f8b3f82f84a20231d148c8807be11817f31e42c68b8cfb225e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.2",
+        "com.github.asne:asne-core:0.3.3",
+        "com.vk:androidsdk:1.3.3"
+      ]
+    },
+    "0.3.3.3": {
+      "fetchedAt": "2026-10-24T06:03:38Z",
+      "sha256": "37e296ab446678e760c2a51177828b264609dbb31d12fee4f697db9d704b33e0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.github.asne:asne-core:0.3.3.3",
+        "com.vk:androidsdk:1.6.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vk.sdk.VKOpenAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.3.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vk.sdk.VKServiceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.3.3",
+          "0.3.3.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

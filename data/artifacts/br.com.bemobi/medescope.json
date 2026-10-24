@@ -1,0 +1,118 @@
+{
+  "coordinate": "br.com.bemobi:medescope",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T18:11:57Z",
+      "sha256": "9f73a766e84a85f229b53e71fc96c0908d811fc3c880c0d1badc3e4bbd100067",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.0",
+        "com.google.code.gson:gson:2.3"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-23T18:11:55Z",
+      "sha256": "166103ab66f95662b264f5929adcd89c6dfba9fcac5cad83f77eddf4e0771b3f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-23T18:11:53Z",
+      "sha256": "9c81933288cb0a33db4d2c231d8ad915479a2c43d5ee07a1ab6f6ead61980f96",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-23T18:11:51Z",
+      "sha256": "f866d339adca58e2d181af6530a2ac20803cbc3af5ac156bd475dfe7e2ca4c3c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-23T18:11:49Z",
+      "sha256": "c6d08e4ab34c00e4f3237f329bef16e5eb6d4a79c92e642a56b7038dbb70dda7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-23T18:11:47Z",
+      "sha256": "a85be241c97000cbcea9b92c84b8337e83bb1b3ed960eb39ab89009e498d40b6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-23T18:11:45Z",
+      "sha256": "0ba6de48b8aa292c2b480eb1645838915b2817ae6fa5200a03916ac4a25b9024",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.1.0",
+        "com.google.code.gson:gson:2.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "br.com.bemobi.medescope.receiver.DMDownloaderReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE",
+        "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.bemobi.medescope.service.impl.DMIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":download",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.bemobi.medescope.service.impl.DownloadCommandService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":download",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

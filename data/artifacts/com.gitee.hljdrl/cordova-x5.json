@@ -1,0 +1,98 @@
+{
+  "coordinate": "com.gitee.hljdrl:cordova-x5",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.1.0003": {
+      "fetchedAt": "2026-10-24T05:51:32Z",
+      "sha256": "0cde9753e2a0faa9b82023265e619c7224c45202b06a878353edc40085412af6",
+      "dependencies": [
+        "com.gitee.hljdrl:cordova-framework:9.1.0003",
+        "com.gitee.hljdrl:cordova-plugins:9.1.0003",
+        "com.tencent.tbs.tbssdk:sdk:43939"
+      ]
+    },
+    "9.1.0004": {
+      "fetchedAt": "2026-10-24T05:51:31Z",
+      "sha256": "f4dca38f7219ca42374035f2b96fd6fd54abec08189052452c7983888980eb85",
+      "dependencies": [
+        "com.gitee.hljdrl:cordova-framework:9.1.0004",
+        "com.gitee.hljdrl:cordova-plugins:9.1.0004",
+        "com.tencent.tbs.tbssdk:sdk:43939"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ffsky.smtt.AppCompatX5WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0003",
+          "9.1.0004"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ffsky.smtt.X5WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0003",
+          "9.1.0004"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.1.0003",
+          "9.1.0004"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.smtt.sdk.VideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0004",
+          "9.1.0004"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tencent.smtt.tbs.video.PLAY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

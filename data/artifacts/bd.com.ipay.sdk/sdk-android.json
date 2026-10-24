@@ -1,0 +1,111 @@
+{
+  "coordinate": "bd.com.ipay.sdk:sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-23T18:10:15Z",
+      "sha256": "660b1211c94aa4e82a9eda1ee93688f0d67c82a5c72ac6a7bd417ce4dfcdfe30",
+      "dependencies": [
+        "com.android.support:support-compat:28.0.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-23T18:10:13Z",
+      "sha256": "660b1211c94aa4e82a9eda1ee93688f0d67c82a5c72ac6a7bd417ce4dfcdfe30",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-compat:28.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-23T18:10:11Z",
+      "sha256": "c27ec7c20df2a518ef5a94fdf447a08ded9f875132b05b4a4547f3752ec3a485",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-compat:28.0.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-23T18:10:09Z",
+      "sha256": "c27ec7c20df2a518ef5a94fdf447a08ded9f875132b05b4a4547f3752ec3a485",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-compat:28.0.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-23T18:10:07Z",
+      "sha256": "c27ec7c20df2a518ef5a94fdf447a08ded9f875132b05b4a4547f3752ec3a485",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-compat:28.0.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-23T18:10:05Z",
+      "sha256": "51cdb997524e2480642ab31b53a05e37c8d596ea1d4185868103b8df04f0ad99",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-compat:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "bd.com.ipay.sdk.activity.IPayCheckoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "bd.com.ipay.sdk.activity.IPayWebCheckoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "bd.com.ipay.sdk.provider.IPaySDKInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.IPaySDKInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

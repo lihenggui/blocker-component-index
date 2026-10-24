@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.enioka.scanner:provider-os-athesi-spa43",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:22:22Z",
+      "sha256": "745eeb29d8878245719b41350cdba5be1a59c81c65d1ba06746c27cc917d13a8",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:22:18Z",
+      "sha256": "745eeb29d8878245719b41350cdba5be1a59c81c65d1ba06746c27cc917d13a8",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-24T05:22:21Z",
+      "sha256": "745eeb29d8878245719b41350cdba5be1a59c81c65d1ba06746c27cc917d13a8",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-24T05:22:21Z",
+      "sha256": "745eeb29d8878245719b41350cdba5be1a59c81c65d1ba06746c27cc917d13a8",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.3"
+      ]
+    },
+    "3.1.0-RC1": {
+      "fetchedAt": "2026-10-24T05:22:20Z",
+      "sha256": "745eeb29d8878245719b41350cdba5be1a59c81c65d1ba06746c27cc917d13a8",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC1"
+      ]
+    },
+    "3.1.0-RC2": {
+      "fetchedAt": "2026-10-24T05:22:19Z",
+      "sha256": "745eeb29d8878245719b41350cdba5be1a59c81c65d1ba06746c27cc917d13a8",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.enioka.scanner.sdk.athesi.SPA43LTE.AthesiSPA43LTEProvider",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.1.0-RC2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.enioka.scan.PROVIDE_SCANNER"
+      ],
+      "categories": [],
+      "metaData": [
+        "intent"
+      ]
+    }
+  ]
+}

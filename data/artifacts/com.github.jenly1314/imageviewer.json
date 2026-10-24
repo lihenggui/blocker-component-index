@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.github.jenly1314:imageviewer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T06:17:15Z",
+      "sha256": "e7a65ac88631fa6de236d00568173d56ae02ea301c9c31d092e8b556d445d262",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.github.chrisbanes:PhotoView:2.3.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T06:17:14Z",
+      "sha256": "e7a65ac88631fa6de236d00568173d56ae02ea301c9c31d092e8b556d445d262",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.github.chrisbanes:PhotoView:2.3.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T06:17:13Z",
+      "sha256": "37ba002d0302645498b04bff7bf77be6f9625a0cba635bcc8c0e33ca4205d11e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.github.chrisbanes:PhotoView:2.3.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T06:17:12Z",
+      "sha256": "59d01ff612b2c84d6f00e4c035fc98a490803d2ef172968080b60246e9918247",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.king.image.imageviewer.ImageViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.king.image.imageviewer.ImageViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "coordinate": "com.echatsoft.echatsdk.platform:download",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4.5": {
+      "fetchedAt": "2026-10-24T05:14:46Z",
+      "sha256": "82d1460dde954faad5a2c5a1763de7a1890771904d4b0f21b84ee5bed85b9997",
+      "dependencies": []
+    },
+    "1.0.4.7": {
+      "fetchedAt": "2026-10-24T05:14:45Z",
+      "sha256": "82d1460dde954faad5a2c5a1763de7a1890771904d4b0f21b84ee5bed85b9997",
+      "dependencies": []
+    },
+    "1.0.5.0": {
+      "fetchedAt": "2026-10-24T05:14:44Z",
+      "sha256": "82d1460dde954faad5a2c5a1763de7a1890771904d4b0f21b84ee5bed85b9997",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.echatsoft.echatsdk.download.DownloadFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.4.5",
+          "1.0.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DownloadFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

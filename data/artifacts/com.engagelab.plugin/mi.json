@@ -1,0 +1,251 @@
+{
+  "coordinate": "com.engagelab.plugin:mi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T05:19:42Z",
+      "sha256": "f77a502f572f5ec4da3416772c8a8947fe32ea6590fddb023d8429cb0895ceca",
+      "dependencies": []
+    },
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T05:19:42Z",
+      "sha256": "cde5059222873a690936769584cdb705c244ae6d4c1ff85df9b2904b63b39191",
+      "dependencies": []
+    },
+    "4.5.2": {
+      "fetchedAt": "2026-10-24T05:19:41Z",
+      "sha256": "cde5059222873a690936769584cdb705c244ae6d4c1ff85df9b2904b63b39191",
+      "dependencies": []
+    },
+    "4.5.3": {
+      "fetchedAt": "2026-10-24T05:19:40Z",
+      "sha256": "cde5059222873a690936769584cdb705c244ae6d4c1ff85df9b2904b63b39191",
+      "dependencies": []
+    },
+    "4.5.4": {
+      "fetchedAt": "2026-10-24T05:19:40Z",
+      "sha256": "cde5059222873a690936769584cdb705c244ae6d4c1ff85df9b2904b63b39191",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T05:19:39Z",
+      "sha256": "cde5059222873a690936769584cdb705c244ae6d4c1ff85df9b2904b63b39191",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T05:19:31Z",
+      "sha256": "cde5059222873a690936769584cdb705c244ae6d4c1ff85df9b2904b63b39191",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T05:19:38Z",
+      "sha256": "cde5059222873a690936769584cdb705c244ae6d4c1ff85df9b2904b63b39191",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T05:19:38Z",
+      "sha256": "cfd198b9c33cb090e4965ed48e9fb58ceb0b43dcf65807279b04d50aa201dd6e",
+      "dependencies": []
+    },
+    "5.2.1": {
+      "fetchedAt": "2026-10-24T05:19:37Z",
+      "sha256": "cfd198b9c33cb090e4965ed48e9fb58ceb0b43dcf65807279b04d50aa201dd6e",
+      "dependencies": []
+    },
+    "5.2.3": {
+      "fetchedAt": "2026-10-24T05:19:36Z",
+      "sha256": "cfd198b9c33cb090e4965ed48e9fb58ceb0b43dcf65807279b04d50aa201dd6e",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T05:19:35Z",
+      "sha256": "cfd198b9c33cb090e4965ed48e9fb58ceb0b43dcf65807279b04d50aa201dd6e",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T05:19:35Z",
+      "sha256": "bf7d7c0b5838bc15d71f2aea3b5cd04974f0b0244ca3f77b9377451b6323a4d5",
+      "dependencies": []
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T05:19:34Z",
+      "sha256": "bf7d7c0b5838bc15d71f2aea3b5cd04974f0b0244ca3f77b9377451b6323a4d5",
+      "dependencies": []
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T05:19:34Z",
+      "sha256": "bf7d7c0b5838bc15d71f2aea3b5cd04974f0b0244ca3f77b9377451b6323a4d5",
+      "dependencies": []
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T05:19:33Z",
+      "sha256": "f0a785b0d8787ac4a7f5f228aea94e1f6963261a2d9c666e62b3819980ad79b9",
+      "dependencies": []
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T05:19:32Z",
+      "sha256": "f0a785b0d8787ac4a7f5f228aea94e1f6963261a2d9c666e62b3819980ad79b9",
+      "dependencies": []
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T05:19:32Z",
+      "sha256": "f0a785b0d8787ac4a7f5f228aea94e1f6963261a2d9c666e62b3819980ad79b9",
+      "dependencies": []
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T05:19:31Z",
+      "sha256": "f0a785b0d8787ac4a7f5f228aea94e1f6963261a2d9c666e62b3819980ad79b9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.engagelab.privates.push.platform.mi.callback.MTMiCallback",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.4.0",
+          "5.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.engagelab.privates.push.platform.mi.callback.MTMiCallback",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "supportStyle"
+      ]
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

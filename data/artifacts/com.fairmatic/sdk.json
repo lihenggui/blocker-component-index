@@ -1,0 +1,149 @@
+{
+  "coordinate": "com.fairmatic:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:32:14Z",
+      "sha256": "d3863c993e4da45cf96e8ace256eecdb55a8fb9fe9384bb105d815495e0504d9",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T05:32:14Z",
+      "sha256": "d3863c993e4da45cf96e8ace256eecdb55a8fb9fe9384bb105d815495e0504d9",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T05:32:13Z",
+      "sha256": "d3863c993e4da45cf96e8ace256eecdb55a8fb9fe9384bb105d815495e0504d9",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T05:32:12Z",
+      "sha256": "d3863c993e4da45cf96e8ace256eecdb55a8fb9fe9384bb105d815495e0504d9",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T05:32:12Z",
+      "sha256": "d3863c993e4da45cf96e8ace256eecdb55a8fb9fe9384bb105d815495e0504d9",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T05:32:11Z",
+      "sha256": "d3863c993e4da45cf96e8ace256eecdb55a8fb9fe9384bb105d815495e0504d9",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T05:32:11Z",
+      "sha256": "d3863c993e4da45cf96e8ace256eecdb55a8fb9fe9384bb105d815495e0504d9",
+      "dependencies": []
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:32:10Z",
+      "sha256": "dba5f93cfc1ed5a0646cb2fc879f30df9b5d439cf09be59b389d79d73bbbc167",
+      "dependencies": []
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:32:09Z",
+      "sha256": "dba5f93cfc1ed5a0646cb2fc879f30df9b5d439cf09be59b389d79d73bbbc167",
+      "dependencies": []
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-24T05:32:06Z",
+      "sha256": "3978afd20023778d4782f2aab86ff3ae1c30e29c673100b2403a612db28ce141",
+      "dependencies": []
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-24T05:32:08Z",
+      "sha256": "3978afd20023778d4782f2aab86ff3ae1c30e29c673100b2403a612db28ce141",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.drivequant.drivekit:drivekit-trip-analysis:2.17.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.zendrive.sdk.android:ZendriveSDK:10.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-24T05:32:07Z",
+      "sha256": "37f59989e38fbd1381fbbae6a4f0f34e7766ed32ccce08b2259639d803927ed4",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.drivequant.drivekit:drivekit-trip-analysis:2.17.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.zendrive.sdk.android:ZendriveSDK:10.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-24T05:32:07Z",
+      "sha256": "bd78fb257a1b19b67a23d6cb6a9ff0097d8ce9f29185cd8e2519d921a4866000",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.drivequant.drivekit:drivekit-trip-analysis:2.17.0",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.fairmatic.sdk.ZendriveBroadcastReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fairmatic.sdk.utilities.FairmaticContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "3.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FairmaticContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fairmatic.sdk.zendrive.ZendriveBroadcastReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.2",
+          "3.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

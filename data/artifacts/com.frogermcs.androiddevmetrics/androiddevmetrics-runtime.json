@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.frogermcs.androiddevmetrics:androiddevmetrics-runtime",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3": {
+      "fetchedAt": "2026-10-24T05:39:44Z",
+      "sha256": "466d5a46f41020a6add22a567b28e765f0076b97864365fe904baff4571c00e5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:support-v4:23.1.1",
+        "org.aspectj:aspectjrt:1.8.8"
+      ]
+    },
+    "0.6": {
+      "fetchedAt": "2026-10-24T05:39:44Z",
+      "sha256": "16f2aad6f22853856e5e180d8c0dd4ab9e7143cc830d9aadbc4450864f5657fd",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.android.support:support-compat:26.1.0",
+        "org.aspectj:aspectjrt:1.8.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.frogermcs.androiddevmetrics.internal.ui.MetricsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3",
+          "0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

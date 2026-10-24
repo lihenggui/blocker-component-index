@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.github.05nelsonm:pin-authentication",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-24T05:55:06Z",
+      "sha256": "0dd3d0129f271d23d92a2793cef01492491499990f393afc3d0327d64fac5e8e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.databinding:databinding-adapters:4.0.0",
+        "androidx.databinding:databinding-common:4.0.0",
+        "androidx.databinding:databinding-runtime:4.0.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0",
+        "com.github.05nelsonm:encrypted-storage:1.0.0",
+        "com.google.dagger:dagger:2.27",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.matthewnelson.pin_authentication.ui.PinAuthenticationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha01"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "coordinate": "com.github.2ndlines:download",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T05:55:13Z",
+      "sha256": "9d26d4922fa8735019c0d34c6e0b3b273115542938658b12db01030451dd1c8a",
+      "dependencies": [
+        "android.arch.work:work-runtime:1.0.1",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.squareup.okhttp3:logging-interceptor:4.1.1",
+        "com.squareup.okhttp3:okhttp:4.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.work.impl.WorkManagerInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.workmanager-init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.shiplus.download.BootCompletedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.shiplus.download.DownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "com.shiplus.download.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.shiplus.download.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": ":download",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.shiplus.intent.action.DOWNLOAD_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

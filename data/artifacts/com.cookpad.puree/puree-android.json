@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.cookpad.puree:puree-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T04:55:02Z",
+      "sha256": "4689e3e817508bfa30475aa8a9c57b5fe99d8cfdc2273f9c4751c948412f755e",
+      "dependencies": [
+        "androidx.databinding:viewbinding:8.7.3",
+        "androidx.lifecycle:lifecycle-process:2.8.7",
+        "androidx.lifecycle:lifecycle-runtime:2.8.7",
+        "androidx.room:room-runtime:2.7.0-rc02",
+        "androidx.sqlite:sqlite-bundled:2.5",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.aakira:napier:2.7.1",
+        "io.insert-koin:koin-compose-viewmodel:4.0.2",
+        "io.insert-koin:koin-compose:4.0.2",
+        "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.9.0-alpha05",
+        "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.9.0-alpha05",
+        "org.jetbrains.androidx.navigation:navigation-compose:2.8.0-alpha12",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.8",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.6.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.cookpad.puree.PureeInitializer"
+      ]
+    }
+  ]
+}

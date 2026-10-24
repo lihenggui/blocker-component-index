@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.consoliads:InMobiSDK-mediation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v9.2.1": {
+      "fetchedAt": "2026-10-24T04:52:02Z",
+      "sha256": "e871ccef19636af8e2280a15b1a2b7d7843c8a86318f55debecd8fe874383821",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.browser:browser:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.consoliads:consoliadsmediation:v13.2.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.inmobi.rendering.InMobiAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v9.2.1",
+          "v9.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

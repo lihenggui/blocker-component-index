@@ -1,0 +1,54 @@
+{
+  "coordinate": "br.com.handtalk:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-23T18:15:15Z",
+      "sha256": "2c80069d98f369c9c04433e8cc7cba206fc98be44add3a145f8aca097a1b7c1d",
+      "dependencies": []
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-23T18:15:12Z",
+      "sha256": "2c80069d98f369c9c04433e8cc7cba206fc98be44add3a145f8aca097a1b7c1d",
+      "dependencies": [
+        "br.com.handtalk:unity:0.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "br.com.handtalk.androidlib.HugoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":handtalkunity",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.handtalk.androidlib.TutorialSDK",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

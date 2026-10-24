@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.github.j4velin.colorpicker:colorpicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.3": {
+      "fetchedAt": "2026-10-24T06:15:22Z",
+      "sha256": "7b0c78c09f5ec44852d9daee30da5c0c69e2b1f0ed8d942369725af6d0986ef3",
+      "dependencies": [
+        "com.android.support:palette-v7:23.1.1",
+        "com.android.support:recyclerview-v7:23.1.1"
+      ]
+    },
+    "1.2.4": {
+      "fetchedAt": "2026-10-24T06:15:21Z",
+      "sha256": "de825f5fd2d581eb2a42647bc0b521542a8762ea9bac66a507af5e11601f4adc",
+      "dependencies": [
+        "com.android.support:palette-v7:25.1.0",
+        "com.android.support:recyclerview-v7:25.1.0"
+      ]
+    },
+    "1.2.5": {
+      "fetchedAt": "2026-10-24T06:15:21Z",
+      "sha256": "06ac33713ae1d87170a7780f857a10b60f619f889ebfd0a0f25a53b6e2faa3a6",
+      "dependencies": [
+        "com.android.support:palette-v7:25.3.0",
+        "com.android.support:recyclerview-v7:25.3.0"
+      ]
+    },
+    "1.11.3": {
+      "fetchedAt": "2026-10-24T06:15:20Z",
+      "sha256": "1c6404d4de4f98d152825604d39b52a4d33f6c87ba45c7181d427bd243931771",
+      "dependencies": [
+        "com.android.support:palette-v7:[21,)",
+        "com.android.support:recyclerview-v7:[21,)"
+      ]
+    },
+    "1.20.6": {
+      "fetchedAt": "2026-10-24T06:15:20Z",
+      "sha256": "e91afdc1fd7bfc7597df20a89377e0f49b2566e9b6e8c27f6c2865f82a146dae",
+      "dependencies": [
+        "com.android.support:palette-v7:27.0.2",
+        "com.android.support:recyclerview-v7:27.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.j4velin.lib.colorpicker.ExtractFromPhoto",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.3",
+          "1.20.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

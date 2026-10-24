@@ -1,0 +1,129 @@
+{
+  "coordinate": "com.faendir.acra:acra-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.0-alpha4": {
+      "fetchedAt": "2026-10-24T05:31:42Z",
+      "sha256": "fed0aca236063cc65ec6212a06cdc15fce6e1fd6cb1da7e1c7937f1d2dbfabcc",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha4",
+        "com.google.auto.service:auto-service:1.0-rc2"
+      ]
+    },
+    "5.0.0-alpha5": {
+      "fetchedAt": "2026-10-24T05:31:42Z",
+      "sha256": "85af1c91ac65428b49194782ad080c78284250c51db761de93a88232c6f03043",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha5",
+        "com.google.auto.service:auto-service:1.0-rc2"
+      ]
+    },
+    "5.0.0-alpha6": {
+      "fetchedAt": "2026-10-24T05:31:41Z",
+      "sha256": "257822c7646726c1afe94f9f6ef9f4725c8c780d6d7997498d68e447ae43d534",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha6"
+      ]
+    },
+    "5.0.0-alpha7": {
+      "fetchedAt": "2026-10-24T05:31:40Z",
+      "sha256": "6d5bfd84dd7513e8cb4784465c56b95127b41aef267f55356b06bb06688ff25e",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha7"
+      ]
+    },
+    "5.0.0-alpha10": {
+      "fetchedAt": "2026-10-24T05:31:40Z",
+      "sha256": "d71e2e96c38ad6ed53ce2e3c015f080d53f58210d245397238805b675450d3a3",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha10"
+      ]
+    },
+    "5.0.0-alpha11": {
+      "fetchedAt": "2026-10-24T05:31:39Z",
+      "sha256": "01b7195555006ff45c85dfaf45515bd7f3727bb29fb70bf4c98f99a23e3f7e5f",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha11"
+      ]
+    },
+    "5.0.0-alpha12": {
+      "fetchedAt": "2026-10-24T05:31:38Z",
+      "sha256": "c11367ba83cc58a967acb3245fe7f0f703e5fa57835ea941f7dc2610bf20e106",
+      "dependencies": []
+    },
+    "5.0.0-alpha13": {
+      "fetchedAt": "2026-10-24T05:31:38Z",
+      "sha256": "f28021cc117b2433daf2aec40f3ee1401fa396f5dbc3f0b192314ca4a5c1c151",
+      "dependencies": [
+        "com.android.support:support-compat:25.4.0",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha13"
+      ]
+    },
+    "5.0.0-alpha14": {
+      "fetchedAt": "2026-10-24T05:31:37Z",
+      "sha256": "db82e3c24c6d1a061bb59cb80bd60b8b78db312d15bd871e3fcb2ef66eb00a8e",
+      "dependencies": [
+        "com.android.support:support-compat:25.4.0",
+        "com.faendir.acra:acra-javacore:5.0.0-alpha14"
+      ]
+    },
+    "5.0.0-rc1": {
+      "fetchedAt": "2026-10-24T05:31:36Z",
+      "sha256": "bfd84eba6482e099da774ea8325168b1df3b609f645762cb2e35a1fcdc268a0e",
+      "dependencies": [
+        "com.android.support:support-compat:25.4.0",
+        "com.faendir.acra:acra-javacore:5.0.0-rc1"
+      ]
+    },
+    "5.0.0-rc2": {
+      "fetchedAt": "2026-10-24T05:31:35Z",
+      "sha256": "6878442841de81e8650a41b6234073b6a0029d102f3909fce0dd1cd31406f04b",
+      "dependencies": [
+        "com.android.support:support-compat:25.4.0",
+        "com.faendir.acra:acra-javacore:5.0.0-rc2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.acra.attachment.AcraContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.0-alpha4",
+          "5.0.0-rc2"
+        ]
+      ],
+      "exported": false,
+      "process": ":acra",
+      "permission": null,
+      "authorities": "${applicationId}.acra",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.acra.sender.SenderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0-alpha4",
+          "5.0.0-rc2"
+        ]
+      ],
+      "exported": false,
+      "process": ":acra",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "coordinate": "ch.admin.bag.covidcertificate:sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.3.3-dev-74": {
+      "fetchedAt": "2026-10-23T18:32:27Z",
+      "sha256": "a590ff1f87d39cf5b76aae776441b380443c96a0c5de8589610b6d374eab35c1",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.room:room-ktx:2.4.2",
+        "androidx.security:security-crypto:1.0.0",
+        "ch.admin.bag.covidcertificate:sdk-core:3.3.0",
+        "com.augustcellars.cose:cose-java:1.1.0",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.3",
+        "com.squareup.moshi:moshi-adapters:1.13.0",
+        "com.squareup.moshi:moshi:1.13.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-jackson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.69",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.0"
+      ]
+    }
+  },
+  "components": []
+}

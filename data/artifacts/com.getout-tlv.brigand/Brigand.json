@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.getout-tlv.brigand:Brigand",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:50:29Z",
+      "sha256": "4359b22b5dd62c6b145d333e3a18c38981f75f268f9bc38cc8ad94ecaefe61d0",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T05:50:28Z",
+      "sha256": "ab76b64f34c3bc2e54aab3347b5c53b84ea4ba56b8320cd033ad74971a8f19ef",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T05:50:28Z",
+      "sha256": "3dbdbf7e44a1b0760600c49cd1665a1c0d579e04a57f4ea0a5e1b05b07afc8c4",
+      "dependencies": []
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T05:50:27Z",
+      "sha256": "7698f8313a9121dfeb3810cbd4abf0c9388e3c20bf5b7608e1b8f89b425f79e8",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.getout.brigand.BrigandReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.BATTERY_OKAY",
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.getout.brigand.BrigandService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "coordinate": "com.consoliads:startapp-mediation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v4.8.11": {
+      "fetchedAt": "2026-10-24T04:53:04Z",
+      "sha256": "b3f6902a8fce8cb71a529b6c42b9ed4e6896ffdb5023d104b671e985f1fa64bc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.consoliads:consoliadsmediation:v13.2.0"
+      ]
+    },
+    "v4.8.11-1.0": {
+      "fetchedAt": "2026-10-24T04:53:03Z",
+      "sha256": "b3f6902a8fce8cb71a529b6c42b9ed4e6896ffdb5023d104b671e985f1fa64bc",
+      "dependencies": []
+    },
+    "v4.8.11-1.1": {
+      "fetchedAt": "2026-10-24T04:53:03Z",
+      "sha256": "d599f8262e08c1bde390a9c3fbee081e11e3c3a5ab059ca64dbaa34cc0998932",
+      "dependencies": []
+    },
+    "v4.10.2-1.0": {
+      "fetchedAt": "2026-10-24T04:53:01Z",
+      "sha256": "e7c7a6af29113e743c44253a4524adc613d44bb1acd9bb84c662fdb632769397",
+      "dependencies": []
+    },
+    "4.10.2_v13_1.0": {
+      "fetchedAt": "2026-10-24T04:53:00Z",
+      "sha256": "e7c7a6af29113e743c44253a4524adc613d44bb1acd9bb84c662fdb632769397",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.startapp.sdk.ads.interstitials.OverlayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v4.8.11",
+          "4.10.2_v13_1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.startapp.sdk.ads.list3d.List3DActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v4.8.11",
+          "4.10.2_v13_1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.startapp.sdk.adsbase.StartAppInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "v4.8.11",
+          "4.10.2_v13_1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.startappinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.startapp.sdk.adsbase.consent.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v4.8.11",
+          "4.10.2_v13_1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "v4.8.11",
+          "4.10.2_v13_1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.startapp.sdk.cachedservice.BackgroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "v4.8.11",
+          "4.10.2_v13_1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.startapp.sdk.jobs.SchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "v4.8.11",
+          "4.10.2_v13_1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

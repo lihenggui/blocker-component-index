@@ -1,0 +1,122 @@
+{
+  "coordinate": "com.github.huliganul:projectname",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T06:14:24Z",
+      "sha256": "514cfc1f06f444b8a467db3ed3319a8cda362a6a77c6a60d09814860673ad410",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.code.gson:gson:2.7",
+        "com.squareup.retrofit2:converter-gson:2.0.0",
+        "com.squareup.retrofit2:retrofit:2.0.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T06:14:23Z",
+      "sha256": "514cfc1f06f444b8a467db3ed3319a8cda362a6a77c6a60d09814860673ad410",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.code.gson:gson:2.7",
+        "com.squareup.retrofit2:converter-gson:2.0.0",
+        "com.squareup.retrofit2:retrofit:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.tj_notifyrating.Module_NotifyRating",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.tj_notifyrating.ServiceNotification",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.tj_notifyrating.recivers.BootCompletedReciver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.tj_notifyrating.recivers.NetworkChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.tj_notifyrating.recivers.ShutdownReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_SHUTDOWN",
+        "android.intent.action.QUICKBOOT_POWEROFF"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

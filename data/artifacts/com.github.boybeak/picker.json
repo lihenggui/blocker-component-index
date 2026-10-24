@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.github.boybeak:picker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T06:05:25Z",
+      "sha256": "5526d3dc8776c527c303a54e91b0ee705b021d404a28b6b661bb3bed3afb6be9",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.boybeak.picker.PickerAgentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

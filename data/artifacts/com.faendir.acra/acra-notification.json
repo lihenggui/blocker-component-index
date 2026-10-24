@@ -1,0 +1,110 @@
+{
+  "coordinate": "com.faendir.acra:acra-notification",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.0-alpha4": {
+      "fetchedAt": "2026-10-24T05:31:59Z",
+      "sha256": "f8e703f7f32a32cbec0b7d0d979e9d5ee0bc555257d0b7ed2022f835f57ebc60",
+      "dependencies": [
+        "com.android.support:support-v4:26.0.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha4"
+      ]
+    },
+    "5.0.0-alpha5": {
+      "fetchedAt": "2026-10-24T05:31:58Z",
+      "sha256": "81d5d38663fd3456d1db7674497686fd34b22c5dd688aa364d8d5d5b35a02faf",
+      "dependencies": [
+        "com.android.support:support-v4:26.0.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha5"
+      ]
+    },
+    "5.0.0-alpha6": {
+      "fetchedAt": "2026-10-24T05:31:58Z",
+      "sha256": "c577d6b483c58404f4608e7efcb2ce5e07a58e76586d27cf1d5953463642902b",
+      "dependencies": [
+        "com.android.support:support-v4:26.0.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha6"
+      ]
+    },
+    "5.0.0-alpha7": {
+      "fetchedAt": "2026-10-24T05:31:57Z",
+      "sha256": "2d1331508e530a77a62d99fb1c1fa315a55b94f7a5b9b07247cf4796aeb79fe3",
+      "dependencies": [
+        "com.android.support:support-v4:26.0.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha7"
+      ]
+    },
+    "5.0.0-alpha10": {
+      "fetchedAt": "2026-10-24T05:31:56Z",
+      "sha256": "0eca363f69597336e6e7596c2a027f91e7ec39d8e7dc70d4bd26a2626b6cbbdd",
+      "dependencies": [
+        "com.android.support:support-v4:26.0.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha10"
+      ]
+    },
+    "5.0.0-alpha11": {
+      "fetchedAt": "2026-10-24T05:31:56Z",
+      "sha256": "42f530292da82754414db2e690d665ab81f218ce43e3191dd925007866f10e94",
+      "dependencies": [
+        "com.android.support:support-v4:26.0.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha11"
+      ]
+    },
+    "5.0.0-alpha12": {
+      "fetchedAt": "2026-10-24T05:31:55Z",
+      "sha256": "6dfd02ccb412d5c072c7d4dc89f41cd5df720af90c3ec5c1e5c145c74f3b73ac",
+      "dependencies": []
+    },
+    "5.0.0-alpha13": {
+      "fetchedAt": "2026-10-24T05:31:55Z",
+      "sha256": "ee8cf5e19604e2678dcc6e039a8966947a2f266c7a2db49007a5d85ba16aa932",
+      "dependencies": [
+        "com.android.support:support-compat:26.1.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha13"
+      ]
+    },
+    "5.0.0-alpha14": {
+      "fetchedAt": "2026-10-24T05:31:54Z",
+      "sha256": "592800fa46a9cc08e6b8162d06f42b0843c32e8f228c79464be335e8357308e0",
+      "dependencies": [
+        "com.android.support:support-compat:26.1.0",
+        "com.faendir.acra:acra-core:5.0.0-alpha14"
+      ]
+    },
+    "5.0.0-rc1": {
+      "fetchedAt": "2026-10-24T05:31:53Z",
+      "sha256": "a09b22e5353b3092af226ceb9c3837ea572ce43d8174271b6d09168eee1767bb",
+      "dependencies": [
+        "com.android.support:support-compat:26.1.0",
+        "com.faendir.acra:acra-core:5.0.0-rc1"
+      ]
+    },
+    "5.0.0-rc2": {
+      "fetchedAt": "2026-10-24T05:31:52Z",
+      "sha256": "5c3b0189299ca90bba1620dbdc4f8d5a1fcb7d8cbdcc7f5d1a0f9b6732ba7397",
+      "dependencies": [
+        "com.android.support:support-compat:26.1.0",
+        "com.faendir.acra:acra-core:5.0.0-rc2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.acra.receiver.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0-alpha4",
+          "5.0.0-rc2"
+        ]
+      ],
+      "exported": false,
+      "process": ":acra",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

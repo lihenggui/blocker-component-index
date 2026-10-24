@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.github.jenly1314:base-url-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T06:17:08Z",
+      "sha256": "59816532488b69a227d5e077888c72b452b368187bdaa17e569b146bc2b1ac68",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.recyclerview:recyclerview:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.king.base.baseurlmanager.BaseUrlManagerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.xxprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

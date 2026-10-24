@@ -1,0 +1,68 @@
+{
+  "coordinate": "com.foursquare:placepicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5.7": {
+      "fetchedAt": "2026-10-24T05:38:31Z",
+      "sha256": "9443dece1d4f8e8a37a4081402189f70d9791e14800f0ad36daebcd329039e1a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.android.support:recyclerview-v7:23.1.0",
+        "com.google.android.gms:play-services-base:8.3.0",
+        "com.google.android.gms:play-services-location:8.3.0",
+        "com.google.code.gson:gson:2.5",
+        "com.jakewharton.rxbinding:rxbinding:0.1.0",
+        "com.squareup.okhttp:okhttp:2.7.0",
+        "io.reactivex:rxandroid:1.0.1"
+      ]
+    },
+    "0.6.0": {
+      "fetchedAt": "2026-10-24T05:38:30Z",
+      "sha256": "9443dece1d4f8e8a37a4081402189f70d9791e14800f0ad36daebcd329039e1a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.foursquare:core:1.0-SNAPSHOT",
+        "com.google.android.gms:play-services-base:8.3.0",
+        "com.google.android.gms:play-services-location:8.3.0",
+        "com.google.code.gson:gson:2.5",
+        "com.jakewharton.rxbinding:rxbinding:0.1.0",
+        "com.squareup.okhttp:okhttp:2.7.0",
+        "io.reactivex:rxandroid:1.0.1"
+      ]
+    },
+    "0.6.1": {
+      "fetchedAt": "2026-10-24T05:38:29Z",
+      "sha256": "9443dece1d4f8e8a37a4081402189f70d9791e14800f0ad36daebcd329039e1a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.google.android.gms:play-services-base:8.3.0",
+        "com.google.android.gms:play-services-location:8.3.0",
+        "com.google.code.gson:gson:2.5",
+        "com.jakewharton.rxbinding:rxbinding:0.1.0",
+        "com.squareup.okhttp:okhttp:2.7.0",
+        "io.reactivex:rxandroid:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.foursquare.placepicker.PlacePicker",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5.7",
+          "0.6.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

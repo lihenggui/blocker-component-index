@@ -1,0 +1,102 @@
+{
+  "coordinate": "com.dji:dji-sdk-alpha",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.16.5-a1": {
+      "fetchedAt": "2026-10-24T05:08:48Z",
+      "sha256": "643c4ae4da8b8941eefb9f39e3667c050fab83e4e98c3de54906ea8338690411",
+      "dependencies": [
+        "com.dji:fly-safe-database:1.0.19",
+        "com.dji:library-anti-distortion:4.7",
+        "com.dji:library-networkrtk-helper:2.0.2",
+        "com.dji:utmiss:1.2.1",
+        "com.google.code.gson:gson:2.8.2",
+        "com.lmax:disruptor:3.3.9",
+        "com.squareup.okio:okio:1.15.0",
+        "com.squareup.wire:wire-runtime:2.2.0",
+        "com.vividsolutions:jts:1.8",
+        "org.bouncycastle:bcpkix-jdk15on:1.57",
+        "org.bouncycastle:bcprov-jdk15on:1.57",
+        "org.greenrobot:eventbus:3.0.0",
+        "org.reactivestreams:reactive-streams:1.0.0"
+      ]
+    },
+    "4.17-a1": {
+      "fetchedAt": "2026-10-24T05:08:47Z",
+      "sha256": "e91e6dcdbaf23db42b1e47d67c84804f52f0d3c2e4ac3191fcb23c77097d1581",
+      "dependencies": [
+        "com.dji:fly-safe-database:1.0.19",
+        "com.dji:library-anti-distortion:4.7",
+        "com.dji:library-networkrtk-helper:2.0.2",
+        "com.dji:utmiss:1.2.1",
+        "com.google.code.gson:gson:2.8.2",
+        "com.lmax:disruptor:3.3.9",
+        "com.squareup.okio:okio:1.15.0",
+        "com.squareup.wire:wire-runtime:2.2.0",
+        "com.vividsolutions:jts:1.8",
+        "org.bouncycastle:bcpkix-jdk15on:1.57",
+        "org.bouncycastle:bcprov-jdk15on:1.57",
+        "org.greenrobot:eventbus:3.0.0",
+        "org.reactivestreams:reactive-streams:1.0.0"
+      ]
+    },
+    "4.18-a1": {
+      "fetchedAt": "2026-10-24T05:08:46Z",
+      "sha256": "e91e6dcdbaf23db42b1e47d67c84804f52f0d3c2e4ac3191fcb23c77097d1581",
+      "dependencies": [
+        "com.dji:fly-safe-database:1.0.19",
+        "com.dji:library-anti-distortion:4.7",
+        "com.dji:library-networkrtk-helper:2.0.2",
+        "com.dji:utmiss:1.2.1",
+        "com.google.code.gson:gson:2.8.2",
+        "com.lmax:disruptor:3.3.9",
+        "com.squareup.okio:okio:1.15.0",
+        "com.squareup.wire:wire-runtime:2.2.0",
+        "com.vividsolutions:jts:1.8",
+        "org.bouncycastle:bcpkix-jdk15on:1.57",
+        "org.bouncycastle:bcprov-jdk15on:1.57",
+        "org.greenrobot:eventbus:3.0.0",
+        "org.reactivestreams:reactive-streams:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dji.logic.receiver.DJIPilotStartupReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.16.5-a1",
+          "4.18-a1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "dji.go3.STARTUP",
+        "dji.go4.STARTUP"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dji.sdk.sdkmanager.DJIGlobalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.16.5-a1",
+          "4.18-a1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

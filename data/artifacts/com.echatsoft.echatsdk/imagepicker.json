@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.echatsoft.echatsdk:imagepicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T05:15:55Z",
+      "sha256": "8c15aa9aee1ecadae4c89d188e283c859fd6bf85eaf9d0e6d40002c4d02d3c14",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "it.sephiroth.android.library.imagezoom:library:1.0.4"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-24T05:15:55Z",
+      "sha256": "8c15aa9aee1ecadae4c89d188e283c859fd6bf85eaf9d0e6d40002c4d02d3c14",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "it.sephiroth.android.library.imagezoom:library:1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.echat.matisse.internal.ui.AlbumPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.echat.matisse.internal.ui.SelectedPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.echat.matisse.ui.MatisseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

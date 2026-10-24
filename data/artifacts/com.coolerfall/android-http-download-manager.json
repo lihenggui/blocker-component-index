@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.coolerfall:android-http-download-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.0": {
+      "fetchedAt": "2026-10-24T04:55:10Z",
+      "sha256": "d09d6a997672f6874d917a6bda41a4db9a8625984d527265decce9ea7f543bab",
+      "dependencies": []
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-24T04:55:09Z",
+      "sha256": "d09d6a997672f6874d917a6bda41a4db9a8625984d527265decce9ea7f543bab",
+      "dependencies": []
+    },
+    "1.6.2": {
+      "fetchedAt": "2026-10-24T04:55:08Z",
+      "sha256": "a0ccf10e047411394a7adbcc9edab15c57b2fdf4dd5c93f1157e0495dd33b459",
+      "dependencies": []
+    },
+    "1.6.3": {
+      "fetchedAt": "2026-10-24T04:55:08Z",
+      "sha256": "556121b90fe5e85ade85a3e806495cdc75e24fe24164e32e424dc19f7b51eb12",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T04:55:07Z",
+      "sha256": "b7de1ff9d34ad956bac3d3aac0659f3599d8eadbea0642487c25a9257c532b90",
+      "dependencies": []
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T04:55:06Z",
+      "sha256": "e9ab050ffae595a7bc65bb601aae25e5a83170915febacf4dcee23874ecd4951",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.coolerfall.download.DownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.coolerfall.download",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

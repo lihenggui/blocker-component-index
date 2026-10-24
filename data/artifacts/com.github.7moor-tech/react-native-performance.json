@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.github.7moor-tech:react-native-performance",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0-jitsi-19686623": {
+      "fetchedAt": "2026-10-24T05:56:18Z",
+      "sha256": "bcda9d6054daff54e813a5465a8fedc6d1b0824ca2552c779d2852d3c95e1eac",
+      "dependencies": [
+        "com.facebook.react:react-native:0.69"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.oblador.performance.StartTimeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0-jitsi-19686623",
+          "2.1.0-jitsi-19686623"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.start.time.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

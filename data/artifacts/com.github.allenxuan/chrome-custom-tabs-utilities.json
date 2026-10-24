@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.github.allenxuan:chrome-custom-tabs-utilities",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T06:01:07Z",
+      "sha256": "42b0a519ae057dcaf7f2d241f19fbb90da60d1b3572cb5d8d60822cedea619f7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T06:01:06Z",
+      "sha256": "e28cc6a6e99d49f750a035b3980037abbfd326ff20d6e9eb111d57985bbf1dd8",
+      "dependencies": [
+        "com.android.support:customtabs:23.1.1",
+        "com.thefinestartist:finestwebview:1.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.allenxuan.xuanyihuang.chromecustomtabsutilities.ShareBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.allenxuan.xuanyihuang.chromecustomtabsutilities.WebviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.thefinestartist.finestwebview.FinestWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.0",
+          "0.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

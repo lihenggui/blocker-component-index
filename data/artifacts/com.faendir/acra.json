@@ -1,0 +1,87 @@
+{
+  "coordinate": "com.faendir:acra",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.9.3": {
+      "fetchedAt": "2026-10-24T05:32:05Z",
+      "sha256": "849c3e7e593fbe77a72eed23db66cceb342ab1f5b29238bf6ddd716821e29db7",
+      "dependencies": [
+        "com.android.support:support-annotations:24.1.1",
+        "com.android.support:support-v4:24.1.1"
+      ]
+    },
+    "4.9.4": {
+      "fetchedAt": "2026-10-24T05:32:04Z",
+      "sha256": "5a820b86c43fb2d57780c20535e71477d904b81cd7d02afb2a9b8fe05472070d",
+      "dependencies": [
+        "com.android.support:support-annotations:24.1.1",
+        "com.android.support:support-v4:24.1.1"
+      ]
+    },
+    "4.10.0": {
+      "fetchedAt": "2026-10-24T05:32:03Z",
+      "sha256": "c64406f4b162e8a5b31ec8c614f788942eba6565fe414edb989f823aa1bfc352",
+      "dependencies": [
+        "com.android.support:support-annotations:24.1.1",
+        "com.android.support:support-v4:24.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.acra.attachment.AcraContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.9.3",
+          "4.9.3"
+        ],
+        [
+          "4.10.0",
+          "4.10.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":acra",
+      "permission": null,
+      "authorities": "${applicationId}.acra",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.acra.dialog.CrashReportDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.3",
+          "4.10.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":acra",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.acra.sender.SenderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.9.3",
+          "4.10.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":acra",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

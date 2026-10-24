@@ -1,0 +1,781 @@
+{
+  "coordinate": "com.fillr:fillrcore-fillrembedded",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "8.7.0": {
+      "fetchedAt": "2026-10-24T05:34:36Z",
+      "sha256": "8cfb30ef195caab60234de176adff778a919e1a51d2a0670dddc0527f91bc442",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.0",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.0",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.1": {
+      "fetchedAt": "2026-10-24T05:34:35Z",
+      "sha256": "e64f20585daf039403af89bab48fc6c1ff3c6fc1037628fb8381c99495d602d6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.1",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.1",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.3": {
+      "fetchedAt": "2026-10-24T05:34:34Z",
+      "sha256": "74928dceaeedd81004d8e6baffeaf56feab95d7e71f97fb00f752acb63e61408",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.3",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.3",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.4": {
+      "fetchedAt": "2026-10-24T05:34:34Z",
+      "sha256": "d8006ce02ebb99d0506f67430b2201747b3d2311432d1c076f2164cd9e028b9d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.4",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.4",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.5": {
+      "fetchedAt": "2026-10-24T05:34:33Z",
+      "sha256": "132c0de0b065d7b4d4c639083a35336eb979ad38734a4ff71dcd7a1f5a7459dc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.5",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.5",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.6": {
+      "fetchedAt": "2026-10-24T05:34:32Z",
+      "sha256": "b578285c86e59d3059629b1075fa2a6842e267993e49f83c11993ec64c75bd2d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.6",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.6",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.8": {
+      "fetchedAt": "2026-10-24T05:34:32Z",
+      "sha256": "c7c27007a97a6df7cf817024467f1a62ff453a283a8fa0e73e3ebd1123fb6ff5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.8",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.8",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.9": {
+      "fetchedAt": "2026-10-24T05:34:31Z",
+      "sha256": "d4b51f4a515b05cfb7d4d935a25e0a1b2b875eab60a1404f6b373c30d2b2ca1b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.9",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.9",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.10": {
+      "fetchedAt": "2026-10-24T05:34:30Z",
+      "sha256": "6c8f6c356ca4253bc29aebd63863a2737af516f0bef2d929c2f68ddac8bffb19",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.10",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.10",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.12": {
+      "fetchedAt": "2026-10-24T05:34:29Z",
+      "sha256": "7a8e4dafc2eea59c961e8e326fc0a777865c76abb5544d0a39d2d4474c929be2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.12",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.12",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.14-QA": {
+      "fetchedAt": "2026-10-24T05:34:29Z",
+      "sha256": "e14f1a4ab569a5b94bd19e09004ed60214843a9bfe1f52bdf166a4e90b5d3615",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.14-QA",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.14-QA",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.6.0",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.16": {
+      "fetchedAt": "2026-10-24T05:34:28Z",
+      "sha256": "27916c19f145cade6e52cc3f91414d68088227f64cf3a6ec28500b5d2ecb0ef5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.16",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.16",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.7.17": {
+      "fetchedAt": "2026-10-24T05:34:27Z",
+      "sha256": "4905bb661574df160f8893c90b75c8f114fb3aeaa9ba72f2ecbb342ee2293b49",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.fillr:fillr-analytics:8.7.17",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.7.17",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.8.4": {
+      "fetchedAt": "2026-10-24T05:34:26Z",
+      "sha256": "a26ceba45cd5f0a01b99ee93dfa7f69acf6dc63c43dc4f2107064c462d52f4a2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.datadoghq:dd-sdk-android-timber:1.10.0",
+        "com.datadoghq:dd-sdk-android:1.10.0",
+        "com.fillr:fillr-analytics:8.8.4",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.8.4",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.8.5-rakuten-rewards": {
+      "fetchedAt": "2026-10-24T05:34:26Z",
+      "sha256": "7cf78b996a88a1ce07c54065adf326d1c5faacdb2c71df5101d6f4e40b16a1c4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.datadoghq:dd-sdk-android-timber:1.10.0",
+        "com.datadoghq:dd-sdk-android:1.10.0",
+        "com.fillr:fillr-analytics:8.8.5-rakuten-rewards",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.8.5-rakuten-rewards",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.8.7-alpha": {
+      "fetchedAt": "2026-10-24T05:34:25Z",
+      "sha256": "3538f5d021ebf7fc504c4deeb5db74e64b8dc0060c596633f41d0644a7161216",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.datadoghq:dd-sdk-android-timber:1.10.0",
+        "com.datadoghq:dd-sdk-android:1.10.0",
+        "com.fillr:fillr-analytics:8.8.7-alpha",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.8.7-alpha",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.8.11": {
+      "fetchedAt": "2026-10-24T05:34:24Z",
+      "sha256": "1a5f233cc835975ea22f99c003e8f2b421236d3542e196dd404f31f7d3bab818",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.datadoghq:dd-sdk-android-timber:1.10.0",
+        "com.datadoghq:dd-sdk-android:1.10.0",
+        "com.fillr:fillr-analytics:8.8.11",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.8.11",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.8.12-alpha": {
+      "fetchedAt": "2026-10-24T05:34:24Z",
+      "sha256": "3d7f908b3fe7a85393089d3f0f73ad01597107468cdf32f447ef311286814567",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.datadoghq:dd-sdk-android-timber:1.10.0",
+        "com.datadoghq:dd-sdk-android:1.10.0",
+        "com.fillr:fillr-analytics:8.8.12-alpha",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.8.12-alpha",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.8.12": {
+      "fetchedAt": "2026-10-24T05:34:23Z",
+      "sha256": "00014854d5c25eed95ea138f9b8aed501763ceb9e9f9683d6f82e018a74f21a3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.datadoghq:dd-sdk-android-timber:1.10.0",
+        "com.datadoghq:dd-sdk-android:1.10.0",
+        "com.fillr:fillr-analytics:8.8.12",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.8.12",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    },
+    "8.9.0": {
+      "fetchedAt": "2026-10-24T05:34:23Z",
+      "sha256": "b3750bc7b5e92211e324843736112c2441f93e7f7f93b28f0666da58ffbbcca9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.datadoghq:dd-sdk-android-timber:1.10.0",
+        "com.datadoghq:dd-sdk-android:1.10.0",
+        "com.fillr:fillr-analytics:8.9.0",
+        "com.fillr:fillr-browser-sdk-fillrdefault:8.9.0",
+        "com.google.android.gms:play-services-places:16.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.androidannotations:androidannotations-api:4.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.fillr.embedded.browsersdk.activity.FESDKMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.7.14-QA"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.embedded.browsersdk.activity.FESDKMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "8.7.16",
+          "8.9.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.embedded.profile.FEMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.7.14-QA"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.embedded.profile.FEMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "8.7.16",
+          "8.9.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.nativeautofill.FillrNativeAutofillService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.7.14-QA"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_AUTOFILL",
+      "authorities": null,
+      "actions": [
+        "android.service.autofill.AutofillService"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.autofill"
+      ]
+    },
+    {
+      "name": "com.fillr.service.AddressImportService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.AddressMappingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.AffiliateLinkService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fillr.service.AffiliateLinkService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.CaptureFieldsMappingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fillr.service.CaptureFieldsMappingService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.DownloadSchemaService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.FeatureFlagsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fillr.service.FeatureFlagsService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.HeadlessFillMappingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fillr.service.HeadlessFillMappingService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.PageEventService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fillr.service.PageEventService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.PerformanceStatsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.fillr.service.PerformanceStatsService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fillr.service.UserRegistrationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.7.0",
+          "8.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

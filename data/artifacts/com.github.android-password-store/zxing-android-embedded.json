@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.github.android-password-store:zxing-android-embedded",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.2.0": {
+      "fetchedAt": "2026-10-24T06:02:13Z",
+      "sha256": "ef390c18c1def5f3180ee80726261514b677922e2246f297833f7e04a97dbc12",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core:1.3.0",
+        "androidx.fragment:fragment:1.2.5",
+        "com.google.zxing:core:3.4.0"
+      ]
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-24T06:02:12Z",
+      "sha256": "ef390c18c1def5f3180ee80726261514b677922e2246f297833f7e04a97dbc12",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core:1.6.0",
+        "androidx.fragment:fragment:1.3.6",
+        "com.google.zxing:core:3.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.journeyapps.barcodescanner.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

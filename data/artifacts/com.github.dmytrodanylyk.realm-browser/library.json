@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.github.dmytrodanylyk.realm-browser:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T06:08:53Z",
+      "sha256": "d234a5db5404682c68a32083b42e19595dc4460f15afacd5f3a93a44bb60a90e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "com.android.support:recyclerview-v7:21.0.3",
+        "com.android.support:support-annotations:21.0.3",
+        "io.realm:realm-android:0.80.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T06:08:52Z",
+      "sha256": "f67046571d74bce831e5669bdf78b243afa7b7937939f389c253ab3d5acb6391",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "com.android.support:recyclerview-v7:21.0.3",
+        "com.android.support:support-annotations:21.0.3",
+        "io.realm:realm-android:0.80.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T06:08:51Z",
+      "sha256": "a76e520679934a3304ec1714146e574a529c8a2870ed3e55400da594f57d0494",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "com.android.support:recyclerview-v7:21.0.3",
+        "com.android.support:support-annotations:21.0.3",
+        "io.realm:realm-android:0.80.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dd.realmbrowser.RealmBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dd.realmbrowser.RealmFilesActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dd.realmbrowser.RealmModelsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dd.realmbrowser.SettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

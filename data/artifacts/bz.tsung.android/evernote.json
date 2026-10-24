@@ -1,0 +1,54 @@
+{
+  "coordinate": "bz.tsung.android:evernote",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-RC4": {
+      "fetchedAt": "2026-10-23T18:23:02Z",
+      "sha256": "e609c979ac94b43b6d7f2dfe6dc0de7ee74b8aa509394feb68b6e4b8d4a32808",
+      "dependencies": [
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.evernote:evernote-api:1.25.1",
+        "com.squareup.okhttp:okhttp:2.4.0",
+        "commons-codec:commons-codec:1.15",
+        "net.vrallev.android:android-task:1.0.7",
+        "org.scribe:scribe:1.3.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.evernote.client.android.EvernoteOAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0-RC4",
+          "2.0.0-RC4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.client.android.login.EvernoteLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0-RC4",
+          "2.0.0-RC4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

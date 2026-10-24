@@ -1,0 +1,46 @@
+{
+  "coordinate": "com.dpforge:autoprefs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T05:11:25Z",
+      "sha256": "b6dae023835009d2c5f366fa4c955537288e842856c4a53367514cef8fc6986c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T05:11:25Z",
+      "sha256": "b6dae023835009d2c5f366fa4c955537288e842856c4a53367514cef8fc6986c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T05:11:24Z",
+      "sha256": "b6dae023835009d2c5f366fa4c955537288e842856c4a53367514cef8fc6986c",
+      "dependencies": [
+        "com.android.support:support-annotations:27.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dpforge.autoprefs.ContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.dpforge.autoprefs",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.cloneagain:app",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T06:07:25Z",
+      "sha256": "36e344fea660fc89a48c843710d17aa6f91995fb9f09911ad762abf2739e34c8",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hl.androlib.SanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

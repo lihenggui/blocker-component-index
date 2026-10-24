@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.esmartwave.analytics.androidsdk:TrackingSystemSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T05:23:44Z",
+      "sha256": "7c47294d51698df3bcc6d9fb81a0f091d15c2210075e664eaa2c6959f3ef931b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.alibaba:fastjson:1.1.55.android"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T05:23:43Z",
+      "sha256": "60824c6e6e6e7bae5abd133761848475c819ee581b7532bda597a07f318559a3",
+      "dependencies": []
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T05:23:43Z",
+      "sha256": "60824c6e6e6e7bae5abd133761848475c819ee581b7532bda597a07f318559a3",
+      "dependencies": []
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T05:23:42Z",
+      "sha256": "60824c6e6e6e7bae5abd133761848475c819ee581b7532bda597a07f318559a3",
+      "dependencies": []
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T05:23:41Z",
+      "sha256": "2b97f782d1bbd5c58e03c79d4c6e4a20e6c68a2008324639065227e422bd1583",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-24T05:23:41Z",
+      "sha256": "2b97f782d1bbd5c58e03c79d4c6e4a20e6c68a2008324639065227e422bd1583",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-24T05:23:40Z",
+      "sha256": "a219a4efc691815055bcabe490ace48ad28c7e4dca0f29891dc99082ac1868c9",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0"
+      ]
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-24T05:23:39Z",
+      "sha256": "ca673db3f2f42cc4fa04728a6e37b74fbb6332a650e91460cf2e0f2ea26aab39",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0"
+      ]
+    },
+    "2.0.9": {
+      "fetchedAt": "2026-10-24T05:23:39Z",
+      "sha256": "82506458dfa72889ca8d56a3b8d1fc74f8c60f0e368a9bf6eda66a695c75b8a3",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.room:room-rxjava2:2.3.0",
+        "androidx.room:room-rxjava3:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mdsoftware.trackingsystemsdk.data.TSContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TSContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

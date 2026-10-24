@@ -1,0 +1,85 @@
+{
+  "coordinate": "com.geniussports:geniussports-widgets-loader",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T05:48:52Z",
+      "sha256": "2ba0e1a234f91380f73b199130b3551b147f3d8c47abe4c28d8e17be5b7ea639",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T05:48:51Z",
+      "sha256": "1ee08b97c3d1fc5e677fbea80f9144595d570d94b2864a5032d8f2fd62bd1b97",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T05:48:50Z",
+      "sha256": "24d284d6d2a3d2e1e4402da6c05f1bb5519a975747f3f68df0d67e098b964535",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-24T05:48:50Z",
+      "sha256": "929ce87aaea60355fdabfa0ede0c9f00dd9f6f4acd70e7846de97505ea6b9a3f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T05:48:49Z",
+      "sha256": "8bc8029f1108bb0ea38b19b701cc8d28d6aa435820d6d0acec76c1e281a43a46",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.geniussports.com.sportsgenius.LibraryHomeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sportsgenius.LibraryHomeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

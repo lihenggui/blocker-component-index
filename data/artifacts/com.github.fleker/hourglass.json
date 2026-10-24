@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.github.fleker:hourglass",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T06:10:55Z",
+      "sha256": "320dd04ab3343d22fe5371903910e1e55bc120aa55a163b7e16fb5624e010a05",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.github.fleker:materialpreferencesactivity:0.1.2",
+        "com.github.fleker:settingsmanager-wear:1.2.1",
+        "com.google.android.gms:play-services-wearable:8.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.felkertech.hourglass_library_mobile.SettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

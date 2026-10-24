@@ -1,0 +1,92 @@
+{
+  "coordinate": "com.github.asne.library:asne",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T06:03:23Z",
+      "sha256": "94956971aefa7660c6972813d9b2d2e35426b157019fb5216a8ba85e4a3909ca",
+      "dependencies": [
+        "com.android.support:support-v4:19.+",
+        "com.google.android.gms:play-services:4.3.23",
+        "com.vk:androidsdk:1.3.1",
+        "fr.avianey:facebook-android-api:3.16.0",
+        "org.twitter4j:twitter4j-core:4.0.2"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-24T06:03:23Z",
+      "sha256": "c41a5c96fca9fe7ce60b14a42c474e40d99fcee60b6df9c7943ec32d5c8cb97e",
+      "dependencies": [
+        "com.android.support:support-v4:19.+",
+        "com.github.asne.facebook:facebook:3.15.0",
+        "com.google.android.gms:play-services:4.3.23",
+        "com.vk:androidsdk:1.3.1",
+        "org.twitter4j:twitter4j-core:4.0.1"
+      ]
+    },
+    "0.1.3": {
+      "fetchedAt": "2026-10-24T06:03:22Z",
+      "sha256": "5c55a9079d9929bf8d021c78f990502ab550399f7663bacf0f95829b3d5b9e7a",
+      "dependencies": [
+        "com.android.support:support-v4:19.+",
+        "com.github.asne.facebook:facebook:3.15.0",
+        "com.google.android.gms:play-services:4.3.23",
+        "com.vk:androidsdk:1.3.1",
+        "org.twitter4j:twitter4j-core:4.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.androidsocialnetworks.lib.OAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vk.sdk.VKOpenAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.enioka.scanner:provider-os-zebra-dw",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T05:22:55Z",
+      "sha256": "e609d5a2e6fde524ce18995b87b4ed59b5dbbedce360033d3f2ebc1c116ceecd",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T05:22:51Z",
+      "sha256": "e609d5a2e6fde524ce18995b87b4ed59b5dbbedce360033d3f2ebc1c116ceecd",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-24T05:22:54Z",
+      "sha256": "e609d5a2e6fde524ce18995b87b4ed59b5dbbedce360033d3f2ebc1c116ceecd",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-24T05:22:53Z",
+      "sha256": "e609d5a2e6fde524ce18995b87b4ed59b5dbbedce360033d3f2ebc1c116ceecd",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.0.3"
+      ]
+    },
+    "3.1.0-RC1": {
+      "fetchedAt": "2026-10-24T05:22:52Z",
+      "sha256": "e609d5a2e6fde524ce18995b87b4ed59b5dbbedce360033d3f2ebc1c116ceecd",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC1"
+      ]
+    },
+    "3.1.0-RC2": {
+      "fetchedAt": "2026-10-24T05:22:52Z",
+      "sha256": "e609d5a2e6fde524ce18995b87b4ed59b5dbbedce360033d3f2ebc1c116ceecd",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.enioka.scanner:enioka-scan-core:3.1.0-RC2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.enioka.scanner.sdk.zebra.dw.ZebraDwProvider",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.1.0-RC2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.enioka.scan.PROVIDE_SCANNER"
+      ],
+      "categories": [],
+      "metaData": [
+        "intent"
+      ]
+    }
+  ]
+}
