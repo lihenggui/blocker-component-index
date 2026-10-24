@@ -237,4 +237,25 @@ class RepositoryTests(FixtureTest):
         self.store.seed("org.example:sdk", url)
         client = FixtureClient({metadata_url(url, "org.example:sdk"): response(b"", status=401)})
         self.assertTrue(enumerate_artifacts(self.store, client))
-        self.assertFalse(Store(self.root).state.get("enumerate"))
+        self.assertEqual(Store(self.root).state["enumerate"]["queue"], [])
+        self.assertNotIn("org.example:sdk", Store(self.root).state.get("artifacts", {}))
+
+    def test_given_finished_enumeration_in_current_cycle_when_rerun_then_only_new_repositories_are_requested(self):
+        first = self.repository()
+        self.store.seed("org.example:sdk", first)
+        self.assertTrue(enumerate_artifacts(self.store, FixtureClient({metadata_url(first, "org.example:sdk"): response(metadata_fixture())})))
+        second = self.repository("https://second.example.org/repo")
+        self.store.seed("org.other:sdk", second)
+        client = FixtureClient({metadata_url(second, "org.other:sdk"): response(metadata_fixture("org.other:sdk"))})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual([url for url, _ in client.calls], [metadata_url(second, "org.other:sdk")])
+
+    def test_given_cycle_older_than_a_week_when_enumerated_then_known_urls_are_requested_again(self):
+        url = self.repository()
+        self.store.seed("org.example:sdk", url)
+        routes = {metadata_url(url, "org.example:sdk"): response(metadata_fixture())}
+        self.assertTrue(enumerate_artifacts(self.store, FixtureClient(dict(routes))))
+        self.store.state["enumerate"]["cycleStartedAt"] = "2026-01-01T00:00:00Z"
+        client = FixtureClient(dict(routes))
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual(len(client.calls), 1)

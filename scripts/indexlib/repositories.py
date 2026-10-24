@@ -1,6 +1,8 @@
 """Capability probing and checkpointed enumeration for generic Maven servers."""
 
 import json
+import time
+from datetime import datetime
 import logging
 import string
 from html.parser import HTMLParser
@@ -16,6 +18,8 @@ LOG = logging.getLogger(__name__)
 CENTRAL = BUILTINS[1]
 # Directory listings can expose huge non-Android trees; bound the crawl per repository and cycle.
 LISTING_LIMIT = 2000
+# Within one cycle a URL is enumerated once; new repositories and seeds still run on every invocation.
+CYCLE_SECONDS = 7 * 86400
 
 
 class Links(HTMLParser):
@@ -252,6 +256,10 @@ def enumerate_artifacts(store, client, *, max_minutes=300, max_versions=20, **_)
 
 def _enumerate(store, client, max_versions):
     progress = store.state.setdefault("enumerate", {})
+    started = progress.get("cycleStartedAt")
+    if not started or time.time() - datetime.fromisoformat(started).timestamp() >= CYCLE_SECONDS:
+        progress.clear()
+        progress["cycleStartedAt"] = timestamp()
     initial = []
     seeds = store.state.get("coordinates", {})
     for item in store.repositories:
@@ -334,7 +342,5 @@ def _enumerate(store, client, max_versions):
         store.save()
     progress["queue"] = list(failed)
     progress.pop("deferred", None)
-    if not failed:
-        progress.clear()
     store.save()
     return not failed

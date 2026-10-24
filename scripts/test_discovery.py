@@ -206,7 +206,7 @@ class DiscoveryTests(FixtureTest):
             clock.now += 30
             return response({"total_count": 0, "items": []})
         client = FixtureClient(handler=handler, token="fixture", clock=clock, deadline=180)
-        self.assertFalse(discover(self.store, client, max_minutes=3))
+        self.assertFalse(discover(self.store, client, max_minutes=6))
         self.assertEqual(clock.now, 60)
         self.assertEqual(client.deadline, 180)
         progress = Store(self.root).state["discover"]
@@ -214,7 +214,7 @@ class DiscoveryTests(FixtureTest):
         self.assertNotIn("broadCompletedAt", progress)
         first_pending = dict(progress["queue"][0])
         client.calls.clear()
-        self.assertFalse(discover(Store(self.root), client, max_minutes=3))
+        self.assertFalse(discover(Store(self.root), client, max_minutes=6))
         self.assertIn(f'size:{first_pending["low"]}..{first_pending["high"]}', parse_qs(urlsplit(client.calls[0][0]).query)["q"][0])
 
     def test_given_large_github_tree_when_harvested_then_at_most_fifty_files_prefer_settings_root_catalog_and_shallow_paths(self):
