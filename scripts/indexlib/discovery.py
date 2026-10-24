@@ -252,4 +252,5 @@ def _discover(store, client):
 
 @checkpointed
 def discover(store, client, *, max_minutes=300, **_):
-    return within_share(client, max_minutes * 60 / 3, lambda: _discover(store, client), "Discovery")
+    # Discovery saturates quickly and mostly waits on search limits; fetch needs the time more.
+    return within_share(client, max_minutes * 60 / 6, lambda: _discover(store, client), "Discovery")
