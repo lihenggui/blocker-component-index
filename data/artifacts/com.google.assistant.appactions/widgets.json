@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.google.assistant.appactions:widgets",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T17:26:40Z",
+      "sha256": "287169202409e7bdc722b9beca5590d2ffef2632b7df957b12fabd451ffc703a",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:17.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.assistant.appactions.widgets.pinappwidget.PinAppWidgetBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.assistant.appactions.widgets.COMPLETE_PIN_APP_WIDGET"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.assistant.appactions.widgets.pinappwidget.PinAppWidgetService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.assistant.appactions.widgets.PIN_APP_WIDGET"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

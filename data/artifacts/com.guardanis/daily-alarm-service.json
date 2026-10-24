@@ -1,0 +1,54 @@
+{
+  "coordinate": "com.guardanis:daily-alarm-service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T17:49:29Z",
+      "sha256": "6e11cbcf3c395d3855524e16a03b73ad4df57a92d2fcbab4d34935e3985032f6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.guardanis.alarms.DailyAlarmKillMediaPlaybackReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "alarm.service.KILL_MEDIA_PLAYBACK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.guardanis.alarms.DailyAlarmWakeUpReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "alarm.service.WAKE_UP"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

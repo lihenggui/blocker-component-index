@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.google.android.gms:play-services-mlkit-document-scanner",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta1": {
+      "fetchedAt": "2026-10-24T17:19:10Z",
+      "sha256": "2ced8a94e672b277ea16538174ebde8fb1b7e7f9901dcf7e841e7782a12b2b16",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.firebase:firebase-encoders-json:17.1.0",
+        "com.google.firebase:firebase-encoders:16.1.0",
+        "com.google.mlkit:common:18.10.0"
+      ]
+    },
+    "16.0.0": {
+      "fetchedAt": "2026-10-24T17:19:09Z",
+      "sha256": "4336d9dc8e8e9a220a8207bf417bb8f4deed5603fef45946f13236feb334f138",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.firebase:firebase-encoders-json:17.1.0",
+        "com.google.firebase:firebase-encoders:16.1.0",
+        "com.google.mlkit:common:18.11.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.vision.documentscanner.internal.GmsDocumentScanningDelegateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "16.0.0-beta1",
+          "16.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

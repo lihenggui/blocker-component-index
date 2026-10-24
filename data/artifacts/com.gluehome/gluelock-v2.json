@@ -1,0 +1,124 @@
+{
+  "coordinate": "com.gluehome:gluelock-v2",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.21.2": {
+      "fetchedAt": "2026-10-24T17:11:35Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.21.2",
+        "com.gluehome:sdk:1.21.2",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.3": {
+      "fetchedAt": "2026-10-24T17:11:34Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.21.3",
+        "com.gluehome:sdk:1.21.3",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.5": {
+      "fetchedAt": "2026-10-24T17:11:33Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.21.5",
+        "com.gluehome:sdk:1.21.3",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.6": {
+      "fetchedAt": "2026-10-24T17:11:32Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.21.6",
+        "com.gluehome:sdk:1.21.3",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.7": {
+      "fetchedAt": "2026-10-24T17:11:31Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.21.6",
+        "com.gluehome:sdk:1.21.3",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.8": {
+      "fetchedAt": "2026-10-24T17:11:30Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.21.6",
+        "com.gluehome:sdk:1.21.3",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.9": {
+      "fetchedAt": "2026-10-24T17:11:29Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.22.1",
+        "com.gluehome:sdk:1.22.2",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.10": {
+      "fetchedAt": "2026-10-24T17:11:28Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.22.1",
+        "com.gluehome:sdk:1.22.2",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.21.11": {
+      "fetchedAt": "2026-10-24T17:11:27Z",
+      "sha256": "ee58efd44dfb63d8ad883408e269da92bcc134b2759852610e5add6027144ed2",
+      "dependencies": [
+        "com.github.cesarferreira:tempo:0.7.0",
+        "com.gluehome:domain:1.22.1",
+        "com.gluehome:sdk:1.22.2",
+        "no.nordicsemi.android:dfu:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "gluehome.gluetooth.sdk.v2.dfu.DfuService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.21.2",
+          "1.21.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

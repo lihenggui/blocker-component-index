@@ -1,0 +1,42 @@
+{
+  "coordinate": "com.inmobi.analyticssdk:dsPluginSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.0": {
+      "fetchedAt": "2026-10-24T18:17:54Z",
+      "sha256": "34d99b9ed7a750e34600e5dabd8df08702e20f3d9eda416bb9905ce32dbdea37",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.work:work-runtime-ktx:2.7.0",
+        "com.google.android.material:material:1.6.1",
+        "com.inmobi.analyticssdk:basePluginSDK:1.7.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.8.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.swish.dspluginsdk.schedule.DsScheduleRetryJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.7.0",
+          "1.7.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

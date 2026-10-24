@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.jiopay:otpautoread-pp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T18:37:12Z",
+      "sha256": "91b0a2b96233afa8213b512a4bb75461e12248e11b65d8de5c667b8dbb580954",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.gms:play-services-auth-api-phone:17.1.0",
+        "com.google.android.gms:play-services-auth:17.0.0",
+        "com.google.android.gms:play-services-basement:17.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2",
+        "com.squareup.okhttp3:okhttp:5.0.0-alpha.2",
+        "com.squareup.retrofit2:adapter-rxjava2:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "commons-codec:commons-codec:1.15",
+        "io.reactivex.rxjava2:rxandroid:2.0.2",
+        "io.reactivex.rxjava2:rxjava:2.1.13",
+        "io.reactivex.rxjava2:rxkotlin:2.0.2",
+        "javax.inject:javax.inject:1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.cloud.datagrinchsdk.utils.services.EventSyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

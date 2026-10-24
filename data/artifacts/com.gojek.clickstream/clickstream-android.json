@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.gojek.clickstream:clickstream-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-alpha-1-kk": {
+      "fetchedAt": "2026-10-24T17:11:51Z",
+      "sha256": "ace3c70547aa44bfc5a3a73a2f773bc39c22adbd37c412243d6d69d8d71a3aa4",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:2.4.1",
+        "androidx.room:room-ktx:2.4.2",
+        "androidx.room:room-runtime:2.4.2",
+        "androidx.work:work-runtime-ktx:2.3.4",
+        "com.gojek.clickstream:clickstream-event-listener:2.0.0-alpha-1-kk",
+        "com.gojek.clickstream:clickstream-health-metrics-noop:2.0.0-alpha-1-kk",
+        "com.gojek.clickstream:clickstream-logger:2.0.0-alpha-1-kk",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.protobuf:protobuf-javalite:3.11.0",
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "com.tinder.scarlet:lifecycle-android:0.1.10",
+        "com.tinder.scarlet:message-adapter-protobuf:0.1.10",
+        "com.tinder.scarlet:scarlet:0.1.10",
+        "com.tinder.scarlet:stream-adapter-coroutines:0.1.10",
+        "com.tinder.scarlet:websocket-okhttp:0.1.10",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.5.2"
+      ]
+    }
+  },
+  "components": []
+}

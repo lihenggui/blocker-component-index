@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.google.mlkit:acceleration",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta1": {
+      "fetchedAt": "2026-10-24T17:42:35Z",
+      "sha256": "9fe34dba808a8f9d786bdf13c85e353e453b44d171a9bd4eb6daa6e454f8845c",
+      "dependencies": [
+        "androidx.work:work-multiprocess:2.7.0",
+        "androidx.work:work-runtime:2.7.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1",
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    },
+    "16.0.0-beta2": {
+      "fetchedAt": "2026-10-24T17:42:34Z",
+      "sha256": "9fe34dba808a8f9d786bdf13c85e353e453b44d171a9bd4eb6daa6e454f8845c",
+      "dependencies": [
+        "androidx.work:work-multiprocess:2.7.0",
+        "androidx.work:work-runtime:2.7.0",
+        "com.google.android.gms:play-services-base:18.3.0",
+        "com.google.android.gms:play-services-basement:18.3.0",
+        "com.google.android.gms:play-services-tasks:18.1.0",
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.acceleration.internal.MlKitRemoteWorkerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta1",
+          "16.0.0-beta2"
+        ]
+      ],
+      "exported": false,
+      "process": ":mlkit_acceleration_mini_benchmark",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "coordinate": "com.linecorp.abc:kmm-analytics-tools-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.14": {
+      "fetchedAt": "2026-10-24T18:55:26Z",
+      "sha256": "e41980bfe24f30c55d1f713f1ab9271c79b30c555316b214e41bc10832588669",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.material:material:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3-native-mt"
+      ]
+    },
+    "1.0.15": {
+      "fetchedAt": "2026-10-24T18:55:25Z",
+      "sha256": "61f2e28fe67fff322457786f8b17ffafee031b3dcb6309a95e377b44c9f0e4e4",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3-native-mt"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T18:55:24Z",
+      "sha256": "61f2e28fe67fff322457786f8b17ffafee031b3dcb6309a95e377b44c9f0e4e4",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3-native-mt"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.14",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.linecorp.abc.analytics.utils.ModuleInitializer"
+      ]
+    }
+  ]
+}

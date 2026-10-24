@@ -1,0 +1,245 @@
+{
+  "coordinate": "com.invms:Invms.AWProtocol",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:26:47Z",
+      "sha256": "e7822c9bb7cb53ddf6041975ba94d4c4b79dd64da381a7626b2d3abcb765737a",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T18:26:47Z",
+      "sha256": "863408c69f3093a176f5011cb3a9b848c9c31e61b992427a0496f64e1012a62a",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T18:26:46Z",
+      "sha256": "d76ffe53f03dc0a0d17644a493b3587b9958453741cb43a4b6217b2ce594a41d",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T18:26:45Z",
+      "sha256": "d76ffe53f03dc0a0d17644a493b3587b9958453741cb43a4b6217b2ce594a41d",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T18:26:44Z",
+      "sha256": "d76ffe53f03dc0a0d17644a493b3587b9958453741cb43a4b6217b2ce594a41d",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T18:26:44Z",
+      "sha256": "020d88c922fe407ab663ff3b8147b1e41c24c36a2314ef4baa3abbf37fa8c8dd",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T18:26:43Z",
+      "sha256": "d2acb60cf38b308e16e9cf890de2e9821dac7909339415bae096da40bce9e3fd",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76",
+        "com.android.support.constraint:constraint-layout:2.0.4",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:preference-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.github.yuzhiqiang1993:zxing:2.2.8"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T18:26:42Z",
+      "sha256": "d2acb60cf38b308e16e9cf890de2e9821dac7909339415bae096da40bce9e3fd",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76",
+        "com.android.support.constraint:constraint-layout:2.0.4",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:preference-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.github.yuzhiqiang1993:zxing:2.2.8"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-24T18:26:41Z",
+      "sha256": "8689615c6a4915e3d9f80367ad44142e67c0bf32ac9d4cc558b0522c223be1f0",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76",
+        "com.android.support.constraint:constraint-layout:2.0.4",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:preference-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.github.yuzhiqiang1993:zxing:2.2.8"
+      ]
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-24T18:26:41Z",
+      "sha256": "20aa064a918303413c818cb7cf25612c928e79bf2c908ecd2a0db09800c848e1",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76",
+        "com.android.support.constraint:constraint-layout:2.0.4",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:preference-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.github.yuzhiqiang1993:zxing:2.2.8"
+      ]
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-24T18:26:40Z",
+      "sha256": "4622187fb937721e9c0ba107ab3447d80df52dd9c1fcdfd703a61ec6896703d9",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.76",
+        "com.android.support.constraint:constraint-layout:2.0.4",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:preference-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.github.yuzhiqiang1993:zxing:2.2.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.5",
+          "1.1.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.invms.awprotocol.OptionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ],
+        [
+          "1.1.1",
+          "1.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.invms.awprotocol.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.4",
+          "1.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": [
+        "webDebug",
+        "webInvokers",
+        "webKey",
+        "webUrl"
+      ]
+    },
+    {
+      "name": "com.invms.awprotocol.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": [
+        "webDebug",
+        "webInvokers",
+        "webKey",
+        "webUrl"
+      ]
+    },
+    {
+      "name": "com.invms.awprotocol.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "webDebug",
+        "webInvokers",
+        "webKey",
+        "webUrl"
+      ]
+    },
+    {
+      "name": "com.invms.awprotocol.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "webDebug",
+        "webKey",
+        "webUrl"
+      ]
+    }
+  ]
+}

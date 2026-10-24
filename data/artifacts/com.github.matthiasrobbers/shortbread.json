@@ -1,0 +1,82 @@
+{
+  "coordinate": "com.github.matthiasrobbers:shortbread",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:46:55Z",
+      "sha256": "a3976fe2a04e6f51222238eda38f3738beeeca1114bef06de6fb0b0e7a941d5a",
+      "dependencies": [
+        "com.android.support:support-annotations:25.1.1",
+        "com.github.matthiasrobbers:shortbread-annotations:1.0.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T16:46:55Z",
+      "sha256": "a3976fe2a04e6f51222238eda38f3738beeeca1114bef06de6fb0b0e7a941d5a",
+      "dependencies": [
+        "com.android.support:support-annotations:25.1.1",
+        "com.github.matthiasrobbers:shortbread-annotations:1.0.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T16:46:54Z",
+      "sha256": "a3976fe2a04e6f51222238eda38f3738beeeca1114bef06de6fb0b0e7a941d5a",
+      "dependencies": [
+        "com.android.support:support-annotations:26.0.2",
+        "com.github.matthiasrobbers:shortbread-annotations:1.0.2"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T16:46:53Z",
+      "sha256": "97bfae09b0e34335d3a31121d65c821a65469bfa90fd8f8f419964c2612729a5",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.github.matthiasrobbers:shortbread-annotations:1.1.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T16:46:53Z",
+      "sha256": "97bfae09b0e34335d3a31121d65c821a65469bfa90fd8f8f419964c2612729a5",
+      "dependencies": [
+        "com.github.matthiasrobbers:shortbread-annotations:1.2.0"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T16:46:52Z",
+      "sha256": "08a4063a1f9ff094636384c149fd844821ee13acf14e64afa0bbe9a81c201b31",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.github.matthiasrobbers:shortbread-annotations:1.3.0"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-24T16:46:51Z",
+      "sha256": "08a4063a1f9ff094636384c149fd844821ee13acf14e64afa0bbe9a81c201b31",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.github.matthiasrobbers:shortbread-annotations:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "shortbread.ShortbreadInitializer"
+      ]
+    }
+  ]
+}

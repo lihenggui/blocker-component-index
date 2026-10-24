@@ -1,0 +1,122 @@
+{
+  "coordinate": "com.github.xodiosx:avnc",
+  "repository": "https://www.jitpack.io",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T17:09:30Z",
+      "sha256": "89e2f581f8e0fca274dda5cf3576128c174404239585d290718028a9ad2b1a6e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.3",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.biometric:biometric-ktx:1.2.0-alpha05",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.databinding:databinding-adapters:8.7.3",
+        "androidx.databinding:databinding-common:8.7.3",
+        "androidx.databinding:databinding-ktx:8.7.3",
+        "androidx.databinding:databinding-runtime:8.7.3",
+        "androidx.drawerlayout:drawerlayout:1.1.1",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.8.6",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.8.5",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5",
+        "androidx.preference:preference-ktx:1.2.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "com.google.android.material:material:1.7.0",
+        "org.connectbot:sshlib:2.2.23",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.24",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gaurav.avnc.UriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gaurav.avnc.ui.about.AboutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gaurav.avnc.ui.prefs.PrefsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gaurav.avnc.ui.vnc.IntentReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gaurav.avnc.ui.vnc.VncActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

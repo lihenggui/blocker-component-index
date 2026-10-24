@@ -1,0 +1,71 @@
+{
+  "coordinate": "com.google.android.play:hsdp",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T17:25:31Z",
+      "sha256": "65cbadf36a334f0ff2148974f9dfad075fb9360d02faeb75c320511981f15f4d",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.5.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T17:25:30Z",
+      "sha256": "65cbadf36a334f0ff2148974f9dfad075fb9360d02faeb75c320511981f15f4d",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.9.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T17:25:29Z",
+      "sha256": "7cbd4e75c71613f37c09397ef2f498daf72ab87ab6d79c7bebb9b81e10a1dfec",
+      "dependencies": [
+        "androidx.appcompat:appcompat-resources:1.4.1",
+        "com.google.android.gms:play-services-basement:18.9.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T17:25:28Z",
+      "sha256": "7cbd4e75c71613f37c09397ef2f498daf72ab87ab6d79c7bebb9b81e10a1dfec",
+      "dependencies": [
+        "androidx.appcompat:appcompat-resources:1.4.1",
+        "com.google.android.gms:play-services-basement:18.9.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T17:25:27Z",
+      "sha256": "6845c2d5b625ab67c8471bb8dc03f5c8e96864209a46320c87dfbd70593c0c3c",
+      "dependencies": [
+        "androidx.appcompat:appcompat-resources:1.4.1",
+        "com.google.android.gms:play-services-basement:18.9.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T17:25:26Z",
+      "sha256": "6845c2d5b625ab67c8471bb8dc03f5c8e96864209a46320c87dfbd70593c0c3c",
+      "dependencies": [
+        "androidx.appcompat:appcompat-resources:1.4.1",
+        "com.google.android.gms:play-services-basement:18.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.play.core.hsdp.service.HsdpShimActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

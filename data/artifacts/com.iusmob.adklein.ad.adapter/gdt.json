@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.iusmob.adklein.ad.adapter:gdt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T18:29:10Z",
+      "sha256": "ea0b545ca85337064cd6c77d8344d6fa4dc2d4f9440839da205e38371d0ab557",
+      "dependencies": [
+        "com.iusmob.adklein.ad.third:gdt:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

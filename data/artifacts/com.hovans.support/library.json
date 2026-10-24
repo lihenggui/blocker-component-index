@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.hovans.support:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T17:58:26Z",
+      "sha256": "496ad5b2af6fd0b1eaf0491ea867656a2ab3c81636412ab519fc0838a36debf4",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hovans.support.ShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

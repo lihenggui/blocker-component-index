@@ -1,0 +1,117 @@
+{
+  "coordinate": "com.louiscad.splitties:splitties-stetho-init-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0-beta02": {
+      "fetchedAt": "2026-10-24T19:02:17Z",
+      "sha256": "283422f7e56b342906c15372973c67c0b1022ab398951a2d788a329fa0f1734f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.facebook.stetho:stetho:1.5.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32"
+      ]
+    },
+    "3.0.0-beta03": {
+      "fetchedAt": "2026-10-24T19:02:16Z",
+      "sha256": "283422f7e56b342906c15372973c67c0b1022ab398951a2d788a329fa0f1734f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0-beta04": {
+      "fetchedAt": "2026-10-24T19:02:15Z",
+      "sha256": "283422f7e56b342906c15372973c67c0b1022ab398951a2d788a329fa0f1734f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0-beta05": {
+      "fetchedAt": "2026-10-24T19:02:14Z",
+      "sha256": "283422f7e56b342906c15372973c67c0b1022ab398951a2d788a329fa0f1734f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0-beta06": {
+      "fetchedAt": "2026-10-24T19:02:13Z",
+      "sha256": "283422f7e56b342906c15372973c67c0b1022ab398951a2d788a329fa0f1734f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0-rc01": {
+      "fetchedAt": "2026-10-24T19:02:12Z",
+      "sha256": "283422f7e56b342906c15372973c67c0b1022ab398951a2d788a329fa0f1734f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.0-rc01",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0-rc02": {
+      "fetchedAt": "2026-10-24T19:02:11Z",
+      "sha256": "4d1f8ef740df6f1598c403ceed321819be8a7b5df04cff0ace96bbbd023ebe48",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.0-rc01",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0-rc03": {
+      "fetchedAt": "2026-10-24T19:02:11Z",
+      "sha256": "4d1f8ef740df6f1598c403ceed321819be8a7b5df04cff0ace96bbbd023ebe48",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T19:02:10Z",
+      "sha256": "4d1f8ef740df6f1598c403ceed321819be8a7b5df04cff0ace96bbbd023ebe48",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.facebook.stetho:stetho:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0-beta02",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "splitties.stetho.init.StethoInitializer"
+      ]
+    }
+  ]
+}

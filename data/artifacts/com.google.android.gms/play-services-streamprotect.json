@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.google.android.gms:play-services-streamprotect",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0": {
+      "fetchedAt": "2026-10-24T17:20:36Z",
+      "sha256": "70af601531d542619d2bbafcfb7149aa3f2e8204b0988754a1d21fb460f163c8",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:17.5.0",
+        "com.google.android.gms:play-services-basement:17.5.0",
+        "com.google.android.gms:play-services-tasks:17.2.0"
+      ]
+    },
+    "16.0.1": {
+      "fetchedAt": "2026-10-24T17:20:36Z",
+      "sha256": "70af601531d542619d2bbafcfb7149aa3f2e8204b0988754a1d21fb460f163c8",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.0",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.0"
+      ]
+    },
+    "16.0.2": {
+      "fetchedAt": "2026-10-24T17:20:35Z",
+      "sha256": "70af601531d542619d2bbafcfb7149aa3f2e8204b0988754a1d21fb460f163c8",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1"
+      ]
+    },
+    "16.1.0": {
+      "fetchedAt": "2026-10-24T17:20:34Z",
+      "sha256": "70af601531d542619d2bbafcfb7149aa3f2e8204b0988754a1d21fb460f163c8",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.metadata.ModuleDependencies",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0",
+          "16.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+      ],
+      "categories": [],
+      "metaData": [
+        "streamprotect:3:preferred"
+      ]
+    }
+  ]
+}

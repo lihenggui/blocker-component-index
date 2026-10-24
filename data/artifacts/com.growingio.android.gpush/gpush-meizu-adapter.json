@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.growingio.android.gpush:gpush-meizu-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T17:47:39Z",
+      "sha256": "2873d375770a3e99d7374f7efaba0971ba6172ea458314f993b83b775a215fe4",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.0",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T17:47:38Z",
+      "sha256": "e35df9a9131cbf499f9d314490f6aaf5b438aeeeb3d704759a2efb3225d5bdd7",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.1",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T17:47:38Z",
+      "sha256": "ed342ca797e17c5a5c8b48636079a0193ac3d856db3ce7381aac866b463420cb",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.2",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T17:47:37Z",
+      "sha256": "e2ddb95e9236725bfe1c9aa7d50ddedf455036057147bdd0c839221626656255",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.3",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T17:47:36Z",
+      "sha256": "7d317b4f1977a062774d0a6ba6bc96e697a30493c262cf9f80ac5865c0c3ee31",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.4",
+        "com.meizu.flyme.internet:push-internal:4.2.7"
+      ]
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T17:47:35Z",
+      "sha256": "7d317b4f1977a062774d0a6ba6bc96e697a30493c262cf9f80ac5865c0c3ee31",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.5",
+        "com.meizu.flyme.internet:push-internal:4.2.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.growingio.android.sdk.gpush.meizu.MeizuPushAdapterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.5.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${PACKAGE_NAME}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.growingio.android.sdk.gpush.meizu.MeizuPushAdapterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${PACKAGE_NAME}"
+      ],
+      "metaData": []
+    }
+  ]
+}

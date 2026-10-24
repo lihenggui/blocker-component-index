@@ -1,0 +1,146 @@
+{
+  "coordinate": "com.github.qydq:ol",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.0": {
+      "fetchedAt": "2026-10-24T16:52:58Z",
+      "sha256": "38b275d89928187a9f668e7a2bbd15b89186a57ad0d2ada8ec12f9878c635d02",
+      "dependencies": [
+        "androidx.databinding:databinding-adapters:7.2.1",
+        "androidx.databinding:databinding-common:7.2.1",
+        "androidx.databinding:databinding-ktx:7.2.1",
+        "androidx.databinding:databinding-runtime:7.2.1",
+        "androidx.databinding:viewbinding:7.2.1",
+        "com.github.qydq:ba:1.6.0"
+      ]
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-24T16:52:57Z",
+      "sha256": "12db7920f7a51808d8958905f5e6101f850020f8d1978c2e4cac1752c36289f3",
+      "dependencies": [
+        "androidx.databinding:databinding-adapters:7.2.1",
+        "androidx.databinding:databinding-common:7.2.1",
+        "androidx.databinding:databinding-ktx:7.2.1",
+        "androidx.databinding:databinding-runtime:7.2.1",
+        "androidx.databinding:viewbinding:7.2.1",
+        "com.github.qydq:ba:1.7.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T16:52:56Z",
+      "sha256": "12db7920f7a51808d8958905f5e6101f850020f8d1978c2e4cac1752c36289f3",
+      "dependencies": [
+        "androidx.databinding:databinding-adapters:7.2.1",
+        "androidx.databinding:databinding-common:7.2.1",
+        "androidx.databinding:databinding-ktx:7.2.1",
+        "androidx.databinding:databinding-runtime:7.2.1",
+        "androidx.databinding:viewbinding:7.2.1",
+        "com.github.qydq:ba:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sunst.ol.H5Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "com.sunst.ol.WebPage"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sunst.ol.PictureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "com.sunst.ol.Picture"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sunst.ol.ss.SystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.7.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "system_receiver"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sunst.ol.sys.SystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "1.6.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "system_receiver"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

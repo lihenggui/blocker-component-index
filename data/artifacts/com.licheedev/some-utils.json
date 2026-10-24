@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.licheedev:some-utils",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T18:54:15Z",
+      "sha256": "0bec87cc18efe69f916976178aba78481d3d7367a9816c4931591de5fe260f78",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.licheedev:hardwareutils:1.0.0",
+        "com.licheedev:logplus:1.0.0",
+        "com.licheedev:some-context:1.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T18:54:16Z",
+      "sha256": "ed833e92241a3f784f66fd8be09b51bcac569514f204804271e2191aa35eae2b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.licheedev:hardwareutils:1.0.0",
+        "com.licheedev:logplus:1.0.0",
+        "com.licheedev:some-context:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.licheedev.context.ApplicationContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

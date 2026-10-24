@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.immomo.cosmos.auth:auth-ctcc",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0_0526": {
+      "fetchedAt": "2026-10-24T18:05:29Z",
+      "sha256": "748494875f59dce0a3e8eaff5db72bf6db4b3d17e5c7f5e174539014118de481",
+      "dependencies": [
+        "com.android.support:support-compat:28.0.0",
+        "com.immomo.cosmos.auth:authbase:1.1.0_0526"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.com.chinatelecom.account.sdk.ui.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0_0526",
+          "1.1.0_0526"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.com.chinatelecom.account.sdk.ui.PrivacyWebviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0_0526",
+          "1.1.0_0526"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

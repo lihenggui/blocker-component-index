@@ -1,0 +1,232 @@
+{
+  "coordinate": "com.immomo.cosmos.photon:thirdpush-hw-huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T18:07:34Z",
+      "sha256": "8787a6c4b76605236f633e20159026ab0d3f47a04e2a9fb429535e10e1bd1541",
+      "dependencies": [
+        "com.huawei.android.hms:push:2.6.0.301",
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T18:07:33Z",
+      "sha256": "675cb98d21fa16a13f24d90df6e6f3f1b114c4ace8ca0f86ab8cfdf723e03eea",
+      "dependencies": [
+        "com.huawei.android.hms:push:2.6.0.301",
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.2"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-24T18:07:33Z",
+      "sha256": "675cb98d21fa16a13f24d90df6e6f3f1b114c4ace8ca0f86ab8cfdf723e03eea",
+      "dependencies": [
+        "com.huawei.android.hms:push:2.6.0.301",
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.3"
+      ]
+    },
+    "1.1.3_08131859": {
+      "fetchedAt": "2026-10-24T18:07:32Z",
+      "sha256": "675cb98d21fa16a13f24d90df6e6f3f1b114c4ace8ca0f86ab8cfdf723e03eea",
+      "dependencies": [
+        "com.huawei.android.hms:push:2.6.0.301",
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.3_08131859"
+      ]
+    },
+    "1.1.4_02182019": {
+      "fetchedAt": "2026-10-24T18:07:31Z",
+      "sha256": "675cb98d21fa16a13f24d90df6e6f3f1b114c4ace8ca0f86ab8cfdf723e03eea",
+      "dependencies": [
+        "com.huawei.android.hms:push:2.6.0.301",
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_02182019"
+      ]
+    },
+    "1.1.4_02262059": {
+      "fetchedAt": "2026-10-24T18:07:30Z",
+      "sha256": "675cb98d21fa16a13f24d90df6e6f3f1b114c4ace8ca0f86ab8cfdf723e03eea",
+      "dependencies": [
+        "com.huawei.android.hms:push:2.6.0.301",
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_02262059"
+      ]
+    },
+    "1.1.4_11221551": {
+      "fetchedAt": "2026-10-24T18:07:29Z",
+      "sha256": "675cb98d21fa16a13f24d90df6e6f3f1b114c4ace8ca0f86ab8cfdf723e03eea",
+      "dependencies": [
+        "com.huawei.android.hms:push:2.6.0.301",
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_11221551"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.cosmos.photon.push.thirdparty.huawei.HuaweiPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.android.push.intent.CLICK",
+        "com.huawei.android.push.intent.RECEIVE",
+        "com.huawei.android.push.intent.REGISTRATION",
+        "com.huawei.intent.action.PUSH_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.android.hms.agent.common.HMSAgentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.hms.activity.BridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.PushEventReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.intent.action.PUSH"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.update.provider.UpdateProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${PACKAGE_NAME}.hms.update.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${PACKAGE_NAME}.updateSdk.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.updatesdk.service.deamon.download.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.updatesdk.service.otaupdate.AppUpdateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.updatesdk.support.pm.PackageInstallerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    }
+  ]
+}

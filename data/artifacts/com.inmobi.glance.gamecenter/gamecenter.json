@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.inmobi.glance.gamecenter:gamecenter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.7.1": {
+      "fetchedAt": "2026-10-24T18:17:57Z",
+      "sha256": "626824404b2133b712de4289ec51bae0d33c58f1ae760b426f2d6247212606fa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.room:room-ktx:2.4.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-ads:22.2.0",
+        "com.google.android.material:material:1.6.0",
+        "com.google.code.gson:gson:2.6.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.glance.gamecentersdk.view.GameContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.1",
+          "0.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.glance.gamecentersdk.view.GamePlayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.1",
+          "0.7.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.glance.gamecentersdk.view.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.1",
+          "0.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

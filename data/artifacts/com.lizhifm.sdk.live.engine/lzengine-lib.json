@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.lizhifm.sdk.live.engine:lzengine-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:59:30Z",
+      "sha256": "4079e5d6aab24bea23090fcd91a3cb4340ddf36c5e4b68749df436813fdf345c",
+      "dependencies": [
+        "com.yibasan.lizhifm.sdk.platformtools:lzplatformtools-lib:2.6.11",
+        "com.yibasan.lizhifm:lzrtmp-lib:1.0.0-SNAPSHOT"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T18:59:30Z",
+      "sha256": "4079e5d6aab24bea23090fcd91a3cb4340ddf36c5e4b68749df436813fdf345c",
+      "dependencies": [
+        "com.yibasan.lizhifm.sdk.platformtools:lzplatformtools-lib:2.6.11",
+        "com.yibasan.lizhifm:lzrtmp-lib:1.0.1-SNAPSHOT"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-24T18:59:29Z",
+      "sha256": "28f418d159f32d8c2ec4769b3f07b9c1826897754c8bf4aab77a785c8009301b",
+      "dependencies": [
+        "com.yibasan.lizhifm.sdk.platformtools:lzplatformtools-lib:2.6.11",
+        "com.yibasan.lizhifm:lzrtmp-lib:1.0.1-SNAPSHOT"
+      ]
+    },
+    "1.0.10": {
+      "fetchedAt": "2026-10-24T18:59:28Z",
+      "sha256": "28f418d159f32d8c2ec4769b3f07b9c1826897754c8bf4aab77a785c8009301b",
+      "dependencies": [
+        "com.yibasan.lizhifm.sdk.platformtools:lzplatformtools-lib:2.6.11",
+        "com.yibasan.lizhifm:lzrtmp-lib:1.0.1-SNAPSHOT"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lizhi.liveengine.pull.service.PullPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.10"
+        ]
+      ],
+      "exported": true,
+      "process": ":player",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

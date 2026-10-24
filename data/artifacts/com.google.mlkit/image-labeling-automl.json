@@ -1,0 +1,90 @@
+{
+  "coordinate": "com.google.mlkit:image-labeling-automl",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0": {
+      "fetchedAt": "2026-10-24T17:43:30Z",
+      "sha256": "794122aab070f3abaa7a1ce251827bc0098e2e5fee46ece815e513ca1e7d4a50",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.1.0",
+        "com.google.android.datatransport:transport-backend-cct:2.2.2",
+        "com.google.android.datatransport:transport-runtime:2.2.2",
+        "com.google.android.gms:play-services-base:17.0.0",
+        "com.google.android.gms:play-services-basement:17.0.0",
+        "com.google.android.gms:play-services-clearcut:17.0.0",
+        "com.google.android.gms:play-services-tasks:17.0.0",
+        "com.google.firebase:firebase-components:16.0.0",
+        "com.google.mlkit:common:16.0.0",
+        "com.google.mlkit:image-labeling-common:16.0.0",
+        "com.google.mlkit:vision-common:16.0.0",
+        "org.tensorflow:tensorflow-lite:2.1.0"
+      ]
+    },
+    "16.1.0": {
+      "fetchedAt": "2026-10-24T17:43:29Z",
+      "sha256": "794122aab070f3abaa7a1ce251827bc0098e2e5fee46ece815e513ca1e7d4a50",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:17.0.0",
+        "com.google.android.gms:play-services-basement:17.0.0",
+        "com.google.android.gms:play-services-clearcut:17.0.0",
+        "com.google.android.gms:play-services-tasks:17.0.0",
+        "com.google.firebase:firebase-components:16.0.0",
+        "com.google.mlkit:common:16.0.0",
+        "com.google.mlkit:image-labeling-common:16.1.0",
+        "com.google.mlkit:vision-common:16.0.0",
+        "org.tensorflow:tensorflow-lite:2.1.0"
+      ]
+    },
+    "16.2.0": {
+      "fetchedAt": "2026-10-24T17:43:28Z",
+      "sha256": "794122aab070f3abaa7a1ce251827bc0098e2e5fee46ece815e513ca1e7d4a50",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:17.0.0",
+        "com.google.android.gms:play-services-basement:17.0.0",
+        "com.google.android.gms:play-services-clearcut:17.0.0",
+        "com.google.android.gms:play-services-tasks:17.0.0",
+        "com.google.firebase:firebase-components:16.0.0",
+        "com.google.mlkit:common:16.1.0",
+        "com.google.mlkit:image-labeling-common:16.2.0",
+        "com.google.mlkit:vision-common:16.0.1",
+        "org.tensorflow:tensorflow-lite:2.1.0"
+      ]
+    },
+    "16.2.1": {
+      "fetchedAt": "2026-10-24T17:43:28Z",
+      "sha256": "794122aab070f3abaa7a1ce251827bc0098e2e5fee46ece815e513ca1e7d4a50",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:17.0.0",
+        "com.google.android.gms:play-services-basement:17.0.0",
+        "com.google.android.gms:play-services-clearcut:17.0.0",
+        "com.google.android.gms:play-services-tasks:17.0.0",
+        "com.google.firebase:firebase-components:16.0.0",
+        "com.google.mlkit:common:17.0.0",
+        "com.google.mlkit:image-labeling-common:16.2.1",
+        "com.google.mlkit:vision-common:16.1.0",
+        "org.tensorflow:tensorflow-lite:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0",
+          "16.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.mlkit.vision.label.automl.internal.AutoMLLabelRegistrar"
+      ]
+    }
+  ]
+}

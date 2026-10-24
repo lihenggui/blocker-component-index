@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.google.firebase:firebase-appdistribution-ktx",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta01": {
+      "fetchedAt": "2026-10-24T17:30:36Z",
+      "sha256": "0623253a5ae9a5bea2dac3cd6b728c3e35c649f1dace398f4ab2375d4289c3bc",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.google.firebase:firebase-appdistribution:16.0.0-beta01",
+        "com.google.firebase:firebase-common-ktx:20.1.0",
+        "com.google.firebase:firebase-common:20.1.0",
+        "com.google.firebase:firebase-components:17.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "16.0.0-beta02": {
+      "fetchedAt": "2026-10-24T17:30:35Z",
+      "sha256": "edd2ac32c166b0da44a5b4d11fa0edd144434c2d214dc4671210fb898a682f1e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.google.firebase:firebase-appdistribution:16.0.0-beta02",
+        "com.google.firebase:firebase-common-ktx:20.1.0",
+        "com.google.firebase:firebase-common:20.1.0",
+        "com.google.firebase:firebase-components:17.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta01",
+          "16.0.0-beta02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.firebase.appdistribution.ktx.FirebaseAppDistributionKtxRegistrar"
+      ]
+    }
+  ]
+}

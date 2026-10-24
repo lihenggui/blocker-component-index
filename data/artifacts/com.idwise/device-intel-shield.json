@@ -1,0 +1,91 @@
+{
+  "coordinate": "com.idwise:device-intel-shield",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.4.0.1": {
+      "fetchedAt": "2026-10-24T18:03:12Z",
+      "sha256": "f2881e6c909b1b22bf03fc74608269bba3d97e889875c481113541f589660bbf",
+      "dependencies": []
+    },
+    "5.4.0.2": {
+      "fetchedAt": "2026-10-24T18:03:12Z",
+      "sha256": "bebb5f2a27d1304189e5a0e7ee290bb4c12d6abdcaca317175960249dfecf3d8",
+      "dependencies": []
+    },
+    "5.4.0.3": {
+      "fetchedAt": "2026-10-24T18:03:11Z",
+      "sha256": "bebb5f2a27d1304189e5a0e7ee290bb4c12d6abdcaca317175960249dfecf3d8",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.shield.android.ShieldInitializeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.4.0.1",
+          "5.4.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.shield.android.service.ShieldIsolatedService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.4.0.1",
+          "5.4.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": ":shieldservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.shield.android.view.CaptchaDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.4.0.1",
+          "5.4.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.shield.android.view.InternalBlockedDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.4.0.1",
+          "5.4.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

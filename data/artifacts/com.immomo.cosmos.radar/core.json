@@ -1,0 +1,100 @@
+{
+  "coordinate": "com.immomo.cosmos.radar:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.7.7": {
+      "fetchedAt": "2026-10-24T18:09:01Z",
+      "sha256": "02bde06e2aaa74db691e7e82428e4b41a178c318002222eb52618ddc8ce5fc47",
+      "dependencies": [
+        "com.immomo.cosmos.apm:framework:1.0.9",
+        "com.immomo.cosmos.baseutil:cpp_shared:r17c",
+        "com.immomo.cosmos.baseutil:mmdevice:2.0.1",
+        "com.squareup.haha:haha:2.0.4"
+      ]
+    },
+    "2.7.8": {
+      "fetchedAt": "2026-10-24T18:09:00Z",
+      "sha256": "02bde06e2aaa74db691e7e82428e4b41a178c318002222eb52618ddc8ce5fc47",
+      "dependencies": [
+        "com.immomo.cosmos.apm:framework:1.0.9",
+        "com.immomo.cosmos.baseutil:cpp_shared:r17c",
+        "com.immomo.cosmos.baseutil:mmdevice:2.0.1",
+        "com.squareup.haha:haha:2.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.cosmos.radar.memory.leak.LeakAnalyzerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.7.7",
+          "2.7.8"
+        ]
+      ],
+      "exported": null,
+      "process": ":radarleak",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cosmos.radar.memory.leak.view.LeakDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.7.7",
+          "2.7.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.cosmos.radar.memory.leak.view.LeakListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.7.7",
+          "2.7.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.cosmos.radar.memory.leak.view.LeakNotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.7.7",
+          "2.7.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

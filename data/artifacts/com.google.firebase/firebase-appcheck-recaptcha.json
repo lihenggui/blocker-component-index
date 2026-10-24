@@ -1,0 +1,82 @@
+{
+  "coordinate": "com.google.firebase:firebase-appcheck-recaptcha",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "19.0.0": {
+      "fetchedAt": "2026-10-24T17:29:35Z",
+      "sha256": "5bc13b84fcc79da9f7a9019f916bd35d6b1e094f4e0d906d574b1b6397bb0193",
+      "dependencies": [
+        "com.google.android.recaptcha:recaptcha:18.7.1",
+        "com.google.dagger:dagger:2.57.2",
+        "com.google.firebase:firebase-appcheck:19.2.0",
+        "com.google.firebase:firebase-common:22.1.0",
+        "com.google.firebase:firebase-components:19.0.0"
+      ]
+    },
+    "19.1.0": {
+      "fetchedAt": "2026-10-24T17:29:34Z",
+      "sha256": "5bc13b84fcc79da9f7a9019f916bd35d6b1e094f4e0d906d574b1b6397bb0193",
+      "dependencies": [
+        "com.google.android.recaptcha:recaptcha:18.7.1",
+        "com.google.dagger:dagger:2.57.2",
+        "com.google.firebase:firebase-appcheck:19.3.0",
+        "com.google.firebase:firebase-common:22.1.0",
+        "com.google.firebase:firebase-components:19.0.0"
+      ]
+    },
+    "19.2.0": {
+      "fetchedAt": "2026-10-24T17:29:33Z",
+      "sha256": "5bc13b84fcc79da9f7a9019f916bd35d6b1e094f4e0d906d574b1b6397bb0193",
+      "dependencies": [
+        "com.google.android.recaptcha:recaptcha:18.7.1",
+        "com.google.dagger:dagger:2.57.2",
+        "com.google.firebase:firebase-appcheck:19.4.0",
+        "com.google.firebase:firebase-common:22.1.0",
+        "com.google.firebase:firebase-components:19.0.0"
+      ]
+    },
+    "19.2.1": {
+      "fetchedAt": "2026-10-24T17:29:33Z",
+      "sha256": "5bc13b84fcc79da9f7a9019f916bd35d6b1e094f4e0d906d574b1b6397bb0193",
+      "dependencies": [
+        "com.google.android.recaptcha:recaptcha:18.7.1",
+        "com.google.dagger:dagger:2.57.2",
+        "com.google.firebase:firebase-appcheck:19.4.1",
+        "com.google.firebase:firebase-common:22.1.0",
+        "com.google.firebase:firebase-components:19.0.0"
+      ]
+    },
+    "20.0.0": {
+      "fetchedAt": "2026-10-24T17:29:32Z",
+      "sha256": "6fd75edf34a6eb34970e55a3171561b1b9e5b5ba48006c5ef1181087e51f73ae",
+      "dependencies": [
+        "com.google.android.recaptcha:recaptcha:18.7.1",
+        "com.google.dagger:dagger:2.57.2",
+        "com.google.firebase:firebase-appcheck:20.0.0",
+        "com.google.firebase:firebase-common:23.0.0",
+        "com.google.firebase:firebase-components:20.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "19.0.0",
+          "20.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.firebase.appcheck.recaptcha.FirebaseAppCheckRecaptchaRegistrar"
+      ]
+    }
+  ]
+}

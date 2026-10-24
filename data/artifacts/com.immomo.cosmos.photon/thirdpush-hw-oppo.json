@@ -1,0 +1,76 @@
+{
+  "coordinate": "com.immomo.cosmos.photon:thirdpush-hw-oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T18:07:44Z",
+      "sha256": "7fe24077f7b571effce63deb0fffff2c18fd69a3afef87ba67755e3d0b48e5dd",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T18:07:44Z",
+      "sha256": "a2b6dfdc7252f32d7e60ea66208be46139308939737fa7e5415a46d4b214a0b6",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.2"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-24T18:07:43Z",
+      "sha256": "a2b6dfdc7252f32d7e60ea66208be46139308939737fa7e5415a46d4b214a0b6",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.3"
+      ]
+    },
+    "1.1.3_08131859": {
+      "fetchedAt": "2026-10-24T18:07:42Z",
+      "sha256": "a2b6dfdc7252f32d7e60ea66208be46139308939737fa7e5415a46d4b214a0b6",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.3_08131859"
+      ]
+    },
+    "1.1.4_02182019": {
+      "fetchedAt": "2026-10-24T18:07:41Z",
+      "sha256": "a2b6dfdc7252f32d7e60ea66208be46139308939737fa7e5415a46d4b214a0b6",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_02182019"
+      ]
+    },
+    "1.1.4_02262059": {
+      "fetchedAt": "2026-10-24T18:07:41Z",
+      "sha256": "a2b6dfdc7252f32d7e60ea66208be46139308939737fa7e5415a46d4b214a0b6",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_02262059"
+      ]
+    },
+    "1.1.4_11221551": {
+      "fetchedAt": "2026-10-24T18:07:40Z",
+      "sha256": "a2b6dfdc7252f32d7e60ea66208be46139308939737fa7e5415a46d4b214a0b6",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_11221551"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.cosmos.photon.push.thirdparty.oppo.OppoPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

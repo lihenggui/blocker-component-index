@@ -1,0 +1,296 @@
+{
+  "coordinate": "com.github.sljjyy:tzapi4android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0-beta": {
+      "fetchedAt": "2026-10-24T16:57:23Z",
+      "sha256": "d416bafdc8121577bdaf71b1403729bf458aa2bab76fe0d75aa3e5dbf1b8ab3d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.2.0"
+      ]
+    },
+    "1.1-beta": {
+      "fetchedAt": "2026-10-24T16:57:22Z",
+      "sha256": "19e2e13c18ee8f2d7e281fed68437612896cea6782205327886e4f17246047f2",
+      "dependencies": []
+    },
+    "1.2-beta": {
+      "fetchedAt": "2026-10-24T16:57:22Z",
+      "sha256": "1d79731e77b1e77d1ce7a6ae38eee94369a28ec9c9fbfda736e18b2deec8286f",
+      "dependencies": []
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T16:57:21Z",
+      "sha256": "5b7ec40a90fcf8b909ce9cf482d56abffd7af84a0d68e984595aa177ea392dbe",
+      "dependencies": []
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-24T16:57:20Z",
+      "sha256": "ff916a887db4e05c7487d14ddda7bfe9eefd381df8d896d74ae5da6b0384527c",
+      "dependencies": []
+    },
+    "1.6.2": {
+      "fetchedAt": "2026-10-24T16:57:19Z",
+      "sha256": "ff916a887db4e05c7487d14ddda7bfe9eefd381df8d896d74ae5da6b0384527c",
+      "dependencies": []
+    },
+    "1.6.3": {
+      "fetchedAt": "2026-10-24T16:57:18Z",
+      "sha256": "ff916a887db4e05c7487d14ddda7bfe9eefd381df8d896d74ae5da6b0384527c",
+      "dependencies": []
+    },
+    "1.6.6": {
+      "fetchedAt": "2026-10-24T16:57:18Z",
+      "sha256": "929a403875df34bb287744ca470cbf6c09f1cddef2f6db5630f7a4e733c69fff",
+      "dependencies": []
+    },
+    "1.6.7": {
+      "fetchedAt": "2026-10-24T16:57:17Z",
+      "sha256": "0da8d599b6022cb463acfff34b2ea7d8a4da60a70afdd8814b499a8b96d0820a",
+      "dependencies": []
+    },
+    "1.6.8": {
+      "fetchedAt": "2026-10-24T16:57:16Z",
+      "sha256": "d86c55ebbfb003c90931356abd63364f2cd96b4ab5fffb5d152c54b3bc1cc72f",
+      "dependencies": []
+    },
+    "1.7.1": {
+      "fetchedAt": "2026-10-24T16:57:15Z",
+      "sha256": "82fa90afcc1da8debe5ae042b732e7ded4f10adf28579b7336525b3300029917",
+      "dependencies": []
+    },
+    "1.7.4": {
+      "fetchedAt": "2026-10-24T16:57:15Z",
+      "sha256": "eed3c7482ef76977851ff55bd3b3ec3005b719d570abf8487f0c99e3e93f0579",
+      "dependencies": []
+    },
+    "1.7.5": {
+      "fetchedAt": "2026-10-24T16:57:14Z",
+      "sha256": "609f3a6420fc6bc0dd1f0cc141bab1d3420b1460f5408957b68b92ae7fa6a834",
+      "dependencies": []
+    },
+    "1.7.6": {
+      "fetchedAt": "2026-10-24T16:57:13Z",
+      "sha256": "95cdddb7c3a32a8691370022dfa984ff827731cd2ddb3a468ca2b0e97aa5de17",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.4",
+          "1.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.tianzunchina.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.tianzunchina.android.api.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1-beta",
+          "1.1-beta"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.util.Provider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.5",
+          "1.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.tianzunchina.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.tianzunchina.android.api.util.location.LocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.7.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":locationProcess1",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tianzunchina.zhstreet.supervision.service.LocationService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.util.location.LocationService2",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.7.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":locationProcess2",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.util.receiver.LocationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.7.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tianzunchina.zhstreet.supervision.receiver.LocationReceiver"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.util.receiver.LocationReceiver1",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.7.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":locationProcess1",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.util.receiver.LocationReceiver2",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.7.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":locationProcess2",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.view.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1-beta",
+          "1.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.widget.form.DynamicFormFragment",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.widget.permission.PermissionsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.4",
+          "1.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tianzunchina.android.api.widget.photo.PreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

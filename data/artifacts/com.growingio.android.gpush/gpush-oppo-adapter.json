@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.growingio.android.gpush:gpush-oppo-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T17:47:48Z",
+      "sha256": "5fd3fae8a39a03587ee456da346fcf45d636075918fdd5c16c99799530d56cc7",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.0",
+        "com.growingio.android.gpush:gpush-oppo-sdk:1.5.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T17:47:48Z",
+      "sha256": "a24511fe2b3af93fbe7fb4d62887ea2a52acf262d0638519ec2975a8d3ba376e",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.1",
+        "com.growingio.android.gpush:gpush-oppo-sdk:1.5.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T17:47:47Z",
+      "sha256": "ca0d34ca0da10d975810ae878d2da6492f89c3a94f9022f851ed017eb136fad3",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.2",
+        "com.growingio.android.gpush:gpush-oppo-sdk:1.5.2"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T17:47:46Z",
+      "sha256": "882e2d2598a001b87b57f9a72046f0684ce34996f67d0225d5ffbd20ec6e56c6",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.3",
+        "com.growingio.android.gpush:gpush-oppo-sdk:1.5.3"
+      ]
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T17:47:45Z",
+      "sha256": "4287a563dabcfd5fe6d2fbbcbaa9e8c33d9d0c945801f230fd8aa87b85c1edfd",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.4",
+        "com.growingio.android.gpush:gpush-oppo-sdk:1.5.4"
+      ]
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T17:47:45Z",
+      "sha256": "4287a563dabcfd5fe6d2fbbcbaa9e8c33d9d0c945801f230fd8aa87b85c1edfd",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.5",
+        "com.growingio.android.gpush:gpush-oppo-sdk:1.5.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.growingio.android.sdk.gpush.oppo.OppoNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${PACKAGE_NAME}.gpush.oppo.internal"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

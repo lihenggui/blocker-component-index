@@ -1,0 +1,71 @@
+{
+  "coordinate": "com.lizhifm.sdk.lzpermission:lzpermission-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.0": {
+      "fetchedAt": "2026-10-24T19:00:10Z",
+      "sha256": "295e26bfd4784591e71577609c8c25f4c75c3619f305d693547744cd50986856",
+      "dependencies": []
+    },
+    "1.8.13.1": {
+      "fetchedAt": "2026-10-24T19:00:09Z",
+      "sha256": "da632b9b1a23fe294e5b71e10cece8ce8d0d6564ddb66ce65bcc420ad1ac6d23",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.yibasan.lizhifm.permission.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.8.0",
+          "1.8.13.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.file.path.share",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.yibasan.lizhifm.permission.bridge.BridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.0",
+          "1.8.13.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yibasan.lizhifm.permission.bridge.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.0",
+          "1.8.13.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

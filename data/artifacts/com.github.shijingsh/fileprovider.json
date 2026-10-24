@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.github.shijingsh:fileprovider",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T16:55:36Z",
+      "sha256": "9826886d9a9231342b256644360faec9bbf39eaae75e68372e2ab738e0ec9476",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.zhy.base.fileprovider.MgFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.android7.mg.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

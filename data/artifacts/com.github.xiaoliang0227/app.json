@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.xiaoliang0227:app",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T17:09:22Z",
+      "sha256": "8c5da63e6dd47888ad0c7174e2f07116f1bbce589ab4db913e4d5e4dedbac738",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zyl.triangleview.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

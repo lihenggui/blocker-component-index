@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.google.mlkit:language-id-common",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0": {
+      "fetchedAt": "2026-10-24T17:43:53Z",
+      "sha256": "508a542e6e4dcc193645b8c7eb981b45312e178949f605b33300c126d37ed5ee",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.1",
+        "com.google.android.gms:play-services-tasks:18.0.1",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.firebase:firebase-encoders-json:17.1.0",
+        "com.google.firebase:firebase-encoders:16.1.0",
+        "com.google.mlkit:common:18.4.0"
+      ]
+    },
+    "16.1.0": {
+      "fetchedAt": "2026-10-24T17:43:52Z",
+      "sha256": "508a542e6e4dcc193645b8c7eb981b45312e178949f605b33300c126d37ed5ee",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.firebase:firebase-encoders-json:17.1.0",
+        "com.google.firebase:firebase-encoders:16.1.0",
+        "com.google.mlkit:common:18.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0",
+          "16.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.mlkit.nl.languageid.internal.LanguageIdRegistrar"
+      ]
+    }
+  ]
+}

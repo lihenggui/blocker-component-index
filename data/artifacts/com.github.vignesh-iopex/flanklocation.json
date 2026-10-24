@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.github.vignesh-iopex:flanklocation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9": {
+      "fetchedAt": "2026-10-24T17:07:55Z",
+      "sha256": "283d84da194f0645e1361d071c9a8aa5b81b2b8d1449d76e2e7a014b9d94b5b8",
+      "dependencies": [
+        "com.google.android.gms:play-services-location:7.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.vignesh_iopex.flanklocation.ConnectorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9",
+          "0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

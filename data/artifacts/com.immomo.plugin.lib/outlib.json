@@ -1,0 +1,200 @@
+{
+  "coordinate": "com.immomo.plugin.lib:outlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta.2": {
+      "fetchedAt": "2026-10-24T18:10:26Z",
+      "sha256": "5aa38da004c8fafa26720317740715f84ea53e60e66927f4d75475afaf137afe",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.0-rc.1": {
+      "fetchedAt": "2026-10-24T18:10:25Z",
+      "sha256": "a1075d29f03bf00b213c9261458cc193ddb6cfdbc5a8fe53322d254d216c61f5",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:10:24Z",
+      "sha256": "a4d568471ce836aaa3043071ae65539773d41f0d1b187cae8374ae8517e1c3e2",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T18:10:23Z",
+      "sha256": "a4d568471ce836aaa3043071ae65539773d41f0d1b187cae8374ae8517e1c3e2",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T18:10:23Z",
+      "sha256": "a4d568471ce836aaa3043071ae65539773d41f0d1b187cae8374ae8517e1c3e2",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-24T18:10:22Z",
+      "sha256": "a4d568471ce836aaa3043071ae65539773d41f0d1b187cae8374ae8517e1c3e2",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-24T18:10:21Z",
+      "sha256": "a4d568471ce836aaa3043071ae65539773d41f0d1b187cae8374ae8517e1c3e2",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.1.0-beta.1": {
+      "fetchedAt": "2026-10-24T18:10:20Z",
+      "sha256": "a1075d29f03bf00b213c9261458cc193ddb6cfdbc5a8fe53322d254d216c61f5",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.1.0-rc.1": {
+      "fetchedAt": "2026-10-24T18:10:19Z",
+      "sha256": "a1075d29f03bf00b213c9261458cc193ddb6cfdbc5a8fe53322d254d216c61f5",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.immomo.plugin.core.runtime.container.PluginContainerContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "com.immomo.plugin.contentprovider.authority.dynamic",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.immomo.plugin.lib.MainPluginProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.1.0-rc.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.immomo.plugin.sample.runtime.PluginDefaultProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.1.0-rc.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.immomo.plugin.sample.runtime.PluginSingleInstance1ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.1.0-rc.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.immomo.plugin.sample.runtime.PluginSingleTask1ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.1.0-rc.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.immomo.plugin.sample.runtime.PluginSingleTop1ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.1.0-rc.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

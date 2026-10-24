@@ -1,0 +1,111 @@
+{
+  "coordinate": "com.google.android.libraries.cloud.telco.subgraph:cloud_telco_subgraph",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T17:23:16Z",
+      "sha256": "96c2c870d45d345868ab5131048a70dc161a8fcbd18d2f2bce9281c4b149b27e",
+      "dependencies": []
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T17:23:16Z",
+      "sha256": "c53d03df4193425ba57ee33f3f4883f762efe4499fa3977494184453e87845a9",
+      "dependencies": []
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-24T17:23:15Z",
+      "sha256": "c53d03df4193425ba57ee33f3f4883f762efe4499fa3977494184453e87845a9",
+      "dependencies": []
+    },
+    "0.5.1": {
+      "fetchedAt": "2026-10-24T17:23:14Z",
+      "sha256": "87511fbae1b287efec4d634e3ae391559d28d75d513cf82c26482e007372395d",
+      "dependencies": []
+    },
+    "0.5.2": {
+      "fetchedAt": "2026-10-24T17:23:13Z",
+      "sha256": "9b5ae513b1d70d3b7e5e20159abcb6bb2e818ce3a2398baea1fc738ddab9c9ea",
+      "dependencies": []
+    },
+    "0.5.3": {
+      "fetchedAt": "2026-10-24T17:23:12Z",
+      "sha256": "e479a12712061fe1c12c3c25fef7b6f0b695a5e7cd0aacdbe5fab8498039e953",
+      "dependencies": []
+    },
+    "0.5.4": {
+      "fetchedAt": "2026-10-24T17:23:11Z",
+      "sha256": "e479a12712061fe1c12c3c25fef7b6f0b695a5e7cd0aacdbe5fab8498039e953",
+      "dependencies": []
+    },
+    "0.5.5": {
+      "fetchedAt": "2026-10-24T17:23:10Z",
+      "sha256": "e479a12712061fe1c12c3c25fef7b6f0b695a5e7cd0aacdbe5fab8498039e953",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.libraries.cloud.telco.subgraph.impl.NotificationHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.5.2",
+          "0.5.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.libraries.cloud.telco.subgraph.impl.SUBGRAPH_SDK_NOTIFICATION"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.libraries.cloud.telco.subgraph.impl.NotificationHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.libraries.cloud.telco.subgraph.impl.SUBGRAPH_SDK_NOTOFICATION"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.libraries.cloud.telco.subgraph.impl.SdkHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.5.1",
+          "0.5.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.libraries.cloud.telco.subgraph.impl.SDK_CPID_UPDATE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

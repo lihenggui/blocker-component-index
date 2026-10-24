@@ -1,0 +1,194 @@
+{
+  "coordinate": "com.ibuildapp:PayPalAndroidUtil",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:01:35Z",
+      "sha256": "883777734b1122c84eb415beea37fe09ba696769271b34be7d7fd91fae75d1fe",
+      "dependencies": [
+        "com.google.code.gson:gson:2.3.1",
+        "com.paypal.sdk:paypal-android-sdk:2.13.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T18:01:35Z",
+      "sha256": "883777734b1122c84eb415beea37fe09ba696769271b34be7d7fd91fae75d1fe",
+      "dependencies": [
+        "com.google.code.gson:gson:2.3.1",
+        "com.paypal.sdk:paypal-android-sdk:2.14.3"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T18:01:34Z",
+      "sha256": "283c3027ef3e5070e16b0281f92aab119b2dec627b101a8656df17993f3a3e64",
+      "dependencies": [
+        "com.google.code.gson:gson:2.3.1",
+        "com.paypal.sdk:paypal-android-sdk:2.15.1"
+      ]
+    },
+    "1.3": {
+      "fetchedAt": "2026-10-24T18:01:33Z",
+      "sha256": "b8b6b31d32c08251c2c67c418e99fc0df8c61dde5463c9d3616ebba261c9104c",
+      "dependencies": [
+        "androidx.security:security-crypto:1.0.0-alpha02",
+        "com.google.code.gson:gson:2.3.1",
+        "com.paypal.sdk:paypal-android-sdk:2.15.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ibuildapp.PayPalAndroidUtil.ConfirmationSender",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ibuildapp.PayPalAndroidUtil.FakePaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.PayPalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.PaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.PaymentConfirmActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.android.sdk.payments.PaymentMethodActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.card.payment.CardIOActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.card.payment.DataEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

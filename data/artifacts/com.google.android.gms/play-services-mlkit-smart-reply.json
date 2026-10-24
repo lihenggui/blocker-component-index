@@ -1,0 +1,40 @@
+{
+  "coordinate": "com.google.android.gms:play-services-mlkit-smart-reply",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta1": {
+      "fetchedAt": "2026-10-24T17:19:40Z",
+      "sha256": "8d83e10456e5b93cc62c71d098b027394f77e9142dfba9824a46cbdf40c96972",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-mlkit-language-id:17.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:18.6.0",
+        "com.google.mlkit:smart-reply-common:16.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta1",
+          "16.0.0-beta1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.mlkit.nl.smartreply.thin.internal.ThinSmartReplyRegistrar"
+      ]
+    }
+  ]
+}

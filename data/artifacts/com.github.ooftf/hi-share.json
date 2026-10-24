@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.github.ooftf:hi-share",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T16:50:00Z",
+      "sha256": "6ebf226da7b254245b0d74509882dfc21562f432a5bad3dbfd04c914ff932903",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.9",
+        "io.github.sinaweibosdk:core:11.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ooftf.hishare.QQTempActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ooftf.hishare.WbTempActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

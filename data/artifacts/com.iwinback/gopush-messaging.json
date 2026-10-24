@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.iwinback:gopush-messaging",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:33:05Z",
+      "sha256": "7b45282bb636721278c2cbc5da484974c8786b9fdbf4ef45b2ac4810e91e6c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.3.0",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T18:33:03Z",
+      "sha256": "7b45282bb636721278c2cbc5da484974c8786b9fdbf4ef45b2ac4810e91e6c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.3.0",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gopush.messaging.MessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

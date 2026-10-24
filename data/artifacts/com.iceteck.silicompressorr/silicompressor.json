@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.iceteck.silicompressorr:silicompressor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:02:00Z",
+      "sha256": "57f2619a91a637b991388ed11beaa31b7e1e10f81b53f3439db276abfe10b6ae",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T18:01:59Z",
+      "sha256": "ad95b8799fbd97117e0b5492094e2414a1bbb5fd12b6e027502d1c6bb9fd2895",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1"
+      ]
+    },
+    "2.0": {
+      "fetchedAt": "2026-10-24T18:01:58Z",
+      "sha256": "95b6169d63049682da858600e36aefe1d991292c7690a4ca286c3c31ff907976",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.1.0"
+      ]
+    },
+    "2.1": {
+      "fetchedAt": "2026-10-24T18:01:58Z",
+      "sha256": "41f63d72007fefbd4c461a770e8774f3ab08fff2a2f33c2699d729ea98215186",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.1.0"
+      ]
+    },
+    "2.2.3": {
+      "fetchedAt": "2026-10-24T18:01:57Z",
+      "sha256": "50e6d0cab9e00e66e3916cd67f4b05e91133bc406ec669cc4fba2c5900d1136c",
+      "dependencies": []
+    },
+    "2.2.4": {
+      "fetchedAt": "2026-10-24T18:01:56Z",
+      "sha256": "7d836270395f03345efd6dfe90683142d0ddbca804acb5e9cf100c9731d89ead",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.iceteck.silicompressorr.provider.GenericFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.2.3",
+          "2.2.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.iceteck.silicompressor.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

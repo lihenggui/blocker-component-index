@@ -1,0 +1,40 @@
+{
+  "coordinate": "com.github.ooftf:okhttp-monitor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T16:50:14Z",
+      "sha256": "75bc60def010bf237fdcd13211131a70fdbb1260aef167aa70e33f2cfa473e6d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:4.2.0",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "com.github.chuckerteam.chucker:library:3.4.0",
+        "com.github.ooftf:basic:0.3.0",
+        "com.github.ooftf:master-widget-dialog:1.2.2",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ooftf.http.monitor.ui.SettingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

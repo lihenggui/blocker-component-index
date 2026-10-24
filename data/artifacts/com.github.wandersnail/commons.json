@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.github.wandersnail:commons",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.1": {
+      "fetchedAt": "2026-10-24T17:08:12Z",
+      "sha256": "6b5a3353aed2a629b4f054692f22408b869c4f06287faa6c428aec044bd6243d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.1",
+          "1.3.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

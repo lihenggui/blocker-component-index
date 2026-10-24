@@ -1,0 +1,116 @@
+{
+  "coordinate": "com.growingio.android.gpush:gpush-oppo-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T17:47:53Z",
+      "sha256": "b2468f918150b8ed7b68553c3b345e9eade8bf199bb0c1b2fa889a507575985c",
+      "dependencies": []
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T17:47:52Z",
+      "sha256": "7a432dedfc27977c6aa3c2eaadbb67bc37f6846767e69e91e9cb00719f5e8f0c",
+      "dependencies": []
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T17:47:52Z",
+      "sha256": "2505fdd43d5a374818c599a6f666363ad90832054728070b29edc3be444ddb1b",
+      "dependencies": []
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T17:47:51Z",
+      "sha256": "597e3adb95dd8a3dbc3ebcb93f978d5242fbfbf1cfe86874714a2f64adf7f8b7",
+      "dependencies": []
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T17:47:50Z",
+      "sha256": "c3f26e73c19488448048c7ffd5bdf61747d33a5b06e1f61e84af8949373ac87b",
+      "dependencies": []
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T17:47:49Z",
+      "sha256": "c3f26e73c19488448048c7ffd5bdf61747d33a5b06e1f61e84af8949373ac87b",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.5.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.5.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

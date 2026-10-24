@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.github.ykrank:androidlifecycle",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T17:10:08Z",
+      "sha256": "0a7e2da9d86899975cc714aa109354750e30820da92527146230194b9b69b3bb",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T17:10:07Z",
+      "sha256": "0a7e2da9d86899975cc714aa109354750e30820da92527146230194b9b69b3bb",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.ykrank.androidlifecycle.lifemap.LifecycleRuntimeTrojanProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.3.0",
+          "0.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.lifecycle-map-trojan",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

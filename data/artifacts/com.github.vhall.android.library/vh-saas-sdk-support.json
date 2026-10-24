@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.github.vhall.android.library:vh-saas-sdk-support",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T17:03:32Z",
+      "sha256": "3e6e796ff869f94036e755d6bd6ea744c18e563e1a79796d582795792ae7da9d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.github.vhall.android.library:vh-saas-sdk:6.0.3",
+        "org.eclipse.jetty:jetty-client:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-server:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-servlet:8.1.8.v20121106",
+        "org.fourthline.cling:cling-core:2.1.1",
+        "org.fourthline.cling:cling-support:2.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.fourthline.cling.android.AndroidUpnpServiceImpl",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

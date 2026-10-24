@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.google.android.gms:play-services-appsearch",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0": {
+      "fetchedAt": "2026-10-24T17:16:50Z",
+      "sha256": "ce79d3cad2b2d33e7a149a768d5bd3b1101d6fb0ab7be196977bda1c93a4bdc3",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "16.0.1": {
+      "fetchedAt": "2026-10-24T17:16:49Z",
+      "sha256": "9e75796e534a0fe6e845aaf27453a7cb7fe235bcfbf18900215b35779d897e9d",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.metadata.ModuleDependencies",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0",
+          "16.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+      ],
+      "categories": [],
+      "metaData": [
+        "appsearch_dynamite_impl:0:preferred",
+        "appsearch_impl:0:preferred"
+      ]
+    },
+    {
+      "name": "com.google.android.gms.metadata.ModuleDependencies",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.1",
+          "16.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+      ],
+      "categories": [],
+      "metaData": [
+        "appsearch_impl:0:preferred"
+      ]
+    }
+  ]
+}

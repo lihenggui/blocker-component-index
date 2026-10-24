@@ -1,0 +1,168 @@
+{
+  "coordinate": "com.infinario.android.infinariosdk:infinario-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:12:54Z",
+      "sha256": "1a569ba2146b67f6d26bc811feec2956a7cd1eef2586887c71afd391198a2aa0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.google.android.gms:play-services-base:[6.5, )"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T18:12:53Z",
+      "sha256": "76752a15581e33ea4e66cd477ab7f4d45827e22f89f9bb57444a2eab407b2958",
+      "dependencies": [
+        "com.google.android.gms:play-services:[3.1,)"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T18:12:52Z",
+      "sha256": "3af4073617142af604a075b8a8528eb932c0608dd64639dd8b5799dc9adc77c2",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:[3.1,)",
+        "com.google.android.gms:play-services-gcm:[3.1,)"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-24T18:12:51Z",
+      "sha256": "7703f7be587187e845fc95205cdc0558e32d0650dd213c6baac6d75a9d6067c5",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:[3.1,)",
+        "com.google.android.gms:play-services-gcm:[3.1,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.infinario.android.infinariosdk.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinario.android.infinariosdk.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinario.android.infinariosdk.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinario.android.infinariosdk.ConnectivityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinario.android.infinariosdk.GcmBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "com.example.gcm"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.infinario.android.infinariosdk.GcmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinario.android.infinariosdk.ReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

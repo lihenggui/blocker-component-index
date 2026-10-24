@@ -1,0 +1,70 @@
+{
+  "coordinate": "com.github.tushardhole:scrollshot",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T17:01:47Z",
+      "sha256": "46deb2441d764da918b5760b96b7892b579b5cf3280f410543785f91cdb7c5c7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.qozix:tileview:2.1.8"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T17:01:46Z",
+      "sha256": "c6d520291af38a1f114cfc915d59079ac7a6ce969f1437e6840ce6bdbb2fe6d0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.2.1",
+        "com.qozix:tileview:2.1.8"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T17:01:45Z",
+      "sha256": "70e903bd3ea12b0f00ad280e79c02f14e932d5256b2ed142ddfbd5f0ba2604f4",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.qozix:tileview:2.1.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.mobile.android.scrollshot.ScrollShotFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.mobile.android.scrollshot.ScrollShotReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.mobile.android.scrollshot"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

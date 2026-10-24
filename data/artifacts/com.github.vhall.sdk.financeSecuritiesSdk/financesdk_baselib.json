@@ -1,0 +1,170 @@
+{
+  "coordinate": "com.github.vhall.sdk.financeSecuritiesSdk:financesdk_baselib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T17:04:58Z",
+      "sha256": "7925188a003382c79320923167b0d4b5a5b0bf198e083b96621c8b0be06aa0fa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.alibaba:fastjson:1.2.73",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.github.chrisbanes:PhotoView:2.1.4",
+        "com.github.princekin-f:EasyFloat:1.3.4",
+        "com.github.vhall.android.base:app-crash:1.2.1",
+        "com.github.vhall.android.base:http-client:1.0.2",
+        "com.github.vhall.android.base:vhall-module-core:2.5.2.3",
+        "com.github.vhall.android.library:vhallyun-framework:2.3.5",
+        "com.github.vhall.android.library:vhallyun-ilss:2.2.4",
+        "com.github.vhall.android.library:vhallyun-ims:2.2.32",
+        "com.github.vhall.android.library:vhallyun-lss:2.1.8.2",
+        "com.github.vhall.android.library:vhallyun-ops:2.1.1",
+        "com.github.vhall.android.library:vhallyun-vod:2.1.2.2",
+        "com.github.xiaoyuanhu.boxing:boxing-impl:1.0.4.1",
+        "com.github.xiaoyuanhu.boxing:boxing:1.0.4.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.7",
+        "com.scwang.smartrefresh:SmartRefreshLayout:1.1.2",
+        "com.squareup.okhttp3:logging-interceptor:3.10.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.5.0",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.1.0",
+        "jp.wasabeef:glide-transformations:2.0.1",
+        "org.jetbrains:annotations:15.0",
+        "org.jsoup:jsoup:1.12.1",
+        "org.ligboy.retrofit2:converter-fastjson-android:2.1.0",
+        "top.zibin:Luban:1.1.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.file.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.donkingliang.imageselector.ClipImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.donkingliang.imageselector.ImageSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.donkingliang.imageselector.PreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.donkingliang.imageselector.SelectPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.donkingliang.imageselector.provider.ImageSelectorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.imageSelectorProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.vhall.web.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

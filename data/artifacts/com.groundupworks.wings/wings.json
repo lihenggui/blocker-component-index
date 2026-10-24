@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.groundupworks.wings:wings",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T17:47:21Z",
+      "sha256": "7b7a0da1d45391432abcd8101d5f5a80f2de05d11aaacd31dc95ba6ff05cd253",
+      "dependencies": [
+        "com.android.support:support-v4:22.0.0",
+        "com.squareup.dagger:dagger:1.2.2",
+        "com.squareup:otto:1.3.5"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T17:47:21Z",
+      "sha256": "f3aad7c05f5ecea22b22ef3eb208c72481f2eaf3e20fde0097e537d1ef0c4cdf",
+      "dependencies": [
+        "com.android.support:support-v4:22.0.0",
+        "com.squareup.dagger:dagger:1.2.2",
+        "com.squareup:otto:1.3.5"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T17:47:20Z",
+      "sha256": "41e057a377240f3649abafb200c6938f03b24712b793b5307b254e038ae2e2e0",
+      "dependencies": [
+        "com.android.support:support-v4:22.0.0",
+        "com.squareup.dagger:dagger:1.2.2",
+        "com.squareup:otto:1.3.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.groundupworks.wings.core.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.groundupworks.wings.core.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.groundupworks.wings.core.WingsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

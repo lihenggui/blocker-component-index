@@ -1,0 +1,114 @@
+{
+  "coordinate": "com.google.android.games:memory-advice",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "0.13": {
+      "fetchedAt": "2026-10-24T17:15:51Z",
+      "sha256": "22dc1e9715229a5667b4df39175636e719235cb744faa61607a97f0ab5bc3dcb",
+      "dependencies": [
+        "com.google.android.games:memory-advice-common:0.13"
+      ]
+    },
+    "0.14": {
+      "fetchedAt": "2026-10-24T17:15:50Z",
+      "sha256": "8bd876ffe40d4f6cd09c8066e74a324ad5b56480ba7600358ddf4620ffa99c4a",
+      "dependencies": [
+        "com.google.android.games:memory-advice-common:0.14"
+      ]
+    },
+    "0.15": {
+      "fetchedAt": "2026-10-24T17:15:49Z",
+      "sha256": "18e361e9031f781f7358dc2559535796758ad39d21837c128d007194c49d2ed3",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "com.google.android.games:memory-advice-common:0.15"
+      ]
+    },
+    "0.22": {
+      "fetchedAt": "2026-10-24T17:15:48Z",
+      "sha256": "940e7f86e53118335667a5cda481b7e636e0059c3fd57605af9d4e885d8eaf54",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.multidex:multidex:2.0.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.2",
+        "com.google.android.games:memory-advice-common:0.22",
+        "org.tensorflow:tensorflow-lite:2.4.0"
+      ]
+    },
+    "0.23": {
+      "fetchedAt": "2026-10-24T17:15:47Z",
+      "sha256": "940e7f86e53118335667a5cda481b7e636e0059c3fd57605af9d4e885d8eaf54",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.multidex:multidex:2.0.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.2",
+        "com.google.android.games:memory-advice-common:0.23",
+        "org.tensorflow:tensorflow-lite:2.4.0"
+      ]
+    },
+    "0.24": {
+      "fetchedAt": "2026-10-24T17:15:46Z",
+      "sha256": "940e7f86e53118335667a5cda481b7e636e0059c3fd57605af9d4e885d8eaf54",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.multidex:multidex:2.0.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.2",
+        "com.google.android.games:memory-advice-common:0.24",
+        "org.tensorflow:tensorflow-lite:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.apps.internal.games.memoryadvice.CanaryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.22",
+          "0.24"
+        ]
+      ],
+      "exported": null,
+      "process": ":com.google.android.apps.internal.games.memoryadvice.CanaryProcess",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.apps.internal.games.memoryadvice.CanaryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.13",
+          "0.15"
+        ]
+      ],
+      "exported": null,
+      "process": ":externalProcess",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.apps.internal.games.memoryadvice.StressService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.13",
+          "0.15"
+        ]
+      ],
+      "exported": null,
+      "process": ":externalProcess",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

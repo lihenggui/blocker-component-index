@@ -1,0 +1,270 @@
+{
+  "coordinate": "com.horntell:zed",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T17:58:17Z",
+      "sha256": "bac5c41af7e86d1feddf18eaacce17d7323fd32e02641b61731a8a8e600a2b73",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.1.1",
+        "com.android.support:cardview-v7:24.1.1",
+        "com.android.support:recyclerview-v7:24.1.1",
+        "com.google.android.gms:play-services-auth:9.2.1",
+        "com.google.code.gson:gson:2.3.1",
+        "com.squareup.okhttp3:okhttp:3.0.1",
+        "com.squareup.picasso:picasso:2.5.2",
+        "io.socket:socket.io-client:0.7.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T17:58:16Z",
+      "sha256": "9517237f88bbd75f36cbd0021ca4cbb9e1a214ccc7db8e09a8ebf18f1eff4151",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.1.1",
+        "com.android.support:cardview-v7:24.1.1",
+        "com.android.support:recyclerview-v7:24.1.1",
+        "com.google.android.gms:play-services-auth:9.2.1",
+        "com.google.code.gson:gson:2.3.1",
+        "com.squareup.okhttp3:okhttp:3.0.1",
+        "com.squareup.picasso:picasso:2.5.2",
+        "io.socket:socket.io-client:0.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.horntell.pendulum.activity.GoogleAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.activity.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.CardReciever",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "CARD_RECEIVER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.CheckSocketServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.FallbackReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "CARD_RECEIVER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.NetworkStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.OpenBob",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.horntell.pendulum.broadcastReceivers.OpenBob"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.PhoneRestartIntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.ResponseReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ACTION_CARD_MARK_READ",
+        "ACTION_CARD_MARK_SEEN"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.broadcastReceivers.UploadBugReportAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.service.PendulumService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.pendulum.service.SocketService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.horntell.zed.receivers.DexDownloadAlarm",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

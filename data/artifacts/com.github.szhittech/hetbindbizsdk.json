@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.github.szhittech:hetbindbizsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T16:58:26Z",
+      "sha256": "3bb384b6cc1a5dfd0a82031256e0c45c9e8c1903e6e58519fc89c8e0ed071112",
+      "dependencies": [
+        "com.github.szhittech:hetbasicsdk:1.0.5-SNAPSHOT",
+        "com.github.szhittech:hetblebasesdk:1.0.2-SNAPSHOT",
+        "com.github.szhittech:hetudpsdk:1.0.4-SNAPSHOT"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.het.bind.logic.utils.ShadowBleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

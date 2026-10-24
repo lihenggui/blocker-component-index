@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.github.suckgamony:andrxid",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T16:58:12Z",
+      "sha256": "cf3e61c5f378bab524556186870b736c501722e3dfe8339b06d80d5846ee17a9",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:support-compat:27.1.1",
+        "io.reactivex.rxjava2:rxjava:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.41"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T16:58:11Z",
+      "sha256": "cf3e61c5f378bab524556186870b736c501722e3dfe8339b06d80d5846ee17a9",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:support-compat:27.1.1",
+        "io.reactivex.rxjava2:rxjava:2.1.16",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "andrxid.app.ResultReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

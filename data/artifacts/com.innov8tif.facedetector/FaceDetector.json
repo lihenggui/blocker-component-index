@@ -1,0 +1,84 @@
+{
+  "coordinate": "com.innov8tif.facedetector:FaceDetector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T18:20:25Z",
+      "sha256": "5e681f8e5341e8540c810f925d1062603d44d8836e1a26d6d45f504219918d89",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0",
+        "org.tensorflow:tensorflow-lite-gpu:2.5.0",
+        "org.tensorflow:tensorflow-lite-support:0.2.0",
+        "org.tensorflow:tensorflow-lite:2.5.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T18:20:24Z",
+      "sha256": "66a7dcbedaac45e37865f357dadd56d79ae40a24267147a40263690ce962ba03",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0",
+        "org.tensorflow:tensorflow-lite-gpu:2.5.0",
+        "org.tensorflow:tensorflow-lite-support:0.2.0",
+        "org.tensorflow:tensorflow-lite:2.5.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T18:20:22Z",
+      "sha256": "2a9b1bb89de1d7184b38232183482aba0a0b9a4a7c5cceceba4356670c3612e3",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0",
+        "org.tensorflow:tensorflow-lite-gpu:2.5.0",
+        "org.tensorflow:tensorflow-lite-support:0.2.0",
+        "org.tensorflow:tensorflow-lite:2.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.innov8tif.facedetector.FaceDetectorSDK",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.innov8tif.facedetector.activity.FaceDetectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

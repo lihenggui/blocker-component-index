@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.google.android.gms:play-services-mlkit-language-id",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta1": {
+      "fetchedAt": "2026-10-24T17:19:39Z",
+      "sha256": "c13d40bdf649e4c0ed2e63bf1b61afe3fbd88e29504a4a7ef9d47e19281c44f6",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-basement:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.firebase:firebase-encoders-json:17.1.0",
+        "com.google.firebase:firebase-encoders:16.1.0",
+        "com.google.mlkit:common:17.3.0"
+      ]
+    },
+    "16.0.0-beta2": {
+      "fetchedAt": "2026-10-24T17:19:38Z",
+      "sha256": "c13d40bdf649e4c0ed2e63bf1b61afe3fbd88e29504a4a7ef9d47e19281c44f6",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-basement:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.firebase:firebase-encoders-json:17.1.0",
+        "com.google.firebase:firebase-encoders:16.1.0",
+        "com.google.mlkit:common:17.4.0"
+      ]
+    },
+    "17.0.0-beta1": {
+      "fetchedAt": "2026-10-24T17:19:37Z",
+      "sha256": "801880b2cf5228140c78325dc0b78f40fcb4d20141e1e79e2806f8c9ff458c1e",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.firebase:firebase-encoders-json:17.1.0",
+        "com.google.firebase:firebase-encoders:16.1.0",
+        "com.google.mlkit:common:18.0.0"
+      ]
+    },
+    "17.0.0": {
+      "fetchedAt": "2026-10-24T17:19:36Z",
+      "sha256": "43e24c39c8e99b42626fd661fc924305f671e8c96b98966abf719b028d811fb4",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:18.5.0",
+        "com.google.mlkit:language-id-common:16.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta1",
+          "17.0.0-beta1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.mlkit.nl.languageid.internal.LanguageIdRegistrar"
+      ]
+    },
+    {
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "17.0.0",
+          "17.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.mlkit.nl.languageid.thin.internal.ThinLanguageIdRegistrar"
+      ]
+    }
+  ]
+}

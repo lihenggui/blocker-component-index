@@ -1,0 +1,61 @@
+{
+  "coordinate": "com.iusmob.adklein.ad:mobius",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T18:29:25Z",
+      "sha256": "138b8b0f2e2b86b981c55c13de26b0db33803ec80c81ebd8641656b2e0a2ebd6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T18:29:25Z",
+      "sha256": "dac281c55a8b7906b93c4a041e8c421bfc2d93f17610dc056b0b3751582aeb79",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-24T18:29:24Z",
+      "sha256": "749782e83e8593a3f6a3534b483740a883d988f7acd6a1b4a57124e76fd514fd",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.iusmob.mobius.api.ad.views.MobiusAdWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.iusmob.mobius.api.ad.views.MobiusRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

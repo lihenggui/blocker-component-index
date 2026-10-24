@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.github.markzhai:share",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:46:32Z",
+      "sha256": "112dd92832b5dc878b800422da9e94c2ef3eba62f07a262ca797bb43b865bd1f",
+      "dependencies": [
+        "android:authorize:unspecified"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T16:46:32Z",
+      "sha256": "112dd92832b5dc878b800422da9e94c2ef3eba62f07a262ca797bb43b865bd1f",
+      "dependencies": [
+        "com.github.markzhai:authorize:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.markzhai.share.demo.DemoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

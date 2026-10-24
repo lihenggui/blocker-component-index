@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.ifeng.newssdk:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.16": {
+      "fetchedAt": "2026-10-24T18:03:16Z",
+      "sha256": "d6a2b39a571e413f585b8975d943546ec1316c5c3c85a51c78c80498d0e2c76f",
+      "dependencies": [
+        "com.android.support:recyclerview-v7:23.2.1",
+        "com.ifeng.newssdk:commonbiz:0.16"
+      ]
+    },
+    "0.17": {
+      "fetchedAt": "2026-10-24T18:03:15Z",
+      "sha256": "8c0f9cb94a30ccaa7eaccc8ca1a8916cb6874dc493910bc7cbaba86017297edf",
+      "dependencies": [
+        "com.android.support:recyclerview-v7:23.2.1",
+        "com.ifeng.newssdk:commonbiz:0.17"
+      ]
+    },
+    "0.18": {
+      "fetchedAt": "2026-10-24T18:03:14Z",
+      "sha256": "57eceb30689d903b2a12adf5ff381e6718b556771f082fa2f91e64c5125c3548",
+      "dependencies": [
+        "com.android.support:recyclerview-v7:23.2.1",
+        "com.ifeng.newssdk:commonbiz:0.18"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ifeng.core.activity.ProvinceSwitchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.16",
+          "0.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ifeng.core.activity.SubscriptionChannelActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.16",
+          "0.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ifeng.core.activity.WebDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.16",
+          "0.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "coordinate": "com.google.android.gms:play-services-games-v2",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "17.0.0": {
+      "fetchedAt": "2026-10-24T17:18:08Z",
+      "sha256": "24214291e89fe9704c71a967da5f821dd8496a07f0beda1a4785c4c88671459d",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-drive:17.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1"
+      ]
+    },
+    "19.0.0": {
+      "fetchedAt": "2026-10-24T17:18:08Z",
+      "sha256": "896b5f51179b3b3cf656f0b076fe7c94a596d4ca0f487bb8c91873c2d5d83104",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-drive:17.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1"
+      ]
+    },
+    "20.0.0": {
+      "fetchedAt": "2026-10-24T17:18:07Z",
+      "sha256": "b2ca9f0a5a2818dff14a73de89a6c8f664a493bf0e3893b5652c67ecc1f49795",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.3.0",
+        "com.google.android.gms:play-services-basement:18.3.0",
+        "com.google.android.gms:play-services-drive:17.0.0",
+        "com.google.android.gms:play-services-tasks:18.1.0"
+      ]
+    },
+    "20.1.0": {
+      "fetchedAt": "2026-10-24T17:18:06Z",
+      "sha256": "51e95e9f76090fb88c6101488a7e4182a919c0add6b408986b37aac813b03f92",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-drive:17.0.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "20.1.1": {
+      "fetchedAt": "2026-10-24T17:18:05Z",
+      "sha256": "79fc2f5d83b2fc8ba5271705484b2bff290dc2cadbc223e88596a5807cbfe7fd",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-drive:17.0.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "20.1.2": {
+      "fetchedAt": "2026-10-24T17:18:05Z",
+      "sha256": "79fc2f5d83b2fc8ba5271705484b2bff290dc2cadbc223e88596a5807cbfe7fd",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-drive:17.0.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "21.0.0": {
+      "fetchedAt": "2026-10-24T17:18:04Z",
+      "sha256": "79fc2f5d83b2fc8ba5271705484b2bff290dc2cadbc223e88596a5807cbfe7fd",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "22.0.0": {
+      "fetchedAt": "2026-10-24T17:18:04Z",
+      "sha256": "40b8387cd5a72e6ae4add897367567182b1ade705f3f775fb52dd60194fa9a13",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.9.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "22.1.0": {
+      "fetchedAt": "2026-10-24T17:18:03Z",
+      "sha256": "40b8387cd5a72e6ae4add897367567182b1ade705f3f775fb52dd60194fa9a13",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.9.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.games.internal.v2.appshortcuts.PlayGamesAppShortcutsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "20.0.0",
+          "22.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "17.0.0",
+          "22.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.games.provider.PlayGamesInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "17.0.0",
+          "22.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.playgamesinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

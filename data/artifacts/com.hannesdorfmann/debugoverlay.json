@@ -1,0 +1,78 @@
+{
+  "coordinate": "com.hannesdorfmann:debugoverlay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T17:51:05Z",
+      "sha256": "65bdbe712e4372dab71ef839c58b9f4caf28650720d6bf5817d99e23ce9850f6",
+      "dependencies": [
+        "com.android.support:support-annotations:23.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:0.14.451"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T17:51:04Z",
+      "sha256": "65bdbe712e4372dab71ef839c58b9f4caf28650720d6bf5817d99e23ce9850f6",
+      "dependencies": [
+        "com.android.support:support-annotations:23.0.0"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-24T17:51:04Z",
+      "sha256": "69862b6978294a7c9fa190b5e67a1e06cfa35eda9c5f7818a920a576ebe0b1df",
+      "dependencies": [
+        "com.android.support:support-annotations:23.0.0"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T17:51:03Z",
+      "sha256": "921386e01be97dee13d99fe59de2a3fb5e1c6d553e14254705a221db3e385a43",
+      "dependencies": [
+        "com.android.support:support-annotations:27.0.0"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T17:51:02Z",
+      "sha256": "921386e01be97dee13d99fe59de2a3fb5e1c6d553e14254705a221db3e385a43",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hannesdorfmann.debugoverlay.DebugOverlayService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.1",
+          "0.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hannesdorfmann.debugoverlay.DebugOverlayService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

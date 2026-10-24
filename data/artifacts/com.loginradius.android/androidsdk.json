@@ -1,0 +1,142 @@
+{
+  "coordinate": "com.loginradius.android:androidsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.9.1": {
+      "fetchedAt": "2026-10-24T19:00:53Z",
+      "sha256": "89215448b305662d0b70067be94214ee21592a0b3c5db8ec80a6a77f006a1a28",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.multidex:multidex:2.0.0",
+        "com.facebook.android:facebook-login:11.2.0",
+        "com.google.android.gms:play-services-auth:16.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.4.0",
+        "com.vk:androidsdk:1.6.7",
+        "io.reactivex.rxjava2:rxandroid:2.1.1"
+      ]
+    },
+    "4.9.2": {
+      "fetchedAt": "2026-10-24T19:00:52Z",
+      "sha256": "a8ebad91955964af9f78b24a27ab0ef8a008d12e2b6a939bafb8f90804634aec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.multidex:multidex:2.0.0",
+        "com.facebook.android:facebook-login:11.2.0",
+        "com.google.android.gms:play-services-auth:16.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.4.0",
+        "com.vk:androidsdk:1.6.7",
+        "io.reactivex.rxjava2:rxandroid:2.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.loginradius.androidsdk.activity.FacebookNativeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.1",
+          "4.9.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.loginradius.androidsdk.activity.GoogleNativeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.1",
+          "4.9.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.loginradius.androidsdk.activity.RequiredFieldsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.1",
+          "4.9.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.loginradius.androidsdk.activity.VkontakteNativeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.1",
+          "4.9.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.loginradius.androidsdk.activity.WeChatNativeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.1",
+          "4.9.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.loginradius.androidsdk.activity.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.1",
+          "4.9.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

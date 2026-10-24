@@ -1,0 +1,55 @@
+{
+  "coordinate": "com.google.mlkit:playstore-dynamic-feature-support",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta1": {
+      "fetchedAt": "2026-10-24T17:44:27Z",
+      "sha256": "f971d3f69e85169bff546d089a8eb08e9fa260db44e4955a1783e7b2b6473c3a",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-basement:17.6.0",
+        "com.google.android.play:core:1.10.0",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:17.2.0"
+      ]
+    },
+    "16.0.0-beta2": {
+      "fetchedAt": "2026-10-24T17:44:26Z",
+      "sha256": "7ef0b1f7d507560af97276770bf3d5e1cbd049d44e65471658af16f4aefabfda",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.play:core:1.10.0",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:18.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta1",
+          "16.0.0-beta2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.mlkit.dynamic.DynamicLoadingRegistrar"
+      ]
+    }
+  ]
+}

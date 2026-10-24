@@ -1,0 +1,109 @@
+{
+  "coordinate": "com.inmobi.helloyou:news",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.0.1": {
+      "fetchedAt": "2026-10-24T18:18:04Z",
+      "sha256": "d00a6c5688497cbfb509efbbd96ef3196371d95f2bb05295db98c16dc45a62df",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.5.0",
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:8.5.0",
+        "androidx.fragment:fragment-ktx:1.5.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.0",
+        "androidx.paging:paging-runtime:3.1.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "com.airbnb.android:lottie:4.2.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.material:material:1.7.0",
+        "com.inmobi.helloyou:analytics:9.0.1",
+        "com.inmobi.helloyou:contract:9.0.1",
+        "com.inmobi.helloyou:coreutils:9.0.1",
+        "com.inmobi.helloyou:data:9.0.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.inmobi.helloyou.news.NewsBingeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.1",
+          "9.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.inmobi.helloyou.news.NewsListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.1",
+          "9.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.inmobi.helloyou.news.ReadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.1",
+          "9.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.inmobi.helloyou.widget.HelloYouWidgetProvider",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "9.0.1",
+          "9.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.appwidget.action.APPWIDGET_UPDATE"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.appwidget.provider"
+      ]
+    }
+  ]
+}

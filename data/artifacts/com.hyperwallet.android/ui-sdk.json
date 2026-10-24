@@ -1,0 +1,87 @@
+{
+  "coordinate": "com.hyperwallet.android:ui-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-24T18:00:37Z",
+      "sha256": "71aece4743136635f67cfc7f039587d2ef11c47646b29279d0d001afb0de384a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.test.espresso:espresso-idling-resource:3.1.1",
+        "com.google.android.material:material:1.0.0",
+        "com.hyperwallet.android:core-sdk:1.0.0-beta01"
+      ]
+    },
+    "1.0.0-beta02": {
+      "fetchedAt": "2026-10-24T18:00:36Z",
+      "sha256": "76f56846adbfd045f300b9205e98c084ab882c9750d65d3328907abd7aa87b82",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.test.espresso:espresso-idling-resource:3.1.1",
+        "com.google.android.material:material:1.0.0",
+        "com.hyperwallet.android:core-sdk:1.0.0-beta02"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hyperwallet.android.ui.transfermethod.AddTransferMethodActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyperwallet.android.ui.transfermethod.ListTransferMethodActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyperwallet.android.ui.transfermethod.SelectTransferMethodActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    }
+  ]
+}

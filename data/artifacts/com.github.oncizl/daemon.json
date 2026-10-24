@@ -1,0 +1,192 @@
+{
+  "coordinate": "com.github.oncizl:daemon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:49:31Z",
+      "sha256": "b6892a230276a33fec37079d7925b9cebe73533421ff6cfcb2a9a006f34e181e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T16:49:30Z",
+      "sha256": "678fcd20dd7c6c183928da060b21fd6b785bf7d2be1a7be093473aeaff0603e7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T16:49:30Z",
+      "sha256": "54fe7fc5b0ebf14270aaa492658961e5af02e11371c6201e37b8ebc7f2ca3a7d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T16:49:29Z",
+      "sha256": "c4ccfa2d3be02eaf24b6ee600b29c9180645e490abb9b6796ae825782b1f3666",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T16:49:28Z",
+      "sha256": "ebe1124377731254cca2b22ee3a343c36eb65a0d6c9325355539790e6590fcda",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.oncizl.daemon.receiver.DaemonBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.a2dp.profile.action.AVRCP_CONNECTION_STATE_CHANGED",
+        "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED",
+        "android.bluetooth.a2dp.profile.action.PLAYING_STATE_CHANGED",
+        "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED",
+        "android.bluetooth.adapter.action.DISCOVERY_FINISHED",
+        "android.bluetooth.adapter.action.DISCOVERY_STARTED",
+        "android.bluetooth.adapter.action.LOCAL_NAME_CHANGED",
+        "android.bluetooth.adapter.action.SCAN_MODE_CHANGED",
+        "android.bluetooth.adapter.action.STATE_CHANGED",
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED",
+        "android.bluetooth.device.action.ALIAS_CHANGED",
+        "android.bluetooth.device.action.BOND_STATE_CHANGED",
+        "android.bluetooth.device.action.CLASS_CHANGED",
+        "android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL",
+        "android.bluetooth.device.action.CONNECTION_ACCESS_REPLY",
+        "android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST",
+        "android.bluetooth.device.action.DISAPPEARED",
+        "android.bluetooth.device.action.FOUND",
+        "android.bluetooth.device.action.MAS_INSTANCE",
+        "android.bluetooth.device.action.NAME_CHANGED",
+        "android.bluetooth.device.action.NAME_FAILED",
+        "android.bluetooth.device.action.PAIRING_CANCEL",
+        "android.bluetooth.device.action.PAIRING_REQUEST",
+        "android.bluetooth.device.action.SDP_RECORD",
+        "android.bluetooth.device.action.UUID",
+        "android.hardware.action.NEW_PICTURE",
+        "android.hardware.action.NEW_VIDEO",
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.ACTION_SHUTDOWN",
+        "android.intent.action.AIRPLANE_MODE",
+        "android.intent.action.APPLICATION_RESTRICTIONS_CHANGED",
+        "android.intent.action.BATTERY_CHANGED",
+        "android.intent.action.BATTERY_LOW",
+        "android.intent.action.BATTERY_OKAY",
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.CAMERA_BUTTON",
+        "android.intent.action.CONFIGURATION_CHANGED",
+        "android.intent.action.DATE_CHANGED",
+        "android.intent.action.DEVICE_STORAGE_LOW",
+        "android.intent.action.DEVICE_STORAGE_OK",
+        "android.intent.action.DOCK_EVENT",
+        "android.intent.action.DOWNLOAD_COMPLETE",
+        "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED",
+        "android.intent.action.DREAMING_STARTED",
+        "android.intent.action.DREAMING_STOPPED",
+        "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE",
+        "android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE",
+        "android.intent.action.GTALK_CONNECTED",
+        "android.intent.action.GTALK_DISCONNECTED",
+        "android.intent.action.HEADSET_PLUG",
+        "android.intent.action.INPUT_METHOD_CHANGED",
+        "android.intent.action.LOCALE_CHANGED",
+        "android.intent.action.MANAGE_PACKAGE_STORAGE",
+        "android.intent.action.MEDIA_BAD_REMOVAL",
+        "android.intent.action.MEDIA_BUTTON",
+        "android.intent.action.MEDIA_CHECKING",
+        "android.intent.action.MEDIA_EJECT",
+        "android.intent.action.MEDIA_MOUNTED",
+        "android.intent.action.MEDIA_NOFS",
+        "android.intent.action.MEDIA_REMOVED",
+        "android.intent.action.MEDIA_SCANNER_FINISHED",
+        "android.intent.action.MEDIA_SCANNER_SCAN_FILE",
+        "android.intent.action.MEDIA_SCANNER_STARTED",
+        "android.intent.action.MEDIA_SHARED",
+        "android.intent.action.MEDIA_UNMOUNTABLE",
+        "android.intent.action.MEDIA_UNMOUNTED",
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "android.intent.action.REBOOT",
+        "android.intent.action.SCREEN_OFF",
+        "android.intent.action.SCREEN_ON",
+        "android.intent.action.TIMEZONE_CHANGED",
+        "android.intent.action.TIME_SET",
+        "android.intent.action.TIME_TICK",
+        "android.intent.action.UID_REMOVED",
+        "android.intent.action.USER_PRESENT",
+        "android.intent.action.WALLPAPER_CHANGED",
+        "android.net.conn.BACKGROUND_DATA_SETTING_CHANGED",
+        "android.net.conn.INET_CONDITION_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.oncizl.daemon.service.DService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": ":xq",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.oncizl.daemon.service.XService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.oncizl.daemon.service.XqService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

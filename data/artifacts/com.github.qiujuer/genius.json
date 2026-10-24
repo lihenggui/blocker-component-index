@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.github.qiujuer:genius",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T16:52:31Z",
+      "sha256": "674b91af7884062d098644f9df171d46f24e9bdce71fa6d49a28dde6ecbd64b5",
+      "dependencies": []
+    },
+    "0.6.5": {
+      "fetchedAt": "2026-10-24T16:52:31Z",
+      "sha256": "3ca55bce0526751f151c222e7a736fddbfa33d36312df0480fb3efbfab8e6bea",
+      "dependencies": []
+    },
+    "0.6.8": {
+      "fetchedAt": "2026-10-24T16:52:30Z",
+      "sha256": "3ae3172e383da96bdc1dab6dfd00ec888f7f584e6070887fcc56098345df7321",
+      "dependencies": []
+    },
+    "0.7.5": {
+      "fetchedAt": "2026-10-24T16:52:29Z",
+      "sha256": "708e79e5a2cc2a3b8630652992340b1130c35d675fa4f44dbfa5f83d136efa4d",
+      "dependencies": []
+    },
+    "0.7.6": {
+      "fetchedAt": "2026-10-24T16:52:28Z",
+      "sha256": "cce1b0750a2f355bf72c2dfa8daa269b8bd9380bf7eac2918a71025c11b97e48",
+      "dependencies": []
+    },
+    "0.7.9": {
+      "fetchedAt": "2026-10-24T16:52:27Z",
+      "sha256": "b5bde017680d92976106d17e13c07f7bb3dd5ecb89416c4b69e6faf8efd24868",
+      "dependencies": []
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-24T16:52:26Z",
+      "sha256": "75b7af289377d651e5470f29ffc8a626ea67407e4a9e663206fb1ba9c7f7f898",
+      "dependencies": []
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:52:26Z",
+      "sha256": "203ec14874e1014713ebadf34d91decce928a736994cb12682800ff48a9e23e2",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T16:52:25Z",
+      "sha256": "c554f9da24c05dbcc57bc2c3b7746a56e512b87bffb318d4206195f30519a69a",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T16:52:24Z",
+      "sha256": "0165ff1d1a9f56c374390679ce042122c61d241932b1ce5052b4a8c5373f631b",
+      "dependencies": []
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T16:52:23Z",
+      "sha256": "5e3ac268d12e62e8945d494274a598d9728a75031ac91ef79ff25875046d5531",
+      "dependencies": []
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-24T16:52:22Z",
+      "sha256": "692e36afee604503e7359f55f8098d08da22d4643aeb57c87874d7ca0ad08409",
+      "dependencies": []
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-24T16:52:22Z",
+      "sha256": "26ae61da31dd7f157a6528511904b7108cbf208c9827617b65f7785f2ace9d13",
+      "dependencies": []
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-24T16:52:21Z",
+      "sha256": "373fbb225f248bf1b886e9f5dba65492999a956af077146f0cd7c6b4f9977072",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "2.4.1": {
+      "fetchedAt": "2026-10-24T16:52:19Z",
+      "sha256": "46cf1a7f3af067fca3fa70ff89c2b99fd18e6119049064703acb26d0f4d3dbb9",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.qiujuer.genius.command.CommandService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "2.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": "net.qiujuer.genius.command.CommandService",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "net.qiujuer.genius.command.ICommandInterface"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

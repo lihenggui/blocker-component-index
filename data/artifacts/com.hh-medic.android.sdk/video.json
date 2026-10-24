@@ -1,0 +1,195 @@
+{
+  "coordinate": "com.hh-medic.android.sdk:video",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.5.4.02231606": {
+      "fetchedAt": "2026-10-24T17:56:40Z",
+      "sha256": "c305467437f7f6bd282caf43527a60822106c750d3cc094a6f03605415d3f5f8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.documentfile:documentfile:1.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.hh-medic.android.sdk:doctor_sdk_base:1.2.0.02231031",
+        "com.hh-medic.android.sdk:matisse:2.1.0.02231127",
+        "com.hh-medic.android.sdk:okhttputils:1.0.0.02231150",
+        "com.hh-medic.android.sdk:uikit:1.1.0.02231521",
+        "org.jetbrains:annotations:15.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hhmedic.android.sdk.base.utils.HHFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hhsdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.activate.ActivateAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.browser.HHBrowserAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.drug.UpdateCountAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.home.HomeActWeb",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.medicRecord.PhotoBrowserAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.medicRecord.UploadListAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.setting.SettingAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.video.player.HHVideoAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.pdf.PDFSearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.4.02231606",
+          "2.5.4.02231606"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

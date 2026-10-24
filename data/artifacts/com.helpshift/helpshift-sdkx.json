@@ -1,0 +1,153 @@
+{
+  "coordinate": "com.helpshift:helpshift-sdkx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta": {
+      "fetchedAt": "2026-10-24T17:55:28Z",
+      "sha256": "594222632d240c8030ceae308baf9a03124b240cce211322ca3c6499a3a8814c",
+      "dependencies": []
+    },
+    "10.0.0": {
+      "fetchedAt": "2026-10-24T17:55:28Z",
+      "sha256": "3de0792ec38e3bfbe87db4abd1740cdf3390cf891fda91c80a65cc3dbbc226e8",
+      "dependencies": []
+    },
+    "10.0.1": {
+      "fetchedAt": "2026-10-24T17:55:27Z",
+      "sha256": "0ae54256cd7fd3bc71a17975f7a089a655e220738940841ecc1044606f0db657",
+      "dependencies": []
+    },
+    "10.0.2": {
+      "fetchedAt": "2026-10-24T17:55:26Z",
+      "sha256": "0ae54256cd7fd3bc71a17975f7a089a655e220738940841ecc1044606f0db657",
+      "dependencies": []
+    },
+    "10.1.0": {
+      "fetchedAt": "2026-10-24T17:55:26Z",
+      "sha256": "0ae54256cd7fd3bc71a17975f7a089a655e220738940841ecc1044606f0db657",
+      "dependencies": []
+    },
+    "10.2.0": {
+      "fetchedAt": "2026-10-24T17:55:25Z",
+      "sha256": "7ecc92b2bc37b4a5b493929df946059883719c7d429f0920e9265bc44d62920d",
+      "dependencies": []
+    },
+    "10.2.1": {
+      "fetchedAt": "2026-10-24T17:55:24Z",
+      "sha256": "7ecc92b2bc37b4a5b493929df946059883719c7d429f0920e9265bc44d62920d",
+      "dependencies": []
+    },
+    "10.2.2": {
+      "fetchedAt": "2026-10-24T17:55:23Z",
+      "sha256": "7ecc92b2bc37b4a5b493929df946059883719c7d429f0920e9265bc44d62920d",
+      "dependencies": []
+    },
+    "10.3.0": {
+      "fetchedAt": "2026-10-24T17:55:23Z",
+      "sha256": "b5044db0b9b512fbd9ebd377d1cb0a7444e55cf8379839c08f60e02644cc377b",
+      "dependencies": []
+    },
+    "10.4.0": {
+      "fetchedAt": "2026-10-24T17:55:21Z",
+      "sha256": "987253272359b1c929c28eb7757bf802927ca3b5b5dcb2e83928b64c4533e776",
+      "dependencies": []
+    },
+    "10.5.0": {
+      "fetchedAt": "2026-10-24T17:55:22Z",
+      "sha256": "6ba129b2f2e53a1c6d8263c50b2421c95fad990a99a253b43f3b746b9a67d0bb",
+      "dependencies": []
+    },
+    "10.5.1": {
+      "fetchedAt": "2026-10-24T17:55:21Z",
+      "sha256": "78c8f2d20208e696dd0399068ea32c492514d0eb776186b71bfda9820c06db3e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.helpshift.activities.HSDebugActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.2.0",
+          "10.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.activities.HSMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.0.0",
+          "10.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.chat.ui.HSChatViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta",
+          "1.0.0-beta"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.proactive.HSProactiveNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.5.0",
+          "10.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.provider.HelpshiftContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.5.1",
+          "10.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider.HelpshiftContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

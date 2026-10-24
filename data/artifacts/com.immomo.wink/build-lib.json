@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.immomo.wink:build-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.10002i": {
+      "fetchedAt": "2026-10-24T18:10:31Z",
+      "sha256": "aa33e83e6048a6600647e5a0b16f3ea5a9864f3d616e2ce4ac286db3e22742c7",
+      "dependencies": []
+    },
+    "0.2.118": {
+      "fetchedAt": "2026-10-24T18:10:30Z",
+      "sha256": "aa33e83e6048a6600647e5a0b16f3ea5a9864f3d616e2ce4ac286db3e22742c7",
+      "dependencies": []
+    },
+    "0.3.4": {
+      "fetchedAt": "2026-10-24T18:10:29Z",
+      "sha256": "aa33e83e6048a6600647e5a0b16f3ea5a9864f3d616e2ce4ac286db3e22742c7",
+      "dependencies": []
+    },
+    "0.3.6": {
+      "fetchedAt": "2026-10-24T18:10:28Z",
+      "sha256": "aa33e83e6048a6600647e5a0b16f3ea5a9864f3d616e2ce4ac286db3e22742c7",
+      "dependencies": []
+    },
+    "0.3.16": {
+      "fetchedAt": "2026-10-24T18:10:28Z",
+      "sha256": "aa33e83e6048a6600647e5a0b16f3ea5a9864f3d616e2ce4ac286db3e22742c7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.immomo.wink.patch.LiteBuildProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.10002i",
+          "0.3.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.wink-sentry-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

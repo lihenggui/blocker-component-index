@@ -1,0 +1,84 @@
+{
+  "coordinate": "com.karacca:beetle",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T18:42:45Z",
+      "sha256": "a873afca78eaad88977ea7430a28842156b6ea6313868ea2a7b04ed6836bb2e2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "com.google.android.material:material:1.6.1",
+        "com.squareup.okhttp3:okhttp-bom:4.10.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.coil-kt:coil:2.1.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.bouncycastle:bcpkix-jdk18on:1.71",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T18:42:44Z",
+      "sha256": "a873afca78eaad88977ea7430a28842156b6ea6313868ea2a7b04ed6836bb2e2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "com.google.android.material:material:1.6.1",
+        "com.squareup.okhttp3:okhttp-bom:4.10.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.coil-kt:coil:2.1.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.bouncycastle:bcpkix-jdk18on:1.71",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.karacca.beetle.ui.EditScreenshotActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.karacca.beetle.ui.FeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

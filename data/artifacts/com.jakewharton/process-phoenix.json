@@ -1,0 +1,131 @@
+{
+  "coordinate": "com.jakewharton:process-phoenix",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:34:17Z",
+      "sha256": "4aa300f303b2927cf05c907d302b39a038563197b9c203b6520c02927cf9eefa",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:34:17Z",
+      "sha256": "9a81670a31b9eada6719cdd0e1e2c39500706e8c62fd9f1c5e56b598a2bb3d9f",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T18:34:16Z",
+      "sha256": "5aec42b7acd5c6308f0464788d3b5f77f6024bb87c648544bcc3eab5745d6115",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T18:34:15Z",
+      "sha256": "5aec42b7acd5c6308f0464788d3b5f77f6024bb87c648544bcc3eab5745d6115",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T18:34:15Z",
+      "sha256": "5aec42b7acd5c6308f0464788d3b5f77f6024bb87c648544bcc3eab5745d6115",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T18:34:14Z",
+      "sha256": "b018aa7c7e72e5aa02da472a97b0a5047b90647cfa5baae8a9317e4eb4188ea8",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T18:34:14Z",
+      "sha256": "b018aa7c7e72e5aa02da472a97b0a5047b90647cfa5baae8a9317e4eb4188ea8",
+      "dependencies": []
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T18:34:13Z",
+      "sha256": "b018aa7c7e72e5aa02da472a97b0a5047b90647cfa5baae8a9317e4eb4188ea8",
+      "dependencies": []
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-24T18:34:12Z",
+      "sha256": "03c5f7a6a1f502c1ba56ad56270300fc4ffd45c5a498d0e4dd558d4f0b7d844a",
+      "dependencies": []
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T18:34:12Z",
+      "sha256": "03c5f7a6a1f502c1ba56ad56270300fc4ffd45c5a498d0e4dd558d4f0b7d844a",
+      "dependencies": []
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T18:34:11Z",
+      "sha256": "79459d094332bb4734caf35974825ffff4b162549a2ed2eed06884ea56e914e3",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.jakewharton.processphoenix.PhoenixActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":phoenix",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jakewharton.processphoenix.PhoenixService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":phoenix",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jakewharton.processphoenix.ProcessPhoenix",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.2",
+          "2.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":phoenix",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jakewharton.processphoenix.ProcessPhoenix",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":phoenix",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

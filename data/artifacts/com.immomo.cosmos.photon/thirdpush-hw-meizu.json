@@ -1,0 +1,89 @@
+{
+  "coordinate": "com.immomo.cosmos.photon:thirdpush-hw-meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T18:07:39Z",
+      "sha256": "658f9fa3cc15724d81f6bbde72e34cff1c9f1e4e1f664550a048aef015ebddc3",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.1",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T18:07:38Z",
+      "sha256": "2e57d2353ff8df91733f855b9a7a9d88d56bf96128a1f1625dfd8f17d6c23770",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.2",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-24T18:07:38Z",
+      "sha256": "2e57d2353ff8df91733f855b9a7a9d88d56bf96128a1f1625dfd8f17d6c23770",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.3",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.1.3_08131859": {
+      "fetchedAt": "2026-10-24T18:07:37Z",
+      "sha256": "2e57d2353ff8df91733f855b9a7a9d88d56bf96128a1f1625dfd8f17d6c23770",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.3_08131859",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.1.4_02182019": {
+      "fetchedAt": "2026-10-24T18:07:36Z",
+      "sha256": "2e57d2353ff8df91733f855b9a7a9d88d56bf96128a1f1625dfd8f17d6c23770",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_02182019",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.1.4_02262059": {
+      "fetchedAt": "2026-10-24T18:07:36Z",
+      "sha256": "2e57d2353ff8df91733f855b9a7a9d88d56bf96128a1f1625dfd8f17d6c23770",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_02262059",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    },
+    "1.1.4_11221551": {
+      "fetchedAt": "2026-10-24T18:07:35Z",
+      "sha256": "2e57d2353ff8df91733f855b9a7a9d88d56bf96128a1f1625dfd8f17d6c23770",
+      "dependencies": [
+        "com.immomo.cosmos.photon:thirdpush-hw-core:1.1.4_11221551",
+        "com.meizu.flyme.internet:push-internal:3.8.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.cosmos.photon.push.thirdparty.meizu.MeizuPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.4_11221551"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${PACKAGE_NAME}"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "coordinate": "com.jdroidframework:jdroid-android-google-gcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.8.0": {
+      "fetchedAt": "2026-10-24T18:35:29Z",
+      "sha256": "194b9f765b87e5a0d1d1bc8c598f81e10d994a090b423259a7725417097ed848",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:7.5.0",
+        "com.jdroidframework:jdroid-android:0.8.0"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-24T18:35:28Z",
+      "sha256": "194b9f765b87e5a0d1d1bc8c598f81e10d994a090b423259a7725417097ed848",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:7.8.0",
+        "com.jdroidframework:jdroid-android:0.9.0"
+      ]
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-24T18:35:27Z",
+      "sha256": "ce3f9780f5e1dc596e9a72e6e31ce3e25c000f8f433dc3e0a194d9abc48bafaa",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:8.1.0",
+        "com.jdroidframework:jdroid-android:0.9.1"
+      ]
+    },
+    "0.9.2": {
+      "fetchedAt": "2026-10-24T18:35:27Z",
+      "sha256": "2aa5397036375a4938863408df2b7a5c575a72fc2ebe6a9d17c3b62e3aec3dda",
+      "dependencies": [
+        "com.jdroidframework:jdroid-android:0.9.2"
+      ]
+    },
+    "0.9.3": {
+      "fetchedAt": "2026-10-24T18:35:26Z",
+      "sha256": "ce92419cead5a7e8b8397aed002f8fff998db257b3e1e449ff67e701e9987426",
+      "dependencies": [
+        "com.jdroidframework:jdroid-android:0.9.3"
+      ]
+    },
+    "0.9.4": {
+      "fetchedAt": "2026-10-24T18:35:25Z",
+      "sha256": "e6151bd41772ad48c0a28632ee1a12038f12c81335a1b503972414ddfb8254da",
+      "dependencies": [
+        "com.jdroidframework:jdroid-android:0.9.4"
+      ]
+    },
+    "0.9.5": {
+      "fetchedAt": "2026-10-24T18:35:24Z",
+      "sha256": "e6151bd41772ad48c0a28632ee1a12038f12c81335a1b503972414ddfb8254da",
+      "dependencies": [
+        "com.jdroidframework:jdroid-android:0.9.5"
+      ]
+    },
+    "0.9.6": {
+      "fetchedAt": "2026-10-24T18:35:24Z",
+      "sha256": "59cd6697c3ea150f2a315c5c40cb0577938ee195244e0952b113183df718ef1a",
+      "dependencies": [
+        "com.jdroidframework:jdroid-android:0.9.6"
+      ]
+    },
+    "0.10.0": {
+      "fetchedAt": "2026-10-24T18:35:23Z",
+      "sha256": "59cd6697c3ea150f2a315c5c40cb0577938ee195244e0952b113183df718ef1a",
+      "dependencies": [
+        "com.jdroidframework:jdroid-android:0.10.0"
+      ]
+    },
+    "0.10.1": {
+      "fetchedAt": "2026-10-24T18:35:22Z",
+      "sha256": "59cd6697c3ea150f2a315c5c40cb0577938ee195244e0952b113183df718ef1a",
+      "dependencies": [
+        "com.jdroidframework:jdroid-android:0.10.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.jdroid.android.google.gcm.DefaultGcmListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.2",
+          "0.10.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jdroid.android.google.gcm.GcmBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.8.0",
+          "0.9.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.jdroid.android.google.gcm.GcmRegistrationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.2",
+          "0.9.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE",
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.gcm.ACTION_TASK_READY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jdroid.android.google.gcm.GcmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.8.0",
+          "0.9.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jdroid.android.google.gcm.LocaleChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.9.4",
+          "0.10.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.LOCALE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

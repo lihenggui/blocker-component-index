@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.madconch.running:baselibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T19:04:29Z",
+      "sha256": "5a203c56e1878ad65f162fb57664c126adf0cc279a036cf459dd1a847edd4765",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:recyclerview-v7:25.3.1",
+        "com.jakewharton:butterknife:8.5.1",
+        "com.madconch.running:uilibrary:0.0.5",
+        "com.madconch.running:utillibrary:0.0.5",
+        "com.squareup.retrofit2:adapter-rxjava2:2.2.0",
+        "com.squareup.retrofit2:converter-gson:2.2.0",
+        "com.squareup.retrofit2:retrofit:2.2.0",
+        "com.tbruyelle.rxpermissions2:rxpermissions:0.9.3",
+        "com.trello.rxlifecycle2:rxlifecycle-android:2.0.1",
+        "com.trello.rxlifecycle2:rxlifecycle-components:2.0.1",
+        "com.trello.rxlifecycle2:rxlifecycle:2.0.1",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

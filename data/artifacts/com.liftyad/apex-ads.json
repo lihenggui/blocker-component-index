@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.liftyad:apex-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-24T18:54:42Z",
+      "sha256": "316a36009211384886a95455cce4f7b8730e38184145ecd52849b06ec6e6baef",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.apex.ad.sdk.api.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apex.ad.sdk.controller.provider.ApexAdsProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ApexAdsProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apex.ad.sdk.core.mraid.MraidVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

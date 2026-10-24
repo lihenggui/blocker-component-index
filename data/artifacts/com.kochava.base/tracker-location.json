@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.kochava.base:tracker-location",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.6.0": {
+      "fetchedAt": "2026-10-24T18:47:48Z",
+      "sha256": "c50b241c51c60789388f49ee3658b76dfaadb0426d3c5866061c85a31a0c3666",
+      "dependencies": []
+    },
+    "3.6.1": {
+      "fetchedAt": "2026-10-24T18:47:47Z",
+      "sha256": "6642e375c82fc2ca46c6bce5b4214f15e93f21e6666ade8b986003037bdfb08e",
+      "dependencies": []
+    },
+    "3.6.2": {
+      "fetchedAt": "2026-10-24T18:47:46Z",
+      "sha256": "5047cf32f8a2b621f9ff1b0338bc3adfa5e1c31377215b0860fbef73a1a05d39",
+      "dependencies": []
+    },
+    "3.6.3": {
+      "fetchedAt": "2026-10-24T18:47:46Z",
+      "sha256": "2d5b1e894758b5a1ad407327ffebba7c9c517cda32067c9302074ddee7699c3a",
+      "dependencies": []
+    },
+    "3.7.0": {
+      "fetchedAt": "2026-10-24T18:47:45Z",
+      "sha256": "110e116edd73113aee4c823bd82ccf053c9c4860cf1c230732c483d68157d885",
+      "dependencies": []
+    },
+    "3.7.1": {
+      "fetchedAt": "2026-10-24T18:47:44Z",
+      "sha256": "5b52dfbdc83a7f87c99c4a51ea736c2c2edb5fbcfe88c4c277417211c74c1962",
+      "dependencies": []
+    },
+    "3.7.2": {
+      "fetchedAt": "2026-10-24T18:47:43Z",
+      "sha256": "583b7503ce9601092f67bdcc6bbf3645bbb1b2f0ae9f909b1553a0d9c2c12f7d",
+      "dependencies": []
+    },
+    "3.7.3": {
+      "fetchedAt": "2026-10-24T18:47:43Z",
+      "sha256": "51a4addcc329a8cedc9e4706b1941e3de67768a50a728d9c5a56fbdc5c0e25d4",
+      "dependencies": []
+    },
+    "3.8.0": {
+      "fetchedAt": "2026-10-24T18:47:42Z",
+      "sha256": "e18f971865d00cdb6039823ab13bcf02bfa045fa7644f7475004d95256a4a3b7",
+      "dependencies": []
+    },
+    "3.9.0": {
+      "fetchedAt": "2026-10-24T18:47:41Z",
+      "sha256": "1c4d4b156f56bd43fef3c02222c2f37eb284391592ed6d0416c181627571bb5f",
+      "dependencies": []
+    },
+    "3.10.0": {
+      "fetchedAt": "2026-10-24T18:47:41Z",
+      "sha256": "5a99d088ef3a201f557c58e68571b72be58b2481e840df6a78e3c967fdc5d787",
+      "dependencies": []
+    },
+    "3.10.1": {
+      "fetchedAt": "2026-10-24T18:47:40Z",
+      "sha256": "5088fe94d07e97e30a08b10ed79bf877412a533d613b3e849614cf6e0213f84c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.kochava.base.location.LocationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.6.0",
+          "3.10.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.kochava.tracker.GEOFENCE_TRIGGER",
+        "com.kochava.tracker.LOCATION_UPDATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

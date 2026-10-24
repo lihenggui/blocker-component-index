@@ -1,0 +1,75 @@
+{
+  "coordinate": "com.google.android.tv.tvpanelframework:tvpanelframework",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T17:25:43Z",
+      "sha256": "74061cc07c33802a09177820f830060083bbfb88e77816d380cf46cb0af48137",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.2.1",
+        "com.google.android.gms:play-services-basement:18.4.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T17:25:42Z",
+      "sha256": "74061cc07c33802a09177820f830060083bbfb88e77816d380cf46cb0af48137",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.2.1",
+        "com.google.android.gms:play-services-basement:18.4.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T17:25:40Z",
+      "sha256": "74061cc07c33802a09177820f830060083bbfb88e77816d380cf46cb0af48137",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.fragment:fragment:1.3.6",
+        "androidx.preference:preference:1.2.1",
+        "com.google.android.gms:play-services-basement:18.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.tv.tvpanelframework.InputSwitchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.tv.tvpanelframework.PreferenceSettingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

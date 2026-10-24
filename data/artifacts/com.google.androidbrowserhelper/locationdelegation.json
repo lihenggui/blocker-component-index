@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.google.androidbrowserhelper:locationdelegation",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-24T17:26:11Z",
+      "sha256": "93e6a50f60ae54c70774b3ec2201b7db9917cb98fdd42f2e09a903b5a7b41b65",
+      "dependencies": [
+        "android-browser-helper:androidbrowserhelper:unspecified",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.browser:browser:1.3.0-alpha06",
+        "com.google.android.gms:play-services-location:17.0.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T17:26:10Z",
+      "sha256": "802bcbf528025942824fbb0232cf568c7ac44977e7e78179e0d3bdd0b194a7a0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.browser:browser:1.3.0",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.androidbrowserhelper:androidbrowserhelper:2.1.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T17:26:09Z",
+      "sha256": "5db95811befd8fc22bd30e661f73271625dbc36bb8e4786d15fff7811ec61b88",
+      "dependencies": [
+        "androidx.browser:browser:1.3.0",
+        "com.google.android.gms:play-services-location:17.0.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T17:26:08Z",
+      "sha256": "4ca4a1c206d2899d20ce0fd2a6274184962b4d9d204c9f901413bc544e452bcc",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0",
+        "com.google.android.gms:play-services-location:21.0.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T17:26:07Z",
+      "sha256": "b04fd5aad97e73c38c9f4facb5bac18bf9679fab8b02a28f97225b671864958e",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0",
+        "com.google.android.gms:play-services-location:21.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.github.vhall.android.library:vhallyun-projection-screen",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T17:04:20Z",
+      "sha256": "3e6e796ff869f94036e755d6bd6ea744c18e563e1a79796d582795792ae7da9d",
+      "dependencies": [
+        "org.eclipse.jetty:jetty-client:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-server:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-servlet:8.1.8.v20121106",
+        "org.fourthline.cling:cling-core:2.1.1",
+        "org.fourthline.cling:cling-support:2.1.1"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T17:04:19Z",
+      "sha256": "b023230e831e65753184b666926bd1c55d2f07e24f03e8f9d67f19eab315fb43",
+      "dependencies": [
+        "org.eclipse.jetty:jetty-client:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-server:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-servlet:8.1.8.v20121106",
+        "org.fourthline.cling:cling-core:2.1.1",
+        "org.fourthline.cling:cling-support:2.1.1"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T17:04:18Z",
+      "sha256": "11427ee476f76e88d466945b05299e5838a769e7479a80001c2d0ddaec65f713",
+      "dependencies": [
+        "org.eclipse.jetty:jetty-client:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-server:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-servlet:8.1.8.v20121106",
+        "org.fourthline.cling:cling-core:2.1.1",
+        "org.fourthline.cling:cling-support:2.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.fourthline.cling.android.AndroidUpnpServiceImpl",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

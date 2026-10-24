@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.idfy:rftsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T18:02:27Z",
+      "sha256": "f08f22ce564de92ffe8c5502769e1d67ddad96f4c3b63086169bcfa26d040a41",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:26.0.0",
+        "com.android.volley:volley:1.1.0",
+        "com.google.android.gms:play-services-vision:11.4.0",
+        "org.apache.httpcomponents:httpmime:4.3"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-24T18:02:26Z",
+      "sha256": "73da5945cfd658d6ecfcb965faa15b719774d2a47929498ba226e88ed2a9e6f4",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.0",
+        "com.google.android.gms:play-services-vision:11.4.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T18:02:25Z",
+      "sha256": "73da5945cfd658d6ecfcb965faa15b719774d2a47929498ba226e88ed2a9e6f4",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.0",
+        "com.google.android.gms:play-services-vision:11.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.imageprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.idfy.rft.CameraView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.idfy.rft.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

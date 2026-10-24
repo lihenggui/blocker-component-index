@@ -1,0 +1,204 @@
+{
+  "coordinate": "com.github.vhall.android.library:vh-zxing-client",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.5.0": {
+      "fetchedAt": "2026-10-24T17:03:34Z",
+      "sha256": "e10bb2191b1c912f04989cf42d88a91737b3fad768e2c8af1f45e486f639e11a",
+      "dependencies": [
+        "com.google.zxing:core:3.5.1",
+        "com.google.zxing:zxing-parent:3.5.1"
+      ]
+    },
+    "3.5.1": {
+      "fetchedAt": "2026-10-24T17:03:34Z",
+      "sha256": "e10bb2191b1c912f04989cf42d88a91737b3fad768e2c8af1f45e486f639e11a",
+      "dependencies": [
+        "com.google.zxing:core:3.5.1",
+        "com.google.zxing:zxing-parent:3.5.1"
+      ]
+    },
+    "3.5.1.1": {
+      "fetchedAt": "2026-10-24T17:03:33Z",
+      "sha256": "e10bb2191b1c912f04989cf42d88a91737b3fad768e2c8af1f45e486f639e11a",
+      "dependencies": [
+        "com.google.zxing:core:3.5.1",
+        "com.google.zxing:zxing-parent:3.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vhall.zxing.client.android.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "com.google.zxing.client.android.SCAN"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.HelpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.PreferencesActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.book.SearchBookContentsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.zxing.client.android.SEARCH_BOOK_CONTENTS"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.encode.EncodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.SEND",
+        "com.google.zxing.client.android.ENCODE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.history.HistoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.share.AppPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.share.BookmarkPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vhall.zxing.client.android.share.ShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.zxing.client.android.SHARE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

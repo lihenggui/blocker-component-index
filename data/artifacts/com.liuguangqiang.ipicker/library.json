@@ -1,0 +1,86 @@
+{
+  "coordinate": "com.liuguangqiang.ipicker:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T18:57:24Z",
+      "sha256": "cad9a4682d9ecfa55ecf83b8c3f1892da7ef2f3857b03e2e7692b10a85eefbd3",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.github.liuguangqiang.permissionhelper:permissionhelper:0.1.0",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T18:57:23Z",
+      "sha256": "56d3aafd140985e4f4a4bc42e7a0b3991e819d32943664cea12bd013d053b072",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.github.liuguangqiang.permissionhelper:permissionhelper:0.1.0",
+        "de.greenrobot:eventbus:3.0.0-beta1"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:57:23Z",
+      "sha256": "fc6bcdde1e702d398b57cb819dc6dfa7d9ffe78dcdb9a5436fb6edb37c3361ab",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.github.liuguangqiang.permissionhelper:permissionhelper:0.1.0",
+        "de.greenrobot:eventbus:3.0.0-beta1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:57:22Z",
+      "sha256": "fc6bcdde1e702d398b57cb819dc6dfa7d9ffe78dcdb9a5436fb6edb37c3361ab",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.github.liuguangqiang.permissionhelper:permissionhelper:0.1.0",
+        "de.greenrobot:eventbus:3.0.0-beta1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.liuguangqiang.ipicker.IPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liuguangqiang.ipicker.crop.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

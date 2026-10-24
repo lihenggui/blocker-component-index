@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.linecorp.abc:kmm-shared-storage-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:55:53Z",
+      "sha256": "f71cf802b9431e2c4dfb0bcd3c06064e971047b750458c5579d4bb47ea4f80a3",
+      "dependencies": [
+        "androidx.security:security-crypto:1.1.0-alpha01",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.work:work-runtime:2.4.0",
+        "com.scottyab:secure-preferences-lib:0.1.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T18:55:52Z",
+      "sha256": "f71cf802b9431e2c4dfb0bcd3c06064e971047b750458c5579d4bb47ea4f80a3",
+      "dependencies": [
+        "androidx.security:security-crypto:1.1.0-alpha01",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.work:work-runtime:2.4.0",
+        "com.scottyab:secure-preferences-lib:0.1.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.linecorp.abc.sharedstorage.WorkManagerInitializer"
+      ]
+    }
+  ]
+}

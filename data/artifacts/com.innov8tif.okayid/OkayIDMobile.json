@@ -1,0 +1,135 @@
+{
+  "coordinate": "com.innov8tif.okayid:OkayIDMobile",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:21:02Z",
+      "sha256": "f961edfe243e4d8a6f5736f3eeb40c16284782119e5a58a390fdf4dda90d8683",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.camera:camera-camera2:1.1.0-beta03",
+        "androidx.camera:camera-core:1.1.0-beta03",
+        "androidx.camera:camera-extensions:1.1.0-beta03",
+        "androidx.camera:camera-lifecycle:1.1.0-beta03",
+        "androidx.camera:camera-video:1.1.0-beta03",
+        "androidx.camera:camera-view:1.1.0-beta03",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.3.1",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "com.google.android.material:material:1.0.0",
+        "com.innov8tif.okayid:opencv:1.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9",
+        "org.pytorch:pytorch_android_lite:1.12.1",
+        "org.pytorch:pytorch_android_torchvision_lite:1.12.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.innov8tif.okayid.cam.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.innov8tif.okayid.BaseCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.innov8tif.okayid.cam.OCRActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.innov8tif.okayid.cam.OkayCamDoc",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.innov8tif.okayid.cam.ScanningActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.innov8tif.okayid.imageView.ImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

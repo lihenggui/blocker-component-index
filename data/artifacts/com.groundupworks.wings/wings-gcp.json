@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.groundupworks.wings:wings-gcp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T17:47:28Z",
+      "sha256": "e08593a32c376ac027c963d7fa7c5f59a8c7b51d42f730b2968cca225adc30e4",
+      "dependencies": [
+        "com.groundupworks.android:cloud-print:1.0.0",
+        "com.groundupworks.android:google-auth:1.0.3",
+        "com.groundupworks.wings:wings:1.0.2",
+        "com.jayway.jsonpath:json-path:1.2.0",
+        "com.netflix.rxjava:rxjava-android:0.20.6",
+        "commons-io:commons-io:2.4"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T17:47:27Z",
+      "sha256": "a602c084b78c5d2f5a58c5a3ef661212d5f11bd63922052364e8d4a713285f21",
+      "dependencies": [
+        "com.groundupworks.android:cloud-print:1.0.0",
+        "com.groundupworks.android:google-auth:1.0.3",
+        "com.groundupworks.wings:wings:1.0.3",
+        "com.jayway.jsonpath:json-path:1.2.0",
+        "com.squareup.okhttp:okhttp-urlconnection:2.3.0",
+        "commons-io:commons-io:2.4",
+        "io.reactivex:rxandroid:0.23.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T17:47:27Z",
+      "sha256": "aff5c943aad50ec91e4c4b4c69b508bba1c6da10bf377f6b28aac1a87cf01a21",
+      "dependencies": [
+        "com.groundupworks.android:cloud-print:1.0.0",
+        "com.groundupworks.android:google-auth:1.0.3",
+        "com.groundupworks.wings:wings:1.0.4",
+        "com.jayway.jsonpath:json-path:1.2.0",
+        "com.squareup.okhttp:okhttp-urlconnection:2.3.0",
+        "commons-io:commons-io:2.4",
+        "io.reactivex:rxandroid:0.23.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.groundupworks.wings.gcp.GoogleCloudPrintSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.liferay.mobile:liferay-android-sdk-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.2.3": {
+      "fetchedAt": "2026-10-24T18:54:25Z",
+      "sha256": "1b376711b7515226386a007038cb8946949c0b3620b4f500d5423d4c2e7d351c",
+      "dependencies": [
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "net.openid:appauth:0.7.0"
+      ]
+    },
+    "7.3.0": {
+      "fetchedAt": "2026-10-24T18:54:24Z",
+      "sha256": "1b376711b7515226386a007038cb8946949c0b3620b4f500d5423d4c2e7d351c",
+      "dependencies": [
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "net.openid:appauth:0.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.liferay.mobile.android.auth.oauth2.OAuth2RedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.2.3",
+          "7.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.2.3",
+          "7.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

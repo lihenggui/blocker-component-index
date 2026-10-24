@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.lizhifm.sdk.lzitnet:lzitnet-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.17": {
+      "fetchedAt": "2026-10-24T19:00:05Z",
+      "sha256": "42d0fcf21049158648fa68615e9e2bd12662c1f37df25e3eed5144f1018c19b2",
+      "dependencies": []
+    },
+    "3.0.19": {
+      "fetchedAt": "2026-10-24T19:00:05Z",
+      "sha256": "42d0fcf21049158648fa68615e9e2bd12662c1f37df25e3eed5144f1018c19b2",
+      "dependencies": []
+    },
+    "3.0.23": {
+      "fetchedAt": "2026-10-24T19:00:04Z",
+      "sha256": "744fd4e5884987564236613b0170da2f2b3a6d6290ae0625b7958424ca1d7d79",
+      "dependencies": []
+    },
+    "3.0.25": {
+      "fetchedAt": "2026-10-24T19:00:03Z",
+      "sha256": "744fd4e5884987564236613b0170da2f2b3a6d6290ae0625b7958424ca1d7d79",
+      "dependencies": []
+    },
+    "3.0.27": {
+      "fetchedAt": "2026-10-24T19:00:03Z",
+      "sha256": "0ab3a139ac5bfcec7ddcbd996e0cb1e456a0ff15b5ac0a0515f783455f23c71a",
+      "dependencies": []
+    },
+    "3.0.29": {
+      "fetchedAt": "2026-10-24T19:00:02Z",
+      "sha256": "0ab3a139ac5bfcec7ddcbd996e0cb1e456a0ff15b5ac0a0515f783455f23c71a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.yibasan.lizhifm.itnet2.service.ITNetSvcNative",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.17",
+          "3.0.25"
+        ]
+      ],
+      "exported": null,
+      "process": ":push",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yibasan.lizhifm.itnet2.service.ITNetSvcNative",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.27",
+          "3.0.29"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

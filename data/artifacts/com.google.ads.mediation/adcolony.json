@@ -1,0 +1,133 @@
+{
+  "coordinate": "com.google.ads.mediation:adcolony",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "4.5.0.0": {
+      "fetchedAt": "2026-10-24T17:13:13Z",
+      "sha256": "6bcd3b77323166b8fbde27d724c0b16e8adc18b7f6ef000e46c8a098818f762e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.5.0",
+        "com.google.android.gms:play-services-ads:20.0.0"
+      ]
+    },
+    "4.6.0.0": {
+      "fetchedAt": "2026-10-24T17:13:11Z",
+      "sha256": "b8fd825102c70d0e4c88e0ab986beefb8c57d5266e85e178f63fcbc5d537e90a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.6.0",
+        "com.google.android.gms:play-services-ads:20.3.0"
+      ]
+    },
+    "4.6.2.0": {
+      "fetchedAt": "2026-10-24T17:13:11Z",
+      "sha256": "b8fd825102c70d0e4c88e0ab986beefb8c57d5266e85e178f63fcbc5d537e90a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.6.2",
+        "com.google.android.gms:play-services-ads:20.3.0"
+      ]
+    },
+    "4.6.3.0": {
+      "fetchedAt": "2026-10-24T17:13:10Z",
+      "sha256": "b8fd825102c70d0e4c88e0ab986beefb8c57d5266e85e178f63fcbc5d537e90a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.6.3",
+        "com.google.android.gms:play-services-ads:20.4.0"
+      ]
+    },
+    "4.6.4.0": {
+      "fetchedAt": "2026-10-24T17:13:09Z",
+      "sha256": "b8fd825102c70d0e4c88e0ab986beefb8c57d5266e85e178f63fcbc5d537e90a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.6.4",
+        "com.google.android.gms:play-services-ads:20.4.0"
+      ]
+    },
+    "4.6.5.0": {
+      "fetchedAt": "2026-10-24T17:13:08Z",
+      "sha256": "b8fd825102c70d0e4c88e0ab986beefb8c57d5266e85e178f63fcbc5d537e90a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.6.5",
+        "com.google.android.gms:play-services-ads:20.4.0"
+      ]
+    },
+    "4.7.0.0": {
+      "fetchedAt": "2026-10-24T17:13:08Z",
+      "sha256": "b8fd825102c70d0e4c88e0ab986beefb8c57d5266e85e178f63fcbc5d537e90a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.7.0",
+        "com.google.android.gms:play-services-ads:20.6.0"
+      ]
+    },
+    "4.7.1.0": {
+      "fetchedAt": "2026-10-24T17:13:07Z",
+      "sha256": "b8fd825102c70d0e4c88e0ab986beefb8c57d5266e85e178f63fcbc5d537e90a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.adcolony:sdk:4.7.1",
+        "com.google.android.gms:play-services-ads:20.6.0"
+      ]
+    },
+    "4.7.1.1": {
+      "fetchedAt": "2026-10-24T17:13:06Z",
+      "sha256": "6379d1e0f7be274485b399b9c6c273248614cc3a8942f9971322cdd6f1ee9a61",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.adcolony:sdk:4.7.1",
+        "com.google.android.gms:play-services-ads:21.0.0"
+      ]
+    },
+    "4.8.0.0": {
+      "fetchedAt": "2026-10-24T17:13:05Z",
+      "sha256": "6379d1e0f7be274485b399b9c6c273248614cc3a8942f9971322cdd6f1ee9a61",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.adcolony:sdk:4.8.0",
+        "com.google.android.gms:play-services-ads:21.0.0"
+      ]
+    },
+    "4.8.0.1": {
+      "fetchedAt": "2026-10-24T17:13:04Z",
+      "sha256": "6379d1e0f7be274485b399b9c6c273248614cc3a8942f9971322cdd6f1ee9a61",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "com.adcolony:sdk:4.8.0",
+        "com.google.android.gms:play-services-ads:21.5.0"
+      ]
+    },
+    "4.8.0.2": {
+      "fetchedAt": "2026-10-24T17:13:03Z",
+      "sha256": "6379d1e0f7be274485b399b9c6c273248614cc3a8942f9971322cdd6f1ee9a61",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "com.adcolony:sdk:4.8.0",
+        "com.google.android.gms:play-services-ads:22.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adcolony.sdk.AdColonyInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.0.0",
+          "4.8.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.github.pankajadhav:ReferAndEarn",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T16:50:24Z",
+      "sha256": "d35c69205506afb4156cb02f165a776d329fa06ba20c9ec7c0083b91d73ab1ef",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "com.google.android.material:material:1.3.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-24T16:50:23Z",
+      "sha256": "d35c69205506afb4156cb02f165a776d329fa06ba20c9ec7c0083b91d73ab1ef",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "com.google.android.material:material:1.3.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bb.refernearn.home.activity.ReferAndEarnActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bb.refernearn.home.activity.TnCActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

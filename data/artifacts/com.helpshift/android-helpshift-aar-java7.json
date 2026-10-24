@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.helpshift:android-helpshift-aar-java7",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.3-java7": {
+      "fetchedAt": "2026-10-24T17:54:36Z",
+      "sha256": "e13831c193f315a2d83bbfc5b4dedcd328f39978010d661e81a93311a80bd5e8",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.helpshift.support.HSReview",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.6.3-java7",
+          "7.6.3-java7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.support.activities.ParentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.6.3-java7",
+          "7.6.3-java7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.support.providers.HelpshiftFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.3-java7",
+          "7.6.3-java7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.helpshift.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

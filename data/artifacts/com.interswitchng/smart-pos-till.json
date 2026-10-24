@@ -1,0 +1,174 @@
+{
+  "coordinate": "com.interswitchng:smart-pos-till",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.4": {
+      "fetchedAt": "2026-10-24T18:26:05Z",
+      "sha256": "f244432c06c8f6d69dc52f47ecfa68fb7a27384ae00d60a104c41b0bfe2d1643",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "2.2.6": {
+      "fetchedAt": "2026-10-24T18:26:04Z",
+      "sha256": "f244432c06c8f6d69dc52f47ecfa68fb7a27384ae00d60a104c41b0bfe2d1643",
+      "dependencies": [
+        "androidx.core:core:1.8.0",
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-24T18:26:02Z",
+      "sha256": "f244432c06c8f6d69dc52f47ecfa68fb7a27384ae00d60a104c41b0bfe2d1643",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "2.4.1": {
+      "fetchedAt": "2026-10-24T18:25:59Z",
+      "sha256": "f244432c06c8f6d69dc52f47ecfa68fb7a27384ae00d60a104c41b0bfe2d1643",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "2.4.3": {
+      "fetchedAt": "2026-10-24T18:26:01Z",
+      "sha256": "bc2aaa459b8ce4efdaa5ee0ad4d7435c39b0350ba047299faf67898f39af7007",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "2.4.4": {
+      "fetchedAt": "2026-10-24T18:26:00Z",
+      "sha256": "bc2aaa459b8ce4efdaa5ee0ad4d7435c39b0350ba047299faf67898f39af7007",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.isw_smart_till.IswTillBluetoothService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.4",
+          "2.4.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.isw_smart_till.service.bluetooth.TillBluetoothReceiver$Companion$BluetoothSDKBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.2.4",
+          "2.4.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED",
+        "android.intent.action.REBOOT",
+        "android.intent.category.DEFAULT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.isw_smart_till.service.usb.USBService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.4",
+          "2.4.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.smart_pos_till.IswTillBluetoothService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.4.3",
+          "2.4.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.smart_pos_till.service.bluetooth.TillBluetoothReceiver$Companion$BluetoothSDKBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.4.3",
+          "2.4.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED",
+        "android.intent.action.REBOOT",
+        "android.intent.category.DEFAULT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.smart_pos_till.service.usb.USBService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.4.3",
+          "2.4.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

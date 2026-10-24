@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.github.mighty-tech:MtPay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T16:47:26Z",
+      "sha256": "d0237d03847c2aaf69e6cef7c0edc232b98a1435aa9875bc1bb21d9443aac225",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-24T16:47:25Z",
+      "sha256": "8623c3f0c8712085e9dc69e67a3aa57f4058e47d1747426728ef150f4e9fc922",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-24T16:47:25Z",
+      "sha256": "448abef17cd7b4c14e83b8a878902f227b6294ed2615ad09b2ac367bc7ebb0a7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mighty.mtauthpay.auth.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mighty.mtauthpay.pay.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "coordinate": "com.klinkerapps:wearable-reply",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:46:53Z",
+      "sha256": "d281188bdbc6318b8440573375c17dd48b23152ed200c5df0c27e54a0f1f6bfb",
+      "dependencies": [
+        "com.android.support:recyclerview-v7:25.1.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:46:52Z",
+      "sha256": "85ad01abadd4416fae00d3845396bdd85f571620bafa7d34429a8841f43333ea",
+      "dependencies": [
+        "com.android.support:recyclerview-v7:25.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "xyz.klinker.wear.reply.TextReplyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "xyz.klinker.wear.reply.WearableReplyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

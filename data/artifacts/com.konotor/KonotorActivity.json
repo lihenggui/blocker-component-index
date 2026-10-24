@@ -1,0 +1,139 @@
+{
+  "coordinate": "com.konotor:KonotorActivity",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.15": {
+      "fetchedAt": "2026-10-24T18:48:15Z",
+      "sha256": "b5f7944a24926846214c2fc5b893eb4661a8b24a51da11974e409dc4adf5e8de",
+      "dependencies": []
+    },
+    "3.0.17": {
+      "fetchedAt": "2026-10-24T18:48:14Z",
+      "sha256": "b5f7944a24926846214c2fc5b893eb4661a8b24a51da11974e409dc4adf5e8de",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.demach.konotor.KonotorAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.15",
+          "3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.demach.konotor.KonotorFeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.15",
+          "3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.demach.konotor.KonotorNotificationActionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.15",
+          "3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.demach.konotor.KonotorPhotoViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.15",
+          "3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.demach.konotor.NetworkStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.15",
+          "3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.demach.konotor.service.KonotorBacklogService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.15",
+          "3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.demach.konotor.service.KonotorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.15",
+          "3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

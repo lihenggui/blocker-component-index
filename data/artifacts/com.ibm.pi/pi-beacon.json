@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.ibm.pi:pi-beacon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:01:29Z",
+      "sha256": "261e517d0b85cddde98daeaae3f58cad3a94eb1901638416eb6f1498b6b975dd",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.ibm.pi:pi-core:1.0.0",
+        "org.altbeacon:android-beacon-library:2.7"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:01:28Z",
+      "sha256": "1e85303edef7a6e6670c1cc29cbfdb51429c8fea8a1fc1bc1d5cd37d4b4bd5a0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.ibm.pi:pi-core:1.0.1",
+        "org.altbeacon:android-beacon-library:2.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ibm.pi.beacon.PIBeaconSensorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ibm.pi.beacon.onBootComplete",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

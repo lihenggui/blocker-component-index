@@ -1,0 +1,136 @@
+{
+  "coordinate": "com.google.android.play:asset-delivery",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T17:24:58Z",
+      "sha256": "b071646df4cd39e1c55160deb6f7fc7ac893bb345f42a022b6c14d07f9fe72f0",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:16.0.1",
+        "com.google.android.gms:play-services-tasks:16.0.1",
+        "com.google.android.play:core-common:2.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T17:24:57Z",
+      "sha256": "2bf8a2c093dce8a1631c6b9b8accb62453cbab64012b9b6c2a95d9f8e6318860",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.android.play:core-common:2.0.2"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T17:24:56Z",
+      "sha256": "4a01cf5e128a14a9264fe0974436ddbf908e1c89d1fa55a8b4926c8df1c95f69",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.android.play:core-common:2.0.2"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T17:24:55Z",
+      "sha256": "3dc324b134f96507f4f9f6a7d9abbb18b49ea36d4567aa634e84b2679c38f04e",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.android.play:core-common:2.0.3"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T17:24:54Z",
+      "sha256": "aaf0913b86ce9fcd2a6e36ae28dacc4d2601ac9fb2aa4538a4efe7520804d16a",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.3.0",
+        "com.google.android.gms:play-services-tasks:18.1.0",
+        "com.google.android.play:core-common:2.0.3"
+      ]
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-24T17:24:53Z",
+      "sha256": "d373eab040dec009997693e2f2c4dddb5441f108070050a704d8fcbd4488827f",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.3.0",
+        "com.google.android.gms:play-services-tasks:18.1.0",
+        "com.google.android.play:core-common:2.0.3"
+      ]
+    },
+    "2.2.2": {
+      "fetchedAt": "2026-10-24T17:24:52Z",
+      "sha256": "5db583d2ff3caf910f59f20212be21d5ff211f730f8e82c917cb04dcb9d98242",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.3.0",
+        "com.google.android.gms:play-services-tasks:18.1.0",
+        "com.google.android.play:core-common:2.0.3"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-24T17:24:51Z",
+      "sha256": "98fe16033165edbccc3e7c17c69f015c16e36a88cbc85a398830a60440292068",
+      "dependencies": [
+        "androidx.work:work-runtime:2.9.1",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0",
+        "com.google.android.play:core-common:2.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.android.play.core.assetpacks.versionCode"
+      ]
+    },
+    {
+      "name": "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.3.0",
+          "2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INSTALL_PACKAGES",
+      "authorities": null,
+      "actions": [
+        "com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.id-photo-verify:hzsmk-idphotosdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.8": {
+      "fetchedAt": "2026-10-24T18:02:02Z",
+      "sha256": "bd89399a29cf8e9921f87d2f15621fcc0976a59c317cb14c87f1c47ea1f2af63",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:2.0.1",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.camerakit:camerakit:1.0.0-beta3.10",
+        "com.camerakit:jpegkit:0.1.0",
+        "com.github.bumptech.glide:glide:3.6.0",
+        "com.readystatesoftware.systembartint:systembartint:1.0.4",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.16",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.leqi.idphoto.ui.LeqiCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.8",
+          "1.2.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.leqi.idphoto.ui.LeqiPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.8",
+          "1.2.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

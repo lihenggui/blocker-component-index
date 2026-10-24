@@ -1,0 +1,67 @@
+{
+  "coordinate": "com.growingio.android.widget:gtouch-banner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T17:48:12Z",
+      "sha256": "89c337fc19790a5c70bdf1fdab4281ba6352164edcb45f9ac617bea2cfbb6096",
+      "dependencies": [
+        "com.growingio.android:gtouch:1.5.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T17:48:11Z",
+      "sha256": "54eb0da7429195e10c8ed8ba51f139ddfc5197a0b9ad77f0731bf890d6a83fd6",
+      "dependencies": [
+        "com.growingio.android:gtouch:1.5.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T17:48:11Z",
+      "sha256": "83d508803ffdbf0e97e47dafde4419aebdf092f9200b01fe8638920d5a723680",
+      "dependencies": [
+        "com.growingio.android:gtouch:1.5.2"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T17:48:10Z",
+      "sha256": "a00cefcc7c9e9ade31ec80f109bdb67c121281023daa6f861053d4d9fdb376df",
+      "dependencies": [
+        "com.growingio.android:gtouch:1.5.3"
+      ]
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T17:48:09Z",
+      "sha256": "a321f294a4296db45cae2f53a04c910dc5b2d010670bb490abb81b2d8020c2b3",
+      "dependencies": [
+        "com.growingio.android:gtouch:1.5.4"
+      ]
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T17:48:08Z",
+      "sha256": "a321f294a4296db45cae2f53a04c910dc5b2d010670bb490abb81b2d8020c2b3",
+      "dependencies": [
+        "com.growingio.android:gtouch:1.5.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.growingio.android.sdk.painter.PainterProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.growingio.android.sdk.painter.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

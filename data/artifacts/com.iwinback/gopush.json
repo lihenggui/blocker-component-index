@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.iwinback:gopush",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:33:03Z",
+      "sha256": "b6eb79be10a56d69d6512f22fb5cfe4e40d1ca36b8d4729fe389b972e88c137c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T18:33:02Z",
+      "sha256": "b6eb79be10a56d69d6512f22fb5cfe4e40d1ca36b8d4729fe389b972e88c137c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T18:33:01Z",
+      "sha256": "b6eb79be10a56d69d6512f22fb5cfe4e40d1ca36b8d4729fe389b972e88c137c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gopush.NotificationHandlerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "gopush.intent.action.NOTIFICATION_OPEN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    },
+    {
+      "name": "com.gopush.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

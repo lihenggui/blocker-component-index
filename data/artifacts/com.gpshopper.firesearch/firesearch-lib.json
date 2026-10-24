@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.gpshopper.firesearch:firesearch-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.9": {
+      "fetchedAt": "2026-10-24T17:46:20Z",
+      "sha256": "31836ab3a5264a5a7e565258a1ffce9f4e8713ff7982ff7e3f9586159a6c8f2b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gpshopper.labs.firesearch.FireSearch",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN",
+        "android.intent.action.SEARCH"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

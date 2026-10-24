@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.jdcloud.sgm:aquila-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:35:10Z",
+      "sha256": "bf211f5db5e955f62e3cd133352633dfa258611f58f5c15f37d2a844a5836405",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T18:35:09Z",
+      "sha256": "bf211f5db5e955f62e3cd133352633dfa258611f58f5c15f37d2a844a5836405",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.jd.jrapp.library.sgm.activity.CrashMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jd.jrapp.library.sgm.test.CrashTestService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":crash_bg",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.google.firebase:firebase-auth-impl",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "11.0.0": {
+      "fetchedAt": "2026-10-24T17:30:53Z",
+      "sha256": "e3eeb980fd1fd5b66818c757c806fd980b7649ef086634a0e65abded375f6c27",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:[11.0.0]",
+        "com.google.android.gms:play-services-basement:[11.0.0]",
+        "com.google.firebase:firebase-auth:[11.0.0]",
+        "com.google.firebase:firebase-common:[11.0.0]",
+        "com.squareup.okhttp:okhttp:2.7.2",
+        "com.squareup.retrofit:retrofit:1.9.0"
+      ]
+    },
+    "16.1.0": {
+      "fetchedAt": "2026-10-24T17:30:52Z",
+      "sha256": "c70f02d421ca4148bbcc97f1434136534e9dbbcd17084c245f9440163887158b",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:16.0.1",
+        "com.google.android.gms:play-services-basement:16.1.0",
+        "com.google.firebase:firebase-auth:[16.0.5]",
+        "com.google.firebase:firebase-common:16.0.3",
+        "com.squareup.okhttp:okhttp:2.7.2",
+        "com.squareup.retrofit:retrofit:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "11.0.0",
+          "16.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.auth.api.gms.service.START"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

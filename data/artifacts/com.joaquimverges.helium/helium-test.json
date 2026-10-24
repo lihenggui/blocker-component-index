@@ -1,0 +1,127 @@
+{
+  "coordinate": "com.joaquimverges.helium:helium-test",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T18:37:52Z",
+      "sha256": "ad375011542e076d882d40efb85fe06a8171dce994f7196703d2cd0f77694593",
+      "dependencies": [
+        "com.joaquimverges.helium:helium-core:0.3.0",
+        "com.nhaarman:mockito-kotlin:1.5.0",
+        "junit:junit:4.12",
+        "org.robolectric:robolectric:4.2"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T18:37:51Z",
+      "sha256": "ad375011542e076d882d40efb85fe06a8171dce994f7196703d2cd0f77694593",
+      "dependencies": [
+        "com.joaquimverges.helium:helium-core:0.4.0",
+        "com.nhaarman:mockito-kotlin:1.5.0",
+        "junit:junit:4.12",
+        "org.robolectric:robolectric:4.2"
+      ]
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-24T18:37:50Z",
+      "sha256": "db52e8c2a6177a5a96c02522f921fa9eaf68229cd96106a8f55d7a8ec7ec9d14",
+      "dependencies": [
+        "androidx.test.espresso:espresso-core:3.2.0",
+        "androidx.test.ext:junit-ktx:1.1.1",
+        "androidx.test.ext:junit:1.1.1",
+        "androidx.test:core:1.2.0",
+        "androidx.test:rules:1.2.0",
+        "androidx.test:runner:1.2.0",
+        "com.joaquimverges.helium:helium-core:0.5.0",
+        "com.nhaarman:mockito-kotlin:1.5.0",
+        "org.robolectric:robolectric:4.2"
+      ]
+    },
+    "0.6.0": {
+      "fetchedAt": "2026-10-24T18:37:49Z",
+      "sha256": "db52e8c2a6177a5a96c02522f921fa9eaf68229cd96106a8f55d7a8ec7ec9d14",
+      "dependencies": [
+        "androidx.test.espresso:espresso-core:3.2.0",
+        "androidx.test.ext:junit-ktx:1.1.1",
+        "androidx.test.ext:junit:1.1.1",
+        "androidx.test:core:1.2.0",
+        "androidx.test:rules:1.2.0",
+        "androidx.test:runner:1.2.0",
+        "com.joaquimverges.helium:helium-core:0.6.0",
+        "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.7",
+        "org.robolectric:robolectric:4.2"
+      ]
+    },
+    "0.7.0": {
+      "fetchedAt": "2026-10-24T18:37:49Z",
+      "sha256": "fc3cce4233bd12f6bc4e6eec9d47279d72455d417a18a8d4182a920f19e6fd09",
+      "dependencies": [
+        "androidx.test.espresso:espresso-core:3.3.0",
+        "androidx.test.ext:junit-ktx:1.1.2",
+        "androidx.test.ext:junit:1.1.2",
+        "androidx.test:core:1.3.0",
+        "androidx.test:rules:1.3.0",
+        "androidx.test:runner:1.3.0",
+        "com.joaquimverges.helium:helium-core:0.7.0",
+        "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.1",
+        "org.robolectric:robolectric:4.3.1"
+      ]
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-24T18:37:48Z",
+      "sha256": "fc3cce4233bd12f6bc4e6eec9d47279d72455d417a18a8d4182a920f19e6fd09",
+      "dependencies": [
+        "androidx.test.espresso:espresso-core:3.3.0",
+        "androidx.test.ext:junit-ktx:1.1.2",
+        "androidx.test.ext:junit:1.1.2",
+        "androidx.test:core:1.3.0",
+        "androidx.test:rules:1.3.0",
+        "androidx.test:runner:1.3.0",
+        "com.joaquimverges.helium:helium-core:0.8.0",
+        "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.3",
+        "org.robolectric:robolectric:4.3.1"
+      ]
+    },
+    "0.8.1": {
+      "fetchedAt": "2026-10-24T18:37:47Z",
+      "sha256": "fc3cce4233bd12f6bc4e6eec9d47279d72455d417a18a8d4182a920f19e6fd09",
+      "dependencies": [
+        "androidx.test.espresso:espresso-core:3.3.0",
+        "androidx.test.ext:junit-ktx:1.1.2",
+        "androidx.test.ext:junit:1.1.2",
+        "androidx.test:core:1.3.0",
+        "androidx.test:rules:1.3.0",
+        "androidx.test:runner:1.3.0",
+        "com.joaquimverges.helium:helium-core:0.8.1",
+        "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0",
+        "org.robolectric:robolectric:4.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.joaquimverges.helium.test.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5.0",
+          "0.8.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "coordinate": "com.linecorp.abc:kmm-location-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.3": {
+      "fetchedAt": "2026-10-24T18:55:39Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.4": {
+      "fetchedAt": "2026-10-24T18:55:38Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.5": {
+      "fetchedAt": "2026-10-24T18:55:37Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.6": {
+      "fetchedAt": "2026-10-24T18:55:36Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.7": {
+      "fetchedAt": "2026-10-24T18:55:35Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.8": {
+      "fetchedAt": "2026-10-24T18:55:34Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.9": {
+      "fetchedAt": "2026-10-24T18:55:33Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.10": {
+      "fetchedAt": "2026-10-24T18:55:32Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "0.2.11": {
+      "fetchedAt": "2026-10-24T18:55:31Z",
+      "sha256": "591aa569bd3ee79d9ea198381e733c4b3e66a6fb79a0a829dcf78128c93cb7ce",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.3",
+          "0.2.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.linecorp.abc.location.utils.ModuleInitializer"
+      ]
+    }
+  ]
+}

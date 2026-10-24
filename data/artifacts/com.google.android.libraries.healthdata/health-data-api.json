@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.google.android.libraries.healthdata:health-data-api",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-24T17:23:20Z",
+      "sha256": "1c8faee30041644d8fc9521bb77a0c1b041e0e2fc8aaec9178b5b9c7ddd9d663",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:17.5.0",
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    },
+    "1.0.1-alpha01": {
+      "fetchedAt": "2026-10-24T17:23:19Z",
+      "sha256": "1c8faee30041644d8fc9521bb77a0c1b041e0e2fc8aaec9178b5b9c7ddd9d663",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    },
+    "1.1.0-alpha01": {
+      "fetchedAt": "2026-10-24T17:23:18Z",
+      "sha256": "1c8faee30041644d8fc9521bb77a0c1b041e0e2fc8aaec9178b5b9c7ddd9d663",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.guava:listenablefuture:1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.libraries.healthdata.impl.permission.ProviderPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.1.0-alpha01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

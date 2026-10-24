@@ -1,0 +1,177 @@
+{
+  "coordinate": "com.guolindev.glance:glance",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T17:50:02Z",
+      "sha256": "a776f3fa18865ef8c2dbb6a7409f23c77f38cc5b5d450c141398c8891662d27b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:4.2.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "androidx.paging:paging-runtime:3.0.0-alpha06",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T17:50:01Z",
+      "sha256": "8e49b004d315931567350ee03e2306a5b6e27670723ccbe7aa3aaa965c0a28ad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.databinding:viewbinding:4.2.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.1.0-alpha03",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.glance.guolindev.initializer.GlanceInitializer"
+      ]
+    },
+    {
+      "name": "com.glance.guolindev.ui.data.DataActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.glance.guolindev.ui.db.DBActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.glance.guolindev.ui.db.DBActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.glance.guolindev.ui.db.DBActivityLauncher",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.glance.guolindev.ui.db.DBActivityLauncher",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.glance.guolindev.ui.table.TableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

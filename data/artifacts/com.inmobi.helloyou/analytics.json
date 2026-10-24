@@ -1,0 +1,42 @@
+{
+  "coordinate": "com.inmobi.helloyou:analytics",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.0.1": {
+      "fetchedAt": "2026-10-24T18:17:58Z",
+      "sha256": "8341208dba31951307f3f29d761cd2e16bc1c4dd380fcf3f1f4315c950fa9905",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-process:2.5.0",
+        "com.google.android.material:material:1.7.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.moengage:inapp:7.1.1",
+        "com.moengage:moe-android-sdk:12.10.02",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.firebase.MoEFireBaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.0.1",
+          "9.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

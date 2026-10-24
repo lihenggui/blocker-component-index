@@ -1,0 +1,102 @@
+{
+  "coordinate": "com.hh-medic.android.sdk:hh_trtc_pingan_dev",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.1.2.12271804": {
+      "fetchedAt": "2026-10-24T17:56:28Z",
+      "sha256": "68c3422412aba5e66ed405490b97af753127e15c2185f82b38a69369ef13d85b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.hhmedic.android.sdk:okhttputils:1.0.0.12311516",
+        "com.tencent.liteav:LiteAVSDK_TRTC:7.9.9568"
+      ]
+    },
+    "3.1.2.12271903": {
+      "fetchedAt": "2026-10-24T17:56:27Z",
+      "sha256": "7f57daa3a3d6054ce8ec04e7bf8a1722bfe4f91cbc99600d533aac4aaef9b256",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.hhmedic.android.sdk:okhttputils:1.0.0.12311516",
+        "com.tencent.liteav:LiteAVSDK_TRTC:7.9.9568"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hhmedic.android.sdk.base.utils.HHFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.1.2.12271804",
+          "3.1.2.12271903"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hhprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.browser.HHBrowserAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.2.12271804",
+          "3.1.2.12271903"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.module.video.player.HHVideoAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.2.12271804",
+          "3.1.2.12271903"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.video.chat.RtcVideoAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.2.12271804",
+          "3.1.2.12271903"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

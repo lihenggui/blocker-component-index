@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.hinadt.hicloud.android:beta",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T17:57:40Z",
+      "sha256": "665da222cd59727461f9d952da30b5f53c392ed02e5d675aa87a7df17514cfea",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "com.google.android.material:material:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hina.analytics.store.EventContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.EventContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

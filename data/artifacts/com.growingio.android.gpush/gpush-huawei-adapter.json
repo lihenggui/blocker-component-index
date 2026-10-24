@@ -1,0 +1,117 @@
+{
+  "coordinate": "com.growingio.android.gpush:gpush-huawei-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T17:47:35Z",
+      "sha256": "71921fe7bf54f2226aec4a816439b125db17f2247dabf1edeb51acac5ebe820a",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.0",
+        "com.huawei.hms:push:3.0.3.301"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T17:47:34Z",
+      "sha256": "b3923b46fca75168d47a4ee5177e6d0cfc5eb22bdb7593facd4d6e5405972fee",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.1",
+        "com.huawei.hms:push:3.0.3.301"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T17:47:33Z",
+      "sha256": "86defdd8aaa2530376961e5d20139d73acf14b060434592fcc4273883de09875",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.2",
+        "com.huawei.hms:push:3.0.3.301"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T17:47:32Z",
+      "sha256": "a337ef9a762ba9a2d6e0945e06299704ec79bc42c7c2259ec0342800f6789737",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.3",
+        "com.huawei.hms:push:3.0.3.301"
+      ]
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T17:47:32Z",
+      "sha256": "efac298ad47696238d6aaf1e79a7091e9681ff87436457986ae0a811c06b3197",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.4",
+        "com.huawei.hms:push:6.12.0.300"
+      ]
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T17:47:31Z",
+      "sha256": "efac298ad47696238d6aaf1e79a7091e9681ff87436457986ae0a811c06b3197",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.5",
+        "com.huawei.hms:push:6.12.0.300"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.growingio.android.sdk.gpush.huawei.HuaweiNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.growingio.android.sdk.gpush.huawei.HuaweiNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.5.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.growingio.android.sdk.gpush.huawei.HuaweiPushAdapterReceiver",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.linkedin.testbutler:test-butler-app-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.1": {
+      "fetchedAt": "2026-10-24T18:57:13Z",
+      "sha256": "b392210139efa17c92154048913d05fe32b3b4ef93318fb4267e94d90dbfd420",
+      "dependencies": [
+        "com.linkedin.testbutler:test-butler-api:2.2.1",
+        "junit:junit:4.12"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.linkedin.android.testbutler.ButlerAccessibilityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.1",
+          "2.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.accessibilityservice.AccessibilityService"
+      ],
+      "categories": [
+        "android.accessibilityservice.category.FEEDBACK_AUDIBLE",
+        "android.accessibilityservice.category.FEEDBACK_HAPTIC",
+        "android.accessibilityservice.category.FEEDBACK_SPOKEN"
+      ],
+      "metaData": [
+        "android.accessibilityservice"
+      ]
+    }
+  ]
+}

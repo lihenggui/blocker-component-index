@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.log1992:RichEditor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T19:00:52Z",
+      "sha256": "29b1153e84fdbb0ee09c126539e15faae6e49631844177d16365666cdf7e3c8b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "cn.jzvd:jiaozivideoplayer:7.4.1",
+        "com.github.bumptech.glide:glide:4.12.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T19:00:50Z",
+      "sha256": "d75c019d1ee751efba7751230d735cb05ed71f526f216e69f98a38a748af0858",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "cn.jzvd:jiaozivideoplayer:7.7.0",
+        "com.github.bumptech.glide:glide:4.12.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pppcar.richeditorlibary.activity.ImageRotateAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

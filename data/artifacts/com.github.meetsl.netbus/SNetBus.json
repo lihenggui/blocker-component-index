@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.meetsl.netbus:SNetBus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1": {
+      "fetchedAt": "2026-10-24T16:47:10Z",
+      "sha256": "9141279232263a24f6e3e7622a249e8d14e99fa7eb7f80009bf8672043e6a15f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.meetsl.snetbus.receiver.NetStateChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

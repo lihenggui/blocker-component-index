@@ -1,0 +1,55 @@
+{
+  "coordinate": "com.jeppeman.locallydynamic:locallydynamic-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-24T18:36:16Z",
+      "sha256": "21758cbe9d1a6b404a8fbe3f4f138b495f28e4ab2d37d0e4b46de99debcb5d01",
+      "dependencies": [
+        "androidx.core:core:1.1.0",
+        "com.google.android.play:core:1.6.4",
+        "com.jeppeman.locallydynamic:net:0.1",
+        "com.jeppeman.locallydynamic:serialization:0.1"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-24T18:36:15Z",
+      "sha256": "21758cbe9d1a6b404a8fbe3f4f138b495f28e4ab2d37d0e4b46de99debcb5d01",
+      "dependencies": [
+        "androidx.core:core:1.1.0",
+        "com.google.android.play:core:1.6.4",
+        "com.jeppeman.locallydynamic:net:0.2",
+        "com.jeppeman.locallydynamic:serialization:0.2"
+      ]
+    },
+    "0.3": {
+      "fetchedAt": "2026-10-24T18:36:14Z",
+      "sha256": "21758cbe9d1a6b404a8fbe3f4f138b495f28e4ab2d37d0e4b46de99debcb5d01",
+      "dependencies": [
+        "androidx.core:core:1.1.0",
+        "com.google.android.play:core:1.6.5",
+        "com.jeppeman.locallydynamic:net:0.3",
+        "com.jeppeman.locallydynamic:serialization:0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.jeppeman.locallydynamic.PackageInstallerResultReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

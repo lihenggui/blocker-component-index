@@ -1,0 +1,55 @@
+{
+  "coordinate": "com.github.szhittech:gwmqtt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0": {
+      "fetchedAt": "2026-10-24T16:58:25Z",
+      "sha256": "aacdb333de48f2f9f615869daa18162982d3e85441366123b6ac26bfc5b5947e",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.fsix.mqtt.core.service.FsixMQTTService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":mqttcore",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.FsixMQTTService"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

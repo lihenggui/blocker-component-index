@@ -1,0 +1,162 @@
+{
+  "coordinate": "com.joaomgcd:taskerpluginlibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T18:37:43Z",
+      "sha256": "7c1e680eee51754ade4802ebefadfbb393217de3e6ddd00bfde0627f3ccf91cb",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"
+      ]
+    },
+    "0.4.1": {
+      "fetchedAt": "2026-10-24T18:37:42Z",
+      "sha256": "7c1e680eee51754ade4802ebefadfbb393217de3e6ddd00bfde0627f3ccf91cb",
+      "dependencies": []
+    },
+    "0.4.2": {
+      "fetchedAt": "2026-10-24T18:37:42Z",
+      "sha256": "7c1e680eee51754ade4802ebefadfbb393217de3e6ddd00bfde0627f3ccf91cb",
+      "dependencies": []
+    },
+    "0.4.3": {
+      "fetchedAt": "2026-10-24T18:37:41Z",
+      "sha256": "7c1e680eee51754ade4802ebefadfbb393217de3e6ddd00bfde0627f3ccf91cb",
+      "dependencies": []
+    },
+    "0.4.4": {
+      "fetchedAt": "2026-10-24T18:37:40Z",
+      "sha256": "0b59601ca0e9ca941c3de9b69a9bec27123071defadc8ae1d7bd4e17f94523ed",
+      "dependencies": []
+    },
+    "0.4.5": {
+      "fetchedAt": "2026-10-24T18:37:40Z",
+      "sha256": "54e365c98bd912dbeb559e86495cbd447fa163fbf114231f87ae6c6c21424187",
+      "dependencies": []
+    },
+    "0.4.6": {
+      "fetchedAt": "2026-10-24T18:37:39Z",
+      "sha256": "6d14c9361995c48ef0dbc280de49777ced4d20c4230c4bfd7faad21754045a24",
+      "dependencies": []
+    },
+    "0.4.7": {
+      "fetchedAt": "2026-10-24T18:37:38Z",
+      "sha256": "2e4c592e8a638ed1238f64bfb3833bd3b57a4280a584be0c04e475196c7e244d",
+      "dependencies": []
+    },
+    "0.4.8": {
+      "fetchedAt": "2026-10-24T18:37:37Z",
+      "sha256": "b24b90b1d4d3965f56dc72fcc718d32dfde1bed1b7b7c7c30507ca483c961aed",
+      "dependencies": []
+    },
+    "0.4.9": {
+      "fetchedAt": "2026-10-24T18:37:37Z",
+      "sha256": "b24b90b1d4d3965f56dc72fcc718d32dfde1bed1b7b7c7c30507ca483c961aed",
+      "dependencies": []
+    },
+    "0.4.10": {
+      "fetchedAt": "2026-10-24T18:37:35Z",
+      "sha256": "4181ce7523b5a16ef993e1f6ca4cafe65923dcc5963d641434a47935e779acfe",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.joaomgcd.taskerpluginlibrary.action.BroadcastReceiverAction",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.4.10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.twofortyfouram.locale.intent.action.FIRE_SETTING"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.joaomgcd.taskerpluginlibrary.action.IntentServiceAction",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.10",
+          "0.4.10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.twofortyfouram.locale.intent.action.FIRE_SETTING"
+      ],
+      "categories": [],
+      "metaData": [
+        "canBind"
+      ]
+    },
+    {
+      "name": "com.joaomgcd.taskerpluginlibrary.action.IntentServiceAction",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.4.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.twofortyfouram.locale.intent.action.FIRE_SETTING"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.joaomgcd.taskerpluginlibrary.condition.BroadcastReceiverCondition",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.4.10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.twofortyfouram.locale.intent.action.QUERY_CONDITION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.joaomgcd.taskerpluginlibrary.condition.IntentServiceCondition",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.4.10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.twofortyfouram.locale.intent.action.QUERY_CONDITION"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

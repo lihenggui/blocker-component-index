@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.hh-medic.android.sdk:doctor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.6.8.02231640": {
+      "fetchedAt": "2026-10-24T17:55:57Z",
+      "sha256": "abd0f23149d2f3422fe7d4182940f7554f8f34011720ab4f460658072b194585",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.hh-medic.android.sdk:video:2.5.4.02231606",
+        "com.tencent.imsdk:imsdk-plus:7.4.4661",
+        "com.tencent.liteav:LiteAVSDK_TRTC:11.4.0.13189"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hhmedic.android.sdk.video.chat.RtcVideoAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.6.8.02231640",
+          "3.6.8.02231640"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.video.floating.FloatingViewService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.6.8.02231640",
+          "3.6.8.02231640"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hhmedic.android.sdk.video.multi.MultiVideoAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.6.8.02231640",
+          "3.6.8.02231640"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

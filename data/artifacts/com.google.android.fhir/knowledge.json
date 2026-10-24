@@ -1,0 +1,24 @@
+{
+  "coordinate": "com.google.android.fhir:knowledge",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "0.1.0-beta01": {
+      "fetchedAt": "2026-10-24T17:15:35Z",
+      "sha256": "e5c4f9a043b81d7e31d8a7d83bba8112e351a1d297b6715808ea388c0044a0ce",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.room:room-ktx:2.5.2",
+        "androidx.room:room-runtime:2.5.2",
+        "ca.uhn.hapi.fhir:hapi-fhir-caching-guava:6.8.0",
+        "ca.uhn.hapi.fhir:hapi-fhir-structures-r4:6.8.0",
+        "ca.uhn.hapi.fhir:org.hl7.fhir.convertors:6.0.22",
+        "com.jakewharton.timber:timber:5.0.1",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "org.apache.commons:commons-compress:1.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1"
+      ]
+    }
+  },
+  "components": []
+}

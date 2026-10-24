@@ -1,0 +1,101 @@
+{
+  "coordinate": "com.github.markzhai:authorize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:46:21Z",
+      "sha256": "00aa3d3481adb741a36c9ac8da911f268eb01d4e22ca326610e9c8e4d52381ac",
+      "dependencies": [
+        "android:lib_ext:unspecified",
+        "com.android.support:support-v4:25.1.0",
+        "com.google.code.gson:gson:2.8.0",
+        "javax.inject:javax.inject:1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T16:46:21Z",
+      "sha256": "00aa3d3481adb741a36c9ac8da911f268eb01d4e22ca326610e9c8e4d52381ac",
+      "dependencies": [
+        "com.android.support:support-v4:25.1.0",
+        "com.github.markzhai:ext:1.0.0",
+        "com.google.code.gson:gson:2.8.0",
+        "javax.inject:javax.inject:1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.markzhai.authorize.linkedin.LinkedInAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.component.WeiboSdkBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tauth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

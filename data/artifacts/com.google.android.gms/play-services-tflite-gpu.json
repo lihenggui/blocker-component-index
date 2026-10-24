@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.google.android.gms:play-services-tflite-gpu",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta03": {
+      "fetchedAt": "2026-10-24T17:21:04Z",
+      "sha256": "7d8244beb505ca6bc0ead1305d568e80d0944af35e9b5170e69ebf0c28a7816f",
+      "dependencies": [
+        "org.tensorflow:tensorflow-lite-api:0.0.0-nightly-20220719.054020-244",
+        "org.tensorflow:tensorflow-lite-gpu-api:0.0.0-nightly-20220719.054031-1"
+      ]
+    },
+    "16.0.0": {
+      "fetchedAt": "2026-10-24T17:21:04Z",
+      "sha256": "7d8244beb505ca6bc0ead1305d568e80d0944af35e9b5170e69ebf0c28a7816f",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "org.tensorflow:tensorflow-lite-api:2.10.0",
+        "org.tensorflow:tensorflow-lite-gpu-api:2.10.0"
+      ]
+    },
+    "16.1.0": {
+      "fetchedAt": "2026-10-24T17:21:03Z",
+      "sha256": "7d8244beb505ca6bc0ead1305d568e80d0944af35e9b5170e69ebf0c28a7816f",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "org.tensorflow:tensorflow-lite-api:2.10.0",
+        "org.tensorflow:tensorflow-lite-gpu-api:2.10.0"
+      ]
+    },
+    "16.2.0": {
+      "fetchedAt": "2026-10-24T17:21:02Z",
+      "sha256": "7d8244beb505ca6bc0ead1305d568e80d0944af35e9b5170e69ebf0c28a7816f",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "org.tensorflow:tensorflow-lite-api:2.12.0",
+        "org.tensorflow:tensorflow-lite-gpu-api:2.12.0"
+      ]
+    },
+    "16.3.0": {
+      "fetchedAt": "2026-10-24T17:21:01Z",
+      "sha256": "68a3c81a80cbe69e62c4b8834cf88b6df2091a7de6f53dd0cb85d2201a39017f",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0",
+        "com.google.android.gms:play-services-tflite-java:16.3.0",
+        "org.tensorflow:tensorflow-lite-api:2.16.1",
+        "org.tensorflow:tensorflow-lite-gpu-api:2.16.1"
+      ]
+    },
+    "16.4.0": {
+      "fetchedAt": "2026-10-24T17:21:00Z",
+      "sha256": "68a3c81a80cbe69e62c4b8834cf88b6df2091a7de6f53dd0cb85d2201a39017f",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0",
+        "com.google.android.gms:play-services-tflite-java:16.4.0",
+        "org.tensorflow:tensorflow-lite-api:2.16.1",
+        "org.tensorflow:tensorflow-lite-gpu-api:2.16.1"
+      ]
+    },
+    "16.5.0": {
+      "fetchedAt": "2026-10-24T17:21:00Z",
+      "sha256": "316263633bac75274da589063f4fa4f9de527222ea82ba145480f00f4c6ca959",
+      "dependencies": [
+        "com.google.ai.edge.litert:litert-api:1.4.1",
+        "com.google.ai.edge.litert:litert-gpu-api:1.4.1",
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.9.0",
+        "com.google.android.gms:play-services-tasks:18.2.0",
+        "com.google.android.gms:play-services-tflite-java:16.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.metadata.ModuleDependencies",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta03",
+          "16.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+      ],
+      "categories": [],
+      "metaData": [
+        "tflite_gpu_dynamite:222612000:required"
+      ]
+    }
+  ]
+}

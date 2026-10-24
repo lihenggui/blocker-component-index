@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.luigivampa92:ndefemulation-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T19:03:06Z",
+      "sha256": "d9b4ee02939b14568ae71ebc616ff067adde3577b752fcfe90b266808b8c1a40",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.luigivampa92.ndefemulation.hce.NfcType4TagNdefEmulationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_NFC_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "android.nfc.cardemulation.host_apdu_service"
+      ]
+    }
+  ]
+}

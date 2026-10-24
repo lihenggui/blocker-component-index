@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.hypers.analytics:hcm-agent",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T18:00:00Z",
+      "sha256": "e8374e5291b352547e9e4ce92896fde6827d0ddc659b134c4d52ef233f848c64",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hypers.analytics.hcmagent.HCMProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.HCMProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

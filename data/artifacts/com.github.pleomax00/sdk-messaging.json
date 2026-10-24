@@ -1,0 +1,92 @@
+{
+  "coordinate": "com.github.pleomax00:sdk-messaging",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:51:20Z",
+      "sha256": "00bc31b62fa1a405127eebb30e96b4e8d142c89131820e3d1f79880856c3be3c",
+      "dependencies": [
+        "com.github.pleomax00:sdk:1.0.0",
+        "com.google.android.gms:play-services:8.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.openudid.OpenUDID_service",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.OpenUDID.GETUDID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "wigzo.android.sdk.messaging.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "wigzo.android.sdk.messaging.WigzoMessaging",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "wigzo.android.api"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "wigzo.android.sdk.messaging.WigzoMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "broadcast_action"
+      ]
+    }
+  ]
+}

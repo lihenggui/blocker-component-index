@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.github.semoncat.merlin:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5": {
+      "fetchedAt": "2026-10-24T16:55:13Z",
+      "sha256": "bd0d36c25d268153ba8a6225855626f3e107757af3c916c589df5ade05256b7c",
+      "dependencies": [
+        "com.github.kevinsawicki:http-request:+"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.novoda.merlin.receiver.ConnectivityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.novoda.merlin.service.MerlinService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

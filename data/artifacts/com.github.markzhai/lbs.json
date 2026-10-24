@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.markzhai:lbs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:46:30Z",
+      "sha256": "644f17e72fa9ee1d680686d30f715a94f7e5c5a07aeb4c4bcadb23ee3a06506f",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T16:46:29Z",
+      "sha256": "644f17e72fa9ee1d680686d30f715a94f7e5c5a07aeb4c4bcadb23ee3a06506f",
+      "dependencies": [
+        "com.github.markzhai:ext:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.location.f",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":remote",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

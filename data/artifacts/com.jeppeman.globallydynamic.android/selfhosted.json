@@ -1,0 +1,183 @@
+{
+  "coordinate": "com.jeppeman.globallydynamic.android:selfhosted",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1-alpha01": {
+      "fetchedAt": "2026-10-24T18:36:04Z",
+      "sha256": "6a6c5c765d0196bab26a4bb7d1482fab8f9fd8db737c4a861b8979e400c257d5",
+      "dependencies": [
+        "androidx.core:core:1.3.0",
+        "com.google.android.play:core:1.7.3",
+        "com.jeppeman.globallydynamic.android:core:0.1-alpha01"
+      ]
+    },
+    "0.1-alpha02": {
+      "fetchedAt": "2026-10-24T18:36:04Z",
+      "sha256": "ab480416e6c7527d1fb451cdf151e266c4148bc350c03a1b8c31609a13f29287",
+      "dependencies": [
+        "androidx.core:core:1.3.0",
+        "com.google.android.play:core:1.7.3",
+        "com.jeppeman.globallydynamic.android:core:0.1-alpha02"
+      ]
+    },
+    "0.1-alpha03": {
+      "fetchedAt": "2026-10-24T18:36:03Z",
+      "sha256": "fe7086d23f4d7196c6036591f6f8734063cd955025cef10ada35c7dfee21396a",
+      "dependencies": [
+        "androidx.core:core:1.3.0",
+        "com.google.android.play:core:1.8.0",
+        "com.jeppeman.globallydynamic.android:core:0.1-alpha03"
+      ]
+    },
+    "0.1-alpha04": {
+      "fetchedAt": "2026-10-24T18:36:02Z",
+      "sha256": "fe7086d23f4d7196c6036591f6f8734063cd955025cef10ada35c7dfee21396a",
+      "dependencies": [
+        "androidx.core:core:1.3.0",
+        "com.google.android.play:core:1.8.0",
+        "com.jeppeman.globallydynamic.android:core:0.1-alpha04"
+      ]
+    },
+    "0.1": {
+      "fetchedAt": "2026-10-24T18:36:01Z",
+      "sha256": "fe7086d23f4d7196c6036591f6f8734063cd955025cef10ada35c7dfee21396a",
+      "dependencies": [
+        "androidx.core:core:1.3.0",
+        "com.google.android.play:core:1.8.0",
+        "com.jeppeman.globallydynamic.android:core:0.1"
+      ]
+    },
+    "1.0": {
+      "fetchedAt": "2026-10-24T18:36:00Z",
+      "sha256": "fe7086d23f4d7196c6036591f6f8734063cd955025cef10ada35c7dfee21396a",
+      "dependencies": [
+        "androidx.core:core:1.3.0",
+        "com.google.android.play:core:1.8.0",
+        "com.jeppeman.globallydynamic.android:core:1.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T18:36:00Z",
+      "sha256": "e8526a4ec95461ab85b38d1ce3b04aaaaff7f5c3381d1819992f73a64f869011",
+      "dependencies": [
+        "androidx.core:core:1.8.0",
+        "com.google.android.play:core:1.10.3",
+        "com.jeppeman.globallydynamic.android:core:1.1.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T18:35:59Z",
+      "sha256": "e8526a4ec95461ab85b38d1ce3b04aaaaff7f5c3381d1819992f73a64f869011",
+      "dependencies": [
+        "androidx.core:core:1.8.0",
+        "com.google.android.play:core:1.10.3",
+        "com.jeppeman.globallydynamic.android:core:1.1.1"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T18:35:58Z",
+      "sha256": "e8526a4ec95461ab85b38d1ce3b04aaaaff7f5c3381d1819992f73a64f869011",
+      "dependencies": [
+        "androidx.core:core:1.8.0",
+        "com.google.android.play:core:1.10.3",
+        "com.jeppeman.globallydynamic.android:core:1.2.0"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T18:35:58Z",
+      "sha256": "5869e841d0683e0803530fd869309176c37d28d3915ac8758a0fcfc65b3ba1d1",
+      "dependencies": [
+        "androidx.core:core:1.8.0",
+        "com.google.android.play:core:1.10.3",
+        "com.jeppeman.globallydynamic.android:core:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.jeppeman.globallydynamic.globalsplitinstall.InstallCancelReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1-alpha03",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jeppeman.globallydynamic.globalsplitinstall.InstallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1-alpha03",
+          "1.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jeppeman.globallydynamic.globalsplitinstall.PackageInstallerResultReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1-alpha01",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jeppeman.globallydynamic.globalsplitinstall.UserConfirmationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1-alpha03",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jeppeman.globallydynamic.globalsplitinstall.UserConfirmationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.github.zuochunsheng:paylibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T17:10:54Z",
+      "sha256": "0338ed7f1d6f8ac45c5af9abc15de16ddf0ef0fc225a826fb37210e7c0a71f19",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:multidex:1.0.2",
+        "com.squareup.retrofit2:adapter-rxjava2:2.5.0",
+        "com.squareup.retrofit2:converter-gson:2.5.0",
+        "com.squareup.retrofit2:retrofit:2.5.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.3.1",
+        "com.yanzhenjie:permission:2.0.0-rc12",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.auth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

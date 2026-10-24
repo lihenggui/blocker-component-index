@@ -1,0 +1,856 @@
+{
+  "coordinate": "com.infinum.dbinspector:dbinspector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T18:13:33Z",
+      "sha256": "33c856766ff73963bbcc366a3f7fb2ae353ad5b85bbff5d72b68917133aa4dad",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.2",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:4.1.3",
+        "androidx.datastore:datastore:1.0.0-alpha08",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0-beta03",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.protobuf:protobuf-javalite:3.15.8",
+        "com.jakewharton.timber:timber:4.7.1",
+        "io.insert-koin:koin-android:3.0.1-beta-2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+      ]
+    },
+    "5.3.1": {
+      "fetchedAt": "2026-10-24T18:13:32Z",
+      "sha256": "cf6944b76793eb4b485206c09c7a4ac8f2d893cc3d320ffd9302b0346f1ef8ff",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.2",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:4.1.3",
+        "androidx.datastore:datastore:1.0.0-beta01",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.3",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0-rc01",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.protobuf:protobuf-javalite:3.15.8",
+        "io.insert-koin:koin-android:3.0.1",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+      ]
+    },
+    "5.3.2": {
+      "fetchedAt": "2026-10-24T18:13:31Z",
+      "sha256": "0fe1213c13e28e4bb1c3dc84ff95739ce40a07e760018e2e0473fcb274e120c9",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.2",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:4.1.3",
+        "androidx.datastore:datastore:1.0.0-beta01",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.3",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0-rc01",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.protobuf:protobuf-javalite:3.15.8",
+        "io.insert-koin:koin-android:3.0.1",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+      ]
+    },
+    "5.3.3": {
+      "fetchedAt": "2026-10-24T18:13:30Z",
+      "sha256": "c23121601ca9525b03369c487b46a9d2e73f372d7a680684586822e806f66e2c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.2",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:4.1.3",
+        "androidx.datastore:datastore:1.0.0-beta01",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.3",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0-rc01",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.protobuf:protobuf-javalite:3.15.8",
+        "io.insert-koin:koin-android:3.0.1",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+      ]
+    },
+    "5.3.4": {
+      "fetchedAt": "2026-10-24T18:13:29Z",
+      "sha256": "975a8a200e3594d27822ad07c9770c1c6a8e836ef50edfdb077589f79ffb1852",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.3",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.databinding:viewbinding:4.2.1",
+        "androidx.datastore:datastore:1.0.0-beta01",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.4",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.protobuf:protobuf-javalite:3.17.0",
+        "io.insert-koin:koin-android:3.0.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+      ]
+    },
+    "5.3.5": {
+      "fetchedAt": "2026-10-24T18:13:28Z",
+      "sha256": "23ef0748ecb6b9c266dc64d5801e5a7f5d0445d0a48865758895806af3f5743e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.3",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.databinding:viewbinding:4.2.1",
+        "androidx.datastore:datastore:1.0.0-beta01",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.4",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.protobuf:protobuf-javalite:3.17.0",
+        "io.insert-koin:koin-android:3.0.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+      ]
+    },
+    "5.3.6": {
+      "fetchedAt": "2026-10-24T18:13:28Z",
+      "sha256": "23ef0748ecb6b9c266dc64d5801e5a7f5d0445d0a48865758895806af3f5743e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.3",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.datastore:datastore:1.0.0-rc01",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.5",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.17.3",
+        "io.insert-koin:koin-android:3.1.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+      ]
+    },
+    "5.3.7": {
+      "fetchedAt": "2026-10-24T18:13:27Z",
+      "sha256": "23ef0748ecb6b9c266dc64d5801e5a7f5d0445d0a48865758895806af3f5743e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.3",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.datastore:datastore:1.0.0-rc01",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.5",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.17.3",
+        "io.insert-koin:koin-android:3.1.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
+      ]
+    },
+    "5.3.8": {
+      "fetchedAt": "2026-10-24T18:13:26Z",
+      "sha256": "23ef0748ecb6b9c266dc64d5801e5a7f5d0445d0a48865758895806af3f5743e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:7.0.1",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.17.3",
+        "io.insert-koin:koin-android:3.1.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
+      ]
+    },
+    "5.3.9": {
+      "fetchedAt": "2026-10-24T18:13:25Z",
+      "sha256": "23ef0748ecb6b9c266dc64d5801e5a7f5d0445d0a48865758895806af3f5743e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:7.0.1",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.17.3",
+        "io.insert-koin:koin-android:3.1.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
+      ]
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T18:13:24Z",
+      "sha256": "d1beeeff157d626456f9afa13ae7aacfe0d9a450d34c05171581dd4eeddf3b4d",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:7.0.2",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.17.3",
+        "io.insert-koin:koin-android:3.1.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-24T18:13:24Z",
+      "sha256": "d1beeeff157d626456f9afa13ae7aacfe0d9a450d34c05171581dd4eeddf3b4d",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:7.0.2",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-runtime-ktx:3.0.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.17.3",
+        "io.insert-koin:koin-android:3.1.2",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-24T18:13:23Z",
+      "sha256": "3bf9aa77ca7d29392a6e014aedca11a1a96b7747eb4ee680a41fbfd01dce27e4",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.0.4",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "androidx.paging:paging-runtime-ktx:3.1.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.19.1",
+        "io.insert-koin:koin-android:3.1.4",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+      ]
+    },
+    "5.4.3": {
+      "fetchedAt": "2026-10-24T18:13:22Z",
+      "sha256": "3bf9aa77ca7d29392a6e014aedca11a1a96b7747eb4ee680a41fbfd01dce27e4",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.0.4",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "androidx.paging:paging-runtime-ktx:3.1.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.protobuf:protobuf-javalite:3.19.1",
+        "io.insert-koin:koin-android:3.1.4",
+        "me.xdrop:fuzzywuzzy:1.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+      ]
+    },
+    "5.4.4": {
+      "fetchedAt": "2026-10-24T18:13:21Z",
+      "sha256": "602b0a32abf6bfe7d9676d5d3a3446bd56952891f8005e30007bfed8b2aaba1c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.1.2",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.paging:paging-runtime-ktx:3.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.protobuf:protobuf-javalite:3.19.3",
+        "io.insert-koin:koin-android:3.1.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+      ]
+    },
+    "5.4.6": {
+      "fetchedAt": "2026-10-24T18:13:20Z",
+      "sha256": "602b0a32abf6bfe7d9676d5d3a3446bd56952891f8005e30007bfed8b2aaba1c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.0",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.paging:paging-runtime-ktx:3.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.6.0",
+        "com.google.protobuf:protobuf-javalite:3.20.1",
+        "io.insert-koin:koin-android:3.1.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
+      ]
+    },
+    "5.4.7": {
+      "fetchedAt": "2026-10-24T18:13:19Z",
+      "sha256": "602b0a32abf6bfe7d9676d5d3a3446bd56952891f8005e30007bfed8b2aaba1c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.paging:paging-runtime-ktx:3.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.protobuf:protobuf-javalite:3.21.1",
+        "io.insert-koin:koin-android:3.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.2"
+      ]
+    },
+    "5.4.8": {
+      "fetchedAt": "2026-10-24T18:13:19Z",
+      "sha256": "602b0a32abf6bfe7d9676d5d3a3446bd56952891f8005e30007bfed8b2aaba1c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.5.1",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.2",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.5.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.paging:paging-runtime-ktx:3.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.protobuf:protobuf-javalite:3.21.4",
+        "io.insert-koin:koin-android:3.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "5.4.9": {
+      "fetchedAt": "2026-10-24T18:13:17Z",
+      "sha256": "96f164932c438adc0439dcf4cf712ca2d1cd4ef5d6c667fd4933bc64c6b98acf",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.0",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.5.3",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.paging:paging-runtime-ktx:3.1.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.7.0",
+        "com.google.protobuf:protobuf-javalite:3.21.8",
+        "io.insert-koin:koin-android:3.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.infinum.dbinspector.ui.DbInspectorInitializer"
+      ]
+    },
+    {
+      "name": "com.infinum.dbinspector.DbInspectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.4.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.DbInspectorFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.infinum.dbinspector.provider.database",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.content.table.TableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.content.table.TableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.content.trigger.TriggerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.content.trigger.TriggerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.content.view.ViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.content.view.ViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.databases.DatabasesActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.databases.DatabasesActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.databases.edit.EditDatabaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.databases.edit.EditDatabaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.edit.EditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.edit.EditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.pragma.PragmaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.pragma.PragmaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.schema.SchemaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.schema.SchemaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.settings.SettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.5",
+          "5.4.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.infinum.dbinspector.ui.settings.SettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

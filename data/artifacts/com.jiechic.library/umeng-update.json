@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.jiechic.library:umeng-update",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.6.1": {
+      "fetchedAt": "2026-10-24T18:36:59Z",
+      "sha256": "05a584079b829c7ca1541d22ec803b1b9bf061d7185843f5387b33494fd75a76",
+      "dependencies": []
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-24T18:36:58Z",
+      "sha256": "f3ad451264aee17ce36c9f4b7b101baf1597845f632c64223bbe47e7bc0f0eda",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.umeng.update.UpdateDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.1",
+          "2.7.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.update.net.DownloadingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.1",
+          "2.7.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":DownloadingService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

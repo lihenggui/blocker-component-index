@@ -1,0 +1,127 @@
+{
+  "coordinate": "com.hianzuo.android:LibAndroidLogger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T17:56:56Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T17:56:55Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T17:56:54Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-24T17:56:54Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-24T17:56:53Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-24T17:56:52Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.6": {
+      "fetchedAt": "2026-10-24T17:56:52Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.7": {
+      "fetchedAt": "2026-10-24T17:56:51Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.8": {
+      "fetchedAt": "2026-10-24T17:56:50Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.9": {
+      "fetchedAt": "2026-10-24T17:56:50Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.10": {
+      "fetchedAt": "2026-10-24T17:56:49Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.12": {
+      "fetchedAt": "2026-10-24T17:56:48Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.13": {
+      "fetchedAt": "2026-10-24T17:56:48Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.14": {
+      "fetchedAt": "2026-10-24T17:56:47Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.15": {
+      "fetchedAt": "2026-10-24T17:56:46Z",
+      "sha256": "597e844f7cec86271f11b491fe9e4093d641151d3b6c64943fea90ea44d3f59f",
+      "dependencies": []
+    },
+    "1.1.17": {
+      "fetchedAt": "2026-10-24T17:56:46Z",
+      "sha256": "daa39e16b31275f8d6948fe811dd524ee1c77eb995d71ceb52fd6ea79728d835",
+      "dependencies": []
+    },
+    "1.1.18": {
+      "fetchedAt": "2026-10-24T17:56:45Z",
+      "sha256": "869ccaefcde0f7651e9c1b49b9d1caaccc3f6a642149ba89ab7ab5013889fa2b",
+      "dependencies": []
+    },
+    "1.1.20": {
+      "fetchedAt": "2026-10-24T17:56:44Z",
+      "sha256": "efbb0ed88a7b41029439d792440ad0edbba9bc3f837721aa2c5f4c492d625127",
+      "dependencies": []
+    },
+    "1.1.21": {
+      "fetchedAt": "2026-10-24T17:56:44Z",
+      "sha256": "efbb0ed88a7b41029439d792440ad0edbba9bc3f837721aa2c5f4c492d625127",
+      "dependencies": []
+    },
+    "1.1.22": {
+      "fetchedAt": "2026-10-24T17:56:43Z",
+      "sha256": "efbb0ed88a7b41029439d792440ad0edbba9bc3f837721aa2c5f4c492d625127",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.hianzuo.logger.LogService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.17",
+          "1.1.22"
+        ]
+      ],
+      "exported": true,
+      "process": ":LogService",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hianzuo.logger.ILogService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

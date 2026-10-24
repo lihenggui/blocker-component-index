@@ -1,0 +1,256 @@
+{
+  "coordinate": "com.letscooee:cooee-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.1": {
+      "fetchedAt": "2026-10-24T18:53:41Z",
+      "sha256": "565076b056614b967ae7d0df9c35df0c19302609445930b87dd0878042e7cee1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.browser:browser:1.4.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core:1.8.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.5.0",
+        "androidx.lifecycle:lifecycle-process:2.5.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.gms:play-services-location:20.0.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.firebase:firebase-bom:26.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.sentry:sentry-android:6.3.0",
+        "jp.wasabeef:blurry:4.0.0",
+        "net.sourceforge.streamsupport:android-retrofuture:1.7.4",
+        "org.mongodb:bson:4.2.3"
+      ]
+    },
+    "1.4.2": {
+      "fetchedAt": "2026-10-24T18:53:40Z",
+      "sha256": "565076b056614b967ae7d0df9c35df0c19302609445930b87dd0878042e7cee1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.browser:browser:1.4.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core:1.8.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.5.0",
+        "androidx.lifecycle:lifecycle-process:2.5.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.gms:play-services-location:20.0.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.firebase:firebase-bom:26.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.sentry:sentry-android:6.3.0",
+        "jp.wasabeef:blurry:4.0.0",
+        "net.sourceforge.streamsupport:android-retrofuture:1.7.4",
+        "org.mongodb:bson:4.2.3"
+      ]
+    },
+    "1.4.3": {
+      "fetchedAt": "2026-10-24T18:53:38Z",
+      "sha256": "59fc074e47da24849d6537a4c144d673a11b86c45c01fb8e78e421fae00a3e8d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.browser:browser:1.4.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core:1.8.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.5.0",
+        "androidx.lifecycle:lifecycle-process:2.5.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.gms:play-services-location:20.0.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.firebase:firebase-bom:26.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.sentry:sentry-android:6.3.0",
+        "jp.wasabeef:blurry:4.0.0",
+        "net.sourceforge.streamsupport:android-retrofuture:1.7.4",
+        "org.mongodb:bson:4.2.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.letscooee.broadcast.ARActionPerformed",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.letscooee.arResponse"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.broadcast.CooeeJobSchedulerBroadcast",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.broadcast.OnPushNotificationButtonClick",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.device.DebugInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.schedular.job.PendingTaskJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.services.CooeeFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.services.PushNotificationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.trigger.CooeeEmptyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.trigger.inapp.InAppBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.letscooee.trigger.inapp.InAppTriggerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

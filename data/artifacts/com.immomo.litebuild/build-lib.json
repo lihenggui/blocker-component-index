@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.immomo.litebuild:build-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.5": {
+      "fetchedAt": "2026-10-24T18:09:21Z",
+      "sha256": "36a7b024f10a83f00dac3face62105b855e37e1e0b379bd846e0403e50be0860",
+      "dependencies": []
+    },
+    "0.1.40": {
+      "fetchedAt": "2026-10-24T18:09:20Z",
+      "sha256": "36a7b024f10a83f00dac3face62105b855e37e1e0b379bd846e0403e50be0860",
+      "dependencies": []
+    },
+    "0.1.51": {
+      "fetchedAt": "2026-10-24T18:09:20Z",
+      "sha256": "36a7b024f10a83f00dac3face62105b855e37e1e0b379bd846e0403e50be0860",
+      "dependencies": []
+    },
+    "0.1.56": {
+      "fetchedAt": "2026-10-24T18:09:19Z",
+      "sha256": "36a7b024f10a83f00dac3face62105b855e37e1e0b379bd846e0403e50be0860",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.immomo.litebuildlib.LiteBuildProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.5",
+          "0.1.56"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.litebuild-sentry-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

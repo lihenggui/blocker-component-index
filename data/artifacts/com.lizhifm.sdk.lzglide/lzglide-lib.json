@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.lizhifm.sdk.lzglide:lzglide-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.2": {
+      "fetchedAt": "2026-10-24T19:00:00Z",
+      "sha256": "ab0355d66f3088630856c5e926477e0c9d8705f3fc10ce6e1c6d837d98789de8",
+      "dependencies": []
+    },
+    "1.6.3": {
+      "fetchedAt": "2026-10-24T18:59:59Z",
+      "sha256": "0d7c420a14f307c5366bc3778a13d1bfba76014aab6ebdd1bff61efecaa92342",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.yibasan.lizhifm.library.glide.model.CustomImageSizeModel$NetWorkStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.2",
+          "1.6.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

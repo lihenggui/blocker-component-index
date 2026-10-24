@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.google.android.gms:auth-api-impl",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "11.6.0": {
+      "fetchedAt": "2026-10-24T17:15:55Z",
+      "sha256": "29d856e107127b8c3ccfdbaf3e3ff0e23fe63b9efda3a222cc9bfe2036840291",
+      "dependencies": [
+        "com.google.android.gms:play-services-auth:11.6.0",
+        "com.google.android.gms:play-services-base:11.6.0",
+        "com.google.android.gms:play-services-basement:11.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.auth.api.fallback.signin.internal.FallbackSignInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "11.6.0",
+          "11.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.auth.APPAUTH_SIGN_IN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.AuthorizationManagementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "11.6.0",
+          "11.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "11.6.0",
+          "11.6.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

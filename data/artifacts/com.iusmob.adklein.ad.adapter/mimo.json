@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.iusmob.adklein.ad.adapter:mimo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T18:29:14Z",
+      "sha256": "9589a9b6bc6b115f7136a15d538bdaa586a833596ccb2138a982b0242f5e327e",
+      "dependencies": [
+        "iusmob.adklein.ad.third:mimo:2.0.2"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T18:29:13Z",
+      "sha256": "99b4707c34e60c22effab91c9529a3c9e936af066dd168aadf57a1e006661c68",
+      "dependencies": [
+        "com.iusmob.adklein.ad.third:mimo:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.iusmob.adklein.mimo.adapter.provider.MimoFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.2",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

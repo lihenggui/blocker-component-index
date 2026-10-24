@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.github.manzhda:android-coordnate-tracker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-24T16:46:02Z",
+      "sha256": "a197f2bef017f3183dae95619e76c7d2f16358ed5d3eabcd00e5ac0522f4bff5",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mda.coordinatetracker.CoordinateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.mda.coordinatetracker.ACTION_DIRECT_GEOCODE",
+        "com.mda.coordinatetracker.ACTION_GET_CURRENT_LOCATION",
+        "com.mda.coordinatetracker.START",
+        "com.mda.coordinatetracker.STOP"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

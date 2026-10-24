@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.growingio.android.gpush:gpush-xiaomi-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T17:48:07Z",
+      "sha256": "bc51e9a6c4c6b0b8087c2e8ee9da2cbe8178582f152616ab2feebad8b46643be",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.0",
+        "com.growingio.android.gpush:gpush-mipush-sdk:1.5.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T17:48:06Z",
+      "sha256": "19beb023b39068784c82e8db726f258be22a61d1fc8926e05179144080c0e678",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.1",
+        "com.growingio.android.gpush:gpush-mipush-sdk:1.5.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T17:48:05Z",
+      "sha256": "c7f59f408c96fc5780579da3edc17c1c37dd32a1a9ccc8e97c2d9a9a027fc7f0",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.2",
+        "com.growingio.android.gpush:gpush-mipush-sdk:1.5.2"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T17:48:04Z",
+      "sha256": "cc49d69e2f54af6cd9365ffc2511458ce2674ed8a37a2fe3619600f4d70d14a9",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.3",
+        "com.growingio.android.gpush:gpush-mipush-sdk:1.5.3"
+      ]
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T17:48:04Z",
+      "sha256": "97d888f9575f909dde72c3ed7340a41ee57c963b7de1e37ccea091680cf40834",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.4",
+        "com.growingio.android.gpush:gpush-mipush-sdk:1.5.4"
+      ]
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T17:48:03Z",
+      "sha256": "97d888f9575f909dde72c3ed7340a41ee57c963b7de1e37ccea091680cf40834",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.5",
+        "com.growingio.android.gpush:gpush-mipush-sdk:1.5.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.growingio.android.sdk.gpush.xiaomi.XiaomiPushAdapterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

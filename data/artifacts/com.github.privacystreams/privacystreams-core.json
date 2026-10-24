@@ -1,0 +1,215 @@
+{
+  "coordinate": "com.github.privacystreams:privacystreams-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T16:51:46Z",
+      "sha256": "c1c183cf9224368ba07984de899abcbae0af9706136546c3ca8d6e2819857a1d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.2.0",
+        "com.google.code.gson:gson:2.8.0",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    },
+    "0.1.4": {
+      "fetchedAt": "2026-10-24T16:51:45Z",
+      "sha256": "230e3d01c7864447e6f03f2711cc65a08a273f78d98a768476b1c4933ff06e5c",
+      "dependencies": [
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.privacystreams.accessibility.MyAccessibilityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.accessibilityservice.AccessibilityService"
+      ],
+      "categories": [
+        "android.accessibilityservice.category.FEEDBACK_GENERIC"
+      ],
+      "metaData": [
+        "android.accessibilityservice"
+      ]
+    },
+    {
+      "name": "com.github.privacystreams.accessibility.PSAccessibilityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.accessibilityservice.AccessibilityService"
+      ],
+      "categories": [
+        "android.accessibilityservice.category.FEEDBACK_GENERIC"
+      ],
+      "metaData": [
+        "android.accessibilityservice"
+      ]
+    },
+    {
+      "name": "com.github.privacystreams.communication.CallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PHONE_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.privacystreams.communication.GmailAuthorizationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.privacystreams.image.PSCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.privacystreams.notification.MyNotificationListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.service.notification.NotificationListenerService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.privacystreams.notification.PSNotificationListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.service.notification.NotificationListenerService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.privacystreams.utils.PSFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.github.privacystreams.utils.PSPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.privacystreams.utils.permission.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

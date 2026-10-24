@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.google.firebase:firebase-dynamic-module-support",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta01": {
+      "fetchedAt": "2026-10-24T17:34:43Z",
+      "sha256": "ae2920f77837bb839779a484bade43d8ccd5ec48cfb7fbb77719b5dfa82053f2",
+      "dependencies": [
+        "com.google.android.play:core:1.9.0",
+        "com.google.firebase:firebase-common:20.0.0",
+        "com.google.firebase:firebase-components:17.0.0"
+      ]
+    },
+    "16.0.0-beta02": {
+      "fetchedAt": "2026-10-24T17:34:42Z",
+      "sha256": "158f62774b5f04d95172c2de7c9b25400383ea1acc4926546edc7cdcb2a24dec",
+      "dependencies": [
+        "com.google.android.play:feature-delivery:2.0.0",
+        "com.google.firebase:firebase-common:20.1.1",
+        "com.google.firebase:firebase-components:17.0.0"
+      ]
+    },
+    "16.0.0-beta03": {
+      "fetchedAt": "2026-10-24T17:34:41Z",
+      "sha256": "344e06198d6afd7b2503b6a5845b2801c78673fe9ed01d78c1b8d0e9c18f14de",
+      "dependencies": [
+        "com.google.android.play:feature-delivery:2.0.0",
+        "com.google.firebase:firebase-common:20.1.2",
+        "com.google.firebase:firebase-components:17.0.1"
+      ]
+    },
+    "16.0.0-beta04": {
+      "fetchedAt": "2026-10-24T17:34:40Z",
+      "sha256": "d7f832d038e317dc0e0beeb3cc8226cf371b1e367be6dffeebceda52277e5162",
+      "dependencies": [
+        "com.google.android.play:feature-delivery:2.1.0",
+        "com.google.firebase:firebase-common:21.0.0",
+        "com.google.firebase:firebase-components:18.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.21"
+      ]
+    },
+    "16.0.0-beta05": {
+      "fetchedAt": "2026-10-24T17:34:39Z",
+      "sha256": "3af4c750d8890de6913ee27c5be870ac43aba32075e27458d199a3b32493fe82",
+      "dependencies": [
+        "com.google.android.play:feature-delivery:2.1.0",
+        "com.google.firebase:firebase-common:23.0.0",
+        "com.google.firebase:firebase-components:20.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta01",
+          "16.0.0-beta05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+      ]
+    }
+  ]
+}

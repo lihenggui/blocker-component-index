@@ -1,0 +1,48 @@
+{
+  "coordinate": "com.juul.datadog:bundled-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T18:39:52Z",
+      "sha256": "43d7c99503769f24f2163885217a728dd3072cb8fdd324333e13c7d801bf950a",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.datadoghq:dd-sdk-android-logs:2.0.0",
+        "com.juul.datadog:datadog:0.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T18:39:50Z",
+      "sha256": "43d7c99503769f24f2163885217a728dd3072cb8fdd324333e13c7d801bf950a",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.datadoghq:dd-sdk-android-logs:2.5.1",
+        "com.juul.datadog:datadog:0.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.juul.datadog.DatadogContextInitializer"
+      ]
+    }
+  ]
+}

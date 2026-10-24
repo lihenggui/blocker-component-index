@@ -1,0 +1,30 @@
+{
+  "coordinate": "com.lydaas.qtsdk:atm-analytics",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "8.0.5.4": {
+      "fetchedAt": "2026-10-24T19:03:24Z",
+      "sha256": "c0a7e4c0076a2640743db7473b864fc8f5616d141a22c870d39f8f0008a88ccc",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.alibaba.analytics.AnalyticsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.0.5.4",
+          "8.0.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

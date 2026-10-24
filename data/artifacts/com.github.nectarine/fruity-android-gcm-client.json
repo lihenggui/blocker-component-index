@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.github.nectarine:fruity-android-gcm-client",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T16:48:33Z",
+      "sha256": "c8cfc2ea584751d4463400d262737db51f4110603b57fb64880498c24ccf920b",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:6.5.87"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T16:48:32Z",
+      "sha256": "2e83836b5cae7b29002561e13b290598ae862c0b8abfe64e185b587d1db35224",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:6.5.87",
+        "io.reactivex:rxandroid:0.24.0",
+        "io.reactivex:rxjava:1.0.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "kr.nectarine.android.fruitygcm.receiver.GcmNeedsUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "kr.nectarine.android.fruitygcm.receiver.GcmRegisteredReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.REGISTRATION"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

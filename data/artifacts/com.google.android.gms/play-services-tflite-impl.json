@@ -1,0 +1,108 @@
+{
+  "coordinate": "com.google.android.gms:play-services-tflite-impl",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta01": {
+      "fetchedAt": "2026-10-24T17:21:12Z",
+      "sha256": "163a794ec3447020ff6370e6f5f0385ab9cbf190f0de3463120b1eee1e0c8367",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1"
+      ]
+    },
+    "16.0.0-beta02": {
+      "fetchedAt": "2026-10-24T17:21:11Z",
+      "sha256": "163a794ec3447020ff6370e6f5f0385ab9cbf190f0de3463120b1eee1e0c8367",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1"
+      ]
+    },
+    "16.0.0-beta03": {
+      "fetchedAt": "2026-10-24T17:21:10Z",
+      "sha256": "163a794ec3447020ff6370e6f5f0385ab9cbf190f0de3463120b1eee1e0c8367",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2"
+      ]
+    },
+    "16.0.0": {
+      "fetchedAt": "2026-10-24T17:21:09Z",
+      "sha256": "163a794ec3447020ff6370e6f5f0385ab9cbf190f0de3463120b1eee1e0c8367",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2"
+      ]
+    },
+    "16.0.1": {
+      "fetchedAt": "2026-10-24T17:21:08Z",
+      "sha256": "163a794ec3447020ff6370e6f5f0385ab9cbf190f0de3463120b1eee1e0c8367",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2"
+      ]
+    },
+    "16.1.0": {
+      "fetchedAt": "2026-10-24T17:21:07Z",
+      "sha256": "163a794ec3447020ff6370e6f5f0385ab9cbf190f0de3463120b1eee1e0c8367",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2"
+      ]
+    },
+    "16.3.0": {
+      "fetchedAt": "2026-10-24T17:21:06Z",
+      "sha256": "541971a390547eed9d738fcca7badeb7c4efce3bc18e8f498fd49bba6fb0feca",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "16.4.0": {
+      "fetchedAt": "2026-10-24T17:21:06Z",
+      "sha256": "541971a390547eed9d738fcca7badeb7c4efce3bc18e8f498fd49bba6fb0feca",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    },
+    "16.5.0": {
+      "fetchedAt": "2026-10-24T17:21:05Z",
+      "sha256": "8f3630556988cbe56207ed56b788d29ab163a690f56bc849d065e544599094fb",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.9.0",
+        "com.google.android.gms:play-services-tasks:18.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.metadata.ModuleDependencies",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta01",
+          "16.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+      ],
+      "categories": [],
+      "metaData": [
+        "tflite_dynamite:3:required"
+      ]
+    }
+  ]
+}

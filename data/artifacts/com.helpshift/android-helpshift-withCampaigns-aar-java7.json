@@ -1,0 +1,117 @@
+{
+  "coordinate": "com.helpshift:android-helpshift-withCampaigns-aar-java7",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.3-withCampaigns-java7": {
+      "fetchedAt": "2026-10-24T17:55:17Z",
+      "sha256": "ce8dc3c1a4196098c4fd0ee638d68250ab6e9dc0164d274007450206e61d84e5",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.helpshift.campaigns.activities.NotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.6.3-withCampaigns-java7",
+          "7.6.3-withCampaigns-java7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.campaigns.activities.ParentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.6.3-withCampaigns-java7",
+          "7.6.3-withCampaigns-java7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.campaigns.services.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.6.3-withCampaigns-java7",
+          "7.6.3-withCampaigns-java7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.support.HSReview",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.6.3-withCampaigns-java7",
+          "7.6.3-withCampaigns-java7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.support.activities.ParentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.6.3-withCampaigns-java7",
+          "7.6.3-withCampaigns-java7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.helpshift.support.providers.HelpshiftFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.3-withCampaigns-java7",
+          "7.6.3-withCampaigns-java7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.helpshift.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

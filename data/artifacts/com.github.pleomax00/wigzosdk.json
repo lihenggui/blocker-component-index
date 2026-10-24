@@ -1,0 +1,111 @@
+{
+  "coordinate": "com.github.pleomax00:wigzosdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T16:51:24Z",
+      "sha256": "207ae7182958a319fc0f06f2fe3221c317531e5e33fc3df2a0e71d1ab06b8b21",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.google.android.gms:play-services:8.1.0",
+        "com.google.code.gson:gson:2.6.2",
+        "org.apache.commons:commons-lang3:3.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T16:51:23Z",
+      "sha256": "207ae7182958a319fc0f06f2fe3221c317531e5e33fc3df2a0e71d1ab06b8b21",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.google.android.gms:play-services:8.1.0",
+        "com.google.code.gson:gson:2.6.2",
+        "org.apache.commons:commons-lang3:3.0"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T16:51:22Z",
+      "sha256": "207ae7182958a319fc0f06f2fe3221c317531e5e33fc3df2a0e71d1ab06b8b21",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.google.android.gms:play-services:8.1.0",
+        "com.google.code.gson:gson:2.6.2",
+        "org.apache.commons:commons-lang3:3.0"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-24T16:51:22Z",
+      "sha256": "207ae7182958a319fc0f06f2fe3221c317531e5e33fc3df2a0e71d1ab06b8b21",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.google.android.gms:play-services:8.1.0",
+        "com.google.code.gson:gson:2.6.2",
+        "org.apache.commons:commons-lang3:3.0"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-24T16:51:21Z",
+      "sha256": "04acd7830fef9864f7f360283925f97ce30d47d66b72f41c6e7ca20e2223324a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.google.android.gms:play-services:8.4.0",
+        "com.google.code.gson:gson:2.6.2",
+        "org.apache.commons:commons-lang3:3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "wigzo.sdk.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "wigzo.sdk.WigzoInstanceIDListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "wigzo.sdk.WigzoRegistrationIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

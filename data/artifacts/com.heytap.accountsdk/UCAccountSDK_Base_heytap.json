@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.heytap.accountsdk:UCAccountSDK_Base_heytap",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.5.0": {
+      "fetchedAt": "2026-10-24T17:55:39Z",
+      "sha256": "c5724a2c8ec7dd7e4d2a32ef7d2e09d05fc04f9d4871a8bc85de2159bcfff844",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.lifecycle:lifecycle-livedata:2.2.0",
+        "com.heytap.accountsdk:UCBasic:2.0.16.1",
+        "com.heytap.accountsdk:UCServiceSDK_keytap:1.1.6",
+        "com.squareup.okhttp3:logging-interceptor:4.2.2",
+        "com.squareup.okhttp3:okhttp:4.2.2",
+        "com.squareup.retrofit2:converter-gson:2.7.0",
+        "com.squareup.retrofit2:retrofit:2.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.usercenter.accountsdk.utils.UCAccountSDKInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.5.0",
+          "2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.UCAccountSDKInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.usercenter.accountsdk.utils.app.UserCenterOperateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.5.0",
+          "2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.usercenter.action.receiver.SUPPORT_LOGIN"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

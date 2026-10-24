@@ -1,0 +1,126 @@
+{
+  "coordinate": "com.governikus:ausweisapp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.26.3": {
+      "fetchedAt": "2026-10-24T17:46:19Z",
+      "sha256": "0d784ea7971f2ca92fa11164f0b7f6556c7d0346197f3cd1f7db679d99c20445",
+      "dependencies": []
+    },
+    "1.26.4": {
+      "fetchedAt": "2026-10-24T17:46:18Z",
+      "sha256": "0d784ea7971f2ca92fa11164f0b7f6556c7d0346197f3cd1f7db679d99c20445",
+      "dependencies": []
+    },
+    "1.26.5": {
+      "fetchedAt": "2026-10-24T17:46:17Z",
+      "sha256": "0d784ea7971f2ca92fa11164f0b7f6556c7d0346197f3cd1f7db679d99c20445",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T17:46:16Z",
+      "sha256": "aaba66a2a733836b839272dd5a18d2bf5071f923ac5e8fd16df6f896dd796aa2",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T17:46:15Z",
+      "sha256": "aaba66a2a733836b839272dd5a18d2bf5071f923ac5e8fd16df6f896dd796aa2",
+      "dependencies": []
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T17:46:14Z",
+      "sha256": "aaba66a2a733836b839272dd5a18d2bf5071f923ac5e8fd16df6f896dd796aa2",
+      "dependencies": []
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T17:46:13Z",
+      "sha256": "9413a3ecf3c757616a22974f697e975b761f43ab6234a0fd05d1f07ca08916ce",
+      "dependencies": []
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-24T17:46:12Z",
+      "sha256": "9413a3ecf3c757616a22974f697e975b761f43ab6234a0fd05d1f07ca08916ce",
+      "dependencies": []
+    },
+    "2.2.2": {
+      "fetchedAt": "2026-10-24T17:46:11Z",
+      "sha256": "9413a3ecf3c757616a22974f697e975b761f43ab6234a0fd05d1f07ca08916ce",
+      "dependencies": []
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-24T17:45:59Z",
+      "sha256": "609c84522fca1cf4d0206b3614a5f6c16c2a4f5774eeb7cd9796760b2d137b77",
+      "dependencies": []
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-24T17:46:10Z",
+      "sha256": "609c84522fca1cf4d0206b3614a5f6c16c2a4f5774eeb7cd9796760b2d137b77",
+      "dependencies": []
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-24T17:46:08Z",
+      "sha256": "7529b5308da17db367ff0a3d100d26be56fb3baabc2f6d442f55adef40ca8847",
+      "dependencies": []
+    },
+    "2.4.1": {
+      "fetchedAt": "2026-10-24T17:46:07Z",
+      "sha256": "7529b5308da17db367ff0a3d100d26be56fb3baabc2f6d442f55adef40ca8847",
+      "dependencies": []
+    },
+    "2.5.0": {
+      "fetchedAt": "2026-10-24T17:46:06Z",
+      "sha256": "61cc38fca0f74d734418421aa2fd4391483d3487b73545589d3e9dbac4403a5f",
+      "dependencies": []
+    },
+    "2.5.1": {
+      "fetchedAt": "2026-10-24T17:46:05Z",
+      "sha256": "61cc38fca0f74d734418421aa2fd4391483d3487b73545589d3e9dbac4403a5f",
+      "dependencies": []
+    },
+    "2.5.3": {
+      "fetchedAt": "2026-10-24T17:46:04Z",
+      "sha256": "61cc38fca0f74d734418421aa2fd4391483d3487b73545589d3e9dbac4403a5f",
+      "dependencies": []
+    },
+    "2.5.4": {
+      "fetchedAt": "2026-10-24T17:46:03Z",
+      "sha256": "61cc38fca0f74d734418421aa2fd4391483d3487b73545589d3e9dbac4403a5f",
+      "dependencies": []
+    },
+    "2.5.5": {
+      "fetchedAt": "2026-10-24T17:46:02Z",
+      "sha256": "61cc38fca0f74d734418421aa2fd4391483d3487b73545589d3e9dbac4403a5f",
+      "dependencies": []
+    },
+    "2.6.0": {
+      "fetchedAt": "2026-10-24T17:46:00Z",
+      "sha256": "61cc38fca0f74d734418421aa2fd4391483d3487b73545589d3e9dbac4403a5f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.governikus.ausweisapp2.AusweisApp2Service",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.26.3",
+          "2.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":ausweisapp2_service",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.governikus.ausweisapp2.START_SERVICE"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.app.arguments",
+        "android.app.background_running",
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

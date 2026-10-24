@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.github.zhangjianli:stallbuster",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T17:10:46Z",
+      "sha256": "c88f717d0875496c60fdb043fe55f86fa0de6e8aa63da0479dc9596a5249f657",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:recyclerview-v7:25.3.1",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-24T17:10:45Z",
+      "sha256": "d42398a1363dbc9050e6a65c1ac788b50bc43c3af0b3c10042d70d603084d2e1",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:recyclerview-v7:25.3.1",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.zhangjianli.stallbuster.ui.ReportDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.zhangjianli.stallbuster.ui.ReportListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

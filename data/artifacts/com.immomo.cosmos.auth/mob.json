@@ -1,0 +1,73 @@
+{
+  "coordinate": "com.immomo.cosmos.auth:mob",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-24T18:05:38Z",
+      "sha256": "4ee840a3be1265fe58515850800f89b24e29007dd5df5d64919c64de2a519892",
+      "dependencies": []
+    },
+    "1.0.0.2": {
+      "fetchedAt": "2026-10-24T18:05:38Z",
+      "sha256": "4ee840a3be1265fe58515850800f89b24e29007dd5df5d64919c64de2a519892",
+      "dependencies": []
+    },
+    "1.0.0.4": {
+      "fetchedAt": "2026-10-24T18:05:37Z",
+      "sha256": "4ee840a3be1265fe58515850800f89b24e29007dd5df5d64919c64de2a519892",
+      "dependencies": [
+        "com.mob:MobCoreULT:2023.0816.1855@aar",
+        "com.mob:MobGUIULT:2023.0816.1855",
+        "com.mob:MobSupportV1:2023.0816.1855",
+        "com.mob:SecVerifyNUI:3.4.6@aar",
+        "com.squareup.okhttp3:okhttp:3.12.0"
+      ]
+    },
+    "1.0.0.5": {
+      "fetchedAt": "2026-10-24T18:05:36Z",
+      "sha256": "4ee840a3be1265fe58515850800f89b24e29007dd5df5d64919c64de2a519892",
+      "dependencies": []
+    },
+    "1.0.0.6": {
+      "fetchedAt": "2026-10-24T18:05:35Z",
+      "sha256": "4ee840a3be1265fe58515850800f89b24e29007dd5df5d64919c64de2a519892",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.mob.MobProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${PACKAGE_NAME}.com.mob.MobProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mob.tools.MobUIShell",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

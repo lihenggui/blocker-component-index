@@ -1,0 +1,112 @@
+{
+  "coordinate": "com.google.android.gms:play-services-mlkit-image-labeling-custom",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta1": {
+      "fetchedAt": "2026-10-24T17:19:35Z",
+      "sha256": "97a486d153f0960f35f9eed060aa3f4b8c77fdf42ca3a661d650cca2d78c0933",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-basement:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:17.4.0",
+        "com.google.mlkit:image-labeling-common:17.1.0",
+        "com.google.mlkit:image-labeling-custom-common:16.0.0",
+        "com.google.mlkit:vision-common:16.6.0"
+      ]
+    },
+    "16.0.0-beta2": {
+      "fetchedAt": "2026-10-24T17:19:35Z",
+      "sha256": "2d116ae5a3130b71ead2a16a66f96290dd5c3271e742fe6672ded3b5199deb9a",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-basement:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:17.5.0",
+        "com.google.mlkit:image-labeling-common:17.2.0",
+        "com.google.mlkit:image-labeling-custom-common:16.0.1",
+        "com.google.mlkit:vision-common:16.7.0"
+      ]
+    },
+    "16.0.0-beta3": {
+      "fetchedAt": "2026-10-24T17:19:33Z",
+      "sha256": "2d116ae5a3130b71ead2a16a66f96290dd5c3271e742fe6672ded3b5199deb9a",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tasks:18.0.1",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:18.0.0",
+        "com.google.mlkit:image-labeling-common:18.0.0",
+        "com.google.mlkit:image-labeling-custom-common:17.0.0",
+        "com.google.mlkit:vision-common:17.0.0"
+      ]
+    },
+    "16.0.0-beta4": {
+      "fetchedAt": "2026-10-24T17:19:32Z",
+      "sha256": "2d116ae5a3130b71ead2a16a66f96290dd5c3271e742fe6672ded3b5199deb9a",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:18.5.0",
+        "com.google.mlkit:image-labeling-common:18.1.0",
+        "com.google.mlkit:image-labeling-custom-common:17.0.0",
+        "com.google.mlkit:vision-common:17.2.0"
+      ]
+    },
+    "16.0.0-beta5": {
+      "fetchedAt": "2026-10-24T17:19:32Z",
+      "sha256": "2d116ae5a3130b71ead2a16a66f96290dd5c3271e742fe6672ded3b5199deb9a",
+      "dependencies": [
+        "com.google.android.datatransport:transport-api:2.2.1",
+        "com.google.android.datatransport:transport-backend-cct:2.3.3",
+        "com.google.android.datatransport:transport-runtime:2.2.6",
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tasks:18.0.2",
+        "com.google.firebase:firebase-components:16.1.0",
+        "com.google.mlkit:common:18.10.0",
+        "com.google.mlkit:image-labeling-common:18.1.0",
+        "com.google.mlkit:image-labeling-custom-common:17.0.0",
+        "com.google.mlkit:vision-common:17.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta1",
+          "16.0.0-beta5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.mlkit.vision.label.custom.thin.CustomLabelRegistrar"
+      ]
+    }
+  ]
+}

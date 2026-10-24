@@ -1,0 +1,127 @@
+{
+  "coordinate": "com.github.mbiamont:ga-annotations-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T16:47:05Z",
+      "sha256": "65c7be171bd0d43e1c10e8546980882c8d3e1c443fc85e9fe250fe63ddfdc100",
+      "dependencies": [
+        "org.aspectj:aspectjrt:1.8.5"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T16:47:04Z",
+      "sha256": "b77cdd015cc2d4a24622f9d5f76068e32cc2ae936dabae35050ddcdf623ff86c",
+      "dependencies": [
+        "com.google.android.gms:play-services:8.4.0",
+        "org.aspectj:aspectjrt:1.8.5"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T16:47:03Z",
+      "sha256": "b77cdd015cc2d4a24622f9d5f76068e32cc2ae936dabae35050ddcdf623ff86c",
+      "dependencies": [
+        "com.google.android.gms:play-services-analytics:8.4.0",
+        "org.aspectj:aspectjrt:1.8.5"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T16:47:02Z",
+      "sha256": "5be6c72708ab9aaa590f39d638fec26abbe3918a1111f0b5b226339d7bc4435c",
+      "dependencies": [
+        "com.google.android.gms:play-services-analytics:8.4.0",
+        "org.aspectj:aspectjrt:1.8.5"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T16:47:02Z",
+      "sha256": "ba7017a618a2188f54eaffaf3f02b37890c4c981593d9a76a92de1466bc0daf1",
+      "dependencies": [
+        "com.google.android.gms:play-services-analytics:9.0.2",
+        "org.aspectj:aspectjrt:1.8.5"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-24T16:47:01Z",
+      "sha256": "ba7017a618a2188f54eaffaf3f02b37890c4c981593d9a76a92de1466bc0daf1",
+      "dependencies": [
+        "com.google.android.gms:play-services-analytics:9.8.0",
+        "org.aspectj:aspectjrt:1.8.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.analytics.AnalyticsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.analytics.AnalyticsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.analytics.CampaignTrackingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.analytics.CampaignTrackingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

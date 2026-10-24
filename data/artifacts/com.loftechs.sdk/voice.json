@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.loftechs.sdk:voice",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.19": {
+      "fetchedAt": "2026-10-24T19:00:49Z",
+      "sha256": "0e4e7af3885b82ddae75bc56f1f6c1dd94608ff2fed164a2f853720bd1aab251",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.fasterxml.jackson.core:jackson-annotations:2.9.8",
+        "com.fasterxml.jackson.core:jackson-core:2.9.8",
+        "com.fasterxml.jackson.core:jackson-databind:2.9.8",
+        "com.google.guava:guava:28.2-android",
+        "com.loftechs.sdk:JKSDK:5.0.19",
+        "com.squareup.retrofit2:adapter-rxjava2:2.8.1",
+        "com.squareup.retrofit2:converter-gson:2.8.1",
+        "com.squareup.retrofit2:converter-scalars:2.8.1",
+        "com.squareup.retrofit2:retrofit:2.8.1",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.1.7"
+      ]
+    },
+    "5.0.20": {
+      "fetchedAt": "2026-10-24T19:00:48Z",
+      "sha256": "ee1865c0e2396223f69ce0fd5bccca5ad17541929b12fda7a36d9d17d4334c9c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.fasterxml.jackson.core:jackson-annotations:2.9.8",
+        "com.fasterxml.jackson.core:jackson-core:2.9.8",
+        "com.fasterxml.jackson.core:jackson-databind:2.9.8",
+        "com.google.guava:guava:28.2-android",
+        "com.squareup.retrofit2:adapter-rxjava2:2.8.1",
+        "com.squareup.retrofit2:converter-gson:2.8.1",
+        "com.squareup.retrofit2:converter-scalars:2.8.1",
+        "com.squareup.retrofit2:retrofit:2.8.1",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.1.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.loftechs.sdk.voice.call.JKVoiceCallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.19",
+          "5.0.20"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.google.android.gms:play-services-cam-feature-combo-query",
+  "repository": "https://dl.google.com/android/maven2",
+  "versions": {
+    "16.0.0-beta01": {
+      "fetchedAt": "2026-10-24T17:17:23Z",
+      "sha256": "73cd7fbf469535a5b5af887e06b37e830e19086fb172b06e11d00333fe87656b",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.android.gms:play-services-basement:18.4.0",
+        "com.google.android.gms:play-services-tasks:18.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.metadata.ModuleDependencies",
+      "type": "service",
+      "versionRanges": [
+        [
+          "16.0.0-beta01",
+          "16.0.0-beta01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+      ],
+      "categories": [],
+      "metaData": [
+        "cam_feature_combo_query:0:preferred"
+      ]
+    }
+  ]
+}

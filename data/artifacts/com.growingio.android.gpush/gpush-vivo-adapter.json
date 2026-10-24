@@ -1,0 +1,149 @@
+{
+  "coordinate": "com.growingio.android.gpush:gpush-vivo-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T17:47:58Z",
+      "sha256": "15d934b8a0233a2d27ef2e07f1ada1fb3ff5044d9a3299e1c425355df7d4c18e",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.0",
+        "com.growingio.android.gpush:gpush-vivo-sdk:1.5.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T17:47:57Z",
+      "sha256": "a550c13448babe90e96e1ed0651dc3d8e3feb14f7257d71a60414e40a4809df1",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.1",
+        "com.growingio.android.gpush:gpush-vivo-sdk:1.5.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T17:47:56Z",
+      "sha256": "21a17b0ec1956a858b5ddc94276d6191b5cbd452d75eb2f75a1401f49e8c8aa9",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.2",
+        "com.growingio.android.gpush:gpush-vivo-sdk:1.5.2"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T17:47:55Z",
+      "sha256": "971ecfb288c32b265c6aad387cd6c21cc60127d3a9cfe396f2fd437b0df83cb4",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.3",
+        "com.growingio.android.gpush:gpush-vivo-sdk:1.5.3"
+      ]
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T17:47:55Z",
+      "sha256": "c37f9ef046e57d56d7e84cc546c0a99eeaca2bdf1c19cfeea93d13e600d5638d",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.4",
+        "com.growingio.android.gpush:gpush-vivo-sdk:1.5.4"
+      ]
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T17:47:54Z",
+      "sha256": "c37f9ef046e57d56d7e84cc546c0a99eeaca2bdf1c19cfeea93d13e600d5638d",
+      "dependencies": [
+        "com.growingio.android.gpush:gpush-core:1.5.5",
+        "com.growingio.android.gpush:gpush-vivo-sdk:1.5.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.growingio.android.sdk.gpush.vivo.CompatibleReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.5.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.growingio.android.sdk.gpush.vivo.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.growingio.android.sdk.gpush.vivo.CompatibleReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.growingio.android.sdk.gpush.vivo.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.growingio.android.sdk.gpush.vivo.GeTuiRemoteService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.5"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.growingio.android.sdk.gpush.vivo.VivoPushAdapterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.5.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.growingio.android.sdk.gpush.vivo.VivoPushAdapterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

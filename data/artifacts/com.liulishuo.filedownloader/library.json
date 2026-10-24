@@ -1,0 +1,142 @@
+{
+  "coordinate": "com.liulishuo.filedownloader:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T18:57:40Z",
+      "sha256": "9273d4cc53213db4ae0a51a09e984c0e21909ffeb9c985ce54827c80e31b5795",
+      "dependencies": []
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T18:57:39Z",
+      "sha256": "3af0936dcb2eb9e249cc96711c5acf0a1500ef0574e09baa7dabfd7852592918",
+      "dependencies": []
+    },
+    "1.5.6": {
+      "fetchedAt": "2026-10-24T18:57:38Z",
+      "sha256": "cc932be7cdd57bde0b8ef0d5f5baea31f604bacb3b8623f6e86cdca60c91da19",
+      "dependencies": []
+    },
+    "1.5.8": {
+      "fetchedAt": "2026-10-24T18:57:37Z",
+      "sha256": "0f250cde7e4e207100c93beb51badb02ec57d5ebfdbcd8409ad651a0b7680014",
+      "dependencies": []
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-24T18:57:37Z",
+      "sha256": "4245e22c8d641fbf86aff6972e08316aa741f3b7c6ed462fea5c92b01a49b137",
+      "dependencies": []
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-24T18:57:36Z",
+      "sha256": "cc24d31475b747c0a87c281acacdd3591dc7f183cb8af8032a5c7ce103d2ce69",
+      "dependencies": []
+    },
+    "1.6.2": {
+      "fetchedAt": "2026-10-24T18:57:35Z",
+      "sha256": "f1d8b5285d4209463795aa71ce6adbe84ae435bb222d26c011931d1acee970f0",
+      "dependencies": []
+    },
+    "1.6.4": {
+      "fetchedAt": "2026-10-24T18:57:35Z",
+      "sha256": "c96b3ebc9bad30cfbb4dec1a1c7781a0fe976925d5c1fde0960b66d3406720c0",
+      "dependencies": []
+    },
+    "1.6.5": {
+      "fetchedAt": "2026-10-24T18:57:34Z",
+      "sha256": "56265c457bf20b71af5e5eb5a71a37d7e4c77af69a6e9c58d17b92582343ed26",
+      "dependencies": []
+    },
+    "1.6.6": {
+      "fetchedAt": "2026-10-24T18:57:34Z",
+      "sha256": "4324341d6dc0cbb7ed2aa5cf57001d0adc65030b74632da1f743f55546b4a782",
+      "dependencies": []
+    },
+    "1.6.7": {
+      "fetchedAt": "2026-10-24T18:57:33Z",
+      "sha256": "b1652ca89ca609b5259ff471df8ef6e657d82e17476271c71894bf11c71be50f",
+      "dependencies": []
+    },
+    "1.6.8": {
+      "fetchedAt": "2026-10-24T18:57:33Z",
+      "sha256": "7a0c340364f4944f07f69737fd3748068ba3d93d53c780195cbb4ad35e00f17f",
+      "dependencies": []
+    },
+    "1.6.9": {
+      "fetchedAt": "2026-10-24T18:57:32Z",
+      "sha256": "76073ccd344d304ef682513d55254573521bde32533d846605abd902679a092e",
+      "dependencies": []
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-24T18:57:32Z",
+      "sha256": "2dadaa842776ff1668f3a32d500e524cf3dd48d45d77005597ed9d18a80fbaea",
+      "dependencies": []
+    },
+    "1.7.2": {
+      "fetchedAt": "2026-10-24T18:57:31Z",
+      "sha256": "e26b515ff3b5e13c32097a57ce8799a46f9ddd7d060b0f222bbf37544023afb3",
+      "dependencies": []
+    },
+    "1.7.3": {
+      "fetchedAt": "2026-10-24T18:57:30Z",
+      "sha256": "17aad2961496218a5a70497629c39ff321c04a5c6be3dec6d7387b490cae70a9",
+      "dependencies": []
+    },
+    "1.7.4": {
+      "fetchedAt": "2026-10-24T18:57:30Z",
+      "sha256": "9d4dd3a98eec6282a63e9fe3123fe3201c9c662a8ba66af8f78644f59a68439d",
+      "dependencies": []
+    },
+    "1.7.5": {
+      "fetchedAt": "2026-10-24T18:57:29Z",
+      "sha256": "3f8a14e41bdf6c7ed57256d28154fcaec5f50e7ffd8af4c127ab63b4b598ab41",
+      "dependencies": []
+    },
+    "1.7.6": {
+      "fetchedAt": "2026-10-24T18:57:29Z",
+      "sha256": "2897f3978180da9209d125a02a476700e0323c1c27e4a3628ad5feced159a17d",
+      "dependencies": []
+    },
+    "1.7.7": {
+      "fetchedAt": "2026-10-24T18:57:28Z",
+      "sha256": "46e917ee194d4d0e8687c5e09bbbb26a8ffb3c475019a34eb8f22fe3f1cca47e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.7.7"
+        ]
+      ],
+      "exported": null,
+      "process": ":filedownloader",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.4",
+          "1.7.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "coordinate": "com.heytap.accountsdk:account-oauth-web-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T17:55:49Z",
+      "sha256": "5c6722c80dfac989feb314c4dd5a9e04e4dc6ca750cda26e6b4b0de116edfeb5",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T17:55:48Z",
+      "sha256": "5c6722c80dfac989feb314c4dd5a9e04e4dc6ca750cda26e6b4b0de116edfeb5",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T17:55:47Z",
+      "sha256": "5c6722c80dfac989feb314c4dd5a9e04e4dc6ca750cda26e6b4b0de116edfeb5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:viewbinding:7.1.2",
+        "com.heytap.accountsdk:account-env:1.0.9",
+        "com.heytap.accountsdk:account-oauth-sdk:1.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T17:55:46Z",
+      "sha256": "bf48d58a77ef0d61df056596fb6d46c13988516b511afc5cd32c530840a76fba",
+      "dependencies": []
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T17:55:45Z",
+      "sha256": "bf48d58a77ef0d61df056596fb6d46c13988516b511afc5cd32c530840a76fba",
+      "dependencies": []
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-24T17:55:46Z",
+      "sha256": "bf48d58a77ef0d61df056596fb6d46c13988516b511afc5cd32c530840a76fba",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:viewbinding:7.1.2",
+        "com.heytap.accountsdk:account-env:1.0.13",
+        "com.heytap.accountsdk:account-oauth-sdk:1.0.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.platform.account.oauth.web.ui.OAuthWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
+      ]
+    },
+    {
+      "name": "com.platform.account.oauth.web.ui.OAuthWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

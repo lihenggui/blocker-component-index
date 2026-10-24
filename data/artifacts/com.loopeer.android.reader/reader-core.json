@@ -1,0 +1,567 @@
+{
+  "coordinate": "com.loopeer.android.reader:reader-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T19:01:22Z",
+      "sha256": "892a0c1306384ad560ebfc71ccfb62202084b606051c590754f1b0b5c72fcd45",
+      "dependencies": [
+        "com.android.support:support-v4:19.1.0"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-24T19:01:21Z",
+      "sha256": "892a0c1306384ad560ebfc71ccfb62202084b606051c590754f1b0b5c72fcd45",
+      "dependencies": [
+        "com.android.support:support-v4:19.1.0"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-24T19:01:20Z",
+      "sha256": "892a0c1306384ad560ebfc71ccfb62202084b606051c590754f1b0b5c72fcd45",
+      "dependencies": [
+        "com.android.support:support-v4:19.1.0"
+      ]
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-24T19:01:18Z",
+      "sha256": "56596caa006344dc452fa9c50e7f9add355e498f876e4cb6d273d0df37c7715f",
+      "dependencies": [
+        "com.android.support:support-v4:19.1.0"
+      ]
+    },
+    "2.0.9": {
+      "fetchedAt": "2026-10-24T19:01:17Z",
+      "sha256": "25a31e62ea03e4efd7364476bf2b30005257b139a5ac3db5bf56525d796ce6b7",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T19:01:16Z",
+      "sha256": "25a31e62ea03e4efd7364476bf2b30005257b139a5ac3db5bf56525d796ce6b7",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T19:01:15Z",
+      "sha256": "eba7b6b481ccd75f4da05ed45a20a26d1f8d797a2e729effdc7399b2a638477c",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-24T19:01:14Z",
+      "sha256": "eba7b6b481ccd75f4da05ed45a20a26d1f8d797a2e729effdc7399b2a638477c",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.loopeer.android.apps.lreader.ui.activities.ContentsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.loopeer.android.apps.lreader.ui.activities.SettingFontManageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.loopeer.android.apps.lreader.ui.activities.SettingReadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.BookmarkEditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.BookmarksActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":bookmarks",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.BOOKMARKS",
+        "android.intent.action.SEARCH"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.CancelActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.CANCEL_MENU"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.FBReader",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.CLOSE",
+        "android.fbreader.action.PLUGIN",
+        "android.fbreader.action.PLUGIN_CRASH",
+        "android.fbreader.action.VIEW",
+        "android.intent.action.SEARCH",
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.PluginListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.TOCActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.api.ApiService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.API"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.config.ConfigService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":configService",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.CONFIG_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.crash.MissingNativeLibraryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":crash",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.CRASH"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.error.BookReadingErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":error",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.ERROR"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.httpd.DataService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":dataService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.image.ImageViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":imageView",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.library.BookInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":library",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.BOOK_INFO"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.library.LibraryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":library",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.LIBRARY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "android.app.default_searchable"
+      ]
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.library.LibrarySearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":library",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.SEARCH"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.libraryService.LibraryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":libraryService",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.LIBRARY_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.preferences.EditBookInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":library",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.preferences.PreferenceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":preferences",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.PREFERENCES"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.style.EditStyleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.fbreader.action.EDIT_STYLES"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.fbreader.style.StyleListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.util.EditAuthorsDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.android.util.EditTagsDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.geometerplus.zlibrary.ui.android.error.BugReportActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":crash",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

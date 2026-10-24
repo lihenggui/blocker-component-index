@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.groundupworks.wings:wings-facebook",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T17:47:26Z",
+      "sha256": "c893ee4b20a2e3878c6be97608adc6495e63c874fe440cd5789c0d5472c9b800",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:3.23.1",
+        "com.groundupworks.wings:wings:1.0.2"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T17:47:25Z",
+      "sha256": "1a3dfcb404207d82ff60e90c295228231ce809aef6e41b4817c7c790fc683710",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:3.23.1",
+        "com.groundupworks.wings:wings:1.0.3"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T17:47:24Z",
+      "sha256": "ddfbd9e0783043a31f4612cf8900be045311a711b2cbc2f52ce602c5ea44bd63",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:3.23.1",
+        "com.groundupworks.wings:wings:1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.groundupworks.wings.facebook.FacebookLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.groundupworks.wings.facebook.FacebookSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "coordinate": "com.kuaishou.koom:koom-java-leak-static",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T18:49:00Z",
+      "sha256": "0f7c6b9b8a1a8911dc32e90058d47c779e40dde6da8123bcde05d9c0823aa9fc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.kuaishou.koom:koom-fast-dump-static:2.2.0",
+        "com.kuaishou.koom:koom-monitor-base-static:2.2.0",
+        "com.kuaishou.koom:kwai-android-base-static:2.2.0",
+        "com.kuaishou.koom:shark:2.2.0",
+        "com.kuaishou.koom:xhook-static:2.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-24T18:48:59Z",
+      "sha256": "0f7c6b9b8a1a8911dc32e90058d47c779e40dde6da8123bcde05d9c0823aa9fc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.kuaishou.koom:koom-fast-dump-static:2.2.1",
+        "com.kuaishou.koom:koom-monitor-base-static:2.2.1",
+        "com.kuaishou.koom:kwai-android-base-static:2.2.1",
+        "com.kuaishou.koom:shark:2.2.1",
+        "com.kuaishou.koom:xhook-static:2.2.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "2.2.2": {
+      "fetchedAt": "2026-10-24T18:48:58Z",
+      "sha256": "bd04a10350c61479ef62f9c2893f3a2ec8a6a01872c216399c4ba34d3c5bcbc6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.kuaishou.koom:koom-fast-dump-static:2.2.2",
+        "com.kuaishou.koom:koom-monitor-base-static:2.2.2",
+        "com.kuaishou.koom:kwai-android-base-static:2.2.2",
+        "com.kuaishou.koom:shark:2.2.2",
+        "com.kuaishou.koom:xhook-static:2.2.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.kwai.koom.javaoom.monitor.analysis.HeapAnalysisService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":heap_analysis",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

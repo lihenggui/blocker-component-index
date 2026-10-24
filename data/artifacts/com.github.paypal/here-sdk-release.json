@@ -1,0 +1,107 @@
+{
+  "coordinate": "com.github.paypal:here-sdk-release",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T16:50:36Z",
+      "sha256": "4ae976feb93d766d66d3f8ff8411253f27ff7e3d8a8661d5b8625f24d4b7e3be",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.0-beta3",
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.eclipsesource.j2v8:j2v8:4.6.0",
+        "com.facebook.stetho:stetho-okhttp:1.5.0",
+        "com.facebook.stetho:stetho:1.5.0",
+        "com.google.android.gms:play-services-location:8.1.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp:okhttp:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.paypal.paypalretailsdk.ui.DeviceConnectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.paypalretailsdk.ui.dialogs.SDKDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.paypalretailsdk.ui.receipt.ReceiptOptionsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.paypalretailsdk.ui.receipt.ReceiptSendToActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paypal.paypalretailsdk.ui.signature.SignatureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

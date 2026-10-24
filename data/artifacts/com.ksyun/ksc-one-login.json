@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.ksyun:ksc-one-login",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T18:48:50Z",
+      "sha256": "9a510609408244a9be783734031a01cd329ed311b94235c056c1bd525a9c40e5",
+      "dependencies": [
+        "KSCOneLoginSDK_CY:library:unspecified",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.material:material:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ksc.onelogin.demo0.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "coordinate": "com.groundupworks.wings:wings-dropbox",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T17:47:24Z",
+      "sha256": "e265eef3458786e10293d69c90a5ee729c677b3e042b83760d14f9780b35086a",
+      "dependencies": [
+        "com.googlecode.json-simple:json-simple:1.1",
+        "com.groundupworks.wings:wings:1.0.2"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T17:47:23Z",
+      "sha256": "0e6dee6982464f39f07d06d0c3464ef80e84a0cb76ec035cbc5f0f88270b030a",
+      "dependencies": [
+        "com.googlecode.json-simple:json-simple:1.1",
+        "com.groundupworks.wings:wings:1.0.3"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T17:47:22Z",
+      "sha256": "0bd7f313eba315f0dde8df8982d43c19edd50012196658fafd48c46fac166c5e",
+      "dependencies": [
+        "com.googlecode.json-simple:json-simple:1.1",
+        "com.groundupworks.wings:wings:1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dropbox.client2.android.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

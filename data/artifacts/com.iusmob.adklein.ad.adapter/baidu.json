@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.iusmob.adklein.ad.adapter:baidu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T18:29:10Z",
+      "sha256": "083dcbf8a74409ed143f8c7204f01ce8c45dd8daa655ced28a8f8e345fa69d21",
+      "dependencies": [
+        "com.iusmob.adklein.ad.third:baidu:2.1.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T18:29:08Z",
+      "sha256": "c7d3a3f7344e3081c3919013409cd34054c730749a75005d85b178acf5d76b32",
+      "dependencies": [
+        "com.iusmob.adklein.ad.third:baidu:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.mobads.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.openad.BdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bd.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}
