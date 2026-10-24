@@ -259,3 +259,11 @@ class RepositoryTests(FixtureTest):
         client = FixtureClient(dict(routes))
         self.assertTrue(enumerate_artifacts(self.store, client))
         self.assertEqual(len(client.calls), 1)
+
+    def test_given_listing_reaches_an_artifact_directory_when_enumerated_then_version_directories_are_not_listed(self):
+        url = self.repository(caps=["listing", "metadata"])
+        client = FixtureClient({url + "/": response('<a href="org/">org</a>'),
+                                url + "/org/": response('<a href="1/">1</a><a href="2/">2</a><a href="maven-metadata.xml">metadata</a>'),
+                                url + "/org/maven-metadata.xml": response(metadata_fixture())})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual([target for target, _ in client.calls], [url + "/", url + "/org/", url + "/org/maven-metadata.xml"])

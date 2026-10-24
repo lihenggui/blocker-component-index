@@ -244,8 +244,11 @@ def _run_task(task, client, store, max_versions=20):
             if len(path) >= 4 and path[-1].endswith(".aar"):
                 coordinate(".".join(path[:-3]), path[-3])
     elif kind == "listing":
+        links = children(task["url"], response.body)
+        metadata_links = [url for url in links if url.endswith("/maven-metadata.xml")]
+        # An artifact directory lists its versions as subdirectories; its metadata already names them all.
         followups.extend({"repository": repository, "kind": "metadata" if url.endswith("maven-metadata.xml") else "listing", "url": url}
-                         for url in children(task["url"], response.body))
+                         for url in (metadata_links or links))
     return followups
 
 
@@ -308,6 +311,7 @@ def _enumerate(store, client, max_versions):
     queue = progress["queue"]
     queue.extend(progress.pop("deferred", []))
     failed = progress.setdefault("deferred", [])
+    queue.sort(key=lambda value: value["kind"] == "listing")
     seen = set(progress["seen"])
     queued = {value["url"] for value in queue}
     listed = progress.setdefault("listed", {})
@@ -333,7 +337,11 @@ def _enumerate(store, client, max_versions):
             for value in followups:
                 key = value["url"]
                 if key not in seen and key not in queued:
-                    queue.append(value)
+                    # Cheap targeted tasks go first so slow directory crawls cannot starve them.
+                    if value["kind"] == "listing":
+                        queue.append(value)
+                    else:
+                        queue.insert(0, value)
                     queued.add(key)
         except (OSError, ValueError, ET_ERROR, DefusedXmlException) as exc:
             LOG.warning("Enumeration will retry %s: %s", task["url"], exc)
