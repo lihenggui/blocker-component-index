@@ -63,3 +63,9 @@ class ParsingTests(FixtureTest):
         implementation 'org.example:one:1'
         '''
         self.assertEqual(coordinates(text), ["org.example:one"])
+
+    def test_given_module_with_null_fields_when_parsed_then_nulls_are_treated_as_absent(self):
+        raw = json.dumps({"variants": [None, {"attributes": None, "files": [None, {"name": None, "url": "sdk.aar"}],
+                                              "dependencies": [None, {"group": None, "module": "x", "version": None},
+                                                               {"group": "org.dep", "module": "lib", "version": {"requires": "1"}}]}]})
+        self.assertEqual(module_info(raw.encode()), (["sdk.aar"], ["org.dep:lib:1"]))

@@ -126,19 +126,24 @@ def module_info(raw):
     import json
     value = json.loads(raw)
     files, dependencies = set(), set()
-    for variant in value.get("variants", []):
-        if variant.get("attributes", {}).get("org.gradle.usage") not in (None, "java-api", "java-runtime", "kotlin-api", "kotlin-runtime"):
+    for variant in (value.get("variants") or []) if isinstance(value, dict) else []:
+        if not isinstance(variant, dict) or not isinstance(variant.get("attributes") or {}, dict):
             continue
-        aar_files = [item.get("url", item.get("name", "")) for item in variant.get("files", [])
-                     if item.get("name", item.get("url", "")).endswith(".aar")]
+        if (variant.get("attributes") or {}).get("org.gradle.usage") not in (None, "java-api", "java-runtime", "kotlin-api", "kotlin-runtime"):
+            continue
+        # Vendor-published .module files may carry nulls; treat them as absent.
+        aar_files = [item.get("url") or item.get("name") for item in variant.get("files") or []
+                     if isinstance(item, dict) and (item.get("name") or item.get("url") or "").endswith(".aar")]
         if not aar_files:
             continue
         files.update(aar_files)
-        for dependency in variant.get("dependencies", []):
-            version = dependency.get("version", {})
+        for dependency in variant.get("dependencies") or []:
+            if not isinstance(dependency, dict):
+                continue
+            version = dependency.get("version") or {}
             if isinstance(version, dict):
                 version = version.get("requires") or version.get("strictly") or version.get("prefers")
-            coordinate = dependency.get("group", "") + ":" + dependency.get("module", "")
+            coordinate = (dependency.get("group") or "") + ":" + (dependency.get("module") or "")
             if valid_coordinate(coordinate) and version:
                 dependencies.add(f"{coordinate}:{version}")
     return sorted(files), sorted(dependencies)
