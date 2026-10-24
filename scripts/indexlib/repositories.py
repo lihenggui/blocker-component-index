@@ -62,6 +62,26 @@ def endpoints(url):
     }
 
 
+def listing_roots(repository, client):
+    """Artifactory virtual/remote repositories mix proxied caches into listings; list the host's local Maven repositories instead."""
+    parts = urlsplit(repository)
+    origin = parts.scheme + "://" + parts.netloc
+    name = parts.path.strip("/").split("/")[-1]
+    response = client.get(origin + "/artifactory/api/repositories")
+    try:
+        repositories = response.json() if response.status == 200 else None
+    except ValueError:
+        repositories = None
+    if not isinstance(repositories, list):
+        return [repository + "/"]
+    current = next((item for item in repositories if isinstance(item, dict) and item.get("key") == name), None)
+    if not current or current.get("type") == "LOCAL":
+        return [repository + "/"]
+    local = sorted(origin + "/" + item["key"] + "/" for item in repositories if isinstance(item, dict) and item.get("key")
+                   and item.get("type") == "LOCAL" and item.get("packageType", "Maven").lower() == "maven")
+    return local or [repository + "/"]
+
+
 def metadata_url(repository, coordinate):
     group, artifact = coordinate.split(":")
     return repository + "/" + group.replace(".", "/") + "/" + artifact + "/maven-metadata.xml"
@@ -186,6 +206,9 @@ def _run_task(task, client, store, max_versions=20):
             return [{**child, "url": _central_url(child["prefix"], child.get("exact", False))} for child in central_shards(task)]
         raise OSError(f"HTTP {response.status}: {task['url']}")
     if kind == "metadata":
+        if response.body.lstrip()[:15].lower().startswith((b"<!doctype html", b"<html")):
+            # Some hosts answer unknown coordinates with an HTML page instead of 404.
+            return []
         discovered, versions = metadata(response.body)
         value = task.get("coordinate") or discovered
         if task.get("coordinate") and discovered and value != discovered:
@@ -280,9 +303,16 @@ def _enumerate(store, client, max_versions):
                 resolved = store.state.get("artifacts", {}).get(value) or store.evidence(value)
                 if not resolved or resolved["repository"] == repository:
                     initial.append({"repository": repository, "kind": "metadata", "coordinate": value, "url": metadata_url(repository, value)})
+        elif best == "listing":
+            try:
+                roots = listing_roots(repository, client)
+            except OSError as exc:
+                LOG.warning("Artifactory repository lookup failed for %s: %s", repository, exc)
+                roots = [repository + "/"]
+            initial.extend({"repository": repository, "kind": "listing", "url": url} for url in roots)
         else:
             url = (repository + "/master-index.xml" if best == "google-index" else _central_url() if best == "central-search"
-                   else urls[best][0] if best == "artifactory" else repository + "/" if best == "listing" else urls[best])
+                   else urls[best][0] if best == "artifactory" else urls[best])
             initial.append({"repository": repository, "kind": best, "url": url})
     progress.setdefault("queue", [])
     progress.setdefault("seen", [])

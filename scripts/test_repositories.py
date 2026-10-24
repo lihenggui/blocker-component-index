@@ -111,7 +111,7 @@ class RepositoryTests(FixtureTest):
         client = FixtureClient(handler=handler)
         with patch("indexlib.repositories.LISTING_LIMIT", 5):
             self.assertTrue(enumerate_artifacts(self.store, client))
-        self.assertEqual(len(client.calls), 5)
+        self.assertEqual(len([target for target, _ in client.calls if "/api/" not in target]), 5)
 
     def test_given_central_search_paging_when_enumerated_then_all_pages_are_resolved(self):
         url = self.repository(BUILTINS[1], ["central-search", "metadata"])
@@ -130,11 +130,12 @@ class RepositoryTests(FixtureTest):
 
     def test_given_html_listing_when_enumerated_then_only_child_directories_and_metadata_are_followed(self):
         url = self.repository(caps=["listing", "metadata"])
-        client = FixtureClient({url + "/": response('<a href="../">parent</a><a href="org/">org</a><a href="https://other.example/x/">external</a>'),
+        client = FixtureClient({"https://sdk.example.org/artifactory/api/repositories": response(status=404),
+                                url + "/": response('<a href="../">parent</a><a href="org/">org</a><a href="https://other.example/x/">external</a>'),
                                 url + "/org/": response('<a href="maven-metadata.xml">metadata</a>'),
                                 url + "/org/maven-metadata.xml": response(metadata_fixture())})
         self.assertTrue(enumerate_artifacts(self.store, client))
-        self.assertEqual(len(client.calls), 3)
+        self.assertEqual(len(client.calls), 4)
 
     def test_given_failed_enumeration_task_and_deadline_when_resumed_then_failed_and_unattempted_tasks_both_survive(self):
         url = self.repository()
@@ -262,8 +263,30 @@ class RepositoryTests(FixtureTest):
 
     def test_given_listing_reaches_an_artifact_directory_when_enumerated_then_version_directories_are_not_listed(self):
         url = self.repository(caps=["listing", "metadata"])
-        client = FixtureClient({url + "/": response('<a href="org/">org</a>'),
+        client = FixtureClient({"https://sdk.example.org/artifactory/api/repositories": response(status=404),
+                                url + "/": response('<a href="org/">org</a>'),
                                 url + "/org/": response('<a href="1/">1</a><a href="2/">2</a><a href="maven-metadata.xml">metadata</a>'),
                                 url + "/org/maven-metadata.xml": response(metadata_fixture())})
         self.assertTrue(enumerate_artifacts(self.store, client))
-        self.assertEqual([target for target, _ in client.calls], [url + "/", url + "/org/", url + "/org/maven-metadata.xml"])
+        self.assertEqual([target for target, _ in client.calls][1:], [url + "/", url + "/org/", url + "/org/maven-metadata.xml"])
+
+    def test_given_artifactory_virtual_repository_when_enumerated_then_only_local_maven_repositories_are_listed(self):
+        url = self.repository("https://art.example.org/public", ["listing", "metadata"])
+        repositories = [{"key": "public", "type": "VIRTUAL", "packageType": "Maven"},
+                        {"key": "sdk", "type": "LOCAL", "packageType": "Maven"},
+                        {"key": "npm-local", "type": "LOCAL", "packageType": "Npm"},
+                        {"key": "central-cache", "type": "REMOTE", "packageType": "Maven"}]
+        client = FixtureClient({"https://art.example.org/artifactory/api/repositories": response(repositories),
+                                "https://art.example.org/sdk/": response('<a href="maven-metadata.xml">metadata</a>'),
+                                "https://art.example.org/sdk/maven-metadata.xml": response(metadata_fixture())})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertNotIn(url + "/", [target for target, _ in client.calls])
+        self.assertEqual(self.store.state["artifacts"]["org.example:sdk"]["repository"], url)
+
+    def test_given_metadata_answered_with_html_page_when_enumerated_then_task_is_treated_as_missing(self):
+        url = self.repository()
+        self.store.seed("org.example:sdk", url)
+        client = FixtureClient({metadata_url(url, "org.example:sdk"): response("<!DOCTYPE html><html><body>Not here</body></html>")})
+        self.assertTrue(enumerate_artifacts(self.store, client))
+        self.assertEqual(self.store.state["enumerate"]["queue"], [])
+        self.assertNotIn("org.example:sdk", self.store.state.get("artifacts", {}))
