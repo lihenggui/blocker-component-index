@@ -122,7 +122,8 @@ def _fetch(store, client, max_versions, max_aar_mb):
                             _version(store, client, artifact, version, max_aar_mb)
             pending.pop(0)
             failures.pop(coordinate, None)
-        except (OSError, ValueError, ParseError, KeyError, zipfile.BadZipFile, DefusedXmlException) as exc:
+        # Malformed vendor metadata must cost one artifact, never the whole run.
+        except (OSError, ValueError, ParseError, KeyError, TypeError, AttributeError, zipfile.BadZipFile, DefusedXmlException) as exc:
             failures[coordinate] = failures.get(coordinate, 0) + 1
             pending.pop(0)
             if failures[coordinate] >= 3:
