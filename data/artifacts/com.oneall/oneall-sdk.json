@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.oneall:oneall-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T22:32:41Z",
+      "sha256": "a0657ed248752979f499a2c96ea6c75fd48b0a61aea0598220331e0cdaff2ac2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.facebook.android:facebook-android-sdk:3.23.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "com.twitter.sdk.android:twitter:1.3.2"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T22:32:41Z",
+      "sha256": "253c93e3828aba9efa54da7c95e8a7d63b1b954440fa731718991118c68d70dc",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.crashlytics.sdk.android:crashlytics:2.2.2",
+        "com.facebook.android:facebook-android-sdk:3.23.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "com.twitter.sdk.android:twitter:1.3.2"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-24T22:32:40Z",
+      "sha256": "253c93e3828aba9efa54da7c95e8a7d63b1b954440fa731718991118c68d70dc",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.crashlytics.sdk.android:crashlytics:2.2.2",
+        "com.facebook.android:facebook-android-sdk:3.23.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "com.twitter.sdk.android:twitter:1.3.2"
+      ]
+    },
+    "1.0": {
+      "fetchedAt": "2026-10-24T22:32:39Z",
+      "sha256": "da9a364aa65463020323213bbacb486839d7a4af3066d8f71cef7d495d25192f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.facebook.android:facebook-android-sdk:3.23.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "com.twitter.sdk.android:twitter:1.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oneall.oneallsdk.ProviderSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oneall.oneallsdk.TwitterLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oneall.oneallsdk.WebLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

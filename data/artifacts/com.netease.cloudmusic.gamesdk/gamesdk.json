@@ -1,0 +1,232 @@
+{
+  "coordinate": "com.netease.cloudmusic.gamesdk:gamesdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.3.0": {
+      "fetchedAt": "2026-10-24T22:16:13Z",
+      "sha256": "1bc449694726d190d00349a13854413235d2daf5b8c8080358dadb476002a874",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.alibaba:fastjson:1.1.71.android",
+        "com.leon.channel:helper:2.0.3",
+        "com.netease.cloudmusic.opensdk:opensdk:1.0.1",
+        "com.netease.mobsec:netmobsecLib:4.2.9",
+        "com.squareup.okhttp3:logging-interceptor:3.12.1",
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "com.squareup.retrofit2:converter-gson:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "kptech.game.kit:ckit:1.0.8",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "1.1.3.1": {
+      "fetchedAt": "2026-10-24T22:16:13Z",
+      "sha256": "1bc449694726d190d00349a13854413235d2daf5b8c8080358dadb476002a874",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.alibaba:fastjson:1.1.71.android",
+        "com.leon.channel:helper:2.0.3",
+        "com.netease.cloudmusic.opensdk:opensdk:1.0.1",
+        "com.netease.mobsec:netmobsecLib:4.2.9",
+        "com.squareup.okhttp3:logging-interceptor:3.12.1",
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "com.squareup.retrofit2:converter-gson:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "kptech.game.kit:ckit:1.0.8",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-24T22:16:12Z",
+      "sha256": "1bc449694726d190d00349a13854413235d2daf5b8c8080358dadb476002a874",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.alibaba:fastjson:1.1.71.android",
+        "com.leon.channel:helper:2.0.3",
+        "com.netease.cloudmusic.opensdk:opensdk:1.0.1",
+        "com.netease.mobsec:netmobsecLib:4.2.9",
+        "com.squareup.okhttp3:logging-interceptor:3.12.1",
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "com.squareup.retrofit2:converter-gson:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "kptech.game.kit:ckit:1.0.8",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.cloudmusic.view.PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.dialog.AddictedDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.dialog.CommonDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.dialog.GameLoginDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.dialog.NoExitLoginDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.dialog.NoExitRealNameDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.dialog.RealNameDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.web.LoginWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.cloudmusic.view.web.PayWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "kptech.cloud.kit.msg.MessagerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.3.0",
+          "1.1.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

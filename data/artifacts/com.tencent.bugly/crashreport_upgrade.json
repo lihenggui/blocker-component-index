@@ -1,0 +1,1130 @@
+{
+  "coordinate": "com.tencent.bugly:crashreport_upgrade",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T23:53:43Z",
+      "sha256": "53f7fb81a5d2b88840aed551bbecbd9a405840b5367d8c7ed68c235a2feaba71",
+      "dependencies": []
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-24T23:53:43Z",
+      "sha256": "007e0d479201a1f732dc192d686b8c2d56d2aa27d16a866af612f4c0d3b18dfc",
+      "dependencies": []
+    },
+    "1.3.2": {
+      "fetchedAt": "2026-10-24T23:53:42Z",
+      "sha256": "60ec0158399f0eae9bd0ff0f167404c5850c5b553b36e7e4ef1a956c7159a922",
+      "dependencies": []
+    },
+    "1.3.3": {
+      "fetchedAt": "2026-10-24T23:53:42Z",
+      "sha256": "82ef3ae60a70997040cb727515f934ce2693163b7dc7a79754e624e357ae1b93",
+      "dependencies": []
+    },
+    "1.3.4": {
+      "fetchedAt": "2026-10-24T23:53:41Z",
+      "sha256": "06a26a945c1f6249434b719e37e01d9c7d356be61b2539dc25017729a98996ee",
+      "dependencies": []
+    },
+    "1.3.5": {
+      "fetchedAt": "2026-10-24T23:53:41Z",
+      "sha256": "6440762c9209946af5558422f14bc328ccc086b503182307ae0e3d6e190a5a71",
+      "dependencies": []
+    },
+    "1.3.6": {
+      "fetchedAt": "2026-10-24T23:53:40Z",
+      "sha256": "6440762c9209946af5558422f14bc328ccc086b503182307ae0e3d6e190a5a71",
+      "dependencies": []
+    },
+    "1.3.7": {
+      "fetchedAt": "2026-10-24T23:53:40Z",
+      "sha256": "258b4fea0fab0975ed1b97c15cd4fd73bd14c1909cfa81fcb23ffbf8955eb3b8",
+      "dependencies": []
+    },
+    "1.3.8": {
+      "fetchedAt": "2026-10-24T23:53:39Z",
+      "sha256": "258b4fea0fab0975ed1b97c15cd4fd73bd14c1909cfa81fcb23ffbf8955eb3b8",
+      "dependencies": []
+    },
+    "1.3.9": {
+      "fetchedAt": "2026-10-24T23:53:38Z",
+      "sha256": "258b4fea0fab0975ed1b97c15cd4fd73bd14c1909cfa81fcb23ffbf8955eb3b8",
+      "dependencies": []
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-24T23:53:38Z",
+      "sha256": "258b4fea0fab0975ed1b97c15cd4fd73bd14c1909cfa81fcb23ffbf8955eb3b8",
+      "dependencies": []
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-24T23:53:37Z",
+      "sha256": "8abc6c980563b2590f32e170c4eeca5b6b74649a9f9d963c6ad561582fd1ef2e",
+      "dependencies": []
+    },
+    "1.4.2": {
+      "fetchedAt": "2026-10-24T23:53:37Z",
+      "sha256": "64d698ffb96b51f943b7e9980d30ccfb5becd8982d5947b053e5d20150b235d4",
+      "dependencies": []
+    },
+    "1.4.5": {
+      "fetchedAt": "2026-10-24T23:53:37Z",
+      "sha256": "64d698ffb96b51f943b7e9980d30ccfb5becd8982d5947b053e5d20150b235d4",
+      "dependencies": []
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T23:53:36Z",
+      "sha256": "fc86f020703a48bb50b741c90a44895df05eab6c8b301ad6808dc7fa56581409",
+      "dependencies": []
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T23:53:35Z",
+      "sha256": "fc86f020703a48bb50b741c90a44895df05eab6c8b301ad6808dc7fa56581409",
+      "dependencies": []
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T23:53:35Z",
+      "sha256": "fc86f020703a48bb50b741c90a44895df05eab6c8b301ad6808dc7fa56581409",
+      "dependencies": []
+    },
+    "1.5.22": {
+      "fetchedAt": "2026-10-24T23:53:34Z",
+      "sha256": "fc86f020703a48bb50b741c90a44895df05eab6c8b301ad6808dc7fa56581409",
+      "dependencies": []
+    },
+    "1.5.23": {
+      "fetchedAt": "2026-10-24T23:53:34Z",
+      "sha256": "fc86f020703a48bb50b741c90a44895df05eab6c8b301ad6808dc7fa56581409",
+      "dependencies": []
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-24T23:53:33Z",
+      "sha256": "ba77c0b99a972b76c3a88dddad3255788a7aee2649b99dc7e4c3442c4f2c9e97",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.bugly.beta.tinker.TinkerResultService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.6.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.bugly.beta.tinker.TinkerResultService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.bugly.beta.ui.BetaActiveAlertActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.6.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.bugly.beta.ui.BetaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.1",
+          "1.6.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.bugly.beta.utils.BuglyFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.1",
+          "1.6.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.tencent.tinker.lib.service.DefaultTinkerResultService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.lib.service.TinkerPatchService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":patch",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.lib.service.TinkerPatchService$InnerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":patch",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.2",
+          "1.3.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

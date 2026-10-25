@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.mapbox.navigation:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta.1": {
+      "fetchedAt": "2026-10-24T21:42:44Z",
+      "sha256": "f2bb0da299ed61021f8adbb8bce8930c6da8daadcda16a6b979f66f1e3608230",
+      "dependencies": [
+        "com.mapbox.base:annotations:0.0.1-alpha.2",
+        "com.mapbox.mapboxsdk:mapbox-navigation-accounts-android:0.2.0",
+        "com.mapbox.mapboxsdk:mapbox-sdk-turf:5.1.0-beta.1",
+        "com.mapbox.navigation:base:1.0.0-beta.1",
+        "com.mapbox.navigation:navigator:1.0.0-beta.1",
+        "com.mapbox.navigation:notification:1.0.0-beta.1",
+        "com.mapbox.navigation:router:1.0.0-beta.1",
+        "com.mapbox.navigation:utils:1.0.0-beta.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapbox.navigation.core.accounts.MapboxNavigationAccountsProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-beta.1",
+          "1.0.0-beta.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MapboxNavigationAccountsProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapbox.navigation.core.trip.service.NavigationNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-beta.1",
+          "1.0.0-beta.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

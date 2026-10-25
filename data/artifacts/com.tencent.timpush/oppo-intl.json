@@ -1,0 +1,104 @@
+{
+  "coordinate": "com.tencent.timpush:oppo-intl",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.9.5669": {
+      "fetchedAt": "2026-10-25T00:04:49Z",
+      "sha256": "9256b13fffba13b9a9b43f5c898adce1f9dc76f21ad06ac11f42a526d534fed4",
+      "dependencies": [
+        "com.tencent.timpush:oppo-intl-vendor:3.0.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    "8.0.6896": {
+      "fetchedAt": "2026-10-25T00:04:48Z",
+      "sha256": "9256b13fffba13b9a9b43f5c898adce1f9dc76f21ad06ac11f42a526d534fed4",
+      "dependencies": [
+        "com.tencent.timpush:oppo-intl-vendor:3.0.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    "8.0.6897": {
+      "fetchedAt": "2026-10-25T00:04:48Z",
+      "sha256": "1f601161e08bc1f42e676f9e7a437c6c2c7a75a7f7ac05c9df535af4b9c45258",
+      "dependencies": [
+        "com.tencent.timpush:oppo-intl-vendor:3.0.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    "8.1.6103": {
+      "fetchedAt": "2026-10-25T00:04:47Z",
+      "sha256": "b1a654ddbeec761c2264e3c3a7a2b0b2558d3843fc7cabb485a1fc808fc81621",
+      "dependencies": [
+        "com.tencent.timpush:oppo-intl-vendor:3.0.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    "8.1.6107": {
+      "fetchedAt": "2026-10-25T00:04:47Z",
+      "sha256": "9d9757a434650f5c0d33c0738341fbb903621550f46a13b4e776d90f68864382",
+      "dependencies": [
+        "com.tencent.timpush:oppo-intl-vendor:3.0.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.9.5669",
+          "8.1.6107"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.9.5669",
+          "8.1.6107"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.oppo.TIMPushOPPOService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.9.5669",
+          "8.1.6107"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.oppoPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

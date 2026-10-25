@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.my.target.mediation:adcolony",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.2.4.0": {
+      "fetchedAt": "2026-10-24T22:10:18Z",
+      "sha256": "01e3aefacb6823e6e1a00367bf25b9de1c6c00d076632da64d3c0ebb505e4585",
+      "dependencies": [
+        "com.adcolony:sdk:4.2.4"
+      ]
+    },
+    "4.2.4.1": {
+      "fetchedAt": "2026-10-24T22:10:17Z",
+      "sha256": "c1397bc55b8a0f41c17a2868ced8e64d3b020778307a2602fae1daa2d969a19c",
+      "dependencies": [
+        "com.adcolony:sdk:4.2.4",
+        "com.my.target:mytarget-sdk:[5.14.2,5.17.0)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adcolony.sdk.AdColonyAdViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.4.0",
+          "4.2.4.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adcolony.sdk.AdColonyInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.4.0",
+          "4.2.4.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

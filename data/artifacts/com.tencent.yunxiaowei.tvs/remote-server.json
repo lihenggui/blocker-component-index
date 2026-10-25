@@ -1,0 +1,48 @@
+{
+  "coordinate": "com.tencent.yunxiaowei.tvs:remote-server",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T00:08:25Z",
+      "sha256": "5a44ee9ec6d2e68c29239a40e6ca0e2a85cb2be017010ad7ab671b11eb8a920d",
+      "dependencies": [
+        "com.tencent.yunxiaowei.tvs:sdktools:1.0.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T00:08:25Z",
+      "sha256": "5a44ee9ec6d2e68c29239a40e6ca0e2a85cb2be017010ad7ab671b11eb8a920d",
+      "dependencies": [
+        "com.tencent.yunxiaowei.speech:tools:1.0.3"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T00:08:24Z",
+      "sha256": "5a44ee9ec6d2e68c29239a40e6ca0e2a85cb2be017010ad7ab671b11eb8a920d",
+      "dependencies": [
+        "com.tencent.yunxiaowei.speech:tools:1.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.ai.tvs.capability.thirdpartyplayer.ThirdPartyVideoService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tencent.dingdang.screenspeaker.BINDER_POOL_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

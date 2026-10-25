@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.tencent.timpush:huawei-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.5012": {
+      "fetchedAt": "2026-10-25T00:04:22Z",
+      "sha256": "b674d2a477c18676749a91b586348384dad1182126ac854e034e9c5449f46553",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300"
+      ]
+    },
+    "7.7.5283": {
+      "fetchedAt": "2026-10-25T00:04:22Z",
+      "sha256": "84b65ff43dccea2ec717413bc3276054907593620a95326e9c682ce9be1a5dfb",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300"
+      ]
+    },
+    "7.7.5284": {
+      "fetchedAt": "2026-10-25T00:04:21Z",
+      "sha256": "84b65ff43dccea2ec717413bc3276054907593620a95326e9c682ce9be1a5dfb",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300"
+      ]
+    },
+    "7.8.1126": {
+      "fetchedAt": "2026-10-25T00:04:21Z",
+      "sha256": "84b65ff43dccea2ec717413bc3276054907593620a95326e9c682ce9be1a5dfb",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.huawei.TIMPushHmsMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.huawei.TIMPushHuaWeiService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.huaweiPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

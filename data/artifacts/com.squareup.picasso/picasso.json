@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.squareup.picasso:picasso",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.8": {
+      "fetchedAt": "2026-10-24T23:34:48Z",
+      "sha256": "4d4c2a5abe654493ac203f5f5e246456c50cb1afde9d0540840156908028fe07",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.exifinterface:exifinterface:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    },
+    "2.71828": {
+      "fetchedAt": "2026-10-24T23:34:47Z",
+      "sha256": "4d4c2a5abe654493ac203f5f5e246456c50cb1afde9d0540840156908028fe07",
+      "dependencies": [
+        "com.android.support:exifinterface:27.1.0",
+        "com.android.support:support-annotations:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.squareup.picasso.PicassoProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.8",
+          "2.71828"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.squareup.picasso",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

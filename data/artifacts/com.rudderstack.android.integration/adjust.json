@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.rudderstack.android.integration:adjust",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T23:07:24Z",
+      "sha256": "ba44608e0d3d1a7b862c03c1a6a5c22dbfef91ed9d62f51388b6956d99e3e251",
+      "dependencies": [
+        "com.adjust.sdk:adjust-android:4.19.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:07:23Z",
+      "sha256": "a0a44a27a05630f0379b383fc9a33cd1ffef381463db3de586ed42910b66a8e2",
+      "dependencies": [
+        "com.adjust.sdk:adjust-android:4.30.1",
+        "com.rudderstack.android.sdk:core:[1.0,2.0)"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:07:22Z",
+      "sha256": "5129300ad31b4ab4f5c8b8ae6c10d19df1eebf3e5f3419a1124cde1ecdbb4d2f",
+      "dependencies": [
+        "com.adjust.sdk:adjust-android:5.1.0",
+        "com.rudderstack.android.sdk:core:[1.26.0, 2.0)"
+      ]
+    },
+    "2.1.0-beta.1": {
+      "fetchedAt": "2026-10-24T23:07:23Z",
+      "sha256": "5129300ad31b4ab4f5c8b8ae6c10d19df1eebf3e5f3419a1124cde1ecdbb4d2f",
+      "dependencies": [
+        "com.adjust.sdk:adjust-android:5.1.0",
+        "com.rudderstack.android.sdk:core:[1.26.0, 2.0)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adjust.sdk.AdjustReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "2.1.0-beta.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

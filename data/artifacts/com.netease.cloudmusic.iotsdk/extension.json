@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.netease.cloudmusic.iotsdk:extension",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1-rc.1": {
+      "fetchedAt": "2026-10-24T22:16:16Z",
+      "sha256": "21edb44edd1ccd1e76b0f2c2c3de012b7169173f0aacbc53531e89064e82a73a",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T22:16:15Z",
+      "sha256": "21edb44edd1ccd1e76b0f2c2c3de012b7169173f0aacbc53531e89064e82a73a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.android.extension.servicekeeper.service.ipc.server.IPCCommunicationAndroidService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1-rc.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

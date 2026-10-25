@@ -1,0 +1,55 @@
+{
+  "coordinate": "com.naver.gfpsdk:gfpsdk-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.0-alpha.3": {
+      "fetchedAt": "2026-10-24T22:14:49Z",
+      "sha256": "ca760f8e3ddde5ca831d848a050be9c312558b928b23a55607e203e2057beae0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.3.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "4.3.0-beta.1": {
+      "fetchedAt": "2026-10-24T22:14:49Z",
+      "sha256": "ca760f8e3ddde5ca831d848a050be9c312558b928b23a55607e203e2057beae0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.3.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-24T22:14:48Z",
+      "sha256": "ca760f8e3ddde5ca831d848a050be9c312558b928b23a55607e203e2057beae0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.3.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.naver.gfpsdk.GfpInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.3.0-alpha.3",
+          "4.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.GfpInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "coordinate": "com.naver.gfpsdk:extension-nda",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.0-alpha.3": {
+      "fetchedAt": "2026-10-24T22:14:47Z",
+      "sha256": "3ec625f0cf67da618cde7000a195fbde94d5a48a0592051834c0e093ce38274c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.naver.gfpsdk:gfpsdk-core:4.3.0-alpha.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "4.3.0-beta.1": {
+      "fetchedAt": "2026-10-24T22:14:46Z",
+      "sha256": "3ec625f0cf67da618cde7000a195fbde94d5a48a0592051834c0e093ce38274c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.naver.gfpsdk:gfpsdk-core:4.3.0-beta.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-24T22:14:46Z",
+      "sha256": "3ec625f0cf67da618cde7000a195fbde94d5a48a0592051834c0e093ce38274c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.naver.gfpsdk:gfpsdk-core:4.3.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.naver.gfpsdk.provider.mraid.NdaMraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.0-alpha.3",
+          "4.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

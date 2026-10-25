@@ -1,0 +1,312 @@
+{
+  "coordinate": "com.selligent.sdk:selligent_mobile_sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.10.0": {
+      "fetchedAt": "2026-10-24T23:14:07Z",
+      "sha256": "969d943eee809750edb56a8ef98150c97d02ca82e5ba472839c390817bfd9033",
+      "dependencies": []
+    },
+    "3.10.1": {
+      "fetchedAt": "2026-10-24T23:14:07Z",
+      "sha256": "969d943eee809750edb56a8ef98150c97d02ca82e5ba472839c390817bfd9033",
+      "dependencies": []
+    },
+    "3.10.2": {
+      "fetchedAt": "2026-10-24T23:14:06Z",
+      "sha256": "c967d5b15a80dfe20d21e853ad9b0da2a5c12cafae4db47a90224172f424b375",
+      "dependencies": []
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T23:14:06Z",
+      "sha256": "1c0aaeecd65833e62d9d65673f339c8fb2454487dee7f96b00025a0c7e4f2d71",
+      "dependencies": []
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-24T23:14:05Z",
+      "sha256": "1c0aaeecd65833e62d9d65673f339c8fb2454487dee7f96b00025a0c7e4f2d71",
+      "dependencies": []
+    },
+    "4.0.2": {
+      "fetchedAt": "2026-10-24T23:14:05Z",
+      "sha256": "857f3bfb400948a4add44815e01566690b8bcd8759fb89a53af5be1eda6c0bfc",
+      "dependencies": []
+    },
+    "4.0.3": {
+      "fetchedAt": "2026-10-24T23:14:04Z",
+      "sha256": "bda0176546855bf31ad9e2d576531ac5051672841edf8ad4f1d371e4f94c85ea",
+      "dependencies": []
+    },
+    "4.1.0": {
+      "fetchedAt": "2026-10-24T23:14:03Z",
+      "sha256": "145beb3e8aa24a58626eb679e3ab4c050940a08f4656de1f28fe3a2b1b9d4241",
+      "dependencies": []
+    },
+    "4.2.0": {
+      "fetchedAt": "2026-10-24T23:14:03Z",
+      "sha256": "a7c0bea840ed24e561925d847e41cc90b7095a88425a128485b6494797867a94",
+      "dependencies": []
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-24T23:14:02Z",
+      "sha256": "a7c0bea840ed24e561925d847e41cc90b7095a88425a128485b6494797867a94",
+      "dependencies": []
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-24T23:14:02Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T23:14:01Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.4.1": {
+      "fetchedAt": "2026-10-24T23:14:01Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.5.0": {
+      "fetchedAt": "2026-10-24T23:14:00Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.6.0": {
+      "fetchedAt": "2026-10-24T23:14:00Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.6.1": {
+      "fetchedAt": "2026-10-24T23:13:59Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.7.0": {
+      "fetchedAt": "2026-10-24T23:13:57Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.7.1": {
+      "fetchedAt": "2026-10-24T23:13:58Z",
+      "sha256": "a975f086ed0179fcfa4cc8d441102307f9969a958c99a98b89336bfe5c9ad596",
+      "dependencies": []
+    },
+    "4.8.0": {
+      "fetchedAt": "2026-10-24T23:13:58Z",
+      "sha256": "b9438c62345a0ce3792299253ec3348072c686fc590606991ce21f9bf9b556a6",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.selligent.sdk.SMBackgroundGcmBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE",
+        "com.google.android.c2dm.intent.REGISTRATION"
+      ],
+      "categories": [
+        "com.selligent.sdk"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMHuaweiMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMMapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMMediaPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMNotificationButtonActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMPlotNotificationEventReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "3.10.1"
+        ],
+        [
+          "4.0.0",
+          "4.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.plot.OpenedNotification",
+        "${applicationId}.plot.SentNotification"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMPlotNotificationFilter",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "3.10.1"
+        ],
+        [
+          "4.0.0",
+          "4.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.plot.FilterNotifications"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMUserEventService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.selligent.sdk.SMViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.10.0",
+          "4.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "coordinate": "com.tencent.matrix:matrix-opengl-leak",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-beta": {
+      "fetchedAt": "2026-10-25T00:00:06Z",
+      "sha256": "914c14b66a1ccc71486ac9f040e454df7c8b922aa6478c1128f8c139f217d6a0",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.0-beta",
+        "com.tencent.matrix:matrix-android-lib:2.0.0-beta",
+        "com.tencent.matrix:matrix-backtrace:2.0.0-beta"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T00:00:05Z",
+      "sha256": "dcb83c5182ad928093e0cb7359c851fd27aa0d74847d1a30c8c3bea962d8dea0",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.0",
+        "com.tencent.matrix:matrix-android-lib:2.0.0",
+        "com.tencent.matrix:matrix-backtrace:2.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T00:00:04Z",
+      "sha256": "cd7bb87f3a55763d6298e4b2c79db503b41f3b2bb429cb23ac5aa5d4e57e7168",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.1",
+        "com.tencent.matrix:matrix-android-lib:2.0.1",
+        "com.tencent.matrix:matrix-backtrace:2.0.1"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T00:00:03Z",
+      "sha256": "63c9fc3e52728c67f2a2b6c2c249b9cd86889d29b92ccca5f4d1dfd88755c24f",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.2",
+        "com.tencent.matrix:matrix-android-lib:2.0.2",
+        "com.tencent.matrix:matrix-backtrace:2.0.2"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T00:00:03Z",
+      "sha256": "e6598b3593f22ab799d6659c8775a80530f6f86381326099d829229e109fe2a6",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.5",
+        "com.tencent.matrix:matrix-android-lib:2.0.5",
+        "com.tencent.matrix:matrix-backtrace:2.0.5"
+      ]
+    },
+    "2.0.5-STATIC": {
+      "fetchedAt": "2026-10-25T00:00:02Z",
+      "sha256": "b61ea3e0cab22d3659aba0d04349d323da71c7044f8bb0d127ddeb69daf6557d",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.5",
+        "com.tencent.matrix:matrix-android-lib:2.0.5",
+        "com.tencent.matrix:matrix-backtrace:2.0.5"
+      ]
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-25T00:00:01Z",
+      "sha256": "065b533b0cc58f263c35dc192632dc57565025c9e7fe2f669cf8373655c6b247",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.8",
+        "com.tencent.matrix:matrix-android-lib:2.0.8",
+        "com.tencent.matrix:matrix-backtrace:2.0.8"
+      ]
+    },
+    "2.0.8-STATIC": {
+      "fetchedAt": "2026-10-25T00:00:01Z",
+      "sha256": "3f5a79c1e0a1863a7557e6c78520ddad49344a1da2a642f78ab4cf7bbad88318",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.0.8",
+        "com.tencent.matrix:matrix-android-lib:2.0.8",
+        "com.tencent.matrix:matrix-backtrace:2.0.8"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T00:00:00Z",
+      "sha256": "9a2dddfd3bbc347d82b49a20c7955daf14a1005791750a6fad665a118f434025",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.1.0",
+        "com.tencent.matrix:matrix-android-lib:2.1.0",
+        "com.tencent.matrix:matrix-backtrace:2.1.0"
+      ]
+    },
+    "2.1.0-STATIC": {
+      "fetchedAt": "2026-10-24T23:59:59Z",
+      "sha256": "9a2dddfd3bbc347d82b49a20c7955daf14a1005791750a6fad665a118f434025",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-commons:2.1.0",
+        "com.tencent.matrix:matrix-android-lib:2.1.0",
+        "com.tencent.matrix:matrix-backtrace:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.matrix.openglleak.detector.OpenglIndexDetectorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0-beta",
+          "2.1.0-STATIC"
+        ]
+      ],
+      "exported": null,
+      "process": ":opengl_detector",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

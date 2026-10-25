@@ -1,0 +1,95 @@
+{
+  "coordinate": "com.streethawk.phonegap:push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.5": {
+      "fetchedAt": "2026-10-24T23:36:58Z",
+      "sha256": "baac802bdd43f894caf08ffc0ab332862598aac911477b7e2e9c0bd7e01d34bb",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:10.2.1",
+        "com.streethawk.phonegap:core:1.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.streethawk.library.push.PushNotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.streethawk.intent.action.APP_STATUS_NOTIFICATION",
+        "com.streethawk.intent.action.MSG_FROM_CORE",
+        "com.streethawk.intent.action.gcm.STREETHAWK_ACCEPTED",
+        "com.streethawk.intent.action.gcm.STREETHAWK_DECLINED",
+        "com.streethawk.intent.action.gcm.STREETHAWK_POSTPONED",
+        "com.streethawk.intent.action.pushnotification"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.push.SHFeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.push.SHGcmListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.push.SHInstanceIDListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

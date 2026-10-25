@@ -1,0 +1,62 @@
+{
+  "coordinate": "com.moengage:geofence-android-12",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T22:01:41Z",
+      "sha256": "e0d98562afd1afe529ea7e81eafc45eb8ba0b6467f30ad850e095e5469aa7e39",
+      "dependencies": []
+    },
+    "1.0.0-a12": {
+      "fetchedAt": "2026-10-24T22:01:40Z",
+      "sha256": "e0d98562afd1afe529ea7e81eafc45eb8ba0b6467f30ad850e095e5469aa7e39",
+      "dependencies": []
+    },
+    "1.1.0-a12": {
+      "fetchedAt": "2026-10-24T22:01:40Z",
+      "sha256": "e0d98562afd1afe529ea7e81eafc45eb8ba0b6467f30ad850e095e5469aa7e39",
+      "dependencies": []
+    },
+    "1.1.1-a12": {
+      "fetchedAt": "2026-10-24T22:01:39Z",
+      "sha256": "e0d98562afd1afe529ea7e81eafc45eb8ba0b6467f30ad850e095e5469aa7e39",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.geofence.internal.GeoFenceBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.1.1-a12"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.geofence.internal.GeofenceJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.1.1-a12"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

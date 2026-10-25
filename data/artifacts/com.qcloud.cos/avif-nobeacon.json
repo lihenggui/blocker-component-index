@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.qcloud.cos:avif-nobeacon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T22:55:32Z",
+      "sha256": "627c2ae6f2302876d1ded407f2ffe5ed41eec791233835a9cf31ab86df7bfcf6",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T22:55:31Z",
+      "sha256": "4a324c0d2820fe7d5f010f36dd3e94b52795133f703d39316b535c712735ae38",
+      "dependencies": [
+        "com.qcloud.cos:qcloud-decoder-base:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.image.avif.AvifInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.qcloud.cos.avif",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

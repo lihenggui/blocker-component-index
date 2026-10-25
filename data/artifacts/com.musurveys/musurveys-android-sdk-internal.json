@@ -1,0 +1,96 @@
+{
+  "coordinate": "com.musurveys:musurveys-android-sdk-internal",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T22:10:04Z",
+      "sha256": "6bb56a6a33bcaf37440569a2ad62ab2c7bee37c7639153009731e3092fb63334",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.fragment:fragment:1.3.0",
+        "androidx.security:security-crypto:1.1.0-alpha03",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.guava:guava:29.0-android",
+        "com.musurveys:musurveys-android-sdk-api:0.3.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T22:10:03Z",
+      "sha256": "6bb56a6a33bcaf37440569a2ad62ab2c7bee37c7639153009731e3092fb63334",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.fragment:fragment:1.3.0",
+        "androidx.security:security-crypto:1.1.0-alpha03",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.guava:guava:29.0-android",
+        "com.musurveys:musurveys-android-sdk-api:0.4.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-24T22:10:03Z",
+      "sha256": "6bb56a6a33bcaf37440569a2ad62ab2c7bee37c7639153009731e3092fb63334",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.fragment:fragment:1.3.0",
+        "androidx.security:security-crypto:1.1.0-alpha03",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.guava:guava:29.0-android",
+        "com.musurveys:musurveys-android-sdk-api:0.5.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.musurveys_internal.application.MuSurveysInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.3.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.musurveys.applicationprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.musurveys_internal.ui.MuSurveysActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

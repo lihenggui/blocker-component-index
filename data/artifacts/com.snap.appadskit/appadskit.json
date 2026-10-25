@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.snap.appadskit:appadskit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:20:45Z",
+      "sha256": "763278a3cab78b56e5346ee3b609278a26dd53b8301b1db26c388f85cc51da42",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:20:44Z",
+      "sha256": "10f1989d4da7147045bd2b34d7433fa2793593d25286d6619ea0994547235853",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.guava:guava:26.0-android",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:20:43Z",
+      "sha256": "10f1989d4da7147045bd2b34d7433fa2793593d25286d6619ea0994547235853",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.guava:guava:26.0-android",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.work.impl.WorkManagerInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "com.snap.appadskit.distribution.workmanager-init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

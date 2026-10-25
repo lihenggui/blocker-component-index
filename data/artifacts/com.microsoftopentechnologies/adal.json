@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.microsoftopentechnologies:adal",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.6-alpha": {
+      "fetchedAt": "2026-10-24T21:55:00Z",
+      "sha256": "657c8be38dc6ea5364ce968df56223c2ada31fa802cdcf71a7640286f2bd0d43",
+      "dependencies": [
+        "android.support:compatibility-v4:[18,)",
+        "com.google.code.gson:gson:2.2.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.microsoft.adal.AuthenticationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.6-alpha",
+          "0.6-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

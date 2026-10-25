@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.mikepenz:phosphor-typeface",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T21:57:38Z",
+      "sha256": "727f1f86e7c235a7261af39cbd1b56500bb67ef03878e6495a9dcb890b1f2a01",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
+    },
+    "1.0.0.0-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:37Z",
+      "sha256": "9c5f06d95b340ad3392a71153f80e4d4286fe4736423a6c541185fa65f1a2a79",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.20"
+      ]
+    },
+    "1.0.0.1-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:36Z",
+      "sha256": "727f1f86e7c235a7261af39cbd1b56500bb67ef03878e6495a9dcb890b1f2a01",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-b01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "unspecified",
+          "1.0.0.1-kotlin"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.phosphor.Initializer"
+      ]
+    }
+  ]
+}

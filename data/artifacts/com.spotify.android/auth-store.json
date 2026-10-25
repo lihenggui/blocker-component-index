@@ -1,0 +1,109 @@
+{
+  "coordinate": "com.spotify.android:auth-store",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:32:29Z",
+      "sha256": "2f05ec9e8e74b1cac4918476430ded27015462a7a7420d196ddaff4615b9fdc4",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T23:32:28Z",
+      "sha256": "2e370a53c8b0f3dca8a474a6a62cfc81940fa0b3da450dbe8f1ae808568e1a37",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-24T23:32:24Z",
+      "sha256": "2e370a53c8b0f3dca8a474a6a62cfc81940fa0b3da450dbe8f1ae808568e1a37",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T23:32:27Z",
+      "sha256": "2e370a53c8b0f3dca8a474a6a62cfc81940fa0b3da450dbe8f1ae808568e1a37",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T23:32:27Z",
+      "sha256": "2e370a53c8b0f3dca8a474a6a62cfc81940fa0b3da450dbe8f1ae808568e1a37",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-24T23:32:26Z",
+      "sha256": "2e370a53c8b0f3dca8a474a6a62cfc81940fa0b3da450dbe8f1ae808568e1a37",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T23:32:25Z",
+      "sha256": "2e370a53c8b0f3dca8a474a6a62cfc81940fa0b3da450dbe8f1ae808568e1a37",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-24T23:32:25Z",
+      "sha256": "2e370a53c8b0f3dca8a474a6a62cfc81940fa0b3da450dbe8f1ae808568e1a37",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.spotify.sdk.android.auth.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.spotify.sdk.android.auth.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

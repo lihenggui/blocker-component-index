@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.sailthru.android:com.sailthru.android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T23:08:45Z",
+      "sha256": "875781834fbeb307860672f93f6201f268a473e4d22a4945148faf8142401b07",
+      "dependencies": [
+        "com.android.support:appcompat-v7:[0.0,)",
+        "com.google.android.gms:play-services:[6.0,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sailthru.android.sdk.impl.event.SailthruAppTrackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sailthru.android.sdk.impl.receivers.SailthruNetworkReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

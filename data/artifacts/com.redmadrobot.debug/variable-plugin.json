@@ -1,0 +1,73 @@
+{
+  "coordinate": "com.redmadrobot.debug:variable-plugin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.7.4": {
+      "fetchedAt": "2026-10-24T23:01:02Z",
+      "sha256": "830ed025eb4b3af971b6fca24c7886d329e22665ba4379fa4b38ad34c1cf2281",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.0.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "com.redmadrobot.debug:panel-common:0.7.4",
+        "com.redmadrobot.debug:panel-core:0.7.4",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
+      ]
+    },
+    "0.7.5": {
+      "fetchedAt": "2026-10-24T23:01:01Z",
+      "sha256": "830ed025eb4b3af971b6fca24c7886d329e22665ba4379fa4b38ad34c1cf2281",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.0.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "com.redmadrobot.debug:panel-common:0.7.5",
+        "com.redmadrobot.debug:panel-core:0.7.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
+      ]
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-24T23:01:00Z",
+      "sha256": "847f2a68ea64c374319612a93ad804c03232dac1b4c36d25e81f866bfb53c120",
+      "dependencies": [
+        "androidx.databinding:viewbinding:8.3.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "com.redmadrobot.debug:panel-common:0.8.0",
+        "com.redmadrobot.debug:panel-core:0.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    },
+    "0.8.1": {
+      "fetchedAt": "2026-10-24T23:00:59Z",
+      "sha256": "847f2a68ea64c374319612a93ad804c03232dac1b4c36d25e81f866bfb53c120",
+      "dependencies": [
+        "androidx.databinding:viewbinding:8.3.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "com.redmadrobot.debug:panel-common:0.8.1",
+        "com.redmadrobot.debug:panel-core:0.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.redmadrobot.variable_plugin.services.VariableAutofillService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.7.4",
+          "0.8.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_AUTOFILL_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.service.autofill.AutofillService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

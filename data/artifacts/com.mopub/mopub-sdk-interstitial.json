@@ -1,0 +1,130 @@
+{
+  "coordinate": "com.mopub:mopub-sdk-interstitial",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.8.0": {
+      "fetchedAt": "2026-10-24T22:07:32Z",
+      "sha256": "78240598148368c2e1e17f92e8497b3025024064b8f83132e0335e901d67d2b8",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.mopub:mopub-sdk-base:5.8.0"
+      ]
+    },
+    "5.9.0": {
+      "fetchedAt": "2026-10-24T22:07:32Z",
+      "sha256": "fcde9ba418ecf85fd7d0b2be67c73abf08b903d0d4f8303c5f0c45d8a8620b5d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.mopub:mopub-sdk-base:5.9.0"
+      ]
+    },
+    "5.9.1": {
+      "fetchedAt": "2026-10-24T22:07:31Z",
+      "sha256": "1e59caea24138f4061e012903c29a6dc88012999088377bad8e20f0f7655b604",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.mopub:mopub-sdk-base:5.9.1"
+      ]
+    },
+    "5.10.0": {
+      "fetchedAt": "2026-10-24T22:07:31Z",
+      "sha256": "527dbbfe44f7f73f3347628691863a083222b2bc4f6b5845aea6f9e488fbed3f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.mopub:mopub-sdk-base:5.10.0"
+      ]
+    },
+    "5.11.0": {
+      "fetchedAt": "2026-10-24T22:07:30Z",
+      "sha256": "11088d94c63c0d2a5e5c97181a2a81a28ed32f03c196d3b67c66d1ed097fad91",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.media2:media2-player:1.0.1",
+        "androidx.media2:media2-session:1.0.1",
+        "androidx.media2:media2-widget:1.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mopub:mopub-sdk-base:5.11.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    },
+    "5.11.1": {
+      "fetchedAt": "2026-10-24T22:07:30Z",
+      "sha256": "65d6b834a9c7f90bd50e5e1745dce581be11925a6bf064a69624d9510e1d2262",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.media2:media2-player:1.0.1",
+        "androidx.media2:media2-session:1.0.1",
+        "androidx.media2:media2-widget:1.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mopub:mopub-sdk-base:5.11.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    },
+    "5.12.0": {
+      "fetchedAt": "2026-10-24T22:07:29Z",
+      "sha256": "4d2eb8e9a8d55b5cc33589e560b2aa7a8a8ef6e2af05b12a43257cebab49dd27",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.media2:media2-player:1.0.1",
+        "androidx.media2:media2-session:1.0.1",
+        "androidx.media2:media2-widget:1.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mopub:mopub-sdk-base:5.12.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mopub.mobileads.MoPubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.10.0",
+          "5.12.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.10.0",
+          "5.12.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

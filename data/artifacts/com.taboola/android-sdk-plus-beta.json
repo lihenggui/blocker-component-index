@@ -1,0 +1,218 @@
+{
+  "coordinate": "com.taboola:android-sdk-plus-beta",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0.rc9": {
+      "fetchedAt": "2026-10-24T23:46:09Z",
+      "sha256": "4e1c01bba5dc280fe558de813af130384aa65f66950a9efdf850edb45b63ef75",
+      "dependencies": [
+        "com.taboola:android-sdk-plus-push:1.0.13",
+        "com.taboola:android-sdk:2.8.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.taboola.android.plus.core.RemoteConfigRefreshJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.home.screen.widget.TBHomeScreenWidget",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.appwidget.action.APPWIDGET_UPDATE"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.appwidget.provider"
+      ]
+    },
+    {
+      "name": "com.taboola.android.plus.home.screen.widget.TBWidgetService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_REMOTEVIEWS",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.home.screen.widget.job.WidgetRefreshJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.notifications.push.OcambaPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_ACTION_BUTTONS",
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_CLICK",
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_CUSTOM_ACTION",
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_DISMISSED",
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_MULTI_MESSAGE_RECEIVED",
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_RECEIVED",
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_TOKEN",
+        "com.taboola.android.plus.OCAMBA_NOTIFICATION_USER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.notifications.push.PushNotificationsStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.notifications.scheduled.ScheduledNotificationStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.notifications.scheduled.TBNotificationRefreshJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.notifications.scheduled.TaboolaUnlockActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.shared.OnApplicationUpdatedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taboola.android.plus.shared.SdkPlusContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0.rc9",
+          "2.1.0.rc9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.taboola.plus.SdkPlusContextProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

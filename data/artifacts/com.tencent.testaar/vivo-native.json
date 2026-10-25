@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.tencent.testaar:vivo-native",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0.4": {
+      "fetchedAt": "2026-10-25T00:03:43Z",
+      "sha256": "20d750c31505fd52c4425042e4e91a694b58d1ddeeb80a853b11f327ee19af20",
+      "dependencies": []
+    },
+    "3.0.0.5": {
+      "fetchedAt": "2026-10-25T00:03:42Z",
+      "sha256": "67988535f54410c353a3bf946376bfd5048653b5ed6af528880b37a7ea3cb39e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0.4",
+          "3.0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

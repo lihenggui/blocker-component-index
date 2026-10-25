@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.straal:straal-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:36:53Z",
+      "sha256": "22176a0c6f0f2933e587bf6dba8c10dffdef2a7dabfaa7ccf5e7ad62499db93e",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0",
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.fragment:fragment:1.3.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:36:53Z",
+      "sha256": "292f42dc04001aca6e1c586592d5846096144bfd697b91e2f0d44e0b3bbb41ad",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0",
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.fragment:fragment:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.straal.sdk.view.auth3ds.Auth3dsBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

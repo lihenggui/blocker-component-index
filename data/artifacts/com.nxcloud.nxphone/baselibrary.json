@@ -1,0 +1,90 @@
+{
+  "coordinate": "com.nxcloud.nxphone:baselibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T22:30:44Z",
+      "sha256": "700bbfae2a922192a50acb61b6833d42c2e4ff722cc533f045f2321363b97196",
+      "dependencies": [
+        "com.android.databinding:adapters:4.1.3",
+        "com.android.databinding:baseLibrary:4.1.3",
+        "com.android.databinding:library:4.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.nostra13.universalimageloader:universal-image-loader:1.9.5",
+        "com.orhanobut:logger:2.2.0",
+        "com.squareup.okhttp3:logging-interceptor:3.12.10",
+        "com.squareup.okhttp3:okhttp:3.12.10",
+        "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "com.yanzhenjie:recyclerview-swipe:1.2.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2",
+        "pub.devrel:easypermissions:1.2.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T22:30:43Z",
+      "sha256": "700bbfae2a922192a50acb61b6833d42c2e4ff722cc533f045f2321363b97196",
+      "dependencies": [
+        "com.android.databinding:adapters:4.1.3",
+        "com.android.databinding:baseLibrary:4.1.3",
+        "com.android.databinding:library:4.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.nostra13.universalimageloader:universal-image-loader:1.9.5",
+        "com.orhanobut:logger:2.2.0",
+        "com.squareup.okhttp3:logging-interceptor:3.12.10",
+        "com.squareup.okhttp3:okhttp:3.12.10",
+        "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "com.yanzhenjie:recyclerview-swipe:1.2.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2",
+        "pub.devrel:easypermissions:1.2.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T22:30:42Z",
+      "sha256": "6d261772b02cae03503b45a56f34dfaa23a25f0793aa6a24c4b98852ac4b8021",
+      "dependencies": [
+        "com.android.databinding:adapters:4.2.0",
+        "com.android.databinding:baseLibrary:4.2.0",
+        "com.android.databinding:library:4.2.0",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.nostra13.universalimageloader:universal-image-loader:1.9.5",
+        "com.orhanobut:logger:2.2.0",
+        "com.squareup.okhttp3:logging-interceptor:3.12.10",
+        "com.squareup.okhttp3:okhttp:3.12.10",
+        "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "com.yanzhenjie:recyclerview-swipe:1.2.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2",
+        "pub.devrel:easypermissions:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

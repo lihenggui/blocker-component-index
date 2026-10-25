@@ -1,0 +1,816 @@
+{
+  "coordinate": "com.taptap.android.payment:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:48:42Z",
+      "sha256": "987a4426ddb8295f320631e2b402650b9e3862e6ad23dcde9303f3db43c8afa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.0",
+        "androidx.navigation:navigation-ui-ktx:2.5.0",
+        "cn.leancloud:realtime-android:8.1.4",
+        "cn.leancloud:storage-android:8.2.7",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.stripe:stripe-android:20.1.0",
+        "com.taptap.android.payment:track:1.0.1",
+        "com.taptap.sdk.intl:common:1.0.0-alpha.3",
+        "com.taptap.sdk.intl:login:1.0.0-alpha.3",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:48:42Z",
+      "sha256": "987a4426ddb8295f320631e2b402650b9e3862e6ad23dcde9303f3db43c8afa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.0",
+        "androidx.navigation:navigation-ui-ktx:2.5.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.stripe:stripe-android:20.1.0",
+        "com.taptap.android.payment:track:1.0.2",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T23:48:41Z",
+      "sha256": "987a4426ddb8295f320631e2b402650b9e3862e6ad23dcde9303f3db43c8afa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.0",
+        "androidx.navigation:navigation-ui-ktx:2.5.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.stripe:stripe-android:20.1.0",
+        "com.taptap.android.payment:track:1.0.3",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "1.0.4-alpha.1": {
+      "fetchedAt": "2026-10-24T23:48:40Z",
+      "sha256": "987a4426ddb8295f320631e2b402650b9e3862e6ad23dcde9303f3db43c8afa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.0",
+        "androidx.navigation:navigation-ui-ktx:2.5.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android.payment:track:1.0.4-alpha.1",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T23:48:40Z",
+      "sha256": "987a4426ddb8295f320631e2b402650b9e3862e6ad23dcde9303f3db43c8afa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.0",
+        "androidx.navigation:navigation-ui-ktx:2.5.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.stripe:stripe-android:20.1.0",
+        "com.taptap.android.payment:track:1.0.4",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T23:48:39Z",
+      "sha256": "987a4426ddb8295f320631e2b402650b9e3862e6ad23dcde9303f3db43c8afa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.0",
+        "androidx.navigation:navigation-ui-ktx:2.5.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android.payment:track:1.0.5",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T23:48:38Z",
+      "sha256": "987a4426ddb8295f320631e2b402650b9e3862e6ad23dcde9303f3db43c8afa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.navigation:navigation-ui-ktx:2.4.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android.payment:track:1.0.6",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-24T23:48:38Z",
+      "sha256": "9f568f64157aa69be1bb3b68bb12c1f2914014124132b4049c1ebc1588cffdda",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.room:room-guava:2.4.0",
+        "androidx.room:room-runtime:2.4.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.guava:guava:30.1.1-android",
+        "com.stripe:stripe-android:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-protobuf:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1",
+        "org.lz4:lz4-java:1.8.0"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T23:48:37Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.0-alpha.8",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-24T23:48:36Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.1",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.2": {
+      "fetchedAt": "2026-10-24T23:48:35Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.1",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.3": {
+      "fetchedAt": "2026-10-24T23:48:35Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.1",
+        "com.taptap:lc-realtime-android:8.2.24",
+        "com.taptap:lc-storage-android:8.2.24",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.4": {
+      "fetchedAt": "2026-10-24T23:48:34Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.4",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.12": {
+      "fetchedAt": "2026-10-24T23:48:33Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.4",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.13": {
+      "fetchedAt": "2026-10-24T23:48:32Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.13",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.14": {
+      "fetchedAt": "2026-10-24T23:48:31Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.14",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.15": {
+      "fetchedAt": "2026-10-24T23:48:31Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.14",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.16": {
+      "fetchedAt": "2026-10-24T23:48:30Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.16-alpha.2",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.17": {
+      "fetchedAt": "2026-10-24T23:48:29Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.17",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    },
+    "4.0.18": {
+      "fetchedAt": "2026-10-24T23:48:28Z",
+      "sha256": "8aea53d06958798dc00e0b88b2f9a15ab19806559a371276d91fd6f7c7945a26",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.braintreepayments.api:data-collector:4.27.2",
+        "com.braintreepayments.api:paypal:4.27.2",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android:common:3.28.3",
+        "com.taptap.android:login:3.28.3",
+        "com.taptap.sdk:tap-core:4.0.18",
+        "io.coil-kt:coil:2.2.2",
+        "io.ktor:ktor-client-content-negotiation:2.2.1",
+        "io.ktor:ktor-client-core:2.2.1",
+        "io.ktor:ktor-client-okhttp:2.2.1",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-properties:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.taptap.payment.sdk.activity.OrderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.activity.PaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.page.PaymentWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.payments.AlipayPlusActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.payments.BraintreeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.payments.BraintreeCheckOutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.18"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.payments.BraintreeWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.payments.GenericActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.18"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.payments.StripeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.sdk.service.TapSDKService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "4.0.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

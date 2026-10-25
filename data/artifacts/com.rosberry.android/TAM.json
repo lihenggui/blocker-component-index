@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.rosberry.android:TAM",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T23:06:44Z",
+      "sha256": "f76880ef7ff0e50c1ebc8fa879d17dbdd2449cb54b4c629985194a757b7731e6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:recyclerview-v7:27.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:06:44Z",
+      "sha256": "befff573de7a7dc368e59491c32bdc3f781b62bdad02b25bbc3ab0eae96a8848",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.android.material:material:1.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.koin:koin-android:2.0.0-beta-1",
+        "org.koin:koin-java:2.0.0-beta-1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.rosberry.android.tam.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

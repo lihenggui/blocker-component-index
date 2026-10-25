@@ -1,0 +1,265 @@
+{
+  "coordinate": "com.pulseid:pulse-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T22:52:51Z",
+      "sha256": "04f5946743f19afe9785d553b85e6ed4b98b31c6b89594b5613e5d96b78208f1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.work:work-runtime:2.3.4",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.neovisionaries:nv-bluetooth:1.8",
+        "com.squareup.okhttp3:logging-interceptor:3.12.0",
+        "com.squareup.okhttp3:okhttp:3.12.0",
+        "io.jsonwebtoken:jjwt-api:0.10.7",
+        "io.jsonwebtoken:jjwt-impl:0.10.7",
+        "io.jsonwebtoken:jjwt-orgjson:0.10.7"
+      ]
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T22:52:50Z",
+      "sha256": "04f5946743f19afe9785d553b85e6ed4b98b31c6b89594b5613e5d96b78208f1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.neovisionaries:nv-bluetooth:1.8",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2"
+      ]
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T22:52:50Z",
+      "sha256": "39ab18ed258853961d82d811c6aacfe4f5d23bc02ce2ff8c77649b980e64a2d8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.google.android.gms:play-services-location:20.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.neovisionaries:nv-bluetooth:1.8",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pulseid.sdk.activities.CampaignWebView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.jobs.LocationUpdateBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.BootCompletedIntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.ConfigService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.EventService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.GeofenceEventBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.GeofenceTransitionsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.GeofencingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.NotificationClickBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pulseid.sdk.services.SegmentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

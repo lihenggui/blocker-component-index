@@ -1,0 +1,145 @@
+{
+  "coordinate": "com.tencent.edu:TYICSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0.0": {
+      "fetchedAt": "2026-10-24T23:54:38Z",
+      "sha256": "fccadb1f9fdb795b6c8c674fa981abc8f0406f83c9b7d3e5c70c4670a5064675",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.tencent.liteav:LiteAVSDK_TRTC:7.2.8927",
+        "com.tencent.tbs.tbssdk:sdk:43986",
+        "com.tencent.tiw.cache:TIWCache:1.0.0.35",
+        "com.tencent.tiw.logger:TIWLogger:1.0.1.26",
+        "me.jessyan:autosize:1.2.1"
+      ]
+    },
+    "2.0.1.94": {
+      "fetchedAt": "2026-10-24T23:54:37Z",
+      "sha256": "21090cb73aa43defc15ff704285f550cee434915d5671fb42d0ce62bcf95044e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.tencent.liteav:LiteAVSDK_TRTC:7.2.8927",
+        "com.tencent.tbs.tbssdk:sdk:43986",
+        "com.tencent.tiw.cache:TIWCache:1.0.0.35",
+        "com.tencent.tiw.logger:TIWLogger:1.0.1.26",
+        "me.jessyan:autosize:1.2.1"
+      ]
+    },
+    "2.0.1.95": {
+      "fetchedAt": "2026-10-24T23:54:37Z",
+      "sha256": "a4932afb03ec821a6bf81e5a65968dbea596f9d7db92e6dd432672707c725126",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.tencent.liteav:LiteAVSDK_TRTC:7.2.8927",
+        "com.tencent.tbs.tbssdk:sdk:43986",
+        "com.tencent.tiw.cache:TIWCache:1.0.0.35",
+        "com.tencent.tiw.logger:TIWLogger:1.0.1.26",
+        "me.jessyan:autosize:1.2.1"
+      ]
+    },
+    "2.0.1.96": {
+      "fetchedAt": "2026-10-24T23:54:36Z",
+      "sha256": "df8b54aaf84e9688825262d18fe6c5e423da68f494a61de031ae8935d977a22c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.tencent.liteav:LiteAVSDK_TRTC:7.2.8927",
+        "com.tencent.tbs.tbssdk:sdk:43986",
+        "com.tencent.tiw.cache:TIWCache:1.0.0.35",
+        "com.tencent.tiw.logger:TIWLogger:1.0.1.26",
+        "me.jessyan:autosize:1.2.1"
+      ]
+    },
+    "2.0.1.97": {
+      "fetchedAt": "2026-10-24T23:54:35Z",
+      "sha256": "b69d522369dfc0bae3ad6af8b4f76846a58f6c755c31ea19669a6ed74769f174",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.tencent.edu:TIWCache:1.0.0.43",
+        "com.tencent.edu:TIWLogger:1.0.1.41",
+        "com.tencent.liteav:LiteAVSDK_TRTC:8.7.10102",
+        "com.tencent.tbs.tbssdk:sdk:43986",
+        "me.jessyan:autosize:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0.0",
+          "2.0.1.97"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tyic.TYICInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0.0",
+          "2.0.1.97"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tyic.pages.InClassActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.0",
+          "2.0.1.97"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT",
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

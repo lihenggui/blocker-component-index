@@ -1,0 +1,235 @@
+{
+  "coordinate": "com.pushwoosh.java7:pushwoosh",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.5.2": {
+      "fetchedAt": "2026-10-24T22:53:23Z",
+      "sha256": "f9ec25b7dd5877b8f063b37bc9ad714c2e27e88ccdf23711d00a87b97480199a",
+      "dependencies": []
+    },
+    "5.5.3": {
+      "fetchedAt": "2026-10-24T22:53:23Z",
+      "sha256": "27fd0a96edbd4c1f27c5ed0750c1a236edc2d93f8fc102b274d7c3201494ca95",
+      "dependencies": []
+    },
+    "5.5.4": {
+      "fetchedAt": "2026-10-24T22:53:22Z",
+      "sha256": "1d97d6571f53503a14699e54d69a527e43c574085e22e1b1eee6305f23f9f235",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.pushwoosh.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.FcmRegistrationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.NotificationOpenReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.PushFcmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.PushwooshInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pushwooshinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.PushwooshService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.inapp.InAppRetrieverService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.inapp.view.RemoteUrlActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.inapp.view.RichMediaWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.internal.utils.LockScreenService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.internal.utils.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.notification.LocalNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

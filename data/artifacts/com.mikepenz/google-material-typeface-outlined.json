@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.mikepenz:google-material-typeface-outlined",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T21:56:54Z",
+      "sha256": "2f3ece2d5d2f7ffc08ddb11c584b488086fc5b1ddf6860a90681b6687f65fed8",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
+    },
+    "4.0.0.1-kotlin": {
+      "fetchedAt": "2026-10-24T21:56:53Z",
+      "sha256": "23b97cdb6479adf3f7887303f145f7708c624ae1f7e7697bf7c5229aa5272e62",
+      "dependencies": [
+        "com.mikepenz:library-typeface-api:5.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+      ]
+    },
+    "4.0.0.2-kotlin": {
+      "fetchedAt": "2026-10-24T21:56:52Z",
+      "sha256": "2f3ece2d5d2f7ffc08ddb11c584b488086fc5b1ddf6860a90681b6687f65fed8",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-b01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "unspecified",
+          "4.0.0.2-kotlin"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.googlematerial.OutlinedInitializer"
+      ]
+    }
+  ]
+}

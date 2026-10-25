@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.myriadmobile.library:shove",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-24T22:12:48Z",
+      "sha256": "606c419806c0c57801bb4cc8ba40c0f17fcbb188e8250fb1c938f01c18c5ac3a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.myriadmobile.library.shove.ShoveBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "com.myriadmobile.library.shove"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.myriadmobile.library.shove.ShoveIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.pushwoosh.java7:pushwoosh-beacon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.5.2": {
+      "fetchedAt": "2026-10-24T22:53:27Z",
+      "sha256": "570807bcc7f3b2277093d1ed260cc227d2c3dfe7cec3059dd45c7af079c8e387",
+      "dependencies": []
+    },
+    "5.5.3": {
+      "fetchedAt": "2026-10-24T22:53:26Z",
+      "sha256": "c1aab39c110b71fca7943e57adc17552bb5b7908529a210a709bab40db920ac7",
+      "dependencies": []
+    },
+    "5.5.4": {
+      "fetchedAt": "2026-10-24T22:53:26Z",
+      "sha256": "ca58069c457e7d7192a245603015e45ace930ed689873c8016665518a51c8c58",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.pushwoosh.beacon.PushBeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.thirdparty.radiusnetworks.ibeacon.IBeaconIntentProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

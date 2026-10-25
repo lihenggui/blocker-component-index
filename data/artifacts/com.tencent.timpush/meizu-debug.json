@@ -1,0 +1,71 @@
+{
+  "coordinate": "com.tencent.timpush:meizu-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.5012": {
+      "fetchedAt": "2026-10-25T00:04:33Z",
+      "sha256": "7111a96a016898f86ec018ae27c4a8164d6b8ed4d24c62f8908d5d6e1ee2ae73",
+      "dependencies": [
+        "com.tencent.timpush:meizu-vendor:4.2.3"
+      ]
+    },
+    "7.7.5283": {
+      "fetchedAt": "2026-10-25T00:04:33Z",
+      "sha256": "813f082b1295579c6363f317de9e30aeeff52da41ab1f4343bfbca3a4da25462",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.3.0"
+      ]
+    },
+    "7.8.1126": {
+      "fetchedAt": "2026-10-25T00:04:32Z",
+      "sha256": "417caff9571b70d0f2e617d2f83ba3a27a52218a58765c6e951e276da8310de8",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.meizu.TIMPushMeiZuReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.meizu.TIMPushMeiZuService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.meizuPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

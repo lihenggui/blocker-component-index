@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.streethawk.phonegap:beacon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.5": {
+      "fetchedAt": "2026-10-24T23:36:54Z",
+      "sha256": "1dbd8ce8a22e729ae0952dea7b815981cc00e8dac3d1e92eeddd8b9907cb1843",
+      "dependencies": [
+        "com.streethawk.phonegap:core:1.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.streethawk.library.beacon.BeaconServiceKK",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.beacon.BeaconServiceL",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.beacon.SHBeaconModuleBC",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.adapter.action.STATE_CHANGED",
+        "android.intent.action.BOOT_COMPLETED",
+        "com.streethawk.intent.action.APP_STATUS_NOTIFICATION",
+        "com.streethawk.intent.action.gcm.STREETHAWK_APP_BEACON_WIFI_MODE",
+        "com.streethawk.intent.action.gcm.STREETHAWK_APP_STATUS_CHK"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.mikepenz:simple-icons-typeface",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T21:57:44Z",
+      "sha256": "5a5f26270960f00d51903fc950c34041c753cd3a8690bf4c18ab3dc58dc1f902",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
+    },
+    "17.0.0.1": {
+      "fetchedAt": "2026-10-24T21:57:44Z",
+      "sha256": "6ee839b096f56987657928b248e2007d7b86bfb84839dd8cabf2015380bb9e01",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.3.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "17.0.0.2": {
+      "fetchedAt": "2026-10-24T21:57:43Z",
+      "sha256": "f3df5f9bb1180f9bb7e558f4af295516505a73fc05aca24d812ba3847ee39330",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.3.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "17.0.0.1",
+          "17.0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.simple_icons.Initializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "unspecified",
+          "unspecified"
+        ],
+        [
+          "17.0.0.2",
+          "17.0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.simpleicons.Initializer"
+      ]
+    }
+  ]
+}

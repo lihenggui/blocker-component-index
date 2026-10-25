@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.mikepenz:typeicons-typeface",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T21:57:51Z",
+      "sha256": "f631bea58c3c999c135732166e80471519b512721e643735941386f5105285d8",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
+    },
+    "2.0.7.1": {
+      "fetchedAt": "2026-10-24T21:57:50Z",
+      "sha256": "9c0a5dbfb4c99e31f82043cbe914d21d33ad531ec6c12e37c98d98223dcf6263",
+      "dependencies": [
+        "Android-Iconics:library-core:unspecified"
+      ]
+    },
+    "2.0.7.2": {
+      "fetchedAt": "2026-10-24T21:57:50Z",
+      "sha256": "9942a2a130806045e1c58dc7e5a1a9448affda9f8703292f2b3381c7e98c4d8a",
+      "dependencies": [
+        "Android-Iconics:library-core:unspecified"
+      ]
+    },
+    "2.0.7.3": {
+      "fetchedAt": "2026-10-24T21:57:49Z",
+      "sha256": "e1bc3438edc62aeec40c0571cd493fb274d9953574d8051c07414704c45059f8",
+      "dependencies": []
+    },
+    "2.0.7.4": {
+      "fetchedAt": "2026-10-24T21:57:49Z",
+      "sha256": "610c04342877a842fe49e05b99ca6fb7891cef8a3528d6ea64c892853fb3eaf8",
+      "dependencies": [
+        "com.mikepenz:library-core:2.9.3"
+      ]
+    },
+    "2.0.7.5": {
+      "fetchedAt": "2026-10-24T21:57:49Z",
+      "sha256": "3a5687bbee2fbbf1933dc3cec63b39c759d568592c453dc3ee02a4d5ec484754",
+      "dependencies": [
+        "com.mikepenz:iconics-core:3.1.0-rc02"
+      ]
+    },
+    "2.0.7.5-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:48Z",
+      "sha256": "6b99a6c5ed396b8eab2a74aa04660b1dbcaad09755025b8a50cf707ba331f9d4",
+      "dependencies": [
+        "com.mikepenz:iconics-core:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.31"
+      ]
+    },
+    "2.0.7.6-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:48Z",
+      "sha256": "f552be3c939470b548e4f6265c964d3d3827fedd5e921871f70dbb06b78107b5",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10"
+      ]
+    },
+    "2.0.7.7-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:47Z",
+      "sha256": "f46af1043b17cd882b8b3a6de10d245e4dd4c8cad4b9623d8ad36638cd45e4c4",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.20"
+      ]
+    },
+    "2.0.7.8-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:47Z",
+      "sha256": "f631bea58c3c999c135732166e80471519b512721e643735941386f5105285d8",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-b01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "unspecified",
+          "unspecified"
+        ],
+        [
+          "2.0.7.7-kotlin",
+          "2.0.7.8-kotlin"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.typeicons.Initializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.7.6-kotlin",
+          "2.0.7.6-kotlin"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.typeicons.Typeicons"
+      ]
+    }
+  ]
+}

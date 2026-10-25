@@ -1,0 +1,75 @@
+{
+  "coordinate": "com.netease.cloudmusic.mediacontrollersdk:mediacontrollersdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T22:16:51Z",
+      "sha256": "4280a8ecc7978e9d5daa4e894ff8668acd50c172fdff680404f5ec17f3ee5522",
+      "dependencies": [
+        "androidx.media2:media2-session:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T22:16:50Z",
+      "sha256": "e2ec4346a6c006ed092a74e424088177f863bc29254db37ea9eb9e81b8f02fa5",
+      "dependencies": [
+        "androidx.media2:media2-session:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T22:16:47Z",
+      "sha256": "e2ec4346a6c006ed092a74e424088177f863bc29254db37ea9eb9e81b8f02fa5",
+      "dependencies": [
+        "androidx.media2:media2-session:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30"
+      ]
+    },
+    "1.1.36.20251121170443": {
+      "fetchedAt": "2026-10-24T22:16:49Z",
+      "sha256": "1e5d8faab5a244122fbb234ac8880765f317808e4a7c3049114c3d5cfc689790",
+      "dependencies": [
+        "androidx.media2:media2-session:1.0.3",
+        "com.google.code.gson:gson:2.10.1"
+      ]
+    },
+    "1.1.37.20251127170443": {
+      "fetchedAt": "2026-10-24T22:16:49Z",
+      "sha256": "cdf95d7f1f5dc7b5a4edfb49357a96fab786a96ed955ff227e79b5677c2ca9fb",
+      "dependencies": [
+        "androidx.media2:media2-session:1.0.3",
+        "com.google.code.gson:gson:2.10.1"
+      ]
+    },
+    "1.1.39.20260225171343": {
+      "fetchedAt": "2026-10-24T22:16:48Z",
+      "sha256": "86093c060f98ecf99d39b6abf353920eb6145a0ed98a21430de47f0e10246277",
+      "dependencies": [
+        "androidx.media2:media2-session:1.0.3",
+        "com.google.code.gson:gson:2.10.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.cloudmusic.mediacontrollersdk.NotificationListener",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.1.39.20260225171343"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.service.notification.NotificationListenerService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.maxpay.android:sdk-payment",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T21:47:21Z",
+      "sha256": "a30dd49c1785fdedfd8bb5e20f90131cf72efd1d96ac1e5e323c55c4d426ffc8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.browser:browser:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.1",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.retrofit2:adapter-rxjava2:2.7.2",
+        "com.squareup.retrofit2:converter-gson:2.7.2",
+        "com.squareup.retrofit2:retrofit:2.7.2",
+        "io.reactivex.rxjava2:rxandroid:2.0.2",
+        "io.reactivex.rxjava2:rxjava:2.2.8",
+        "io.reactivex.rxjava2:rxkotlin:2.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.koin:koin-android:2.2.0",
+        "org.koin:koin-androidx-scope:2.2.0",
+        "org.koin:koin-androidx-viewmodel:2.2.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T21:47:21Z",
+      "sha256": "becf58ed917afaa1b0553331f88090fea92ddc845ebfa71a35264e7a7f61cd54",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.browser:browser:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.1",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.retrofit2:adapter-rxjava2:2.7.2",
+        "com.squareup.retrofit2:converter-gson:2.7.2",
+        "com.squareup.retrofit2:retrofit:2.7.2",
+        "io.reactivex.rxjava2:rxandroid:2.0.2",
+        "io.reactivex.rxjava2:rxjava:2.2.8",
+        "io.reactivex.rxjava2:rxkotlin:2.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.koin:koin-android:2.2.0",
+        "org.koin:koin-androidx-scope:2.2.0",
+        "org.koin:koin-androidx-viewmodel:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.maxpay.sdk.payment.SdkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

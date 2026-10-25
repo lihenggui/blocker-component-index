@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.seantone.xsdk:gdt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:12:58Z",
+      "sha256": "0202fcf96793a70c33acad011b0452bdfc3ae30d00e0df3a04994c8f9151f348",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:12:58Z",
+      "sha256": "0202fcf96793a70c33acad011b0452bdfc3ae30d00e0df3a04994c8f9151f348",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

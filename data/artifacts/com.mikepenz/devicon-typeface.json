@@ -1,0 +1,143 @@
+{
+  "coordinate": "com.mikepenz:devicon-typeface",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T21:56:17Z",
+      "sha256": "cd5886c24ebcedb2e6fe3d34919a0acc2c543b6726b21cbb96df91c013ca1191",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
+    },
+    "2.0.0.1": {
+      "fetchedAt": "2026-10-24T21:56:16Z",
+      "sha256": "7d8068ee395a1e0d7262cf6bf742ab54c3a92ba98de9109949576ffa23f4a8e8",
+      "dependencies": [
+        "Android-Iconics:library-core:unspecified"
+      ]
+    },
+    "2.0.0.2": {
+      "fetchedAt": "2026-10-24T21:56:16Z",
+      "sha256": "fb2f375ecbfcc41d3e6176f9ac50ea9dc02afc86f8295f30549c7817ebed7d53",
+      "dependencies": [
+        "Android-Iconics:library-core:unspecified"
+      ]
+    },
+    "2.0.0.3": {
+      "fetchedAt": "2026-10-24T21:56:15Z",
+      "sha256": "8056814de3117517a969fcf43550f9dd700133ef7e69b389cde130ef97a1e8d4",
+      "dependencies": []
+    },
+    "2.0.0.4": {
+      "fetchedAt": "2026-10-24T21:56:15Z",
+      "sha256": "883a3c14e8a7845dc0c5f8a26bd557c6cb6803e5d79c2608b3c95250a9505136",
+      "dependencies": [
+        "com.mikepenz:library-core:2.9.3"
+      ]
+    },
+    "2.0.0.5": {
+      "fetchedAt": "2026-10-24T21:56:14Z",
+      "sha256": "e7e7ebcb90a457292d56ec9d100a7c5f4e93ffd39607ca57d01c7fae8fb5812f",
+      "dependencies": [
+        "com.mikepenz:iconics-core:3.1.0-rc02"
+      ]
+    },
+    "2.0.0.5-kotlin": {
+      "fetchedAt": "2026-10-24T21:56:14Z",
+      "sha256": "f4db56fef31b3b985dbc0196d8b824774c12cde18cbfd03c58394de94fb28006",
+      "dependencies": [
+        "com.mikepenz:iconics-core:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.31"
+      ]
+    },
+    "2.0.0.6-kotlin": {
+      "fetchedAt": "2026-10-24T21:56:13Z",
+      "sha256": "258a91d81bd5f55b1dcbe5cc9e2ef021de5fc73ec4464005b7fbfbbff12118a5",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10"
+      ]
+    },
+    "2.0.0.7-kotlin": {
+      "fetchedAt": "2026-10-24T21:56:13Z",
+      "sha256": "cfd69db883b668a4c9b8ae5ae45b44a308f0cb8950f726a59a6f57afb3d79082",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.20"
+      ]
+    },
+    "2.0.0.8-kotlin": {
+      "fetchedAt": "2026-10-24T21:56:12Z",
+      "sha256": "cd5886c24ebcedb2e6fe3d34919a0acc2c543b6726b21cbb96df91c013ca1191",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-b01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "2.0.0.9-kotlin": {
+      "fetchedAt": "2026-10-24T21:56:12Z",
+      "sha256": "cd5886c24ebcedb2e6fe3d34919a0acc2c543b6726b21cbb96df91c013ca1191",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T21:56:11Z",
+      "sha256": "258a91d81bd5f55b1dcbe5cc9e2ef021de5fc73ec4464005b7fbfbbff12118a5",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0.6-kotlin",
+          "2.0.0.6-kotlin"
+        ],
+        [
+          "5.1.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.devicon.DevIcon"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "unspecified",
+          "unspecified"
+        ],
+        [
+          "2.0.0.7-kotlin",
+          "2.0.0.9-kotlin"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.devicon.Initializer"
+      ]
+    }
+  ]
+}

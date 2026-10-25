@@ -1,0 +1,142 @@
+{
+  "coordinate": "com.tencent.tpns:oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.3.1-release": {
+      "fetchedAt": "2026-10-25T00:07:21Z",
+      "sha256": "05dc87b2db8c59860dc418fae3d29412caff1a3fdb1de518eef0ebce5436cfc8",
+      "dependencies": []
+    },
+    "1.4.3.2-release": {
+      "fetchedAt": "2026-10-25T00:07:20Z",
+      "sha256": "05dc87b2db8c59860dc418fae3d29412caff1a3fdb1de518eef0ebce5436cfc8",
+      "dependencies": []
+    },
+    "1.4.3.4-release": {
+      "fetchedAt": "2026-10-25T00:07:20Z",
+      "sha256": "05dc87b2db8c59860dc418fae3d29412caff1a3fdb1de518eef0ebce5436cfc8",
+      "dependencies": []
+    },
+    "1.4.3.5-release": {
+      "fetchedAt": "2026-10-25T00:07:19Z",
+      "sha256": "05dc87b2db8c59860dc418fae3d29412caff1a3fdb1de518eef0ebce5436cfc8",
+      "dependencies": []
+    },
+    "1.4.3.6-release": {
+      "fetchedAt": "2026-10-25T00:07:19Z",
+      "sha256": "05dc87b2db8c59860dc418fae3d29412caff1a3fdb1de518eef0ebce5436cfc8",
+      "dependencies": []
+    },
+    "1.4.3.7-release": {
+      "fetchedAt": "2026-10-25T00:07:18Z",
+      "sha256": "da4a36905bb4ef36b11ddf2291e301c192305c47b50f83d1d623bd27a29633bc",
+      "dependencies": []
+    },
+    "1.4.3.8-release": {
+      "fetchedAt": "2026-10-25T00:07:18Z",
+      "sha256": "da4a36905bb4ef36b11ddf2291e301c192305c47b50f83d1d623bd27a29633bc",
+      "dependencies": []
+    },
+    "1.4.3.9-release": {
+      "fetchedAt": "2026-10-25T00:07:17Z",
+      "sha256": "da4a36905bb4ef36b11ddf2291e301c192305c47b50f83d1d623bd27a29633bc",
+      "dependencies": []
+    },
+    "1.4.4.1-release": {
+      "fetchedAt": "2026-10-25T00:07:16Z",
+      "sha256": "e317154caaf6b43ab0cd316184585ed34491aea946a3bdd307ed834a6eb1b1ce",
+      "dependencies": []
+    },
+    "1.4.4.2-release": {
+      "fetchedAt": "2026-10-25T00:07:16Z",
+      "sha256": "e317154caaf6b43ab0cd316184585ed34491aea946a3bdd307ed834a6eb1b1ce",
+      "dependencies": []
+    },
+    "1.4.4.3-release": {
+      "fetchedAt": "2026-10-25T00:07:09Z",
+      "sha256": "e317154caaf6b43ab0cd316184585ed34491aea946a3bdd307ed834a6eb1b1ce",
+      "dependencies": []
+    },
+    "1.4.4.4-release": {
+      "fetchedAt": "2026-10-25T00:07:15Z",
+      "sha256": "cbcf37f7aa3272533dce696d49f0434ec32b46ff3036745ca4c21b16c502c1da",
+      "dependencies": []
+    },
+    "1.4.4.5-release": {
+      "fetchedAt": "2026-10-25T00:07:15Z",
+      "sha256": "cbcf37f7aa3272533dce696d49f0434ec32b46ff3036745ca4c21b16c502c1da",
+      "dependencies": []
+    },
+    "1.4.4.6-release": {
+      "fetchedAt": "2026-10-25T00:07:14Z",
+      "sha256": "cbcf37f7aa3272533dce696d49f0434ec32b46ff3036745ca4c21b16c502c1da",
+      "dependencies": []
+    },
+    "1.4.4.7-release": {
+      "fetchedAt": "2026-10-25T00:07:13Z",
+      "sha256": "cbcf37f7aa3272533dce696d49f0434ec32b46ff3036745ca4c21b16c502c1da",
+      "dependencies": []
+    },
+    "1.4.4.8-release": {
+      "fetchedAt": "2026-10-25T00:07:12Z",
+      "sha256": "cbcf37f7aa3272533dce696d49f0434ec32b46ff3036745ca4c21b16c502c1da",
+      "dependencies": []
+    },
+    "1.4.4.9-release": {
+      "fetchedAt": "2026-10-25T00:07:12Z",
+      "sha256": "cbcf37f7aa3272533dce696d49f0434ec32b46ff3036745ca4c21b16c502c1da",
+      "dependencies": []
+    },
+    "1.4.4.10-release": {
+      "fetchedAt": "2026-10-25T00:07:11Z",
+      "sha256": "f936e80be7192d9a88ab7d6ca92c15c23c74bdc91f9d261b07f55ed81334ea8e",
+      "dependencies": []
+    },
+    "1.4.4.11-release": {
+      "fetchedAt": "2026-10-25T00:07:10Z",
+      "sha256": "f936e80be7192d9a88ab7d6ca92c15c23c74bdc91f9d261b07f55ed81334ea8e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3.1-release",
+          "1.4.4.11-release"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3.1-release",
+          "1.4.4.11-release"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

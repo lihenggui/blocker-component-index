@@ -1,0 +1,94 @@
+{
+  "coordinate": "com.squareup.papa:papa-dev-receivers",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5": {
+      "fetchedAt": "2026-10-24T23:34:43Z",
+      "sha256": "b96da55c03bfe72cef47ca89d9ae19a1d5f81fb5a9955bb08136f727ff376a87",
+      "dependencies": [
+        "com.squareup.papa:papa:0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "0.6": {
+      "fetchedAt": "2026-10-24T23:34:42Z",
+      "sha256": "b96da55c03bfe72cef47ca89d9ae19a1d5f81fb5a9955bb08136f727ff376a87",
+      "dependencies": [
+        "com.squareup.papa:papa:0.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "0.7": {
+      "fetchedAt": "2026-10-24T23:34:41Z",
+      "sha256": "b96da55c03bfe72cef47ca89d9ae19a1d5f81fb5a9955bb08136f727ff376a87",
+      "dependencies": [
+        "com.squareup.papa:papa:0.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "0.8": {
+      "fetchedAt": "2026-10-24T23:34:41Z",
+      "sha256": "b96da55c03bfe72cef47ca89d9ae19a1d5f81fb5a9955bb08136f727ff376a87",
+      "dependencies": [
+        "com.squareup.papa:papa:0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "0.9": {
+      "fetchedAt": "2026-10-24T23:34:40Z",
+      "sha256": "b96da55c03bfe72cef47ca89d9ae19a1d5f81fb5a9955bb08136f727ff376a87",
+      "dependencies": [
+        "com.squareup.papa:papa:0.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "0.10": {
+      "fetchedAt": "2026-10-24T23:34:39Z",
+      "sha256": "b96da55c03bfe72cef47ca89d9ae19a1d5f81fb5a9955bb08136f727ff376a87",
+      "dependencies": [
+        "com.squareup.papa:papa:0.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "papa.internal.ForceTraceableReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "papa.FORCE_TRACEABLE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "papa.internal.GcTriggerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.5",
+          "0.10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "papa.TRIGGER_GC"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

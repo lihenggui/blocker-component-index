@@ -1,0 +1,100 @@
+{
+  "coordinate": "com.sobot.call:opaycall",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:22:46Z",
+      "sha256": "882c469733689f662a4eae73547a37b9fc14030be6f6f388cb8efa0de3c2a1f7",
+      "dependencies": [
+        "com.sobot.library:sobotcommon_x:1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sobot.sobotcallsdk.activity.SobotCallNumberActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.sobotcallsdk.activity.SobotCallSipStatusActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.sobotcallsdk.sipphonelibrary.AssistService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.sobotcallsdk.sipphonelibrary.SobotKeepAliveReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.sobotcallsdk.sipphonelibrary.SobotPhoneService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

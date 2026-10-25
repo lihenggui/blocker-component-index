@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.tencent.timpush:tpush-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "8.0.6896": {
+      "fetchedAt": "2026-10-25T00:05:16Z",
+      "sha256": "9b81459d4a1d7847feea83713d92f347242bf91e1fe91cbd6b9c51405b3b5b0c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.tencent.timpush:tuicore-debug:8.0.6896"
+      ]
+    },
+    "8.0.6897": {
+      "fetchedAt": "2026-10-25T00:05:15Z",
+      "sha256": "9b81459d4a1d7847feea83713d92f347242bf91e1fe91cbd6b9c51405b3b5b0c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.tencent.timpush:tuicore-debug:8.0.6896"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.tim.push.TIMPushEntry",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "8.0.6896",
+          "8.0.6897"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TIMPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tim.push.TIMPushOpenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "8.0.6896",
+          "8.0.6897"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tim.push.notification.NotificationResourceDownloader",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.0.6896",
+          "8.0.6897"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tencent.timpush.intentservice"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

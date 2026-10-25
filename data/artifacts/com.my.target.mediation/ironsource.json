@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.my.target.mediation:ironsource",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.0.2.0": {
+      "fetchedAt": "2026-10-24T22:10:22Z",
+      "sha256": "320c86a13159fad07d8c4282fc4ca3082025c4054a246c3dd3549aec533eb1b6",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:7.0.2"
+      ]
+    },
+    "7.1.5.1.0": {
+      "fetchedAt": "2026-10-24T22:10:22Z",
+      "sha256": "b47923ffd6adbe47e2a5e45bfddc6cf564144202ccd73c67e66bff3ee6f0ebce",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:7.1.5.1"
+      ]
+    },
+    "7.1.10.0": {
+      "fetchedAt": "2026-10-24T22:10:21Z",
+      "sha256": "ea15f3a9fe71e3f9abf1c90b2d440975744b4b39cc6f02d2b7637e85f4906a47",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:7.1.10"
+      ]
+    },
+    "7.1.10.1": {
+      "fetchedAt": "2026-10-24T22:10:20Z",
+      "sha256": "0f679cf4dbb87c3dced73fcd795760a3f57b117751bfdf0f62a123b67f88e746",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:7.1.10",
+        "com.my.target:mytarget-sdk:[5.14.2,5.17.0)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ironsource.sdk.controller.ControllerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.0.2.0",
+          "7.1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ironsource.sdk.controller.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.0.2.0",
+          "7.1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ironsource.sdk.controller.OpenUrlActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.0.2.0",
+          "7.1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

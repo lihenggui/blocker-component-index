@@ -1,0 +1,142 @@
+{
+  "coordinate": "com.tencent.testaar:vivo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T00:03:41Z",
+      "sha256": "9205585e1b4c205fb36558bc7d5f5d5e0f86a6118887855529e05ae828964f8d",
+      "dependencies": [
+        "com.tencent.tpns:vivo:1.3.3.3-release"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T00:03:41Z",
+      "sha256": "9205585e1b4c205fb36558bc7d5f5d5e0f86a6118887855529e05ae828964f8d",
+      "dependencies": [
+        "com.tencent.tpns:vivo:1.3.3.3-release"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T00:03:40Z",
+      "sha256": "1a71dc16a0ddccee3edeceee19c7655560a1c0fd3f573d0faf0230e18611a3c4",
+      "dependencies": [
+        "com.tencent.tpns:vivo:1.3.3.3-release"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T00:03:40Z",
+      "sha256": "1a71dc16a0ddccee3edeceee19c7655560a1c0fd3f573d0faf0230e18611a3c4",
+      "dependencies": [
+        "com.tencent.timpush:vivo-native:3.0.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.vivo.TIMPushVIVOMessageReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.vivo.TIMPushVIVOService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.vivoPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.vivo.TIMVIVOService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.vivoPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.vivo.VIVOPushMessageReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.LinkProxyClientActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

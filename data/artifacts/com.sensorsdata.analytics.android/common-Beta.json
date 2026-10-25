@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.sensorsdata.analytics.android:common-Beta",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.6": {
+      "fetchedAt": "2026-10-24T23:14:45Z",
+      "sha256": "8b832c472ad8131c069044f69a5e8e7cd26b8a171539ab868e005b420297c9cd",
+      "dependencies": [
+        "com.sensorsdata.analytics.android:res_cn-Beta:0.2.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.6",
+          "0.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SensorsDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

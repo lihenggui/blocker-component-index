@@ -1,0 +1,478 @@
+{
+  "coordinate": "com.sagisu:wallet-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:08:45Z",
+      "sha256": "910bea6754a5f56252c08f6e770dd4428b37fef99f3833b873daff4e1cce3ce1",
+      "dependencies": [
+        "Storyteller:sdk:4.5.6",
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.paging:runtime:1.0.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.databinding:databinding-adapters:7.0.2",
+        "androidx.databinding:databinding-common:7.0.2",
+        "androidx.databinding:databinding-runtime:7.0.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-guava:3.0.1",
+        "androidx.paging:paging-runtime:3.0.1",
+        "androidx.paging:paging-rxjava3:3.0.1",
+        "com.android.support:multidex:1.0.3",
+        "com.facebook.shimmer:shimmer:0.5.0",
+        "com.github.PhilJay:MPAndroidChart:v3.1.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.firebase:firebase-bom:29.1.0",
+        "com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0",
+        "com.jumio.android:core:3.9.2",
+        "com.jumio.android:nv-barcode:3.9.2",
+        "com.jumio.android:nv-mrz:3.9.2",
+        "com.jumio.android:nv:3.9.2",
+        "com.loopj.android:android-async-http:1.4.9",
+        "com.plaid.link:sdk-core:3.4.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.picasso:picasso:2.71828",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.8.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.uber.autodispose2:autodispose-android:2.1.0",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:08:44Z",
+      "sha256": "910bea6754a5f56252c08f6e770dd4428b37fef99f3833b873daff4e1cce3ce1",
+      "dependencies": [
+        "Storyteller:sdk:4.5.6",
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.paging:runtime:1.0.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.databinding:databinding-adapters:7.0.2",
+        "androidx.databinding:databinding-common:7.0.2",
+        "androidx.databinding:databinding-runtime:7.0.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.paging:paging-guava:3.0.1",
+        "androidx.paging:paging-runtime:3.0.1",
+        "androidx.paging:paging-rxjava3:3.0.1",
+        "com.android.support:multidex:1.0.3",
+        "com.facebook.shimmer:shimmer:0.5.0",
+        "com.github.PhilJay:MPAndroidChart:v3.1.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.firebase:firebase-bom:29.1.0",
+        "com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0",
+        "com.jumio.android:core:3.9.2",
+        "com.jumio.android:nv-barcode:3.9.2",
+        "com.jumio.android:nv-mrz:3.9.2",
+        "com.jumio.android:nv:3.9.2",
+        "com.loopj.android:android-async-http:1.4.9",
+        "com.plaid.link:sdk-core:3.4.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.picasso:picasso:2.71828",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.8.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.uber.autodispose2:autodispose-android:2.1.0",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sagisu.vaultLibrary.TransactionDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.BuyCoinsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.ContactTransferActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.ContactsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.DocumentVerificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.FundWalletActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.PlaidLinkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.ReceiveCryptoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.TransferToAccountActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.VaultMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.businessprofile.BusinessProfileActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.businessprofile.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.businessrequests.BusinessRequestsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.kyc.VerifyIdIntroActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.kyc.VerifyIdSuccessActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.login.VaultLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.splashscreen.VaultSplashScreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.storyteller.StoryTellerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.trade.send.SendActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.trade.watchlists.TokenWatchlistsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sagisu.vaultLibrary.ui.transactions.TransactionHistoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

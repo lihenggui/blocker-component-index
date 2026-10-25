@@ -1,0 +1,154 @@
+{
+  "coordinate": "com.sensorsdata.analytics.android:SensorsFocusSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5.0": {
+      "fetchedAt": "2026-10-24T23:14:32Z",
+      "sha256": "712ecd673c5bf86d8e91a4c31efffbab93fe03adf3de08bbeaf7ba5bc3462af7",
+      "dependencies": []
+    },
+    "0.5.1": {
+      "fetchedAt": "2026-10-24T23:14:31Z",
+      "sha256": "2ab500b1d45d22c75128d7e853c05662e5b11460b05cd4e6b58fccafd0993a31",
+      "dependencies": []
+    },
+    "0.5.2": {
+      "fetchedAt": "2026-10-24T23:14:31Z",
+      "sha256": "bababd67cd3321a4aa6e8f076a62a7094ae642159786eacc12f84fd4188bc67d",
+      "dependencies": []
+    },
+    "0.5.3": {
+      "fetchedAt": "2026-10-24T23:14:30Z",
+      "sha256": "8869ea74634fb5fb82ae6460fcfaf2b36954847b562b8b834df29fd7377d680f",
+      "dependencies": []
+    },
+    "0.5.4": {
+      "fetchedAt": "2026-10-24T23:14:30Z",
+      "sha256": "ade4d3e453ed60a29cff2cf43fd084e032b025efea585e05cff9dd6bd09d0bdf",
+      "dependencies": []
+    },
+    "0.5.5": {
+      "fetchedAt": "2026-10-24T23:14:29Z",
+      "sha256": "e48af1e27451a905e13a4bec8c348f78669e6f8ddd10bc609de1a5b341b5c73d",
+      "dependencies": []
+    },
+    "0.5.6": {
+      "fetchedAt": "2026-10-24T23:14:29Z",
+      "sha256": "b9e9e547eb77f7b16f00044e6593f4bdba43f97ad6667a6b9e2c76835ff14722",
+      "dependencies": []
+    },
+    "0.6.0": {
+      "fetchedAt": "2026-10-24T23:14:28Z",
+      "sha256": "55f2abbbca07a0f1b71e134e4f29a0af1131ee4ed2c4aaea0a7c22b8d8ac95e1",
+      "dependencies": []
+    },
+    "0.6.1": {
+      "fetchedAt": "2026-10-24T23:14:27Z",
+      "sha256": "9bd3ef147309cbfbb6a1cbdde91170e76c8067bb4943f44fe393e6883e5532ec",
+      "dependencies": []
+    },
+    "0.6.2": {
+      "fetchedAt": "2026-10-24T23:14:27Z",
+      "sha256": "77840b2a61e28f97830c46d820ce957a0c8ae4e91ee5d653d34f1d696b0bbbe6",
+      "dependencies": []
+    },
+    "0.6.3": {
+      "fetchedAt": "2026-10-24T23:14:26Z",
+      "sha256": "dd63623f01c041d1a28b621aabcc723fb55fce436227f0af809d4fb5726012b0",
+      "dependencies": []
+    },
+    "0.6.4": {
+      "fetchedAt": "2026-10-24T23:14:26Z",
+      "sha256": "cb565536592c665feabece230f38ab65b5b8253367dc15214c90ae7614cd2c5b",
+      "dependencies": []
+    },
+    "0.6.5": {
+      "fetchedAt": "2026-10-24T23:14:25Z",
+      "sha256": "bbe468c5f6c9afdcf7754d3dc35c0883373743c157cc74f180add72aaf23d498",
+      "dependencies": []
+    },
+    "0.6.6": {
+      "fetchedAt": "2026-10-24T23:14:24Z",
+      "sha256": "6297073c73f7b0477d9f45f404faf5700847c622a8f2caafa236728a6343a359",
+      "dependencies": []
+    },
+    "0.7.0": {
+      "fetchedAt": "2026-10-24T23:14:24Z",
+      "sha256": "bf8aeacde907472fb04fd49d499ac7ec4e22d2687b8ce5efcf71560631ae76ba",
+      "dependencies": []
+    },
+    "0.7.1": {
+      "fetchedAt": "2026-10-24T23:14:23Z",
+      "sha256": "517f7b6df002da010c4087fa9196cfab48b5b8ba666311d620bae6cf56609bbc",
+      "dependencies": []
+    },
+    "0.7.2": {
+      "fetchedAt": "2026-10-24T23:14:22Z",
+      "sha256": "2b02daf38e4fb6465fc2f012c43e02aba0c696f673b84357ad557e42693d2d89",
+      "dependencies": []
+    },
+    "0.7.3": {
+      "fetchedAt": "2026-10-24T23:14:23Z",
+      "sha256": "59b3b91ab06be5d00b6760c6e97df512eefd699b98dcf4df437b7ceab53d264b",
+      "dependencies": []
+    },
+    "0.7.4": {
+      "fetchedAt": "2026-10-24T23:14:22Z",
+      "sha256": "8a8f910434631da7591b6bda0fab21b49df0d0a35febdb95046bee9f56c7e367",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sensorsdata.sf.core.data.SensorsFocusContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.5.0",
+          "0.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SensorsFocusContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sensorsdata.sf.ui.view.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5.0",
+          "0.7.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sensorsdata.sf.ui.view.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.4",
+          "0.7.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

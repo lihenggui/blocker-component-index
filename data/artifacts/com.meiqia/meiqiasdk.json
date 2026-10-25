@@ -1,0 +1,297 @@
+{
+  "coordinate": "com.meiqia:meiqiasdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.8.2": {
+      "fetchedAt": "2026-10-24T21:48:16Z",
+      "sha256": "3e8a2cdbcd305a8d3e987f86e80cb566b32654e08f123fb5953e49c42e2dacf0",
+      "dependencies": []
+    },
+    "3.8.3": {
+      "fetchedAt": "2026-10-24T21:48:15Z",
+      "sha256": "3e8a2cdbcd305a8d3e987f86e80cb566b32654e08f123fb5953e49c42e2dacf0",
+      "dependencies": []
+    },
+    "3.8.4": {
+      "fetchedAt": "2026-10-24T21:48:15Z",
+      "sha256": "3e8a2cdbcd305a8d3e987f86e80cb566b32654e08f123fb5953e49c42e2dacf0",
+      "dependencies": []
+    },
+    "3.8.5": {
+      "fetchedAt": "2026-10-24T21:48:14Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.8.6": {
+      "fetchedAt": "2026-10-24T21:48:14Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.8.7": {
+      "fetchedAt": "2026-10-24T21:48:14Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.8.8": {
+      "fetchedAt": "2026-10-24T21:48:13Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.8.9": {
+      "fetchedAt": "2026-10-24T21:48:13Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.0": {
+      "fetchedAt": "2026-10-24T21:48:12Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.1": {
+      "fetchedAt": "2026-10-24T21:48:12Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.2": {
+      "fetchedAt": "2026-10-24T21:48:12Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.3": {
+      "fetchedAt": "2026-10-24T21:48:11Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.4": {
+      "fetchedAt": "2026-10-24T21:48:11Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.5": {
+      "fetchedAt": "2026-10-24T21:48:10Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.6": {
+      "fetchedAt": "2026-10-24T21:48:10Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.7": {
+      "fetchedAt": "2026-10-24T21:48:10Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.8": {
+      "fetchedAt": "2026-10-24T21:48:09Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.9": {
+      "fetchedAt": "2026-10-24T21:48:09Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.10": {
+      "fetchedAt": "2026-10-24T21:48:08Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    },
+    "3.9.11": {
+      "fetchedAt": "2026-10-24T21:48:08Z",
+      "sha256": "cab656c89e2533cc1960569d7921f373abf22bd66a274935097f190b79a5d792",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.meiqia.core.MQInitializeContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.8.5",
+          "3.9.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MQInitializeContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.core.MeiQiaService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQCollectInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQConversationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQInquiryFormActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQMessageFormActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQPhotoPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQPhotoPickerPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQPhotoPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.activity.MQWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meiqia.meiqiasdk.util.MQFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.8.2",
+          "3.9.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

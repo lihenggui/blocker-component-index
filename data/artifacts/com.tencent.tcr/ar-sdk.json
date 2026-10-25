@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.tencent.tcr:ar-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T00:02:29Z",
+      "sha256": "a5915cf1a8d74aa47c64a2825e58963ad2a6b90b6ec537e455797772d84f197d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.android.support:design:28.0.0",
+        "com.android.volley:volley:1.2.0",
+        "com.google.ar:core:1.26.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.huawei.hms:arenginesdk:4.0.0.5",
+        "com.tencent.tcr:afc-utils:1.0.1",
+        "com.tencent.tcr:tcr-gamepad:0.0.2",
+        "com.tencent.tcr:tcrsdk-full:0.0.2",
+        "de.javagl:obj:0.2.1"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T00:02:28Z",
+      "sha256": "a5915cf1a8d74aa47c64a2825e58963ad2a6b90b6ec537e455797772d84f197d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.android.support:design:28.0.0",
+        "com.android.volley:volley:1.2.0",
+        "com.google.ar:core:1.26.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.huawei.hms:arenginesdk:4.0.0.5",
+        "com.tencent.tcr:afc-utils:1.0.1",
+        "com.tencent.tcr:tcr-gamepad:0.0.2",
+        "com.tencent.tcr:tcrsdk-full:0.0.2",
+        "de.javagl:obj:0.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.tcr.ar.activity.ConnectHuaweiAppMarketActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

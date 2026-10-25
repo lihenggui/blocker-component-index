@@ -1,0 +1,48 @@
+{
+  "coordinate": "com.shrikantkale.anuj:ToastLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:17:40Z",
+      "sha256": "5d24ea61465adb901bb950cf73d31aaa8b772582dda20182858f00ba61af63d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:17:39Z",
+      "sha256": "5d24ea61465adb901bb950cf73d31aaa8b772582dda20182858f00ba61af63d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T23:17:39Z",
+      "sha256": "b84acb86e75c3072ce7ad2d9932dc375e53665bcb0aef1e43d16a1405d5151bb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.shrikantkale.anuj.HmsMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

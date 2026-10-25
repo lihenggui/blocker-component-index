@@ -1,0 +1,101 @@
+{
+  "coordinate": "com.miquido.android.navigation:navigation-koin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta": {
+      "fetchedAt": "2026-10-24T21:58:45Z",
+      "sha256": "4d422830a911075a778c65dead1c20a44879e569294170c022c58281a420d4e6",
+      "dependencies": [
+        "androidx.compose.runtime:runtime:1.4.0-rc01",
+        "androidx.compose.ui:ui:1.4.0-rc01",
+        "androidx.navigation:navigation-runtime:2.6.0-alpha07",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.miquido.android.navigation:navigation-runtime:1.0.0-beta",
+        "io.insert-koin:koin-androidx-compose:3.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T21:58:44Z",
+      "sha256": "4d422830a911075a778c65dead1c20a44879e569294170c022c58281a420d4e6",
+      "dependencies": [
+        "androidx.compose.foundation:foundation:1.6.8",
+        "androidx.compose.runtime:runtime:1.6.8",
+        "androidx.compose.ui:ui:1.6.8",
+        "androidx.navigation:navigation-runtime:2.7.7",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.miquido.android.navigation:navigation-runtime:1.0.0",
+        "io.insert-koin:koin-androidx-compose:3.5.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T21:58:44Z",
+      "sha256": "7026a29e1bfdb7395baa7431818782daffee1344715eb7d972bd39fb26c4ffbd",
+      "dependencies": [
+        "androidx.compose.foundation:foundation:1.7.3",
+        "androidx.compose.runtime:runtime:1.7.3",
+        "androidx.compose.ui:ui:1.7.3",
+        "androidx.navigation:navigation-runtime:2.8.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.miquido.android.navigation:navigation-runtime:1.1.0",
+        "io.insert-koin:koin-androidx-compose:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T21:58:43Z",
+      "sha256": "7026a29e1bfdb7395baa7431818782daffee1344715eb7d972bd39fb26c4ffbd",
+      "dependencies": [
+        "androidx.compose.foundation:foundation:1.7.3",
+        "androidx.compose.runtime:runtime:1.7.3",
+        "androidx.compose.ui:ui:1.7.3",
+        "androidx.navigation:navigation-runtime:2.8.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.miquido.android.navigation:navigation-runtime:1.1.1",
+        "io.insert-koin:koin-androidx-compose:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.miquido.android.navigation.KoinNavEntryViewModelInitializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-beta",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.miquido.android.navigation.NavEntryKoinViewModelInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "coordinate": "com.tencent.imsdk:tuipoll-plugin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.3.4358": {
+      "fetchedAt": "2026-10-24T23:55:23Z",
+      "sha256": "f8b660515696ee13b76664c6684761aaaea87895ef015b34d69b97446ac2fa8b",
+      "dependencies": []
+    },
+    "7.4.4643": {
+      "fetchedAt": "2026-10-24T23:55:23Z",
+      "sha256": "f8b660515696ee13b76664c6684761aaaea87895ef015b34d69b97446ac2fa8b",
+      "dependencies": []
+    },
+    "7.5.4852": {
+      "fetchedAt": "2026-10-24T23:55:22Z",
+      "sha256": "f8b660515696ee13b76664c6684761aaaea87895ef015b34d69b97446ac2fa8b",
+      "dependencies": []
+    },
+    "7.6.5011": {
+      "fetchedAt": "2026-10-24T23:55:22Z",
+      "sha256": "f8b660515696ee13b76664c6684761aaaea87895ef015b34d69b97446ac2fa8b",
+      "dependencies": []
+    },
+    "7.7.5282": {
+      "fetchedAt": "2026-10-24T23:55:21Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "7.8.5483": {
+      "fetchedAt": "2026-10-24T23:55:20Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "7.8.5484": {
+      "fetchedAt": "2026-10-24T23:55:20Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "7.9.5666": {
+      "fetchedAt": "2026-10-24T23:55:19Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.0.5895": {
+      "fetchedAt": "2026-10-24T23:55:19Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.1.6103": {
+      "fetchedAt": "2026-10-24T23:55:18Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.1.6116": {
+      "fetchedAt": "2026-10-24T23:55:18Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.2.6325": {
+      "fetchedAt": "2026-10-24T23:55:17Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.3.6498": {
+      "fetchedAt": "2026-10-24T23:55:17Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.4.6667": {
+      "fetchedAt": "2026-10-24T23:55:16Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.5.6864": {
+      "fetchedAt": "2026-10-24T23:55:16Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.6.7019": {
+      "fetchedAt": "2026-10-24T23:55:14Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.7.7201": {
+      "fetchedAt": "2026-10-24T23:55:15Z",
+      "sha256": "d5ab6d1df1bb9a95836fd93424b9437ef81727da6ac819f011e7b84f42da6875",
+      "dependencies": []
+    },
+    "8.9.7511": {
+      "fetchedAt": "2026-10-24T23:55:14Z",
+      "sha256": "83f51cedb7e6647c67b58937bba8eb1e2090fc7253af5dba87d442b756e3fb58",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.tuikit.tuipollplugin.TUIPollService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "7.6.5011"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TUIPoll.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuipollplugin.classicui.page.TUIPollCreatorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "8.9.7511"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuipollplugin.classicui.page.TUIPollParticipantsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "8.9.7511"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "coordinate": "com.netease.yunxin.kit.meeting:meeting-dingxiao",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.9.6": {
+      "fetchedAt": "2026-10-24T22:22:13Z",
+      "sha256": "323ea1c35b336924c33c17376e7ae7d562b32ec99df9104ce6d886fa1a7866f9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.1",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.browser:browser:1.6.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.core:core:1.6.0",
+        "androidx.fragment:fragment:1.1.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-common:2.2.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.media3:media3-exoplayer-dash:1.4.0",
+        "androidx.media3:media3-exoplayer-hls:1.4.0",
+        "androidx.media3:media3-exoplayer-rtsp:1.4.0",
+        "androidx.media3:media3-exoplayer-smoothstreaming:1.4.0",
+        "androidx.media3:media3-exoplayer:1.4.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.tracing:tracing:1.0.0",
+        "androidx.webkit:webkit:1.8.0",
+        "androidx.window:window-java:1.0.0-beta04",
+        "com.google.code.gson:gson:2.9.0",
+        "com.netease.yunxin.kit.room:roomkit:1.32.2",
+        "com.netease.yunxin.kit:alog:1.0.8",
+        "com.netease.yunxin:nertc-aidenoise:5.6.33",
+        "com.netease.yunxin:nertc-aihowling:5.6.33",
+        "com.netease.yunxin:nertc-audio3d:5.6.33",
+        "com.netease.yunxin:nertc-base:5.6.33",
+        "com.netease.yunxin:nertc-beauty:5.6.33",
+        "com.netease.yunxin:nertc-facedetect:5.6.33",
+        "com.netease.yunxin:nertc-faceenhance:5.6.33",
+        "com.netease.yunxin:nertc-nenn:5.6.33",
+        "com.netease.yunxin:nertc-segment:5.6.33",
+        "com.netease.yunxin:nertc-superresolution:5.6.33",
+        "com.netease.yunxin:nertc-videodenoise:5.6.33",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.crazecoder.openfile.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider.com.crazecoder.openfile",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.netease.meeting.plugin.foregroundservice.NEForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.netease.Yunxin.ScreenShare"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.meeting.ui.NEChatroomHistoryMessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.meeting.ui.NEFeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.meeting.ui.NEMeetingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.meeting.ui.NEWebAppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.9.6",
+          "4.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

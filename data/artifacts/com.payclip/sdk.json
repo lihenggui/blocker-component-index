@@ -1,0 +1,131 @@
+{
+  "coordinate": "com.payclip:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T22:42:30Z",
+      "sha256": "8394b63dc2d6637c50839dba258c52c5bc2b24e169b73d22d2aaa6ff2c35661c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.dynamicanimation:dynamicanimation:1.1.0-alpha02",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.0.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.navigation:navigation-fragment-ktx:2.2.0-alpha03",
+        "androidx.navigation:navigation-ui-ktx:2.2.0-alpha03",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha03",
+        "androidx.vectordrawable:vectordrawable:1.1.0-alpha01",
+        "com.airbnb.android:lottie:3.0.7",
+        "com.auth0.android:jwtdecode:1.1.1",
+        "com.caverock:androidsvg:1.2.1",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.android.gms:play-services-maps:17.0.0",
+        "com.google.android.material:material:1.1.0-alpha10",
+        "com.google.code.gson:gson:2.8.1",
+        "com.karumi:dexter:4.1.0",
+        "com.payclip.sdk:dspread:unspecified",
+        "com.payclip.sdk:network:unspecified",
+        "com.payclip.sdk:storage:unspecified",
+        "com.payclip.sdk:terminal:unspecified",
+        "com.squareup.picasso:picasso:2.5.2",
+        "org.greenrobot:eventbus:3.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.3",
+        "org.koin:koin-androidx-scope:2.0.1",
+        "org.koin:koin-androidx-viewmodel:2.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.payclip.demo.remotepayment.history.HistoryRemotePaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.payclip.sdk.views.history.ClipTransactionHistoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.payclip.sdk.views.payment.PaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.payclip.sdk.views.settings.ClipSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.payclip.sdk.views.signature.SignatureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

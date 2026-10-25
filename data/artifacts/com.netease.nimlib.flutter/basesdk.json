@@ -1,0 +1,165 @@
+{
+  "coordinate": "com.netease.nimlib.flutter:basesdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "8.6.3": {
+      "fetchedAt": "2026-10-24T22:17:24Z",
+      "sha256": "9571e81ebafd2e311fc4ff70b51d0638047fa9b1cd6b286b20797ee701025887",
+      "dependencies": []
+    },
+    "8.6.5": {
+      "fetchedAt": "2026-10-24T22:17:23Z",
+      "sha256": "7cf9045716edca7d17121ec559313763bafc6c0cecd60852eec2ef673f9359a0",
+      "dependencies": []
+    },
+    "8.11.7": {
+      "fetchedAt": "2026-10-24T22:17:23Z",
+      "sha256": "21ba54628eddd5306d2e27e1a98588677392372e4674e7cd3838b2baa03fbf94",
+      "dependencies": []
+    },
+    "8.11.9": {
+      "fetchedAt": "2026-10-24T22:17:22Z",
+      "sha256": "ef1daab86cac25e4f866a9c4eed9aa91b5625d348f76b076beb78dcbc7c98804",
+      "dependencies": []
+    },
+    "8.11.11": {
+      "fetchedAt": "2026-10-24T22:17:21Z",
+      "sha256": "6ede38ea075df0da6802e17bd491a554f36fe15db2041937808d2de7faa29dad",
+      "dependencies": []
+    },
+    "8.11.12": {
+      "fetchedAt": "2026-10-24T22:17:20Z",
+      "sha256": "81e90a379c0af6d5fb2c6a7fc7208f02a55a8369d2f3be266c254a8499510f94",
+      "dependencies": []
+    },
+    "8.11.13": {
+      "fetchedAt": "2026-10-24T22:17:20Z",
+      "sha256": "a356435aa97a3fe2feb30a2ed9c543aaa2399e511ee29cc17ee4fbd9944ac97d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "8.6.3",
+          "8.11.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ipc.provider.preference",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.job.NIMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.6.3",
+          "8.11.13"
+        ]
+      ],
+      "exported": true,
+      "process": ":core",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "8.6.3",
+          "8.11.13"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.6.3",
+          "8.11.13"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimService$Aux",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.6.3",
+          "8.11.13"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.ResponseReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "8.6.3",
+          "8.11.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.ResponseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.6.3",
+          "8.11.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

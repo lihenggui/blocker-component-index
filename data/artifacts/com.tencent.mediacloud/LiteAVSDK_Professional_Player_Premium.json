@@ -1,0 +1,84 @@
+{
+  "coordinate": "com.tencent.mediacloud:LiteAVSDK_Professional_Player_Premium",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "12.2.0.29002": {
+      "fetchedAt": "2026-10-25T00:00:47Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.2.0.29003": {
+      "fetchedAt": "2026-10-25T00:00:46Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.2.0.29004": {
+      "fetchedAt": "2026-10-25T00:00:45Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.2.0.29006": {
+      "fetchedAt": "2026-10-25T00:00:43Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.7.0.19083": {
+      "fetchedAt": "2026-10-25T00:00:44Z",
+      "sha256": "74ea2fdf935fe858833ed4da0164b6b18ebe970400164627f3452e17b5f6b906",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.liteav.audio2.permission.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "12.7.0.19083",
+          "12.7.0.19083"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.rtmp.video.ScreenCaptureService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "12.2.0.29002",
+          "12.2.0.29006"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "12.2.0.29002",
+          "12.2.0.29006"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

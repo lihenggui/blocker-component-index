@@ -1,0 +1,89 @@
+{
+  "coordinate": "com.pallycon:widevine",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.4.4": {
+      "fetchedAt": "2026-10-24T22:40:59Z",
+      "sha256": "f4034610c4179362069ce60a35d15bc5995f892bf0eac84104e170a461d5b656",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.security:security-crypto-ktx:1.1.0-alpha03",
+        "androidx.test.ext:junit-ktx:1.1.3",
+        "com.google.android.exoplayer:exoplayer-core:2.18.1",
+        "com.google.android.exoplayer:exoplayer-dash:2.18.1",
+        "com.google.android.exoplayer:exoplayer-hls:2.18.1",
+        "com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1",
+        "com.google.android.exoplayer:extension-okhttp:2.18.1",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.9.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
+      ]
+    },
+    "3.4.5": {
+      "fetchedAt": "2026-10-24T22:40:58Z",
+      "sha256": "f4034610c4179362069ce60a35d15bc5995f892bf0eac84104e170a461d5b656",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.security:security-crypto-ktx:1.1.0-alpha03",
+        "androidx.test.ext:junit-ktx:1.1.3",
+        "com.google.android.exoplayer:exoplayer-core:2.18.1",
+        "com.google.android.exoplayer:exoplayer-dash:2.18.1",
+        "com.google.android.exoplayer:exoplayer-hls:2.18.1",
+        "com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1",
+        "com.google.android.exoplayer:extension-okhttp:2.18.1",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.9.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
+      ]
+    },
+    "3.4.6": {
+      "fetchedAt": "2026-10-24T22:40:57Z",
+      "sha256": "f4034610c4179362069ce60a35d15bc5995f892bf0eac84104e170a461d5b656",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.security:security-crypto-ktx:1.1.0-alpha03",
+        "androidx.test.ext:junit-ktx:1.1.3",
+        "com.google.android.exoplayer:exoplayer-core:2.18.1",
+        "com.google.android.exoplayer:exoplayer-dash:2.18.1",
+        "com.google.android.exoplayer:exoplayer-hls:2.18.1",
+        "com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1",
+        "com.google.android.exoplayer:extension-okhttp:2.18.1",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.9.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pallycon.widevine.service.PallyConDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.4.4",
+          "3.4.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.exoplayer.downloadService.action.RESTART"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

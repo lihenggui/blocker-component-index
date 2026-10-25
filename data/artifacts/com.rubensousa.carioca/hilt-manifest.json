@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.rubensousa.carioca:hilt-manifest",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:07:13Z",
+      "sha256": "ae4c54026bb0e712fa7a4fe96785a3d1f82da1eb9763358d4455cc70546fd604",
+      "dependencies": [
+        "androidx.fragment:fragment:1.8.3",
+        "com.google.dagger:hilt-android:2.52",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rubensousa.carioca.hilt.manifest.EmptyHiltActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

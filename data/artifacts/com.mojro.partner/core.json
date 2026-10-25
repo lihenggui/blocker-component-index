@@ -1,0 +1,591 @@
+{
+  "coordinate": "com.mojro.partner:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.5": {
+      "fetchedAt": "2026-10-24T22:04:35Z",
+      "sha256": "3e33a52ebfbc88f9354c38811f76235a930f08b7f4b0a3b6bb4c8f4a8dddf823",
+      "dependencies": []
+    },
+    "1.4.6": {
+      "fetchedAt": "2026-10-24T22:04:34Z",
+      "sha256": "c335f7489fcb333cc0e6298b01e6b53e6ef502e6a970c3f4577916029320a405",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.lifecycle:lifecycle-runtime:2.0.0",
+        "androidx.mediarouter:mediarouter:1.0.0",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.room:room-runtime:2.0.0",
+        "androidx.vectordrawable:vectordrawable-animated:1.0.0",
+        "com.bluelinelabs:conductor-support:2.1.4",
+        "com.bluelinelabs:conductor:2.1.4",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.google.android.gms:play-services-auth:20.2.0",
+        "com.google.android.gms:play-services-base:17.3.0",
+        "com.google.android.gms:play-services-location:21.0.0",
+        "com.google.android.gms:play-services-maps:17.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.dagger:dagger:2.26",
+        "com.google.firebase:firebase-bom:26.8.0",
+        "com.google.firebase:firebase-messaging:23.1.1",
+        "com.google.firebase:firebase-perf:17.0.0",
+        "com.google.guava:guava:32.0.1-android",
+        "com.google.maps:google-maps-services:0.1.15",
+        "com.isseiaoki:simplecropview:1.1.8",
+        "com.itextpdf:itextpdf:5.3.1",
+        "com.jakewharton.threetenabp:threetenabp:1.1.0",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.jakewharton:butterknife:10.2.0",
+        "com.journeyapps:zxing-android-embedded:3.4.0",
+        "com.squareup.retrofit2:adapter-rxjava:2.1.0",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "com.tom-roush:pdfbox-android:2.0.24.0",
+        "de.hdodenhof:circleimageview:2.1.0",
+        "io.reactivex:rxandroid:1.2.1",
+        "io.reactivex:rxjava:1.1.6",
+        "org.greenrobot:eventbus:3.0.0",
+        "org.jscience:jscience:4.3.1",
+        "org.jsoup:jsoup:1.8.3",
+        "org.projectlombok:lombok:1.18.12"
+      ]
+    },
+    "1.4.7": {
+      "fetchedAt": "2026-10-24T22:04:33Z",
+      "sha256": "c335f7489fcb333cc0e6298b01e6b53e6ef502e6a970c3f4577916029320a405",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.lifecycle:lifecycle-runtime:2.0.0",
+        "androidx.mediarouter:mediarouter:1.0.0",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.room:room-runtime:2.0.0",
+        "androidx.vectordrawable:vectordrawable-animated:1.0.0",
+        "com.bluelinelabs:conductor-support:2.1.4",
+        "com.bluelinelabs:conductor:2.1.4",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.google.android.gms:play-services-auth:20.2.0",
+        "com.google.android.gms:play-services-base:17.3.0",
+        "com.google.android.gms:play-services-location:21.0.0",
+        "com.google.android.gms:play-services-maps:17.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.dagger:dagger:2.26",
+        "com.google.firebase:firebase-bom:26.8.0",
+        "com.google.firebase:firebase-messaging:23.1.1",
+        "com.google.firebase:firebase-perf:17.0.0",
+        "com.google.guava:guava:32.0.1-android",
+        "com.google.maps:google-maps-services:0.1.15",
+        "com.isseiaoki:simplecropview:1.1.8",
+        "com.itextpdf:itextpdf:5.3.1",
+        "com.jakewharton.threetenabp:threetenabp:1.1.0",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.jakewharton:butterknife:10.2.0",
+        "com.journeyapps:zxing-android-embedded:3.4.0",
+        "com.squareup.retrofit2:adapter-rxjava:2.1.0",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "com.tom-roush:pdfbox-android:2.0.24.0",
+        "de.hdodenhof:circleimageview:2.1.0",
+        "io.reactivex:rxandroid:1.2.1",
+        "io.reactivex:rxjava:1.1.6",
+        "org.greenrobot:eventbus:3.0.0",
+        "org.jscience:jscience:4.3.1",
+        "org.jsoup:jsoup:1.8.3",
+        "org.projectlombok:lombok:1.18.12"
+      ]
+    },
+    "1.4.8": {
+      "fetchedAt": "2026-10-24T22:04:32Z",
+      "sha256": "c335f7489fcb333cc0e6298b01e6b53e6ef502e6a970c3f4577916029320a405",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.lifecycle:lifecycle-runtime:2.0.0",
+        "androidx.mediarouter:mediarouter:1.0.0",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.room:room-runtime:2.0.0",
+        "androidx.vectordrawable:vectordrawable-animated:1.0.0",
+        "com.bluelinelabs:conductor-support:2.1.4",
+        "com.bluelinelabs:conductor:2.1.4",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.github.igreenwood:SimpleCropView:5694759275",
+        "com.google.android.gms:play-services-auth:20.2.0",
+        "com.google.android.gms:play-services-base:17.3.0",
+        "com.google.android.gms:play-services-location:21.0.0",
+        "com.google.android.gms:play-services-maps:17.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.dagger:dagger:2.26",
+        "com.google.firebase:firebase-bom:26.8.0",
+        "com.google.firebase:firebase-messaging:23.1.1",
+        "com.google.firebase:firebase-perf:17.0.0",
+        "com.google.guava:guava:32.0.1-android",
+        "com.google.maps:google-maps-services:0.1.15",
+        "com.itextpdf:itextpdf:5.3.1",
+        "com.jakewharton.threetenabp:threetenabp:1.1.0",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.jakewharton:butterknife:10.2.0",
+        "com.journeyapps:zxing-android-embedded:3.5.0",
+        "com.squareup.retrofit2:adapter-rxjava:2.1.0",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "com.tom-roush:pdfbox-android:2.0.24.0",
+        "de.hdodenhof:circleimageview:2.1.0",
+        "io.reactivex:rxandroid:1.2.1",
+        "io.reactivex:rxjava:1.1.6",
+        "org.greenrobot:eventbus:3.0.0",
+        "org.jscience:jscience:4.3.1",
+        "org.jsoup:jsoup:1.8.3",
+        "org.projectlombok:lombok:1.18.12"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T22:04:31Z",
+      "sha256": "ff1fec0b61f394b0f6fd03f65ace699f2c8d67771a264c54d8e5aaaa83c90600",
+      "dependencies": []
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T22:04:31Z",
+      "sha256": "66f6a0cfb0e8a1a04c6ed35fdb0c83aba5370dee929ff00eaa2418affe4806b9",
+      "dependencies": []
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-24T22:04:30Z",
+      "sha256": "66f6a0cfb0e8a1a04c6ed35fdb0c83aba5370dee929ff00eaa2418affe4806b9",
+      "dependencies": []
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-24T22:04:29Z",
+      "sha256": "66f6a0cfb0e8a1a04c6ed35fdb0c83aba5370dee929ff00eaa2418affe4806b9",
+      "dependencies": []
+    },
+    "1.5.4": {
+      "fetchedAt": "2026-10-24T22:04:29Z",
+      "sha256": "66f6a0cfb0e8a1a04c6ed35fdb0c83aba5370dee929ff00eaa2418affe4806b9",
+      "dependencies": []
+    },
+    "1.5.5": {
+      "fetchedAt": "2026-10-24T22:04:28Z",
+      "sha256": "66f6a0cfb0e8a1a04c6ed35fdb0c83aba5370dee929ff00eaa2418affe4806b9",
+      "dependencies": []
+    },
+    "1.5.6": {
+      "fetchedAt": "2026-10-24T22:04:27Z",
+      "sha256": "66f6a0cfb0e8a1a04c6ed35fdb0c83aba5370dee929ff00eaa2418affe4806b9",
+      "dependencies": []
+    },
+    "1.5.7": {
+      "fetchedAt": "2026-10-24T22:04:27Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    },
+    "1.5.8": {
+      "fetchedAt": "2026-10-24T22:04:26Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    },
+    "1.5.9": {
+      "fetchedAt": "2026-10-24T22:04:25Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-24T22:04:24Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-24T22:04:24Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    },
+    "1.6.2": {
+      "fetchedAt": "2026-10-24T22:04:23Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    },
+    "1.6.3": {
+      "fetchedAt": "2026-10-24T22:04:23Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    },
+    "1.6.4": {
+      "fetchedAt": "2026-10-24T22:04:22Z",
+      "sha256": "7516c267f9c62707ca4badd6f8de336cc1af862df3895f86a65cd0b964fa3fff",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.mojro.partner.core.data.SyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.receiver.BatterLevelReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BATTERY_LOW"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.service.OfflineDataSyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.service.ServiceHealthChecker",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.service.VehicleTrackingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.activities.qr.ShareShipmentsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.activities.qr.ShareShipmentsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.home.PartnerHomePageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.home.PartnerHomePageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.scanner.ScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.scanner.ScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.ShipmentDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.ShipmentDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.invoice.OrderLevelDataCapturingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.invoice.OrderLevelDataCapturingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.invoice.doc.OrderDocumentCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.invoice.doc.OrderDocumentCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.shipmentactivityproofs.CustomCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.shipmentactivityproofs.CustomCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.tripshipmentsactivities.TripShipmentsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojro.partner.core.ui.tripnavigation.tripshipmentsactivities.TripShipmentsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.5",
+          "1.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

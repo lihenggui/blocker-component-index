@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.qcloud.cos:tpg-nobeacon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.5": {
+      "fetchedAt": "2026-10-24T22:55:50Z",
+      "sha256": "082f7e51b2dc22947e2c46b00dbe8b8315ef7261f1033bafa7430e540f55a999",
+      "dependencies": []
+    },
+    "1.3.6": {
+      "fetchedAt": "2026-10-24T22:55:49Z",
+      "sha256": "ddfb974db3d658e5ed2e08ae294d59cb5ea102b75ab71c73b8ab4fcd14b364ed",
+      "dependencies": []
+    },
+    "1.3.7": {
+      "fetchedAt": "2026-10-24T22:55:49Z",
+      "sha256": "e04a466ab5192a189c3b8124db65857e61513f390a3cacba5c5615107c78e469",
+      "dependencies": []
+    },
+    "1.3.8": {
+      "fetchedAt": "2026-10-24T22:55:48Z",
+      "sha256": "c0b2f3503ecc662953e40f06ffbe8668ec8a58651f20bdc56f4d5c42a115e48f",
+      "dependencies": []
+    },
+    "1.3.9": {
+      "fetchedAt": "2026-10-24T22:55:48Z",
+      "sha256": "38a51b911a3d8f632477d877d3360bcfa7fae08c83a9b89445b3ad57ea0b3940",
+      "dependencies": []
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-24T22:55:47Z",
+      "sha256": "e604043758faf376167c8d89f733cecd68ba853b3f6f2ab5587d3270b53df1aa",
+      "dependencies": [
+        "com.qcloud.cos:qcloud-decoder-base:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.image.tpg.TpgInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.7",
+          "1.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.qcloud.cos.tpg",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.image.tpg.TpgInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.5",
+          "1.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

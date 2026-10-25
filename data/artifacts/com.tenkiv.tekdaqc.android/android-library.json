@@ -1,0 +1,273 @@
+{
+  "coordinate": "com.tenkiv.tekdaqc.android:android-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.0": {
+      "fetchedAt": "2026-10-25T00:08:48Z",
+      "sha256": "10a0cf26173a28bfbaf74c0f11571b04ae5243b6e6ded2ca5b1f5533e881e3a6",
+      "dependencies": []
+    },
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-25T00:08:48Z",
+      "sha256": "013680c138f1aa85b9238083cbf3ee5141e54faacefb0e096d74cecdf1feade7",
+      "dependencies": []
+    },
+    "1.1.0.0": {
+      "fetchedAt": "2026-10-25T00:08:47Z",
+      "sha256": "9881d049df67dc54bee866d4aa757414ecfcab3db9c3923d609ef0edf0b95552",
+      "dependencies": []
+    },
+    "1.1.2.0": {
+      "fetchedAt": "2026-10-25T00:08:47Z",
+      "sha256": "23828eb5bca09a19237e7f790255826180fec990356a7e05be31aef3995b5960",
+      "dependencies": []
+    },
+    "1.1.2.1": {
+      "fetchedAt": "2026-10-25T00:08:46Z",
+      "sha256": "8a755b72fe4ebe74dc8e4b3113971fcb8a91ec3f667fa297c8220c7ded3dd7c8",
+      "dependencies": []
+    },
+    "1.1.2.2": {
+      "fetchedAt": "2026-10-25T00:08:46Z",
+      "sha256": "2e3e50647a1a5c658af3965d50f497ca9bcb3cea2454af08794d4caf95a4689e",
+      "dependencies": []
+    },
+    "1.1.2.3": {
+      "fetchedAt": "2026-10-25T00:08:45Z",
+      "sha256": "2e3e50647a1a5c658af3965d50f497ca9bcb3cea2454af08794d4caf95a4689e",
+      "dependencies": []
+    },
+    "1.1.2.4": {
+      "fetchedAt": "2026-10-25T00:08:45Z",
+      "sha256": "2e3e50647a1a5c658af3965d50f497ca9bcb3cea2454af08794d4caf95a4689e",
+      "dependencies": []
+    },
+    "1.1.2.5": {
+      "fetchedAt": "2026-10-25T00:08:44Z",
+      "sha256": "2e3e50647a1a5c658af3965d50f497ca9bcb3cea2454af08794d4caf95a4689e",
+      "dependencies": []
+    },
+    "1.1.2.7": {
+      "fetchedAt": "2026-10-25T00:08:44Z",
+      "sha256": "2e3e50647a1a5c658af3965d50f497ca9bcb3cea2454af08794d4caf95a4689e",
+      "dependencies": []
+    },
+    "1.1.2.8": {
+      "fetchedAt": "2026-10-25T00:08:43Z",
+      "sha256": "2e3e50647a1a5c658af3965d50f497ca9bcb3cea2454af08794d4caf95a4689e",
+      "dependencies": []
+    },
+    "2.0.0.0": {
+      "fetchedAt": "2026-10-25T00:08:43Z",
+      "sha256": "4a8b6b8391e990094b879090a8c36bd3bea8fa1b459a06a8256b453dac330d05",
+      "dependencies": [
+        "com.tenkiv.tekdaqc:java-library:1.2.0.0-SNAPSHOT"
+      ]
+    },
+    "2.1.0.0": {
+      "fetchedAt": "2026-10-25T00:08:42Z",
+      "sha256": "4a8b6b8391e990094b879090a8c36bd3bea8fa1b459a06a8256b453dac330d05",
+      "dependencies": [
+        "com.tenkiv.tekdaqc:java-library:2.1.0.0-SNAPSHOT"
+      ]
+    },
+    "2.1.2.0": {
+      "fetchedAt": "2026-10-25T00:08:42Z",
+      "sha256": "0f8734909d8d7a9ab046809548378f0424fd20580bf2c056e0ae086257874b77",
+      "dependencies": [
+        "com.tenkiv.tekdaqc:shared-java-library:1.0.0.0-SNAPSHOT"
+      ]
+    },
+    "2.1.2.2": {
+      "fetchedAt": "2026-10-25T00:08:41Z",
+      "sha256": "0f8734909d8d7a9ab046809548378f0424fd20580bf2c056e0ae086257874b77",
+      "dependencies": [
+        "com.android.support:support-v13:21.0.0"
+      ]
+    },
+    "2.1.2.3": {
+      "fetchedAt": "2026-10-25T00:08:40Z",
+      "sha256": "0f8734909d8d7a9ab046809548378f0424fd20580bf2c056e0ae086257874b77",
+      "dependencies": [
+        "com.android.support:support-v13:21.0.0",
+        "commons-net:commons-net:3.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tenkiv.tekdaqc.android.application.service.CommunicationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0.0",
+          "2.1.2.3"
+        ]
+      ],
+      "exported": false,
+      "process": ":remote",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.application.service.CommunicationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.2.0",
+          "1.1.2.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.application.service.LocatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.2.0",
+          "2.1.2.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.application.service.TekdaqcCommunicationManager$ComService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0.0",
+          "1.1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.application.service.TekdaqcLocatorManager$LocatorReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.2.0",
+          "2.1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tenkiv.tekdaqc.LOCATOR"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.application.service.TekdaqcLocatorManager$LocatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0.0",
+          "1.1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.content.TekdaqcDataProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "com.tenkiv.tekdaqc.android.data.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.services.CommunicationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.android.services.DiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenkiv.tekdaqc.locator.TekdaqcLocatorManager$LocatorReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.2.0",
+          "2.1.2.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tenkiv.tekdaqc.LOCATOR"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

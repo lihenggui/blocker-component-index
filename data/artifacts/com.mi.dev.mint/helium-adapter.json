@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.mi.dev.mint:helium-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0_1": {
+      "fetchedAt": "2026-10-24T21:50:55Z",
+      "sha256": "2c98600d0a6fbef8f7302abd7fa42a659697c6cd315f96c866b71181be22d1bd",
+      "dependencies": [
+        "MINT-Mediation-Android:mint-android-sdk:unspecified",
+        "com.chartboost:helium:2.2.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-base:17.4.0",
+        "org.greenrobot:eventbus:3.2.0"
+      ]
+    },
+    "2.2.1_1": {
+      "fetchedAt": "2026-10-24T21:50:54Z",
+      "sha256": "a9dc15720bfb3dd8bff18578d114b0a433a93c013075b4f418eb17cb0add0f5b",
+      "dependencies": []
+    },
+    "2.3.1.1": {
+      "fetchedAt": "2026-10-24T21:50:54Z",
+      "sha256": "cf493994d8b503a1c13dd61e2f3bde4fbb3b77f776009804736e33dea138aa30",
+      "dependencies": []
+    },
+    "2.3.1.2": {
+      "fetchedAt": "2026-10-24T21:50:53Z",
+      "sha256": "31ce8784ac4e8a47dc29efc5433aafd65ad90ad0c0a5051d08f81fa6e1517bd2",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.chartboost_helium.sdk.CBImpressionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0_1",
+          "2.3.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

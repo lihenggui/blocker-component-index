@@ -1,0 +1,30 @@
+{
+  "coordinate": "com.payermax:risk-collect",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:42:37Z",
+      "sha256": "a5747476ad6559bf834ecffe9ab114f4f377cc2d08b46a29bc9300f04dbe321d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.threatmetrix.TrustDefender.InternalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":tmpSrv",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

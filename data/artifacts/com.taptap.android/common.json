@@ -1,0 +1,30 @@
+{
+  "coordinate": "com.taptap.android:common",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.28.3": {
+      "fetchedAt": "2026-10-24T23:49:10Z",
+      "sha256": "fd8cb77392ab2a32c87db19570721629723ffda20cf38b65130ca99950c84563",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tds.common.provider.CurrentConfigProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.28.3",
+          "3.28.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.tap_config.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

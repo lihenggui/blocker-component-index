@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.pollfish:prodege",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.0.0-beta01": {
+      "fetchedAt": "2026-10-24T22:49:48Z",
+      "sha256": "3f69dc07af6f89ddc4e06ed4a089ef50c3b36722d6d41ffbb284a4e541906e7b",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.prodege.internal.presentation.ProdegeFullscreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.0.0-beta01",
+          "7.0.0-beta01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "coordinate": "com.tencent.mediacloud:LiteAVSDK_Professional",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "10.4.0.29006": {
+      "fetchedAt": "2026-10-25T00:00:42Z",
+      "sha256": "6413b70bc73d5da0f824b588b5b8edde4a73544d6dad811ff5fb901307ccdade",
+      "dependencies": []
+    },
+    "11.0.0.13113": {
+      "fetchedAt": "2026-10-25T00:00:42Z",
+      "sha256": "e23682907ba2fa13eafd439fc4b5e881638dcf7abe4ee8cb3db5d39c05c2a270",
+      "dependencies": []
+    },
+    "12.2.0.15081": {
+      "fetchedAt": "2026-10-25T00:00:41Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.2.0.29002": {
+      "fetchedAt": "2026-10-25T00:00:40Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.2.0.29003": {
+      "fetchedAt": "2026-10-25T00:00:39Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.2.0.29005": {
+      "fetchedAt": "2026-10-25T00:00:37Z",
+      "sha256": "89fcdaf2540f96aea9bbf4301ef2b1f42e20ac67eda6d8a7889d80cb9e67d179",
+      "dependencies": []
+    },
+    "12.8.1.29004": {
+      "fetchedAt": "2026-10-25T00:00:38Z",
+      "sha256": "74ea2fdf935fe858833ed4da0164b6b18ebe970400164627f3452e17b5f6b906",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.liteav.audio2.permission.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "12.8.1.29004",
+          "12.8.1.29004"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.rtmp.video.ScreenCaptureService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "12.2.0.15081",
+          "12.2.0.29005"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.4.0.29006",
+          "12.2.0.29005"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

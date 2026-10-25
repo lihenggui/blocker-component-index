@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.streethawk.phonegap:feeds",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.5": {
+      "fetchedAt": "2026-10-24T23:36:55Z",
+      "sha256": "dc5504c2518c36aeb62f133df2235af06df05507c5a02899b503220849f9b082",
+      "dependencies": [
+        "com.streethawk.phonegap:core:1.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.streethawk.library.feeds.SHCoreModuleReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.streethawk.intent.action.APP_STATUS_NOTIFICATION"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

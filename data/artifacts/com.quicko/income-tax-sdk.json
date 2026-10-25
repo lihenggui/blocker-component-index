@@ -1,0 +1,80 @@
+{
+  "coordinate": "com.quicko:income-tax-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-RC": {
+      "fetchedAt": "2026-10-24T22:58:25Z",
+      "sha256": "65ebc65b2c973f7072e7ea01f564c9e4afae455b444bf3474783d034a1561355",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose.material3:material3:1.2.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.1",
+        "com.google.android.material:material:1.12.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.coil-kt:coil-svg:2.1.0",
+        "io.coil-kt:coil:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.0.1-RC": {
+      "fetchedAt": "2026-10-24T22:58:24Z",
+      "sha256": "65ebc65b2c973f7072e7ea01f564c9e4afae455b444bf3474783d034a1561355",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose.material3:material3:1.2.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.1",
+        "com.google.android.material:material:1.12.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.coil-kt:coil-svg:2.1.0",
+        "io.coil-kt:coil:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.0.2-RC": {
+      "fetchedAt": "2026-10-24T22:58:23Z",
+      "sha256": "65ebc65b2c973f7072e7ea01f564c9e4afae455b444bf3474783d034a1561355",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.compose.material3:material3:1.2.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.1",
+        "com.google.android.material:material:1.12.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.retrofit2:converter-gson:2.11.0",
+        "com.squareup.retrofit2:retrofit:2.11.0",
+        "io.coil-kt:coil-svg:2.1.0",
+        "io.coil-kt:coil:2.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.quicko.income_tax.sdk.views.IncomeTaxMobileAppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-RC",
+          "1.0.2-RC"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

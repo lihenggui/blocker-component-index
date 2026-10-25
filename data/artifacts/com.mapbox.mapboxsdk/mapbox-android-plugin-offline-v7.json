@@ -1,0 +1,67 @@
+{
+  "coordinate": "com.mapbox.mapboxsdk:mapbox-android-plugin-offline-v7",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.0": {
+      "fetchedAt": "2026-10-24T21:42:20Z",
+      "sha256": "b83bfd33063a059c7c5cb47c24f405e9fdbc8a0ab30f086fedc957926645a7d9",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.0",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.mapbox.mapboxsdk:mapbox-android-sdk:7.0.0"
+      ]
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-24T21:42:19Z",
+      "sha256": "8bb8c95bcb44cd37bac3dfa077ff96984df73b8fb9fc185a0fbf790e55dd425e",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.mapbox.mapboxsdk:mapbox-android-sdk:7.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapbox.mapboxsdk.plugins.offline.offline.OfflineDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapbox.mapboxsdk.plugins.offline.ui.OfflineActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

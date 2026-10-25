@@ -1,0 +1,322 @@
+{
+  "coordinate": "com.revtwo:librevtwo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.22": {
+      "fetchedAt": "2026-10-24T23:04:45Z",
+      "sha256": "f8e2cb8df06aeb1c610ee6b586ff2ccf04609e6f945b14c77824c481f5bb6d9b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.code.gson:gson:2.6.2",
+        "com.pubnub:pubnub-android:3.7.4",
+        "com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1",
+        "com.squareup.okhttp3:okhttp:3.1.2",
+        "com.squareup.retrofit2:converter-gson:2.0.0-beta4",
+        "com.squareup.retrofit2:retrofit:2.0.0-beta4",
+        "io.pristine:libjingle:11139"
+      ]
+    },
+    "2.0.0.1": {
+      "fetchedAt": "2026-10-24T23:04:44Z",
+      "sha256": "4e348c33d7bc4c8c2f26152c439a92ab31c27f175ae8859fa9f5108a96f3182c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:cardview-v7:23.1.1",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.firebase:firebase-client-android:2.5.2",
+        "com.google.code.gson:gson:2.6.2",
+        "com.mostafagazar:customshapeimageview:1.0.4",
+        "com.pubnub:pubnub-android:3.7.10",
+        "com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1",
+        "com.squareup.okhttp3:okhttp:3.1.2",
+        "com.squareup.picasso:picasso:2.5.2",
+        "com.squareup.retrofit2:converter-gson:2.0.0-beta4",
+        "com.squareup.retrofit2:retrofit:2.0.0-beta4",
+        "io.pristine:libjingle:11139",
+        "jp.wasabeef:picasso-transformations:2.1.0",
+        "org.ocpsoft.prettytime:prettytime:4.0.1.Final"
+      ]
+    },
+    "2.0.0.2": {
+      "fetchedAt": "2026-10-24T23:04:44Z",
+      "sha256": "4e348c33d7bc4c8c2f26152c439a92ab31c27f175ae8859fa9f5108a96f3182c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:cardview-v7:23.1.1",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.firebase:firebase-client-android:2.5.2",
+        "com.google.code.gson:gson:2.6.2",
+        "com.mostafagazar:customshapeimageview:1.0.4",
+        "com.pubnub:pubnub-android:3.7.10",
+        "com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1",
+        "com.squareup.okhttp3:okhttp:3.1.2",
+        "com.squareup.picasso:picasso:2.5.2",
+        "com.squareup.retrofit2:converter-gson:2.0.0-beta4",
+        "com.squareup.retrofit2:retrofit:2.0.0-beta4",
+        "io.pristine:libjingle:11139",
+        "jp.wasabeef:picasso-transformations:2.1.0",
+        "org.ocpsoft.prettytime:prettytime:4.0.1.Final"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.revtwo.librevtwo.ActivityDisable",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.BootCompletedIntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0.22",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.CallerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.ChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.CreateTicketActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.NetworkChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0.22",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.NotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0.22",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.R2ActiveCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0.22",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.R2CommunityActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.RevTwoDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.RevTwoService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.22",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.RewTwoDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0.22",
+          "1.0.0.22"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.ScreenShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.revtwo.librevtwo.StartCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

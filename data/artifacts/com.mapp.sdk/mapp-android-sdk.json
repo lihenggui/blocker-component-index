@@ -1,0 +1,386 @@
+{
+  "coordinate": "com.mapp.sdk:mapp-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.14": {
+      "fetchedAt": "2026-10-24T21:43:05Z",
+      "sha256": "e63c0b9abe6ffeb5c5c37ecbfd68bacb8eebf3542214e76f6d18285348c51bba",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "androidx.media:media:1.0.1",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.google.dagger:dagger:2.24",
+        "com.google.firebase:firebase-messaging:20.0.0"
+      ]
+    },
+    "6.0.15-beta2": {
+      "fetchedAt": "2026-10-24T21:43:04Z",
+      "sha256": "207d524bc2ac64660a49e7be24e3f342a27d28e1ca340286f1a6986e649553ef",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "androidx.media:media:1.0.1",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.google.dagger:dagger:2.24",
+        "com.google.firebase:firebase-messaging:20.0.0"
+      ]
+    },
+    "6.0.15-beta3": {
+      "fetchedAt": "2026-10-24T21:43:03Z",
+      "sha256": "e68f2dc0ce511d66bfa86b24892405fe29a7fe1a0fbf5c874382f48b1c57f5db",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "androidx.media:media:1.0.1",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.google.dagger:dagger:2.24",
+        "com.google.firebase:firebase-messaging:20.0.0"
+      ]
+    },
+    "6.0.16": {
+      "fetchedAt": "2026-10-24T21:43:03Z",
+      "sha256": "727adab524a7a33bc8140daaecde0b9d45f83934cac1580b248b91c8da341f97",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "androidx.media:media:1.0.1",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.google.dagger:dagger:2.24",
+        "com.google.firebase:firebase-messaging:20.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.media.session.MediaButtonReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MEDIA_BUTTON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.MappIntelligenceListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "webtrekk.to.mapp.event"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.geo.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.geo.BootCompleteReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.geo.GeoFenceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.geo.GeoFenceTransitionsIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.geo.GeofenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.push.PushLocalBroadcast",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.appoxee.BUTTON_CLICKED",
+        "com.appoxee.PUSH_DISMISSED",
+        "com.appoxee.PUSH_OPENED",
+        "com.appoxee.PUSH_RECEIVED"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.push.PushOpenIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.push.notification.audioPlayer.AudioPlayerJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MEDIA_BUTTON",
+        "android.media.browse.MediaBrowserService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.push.notification.audioPlayer.AudioPlayerListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.appoxee.internal.push.notification.AudioPlayer.MUSIC_PLAYER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.service.AppoxeeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.ui.FullScreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.ui.LandingPage",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.internal.ui.VideoDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.push.PushDataReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.appoxee.BUTTON_CLICKED",
+        "com.appoxee.PUSH_DISMISSED",
+        "com.appoxee.PUSH_OPENED",
+        "com.appoxee.PUSH_RECEIVED"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.appoxee.push.fcm.MappMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.14",
+          "6.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

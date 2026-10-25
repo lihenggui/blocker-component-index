@@ -1,0 +1,312 @@
+{
+  "coordinate": "com.swrve.sdk.android:swrve-geo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T23:45:41Z",
+      "sha256": "929bb80561ae08f00f827dbca0a9d040efb1653bf6ed315d9588261273108a63",
+      "dependencies": [
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.work:work-runtime:2.2.0",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.swrve.sdk.android:swrve-common:7.0.0"
+      ]
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T23:45:40Z",
+      "sha256": "fdbb022bc2af062c46e3f447d52b5ff04844b11b933c99a9bf6f06024934d920",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.work:work-runtime:2.3.4",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.swrve.sdk.android:swrve-common:7.1.0"
+      ]
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T23:45:39Z",
+      "sha256": "871dbd8fc0d2bde5a20a112373522bc9cd57dabcb1647d4e7e3dcfe8f57d7b1e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.swrve.sdk.android:swrve-common:7.4.0"
+      ]
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-24T23:45:39Z",
+      "sha256": "0a6ad013a6780e746f2add591eb997170b273a63ffe164e2f56652d36d268d90",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.swrve.sdk.android:swrve-common:7.4.0"
+      ]
+    },
+    "7.0.0": {
+      "fetchedAt": "2026-10-24T23:45:38Z",
+      "sha256": "52cac414edc005ec6da854eb06bc26581f8665ce510766263c7072a2a5b799ad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.work:work-runtime:2.7.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.jakewharton.timber:timber:5.0.1",
+        "com.swrve.sdk.android:swrve-common:9.0.0"
+      ]
+    },
+    "7.1.0": {
+      "fetchedAt": "2026-10-24T23:45:38Z",
+      "sha256": "69c732ca5892235de15d8317ca066ae37ffd6421f0ff042e7e481342ac5fd90b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.work:work-runtime:2.7.0",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.jakewharton.timber:timber:5.0.1",
+        "com.swrve.sdk.android:swrve-common:10.15.1"
+      ]
+    },
+    "7.2.0": {
+      "fetchedAt": "2026-10-24T23:45:37Z",
+      "sha256": "8d391f30265ed73bd8cc3ce01a8cd0da70b7170762938bd2a11be7e7973034b0",
+      "dependencies": [
+        "androidx.work:work-runtime:2.9.1",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.jakewharton.timber:timber:5.0.1",
+        "com.swrve.sdk.android:swrve-common:11.1.1"
+      ]
+    },
+    "7.2.1": {
+      "fetchedAt": "2026-10-24T23:45:37Z",
+      "sha256": "253696ea67a25a6aea3c93df797880adf3023f40712a50c75c24f897c351ffde",
+      "dependencies": [
+        "androidx.work:work-runtime:2.9.1",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.jakewharton.timber:timber:5.0.1",
+        "com.swrve.sdk.android:swrve-common:11.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.swrve.sdk.SwrveGeoplaceJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrveGeoplaceJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrveGeoplaceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrveNotificationFetcherJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrveNotificationFetcherReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.geo.SwrveGeoBackgroundLocationUpdatesReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "7.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.geo.SwrveGeoBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "7.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.QUICKBOOT_POWERON",
+        "com.htc.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.geo.SwrveGeoForegroundLocationUpdatesService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "7.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.geo.SwrveGeoPermissionRequesterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.0.0",
+          "7.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.geo.SwrveGeoPermissionRequesterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "6.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.geo.SwrveGeofenceTransitionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "7.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.geo.SwrveOneTimeLocationUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "7.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

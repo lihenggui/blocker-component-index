@@ -1,0 +1,56 @@
+{
+  "coordinate": "com.tananaev:fmelib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1": {
+      "fetchedAt": "2026-10-24T23:46:44Z",
+      "sha256": "445a56fc10dedb19f7300f6947d0b2daea3d466902eba164e193c9145ecfec28",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-24T23:46:44Z",
+      "sha256": "b4cb7c1204d393c0f8b4b05e74f1c7846f7c75aee282b599aad3ef9d5ab377d8",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tananaev.fmelib.EasyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tananaev.fmelib.EasyDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

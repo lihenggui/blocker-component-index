@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.tencent.timpush:honor-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.5012": {
+      "fetchedAt": "2026-10-25T00:04:09Z",
+      "sha256": "1b5f0b8fd119825aa5eec6c8c58c4d495e9d78b220fb1861629bc2b8d9364c4b",
+      "dependencies": [
+        "com.tencent.timpush:honor-vendor:6.0.4"
+      ]
+    },
+    "7.7.5283": {
+      "fetchedAt": "2026-10-25T00:04:08Z",
+      "sha256": "99e78f23b78bf8314645f4be5ea08a96e5175a62f65a9247363cbf6229960e31",
+      "dependencies": [
+        "com.hihonor.mcs:push:7.0.61.302"
+      ]
+    },
+    "7.8.1126": {
+      "fetchedAt": "2026-10-25T00:04:08Z",
+      "sha256": "99e78f23b78bf8314645f4be5ea08a96e5175a62f65a9247363cbf6229960e31",
+      "dependencies": [
+        "com.hihonor.mcs:push:7.0.61.302"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.honor.TIMPushHonorMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.honor.TIMPushHonorService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.honorPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

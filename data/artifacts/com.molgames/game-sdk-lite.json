@@ -1,0 +1,132 @@
+{
+  "coordinate": "com.molgames:game-sdk-lite",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "Lite.2.4.2.1": {
+      "fetchedAt": "2026-10-24T22:04:56Z",
+      "sha256": "b574973a9fdf7361b1515372150c63b1616c0644c1f6e7c7f3ba44ef70754b80",
+      "dependencies": [
+        "com.android.support:support-v4:23.4.0",
+        "com.facebook.android:facebook-android-sdk:4.14.1",
+        "com.google.android.gms:play-services-ads:9.4.0",
+        "com.google.android.gms:play-services-analytics:9.4.0",
+        "com.google.code.gson:gson:2.7",
+        "com.paypal.sdk:paypal-android-sdk:2.14.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appsflyer.MultipleInstallBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "Lite.2.4.2.1",
+          "Lite.2.4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.analytics.AnalyticsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "Lite.2.4.2.1",
+          "Lite.2.4.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.analytics.ANALYTICS_DISPATCH"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.analytics.AnalyticsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "Lite.2.4.2.1",
+          "Lite.2.4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.analytics.CampaignTrackingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "Lite.2.4.2.1",
+          "Lite.2.4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.analytics.CampaignTrackingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "Lite.2.4.2.1",
+          "Lite.2.4.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.molgames.InstallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "Lite.2.4.2.1",
+          "Lite.2.4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "coordinate": "com.sezzle:sezzlemerchantsdkandroid",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:16:02Z",
+      "sha256": "2e5b552b0d8c7c04d4e089e535f59591dada01757408903f8eca6389ad548dbb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "com.beust:klaxon:5.0.1",
+        "com.squareup.okhttp3:okhttp:4.8.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:16:02Z",
+      "sha256": "f334b7d238de0ceab2dfacb0b15fe21750127e10d1564d60c3977d26fe191dd0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "com.beust:klaxon:5.0.1",
+        "com.squareup.okhttp3:okhttp:4.8.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:16:01Z",
+      "sha256": "167a19bcd523a83dc1e0f16195b648d83a1df28d654cf5a9c5c8a869c5b73697",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "com.beust:klaxon:5.0.1",
+        "com.squareup.okhttp3:okhttp:4.8.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sezzle.sezzlemerchantsdkandroid.CheckoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sezzle.sezzlemerchantsdkandroid.ModalActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

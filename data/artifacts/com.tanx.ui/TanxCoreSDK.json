@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.tanx.ui:TanxCoreSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.10": {
+      "fetchedAt": "2026-10-24T23:46:47Z",
+      "sha256": "11a958e13de3556b8e77e54fd666646db35ec8f3c0ef9447ed43cc0f829fe548",
+      "dependencies": []
+    },
+    "1.0.11": {
+      "fetchedAt": "2026-10-24T23:46:46Z",
+      "sha256": "11a958e13de3556b8e77e54fd666646db35ec8f3c0ef9447ed43cc0f829fe548",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.60",
+        "com.github.bumptech.glide:glide:3.8.0",
+        "com.squareup.okhttp3:okhttp:4.8.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alibaba.analytics.AnalyticsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.10",
+          "1.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.10",
+          "1.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323",
+        "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323",
+        "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "com.alibaba-inc.check.login.status.resume"
+      ]
+    },
+    {
+      "name": "com.alimm.tanx.core.ad.browser.TanxBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.10",
+          "1.0.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

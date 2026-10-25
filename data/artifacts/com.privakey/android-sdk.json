@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.privakey:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:51:12Z",
+      "sha256": "da3aa616aec4aa31449e055f9c805c6a527217fe40ee013a2f57121838e5b5a7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.2.1",
+        "com.nimbusds:oauth2-oidc-sdk:5.9"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T22:51:11Z",
+      "sha256": "ee5e5b8855233f0c22ef9f991ebc35e76846b1b23d9c3a48fa1de477bde8c508",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.2.1",
+        "com.nimbusds:oauth2-oidc-sdk:5.9"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-24T22:51:11Z",
+      "sha256": "ee5e5b8855233f0c22ef9f991ebc35e76846b1b23d9c3a48fa1de477bde8c508",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.2.1",
+        "com.nimbusds:oauth2-oidc-sdk:5.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "privakey.privakeysdk.PrivakeyWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

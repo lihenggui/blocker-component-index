@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.oplus.pantanal.card:seedling-support-liteQuick",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.7": {
+      "fetchedAt": "2026-10-24T22:37:31Z",
+      "sha256": "f6be0ec2bdd722e3960cc767085aeaa98f5355179647686953c65cc9a02bbdd3",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.oplus.pantanal.seedling.file.provider.FileShareProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.7",
+          "3.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FileShareProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

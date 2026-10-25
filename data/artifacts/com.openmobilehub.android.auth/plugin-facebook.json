@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.openmobilehub.android.auth:plugin-facebook",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-beta": {
+      "fetchedAt": "2026-10-24T22:36:46Z",
+      "sha256": "894c9bca23e35a39687e82d45d57afdc6a56b154e40b704aa6236ecd7f3e40fa",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:16.0.0",
+        "com.openmobilehub.android.auth:core:2.0.0-beta",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T22:36:46Z",
+      "sha256": "894c9bca23e35a39687e82d45d57afdc6a56b154e40b704aa6236ecd7f3e40fa",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:16.0.0",
+        "com.openmobilehub.android.auth:core:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T22:36:45Z",
+      "sha256": "894c9bca23e35a39687e82d45d57afdc6a56b154e40b704aa6236ecd7f3e40fa",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:16.0.0",
+        "com.openmobilehub.android.auth:core:2.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T22:36:44Z",
+      "sha256": "894c9bca23e35a39687e82d45d57afdc6a56b154e40b704aa6236ecd7f3e40fa",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:16.0.0",
+        "com.openmobilehub.android.auth:core:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T22:36:44Z",
+      "sha256": "894c9bca23e35a39687e82d45d57afdc6a56b154e40b704aa6236ecd7f3e40fa",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:16.0.0",
+        "com.openmobilehub.android.auth:core:2.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T22:36:43Z",
+      "sha256": "894c9bca23e35a39687e82d45d57afdc6a56b154e40b704aa6236ecd7f3e40fa",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:16.0.0",
+        "com.openmobilehub.android.auth:core:2.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.openmobilehub.android.auth.plugin.facebook.FacebookLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0-beta",
+          "2.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

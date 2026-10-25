@@ -1,0 +1,650 @@
+{
+  "coordinate": "com.redbricklane.zapr:zapr-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.5": {
+      "fetchedAt": "2026-10-24T23:00:46Z",
+      "sha256": "7bc4339ea805b6f206c69b225e5f4a09b3499462e29a0b475721ba6d76835367",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:6.0.5",
+        "com.redbricklane.zapr.video:zapr-video-sdk:6.0.5",
+        "com.redbricklane.zapr:zapr-acr-sdk:6.0.5"
+      ]
+    },
+    "6.2.8": {
+      "fetchedAt": "2026-10-24T23:00:46Z",
+      "sha256": "cd5fa0812397d5ef4c80a165d924c8e865ac1b7fa34f8850e1960e261bbb9014",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:6.2.8",
+        "com.redbricklane.zapr.video:zapr-video-sdk:6.2.8",
+        "com.redbricklane.zapr:zapr-acr-sdk:6.2.8"
+      ]
+    },
+    "6.3.0": {
+      "fetchedAt": "2026-10-24T23:00:45Z",
+      "sha256": "cca330bafd67099904e604e5e4f8c9b3e645cc4a8270de6165dc264b4c90f8ef",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:6.3.0",
+        "com.redbricklane.zapr.video:zapr-video-sdk:6.3.0",
+        "com.redbricklane.zapr:zapr-acr-sdk:6.3.0"
+      ]
+    },
+    "7.0.2": {
+      "fetchedAt": "2026-10-24T23:00:44Z",
+      "sha256": "a404a058baac4df6b4ae9bc55be776fa4ce0b9aa95a363b4cc335f716fbf98d9",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:7.0.2",
+        "com.redbricklane.zapr.video:zapr-video-sdk:7.0.2",
+        "com.redbricklane.zapr:zapr-acr-sdk:7.0.2"
+      ]
+    },
+    "7.0.3": {
+      "fetchedAt": "2026-10-24T23:00:44Z",
+      "sha256": "3ff96541895fe691be7de1410380af0eaf79d373b455da083af0a9e905dcdc9b",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:7.0.3",
+        "com.redbricklane.zapr.video:zapr-video-sdk:7.0.3",
+        "com.redbricklane.zapr:zapr-acr-sdk:7.0.3"
+      ]
+    },
+    "7.2.0": {
+      "fetchedAt": "2026-10-24T23:00:43Z",
+      "sha256": "2f1a8a67faec18a530087de86be2a7fc323081002e29cb6082bb2192e7d3329c",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:7.2.0",
+        "com.redbricklane.zapr.video:zapr-video-sdk:7.2.0",
+        "com.redbricklane.zapr:zapr-acr-sdk:7.2.0"
+      ]
+    },
+    "7.2.1": {
+      "fetchedAt": "2026-10-24T23:00:43Z",
+      "sha256": "81527484bbec92c48fc6afcc1088798fc5f548d030e9845764553f290083587e",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:7.2.1",
+        "com.redbricklane.zapr.video:zapr-video-sdk:7.2.1",
+        "com.redbricklane.zapr:zapr-acr-sdk:7.2.1"
+      ]
+    },
+    "8.1.0": {
+      "fetchedAt": "2026-10-24T23:00:42Z",
+      "sha256": "a365d4edfcedb2dbc27e18e86b04292e2e3a669a0825e934ab93de2a104afcb2",
+      "dependencies": [
+        "com.redbricklane.zapr.banner:zapr-banner-sdk:8.1.0",
+        "com.redbricklane.zapr.video:zapr-video-sdk:8.1.0",
+        "com.redbricklane.zapr:zapr-acr-sdk:8.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.redbricklane.zapr.acrsdk.jobSchedulers.ArielJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.jobSchedulers.UploadSamplesJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.1.0",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.receivers.AcrSDKStartServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "z.broadcast.action.ACTION_LOW_PRIORITY_OR_NO_PERM",
+        "z.broadcast.action.CONFIG_UPDATE",
+        "z.broadcast.action.DESTROY",
+        "z.broadcast.action.START",
+        "z.broadcast.action.STOP"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.receivers.FPReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ALARM_FP_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.receivers.ServiceRestartReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ALARM_PERIODIC_CHECK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.Ariel",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.ForegroundRecordingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.UploadSamplesService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.ZService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.media.browse.MediaBrowserService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.db.ConfigContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": "${applicationId}.db.ConfigContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.jobSchedulers.ConfigJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.jobSchedulers.SyncJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.jobSchedulers.TimeSyncPeriodicRequestJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.BaseSDKBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "android.intent.action.PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.HandshakeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "z.sdk.action.HANDLE_HANDSHAKE",
+        "z.sdk.action.RECEIVE_ACK",
+        "z.sdk.action.START_HANDSHAKE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.PriorityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.redbricklane.zaprSdkBase.PRIORITY_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.TimeChangeBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "8.1.0",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.TIMEZONE_CHANGED",
+        "android.intent.action.TIME_SET"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.ConfigUpdateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.PriorityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.SyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.TimeSyncPeriodicRequestAlarmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basesdk.event.eventutils.BaseConfigContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": "${applicationId}.event.eventutils.BaseConfigContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basesdk.event.eventutils.CriticalEventJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basesdk.event.eventutils.CriticalEventsUploadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basesdk.event.eventutils.EventUploaderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basesdk.event.eventutils.EventsUploaderIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basesdk.event.receivers.BaseSdkReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "z.basesdk.event.receivers.event_setting_change",
+        "z.basesdk.event.receivers.sdk_alive_change",
+        "z.basesdk.event.receivers.sdk_initialization_state",
+        "z.basesdk.event.receivers.stop_service_status"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basesdk.event.receivers.BaseSdkReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.2.8",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "7.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "z.basesdk.event.receivers.event_setting_change",
+        "z.basesdk.event.receivers.sdk_alive_change",
+        "z.basesdk.event.receivers.sdk_state"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.videosdk.vastplayer.activity.ZaprVASTActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.orange.ods.android:accessibility-statement",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:38:41Z",
+      "sha256": "2d92dd762b48301907ed7a216afc2f2cc9356517256e273ebe1c30421f9c69f2",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:databinding-adapters:8.3.0",
+        "androidx.databinding:databinding-common:8.3.0",
+        "androidx.databinding:databinding-ktx:8.3.0",
+        "androidx.databinding:databinding-runtime:8.3.0",
+        "androidx.databinding:viewbinding:8.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.orange.accessibilitystatementlibrary.AccessibilityStatementFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.accessibilitystatementfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

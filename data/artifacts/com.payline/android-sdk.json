@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.payline:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-24T22:42:39Z",
+      "sha256": "0062b7a6bfe0853b98b8db93b27b48dc87a0c589f0b5c8bba0b27e5192e1a206",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.lifecycle:lifecycle-extensions:2.1.0",
+        "com.google.android.material:material:1.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.60",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.60"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.payline.mobile.androidsdk.payment.presentation.PaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.payline.mobile.androidsdk.wallet.presentation.WalletActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

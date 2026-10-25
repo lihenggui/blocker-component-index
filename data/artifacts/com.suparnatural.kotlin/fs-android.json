@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.suparnatural.kotlin:fs-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:42:46Z",
+      "sha256": "eaa3ed67ffa8d6f6e5ae3f2d9bd67270a5dff3cf750ceab107df3fd24d80206e",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "com.suparnatural.kotlin:utilities:1.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.suparnatural.core.fs.FileSystemProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileSystemProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

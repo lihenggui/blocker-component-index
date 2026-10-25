@@ -1,0 +1,621 @@
+{
+  "coordinate": "com.plaid.link:sdk-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.1.1": {
+      "fetchedAt": "2026-10-24T22:47:22Z",
+      "sha256": "6a42b7ba3048d12d90df3d4007e95c9b7b001936efd9eacdd2ee1666fc585e43",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.0.0",
+        "androidx.core:core-ktx:1.13.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.3",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "io.coil-kt:coil:1.0.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.3.2": {
+      "fetchedAt": "2026-10-24T22:47:33Z",
+      "sha256": "6a42b7ba3048d12d90df3d4007e95c9b7b001936efd9eacdd2ee1666fc585e43",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.13.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.3.3": {
+      "fetchedAt": "2026-10-24T22:47:33Z",
+      "sha256": "6a42b7ba3048d12d90df3d4007e95c9b7b001936efd9eacdd2ee1666fc585e43",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.3.4": {
+      "fetchedAt": "2026-10-24T22:47:32Z",
+      "sha256": "6a42b7ba3048d12d90df3d4007e95c9b7b001936efd9eacdd2ee1666fc585e43",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T22:47:31Z",
+      "sha256": "6a42b7ba3048d12d90df3d4007e95c9b7b001936efd9eacdd2ee1666fc585e43",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.5.0": {
+      "fetchedAt": "2026-10-24T22:47:31Z",
+      "sha256": "6a42b7ba3048d12d90df3d4007e95c9b7b001936efd9eacdd2ee1666fc585e43",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.5.1": {
+      "fetchedAt": "2026-10-24T22:47:30Z",
+      "sha256": "7be3a4e571f8ebcc19cf011ad505a5f61c4e71bfcb927d9a3dbd1e922c54538a",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.5.2": {
+      "fetchedAt": "2026-10-24T22:47:30Z",
+      "sha256": "7be3a4e571f8ebcc19cf011ad505a5f61c4e71bfcb927d9a3dbd1e922c54538a",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.5.3": {
+      "fetchedAt": "2026-10-24T22:47:29Z",
+      "sha256": "6e5df33632f7c567d45b9830070e3dfe733e5b13e6fae01445fc6c9adadb90f5",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.5.4": {
+      "fetchedAt": "2026-10-24T22:47:29Z",
+      "sha256": "0c7f7e3f3043708380034f51f01b6e9f0a42bdc3cc41bb10643f06a4fe1aa17b",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.5.5": {
+      "fetchedAt": "2026-10-24T22:47:28Z",
+      "sha256": "0c7f7e3f3043708380034f51f01b6e9f0a42bdc3cc41bb10643f06a4fe1aa17b",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "5.5.6": {
+      "fetchedAt": "2026-10-24T22:47:28Z",
+      "sha256": "0c7f7e3f3043708380034f51f01b6e9f0a42bdc3cc41bb10643f06a4fe1aa17b",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.browser:browser:1.7.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.6.1",
+        "androidx.fragment:fragment-ktx:1.8.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.2",
+        "com.google.android.material:material:1.2.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger:2.48.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.5",
+        "com.squareup.okhttp3:okhttp:4.9.2",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:converter-protobuf:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1"
+      ]
+    },
+    "6.0.0-beta01": {
+      "fetchedAt": "2026-10-24T22:47:27Z",
+      "sha256": "dcd6ab148d1f6ccf8076c7a3dbd8f7f446400f37706bbdfe8789cec7512a094d",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-24T22:47:26Z",
+      "sha256": "0bec01a7f64334b5eca04a8517ea8454f173f39d6fec86f66214988b51bb0b3f",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    },
+    "6.1.0": {
+      "fetchedAt": "2026-10-24T22:47:26Z",
+      "sha256": "0bec01a7f64334b5eca04a8517ea8454f173f39d6fec86f66214988b51bb0b3f",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    },
+    "6.2.0": {
+      "fetchedAt": "2026-10-24T22:47:25Z",
+      "sha256": "be8c87258a70c1611ae826b05fdd08eed2e0d332cdbacff62c06c4266b3a8ab3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    },
+    "6.2.1": {
+      "fetchedAt": "2026-10-24T22:47:25Z",
+      "sha256": "be8c87258a70c1611ae826b05fdd08eed2e0d332cdbacff62c06c4266b3a8ab3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    },
+    "6.2.2": {
+      "fetchedAt": "2026-10-24T22:47:24Z",
+      "sha256": "be8c87258a70c1611ae826b05fdd08eed2e0d332cdbacff62c06c4266b3a8ab3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    },
+    "6.3.0": {
+      "fetchedAt": "2026-10-24T22:47:23Z",
+      "sha256": "be8c87258a70c1611ae826b05fdd08eed2e0d332cdbacff62c06c4266b3a8ab3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    },
+    "6.3.1": {
+      "fetchedAt": "2026-10-24T22:47:22Z",
+      "sha256": "be8c87258a70c1611ae826b05fdd08eed2e0d332cdbacff62c06c4266b3a8ab3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.4",
+        "androidx.annotation:annotation-experimental:1.5.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "androidx.webkit:webkit:1.11.0",
+        "com.google.android.gms:play-services-auth-api-phone:18.3.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.plaid.internal.LinkRedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.1.1",
+          "5.5.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.plaid.internal.link.LinkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.1.1",
+          "6.3.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.plaid.internal.redirect.LinkRedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0-beta01",
+          "6.3.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.plaid.internal.webview.PlaidFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.2.0",
+          "6.3.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.plaid.internal.webview.PlaidFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.plaid.internal.workflow.webview.PlaidFilePickerProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.3",
+          "5.5.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.plaid.link.internal.PlaidFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.1.1",
+          "5.5.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.plaid.link.internal.PlaidFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.tencent.timpush:vivo-vendor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0.4": {
+      "fetchedAt": "2026-10-25T00:05:43Z",
+      "sha256": "e80f6887a9e9477109e4bd329ed240fae8e8582d512eb2ce1b04ac7ba0c06478",
+      "dependencies": []
+    },
+    "3.0.0.5": {
+      "fetchedAt": "2026-10-25T00:05:42Z",
+      "sha256": "e1b1727512e67f2ffd2da5c617932c2853f933e28b1d50552e8166bcc01c03cc",
+      "dependencies": []
+    },
+    "3.0.0.7": {
+      "fetchedAt": "2026-10-25T00:05:41Z",
+      "sha256": "319ed3cace590fab423865c27131eb7f7cd3b36552c048da09e4874bc6f8577c",
+      "dependencies": []
+    },
+    "3.0.0.8": {
+      "fetchedAt": "2026-10-25T00:05:41Z",
+      "sha256": "1784f1d42592362e56005ecf06bc4dc816fad59fbe4ed6c5be30cf033ce08ef1",
+      "dependencies": []
+    },
+    "4.0.0.0": {
+      "fetchedAt": "2026-10-25T00:05:40Z",
+      "sha256": "e10377747078d6e5468924f4c157d8ff14f00f2c086097bb86eb0a2a219af777",
+      "dependencies": []
+    },
+    "4.1.0.0": {
+      "fetchedAt": "2026-10-25T00:05:40Z",
+      "sha256": "d4e57ef433b07f20f3337b582b35d68409f2e4448a981751353c2385f59aba2c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.0.0",
+          "4.1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0.4",
+          "4.0.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

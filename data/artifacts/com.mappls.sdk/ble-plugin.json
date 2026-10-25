@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.mappls.sdk:ble-plugin",
+  "repository": "https://maven.mappls.com/repository/mappls",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T21:43:14Z",
+      "sha256": "014103f649eff0b8373f9faa99706d8a32d5e2f49555d22017108da264c8e795",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T21:43:12Z",
+      "sha256": "b86326ca34038d32d624208d5a9c7dcc8d4c492a3137b3e84e5a3ba6b08c20d1",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mappls.sdk.bleplugin.BleContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.BleContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

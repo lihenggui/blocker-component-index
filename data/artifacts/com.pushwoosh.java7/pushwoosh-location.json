@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.pushwoosh.java7:pushwoosh-location",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.5.2": {
+      "fetchedAt": "2026-10-24T22:53:33Z",
+      "sha256": "5a50183b7ccf7e11294f477a573cd37d57fd9d66db9293e47fd05e7edb5c1389",
+      "dependencies": []
+    },
+    "5.5.3": {
+      "fetchedAt": "2026-10-24T22:53:33Z",
+      "sha256": "c769bc5937443b9acb7941696a21b2f82961520dd2dc2095af34de9951e59ca9",
+      "dependencies": []
+    },
+    "5.5.4": {
+      "fetchedAt": "2026-10-24T22:53:32Z",
+      "sha256": "92f0660d63f3d304a2a75da22fc1ab257a9b4fd4b928f161984250b40213d1c8",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.pushwoosh.location.geofencer.GeofenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.action.GEOFENCE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.location.internal.utils.ResolutionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.location.network.GeoLocationServiceApi16",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.location.network.GeoLocationServiceApi21",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

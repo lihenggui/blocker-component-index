@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.pixiteapps.billingx:billingx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.8.0": {
+      "fetchedAt": "2026-10-24T22:47:08Z",
+      "sha256": "d68fb34554b3df5eb2fbc4ba76d5a576a886cf9ed7f32f509ec6e26c7a95804c",
+      "dependencies": [
+        "com.android.billingclient:billing:1.0",
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:26.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30"
+      ]
+    },
+    "0.8.1": {
+      "fetchedAt": "2026-10-24T22:47:07Z",
+      "sha256": "842015240f950cccdbc28e74c6d0e25c096ff012475ecec83cb9609eb64f5c49",
+      "dependencies": [
+        "com.android.billingclient:billing:1.1",
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:26.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30"
+      ]
+    },
+    "0.8.2": {
+      "fetchedAt": "2026-10-24T22:47:07Z",
+      "sha256": "842015240f950cccdbc28e74c6d0e25c096ff012475ecec83cb9609eb64f5c49",
+      "dependencies": [
+        "com.android.billingclient:billing:1.1",
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:26.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-24T22:47:06Z",
+      "sha256": "4b0acc61cda9d47c847010a0db01ba5f2b24914563d5cdc0a2273e9a92dd41b8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.android.billingclient:billing:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pixite.android.billingx.DebugBillingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

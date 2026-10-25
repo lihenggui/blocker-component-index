@@ -1,0 +1,524 @@
+{
+  "coordinate": "com.sobot.chat:onlinesdk_x",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:23:19Z",
+      "sha256": "be7919ffb8318fa5ce47a18f788025e9d06679295e999eef65c28f1f7f909982",
+      "dependencies": [
+        "com.sobot.library:sobotcommon_x:1.0"
+      ]
+    },
+    "1.0.2.1": {
+      "fetchedAt": "2026-10-24T23:23:16Z",
+      "sha256": "1b12b807f9f878655026c3386c0942e4ba9d36e07bfcff436f4b1c8a0366b48b",
+      "dependencies": [
+        "com.sobot.library:sobotcommon_x:1.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T23:23:18Z",
+      "sha256": "e7987f44a7cc15e55a05e3fd380429d2c27df659eaa3cd3b51e5e1d0c92a9259",
+      "dependencies": [
+        "com.sobot.library:sobotcommon:1.4.9",
+        "com.sobot.library:widget:1.1.3"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T23:23:18Z",
+      "sha256": "43245f68af0e732e8309b4c25fe12b9329247334ef756e93b104baf4a4ce4051",
+      "dependencies": [
+        "com.sobot.library:sobotcommon_x:1.4.9",
+        "com.sobot.library:widget_x:1.1.3"
+      ]
+    },
+    "1.0.5.1": {
+      "fetchedAt": "2026-10-24T23:23:17Z",
+      "sha256": "43245f68af0e732e8309b4c25fe12b9329247334ef756e93b104baf4a4ce4051",
+      "dependencies": [
+        "com.sobot.library:sobotcommon_x:1.4.9",
+        "com.sobot.library:widget_x:1.1.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sobot.online.activity.OnlineChangLoginStatusActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.OnlineWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotAuthorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotCategorySmallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotCustomerServiceChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotFileDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotIntelligenceReplyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotOnlineChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotOnlineExitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotOnlinePullBlackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotOnlineTransfeReviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotOnlineTransferActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotPhotoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotQuickReplyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotServiceSummaryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotUserInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.activity.SobotVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.dialog.OnlineCustomPopActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.dialog.OnlineEnterPriseSearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.dialog.OnlineSummarySearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.dialog.SobotOnlineHistorySearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.dialog.SobotOnlineReceptionSearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.dialog.SobotOnlineScreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.dialog.SobotOnlineUnitTypeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.online.provider.SobotFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sobot_fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sobot.onlinecommon.socket.channel.SobotTCPServer",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.onlinecommon.socket.channel.SobotTCPServer$AssistService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

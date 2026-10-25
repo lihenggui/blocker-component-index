@@ -1,0 +1,80 @@
+{
+  "coordinate": "com.stripe:stripe-android-issuing-push-provisioning",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.9": {
+      "fetchedAt": "2026-10-24T23:39:28Z",
+      "sha256": "f4ebccc52b16fe5518dbbbe45cda0f26cc92834e1d5a9437baf62333a1d07f7b",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tapandpay:17.1.2",
+        "com.google.android.gms:play-services-wallet:19.1.0",
+        "com.squareup.okhttp3:okhttp:4.9.3"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:39:27Z",
+      "sha256": "f4ebccc52b16fe5518dbbbe45cda0f26cc92834e1d5a9437baf62333a1d07f7b",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.android.gms:play-services-basement:18.0.0",
+        "com.google.android.gms:play-services-tapandpay:17.1.2",
+        "com.google.android.gms:play-services-wallet:19.1.0",
+        "com.squareup.okhttp3:okhttp:4.9.3"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T23:39:27Z",
+      "sha256": "1d7c4c80fbb196f2ec0c235e243a1dfcace0348fc9d81b40ad57614122250def",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tapandpay:18.2.0",
+        "com.google.android.gms:play-services-wallet:19.1.0",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-24T23:39:26Z",
+      "sha256": "1d7c4c80fbb196f2ec0c235e243a1dfcace0348fc9d81b40ad57614122250def",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tapandpay:18.2.0",
+        "com.google.android.gms:play-services-wallet:19.1.0",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-24T23:39:25Z",
+      "sha256": "1d7c4c80fbb196f2ec0c235e243a1dfcace0348fc9d81b40ad57614122250def",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.1.0",
+        "com.google.android.gms:play-services-basement:18.1.0",
+        "com.google.android.gms:play-services-tapandpay:18.3.3",
+        "com.google.android.gms:play-services-wallet:19.1.0",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.stripe.android.pushProvisioning.PushProvisioningActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

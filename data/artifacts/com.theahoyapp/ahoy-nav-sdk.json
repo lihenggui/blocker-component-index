@@ -1,0 +1,116 @@
+{
+  "coordinate": "com.theahoyapp:ahoy-nav-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T00:10:14Z",
+      "sha256": "38c2c96052fdaa0be59a58f1cdc8442511efa9f98f6487b533d57c8ca77df9d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.10.2",
+        "com.google.android.gms:play-services-location:19.0.1",
+        "com.google.android.material:material:1.5.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-jackson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-25T00:10:13Z",
+      "sha256": "38c2c96052fdaa0be59a58f1cdc8442511efa9f98f6487b533d57c8ca77df9d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.10.2",
+        "com.google.android.gms:play-services-location:19.0.1",
+        "com.google.android.material:material:1.5.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-jackson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-25T00:10:11Z",
+      "sha256": "38c2c96052fdaa0be59a58f1cdc8442511efa9f98f6487b533d57c8ca77df9d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "com.fasterxml.jackson.module:jackson-module-kotlin:2.10.2",
+        "com.google.android.gms:play-services-location:19.0.1",
+        "com.google.android.material:material:1.5.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-jackson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.here.sdk.consent.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha03"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.here.sdk.engine.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha03"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.here.sdk.engine.InitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.here.services.internal.LocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha03"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

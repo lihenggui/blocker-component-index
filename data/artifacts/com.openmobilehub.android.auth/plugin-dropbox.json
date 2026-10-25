@@ -1,0 +1,97 @@
+{
+  "coordinate": "com.openmobilehub.android.auth:plugin-dropbox",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-beta": {
+      "fetchedAt": "2026-10-24T22:36:42Z",
+      "sha256": "68e2a6ad0d7088565e676be1a701a1404a446d99ad2073b941b9a9ce6f76032f",
+      "dependencies": [
+        "androidx.security:security-crypto:1.0.0",
+        "com.dropbox.core:dropbox-android-sdk:6.0.0",
+        "com.dropbox.core:dropbox-core-sdk:6.0.0",
+        "com.openmobilehub.android.auth:core:2.0.0-beta",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T22:36:42Z",
+      "sha256": "68e2a6ad0d7088565e676be1a701a1404a446d99ad2073b941b9a9ce6f76032f",
+      "dependencies": [
+        "androidx.security:security-crypto:1.0.0",
+        "com.dropbox.core:dropbox-android-sdk:6.0.0",
+        "com.dropbox.core:dropbox-core-sdk:6.0.0",
+        "com.openmobilehub.android.auth:core:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T22:36:41Z",
+      "sha256": "68e2a6ad0d7088565e676be1a701a1404a446d99ad2073b941b9a9ce6f76032f",
+      "dependencies": [
+        "androidx.security:security-crypto:1.0.0",
+        "com.dropbox.core:dropbox-android-sdk:6.0.0",
+        "com.dropbox.core:dropbox-core-sdk:6.0.0",
+        "com.openmobilehub.android.auth:core:2.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T22:36:41Z",
+      "sha256": "68e2a6ad0d7088565e676be1a701a1404a446d99ad2073b941b9a9ce6f76032f",
+      "dependencies": [
+        "androidx.security:security-crypto:1.0.0",
+        "com.dropbox.core:dropbox-android-sdk:6.0.0",
+        "com.dropbox.core:dropbox-core-sdk:6.0.0",
+        "com.openmobilehub.android.auth:core:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T22:36:40Z",
+      "sha256": "68e2a6ad0d7088565e676be1a701a1404a446d99ad2073b941b9a9ce6f76032f",
+      "dependencies": [
+        "androidx.security:security-crypto:1.0.0",
+        "com.dropbox.core:dropbox-android-sdk:6.0.0",
+        "com.dropbox.core:dropbox-core-sdk:6.0.0",
+        "com.openmobilehub.android.auth:core:2.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T22:36:39Z",
+      "sha256": "68e2a6ad0d7088565e676be1a701a1404a446d99ad2073b941b9a9ce6f76032f",
+      "dependencies": [
+        "androidx.security:security-crypto:1.0.0",
+        "com.dropbox.core:dropbox-android-sdk:6.0.0",
+        "com.dropbox.core:dropbox-core-sdk:6.0.0",
+        "com.openmobilehub.android.auth:core:2.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.openmobilehub.android.auth.plugin.dropbox.DropboxLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0-beta",
+          "2.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

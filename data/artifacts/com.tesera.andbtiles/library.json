@@ -1,0 +1,113 @@
+{
+  "coordinate": "com.tesera.andbtiles:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T00:10:00Z",
+      "sha256": "798a30f28bfb347421bfe29003d7ec5e687f24ad8284bc470cd265eda5b3fcb9",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.1",
+        "com.google.code.gson:gson:2.2.4",
+        "commons-io:commons-io:2.4"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T00:09:59Z",
+      "sha256": "8f3bbc26bef1efe4793562b532d1d9a8da11a77ed1c3002dfe9b68e8090de3a1",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.1",
+        "com.google.code.gson:gson:2.2.4",
+        "commons-io:commons-io:2.4"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T00:09:59Z",
+      "sha256": "454632e1cf8dfd971079e294c5630291e33b83f1780736e0c249116844fc6b06",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.1",
+        "com.google.code.gson:gson:2.2.4",
+        "commons-io:commons-io:2.4"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T00:09:58Z",
+      "sha256": "bc406a6204941d9847807342569f3a8a0625b47abeca0dcb4afe5843fc709582",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.1",
+        "com.google.code.gson:gson:2.2.4",
+        "commons-io:commons-io:2.4"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T00:09:58Z",
+      "sha256": "e738c8664b2c164e4ba0d459fa4fa33a60a46b0668564f605f076dc568ab0b79",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.1",
+        "com.google.code.gson:gson:2.2.4",
+        "commons-io:commons-io:2.4"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T00:09:57Z",
+      "sha256": "665c98fbc5147eb36f7f514ea503dd126a902843c8ed15cc00cdac0a3c6e6ba1",
+      "dependencies": [
+        "com.android.support:support-v4:19.0.1",
+        "com.google.code.gson:gson:2.2.4",
+        "commons-io:commons-io:2.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tesera.andbtiles.providers.TilesContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "com.tesera.andbtiles.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tesera.andbtiles.services.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tesera.andbtiles.services.HarvesterService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

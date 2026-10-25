@@ -1,0 +1,239 @@
+{
+  "coordinate": "com.netease.nimlib.coexist:basesdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "8.6.117": {
+      "fetchedAt": "2026-10-24T22:17:14Z",
+      "sha256": "2b826f9a886f14f7d81f3ced6ffb747ae21417da5bfc436dc5101efaa0107e0d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "8.6.118": {
+      "fetchedAt": "2026-10-24T22:17:15Z",
+      "sha256": "2b826f9a886f14f7d81f3ced6ffb747ae21417da5bfc436dc5101efaa0107e0d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "10.9.60": {
+      "fetchedAt": "2026-10-24T22:17:14Z",
+      "sha256": "552039b55c430ecd1f46d5764ae52b4c872da1968f829a025d914a78180aa986",
+      "dependencies": [
+        "androidx.core:core:1.1.0",
+        "com.netease.nimlib.coexist:fusionstorage:10.9.60",
+        "com.netease.nimlib.coexist:highavailable:10.9.60",
+        "com.netease.yunxin.artemis:Artemis:4.4.3",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.nimlib.coexist.ipc.NIMContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.9.60",
+          "10.9.60"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": null,
+      "authorities": "${applicationId}.ipc.provider.coexist",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.ipc.NIMContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "8.6.117",
+          "8.6.118"
+        ]
+      ],
+      "exported": false,
+      "process": ":nim_coexist_core",
+      "permission": null,
+      "authorities": "${applicationId}.ipc.provider.coexist",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.ipc.NIMContentProviderV2",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.9.60",
+          "10.9.60"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ipc.provider.coexist.v2",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.ipc.cp.provider.PreferenceContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "8.6.117",
+          "10.9.60"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ipc.provider.coexist.preference",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.job.NIMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.9.60",
+          "10.9.60"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.push.net.HeartbeatService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.9.60",
+          "10.9.60"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.service.NimReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "10.9.60",
+          "10.9.60"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.service.NimService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.9.60",
+          "10.9.60"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.service.NimService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.6.117",
+          "8.6.118"
+        ]
+      ],
+      "exported": null,
+      "process": ":nim_coexist_core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.service.NimServiceV2",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.9.60",
+          "10.9.60"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.service.ResponseReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "8.6.117",
+          "10.9.60"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.coexist.service.ResponseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "8.6.117",
+          "10.9.60"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "coordinate": "com.miui.referrer:openstore-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.00.00.00": {
+      "fetchedAt": "2026-10-24T21:59:21Z",
+      "sha256": "a4f405e4d8509ffed90914f6a289aaa0ee939694a5c5f81ae3bad821fbb2079e",
+      "dependencies": []
+    },
+    "1.00.00.01": {
+      "fetchedAt": "2026-10-24T21:59:21Z",
+      "sha256": "a4f405e4d8509ffed90914f6a289aaa0ee939694a5c5f81ae3bad821fbb2079e",
+      "dependencies": []
+    },
+    "1.00.00.02": {
+      "fetchedAt": "2026-10-24T21:59:20Z",
+      "sha256": "4dbaca925fc671f0a53638db8f55c776c2a8f648f0172e7fbeddebbe67654374",
+      "dependencies": []
+    },
+    "1.00.00.03": {
+      "fetchedAt": "2026-10-24T21:59:20Z",
+      "sha256": "4dbaca925fc671f0a53638db8f55c776c2a8f648f0172e7fbeddebbe67654374",
+      "dependencies": []
+    },
+    "1.00.00.04": {
+      "fetchedAt": "2026-10-24T21:59:19Z",
+      "sha256": "4dbaca925fc671f0a53638db8f55c776c2a8f648f0172e7fbeddebbe67654374",
+      "dependencies": []
+    },
+    "1.00.00.05": {
+      "fetchedAt": "2026-10-24T21:59:19Z",
+      "sha256": "c5f90845b73b1b3f118d092f6e7772524c1d44a9e224732bc2c55adf3ce54318",
+      "dependencies": []
+    },
+    "1.00.00.06": {
+      "fetchedAt": "2026-10-24T21:59:18Z",
+      "sha256": "c5f90845b73b1b3f118d092f6e7772524c1d44a9e224732bc2c55adf3ce54318",
+      "dependencies": []
+    },
+    "1.00.00.07": {
+      "fetchedAt": "2026-10-24T21:59:18Z",
+      "sha256": "1e0127ddb270e2bec1f054ba7b6c7002b3130df15223b0116d5b54be3b2f140f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.xiaomi.mipicks.openstore.core.process.OpenProcessProxyService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.00.00.00",
+          "1.00.00.04"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipicks.action.OPEN_STORE_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipicks.openstore.core.process.OpenProcessProxyService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.00.00.05",
+          "1.00.00.07"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipicks.openstore.core.process.OpenProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.00.00.00",
+          "1.00.00.07"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipicks.action.OPEN_STORE_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

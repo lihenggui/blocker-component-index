@@ -1,0 +1,92 @@
+{
+  "coordinate": "com.stanfy.enroscar:enroscar-images",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.10": {
+      "fetchedAt": "2026-10-24T23:35:51Z",
+      "sha256": "65a8452c80272db55cf7f30aabee4b274fce515b167f12845d27c99c35873972",
+      "dependencies": [
+        "com.stanfy.enroscar:enroscar-beans:0.9.10",
+        "com.stanfy.enroscar:enroscar-net:0.9.10",
+        "com.stanfy.enroscar:enroscar-sdk-dep:0.9.10",
+        "com.stanfy.enroscar:enroscar-shared:0.9.10"
+      ]
+    },
+    "0.9.11": {
+      "fetchedAt": "2026-10-24T23:35:50Z",
+      "sha256": "a1c8e5d36cc677bcdbceae5ff1acc3fab5be36b36fb8cebfd4713c81fa190432",
+      "dependencies": [
+        "com.stanfy.enroscar:enroscar-beans:0.9.11",
+        "com.stanfy.enroscar:enroscar-net:0.9.11",
+        "com.stanfy.enroscar:enroscar-sdk-dep:0.9.11",
+        "com.stanfy.enroscar:enroscar-shared:0.9.11"
+      ]
+    },
+    "0.9.12": {
+      "fetchedAt": "2026-10-24T23:35:50Z",
+      "sha256": "f5e606b71298a5c8cdf6b4ee102108af7819f52145ad7b397b18038a184a9be4",
+      "dependencies": [
+        "com.stanfy.enroscar:enroscar-beans:0.9.12",
+        "com.stanfy.enroscar:enroscar-net:0.9.12",
+        "com.stanfy.enroscar:enroscar-sdk-dep:0.9.12",
+        "com.stanfy.enroscar:enroscar-shared:0.9.12"
+      ]
+    },
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:35:49Z",
+      "sha256": "38c4b4145a37164714f0e601d2b96d76a632391632aaba9d780b817fa35b28d7",
+      "dependencies": [
+        "com.stanfy.enroscar:enroscar-beans:1.0",
+        "com.stanfy.enroscar:enroscar-net:1.0",
+        "com.stanfy.enroscar:enroscar-sdk-dep:1.0",
+        "com.stanfy.enroscar:enroscar-shared:1.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:35:49Z",
+      "sha256": "b25077d349f8105dc64e51a1bfd3343188a0b241b23572f97312bb5538c8164e",
+      "dependencies": [
+        "com.stanfy.enroscar:enroscar-beans:1.1.0",
+        "com.stanfy.enroscar:enroscar-io:1.1.0",
+        "com.stanfy.enroscar:enroscar-net:1.1.0"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-24T23:35:48Z",
+      "sha256": "af4d9c64330bb1d58fe8a4f389bc8d1ff19746873a000a130a9bf1a42386ced7",
+      "dependencies": [
+        "com.stanfy.enroscar:enroscar-beans:1.2",
+        "com.stanfy.enroscar:enroscar-io:1.2",
+        "com.stanfy.enroscar:enroscar-net:1.2"
+      ]
+    },
+    "2.0.alpha1": {
+      "fetchedAt": "2026-10-24T23:35:48Z",
+      "sha256": "9091d79da5c0d5552458a3e17864afc50c1b9ae083f183c8fcae513a9781ff1c",
+      "dependencies": [
+        "com.stanfy.enroscar:enroscar-beans:2.0.alpha1",
+        "com.stanfy.enroscar:enroscar-io:2.0.alpha1",
+        "com.stanfy.enroscar:enroscar-net:2.0.alpha1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.stanfy.enroscar.goro.GoroService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.alpha1",
+          "2.0.alpha1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

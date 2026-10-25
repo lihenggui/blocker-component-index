@@ -1,0 +1,68 @@
+{
+  "coordinate": "com.tencent.timpush:fcm-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.5012": {
+      "fetchedAt": "2026-10-25T00:03:58Z",
+      "sha256": "47ab9cd3b7581a5bf124f4e149000c340c74aff470f4dbf9f9b60741bd7dc229",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:23.1.2"
+      ]
+    },
+    "7.7.5283": {
+      "fetchedAt": "2026-10-25T00:03:57Z",
+      "sha256": "2315c8f9b26fcc0b75f8df2249f6068ad28d79b58cc165d91bcb3230d7c1a966",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:23.1.2"
+      ]
+    },
+    "7.8.1126": {
+      "fetchedAt": "2026-10-25T00:03:56Z",
+      "sha256": "2315c8f9b26fcc0b75f8df2249f6068ad28d79b58cc165d91bcb3230d7c1a966",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:23.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.fcm.TIMPushFCMMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.fcm.TIMPushFCMService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fcmPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

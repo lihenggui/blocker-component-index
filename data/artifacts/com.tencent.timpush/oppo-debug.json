@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.tencent.timpush:oppo-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.5012": {
+      "fetchedAt": "2026-10-25T00:04:46Z",
+      "sha256": "31c37696400cc7f0e4262a026083adb115b360774df23d9ac362b33ca40467ee",
+      "dependencies": [
+        "com.tencent.timpush:oppo-vendor:3.1.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    "7.7.5283": {
+      "fetchedAt": "2026-10-25T00:04:46Z",
+      "sha256": "9256b13fffba13b9a9b43f5c898adce1f9dc76f21ad06ac11f42a526d534fed4",
+      "dependencies": [
+        "com.tencent.timpush:oppo-vendor:3.1.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    "7.8.1126": {
+      "fetchedAt": "2026-10-25T00:04:45Z",
+      "sha256": "1f601161e08bc1f42e676f9e7a437c6c2c7a75a7f7ac05c9df535af4b9c45258",
+      "dependencies": [
+        "com.tencent.timpush:oppo-vendor:3.1.0",
+        "commons-codec:commons-codec:1.15"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.oppo.TIMPushOPPOService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.oppoPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

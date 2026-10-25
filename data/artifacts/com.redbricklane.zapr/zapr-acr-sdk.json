@@ -1,0 +1,283 @@
+{
+  "coordinate": "com.redbricklane.zapr:zapr-acr-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.5": {
+      "fetchedAt": "2026-10-24T23:00:42Z",
+      "sha256": "50b203a901175122fbcaf6cf63cf04422015d9707dd9f04722efc9cb3212f114",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:17.0.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.0.5",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:6.0.5"
+      ]
+    },
+    "6.2.5": {
+      "fetchedAt": "2026-10-24T23:00:41Z",
+      "sha256": "cc63908c3d76a244da4513d9554871480c6abb7935b30d8d0dfd431fca13c24b",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.2.5",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:6.2.5"
+      ]
+    },
+    "6.2.7": {
+      "fetchedAt": "2026-10-24T23:00:41Z",
+      "sha256": "00674351a07304166f856ca50cb4d568e471bdb5a3abde17299c06081c63e8d2",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.2.7",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:6.2.7"
+      ]
+    },
+    "6.2.8": {
+      "fetchedAt": "2026-10-24T23:00:40Z",
+      "sha256": "4b0e78f45df98dbfa9a6bf045d3e25dd85f223d9916b0825f0d1777db7c14fd4",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.2.8",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:6.2.8"
+      ]
+    },
+    "6.3.0": {
+      "fetchedAt": "2026-10-24T23:00:39Z",
+      "sha256": "429732b084563e79fb0fa0f5c6fc128bb45ee4bc048356462d214c69400f3582",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:17.0.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.3.0",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:6.3.0"
+      ]
+    },
+    "7.0.2": {
+      "fetchedAt": "2026-10-24T23:00:39Z",
+      "sha256": "9f430564215af2d00cdff92a696c33500066133739d2b1a8b31ad38de68337a7",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.0.2",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:7.0.2"
+      ]
+    },
+    "7.0.3": {
+      "fetchedAt": "2026-10-24T23:00:38Z",
+      "sha256": "55371cb31f768b197a377ee3fd43b659b9330b19854ec90710c7f307b836f3c1",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.0.3",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:7.0.3"
+      ]
+    },
+    "7.2.0": {
+      "fetchedAt": "2026-10-24T23:00:37Z",
+      "sha256": "5dfa81c98d184d1c51a83806b15ec42b77d14c57c447ef9d7cb8bc773cb9a939",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.2.0",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:7.2.0"
+      ]
+    },
+    "7.2.1": {
+      "fetchedAt": "2026-10-24T23:00:37Z",
+      "sha256": "f032819d298f3732738e3a01cb71e2321351095601dc3c21bde016ffa107a0c0",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.2.1",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:7.2.1"
+      ]
+    },
+    "8.1.0": {
+      "fetchedAt": "2026-10-24T23:00:36Z",
+      "sha256": "78b8b21a033cde80ce5da6e62423e52a996efd03c969634460100aaa74e5ce54",
+      "dependencies": [
+        "androidx.core:core:1.2.1",
+        "androidx.media:media:1.2.1",
+        "com.redbricklane.zapr.base:zapr-base-sdk:8.1.0",
+        "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk:8.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.redbricklane.zapr.acrsdk.jobSchedulers.ArielJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.jobSchedulers.UploadSamplesJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.5",
+          "6.2.8"
+        ],
+        [
+          "7.2.0",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.receivers.AcrSDKStartServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "z.broadcast.action.ACTION_LOW_PRIORITY_OR_NO_PERM",
+        "z.broadcast.action.CONFIG_UPDATE",
+        "z.broadcast.action.DESTROY",
+        "z.broadcast.action.START",
+        "z.broadcast.action.STOP"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.receivers.FPReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ALARM_FP_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.receivers.ServiceRestartReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ALARM_PERIODIC_CHECK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.Ariel",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.ForegroundRecordingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.UploadSamplesService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.5",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.acrsdk.services.ZService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.5",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.media.browse.MediaBrowserService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

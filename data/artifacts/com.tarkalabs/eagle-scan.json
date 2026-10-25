@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.tarkalabs:eagle-scan",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:52:27Z",
+      "sha256": "ce68a0ece305ed06b65ca042d5c32d0a4a2a5d7c75278b83a6763038e3a06b1c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.2",
+        "androidx.camera:camera-lifecycle:1.2.2",
+        "androidx.camera:camera-view:1.2.2",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "com.google.mlkit:barcode-scanning:17.0.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tarkalabs.eaglescan.ui.BarcodeScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

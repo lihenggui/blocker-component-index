@@ -1,0 +1,128 @@
+{
+  "coordinate": "com.mytechia:robobo-hri-emotion-module",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T22:13:06Z",
+      "sha256": "229472fb8b979245838cb92935adbd2a34bd12f42543d49087487c74c29a0292",
+      "dependencies": [
+        "com.mytechia:robobo-framework:0.3.4"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T22:13:05Z",
+      "sha256": "d4e23863791e8efb8a5d5b9763c24f68fcf4be34ac36858589d3be06b9994f10",
+      "dependencies": [
+        "com.mytechia:robobo-framework:0.3.5"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T22:13:04Z",
+      "sha256": "2946f7eeedd21d8407e9490bc9e5e45617ee0a799708baa2e7b765bff8f4701b",
+      "dependencies": [
+        "com.mytechia:opencv:3.10.0",
+        "com.mytechia:robobo-framework:0.3.5",
+        "com.mytechia:robobo-remote-control-module:0.2.0"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-24T22:13:04Z",
+      "sha256": "5dee6cd5e876a8677b60ef217327b750d242be335c2e4e42ec055e01ceaed7a5",
+      "dependencies": [
+        "com.mytechia:opencv:3.10.0",
+        "com.mytechia:robobo-framework:0.3.5",
+        "com.mytechia:robobo-remote-control-module:0.2.1"
+      ]
+    },
+    "0.2.2": {
+      "fetchedAt": "2026-10-24T22:13:03Z",
+      "sha256": "518f1a2d2f8afa2763f3ff2ae8b45bbf55d65bc27f9ec2e8a828eb9935c0ec19",
+      "dependencies": [
+        "com.mytechia:opencv:3.10.0",
+        "com.mytechia:robobo-framework:0.3.5",
+        "com.mytechia:robobo-remote-control-module:0.2.4"
+      ]
+    },
+    "0.2.3": {
+      "fetchedAt": "2026-10-24T22:13:03Z",
+      "sha256": "836ff7975c4f580a20cb16ce6e4d21caa3a5076e1ad0a05622f51c61a7a86816",
+      "dependencies": [
+        "com.mytechia:opencv:3.10.0",
+        "com.mytechia:robobo-framework:0.3.5",
+        "com.mytechia:robobo-remote-control-module:0.2.4"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T22:13:02Z",
+      "sha256": "18302fb7aefc3ba35626edc0419f38df7ec1c55d1e7bcb21fae78ca52462bbec",
+      "dependencies": [
+        "com.mytechia:opencv:3.1.0",
+        "com.mytechia:robobo-framework:1.0.0",
+        "com.mytechia:robobo-remote-control-module:0.3.0"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-24T22:13:02Z",
+      "sha256": "4f096cec75950a14d847ba8a229f33b57e0d9e1e414221554fbbe08b2682d854",
+      "dependencies": [
+        "com.mytechia:opencv:3.1.0",
+        "com.mytechia:robobo-framework:1.0.0",
+        "com.mytechia:robobo-remote-control-module:0.3.0"
+      ]
+    },
+    "0.3.2": {
+      "fetchedAt": "2026-10-24T22:13:01Z",
+      "sha256": "8fe39a976f861576ddea26e26cec93e57ee8eb2884c25fbcbb5a0d5bccd0cd59",
+      "dependencies": [
+        "com.mytechia:opencv:3.1.0-r2-my",
+        "com.mytechia:robobo-framework:1.0.0",
+        "com.mytechia:robobo-remote-control-module:0.3.0"
+      ]
+    },
+    "0.3.3": {
+      "fetchedAt": "2026-10-24T22:13:00Z",
+      "sha256": "073422b2a72921e2f5d15155b8439a695956b35ae1d06dd1212fc5c4ec37ef29",
+      "dependencies": [
+        "com.mytechia:opencv:3.1.0-r2-my",
+        "com.mytechia:robobo-framework:1.0.0",
+        "com.mytechia:robobo-remote-control-module:0.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mytechia.robobo.framework.hri.emotion.unity.UnityPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.0",
+          "0.3.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mytechia.robobo.framework.hri.emotion.webgl.WebGLEmotionDisplayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.3.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

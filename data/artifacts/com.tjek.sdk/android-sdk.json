@@ -1,0 +1,102 @@
+{
+  "coordinate": "com.tjek.sdk:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.0": {
+      "fetchedAt": "2026-10-25T00:13:12Z",
+      "sha256": "c67fc81c2abdae150b57b72e61cf93edd7b2d01a04b40208825377936b2427b2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.bumptech.glide:glide:4.13.2",
+        "com.squareup.moshi:moshi-adapters:1.13.0",
+        "com.squareup.moshi:moshi:1.13.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.github.everythingme:overscroll-decor-android:1.1.1",
+        "io.realm:realm-android-kotlin-extensions:10.9.0",
+        "io.realm:realm-android-library:10.9.0",
+        "io.realm:realm-annotations:10.9.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "6.0.1": {
+      "fetchedAt": "2026-10-25T00:13:11Z",
+      "sha256": "c67fc81c2abdae150b57b72e61cf93edd7b2d01a04b40208825377936b2427b2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.bumptech.glide:glide:4.13.2",
+        "com.squareup.moshi:moshi-adapters:1.13.0",
+        "com.squareup.moshi:moshi:1.13.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.github.everythingme:overscroll-decor-android:1.1.1",
+        "io.realm:realm-android-kotlin-extensions:10.9.0",
+        "io.realm:realm-android-library:10.9.0",
+        "io.realm:realm-annotations:10.9.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "6.0.2": {
+      "fetchedAt": "2026-10-25T00:13:11Z",
+      "sha256": "c67fc81c2abdae150b57b72e61cf93edd7b2d01a04b40208825377936b2427b2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.bumptech.glide:glide:4.13.2",
+        "com.squareup.moshi:moshi-adapters:1.13.0",
+        "com.squareup.moshi:moshi:1.13.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.github.everythingme:overscroll-decor-android:1.1.1",
+        "io.realm:realm-android-kotlin-extensions:10.9.0",
+        "io.realm:realm-android-library:10.9.0",
+        "io.realm:realm-annotations:10.9.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.0",
+          "6.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.tjek.sdk.TjekSDKInitializer"
+      ]
+    }
+  ]
+}

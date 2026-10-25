@@ -1,0 +1,143 @@
+{
+  "coordinate": "com.pcloud.sdk:android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:45:05Z",
+      "sha256": "3a8c6aa4548b13fdb1a1e3dde7d885bc5175911d39036b6d154190c3e319ffd1",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T22:45:05Z",
+      "sha256": "65a715e46c53c4f3c3dc3d8d38deb36d6602ce643b94ef482b73c773cac961f5",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T22:45:04Z",
+      "sha256": "b9742c3a8f86db73b84ac52c2b861cb0494644056037d071676580b59ac2452e",
+      "dependencies": []
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T22:45:04Z",
+      "sha256": "4dcad90c59845e3eaa368299582f3167770951dc77ae41506a0e97f681105346",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T22:45:04Z",
+      "sha256": "81d94cca308d7e6352786de68da088bee96f4d14bc5c243fc5632d1691491190",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-24T22:45:03Z",
+      "sha256": "57d48db261e64e97e63fbcc3bd77364d0b3dd76ca700268f8dcc98235ea86be9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-24T22:45:02Z",
+      "sha256": "becc61af3b6231ff95d3228d324cde78568883349258db2e3ce7aa74f3c547fb",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-24T22:45:01Z",
+      "sha256": "d84a2347e70b66d6f0d8d2c35ce8b10ac664d8b319fc5f9fae6a8971fac3f2d2",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "1.8.1": {
+      "fetchedAt": "2026-10-24T22:45:01Z",
+      "sha256": "4db9ce32e686bd28916cda9147aa21ba22336b6d675a56b8c2774c0620fe2283",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.9.0": {
+      "fetchedAt": "2026-10-24T22:45:00Z",
+      "sha256": "4db9ce32e686bd28916cda9147aa21ba22336b6d675a56b8c2774c0620fe2283",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.9.1": {
+      "fetchedAt": "2026-10-24T22:44:59Z",
+      "sha256": "4db9ce32e686bd28916cda9147aa21ba22336b6d675a56b8c2774c0620fe2283",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.10.0": {
+      "fetchedAt": "2026-10-24T22:44:58Z",
+      "sha256": "4db9ce32e686bd28916cda9147aa21ba22336b6d675a56b8c2774c0620fe2283",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pcloud.sdk.AuthorizationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.10.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pcloud.sdk.CustomTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.10.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

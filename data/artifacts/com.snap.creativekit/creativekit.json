@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.snap.creativekit:creativekit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:22:21Z",
+      "sha256": "ea32830cbf18af70f144e2c2e7db4f426d5e3a4709dab26ea990152041d933b0",
+      "dependencies": [
+        "com.snap.corekit:corekit:2.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:22:20Z",
+      "sha256": "ea32830cbf18af70f144e2c2e7db4f426d5e3a4709dab26ea990152041d933b0",
+      "dependencies": [
+        "com.snap.corekit:corekit:2.1.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-24T23:22:20Z",
+      "sha256": "ea32830cbf18af70f144e2c2e7db4f426d5e3a4709dab26ea990152041d933b0",
+      "dependencies": [
+        "com.snap.corekit:corekit:2.1.1"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T23:22:19Z",
+      "sha256": "ad0698ddd200de2d1671762f93baa48ca0650452424595fbf124ea16778f6c39",
+      "dependencies": [
+        "com.snap.corekit:corekit:3.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.snap.creativekit.internal.SnapCreativeShareResultHandler",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

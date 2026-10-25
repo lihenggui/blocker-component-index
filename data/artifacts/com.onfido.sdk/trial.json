@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.onfido.sdk:trial",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2-beta1": {
+      "fetchedAt": "2026-10-24T22:34:47Z",
+      "sha256": "4eb23b24f6b31a496d3023044c7f2b4b95d3fa2194773730bec882dd8393fa4a",
+      "dependencies": [
+        "androidx.compose:compose-bom:2025.07.00",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.onfido.sdk:analytics-events:0.0.139",
+        "com.onfido.sdk:common.screens:0.0.2-beta1",
+        "com.onfido.sdk:contract:2.0.3",
+        "com.onfido.sdk:core:0.0.2-beta1",
+        "com.onfido.sdk:shared.compose:0.0.2-beta1",
+        "com.onfido.sdk:shared:0.0.2-beta1",
+        "com.onfido.sdk:ui.components:0.0.2-beta1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    },
+    "0.1.0-beta-1": {
+      "fetchedAt": "2026-10-24T22:34:46Z",
+      "sha256": "4eb23b24f6b31a496d3023044c7f2b4b95d3fa2194773730bec882dd8393fa4a",
+      "dependencies": [
+        "androidx.compose:compose-bom:2025.02.00",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.onfido.sdk:analytics-events:0.0.124",
+        "com.onfido.sdk:common.screens:0.1.0-beta-1",
+        "com.onfido.sdk:contract:2.0.1",
+        "com.onfido.sdk:core:0.1.0-beta-1",
+        "com.onfido.sdk:shared.compose:0.1.0-beta-1",
+        "com.onfido.sdk:shared:0.1.0-beta-1",
+        "com.onfido.sdk:ui.components:0.1.0-beta-1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    },
+    "0.1.1-beta-1": {
+      "fetchedAt": "2026-10-24T22:34:46Z",
+      "sha256": "4eb23b24f6b31a496d3023044c7f2b4b95d3fa2194773730bec882dd8393fa4a",
+      "dependencies": [
+        "androidx.compose:compose-bom:2025.02.00",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.onfido.sdk:analytics-events:0.0.124",
+        "com.onfido.sdk:common.screens:0.1.1-beta-1",
+        "com.onfido.sdk:contract:2.0.1",
+        "com.onfido.sdk:core:0.1.1-beta-1",
+        "com.onfido.sdk:shared.compose:0.1.1-beta-1",
+        "com.onfido.sdk:shared:0.1.1-beta-1",
+        "com.onfido.sdk:ui.components:0.1.1-beta-1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.onfido.sdk.startup.ModuleInitializerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2-beta1",
+          "0.1.1-beta-1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.onfido-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.onfido.sdk.module.trial.initializer.TrialModuleInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "coordinate": "com.palomamobile.android.sdk:notification",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.6": {
+      "fetchedAt": "2026-10-24T22:41:03Z",
+      "sha256": "b5145932c00fb3c0f7921255ae95c727b75c7952e027e4f3da5400b60ad8aaa3",
+      "dependencies": [
+        "com.google.android.gms:play-services:7.5.0",
+        "com.palomamobile.android.sdk:auth:2.6",
+        "com.palomamobile.android.sdk:core:2.6",
+        "com.palomamobile.android.sdk:user:2.6"
+      ]
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-24T22:41:02Z",
+      "sha256": "ab2d619c36099c4b6e1ebd455006b4038cbd36c70f73015ef1c6570f04cede02",
+      "dependencies": [
+        "com.google.android.gms:play-services:7.5.0",
+        "com.palomamobile.android.sdk:auth:2.7.0",
+        "com.palomamobile.android.sdk:core:2.7.0",
+        "com.palomamobile.android.sdk:user:2.7.0"
+      ]
+    },
+    "2.7.1": {
+      "fetchedAt": "2026-10-24T22:41:01Z",
+      "sha256": "798b819858209fa226597d6d3f3e7b543b47a250aca2e040a0ea1b41ae21acc9",
+      "dependencies": [
+        "com.google.android.gms:play-services-gcm:7.5.0",
+        "com.palomamobile.android.sdk:auth:2.7.1",
+        "com.palomamobile.android.sdk:core:2.7.1",
+        "com.palomamobile.android.sdk:user:2.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.palomamobile.android.sdk.notification.NotificationGcmListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6",
+          "2.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.palomamobile.android.sdk.notification.NotificationInstanceIDListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6",
+          "2.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

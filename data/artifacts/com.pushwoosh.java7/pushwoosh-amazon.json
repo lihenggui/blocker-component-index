@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.pushwoosh.java7:pushwoosh-amazon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.5.2": {
+      "fetchedAt": "2026-10-24T22:53:25Z",
+      "sha256": "7195cdfa31f84bfea45ca234eeb4f1102a4c1686f0e8230000e7a6dcfdd80284",
+      "dependencies": []
+    },
+    "5.5.3": {
+      "fetchedAt": "2026-10-24T22:53:24Z",
+      "sha256": "edeb67b6a14736355f8a118c76350318f217cf948f63952ffb27f719a88bac0f",
+      "dependencies": []
+    },
+    "5.5.4": {
+      "fetchedAt": "2026-10-24T22:53:24Z",
+      "sha256": "c50b7033165f67f362d90e3c1d8bcbb740104fade6f4bab17a9e34ea534e4a09",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.pushwoosh.PushAmazonIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.PushAmazonReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.amazon.device.messaging.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.amazon.device.messaging.intent.RECEIVE",
+        "com.amazon.device.messaging.intent.REGISTRATION"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.amazon.AmazonInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.amazonpushwooshinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

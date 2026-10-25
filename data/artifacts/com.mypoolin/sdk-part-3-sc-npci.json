@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.mypoolin:sdk-part-3-sc-npci",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.1": {
+      "fetchedAt": "2026-10-24T22:12:27Z",
+      "sha256": "dc55deb5a4ea6b784767db17faad7c9793bb2b372db329da559d5978845861fa",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "org.npci.upi.security.pinactivitycomponent.CLRemoteServiceImpl",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.npci.upi.security.services.CLRemoteService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.npci.upi.security.pinactivitycomponent.GetCredential",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.1",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.npci.upi.security.pinactivitycomponent.GetCredential"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

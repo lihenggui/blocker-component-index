@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.netease.cloudmusic.adsparrow:adsparrow-csj",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T22:16:07Z",
+      "sha256": "4acaf7557a2c886f9a553246e6cca36de6c694e22eac687d0129ebc09098a169",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.google.android.material:material:1.11.0",
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "0.0.3-alpha01": {
+      "fetchedAt": "2026-10-24T22:16:06Z",
+      "sha256": "e9ebf54b979c40637f2fe713f76d02a9c892d9c1ae4a6bbb96cdada7c0376632",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.3-alpha01",
+        "com.pangle.cn:ads-sdk-pro:5.9.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "0.0.3-alpha02": {
+      "fetchedAt": "2026-10-24T22:16:05Z",
+      "sha256": "e9ebf54b979c40637f2fe713f76d02a9c892d9c1ae4a6bbb96cdada7c0376632",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.3-alpha02",
+        "com.pangle.cn:ads-sdk-pro:5.9.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "0.0.3-alpha03": {
+      "fetchedAt": "2026-10-24T22:16:05Z",
+      "sha256": "e9ebf54b979c40637f2fe713f76d02a9c892d9c1ae4a6bbb96cdada7c0376632",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.3-alpha03",
+        "com.pangle.cn:ads-sdk-pro:5.9.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T22:16:04Z",
+      "sha256": "e9ebf54b979c40637f2fe713f76d02a9c892d9c1ae4a6bbb96cdada7c0376632",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.5",
+        "com.pangle.cn:ads-sdk-pro:6.0.1.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3-alpha01",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3-alpha01",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

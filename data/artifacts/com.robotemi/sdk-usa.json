@@ -1,0 +1,70 @@
+{
+  "coordinate": "com.robotemi:sdk-usa",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.10.40": {
+      "fetchedAt": "2026-10-24T23:06:16Z",
+      "sha256": "86233ce7088d2ba280aa503c1aa81fee62138eed050f12dec3ce84d7b6f69ae7",
+      "dependencies": []
+    },
+    "0.10.41": {
+      "fetchedAt": "2026-10-24T23:06:15Z",
+      "sha256": "0221ae33084311de99d96692ebfbb7a502cbe9c80e785789872b1e16d6ae033e",
+      "dependencies": []
+    },
+    "0.10.42": {
+      "fetchedAt": "2026-10-24T23:06:15Z",
+      "sha256": "b90a27eb0fa0837bccc848c313aded8bb55e2a1b1c7734ed300eed78d5e82d80",
+      "dependencies": []
+    },
+    "0.10.44": {
+      "fetchedAt": "2026-10-24T23:06:14Z",
+      "sha256": "3ee6c5636fa1d817f65c5dc7edfd6e4e49b52c48ddac1eb7e09cd3d6b82bddda",
+      "dependencies": []
+    },
+    "0.10.45": {
+      "fetchedAt": "2026-10-24T23:06:13Z",
+      "sha256": "aa73ef6ab3094edb6af8e49fa8c79c0b155494ba39743f11322101e4d6d417a6",
+      "dependencies": []
+    },
+    "0.10.46": {
+      "fetchedAt": "2026-10-24T23:06:13Z",
+      "sha256": "0e1ea7d6c39b3cbc5a074e6ea2c0aa645e827cdc81028d21c507b52d3dceb2bf",
+      "dependencies": []
+    },
+    "0.10.46.1": {
+      "fetchedAt": "2026-10-24T23:06:12Z",
+      "sha256": "2d9b6c25be31aa5c9cabff2fe1167ad64636df58f292e20d6f6d3f238e1fa73e",
+      "dependencies": []
+    },
+    "0.10.48": {
+      "fetchedAt": "2026-10-24T23:06:12Z",
+      "sha256": "07b3b4004a788cabee942e551f1f75195fc4a0f2d9b54329113ea04031b05e24",
+      "dependencies": []
+    },
+    "0.10.49": {
+      "fetchedAt": "2026-10-24T23:06:11Z",
+      "sha256": "dbf7f5d732686c6c4eac0e3d7642b44ebc33316818c3d055e2ff8fc0758eb294",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.robotemi.sdk.TemiSdkContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.10.40",
+          "0.10.49"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.robotemi.sdk",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

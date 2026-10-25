@@ -1,0 +1,133 @@
+{
+  "coordinate": "com.swrve.sdk.android:swrve-google",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.6.2": {
+      "fetchedAt": "2026-10-24T23:45:44Z",
+      "sha256": "20ecedb505f0eda10ced89db30a0b2a10684b002ddd11188fe94394666f189f2",
+      "dependencies": [
+        "com.android.support:support-v4:23.3.0",
+        "com.google.android.gms:play-services-ads:9.0.2",
+        "com.google.android.gms:play-services-gcm:9.0.2",
+        "com.google.code.gson:gson:2.2",
+        "com.swrve.sdk.android:swrve-common:4.6.2",
+        "com.swrve.sdk.android:swrve-conversations:4.6.2"
+      ]
+    },
+    "4.9.0": {
+      "fetchedAt": "2026-10-24T23:45:43Z",
+      "sha256": "7b9b3cd49328e89bdfa141ff33900203b51c2170646089a50876f7c0f37dbc07",
+      "dependencies": [
+        "com.android.support:support-v4:25.1.0",
+        "com.google.android.gms:play-services-ads:10.0.1",
+        "com.google.android.gms:play-services-gcm:10.0.1",
+        "com.google.code.gson:gson:2.2",
+        "com.swrve.sdk.android:swrve-common:4.9.0",
+        "com.swrve.sdk.android:swrve-conversations:4.9.0",
+        "com.swrve.sdk.android:swrve-push:4.9.0"
+      ]
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T23:45:43Z",
+      "sha256": "c80e7c365750f672c5d4b218d1b1fc45dccb1cf416ecd3c258c8ad4bcc939d06",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.2",
+        "com.google.android.gms:play-services-ads:15.0.1",
+        "com.google.android.gms:play-services-gcm:15.0.1",
+        "com.google.code.gson:gson:2.2",
+        "com.swrve.sdk.android:swrve-common:5.3.0",
+        "com.swrve.sdk.android:swrve-conversations:5.3.0",
+        "com.swrve.sdk.android:swrve-push:5.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.swrve.sdk.SwrveEventSenderJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrvePushEngageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.6.2",
+          "4.6.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrveWakefulReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.6.2",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.swrve.SwrveWakeful"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrveWakefulService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.2",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.messaging.ui.SwrveInAppMessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.2",
+          "5.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

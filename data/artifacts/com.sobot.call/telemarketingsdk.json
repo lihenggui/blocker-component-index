@@ -1,0 +1,245 @@
+{
+  "coordinate": "com.sobot.call:telemarketingsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:23:05Z",
+      "sha256": "e81b73d63cb9eb53c900b7707f3b1db3be55b31fd0e558223524acc6d1b14798",
+      "dependencies": [
+        "com.sobot.call:callbase_x:1.0.5"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:23:04Z",
+      "sha256": "39b29f22d309938524605b3318cea7cf12094f127c1c2718b9a77e182903641c",
+      "dependencies": [
+        "com.sobot.call:callbase_x:1.2.4"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T23:23:04Z",
+      "sha256": "39b29f22d309938524605b3318cea7cf12094f127c1c2718b9a77e182903641c",
+      "dependencies": [
+        "com.sobot.call:callbase_x:1.2.7"
+      ]
+    },
+    "1.1.1.1": {
+      "fetchedAt": "2026-10-24T23:23:03Z",
+      "sha256": "39b29f22d309938524605b3318cea7cf12094f127c1c2718b9a77e182903641c",
+      "dependencies": [
+        "com.sobot.call:callbase_x:1.2.7"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T23:23:02Z",
+      "sha256": "e7f2291a01aeb8978c7826607101a5fa745af1d72bbbe4a01d8bd72dc0f91725",
+      "dependencies": [
+        "com.sobot.call:callbase_x:1.4.0",
+        "com.sobot.library:sobotcommon_x:2.2.0"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-24T23:23:03Z",
+      "sha256": "2631a230ae5f9f286a0f5aed44392b7e4fb398616b1bb2467809dd53fb84d3a5",
+      "dependencies": [
+        "com.sobot.call:callbase_x:1.5.0",
+        "com.sobot.library:sobotcommon_x:2.4.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMCalenderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMCustomPickActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMNumberActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMSignInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMSignInInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMStatusActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.CALL",
+        "android.intent.action.CALL_PRIVILEGED",
+        "android.intent.action.DIAL"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMTaskContactDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.activity.SobotTMTaskDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.telemarketing.service.SobotTMJanusService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

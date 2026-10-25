@@ -1,0 +1,86 @@
+{
+  "coordinate": "com.seantone.xsdk:webchat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:13:04Z",
+      "sha256": "f31601dc395e4d4034edfa2c978868ce00b9095670b96d8c1974346adbff1c2f",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:13:04Z",
+      "sha256": "f31601dc395e4d4034edfa2c978868ce00b9095670b96d8c1974346adbff1c2f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.seantone.xsdk.webchat.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.seantone.xsdk.webchat.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

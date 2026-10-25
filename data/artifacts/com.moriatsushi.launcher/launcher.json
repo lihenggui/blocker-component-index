@@ -1,0 +1,121 @@
+{
+  "coordinate": "com.moriatsushi.launcher:launcher",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-24T22:07:55Z",
+      "sha256": "3c83155f1857eec76183ca89354a5d752c1a73cbe447ef319134eae907525f0a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.activity:activity-ktx:1.5.1",
+        "com.moriatsushi.launcher:launcher-annotations:1.0.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-24T22:07:55Z",
+      "sha256": "37614e6f4dd13edfe1f6fb2ac0b3309093a42581a4529b1563dfc148123e8a15",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.activity:activity-ktx:1.5.1",
+        "com.moriatsushi.launcher:launcher-annotations:1.0.0-alpha02",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+      ]
+    },
+    "1.0.0-dev01": {
+      "fetchedAt": "2026-10-24T22:07:54Z",
+      "sha256": "3c83155f1857eec76183ca89354a5d752c1a73cbe447ef319134eae907525f0a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.appcompat:appcompat:1.5.0",
+        "com.moriatsushi.launcher:launcher-annotations:1.0.0-dev01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+      ]
+    },
+    "1.0.0-dev02": {
+      "fetchedAt": "2026-10-24T22:07:53Z",
+      "sha256": "3c83155f1857eec76183ca89354a5d752c1a73cbe447ef319134eae907525f0a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.appcompat:appcompat:1.5.0",
+        "com.moriatsushi.launcher:launcher-annotations:1.0.0-dev02",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+      ]
+    },
+    "1.0.0-dev03": {
+      "fetchedAt": "2026-10-24T22:07:52Z",
+      "sha256": "3c83155f1857eec76183ca89354a5d752c1a73cbe447ef319134eae907525f0a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.activity:activity-ktx:1.5.1",
+        "com.moriatsushi.launcher:launcher-annotations:1.0.0-dev03",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.moriatsushi.launcher.ComposeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha01"
+        ],
+        [
+          "1.0.0-dev01",
+          "1.0.0-dev03"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.moriatsushi.launcher.ComposeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha02",
+          "1.0.0-alpha02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moriatsushi.launcher.DefaultComposeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha02",
+          "1.0.0-alpha02"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

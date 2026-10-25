@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.sunmi:AIDLWrapper-SDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:42:11Z",
+      "sha256": "b46ba5f42cc8f0449b84c9a9dd5f2a8a888a125712386f58f89eda0cf0dc4b69",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:42:11Z",
+      "sha256": "b46ba5f42cc8f0449b84c9a9dd5f2a8a888a125712386f58f89eda0cf0dc4b69",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sunmi.aidlwrappersdk.AIDLWrapperProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.sunmi.aidlwrappersdk",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

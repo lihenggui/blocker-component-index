@@ -1,0 +1,57 @@
+{
+  "coordinate": "com.schibsted.account:account-sdk-android-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T23:11:37Z",
+      "sha256": "cf8088fead5a5ce6ef13d516025b245fe2ae7b0572171688416487fda6cfef16",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.0.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.schibsted.account:account-sdk-android-common:2.0.2",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-reflect:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:11:37Z",
+      "sha256": "fbece8961fc1f76f0abdd30c57f96d1531e98c07b3821a10eb6722c5cc54a3bc",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.0.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.schibsted.account:account-sdk-android-common:2.1.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-reflect:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.schibsted.account.persistence.UserPersistenceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.2",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

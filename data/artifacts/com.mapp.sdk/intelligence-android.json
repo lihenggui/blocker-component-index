@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.mapp.sdk:intelligence-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.1.11": {
+      "fetchedAt": "2026-10-24T21:42:48Z",
+      "sha256": "6b0ccdd9aeb7e3a032feef8539c962d97a5f37d47425b55c586566654b06b00c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.databinding:viewbinding:8.2.2",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "androidx.work:work-runtime-ktx:2.9.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1"
+      ]
+    },
+    "5.1.13-beta01": {
+      "fetchedAt": "2026-10-24T21:42:51Z",
+      "sha256": "4ccfefd6420240d80a877fc5d2132b9b715f2376b8377a8680f1a19fe07dadcd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.databinding:viewbinding:8.13.2",
+        "androidx.room:room-ktx:2.8.4",
+        "androidx.room:room-runtime:2.8.4",
+        "androidx.work:work-runtime-ktx:2.11.1",
+        "com.squareup.okhttp3:okhttp:5.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "5.1.13": {
+      "fetchedAt": "2026-10-24T21:42:50Z",
+      "sha256": "4ccfefd6420240d80a877fc5d2132b9b715f2376b8377a8680f1a19fe07dadcd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.databinding:viewbinding:8.13.2",
+        "androidx.room:room-ktx:2.8.4",
+        "androidx.room:room-runtime:2.8.4",
+        "androidx.work:work-runtime-ktx:2.11.1",
+        "com.squareup.okhttp3:okhttp:5.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "5.1.14-beta01": {
+      "fetchedAt": "2026-10-24T21:42:49Z",
+      "sha256": "c5c8bd3c051be57875554158f25ad9b10ae181f06458e11907dbff30a30835c3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.databinding:viewbinding:9.2.1",
+        "androidx.room:room-ktx:2.8.4",
+        "androidx.room:room-runtime:2.8.4",
+        "androidx.work:work-runtime-ktx:2.11.2",
+        "com.squareup.okhttp3:okhttp:5.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "webtrekk.android.sdk.integration.EngageIntegrationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.1.14-beta01",
+          "5.1.14-beta01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "webtrekk.android.sdk.integration.MappIntelligenceListener"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "webtrekk.android.sdk.integration.EngageIntegrationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.1.11",
+          "5.1.13"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "webtrekk.android.sdk.integration.MappIntelligenceListener"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

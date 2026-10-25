@@ -1,0 +1,133 @@
+{
+  "coordinate": "com.tencent.testaar:fcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T00:03:20Z",
+      "sha256": "6782563d6fc6a7f01b1ef229dae6357017015c02323b7e937082d8be3aa6ec43",
+      "dependencies": [
+        "com.google.firebase:firebase-bom:31.2.3"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T00:03:20Z",
+      "sha256": "6782563d6fc6a7f01b1ef229dae6357017015c02323b7e937082d8be3aa6ec43",
+      "dependencies": [
+        "com.google.firebase:firebase-bom:31.2.3"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T00:03:19Z",
+      "sha256": "d08e0072284db7b4f5d8664e7d5f5b3387ff76752879b1a47ed03f5eff0cd162",
+      "dependencies": [
+        "com.google.firebase:firebase-bom:31.2.3"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T00:03:18Z",
+      "sha256": "d08e0072284db7b4f5d8664e7d5f5b3387ff76752879b1a47ed03f5eff0cd162",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-bom:31.2.3"
+      ]
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-25T00:03:18Z",
+      "sha256": "d08e0072284db7b4f5d8664e7d5f5b3387ff76752879b1a47ed03f5eff0cd162",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-bom:31.2.3"
+      ]
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-25T00:03:17Z",
+      "sha256": "d08e0072284db7b4f5d8664e7d5f5b3387ff76752879b1a47ed03f5eff0cd162",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:23.1.2"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T00:03:17Z",
+      "sha256": "2315c8f9b26fcc0b75f8df2249f6068ad28d79b58cc165d91bcb3230d7c1a966",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:23.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.fcm.GoogleFCMMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.fcm.TIMFCMService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fcmPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.fcm.TIMPushFCMMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.fcm.TIMPushFCMService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fcmPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "coordinate": "com.qiyukf.unicorn:unicorn_nwd",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.1.0": {
+      "fetchedAt": "2026-10-24T22:56:48Z",
+      "sha256": "3dad25689e9126bf43565242025fb75acf46a085539a33382ebd1582bb8b7906",
+      "dependencies": [
+        "com.qiyukf.unicorn:base:1.0.4"
+      ]
+    },
+    "9.1.1": {
+      "fetchedAt": "2026-10-24T22:56:49Z",
+      "sha256": "3dad25689e9126bf43565242025fb75acf46a085539a33382ebd1582bb8b7906",
+      "dependencies": [
+        "com.qiyukf.unicorn:base:1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.qiyukf.android.extension.servicekeeper.service.ipc.server.IPCCommunicationAndroidService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.module.log.UploadPulseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.nimlib.ipc.cp.provider.PreferenceContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.qiyukf.ipc.provider.preference",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.nimlib.job.NIMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.nimlib.service.NimReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.nimlib.service.NimService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.nimlib.service.NimService$Aux",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.nimlib.service.ResponseReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.nimlib.service.ResponseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.uikit.common.media.picker.activity.PickerAlbumActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.uikit.common.media.picker.activity.PickerAlbumPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.uikit.common.media.picker.activity.PreviewImageFromCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.uikit.provider.UnicornProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.unicorn.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qiyukf.uikit.session.activity.CaptureVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.uikit.session.activity.PickImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.uikit.session.activity.WatchMessagePictureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.uikit.session.activity.WatchVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.fileselect.ui.activity.FilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.mediaselect.internal.ui.activity.AlbumPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.mediaselect.internal.ui.activity.MatisseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.mediaselect.internal.ui.activity.SelectedPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.CardPopupActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.FileDownloadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.LeaveMessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.LeaveMsgCustomFieldMenuActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.ServiceMessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.UrlImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.UserWorkSheetListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.WatchPictureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.WorkSheetAttachListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.WorkSheetDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ui.activity.WorkSheetImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.1.0",
+          "9.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

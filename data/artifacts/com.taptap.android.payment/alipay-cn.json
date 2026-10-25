@@ -1,0 +1,100 @@
+{
+  "coordinate": "com.taptap.android.payment:alipay-cn",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.12": {
+      "fetchedAt": "2026-10-24T23:47:32Z",
+      "sha256": "40fa5948f0c4b5d451c75582760d582442ad24c82a2078264582556eec2dfb0c",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.14",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.taptap.android.payment:base:4.3.12",
+        "com.taptap.sdk:tap-kit:4.3.12",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    },
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T23:47:32Z",
+      "sha256": "40fa5948f0c4b5d451c75582760d582442ad24c82a2078264582556eec2dfb0c",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.14",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.taptap.android.payment:base:4.4.0",
+        "com.taptap.sdk:tap-kit:4.4.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    },
+    "4.4.1": {
+      "fetchedAt": "2026-10-24T23:47:31Z",
+      "sha256": "40fa5948f0c4b5d451c75582760d582442ad24c82a2078264582556eec2dfb0c",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.14",
+        "com.taptap.android.payment:base:4.4.1",
+        "com.taptap.sdk:tap-initializer-api:4.4.1",
+        "com.taptap.sdk:tap-kit:4.4.1",
+        "io.insert-koin:koin-core:3.3.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    },
+    "4.4.2": {
+      "fetchedAt": "2026-10-24T23:47:30Z",
+      "sha256": "40fa5948f0c4b5d451c75582760d582442ad24c82a2078264582556eec2dfb0c",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.14",
+        "com.taptap.android.payment:base:4.4.2",
+        "com.taptap.sdk:tap-initializer-api:4.4.2",
+        "com.taptap.sdk:tap-kit:4.4.2",
+        "io.insert-koin:koin-core:3.3.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.taptap.payment.alipaycn.AlipayCNNativeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.12",
+          "4.4.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.payment.alipaycn.AlipayCNWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.12",
+          "4.4.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

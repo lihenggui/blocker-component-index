@@ -1,0 +1,85 @@
+{
+  "coordinate": "com.ti-net.lcw:online",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T00:11:15Z",
+      "sha256": "81baac91cef3b3879d72cd4b61ee9f2d2e1f8e61d054030de7d80ccf41eed589",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:recyclerview-v7:27.1.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T00:11:14Z",
+      "sha256": "1eae4d6792977719e0862f7db7308cc06e2f572efe5a207df0879226ea93f102",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0"
+      ]
+    },
+    "1.4.2": {
+      "fetchedAt": "2026-10-25T00:11:14Z",
+      "sha256": "dc553bdd061d5693434deadc40e64164881edd7895f40685a4064e279c19da6c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lcw.library.imagepicker.activity.ImagePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.4.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lcw.library.imagepicker.activity.ImagePreActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.4.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lcw.library.imagepicker.provider.ImagePickerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

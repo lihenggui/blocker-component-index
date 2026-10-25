@@ -1,0 +1,118 @@
+{
+  "coordinate": "com.payermax:payment",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.38": {
+      "fetchedAt": "2026-10-24T22:42:33Z",
+      "sha256": "5455b3e4ae09bc0b52f2d57a635f19e1b834f001e2b08e5b04bf7187ad4db686",
+      "dependencies": [
+        "com.android.support:support-v4:26.0.2"
+      ]
+    },
+    "1.2.39": {
+      "fetchedAt": "2026-10-24T22:42:33Z",
+      "sha256": "648047e83dda003ce1659b31683c53ec82bdeecde3724e5fe37141a4ed7f3e0a",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T22:42:32Z",
+      "sha256": "bec951e5f9ab93b9f37d1c662c03fecefc9df5e4399aee2ce56e3d00daf48353",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ushareit.ift.base.activity.SPBridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.language.SPLocaleChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "1.2.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.LOCALE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.language.SPLocaleChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.39",
+          "2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.LOCALE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.web.activity.SPEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.web.activity.SPWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.smartydroid:android-mupdf",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.9a+(git+build)": {
+      "fetchedAt": "2026-10-24T23:19:43Z",
+      "sha256": "bb5c780f16d56368ad476c51fa4b3851a9f943b6500594f3cb3a59e73b62c8bb",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tech.qiji.android.mupdf.ChoosePDFActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.9a+(git+build)",
+          "1.9a+(git+build)"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tech.qiji.android.mupdf.MuPDFActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.9a+(git+build)",
+          "1.9a+(git+build)"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "tech.qiji.android.mupdf.OutlineActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.9a+(git+build)",
+          "1.9a+(git+build)"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tech.qiji.android.mupdf.PrintDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.9a+(git+build)",
+          "1.9a+(git+build)"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

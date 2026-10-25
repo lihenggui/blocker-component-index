@@ -1,0 +1,92 @@
+{
+  "coordinate": "com.scvngr:levelup-sdk-android-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.2": {
+      "fetchedAt": "2026-10-24T23:12:36Z",
+      "sha256": "f88b877a8e836e4174295e4cee1a9b757aee87334eaebd7e77a497b0c833352d",
+      "dependencies": [
+        "com.android.support:support-v4:20.0.+",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.google.code.gson:gson:2.2.4"
+      ]
+    },
+    "2.2.5": {
+      "fetchedAt": "2026-10-24T23:12:35Z",
+      "sha256": "fd482b69c94e5b4e673164d8ce2233ff68a77d5d1bc54fa338c2b864973fecef",
+      "dependencies": [
+        "com.android.support:support-v4:20.0.0",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.google.code.gson:gson:2.2.4"
+      ]
+    },
+    "2.4.1": {
+      "fetchedAt": "2026-10-24T23:12:35Z",
+      "sha256": "6d5121f20427eeb228f2288f7f392c2089e6a00b28c022d3bb5b594b2b7406da",
+      "dependencies": [
+        "com.android.support:support-v4:20.0.0",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.google.code.gson:gson:2.2.4"
+      ]
+    },
+    "2.6.0": {
+      "fetchedAt": "2026-10-24T23:12:34Z",
+      "sha256": "3fe5ca7fff0d017c3e12c146c551ce162cf49214dad886988f6cbace7ebcc748",
+      "dependencies": [
+        "com.android.support:support-v4:22.0.0",
+        "com.braintreepayments:encryption:2.0.0",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.google.code.gson:gson:2.3.1"
+      ]
+    },
+    "2.8.1": {
+      "fetchedAt": "2026-10-24T23:12:34Z",
+      "sha256": "02f54fb17fed032632bfa737bcae1b7020dd89712fa76677ffa7ca699fb13679",
+      "dependencies": [
+        "com.android.support:support-v4:22.2.1",
+        "com.braintreepayments:encryption:2.0.0",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.google.code.gson:gson:2.3.1"
+      ]
+    },
+    "2.11.4": {
+      "fetchedAt": "2026-10-24T23:12:33Z",
+      "sha256": "2273b7d02744b1f965186d336cfdcde224bdbe1d287e2a9eb24a1187d1367bce",
+      "dependencies": [
+        "com.android.support:support-v4:24.0.0",
+        "com.braintreepayments:encryption:2.1.0",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.google.code.gson:gson:2.7"
+      ]
+    },
+    "2.11.5": {
+      "fetchedAt": "2026-10-24T23:12:33Z",
+      "sha256": "3c91ecca8a437482edb11a20102b9b212e340b79699d3041b02103191bf937e1",
+      "dependencies": [
+        "com.android.support:support-v4:24.0.0",
+        "com.braintreepayments:encryption:2.1.0",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.google.code.gson:gson:2.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.scvngr.levelup.core.service.SilentNetworkRequestService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.2",
+          "2.11.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

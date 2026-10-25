@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.parse:parse-gcm-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.17.0": {
+      "fetchedAt": "2026-10-24T22:41:50Z",
+      "sha256": "6c21cc678bfc5c3f98a1e0646d15cddd20b62db62aa3027e43aa8a6e33266d82",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.android.gms:play-services-gcm:12.0.1",
+        "com.parse:parse-android:1.17.0"
+      ]
+    },
+    "1.17.1": {
+      "fetchedAt": "2026-10-24T22:41:49Z",
+      "sha256": "6c21cc678bfc5c3f98a1e0646d15cddd20b62db62aa3027e43aa8a6e33266d82",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.android.gms:play-services-gcm:12.0.1",
+        "com.parse:parse-android:1.17.1"
+      ]
+    },
+    "1.17.2": {
+      "fetchedAt": "2026-10-24T22:41:49Z",
+      "sha256": "6c21cc678bfc5c3f98a1e0646d15cddd20b62db62aa3027e43aa8a6e33266d82",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.android.gms:play-services-gcm:12.0.1",
+        "com.parse:parse-android:1.17.2"
+      ]
+    },
+    "1.17.3": {
+      "fetchedAt": "2026-10-24T22:41:48Z",
+      "sha256": "6c21cc678bfc5c3f98a1e0646d15cddd20b62db62aa3027e43aa8a6e33266d82",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.android.gms:play-services-gcm:12.0.1",
+        "com.parse:parse-android:1.17.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.parse.gcm.ParseGCMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.17.0",
+          "1.17.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

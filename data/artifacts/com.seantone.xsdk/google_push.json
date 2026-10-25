@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.seantone.xsdk:google_push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:13:00Z",
+      "sha256": "369b5cff373bb38a35bd590b94fa1ec53c073f9a4c715db29f907093574ba5aa",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:13:00Z",
+      "sha256": "369b5cff373bb38a35bd590b94fa1ec53c073f9a4c715db29f907093574ba5aa",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.seantone.xsdk.google_push.XSDKFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "coordinate": "com.ost:ost-client-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0.beta.3": {
+      "fetchedAt": "2026-10-24T22:39:45Z",
+      "sha256": "f2bba8ba9ec5d10a9e090214b6ea2dca70299ec0b203b550e6a0f592ece357bd",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.google.guava:guava:18.0",
+        "com.madgag.spongycastle:core:1.56.0.0",
+        "me.dm7.barcodescanner:zxing:1.9.8",
+        "org.web3j:core:4.1.0-android"
+      ]
+    },
+    "0.1.0.beta.4": {
+      "fetchedAt": "2026-10-24T22:39:44Z",
+      "sha256": "f2bba8ba9ec5d10a9e090214b6ea2dca70299ec0b203b550e6a0f592ece357bd",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.google.guava:guava:18.0",
+        "com.madgag.spongycastle:core:1.56.0.0",
+        "me.dm7.barcodescanner:zxing:1.9.8",
+        "org.web3j:core:4.1.0-android"
+      ]
+    },
+    "0.1.0.beta.5": {
+      "fetchedAt": "2026-10-24T22:39:44Z",
+      "sha256": "f2bba8ba9ec5d10a9e090214b6ea2dca70299ec0b203b550e6a0f592ece357bd",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.google.guava:guava:18.0",
+        "com.madgag.spongycastle:core:1.56.0.0",
+        "me.dm7.barcodescanner:zxing:1.9.8",
+        "org.web3j:core:4.1.0-android"
+      ]
+    },
+    "0.1.0.beta.9": {
+      "fetchedAt": "2026-10-24T22:39:43Z",
+      "sha256": "f2bba8ba9ec5d10a9e090214b6ea2dca70299ec0b203b550e6a0f592ece357bd",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.google.guava:guava:18.0",
+        "com.madgag.spongycastle:core:1.56.0.0",
+        "me.dm7.barcodescanner:zxing:1.9.8",
+        "org.web3j:core:4.1.0-android"
+      ]
+    },
+    "0.1.0.beta.10": {
+      "fetchedAt": "2026-10-24T22:39:43Z",
+      "sha256": "5d344395fdd776b3a58171f4f0779e0c096d2eaff1cbb7706f8b8bf1a5bb2930",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.google.guava:guava:18.0",
+        "com.madgag.spongycastle:core:1.56.0.0",
+        "me.dm7.barcodescanner:zxing:1.9.8",
+        "org.web3j:core:4.1.0-android"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ost.mobilesdk.biometric.FingerprintAuthenticationDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0.beta.3",
+          "0.1.0.beta.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ost.mobilesdk.workflows.services.OstDevicePollingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0.beta.3",
+          "0.1.0.beta.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ost.mobilesdk.workflows.services.OstRecoveryPollingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0.beta.3",
+          "0.1.0.beta.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ost.mobilesdk.workflows.services.OstSessionPollingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0.beta.3",
+          "0.1.0.beta.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ost.mobilesdk.workflows.services.OstTransactionPollingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0.beta.3",
+          "0.1.0.beta.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ost.mobilesdk.workflows.services.OstUserPollingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0.beta.3",
+          "0.1.0.beta.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

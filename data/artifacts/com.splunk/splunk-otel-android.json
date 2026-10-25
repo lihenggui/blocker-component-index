@@ -1,0 +1,23 @@
+{
+  "coordinate": "com.splunk:splunk-otel-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.10.0": {
+      "fetchedAt": "2026-10-24T23:32:14Z",
+      "sha256": "a1855182774b0409e90be24b41fe7f613eef62e978bcac9f8cc735cd6dcc19e0",
+      "dependencies": [
+        "androidx.core:core:1.13.1",
+        "androidx.navigation:navigation-fragment:2.7.7",
+        "io.opentelemetry.android:instrumentation:0.4.0-alpha",
+        "io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom:1.33.6",
+        "io.opentelemetry.instrumentation:opentelemetry-okhttp-3.0:1.33.6-alpha",
+        "io.opentelemetry:opentelemetry-bom:1.42.1",
+        "io.opentelemetry:opentelemetry-exporter-logging:1.42.1",
+        "io.opentelemetry:opentelemetry-exporter-otlp:1.42.1",
+        "io.opentelemetry:opentelemetry-exporter-zipkin:1.42.1",
+        "io.zipkin.reporter2:zipkin-sender-okhttp3:3.4.2"
+      ]
+    }
+  },
+  "components": []
+}

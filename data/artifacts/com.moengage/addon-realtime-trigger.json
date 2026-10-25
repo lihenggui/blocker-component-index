@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.moengage:addon-realtime-trigger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.3.00": {
+      "fetchedAt": "2026-10-24T22:00:53Z",
+      "sha256": "65f1136f43bb066057f7691b66a6019dfe2815a224bf9bdf7996bb4ecbe068f8",
+      "dependencies": []
+    },
+    "3.3.01": {
+      "fetchedAt": "2026-10-24T22:00:52Z",
+      "sha256": "0f298e51c7077b48dd7ad0ab4557e7bc1739c4741ac75d6c7d06bbaf6849fbdc",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.addon.trigger.DTIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.3.00",
+          "3.3.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.addon.trigger.DTSyncAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.3.00",
+          "3.3.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.addon.trigger.DTSyncJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.3.00",
+          "3.3.01"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,942 @@
+{
+  "coordinate": "com.theneura:android-sdk-ext",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.3.6": {
+      "fetchedAt": "2026-10-25T00:10:56Z",
+      "sha256": "d52a87de0961509083530feec187de907342c08429b535085f169bf3d586caba",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.android.support:design:26.1.0",
+        "com.android.volley:volley:1.1.0",
+        "com.google.android.gms:play-services-awareness:10.2.1",
+        "com.google.android.gms:play-services-gcm:10.2.1",
+        "com.google.android.gms:play-services-location:10.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.neura.android.authentication.PushRequestJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.authentication.PushRequestReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.bt.BluetoothStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.adapter.action.STATE_CHANGED",
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.coordinate.CoordinatorJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.coordinate.CoordinatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.neura.android.ACTION_NEURA_COORDINATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.database.provider.NeuraContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider.NeuraContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.receiver.DeviceStateMonitorReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.adapter.action.STATE_CHANGED",
+        "android.intent.action.ACTION_SHUTDOWN",
+        "android.intent.action.AIRPLANE_MODE",
+        "android.intent.action.BATTERY_LOW",
+        "android.intent.action.BATTERY_OKAY",
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED",
+        "android.location.PROVIDERS_CHANGED",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.receiver.NeuraReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.intent.action.PACKAGE_REPLACED",
+        "com.neura.android.ACTION_AUTHENTICATION_COMPLETE",
+        "com.neura.android.ACTION_AUTHENTICATION_COMPLETE_BY_NEURA_APP",
+        "com.neura.android.ACTION_CALL_PERSON_FROM_NOTIFICATION_ACTION",
+        "com.neura.android.ACTION_DATA_COLLECTION_ACTIVATION_NEEDED",
+        "com.neura.android.ACTION_DATA_SYNC_REQUIRED",
+        "com.neura.android.ACTION_EVENT_FROM_DOZE",
+        "com.neura.android.ACTION_GCM_REGISTRATION_ID_UPDATED",
+        "com.neura.android.ACTION_LOCATION_CHANGED",
+        "com.neura.android.ACTION_MESSAGE_PERSON_FROM_NOTIFICATION_ACTION",
+        "com.neura.android.ACTION_MUTE_NOTIFICATION_ACTION",
+        "com.neura.android.ACTION_NETWORK_IS_ACTIVE",
+        "com.neura.android.ACTION_NOTIFICATION_CLICKED",
+        "com.neura.android.ACTION_REGISTER_EVENT",
+        "com.neura.android.ACTION_SYNC_RAW_DATA_POST_AUTHENTICATION",
+        "com.neura.android.ACTION_UNREGISTER_EVENT",
+        "com.neura.android.ACTION_USER_LOGGED_OUT",
+        "com.neura.android.SDK_AUTHENTICATE_SUCCESSFUL"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.receiver.RunningModeBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.neura.ACTION_RUNNING_MODE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.receiver.ScanRequestReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.neura.android.ACTION_SCAN_BLE",
+        "com.neura.android.ACTION_SCAN_VAP"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.ActivityLocationWatchdogIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.ActivityLocationWatchdogJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.CommandJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.CommandService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.DataSyncJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.DeviceIdleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.GeofenceIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.InternetConnectivityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.KeepAliveSyncIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.RunningModeJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.RunningModeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.ScanJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.ScanService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.StateAlertJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.StateAlertService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.StepDetectionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.StopCustomStepDetectorServiceWithWakeLock",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.SyncJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.SyncRawDataService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.SyncSecondaryCollectionsIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.activity.ActivityRecognitionIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.activity.ActivityRecognitionTimerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.location.LocationHandlerJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.location.LocationHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.android.service.stepdetection.CustomStepDetectorServiceWithWakelock",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.AudioHeadsetBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.HEADSET_PLUG"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.BluetoothBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.GoogleARReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.GoogleFenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.GoogleLocationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.GoogleLocationReceiverJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.GoogleLocationReceiverService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.PowerBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.collectors.receivers.ScreenBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.SCREEN_OFF",
+        "android.intent.action.SCREEN_ON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.core.data.foreground.ForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.dashboard.activity.AppAuthenticationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.dashboard.activity.AppAuthenticationLightActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.dashboard.activity.EventSimulationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.dashboard.activity.PickersActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.dashboard.activity.TransparentPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.neura.networkproxy.sync.DelayedSync",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.6",
+          "5.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

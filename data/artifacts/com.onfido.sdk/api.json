@@ -1,0 +1,94 @@
+{
+  "coordinate": "com.onfido.sdk:api",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.15": {
+      "fetchedAt": "2026-10-24T22:33:40Z",
+      "sha256": "dde191a5c1195bd31b9e8550cf097c22edc1b3fd1bbe1e5d09e38aef48fb55b8",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-24T22:33:42Z",
+      "sha256": "4d5a2e2f6d12cdcd01aaf6c615382274879406d314af67ccf612f2a9bc3f4da4",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    },
+    "0.2.2": {
+      "fetchedAt": "2026-10-24T22:33:41Z",
+      "sha256": "4d5a2e2f6d12cdcd01aaf6c615382274879406d314af67ccf612f2a9bc3f4da4",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    },
+    "0.2.3": {
+      "fetchedAt": "2026-10-24T22:33:41Z",
+      "sha256": "4d5a2e2f6d12cdcd01aaf6c615382274879406d314af67ccf612f2a9bc3f4da4",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.android.material:material:1.12.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.onfido.sdk.api.EntrustIDVFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.1",
+          "0.2.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.take_picture.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.onfido.sdk.api.EntrustIdvFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.15",
+          "0.1.15"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.take_picture.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

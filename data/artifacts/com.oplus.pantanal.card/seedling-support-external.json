@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.oplus.pantanal.card:seedling-support-external",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T22:37:31Z",
+      "sha256": "9de8f124a49bca83216cec4b75714b30bf09aa50af0037e5f19b9218c23abb36",
+      "dependencies": []
+    },
+    "2.0.13": {
+      "fetchedAt": "2026-10-24T22:37:30Z",
+      "sha256": "6f16db17be306e3a1f9e8b77932e7f15e7c3ad9dfcf7bf70ae1864d89895582c",
+      "dependencies": []
+    },
+    "3.0.4": {
+      "fetchedAt": "2026-10-24T22:37:30Z",
+      "sha256": "1f6861af25596fef8d0638c1b5c6cfa2c2ddb065cf717ef04c1c2c8fe5f0bd2b",
+      "dependencies": []
+    },
+    "3.0.7": {
+      "fetchedAt": "2026-10-24T22:37:29Z",
+      "sha256": "d06308ed99d1643ff7ac71d51da73234cf68a368739c01786671246f4df5fcdc",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.oplus.pantanal.seedling.file.provider.FileShareProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.4",
+          "3.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FileShareProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.oplus.pantanal.seedling.file.provider.FileShareProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.3",
+          "2.0.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FileShareProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

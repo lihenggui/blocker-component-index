@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.streethawk.phonegap:growth",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.5": {
+      "fetchedAt": "2026-10-24T23:36:56Z",
+      "sha256": "f0edd601a8dc6341473af1d70d41b140e3efc8d1dd8c271a4931735d801ae7fb",
+      "dependencies": [
+        "com.streethawk.phonegap:core:1.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.streethawk.library.growth.Register",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

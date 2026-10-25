@@ -1,0 +1,96 @@
+{
+  "coordinate": "com.storifyme.sdk:snaps",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:36:51Z",
+      "sha256": "9736b57f28168c5451fb04f104cef1333e0080514b6651817a3e72dea1e8e488",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.nanohttpd:nanohttpd:2.3.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:36:50Z",
+      "sha256": "3762f4dd3db77a81a872e1680738039b34ed6a70fc9b8da20d86d6b40d5053f3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.nanohttpd:nanohttpd:2.3.1"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:36:50Z",
+      "sha256": "3762f4dd3db77a81a872e1680738039b34ed6a70fc9b8da20d86d6b40d5053f3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.nanohttpd:nanohttpd:2.3.1"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T23:36:49Z",
+      "sha256": "3762f4dd3db77a81a872e1680738039b34ed6a70fc9b8da20d86d6b40d5053f3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.nanohttpd:nanohttpd:2.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.storifyme.snaps.ui.StorifyMeSnapsEditor",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

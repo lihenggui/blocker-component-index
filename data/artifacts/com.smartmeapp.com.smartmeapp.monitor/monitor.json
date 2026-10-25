@@ -1,0 +1,116 @@
+{
+  "coordinate": "com.smartmeapp.com.smartmeapp.monitor:monitor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:19:28Z",
+      "sha256": "ca179ae538637c6b3c4199cc090feaac3e1094a2e65a11db32b9d05c94b93dfb",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.fasterxml.jackson.core:jackson-annotations:2.8.9",
+        "com.fasterxml.jackson.core:jackson-core:2.8.9",
+        "com.fasterxml.jackson.core:jackson-databind:2.8.9",
+        "com.google.android.gms:play-services-analytics:11.8.0",
+        "com.google.android.gms:play-services-gcm:11.8.0",
+        "com.google.android.gms:play-services-location:11.8.0",
+        "com.rvalerio:fgchecker:1.0.1",
+        "com.squareup.retrofit2:converter-jackson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "me.everything:providers-android:1.0.1",
+        "org.apache.maven.wagon:wagon-ssh:2.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.smartmeapp.monitor.receivers.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smartmeapp.monitor.receivers.ScreenReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smartmeapp.monitor.receivers.ShutdownReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.smartme.smartmemonitor.SHUTDOWN_INTENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smartmeapp.monitor.services.AppsLaunchedService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smartmeapp.monitor.services.LocationUpdatesService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

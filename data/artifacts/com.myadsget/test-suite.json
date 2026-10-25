@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.myadsget:test-suite",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:12:02Z",
+      "sha256": "f16c4beb65b2206dd89ad5d74ac21784d85d49e637838b3499c8201a9f596278",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T22:12:01Z",
+      "sha256": "f16c4beb65b2206dd89ad5d74ac21784d85d49e637838b3499c8201a9f596278",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.myadsget:san-sdk:3.3.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T22:12:01Z",
+      "sha256": "f16c4beb65b2206dd89ad5d74ac21784d85d49e637838b3499c8201a9f596278",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.myadsget:san-sdk:3.3.0.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T22:12:00Z",
+      "sha256": "cfa45c1b9a04b336f0efc98486c7f45fd37332ec64cdf03aa1d112050cc78fec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.san.ads.testsuite.HomeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.san.ads.testsuite.LocationChangeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.san.ads.testsuite.SpotDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

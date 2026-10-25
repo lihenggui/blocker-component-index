@@ -1,0 +1,149 @@
+{
+  "coordinate": "com.sw926.imagefileselector:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:43:51Z",
+      "sha256": "7a6cb74bd40f6714f1fd5fec5af5c09fcb75c6925f3c27144a598db1a1307b30",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:43:50Z",
+      "sha256": "7a6cb74bd40f6714f1fd5fec5af5c09fcb75c6925f3c27144a598db1a1307b30",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0"
+      ]
+    },
+    "1.0.3-snapshot": {
+      "fetchedAt": "2026-10-24T23:43:50Z",
+      "sha256": "7a6cb74bd40f6714f1fd5fec5af5c09fcb75c6925f3c27144a598db1a1307b30",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T23:43:49Z",
+      "sha256": "3bc9f1391a805d59e86c1ce6e9542b865cf0520cc21c7853313a7e7bc7b70aa0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T23:43:49Z",
+      "sha256": "fcdd42486fd659767fea45260e174bcb66143ae686ead700acca043d7b1cae9d",
+      "dependencies": [
+        "com.android.support:support-fragment:24.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.0.4"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T23:43:48Z",
+      "sha256": "ce321d3a91f7241044e7e1e4a6b3e3bcc5a027246154745b9138ba9d3aa0738c",
+      "dependencies": [
+        "com.android.support:support-fragment:25.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.0.4"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T23:43:48Z",
+      "sha256": "864d1789ecdae7e4ffae8f92d1c75bc5a04aa79a55da0150e87114d9dfaada9a",
+      "dependencies": [
+        "com.android.support:support-fragment:25.0.0"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-24T23:43:48Z",
+      "sha256": "47353a53387189b265eb31492eb36927d9134c220e51df458c915bf00e52c6d6",
+      "dependencies": [
+        "com.android.support:support-fragment:25.1.1"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-24T23:43:47Z",
+      "sha256": "55492b9e5df8ebd2439ac72b3cc15e41a8e70ca673f2f5bcc82d4c33817572ce",
+      "dependencies": [
+        "com.android.support:support-fragment:25.3.1"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-24T23:43:47Z",
+      "sha256": "73a8488f423c0f8614942291c08bb53addd50060ada7ec2bfebef1f5fb431233",
+      "dependencies": [
+        "com.android.support:support-fragment:25.3.1"
+      ]
+    },
+    "1.0.10": {
+      "fetchedAt": "2026-10-24T23:43:46Z",
+      "sha256": "9320492b060b84fae4aa19916515b40c189b29cf2a975cedb8a438d74f1ea7c1",
+      "dependencies": [
+        "com.android.support:support-fragment:26.1.0"
+      ]
+    },
+    "1.0.12": {
+      "fetchedAt": "2026-10-24T23:43:46Z",
+      "sha256": "9320492b060b84fae4aa19916515b40c189b29cf2a975cedb8a438d74f1ea7c1",
+      "dependencies": [
+        "com.android.support:support-fragment:27.1.0"
+      ]
+    },
+    "1.0.16": {
+      "fetchedAt": "2026-10-24T23:43:45Z",
+      "sha256": "c4fa0947e17b979f0d4b28af04e16b39f45df862dac650860237524f48c0a714",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.61"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:43:44Z",
+      "sha256": "fb97d3466aaeac49c9707c088378d4a74e73700762d90834c8e19f3a66e1e361",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.sw926.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sw926.imagefileselector.GenericFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.sw926.imagefileselector.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

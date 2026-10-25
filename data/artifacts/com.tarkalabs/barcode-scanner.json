@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.tarkalabs:barcode-scanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:52:26Z",
+      "sha256": "007fe23fd1b3e3eb879752a4dcdd33eba0d2977bfcc9de8c230f46574955da97",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.1",
+        "androidx.camera:camera-lifecycle:1.2.1",
+        "androidx.camera:camera-view:1.3.0-alpha04",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.0",
+        "com.google.mlkit:barcode-scanning:17.0.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:52:25Z",
+      "sha256": "007fe23fd1b3e3eb879752a4dcdd33eba0d2977bfcc9de8c230f46574955da97",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.2",
+        "androidx.camera:camera-lifecycle:1.2.2",
+        "androidx.camera:camera-view:1.2.2",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "com.google.mlkit:barcode-scanning:17.0.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tarkalabs.scanner.ui.BarcodeScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

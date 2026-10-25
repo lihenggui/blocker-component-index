@@ -1,0 +1,117 @@
+{
+  "coordinate": "com.mappls.sdk:nearby-ui",
+  "repository": "https://maven.mappls.com/repository/mappls",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T21:44:49Z",
+      "sha256": "ae977c927b1db9d155af279064266691e10aa752506020d580d2d6cc9b0eea33",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.6.1",
+        "com.mappls.sdk:annotation-plugin:1.0.0",
+        "com.mappls.sdk:mappls-android-sdk:8.0.0",
+        "com.mappls.sdk:place-widget:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T21:44:47Z",
+      "sha256": "13e4d7cf8c6118e083e6392b86cd841a5720bdb758f37917f6a7ac9de3056832",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.6.1",
+        "com.mappls.sdk:annotation-plugin:1.0.0",
+        "com.mappls.sdk:mappls-android-sdk:8.0.5",
+        "com.mappls.sdk:place-widget:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T21:44:45Z",
+      "sha256": "3e1e29b25cbe6219525e02e20b5ec261375e29942557ee24f34bc99689e75c45",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.6.1",
+        "com.mappls.sdk:annotation-plugin:1.0.0",
+        "com.mappls.sdk:mappls-android-sdk:8.0.6",
+        "com.mappls.sdk:place-widget:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T21:44:43Z",
+      "sha256": "013c84138559b556f225634e2f1b1a1359924e010802f6813355f0e02c2a7a81",
+      "dependencies": [
+        "com.mappls.sdk:annotation-plugin:1.0.1",
+        "com.mappls.sdk:mappls-android-sdk:8.3.0",
+        "com.mappls.sdk:place-widget:2.4.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T21:44:41Z",
+      "sha256": "013c84138559b556f225634e2f1b1a1359924e010802f6813355f0e02c2a7a81",
+      "dependencies": [
+        "com.mappls.sdk:annotation-plugin:1.0.1",
+        "com.mappls.sdk:mappls-android-sdk:8.3.1",
+        "com.mappls.sdk:place-widget:2.4.2"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T21:44:38Z",
+      "sha256": "013c84138559b556f225634e2f1b1a1359924e010802f6813355f0e02c2a7a81",
+      "dependencies": [
+        "com.mappls.sdk:annotation-plugin:2.0.0",
+        "com.mappls.sdk:mappls-android-sdk:9.0.0",
+        "com.mappls.sdk:place-widget:3.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T21:44:36Z",
+      "sha256": "013c84138559b556f225634e2f1b1a1359924e010802f6813355f0e02c2a7a81",
+      "dependencies": [
+        "com.mappls.sdk:annotation-plugin:2.0.0",
+        "com.mappls.sdk:mappls-android-sdk:9.0.1",
+        "com.mappls.sdk:place-widget:3.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mappls.sdk.nearby.plugin.MapplsNearbyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mappls.sdk.nearby.plugin.MapplsNearbyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

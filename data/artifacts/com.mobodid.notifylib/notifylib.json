@@ -1,0 +1,119 @@
+{
+  "coordinate": "com.mobodid.notifylib:notifylib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T22:00:30Z",
+      "sha256": "cd010548ac41b049d0cf2d073f2cd5fce1fa7748ac94684652c7e2376ae26918",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T22:00:29Z",
+      "sha256": "b4a526e879fa62ff1c1d082586d496127ffe5d2bb1b948196fc992c6ba162558",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T22:00:29Z",
+      "sha256": "eb6bc585b44dc53b653a48759f7683c04db92a70a291df211dc805722e3c9cd0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mobodid.notifylib.ActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobodid.notifylib.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobodid.notifylib.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobodid.notifylib.NetReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobodid.notifylib.NotificationIService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

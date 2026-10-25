@@ -1,0 +1,44 @@
+{
+  "coordinate": "com.simla.android.opuslib:opuslib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:18:01Z",
+      "sha256": "7a96acf640b0d6983e6add153312678791ef0ea3d136ef7e29c0bffc29737e8a",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T23:17:59Z",
+      "sha256": "e3218e432766d99cbf47d562d79d059022620a131649ffa760c4196a0c8cb8c3",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T23:18:00Z",
+      "sha256": "ab87af320cf946fd6e98d275627b9157b318e6c0ea33d2ec95aa641f83ec1b6f",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "top.oply.opuslib.OpusService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "top.oply.opuslib.action.OPUSSERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

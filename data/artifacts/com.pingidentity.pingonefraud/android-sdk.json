@@ -1,0 +1,46 @@
+{
+  "coordinate": "com.pingidentity.pingonefraud:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T22:45:50Z",
+      "sha256": "09fc5f5d8cac8227e9a1001a2ae9e8f383b6417f10d3e17ae968c914d8e9cb9b",
+      "dependencies": [
+        "com.pingidentity.pingonefraud:core:1.0.3"
+      ]
+    },
+    "4.5.0": {
+      "fetchedAt": "2026-10-24T22:45:49Z",
+      "sha256": "91c8625c6e634046c49f7a4817aa011b08340f91a7992f03d157da53b5465272",
+      "dependencies": [
+        "com.pingidentity.pingonefraud:core:1.0.3"
+      ]
+    },
+    "4.6.0": {
+      "fetchedAt": "2026-10-24T22:45:49Z",
+      "sha256": "91c8625c6e634046c49f7a4817aa011b08340f91a7992f03d157da53b5465272",
+      "dependencies": [
+        "com.pingidentity.pingonefraud:core:1.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.securedtouch.sdk.STContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.4.0",
+          "4.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.STContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

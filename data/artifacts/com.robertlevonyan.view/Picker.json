@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.robertlevonyan.view:Picker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:05:49Z",
+      "sha256": "db7d585927a40f2554b89105076fa367a4bbed612508761ca59f649b9f3ca2d6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.5.0-rc01",
+        "androidx.databinding:viewbinding:4.2.0",
+        "androidx.fragment:fragment-ktx:1.3.3",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.robertlevonyan.components.picker.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

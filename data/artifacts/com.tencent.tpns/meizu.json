@@ -1,0 +1,204 @@
+{
+  "coordinate": "com.tencent.tpns:meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.3.1-release": {
+      "fetchedAt": "2026-10-25T00:07:09Z",
+      "sha256": "ea9c713385d317f96ac3c54d9166222c5e3f75119e5ac30109a82b34e095dbfb",
+      "dependencies": []
+    },
+    "1.4.3.2-release": {
+      "fetchedAt": "2026-10-25T00:07:08Z",
+      "sha256": "ea9c713385d317f96ac3c54d9166222c5e3f75119e5ac30109a82b34e095dbfb",
+      "dependencies": []
+    },
+    "1.4.3.4-release": {
+      "fetchedAt": "2026-10-25T00:07:07Z",
+      "sha256": "fd46d5be06599dc4090fdb6a4dc18d6c3be685a53123af3d96acdb2b93627991",
+      "dependencies": []
+    },
+    "1.4.3.5-release": {
+      "fetchedAt": "2026-10-25T00:07:07Z",
+      "sha256": "fd46d5be06599dc4090fdb6a4dc18d6c3be685a53123af3d96acdb2b93627991",
+      "dependencies": []
+    },
+    "1.4.3.6-release": {
+      "fetchedAt": "2026-10-25T00:07:06Z",
+      "sha256": "fd46d5be06599dc4090fdb6a4dc18d6c3be685a53123af3d96acdb2b93627991",
+      "dependencies": []
+    },
+    "1.4.3.7-release": {
+      "fetchedAt": "2026-10-25T00:07:06Z",
+      "sha256": "fd46d5be06599dc4090fdb6a4dc18d6c3be685a53123af3d96acdb2b93627991",
+      "dependencies": []
+    },
+    "1.4.3.8-release": {
+      "fetchedAt": "2026-10-25T00:07:05Z",
+      "sha256": "fd46d5be06599dc4090fdb6a4dc18d6c3be685a53123af3d96acdb2b93627991",
+      "dependencies": []
+    },
+    "1.4.3.9-release": {
+      "fetchedAt": "2026-10-25T00:07:05Z",
+      "sha256": "fd46d5be06599dc4090fdb6a4dc18d6c3be685a53123af3d96acdb2b93627991",
+      "dependencies": []
+    },
+    "1.4.4.1-release": {
+      "fetchedAt": "2026-10-25T00:07:04Z",
+      "sha256": "f38ce2cac06d9d7064f050785464b5cd6344fd4fcae3773b187ad52938d3b232",
+      "dependencies": []
+    },
+    "1.4.4.2-release": {
+      "fetchedAt": "2026-10-25T00:07:04Z",
+      "sha256": "f38ce2cac06d9d7064f050785464b5cd6344fd4fcae3773b187ad52938d3b232",
+      "dependencies": []
+    },
+    "1.4.4.3-release": {
+      "fetchedAt": "2026-10-25T00:06:57Z",
+      "sha256": "f38ce2cac06d9d7064f050785464b5cd6344fd4fcae3773b187ad52938d3b232",
+      "dependencies": []
+    },
+    "1.4.4.4-release": {
+      "fetchedAt": "2026-10-25T00:07:03Z",
+      "sha256": "134ebc9e46941bc876ac845c5bb3d21922137ef752b35d2912c6c0b55ec641ac",
+      "dependencies": []
+    },
+    "1.4.4.5-release": {
+      "fetchedAt": "2026-10-25T00:07:02Z",
+      "sha256": "134ebc9e46941bc876ac845c5bb3d21922137ef752b35d2912c6c0b55ec641ac",
+      "dependencies": []
+    },
+    "1.4.4.6-release": {
+      "fetchedAt": "2026-10-25T00:07:02Z",
+      "sha256": "134ebc9e46941bc876ac845c5bb3d21922137ef752b35d2912c6c0b55ec641ac",
+      "dependencies": []
+    },
+    "1.4.4.7-release": {
+      "fetchedAt": "2026-10-25T00:07:01Z",
+      "sha256": "134ebc9e46941bc876ac845c5bb3d21922137ef752b35d2912c6c0b55ec641ac",
+      "dependencies": []
+    },
+    "1.4.4.8-release": {
+      "fetchedAt": "2026-10-25T00:07:00Z",
+      "sha256": "134ebc9e46941bc876ac845c5bb3d21922137ef752b35d2912c6c0b55ec641ac",
+      "dependencies": []
+    },
+    "1.4.4.9-release": {
+      "fetchedAt": "2026-10-25T00:07:00Z",
+      "sha256": "134ebc9e46941bc876ac845c5bb3d21922137ef752b35d2912c6c0b55ec641ac",
+      "dependencies": []
+    },
+    "1.4.4.10-release": {
+      "fetchedAt": "2026-10-25T00:06:59Z",
+      "sha256": "fc2ebe82999533d79d7dd70c84883535fd39d48a36c273b7c62f97835fcf5681",
+      "dependencies": []
+    },
+    "1.4.4.11-release": {
+      "fetchedAt": "2026-10-25T00:06:58Z",
+      "sha256": "fc2ebe82999533d79d7dd70c84883535fd39d48a36c273b7c62f97835fcf5681",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.3.1-release",
+          "1.4.3.2-release"
+        ],
+        [
+          "1.4.4.1-release",
+          "1.4.4.11-release"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.meizu.flyme.permission.PUSH",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.3.4-release",
+          "1.4.3.9-release"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3.4-release",
+          "1.4.3.9-release"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.meizu.cloud.push.permission.MESSAGE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3.1-release",
+          "1.4.3.2-release"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.mzpush.MZPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.3.1-release",
+          "1.4.4.11-release"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    }
+  ]
+}

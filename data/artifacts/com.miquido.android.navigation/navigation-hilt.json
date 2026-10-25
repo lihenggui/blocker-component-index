@@ -1,0 +1,108 @@
+{
+  "coordinate": "com.miquido.android.navigation:navigation-hilt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta": {
+      "fetchedAt": "2026-10-24T21:58:42Z",
+      "sha256": "0454e2ef6f939a05cbdebd680b711d05dbe4941b088bae11cf69576968344742",
+      "dependencies": [
+        "androidx.compose.runtime:runtime:1.4.0-rc01",
+        "androidx.compose.ui:ui:1.4.0-rc01",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0-beta01",
+        "androidx.navigation:navigation-runtime:2.6.0-alpha07",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.dagger:hilt-android:2.45",
+        "com.miquido.android.navigation:navigation-runtime:1.0.0-beta",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T21:58:42Z",
+      "sha256": "0454e2ef6f939a05cbdebd680b711d05dbe4941b088bae11cf69576968344742",
+      "dependencies": [
+        "androidx.compose.foundation:foundation:1.6.8",
+        "androidx.compose.runtime:runtime:1.6.8",
+        "androidx.compose.ui:ui:1.6.8",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.8.3",
+        "androidx.navigation:navigation-common:2.7.7",
+        "androidx.navigation:navigation-runtime:2.7.7",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.dagger:hilt-android:2.51.1",
+        "com.miquido.android.navigation:navigation-runtime:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T21:58:41Z",
+      "sha256": "c742c733e36e713a9b2c0807035d1e9f4968e9c494a76ff9e906930c3e3fa907",
+      "dependencies": [
+        "androidx.compose.foundation:foundation:1.7.3",
+        "androidx.compose.runtime:runtime:1.7.3",
+        "androidx.compose.ui:ui:1.7.3",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6",
+        "androidx.navigation:navigation-common:2.8.2",
+        "androidx.navigation:navigation-runtime:2.8.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.google.dagger:hilt-android:2.52",
+        "com.miquido.android.navigation:navigation-runtime:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T21:58:40Z",
+      "sha256": "c742c733e36e713a9b2c0807035d1e9f4968e9c494a76ff9e906930c3e3fa907",
+      "dependencies": [
+        "androidx.compose.foundation:foundation:1.7.3",
+        "androidx.compose.runtime:runtime:1.7.3",
+        "androidx.compose.ui:ui:1.7.3",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6",
+        "androidx.navigation:navigation-common:2.8.2",
+        "androidx.navigation:navigation-runtime:2.8.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.google.dagger:hilt-android:2.52",
+        "com.miquido.android.navigation:navigation-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.miquido.android.navigation.HiltNavEntryViewModelInitializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-beta",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.miquido.android.navigation.NavEntryHiltViewModelInitializer"
+      ]
+    }
+  ]
+}

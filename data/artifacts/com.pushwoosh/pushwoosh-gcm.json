@@ -1,0 +1,184 @@
+{
+  "coordinate": "com.pushwoosh:pushwoosh-gcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.8.0": {
+      "fetchedAt": "2026-10-24T22:54:34Z",
+      "sha256": "f4aa68c379777bacc040000ca0adc19923f6a9c56d1a7e5b23107412b9ea9356",
+      "dependencies": []
+    },
+    "5.8.1": {
+      "fetchedAt": "2026-10-24T22:54:33Z",
+      "sha256": "3867200ad36da467ad12770861f47fcce6aeaf3bf99635b33c7081f764a6404e",
+      "dependencies": []
+    },
+    "5.8.2": {
+      "fetchedAt": "2026-10-24T22:54:33Z",
+      "sha256": "4ff2c1678d4b47b72ad70ca096b7eb802334a6ae3a582be0c5f29c9f54e302d5",
+      "dependencies": []
+    },
+    "5.8.3": {
+      "fetchedAt": "2026-10-24T22:54:32Z",
+      "sha256": "225e679d2efa1004db6e5c8dd794dfb95af53e46243f6225d6eb87f6203a6708",
+      "dependencies": []
+    },
+    "5.8.4": {
+      "fetchedAt": "2026-10-24T22:54:32Z",
+      "sha256": "542d6a5d2f2bb530a4bcf2ecffa49247da6e99bf60831190ec869c875fc259c4",
+      "dependencies": []
+    },
+    "5.8.5": {
+      "fetchedAt": "2026-10-24T22:54:31Z",
+      "sha256": "bd72c4536de783ad04748ae5205ee73b600fbde749259275f3cb79b2fc10a877",
+      "dependencies": []
+    },
+    "5.8.6": {
+      "fetchedAt": "2026-10-24T22:54:31Z",
+      "sha256": "0d47aecddb2fe783ec7ca02fa5f5616eb31480f635ab7f1e39f41e9dbe88fb45",
+      "dependencies": []
+    },
+    "5.8.7": {
+      "fetchedAt": "2026-10-24T22:54:30Z",
+      "sha256": "7c0b81c6f296eb0c8cbdbc6394455d3d574699d6e66273980d511579ece6595a",
+      "dependencies": []
+    },
+    "5.8.8": {
+      "fetchedAt": "2026-10-24T22:54:29Z",
+      "sha256": "a9ab5fc46d85404840698152e77fb3c7b44fadceeedf262a04daa5f1904d95ba",
+      "dependencies": []
+    },
+    "5.8.9": {
+      "fetchedAt": "2026-10-24T22:54:29Z",
+      "sha256": "961bf59318aed75c187852c44affb14bf68a7974a965f0fcfd42e7f3f71f8887",
+      "dependencies": []
+    },
+    "5.8.10": {
+      "fetchedAt": "2026-10-24T22:54:28Z",
+      "sha256": "ba3fad073c1572b2be85733a06802cd1394c3cb94a85abe5e40cd2aa2a41902e",
+      "dependencies": []
+    },
+    "5.8.11": {
+      "fetchedAt": "2026-10-24T22:54:28Z",
+      "sha256": "58202b6f78e6537c4b8cd6337b71d7f52f9d016a7d9518e4623c8963f4b857af",
+      "dependencies": []
+    },
+    "5.9.0": {
+      "fetchedAt": "2026-10-24T22:54:27Z",
+      "sha256": "893d47854adc1332af7a6b25b5d8350fc81652e3c7319b89e46224a7423ac528",
+      "dependencies": []
+    },
+    "5.9.1": {
+      "fetchedAt": "2026-10-24T22:54:27Z",
+      "sha256": "55135646acd1a0c92fa70f2be1638ebb64b0ccc0f2db9256c0844b6763e4300f",
+      "dependencies": []
+    },
+    "5.9.2": {
+      "fetchedAt": "2026-10-24T22:54:26Z",
+      "sha256": "18b3f8fcb390ec5a5f4cdef8c6e212f3a36a207ddf6816a49a985cc304d08ebd",
+      "dependencies": []
+    },
+    "5.9.3": {
+      "fetchedAt": "2026-10-24T22:54:26Z",
+      "sha256": "096ba712ca177c6e7452e3461fbb01a1da91b462b19f01692818571d3ac8f849",
+      "dependencies": []
+    },
+    "5.9.4": {
+      "fetchedAt": "2026-10-24T22:54:26Z",
+      "sha256": "2b719ef0c61462b38d2b809aa4e76142d45ec26aa50a6505f608cc0928b6fc69",
+      "dependencies": []
+    },
+    "5.11.0": {
+      "fetchedAt": "2026-10-24T22:54:25Z",
+      "sha256": "781e7fd69b56a8e0aff3a8524a05c29b553a5231831e11bc3e16ad53c8df238f",
+      "dependencies": []
+    },
+    "5.12.0": {
+      "fetchedAt": "2026-10-24T22:54:25Z",
+      "sha256": "c90ecd9d11fbccec9ca9096dddc3c59344d39f258e715541df83fd6e868d0e23",
+      "dependencies": []
+    },
+    "5.12.1": {
+      "fetchedAt": "2026-10-24T22:54:24Z",
+      "sha256": "8d75c03fabac60e8195579f65436eb00fe8e6a230084a9fd10932e49b94c81ae",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.gcm.GcmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.8.0",
+          "5.12.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.GcmRegistrationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.8.0",
+          "5.12.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.PushGcmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.8.0",
+          "5.12.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.gcm.GcmInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.8.0",
+          "5.12.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gcmpushwooshinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

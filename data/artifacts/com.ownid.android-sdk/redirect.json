@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.ownid.android-sdk:redirect",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:40:40Z",
+      "sha256": "c004bbe4738228c68e256237a320872c19e791d2f2519828438ffb72a163745b",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.ownid.sdk.internal.OwnIdRedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

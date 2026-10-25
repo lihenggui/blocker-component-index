@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.nhnace:adlibtest",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "SANPSHOT-6.0.0": {
+      "fetchedAt": "2026-10-24T22:25:43Z",
+      "sha256": "13253113015e7e12ad399ed4ff1fae94ce787013bc8d78bb9ff4a2c9db37030b",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.33.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    },
+    "UNITY-6.0.5": {
+      "fetchedAt": "2026-10-24T22:25:47Z",
+      "sha256": "13253113015e7e12ad399ed4ff1fae94ce787013bc8d78bb9ff4a2c9db37030b",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    },
+    "UNITY-605": {
+      "fetchedAt": "2026-10-24T22:25:47Z",
+      "sha256": "13253113015e7e12ad399ed4ff1fae94ce787013bc8d78bb9ff4a2c9db37030b",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    },
+    "6.0.2": {
+      "fetchedAt": "2026-10-24T22:25:46Z",
+      "sha256": "13253113015e7e12ad399ed4ff1fae94ce787013bc8d78bb9ff4a2c9db37030b",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.33.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    },
+    "6.0.3": {
+      "fetchedAt": "2026-10-24T22:25:46Z",
+      "sha256": "13253113015e7e12ad399ed4ff1fae94ce787013bc8d78bb9ff4a2c9db37030b",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    },
+    "6.0.5": {
+      "fetchedAt": "2026-10-24T22:25:45Z",
+      "sha256": "13253113015e7e12ad399ed4ff1fae94ce787013bc8d78bb9ff4a2c9db37030b",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    },
+    "6.0.6": {
+      "fetchedAt": "2026-10-24T22:25:44Z",
+      "sha256": "5f9ebc031175c8fa983b224ad9ed6c008c517b816053a114648ab19eceffe92a",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    },
+    "6.0.7.1": {
+      "fetchedAt": "2026-10-24T22:25:44Z",
+      "sha256": "5f9ebc031175c8fa983b224ad9ed6c008c517b816053a114648ab19eceffe92a",
+      "dependencies": [
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.36.0",
+        "com.google.android.exoplayer:extension-ima:2.19.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.nhnace.adlib.interstitial.InterstitialAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SANPSHOT-6.0.0",
+          "6.0.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nhnace.adlib.nativead.NativeInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SANPSHOT-6.0.0",
+          "6.0.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nhnace.adlib.video.VideoAdsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SANPSHOT-6.0.0",
+          "6.0.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

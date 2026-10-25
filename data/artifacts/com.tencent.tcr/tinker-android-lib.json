@@ -1,0 +1,121 @@
+{
+  "coordinate": "com.tencent.tcr:tinker-android-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T00:02:58Z",
+      "sha256": "cc0fdaf7b71ebc842b2498a6fe9500266cd4d88b729741f0f0e525a1e6513167",
+      "dependencies": [
+        "com.tencent.tcr:tinker-android-anno-support:2.0.0",
+        "com.tencent.tcr:tinker-android-loader:2.0.0",
+        "com.tencent.tcr:tinker-commons:2.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T00:02:57Z",
+      "sha256": "cc0fdaf7b71ebc842b2498a6fe9500266cd4d88b729741f0f0e525a1e6513167",
+      "dependencies": [
+        "com.tencent.tcr:tinker-android-anno-support:2.0.1",
+        "com.tencent.tcr:tinker-android-loader:2.0.1",
+        "com.tencent.tcr:tinker-commons:2.0.1"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T00:02:57Z",
+      "sha256": "cc0fdaf7b71ebc842b2498a6fe9500266cd4d88b729741f0f0e525a1e6513167",
+      "dependencies": [
+        "com.tencent.tcr:tinker-android-anno-support:2.0.2",
+        "com.tencent.tcr:tinker-android-loader:2.0.2",
+        "com.tencent.tcr:tinker-commons:2.0.2"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-25T00:02:56Z",
+      "sha256": "cc0fdaf7b71ebc842b2498a6fe9500266cd4d88b729741f0f0e525a1e6513167",
+      "dependencies": [
+        "com.tencent.tcr:tinker-android-anno-support:2.0.3",
+        "com.tencent.tcr:tinker-android-loader:2.0.3",
+        "com.tencent.tcr:tinker-commons:2.0.3"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T00:02:55Z",
+      "sha256": "cc0fdaf7b71ebc842b2498a6fe9500266cd4d88b729741f0f0e525a1e6513167",
+      "dependencies": [
+        "com.tencent.tcr:tinker-android-anno-support:2.0.4",
+        "com.tencent.tcr:tinker-android-loader:2.0.4",
+        "com.tencent.tcr:tinker-commons:2.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.tinker.lib.service.DefaultTinkerResultService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.lib.service.TinkerPatchForeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":patch",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.lib.service.TinkerPatchService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":patch",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tinker.lib.service.TinkerPatchService$InnerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":patch",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

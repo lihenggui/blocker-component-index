@@ -1,0 +1,89 @@
+{
+  "coordinate": "com.qcloud.cos:tpg",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.2": {
+      "fetchedAt": "2026-10-24T22:55:47Z",
+      "sha256": "dd4a7ef43846f4be9e3da219130c7b5558756d165a03edfb6398cd5c5500a9f9",
+      "dependencies": []
+    },
+    "1.3.3": {
+      "fetchedAt": "2026-10-24T22:55:46Z",
+      "sha256": "d318b0938c72f882a2a9856183f20729dd94e0398d0094dbd51f6fc7e978b73a",
+      "dependencies": []
+    },
+    "1.3.4": {
+      "fetchedAt": "2026-10-24T22:55:45Z",
+      "sha256": "16be39038771ac0a4e34b7ddfd9cf268ec09398ae29664e0d5f4e85a36f3ac3a",
+      "dependencies": []
+    },
+    "1.3.5": {
+      "fetchedAt": "2026-10-24T22:55:45Z",
+      "sha256": "ca9d1170041011de82ded6172f21c842326af4a0ec29891a4be2b148265485d0",
+      "dependencies": []
+    },
+    "1.3.6": {
+      "fetchedAt": "2026-10-24T22:55:44Z",
+      "sha256": "37d1ddc54c7a1ae8de5aefed326c7a0a6e5ae0dd4fb806e0e47f35b5b4075f83",
+      "dependencies": []
+    },
+    "1.3.7": {
+      "fetchedAt": "2026-10-24T22:55:44Z",
+      "sha256": "f41b92897133f86ac089ed53deb58a7a06952a637a2280bf1c3171fd5b4a3a36",
+      "dependencies": []
+    },
+    "1.3.8": {
+      "fetchedAt": "2026-10-24T22:55:43Z",
+      "sha256": "fe2469da94162388ba050e28e72cb9b8234c8f6de6a60e9ec1533d716bb40247",
+      "dependencies": []
+    },
+    "1.3.9": {
+      "fetchedAt": "2026-10-24T22:55:42Z",
+      "sha256": "346645a90d919f1b8193b92ff8c82f2cb88298da8813c1fcd64ad1a939a822b9",
+      "dependencies": []
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-24T22:55:42Z",
+      "sha256": "2f957012c1fd18fc3cde836604cf633509eced926fdebb54cf9056507b9652dd",
+      "dependencies": [
+        "com.qcloud.cos:qcloud-decoder-base:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.image.tpg.TpgInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.7",
+          "1.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.qcloud.cos.tpg",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.image.tpg.TpgInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.5",
+          "1.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

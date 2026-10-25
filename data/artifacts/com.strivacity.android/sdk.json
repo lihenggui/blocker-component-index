@@ -1,0 +1,87 @@
+{
+  "coordinate": "com.strivacity.android:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:40:30Z",
+      "sha256": "24eaae0d860212f646c71d9cc4cec7bd8e2a5dbaecff2acfeaf03fc5fd1ab93f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.15.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:40:29Z",
+      "sha256": "24eaae0d860212f646c71d9cc4cec7bd8e2a5dbaecff2acfeaf03fc5fd1ab93f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.15.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T23:40:28Z",
+      "sha256": "24eaae0d860212f646c71d9cc4cec7bd8e2a5dbaecff2acfeaf03fc5fd1ab93f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.15.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-24T23:40:27Z",
+      "sha256": "24eaae0d860212f646c71d9cc4cec7bd8e2a5dbaecff2acfeaf03fc5fd1ab93f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.15.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    },
+    "3.0.0-rc.2": {
+      "fetchedAt": "2026-10-24T23:40:28Z",
+      "sha256": "24eaae0d860212f646c71d9cc4cec7bd8e2a5dbaecff2acfeaf03fc5fd1ab93f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.fasterxml.jackson.core:jackson-databind:2.15.0",
+        "net.openid:appauth:0.11.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.strivacity.android.sdk.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "3.0.0-rc.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.strivacity.android.sdk.EndSessionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "3.0.0-rc.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

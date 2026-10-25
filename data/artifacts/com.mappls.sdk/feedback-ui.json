@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.mappls.sdk:feedback-ui",
+  "repository": "https://maven.mappls.com/repository/mappls",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-24T21:43:29Z",
+      "sha256": "665e4d2b2aa3a8695fc700a91c36bc5dfbd4eae57705307b0116e18dfcf748a7",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.mappls.sdk:mappls-android-sdk:8.2.6"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-24T21:43:27Z",
+      "sha256": "e62ded167d689b650b339526070d8eb015981007d7c9c356e23f329d466953e0",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.mappls.sdk:mappls-android-sdk:8.2.6"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T21:43:24Z",
+      "sha256": "f6948e189c2062570d038ddef868412ab4f31d3b3a6d1f7bb691b7a2fc6345a7",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.mappls.sdk:mappls-android-sdk:9.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mappls.sdk.feedback.ui.FeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

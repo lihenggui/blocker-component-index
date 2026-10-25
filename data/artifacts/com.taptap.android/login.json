@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.taptap.android:login",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.28.3": {
+      "fetchedAt": "2026-10-24T23:49:11Z",
+      "sha256": "ae988f739d3ab0b42fdbf56125222dbe5892c8698df0176c1659235a3ed3d7cd",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.taptap.sdk.TapLoginHelperActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.28.3",
+          "3.28.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.sdk.internal.user.CurrentUserProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.28.3",
+          "3.28.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.tap_user.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taptap.sdk.ui.TapTapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.28.3",
+          "3.28.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.qcloud.qvb:liveaccelerator",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:55:52Z",
+      "sha256": "54a03a9df1469efddccbfbf4880c21d6aa22bf44005592c3d856c37d4a53b7d0",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T22:55:51Z",
+      "sha256": "54a03a9df1469efddccbfbf4880c21d6aa22bf44005592c3d856c37d4a53b7d0",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T22:55:51Z",
+      "sha256": "54a03a9df1469efddccbfbf4880c21d6aa22bf44005592c3d856c37d4a53b7d0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.qcloud.qvb.liveaccelerator.TunService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qcloud.qvb.liveaccelerator.VPNPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.sensorsdata.analytics.android:SensorsAnalyticsSDK-TV",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.5-tv": {
+      "fetchedAt": "2026-10-24T23:14:14Z",
+      "sha256": "7b01dcf08c8cd79884a726b3366abecb84712a92a410e19bec6151c71ed0988f",
+      "dependencies": []
+    },
+    "5.0.0-tv": {
+      "fetchedAt": "2026-10-24T23:14:13Z",
+      "sha256": "ba9fbbcbb7cc43b09251a4238307c8482cdfb5eb4a3590ce4a97a5c1a280adb8",
+      "dependencies": []
+    },
+    "5.2.3-tv": {
+      "fetchedAt": "2026-10-24T23:14:13Z",
+      "sha256": "f75e2f66c9eb72247b2e4629e91eba35c3a7caf3fb44b89bce25f8c7b236f945",
+      "dependencies": []
+    },
+    "5.4.5-tv": {
+      "fetchedAt": "2026-10-24T23:14:12Z",
+      "sha256": "fe4689cb7b75ed5b6dfd6574e2a497f869b722f6b223839d67f45b10a11c0731",
+      "dependencies": []
+    },
+    "6.0.2-tv": {
+      "fetchedAt": "2026-10-24T23:14:12Z",
+      "sha256": "5f176eeb49c941c7593d609230970d9fc72277a5089578b4121e34309ebce2b9",
+      "dependencies": []
+    },
+    "6.0.3-tv": {
+      "fetchedAt": "2026-10-24T23:14:11Z",
+      "sha256": "15220630b1f3714a12005d208a8d39728dcbc0f753fa13c2d9921732ad7e12c4",
+      "dependencies": []
+    },
+    "6.0.4-tv": {
+      "fetchedAt": "2026-10-24T23:14:10Z",
+      "sha256": "5a7a64eb21f3f282dc1f3849bc131f5edf890e872f6b3cd9dfd2fd3d1bf90769",
+      "dependencies": []
+    },
+    "6.0.5-tv": {
+      "fetchedAt": "2026-10-24T23:14:10Z",
+      "sha256": "fbcd14ab6553d72a76e88dfa3c664cf9f352f7fcab12b94eaca857d224636b93",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.4.5-tv",
+          "6.0.5-tv"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SensorsDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

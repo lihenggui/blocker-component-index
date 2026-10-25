@@ -1,0 +1,255 @@
+{
+  "coordinate": "com.moengage:moe-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.07": {
+      "fetchedAt": "2026-10-24T22:02:46Z",
+      "sha256": "3a117a923e9b6aa07cbb63106469a92ee24b87793de9ea851ebf0646157f69c7",
+      "dependencies": []
+    },
+    "1.0.08": {
+      "fetchedAt": "2026-10-24T22:02:46Z",
+      "sha256": "4ffa9e0bb3425c91ecf993918b71ed227755d7e7379d9bb5bdf67cdb1ae5664b",
+      "dependencies": []
+    },
+    "1.0.09": {
+      "fetchedAt": "2026-10-24T22:02:45Z",
+      "sha256": "13e8f775bc25ea47edfcf79b989723d9f8c0f27157aaa3ff950912b6d1e4178e",
+      "dependencies": []
+    },
+    "2.0.00": {
+      "fetchedAt": "2026-10-24T22:02:44Z",
+      "sha256": "47f1099e2a69fad749bde5bd04a0d350a3643762862df33e2548b7c0bc385e37",
+      "dependencies": []
+    },
+    "2.0.01": {
+      "fetchedAt": "2026-10-24T22:02:44Z",
+      "sha256": "7d0a47a2575fe2ce882f61650961a5f676da0d44a8a481d88eb71ae16e9ca3f0",
+      "dependencies": []
+    },
+    "2.0.02": {
+      "fetchedAt": "2026-10-24T22:02:43Z",
+      "sha256": "a0d4b8d1211757f3448c956a5be2b940b300720aa7148fb8d4340436956f51f6",
+      "dependencies": []
+    },
+    "2.0.03": {
+      "fetchedAt": "2026-10-24T22:02:43Z",
+      "sha256": "a0d4b8d1211757f3448c956a5be2b940b300720aa7148fb8d4340436956f51f6",
+      "dependencies": []
+    },
+    "2.0.04": {
+      "fetchedAt": "2026-10-24T22:02:42Z",
+      "sha256": "ed3242ddc39c6a99b364d8532b770fb15620e792a1dbd76a2466ccf1a50a4b58",
+      "dependencies": []
+    },
+    "2.0.05": {
+      "fetchedAt": "2026-10-24T22:02:42Z",
+      "sha256": "d3ad70b7a85c9446dd7706c8dcd4478c7546bf2bd15614affd521662db161fdb",
+      "dependencies": []
+    },
+    "2.0.06": {
+      "fetchedAt": "2026-10-24T22:02:41Z",
+      "sha256": "de479a2e4f16922617229e28fdc34498d8d8feb2bfa721f413fbe9e67b05f803",
+      "dependencies": []
+    },
+    "2.0.07": {
+      "fetchedAt": "2026-10-24T22:02:41Z",
+      "sha256": "e920e24a050efdfa89078729a167a77b895792523fca7611b8177b3a008a15a7",
+      "dependencies": []
+    },
+    "2.0.08": {
+      "fetchedAt": "2026-10-24T22:02:40Z",
+      "sha256": "6fa3dca673d1d03ad72fdb277811874e1e836f52889e0b010b04b9d6479d8ba4",
+      "dependencies": []
+    },
+    "2.0.09": {
+      "fetchedAt": "2026-10-24T22:02:40Z",
+      "sha256": "6fa3dca673d1d03ad72fdb277811874e1e836f52889e0b010b04b9d6479d8ba4",
+      "dependencies": []
+    },
+    "2.0.10": {
+      "fetchedAt": "2026-10-24T22:02:39Z",
+      "sha256": "9f81cf83bcd37cb5d807c9bdfde7f628ef742ba1022c9e40bef9c7d78a852316",
+      "dependencies": []
+    },
+    "2.0.11": {
+      "fetchedAt": "2026-10-24T22:02:39Z",
+      "sha256": "9f81cf83bcd37cb5d807c9bdfde7f628ef742ba1022c9e40bef9c7d78a852316",
+      "dependencies": []
+    },
+    "2.0.12": {
+      "fetchedAt": "2026-10-24T22:02:38Z",
+      "sha256": "3a20aec2a51250dcc3d5433725ff486c3171a46b595e5a278a2a47f42d9d59fd",
+      "dependencies": []
+    },
+    "2.0.13": {
+      "fetchedAt": "2026-10-24T22:02:37Z",
+      "sha256": "93c8785afe2506b8eee9b2e6694562b68616a370efa8e9281d708cf0f970600c",
+      "dependencies": []
+    },
+    "2.0.14": {
+      "fetchedAt": "2026-10-24T22:02:37Z",
+      "sha256": "93c8785afe2506b8eee9b2e6694562b68616a370efa8e9281d708cf0f970600c",
+      "dependencies": []
+    },
+    "2.0.15": {
+      "fetchedAt": "2026-10-24T22:02:36Z",
+      "sha256": "582154462c526520ece54d58532fc6ebc181d3d193c946af4d95c08a6a3c254b",
+      "dependencies": []
+    },
+    "2.0.16": {
+      "fetchedAt": "2026-10-24T22:02:36Z",
+      "sha256": "e86ff1bf6e49202e5231f56566450bcf177756e567e6c1ebd215c1b051d7f373",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.moe.pushlibrary.AppUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.00",
+          "2.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moe.pushlibrary.AppUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.07",
+          "1.0.09"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moe.pushlibrary.MoEWorker",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.07",
+          "2.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moe.pushlibrary.providers.MoEProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.07",
+          "2.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.moengage.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.core.DataSyncJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.00",
+          "2.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.core.MoEAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.07",
+          "2.0.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.core.ScheduledDataSyncJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.04",
+          "2.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.core.integrationVerification.IntegrationVerificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.07",
+          "2.0.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "showInApp"
+      ]
+    }
+  ]
+}

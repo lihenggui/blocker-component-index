@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.tencent.imsdk.tuiplugin:tuigroupnote",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.1.3925": {
+      "fetchedAt": "2026-10-24T23:54:43Z",
+      "sha256": "2f226f5b5c595e2107c249693fc6e97339fd396446f1af0bd81b3b1c8c7cdc35",
+      "dependencies": []
+    },
+    "7.2.4123": {
+      "fetchedAt": "2026-10-24T23:54:43Z",
+      "sha256": "2f226f5b5c595e2107c249693fc6e97339fd396446f1af0bd81b3b1c8c7cdc35",
+      "dependencies": []
+    },
+    "7.2.4126": {
+      "fetchedAt": "2026-10-24T23:54:43Z",
+      "sha256": "2f226f5b5c595e2107c249693fc6e97339fd396446f1af0bd81b3b1c8c7cdc35",
+      "dependencies": []
+    },
+    "7.2.4146": {
+      "fetchedAt": "2026-10-24T23:54:42Z",
+      "sha256": "2f226f5b5c595e2107c249693fc6e97339fd396446f1af0bd81b3b1c8c7cdc35",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.tuikit.tuigroupnote.TUIGroupNoteService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.1.3925",
+          "7.2.4146"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TUIGroupNote.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuigroupnote.classicui.page.TUIGroupNoteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.1.3925",
+          "7.2.4146"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuigroupnote.classicui.page.TUIGroupNoteCreatorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.1.3925",
+          "7.2.4146"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

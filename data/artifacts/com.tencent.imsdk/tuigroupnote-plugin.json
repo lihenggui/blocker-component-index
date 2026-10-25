@@ -1,0 +1,149 @@
+{
+  "coordinate": "com.tencent.imsdk:tuigroupnote-plugin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.3.4358": {
+      "fetchedAt": "2026-10-24T23:55:12Z",
+      "sha256": "601ca383291943aeaaf78dc70d5e106765cc58422d4f8a5bf6511f4855b7bddf",
+      "dependencies": []
+    },
+    "7.4.4643": {
+      "fetchedAt": "2026-10-24T23:55:11Z",
+      "sha256": "601ca383291943aeaaf78dc70d5e106765cc58422d4f8a5bf6511f4855b7bddf",
+      "dependencies": []
+    },
+    "7.5.4852": {
+      "fetchedAt": "2026-10-24T23:55:10Z",
+      "sha256": "601ca383291943aeaaf78dc70d5e106765cc58422d4f8a5bf6511f4855b7bddf",
+      "dependencies": []
+    },
+    "7.6.5011": {
+      "fetchedAt": "2026-10-24T23:55:10Z",
+      "sha256": "601ca383291943aeaaf78dc70d5e106765cc58422d4f8a5bf6511f4855b7bddf",
+      "dependencies": []
+    },
+    "7.7.5282": {
+      "fetchedAt": "2026-10-24T23:55:09Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "7.8.5483": {
+      "fetchedAt": "2026-10-24T23:55:09Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "7.8.5484": {
+      "fetchedAt": "2026-10-24T23:55:08Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "7.9.5666": {
+      "fetchedAt": "2026-10-24T23:55:08Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.0.5895": {
+      "fetchedAt": "2026-10-24T23:55:07Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.1.6103": {
+      "fetchedAt": "2026-10-24T23:55:06Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.1.6116": {
+      "fetchedAt": "2026-10-24T23:55:06Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.2.6325": {
+      "fetchedAt": "2026-10-24T23:55:05Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.3.6498": {
+      "fetchedAt": "2026-10-24T23:55:05Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.4.6667": {
+      "fetchedAt": "2026-10-24T23:55:04Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.5.6864": {
+      "fetchedAt": "2026-10-24T23:55:04Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.6.7019": {
+      "fetchedAt": "2026-10-24T23:55:02Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.7.7201": {
+      "fetchedAt": "2026-10-24T23:55:03Z",
+      "sha256": "2bc4e396bbbc03d75a0a75476393c35bb613f170814f347550b915096a699195",
+      "dependencies": []
+    },
+    "8.9.7511": {
+      "fetchedAt": "2026-10-24T23:55:03Z",
+      "sha256": "e8863f8650182c501526758293641a129d74b57e9d7e89963254f3e31fd53e1e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.tuikit.tuigroupnoteplugin.TUIGroupNoteService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "7.6.5011"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TUIGroupNote.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuigroupnoteplugin.classicui.page.TUIGroupNoteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "8.9.7511"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuigroupnoteplugin.classicui.page.TUIGroupNoteCreatorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "8.9.7511"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

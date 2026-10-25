@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.pushwoosh.java7:pushwoosh-gcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.5.2": {
+      "fetchedAt": "2026-10-24T22:53:29Z",
+      "sha256": "994684253fd96e7ce1372545c7a7f99a0837090dfa64b59be594726de376a4c9",
+      "dependencies": []
+    },
+    "5.5.3": {
+      "fetchedAt": "2026-10-24T22:53:29Z",
+      "sha256": "53894f366a134693a1cccbc285781f85549015c58cdf2cd39a4ab7a86b8c79b3",
+      "dependencies": []
+    },
+    "5.5.4": {
+      "fetchedAt": "2026-10-24T22:53:28Z",
+      "sha256": "7d591d74665c04fbdf89383d21b9ed5dc34553fd9a7c7efb3ea79acb6ddceb78",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.gcm.GcmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.GcmRegistrationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.PushGcmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pushwoosh.gcm.GcmInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.5.2",
+          "5.5.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gcmpushwooshinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

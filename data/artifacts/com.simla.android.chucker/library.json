@@ -1,0 +1,181 @@
+{
+  "coordinate": "com.simla.android.chucker:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:17:58Z",
+      "sha256": "0deef3c13559714a6d58da0d0eaa18d565d6e863be830e4a377a1c6e24954591",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:8.0.2",
+        "androidx.fragment:fragment-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.palette:palette-ktx:1.0.0",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.graphql-java:graphql-java:16.2",
+        "com.squareup.okhttp3:okhttp-bom:4.11.0",
+        "org.brotli:dec:0.1.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:17:57Z",
+      "sha256": "20df23c153f8261b90bb82c6ede135f4dbb23f076039d39ff80b84684eea68d7",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:8.0.2",
+        "androidx.fragment:fragment-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.palette:palette-ktx:1.0.0",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.graphql-java:graphql-java:16.2",
+        "com.squareup.okhttp3:okhttp-bom:4.11.0",
+        "org.brotli:dec:0.1.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T23:17:56Z",
+      "sha256": "20df23c153f8261b90bb82c6ede135f4dbb23f076039d39ff80b84684eea68d7",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:8.0.2",
+        "androidx.fragment:fragment-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.palette:palette-ktx:1.0.0",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.graphql-java:graphql-java:16.2",
+        "com.squareup.okhttp3:okhttp-bom:4.11.0",
+        "org.brotli:dec:0.1.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ChuckerFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.chuckerteam.chucker.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ClearDatabaseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.ws.WsTransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

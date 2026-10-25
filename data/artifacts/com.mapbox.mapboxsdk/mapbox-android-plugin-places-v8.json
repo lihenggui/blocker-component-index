@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-24T21:42:27Z",
+      "sha256": "eaf40ebe0e2c25595ffba902e9854d09ae6472136ddf139123b4685c4a24c54b",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.0",
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:cardview-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0",
+        "com.mapbox.mapboxsdk:mapbox-sdk-services:4.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.PlaceAutocompleteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapbox.mapboxsdk.plugins.places.picker.ui.PlacePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.parse:parse-fcm-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.17.0": {
+      "fetchedAt": "2026-10-24T22:41:48Z",
+      "sha256": "5cc0cb1610bea50e69bc6cfa0d6308b15d54b1a30c31c9e48b57a7398c6f2c67",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "com.parse:parse-android:1.17.0"
+      ]
+    },
+    "1.17.1": {
+      "fetchedAt": "2026-10-24T22:41:47Z",
+      "sha256": "5cc0cb1610bea50e69bc6cfa0d6308b15d54b1a30c31c9e48b57a7398c6f2c67",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.firebase:firebase-messaging:15.0.2",
+        "com.parse:parse-android:1.17.1"
+      ]
+    },
+    "1.17.2": {
+      "fetchedAt": "2026-10-24T22:41:47Z",
+      "sha256": "5cc0cb1610bea50e69bc6cfa0d6308b15d54b1a30c31c9e48b57a7398c6f2c67",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.firebase:firebase-messaging:15.0.2",
+        "com.parse:parse-android:1.17.2"
+      ]
+    },
+    "1.17.3": {
+      "fetchedAt": "2026-10-24T22:41:46Z",
+      "sha256": "5cc0cb1610bea50e69bc6cfa0d6308b15d54b1a30c31c9e48b57a7398c6f2c67",
+      "dependencies": [
+        "com.firebase:firebase-jobdispatcher:0.8.5",
+        "com.google.firebase:firebase-messaging:15.0.2",
+        "com.parse:parse-android:1.17.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.parse.fcm.ParseFirebaseJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.17.0",
+          "1.17.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

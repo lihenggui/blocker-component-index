@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.pingidentity.signals:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T22:47:00Z",
+      "sha256": "9b965592ac6b03d0d0bb72211ebcf181ab2c54da525cbb69a1c971f033e91fb1",
+      "dependencies": [
+        "com.pingidentity.signals:core:1.0.9"
+      ]
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T22:46:59Z",
+      "sha256": "9b965592ac6b03d0d0bb72211ebcf181ab2c54da525cbb69a1c971f033e91fb1",
+      "dependencies": [
+        "com.pingidentity.signals:core:1.0.9"
+      ]
+    },
+    "5.0.2": {
+      "fetchedAt": "2026-10-24T22:46:59Z",
+      "sha256": "9b965592ac6b03d0d0bb72211ebcf181ab2c54da525cbb69a1c971f033e91fb1",
+      "dependencies": [
+        "com.pingidentity.signals:core:1.0.9"
+      ]
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T22:46:58Z",
+      "sha256": "a2554aed85143dd422b09e0208d2dfbac00c7203af647237a9cbadffe3cbe01e",
+      "dependencies": [
+        "com.pingidentity.signals:core:1.0.9"
+      ]
+    },
+    "5.1.1": {
+      "fetchedAt": "2026-10-24T22:46:58Z",
+      "sha256": "a2554aed85143dd422b09e0208d2dfbac00c7203af647237a9cbadffe3cbe01e",
+      "dependencies": [
+        "com.pingidentity.signals:core:1.0.9"
+      ]
+    },
+    "5.1.2": {
+      "fetchedAt": "2026-10-24T22:46:57Z",
+      "sha256": "a2554aed85143dd422b09e0208d2dfbac00c7203af647237a9cbadffe3cbe01e",
+      "dependencies": [
+        "com.pingidentity.signals:core:1.0.9"
+      ]
+    },
+    "5.1.6": {
+      "fetchedAt": "2026-10-24T22:46:57Z",
+      "sha256": "a558d0d53457e8206c5d15f97faf5096289de08fab61fd421c181ae47d464d1a",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T22:46:56Z",
+      "sha256": "a558d0d53457e8206c5d15f97faf5096289de08fab61fd421c181ae47d464d1a",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T22:46:56Z",
+      "sha256": "a558d0d53457e8206c5d15f97faf5096289de08fab61fd421c181ae47d464d1a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.pingidentity.signalssdk.sdk.PingOneContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.0",
+          "5.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.STContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pingidentity.signalssdk.sdk.PingOneSignalsContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.1.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.POSContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

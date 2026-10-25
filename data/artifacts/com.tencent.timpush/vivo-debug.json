@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.tencent.timpush:vivo-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.5012": {
+      "fetchedAt": "2026-10-25T00:05:38Z",
+      "sha256": "2f748948557473a305a53d550c4187ffba8d6f17a2e51736930842ad0d07578e",
+      "dependencies": [
+        "com.tencent.timpush:vivo-vendor:3.0.0.4"
+      ]
+    },
+    "7.7.5283": {
+      "fetchedAt": "2026-10-25T00:05:38Z",
+      "sha256": "1a71dc16a0ddccee3edeceee19c7655560a1c0fd3f573d0faf0230e18611a3c4",
+      "dependencies": [
+        "com.tencent.timpush:vivo-vendor:3.0.0.5"
+      ]
+    },
+    "7.8.1126": {
+      "fetchedAt": "2026-10-25T00:05:37Z",
+      "sha256": "1a71dc16a0ddccee3edeceee19c7655560a1c0fd3f573d0faf0230e18611a3c4",
+      "dependencies": [
+        "com.tencent.timpush:vivo-vendor:3.0.0.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.vivo.TIMPushVIVOMessageReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.vivo.TIMPushVIVOService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.vivoPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.LinkProxyClientActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.6.5012",
+          "7.8.1126"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

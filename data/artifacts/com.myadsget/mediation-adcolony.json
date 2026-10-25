@@ -1,0 +1,113 @@
+{
+  "coordinate": "com.myadsget:mediation-adcolony",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.6.2.0-alpha": {
+      "fetchedAt": "2026-10-24T22:10:56Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:1.3.0.0-alpha"
+      ]
+    },
+    "4.6.2.0-beta": {
+      "fetchedAt": "2026-10-24T22:10:56Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:1.3.0.0-beta"
+      ]
+    },
+    "4.6.2.0": {
+      "fetchedAt": "2026-10-24T22:10:55Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:1.3.0.0"
+      ]
+    },
+    "4.6.2.1-beta": {
+      "fetchedAt": "2026-10-24T22:10:55Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:3.0.0.0-beta"
+      ]
+    },
+    "4.6.2.1": {
+      "fetchedAt": "2026-10-24T22:10:54Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:3.1.0.0"
+      ]
+    },
+    "4.6.2.2": {
+      "fetchedAt": "2026-10-24T22:10:54Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:3.2.0.1"
+      ]
+    },
+    "4.6.2.3": {
+      "fetchedAt": "2026-10-24T22:10:53Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:3.2.0.5"
+      ]
+    },
+    "4.6.2.4": {
+      "fetchedAt": "2026-10-24T22:10:53Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.6.2",
+        "com.myadsget:san-sdk:3.3.0.1"
+      ]
+    },
+    "4.8.0.1": {
+      "fetchedAt": "2026-10-24T22:10:52Z",
+      "sha256": "58100b12b8d01d1fec25c1bd9d81072eb929e8226a6c252c0c54ddb7a07ae6c5",
+      "dependencies": [
+        "com.adcolony:sdk:4.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adcolony.sdk.AdColonyAdViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.2.0-alpha",
+          "4.8.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adcolony.sdk.AdColonyInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.2.0-alpha",
+          "4.8.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

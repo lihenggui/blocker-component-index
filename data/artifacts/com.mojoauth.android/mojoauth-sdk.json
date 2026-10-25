@@ -1,0 +1,82 @@
+{
+  "coordinate": "com.mojoauth.android:mojoauth-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:04:21Z",
+      "sha256": "796fcfcc960c2e062e1c3004503d6a40e9e02cb4a40fe6ec324314f0b35fc13d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.1.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T22:04:20Z",
+      "sha256": "bf885b76b5ad0312e4cf816fa139439630502fe5fe6e2bb3ee83acbf56a26bcf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.1.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T22:04:20Z",
+      "sha256": "b536c4d916589f19d79f1d9cc29c04fff960975cc8001d6e6d649ac0252fb93b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.facebook.android:facebook-login:11.2.0",
+        "com.google.android.gms:play-services-auth:20.1.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.1.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-24T22:04:19Z",
+      "sha256": "e7618b281771099d3ce6246e84612aeec1fdcdfffa9808033861435a2068738a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.facebook.android:facebook-login:11.2.0",
+        "com.google.android.gms:play-services-auth:20.1.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mojoauth.android.social.FacebookNativeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mojoauth.android.social.GoogleNativeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

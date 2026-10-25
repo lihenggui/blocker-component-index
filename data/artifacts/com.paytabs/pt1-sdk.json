@@ -1,0 +1,55 @@
+{
+  "coordinate": "com.paytabs:pt1-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:44:50Z",
+      "sha256": "cfe6cd7d8958bf1bc37f3328016f741d2af1b0795c881f2394b00cda85cf04ec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.paytabs:card_entry:1.0.0",
+        "com.paytabs:scan-card:0.0.6",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.paytabs.paytabs_sdk.payment.ui.activities.PayTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.paytabs.paytabs_sdk.payment.ui.activities.SecurePaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

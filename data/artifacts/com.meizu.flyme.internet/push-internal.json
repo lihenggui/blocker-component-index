@@ -1,0 +1,150 @@
+{
+  "coordinate": "com.meizu.flyme.internet:push-internal",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.8": {
+      "fetchedAt": "2026-10-24T21:48:22Z",
+      "sha256": "f7d544fcaa8611b02ebcae3909a430dfbc8c0f7a94f71ed46e756a130aea041c",
+      "dependencies": [
+        "com.android.support:support-annotations:26.0.0"
+      ]
+    },
+    "4.1.0": {
+      "fetchedAt": "2026-10-24T21:48:21Z",
+      "sha256": "1be552fd9e103ddf51e79dc52db1a63ccb11f1784579718227207aeef6a60188",
+      "dependencies": [
+        "com.android.support:support-annotations:26.0.0"
+      ]
+    },
+    "4.1.4": {
+      "fetchedAt": "2026-10-24T21:48:21Z",
+      "sha256": "7c6e818cc0a7fbbaae08c8ec57d438b2e1e88e4f211074f3722c5379e5e6c6f4",
+      "dependencies": [
+        "com.android.support:support-annotations:26.0.0"
+      ]
+    },
+    "4.2.3": {
+      "fetchedAt": "2026-10-24T21:48:20Z",
+      "sha256": "aae760f664e0c93fd12f29f01f4eea95e2f15618fad8b3355fd04c73c18995b2",
+      "dependencies": []
+    },
+    "4.2.6": {
+      "fetchedAt": "2026-10-24T21:48:20Z",
+      "sha256": "888b78825798e86a2321293814a28070ad923bdf234786922f93a3ab2f3b97e4",
+      "dependencies": []
+    },
+    "4.2.7": {
+      "fetchedAt": "2026-10-24T21:48:19Z",
+      "sha256": "888b78825798e86a2321293814a28070ad923bdf234786922f93a3ab2f3b97e4",
+      "dependencies": []
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-24T21:48:19Z",
+      "sha256": "888b78825798e86a2321293814a28070ad923bdf234786922f93a3ab2f3b97e4",
+      "dependencies": []
+    },
+    "5.0.2": {
+      "fetchedAt": "2026-10-24T21:48:18Z",
+      "sha256": "5cee95916d805ead2d851b22205f1279681fb723eccff15774cb1653e77b5f22",
+      "dependencies": []
+    },
+    "5.0.3": {
+      "fetchedAt": "2026-10-24T21:48:17Z",
+      "sha256": "cb2dc3cdeeb545f5788581cb78264e2c742cef704e77407e9dae46ea7e7b1e74",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.0",
+          "4.2.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.meizu.flyme.permission.PUSH",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.2.6",
+          "5.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.8",
+          "4.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.meizu.flyme.permission.PUSH",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.2.6",
+          "4.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.meizu.cloud.push.permission.MESSAGE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.8",
+          "4.2.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

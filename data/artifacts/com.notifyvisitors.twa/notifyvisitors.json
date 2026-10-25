@@ -1,0 +1,136 @@
+{
+  "coordinate": "com.notifyvisitors.twa:notifyvisitors",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T22:29:50Z",
+      "sha256": "4d1a442ea6306cd7060ac59f41db63d0338c6d54b0ec34f12ab3e4586fdcbf95",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.android.installreferrer:installreferrer:2.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T22:29:49Z",
+      "sha256": "a20abfb93fc66223b43f95017a7fdbd9ee32b7735341e6b656fcf2a491941a36",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.android.installreferrer:installreferrer:2.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T22:29:49Z",
+      "sha256": "a20abfb93fc66223b43f95017a7fdbd9ee32b7735341e6b656fcf2a491941a36",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.android.installreferrer:installreferrer:2.1"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T22:29:48Z",
+      "sha256": "c4389ea733a7c2ea554134a0aac255f6bd96405272c757fe0c61afa6d2103cb2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.android.installreferrer:installreferrer:2.1"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-24T22:29:48Z",
+      "sha256": "65192b412cd1235073ffc7ac87d795016e0d0fd893de747f0b3d60764097e329",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.android.installreferrer:installreferrer:2.1"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-24T22:29:47Z",
+      "sha256": "65192b412cd1235073ffc7ac87d795016e0d0fd893de747f0b3d60764097e329",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.android.installreferrer:installreferrer:2.1"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-24T22:29:46Z",
+      "sha256": "54ad2d9d0df63ee3100a6443480006371422ce18ab462a66f0356778c3e15386",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.android.installreferrer:installreferrer:2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.notifyvisitors.twa.NVAppUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.custom.PERMISSION",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.notifyvisitors.twa.NVAppUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.custom.PERMISSION",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.notifyvisitors.twa.NVCheckUpdateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "${applicationId}.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.notifyvisitors.twa.NVCheckUpdateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

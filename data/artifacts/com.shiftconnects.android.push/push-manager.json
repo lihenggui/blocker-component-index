@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.shiftconnects.android.push:push-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:17:15Z",
+      "sha256": "a85f7aeeaec448371595a244b01846b471886cfaf4b0656aa03a288140a373f9",
+      "dependencies": [
+        "com.android.support:support-annotations:23.0.0",
+        "com.google.android.gms:play-services-gcm:7.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.gcm.GcmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE",
+        "com.google.android.c2dm.intent.REGISTRATION"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.schibsted.account:account-sdk-android-ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T23:11:39Z",
+      "sha256": "70a33e1001ea00449843590906f9aa67f899fd924b1881f2dfdcc8c3a41ad04c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.fragment:fragment:1.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.0.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.android.material:material:1.2.0",
+        "com.schibsted.account:account-sdk-android-core:2.0.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-reflect:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:11:38Z",
+      "sha256": "00f194ed2605f767cfbf053d0e13c5ccbac8f51f3d8a0a758489d81313abc7f3",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.fragment:fragment:1.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.0.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.android.material:material:1.2.0",
+        "com.schibsted.account:account-sdk-android-core:2.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-reflect:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.schibsted.account.ui.login.flow.password.PasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.2",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.schibsted.account.ui.login.flow.passwordless.PasswordlessActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.2",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

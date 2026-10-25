@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.pnuema.android:android-obd-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:48:43Z",
+      "sha256": "9e88d08026b56b990edfd5b59f0be131a372c8e08f150aee28245416bd56942e",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.udojava:EvalEx:2.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.pnuema.android.obd.ObdInitializer"
+      ]
+    }
+  ]
+}

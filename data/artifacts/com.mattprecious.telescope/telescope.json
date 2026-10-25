@@ -1,0 +1,96 @@
+{
+  "coordinate": "com.mattprecious.telescope:telescope",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T21:46:59Z",
+      "sha256": "f5b12ea49b97ff2923e9dd9490028c3e60326dc2c40d3db6b964984c79f0ce65",
+      "dependencies": [
+        "com.android.support:support-annotations:23.1.1"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T21:46:58Z",
+      "sha256": "bf0a73517a914ae653382222fad45ae4da5491998ece8f977a1cc05e433484ff",
+      "dependencies": [
+        "com.android.support:support-annotations:23.4.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T21:46:58Z",
+      "sha256": "a82029c132f22f60af72af904c5a44fb71e4d217da16e51c994bb155ce7a3c9f",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-24T21:46:57Z",
+      "sha256": "7e4d0ead5478fe1a0288b7d72902015a488f41e4d0770a3143933585fd12eaee",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.1"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-24T21:46:57Z",
+      "sha256": "7e4d0ead5478fe1a0288b7d72902015a488f41e4d0770a3143933585fd12eaee",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mattprecious.telescope.RequestCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mattprecious.telescope.TelescopeFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.telescope.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.mattprecious.telescope.TelescopeProjectionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.opayweb:paysdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T22:36:38Z",
+      "sha256": "39e4d65f6f5d17474b4986b22584a05f37acd00585bdc4df38df717516c77107",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0-rc01",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.opay.account.controller.LoginResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.opay.account.controller.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

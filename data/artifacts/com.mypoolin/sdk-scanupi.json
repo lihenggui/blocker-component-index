@@ -1,0 +1,94 @@
+{
+  "coordinate": "com.mypoolin:sdk-scanupi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-24T22:12:34Z",
+      "sha256": "91d94bac5077fad91f5d345c42fa27b32bb2a91da2aeb9015685c26353a38bba",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.android.support:design:27.1.0",
+        "com.google.android.gms:play-services-vision:12.0.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T22:12:33Z",
+      "sha256": "3bf3f1e3ba1b0665d03442a4198cae0ee47ec719bfbc11492bbabd3dc9cd3ab8",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.android.support:design:27.1.0",
+        "com.google.android.gms:play-services-vision:12.0.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T22:12:33Z",
+      "sha256": "a9695707439bcff5df769044adad85fd2347bb753258ed56ca3dc7fab3dcc533",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.android.support:design:27.1.0",
+        "com.google.android.gms:play-services-vision:12.0.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-24T22:12:32Z",
+      "sha256": "78b6d529cfe8d1cc25f5fcc1dfa490df84a80dc548647516e86927ac7e32f418",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.android.support:cardview-v7:27.1.0",
+        "com.android.support:design:27.1.0",
+        "com.google.android.gms:play-services-vision:12.0.1"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T22:12:32Z",
+      "sha256": "50c016193075dfac04806c1143b50ab90af183ece74d8249c1d5f540983ced2e",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.android.support:cardview-v7:27.1.0",
+        "com.android.support:design:27.1.0",
+        "com.google.android.gms:play-services-vision:12.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mypoolin.sdk.bharatqr.Barcode.BarcodeScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mypoolin.sdk.bharatqr.MypoolinScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

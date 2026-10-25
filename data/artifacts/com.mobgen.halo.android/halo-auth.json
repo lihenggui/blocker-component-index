@@ -1,0 +1,148 @@
+{
+  "coordinate": "com.mobgen.halo.android:halo-auth",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.3.3": {
+      "fetchedAt": "2026-10-24T21:59:34Z",
+      "sha256": "a05c7d9f328a2aaa962c8c41b30f23c833f3a233ed13f74032616ee6f268355f",
+      "dependencies": [
+        "com.mobgen.halo.android:halo-sdk:2.3.3"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-24T21:59:34Z",
+      "sha256": "9ebc66091a5cd49597b5d017feb8b0e8255301308875e0f4addd198193de497a",
+      "dependencies": [
+        "com.mobgen.halo.android:halo-sdk:2.4.0"
+      ]
+    },
+    "2.5.0": {
+      "fetchedAt": "2026-10-24T21:59:33Z",
+      "sha256": "5093673ca1b2a7cadec6f50074745d1ab3bd554d7dcadafca00ed5e65aae0558",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:4.27.0",
+        "com.google.android.gms:play-services-auth:11.8.0",
+        "com.mobgen.halo.android:halo-sdk:2.5.0"
+      ]
+    },
+    "2.5.1": {
+      "fetchedAt": "2026-10-24T21:59:32Z",
+      "sha256": "9a72710b7f40b074094a3de13e7ffcc71c810f90f081a5918d81dcca15bb489d",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:4.27.0",
+        "com.google.android.gms:play-services-auth:11.8.0",
+        "com.mobgen.halo.android:halo-sdk:2.5.1"
+      ]
+    },
+    "2.5.2": {
+      "fetchedAt": "2026-10-24T21:59:32Z",
+      "sha256": "44424c292844b9c05dbac23d8b8e62698ec4d0dcf1abf74be311fab70a73151e",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:4.27.0",
+        "com.google.android.gms:play-services-auth:11.8.0",
+        "com.mobgen.halo.android:halo-sdk:2.5.2"
+      ]
+    },
+    "2.5.4": {
+      "fetchedAt": "2026-10-24T21:59:31Z",
+      "sha256": "cf09fd87486e5125893da8d0c64cea7fc26069e3f21838e7eb4d46b40618a104",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:4.27.0",
+        "com.google.android.gms:play-services-auth:11.8.0",
+        "com.mobgen.halo.android:halo-sdk:2.5.4"
+      ]
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-24T21:59:31Z",
+      "sha256": "d512567c1a9a2c184e8f1310d6637442ac399b731023d5e9e03f8eebf402daea",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:4.27.0",
+        "com.google.android.gms:play-services-auth:11.8.0",
+        "com.mobgen.halo.android:halo-sdk:2.7.0"
+      ]
+    },
+    "2.9.3": {
+      "fetchedAt": "2026-10-24T21:59:30Z",
+      "sha256": "b3a9528b3983ac43f48ba9fdffa6b7646838b128ecc99b547127724ff545b7cb",
+      "dependencies": [
+        "com.facebook.android:facebook-android-sdk:4.27.0",
+        "com.google.android.gms:play-services-auth:11.8.0",
+        "com.mobgen.halo.android:halo-sdk:2.9.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.3",
+          "2.9.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobgen.halo.android.auth.authenticator.AuthService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.3",
+          "2.9.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.accounts.AccountAuthenticator"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.accounts.AccountAuthenticator"
+      ]
+    },
+    {
+      "name": "com.mobgen.halo.android.auth.providers.facebook.HaloFacebookSignInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.3",
+          "2.9.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobgen.halo.android.auth.providers.google.HaloGoogleSignInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.3",
+          "2.9.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

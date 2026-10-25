@@ -1,0 +1,145 @@
+{
+  "coordinate": "com.netease.nimlib.yach:basesdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.8.0": {
+      "fetchedAt": "2026-10-24T22:17:36Z",
+      "sha256": "e647d8941292ebce70c00de616357a8c342363b8727502ea3eff1f41cd56fca9",
+      "dependencies": []
+    },
+    "8.3.0": {
+      "fetchedAt": "2026-10-24T22:17:35Z",
+      "sha256": "2a978eb3c4fe53dcb585650b1ba4aff3703b0a7b3cb5e437b381bb6b5b3c9233",
+      "dependencies": []
+    },
+    "8.3.5": {
+      "fetchedAt": "2026-10-24T22:17:34Z",
+      "sha256": "6019f7045db8c95d5843fc764448c4b98bcfc28bf33c9b3bdf865add5f76ebdc",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "8.3.0",
+          "8.3.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ipc.provider.preference",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.job.NIMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.0",
+          "8.3.5"
+        ]
+      ],
+      "exported": true,
+      "process": ":core",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.8.0",
+          "8.3.5"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.0",
+          "8.3.5"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimService$Aux",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.0",
+          "8.3.5"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.ResponseReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.8.0",
+          "8.3.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.ResponseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.0",
+          "8.3.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "coordinate": "com.suprsend:android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "android-rn-0.1.1": {
+      "fetchedAt": "2026-10-24T23:42:56Z",
+      "sha256": "69f78321add4944aacc0f94c9dcb75cc43e4e87b3748d17b9a82631b243f95f3",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:20.2.4",
+        "com.googlecode.libphonenumber:libphonenumber:8.12.38",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "0.1Beta9": {
+      "fetchedAt": "2026-10-24T23:42:56Z",
+      "sha256": "ca56f54d7cc3c3b359a90f1e48a68618832c98454e97f8d4a95763724c6a7680",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:20.2.4",
+        "com.googlecode.libphonenumber:libphonenumber:8.12.38",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "0.1Beta10": {
+      "fetchedAt": "2026-10-24T23:42:55Z",
+      "sha256": "83dd9b4c93a79f012c8b3352bc071f6d567710d1ba3620ab60067e13563a8a8c",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:20.2.4",
+        "com.googlecode.libphonenumber:libphonenumber:8.12.38",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-24T23:42:54Z",
+      "sha256": "7845378100068aa91e31a58c486b9b714a1a6843c3b9abb8cf791234ed130752",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:20.2.4",
+        "com.googlecode.libphonenumber:libphonenumber:8.12.38",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "app.suprsend.notification.NotificationRedirectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "android-rn-0.1.1",
+          "0.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "app.suprsend.notification.SSNotificationDismissBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "android-rn-0.1.1",
+          "0.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

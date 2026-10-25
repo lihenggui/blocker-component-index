@@ -1,0 +1,98 @@
+{
+  "coordinate": "com.ricoh360.thetableclient:theta-ble-client-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:05:09Z",
+      "sha256": "771067f0e45e4cd4bf458bee2a8c611566758d838feba34c884d179cd81dd510",
+      "dependencies": [
+        "com.juul.kable:core:0.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:05:08Z",
+      "sha256": "771067f0e45e4cd4bf458bee2a8c611566758d838feba34c884d179cd81dd510",
+      "dependencies": [
+        "com.juul.kable:core:0.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T23:05:07Z",
+      "sha256": "771067f0e45e4cd4bf458bee2a8c611566758d838feba34c884d179cd81dd510",
+      "dependencies": [
+        "com.juul.kable:core:0.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T23:05:04Z",
+      "sha256": "62a6c5c46a507f86be205d5dae505f1f098b2299c905b53c8dcde3b67ef2caeb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.juul.kable:core:0.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-24T23:05:07Z",
+      "sha256": "62a6c5c46a507f86be205d5dae505f1f098b2299c905b53c8dcde3b67ef2caeb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.juul.kable:core:0.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "1.3.2": {
+      "fetchedAt": "2026-10-24T23:05:06Z",
+      "sha256": "62a6c5c46a507f86be205d5dae505f1f098b2299c905b53c8dcde3b67ef2caeb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.juul.kable:core:0.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "1.3.3": {
+      "fetchedAt": "2026-10-24T23:05:05Z",
+      "sha256": "62a6c5c46a507f86be205d5dae505f1f098b2299c905b53c8dcde3b67ef2caeb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.juul.kable:core:0.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.ricoh360.thetableclient.ThetaBleInitializer"
+      ]
+    }
+  ]
+}

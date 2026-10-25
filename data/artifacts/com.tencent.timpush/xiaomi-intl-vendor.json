@@ -1,0 +1,136 @@
+{
+  "coordinate": "com.tencent.timpush:xiaomi-intl-vendor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.1.8": {
+      "fetchedAt": "2026-10-25T00:05:57Z",
+      "sha256": "9748c390734b5dcae5ac35f1dd6af2eb9b9b4a9a99ec3b91c87fdb6d4ed7b2f0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.xiaomi.channel.commonutils.android.MIPushProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "${applicationId}.permission.MIPUSH_RECEIVE",
+      "authorities": "${applicationId}.mipush.sdk.data",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "supportStyle"
+      ]
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

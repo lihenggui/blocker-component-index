@@ -1,0 +1,154 @@
+{
+  "coordinate": "com.moengage:realtime-trigger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.2.0": {
+      "fetchedAt": "2026-10-24T22:03:42Z",
+      "sha256": "6eb7cbcfed2304696ba130c017a4c33cd50a02cbc9281c3aafcd46b747719390",
+      "dependencies": []
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-24T22:03:41Z",
+      "sha256": "6eb7cbcfed2304696ba130c017a4c33cd50a02cbc9281c3aafcd46b747719390",
+      "dependencies": []
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-24T22:03:41Z",
+      "sha256": "6eb7cbcfed2304696ba130c017a4c33cd50a02cbc9281c3aafcd46b747719390",
+      "dependencies": []
+    },
+    "3.4.1": {
+      "fetchedAt": "2026-10-24T22:03:40Z",
+      "sha256": "63d4d5c1fb4676d68f1c29c1d881b3405a42b7c9fd1377b76798476b95480eb5",
+      "dependencies": []
+    },
+    "3.4.2": {
+      "fetchedAt": "2026-10-24T22:03:29Z",
+      "sha256": "63d4d5c1fb4676d68f1c29c1d881b3405a42b7c9fd1377b76798476b95480eb5",
+      "dependencies": []
+    },
+    "3.5.0": {
+      "fetchedAt": "2026-10-24T22:03:39Z",
+      "sha256": "63d4d5c1fb4676d68f1c29c1d881b3405a42b7c9fd1377b76798476b95480eb5",
+      "dependencies": []
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T22:03:39Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-24T22:03:38Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.1.0": {
+      "fetchedAt": "2026-10-24T22:03:37Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.1.1": {
+      "fetchedAt": "2026-10-24T22:03:36Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.2.0": {
+      "fetchedAt": "2026-10-24T22:03:36Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-24T22:03:35Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.2.2": {
+      "fetchedAt": "2026-10-24T22:03:34Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-24T22:03:34Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.4.0": {
+      "fetchedAt": "2026-10-24T22:03:33Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.5.0": {
+      "fetchedAt": "2026-10-24T22:03:32Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "4.5.1": {
+      "fetchedAt": "2026-10-24T22:03:31Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T22:03:31Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T22:03:30Z",
+      "sha256": "37301d1732ac4b813e59a3ec94ca49ef0d1b9869b32e589bae10f9836b2fd93d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.rtt.internal.RttIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.2.0",
+          "5.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.rtt.internal.RttReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.2.0",
+          "5.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.rtt.internal.RttSyncJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.2.0",
+          "3.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

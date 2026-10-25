@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.taptap.sdk:tap-themislite",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3.2": {
+      "fetchedAt": "2026-10-24T23:51:58Z",
+      "sha256": "1093d61628a8ae15ed1bade582ba4ef62b36fb7d235c877405ce7d7e269bd4c4",
+      "dependencies": []
+    },
+    "1.0.5.1": {
+      "fetchedAt": "2026-10-24T23:51:58Z",
+      "sha256": "8c4f94f8d4421293ffb293355384ff9b2f64bb5e083aa43246afc7491b48eec9",
+      "dependencies": []
+    },
+    "1.0.6.1-alpha.1": {
+      "fetchedAt": "2026-10-24T23:51:57Z",
+      "sha256": "8c4f94f8d4421293ffb293355384ff9b2f64bb5e083aa43246afc7491b48eec9",
+      "dependencies": []
+    },
+    "1.0.7.3": {
+      "fetchedAt": "2026-10-24T23:51:57Z",
+      "sha256": "8c4f94f8d4421293ffb293355384ff9b2f64bb5e083aa43246afc7491b48eec9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.taptap.sdk.themis.lite.ThemisProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3.2",
+          "1.0.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.themisLite",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

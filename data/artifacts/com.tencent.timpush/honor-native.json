@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.tencent.timpush:honor-native",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.4": {
+      "fetchedAt": "2026-10-25T00:04:09Z",
+      "sha256": "31e08127ffbeb44b570694dbdfc819cf61bf08bbaa5bfc354ba5e0abe83f93cd",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.hihonor.push.sdk.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.hihonor.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.RECEIVE",
+        "com.hihonor.push.action.REGISTRATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.push.sdk.init.AutoInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hihonor.autoinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

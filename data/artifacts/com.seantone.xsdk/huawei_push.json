@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.seantone.xsdk:huawei_push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:13:01Z",
+      "sha256": "76ba672a55c582a3b54014cc169bef21eb1135427c0e58234385d5d3435874cf",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:13:01Z",
+      "sha256": "76ba672a55c582a3b54014cc169bef21eb1135427c0e58234385d5d3435874cf",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.seantone.xsdk.huawei_push.HmsMessageReceiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.seantone.xsdk.huawei_push.UnifiedHmsMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

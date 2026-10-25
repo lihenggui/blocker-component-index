@@ -1,0 +1,122 @@
+{
+  "coordinate": "com.moengage:addon-messaging",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.00": {
+      "fetchedAt": "2026-10-24T22:00:51Z",
+      "sha256": "fae290afeb125455ce5f93cd485523d1e250eecb75c40c6854b6557fca76ad93",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0"
+      ]
+    },
+    "1.1.00": {
+      "fetchedAt": "2026-10-24T22:00:51Z",
+      "sha256": "fae290afeb125455ce5f93cd485523d1e250eecb75c40c6854b6557fca76ad93",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0"
+      ]
+    },
+    "1.1.01": {
+      "fetchedAt": "2026-10-24T22:00:50Z",
+      "sha256": "fae290afeb125455ce5f93cd485523d1e250eecb75c40c6854b6557fca76ad93",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0"
+      ]
+    },
+    "1.1.02": {
+      "fetchedAt": "2026-10-24T22:00:50Z",
+      "sha256": "fae290afeb125455ce5f93cd485523d1e250eecb75c40c6854b6557fca76ad93",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0"
+      ]
+    },
+    "2.0.00": {
+      "fetchedAt": "2026-10-24T22:00:49Z",
+      "sha256": "e85480f38c7ee915a1a147f182246d4c9d5dca7b254d9a7f71e96a3a5f39282d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "2.0.01": {
+      "fetchedAt": "2026-10-24T22:00:49Z",
+      "sha256": "e85480f38c7ee915a1a147f182246d4c9d5dca7b254d9a7f71e96a3a5f39282d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "2.0.02": {
+      "fetchedAt": "2026-10-24T22:00:48Z",
+      "sha256": "e85480f38c7ee915a1a147f182246d4c9d5dca7b254d9a7f71e96a3a5f39282d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "2.0.03": {
+      "fetchedAt": "2026-10-24T22:00:48Z",
+      "sha256": "e85480f38c7ee915a1a147f182246d4c9d5dca7b254d9a7f71e96a3a5f39282d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    },
+    "2.0.04": {
+      "fetchedAt": "2026-10-24T22:00:47Z",
+      "sha256": "e85480f38c7ee915a1a147f182246d4c9d5dca7b254d9a7f71e96a3a5f39282d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.addon.messaging.MoEMessageSyncIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.00",
+          "2.0.04"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.addon.messaging.MoEMessageSyncJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.00",
+          "2.0.04"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.addon.messaging.MoEMessageSyncReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.00",
+          "2.0.04"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

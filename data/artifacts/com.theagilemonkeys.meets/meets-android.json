@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.theagilemonkeys.meets:meets-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T00:10:03Z",
+      "sha256": "a6cd03170d870479bb56e99b8416c35b44c5e87d2801128f1ed61c62b7d8b872",
+      "dependencies": [
+        "com.octo.android.robospice:robospice-spring-android:1.4.12",
+        "com.octo.android.robospice:robospice:1.4.9",
+        "com.theagilemonkeys.meets:meets-core:0.1.2",
+        "org.codehaus.jackson:jackson-mapper-asl:1.9.13",
+        "org.slf4j:slf4j-android:1.7.6"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T00:10:03Z",
+      "sha256": "65ce2c6aae763b9964e8c38f2cbead24b3b53f64a5f372cecaa1ce19b9135e47",
+      "dependencies": [
+        "com.octo.android.robospice:robospice-spring-android:1.4.12",
+        "com.octo.android.robospice:robospice:1.4.9",
+        "com.theagilemonkeys.meets:meets-core:0.2.0",
+        "org.codehaus.jackson:jackson-mapper-asl:1.9.13",
+        "org.slf4j:slf4j-android:1.7.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.theagilemonkeys.meets.meetsandroid.request.robospice.MeetsSpiceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

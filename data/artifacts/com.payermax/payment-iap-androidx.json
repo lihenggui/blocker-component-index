@@ -1,0 +1,104 @@
+{
+  "coordinate": "com.payermax:payment-iap-androidx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.38": {
+      "fetchedAt": "2026-10-24T22:42:36Z",
+      "sha256": "aae863c4ef499de1be044fc5580a98eb2014ef6c00075e533db57f031c3cc2e1",
+      "dependencies": [
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.bumptech.glide:glide:4.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ushareit.ift.base.activity.SPBridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "1.2.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.iap.activity.SPMethodActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "1.2.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.language.SPLocaleChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "1.2.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.LOCALE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.web.activity.SPEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "1.2.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ift.web.activity.SPWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.38",
+          "1.2.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

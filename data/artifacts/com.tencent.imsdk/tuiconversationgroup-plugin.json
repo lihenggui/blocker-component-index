@@ -1,0 +1,166 @@
+{
+  "coordinate": "com.tencent.imsdk:tuiconversationgroup-plugin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.3.4358": {
+      "fetchedAt": "2026-10-24T23:55:01Z",
+      "sha256": "8110eda5a7333763fd244642c95968080d0fce19e5e25539ca222dcab66258af",
+      "dependencies": []
+    },
+    "7.4.4643": {
+      "fetchedAt": "2026-10-24T23:55:00Z",
+      "sha256": "8110eda5a7333763fd244642c95968080d0fce19e5e25539ca222dcab66258af",
+      "dependencies": []
+    },
+    "7.5.4852": {
+      "fetchedAt": "2026-10-24T23:55:00Z",
+      "sha256": "8110eda5a7333763fd244642c95968080d0fce19e5e25539ca222dcab66258af",
+      "dependencies": []
+    },
+    "7.6.5011": {
+      "fetchedAt": "2026-10-24T23:54:59Z",
+      "sha256": "8110eda5a7333763fd244642c95968080d0fce19e5e25539ca222dcab66258af",
+      "dependencies": []
+    },
+    "7.7.5282": {
+      "fetchedAt": "2026-10-24T23:54:59Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "7.8.5483": {
+      "fetchedAt": "2026-10-24T23:54:58Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "7.8.5484": {
+      "fetchedAt": "2026-10-24T23:54:58Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "7.9.5666": {
+      "fetchedAt": "2026-10-24T23:54:57Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.0.5895": {
+      "fetchedAt": "2026-10-24T23:54:57Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.1.6103": {
+      "fetchedAt": "2026-10-24T23:54:56Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.1.6116": {
+      "fetchedAt": "2026-10-24T23:54:56Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.2.6325": {
+      "fetchedAt": "2026-10-24T23:54:55Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.3.6498": {
+      "fetchedAt": "2026-10-24T23:54:55Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.4.6667": {
+      "fetchedAt": "2026-10-24T23:54:54Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.5.6864": {
+      "fetchedAt": "2026-10-24T23:54:54Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.6.7019": {
+      "fetchedAt": "2026-10-24T23:54:52Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.7.7201": {
+      "fetchedAt": "2026-10-24T23:54:53Z",
+      "sha256": "fbf820c332bd9f67624f273117f271e3e6d35d9732b6a46467b32d807a8ccd61",
+      "dependencies": []
+    },
+    "8.9.7511": {
+      "fetchedAt": "2026-10-24T23:54:53Z",
+      "sha256": "f8ea68da63d2994024f327ae53250440da28b623fb5230a3ff3792e2d70ad134",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.tuikit.tuiconversationgroupplugin.TUIConversationGroupService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "7.6.5011"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TUIConversationGroup.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuiconversationgroupplugin.classicui.page.AddConversationGroupActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "8.9.7511"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuiconversationgroupplugin.classicui.page.ConversationGroupSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "8.9.7511"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuiconversationgroupplugin.classicui.page.ConversationGroupSettingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.3.4358",
+          "8.9.7511"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

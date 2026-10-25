@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.streethawk.phonegap:geofence",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.5": {
+      "fetchedAt": "2026-10-24T23:36:56Z",
+      "sha256": "5fd2c55b476dd0d2f5833c5e07b7a126a6218855a3500c15d452fada6a7c11ea",
+      "dependencies": [
+        "com.google.android.gms:play-services-location:10.2.1",
+        "com.streethawk.phonegap:core:1.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.streethawk.library.geofence.AskGeoPermission",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.geofence.GeofenceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.geofence.SHCoreModuleReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.location.PROVIDERS_CHANGED",
+        "com.streethawk.intent.action.APP_STATUS_NOTIFICATION",
+        "com.streethawk.intent.action.gcm.STREETHAWK_LOCATIONS"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.streethawk.library.geofence.StreetHawkLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8.5",
+          "1.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

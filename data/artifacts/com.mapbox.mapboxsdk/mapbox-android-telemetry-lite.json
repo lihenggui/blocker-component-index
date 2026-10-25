@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.mapbox.mapboxsdk:mapbox-android-telemetry-lite",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.0": {
+      "fetchedAt": "2026-10-24T21:42:43Z",
+      "sha256": "c210d9b444f05e7273accba374335206d96a4778ca03ff6802685d6406cd0bad",
+      "dependencies": [
+        "com.android.support:support-annotations:27.1.1",
+        "com.google.code.gson:gson:2.8.2",
+        "com.mapbox.mapboxsdk:mapbox-android-core:1.2.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.3.0",
+          "4.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mapboxtelemetryinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

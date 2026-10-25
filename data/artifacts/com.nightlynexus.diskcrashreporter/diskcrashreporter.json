@@ -1,0 +1,144 @@
+{
+  "coordinate": "com.nightlynexus.diskcrashreporter:diskcrashreporter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-24T22:29:24Z",
+      "sha256": "dee7cb86d2988922b515a0131d4532872631abcf005e00355a7339b0c948be39",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.core:core:1.10.1",
+        "com.squareup.okio:okio:3.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-24T22:29:24Z",
+      "sha256": "d0d87cce53cfb1aa3d2d0fd0836ff9d426ab1fa72ad6333afc2212051215b205",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.core:core:1.10.1",
+        "com.squareup.okio:okio:3.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-24T22:29:23Z",
+      "sha256": "d0d87cce53cfb1aa3d2d0fd0836ff9d426ab1fa72ad6333afc2212051215b205",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.core:core:1.10.1",
+        "com.squareup.okio:okio:3.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "0.2.2": {
+      "fetchedAt": "2026-10-24T22:29:22Z",
+      "sha256": "a2103aab98f501b052b1ab726bf360f89caea880f5a8a378ba0daa100ead3e9b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.1",
+        "androidx.core:core:1.12.0",
+        "com.squareup.okio:okio:3.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.22"
+      ]
+    },
+    "0.2.3": {
+      "fetchedAt": "2026-10-24T22:29:21Z",
+      "sha256": "acbf8ff5439a7b1cf03a53ef1d79ea0cbaefe346c9d2ac2ca120eaae6708b845",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.core:core:1.15.0",
+        "com.squareup.okio:okio:3.10.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.10"
+      ]
+    },
+    "0.2.4": {
+      "fetchedAt": "2026-10-24T22:29:21Z",
+      "sha256": "a2103aab98f501b052b1ab726bf360f89caea880f5a8a378ba0daa100ead3e9b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.core:core:1.15.0",
+        "com.squareup.okio:okio:3.10.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.10"
+      ]
+    },
+    "0.2.5": {
+      "fetchedAt": "2026-10-24T22:29:19Z",
+      "sha256": "a2103aab98f501b052b1ab726bf360f89caea880f5a8a378ba0daa100ead3e9b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.core:core:1.15.0",
+        "com.squareup.okio:okio:3.10.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.10"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-24T22:29:20Z",
+      "sha256": "7c85bfa62ac974da02d7cd0e840105dfaec4e070c30fb404ff960bd8eb2deb7e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.core:core:1.18.0",
+        "com.squareup.okio:okio:3.17.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.nightlynexus.diskcrashreporter.DiskCrashReporterContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.diskcrashreporter-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nightlynexus.diskcrashreporter.DiskCrashReporterFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.2",
+          "0.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

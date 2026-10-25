@@ -1,0 +1,129 @@
+{
+  "coordinate": "com.tencent.matrix:matrix-battery-canary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.10.3": {
+      "fetchedAt": "2026-10-24T23:59:53Z",
+      "sha256": "de23f3359886cc3c1e3489bc10202f02e928175ad32b0ad8548b51704a5cb267",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.0",
+        "com.tencent.matrix:matrix-android-lib:0.4.10.3"
+      ]
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-24T23:59:53Z",
+      "sha256": "477c30240729898ec3b38072c14b2920e7bd862d585c1228e360027b83c22c1f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.tencent.matrix:matrix-android-lib:0.8.0",
+        "com.tencent.matrix:matrix-trace-canary:0.8.0"
+      ]
+    },
+    "0.8.1": {
+      "fetchedAt": "2026-10-24T23:59:52Z",
+      "sha256": "411864c8957d47abacae1dc35db92f912fc45c8ee74ff5b1b95143b26c0fd6d7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.tencent.matrix:matrix-android-lib:0.8.1",
+        "com.tencent.matrix:matrix-trace-canary:0.8.1"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-24T23:59:51Z",
+      "sha256": "9fe0001f2129b880d678603b8d08ab0b6a9fa414e3014fdcf06b739962547a0a",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-lib:0.9.0",
+        "com.tencent.matrix:matrix-trace-canary:0.9.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:59:51Z",
+      "sha256": "baa384b02d9910d0dc61732bd92c72a8964d3c2b95a7ecec19a38dfd97028a3b",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-lib:1.0.0",
+        "com.tencent.matrix:matrix-trace-canary:1.0.0"
+      ]
+    },
+    "2.0.0-beta": {
+      "fetchedAt": "2026-10-24T23:59:50Z",
+      "sha256": "0e0a168716063cfbd4e12bde213c509b94fe974c509974e91b0c1e9a9219aec2",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-lib:2.0.0-beta",
+        "com.tencent.matrix:matrix-trace-canary:2.0.0-beta"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:59:49Z",
+      "sha256": "159ac2f14e37b3eec69f5a4073be0664e6ab600ec185d644a60e00c8aa9cc0fa",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-lib:2.0.0",
+        "com.tencent.matrix:matrix-trace-canary:2.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T23:59:49Z",
+      "sha256": "65cc7c941c06be0a41caaca5d99b96a1de9e1e799095e56efe9799441f516396",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-lib:2.0.1",
+        "com.tencent.matrix:matrix-trace-canary:2.0.1"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T23:59:48Z",
+      "sha256": "20b1309c577c38fbafb07b537ddfc44d056f371e3185144f5bfbd154fb58b076",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-lib:2.0.2",
+        "com.tencent.matrix:matrix-trace-canary:2.0.2"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-24T23:59:47Z",
+      "sha256": "fd220144c8815360a069c9365b1b063a3942257b2e16c45bf0f2f291eb07ff37",
+      "dependencies": [
+        "com.tencent.matrix:matrix-android-lib:2.0.5",
+        "com.tencent.matrix:matrix-trace-canary:2.0.5"
+      ]
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-24T23:59:47Z",
+      "sha256": "5e664f2a09e5d0832ae9f6f49c489199a50cba92c4f5e5bf650161f8bd4ac504",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.tencent.matrix:matrix-android-lib:2.0.8",
+        "com.tencent.matrix:matrix-trace-canary:2.0.8",
+        "com.tencent:mmkv:1.2.11"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:59:46Z",
+      "sha256": "87ac2cce05a6e981756eb6e055383bdeac1df2ccd4ec0069c368f977a7480879",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.tencent.matrix:matrix-android-lib:2.1.0",
+        "com.tencent.matrix:matrix-trace-canary:2.1.0",
+        "com.tencent:mmkv:1.2.11"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.matrix.batterycanary.stats.ui.BatteryStatsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.8",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

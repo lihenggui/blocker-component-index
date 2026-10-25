@@ -1,0 +1,71 @@
+{
+  "coordinate": "com.messangi.sdk:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.15.0": {
+      "fetchedAt": "2026-10-24T21:49:47Z",
+      "sha256": "1da0e56f5df4d6172f4b4f071928b79775144d96a4a20917f2a2fc84d5f2b56a",
+      "dependencies": [
+        "android.arch.lifecycle:extensions:1.1.1",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.firebase:firebase-messaging:23.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.messaging.sdk.MessagingLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.15.0",
+          "0.15.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.messaging.sdk.MessagingProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.15.0",
+          "0.15.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MessagingProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.messaging.sdk.MessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.15.0",
+          "0.15.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE",
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

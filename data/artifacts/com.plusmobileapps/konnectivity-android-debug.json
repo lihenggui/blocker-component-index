@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.plusmobileapps:konnectivity-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1-alpha01": {
+      "fetchedAt": "2026-10-24T22:48:11Z",
+      "sha256": "232769d61aa52ebbf82a921a9cb2486c7d57cb93502d40ea5eeecaf9b97c9291",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1-alpha01",
+          "0.1-alpha01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.plusmobileapps.konnectivity.KonnectivityInitializer"
+      ]
+    }
+  ]
+}

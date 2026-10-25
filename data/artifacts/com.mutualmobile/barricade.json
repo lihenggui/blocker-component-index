@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.mutualmobile:barricade",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1": {
+      "fetchedAt": "2026-10-24T22:10:05Z",
+      "sha256": "0ac95ef1b665b11f86442b854f64805141d741f0144a8722637d1c9d0127795f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.0",
+        "com.android.support:recyclerview-v7:25.3.0",
+        "com.android.support:support-v4:25.3.0",
+        "com.mutualmobile:barricade-annotations:0.1.1",
+        "com.squareup.retrofit2:converter-gson:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mutualmobile.barricade.activity.BarricadeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "coordinate": "com.swrve.sdk.android:swrve-push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.9.0": {
+      "fetchedAt": "2026-10-24T23:46:04Z",
+      "sha256": "c0c7d3d0401f3f56c61477f85a5f3f1682e91fa5ccc2d4bd5d1e5294035d4e6c",
+      "dependencies": [
+        "com.android.support:support-v4:25.1.0",
+        "com.google.code.gson:gson:2.2",
+        "com.swrve.sdk.android:swrve-common:4.9.0"
+      ]
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T23:46:03Z",
+      "sha256": "1197725512d997cbfd14ae23375f89aa17e0fe2a3977e5cb37568f166ad08ddf",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.2",
+        "com.google.code.gson:gson:2.2",
+        "com.swrve.sdk.android:swrve-common:5.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.swrve.sdk.SwrveEngageEventSender",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.9.0",
+          "4.9.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.SwrvePushEngageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.9.0",
+          "4.9.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.push.SwrvePushServiceDefaultJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.swrve.sdk.push.SwrvePushServiceDefaultReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "5.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

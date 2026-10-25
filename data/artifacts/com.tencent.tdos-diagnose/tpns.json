@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.tencent.tdos-diagnose:tpns",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.4.11": {
+      "fetchedAt": "2026-10-25T00:03:16Z",
+      "sha256": "37c9e7da5d589354da018d3570f21572647dc095f06a9d476f1f642d50c7ae5d",
+      "dependencies": [
+        "com.tencent.tdos-diagnose:diagnose:0.4.11",
+        "com.tencent.tpns:tpns:1.2.5.0-release"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.tddiag.tpns.TpnsPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.4.11",
+          "0.4.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tencent.android.xg.vip.action.FEEDBACK",
+        "com.tencent.android.xg.vip.action.PUSH_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

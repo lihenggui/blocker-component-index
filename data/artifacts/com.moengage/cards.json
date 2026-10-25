@@ -1,0 +1,108 @@
+{
+  "coordinate": "com.moengage:cards",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.00": {
+      "fetchedAt": "2026-10-24T22:00:56Z",
+      "sha256": "4db5ace499bedaa0179dec86a1de53d0e6fc1b377c5e382753dc4402ee767b83",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    },
+    "1.2.01": {
+      "fetchedAt": "2026-10-24T22:00:55Z",
+      "sha256": "27f5a2556f64b89e986c9b36bc7974002bdfe4a22343b43d93cd3b4a51a7e073",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    },
+    "2.0.01": {
+      "fetchedAt": "2026-10-24T22:00:55Z",
+      "sha256": "77e9f9d499eaaf90dacf0e75d38ea75dc4886366fbf014f38fce1d1e8728da66",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.20"
+      ]
+    },
+    "2.0.02": {
+      "fetchedAt": "2026-10-24T22:00:54Z",
+      "sha256": "98ae441b27c3b99a537ea64107b782614ded248ac8a3b658b7b709811c0c8b06",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.20"
+      ]
+    },
+    "2.1.00": {
+      "fetchedAt": "2026-10-24T22:00:53Z",
+      "sha256": "24667bd1fd109fc52068c2ec140117a8fc886a408001b5237fc5b9948ab24a53",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.cards.ui.CardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.02",
+          "2.1.00"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.cards.ui.CardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.00",
+          "2.0.01"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

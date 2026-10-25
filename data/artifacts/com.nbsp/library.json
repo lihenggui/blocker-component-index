@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.nbsp:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T22:16:00Z",
+      "sha256": "ad49b959d6bedaebe058be87b36f44cf4710e8bc3ceeeb13e918090551cc426c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.android.support:design:23.0.1",
+        "com.android.support:recyclerview-v7:23.0.1"
+      ]
+    },
+    "1.01": {
+      "fetchedAt": "2026-10-24T22:15:59Z",
+      "sha256": "c6f56810d86bc347b8378ef4f979bbce5b412e32c3a07e2b2c143d1647b7f447",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.android.support:design:23.0.1",
+        "com.android.support:recyclerview-v7:23.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.nbsp.materialfilepicker.ui.FilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.01"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

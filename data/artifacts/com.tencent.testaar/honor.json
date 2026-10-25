@@ -1,0 +1,108 @@
+{
+  "coordinate": "com.tencent.testaar:honor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T00:03:22Z",
+      "sha256": "d1cb983482832e52f6cbf3cbde30f46d8527e93e827668a66502b50c487fbd3a",
+      "dependencies": [
+        "com.tencent.tpns:honor:1.3.3.3-release"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T00:03:22Z",
+      "sha256": "d1cb983482832e52f6cbf3cbde30f46d8527e93e827668a66502b50c487fbd3a",
+      "dependencies": [
+        "com.tencent.tpns:honor:1.3.3.3-release"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T00:03:21Z",
+      "sha256": "dce00d3f872369006d0344d27a249c63f524095d6952b155fcd8342437c0e693",
+      "dependencies": [
+        "com.tencent.tpns:honor:1.3.3.3-release"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T00:03:21Z",
+      "sha256": "c4feb26236d63ed30f3c3619ad4cef259fecd2d2d13bfcae9d172d9ee0c8f696",
+      "dependencies": [
+        "com.tencent.timpush:honor-native:6.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.timpush.honor.MyHonorMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.honor.TIMHonorService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.honorPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.honor.TIMPushHonorMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.timpush.honor.TIMPushHonorService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.honorPush.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "coordinate": "com.segway.robot:SensorsAnalyticsSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T23:13:53Z",
+      "sha256": "e05767f89c98b0ea850c71e3a092ead7a97dad583a071bcd6fbb3256c66cd1e1",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SensorsDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

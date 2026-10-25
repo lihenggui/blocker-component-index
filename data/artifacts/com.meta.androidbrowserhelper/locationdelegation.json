@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.meta.androidbrowserhelper:locationdelegation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T21:49:49Z",
+      "sha256": "003351fa4c444eb382f033ee833fae7c186a9068a3bd25b32dc948924a08b250",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0",
+        "com.google.android.gms:play-services-location:21.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.meta.androidbrowserhelper.locationdelegation.PermissionRequestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

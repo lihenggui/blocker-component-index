@@ -1,0 +1,433 @@
+{
+  "coordinate": "com.sobot.zcsdk:ordersdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:25:43Z",
+      "sha256": "e40928edeba18053d0688f75b3a98eae275a60317cb7ffe4cc809aa547dd151e",
+      "dependencies": [
+        "com.sobot.library:sobotcommon:1.1.8",
+        "com.sobot.library:widget:1.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T23:25:43Z",
+      "sha256": "e40928edeba18053d0688f75b3a98eae275a60317cb7ffe4cc809aa547dd151e",
+      "dependencies": [
+        "com.sobot.library:sobotcommon:1.1.8",
+        "com.sobot.library:widget:1.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:25:42Z",
+      "sha256": "6c458f82a5b623d4d24c232e0ed996b7ea245b41867c768085db48c1f8608e9f",
+      "dependencies": [
+        "com.sobot.library:album:1.0.1",
+        "com.sobot.library:sobotcommon_x:1.6.6",
+        "com.sobot.library:widget_x:1.2.1"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T23:25:42Z",
+      "sha256": "6c458f82a5b623d4d24c232e0ed996b7ea245b41867c768085db48c1f8608e9f",
+      "dependencies": [
+        "com.sobot.library:album:1.0.3",
+        "com.sobot.library:sobotcommon_x:1.7.1",
+        "com.sobot.library:widget_x:1.2.3"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T23:25:41Z",
+      "sha256": "67127bfc5a4aa36516fcc4ef142ae83ca81ef8db65cb226c8ee960d62be40eb5",
+      "dependencies": [
+        "com.sobot.crm:sobotcrm:1.0.0",
+        "com.sobot.library:album:1.0.4.4",
+        "com.sobot.library:sobotcommon_x:1.7.7.3",
+        "com.sobot.library:widget_x:1.2.7"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:25:40Z",
+      "sha256": "f6c65944b30897d7ef3a3906cd1899216acdad7b5da0e357e2d6bb4c0c152ee3",
+      "dependencies": [
+        "com.sobot.crm:sobotcrm:1.5.0",
+        "com.sobot.library:album:1.1.0",
+        "com.sobot.library:sobotcommon_x:2.2.0",
+        "com.sobot.library:widget_x:1.3.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T23:25:41Z",
+      "sha256": "9ed6dd8c171aceb7bdb2b36715882d77f38fda600ba94f48ec0ea1622d2a7024",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.recyclerview:recyclerview:1.4.0",
+        "com.sobot.crm:sobotcrm:2.0.0",
+        "com.sobot.library:album:2.1.0",
+        "com.sobot.library:sobotcommon_x:2.4.1",
+        "com.sobot.library:widget:2.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sobot.workorder.activity.SobotActivateWOActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotCategorySmallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotGroupFieldActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotKickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotPhotoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotTimeZoneActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOAddUserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOCascadeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOCategoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOClassificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOCreateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWODetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOSearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOTicketListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOUserSearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWOVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.activity.SobotWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sobot.workorder.provider.SobotFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sobot_fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sobot.workorder.weight.dialog.SobotCloseWoFieldsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

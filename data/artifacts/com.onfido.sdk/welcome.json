@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.onfido.sdk:welcome",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2-beta1": {
+      "fetchedAt": "2026-10-24T22:34:50Z",
+      "sha256": "f616fde83499f06a01911237053d94bbde06923a61708460c2c20d4b6df23883",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose:compose-bom:2025.07.00",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.fragment:fragment-ktx:1.8.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.google.android.material:material:1.12.0",
+        "com.onfido.sdk:analytics-events:0.0.139",
+        "com.onfido.sdk:common.screens:0.0.2-beta1",
+        "com.onfido.sdk:contract:2.0.3",
+        "com.onfido.sdk:core:0.0.2-beta1",
+        "com.onfido.sdk:shared.compose:0.0.2-beta1",
+        "com.onfido.sdk:shared:0.0.2-beta1",
+        "com.onfido.sdk:translations:0.0.2-beta1",
+        "com.onfido.sdk:ui.components:0.0.2-beta1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    },
+    "0.1.0-beta-1": {
+      "fetchedAt": "2026-10-24T22:34:48Z",
+      "sha256": "f616fde83499f06a01911237053d94bbde06923a61708460c2c20d4b6df23883",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose:compose-bom:2025.02.00",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.fragment:fragment-ktx:1.8.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.google.android.material:material:1.12.0",
+        "com.onfido.sdk:analytics-events:0.0.124",
+        "com.onfido.sdk:common.screens:0.1.0-beta-1",
+        "com.onfido.sdk:contract:2.0.1",
+        "com.onfido.sdk:core:0.1.0-beta-1",
+        "com.onfido.sdk:shared.compose:0.1.0-beta-1",
+        "com.onfido.sdk:shared:0.1.0-beta-1",
+        "com.onfido.sdk:translations:0.1.0-beta-1",
+        "com.onfido.sdk:ui.components:0.1.0-beta-1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    },
+    "0.1.1-beta-1": {
+      "fetchedAt": "2026-10-24T22:34:49Z",
+      "sha256": "f616fde83499f06a01911237053d94bbde06923a61708460c2c20d4b6df23883",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose:compose-bom:2025.02.00",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.fragment:fragment-ktx:1.8.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7",
+        "com.google.android.material:material:1.12.0",
+        "com.onfido.sdk:analytics-events:0.0.124",
+        "com.onfido.sdk:common.screens:0.1.1-beta-1",
+        "com.onfido.sdk:contract:2.0.1",
+        "com.onfido.sdk:core:0.1.1-beta-1",
+        "com.onfido.sdk:shared.compose:0.1.1-beta-1",
+        "com.onfido.sdk:shared:0.1.1-beta-1",
+        "com.onfido.sdk:translations:0.1.1-beta-1",
+        "com.onfido.sdk:ui.components:0.1.1-beta-1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.onfido.sdk.startup.ModuleInitializerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2-beta1",
+          "0.1.1-beta-1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.onfido-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.onfido.sdk.module.welcome.initializer.WelcomeModuleInitializer"
+      ]
+    }
+  ]
+}

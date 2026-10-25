@@ -1,0 +1,55 @@
+{
+  "coordinate": "com.tencent.testaar:honor-native",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.4": {
+      "fetchedAt": "2026-10-25T00:03:23Z",
+      "sha256": "5d77cdd2d11c177fce7d59607159ca69601634c1cbacf12f5deb69c3e8cc620d",
+      "dependencies": []
+    },
+    "6.0.5": {
+      "fetchedAt": "2026-10-25T00:03:23Z",
+      "sha256": "b059b8b81a1272f7d787068c5b1d65cb8cbd7a899a4db4d7e8d7273b8a6115d6",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.hihonor.push.sdk.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.hihonor.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.RECEIVE",
+        "com.hihonor.push.action.REGISTRATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.push.sdk.init.AutoInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hihonor.autoinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

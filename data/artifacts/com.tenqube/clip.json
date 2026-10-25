@@ -1,0 +1,199 @@
+{
+  "coordinate": "com.tenqube:clip",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.3.8": {
+      "fetchedAt": "2026-10-25T00:08:51Z",
+      "sha256": "c4f4096b06ab4bc29a3582bb31cb2149552fb9257a21c0bad29b9e745eee72c3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.google.android.gms:play-services-ads:15.0.1",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.squareup.okhttp3:logging-interceptor:3.9.0",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "com.tenqube:notiparser:0.0.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.2",
+        "tenqube.parser:sms-parser:2.5.0"
+      ]
+    },
+    "2.3.9": {
+      "fetchedAt": "2026-10-25T00:08:51Z",
+      "sha256": "c4f4096b06ab4bc29a3582bb31cb2149552fb9257a21c0bad29b9e745eee72c3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.google.android.gms:play-services-ads:15.0.1",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.squareup.okhttp3:logging-interceptor:3.9.0",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "com.tenqube:notiparser:0.0.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.2",
+        "tenqube.parser:sms-parser:2.5.0"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T00:08:50Z",
+      "sha256": "c4f4096b06ab4bc29a3582bb31cb2149552fb9257a21c0bad29b9e745eee72c3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.google.android.gms:play-services-ads:15.0.1",
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.squareup.okhttp3:logging-interceptor:3.9.0",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "com.tenqube:notiparser:0.0.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.71",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.2",
+        "tenqube.parser:sms-parser:2.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tenqube.visual_third.parser.catcher.NotiCatcher",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.service.notification.NotificationListenerService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenqube.visual_third.parser.catcher.SMSCatcher",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.provider.Telephony.SMS_RECEIVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenqube.visual_third.parser.catcher.SmsMmsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenqube.visual_third.receiver.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ACTION_TENQUBE_NOTIFICATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenqube.visual_third.ui.TransactionPopupActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenqube.visual_third.ui.VisualPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tenqube.visual_third.ui.VisualWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

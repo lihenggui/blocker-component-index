@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.tencent.bugly.dynamic:bugly-pro",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.2.8": {
+      "fetchedAt": "2026-10-24T23:53:15Z",
+      "sha256": "6493dd38d3165cf057eec738a659a1d0e63a4c2820f3041f0300e818b5291236",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.squareup.leakcanary:shark:2.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.41",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41"
+      ]
+    },
+    "4.3.2.9": {
+      "fetchedAt": "2026-10-24T23:53:15Z",
+      "sha256": "fe93681cdd280d6e29848fc43446f95878efcab80acdd4a7b6fed97c3677b282",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.squareup.leakcanary:shark:2.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.41",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.rmonitor.launch.AppLaunchMonitorInstaller",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.3.2.8",
+          "4.3.2.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rmonitor-installer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

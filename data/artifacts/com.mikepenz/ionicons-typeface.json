@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.mikepenz:ionicons-typeface",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-24T21:57:15Z",
+      "sha256": "c4afe608534ef789a6a7932e03bcc5ca52d96d4d1405714310e6bf1b4618092e",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
+    },
+    "2.0.1.1": {
+      "fetchedAt": "2026-10-24T21:57:14Z",
+      "sha256": "1b4e2813d66c5583826d1cf38bcdce330d0b43397e4aa614618395907dba890d",
+      "dependencies": [
+        "Android-Iconics:library-core:unspecified"
+      ]
+    },
+    "2.0.1.2": {
+      "fetchedAt": "2026-10-24T21:57:14Z",
+      "sha256": "44465a8f9d655202a3ea242c99cfad6d8e603ff8933c891947d2520e50e8f563",
+      "dependencies": [
+        "Android-Iconics:library-core:unspecified"
+      ]
+    },
+    "2.0.1.3": {
+      "fetchedAt": "2026-10-24T21:57:14Z",
+      "sha256": "31fd8e64c9664aea1c3e6eeaf855474fee39f2752c396ee54848b291078bcb1c",
+      "dependencies": []
+    },
+    "2.0.1.4": {
+      "fetchedAt": "2026-10-24T21:57:13Z",
+      "sha256": "34f1752493e9559e51e2f68aa5f249e37c30ad6168fdf28ccfd894d72d24332d",
+      "dependencies": [
+        "com.mikepenz:library-core:2.9.3"
+      ]
+    },
+    "2.0.1.5": {
+      "fetchedAt": "2026-10-24T21:57:13Z",
+      "sha256": "8e093b44002e20a136317e295dda7b951dd5604f87f8b0cc632db344283442a7",
+      "dependencies": [
+        "com.mikepenz:iconics-core:3.1.0-rc02"
+      ]
+    },
+    "2.0.1.5-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:12Z",
+      "sha256": "a1c92077603bb5f7e190c7af1739c9f142f886d4d91a394f4032cce01ad3d8e6",
+      "dependencies": [
+        "com.mikepenz:iconics-core:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.31"
+      ]
+    },
+    "2.0.1.6-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:12Z",
+      "sha256": "4d53dad86ae263000f0b7a4b31e0d47a493f366d07d6b230a2b72d9262d74e28",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.10"
+      ]
+    },
+    "2.0.1.7-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:11Z",
+      "sha256": "e3144f48a5e06e93b692d36d7a3cb628e722ada4778fd166dc07717b3e7fb937",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.20"
+      ]
+    },
+    "2.0.1.8-kotlin": {
+      "fetchedAt": "2026-10-24T21:57:11Z",
+      "sha256": "c4afe608534ef789a6a7932e03bcc5ca52d96d4d1405714310e6bf1b4618092e",
+      "dependencies": [
+        "com.mikepenz:iconics-typeface-api:5.5.0-b01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "unspecified",
+          "unspecified"
+        ],
+        [
+          "2.0.1.7-kotlin",
+          "2.0.1.8-kotlin"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.ionicons.Initializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.1.6-kotlin",
+          "2.0.1.6-kotlin"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mikepenz.iconics.typeface.library.ionicons.Ionicons"
+      ]
+    }
+  ]
+}

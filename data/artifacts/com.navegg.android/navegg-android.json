@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.navegg.android:navegg-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:14:00Z",
+      "sha256": "b2566c1a21126d59bb245dc27eeb40f02003ed6a67466b80c3a6f569b86dc0a1",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.firebase:firebase-core:9.0.0",
+        "com.squareup.okhttp3:logging-interceptor:3.4.1",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:converter-protobuf:2.3.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T22:13:59Z",
+      "sha256": "d7fd6fe79f0ed58d725e970973fa6003c129cf321dd18aa0fbd4f40e905c138c",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.squareup.okhttp3:logging-interceptor:3.4.1",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:converter-protobuf:2.3.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T22:13:59Z",
+      "sha256": "bd22b4e9b6b768bd866b2e6c1cfac938a7388b0af02528571b8b9a98f7622b88",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.squareup.okhttp3:logging-interceptor:3.4.1",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:converter-protobuf:2.3.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T22:13:58Z",
+      "sha256": "788e75c7df10489536b81995ac1a1391d796f8e807bd45914c169e824a652d92",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.squareup.okhttp3:logging-interceptor:3.4.1",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:converter-protobuf:2.3.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T22:13:57Z",
+      "sha256": "9786222b368db4773b8922e723a1c1d85879cab0c63c9f565088cb5c915d0b2d",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.squareup.okhttp3:logging-interceptor:3.4.1",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:converter-protobuf:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "navegg.broadcast.VerifyStateConnection",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

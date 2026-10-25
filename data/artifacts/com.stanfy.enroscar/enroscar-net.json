@@ -1,0 +1,116 @@
+{
+  "coordinate": "com.stanfy.enroscar:enroscar-net",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.10": {
+      "fetchedAt": "2026-10-24T23:35:55Z",
+      "sha256": "cb9249827c4e66898b1edea9117adc876104198e4bff47019bdf549ed399ee76",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.stanfy.enroscar:enroscar-beans:0.9.10",
+        "com.stanfy.enroscar:enroscar-content:0.9.10",
+        "com.stanfy.enroscar:enroscar-sdk-dep:0.9.10",
+        "com.stanfy.enroscar:enroscar-shared:0.9.10",
+        "com.stanfy:gson-xml-java:0.1.+"
+      ]
+    },
+    "0.9.11": {
+      "fetchedAt": "2026-10-24T23:35:54Z",
+      "sha256": "eb41e91b9d91b7546f2ae0440808a00d94cde732a048870b172f781998ab6e67",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.stanfy.enroscar:enroscar-beans:0.9.11",
+        "com.stanfy.enroscar:enroscar-content:0.9.11",
+        "com.stanfy.enroscar:enroscar-sdk-dep:0.9.11",
+        "com.stanfy.enroscar:enroscar-shared:0.9.11",
+        "com.stanfy:gson-xml-java:0.1.+"
+      ]
+    },
+    "0.9.12": {
+      "fetchedAt": "2026-10-24T23:35:54Z",
+      "sha256": "c79efa0fe5622e94624f08ce278375bf6e7ec739a2b9d97c3218759af0878547",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.stanfy.enroscar:enroscar-beans:0.9.12",
+        "com.stanfy.enroscar:enroscar-content:0.9.12",
+        "com.stanfy.enroscar:enroscar-sdk-dep:0.9.12",
+        "com.stanfy.enroscar:enroscar-shared:0.9.12",
+        "com.stanfy:gson-xml-java:0.1.+"
+      ]
+    },
+    "1.0": {
+      "fetchedAt": "2026-10-24T23:35:53Z",
+      "sha256": "69461993a40ac144db6ffd38b97564c65125052ad379681bb59e5360b4c0ac6a",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.stanfy.enroscar:enroscar-beans:1.0",
+        "com.stanfy.enroscar:enroscar-content:1.0",
+        "com.stanfy.enroscar:enroscar-sdk-dep:1.0",
+        "com.stanfy.enroscar:enroscar-shared:1.0",
+        "com.stanfy:gson-xml-java:0.1.+"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T23:35:53Z",
+      "sha256": "211c2b044b6902a79e967147bcd891ca05471b3938fba831eb2769282d981817",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.stanfy.enroscar:enroscar-beans:1.1.0",
+        "com.stanfy.enroscar:enroscar-content:1.1.0",
+        "com.stanfy.enroscar:enroscar-io:1.1.0",
+        "com.stanfy:gson-xml-java:0.1.+"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-24T23:35:52Z",
+      "sha256": "fc8726d566d52c1b9d42f6b3e2c889aa0ab52a3d6afd9151520a4fb713c905ae",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.stanfy.enroscar:enroscar-beans:1.2",
+        "com.stanfy.enroscar:enroscar-content:1.2",
+        "com.stanfy.enroscar:enroscar-io:1.2",
+        "com.stanfy:gson-xml-java:0.1.+"
+      ]
+    },
+    "2.0.alpha1": {
+      "fetchedAt": "2026-10-24T23:35:51Z",
+      "sha256": "d01434c49ab961f2a64c055ccb6beebc920d1c92e2ab233fd41d008b351453fa",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.squareup.okhttp:okhttp:1.+",
+        "com.squareup.retrofit:retrofit:1.+",
+        "com.stanfy.enroscar:enroscar-beans:2.0.alpha1",
+        "com.stanfy.enroscar:enroscar-content:2.0.alpha1",
+        "com.stanfy.enroscar:enroscar-goro:2.0.alpha1",
+        "com.stanfy.enroscar:enroscar-io:2.0.alpha1",
+        "com.stanfy:gson-xml-java:0.1.+"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.stanfy.enroscar.goro.GoroService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.alpha1",
+          "2.0.alpha1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

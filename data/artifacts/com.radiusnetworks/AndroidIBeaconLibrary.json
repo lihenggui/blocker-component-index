@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.radiusnetworks:AndroidIBeaconLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.7.6": {
+      "fetchedAt": "2026-10-24T22:58:43Z",
+      "sha256": "25010bc2cfaec36424831e561e6ec96aae008529fd430912836b4c4b1a12dab8",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.radiusnetworks.ibeacon.IBeaconIntentProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.7.6",
+          "0.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.radiusnetworks.ibeacon.service.IBeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.7.6",
+          "0.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

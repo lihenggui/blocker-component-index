@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.sensorsdata.analytics.android:SensorsDataManager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T23:14:21Z",
+      "sha256": "b621c76f55a890814af42bb7818bc494503559331a8c65f50365bf5f09cb9dc3",
+      "dependencies": []
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-24T23:14:20Z",
+      "sha256": "b621c76f55a890814af42bb7818bc494503559331a8c65f50365bf5f09cb9dc3",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sensorsdata.manager.db.SensorsDataManagerContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "com.sensorsdata.manager.SensorsDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

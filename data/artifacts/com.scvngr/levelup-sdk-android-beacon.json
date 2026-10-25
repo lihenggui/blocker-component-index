@@ -1,0 +1,147 @@
+{
+  "coordinate": "com.scvngr:levelup-sdk-android-beacon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.6.0": {
+      "fetchedAt": "2026-10-24T23:12:32Z",
+      "sha256": "42ac01f7941f999abf5591b49987977e761546a328e520c6daef906dcbe425ae",
+      "dependencies": [
+        "levelup-sdk-android:levelup-sdk-android-core:unspecified"
+      ]
+    },
+    "2.8.1": {
+      "fetchedAt": "2026-10-24T23:12:32Z",
+      "sha256": "6aa33bcb8c51da2f5c1ea28791225d55c70d89ee4dca670162f2a657463792c1",
+      "dependencies": [
+        "levelup-sdk-android:levelup-sdk-android-core:unspecified"
+      ]
+    },
+    "2.11.4": {
+      "fetchedAt": "2026-10-24T23:12:31Z",
+      "sha256": "2f6f6ce201f46938f283582cb5a1d30b3897ae6c478188800a8e4af4991c987b",
+      "dependencies": [
+        "levelup-sdk-android:levelup-sdk-android-core:unspecified"
+      ]
+    },
+    "2.11.5": {
+      "fetchedAt": "2026-10-24T23:12:31Z",
+      "sha256": "7b2ca6005bc3e66b3e1e906275fd38719b4881df24457c568f9ba01f25df2582",
+      "dependencies": [
+        "levelup-sdk-android:levelup-sdk-android-core:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.scvngr.levelup.beacon.receiver.AppInitializeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.11.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.scvngr.levelup.core.intent.action.APP_INITIALIZE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.scvngr.levelup.beacon.receiver.BatteryReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.11.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BATTERY_LOW",
+        "android.intent.action.BATTERY_OKAY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.scvngr.levelup.beacon.receiver.BluetoothReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.11.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.adapter.action.STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.scvngr.levelup.beacon.receiver.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.11.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.scvngr.levelup.beacon.service.BatteryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.11.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.scvngr.levelup.beacon.service.BeaconScanService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.11.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

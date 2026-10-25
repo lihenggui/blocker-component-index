@@ -1,0 +1,137 @@
+{
+  "coordinate": "com.moengage:geofence",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.3.2": {
+      "fetchedAt": "2026-10-24T22:01:38Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-24T22:01:38Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-24T22:01:37Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-24T22:01:36Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "4.0.2": {
+      "fetchedAt": "2026-10-24T22:01:36Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "4.1.0": {
+      "fetchedAt": "2026-10-24T22:01:35Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "4.2.0": {
+      "fetchedAt": "2026-10-24T22:01:34Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-24T22:01:27Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-24T22:01:34Z",
+      "sha256": "5b8ccd5edf87dbd5b748123cd23fb1be0d8837cb5473cc38a790ed7ac0a30716",
+      "dependencies": []
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-24T22:01:33Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.0.1": {
+      "fetchedAt": "2026-10-24T22:01:32Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.0.2": {
+      "fetchedAt": "2026-10-24T22:01:32Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.0.3": {
+      "fetchedAt": "2026-10-24T22:01:31Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-24T22:01:31Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.1.1": {
+      "fetchedAt": "2026-10-24T22:01:30Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-24T22:01:29Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.3.0": {
+      "fetchedAt": "2026-10-24T22:01:29Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "5.4.0": {
+      "fetchedAt": "2026-10-24T22:01:28Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-24T22:01:27Z",
+      "sha256": "1133bcc65345bfde45f48da220c45f0832a29d8395fc8020d9bbadcd4ed72d90",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.moengage.geofence.internal.GeoFenceBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.3.2",
+          "6.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moengage.geofence.internal.GeofenceJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.3.2",
+          "6.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "coordinate": "com.mirzahssn.hassanmirza444:Intergrate_arr",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T21:58:47Z",
+      "sha256": "fbaca7bbe948683fa901b47acf04f8702ad8ef4b9deba00d002dab95d89262a7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.10.1",
+        "com.example.module_test:flutter_release:1.0",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T21:58:46Z",
+      "sha256": "fbaca7bbe948683fa901b47acf04f8702ad8ef4b9deba00d002dab95d89262a7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.10.1",
+        "com.example.module_test:flutter_release:1.0",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.integrate_arr.HomeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.integrate_arr.MyMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": [
+        "io.flutter.embedding.android.NormalTheme"
+      ]
+    },
+    {
+      "name": "io.flutter.embedding.android.FlutterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

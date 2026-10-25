@@ -1,0 +1,95 @@
+{
+  "coordinate": "com.rudderstack.android.integration:appsflyer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:07:30Z",
+      "sha256": "0c504303e4b010b616cdda07730bfc75abdf92ff3feff8fb4e48e187a7b5172e",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.2.3"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-24T23:07:30Z",
+      "sha256": "ac323be8799887c7465c39d3b1b380895b9a365d3698af68f412deb49cdb0374",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.3.2"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-24T23:07:29Z",
+      "sha256": "72173ae7e1f559c5c5195b23da66518ab4cae2d365ef324343020ce2083a37d0",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.4.3",
+        "com.rudderstack.android.sdk:core:[1.2.1,)"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:07:28Z",
+      "sha256": "265c1592102ce8cf840eb89b62d7c47d7a18768362c69bd709d5240d0b7e88bd",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.4.3",
+        "com.rudderstack.android.sdk:core:[1.2.1,)"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-24T23:07:28Z",
+      "sha256": "f1954dba935204d9d5b73648ea10ea73b91df663412fa6d860169a763ab1874d",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.4.3",
+        "com.rudderstack.android.sdk:core:[1.2.1,)"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-24T23:07:27Z",
+      "sha256": "66a83bd4892ec1e1da0a14579935595c1ca864fcd5252cd44ac40758ef220398",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.9.4",
+        "com.rudderstack.android.sdk:core:[1.2.1,)"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-24T23:07:26Z",
+      "sha256": "1f8b8b7abd83b5de56298fc47754b28fffcece1023af9276c73aa65d18f069e2",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:[6.10.1, 7.0)"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-24T23:07:26Z",
+      "sha256": "1704ffa239a1cb26bb363db5527ecc8beb12ee5f5889617cba2f82f3c312602f",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:[6.10.1, 7.0)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appsflyer.MultipleInstallBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "2.3.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INSTALL_PACKAGES",
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

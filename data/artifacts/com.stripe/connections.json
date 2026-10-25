@@ -1,0 +1,110 @@
+{
+  "coordinate": "com.stripe:connections",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "20.0.0": {
+      "fetchedAt": "2026-10-24T23:37:51Z",
+      "sha256": "761ff6258ad5d9abd96c1bd881fe3f4965bcd5f28bf4c3851a0caace9e2ed1f4",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.databinding:viewbinding:7.1.2",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.1",
+        "com.google.android.material:material:1.5.0",
+        "com.google.dagger:dagger:2.41",
+        "com.stripe:stripe-core:20.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2"
+      ]
+    },
+    "20.0.1": {
+      "fetchedAt": "2026-10-24T23:37:51Z",
+      "sha256": "761ff6258ad5d9abd96c1bd881fe3f4965bcd5f28bf4c3851a0caace9e2ed1f4",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.databinding:viewbinding:7.1.2",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.1",
+        "com.google.android.material:material:1.5.0",
+        "com.google.dagger:dagger:2.41",
+        "com.stripe:stripe-core:20.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2"
+      ]
+    },
+    "20.1.0": {
+      "fetchedAt": "2026-10-24T23:37:50Z",
+      "sha256": "761ff6258ad5d9abd96c1bd881fe3f4965bcd5f28bf4c3851a0caace9e2ed1f4",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.browser:browser:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.1",
+        "com.google.android.material:material:1.5.0",
+        "com.google.dagger:dagger:2.41",
+        "com.stripe:stripe-core:20.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.stripe.android.connections.ConnectionsSheetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "20.0.0",
+          "20.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.stripe.android.connections.ConnectionsSheetRedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "20.0.0",
+          "20.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

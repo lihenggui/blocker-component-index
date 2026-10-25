@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.oriente.android:qrcode",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:39:17Z",
+      "sha256": "48206a23fc2c3b86b14fd39b5a884be6369103b12629f9c355f40a1390c7d235",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.zxing:core:3.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.oriente.qrcodelibrary.activity.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

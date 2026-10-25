@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.spotxchange:spotx-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-24T23:32:34Z",
+      "sha256": "a4d7bdfc2b06dd6d38e58309e5ef41063d1f96a6d4f593794c2a6726dbdf1f02",
+      "dependencies": [
+        "com.google.android.gms:play-services:6.5.87"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-24T23:32:33Z",
+      "sha256": "f11f48122fe829a96da93f5be4a075028e6461b0a56b9d92caff3f4e73e743b8",
+      "dependencies": [
+        "com.google.android.gms:play-services:6.5.87"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T23:32:33Z",
+      "sha256": "ca7cb89d65afc2e5b54f629bdb7d07073fd86331fac0b594a412962e959a307a",
+      "dependencies": [
+        "com.google.android.gms:play-services:6.5.87"
+      ]
+    },
+    "4.10.0": {
+      "fetchedAt": "2026-10-24T23:32:32Z",
+      "sha256": "6b0ca6aea252a7b466dee3799d1b7e661ac1518947572ff6e4ae9d78954a755b",
+      "dependencies": [
+        "com.brightcove.player:exoplayer:4.13.7",
+        "com.google.android.gms:play-services-ads:16.0.0",
+        "com.google.android.gms:play-services-base:16.0.1"
+      ]
+    },
+    "4.12.2": {
+      "fetchedAt": "2026-10-24T23:32:31Z",
+      "sha256": "60acf13d329653af5d834be70e2584ab8fc6ece7590235a15284e3d4feeba0c7",
+      "dependencies": [
+        "com.brightcove.player:exoplayer:4.13.7",
+        "com.google.android.gms:play-services-ads:16.0.0",
+        "com.google.android.gms:play-services-base:16.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.spotxchange.internal.view.InAppBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.10.0",
+          "4.12.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.spotxchange.internal.view.SpotXActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.10.0",
+          "4.12.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

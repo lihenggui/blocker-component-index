@@ -1,0 +1,156 @@
+{
+  "coordinate": "com.netease.yunxin.kit.auth:auth-login",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.5": {
+      "fetchedAt": "2026-10-24T22:18:36Z",
+      "sha256": "2997dadebd7157c27c8d872653a9b5adaf69992b9baf435afed16b49c4872151",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.netease.yunxin.kit.common:common-ui:1.1.15",
+        "com.netease.yunxin.kit.common:common:1.1.15",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.yunxin.kit.login.CommonBrowseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "https://netease.yunxin.browser"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.login.EmailRegisterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "https://netease.yunxin.login.email.register"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.login.EntranceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "https://netease.yunxin.login.home"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.login.ForgetPasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "https://netease.yunxin.login.email.forget"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.login.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "https://netease.yunxin.login",
+        "https://netease.yunxin.login.page"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.yunxin.kit.login.area.AreaCodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "https://netease.yunxin.login.area.phone"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

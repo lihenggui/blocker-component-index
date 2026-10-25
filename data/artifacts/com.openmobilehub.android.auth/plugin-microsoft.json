@@ -1,0 +1,91 @@
+{
+  "coordinate": "com.openmobilehub.android.auth:plugin-microsoft",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-beta": {
+      "fetchedAt": "2026-10-24T22:36:59Z",
+      "sha256": "3c2068698e37ba77c921ec784dd1b34facd364e3e19941c5274274848d2abf56",
+      "dependencies": [
+        "com.microsoft.identity.client:msal:5.1.0",
+        "com.openmobilehub.android.auth:core:2.0.0-beta",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-24T22:36:58Z",
+      "sha256": "3c2068698e37ba77c921ec784dd1b34facd364e3e19941c5274274848d2abf56",
+      "dependencies": [
+        "com.microsoft.identity.client:msal:5.1.0",
+        "com.openmobilehub.android.auth:core:2.0.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-24T22:36:58Z",
+      "sha256": "3c2068698e37ba77c921ec784dd1b34facd364e3e19941c5274274848d2abf56",
+      "dependencies": [
+        "com.microsoft.identity.client:msal:5.1.0",
+        "com.openmobilehub.android.auth:core:2.0.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-24T22:36:57Z",
+      "sha256": "3c2068698e37ba77c921ec784dd1b34facd364e3e19941c5274274848d2abf56",
+      "dependencies": [
+        "com.microsoft.identity.client:msal:5.1.0",
+        "com.openmobilehub.android.auth:core:2.0.2",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-24T22:36:56Z",
+      "sha256": "3c2068698e37ba77c921ec784dd1b34facd364e3e19941c5274274848d2abf56",
+      "dependencies": [
+        "com.microsoft.identity.client:msal:5.1.0",
+        "com.openmobilehub.android.auth:core:2.0.3",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-24T22:36:55Z",
+      "sha256": "3c2068698e37ba77c921ec784dd1b34facd364e3e19941c5274274848d2abf56",
+      "dependencies": [
+        "com.microsoft.identity.client:msal:5.1.0",
+        "com.openmobilehub.android.auth:core:2.0.4",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.openmobilehub.android.auth.plugin.microsoft.MicrosoftLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0-beta",
+          "2.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

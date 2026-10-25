@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.squareup.tart:tart",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-24T23:35:01Z",
+      "sha256": "c230eadc794eefcc0244de01bc5dcbce128a7c0c3b80b550067cc0da9e8f5a54",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "com.squareup.curtains:curtains:1.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-24T23:35:00Z",
+      "sha256": "c230eadc794eefcc0244de01bc5dcbce128a7c0c3b80b550067cc0da9e8f5a54",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "com.squareup.curtains:curtains:1.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "0.3": {
+      "fetchedAt": "2026-10-24T23:35:00Z",
+      "sha256": "c230eadc794eefcc0244de01bc5dcbce128a7c0c3b80b550067cc0da9e8f5a54",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "com.squareup.curtains:curtains:1.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "0.4": {
+      "fetchedAt": "2026-10-24T23:34:59Z",
+      "sha256": "c230eadc794eefcc0244de01bc5dcbce128a7c0c3b80b550067cc0da9e8f5a54",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.tracing:tracing-ktx:1.0.0",
+        "com.squareup.curtains:curtains:1.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+      ]
+    },
+    "0.4.1": {
+      "fetchedAt": "2026-10-24T23:34:58Z",
+      "sha256": "c230eadc794eefcc0244de01bc5dcbce128a7c0c3b80b550067cc0da9e8f5a54",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.tracing:tracing-ktx:1.0.0",
+        "com.squareup.curtains:curtains:1.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tart.internal.PerfsAppStartListener",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.perfs-startup-listener",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.pushwoosh:ratemyapp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-24T22:55:12Z",
+      "sha256": "3eba0324ad5582e1a0519cee2dcbf64bfa2140e991b992a3d5dd85193a06cf79",
+      "dependencies": [
+        "com.pushwoosh:pushwoosh:[5.16.0,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pushwoosh.ratemyapp.RateMyAppInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pushwoosh.ratemyappinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

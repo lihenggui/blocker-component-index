@@ -1,0 +1,326 @@
+{
+  "coordinate": "com.redbricklane.zapr.basedatasdk:zapr-base-data-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.5": {
+      "fetchedAt": "2026-10-24T23:00:29Z",
+      "sha256": "335d2dad7478ae3ae5d20ce46c9f3ea6df711d66088d4214b07aa03a54610f5a",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:17.0.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.0.5"
+      ]
+    },
+    "6.2.4": {
+      "fetchedAt": "2026-10-24T23:00:28Z",
+      "sha256": "3d148d583cfaf516a2057bf15b0c7343b526b469ccaf7b4623d0ec45c6c62737",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.2.4"
+      ]
+    },
+    "6.2.5": {
+      "fetchedAt": "2026-10-24T23:00:28Z",
+      "sha256": "01a653e32bb66efde51b99eeaa5ba83d377e928a1dd58113a61b9ff89693d29d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.2.5"
+      ]
+    },
+    "6.2.7": {
+      "fetchedAt": "2026-10-24T23:00:27Z",
+      "sha256": "526f67c94f8beb038bb2cfc7e254193e118362694c0098fda76dfb416289b8f1",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.2.7"
+      ]
+    },
+    "6.2.8": {
+      "fetchedAt": "2026-10-24T23:00:26Z",
+      "sha256": "17153d4ce881f14b693135948ea403f8b054ff04ffc6f7b0cd164353c8933ebf",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.2.8"
+      ]
+    },
+    "6.3.0": {
+      "fetchedAt": "2026-10-24T23:00:26Z",
+      "sha256": "6b8c232cee98bcf54a4142476fb2088d354b1812728fb7c0ffb2ec3e198875fc",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:17.0.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:6.3.0"
+      ]
+    },
+    "7.0.2": {
+      "fetchedAt": "2026-10-24T23:00:25Z",
+      "sha256": "ed4d4ab3bc5b940a8ad69f0f93f39244df21eec8315231ef3c8c16e5f460768a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.0.2"
+      ]
+    },
+    "7.0.3": {
+      "fetchedAt": "2026-10-24T23:00:24Z",
+      "sha256": "1575016f53a6f3c51b7a21b439264f872d049458013f9dce25a0fe80bdb61d83",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.0.3"
+      ]
+    },
+    "7.2.0": {
+      "fetchedAt": "2026-10-24T23:00:24Z",
+      "sha256": "193e23d8f3ddef1a339c1550e7445802ccf034a2753cbe996d331b12c3f2a7e5",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.2.0"
+      ]
+    },
+    "7.2.1": {
+      "fetchedAt": "2026-10-24T23:00:23Z",
+      "sha256": "e7c3d0b1d5d3b1019b7f99d21ad4d55c08744c4e533f45fe37447ac4037bd98a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:7.2.1"
+      ]
+    },
+    "8.1.0": {
+      "fetchedAt": "2026-10-24T23:00:23Z",
+      "sha256": "9a0d433773bd306c140c989b7046f6a82dc97a1a410aca018b2d3e49f80d50fb",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "com.redbricklane.zapr.base:zapr-base-sdk:8.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.db.ConfigContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": "${applicationId}.db.ConfigContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.jobSchedulers.ConfigJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.jobSchedulers.SyncJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.jobSchedulers.TimeSyncPeriodicRequestJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.4",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.BaseSDKBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "android.intent.action.PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.HandshakeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.2.4",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "z.sdk.action.HANDLE_HANDSHAKE",
+        "z.sdk.action.RECEIVE_ACK",
+        "z.sdk.action.START_HANDSHAKE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.PriorityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.redbricklane.zaprSdkBase.PRIORITY_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.receivers.TimeChangeBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "8.1.0",
+          "8.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.TIMEZONE_CHANGED",
+        "android.intent.action.TIME_SET"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.ConfigUpdateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.PriorityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.SyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.5",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.redbricklane.zapr.basedatasdk.services.TimeSyncPeriodicRequestAlarmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.4",
+          "6.2.8"
+        ],
+        [
+          "7.0.2",
+          "8.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":z_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

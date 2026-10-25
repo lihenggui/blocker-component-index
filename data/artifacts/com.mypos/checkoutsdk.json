@@ -1,0 +1,115 @@
+{
+  "coordinate": "com.mypos:checkoutsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T22:12:36Z",
+      "sha256": "51f993f118227c9a1509884982f94b23b107fad0fc330fca4fd292106add5b6a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.android.support:design:25.0.1",
+        "com.android.support:support-v13:25.0.1",
+        "com.android.support:support-v4:25.0.1",
+        "com.madgag.spongycastle:prov:1.54.0.0"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-24T22:12:35Z",
+      "sha256": "601588c19dff6e64530078c3df9cdcb7074cbd3ae26893f60272eef665f97b60",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.android.support:design:25.0.1",
+        "com.android.support:support-v13:25.0.1",
+        "com.android.support:support-v4:25.0.1",
+        "com.madgag.spongycastle:prov:1.54.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mypos.mobilepaymentssdk.PurchaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mypos.mobilepaymentssdk.RefundActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mypos.mobilepaymentssdk.Secure3DActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mypos.mobilepaymentssdk.StoreCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mypos.mobilepaymentssdk.UpdateCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

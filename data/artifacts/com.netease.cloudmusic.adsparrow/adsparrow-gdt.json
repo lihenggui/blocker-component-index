@@ -1,0 +1,76 @@
+{
+  "coordinate": "com.netease.cloudmusic.adsparrow:adsparrow-gdt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-24T22:16:10Z",
+      "sha256": "2c707d189dfa85bfb9b74ba9fb3bc5405af413913327eb3c4162ea4787038605",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.google.android.material:material:1.11.0",
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "0.0.3-alpha01": {
+      "fetchedAt": "2026-10-24T22:16:09Z",
+      "sha256": "54568cc203c27eb5d95fdc908e46a004fa80dd92aaa17f0525d34c9649964834",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.3-alpha01",
+        "com.qq.e.union:union:4.570.1440",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "0.0.3-alpha02": {
+      "fetchedAt": "2026-10-24T22:16:09Z",
+      "sha256": "54568cc203c27eb5d95fdc908e46a004fa80dd92aaa17f0525d34c9649964834",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.3-alpha02",
+        "com.qq.e.union:union:4.570.1440",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "0.0.3-alpha03": {
+      "fetchedAt": "2026-10-24T22:16:08Z",
+      "sha256": "54568cc203c27eb5d95fdc908e46a004fa80dd92aaa17f0525d34c9649964834",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.3-alpha03",
+        "com.qq.e.union:union:4.570.1440",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-24T22:16:07Z",
+      "sha256": "54568cc203c27eb5d95fdc908e46a004fa80dd92aaa17f0525d34c9649964834",
+      "dependencies": [
+        "com.netease.cloudmusic.adsparrow:adsparrow-core:0.0.5",
+        "com.qq.e.union:union:4.570.1440",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3-alpha01",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

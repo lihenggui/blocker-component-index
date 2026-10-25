@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.tencent.imsdk.tuiplugin:tuipoll",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.1.3925": {
+      "fetchedAt": "2026-10-24T23:54:46Z",
+      "sha256": "1a2df37bd805001cbae240a0e7ddaf71ba11e76f02045cf133d7902033fe0a93",
+      "dependencies": []
+    },
+    "7.2.4123": {
+      "fetchedAt": "2026-10-24T23:54:45Z",
+      "sha256": "1a2df37bd805001cbae240a0e7ddaf71ba11e76f02045cf133d7902033fe0a93",
+      "dependencies": []
+    },
+    "7.2.4126": {
+      "fetchedAt": "2026-10-24T23:54:45Z",
+      "sha256": "1a2df37bd805001cbae240a0e7ddaf71ba11e76f02045cf133d7902033fe0a93",
+      "dependencies": []
+    },
+    "7.2.4146": {
+      "fetchedAt": "2026-10-24T23:54:44Z",
+      "sha256": "1a2df37bd805001cbae240a0e7ddaf71ba11e76f02045cf133d7902033fe0a93",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.tuikit.tuipoll.TUIPollService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.1.3925",
+          "7.2.4146"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TUIPoll.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuipoll.classicui.page.TUIPollCreatorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.1.3925",
+          "7.2.4146"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuipoll.classicui.page.TUIPollParticipantsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.1.3925",
+          "7.2.4146"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.shortcutmedia.shortcut.sdk:shortcut-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-24T23:17:38Z",
+      "sha256": "de0eaa12749a9d71ac3542ce17162bcb4f608633b03bce7e510a288a7e0511af",
+      "dependencies": [
+        "android.arch.lifecycle:runtime:1.1.0",
+        "com.android.support:appcompat-v7:27.1.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T23:17:37Z",
+      "sha256": "cfa15f454f9490479a25686a1d39cdae85df9a8bfbe8af7cdbbc66ae696c6ef6",
+      "dependencies": [
+        "android.arch.lifecycle:runtime:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0-rc02"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.scm.reader.resultPage.ui.ItemViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

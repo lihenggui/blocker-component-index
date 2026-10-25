@@ -1,0 +1,90 @@
+{
+  "coordinate": "com.tencent.timpush:meizu-vendor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.2.3": {
+      "fetchedAt": "2026-10-25T00:04:35Z",
+      "sha256": "3ad1c68913fd4a6f8d1717ecdeb9b9bdb94b6a5796ec632993af6912142a0dd0",
+      "dependencies": []
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-25T00:04:35Z",
+      "sha256": "4c4e4c63d10c662378c6185dfa4acc44faaaac57de8a5beae4f11c54445d8411",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.2.3",
+          "4.2.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.meizu.flyme.permission.PUSH",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.3.0",
+          "4.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.3.0",
+          "4.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.meizu.cloud.push.permission.MESSAGE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.2.3",
+          "4.2.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

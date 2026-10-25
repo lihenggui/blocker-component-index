@@ -1,0 +1,541 @@
+{
+  "coordinate": "com.netease.nimlib:ysfkit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "10.9.11": {
+      "fetchedAt": "2026-10-24T22:18:08Z",
+      "sha256": "ea2390fe1a41024afb7053faede51844357cb7f0072bbaa0b410f7b2614f84e5",
+      "dependencies": []
+    },
+    "10.9.71": {
+      "fetchedAt": "2026-10-24T22:18:20Z",
+      "sha256": "ea2390fe1a41024afb7053faede51844357cb7f0072bbaa0b410f7b2614f84e5",
+      "dependencies": []
+    },
+    "10.9.75": {
+      "fetchedAt": "2026-10-24T22:18:19Z",
+      "sha256": "ea2390fe1a41024afb7053faede51844357cb7f0072bbaa0b410f7b2614f84e5",
+      "dependencies": []
+    },
+    "10.9.76": {
+      "fetchedAt": "2026-10-24T22:18:19Z",
+      "sha256": "ea2390fe1a41024afb7053faede51844357cb7f0072bbaa0b410f7b2614f84e5",
+      "dependencies": []
+    },
+    "10.9.77": {
+      "fetchedAt": "2026-10-24T22:18:18Z",
+      "sha256": "ea2390fe1a41024afb7053faede51844357cb7f0072bbaa0b410f7b2614f84e5",
+      "dependencies": []
+    },
+    "10.9.80": {
+      "fetchedAt": "2026-10-24T22:18:17Z",
+      "sha256": "ea2390fe1a41024afb7053faede51844357cb7f0072bbaa0b410f7b2614f84e5",
+      "dependencies": []
+    },
+    "10.9.81": {
+      "fetchedAt": "2026-10-24T22:18:17Z",
+      "sha256": "ea2390fe1a41024afb7053faede51844357cb7f0072bbaa0b410f7b2614f84e5",
+      "dependencies": []
+    },
+    "10.9.82": {
+      "fetchedAt": "2026-10-24T22:18:16Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.9.83": {
+      "fetchedAt": "2026-10-24T22:18:16Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.9.86": {
+      "fetchedAt": "2026-10-24T22:18:15Z",
+      "sha256": "94d57f2d7947390a7bab9f6e303717bb33b847a6ec42d9facc2165748b6c9754",
+      "dependencies": []
+    },
+    "10.9.87": {
+      "fetchedAt": "2026-10-24T22:18:14Z",
+      "sha256": "94d57f2d7947390a7bab9f6e303717bb33b847a6ec42d9facc2165748b6c9754",
+      "dependencies": []
+    },
+    "10.9.88": {
+      "fetchedAt": "2026-10-24T22:18:14Z",
+      "sha256": "94d57f2d7947390a7bab9f6e303717bb33b847a6ec42d9facc2165748b6c9754",
+      "dependencies": []
+    },
+    "10.9.90": {
+      "fetchedAt": "2026-10-24T22:18:13Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.9.91": {
+      "fetchedAt": "2026-10-24T22:18:13Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.10.0": {
+      "fetchedAt": "2026-10-24T22:18:12Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.10.1": {
+      "fetchedAt": "2026-10-24T22:18:12Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.10.10": {
+      "fetchedAt": "2026-10-24T22:18:11Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.10.11": {
+      "fetchedAt": "2026-10-24T22:18:10Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.10.12": {
+      "fetchedAt": "2026-10-24T22:18:10Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    },
+    "10.10.13": {
+      "fetchedAt": "2026-10-24T22:18:09Z",
+      "sha256": "bbc29a41bef3a3320bbe804191a4d231aac0d316a7378803243732037f29af8b",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.nimlib.job.NIMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.9.81"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.9.81"
+        ]
+      ],
+      "exported": false,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.NimService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.9.83"
+        ],
+        [
+          "10.9.90",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": ":core",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.ResponseReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.9.81"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.nimlib.service.ResponseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.9.81"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.common.media.picker.activity.PickerAlbumActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.common.media.picker.activity.PickerAlbumPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.common.media.picker.activity.PreviewImageFromCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.provider.UnicornProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.unicorn.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.session.activity.CaptureVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.session.activity.PickImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.session.activity.WatchMessagePictureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.uikit.session.activity.WatchVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.fileselect.ui.activity.FilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.mediaselect.internal.ui.activity.AlbumPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.mediaselect.internal.ui.activity.MatisseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.mediaselect.internal.ui.activity.SelectedPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.saver.CheckMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "10.9.82",
+          "10.10.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.ui.activity.CardPopupActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.ui.activity.FileDownloadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.ui.activity.LeaveMessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.ui.activity.LeaveMsgCustomFieldMenuActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.ui.activity.ServiceMessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.ui.activity.UrlImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qiyukf.unicorn.ysfkit.unicorn.ui.activity.WatchPictureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.9.11",
+          "10.10.13"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

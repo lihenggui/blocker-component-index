@@ -1,0 +1,230 @@
+{
+  "coordinate": "com.mobigrowing:mobigrowing-ads-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-24T21:59:53Z",
+      "sha256": "06b25e75213373c45a09d225bf04d7c3f19bc04a18d2e12b4529250e6072e669",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-24T21:59:52Z",
+      "sha256": "c2d30f5b2e960322cc81a8958bec422e7fa3e2ddd3348f1182a70d84155a2e66",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mobigrowing:srn-sdk:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-24T21:59:52Z",
+      "sha256": "c2d30f5b2e960322cc81a8958bec422e7fa3e2ddd3348f1182a70d84155a2e66",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mobigrowing:srn-sdk:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-24T21:59:51Z",
+      "sha256": "c2d30f5b2e960322cc81a8958bec422e7fa3e2ddd3348f1182a70d84155a2e66",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mobigrowing:srn-sdk:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-24T21:59:51Z",
+      "sha256": "c2d30f5b2e960322cc81a8958bec422e7fa3e2ddd3348f1182a70d84155a2e66",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mobigrowing:srn-sdk:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mobigrowing.ads.browser.BrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobigrowing.ads.browser.VideoBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobigrowing.ads.core.view.interstitial.FullscreenInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobigrowing.ads.core.view.interstitial.ModalInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobigrowing.ads.core.view.reward.RewardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobigrowing.ads.core.view.reward.RewardTransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobigrowing.ads.installer.ApkInstallDetectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobigrowing.app.MobiFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mobifileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}
