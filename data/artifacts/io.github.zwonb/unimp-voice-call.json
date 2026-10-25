@@ -1,0 +1,57 @@
+{
+  "coordinate": "io.github.zwonb:unimp-voice-call",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8": {
+      "fetchedAt": "2026-10-25T08:27:38Z",
+      "sha256": "e0656a3aecbcd2aaa739a57665d7cca51234f76b5024ae9f73c3f358bdaada83",
+      "dependencies": [
+        "androidx.core:core-ktx:1.13.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "io.getstream:stream-webrtc-android:1.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "1.15": {
+      "fetchedAt": "2026-10-25T08:27:40Z",
+      "sha256": "e8c827f186cebdd59956f2a8753c7689e482415386a51f695d8e0027aaf768bb",
+      "dependencies": [
+        "androidx.core:core-ktx:1.13.1",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "io.github.zwonb:webrtc-android:119.0.6045.194",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
+      ]
+    },
+    "1.16": {
+      "fetchedAt": "2026-10-25T08:27:39Z",
+      "sha256": "e8c827f186cebdd59956f2a8753c7689e482415386a51f695d8e0027aaf768bb",
+      "dependencies": [
+        "androidx.core:core-ktx:1.13.1",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "io.getstream:stream-webrtc-android:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yidont.unimp.voice.call.VoiceCallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8",
+          "1.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

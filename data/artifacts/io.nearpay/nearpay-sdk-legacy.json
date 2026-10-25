@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.nearpay:nearpay-sdk-legacy",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.84": {
+      "fetchedAt": "2026-10-25T08:45:39Z",
+      "sha256": "0739dce35abe6ea772250eba123e077707d1a9ccfc0a73e1177eb2159b948cd5",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.0.4",
+        "io.nearpay:nearpay-sdk-shared-internal-legacy:2.1.84",
+        "io.nearpay:nearpay-sdk-shared-public-legacy:2.1.84",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.nearpay.sdk.install.NearpayInstallManager$FirebaseInstallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.84",
+          "2.1.84"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nearpay.sdk.install.ui.NearpayInstallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.84",
+          "2.1.84"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nearpay.sdk.install.utils.NearpayFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.84",
+          "2.1.84"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.nearpay.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

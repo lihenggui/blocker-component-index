@@ -1,0 +1,99 @@
+{
+  "coordinate": "org.tinylisp:activity",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-25T10:14:43Z",
+      "sha256": "0ad8e9617ca63e07c58acc2c2bab62c2c7f905180c1e676865254538b0bde501",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.tinylisp:engine:0.1"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-25T10:14:42Z",
+      "sha256": "d8814d5c7d16d206b400709760db7aa65cfff3fbaf42e8a067024a1aad0c8dad",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.tinylisp:engine:0.1"
+      ]
+    },
+    "0.3": {
+      "fetchedAt": "2026-10-25T10:14:42Z",
+      "sha256": "c8596451e8546e2ad56fe69e295a9bc081337aa60585351116cc9c2b3a758565",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.tinylisp:engine:0.2"
+      ]
+    },
+    "0.4": {
+      "fetchedAt": "2026-10-25T10:14:41Z",
+      "sha256": "173c426ce99367c04eca1ba34ba2d6db34ffc7b4614b35141886b0d860403a73",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.googlecode.java-diff-utils:diffutils:1.3.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.tinylisp:engine:0.3",
+        "org.tinylisp:formatter:0.1"
+      ]
+    },
+    "0.5": {
+      "fetchedAt": "2026-10-25T10:14:41Z",
+      "sha256": "e8a5aed05c5b726a3fae48097625250443bfc8fc205436118f02335b8435ffc3",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.googlecode.java-diff-utils:diffutils:1.3.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.tinylisp:engine:0.4",
+        "org.tinylisp:formatter:0.2"
+      ]
+    },
+    "0.6": {
+      "fetchedAt": "2026-10-25T10:14:40Z",
+      "sha256": "9656ce79c93f0a6cf72905b9b17cb32061dc7a0b3170e53d0ad9920cea0f6831",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.googlecode.java-diff-utils:diffutils:1.3.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.tinylisp:engine:0.5",
+        "org.tinylisp:formatter:0.3"
+      ]
+    },
+    "0.7": {
+      "fetchedAt": "2026-10-25T10:14:40Z",
+      "sha256": "ce5fc03f5bc7b81928de8b36eefe1634dedc8086365d557c65d8e2ae32be87d4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.googlecode.java-diff-utils:diffutils:1.3.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.tinylisp:engine:0.6",
+        "org.tinylisp:formatter:0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.tinylisp.activity.ReplFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.3",
+          "0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.org.tinylisp.activity.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

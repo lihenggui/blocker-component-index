@@ -1,0 +1,682 @@
+{
+  "coordinate": "io.goeasy:gn-uniapp-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.19": {
+      "fetchedAt": "2026-10-25T08:28:58Z",
+      "sha256": "652f814330247a9a8815f5bb3aa8a0b246ab5bed8756650e45bb81c0ded7eec1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.alibaba:fastjson:1.1.46.android",
+        "com.google.android.material:material:1.2.1"
+      ]
+    },
+    "1.0.24": {
+      "fetchedAt": "2026-10-25T08:28:57Z",
+      "sha256": "652f814330247a9a8815f5bb3aa8a0b246ab5bed8756650e45bb81c0ded7eec1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.alibaba:fastjson:1.1.46.android",
+        "com.google.android.material:material:1.2.1"
+      ]
+    },
+    "1.0.28": {
+      "fetchedAt": "2026-10-25T08:28:56Z",
+      "sha256": "652f814330247a9a8815f5bb3aa8a0b246ab5bed8756650e45bb81c0ded7eec1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.alibaba:fastjson:1.1.46.android",
+        "com.google.android.material:material:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "backend:com.google.android.datatransport.cct.CctBackendFactory"
+      ]
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.common.api.GoogleApiActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar",
+        "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar",
+        "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+      ]
+    },
+    {
+      "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.firebase.messaging.FirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.firebase.provider.FirebaseInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.firebaseinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.agconnect.core.ServiceDiscovery",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.agconnect.core.provider.AGConnectInitializeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AGCInitializeProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.aaid.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.aaidinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.activity.BridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.hms.activity.EnableServiceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.PushMsgReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.intent.action.PUSH",
+        "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.PushProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.huawei.push.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.android.push.intent.RECEIVE",
+        "com.huawei.android.push.intent.REGISTRATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.TransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.service.HmsMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.msg.NOTIFY_MSG",
+        "com.huawei.push.msg.PASSBY_MSG"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.MzPushSystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.meizu.flyme.permission.PUSH",
+      "authorities": null,
+      "actions": [
+        "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "supportStyle"
+      ]
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.goeasy.client.fcm.FcmFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.goeasy.client.honor.HonorPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.goeasy.client.huawei.HuaWeiPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.goeasy.client.meizu.MeiZuPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.goeasy.client.mi.XiaomiPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.goeasy.client.vivo.VivoPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.19",
+          "1.0.28"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "coordinate": "io.github.otpless-tech:otpless-socketio-impl",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T07:32:07Z",
+      "sha256": "724912df2563b6df2a8b9b8bc8560e47f68534a4b26ab3517706d9c7d8628987",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.13.1",
+        "io.github.otpless-tech:otpless-socketio:0.0.2",
+        "io.socket:socket.io-client:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.otpless.fusionimpl.socketio.OtplessSocketIoService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

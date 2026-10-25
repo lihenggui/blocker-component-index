@@ -1,0 +1,86 @@
+{
+  "coordinate": "io.pivotal:arca-service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T08:49:49Z",
+      "sha256": "9fe5e3e834e85472bf6d8a318c00b9671f4e8541413c2e4f67d754c12a253753",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.2",
+        "io.pivotal:arca-threading:1.1.1",
+        "io.pivotal:arca-utils:1.1.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T08:49:48Z",
+      "sha256": "ed609bbe503d424ac8809384a0c964a5ea53cc9fa864b490465bce9c4e4a25bd",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.2",
+        "io.pivotal:arca-threading:1.1.2",
+        "io.pivotal:arca-utils:1.1.2"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T08:49:48Z",
+      "sha256": "296744a1372abe9103d4abddb94721117221a3726a75ef80ffd6bb370dce9c0f",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0",
+        "io.pivotal:arca-threading:1.1.3",
+        "io.pivotal:arca-utils:1.1.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.pivotal.arca.service.BackgroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pivotal.arca.service.BackgroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pivotal.arca.service.OperationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

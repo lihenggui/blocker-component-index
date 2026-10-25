@@ -1,0 +1,95 @@
+{
+  "coordinate": "net.veloxity.sdk:vlxhybrid-deviceId",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:45:42Z",
+      "sha256": "309d236693e52062135a705f79ab05565e45701b090145cb09c4072383e716a2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:45:42Z",
+      "sha256": "309d236693e52062135a705f79ab05565e45701b090145cb09c4072383e716a2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T09:45:41Z",
+      "sha256": "309d236693e52062135a705f79ab05565e45701b090145cb09c4072383e716a2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T09:45:40Z",
+      "sha256": "309d236693e52062135a705f79ab05565e45701b090145cb09c4072383e716a2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T09:45:40Z",
+      "sha256": "309d236693e52062135a705f79ab05565e45701b090145cb09c4072383e716a2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:45:39Z",
+      "sha256": "309d236693e52062135a705f79ab05565e45701b090145cb09c4072383e716a2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "net.veloxity.sdk:vlxhybrid-common:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T09:45:38Z",
+      "sha256": "d8974b35096dd77de4e3c37989719ec9d09e6038734af0962eea1e9041aa5aff",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "net.veloxity.sdk:vlxhybrid-common:1.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.veloxity.sdk.hybrid_deviceid.VlxDeviceIdProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "net.veloxity.sdk.DeviceIdProvider.${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

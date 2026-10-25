@@ -1,0 +1,37 @@
+{
+  "coordinate": "io.github.woody230:ktx-resource-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.1": {
+      "fetchedAt": "2026-10-25T08:13:28Z",
+      "sha256": "941e131226215c83800c6468def3267dc070a4a756ba2dae0e7a340f48915d5d",
+      "dependencies": [
+        "dev.icerock.moko:resources:0.19.0",
+        "io.github.woody230:ktx-intent:4.0.1",
+        "io.github.woody230:ktx-intl:4.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bselzer.ktx.resource.assets.SystemAssetReader",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.1",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AssetReader",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

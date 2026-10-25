@@ -1,0 +1,51 @@
+{
+  "coordinate": "net.gotev:hostmonitor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0": {
+      "fetchedAt": "2026-10-25T09:41:28Z",
+      "sha256": "00373d692457aada87d7a09f346cd693ad311a82d8c24c350888c9511d4c33b5",
+      "dependencies": [
+        "com.google.code.gson:gson:2.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.gotev.hostmonitor.ConnectivityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0",
+          "2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.gotev.hostmonitor.HostMonitor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0",
+          "2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

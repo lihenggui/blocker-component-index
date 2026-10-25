@@ -1,0 +1,785 @@
+{
+  "coordinate": "io.samagra:odk-collect-extension",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T08:55:48Z",
+      "sha256": "43cdf650d13af05d9cb45fb5f076409011633b0deb81462f9149a7f876c0419a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.preference:preference-ktx:1.2.0",
+        "com.google.android.material:material:1.7.0",
+        "com.google.dagger:dagger:2.44.2",
+        "commons-io:commons-io:2.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.5",
+        "odk-collect-extension.odk.collect:analytics:unspecified",
+        "odk-collect-extension.odk.collect:collect_app:unspecified",
+        "odk-collect-extension.odk.collect:entities:unspecified",
+        "odk-collect-extension.odk.collect:forms:unspecified",
+        "odk-collect-extension.odk.collect:permissions:unspecified",
+        "odk-collect-extension.odk.collect:projects:unspecified",
+        "odk-collect-extension.odk.collect:settings:unspecified",
+        "odk-collect-extension.odk.collect:strings:unspecified",
+        "org.getodk:javarosa:4.0.1-SNAPSHOT",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "0.0.1.1": {
+      "fetchedAt": "2026-10-25T08:55:47Z",
+      "sha256": "d665139cc1fa5a6b3ce24fe2ce0b3c2c691b0777d953e27e91ab440de8493523",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.preference:preference-ktx:1.2.0",
+        "com.google.android.material:material:1.7.0",
+        "com.google.dagger:dagger:2.44.2",
+        "commons-io:commons-io:2.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.odk.collect.android.activities.AboutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.BearingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.CrashHandlerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.DeleteSavedFormActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FirstLaunchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FormChooserList",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.EDIT",
+        "android.intent.action.PICK",
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FormDownloadList",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.odk.collect.android.FORM_DOWNLOAD"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FormDownloadListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FormEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FormEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FormHierarchyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.FormMapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.InstanceChooserList",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.EDIT",
+        "android.intent.action.PICK",
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.InstanceChooserList",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.InstanceUploaderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.odk.collect.android.INSTANCE_UPLOAD"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.InstanceUploaderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.InstanceUploaderList",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.EDIT",
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.InstanceUploaderListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.MainMenuActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.ScannerWithFlashlightActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.ViewOnlyFormHierarchyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.activities.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.configure.qr.QRCodeTabsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.draw.DrawActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.external.AndroidShortcutsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.CREATE_SHORTCUT"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.external.FormUriActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.EDIT",
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.external.FormsProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "org.odk.collect.android.provider.odk.forms",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.external.InstanceProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "org.odk.collect.android.provider.odk.instances",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.formlists.blankformlist.BlankFormListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.gdrive.GoogleDriveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.gdrive.GoogleSheetsUploaderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.android.preferences.screens.ProjectPreferencesActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.androidshared.ui.ReturnToAppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.audiorecorder.recording.AudioRecorderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.entities.EntityBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.errors.ErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.geo.geopoint.GeoPointActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.geo.geopoint.GeoPointMapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.geo.geopoly.GeoPolyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.location.tracker.LocationTrackerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.odk.collect.selfiecamera.CaptureSelfieActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1.1",
+          "0.0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

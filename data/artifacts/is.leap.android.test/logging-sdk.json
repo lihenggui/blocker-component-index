@@ -1,0 +1,46 @@
+{
+  "coordinate": "is.leap.android.test:logging-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:11:15Z",
+      "sha256": "02a11f6bda20afc01760b7f6b5f579dad9369ac4349ab3acc36913fd352a27b9",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:11:14Z",
+      "sha256": "02a11f6bda20afc01760b7f6b5f579dad9369ac4349ab3acc36913fd352a27b9",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:11:13Z",
+      "sha256": "02a11f6bda20afc01760b7f6b5f579dad9369ac4349ab3acc36913fd352a27b9",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "is.leap.android.logging.WfxLogContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.WfxLogContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

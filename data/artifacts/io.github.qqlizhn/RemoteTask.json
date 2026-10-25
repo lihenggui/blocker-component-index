@@ -1,0 +1,87 @@
+{
+  "coordinate": "io.github.qqlizhn:RemoteTask",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-25T07:38:15Z",
+      "sha256": "198056b5484148ea4e9e8acb0b56f50974695ba8fddda8f9482fd13a71c6e3f2",
+      "dependencies": []
+    },
+    "1.0.0.2": {
+      "fetchedAt": "2026-10-25T07:38:14Z",
+      "sha256": "17ea9e22abe5930b1e29aed9d5f52a6f9a029eb140c40f9d237d4a25a39613e5",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T07:38:14Z",
+      "sha256": "29b9643e6c7a957e2f2845f474892688e4c85285866f7d52c6bb1e9098ae5c32",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T07:38:13Z",
+      "sha256": "104d0aac674bf560278336992702e09af2dc766d7c125fc10b124ff486504a42",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T07:38:13Z",
+      "sha256": "f77dba9e758a3f3d3321974f9722425da2696154643562441d4079232a5b415f",
+      "dependencies": []
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T07:38:12Z",
+      "sha256": "0de2bdee79583f2be691a1ef92abfe5efc9747fd6e25e09c9c5abfff6c096fd0",
+      "dependencies": []
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T07:38:12Z",
+      "sha256": "ed6b5ca5b2adce53df08b655e179a3f5e47851a6f1edf0598a8b20020ca34232",
+      "dependencies": []
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T07:38:11Z",
+      "sha256": "41f5608720caae5093f2c1ffa7a14a81aee738dc618ad274f51c4d69c7edd3d3",
+      "dependencies": []
+    },
+    "1.0.10": {
+      "fetchedAt": "2026-10-25T07:38:10Z",
+      "sha256": "7b2c5da29dc5a67571c64af5131c15e0250bc1d8cbef17e4eef621368b8110a5",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.magic.remotetask.RemoteTaskService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.2",
+          "1.0.10"
+        ]
+      ],
+      "exported": null,
+      "process": ":remote",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.magic.remotetask.RemoteTaskService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

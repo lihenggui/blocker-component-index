@@ -1,0 +1,303 @@
+{
+  "coordinate": "me.chatgame.mobilecg:vcloud_opensdk_nopush",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4": {
+      "fetchedAt": "2026-10-25T09:21:36Z",
+      "sha256": "3f3581b4c86d72cebf34835152dfb4c7bba720e5a68aa5828f830f9ae141eac5",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.8",
+        "com.android.support:multidex:1.0.1",
+        "com.android.support:recyclerview-v7:23.1.1",
+        "com.android.support:support-v4:23.1.1",
+        "com.davemorrissey.labs:subsampling-scale-image-view:3.5.0",
+        "com.facebook.fresco:animated-gif:0.12.0",
+        "com.facebook.fresco:fresco:0.12.0",
+        "com.facebook.soloader:soloader:0.1.0",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.readystatesoftware.systembartint:systembartint:1.0.3",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "me.chatgame.mobilecg:tugcore:1.1.1",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.chatgame.mobilecg.AlarmBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.MessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.NetReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ANY_DATA_STATE",
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.RemoteControlReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED",
+        "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED",
+        "android.intent.action.MEDIA_BUTTON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.SdcardMountReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MEDIA_BAD_REMOVAL",
+        "android.intent.action.MEDIA_MOUNTED",
+        "android.intent.action.MEDIA_REMOVED",
+        "android.intent.action.MEDIA_SHARED",
+        "android.intent.action.MEDIA_UNMOUNTED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.UniversalReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ANY_DATA_STATE",
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.SCREEN_OFF",
+        "android.intent.action.SCREEN_ON",
+        "android.intent.action.USER_PRESENT",
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.BeautyAdjustActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.CropPhotoViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.GroupContactsAtSelectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.ImageAllActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.ImageChooseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.activity.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.chatgame.mobilecg.call.CallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

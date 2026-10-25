@@ -1,0 +1,81 @@
+{
+  "coordinate": "net.iris:mobile-key-salto",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.7.0.rc01": {
+      "fetchedAt": "2026-10-25T09:42:33Z",
+      "sha256": "e550d5aaf24bbdf4ffbe62f82cf9590a1862091f207b82a7c30e64c85d4876ea",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:multidex:1.0.3",
+        "com.google.code.gson:gson:2.8.2",
+        "com.google.guava:guava:18.0",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "org.apache.commons:commons-lang3:3.4"
+      ]
+    },
+    "5.7.0.rc02": {
+      "fetchedAt": "2026-10-25T09:42:32Z",
+      "sha256": "13488bdb7282869b42481ddf5a87bf17e2338f317284036b76d12c5f310207b6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:multidex:1.0.3",
+        "com.google.code.gson:gson:2.8.2",
+        "com.google.guava:guava:18.0",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "org.apache.commons:commons-lang3:3.4"
+      ]
+    },
+    "5.7.0.rc07": {
+      "fetchedAt": "2026-10-25T09:42:32Z",
+      "sha256": "4202c746dbe1e14f20a0cc3f5ba61d514fc125e55a007028691172ec2b13c69f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:multidex:1.0.3",
+        "com.google.code.gson:gson:2.8.2",
+        "com.google.guava:guava:18.0",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "org.apache.commons:commons-lang3:3.4"
+      ]
+    },
+    "5.7.0.rc11": {
+      "fetchedAt": "2026-10-25T09:42:31Z",
+      "sha256": "3220a6c3883e0d52b4c1792e251c45ba8b62803a5ad6e726d6c785d368c848d6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:multidex:1.0.3",
+        "com.google.code.gson:gson:2.8.2",
+        "com.google.guava:guava:18.0",
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "org.apache.commons:commons-lang3:3.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.saltosystems.justinmobile.sdk.ble.BluetoothLeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.7.0.rc01",
+          "5.7.0.rc11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

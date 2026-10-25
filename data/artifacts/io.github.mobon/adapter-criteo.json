@@ -1,0 +1,41 @@
+{
+  "coordinate": "io.github.mobon:adapter-criteo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:25:20Z",
+      "sha256": "d9744d58f0cb5a0aae865162ce864586716ee8cfb5a943204bc2a0ea4a9bb9b2",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:16.0.0",
+        "com.google.android.gms:play-services-base:16.0.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:25:20Z",
+      "sha256": "d9744d58f0cb5a0aae865162ce864586716ee8cfb5a943204bc2a0ea4a9bb9b2",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:16.0.0",
+        "com.google.android.gms:play-services-base:16.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.criteo.publisher.CriteoInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

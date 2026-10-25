@@ -1,0 +1,54 @@
+{
+  "coordinate": "io.mehow.ruler:ruler-android-startup",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T08:39:40Z",
+      "sha256": "71ba1559243b1aee3c24589b3a4ef2cb2b548f0f1d6d9770a45045abf5d0cc34",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.mehow.ruler:ruler-android:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T08:39:39Z",
+      "sha256": "71ba1559243b1aee3c24589b3a4ef2cb2b548f0f1d6d9770a45045abf5d0cc34",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.mehow.ruler:ruler-android:2.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T08:39:38Z",
+      "sha256": "71ba1559243b1aee3c24589b3a4ef2cb2b548f0f1d6d9770a45045abf5d0cc34",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.mehow.ruler:ruler-android:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.mehow.ruler.startup.RulerInitializer"
+      ]
+    }
+  ]
+}

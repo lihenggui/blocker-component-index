@@ -1,0 +1,278 @@
+{
+  "coordinate": "me.zalo:lib-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.20210112.0950": {
+      "fetchedAt": "2026-10-25T09:31:26Z",
+      "sha256": "039eeafcf6b3608e66bf80393fdba382d207bc37c01939e4c5531aa57b1fb6d8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.20210506.1515": {
+      "fetchedAt": "2026-10-25T09:31:25Z",
+      "sha256": "f20188ade078f0d0a968267f8c3603b167869a6574b398db43dfcde663e2cca9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0"
+      ]
+    },
+    "1.0.20210507.1216": {
+      "fetchedAt": "2026-10-25T09:31:24Z",
+      "sha256": "f20188ade078f0d0a968267f8c3603b167869a6574b398db43dfcde663e2cca9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.legacy:legacy-support-v4:1.0.0"
+      ]
+    },
+    "1.0.20210524.1549": {
+      "fetchedAt": "2026-10-25T09:31:23Z",
+      "sha256": "1d0982a712cb7d8d522303dcdf37d10702f61a3bd31925b6523646b14bb1f8d4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.legacy:legacy-support-v4:1.0.0"
+      ]
+    },
+    "1.0.20210528.1625": {
+      "fetchedAt": "2026-10-25T09:31:23Z",
+      "sha256": "1d0982a712cb7d8d522303dcdf37d10702f61a3bd31925b6523646b14bb1f8d4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.legacy:legacy-support-v4:1.0.0"
+      ]
+    },
+    "1.0.20210708.1125": {
+      "fetchedAt": "2026-10-25T09:31:22Z",
+      "sha256": "1d0982a712cb7d8d522303dcdf37d10702f61a3bd31925b6523646b14bb1f8d4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.legacy:legacy-support-v4:1.0.0"
+      ]
+    },
+    "1.0.20211312.1024": {
+      "fetchedAt": "2026-10-25T09:31:21Z",
+      "sha256": "5ad7dbbc8d6976732a09d3bde0d82671fd6142259bdd0b769e974d2ce5da0da9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.20211512.2156": {
+      "fetchedAt": "2026-10-25T09:31:20Z",
+      "sha256": "5ad7dbbc8d6976732a09d3bde0d82671fd6142259bdd0b769e974d2ce5da0da9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.20212012.2112": {
+      "fetchedAt": "2026-10-25T09:31:20Z",
+      "sha256": "5ad7dbbc8d6976732a09d3bde0d82671fd6142259bdd0b769e974d2ce5da0da9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.20212012.2125": {
+      "fetchedAt": "2026-10-25T09:31:19Z",
+      "sha256": "5ad7dbbc8d6976732a09d3bde0d82671fd6142259bdd0b769e974d2ce5da0da9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.20212611.1028": {
+      "fetchedAt": "2026-10-25T09:31:18Z",
+      "sha256": "3ee86b56ee021ea2edf48f836b7eedfdb01e321bb023f745625cdc8f6624de94",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.legacy:legacy-support-v4:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.altbeacon.beacon.BeaconIntentProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20210112.0950",
+          "1.0.20210708.1125"
+        ],
+        [
+          "1.0.20212611.1028",
+          "1.0.20212611.1028"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.altbeacon.beacon.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20210112.0950",
+          "1.0.20210708.1125"
+        ],
+        [
+          "1.0.20212611.1028",
+          "1.0.20212611.1028"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.altbeacon.beacon.service.ScanJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20210112.0950",
+          "1.0.20210112.0950"
+        ],
+        [
+          "1.0.20211312.1024",
+          "1.0.20212611.1028"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "immediateScanJobId",
+        "periodicScanJobId"
+      ]
+    },
+    {
+      "name": "org.altbeacon.beacon.service.ScanJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20210506.1515",
+          "1.0.20210708.1125"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "immediateScanJobId",
+        "periodicScanJobId"
+      ]
+    },
+    {
+      "name": "org.altbeacon.beacon.startup.StartupBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.20212611.1028",
+          "1.0.20212611.1028"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.altbeacon.beacon.startup.StartupBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.20210506.1515",
+          "1.0.20210708.1125"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.altbeacon.beacon.startup.StartupBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.20210112.0950",
+          "1.0.20210112.0950"
+        ],
+        [
+          "1.0.20211312.1024",
+          "1.0.20212012.2125"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.altbeacon.bluetooth.BluetoothTestJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20212611.1028",
+          "1.0.20212611.1028"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "jobId"
+      ]
+    },
+    {
+      "name": "org.altbeacon.bluetooth.BluetoothTestJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20210506.1515",
+          "1.0.20210708.1125"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "jobId"
+      ]
+    }
+  ]
+}

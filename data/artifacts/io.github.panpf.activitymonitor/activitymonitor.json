@@ -1,0 +1,33 @@
+{
+  "coordinate": "io.github.panpf.activitymonitor:activitymonitor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:33:24Z",
+      "sha256": "0fdf93487487cc9318a03ff318fdade7a474091a353add2e36977e3e882b2bc4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.lifecycle:lifecycle-common:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.github.panpf.activity.monitor.ActivityMonitorInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.activity_monitor_init_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

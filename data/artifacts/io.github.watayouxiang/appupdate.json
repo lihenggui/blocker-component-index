@@ -1,0 +1,59 @@
+{
+  "coordinate": "io.github.watayouxiang:appupdate",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.4.5": {
+      "fetchedAt": "2026-10-25T08:06:19Z",
+      "sha256": "f117903f1d5902e4f639b9ad8246bb57fb7d40d77fc38f9562d520b23f8afbfa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:databinding-adapters:4.2.0",
+        "androidx.databinding:databinding-common:4.2.0",
+        "androidx.databinding:databinding-runtime:4.2.0",
+        "com.blankj:utilcodex:1.30.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.watayouxiang.appupdate.manager.DownloadFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.watayouxiang.appupdate.manager.DownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE",
+        "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

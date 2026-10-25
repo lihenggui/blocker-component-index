@@ -1,0 +1,42 @@
+{
+  "coordinate": "io.github.tans5:tapm-log",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:52:51Z",
+      "sha256": "bf08fa15cece35eaf0573426ae40e90365bec2ab3dcadfc063a7156616f374cc",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:52:52Z",
+      "sha256": "8e9e668fc2d18c9f35fa15d7e021a9bdd6125e9d672247d5a228e0eda80d7011",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:52:52Z",
+      "sha256": "8e9e668fc2d18c9f35fa15d7e021a9bdd6125e9d672247d5a228e0eda80d7011",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.tans.tapm.log.tApmLogAutoInit"
+      ]
+    }
+  ]
+}

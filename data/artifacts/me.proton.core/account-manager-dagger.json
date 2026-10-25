@@ -1,0 +1,20 @@
+{
+  "coordinate": "me.proton.core:account-manager-dagger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "33.0.0": {
+      "fetchedAt": "2026-10-25T09:24:14Z",
+      "sha256": "849ca0a559ea37d015037e5466c34576013aebf88477d8d901226550814c4fd8",
+      "dependencies": [
+        "com.google.dagger:hilt-android:2.49",
+        "me.proton.core:account-manager-data:33.0.0",
+        "me.proton.core:account-manager-domain:33.0.0",
+        "me.proton.core:auth-domain:33.0.0",
+        "me.proton.core:network-domain:33.0.0",
+        "me.proton.core:notification-dagger:33.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
+      ]
+    }
+  },
+  "components": []
+}

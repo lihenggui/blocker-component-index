@@ -1,0 +1,45 @@
+{
+  "coordinate": "land.sungbin:erratum",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:16:15Z",
+      "sha256": "6dfc9e19b2217294b21e6b011cc6ece113cbc98d815fc91930b267d0d6a88441",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:16:14Z",
+      "sha256": "6a4c789c3ea7bac0d1a31dbd702415fe3464aacc32793e3090eba298ac1f0c5a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.jisungbin.erratum.DefaultErratumExceptionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

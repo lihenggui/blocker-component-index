@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.sunitsdk:admob",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "19.5.0.1": {
+      "fetchedAt": "2026-10-25T07:50:30Z",
+      "sha256": "60ea91e6b2b028daad939b9032f8397d0991a817957609fcf3f973ac2f982f31",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:19.5.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "19.5.0.2": {
+      "fetchedAt": "2026-10-25T07:50:30Z",
+      "sha256": "60ea91e6b2b028daad939b9032f8397d0991a817957609fcf3f973ac2f982f31",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:19.5.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "19.5.0.3": {
+      "fetchedAt": "2026-10-25T07:50:29Z",
+      "sha256": "60ea91e6b2b028daad939b9032f8397d0991a817957609fcf3f973ac2f982f31",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads:19.5.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.ads.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "19.5.0.1",
+          "19.5.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "coordinate": "io.github.swatmobility:mapbox-android-telemetry",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.1.5": {
+      "fetchedAt": "2026-10-25T07:51:35Z",
+      "sha256": "3bf0cbd754fe8328c8ba97bfe266bb801a6aad5d519e2a90d2d54c01d16237ea",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.core:core:1.5.0",
+        "androidx.legacy:legacy-support-core-utils:1.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.mapbox.mapboxsdk:mapbox-android-core:5.0.2-SNAPSHOT"
+      ]
+    },
+    "6.1.6": {
+      "fetchedAt": "2026-10-25T07:51:35Z",
+      "sha256": "764874852d20e0d60616764427ec21841d6f6b6415493c3da1cd9990c4d86e6e",
+      "dependencies": [
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-core-utils:27.1.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.12.0",
+        "io.github.swatmobility:mapbox-android-core:1.4.0-SNAPSHOT"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapbox.android.telemetry.MapboxTelemetryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.1.5",
+          "6.1.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapbox.android.telemetry.crash.CrashReporterJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.1.6",
+          "6.1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.1.5",
+          "6.1.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.1.5",
+          "6.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mapboxtelemetryinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

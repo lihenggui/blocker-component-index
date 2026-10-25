@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.github.wgllss:Wgllss-WX-LRecord",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.00": {
+      "fetchedAt": "2026-10-25T08:07:08Z",
+      "sha256": "f30a5fb4a21cf34112a0c849adad3937b45745d189d131f71c50da6c7104027e",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.2",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose.runtime:runtime-android:1.7.2",
+        "androidx.compose:compose-bom:2024.09.00",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.3",
+        "androidx.lifecycle:lifecycle-service:2.8.3",
+        "com.google.android.material:material:1.10.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.0.01": {
+      "fetchedAt": "2026-10-25T08:07:08Z",
+      "sha256": "ae183062e7f0ac18460ca7520d1e93c95406760e23f21374878c4358a1ab641d",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.2",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.compose.runtime:runtime-android:1.7.2",
+        "androidx.compose:compose-bom:2024.09.00",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.3",
+        "androidx.lifecycle:lifecycle-service:2.8.3",
+        "com.google.android.material:material:1.10.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wx.lrecorder.service.WXOverlayService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.01",
+          "1.0.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wx.lrecorder.service.WXScreenRecordService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.00",
+          "1.0.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

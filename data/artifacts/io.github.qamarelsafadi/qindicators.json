@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.qamarelsafadi:qindicators",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:37:47Z",
+      "sha256": "b2bc6adbae5958d500d7d07392068e3ea04e57071837fb449dc31c3a6a41353c",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.compose:compose-bom:2022.10.00",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.qamar.qindicators.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

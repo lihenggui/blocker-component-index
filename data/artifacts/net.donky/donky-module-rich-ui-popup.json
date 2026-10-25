@@ -1,0 +1,70 @@
+{
+  "coordinate": "net.donky:donky-module-rich-ui-popup",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0.16": {
+      "fetchedAt": "2026-10-25T09:40:16Z",
+      "sha256": "4a7fd013fc108f5a8572d3c13924f072ccabe50d45400ae4d30899299bc59158",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.0.0",
+        "net.donky:donky-module-messaging-ui:2.1.0.16",
+        "net.donky:donky-module-rich-logic:2.1.0.16"
+      ]
+    },
+    "2.2.0.0": {
+      "fetchedAt": "2026-10-25T09:40:15Z",
+      "sha256": "033f51808d17476c8bdef0e7979c6c0169f1dbcd77085cff802092209178c305",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.0",
+        "net.donky:donky-module-messaging-ui:2.2.0.0",
+        "net.donky:donky-module-rich-logic:2.2.0.0"
+      ]
+    },
+    "2.2.0.1": {
+      "fetchedAt": "2026-10-25T09:40:15Z",
+      "sha256": "033f51808d17476c8bdef0e7979c6c0169f1dbcd77085cff802092209178c305",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.0",
+        "net.donky:donky-module-messaging-ui:2.2.0.1",
+        "net.donky:donky-module-rich-logic:2.2.0.1"
+      ]
+    },
+    "2.2.0.2": {
+      "fetchedAt": "2026-10-25T09:40:15Z",
+      "sha256": "033f51808d17476c8bdef0e7979c6c0169f1dbcd77085cff802092209178c305",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "net.donky:donky-module-messaging-ui:2.2.0.2",
+        "net.donky:donky-module-rich-logic:2.2.0.2"
+      ]
+    },
+    "2.2.0.3": {
+      "fetchedAt": "2026-10-25T09:40:14Z",
+      "sha256": "033f51808d17476c8bdef0e7979c6c0169f1dbcd77085cff802092209178c305",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "net.donky:donky-module-messaging-ui:2.2.0.3",
+        "net.donky:donky-module-rich-logic:2.2.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.donky.core.messaging.rich.ui.components.RichMessagePopUpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0.16",
+          "2.2.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

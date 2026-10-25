@@ -1,0 +1,135 @@
+{
+  "coordinate": "io.github.yyxxgame.sdk:eyuancomm-channel-lib-leidian",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T08:23:25Z",
+      "sha256": "ca529928254747e07bffb9792f014782d9d2b4af686bb6f774f37aed633aeab2",
+      "dependencies": []
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-25T08:23:24Z",
+      "sha256": "ca529928254747e07bffb9792f014782d9d2b4af686bb6f774f37aed633aeab2",
+      "dependencies": []
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-25T08:23:24Z",
+      "sha256": "ca529928254747e07bffb9792f014782d9d2b4af686bb6f774f37aed633aeab2",
+      "dependencies": []
+    },
+    "1.1.7": {
+      "fetchedAt": "2026-10-25T08:23:23Z",
+      "sha256": "ca529928254747e07bffb9792f014782d9d2b4af686bb6f774f37aed633aeab2",
+      "dependencies": []
+    },
+    "1.1.8": {
+      "fetchedAt": "2026-10-25T08:23:22Z",
+      "sha256": "32e2eaffad7200eb56ecb3d66fc1de042849f58c14fccfb69fdb8a810d7ea564",
+      "dependencies": []
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T08:23:22Z",
+      "sha256": "32e2eaffad7200eb56ecb3d66fc1de042849f58c14fccfb69fdb8a810d7ea564",
+      "dependencies": []
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T08:23:21Z",
+      "sha256": "32e2eaffad7200eb56ecb3d66fc1de042849f58c14fccfb69fdb8a810d7ea564",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.CustomTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.8",
+          "1.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.8",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ld.sdk.ApkFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.3",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ld.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.ld.sdk.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.3",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ld.sdk.account.ui.floatview.FlyingBallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.3",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

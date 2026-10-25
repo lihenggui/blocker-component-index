@@ -1,0 +1,183 @@
+{
+  "coordinate": "io.github.sangcomz:fishbun",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.11.4": {
+      "fetchedAt": "2026-10-25T07:42:40Z",
+      "sha256": "8e1dfd090e3e799ad5c32d60650a5c1595c31db4c33ffbd59212afe9d8408088",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.android.material:material:1.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50"
+      ]
+    },
+    "1.0.0-alpha05": {
+      "fetchedAt": "2026-10-25T07:42:40Z",
+      "sha256": "e5fa425048ecf42bd6a9e6a54743d2939d1f7e5300dc7d4fb8749a66d845857b",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.android.material:material:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
+      ]
+    },
+    "1.0.0-alpha06": {
+      "fetchedAt": "2026-10-25T07:42:39Z",
+      "sha256": "196585ab22a32691e37c9874eca928a3c428d5e84d517ed72628b9111fa5522c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.android.material:material:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
+      ]
+    },
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-25T07:42:38Z",
+      "sha256": "08c8ed90c82218833af49942d93341c60b5b7b9aeb261339a2e248e4b015d80d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.21"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:42:37Z",
+      "sha256": "8d8a006a9742935f88285aa9a75523cbd9c3880d883757ae049b2b8f428af290",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T07:42:35Z",
+      "sha256": "8d8a006a9742935f88285aa9a75523cbd9c3880d883757ae049b2b8f428af290",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "1.1.2-alpha01": {
+      "fetchedAt": "2026-10-25T07:42:37Z",
+      "sha256": "3286312fa3095abeb942b5a6599e09d4af8583e6bb73dc4bd54a9514552d054d",
+      "dependencies": []
+    },
+    "1.1.2-alpha02": {
+      "fetchedAt": "2026-10-25T07:42:36Z",
+      "sha256": "3286312fa3095abeb942b5a6599e09d4af8583e6bb73dc4bd54a9514552d054d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sangcomz.fishbun.FishBunFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.11.4",
+          "1.1.2-alpha02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fishbunfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.album.AlbumActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.11.4",
+          "0.11.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.album.ui.AlbumActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha05",
+          "1.1.2-alpha02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.detail.DetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.11.4",
+          "0.11.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.detail.ui.DetailImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha05",
+          "1.1.2-alpha02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.picker.PickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.11.4",
+          "1.1.2-alpha02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

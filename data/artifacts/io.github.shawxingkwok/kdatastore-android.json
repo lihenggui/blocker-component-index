@@ -1,0 +1,42 @@
+{
+  "coordinate": "io.github.shawxingkwok:kdatastore-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:44:15Z",
+      "sha256": "0416dfc5e0d264adecd456c1b2c72def0efff88b5b5f8c232903541ef1a93211",
+      "dependencies": [
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.github.shawxingkwok:android-util-core:1.0.0",
+        "io.github.shawxingkwok:kt-util:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "pers.shawxingkwok.kdatastore.KDataStoreInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.github.track-asia:android-navigation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T08:00:32Z",
+      "sha256": "4b31d360970e22d60ef15e25ed23d5dc9837a89989d1e1f0fe7dcdd54d4f5ef1",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "io.github.track-asia:android-sdk-services:1.0.19",
+        "io.github.track-asia:android-sdk-turf:1.0.19",
+        "io.github.track-asia:android-sdk:1.0.18",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T08:00:31Z",
+      "sha256": "4b31d360970e22d60ef15e25ed23d5dc9837a89989d1e1f0fe7dcdd54d4f5ef1",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "io.github.track-asia:android-sdk-services:1.0.19",
+        "io.github.track-asia:android-sdk-turf:1.0.19",
+        "io.github.track-asia:android-sdk:1.0.18",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapbox.services.android.navigation.v5.navigation.NavigationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.7",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

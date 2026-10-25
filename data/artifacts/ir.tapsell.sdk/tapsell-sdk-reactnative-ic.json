@@ -1,0 +1,53 @@
+{
+  "coordinate": "ir.tapsell.sdk:tapsell-sdk-reactnative-ic",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.8.0": {
+      "fetchedAt": "2026-10-25T09:09:25Z",
+      "sha256": "e887d0e9f02144110e682d684d8fcd2de2b9a0adef7b68594ef6c14eb91551b9",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:4.15.1",
+        "com.github.bumptech.glide:okhttp3-integration:4.15.1",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-appset:16.0.2",
+        "com.google.code.gson:gson:2.9.0",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    },
+    "4.8.1": {
+      "fetchedAt": "2026-10-25T09:09:24Z",
+      "sha256": "e887d0e9f02144110e682d684d8fcd2de2b9a0adef7b68594ef6c14eb91551b9",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:4.15.1",
+        "com.github.bumptech.glide:okhttp3-integration:4.15.1",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-appset:16.0.2",
+        "com.google.code.gson:gson:2.9.0",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ir.tapsell.sdk.advertiser.TapsellAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.8.0",
+          "4.8.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

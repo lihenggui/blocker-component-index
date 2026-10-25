@@ -1,0 +1,76 @@
+{
+  "coordinate": "io.github.sumedhe:mysdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.5.2": {
+      "fetchedAt": "2026-10-25T07:50:24Z",
+      "sha256": "3130cca47b08f72e3c46378f7870d77acbfcc4f387ab908357553b4ee4522937",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "com.googlecode.json-simple:json-simple:1.1",
+        "com.nimbusds:nimbus-jose-jwt:8.19",
+        "com.squareup.okio:okio:1.14.1",
+        "commons-lang:commons-lang:2.6",
+        "net.openid:appauth:0.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.asgardeo.android.oidc.sdk.activity.TokenManagementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.2",
+          "4.5.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.AuthorizationManagementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.2",
+          "4.5.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.2",
+          "4.5.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

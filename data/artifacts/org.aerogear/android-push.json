@@ -1,0 +1,108 @@
+{
+  "coordinate": "org.aerogear:android-push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0-2018-21": {
+      "fetchedAt": "2026-10-25T09:50:16Z",
+      "sha256": "d5dedc7d7dba7e259016cc73ee7013d04c1e01e5036fa15608ed04ffd1f3d739",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "org.aerogear:android-core:0.1.0-2018-21"
+      ]
+    },
+    "0.1.0-2018-23": {
+      "fetchedAt": "2026-10-25T09:50:16Z",
+      "sha256": "d5dedc7d7dba7e259016cc73ee7013d04c1e01e5036fa15608ed04ffd1f3d739",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.4",
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "org.aerogear:android-core:0.1.0-2018-23"
+      ]
+    },
+    "1.0.0-alpha": {
+      "fetchedAt": "2026-10-25T09:50:15Z",
+      "sha256": "d5dedc7d7dba7e259016cc73ee7013d04c1e01e5036fa15608ed04ffd1f3d739",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.4",
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "org.aerogear:android-core:1.0.0-alpha"
+      ]
+    },
+    "1.0.0-alpha.2": {
+      "fetchedAt": "2026-10-25T09:50:15Z",
+      "sha256": "d5dedc7d7dba7e259016cc73ee7013d04c1e01e5036fa15608ed04ffd1f3d739",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.4",
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "org.aerogear:android-core:1.0.0-alpha.2"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:50:14Z",
+      "sha256": "d5dedc7d7dba7e259016cc73ee7013d04c1e01e5036fa15608ed04ffd1f3d739",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.4",
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "org.aerogear:android-core:1.0.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T09:50:14Z",
+      "sha256": "d5dedc7d7dba7e259016cc73ee7013d04c1e01e5036fa15608ed04ffd1f3d739",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.4",
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "org.aerogear:android-core:2.0.0"
+      ]
+    },
+    "2.1.0-alpha.1": {
+      "fetchedAt": "2026-10-25T09:50:13Z",
+      "sha256": "d5dedc7d7dba7e259016cc73ee7013d04c1e01e5036fa15608ed04ffd1f3d739",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.4",
+        "com.google.firebase:firebase-messaging:15.0.0",
+        "org.aerogear:android-core:2.1.0-alpha.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.aerogear.mobile.push.fcm.AeroGearFirebaseInstanceIdService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0-2018-21",
+          "2.1.0-alpha.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.aerogear.mobile.push.fcm.AeroGearFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0-2018-21",
+          "2.1.0-alpha.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

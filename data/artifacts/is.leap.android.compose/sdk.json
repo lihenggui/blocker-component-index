@@ -1,0 +1,102 @@
+{
+  "coordinate": "is.leap.android.compose:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T09:10:54Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.compose:core-sdk:2.0.0",
+        "is.leap.android.compose:observer-sdk:1.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T09:10:53Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.compose:core-sdk:2.0.4",
+        "is.leap.android.compose:observer-sdk:1.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T09:10:52Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.compose:core-sdk:2.0.5",
+        "is.leap.android.compose:observer-sdk:1.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T09:10:52Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.compose:core-sdk:2.0.6",
+        "is.leap.android.compose:observer-sdk:1.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-25T09:10:51Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.compose:core-sdk:2.0.7",
+        "is.leap.android.compose:observer-sdk:1.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "is.leap.android.aui.AUIControlReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.aui.LeapAUIProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.LeapAUIProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

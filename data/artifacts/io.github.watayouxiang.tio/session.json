@@ -1,0 +1,56 @@
+{
+  "coordinate": "io.github.watayouxiang.tio:session",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.4.5": {
+      "fetchedAt": "2026-10-25T08:06:15Z",
+      "sha256": "0e0ad713e537aadb59cc5618e338340f113a41c1499fa3205f344e73a28ffd4e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.databinding:databinding-adapters:4.1.3",
+        "androidx.databinding:databinding-common:4.1.3",
+        "androidx.databinding:databinding-runtime:4.1.3",
+        "com.google.android.material:material:1.2.1",
+        "io.github.watayouxiang:androidutils:2.4.5",
+        "io.github.watayouxiang:httpclient:2.4.5",
+        "io.github.watayouxiang:imclient:2.4.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tiocloud.session.feature.join_group_apply_info.JoinGroupApplyInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tiocloud.session.feature.session_info_p2p.P2PSessionInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

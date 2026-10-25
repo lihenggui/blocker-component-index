@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.tozmart.thirdparty:image_picker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T08:00:09Z",
+      "sha256": "6ff4ebad2e712e0526e303283d8f95c4f3a47d85f8164c2400c083c976a29ceb",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.core:core:1.0.2",
+        "androidx.exifinterface:exifinterface:1.3.0",
+        "io.flutter:flutter_embedding_release:1.0.0-241c87ad800beeab545ab867354d4683d5bfb6ce",
+        "io.github.tozmart.thirdparty:flutter_plugin_android_lifecycle:0.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.flutter.plugins.imagepicker.ImagePickerFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.flutter.image_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

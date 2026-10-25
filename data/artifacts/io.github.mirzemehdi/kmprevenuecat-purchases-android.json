@@ -1,0 +1,123 @@
+{
+  "coordinate": "io.github.mirzemehdi:kmprevenuecat-purchases-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T07:24:12Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.5.2",
+        "io.insert-koin:koin-core:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T07:24:11Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.5.2",
+        "io.insert-koin:koin-core:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T07:24:10Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.5.2",
+        "io.insert-koin:koin-core:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    },
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T07:24:09Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.5.2",
+        "io.insert-koin:koin-core:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T07:24:09Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.5.2",
+        "io.insert-koin:koin-core:3.5.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T07:24:08Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.9.0",
+        "io.insert-koin:koin-core:3.5.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-25T07:24:07Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.9.0",
+        "io.insert-koin:koin-core:3.5.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:24:06Z",
+      "sha256": "11125ce1fb1f96b88873b07a701fa57c0f5d03d96b43e055ac6b85a877a221b3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.0",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.revenuecat.purchases:purchases:7.11.0",
+        "io.insert-koin:koin-core:3.5.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.mmk.kmprevenuecat.purchases.di.ContextInitializer"
+      ]
+    }
+  ]
+}

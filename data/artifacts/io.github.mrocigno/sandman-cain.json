@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.mrocigno:sandman-cain",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T07:27:19Z",
+      "sha256": "8fc5e8b4f1236bc06fc3e713e2826377f4b7411622d31d024e7f3cca02fc2d2c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "br.com.mrocigno.sandman.cain.CrashActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "br.com.mrocigno.sandman.cain.CrashTask",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.CAIN",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

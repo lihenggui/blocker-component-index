@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.wonderandroid:wonderad-topon",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:10:21Z",
+      "sha256": "0d867e26b5e2f2279746efa57eaf642099297a02eb5e5a7bfcd4c798a4b202fc",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:localbroadcastmanager:28.0.0",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.1"
+      ]
+    },
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-25T08:10:20Z",
+      "sha256": "0d867e26b5e2f2279746efa57eaf642099297a02eb5e5a7bfcd4c798a4b202fc",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:localbroadcastmanager:28.0.0",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:10:19Z",
+      "sha256": "0d867e26b5e2f2279746efa57eaf642099297a02eb5e5a7bfcd4c798a4b202fc",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:localbroadcastmanager:28.0.0",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.tencent.klevin.utils.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.klevin.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

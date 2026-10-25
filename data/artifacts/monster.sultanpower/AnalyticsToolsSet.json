@@ -1,0 +1,96 @@
+{
+  "coordinate": "monster.sultanpower:AnalyticsToolsSet",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:34:52Z",
+      "sha256": "0ee849373a89b63a820f69328c9bf04622a37bc35ed4a55e9014deb38acff3ba",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "com.airbnb.android:lottie:6.0.0",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.android.volley:volley:1.2.1",
+        "com.appsflyer:af-android-sdk:6.11.0",
+        "com.facebook.android:facebook-android-sdk:16.0.1",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.material:material:1.8.0",
+        "com.onesignal:OneSignal:4.8.6",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.11",
+        "com.squareup.okhttp3:okhttp:5.0.0-alpha.11",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "commons-io:commons-io:2.11.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:34:51Z",
+      "sha256": "0ee849373a89b63a820f69328c9bf04622a37bc35ed4a55e9014deb38acff3ba",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "com.airbnb.android:lottie:6.0.0",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.android.volley:volley:1.2.1",
+        "com.appsflyer:af-android-sdk:6.11.0",
+        "com.facebook.android:facebook-android-sdk:16.0.1",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.material:material:1.8.0",
+        "com.onesignal:OneSignal:4.8.6",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.11",
+        "com.squareup.okhttp3:okhttp:5.0.0-alpha.11",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "commons-io:commons-io:2.11.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appsflyer.MultipleInstallBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.forgame.analyticstools.AnimationToolsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

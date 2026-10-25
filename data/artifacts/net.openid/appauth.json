@@ -1,0 +1,122 @@
+{
+  "coordinate": "net.openid:appauth",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.7.0": {
+      "fetchedAt": "2026-10-25T09:44:08Z",
+      "sha256": "eca94ff48f427aae7c5e3d1575412bb037633cc9c74300f3e3b09a0bbaa10e92",
+      "dependencies": [
+        "com.android.support:customtabs:25.3.1"
+      ]
+    },
+    "0.7.1": {
+      "fetchedAt": "2026-10-25T09:44:07Z",
+      "sha256": "585ab9c2b3c378a91b5381dd0427d467db1052b220880046dddc3f231c4f73cb",
+      "dependencies": [
+        "com.android.support:customtabs:27.1.1"
+      ]
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-25T09:44:06Z",
+      "sha256": "a78ca2289e64a84c33269ccdb3799238e243e677bf90953c602e2deb915474e8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.2.0"
+      ]
+    },
+    "0.8.1": {
+      "fetchedAt": "2026-10-25T09:44:06Z",
+      "sha256": "dffd48e80d24b12c5920b37c2d814dea2b57c1fe0d1ebb5b19a538f77287a928",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.browser:browser:1.3.0"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T09:44:06Z",
+      "sha256": "bd87b30d2c7e89530fb9c9787eee1da4822edf2bb1fac00afa6fb1dd3d669ade",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.browser:browser:1.3.0"
+      ]
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-25T09:44:05Z",
+      "sha256": "bd87b30d2c7e89530fb9c9787eee1da4822edf2bb1fac00afa6fb1dd3d669ade",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.browser:browser:1.3.0"
+      ]
+    },
+    "0.10.0": {
+      "fetchedAt": "2026-10-25T09:44:04Z",
+      "sha256": "bd87b30d2c7e89530fb9c9787eee1da4822edf2bb1fac00afa6fb1dd3d669ade",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.browser:browser:1.3.0"
+      ]
+    },
+    "0.11.0": {
+      "fetchedAt": "2026-10-25T09:44:04Z",
+      "sha256": "f85b62f1db07b9cc8a0db9de87659e7f5b4d8ce55873b3306ffeaf54dd43cf29",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.browser:browser:1.3.0"
+      ]
+    },
+    "0.11.1": {
+      "fetchedAt": "2026-10-25T09:44:03Z",
+      "sha256": "a97cd5e6a90f49982647e1b36ac8cf95af6e4979ca452bf4e6320ae95f0cfe32",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.browser:browser:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.openid.appauth.AuthorizationManagementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.11.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.11.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

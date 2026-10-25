@@ -1,0 +1,35 @@
+{
+  "coordinate": "ir.apptimize:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:02:10Z",
+      "sha256": "c1d5bb2a0f4483025c5eee9e9a050f9c01e56847fde36ac66c26802774b7f3cb",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.lifecycle:lifecycle-common:2.6.1",
+        "androidx.lifecycle:lifecycle-process:2.6.1",
+        "androidx.multidex:multidex:2.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ir.apptimize.messaging.CountlyPushActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

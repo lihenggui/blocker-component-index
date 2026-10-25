@@ -1,0 +1,77 @@
+{
+  "coordinate": "io.github.rotbolt:flaker-android-okhttp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T07:40:27Z",
+      "sha256": "72188eea6e1ac0e0b38d4febc3d42578a4688c7c6a7387b39d2f0804ea842e30",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.compose:compose-bom:2023.06.01",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "io.github.rotbolt:flaker-android-monitor:0.1.0",
+        "io.github.rotbolt:flaker-android-ui:0.1.0",
+        "io.github.rotbolt:flaker-data:0.1.0",
+        "io.github.rotbolt:flaker-domain:0.1.0",
+        "io.github.rotbolt:flaker-okhttp-core:0.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T07:40:26Z",
+      "sha256": "72188eea6e1ac0e0b38d4febc3d42578a4688c7c6a7387b39d2f0804ea842e30",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.compose:compose-bom:2023.06.01",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "io.github.rotbolt:flaker-android-monitor:0.1.1",
+        "io.github.rotbolt:flaker-android-ui:0.1.1",
+        "io.github.rotbolt:flaker-data:0.1.1",
+        "io.github.rotbolt:flaker-domain:0.1.1",
+        "io.github.rotbolt:flaker-okhttp-core:0.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T07:40:25Z",
+      "sha256": "8880b60059cf099d3003529a5a1a3ee92d55574528388cb477784023bc7c9289",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.compose:compose-bom:2023.06.01",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "io.github.rotbolt:flaker-android-monitor:0.1.2",
+        "io.github.rotbolt:flaker-android-ui:0.1.2",
+        "io.github.rotbolt:flaker-data:0.1.2",
+        "io.github.rotbolt:flaker-domain:0.1.2",
+        "io.github.rotbolt:flaker-okhttp-core:0.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.rotbolt.flakerandroidokhttp.ui.FlakerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

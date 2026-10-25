@@ -1,0 +1,151 @@
+{
+  "coordinate": "ng.simplepay.gateway:gateway",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:47:25Z",
+      "sha256": "1d2ddeac0935e48beca40ba1f08f6eff18d67a49c0a18ceaf0f6d2f6439cdab6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:47:24Z",
+      "sha256": "e826e5575241ec4175dc4cef2c34c058859f90a43a917c8893edef6ae49859d7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:47:24Z",
+      "sha256": "e826e5575241ec4175dc4cef2c34c058859f90a43a917c8893edef6ae49859d7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T09:47:23Z",
+      "sha256": "e826e5575241ec4175dc4cef2c34c058859f90a43a917c8893edef6ae49859d7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:47:23Z",
+      "sha256": "e826e5575241ec4175dc4cef2c34c058859f90a43a917c8893edef6ae49859d7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T09:47:22Z",
+      "sha256": "e826e5575241ec4175dc4cef2c34c058859f90a43a917c8893edef6ae49859d7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T09:47:21Z",
+      "sha256": "e826e5575241ec4175dc4cef2c34c058859f90a43a917c8893edef6ae49859d7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T09:47:21Z",
+      "sha256": "b3ba3fb9c0688b32a67e4cd10c8aec7510fe904750a109087b2929687cc29d2c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T09:47:20Z",
+      "sha256": "144fd4bddabfe4aac2bcfbb3a87a812c53297893fd6d5d697665493161a27113",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:gridlayout-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T09:47:20Z",
+      "sha256": "144fd4bddabfe4aac2bcfbb3a87a812c53297893fd6d5d697665493161a27113",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:gridlayout-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ng.simplepay.gateway.Gateway",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ng.simplepay.gateway.checkout.Checkout",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ng.simplepay.gateway.remember.Remember",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

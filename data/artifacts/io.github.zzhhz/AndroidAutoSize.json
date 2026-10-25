@@ -1,0 +1,30 @@
+{
+  "coordinate": "io.github.zzhhz:AndroidAutoSize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T08:27:50Z",
+      "sha256": "b88c5bf4c69c6de920a26d26bb3fe69bf646c90e89f80a377457f52d711c7c04",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "me.jessyan.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

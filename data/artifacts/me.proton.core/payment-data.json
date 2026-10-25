@@ -1,0 +1,30 @@
+{
+  "coordinate": "me.proton.core:payment-data",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "33.0.0": {
+      "fetchedAt": "2026-10-25T09:27:11Z",
+      "sha256": "9adff69cda8b8cf72d6710f3eb049d661a07eb0c24d07bfd0b9ebd06418400ce",
+      "dependencies": [
+        "androidx.room:room-ktx:2.6.1",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "javax.inject:javax.inject:1",
+        "me.proton.core:account-data:33.0.0",
+        "me.proton.core:data-room:33.0.0",
+        "me.proton.core:domain:33.0.0",
+        "me.proton.core:network-data:33.0.0",
+        "me.proton.core:network-domain:33.0.0",
+        "me.proton.core:observability-domain:33.0.0",
+        "me.proton.core:payment-domain:33.0.0",
+        "me.proton.core:plan-data:33.0.0",
+        "me.proton.core:plan-domain:33.0.0",
+        "me.proton.core:user-domain:33.0.0",
+        "me.proton.core:util-kotlin:33.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
+    }
+  },
+  "components": []
+}

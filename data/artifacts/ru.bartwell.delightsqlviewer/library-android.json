@@ -1,0 +1,114 @@
+{
+  "coordinate": "ru.bartwell.delightsqlviewer:library-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "main": {
+      "fetchedAt": "2026-10-25T10:18:44Z",
+      "sha256": "c90b0fdfc7f5759b464835c1b8c56882ab87160d28380585712a8b444a29533e",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.2",
+        "app.cash.sqldelight:android-driver:2.0.2",
+        "app.cash.sqldelight:runtime:2.0.2",
+        "com.arkivanov.decompose:decompose:3.1.0",
+        "com.arkivanov.decompose:extensions-compose:3.1.0",
+        "com.arkivanov.essenty:lifecycle-coroutines:2.3.0",
+        "org.jetbrains.compose.foundation:foundation:1.6.11",
+        "org.jetbrains.compose.material3:material3:1.6.11",
+        "org.jetbrains.compose.material:material-icons-extended:1.6.11",
+        "org.jetbrains.compose.runtime:runtime:1.6.11",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T10:18:44Z",
+      "sha256": "ba28772905d266788876b2639d4f752eebc9412dd5f0d908e4c7ce97da3f8910",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.10.0",
+        "app.cash.sqldelight:android-driver:2.0.2",
+        "app.cash.sqldelight:runtime:2.0.2",
+        "com.arkivanov.decompose:decompose:3.1.0",
+        "com.arkivanov.decompose:extensions-compose:3.1.0",
+        "com.arkivanov.essenty:lifecycle-coroutines:2.4.0",
+        "org.jetbrains.compose.foundation:foundation:1.7.3",
+        "org.jetbrains.compose.material3:material3:1.7.3",
+        "org.jetbrains.compose.material:material-icons-extended:1.7.3",
+        "org.jetbrains.compose.runtime:runtime:1.7.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T10:18:43Z",
+      "sha256": "c90b0fdfc7f5759b464835c1b8c56882ab87160d28380585712a8b444a29533e",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.2",
+        "app.cash.sqldelight:android-driver:2.0.2",
+        "app.cash.sqldelight:runtime:2.0.2",
+        "com.arkivanov.decompose:decompose:3.1.0",
+        "com.arkivanov.decompose:extensions-compose:3.1.0",
+        "com.arkivanov.essenty:lifecycle-coroutines:2.3.0",
+        "org.jetbrains.compose.foundation:foundation:1.6.11",
+        "org.jetbrains.compose.material3:material3:1.6.11",
+        "org.jetbrains.compose.material:material-icons-extended:1.6.11",
+        "org.jetbrains.compose.runtime:runtime:1.6.11",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T10:18:42Z",
+      "sha256": "c90b0fdfc7f5759b464835c1b8c56882ab87160d28380585712a8b444a29533e",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.9.2",
+        "app.cash.sqldelight:android-driver:2.0.2",
+        "app.cash.sqldelight:runtime:2.0.2",
+        "com.arkivanov.decompose:decompose:3.1.0",
+        "com.arkivanov.decompose:extensions-compose:3.1.0",
+        "com.arkivanov.essenty:lifecycle-coroutines:2.3.0",
+        "org.jetbrains.compose.foundation:foundation:1.7.3",
+        "org.jetbrains.compose.material3:material3:1.7.3",
+        "org.jetbrains.compose.material:material-icons-extended:1.7.3",
+        "org.jetbrains.compose.runtime:runtime:1.7.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.bartwell.delightsqlviewer.DelightSqlViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "main",
+          "main"
+        ],
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.bartwell.delightsqlviewer.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

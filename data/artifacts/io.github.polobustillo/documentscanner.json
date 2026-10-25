@@ -1,0 +1,109 @@
+{
+  "coordinate": "io.github.polobustillo:documentscanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.4-alpha": {
+      "fetchedAt": "2026-10-25T07:36:57Z",
+      "sha256": "6c58909a8056098edf072d6de8191266e937a86a070c12ba0f487b3672ed1c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.websitebeaver:opencv:4.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.4.4-alpha": {
+      "fetchedAt": "2026-10-25T07:36:56Z",
+      "sha256": "6c58909a8056098edf072d6de8191266e937a86a070c12ba0f487b3672ed1c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.websitebeaver:opencv:4.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.4.5-alpha": {
+      "fetchedAt": "2026-10-25T07:36:55Z",
+      "sha256": "6c58909a8056098edf072d6de8191266e937a86a070c12ba0f487b3672ed1c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.websitebeaver:opencv:4.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.4.6-alpha": {
+      "fetchedAt": "2026-10-25T07:36:55Z",
+      "sha256": "6c58909a8056098edf072d6de8191266e937a86a070c12ba0f487b3672ed1c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:18.0.2",
+        "com.websitebeaver:opencv:4.1.0",
+        "id.zelory:compressor:3.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.4.7-alpha": {
+      "fetchedAt": "2026-10-25T07:36:54Z",
+      "sha256": "6c58909a8056098edf072d6de8191266e937a86a070c12ba0f487b3672ed1c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:18.0.2",
+        "com.websitebeaver:opencv:4.1.0",
+        "id.zelory:compressor:3.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.4.8-alpha": {
+      "fetchedAt": "2026-10-25T07:36:53Z",
+      "sha256": "6c58909a8056098edf072d6de8191266e937a86a070c12ba0f487b3672ed1c7c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.websitebeaver:opencv:4.1.0",
+        "id.zelory:compressor:3.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.polobustillo.documentscanner.DocumentScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.4-alpha",
+          "1.4.8-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.polobustillo.documentscanner.DocumentScannerFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.4-alpha",
+          "1.4.8-alpha"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DocumentScannerFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

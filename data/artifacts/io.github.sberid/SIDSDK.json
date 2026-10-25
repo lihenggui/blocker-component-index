@@ -1,0 +1,77 @@
+{
+  "coordinate": "io.github.sberid:SIDSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:42:55Z",
+      "sha256": "e5e960350423ff51ed642f3a1a29fb7810d619345c8f8392ba23d61fdddefcfd",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.browser:browser:1.4.0",
+        "androidx.compose.material3:material3:1.1.1",
+        "androidx.compose.material:material:1.4.3",
+        "androidx.compose.ui:ui-tooling-preview:1.4.3",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.navigation:navigation-compose:2.6.0",
+        "androidx.security:security-crypto:1.1.0-alpha06",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "io.coil-kt:coil-compose:2.4.0",
+        "io.insert-koin:koin-android:3.4.3",
+        "io.insert-koin:koin-androidx-compose:3.4.6",
+        "io.insert-koin:koin-annotations:1.2.2",
+        "io.ktor:ktor-client-android:2.3.5",
+        "io.ktor:ktor-client-content-negotiation:2.3.5",
+        "io.ktor:ktor-client-json-jvm:2.3.5",
+        "io.ktor:ktor-client-logging-jvm:2.3.5",
+        "io.ktor:ktor-client-okhttp:2.3.5",
+        "io.ktor:ktor-client-serialization:2.3.5",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.5",
+        "org.jetbrains.kotlin:kotlin-reflect:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "sid.sdk.auth.view.activity.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "sid.sdk.ui.screens.view.webview.SIDWebAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

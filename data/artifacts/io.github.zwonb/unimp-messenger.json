@@ -1,0 +1,33 @@
+{
+  "coordinate": "io.github.zwonb:unimp-messenger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:27:13Z",
+      "sha256": "cfd4ac7f9816183ab073555d8b4315ce2bc3fb5b0df51fa7d1d327419b716c7e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0-RC"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yidont.unimp.messenger.UniMessengerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

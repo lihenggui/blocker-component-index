@@ -1,0 +1,133 @@
+{
+  "coordinate": "io.hypertrack:smart-scheduler",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T08:32:39Z",
+      "sha256": "88fb6b79d41fcfb81aab35f888d6c5746c8facaca279abeaec4afad00abc8c65",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.google.android.gms:play-services-gcm:9.6.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T08:32:38Z",
+      "sha256": "fa69c1ed116e3b7cf41e43b23e2721820e0bb2f869d1c85c5506eb1f34914521",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.google.android.gms:play-services-gcm:9.6.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T08:32:38Z",
+      "sha256": "75177b6dc77f9c954c1cbc9ea90a54b3c7dc1c134bbcc0dad714d576f5890971",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.google.android.gms:play-services-gcm:9.6.1"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T08:32:37Z",
+      "sha256": "104badbc894b968000c1c4fcf6abbb685c4f7cb1f812ef9072bfdbf9b447098d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.google.android.gms:play-services-gcm:9.6.1"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T08:32:37Z",
+      "sha256": "fda02642a685ffe0bc5a411925e5b7b1c0b6db8247806e1086f3de7a50b6857a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.google.android.gms:play-services-gcm:9.6.1"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T08:32:36Z",
+      "sha256": "d110b6db189d83471dac54eba014b3a4215d52b805f66d12e549f8a0d8cf52ac",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.0",
+        "com.google.android.gms:play-services-gcm:10.2.0"
+      ]
+    },
+    "0.0.9": {
+      "fetchedAt": "2026-10-25T08:32:36Z",
+      "sha256": "a8430e7e36c0233af476efec0f3afe6c95b83824664f43272cd2496b88bee30c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.android.gms:play-services-gcm:10.2.0"
+      ]
+    },
+    "0.0.10": {
+      "fetchedAt": "2026-10-25T08:32:35Z",
+      "sha256": "b689c86f635adac10f51d04281c114691cd3b497cb84f037bc82deecd5340341",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.android.gms:play-services-gcm:10.2.0"
+      ]
+    },
+    "0.0.11": {
+      "fetchedAt": "2026-10-25T08:32:35Z",
+      "sha256": "08cf51ffbf6ecd26d46c63f18d93999d13b817eb8e7e76bb376807e66140d75e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.google.android.gms:play-services-gcm:10.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.hypertrack.smart_scheduler.SmartSchedulerAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.hypertrack.smart_scheduler.SmartSchedulerAlarmReceiverService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.hypertrack.smart_scheduler.SmartSchedulerPeriodicTaskService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.11"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE",
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.gcm.ACTION_TASK_READY"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "coordinate": "mobi.alphapush:push-notification-router-component",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:33:11Z",
+      "sha256": "baaa5e24bac2c64ac7ca23187ce08870592d194de98d5b0276438d10a53d01b7",
+      "dependencies": [
+        "com.google.dagger:dagger-android:2.16",
+        "com.jakewharton.timber:timber:4.7.1",
+        "mobi.alphapush:application-component:0.0.1",
+        "mobi.alphapush:push-android-base:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:33:11Z",
+      "sha256": "baaa5e24bac2c64ac7ca23187ce08870592d194de98d5b0276438d10a53d01b7",
+      "dependencies": [
+        "com.google.dagger:dagger-android:2.16",
+        "com.jakewharton.timber:timber:4.7.1",
+        "mobi.alphapush:application-component:0.0.2",
+        "mobi.alphapush:push-android-base:0.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appspress.push.receiver.PushNotificationActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

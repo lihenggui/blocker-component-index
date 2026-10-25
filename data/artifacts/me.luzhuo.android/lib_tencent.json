@@ -1,0 +1,56 @@
+{
+  "coordinate": "me.luzhuo.android:lib_tencent",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.8": {
+      "fetchedAt": "2026-10-25T09:23:26Z",
+      "sha256": "7447ccb7e18f4288ea49fc56f7f438d594c85b39f340c7a5cc40403385b43538",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5.2"
+      ]
+    },
+    "1.1.9": {
+      "fetchedAt": "2026-10-25T09:23:25Z",
+      "sha256": "7447ccb7e18f4288ea49fc56f7f438d594c85b39f340c7a5cc40403385b43538",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.8",
+          "1.1.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.8",
+          "1.1.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

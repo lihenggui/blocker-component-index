@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.smooth-way:flow-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T08:57:21Z",
+      "sha256": "f9e5fcfc6ff19e721f02b44d7237ba97ceb015c8a42ccdb8970a1ab06bca9439",
+      "dependencies": [
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.smooth-way:common:0.1.0",
+        "io.smooth-way:flow:0.1.0",
+        "io.smooth-way:room-converters:0.1.0",
+        "io.smooth-way:store-room:0.1.0",
+        "io.smooth-way:store:0.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.4.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.smooth.flow.android.starter.FlowServiceInitializer"
+      ]
+    }
+  ]
+}

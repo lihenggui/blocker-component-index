@@ -1,0 +1,33 @@
+{
+  "coordinate": "me.proton.core:test-rule",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "33.0.0": {
+      "fetchedAt": "2026-10-25T09:29:06Z",
+      "sha256": "b321a2669d239d74e4c8c67bbbae69e4bb678ce494288c462e255d7e1bb9a56b",
+      "dependencies": [
+        "androidx.compose.ui:ui-test-junit4:1.7.5",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.test.ext:junit-ktx:1.1.4",
+        "androidx.test:monitor:1.6.0",
+        "androidx.test:runner:1.5.0",
+        "com.google.dagger:hilt-android-testing:2.49",
+        "com.google.dagger:hilt-android:2.49",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "junit:junit:4.13.2",
+        "me.proton.core:auth-domain:33.0.0",
+        "me.proton.core:auth-presentation:33.0.0",
+        "me.proton.core:configuration-dagger-content-resolver:33.0.0",
+        "me.proton.core:configuration-data:33.0.0",
+        "me.proton.core:test-mock-proxy:33.0.0",
+        "me.proton.core:test-quark:33.0.0",
+        "me.proton.test:fusion:1.0.4",
+        "org.jetbrains.kotlin:kotlin-reflect:2.0.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
+    }
+  },
+  "components": []
+}

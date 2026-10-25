@@ -1,0 +1,35 @@
+{
+  "coordinate": "org.lovebing.reactnative:baidumap",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T10:01:47Z",
+      "sha256": "b29eacf576d25c115f21b9895120a3a540d58e90bd979d4266a6bc43f13e418f",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T10:01:46Z",
+      "sha256": "b29eacf576d25c115f21b9895120a3a540d58e90bd979d4266a6bc43f13e418f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.location.f",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":remote",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

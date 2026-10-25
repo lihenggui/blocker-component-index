@@ -1,0 +1,83 @@
+{
+  "coordinate": "org.opencampaignlink:biometric-capture",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T10:08:01Z",
+      "sha256": "0b32735b0c13ccd222db098d0b9e3919a077ec48190ed38dfea9179035eee7f2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.9.0",
+        "com.google.mlkit:face-detection:16.1.5",
+        "com.quickbirdstudios:opencv:4.5.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T10:08:01Z",
+      "sha256": "42a4a27409170aa91c49cc0c695aaffe58c7f309a6128838990a20f8043bb9e5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.9.0",
+        "com.google.mlkit:face-detection:16.1.5",
+        "com.quickbirdstudios:opencv:4.5.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.iprd.biometricscapture.activities.FaceCapture",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.iprd.biometricscapture.activities.FaceCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.iprd.biometricscapture.activities.FacePreCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "coordinate": "io.github.wnwnwang:cuplib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:07:58Z",
+      "sha256": "05a08223f15ac036ff102d9d2f7a5918c6d3202df64e528101ec0668cd0b9aca",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "com.google.android.material:material:1.5.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:07:57Z",
+      "sha256": "05a08223f15ac036ff102d9d2f7a5918c6d3202df64e528101ec0668cd0b9aca",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "com.google.android.material:material:1.5.0",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.cuplib.BaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

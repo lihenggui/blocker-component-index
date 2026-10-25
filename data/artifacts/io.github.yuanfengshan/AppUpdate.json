@@ -1,0 +1,56 @@
+{
+  "coordinate": "io.github.yuanfengshan:AppUpdate",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:19:54Z",
+      "sha256": "28f2205c84ce7f95e0df8c98f5ac7009bc5c795954c99ae48fce55f82ed2939d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:19:53Z",
+      "sha256": "28f2205c84ce7f95e0df8c98f5ac7009bc5c795954c99ae48fce55f82ed2939d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.yuanfengshan.base.update.UpdateFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.updateAppFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.yuanfengshan.base.update.service.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

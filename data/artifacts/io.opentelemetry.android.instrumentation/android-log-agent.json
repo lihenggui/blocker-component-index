@@ -1,0 +1,21 @@
+{
+  "coordinate": "io.opentelemetry.android.instrumentation:android-log-agent",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.11.0-alpha": {
+      "fetchedAt": "2026-10-25T08:48:13Z",
+      "sha256": "1fd3064801bbea59ccf31a2aadd764c0bff1ef1d9deb9a1b171a84d325a4a743",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.core:core:1.16.0",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "io.opentelemetry.android.instrumentation:android-log-library:0.11.0-alpha",
+        "io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom-alpha:2.15.0-alpha",
+        "net.bytebuddy:byte-buddy:1.17.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": []
+}

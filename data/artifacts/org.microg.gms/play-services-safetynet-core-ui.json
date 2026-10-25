@@ -1,0 +1,101 @@
+{
+  "coordinate": "org.microg.gms:play-services-safetynet-core-ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.23.214816": {
+      "fetchedAt": "2026-10-25T10:05:32Z",
+      "sha256": "150555f08ff1dadb2135be56c2ac599a7ab6a64f6e7a58e06651f303f6341778",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.webkit:webkit:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.gms:play-services-base-core-ui:0.2.23.214816",
+        "org.microg.gms:play-services-base-core:0.2.23.214816",
+        "org.microg.gms:play-services-droidguard-core:0.2.23.214816",
+        "org.microg.gms:play-services-droidguard:0.2.23.214816",
+        "org.microg.gms:play-services-safetynet-api:0.2.23.214816"
+      ]
+    },
+    "0.2.24.214816": {
+      "fetchedAt": "2026-10-25T10:05:31Z",
+      "sha256": "150555f08ff1dadb2135be56c2ac599a7ab6a64f6e7a58e06651f303f6341778",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.webkit:webkit:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.gms:play-services-base-core-ui:0.2.24.214816",
+        "org.microg.gms:play-services-base-core:0.2.24.214816",
+        "org.microg.gms:play-services-droidguard-core:0.2.24.214816",
+        "org.microg.gms:play-services-droidguard:0.2.24.214816",
+        "org.microg.gms:play-services-safetynet-api:0.2.24.214816"
+      ]
+    },
+    "0.2.25.223616": {
+      "fetchedAt": "2026-10-25T10:05:30Z",
+      "sha256": "150555f08ff1dadb2135be56c2ac599a7ab6a64f6e7a58e06651f303f6341778",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "androidx.webkit:webkit:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.microg.gms:play-services-base-core-ui:0.2.25.223616",
+        "org.microg.gms:play-services-base-core:0.2.25.223616",
+        "org.microg.gms:play-services-droidguard-core:0.2.25.223616",
+        "org.microg.gms:play-services-droidguard:0.2.25.223616",
+        "org.microg.gms:play-services-safetynet-api:0.2.25.223616"
+      ]
+    },
+    "0.2.26.223616": {
+      "fetchedAt": "2026-10-25T10:05:29Z",
+      "sha256": "150555f08ff1dadb2135be56c2ac599a7ab6a64f6e7a58e06651f303f6341778",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "androidx.webkit:webkit:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.microg.gms:play-services-base-core-ui:0.2.26.223616",
+        "org.microg.gms:play-services-base-core:0.2.26.223616",
+        "org.microg.gms:play-services-droidguard-core:0.2.26.223616",
+        "org.microg.gms:play-services-droidguard:0.2.26.223616",
+        "org.microg.gms:play-services-safetynet-api:0.2.26.223616"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.microg.gms.safetynet.ReCaptchaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.23.214816",
+          "0.2.26.223616"
+        ]
+      ],
+      "exported": false,
+      "process": ":ui",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.microg.gms.safetynet.RECAPTCHA_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

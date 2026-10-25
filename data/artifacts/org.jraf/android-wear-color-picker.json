@@ -1,0 +1,76 @@
+{
+  "coordinate": "org.jraf:android-wear-color-picker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.3": {
+      "fetchedAt": "2026-10-25T09:58:58Z",
+      "sha256": "aa388a2ee678a337ef58e0512f7c37b14e587ec2be753ebcb38374e7271832af",
+      "dependencies": [
+        "androidx.databinding:databinding-adapters:7.0.2",
+        "androidx.databinding:databinding-common:7.0.2",
+        "androidx.databinding:databinding-ktx:7.0.2",
+        "androidx.databinding:databinding-runtime:7.0.2",
+        "androidx.wear:wear:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.31"
+      ]
+    },
+    "2.2.4": {
+      "fetchedAt": "2026-10-25T09:58:57Z",
+      "sha256": "aa388a2ee678a337ef58e0512f7c37b14e587ec2be753ebcb38374e7271832af",
+      "dependencies": [
+        "androidx.databinding:databinding-adapters:7.0.2",
+        "androidx.databinding:databinding-common:7.0.2",
+        "androidx.databinding:databinding-ktx:7.0.2",
+        "androidx.databinding:databinding-runtime:7.0.2",
+        "androidx.wear:wear:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.31"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T09:58:57Z",
+      "sha256": "f041065458a1a899c69e52c9074731b6713d771358117892f5d4f717ca66bcb8",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.1",
+        "androidx.wear.compose:compose-foundation:1.1.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.jraf.android.androidwearcolorpicker.ColorPickActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.3",
+          "2.2.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.jraf.android.androidwearcolorpicker.ColorPickActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

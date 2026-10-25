@@ -1,0 +1,123 @@
+{
+  "coordinate": "net.samystudio.rxlocationmanager:rxlocationmanager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T09:44:47Z",
+      "sha256": "db58f254b70aced189f61564682a848e407a5a3357b08826a6f954ab56866e26",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T09:44:46Z",
+      "sha256": "db58f254b70aced189f61564682a848e407a5a3357b08826a6f954ab56866e26",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.0"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T09:44:46Z",
+      "sha256": "db58f254b70aced189f61564682a848e407a5a3357b08826a6f954ab56866e26",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.0"
+      ]
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-25T09:44:45Z",
+      "sha256": "db58f254b70aced189f61564682a848e407a5a3357b08826a6f954ab56866e26",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "0.6.0": {
+      "fetchedAt": "2026-10-25T09:44:44Z",
+      "sha256": "494f637840853728e978dfae2bef68596a60d4841a3e5596e5e52d469aeee72b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.startup:startup-runtime:1.1.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31"
+      ]
+    },
+    "0.7.0": {
+      "fetchedAt": "2026-10-25T09:44:44Z",
+      "sha256": "e46a79741a06e550a58a4d631e842470479cc9ac6633f266aa7fa682410a00dd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20"
+      ]
+    },
+    "0.7.1": {
+      "fetchedAt": "2026-10-25T09:44:43Z",
+      "sha256": "e7bddefe54b72f4e759ecbd5424f5ab57c7000b6bfde10ddfecbee8f7c70782e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.jakewharton.timber:timber:5.0.1",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.8",
+        "net.samystudio.rxlocationmanager:rxlocationmanager:0.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.6.0",
+          "0.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "net.samystudio.rxlocationmanager.ContextProvider"
+      ]
+    },
+    {
+      "name": "net.samystudio.rxlocationmanager.ContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.net.samystudio.rxlocationmanager",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

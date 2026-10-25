@@ -1,0 +1,342 @@
+{
+  "coordinate": "io.github.wairdell:voice-read",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.2.0.0": {
+      "fetchedAt": "2026-10-25T08:05:46Z",
+      "sha256": "e023ed9b6867850869b663e34ab4198051a762031fe4de3fafc7266b48437aa0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.SpeechFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SpeechFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.component.media.video.ExoDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.exoplayer.downloadService.action.RESTART"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.receiver.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceAppInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceAppPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceClockLandingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceFuzzyLandingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceMallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceMallLandingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoicePlayFirstActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoicePopupWindowLandingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceQuestionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceQuestionFullIntroduceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceQuestionIntroduceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceReadFirstActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechVoiceVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechWebLocationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlx.speech.voicereadsdk.ui.activity.SpeechWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.0.0",
+          "4.2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

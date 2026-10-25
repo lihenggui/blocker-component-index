@@ -1,0 +1,94 @@
+{
+  "coordinate": "io.github.runcomm:touchadsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T07:40:38Z",
+      "sha256": "04d2bd979cc230e3e96354b16f983b76c4ebd1f27ce8d31ccca35a36a5232936",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.databinding:viewbinding:4.1.2",
+        "com.auth0.android:jwtdecode:2.0.0",
+        "com.google.android.material:material:1.6.0",
+        "com.google.firebase:firebase-core:17.4.3",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.5.0",
+        "com.squareup.retrofit2:retrofit:2.5.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "kr.co.touchad.sdk.ui.activity.advertise.AdFullActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "kr.co.touchad.sdk.ui.activity.card.CardRegisterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "kr.co.touchad.sdk.ui.activity.webview.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "kr.co.touchad.sdk.ui.service.TouchAdService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.FOREGROUND_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

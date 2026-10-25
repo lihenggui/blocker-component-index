@@ -1,0 +1,72 @@
+{
+  "coordinate": "ltd.dolink:app-initializer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:19:20Z",
+      "sha256": "7e2224cb802c72790eb5743a5d71ca2f8d172574012ad897ccfe554c58a9f3dc",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:latest.release",
+        "androidx.lifecycle:lifecycle-viewmodel:latest.release",
+        "androidx.startup:startup-runtime:latest.release"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:19:20Z",
+      "sha256": "7e2224cb802c72790eb5743a5d71ca2f8d172574012ad897ccfe554c58a9f3dc",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:latest.release",
+        "androidx.lifecycle:lifecycle-viewmodel:latest.release",
+        "androidx.startup:startup-runtime:latest.release"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:19:19Z",
+      "sha256": "7e2224cb802c72790eb5743a5d71ca2f8d172574012ad897ccfe554c58a9f3dc",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:latest.release",
+        "androidx.lifecycle:lifecycle-viewmodel:latest.release",
+        "androidx.startup:startup-runtime:latest.release"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T09:19:18Z",
+      "sha256": "7e2224cb802c72790eb5743a5d71ca2f8d172574012ad897ccfe554c58a9f3dc",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:latest.release",
+        "androidx.lifecycle:lifecycle-viewmodel:latest.release",
+        "androidx.startup:startup-runtime:latest.release"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T09:19:17Z",
+      "sha256": "7e2224cb802c72790eb5743a5d71ca2f8d172574012ad897ccfe554c58a9f3dc",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:latest.release",
+        "androidx.lifecycle:lifecycle-viewmodel:latest.release",
+        "androidx.startup:startup-runtime:latest.release"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "ltd.dolink.initializer.ApplicationOwnerInitializer"
+      ]
+    }
+  ]
+}

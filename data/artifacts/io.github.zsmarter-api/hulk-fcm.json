@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.github.zsmarter-api:hulk-fcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:26:29Z",
+      "sha256": "938650034c72e4908767e5dfe6af4f9b35f6ce5b65ad004852c8c17f3d920699",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.firebase:firebase-bom:31.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:26:29Z",
+      "sha256": "34213e48cded785a77a8132426b90abbc1a48cc5f4611efa74594b0ba326e2c5",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.firebase:firebase-bom:31.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:26:28Z",
+      "sha256": "34213e48cded785a77a8132426b90abbc1a48cc5f4611efa74594b0ba326e2c5",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.firebase:firebase-bom:31.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:26:28Z",
+      "sha256": "34213e48cded785a77a8132426b90abbc1a48cc5f4611efa74594b0ba326e2c5",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.firebase:firebase-bom:31.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:26:27Z",
+      "sha256": "416ba48a05da0ce7c4e67934278c3e44ff72f71a3ecf292b78c213912c2d88ff",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.google.firebase:firebase-bom:31.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zsmarter.hulk.fcm_push.FCMService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

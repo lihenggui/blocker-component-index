@@ -1,0 +1,114 @@
+{
+  "coordinate": "love.nuoyan.android:auth_wx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:18:32Z",
+      "sha256": "cf04d07ed888cc587e9f4fc67a9c2a8ec9b121ad7a6e73da64ea3311ae6f1b82",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:18:32Z",
+      "sha256": "cf04d07ed888cc587e9f4fc67a9c2a8ec9b121ad7a6e73da64ea3311ae6f1b82",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:18:31Z",
+      "sha256": "cf04d07ed888cc587e9f4fc67a9c2a8ec9b121ad7a6e73da64ea3311ae6f1b82",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T09:18:30Z",
+      "sha256": "e40d3cbd37255e2754a72cea75d3afb0e48a8cf9765b22c5840d06b2af7b9857",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:18:30Z",
+      "sha256": "e40d3cbd37255e2754a72cea75d3afb0e48a8cf9765b22c5840d06b2af7b9857",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T09:18:29Z",
+      "sha256": "e40d3cbd37255e2754a72cea75d3afb0e48a8cf9765b22c5840d06b2af7b9857",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T09:18:28Z",
+      "sha256": "e40d3cbd37255e2754a72cea75d3afb0e48a8cf9765b22c5840d06b2af7b9857",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "love.nuoyan.android.auth.wx.AuthActivityForWX",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

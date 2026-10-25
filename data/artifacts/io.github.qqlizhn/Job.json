@@ -1,0 +1,144 @@
+{
+  "coordinate": "io.github.qqlizhn:Job",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.3": {
+      "fetchedAt": "2026-10-25T07:38:08Z",
+      "sha256": "176d09efba1f7804184bcc49f875a702c4022aa4858d552874ca0c2ddc5d031d",
+      "dependencies": [
+        "androidx.core:core:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.evernote.android.job.JobBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "android.intent.action.QUICKBOOT_POWERON",
+        "com.htc.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.JobRescheduleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.gcm.PlatformGcmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.4.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE",
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.gcm.ACTION_TASK_READY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.v14.PlatformAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.evernote.android.job.v14.RUN_JOB",
+        "net.vrallev.android.job.v14.RUN_JOB"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.v14.PlatformAlarmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.v14.PlatformAlarmServiceExact",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.v21.PlatformJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.3",
+          "1.4.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

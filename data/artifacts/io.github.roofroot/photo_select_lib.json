@@ -1,0 +1,42 @@
+{
+  "coordinate": "io.github.roofroot:photo_select_lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:40:19Z",
+      "sha256": "6de0f1a807f4a866246688016c5f85129da092ddb13422537d5a6881cb9f2f28",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:4.2.2",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.media.PictureFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "coordinate": "io.github.the-best-is-best:kpermissions-bluetooth-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:55:52Z",
+      "sha256": "c4f791459303c9cfb19d77c03561c80c14112134bc8999877bd57b0b0e05fc63",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:1.0.1",
+        "io.github.the-best-is-best:kpermissions-core:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:55:52Z",
+      "sha256": "c4f791459303c9cfb19d77c03561c80c14112134bc8999877bd57b0b0e05fc63",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:55:49Z",
+      "sha256": "c4f791459303c9cfb19d77c03561c80c14112134bc8999877bd57b0b0e05fc63",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T07:55:51Z",
+      "sha256": "c4f791459303c9cfb19d77c03561c80c14112134bc8999877bd57b0b0e05fc63",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T07:55:50Z",
+      "sha256": "fb1b6a71295540dec71664821b11f68f9182ed8c6e267b2b476f294b695a2dcc",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:2.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T07:55:50Z",
+      "sha256": "c4f791459303c9cfb19d77c03561c80c14112134bc8999877bd57b0b0e05fc63",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.github.kpermissionsbluetooth.ApplicationContextInitializer"
+      ]
+    }
+  ]
+}

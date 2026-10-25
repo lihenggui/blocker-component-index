@@ -1,0 +1,74 @@
+{
+  "coordinate": "io.github.wgllss:Wgllss-Dynamic-Host-Provider-Lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.0": {
+      "fetchedAt": "2026-10-25T08:07:04Z",
+      "sha256": "89af7f7769e32b7f097312b2e65cdd03e4ad8576aa6707427042182a100a0c1e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-25T08:07:04Z",
+      "sha256": "89af7f7769e32b7f097312b2e65cdd03e4ad8576aa6707427042182a100a0c1e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.0.2": {
+      "fetchedAt": "2026-10-25T08:07:03Z",
+      "sha256": "89af7f7769e32b7f097312b2e65cdd03e4ad8576aa6707427042182a100a0c1e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.0.3": {
+      "fetchedAt": "2026-10-25T08:07:02Z",
+      "sha256": "f92bfbbc4c9273712e0270569e9a6b52364cfe5dac7b4f2715e7964933c568a5",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.0.4": {
+      "fetchedAt": "2026-10-25T08:07:02Z",
+      "sha256": "991779e62ae486982b27049353b0691144364401e100ab07128cd89f81c6d344",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.0.5": {
+      "fetchedAt": "2026-10-25T08:07:01Z",
+      "sha256": "991779e62ae486982b27049353b0691144364401e100ab07128cd89f81c6d344",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.0.6": {
+      "fetchedAt": "2026-10-25T08:07:00Z",
+      "sha256": "d5fd5e3ed3706784f4c1993d71e8970a646d1d60d49f79d2952c7fb7d215eb67",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wgllss.dynamic.host.lib.provider.WXPluginContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0.3",
+          "1.0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.wx.dynamic.plugin.author",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

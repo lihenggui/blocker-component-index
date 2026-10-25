@@ -1,0 +1,172 @@
+{
+  "coordinate": "net.admixer.sdk.mediation:mopub",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.35": {
+      "fetchedAt": "2026-10-25T09:36:43Z",
+      "sha256": "0c95d586d1e1ff6728789aab268344852c4ac47290642d52303189af52b10261",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:SDK:unspecified"
+      ]
+    },
+    "0.0.36": {
+      "fetchedAt": "2026-10-25T09:36:43Z",
+      "sha256": "0c95d586d1e1ff6728789aab268344852c4ac47290642d52303189af52b10261",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:unspecified"
+      ]
+    },
+    "0.0.38": {
+      "fetchedAt": "2026-10-25T09:36:42Z",
+      "sha256": "480c911f0675a88569ebe9cf2a45c88f0696825dfb5d7313eb3824f7ff53544a",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:0.0.38"
+      ]
+    },
+    "0.0.39": {
+      "fetchedAt": "2026-10-25T09:36:42Z",
+      "sha256": "480c911f0675a88569ebe9cf2a45c88f0696825dfb5d7313eb3824f7ff53544a",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:0.0.39"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:36:41Z",
+      "sha256": "480c911f0675a88569ebe9cf2a45c88f0696825dfb5d7313eb3824f7ff53544a",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.0.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T09:36:41Z",
+      "sha256": "480c911f0675a88569ebe9cf2a45c88f0696825dfb5d7313eb3824f7ff53544a",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.1.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T09:36:40Z",
+      "sha256": "480c911f0675a88569ebe9cf2a45c88f0696825dfb5d7313eb3824f7ff53544a",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.1.1"
+      ]
+    },
+    "1.1.2.0": {
+      "fetchedAt": "2026-10-25T09:36:39Z",
+      "sha256": "3e4756119b0580b5faef42680c7b29abced9e8438c4141a1c31132ba11428c36",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.1.2"
+      ]
+    },
+    "1.3.0.0": {
+      "fetchedAt": "2026-10-25T09:36:39Z",
+      "sha256": "3e4756119b0580b5faef42680c7b29abced9e8438c4141a1c31132ba11428c36",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.3.0"
+      ]
+    },
+    "1.3.2.0": {
+      "fetchedAt": "2026-10-25T09:36:38Z",
+      "sha256": "3e4756119b0580b5faef42680c7b29abced9e8438c4141a1c31132ba11428c36",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.3.2"
+      ]
+    },
+    "1.4.0.0": {
+      "fetchedAt": "2026-10-25T09:36:38Z",
+      "sha256": "3e4756119b0580b5faef42680c7b29abced9e8438c4141a1c31132ba11428c36",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.4.0"
+      ]
+    },
+    "1.4.1.0": {
+      "fetchedAt": "2026-10-25T09:36:37Z",
+      "sha256": "3e4756119b0580b5faef42680c7b29abced9e8438c4141a1c31132ba11428c36",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.9.0",
+        "net.admixer.sdk:sdk:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mopub.common.MoPubBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.35",
+          "1.4.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MoPubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.35",
+          "1.4.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.35",
+          "1.4.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MraidVideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.35",
+          "1.4.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "coordinate": "love.nuoyan.android:qr",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:18:52Z",
+      "sha256": "8a785c417b34f98ad5670ae7b3f0f458c943968a8b1bcb79b40220f8b51bd05b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.camera:camera-camera2:1.2.0-beta01",
+        "androidx.camera:camera-extensions:1.2.0-beta01",
+        "androidx.camera:camera-lifecycle:1.2.0-beta01",
+        "androidx.camera:camera-view:1.2.0-beta01",
+        "com.google.zxing:core:3.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:18:52Z",
+      "sha256": "e2c790b29df037c91e67ae7f931802248aae3176d9f60c186c5bc6af84a80120",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.camera:camera-camera2:1.2.0-beta01",
+        "androidx.camera:camera-extensions:1.2.0-beta01",
+        "androidx.camera:camera-lifecycle:1.2.0-beta01",
+        "androidx.camera:camera-view:1.2.0-beta01",
+        "com.google.zxing:core:3.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "love.nuoyan.android.lib_qr.decode.ScanCodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "love.nuoyan.android.qr.decode.ScanCodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

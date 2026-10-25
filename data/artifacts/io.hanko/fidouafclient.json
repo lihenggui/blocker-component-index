@@ -1,0 +1,97 @@
+{
+  "coordinate": "io.hanko:fidouafclient",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:29:58Z",
+      "sha256": "20a6a3949e468fd01bb5ffa023a548af158649e489b90286fb30b883b85101d0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.biometric:biometric:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.squareup.moshi:moshi:1.12.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:29:57Z",
+      "sha256": "5c41912919659ea0c56db8698beed31498eb6053d45a6802c9a24431b56e87b4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.biometric:biometric:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.squareup.moshi:moshi:1.12.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:29:56Z",
+      "sha256": "692f5ba5b79f7deb550b0214eecee83654ae1235d2fecc68762e4e62e8663ba6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.biometric:biometric:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.squareup.moshi:moshi:1.12.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:29:56Z",
+      "sha256": "7bc7014964df166a601026bc0243745d401e274b3a67c74cd3b8781151b907dc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.biometric:biometric:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.squareup.moshi:moshi:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.hanko.fidouafclient.FidoUafClient",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.hanko.fidouafclient.asm.AsmActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "coordinate": "io.github.sdwfqin.android:quicklib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.6.0": {
+      "fetchedAt": "2026-10-25T07:43:22Z",
+      "sha256": "0971c1f2d3d944be2b1fce2f6eedaee67ea3d8efae5d1ff1826957b29e9b9eae",
+      "dependencies": []
+    },
+    "4.7.0": {
+      "fetchedAt": "2026-10-25T07:43:21Z",
+      "sha256": "0971c1f2d3d944be2b1fce2f6eedaee67ea3d8efae5d1ff1826957b29e9b9eae",
+      "dependencies": [
+        "AndroidQuick:imageloader:4.7.0",
+        "AndroidQuick:widget:4.7.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.0.1",
+        "com.alibaba:arouter-api:1.5.1",
+        "com.blankj:utilcodex:1.30.6",
+        "com.github.Justson.AgentWeb:agentweb-core:v4.1.9-androidx",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.guolindev.permissionx:permissionx:1.5.0",
+        "com.qmuiteam:arch:2.0.1",
+        "com.qmuiteam:qmui:2.0.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.9",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.12",
+        "org.greenrobot:eventbus:3.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sdwfqin.quicklib.imagepreview.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.7.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sdwfqin.quicklib.webview.QuickWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.7.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sdwfqin.quicklib.webview.QuickWebViewLoadDataActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0",
+          "4.7.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

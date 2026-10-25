@@ -1,0 +1,43 @@
+{
+  "coordinate": "io.github.yyxxgame.sdk:qingshi-gamesdk-base",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T08:24:01Z",
+      "sha256": "259c5b845e647d7e509e3cba16cb8e890064d7bd6f9c0ae34996e4168ca1f237",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T08:24:00Z",
+      "sha256": "259c5b845e647d7e509e3cba16cb8e890064d7bd6f9c0ae34996e4168ca1f237",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.yyxx.support.permission.PermissionKitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

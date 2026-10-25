@@ -1,0 +1,98 @@
+{
+  "coordinate": "io.github.vinceglb:logsnag-kotlin-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T08:04:04Z",
+      "sha256": "c31b5645af44910efeab983959c75dd9d5b32edad306d73420a0cfd215415c96",
+      "dependencies": [
+        "co.touchlab:kermit:2.0.2",
+        "io.ktor:ktor-client-content-negotiation:2.3.7",
+        "io.ktor:ktor-client-core:2.3.7",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.7",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:04:03Z",
+      "sha256": "65a234c8c5ad1a07882e7aeff76a3384a9ef899b95ff1f41fead35c5c1fd0c8a",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "co.touchlab:kermit:2.0.3",
+        "io.ktor:ktor-client-content-negotiation:2.3.8",
+        "io.ktor:ktor-client-core:2.3.8",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.8",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T08:04:03Z",
+      "sha256": "65a234c8c5ad1a07882e7aeff76a3384a9ef899b95ff1f41fead35c5c1fd0c8a",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.10.0",
+        "co.touchlab:kermit:2.0.5",
+        "io.ktor:ktor-client-auth:3.0.2",
+        "io.ktor:ktor-client-content-negotiation:3.0.2",
+        "io.ktor:ktor-client-core:3.0.2",
+        "io.ktor:ktor-serialization-kotlinx-json:3.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T08:04:02Z",
+      "sha256": "379c229612cb1e4e4f4dca9e92046cf1e209c28197e192da829dd2b0e2be1fc2",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.10.0",
+        "co.touchlab:kermit:2.0.5",
+        "io.ktor:ktor-client-auth:3.0.2",
+        "io.ktor:ktor-client-content-negotiation:3.0.2",
+        "io.ktor:ktor-client-core:3.0.2",
+        "io.ktor:ktor-serialization-kotlinx-json:3.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T08:04:02Z",
+      "sha256": "379c229612cb1e4e4f4dca9e92046cf1e209c28197e192da829dd2b0e2be1fc2",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.10.1",
+        "co.touchlab:kermit:2.0.5",
+        "io.ktor:ktor-client-auth:3.1.3",
+        "io.ktor:ktor-client-content-negotiation:3.1.3",
+        "io.ktor:ktor-client-core:3.1.3",
+        "io.ktor:ktor-serialization-kotlinx-json:3.1.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.logsnag.kotlin.init.EventTasksDataSourceInitializer"
+      ]
+    }
+  ]
+}

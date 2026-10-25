@@ -1,0 +1,91 @@
+{
+  "coordinate": "io.gitlab:mobile-mfa",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:28:38Z",
+      "sha256": "0ee310cd81c786082b9ce0b03a80037f27637dfd898f4a37287628f3a0a617bf",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:28:37Z",
+      "sha256": "c2f1aa2f565439eab59084cbbf6e5354b9544436a4d38e3b49e6dcd0342578eb",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:28:37Z",
+      "sha256": "c2f1aa2f565439eab59084cbbf6e5354b9544436a4d38e3b49e6dcd0342578eb",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.net.routee.otpdetection.OTPValidationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.net.routee.services.MyLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.net.routee.verificationNumbersScreen.VerificationNumbersActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.net.routee.videoCall.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

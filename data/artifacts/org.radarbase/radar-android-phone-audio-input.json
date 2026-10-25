@@ -1,0 +1,102 @@
+{
+  "coordinate": "org.radarbase:radar-android-phone-audio-input",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T10:10:04Z",
+      "sha256": "be413f983ce2a0ad573d6b8dfa23e6360af6571c3d5dbda3c283526cd18553e4",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.2.0",
+        "androidx.fragment:fragment-ktx:1.8.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.4.1"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T10:10:06Z",
+      "sha256": "be413f983ce2a0ad573d6b8dfa23e6360af6571c3d5dbda3c283526cd18553e4",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.2.0",
+        "androidx.fragment:fragment-ktx:1.8.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.5.1"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-25T10:10:06Z",
+      "sha256": "be413f983ce2a0ad573d6b8dfa23e6360af6571c3d5dbda3c283526cd18553e4",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.2.0",
+        "androidx.fragment:fragment-ktx:1.8.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.5.3"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T10:10:05Z",
+      "sha256": "be413f983ce2a0ad573d6b8dfa23e6360af6571c3d5dbda3c283526cd18553e4",
+      "dependencies": [
+        "androidx.activity:activity:1.9.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.2.0",
+        "androidx.fragment:fragment-ktx:1.8.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.radarbase.passive.phone.audio.input.PhoneAudioInputService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.radarbase.passive.phone.audio.input.ui.PhoneAudioInputActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

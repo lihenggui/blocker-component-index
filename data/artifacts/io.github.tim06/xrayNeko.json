@@ -1,0 +1,65 @@
+{
+  "coordinate": "io.github.tim06:xrayNeko",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T07:59:33Z",
+      "sha256": "418cb966d4cb39b836496c99cbdfee69845acfff3b0016639c10f8eea9c48d33",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "com.esotericsoftware:kryo:5.2.1",
+        "com.google.code.gson:gson:2.9.0",
+        "com.squareup.okhttp3:okhttp:5.0.0-alpha.3",
+        "io.github.tim06:basevpnprotocols:1.1.0",
+        "io.github.tim06:vpnprotocolsnotification:1.1.0",
+        "io.github.tim06:vpnstate:1.1.0",
+        "org.ini4j:ini4j:0.5.4",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.24",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.yaml:snakeyaml:1.30"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T07:59:33Z",
+      "sha256": "418cb966d4cb39b836496c99cbdfee69845acfff3b0016639c10f8eea9c48d33",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "com.esotericsoftware:kryo:5.2.1",
+        "com.google.code.gson:gson:2.9.0",
+        "com.squareup.okhttp3:okhttp:5.0.0-alpha.3",
+        "io.github.tim06:basevpnprotocols:1.1.0",
+        "io.github.tim06:vpnprotocolsnotification:1.1.0",
+        "io.github.tim06:vpnstate:1.1.0",
+        "org.ini4j:ini4j:0.5.4",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.24",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.yaml:snakeyaml:1.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tim.vpnprotocols.xrayNeko.XRayNekoService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.2"
+        ]
+      ],
+      "exported": true,
+      "process": ":bg",
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.net.VpnService.SUPPORTS_ALWAYS_ON"
+      ]
+    }
+  ]
+}

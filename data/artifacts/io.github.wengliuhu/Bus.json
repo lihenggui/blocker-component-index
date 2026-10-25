@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.github.wengliuhu:Bus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:06:49Z",
+      "sha256": "0dd2344c82bee45179f02c0d6c17eafd740468ea8bfdfe4ca3a283122d1a7778",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:06:48Z",
+      "sha256": "0dd2344c82bee45179f02c0d6c17eafd740468ea8bfdfe4ca3a283122d1a7778",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    },
+    "1.6": {
+      "fetchedAt": "2026-10-25T08:06:47Z",
+      "sha256": "0dd2344c82bee45179f02c0d6c17eafd740468ea8bfdfe4ca3a283122d1a7778",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    },
+    "1.7": {
+      "fetchedAt": "2026-10-25T08:06:47Z",
+      "sha256": "15b8e538c193375efe5b9a390e710f5ec8392ef2ab72a2c1c764814832cf1f0c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yanantec.ynbus.YnContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7",
+          "1.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

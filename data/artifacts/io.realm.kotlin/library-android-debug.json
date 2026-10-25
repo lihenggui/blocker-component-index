@@ -1,0 +1,124 @@
+{
+  "coordinate": "io.realm.kotlin:library-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T08:53:36Z",
+      "sha256": "06945d589ff0646f3f01f7d380f67e3fd673ee5143280779fcdfd46ea2398f32",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.realm.kotlin:cinterop:0.1.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T08:53:36Z",
+      "sha256": "6b08942a016ef98bfbcc372be013a99bc5528005301184a0116ef6ddede2e4fa",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0-beta01",
+        "io.realm.kotlin:cinterop:0.2.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T08:53:35Z",
+      "sha256": "d8ec9bbe78a3a2342db0b473a7e0177b5ca0a71916d23727fa2e8b6179ee4cd0",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0-beta01",
+        "io.realm.kotlin:cinterop:0.3.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-25T08:53:34Z",
+      "sha256": "9b597b6962597766d83009a7613cb4fadb6b05605178e28bbe0d9d585f13bdd7",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0-beta01",
+        "io.realm.kotlin:cinterop:0.3.1",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "0.3.2": {
+      "fetchedAt": "2026-10-25T08:53:33Z",
+      "sha256": "254cb12f42967222ef75e96cea955dbb41bc00f2720634ca7125f22a22be2789",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0-beta01",
+        "io.realm.kotlin:cinterop:0.3.2",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-25T08:53:32Z",
+      "sha256": "a1a2cf5a4fe0746ccbcd213bb8b65a2cd17fbe33b72245c244e2907c88af7b90",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0-beta01",
+        "io.realm.kotlin:cinterop:0.4.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+        "org.jetbrains.kotlinx:atomicfu:0.16.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-native-mt",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-native-mt"
+      ]
+    },
+    "0.4.1": {
+      "fetchedAt": "2026-10-25T08:53:32Z",
+      "sha256": "b9a0f8f244f6f8e33d52438048c9feaf9c4fd728be92f111293dc8903c496113",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0-beta01",
+        "io.realm.kotlin:cinterop:0.4.1",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+        "org.jetbrains.kotlinx:atomicfu:0.16.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-native-mt",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-native-mt"
+      ]
+    },
+    "0.5.0": {
+      "fetchedAt": "2026-10-25T08:53:31Z",
+      "sha256": "7f09f47f23b8798359adbf60e436e078d17d6d0d73decf7448518719d93731fa",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0-beta01",
+        "io.realm.kotlin:cinterop:0.5.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:atomicfu:0.16.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-native-mt",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-native-mt"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.realm.internal.RealmInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "coordinate": "org.mongodb:stitch-android-services-mongodb-local",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.0-beta-1": {
+      "fetchedAt": "2026-10-25T10:06:49Z",
+      "sha256": "6b1a9713033fafe4b72c5b5bac8a868971feadc7be428eb6b8ed15a362ad285c",
+      "dependencies": [
+        "org.mongodb:stitch-android-core:4.0.0-beta-1",
+        "org.mongodb:stitch-core-services-mongodb-local:4.0.0-beta-1"
+      ]
+    },
+    "4.0.0-beta-3": {
+      "fetchedAt": "2026-10-25T10:06:48Z",
+      "sha256": "6b1a9713033fafe4b72c5b5bac8a868971feadc7be428eb6b8ed15a362ad285c",
+      "dependencies": [
+        "org.mongodb:stitch-android-core:4.0.0-beta-3",
+        "org.mongodb:stitch-core-services-mongodb-local:4.0.0-beta-3"
+      ]
+    },
+    "4.0.0-beta-4": {
+      "fetchedAt": "2026-10-25T10:06:48Z",
+      "sha256": "6b1a9713033fafe4b72c5b5bac8a868971feadc7be428eb6b8ed15a362ad285c",
+      "dependencies": [
+        "org.mongodb:stitch-android-core:4.0.0-beta-4",
+        "org.mongodb:stitch-core-services-mongodb-local:4.0.0-beta-4"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T10:06:47Z",
+      "sha256": "6b1a9713033fafe4b72c5b5bac8a868971feadc7be428eb6b8ed15a362ad285c",
+      "dependencies": [
+        "org.mongodb:stitch-android-core:4.0.0",
+        "org.mongodb:stitch-core-services-mongodb-local:4.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mongodb.stitch.android.services.mongodb.local.internal.MongoDbMobileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.0-beta-1",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.StitchMongoDBMobileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

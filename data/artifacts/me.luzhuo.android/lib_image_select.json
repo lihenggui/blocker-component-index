@@ -1,0 +1,41 @@
+{
+  "coordinate": "me.luzhuo.android:lib_image_select",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.3": {
+      "fetchedAt": "2026-10-25T09:23:23Z",
+      "sha256": "851db815647feb3ade84905ab7135563677e8f51968ab981ea4623dcc5fdde79",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.github.LuckSiege.PictureSelector:picture_library:v2.6.1",
+        "com.github.SherlockGougou:BigImageViewPager:androidx-6.0.1",
+        "com.github.bumptech.glide:glide:4.10.0",
+        "com.google.android.material:material:1.2.1",
+        "me.luzhuo.android:lib_core:2.5.89",
+        "xyz.doikki.android.dkplayer:dkplayer-java:3.3.5",
+        "xyz.doikki.android.dkplayer:dkplayer-ui:3.3.5",
+        "xyz.doikki.android.dkplayer:videocache:3.3.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.luzhuo.lib_image_select.utils.VideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.3",
+          "1.2.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

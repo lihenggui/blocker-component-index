@@ -1,0 +1,77 @@
+{
+  "coordinate": "io.github.qqlizhn:DeviceAdmin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:38:08Z",
+      "sha256": "0f682c1eea13fc4201f7b0b38b0a059bc7b8d1140b6c8169bc3cb3435d19c371",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.9.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:38:07Z",
+      "sha256": "8a3fa36e3c2d766d2955b924dd933818114911a625cd90e41ea98fa4cc500ace",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.9.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T07:38:06Z",
+      "sha256": "a8fe01cd9859a114c1a1df4f528f3ffc2738a6713beb5db564928ca26e838104",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.magic.deviceadmin.DeviceAdmin",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_DEVICE_ADMIN",
+      "authorities": null,
+      "actions": [
+        "android.app.action.ACTION_DEVICE_ADMIN_DISABLED",
+        "android.app.action.ACTION_DEVICE_ADMIN_DISABLE_REQUESTED",
+        "android.app.action.DEVICE_ADMIN_ENABLED"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.app.device_admin"
+      ]
+    },
+    {
+      "name": "com.magic.deviceadmin.RemoveOwnerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.magic.RemoveOwnerReceiver"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

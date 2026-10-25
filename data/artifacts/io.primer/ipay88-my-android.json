@@ -1,0 +1,90 @@
+{
+  "coordinate": "io.primer:ipay88-my-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0": {
+      "fetchedAt": "2026-10-25T08:50:20Z",
+      "sha256": "477bb14cedc07bb85eb60305809371686f7a6bace1b64f9df07002809b16859e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.primer:ipay88-my:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:50:19Z",
+      "sha256": "477bb14cedc07bb85eb60305809371686f7a6bace1b64f9df07002809b16859e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.primer:ipay88-my:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:50:19Z",
+      "sha256": "000aee66d691982bc4f9f0837b6c84caa31343190d9662d32a86a35060bb0651",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ipay.IPayIHAcitivityR",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ipay.IPayIHActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.primer.ipay88.api.ui.NativeIPay88Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

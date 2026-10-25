@@ -1,0 +1,28 @@
+{
+  "coordinate": "me.proton.core:payment-iap-data",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "33.0.0": {
+      "fetchedAt": "2026-10-25T09:27:13Z",
+      "sha256": "21d16f61836b634098b1744f72805b50b5001b051142190b3fe70532e2ff3d16",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.6.2",
+        "androidx.hilt:hilt-work:1.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.7.0",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "com.android.billingclient:billing-ktx:7.1.1",
+        "com.google.dagger:dagger:2.49",
+        "com.google.dagger:hilt-android:2.49",
+        "javax.inject:javax.inject:1",
+        "me.proton.core:payment-domain:33.0.0",
+        "me.proton.core:payment-iap-domain:33.0.0",
+        "me.proton.core:plan-domain:33.0.0",
+        "me.proton.core:util-android-device:33.0.0",
+        "me.proton.core:util-kotlin:33.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    }
+  },
+  "components": []
+}

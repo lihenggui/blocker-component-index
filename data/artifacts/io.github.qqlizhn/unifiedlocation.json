@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.github.qqlizhn:unifiedlocation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:38:24Z",
+      "sha256": "5aca2b94af73cddddfcfd1deeb8d79a85fae889d4fc98196aeac5f37f615b96e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.0",
+        "androidx.concurrent:concurrent-futures:1.1.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.android.material:material:1.8.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:38:23Z",
+      "sha256": "5aca2b94af73cddddfcfd1deeb8d79a85fae889d4fc98196aeac5f37f615b96e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.0",
+        "androidx.concurrent:concurrent-futures:1.1.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.android.material:material:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.magic.unifiedlocation.UnifiedLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

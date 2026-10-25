@@ -1,0 +1,41 @@
+{
+  "coordinate": "net.veloxity.sdk:veloxity-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:45:10Z",
+      "sha256": "71fe3695dfdb167513109e717e7cad364eebd69df087ab0bb4f2b83fc4a6670a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.work:work-runtime-ktx:2.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "net.veloxity.sdk:vlxhybrid-security:1.0.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.0.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.veloxity.sdk.core.deviceId.CoreDeviceIdProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "net.veloxity.sdk.DeviceIdProvider.${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

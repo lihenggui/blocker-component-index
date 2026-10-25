@@ -1,0 +1,74 @@
+{
+  "coordinate": "io.puremetrics:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T08:52:17Z",
+      "sha256": "d240b50c9e5f60de069a3200555b5f08eb3fe0da1a72b8044f8a9fed2b0cc450",
+      "dependencies": [
+        "com.facebook.device.yearclass:yearclass:1.0.1"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T08:52:17Z",
+      "sha256": "56225262acbd37dba7ee04f9d264e1cbc3b1d3ad270a7886dd0581801e3030da",
+      "dependencies": [
+        "com.facebook.device.yearclass:yearclass:1.0.1"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T08:52:16Z",
+      "sha256": "b598ffa3775efda4739a107355b7ee8d88969fea17c814f4fb44031e891aef31",
+      "dependencies": [
+        "com.facebook.device.yearclass:yearclass:1.0.1"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-25T08:52:16Z",
+      "sha256": "332e0f069bbb645ee6a28b683372d1f6b122d5e5743ae2d212e2d9f80505ec24",
+      "dependencies": [
+        "com.facebook.device.yearclass:yearclass:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.puremetrics.sdk.AppUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.puremetrics.sdk.NetworkAvailableReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

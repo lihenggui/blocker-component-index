@@ -1,0 +1,33 @@
+{
+  "coordinate": "org.aerobase:android-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T09:50:08Z",
+      "sha256": "2b1db99e7c563ca9102c8e12ea5a01a70777208f8e9981f238ef7561493089d3",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.aerogear.mobile.core.bootstrap.AeroGearBootstrap",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AeroGearBootstrap",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

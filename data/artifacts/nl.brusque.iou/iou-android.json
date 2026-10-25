@@ -1,0 +1,41 @@
+{
+  "coordinate": "nl.brusque.iou:iou-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta-01": {
+      "fetchedAt": "2026-10-25T09:47:29Z",
+      "sha256": "8a4da8f7a9ce8134586431a4d52f5aecd71d39621fe3267f3fb71d44a0875cc2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "nl.brusque.iou:iou-core:1.0.0-beta-01"
+      ]
+    },
+    "1.0.0-beta-02": {
+      "fetchedAt": "2026-10-25T09:47:28Z",
+      "sha256": "8a4da8f7a9ce8134586431a4d52f5aecd71d39621fe3267f3fb71d44a0875cc2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "nl.brusque.iou:iou-core:1.0.0-beta-01"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "nl.brusque.iou.TestMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta-01",
+          "1.0.0-beta-02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

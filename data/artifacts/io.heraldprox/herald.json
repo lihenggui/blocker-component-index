@@ -1,0 +1,60 @@
+{
+  "coordinate": "io.heraldprox:herald",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-beta6": {
+      "fetchedAt": "2026-10-25T08:30:54Z",
+      "sha256": "64eb2093f3b4722447f5d6cc94636b2a1bcfc6d0e95f9750b34b0d446a9b167e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T08:30:53Z",
+      "sha256": "5a3b5e015b617c4fde255286a3350e60094449727787a8f92c8c2914ca2020b5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T08:30:53Z",
+      "sha256": "3c306812af4b111ab4867fe844bc7378cb95814abc2bdbef77c18aa7e7ad25dc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T08:30:52Z",
+      "sha256": "c1f86c8b7568f9ec8c3e5faeed8ec728037dd313ea3c6560ae114e2ba2956c01",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T08:30:51Z",
+      "sha256": "28fc68a9f5a7472d1d472b7192beae9f7fa331418523a45c737028a16bdd7ef1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.heraldprox.herald.sensor.service.ForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0-beta6",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

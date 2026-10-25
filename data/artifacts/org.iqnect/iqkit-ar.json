@@ -1,0 +1,43 @@
+{
+  "coordinate": "org.iqnect:iqkit-ar",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T09:57:55Z",
+      "sha256": "0965af8b8a436f4b6de36db8624167e6523793567b78ac5022109b93b738edec",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "iqkit-android:metaio:unspecified",
+        "org.iqnect:iqkit-ui:0.1.2"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T09:57:55Z",
+      "sha256": "fe5e358e8f87be1e9eb8cc4194995684363fa9bbe0bfde232b84ef87c00b0933",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.1.1",
+        "iqnectmobile-android:metaio:unspecified",
+        "org.iqnect:iqkit-ui:0.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.iqnect.iqkit.ar.ArActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

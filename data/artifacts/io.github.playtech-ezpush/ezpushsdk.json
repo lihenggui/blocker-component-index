@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.github.playtech-ezpush:ezpushsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:36:31Z",
+      "sha256": "8873f3f1068675e816cfed17ede2c517b09bcecd4541ed6b3015afe6bf470b83",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.google.android.gms:play-services-gcm:9.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.playtech.ezpushsdk.gcm.RefreshIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.playtech.ezpushsdk.sdk.services.WorkerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "coordinate": "io.github.steinshei:takephoto_library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:50:08Z",
+      "sha256": "66b6747570dec016c23fbf86c9e757e80a5aa2362af26ef80310a0a7627cfea9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.google.android.material:material:1.4.0",
+        "com.soundcloud.android.crop:lib_crop:1.0.0",
+        "me.shaohui.advancedluban:library:1.3.2"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T07:50:07Z",
+      "sha256": "57bd7ab9ba66d992b6acb6e1089951294b1888dd5eabfa654e0381a90866e4fe",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.google.android.material:material:1.4.0",
+        "com.soundcloud.android.crop:lib_crop:1.0.0",
+        "io.reactivex:rxandroid:1.2.1",
+        "io.reactivex:rxjava:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.soundcloud.android.crop.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.devio.takephoto.activities.AlbumSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.devio.takephoto.activities.ImageSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

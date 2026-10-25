@@ -1,0 +1,109 @@
+{
+  "coordinate": "io.github.watayouxiang:androidutils",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.4.5": {
+      "fetchedAt": "2026-10-25T08:06:18Z",
+      "sha256": "86cd1e4d48f127238c7ca0ec7ebe0460af38f579d4151e106fe835a4b2da8feb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:databinding-adapters:4.2.0",
+        "androidx.databinding:databinding-common:4.2.0",
+        "androidx.databinding:databinding-runtime:4.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0",
+        "com.blankj:utilcodex:1.30.5",
+        "com.facebook.fresco:animated-gif:2.3.0",
+        "com.facebook.fresco:fresco:2.3.0",
+        "com.facebook.fresco:soloader:2.3.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45-androidx",
+        "com.github.HuanTanSheng:EasyPhotos:3.0.6",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.maning0303:MNImageBrowser:V1.2.5X",
+        "com.google.android.material:material:1.2.1",
+        "com.qmuiteam:qmui:2.0.0-alpha10",
+        "com.shuyu:GSYVideoPlayer:8.0.0",
+        "com.watayouxiang:DemoShell:1.0.8",
+        "com.watayouxiang:Permission:2.0.1",
+        "com.watayouxiang:widgetlibrary:0.0.4",
+        "io.github.watayouxiang:httpclient:2.4.5",
+        "io.github.watayouxiang:imclient:2.4.5",
+        "org.apache.commons:commons-lang3:3.11"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.watayouxiang.androidutils.feature.browser.TioBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.watayouxiang.androidutils.feature.player.VideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.watayouxiang.androidutils.receiver.AudioBecomingNoisyReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.media.AUDIO_BECOMING_NOISY"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

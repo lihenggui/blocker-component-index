@@ -1,0 +1,83 @@
+{
+  "coordinate": "io.github.wankey.mithril:pay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:06:03Z",
+      "sha256": "9f7f16552b93b7da05b4a1d947978647e8b98b0dc769e6f9b5cba36597fe1942",
+      "dependencies": [
+        "io.reactivex.rxjava2:rxjava:2.1.17",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:06:03Z",
+      "sha256": "242e9485017612546c81325acd070d7f3819e762e5341e9acde847f22fe96a62",
+      "dependencies": [
+        "io.reactivex.rxjava2:rxjava:2.1.17",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:06:02Z",
+      "sha256": "40274a56c8c14b9323c961336ed640d1dafe1abfae390f2bfcfa2fdc42d46220",
+      "dependencies": [
+        "io.reactivex.rxjava2:rxjava:2.1.17",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.wankey.mithril.pay.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

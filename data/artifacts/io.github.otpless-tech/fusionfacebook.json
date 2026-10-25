@@ -1,0 +1,69 @@
+{
+  "coordinate": "io.github.otpless-tech:fusionfacebook",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T07:31:32Z",
+      "sha256": "389f1d11880badf8f61cf214461b20ca9903ea9fda8209c5816c705b42f0d84f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "com.facebook.android:facebook-login:17.0.2",
+        "com.google.android.material:material:1.12.0",
+        "io.github.otpless-tech:auth-fusion:0.0.2",
+        "org.jetbrains.kotlin:kotlin-bom:1.8.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T07:31:31Z",
+      "sha256": "389f1d11880badf8f61cf214461b20ca9903ea9fda8209c5816c705b42f0d84f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.facebook.android:facebook-login:17.0.2",
+        "io.github.otpless-tech:auth-fusion:0.0.3",
+        "org.jetbrains.kotlin:kotlin-bom:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.CustomTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

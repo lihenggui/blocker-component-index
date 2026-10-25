@@ -1,0 +1,52 @@
+{
+  "coordinate": "net.mready.picker:photopicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.11": {
+      "fetchedAt": "2026-10-25T09:43:49Z",
+      "sha256": "8b35142944974949cc137d0551ead47161313d2c5d441d16e7b7a645011b76bc",
+      "dependencies": [
+        "com.android.support:exifinterface:27.1.1",
+        "com.android.support:support-v4:27.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.mready.picker.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.11",
+          "1.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "@string/app_file_provider_authorities",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "net.mready.picker.PhotoPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.11",
+          "1.0.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

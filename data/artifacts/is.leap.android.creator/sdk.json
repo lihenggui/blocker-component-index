@@ -1,0 +1,92 @@
+{
+  "coordinate": "is.leap.android.creator:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta1": {
+      "fetchedAt": "2026-10-25T09:10:55Z",
+      "sha256": "eda8fc612e9f70254895cecd7f7279414495a5e4885d4b34a546f49b0da66a7f",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.0-beta2": {
+      "fetchedAt": "2026-10-25T09:10:55Z",
+      "sha256": "472ec4450cca67e2f1c15531e41fe2c68a9840324d9538d43fdcaceb9ea08f21",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "is.leap.android.creator.LeapCreatorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-beta1",
+          "1.0.0-beta2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.LeapCreatorProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.creator.receiver.NotificationActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-beta1",
+          "1.0.0-beta2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.creator.service.LeapCreatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-beta1",
+          "1.0.0-beta2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.creator.ui.activity.ScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-beta1",
+          "1.0.0-beta2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

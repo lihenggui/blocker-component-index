@@ -1,0 +1,143 @@
+{
+  "coordinate": "io.split.client:android-rum-agent",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0-rc1": {
+      "fetchedAt": "2026-10-25T08:57:41Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T08:57:40Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.1.1-rc1": {
+      "fetchedAt": "2026-10-25T08:57:39Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T08:57:38Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.2.0-rc1": {
+      "fetchedAt": "2026-10-25T08:57:37Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T08:57:37Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-25T08:57:36Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.2.2-rc1": {
+      "fetchedAt": "2026-10-25T08:57:35Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T08:57:34Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.4.0-rc1": {
+      "fetchedAt": "2026-10-25T08:57:34Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-25T08:57:33Z",
+      "sha256": "16ccce8d822a725f9d697f7ef862014d8908fa6e010a3122b4f0eed8f1ab9a85",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.anrwatchdog:anrwatchdog:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0-rc1",
+          "0.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.split.android.rum.SplitAgentInitializer"
+      ]
+    },
+    {
+      "name": "io.split.android.rum.SplitAppStartProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0-rc1",
+          "0.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AppStartProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "coordinate": "io.github.sunitsdk:adcolony",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.1.0.1": {
+      "fetchedAt": "2026-10-25T07:50:29Z",
+      "sha256": "b37032cd9ebc2a43a22f20b840c6dc2467698ef22a348625000a499c6bd50eef",
+      "dependencies": [
+        "com.adcolony:sdk:4.1.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "4.1.0.2": {
+      "fetchedAt": "2026-10-25T07:50:28Z",
+      "sha256": "b37032cd9ebc2a43a22f20b840c6dc2467698ef22a348625000a499c6bd50eef",
+      "dependencies": [
+        "com.adcolony:sdk:4.1.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "4.1.0.3": {
+      "fetchedAt": "2026-10-25T07:50:27Z",
+      "sha256": "b37032cd9ebc2a43a22f20b840c6dc2467698ef22a348625000a499c6bd50eef",
+      "dependencies": [
+        "com.adcolony:sdk:4.1.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adcolony.sdk.AdColonyAdViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.0.1",
+          "4.1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adcolony.sdk.AdColonyInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.0.1",
+          "4.1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

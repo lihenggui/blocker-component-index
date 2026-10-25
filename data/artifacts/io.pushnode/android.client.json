@@ -1,0 +1,123 @@
+{
+  "coordinate": "io.pushnode:android.client",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:52:20Z",
+      "sha256": "db1f1bf7c5d380349279d8aa5b076b0dfb5305ddea36ba773119083e0e02c585",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.core:core-ktx:[1.7.0, 1.9.0, 1.10.1]",
+        "com.google.android.gms:play-services-base:18.2.0",
+        "com.google.android.gms:play-services-base:[17.6.0, 18.0.1, 18.0.0, 17.6.0, 18.1.0, 18.2.0]",
+        "com.google.firebase:firebase-core:21.1.1",
+        "com.google.firebase:firebase-core:[21.1.1, 21.1.0, 20.1.2, 20.1.1, 20.1.0]",
+        "com.google.firebase:firebase-messaging-ktx:23.2.1",
+        "com.google.firebase:firebase-messaging-ktx:[23.2.0, 23.1.0, 23.0.8, 23.0.7, 23.0.6, 23.0.5, 23.0.4, 23.0.3, 23.0.2, 23.0.1, 23.0.0, 23.1.2, 23.2.1]",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:52:19Z",
+      "sha256": "db1f1bf7c5d380349279d8aa5b076b0dfb5305ddea36ba773119083e0e02c585",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.core:core-ktx:[1.7.0, 1.9.0, 1.10.1]",
+        "com.google.android.gms:play-services-base:18.2.0",
+        "com.google.android.gms:play-services-base:[17.6.0, 18.0.1, 18.0.0, 17.6.0, 18.1.0, 18.2.0]",
+        "com.google.firebase:firebase-core:21.1.1",
+        "com.google.firebase:firebase-core:[21.1.1, 21.1.0, 20.1.2, 20.1.1, 20.1.0]",
+        "com.google.firebase:firebase-messaging-ktx:23.2.1",
+        "com.google.firebase:firebase-messaging-ktx:[23.2.0, 23.1.0, 23.0.8, 23.0.7, 23.0.6, 23.0.5, 23.0.4, 23.0.3, 23.0.2, 23.0.1, 23.0.0, 23.1.2, 23.2.1]",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:52:19Z",
+      "sha256": "db1f1bf7c5d380349279d8aa5b076b0dfb5305ddea36ba773119083e0e02c585",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.core:core-ktx:[1.7.0, 1.9.0, 1.10.1]",
+        "com.google.android.gms:play-services-base:18.2.0",
+        "com.google.android.gms:play-services-base:[17.6.0, 18.0.1, 18.0.0, 17.6.0, 18.1.0, 18.2.0]",
+        "com.google.firebase:firebase-core:21.1.1",
+        "com.google.firebase:firebase-core:[21.1.1, 21.1.0, 20.1.2, 20.1.1, 20.1.0]",
+        "com.google.firebase:firebase-messaging-ktx:23.2.1",
+        "com.google.firebase:firebase-messaging-ktx:[23.2.0, 23.1.0, 23.0.8, 23.0.7, 23.0.6, 23.0.5, 23.0.4, 23.0.3, 23.0.2, 23.0.1, 23.0.0, 23.1.2, 23.2.1]",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:52:18Z",
+      "sha256": "db1f1bf7c5d380349279d8aa5b076b0dfb5305ddea36ba773119083e0e02c585",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.core:core-ktx:[1.7.0, 1.9.0, 1.10.1]",
+        "com.google.android.gms:play-services-base:18.2.0",
+        "com.google.android.gms:play-services-base:[17.6.0, 18.0.1, 18.0.0, 17.6.0, 18.1.0, 18.2.0]",
+        "com.google.firebase:firebase-core:21.1.1",
+        "com.google.firebase:firebase-core:[21.1.1, 21.1.0, 20.1.2, 20.1.1, 20.1.0]",
+        "com.google.firebase:firebase-messaging-ktx:23.2.1",
+        "com.google.firebase:firebase-messaging-ktx:[23.2.0, 23.1.0, 23.0.8, 23.0.7, 23.0.6, 23.0.5, 23.0.4, 23.0.3, 23.0.2, 23.0.1, 23.0.0, 23.1.2, 23.2.1]",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.pushnode.android.internal.receiver.NotificationActionBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pushnode.android.service.PushNodeGMSMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pushnode.android.service.PushNodeHMSMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

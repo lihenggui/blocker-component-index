@@ -1,0 +1,148 @@
+{
+  "coordinate": "is.leap.android:np-creator-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:11:45Z",
+      "sha256": "3b9ef2a43054f1ae4612dd99e21c4626f9dc49f9f75ecf502184ab40ceb770ea",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:11:44Z",
+      "sha256": "b3312180a1250e7fcb9419be511551e14e9159d279b42441b04495dd6fb7c57a",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:11:44Z",
+      "sha256": "449b71fcd1553520ae78341560d2c53daa7739bda679425ff8071673ec36206c",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T09:11:43Z",
+      "sha256": "3883a4df0c4ab9c08b2382f38429341622ce771a8c2878ce0b2880fdfd6ea188",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T09:11:42Z",
+      "sha256": "a6028209366026b96631430248cedbf71c3537d79e3b8a5c453447359f6b8b13",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T09:11:42Z",
+      "sha256": "03bc6c6799e78bdbc8319e936b760bb94a348136e864dc663d73da577e22e282",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T09:11:40Z",
+      "sha256": "69aacd5e2a348f161699c94e7ad90bc3af735ca58c6540880dff3884bc54058b",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T09:11:40Z",
+      "sha256": "f408b5ddc71c0e1bd88e9879b83c51f086937711fdc641afc5d9d2e0203fafc1",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.0.10": {
+      "fetchedAt": "2026-10-25T09:11:39Z",
+      "sha256": "bbcc2776bd1efe9d1b9f9e19af9f616b9db76aab3bdb072680786fdedfcbbb35",
+      "dependencies": [
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "is.leap.android.creator.LeapCreatorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.10"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.LeapCreatorProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.creator.receiver.NotificationActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.creator.service.LeapCreatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.creator.ui.activity.ScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

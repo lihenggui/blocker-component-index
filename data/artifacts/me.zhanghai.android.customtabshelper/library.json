@@ -1,0 +1,81 @@
+{
+  "coordinate": "me.zhanghai.android.customtabshelper:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:32:04Z",
+      "sha256": "dbe76ebe340c2713cb5fd11c6482c0262e556ebf23cff640505301aa6d1136f5",
+      "dependencies": [
+        "com.android.support:customtabs:23.1.1",
+        "com.android.support:support-v4:23.1.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:32:04Z",
+      "sha256": "571cb56f2355a97cf13a2847aedcc17fdef29f6e48ba13e539ede1d2da1493b1",
+      "dependencies": [
+        "com.android.support:customtabs:23.1.1",
+        "com.android.support:support-v4:23.1.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:32:03Z",
+      "sha256": "d73789c724d79e26f6a74523a9a6a5c303dceb987fd071f20923b362933ef02a",
+      "dependencies": [
+        "com.android.support:customtabs:24.0.0",
+        "com.android.support:support-v4:24.0.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T09:32:03Z",
+      "sha256": "1cc5d9af76fbdd23ed7be73b2748677cf41f6231e62aa6dcdb43c1b57022dad9",
+      "dependencies": [
+        "com.android.support:customtabs:25.0.0",
+        "com.android.support:support-v4:25.0.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T09:32:02Z",
+      "sha256": "d31c7589b94158a3a53b1f77f91f4942d14b4da5ea610177258ddba57f677171",
+      "dependencies": [
+        "com.android.support:customtabs:26.0.1",
+        "com.android.support:support-v4:26.0.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T09:32:01Z",
+      "sha256": "ba833f0f8ec7816d208d1ac24596275fcb07eae541482df7b0f1a883d3f690ad",
+      "dependencies": [
+        "com.android.support:customtabs:28.0.0",
+        "com.android.support:support-v4:28.0.0"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T09:32:01Z",
+      "sha256": "e9980bd45b034a20a0d72921e43c17a135fa32f4565749c0a5a0e604b82e1a71",
+      "dependencies": [
+        "com.android.support:customtabs:28.0.0",
+        "com.android.support:support-v4:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.chromium.customtabsclient.KeepAliveService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

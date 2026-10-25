@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.rakeshchander:RCCachingManager-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:38:49Z",
+      "sha256": "da7595dbefcef66ac103b7b2a69720aec8fc3d04adb1beff70d47467aaee95b8",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:38:48Z",
+      "sha256": "da7595dbefcef66ac103b7b2a69720aec8fc3d04adb1beff70d47467aaee95b8",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.github.rc.AppContextProvider"
+      ]
+    }
+  ]
+}

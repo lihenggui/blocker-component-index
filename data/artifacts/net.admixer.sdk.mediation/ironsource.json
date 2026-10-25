@@ -1,0 +1,107 @@
+{
+  "coordinate": "net.admixer.sdk.mediation:ironsource",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:36:36Z",
+      "sha256": "c363b85aa23a9e02784fda97aacf380e735752085ca6f052d8cc9710b9009e36",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:6.17.0",
+        "net.admixer.sdk:sdk:1.1.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:36:36Z",
+      "sha256": "c363b85aa23a9e02784fda97aacf380e735752085ca6f052d8cc9710b9009e36",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:6.17.0",
+        "net.admixer.sdk:sdk:1.1.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:36:35Z",
+      "sha256": "42c412974802c59b4d1851036a96a0d44cc2d1f8debcb39bbc3faa03fe7ce11e",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:6.17.0",
+        "net.admixer.sdk:sdk:1.1.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T09:36:35Z",
+      "sha256": "42c412974802c59b4d1851036a96a0d44cc2d1f8debcb39bbc3faa03fe7ce11e",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:6.17.0",
+        "net.admixer.sdk:sdk:1.1.1"
+      ]
+    },
+    "1.1.2.0": {
+      "fetchedAt": "2026-10-25T09:36:34Z",
+      "sha256": "42c412974802c59b4d1851036a96a0d44cc2d1f8debcb39bbc3faa03fe7ce11e",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:6.17.0",
+        "net.admixer.sdk:sdk:1.1.2"
+      ]
+    },
+    "1.3.2.0": {
+      "fetchedAt": "2026-10-25T09:36:34Z",
+      "sha256": "42c412974802c59b4d1851036a96a0d44cc2d1f8debcb39bbc3faa03fe7ce11e",
+      "dependencies": [
+        "com.ironsource.sdk:mediationsdk:6.17.0",
+        "net.admixer.sdk:sdk:1.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ironsource.sdk.controller.ControllerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ironsource.sdk.controller.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ironsource.sdk.controller.OpenUrlActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

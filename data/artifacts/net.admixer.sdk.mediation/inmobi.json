@@ -1,0 +1,52 @@
+{
+  "coordinate": "net.admixer.sdk.mediation:inmobi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:36:33Z",
+      "sha256": "e8a3f11d1d4f195ac284b4864b5e19a58401eb3f46d97b324e1faa20cb534128",
+      "dependencies": [
+        "com.inmobi.monetization:inmobi-ads:9.0.7",
+        "com.squareup.picasso:picasso:2.71828",
+        "net.admixer.sdk:sdk:1.1.1"
+      ]
+    },
+    "1.1.2.0": {
+      "fetchedAt": "2026-10-25T09:36:33Z",
+      "sha256": "e8a3f11d1d4f195ac284b4864b5e19a58401eb3f46d97b324e1faa20cb534128",
+      "dependencies": [
+        "com.inmobi.monetization:inmobi-ads:9.0.7",
+        "com.squareup.picasso:picasso:2.71828",
+        "net.admixer.sdk:sdk:1.1.2"
+      ]
+    },
+    "1.3.2.0": {
+      "fetchedAt": "2026-10-25T09:36:32Z",
+      "sha256": "e8a3f11d1d4f195ac284b4864b5e19a58401eb3f46d97b324e1faa20cb534128",
+      "dependencies": [
+        "com.inmobi.monetization:inmobi-ads:9.0.7",
+        "com.squareup.picasso:picasso:2.71828",
+        "net.admixer.sdk:sdk:1.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.inmobi.rendering.InMobiAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

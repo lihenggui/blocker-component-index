@@ -1,0 +1,77 @@
+{
+  "coordinate": "org.radarbase:radar-android-polar",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T10:10:24Z",
+      "sha256": "cdabeb3d9b69dbbd5fb997278189d8e10b8c1f729ca0d3e686f1814118cf8ebc",
+      "dependencies": [
+        "com.github.polarofficial:polar-ble-sdk:5.5.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.6",
+        "joda-time:joda-time:2.9.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.joda:joda-convert:2.0.1",
+        "org.radarbase:radar-commons-android:1.4.1"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T10:10:26Z",
+      "sha256": "cdabeb3d9b69dbbd5fb997278189d8e10b8c1f729ca0d3e686f1814118cf8ebc",
+      "dependencies": [
+        "com.github.polarofficial:polar-ble-sdk:5.5.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.6",
+        "joda-time:joda-time:2.9.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.joda:joda-convert:2.0.1",
+        "org.radarbase:radar-commons-android:1.5.1"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-25T10:10:26Z",
+      "sha256": "cdabeb3d9b69dbbd5fb997278189d8e10b8c1f729ca0d3e686f1814118cf8ebc",
+      "dependencies": [
+        "com.github.polarofficial:polar-ble-sdk:5.5.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.6",
+        "joda-time:joda-time:2.9.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.joda:joda-convert:2.0.1",
+        "org.radarbase:radar-commons-android:1.5.3"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T10:10:25Z",
+      "sha256": "cdabeb3d9b69dbbd5fb997278189d8e10b8c1f729ca0d3e686f1814118cf8ebc",
+      "dependencies": [
+        "com.github.polarofficial:polar-ble-sdk:5.5.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.6",
+        "joda-time:joda-time:2.9.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.joda:joda-convert:2.0.1",
+        "org.radarbase:radar-commons-android:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.radarbase.passive.polar.PolarService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.6.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "coordinate": "io.github.taoqianqian:wm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:52:57Z",
+      "sha256": "0dc00198e7d1ace52fb47ec9fe55997e8252fa9e48b95127c8c0660115624472",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "cn.hikyson.methodcanary:lib:0.15.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.leakcanary:shark:2.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T07:52:56Z",
+      "sha256": "0dc00198e7d1ace52fb47ec9fe55997e8252fa9e48b95127c8c0660115624472",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "cn.hikyson.methodcanary:lib:0.15.5",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.leakcanary:shark:2.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.phone2345.godeye.core.GodEyeInitContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.phone2345.godeye.core.init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.phone2345.godeye.core.internal.notification.LocalNotificationListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

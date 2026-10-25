@@ -1,0 +1,129 @@
+{
+  "coordinate": "no.nordicsemi.android.support.v18:scanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T09:48:36Z",
+      "sha256": "6951bafe4db63576c2d3babd1325176fc2899ba4b00e7faf9d7037dce34eb3a1",
+      "dependencies": [
+        "com.android.support:support-v4:23.0.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:48:36Z",
+      "sha256": "7f9e10ed997c472367dcd02553073362dae4d05a0b55eee988b32fb5fd325182",
+      "dependencies": [
+        "com.android.support:support-annotations:25.0.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T09:48:35Z",
+      "sha256": "5ca8da3c5629b049f10efe17fec79cd35df87cf443701f8f2c7f4a2856bf6fe9",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-25T09:48:34Z",
+      "sha256": "3b3244607e74d4230dc309e47c5d1da3230f0a4a838aa631d19e32d6d0c180dc",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-25T09:48:34Z",
+      "sha256": "8f9ca9f942e56a52a944e99477bd365c5781b43415e067ef0cb982c43c9d8c55",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0-alpha01"
+      ]
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T09:48:33Z",
+      "sha256": "fb17a93b04908219e4c473381424d62d2d9d5b9190e1263c81ab5909407ef3cc",
+      "dependencies": []
+    },
+    "1.4.2": {
+      "fetchedAt": "2026-10-25T09:48:33Z",
+      "sha256": "d8ddf57bec72c15990f5469d8ffebc20614503fd87abffc2cde3ff448f29ca66",
+      "dependencies": []
+    },
+    "1.4.3": {
+      "fetchedAt": "2026-10-25T09:48:32Z",
+      "sha256": "dd066aeadf89d7c9a90f9dc94050dfdc2b80fdcbeffec2e3f6cba902b18eb402",
+      "dependencies": []
+    },
+    "1.4.4": {
+      "fetchedAt": "2026-10-25T09:48:32Z",
+      "sha256": "e390f5973cc01d7bec50d0cd971d4cf6fdc2138f4993775725b26429d1c3d4b0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.4.5": {
+      "fetchedAt": "2026-10-25T09:48:31Z",
+      "sha256": "e390f5973cc01d7bec50d0cd971d4cf6fdc2138f4993775725b26429d1c3d4b0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-25T09:48:30Z",
+      "sha256": "e390f5973cc01d7bec50d0cd971d4cf6fdc2138f4993775725b26429d1c3d4b0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T09:48:30Z",
+      "sha256": "ed60aaa6e74cb3959b54cc3a21123e8412a0d96ddbfa8c722cc4744880204fec",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T09:48:29Z",
+      "sha256": "3201b57f5c012f3d2428a9ec077d7a73770f6a9c32773925096f2b8ceec857cc",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.3.1",
+          "1.6.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "no.nordicsemi.android.support.v18.ACTION_FOUND"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "no.nordicsemi.android.support.v18.scanner.ScannerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.3.1",
+          "1.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

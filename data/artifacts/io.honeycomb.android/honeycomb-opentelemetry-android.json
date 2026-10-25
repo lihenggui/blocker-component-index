@@ -1,0 +1,27 @@
+{
+  "coordinate": "io.honeycomb.android:honeycomb-opentelemetry-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.11": {
+      "fetchedAt": "2026-10-25T08:32:02Z",
+      "sha256": "438102152b6146bb319a3ecb3c76f283350d889576ff3155617c0019dfdec626",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.10.1",
+        "androidx.compose.runtime:runtime-android:1.8.1",
+        "androidx.compose:compose-bom:2025.05.00",
+        "androidx.core:core-ktx:1.16.0",
+        "com.google.auto.service:auto-service-annotations:1.1.1",
+        "io.opentelemetry.android:core:0.11.0-alpha",
+        "io.opentelemetry.contrib:opentelemetry-baggage-processor:1.46.0-alpha",
+        "io.opentelemetry.semconv:opentelemetry-semconv-incubating:1.30.0-alpha",
+        "io.opentelemetry.semconv:opentelemetry-semconv:1.32.0",
+        "io.opentelemetry:opentelemetry-api:1.49.0",
+        "io.opentelemetry:opentelemetry-exporter-logging-otlp:1.49.0",
+        "io.opentelemetry:opentelemetry-exporter-otlp:1.49.0",
+        "io.opentelemetry:opentelemetry-sdk:1.49.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": []
+}

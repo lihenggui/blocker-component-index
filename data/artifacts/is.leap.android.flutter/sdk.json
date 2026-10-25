@@ -1,0 +1,114 @@
+{
+  "coordinate": "is.leap.android.flutter:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T09:11:10Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.flutter:core-sdk:2.0.6",
+        "is.leap.android.flutter:observer-sdk:1.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-25T09:11:09Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.flutter:core-sdk:2.0.7",
+        "is.leap.android.flutter:observer-sdk:1.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "2.0.17": {
+      "fetchedAt": "2026-10-25T09:11:08Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.flutter:core-sdk:2.0.17",
+        "is.leap.android.flutter:observer-sdk:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "2.0.18": {
+      "fetchedAt": "2026-10-25T09:11:08Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.flutter:core-sdk:2.0.18",
+        "is.leap.android.flutter:observer-sdk:1.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T09:11:07Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.flutter:core-sdk:2.1.0",
+        "is.leap.android.flutter:observer-sdk:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T09:11:06Z",
+      "sha256": "b217327c2f021a30dfd9a033e1d4150205bd84a9db67c1c940f8af98b745e706",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.interpolator:interpolator:1.0.0",
+        "is.leap.android.flutter:core-sdk:2.1.1",
+        "is.leap.android.flutter:observer-sdk:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "is.leap.android.aui.AUIControlReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.aui.LeapAUIProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.LeapAUIProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

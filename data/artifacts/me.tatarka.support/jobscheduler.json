@@ -1,0 +1,160 @@
+{
+  "coordinate": "me.tatarka.support:jobscheduler",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T09:31:06Z",
+      "sha256": "b6e43f29843b4d62f37ae3051c86e9fd751fc93e1172f95a81da39b813053183",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T09:31:05Z",
+      "sha256": "b6e43f29843b4d62f37ae3051c86e9fd751fc93e1172f95a81da39b813053183",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.tatarka.support.internal.job.JobSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.tatarka.support.internal.job.JobServiceCompat",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.tatarka.support.internal.receivers.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.tatarka.support.internal.receivers.IdleReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DREAMING_STARTED",
+        "android.intent.action.DREAMING_STOPPED",
+        "android.intent.action.SCREEN_OFF",
+        "android.intent.action.SCREEN_ON",
+        "me.tatarka.support.server.job.controllers.IdleReceiver.ACTION_TRIGGER_IDLE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.tatarka.support.internal.receivers.NetworkReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.tatarka.support.internal.receivers.PowerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_BATTERY_LOW",
+        "android.intent.action.ACTION_BATTERY_OKAY",
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "me.tatarka.support.server.job.controllers.PowerReceiver.ACTION_CHARGING_STABLE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.tatarka.support.internal.receivers.TimeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "me.tatarka.support.jobscheduler.JOB_DEADLINE_EXPIRED",
+        "me.tatarka.support.jobscheduler.JOB_DELAY_EXPIRED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "coordinate": "io.github.shiyd0516.pictureSelector:pictureselector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v3.11.2": {
+      "fetchedAt": "2026-10-25T07:45:29Z",
+      "sha256": "cd56c9762fb589405a56ac4284b4b6a5a16179f77c9314db8f62affdfcd30235",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.fragment:fragment:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0"
+      ]
+    },
+    "v3.11.3": {
+      "fetchedAt": "2026-10-25T07:45:29Z",
+      "sha256": "cd3e3b27f8c6fbc9123bc354e1b000475ce6f75a358128b5d21038ed090ef112",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.fragment:fragment:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0"
+      ]
+    },
+    "v3.11.4": {
+      "fetchedAt": "2026-10-25T07:45:28Z",
+      "sha256": "cd3e3b27f8c6fbc9123bc354e1b000475ce6f75a358128b5d21038ed090ef112",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.fragment:fragment:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0"
+      ]
+    },
+    "v3.11.5": {
+      "fetchedAt": "2026-10-25T07:45:27Z",
+      "sha256": "cd3e3b27f8c6fbc9123bc354e1b000475ce6f75a358128b5d21038ed090ef112",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.fragment:fragment:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.luck.picture.lib.basic.PictureFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.luckProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.luck.picture.lib.basic.PictureSelectorSupporterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.basic.PictureSelectorTransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.service.ForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

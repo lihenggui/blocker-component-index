@@ -1,0 +1,134 @@
+{
+  "coordinate": "io.github.sunitsdk:mopub",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.14.0.1": {
+      "fetchedAt": "2026-10-25T07:50:39Z",
+      "sha256": "981c9f569fdcb130cb16829ae945dd67b6d6f316a79f269f170d281c3a8e8a8d",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.14.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "5.14.0.2": {
+      "fetchedAt": "2026-10-25T07:50:39Z",
+      "sha256": "981c9f569fdcb130cb16829ae945dd67b6d6f316a79f269f170d281c3a8e8a8d",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.14.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "5.14.0.3": {
+      "fetchedAt": "2026-10-25T07:50:38Z",
+      "sha256": "981c9f569fdcb130cb16829ae945dd67b6d6f316a79f269f170d281c3a8e8a8d",
+      "dependencies": [
+        "com.mopub:mopub-sdk:5.14.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mopub.common.MoPubBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.14.0.1",
+          "5.14.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.common.privacy.ConsentDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.14.0.1",
+          "5.14.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MoPubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.14.0.1",
+          "5.14.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.14.0.1",
+          "5.14.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.MraidVideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.14.0.1",
+          "5.14.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mopub.mobileads.RewardedMraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.14.0.1",
+          "5.14.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

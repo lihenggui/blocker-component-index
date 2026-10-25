@@ -1,0 +1,60 @@
+{
+  "coordinate": "io.github.otang45:crashreport",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T07:31:30Z",
+      "sha256": "d3c8250d83127f1a4dfde90fb9f3f5befd063b5c47e244fa5d045f1695bf7530",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.android.material:material:1.9.0"
+      ]
+    },
+    "2.0": {
+      "fetchedAt": "2026-10-25T07:31:30Z",
+      "sha256": "d3c8250d83127f1a4dfde90fb9f3f5befd063b5c47e244fa5d045f1695bf7530",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.android.material:material:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "otang.crashreport.activity.DefaultErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":error_activity",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "otang.crashreport.provider.CrashInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.crashinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

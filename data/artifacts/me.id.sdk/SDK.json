@@ -1,0 +1,71 @@
+{
+  "coordinate": "me.id.sdk:SDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T09:22:52Z",
+      "sha256": "394f5b52ccfef496e6de527e61372fed24d2875dae645c89558c5c52a572d5f2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.android.support:support-v4:21.0.3",
+        "com.rengwuxian.materialedittext:library:1.8.1",
+        "com.squareup.okhttp:okhttp-urlconnection:2.2.0",
+        "com.squareup.okhttp:okhttp:2.2.0",
+        "com.squareup.retrofit:retrofit:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.id.sdk.IDmeAuthenticationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.id.sdk.IDmeHelpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.id.sdk.camera.IDmeActivityCapture",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

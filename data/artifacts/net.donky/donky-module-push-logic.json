@@ -1,0 +1,82 @@
+{
+  "coordinate": "net.donky:donky-module-push-logic",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0.16": {
+      "fetchedAt": "2026-10-25T09:39:55Z",
+      "sha256": "cd382bcb7582bf234b1ad56658fb83400e504116816b776503a2213f66dac3af",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.0.0",
+        "net.donky:donky-module-messaging-logic:2.1.0.16"
+      ]
+    },
+    "2.2.0.0": {
+      "fetchedAt": "2026-10-25T09:39:54Z",
+      "sha256": "04cd828f27703d576b1f5e3f11e25bccfa81ae9bfbc222631dca2585be309c23",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.0",
+        "net.donky:donky-module-messaging-logic:2.2.0.0"
+      ]
+    },
+    "2.2.0.1": {
+      "fetchedAt": "2026-10-25T09:39:54Z",
+      "sha256": "04cd828f27703d576b1f5e3f11e25bccfa81ae9bfbc222631dca2585be309c23",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.0",
+        "net.donky:donky-module-messaging-logic:2.2.0.1"
+      ]
+    },
+    "2.2.0.2": {
+      "fetchedAt": "2026-10-25T09:39:53Z",
+      "sha256": "04cd828f27703d576b1f5e3f11e25bccfa81ae9bfbc222631dca2585be309c23",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "net.donky:donky-module-messaging-logic:2.2.0.2"
+      ]
+    },
+    "2.2.0.3": {
+      "fetchedAt": "2026-10-25T09:39:52Z",
+      "sha256": "04cd828f27703d576b1f5e3f11e25bccfa81ae9bfbc222631dca2585be309c23",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "net.donky:donky-module-messaging-logic:2.2.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.donky.core.messaging.push.logic.PushLogicIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.0.0",
+          "2.2.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.donky.core.messaging.push.logic.PushLogicIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.0.16",
+          "2.1.0.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

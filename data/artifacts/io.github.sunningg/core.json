@@ -1,0 +1,57 @@
+{
+  "coordinate": "io.github.sunningg:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T07:50:50Z",
+      "sha256": "a777682f104fd7428ab02999a40a9b2860133225e7ce438de4175a796a184cc8",
+      "dependencies": []
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T07:50:50Z",
+      "sha256": "9d5be72b9fa4bae265865f6c3a65cec4b0c31b95727bbff2425b48d867fdb3d4",
+      "dependencies": []
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T07:50:49Z",
+      "sha256": "84e7247ec385f2335b05434f0f0cce7e2b9f6d15031b3050a5dc279b64e7e9ee",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.yunxi.analytics.android.sdk.data.SensorsDataContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SensorsDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.yunxi.analytics.android.sdk.data.YunxiDataContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.YunxiDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

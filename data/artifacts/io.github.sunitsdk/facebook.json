@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.sunitsdk:facebook",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.2.0.1": {
+      "fetchedAt": "2026-10-25T07:50:33Z",
+      "sha256": "c29587999a12e9c72d575465b4da1e0423376aeb1977004c016d90192681cc54",
+      "dependencies": [
+        "com.facebook.android:audience-network-sdk:6.2.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "6.2.0.2": {
+      "fetchedAt": "2026-10-25T07:50:33Z",
+      "sha256": "c29587999a12e9c72d575465b4da1e0423376aeb1977004c016d90192681cc54",
+      "dependencies": [
+        "com.facebook.android:audience-network-sdk:6.2.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "6.2.0.3": {
+      "fetchedAt": "2026-10-25T07:50:32Z",
+      "sha256": "c29587999a12e9c72d575465b4da1e0423376aeb1977004c016d90192681cc54",
+      "dependencies": [
+        "com.facebook.android:audience-network-sdk:6.2.0",
+        "io.github.sunitsdk:san-sdk:3.1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.0.1",
+          "6.2.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

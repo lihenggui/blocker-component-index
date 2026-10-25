@@ -1,0 +1,128 @@
+{
+  "coordinate": "io.github.yongzheng7:module-reporter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:19:08Z",
+      "sha256": "f956a2946c866fca714156ae6a99ac9fb7c2702334916ae44b6a0f9519bb168e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.3.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T08:19:07Z",
+      "sha256": "0f27480a815da047fbb20d62d83ee8ba132ad729f740203a39807a71ba8df611",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T08:19:06Z",
+      "sha256": "0f27480a815da047fbb20d62d83ee8ba132ad729f740203a39807a71ba8df611",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T08:19:06Z",
+      "sha256": "0f27480a815da047fbb20d62d83ee8ba132ad729f740203a39807a71ba8df611",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-25T08:19:05Z",
+      "sha256": "a3bcc75c41f6eea06d8c4916bd470b5dc6d1491b15a96852fdb060082130099e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    },
+    "4.0.2": {
+      "fetchedAt": "2026-10-25T08:19:04Z",
+      "sha256": "a3bcc75c41f6eea06d8c4916bd470b5dc6d1491b15a96852fdb060082130099e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.atom.module.reporter.provider.FilesProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "4.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.atom.module.reporter.filesprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.atom.module.reporter.ui.CrashReporterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.atom.module.reporter.ui.LogMessageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.atom.module.reporter.utils.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "4.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.atom.module.reporter.SHARE_LINK"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

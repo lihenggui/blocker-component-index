@@ -1,0 +1,75 @@
+{
+  "coordinate": "kz.jetpay:msdk-core-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:16:06Z",
+      "sha256": "0a4e6c0779f064e8531112f8d948cd22873bb07afed69ce2e894b82d54126330",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "co.touchlab:stately-common:1.2.5",
+        "co.touchlab:stately-concurrency:1.2.5",
+        "co.touchlab:stately-iso-collections:1.2.5",
+        "co.touchlab:stately-isolate:1.2.5",
+        "io.ktor:ktor-client-content-negotiation:2.3.2",
+        "io.ktor:ktor-client-core:2.3.2",
+        "io.ktor:ktor-client-logging:2.3.2",
+        "io.ktor:ktor-client-okhttp:2.3.2",
+        "io.ktor:ktor-client-serialization:2.3.2",
+        "io.ktor:ktor-client-websockets:2.3.2",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1",
+        "org.kodein.di:kodein-di:7.11.0",
+        "org.lighthousegames:logging:1.2.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:16:05Z",
+      "sha256": "0a4e6c0779f064e8531112f8d948cd22873bb07afed69ce2e894b82d54126330",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "co.touchlab:stately-common:1.2.5",
+        "co.touchlab:stately-concurrency:1.2.5",
+        "co.touchlab:stately-iso-collections:1.2.5",
+        "co.touchlab:stately-isolate:1.2.5",
+        "io.ktor:ktor-client-content-negotiation:2.3.2",
+        "io.ktor:ktor-client-core:2.3.2",
+        "io.ktor:ktor-client-logging:2.3.2",
+        "io.ktor:ktor-client-okhttp:2.3.2",
+        "io.ktor:ktor-client-serialization:2.3.2",
+        "io.ktor:ktor-client-websockets:2.3.2",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1",
+        "org.kodein.di:kodein-di:7.11.0",
+        "org.lighthousegames:logging:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.paymentpage.msdk.core.ContextInitializer"
+      ]
+    }
+  ]
+}

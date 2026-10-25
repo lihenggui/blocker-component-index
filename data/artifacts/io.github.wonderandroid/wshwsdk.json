@@ -1,0 +1,106 @@
+{
+  "coordinate": "io.github.wonderandroid:wshwsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:10:21Z",
+      "sha256": "99d85ab2f8507cbe1d66a957f5c90a4bfcaac6b74ec11fe5abc46d8c8c9cd1ec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.recyclerview:recyclerview:1.3.1",
+        "cn.thinkingdata.android:TAThirdParty:1.2.0",
+        "cn.thinkingdata.android:ThinkingAnalyticsSDK:2.8.3",
+        "com.adjust.sdk:adjust-android:4.33.4",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.facebook.android:facebook-login:16.2.0",
+        "com.github.megatronking.stringfog:xor:4.0.1",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.huawei.hms:ads-identifier:3.4.62.300",
+        "com.huawei.hms:ads-lite:13.4.65.300",
+        "com.huawei.hms:ads-omsdk:1.3.35",
+        "com.squareup.okhttp3:okhttp:4.11.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adjust.sdk.AdjustReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.CustomTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wonder.ad_lib.ad.SplashAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

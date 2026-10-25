@@ -1,0 +1,62 @@
+{
+  "coordinate": "io.github.wgllss:Wgllss-Dynamic-Host-Lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.00": {
+      "fetchedAt": "2026-10-25T08:06:57Z",
+      "sha256": "b0e349dca223c298b03fdd23f8125b1803448277ab823de7a49b3374d1f8b325",
+      "dependencies": [
+        "androidx.activity:activity:1.8.0",
+        "com.google.protobuf:protobuf-java:3.21.7",
+        "com.squareup.okio:okio:3.9.0",
+        "io.github.wgllss:Wgllss-Dynamic-Host-Constant-Lib:1.0.0.6",
+        "io.github.wgllss:Wgllss-Dynamic-Host-Protobuf-Lib:1.0.0.7",
+        "io.github.wgllss:Wgllss-Dynamic-Host-Version-Lib:1.0.0.7",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.0.01": {
+      "fetchedAt": "2026-10-25T08:06:56Z",
+      "sha256": "b0e349dca223c298b03fdd23f8125b1803448277ab823de7a49b3374d1f8b325",
+      "dependencies": [
+        "androidx.activity:activity:1.8.0",
+        "com.google.protobuf:protobuf-java:3.21.7",
+        "com.squareup.okio:okio:3.9.0",
+        "io.github.wgllss:Wgllss-Dynamic-Host-Protobuf-Lib:1.0.0.7",
+        "io.github.wgllss:Wgllss-Dynamic-Host-VersionK-Lib:1.0.00",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.0.02": {
+      "fetchedAt": "2026-10-25T08:06:55Z",
+      "sha256": "8d5b5c3231fdaaaec24aea3529ab84f07d9387b1d85c27bd97e52df01cd3d3af",
+      "dependencies": [
+        "androidx.activity:activity:1.8.0",
+        "com.google.protobuf:protobuf-java:3.21.7",
+        "com.squareup.okio:okio:3.9.0",
+        "io.github.wgllss:Wgllss-Dynamic-Host-Protobuf-Lib:1.0.0.7",
+        "io.github.wgllss:Wgllss-Dynamic-Host-VersionK-Lib:1.0.00",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wgllss.dynamic.host.lib.provider.WXPluginContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.02",
+          "1.0.02"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.wx.dynamic.plugin.author",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

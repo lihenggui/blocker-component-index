@@ -1,0 +1,68 @@
+{
+  "coordinate": "io.kobza.android:ads-inhouse",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.5": {
+      "fetchedAt": "2026-10-25T08:36:01Z",
+      "sha256": "e8dbb8634bb89cc12952fca0abd3d0733f32100fd162d3afc974cda2f3e17687",
+      "dependencies": [
+        "io.kobza.android:ads-mediation:2.1.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.kobza.ads.inhouse.InHouseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.5",
+          "2.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.kobza.ads.inhouse.provider.Provider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.5",
+          "2.1.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.io.kobza.inhouse.tracking",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.kobza.ads.inhouse.receiver.InstallTrackerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.5",
+          "2.1.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "coordinate": "io.github.vfhhu:privateadlocus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5": {
+      "fetchedAt": "2026-10-25T08:03:34Z",
+      "sha256": "d767fbdd337ffa9b8ca5abc1ee20d21a989f8bc979febaf04196a0774b34b6b0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bluelinelabs:logansquare:1.3.7",
+        "com.fasterxml.jackson.core:jackson-core:2.10.1",
+        "com.github.aurae.retrofit2:converter-logansquare:1.4.1",
+        "com.google.android.gms:play-services-ads:15.0.1",
+        "com.squareup.okhttp3:okhttp:4.2.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.2.0",
+        "com.squareup.retrofit2:retrofit:2.2.0",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.6"
+      ]
+    },
+    "1.6": {
+      "fetchedAt": "2026-10-25T08:03:34Z",
+      "sha256": "d7428e5aa6b2952807a52973647bf56c81bb4864d8cf555bbb993f7d66284c0d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.bluelinelabs:logansquare:1.3.7",
+        "com.fasterxml.jackson.core:jackson-core:2.10.1",
+        "com.github.aurae.retrofit2:converter-logansquare:1.4.1",
+        "com.google.android.gms:play-services-ads:15.0.1",
+        "com.squareup.okhttp3:okhttp:4.2.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.2.0",
+        "com.squareup.retrofit2:retrofit:2.2.0",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hyxen.privateadlocus.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.VideoAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.geofence.GeofenceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.push.PushJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": ":ailocusapi",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.push.PushReceive",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": ":ailocusapi",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "com.ailocusapi.action.RECEIVE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.push.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": ":ailocusapi",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.push.alarm.clock.PushAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hyxen.ailocusapi.push.PushAlarm"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.util.MultiProcessPreferences",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ADLOCUS_CONTENT",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.utils.CheckLbsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "check_lbs"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.view.BaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hyxen.privateadlocus.view.main.AdLocusActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

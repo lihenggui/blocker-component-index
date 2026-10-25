@@ -1,0 +1,81 @@
+{
+  "coordinate": "org.aerogear:android-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0-2018-21": {
+      "fetchedAt": "2026-10-25T09:50:13Z",
+      "sha256": "92199eee798a91dec4b1963918e1bca7fe042db2cec9409719c63e05d992a24f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    },
+    "0.1.0-2018-23": {
+      "fetchedAt": "2026-10-25T09:50:12Z",
+      "sha256": "e466353366b3c95be92927d5af19a260635a675cccbe5f4b9b94efd184e58a4c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    },
+    "1.0.0-alpha": {
+      "fetchedAt": "2026-10-25T09:50:12Z",
+      "sha256": "303c8eb79465d2bdf4376178cba7a050ffa6666f51c4bff6d3802cb0262fdd48",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    },
+    "1.0.0-alpha.2": {
+      "fetchedAt": "2026-10-25T09:50:11Z",
+      "sha256": "591314ff1182a91cb5c50c64000a3f2ce44c21c7b75022495297a58a3de7a85a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:50:11Z",
+      "sha256": "d8f9ee7fca1f78b2b0a82304c27fdbed2616c1359e909c33ee1f3dbeda0a1340",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T09:50:10Z",
+      "sha256": "105273b68ffd2b96a3ce2881cd0c42e8ada8d251a3d4cbe7d9773452252a3d33",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    },
+    "2.1.0-alpha.1": {
+      "fetchedAt": "2026-10-25T09:50:09Z",
+      "sha256": "3d3570812219d172bb394829c40e74d252dc2bc07406e62e37b1fe32fb1c93d0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.0",
+        "com.squareup.okhttp3:okhttp:3.9.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.aerogear.mobile.core.bootstrap.AeroGearBootstrap",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0-2018-21",
+          "2.1.0-alpha.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AeroGearBootstrap",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

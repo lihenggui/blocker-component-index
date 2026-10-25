@@ -1,0 +1,54 @@
+{
+  "coordinate": "org.astarte-platform:devicesdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.alpha": {
+      "fetchedAt": "2026-10-25T09:51:05Z",
+      "sha256": "78cbd7a322eeafe663bf3fe1b8c381f7ddcff6e61653d021bbaa27d8f9894bfa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.room:room-runtime:2.2.5",
+        "org.astarte-platform:devicesdk:1.0.0.alpha",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1"
+      ]
+    },
+    "1.0.0.alpha2": {
+      "fetchedAt": "2026-10-25T09:51:04Z",
+      "sha256": "1be6c9a1c28037ebe12f2f77f2df27af0b8b394d05cfb5225ddc907769ada685",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.room:room-runtime:2.2.5",
+        "org.astarte-platform:devicesdk:1.0.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T09:51:04Z",
+      "sha256": "a205d9682971633d62fe3f77ab0612de3e3c48e31692b62888804402193402c1",
+      "dependencies": [
+        "androidx.room:room-runtime:2.3.0",
+        "org.astarte-platform:devicesdk:1.1.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.alpha",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

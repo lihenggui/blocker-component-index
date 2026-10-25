@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.ztiany:android-media-selector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T08:26:53Z",
+      "sha256": "49cd7789120902e273dae77ed1ccb188d78dc3cfbfde7744ea36a0211a89d644",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.documentfile:documentfile:1.0.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "com.github.yalantis:ucrop:2.2.8",
+        "com.google.android.material:material:1.6.1",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T08:26:52Z",
+      "sha256": "60f23644a213f2336f7cde64702030b6068fabf3c5d41ef116160e53c407d08d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.documentfile:documentfile:1.0.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "com.github.yalantis:ucrop:2.2.8",
+        "com.google.android.material:material:1.9.0",
+        "com.jakewharton.timber:timber:4.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bilibili.boxing_impl.ui.BoxingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bilibili.boxing_impl.ui.BoxingBottomSheetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bilibili.boxing_impl.ui.BoxingViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

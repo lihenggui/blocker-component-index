@@ -1,0 +1,174 @@
+{
+  "coordinate": "io.github.zsmarter-api:hulk-xiaomi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:26:47Z",
+      "sha256": "c074465eb668c1dce929e9dae23d90cd3ac75bdacbd234a153e433acc162bff1",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.umeng.umsdk:xiaomi-push:5.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:26:46Z",
+      "sha256": "81094a96b2a34fe14732440f9852227a755f69f2e011dd8fd170bda289634a03",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:xiaomi-push:5.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:26:46Z",
+      "sha256": "81094a96b2a34fe14732440f9852227a755f69f2e011dd8fd170bda289634a03",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:xiaomi-push:5.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:26:45Z",
+      "sha256": "81094a96b2a34fe14732440f9852227a755f69f2e011dd8fd170bda289634a03",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:xiaomi-push:5.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:26:45Z",
+      "sha256": "81094a96b2a34fe14732440f9852227a755f69f2e011dd8fd170bda289634a03",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:xiaomi-push:5.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T08:26:44Z",
+      "sha256": "e58db91517cd635d12c2fdc9ebfb267b48ee7871eada181bf5e0f621b32e18da",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:xiaomi-push:5.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zsmarter.hulk.xiaomi_push.MiReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "coordinate": "io.github.sethyv:1.0.0",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "yv-android-sdk": {
+      "fetchedAt": "2026-10-25T07:43:34Z",
+      "sha256": "2d582475e92c1e800c60881bf1785e0353430462c50b181bf8916d57b96ef986",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.compose.animation:animation:1.4.3",
+        "androidx.compose.foundation:foundation:1.4.3",
+        "androidx.compose.material3:material3-android:1.2.0-alpha02",
+        "androidx.compose.runtime:runtime:1.4.3",
+        "androidx.compose.ui:ui-tooling-preview:1.4.3",
+        "androidx.compose.ui:ui:1.4.3",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.databinding:viewbinding:8.0.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "androidx.navigation:navigation-ui-ktx:2.5.3",
+        "androidx.webkit:webkit:1.7.0",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10",
+        "com.google.dagger:dagger:2.44.2",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.10",
+        "com.squareup.okhttp3:okhttp:5.0.0-alpha.10",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "co.youverify.yvos_sdk.modules.documentcapture.DocumentCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "yv-android-sdk",
+          "yv-android-sdk"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.youverify.yvos_sdk.modules.livenesscheck.LivenessCheckActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "yv-android-sdk",
+          "yv-android-sdk"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "co.youverify.yvos_sdk.modules.vform.FormActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "yv-android-sdk",
+          "yv-android-sdk"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "coordinate": "io.lbry:lbrysdk32",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.99.0": {
+      "fetchedAt": "2026-10-25T08:36:53Z",
+      "sha256": "741edf8e58dd0628a5b1a66e0418be2344507db0d6ea4f472a6f725495ccbc88",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2"
+      ]
+    },
+    "0.100.0": {
+      "fetchedAt": "2026-10-25T08:36:52Z",
+      "sha256": "736710ba49cd80ce8640dfa7e83b76ffe0a9291d6e978fcfe778fa342fe4925b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2"
+      ]
+    },
+    "0.102.0": {
+      "fetchedAt": "2026-10-25T08:36:52Z",
+      "sha256": "88208a6a86eb81c201573f3a545b936b78fbba5944e0a6852d5b6262f0f5bae6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2"
+      ]
+    },
+    "0.111.0": {
+      "fetchedAt": "2026-10-25T08:36:51Z",
+      "sha256": "2f4166e05474d842ced61bf675a0254e402637eee076405804410fb03f13d56d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2"
+      ]
+    },
+    "0.112.0": {
+      "fetchedAt": "2026-10-25T08:36:50Z",
+      "sha256": "96142a5c90bd9b6f0f920a469f5cb06b4f5e61c747ad7f6eeca6445b4957ccf3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.lbry.lbrysdk.LbrynetService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.99.0",
+          "0.112.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":service_lbrynet",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

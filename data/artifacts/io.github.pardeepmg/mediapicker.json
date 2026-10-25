@@ -1,0 +1,56 @@
+{
+  "coordinate": "io.github.pardeepmg:mediapicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:35:27Z",
+      "sha256": "632a43308b863cb8eba0efe89e36951fb85bc6734e4f540f38210cd7f4f4f677",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.github.CanHub:Android-Image-Cropper:3.2.0",
+        "com.github.bumptech.glide:glide:4.8.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.jetbrains.kotlin:kotlin-test-junit:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.mediapicker.library.activities.MediaPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

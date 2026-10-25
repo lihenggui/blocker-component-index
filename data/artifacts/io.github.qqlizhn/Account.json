@@ -1,0 +1,78 @@
+{
+  "coordinate": "io.github.qqlizhn:Account",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:38:06Z",
+      "sha256": "cca927f367391f620420fc24bbadce472f98f8cfda3e0dc0582c662ebebe0cd0",
+      "dependencies": [
+        "CommonUtils:Logger:unspecified",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.magic.account.AuthenticatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.accounts.AccountAuthenticator"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.accounts.AccountAuthenticator"
+      ]
+    },
+    {
+      "name": "com.magic.account.StubProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "@string/sync_authority",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.magic.account.SyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": ":sync",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.content.SyncAdapter"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.content.SyncAdapter"
+      ]
+    }
+  ]
+}

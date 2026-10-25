@@ -1,0 +1,21 @@
+{
+  "coordinate": "org.thepalaceproject.readium:readium-adapter-pspdfkit-document",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0-alpha0001_palace": {
+      "fetchedAt": "2026-10-25T10:14:28Z",
+      "sha256": "d3fd0adf15416b68442302d61dec6c7425839ffee76785eda811dcdca904a447",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "com.pspdfkit:pspdfkit:8.4.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.thepalaceproject.readium:readium-shared:3.0.0-alpha0001_palace"
+      ]
+    }
+  },
+  "components": []
+}

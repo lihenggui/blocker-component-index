@@ -1,0 +1,110 @@
+{
+  "coordinate": "org.microg.gms:play-services-oss-licenses-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.25.223616": {
+      "fetchedAt": "2026-10-25T10:05:09Z",
+      "sha256": "3ad91e7b8510a62ede660388bcc7481596804577ec38ead1a7a60b2c8baf2106",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.microg.gms:play-services-base-core:0.2.25.223616",
+        "org.microg.gms:play-services-oss-licenses-api:0.2.25.223616",
+        "org.microg.gms:play-services-oss-licenses:0.2.25.223616"
+      ]
+    },
+    "0.2.26.223616": {
+      "fetchedAt": "2026-10-25T10:05:08Z",
+      "sha256": "3ad91e7b8510a62ede660388bcc7481596804577ec38ead1a7a60b2c8baf2106",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.microg.gms:play-services-base-core:0.2.26.223616",
+        "org.microg.gms:play-services-oss-licenses-api:0.2.26.223616",
+        "org.microg.gms:play-services-oss-licenses:0.2.26.223616"
+      ]
+    },
+    "0.2.27.223616": {
+      "fetchedAt": "2026-10-25T10:05:07Z",
+      "sha256": "3ad91e7b8510a62ede660388bcc7481596804577ec38ead1a7a60b2c8baf2106",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.microg.gms:play-services-base-core:0.2.27.223616",
+        "org.microg.gms:play-services-oss-licenses:0.2.27.223616"
+      ]
+    },
+    "0.2.29.233013": {
+      "fetchedAt": "2026-10-25T10:05:06Z",
+      "sha256": "52fc326dad872f2bcc8d478eed48f5fb36c8171017bda31b747cc7f12e5a745b",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20",
+        "org.microg.gms:play-services-base-core:0.2.29.233013",
+        "org.microg.gms:play-services-oss-licenses:0.2.29.233013"
+      ]
+    },
+    "0.3.0.233515": {
+      "fetchedAt": "2026-10-25T10:05:06Z",
+      "sha256": "52fc326dad872f2bcc8d478eed48f5fb36c8171017bda31b747cc7f12e5a745b",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20",
+        "org.microg.gms:play-services-base-core:0.3.0.233515",
+        "org.microg.gms:play-services-oss-licenses:0.3.0.233515"
+      ]
+    },
+    "0.3.2.240913": {
+      "fetchedAt": "2026-10-25T10:05:05Z",
+      "sha256": "6d7d643855f96381dab1aa2dc8557b2dfa9b1e76e3b4d7659efceeab53daba5b",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.microg.gms:play-services-base-core:0.3.2.240913",
+        "org.microg.gms:play-services-oss-licenses:0.3.2.240913"
+      ]
+    },
+    "0.3.4.240913": {
+      "fetchedAt": "2026-10-25T10:05:05Z",
+      "sha256": "6d7d643855f96381dab1aa2dc8557b2dfa9b1e76e3b4d7659efceeab53daba5b",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.microg.gms:play-services-base-core:0.3.4.240913",
+        "org.microg.gms:play-services-oss-licenses:0.3.4.240913"
+      ]
+    },
+    "0.3.5.240913": {
+      "fetchedAt": "2026-10-25T10:05:04Z",
+      "sha256": "6d7d643855f96381dab1aa2dc8557b2dfa9b1e76e3b4d7659efceeab53daba5b",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.microg.gms:play-services-base-core:0.3.5.240913",
+        "org.microg.gms:play-services-oss-licenses:0.3.5.240913"
+      ]
+    },
+    "0.3.6.244735": {
+      "fetchedAt": "2026-10-25T10:05:03Z",
+      "sha256": "6d7d643855f96381dab1aa2dc8557b2dfa9b1e76e3b4d7659efceeab53daba5b",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.microg.gms:play-services-base-core:0.3.6.244735",
+        "org.microg.gms:play-services-oss-licenses:0.3.6.244735"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.microg.gms.oss.licenses.core.OssLicensesService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.25.223616",
+          "0.3.6.244735"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.oss.licenses.service.START"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

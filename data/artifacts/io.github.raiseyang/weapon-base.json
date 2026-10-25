@@ -1,0 +1,39 @@
+{
+  "coordinate": "io.github.raiseyang:weapon-base",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T07:38:44Z",
+      "sha256": "30933c4cdeab37b6c85dc785742270940ddf6e8601da81d5b67894e1f6911229",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T07:38:44Z",
+      "sha256": "57c1d3a0227e53c393f94cb2fb1661ff6d553f62adabf9d6207858705b9ef7f9",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.raise.weapon_base.WeaponContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.weaponcontextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

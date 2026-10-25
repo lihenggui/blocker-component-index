@@ -1,0 +1,80 @@
+{
+  "coordinate": "io.primer:stripe-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T08:50:37Z",
+      "sha256": "23107d62a33d6fe00a9676cf52448311c41911b6437e7567028c4ec6ae4441be",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.stripe:financial-connections:20.44.1",
+        "com.stripe:stripe-android:20.44.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:50:36Z",
+      "sha256": "23107d62a33d6fe00a9676cf52448311c41911b6437e7567028c4ec6ae4441be",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.stripe:financial-connections:20.48.1",
+        "com.stripe:stripe-android:20.48.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T08:50:36Z",
+      "sha256": "23107d62a33d6fe00a9676cf52448311c41911b6437e7567028c4ec6ae4441be",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.stripe:financial-connections:21.2.1",
+        "com.stripe:stripe-android:21.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T08:50:35Z",
+      "sha256": "23107d62a33d6fe00a9676cf52448311c41911b6437e7567028c4ec6ae4441be",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.stripe:financial-connections:21.2.1",
+        "com.stripe:payments-core:21.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T08:50:34Z",
+      "sha256": "23107d62a33d6fe00a9676cf52448311c41911b6437e7567028c4ec6ae4441be",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.stripe:financial-connections:20.53.0",
+        "com.stripe:payments-core:20.53.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.primer.android.stripe.StripeBankAccountCollectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.1.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

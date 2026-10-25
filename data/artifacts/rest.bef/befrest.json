@@ -1,0 +1,49 @@
+{
+  "coordinate": "rest.bef:befrest",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T10:17:39Z",
+      "sha256": "23240a576dacbf8c977c5532945a1f587c4d605002e0047c47c1efd6edaec73e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "rest.bef.BefrestConnectivityChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "rest.bef.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

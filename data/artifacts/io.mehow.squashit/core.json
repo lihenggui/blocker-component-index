@@ -1,0 +1,126 @@
+{
+  "coordinate": "io.mehow.squashit:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T08:39:42Z",
+      "sha256": "2f89d5253786e12330717f2063465971d361ba90262f56633737f0a5b3f7b9a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:2.0.0-beta3",
+        "androidx.core:core-ktx:1.2.0-rc01",
+        "com.google.android.material:material:1.2.0-alpha02",
+        "com.jakewharton.byteunits:byteunits:0.9.1",
+        "com.mattprecious.telescope:telescope:2.2.0",
+        "io.mehow.squashit:backend:0.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T08:39:41Z",
+      "sha256": "2f89d5253786e12330717f2063465971d361ba90262f56633737f0a5b3f7b9a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:2.0.0-beta3",
+        "androidx.core:core-ktx:1.2.0-rc01",
+        "com.google.android.material:material:1.2.0-alpha02",
+        "com.jakewharton.byteunits:byteunits:0.9.1",
+        "com.mattprecious.telescope:telescope:2.2.0",
+        "io.mehow.squashit:backend:0.1.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T08:39:40Z",
+      "sha256": "2f89d5253786e12330717f2063465971d361ba90262f56633737f0a5b3f7b9a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:2.0.0-beta3",
+        "androidx.core:core-ktx:1.2.0-rc01",
+        "com.google.android.material:material:1.2.0-alpha02",
+        "com.jakewharton.byteunits:byteunits:0.9.1",
+        "com.mattprecious.telescope:telescope:2.2.0",
+        "io.mehow.squashit:backend:0.1.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.squashIt",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "io.mehow.squashit.MisconfigurationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.mehow.squashit.ReportActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.mehow.squashit.SquashItInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SquashItInitializer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "coordinate": "ru.bartwell.delightsqlviewer:runtime-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T10:18:47Z",
+      "sha256": "c90b0fdfc7f5759b464835c1b8c56882ab87160d28380585712a8b444a29533e",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.10.1",
+        "app.cash.sqldelight:android-driver:2.0.2",
+        "app.cash.sqldelight:runtime:2.0.2",
+        "com.arkivanov.decompose:decompose:3.1.0",
+        "com.arkivanov.decompose:extensions-compose:3.1.0",
+        "com.arkivanov.essenty:lifecycle-coroutines:2.3.0",
+        "org.jetbrains.compose.foundation:foundation:1.7.3",
+        "org.jetbrains.compose.material3:material3:1.7.3",
+        "org.jetbrains.compose.material:material-icons-extended:1.7.3",
+        "org.jetbrains.compose.runtime:runtime:1.7.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "ru.bartwell.delightsqlviewer:core:2.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T10:18:46Z",
+      "sha256": "c90b0fdfc7f5759b464835c1b8c56882ab87160d28380585712a8b444a29533e",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.10.1",
+        "app.cash.sqldelight:android-driver:2.0.2",
+        "app.cash.sqldelight:runtime:2.0.2",
+        "com.arkivanov.decompose:decompose:3.1.0",
+        "com.arkivanov.decompose:extensions-compose:3.1.0",
+        "com.arkivanov.essenty:lifecycle-coroutines:2.3.0",
+        "org.jetbrains.compose.foundation:foundation:1.7.3",
+        "org.jetbrains.compose.material3:material3:1.7.3",
+        "org.jetbrains.compose.material:material-icons-extended:1.7.3",
+        "org.jetbrains.compose.runtime:runtime:1.7.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "ru.bartwell.delightsqlviewer:core:2.1.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T10:18:45Z",
+      "sha256": "c90b0fdfc7f5759b464835c1b8c56882ab87160d28380585712a8b444a29533e",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.10.1",
+        "app.cash.sqldelight:android-driver:2.0.2",
+        "app.cash.sqldelight:runtime:2.0.2",
+        "com.arkivanov.decompose:decompose:3.1.0",
+        "com.arkivanov.decompose:extensions-compose:3.1.0",
+        "com.arkivanov.essenty:lifecycle-coroutines:2.3.0",
+        "org.jetbrains.compose.foundation:foundation:1.8.1",
+        "org.jetbrains.compose.material3:material3:1.8.1",
+        "org.jetbrains.compose.material:material-icons-extended:1.7.3",
+        "org.jetbrains.compose.runtime:runtime:1.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "ru.bartwell.delightsqlviewer:core:2.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.bartwell.delightsqlviewer.DelightSqlViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

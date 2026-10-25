@@ -1,0 +1,26 @@
+{
+  "coordinate": "me.proton.core:plan-test",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "33.0.0": {
+      "fetchedAt": "2026-10-25T09:28:05Z",
+      "sha256": "659634d901e108dad1fb2a720e7029eeefea09bbea94e98d37a28b1397a2e486",
+      "dependencies": [
+        "androidx.test.espresso:espresso-intents:3.5.0",
+        "com.google.dagger:hilt-android-testing:2.49",
+        "me.proton.core:human-verification-test:33.0.0",
+        "me.proton.core:payment-iap-test:33.0.0",
+        "me.proton.core:plan-presentation:33.0.0",
+        "me.proton.core:test-android-instrumented:33.0.0",
+        "me.proton.core:test-quark:33.0.0",
+        "me.proton.core:test-rule:33.0.0",
+        "me.proton.core:util-android-dagger:33.0.0",
+        "me.proton.test:fusion:1.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlin:kotlin-test-junit:2.0.21",
+        "org.jetbrains.kotlin:kotlin-test:2.0.21"
+      ]
+    }
+  },
+  "components": []
+}

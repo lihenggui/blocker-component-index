@@ -1,0 +1,54 @@
+{
+  "coordinate": "net.xdow:agentweb-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v5.0.1-x5": {
+      "fetchedAt": "2026-10-25T09:45:52Z",
+      "sha256": "5eee42badd99875c9bf535a43bea4f89dafe10371dc82fed2a910c09a7868873",
+      "dependencies": []
+    },
+    "5.0.1-x5": {
+      "fetchedAt": "2026-10-25T09:45:51Z",
+      "sha256": "5eee42badd99875c9bf535a43bea4f89dafe10371dc82fed2a910c09a7868873",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.just.agentwebX5.AgentActionFragment",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v5.0.1-x5",
+          "5.0.1-x5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.just.agentwebX5.AgentWebFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "v5.0.1-x5",
+          "5.0.1-x5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AgentWebFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

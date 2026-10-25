@@ -1,0 +1,55 @@
+{
+  "coordinate": "io.nearpay:nearpay-sdk-store-legacy",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.84": {
+      "fetchedAt": "2026-10-25T08:46:28Z",
+      "sha256": "5b3d1daf4ae0f90f39b20e503f6c6b737e3b1fddc089b897455762ba2f167cb5",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.0.4",
+        "io.nearpay:nearpay-sdk-shared-internal-legacy:2.1.84",
+        "io.nearpay:nearpay-sdk-shared-public-legacy:2.1.84",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.nearpay.sdk.install.GoogleInstallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.84",
+          "2.1.84"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.nearpay.payment.sdk"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nearpay.sdk.install.GoogleInstallManager$StoreInstallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.84",
+          "2.1.84"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

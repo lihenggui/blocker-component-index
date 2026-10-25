@@ -1,0 +1,42 @@
+{
+  "coordinate": "io.github.treech:netposa-component-mqtt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:00:52Z",
+      "sha256": "bd2a28330ab39ca866b7636164018140d17a3c08f3e8298e8848b5a78be5f4b0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "com.alibaba:arouter-api:1.5.0",
+        "com.google.android.material:material:1.1.0",
+        "io.github.treech:netposa-common-service:1.0.2",
+        "io.github.treech:netposa-mqtt:1.0.1",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.netposa.component.mqtt.service.MqttPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

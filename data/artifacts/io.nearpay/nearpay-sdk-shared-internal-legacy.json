@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.nearpay:nearpay-sdk-shared-internal-legacy",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.84": {
+      "fetchedAt": "2026-10-25T08:45:55Z",
+      "sha256": "5df19cbf9fc580c23786ffc01d9bfc05b495a76091b05dd650c5496d7f50a8aa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.0.4",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "androidx.navigation:navigation-ui-ktx:2.5.3",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "com.google.android.material:material:1.6.0",
+        "com.intuit.sdp:sdp-android:1.1.0",
+        "com.intuit.ssp:ssp-android:1.1.0",
+        "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "dev.chrisbanes.insetter:insetter:0.6.1",
+        "io.nearpay:nearpay-sdk-shared-public-legacy:2.1.84",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.nearpay.sdk_internal.hiddenApp.CommunicationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.84",
+          "2.1.84"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nearpay.sdk_internal.utils.shareUrl.ShareUrlService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.84",
+          "2.1.84"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_NFC_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.nfc.cardemulation.host_apdu_service"
+      ]
+    }
+  ]
+}

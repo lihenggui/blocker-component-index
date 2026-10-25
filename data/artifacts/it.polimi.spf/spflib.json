@@ -1,0 +1,35 @@
+{
+  "coordinate": "it.polimi.spf:spflib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0.1": {
+      "fetchedAt": "2026-10-25T09:12:33Z",
+      "sha256": "75dc329aacc59beb6dbb144b26fe67848aa5e54f2afd1f6d517842990ca646c8",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4",
+        "it.polimi.spf:spfshared:2.0.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "it.polimi.spf.lib.AppDeregistrationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0.1",
+          "2.0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "it.polimi.spf.framework.AppDeregistered"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

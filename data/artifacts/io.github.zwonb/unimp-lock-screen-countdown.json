@@ -1,0 +1,54 @@
+{
+  "coordinate": "io.github.zwonb:unimp-lock-screen-countdown",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:27:12Z",
+      "sha256": "7cdfe15b12ca1edd055af58500cfe833f4a04201551f92ea5e0f93adc0f5fd70",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.github.zwonb:compose:2.1",
+        "io.github.zwonb:unimp-messenger:0.1-SNAPSHOT",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T08:27:10Z",
+      "sha256": "7cdfe15b12ca1edd055af58500cfe833f4a04201551f92ea5e0f93adc0f5fd70",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.github.zwonb:compose:2.1",
+        "io.github.zwonb:unimp-messenger:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T08:27:11Z",
+      "sha256": "7faac31c5c06a41e4a4f14587402b5d898627df89eec1ac700ab0b36e0a0b9f2",
+      "dependencies": [
+        "io.github.zwonb:compose:2.2",
+        "io.github.zwonb:unimp-messenger:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yidont.unimp.lock.screen.countdown.LockScreenCountdownActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

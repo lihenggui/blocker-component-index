@@ -1,0 +1,53 @@
+{
+  "coordinate": "org.bitbucket.samuel8mille:samulib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:52:13Z",
+      "sha256": "f3aaa548e5f77e40a538f67fb3887e219d839ffb1f687e0cedd7ef936951e7af",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T09:52:13Z",
+      "sha256": "f3aaa548e5f77e40a538f67fb3887e219d839ffb1f687e0cedd7ef936951e7af",
+      "dependencies": [
+        "com.afollestad.material-dialogs:commons:0.9.0.1",
+        "com.afollestad.material-dialogs:core:0.9.0.1",
+        "com.android.support:appcompat-v7:24.2.0",
+        "com.android.support:cardview-v7:24.2.0",
+        "com.android.support:design:24.2.0",
+        "com.android.support:support-v4:24.2.0",
+        "com.edmodo:cropper:1.0.1",
+        "com.github.rey5137:material:1.2.1",
+        "com.kbeanie:image-chooser-library:1.4.4",
+        "com.squareup.okhttp:okhttp:2.5.0",
+        "com.squareup.retrofit:retrofit:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.samuel.testerepositorio.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

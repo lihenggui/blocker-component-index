@@ -1,0 +1,85 @@
+{
+  "coordinate": "org.pireco:kypsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-25T10:08:31Z",
+      "sha256": "069f6462ef5e9eebe237d3d1dd61e4bfc054b0cf9f60965c689522366c737020",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:databinding-adapters:7.4.2",
+        "androidx.databinding:databinding-common:7.4.2",
+        "androidx.databinding:databinding-runtime:7.4.2",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.navigation:navigation-fragment:2.5.3",
+        "androidx.navigation:navigation-ui:2.5.3",
+        "com.github.karlotoy:PerfectTune:1.0.5",
+        "com.google.android.material:material:1.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "kyp-android-sdk:opencv:unspecified"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-25T10:08:29Z",
+      "sha256": "069f6462ef5e9eebe237d3d1dd61e4bfc054b0cf9f60965c689522366c737020",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:databinding-adapters:7.4.2",
+        "androidx.databinding:databinding-common:7.4.2",
+        "androidx.databinding:databinding-runtime:7.4.2",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.navigation:navigation-fragment:2.5.3",
+        "androidx.navigation:navigation-ui:2.5.3",
+        "com.github.karlotoy:PerfectTune:1.0.5",
+        "com.google.android.material:material:1.9.0",
+        "com.quickbirdstudios:opencv:4.5.3.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "kyp-android-sdk:opencv:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.pireco.kypsdk.MPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.pireco.kypsdk.OpenCvActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.pireco.kypsdk.OpenCvActivity"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

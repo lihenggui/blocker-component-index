@@ -1,0 +1,51 @@
+{
+  "coordinate": "is.leap.android:debug-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.3": {
+      "fetchedAt": "2026-10-25T09:11:35Z",
+      "sha256": "dc93d8fa268303e7ea49edfee4c5fab72066f87e882aec650fc62a32d463a048",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.squareup.leakcanary:leakcanary-android:2.8.1",
+        "is.leap.android:debug-core-sdk:1.3.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "is.leap.android.aui.AUIControlReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.3.3",
+          "1.3.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "is.leap.android.aui.LeapAUIProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.3",
+          "1.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.LeapAUIProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

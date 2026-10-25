@@ -1,0 +1,97 @@
+{
+  "coordinate": "io.github.zsmarter-api:hulk-huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:26:34Z",
+      "sha256": "a504e7ff1f9c37095c8defe7aa5095222f44a39724d84d5cac3be58c7d727ad6",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.huawei.hms:push:5.3.0.304",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:26:34Z",
+      "sha256": "7521ed729ce89b95e1bf0dd79aee8dd0fdd94b50eb5b45db0c321d0b2d8a9586",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.huawei.hms:push:5.3.0.304",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:26:33Z",
+      "sha256": "7521ed729ce89b95e1bf0dd79aee8dd0fdd94b50eb5b45db0c321d0b2d8a9586",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.huawei.hms:push:5.3.0.304",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:26:33Z",
+      "sha256": "7521ed729ce89b95e1bf0dd79aee8dd0fdd94b50eb5b45db0c321d0b2d8a9586",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.huawei.hms:push:6.11.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:26:32Z",
+      "sha256": "73196ea03696c38baf199278702cbbd54bd2d6578e27975223fad0455b9a14ba",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.huawei.hms:push:6.11.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T08:26:32Z",
+      "sha256": "73196ea03696c38baf199278702cbbd54bd2d6578e27975223fad0455b9a14ba",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.huawei.hms:push:6.11.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T08:26:31Z",
+      "sha256": "73196ea03696c38baf199278702cbbd54bd2d6578e27975223fad0455b9a14ba",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.huawei.hms:push:6.12.0.300",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zsmarter.hulk.huawei_push.HwService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

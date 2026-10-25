@@ -1,0 +1,142 @@
+{
+  "coordinate": "org.microg.nlp:location-v3",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0-alpha1": {
+      "fetchedAt": "2026-10-25T10:06:08Z",
+      "sha256": "6e3c37668dceb108b6181d0dd4f29a92c841b5cce0d511dd98c34e4eae38c580",
+      "dependencies": [
+        "org.microg.nlp:location-v2:2.0-alpha1"
+      ]
+    },
+    "2.0-alpha2": {
+      "fetchedAt": "2026-10-25T10:06:08Z",
+      "sha256": "39487cfe02b5d3ec38fb470b599094e484710d4f0f0f22d84f7dcc0299c3bba1",
+      "dependencies": [
+        "org.microg.nlp:location-v2:2.0-alpha2"
+      ]
+    },
+    "2.0-alpha3": {
+      "fetchedAt": "2026-10-25T10:06:07Z",
+      "sha256": "0423c4c63560b190b3df41379cc718e0f078d16be145b47ac2501419d1a1fd91",
+      "dependencies": [
+        "org.microg.nlp:location-v2:2.0-alpha3"
+      ]
+    },
+    "2.0-alpha4": {
+      "fetchedAt": "2026-10-25T10:06:06Z",
+      "sha256": "20f947206260fea55d5f683abd7aaa198f02e5935dcc242ec0a95a7f3f309b87",
+      "dependencies": [
+        "org.microg.nlp:location-v2:2.0-alpha4"
+      ]
+    },
+    "2.0-alpha5": {
+      "fetchedAt": "2026-10-25T10:06:05Z",
+      "sha256": "3425a41bf1802cabfdcac8d965341a04cfe50eb54b1853367d6e6d00f86deba9",
+      "dependencies": [
+        "org.microg.nlp:location-v2:2.0-alpha5"
+      ]
+    },
+    "2.0-alpha6": {
+      "fetchedAt": "2026-10-25T10:06:05Z",
+      "sha256": "0bb8923d1c1de8bbca3e607c3735e816c3cff54c6f69584d78b635bbb06b6a35",
+      "dependencies": [
+        "org.microg.nlp:location-v2:2.0-alpha6"
+      ]
+    },
+    "2.0-alpha7": {
+      "fetchedAt": "2026-10-25T10:06:04Z",
+      "sha256": "2738ff695e8defe9a2bfc166198bc6d971d0d55ed769f3d04e412ca52eec030c",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:location-v2:2.0-alpha7"
+      ]
+    },
+    "2.0-alpha8": {
+      "fetchedAt": "2026-10-25T10:06:03Z",
+      "sha256": "2738ff695e8defe9a2bfc166198bc6d971d0d55ed769f3d04e412ca52eec030c",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:location-v2:2.0-alpha8"
+      ]
+    },
+    "2.0-alpha9": {
+      "fetchedAt": "2026-10-25T10:06:03Z",
+      "sha256": "2738ff695e8defe9a2bfc166198bc6d971d0d55ed769f3d04e412ca52eec030c",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:location-v2:2.0-alpha9"
+      ]
+    },
+    "2.0-alpha10": {
+      "fetchedAt": "2026-10-25T10:06:02Z",
+      "sha256": "2738ff695e8defe9a2bfc166198bc6d971d0d55ed769f3d04e412ca52eec030c",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:location-v2:2.0-alpha10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.microg.nlp.location.v3.LocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0-alpha1",
+          "2.0-alpha2"
+        ]
+      ],
+      "exported": true,
+      "process": ":locservice",
+      "permission": "android.permission.ACCESS_COARSE_LOCATION",
+      "authorities": null,
+      "actions": [
+        "com.android.location.service.v3.NetworkLocationProvider"
+      ],
+      "categories": [],
+      "metaData": [
+        "serviceIsMultiuser",
+        "serviceVersion"
+      ]
+    },
+    {
+      "name": "org.microg.nlp.location.v3.LocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0-alpha3",
+          "2.0-alpha10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.ACCESS_COARSE_LOCATION",
+      "authorities": null,
+      "actions": [
+        "com.android.location.service.v3.NetworkLocationProvider"
+      ],
+      "categories": [],
+      "metaData": [
+        "serviceIsMultiuser",
+        "serviceVersion"
+      ]
+    }
+  ]
+}

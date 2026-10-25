@@ -1,0 +1,87 @@
+{
+  "coordinate": "kr.co.t-id:tid",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.4.5": {
+      "fetchedAt": "2026-10-25T09:14:49Z",
+      "sha256": "7588ebe43005538faf277d586e7cb3f58d98b29e55ddb5927e23b032e3340596",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.gms:play-services-auth-blockstore:16.1.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.skt.tid.view.BaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.skt.tid.view.customtab.TidCustomTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.skt.tid.view.webview.TidWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.skt.tid.view.webview.TidWebViewSecondActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

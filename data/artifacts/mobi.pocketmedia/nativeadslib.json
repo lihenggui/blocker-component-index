@@ -1,0 +1,128 @@
+{
+  "coordinate": "mobi.pocketmedia:nativeadslib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:33:30Z",
+      "sha256": "988a1c7743e88fc175ac7ca3eaf06eaf54f9a729e904e0d36dab1a4a69f01c49",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.code.gson:gson:2.4",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T09:33:29Z",
+      "sha256": "988a1c7743e88fc175ac7ca3eaf06eaf54f9a729e904e0d36dab1a4a69f01c49",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.code.gson:gson:2.4",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T09:33:29Z",
+      "sha256": "988a1c7743e88fc175ac7ca3eaf06eaf54f9a729e904e0d36dab1a4a69f01c49",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.code.gson:gson:2.4",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T09:33:28Z",
+      "sha256": "988a1c7743e88fc175ac7ca3eaf06eaf54f9a729e904e0d36dab1a4a69f01c49",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.code.gson:gson:2.4",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T09:33:28Z",
+      "sha256": "988a1c7743e88fc175ac7ca3eaf06eaf54f9a729e904e0d36dab1a4a69f01c49",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.code.gson:gson:2.7",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.2.3": {
+      "fetchedAt": "2026-10-25T09:33:27Z",
+      "sha256": "988a1c7743e88fc175ac7ca3eaf06eaf54f9a729e904e0d36dab1a4a69f01c49",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.code.gson:gson:2.7",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T09:33:27Z",
+      "sha256": "4883a811adfbd2a2f2e9d3b7e651415e17b3aeb45060aa3858c3caa198c51277",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0",
+        "com.android.support:multidex:1.0.1",
+        "com.android.support:support-annotations:25.0.0",
+        "com.google.android.gms:play-services-ads:9.4.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.dagger:dagger:2.7",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-25T09:33:26Z",
+      "sha256": "4883a811adfbd2a2f2e9d3b7e651415e17b3aeb45060aa3858c3caa198c51277",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0",
+        "com.android.support:multidex:1.0.1",
+        "com.android.support:support-annotations:25.0.0",
+        "com.google.android.gms:play-services-ads:9.4.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.dagger:dagger:2.7",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "mobi.pocketmedia.nativeadslib.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "mobi.pocketmedia.nativeadslib.core.openers.webview.NativeAdWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "coordinate": "io.github.ozyl:dokitx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.5.0": {
+      "fetchedAt": "2026-10-25T07:32:18Z",
+      "sha256": "9938fb0d59d9074e9e62383c3cde209e67821b9e381ed6f99aa55cd0d1046a3c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.3",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.databinding:databinding-adapters:4.2.2",
+        "androidx.databinding:databinding-common:4.2.2",
+        "androidx.databinding:databinding-runtime:4.2.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.3.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.room:room-runtime:2.0.0",
+        "androidx.webkit:webkit:1.3.0",
+        "com.android.volley:volley:1.1.1",
+        "com.github.ybq:Android-SpinKit:1.4.0",
+        "com.google.auto.service:auto-service:1.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.google.zxing:core:3.3.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "io.github.ozyl:dokitx-okhttp-api:3.5.0",
+        "io.github.ozyl:dokitx-util:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.jsoup:jsoup:1.13.1"
+      ]
+    },
+    "3.5.0.1": {
+      "fetchedAt": "2026-10-25T07:32:18Z",
+      "sha256": "9938fb0d59d9074e9e62383c3cde209e67821b9e381ed6f99aa55cd0d1046a3c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.3",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.databinding:databinding-adapters:4.2.2",
+        "androidx.databinding:databinding-common:4.2.2",
+        "androidx.databinding:databinding-runtime:4.2.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.3.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.room:room-runtime:2.0.0",
+        "androidx.webkit:webkit:1.3.0",
+        "com.android.volley:volley:1.1.1",
+        "com.github.ybq:Android-SpinKit:1.4.0",
+        "com.google.auto.service:auto-service:1.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.google.zxing:core:3.3.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "io.github.didi.dokit:dokitx-okhttp-api:3.5.0",
+        "io.github.didi.dokit:dokitx-util:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.jsoup:jsoup:1.13.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.didichuxing.doraemonkit.DebugFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.debugfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.didichuxing.doraemonkit.kit.core.TranslucentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.didichuxing.doraemonkit.kit.core.UniversalActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.didichuxing.doraemonkit.zxing.activity.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0",
+          "3.5.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

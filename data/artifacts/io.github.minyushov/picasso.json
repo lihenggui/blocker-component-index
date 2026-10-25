@@ -1,0 +1,33 @@
+{
+  "coordinate": "io.github.minyushov:picasso",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0-6": {
+      "fetchedAt": "2026-10-25T07:23:00Z",
+      "sha256": "c1cb0a2ff082337dd469a8edbcad1a017f9908af46845bfc9362cddcf580826d",
+      "dependencies": [
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.squareup.okhttp3:okhttp:4.9.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.squareup.picasso.PicassoProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0-6",
+          "3.0.0-6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.squareup.picasso",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

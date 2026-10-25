@@ -1,0 +1,148 @@
+{
+  "coordinate": "io.github.xxmd:file-preview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:17:40Z",
+      "sha256": "7e8d25bb3549ad51c755ba869e518aef1d83785ab65ea4b194c5b82f99ffad4e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.fragment:fragment:1.2.5",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.google.android.material:material:1.2.1",
+        "commons-io:commons-io:2.11.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.5",
+        "org.apache.commons:commons-lang3:3.12.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:17:39Z",
+      "sha256": "4aff6e2da89192df6848622bef199686f997f4f46a31b399daa1025e9c058f46",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.fragment:fragment:1.2.5",
+        "cn.jzvd:jiaozivideoplayer:7.7.0",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.google.android.material:material:1.2.1",
+        "com.jaeger.statusbarutil:library:1.5.1",
+        "commons-io:commons-io:2.11.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.5",
+        "org.apache.commons:commons-lang3:3.12.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:17:39Z",
+      "sha256": "0e1eb679d50e46a31b371fb3949ff6e44fa72541b95ca5b734d1917d74c044f6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.fragment:fragment:1.2.5",
+        "cn.jzvd:jiaozivideoplayer:6.2.12",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.google.android.material:material:1.2.1",
+        "com.jaeger.statusbarutil:library:1.5.1",
+        "commons-io:commons-io:2.11.0",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.5",
+        "org.apache.commons:commons-lang3:3.12.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.xxmd.AudioPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.xxmd.FilePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.xxmd.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.xxmd.VideoPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.xxmd.WebPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

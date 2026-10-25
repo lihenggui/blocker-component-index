@@ -1,0 +1,39 @@
+{
+  "coordinate": "money.onramp:OnrampSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:34:04Z",
+      "sha256": "15bb8319ebf6b609d903e2f57c65e0609a2d57f1012dace036f084eec6b391c3",
+      "dependencies": [
+        "androidx.activity:activity:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.fragment:fragment:1.5.7",
+        "com.airbnb.android:lottie:5.1.1",
+        "com.google.code.gson:gson:2.8.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.buyhatke.onrampsdk.activities.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

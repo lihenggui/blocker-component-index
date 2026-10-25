@@ -1,0 +1,135 @@
+{
+  "coordinate": "me.id.webverify:webverifylib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T09:22:57Z",
+      "sha256": "4b40810f45f2afee3e467bfb06a9ac27e068f9c653b12283900f4debe214ab60",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T09:22:56Z",
+      "sha256": "acad7baad34848c6ef2a8c339cddcf935cfe0a808ddcbe466fdf807c817f3d73",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T09:22:56Z",
+      "sha256": "acad7baad34848c6ef2a8c339cddcf935cfe0a808ddcbe466fdf807c817f3d73",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T09:22:55Z",
+      "sha256": "ba7cbc927b69e054448e202a1610719fbc567e84b9cbe45c709f437c49173354",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.2.0",
+        "com.android.support:customtabs:25.2.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T09:22:55Z",
+      "sha256": "1e33bbedd389edf542ca25730d51afaf71d0be34542f5a7a9125dc463d187347",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.2.0",
+        "com.android.support:customtabs:25.2.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T09:22:55Z",
+      "sha256": "9528bf7f798d59f788427c42871d173c4458b102653a5951dd288008bddb59c5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:customtabs:25.3.1"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-25T09:22:54Z",
+      "sha256": "364906eba3b09c2472b03b491c0a09e7376fdbe6424fc0c0d7be3712ad615326",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:customtabs:25.3.1"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T09:22:54Z",
+      "sha256": "401624aff1037529787fa9e115079bb5057ba60dd4ef7bc3fd5a56eb2f9aa98e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:customtabs:25.3.1"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T09:22:53Z",
+      "sha256": "2e6a0517c58329fa13bb48ebc4492811406384e00416a240d51717b7e5cd777e",
+      "dependencies": []
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T09:22:53Z",
+      "sha256": "2e6a0517c58329fa13bb48ebc4492811406384e00416a240d51717b7e5cd777e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "me.id.webverifylib.IDmeCustomTabsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.id.webverifylib.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "me.id.webverifylib.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

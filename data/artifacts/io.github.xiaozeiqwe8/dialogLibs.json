@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.xiaozeiqwe8:dialogLibs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T08:16:54Z",
+      "sha256": "ba19a206bb5047429f216bac552c15e76d10734f01ba53552e058de04bd56e81",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.karl.test.dialoglibs.DialogLibProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.library-dialog",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.karl.test.dialoglibs.FloatService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.karl.test.dialoglibs.FloatService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "coordinate": "io.passworks:lighthouse",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:48:51Z",
+      "sha256": "a0762e2e1b58aada54e10adffb204368b2e9305115a8ac1e8a67c594541abfc2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.estimote:sdk:0.9.4"
+      ]
+    },
+    "2.0": {
+      "fetchedAt": "2026-10-25T08:48:50Z",
+      "sha256": "a0762e2e1b58aada54e10adffb204368b2e9305115a8ac1e8a67c594541abfc2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.estimote:sdk:0.9.6"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T08:48:50Z",
+      "sha256": "a0762e2e1b58aada54e10adffb204368b2e9305115a8ac1e8a67c594541abfc2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.estimote:sdk:0.9.6"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-25T08:48:49Z",
+      "sha256": "a0762e2e1b58aada54e10adffb204368b2e9305115a8ac1e8a67c594541abfc2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.estimote:sdk:0.9.6"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T08:48:48Z",
+      "sha256": "a0762e2e1b58aada54e10adffb204368b2e9305115a8ac1e8a67c594541abfc2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.estimote:sdk:0.9.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.estimote.sdk.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.passworks.lighthouse.service.LighthouseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

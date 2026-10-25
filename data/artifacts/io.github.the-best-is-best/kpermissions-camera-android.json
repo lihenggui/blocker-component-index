@@ -1,0 +1,88 @@
+{
+  "coordinate": "io.github.the-best-is-best:kpermissions-camera-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:55:56Z",
+      "sha256": "b4e42e1e967a0e7dbc23cc94abd90094cecf22cb33cebe637236959be969ad4b",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:1.0.1",
+        "io.github.the-best-is-best:kpermissions-core:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:55:56Z",
+      "sha256": "b4e42e1e967a0e7dbc23cc94abd90094cecf22cb33cebe637236959be969ad4b",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:55:53Z",
+      "sha256": "b4e42e1e967a0e7dbc23cc94abd90094cecf22cb33cebe637236959be969ad4b",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T07:55:55Z",
+      "sha256": "b4e42e1e967a0e7dbc23cc94abd90094cecf22cb33cebe637236959be969ad4b",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T07:55:54Z",
+      "sha256": "2be0de7cfa1c7592020c671a4966350f3201dec6ac4edc415b47647302769869",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:2.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T07:55:54Z",
+      "sha256": "b4e42e1e967a0e7dbc23cc94abd90094cecf22cb33cebe637236959be969ad4b",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.the-best-is-best:KPermissionsApi:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.github.kpermissionsCamera.ApplicationContextInitializer"
+      ]
+    }
+  ]
+}

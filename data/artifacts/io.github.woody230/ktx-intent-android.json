@@ -1,0 +1,51 @@
+{
+  "coordinate": "io.github.woody230:ktx-intent-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.1": {
+      "fetchedAt": "2026-10-25T08:13:15Z",
+      "sha256": "5503f00464d5f909d760c433444175fcfd66e81dd0ad5d56fcd2942623a44d5a",
+      "dependencies": [
+        "io.github.woody230:ktx-logging:4.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bselzer.ktx.intent.browser.SystemBrowser",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.1",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.Browser",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bselzer.ktx.intent.email.SystemEmailer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.1",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.Emailer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

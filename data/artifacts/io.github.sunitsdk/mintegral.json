@@ -1,0 +1,133 @@
+{
+  "coordinate": "io.github.sunitsdk:mintegral",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "14.6.01.1": {
+      "fetchedAt": "2026-10-25T07:50:38Z",
+      "sha256": "20344034dc0b886dee2544b724a1a566268d9f1f0910b9419700b0c7946b6528",
+      "dependencies": [
+        "com.mintegral.msdk:common:14.6.01",
+        "com.mintegral.msdk:interactiveads:14.6.01",
+        "com.mintegral.msdk:interstitial:14.6.01",
+        "com.mintegral.msdk:interstitialvideo:14.6.01",
+        "com.mintegral.msdk:mtgbanner:14.6.01",
+        "com.mintegral.msdk:mtgjscommon:14.6.01",
+        "com.mintegral.msdk:mtgnative:14.6.01",
+        "com.mintegral.msdk:nativeex:14.6.01",
+        "com.mintegral.msdk:playercommon:14.6.01",
+        "com.mintegral.msdk:reward:14.6.01",
+        "com.mintegral.msdk:videocommon:14.6.01",
+        "com.mintegral.msdk:videojs:14.6.01",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "14.6.01.2": {
+      "fetchedAt": "2026-10-25T07:50:37Z",
+      "sha256": "20344034dc0b886dee2544b724a1a566268d9f1f0910b9419700b0c7946b6528",
+      "dependencies": [
+        "com.mintegral.msdk:common:14.6.01",
+        "com.mintegral.msdk:interactiveads:14.6.01",
+        "com.mintegral.msdk:interstitial:14.6.01",
+        "com.mintegral.msdk:interstitialvideo:14.6.01",
+        "com.mintegral.msdk:mtgbanner:14.6.01",
+        "com.mintegral.msdk:mtgjscommon:14.6.01",
+        "com.mintegral.msdk:mtgnative:14.6.01",
+        "com.mintegral.msdk:nativeex:14.6.01",
+        "com.mintegral.msdk:playercommon:14.6.01",
+        "com.mintegral.msdk:reward:14.6.01",
+        "com.mintegral.msdk:videocommon:14.6.01",
+        "com.mintegral.msdk:videojs:14.6.01",
+        "io.github.sunitsdk:san-sdk:3.1.0.2"
+      ]
+    },
+    "14.6.01.3": {
+      "fetchedAt": "2026-10-25T07:50:36Z",
+      "sha256": "20344034dc0b886dee2544b724a1a566268d9f1f0910b9419700b0c7946b6528",
+      "dependencies": [
+        "com.mintegral.msdk:common:14.6.01",
+        "com.mintegral.msdk:interactiveads:14.6.01",
+        "com.mintegral.msdk:interstitial:14.6.01",
+        "com.mintegral.msdk:interstitialvideo:14.6.01",
+        "com.mintegral.msdk:mtgbanner:14.6.01",
+        "com.mintegral.msdk:mtgjscommon:14.6.01",
+        "com.mintegral.msdk:mtgnative:14.6.01",
+        "com.mintegral.msdk:nativeex:14.6.01",
+        "com.mintegral.msdk:playercommon:14.6.01",
+        "com.mintegral.msdk:reward:14.6.01",
+        "com.mintegral.msdk:videocommon:14.6.01",
+        "com.mintegral.msdk:videojs:14.6.01",
+        "io.github.sunitsdk:san-sdk:3.1.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mintegral.msdk.activity.MTGCommonActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "14.6.01.1",
+          "14.6.01.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mintegral.msdk.interactiveads.activity.InteractiveShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "14.6.01.1",
+          "14.6.01.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mintegral.msdk.interstitial.view.MTGInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "14.6.01.1",
+          "14.6.01.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mintegral.msdk.reward.player.MTGRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "14.6.01.1",
+          "14.6.01.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

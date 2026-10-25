@@ -1,0 +1,30 @@
+{
+  "coordinate": "io.github.williamgufeng:collect",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:07:30Z",
+      "sha256": "59b4efe872757124472ab89688cc4039ea015d5d21abf4118be5187a0777fb1f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SensorsDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

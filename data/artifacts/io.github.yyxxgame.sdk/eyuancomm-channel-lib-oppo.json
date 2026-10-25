@@ -1,0 +1,196 @@
+{
+  "coordinate": "io.github.yyxxgame.sdk:eyuancomm-channel-lib-oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-rc2": {
+      "fetchedAt": "2026-10-25T08:23:31Z",
+      "sha256": "5d7b59e1abb4f5ca29ec2be470cd15d81e70229d073599bffdb36216e9461cf5",
+      "dependencies": []
+    },
+    "1.0.0-rc3": {
+      "fetchedAt": "2026-10-25T08:23:31Z",
+      "sha256": "5d7b59e1abb4f5ca29ec2be470cd15d81e70229d073599bffdb36216e9461cf5",
+      "dependencies": []
+    },
+    "1.0.0-rc4": {
+      "fetchedAt": "2026-10-25T08:23:31Z",
+      "sha256": "70f5dc7a912f7e106eff3934661b9d80fbe2b053761bd537faba73417cae1be2",
+      "dependencies": []
+    },
+    "1.0.0-rc7": {
+      "fetchedAt": "2026-10-25T08:23:30Z",
+      "sha256": "70f5dc7a912f7e106eff3934661b9d80fbe2b053761bd537faba73417cae1be2",
+      "dependencies": []
+    },
+    "1.0.0-rc8": {
+      "fetchedAt": "2026-10-25T08:23:30Z",
+      "sha256": "70f5dc7a912f7e106eff3934661b9d80fbe2b053761bd537faba73417cae1be2",
+      "dependencies": []
+    },
+    "1.0.0-rc10": {
+      "fetchedAt": "2026-10-25T08:23:29Z",
+      "sha256": "70f5dc7a912f7e106eff3934661b9d80fbe2b053761bd537faba73417cae1be2",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:23:29Z",
+      "sha256": "cf0bc3704063a7ca37c23437ec2d11316d96e8812d50b02639add5edb9ac8ef5",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:23:28Z",
+      "sha256": "70f5dc7a912f7e106eff3934661b9d80fbe2b053761bd537faba73417cae1be2",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:23:28Z",
+      "sha256": "70f5dc7a912f7e106eff3934661b9d80fbe2b053761bd537faba73417cae1be2",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:23:28Z",
+      "sha256": "acc643893db97d404c8026503e49c1cdfb2f9916fd9ebdeee374ac240cbd84e4",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:23:27Z",
+      "sha256": "acc643893db97d404c8026503e49c1cdfb2f9916fd9ebdeee374ac240cbd84e4",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T08:23:27Z",
+      "sha256": "acc643893db97d404c8026503e49c1cdfb2f9916fd9ebdeee374ac240cbd84e4",
+      "dependencies": []
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T08:23:26Z",
+      "sha256": "9a7fc6e47c438777c5a7e9af8d3394ffa6d172e6adf9b08dec031772c46269ee",
+      "dependencies": []
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T08:23:26Z",
+      "sha256": "9a7fc6e47c438777c5a7e9af8d3394ffa6d172e6adf9b08dec031772c46269ee",
+      "dependencies": []
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T08:23:25Z",
+      "sha256": "9a7fc6e47c438777c5a7e9af8d3394ffa6d172e6adf9b08dec031772c46269ee",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.CustomTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ExitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-rc2",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-rc2",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyApiService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-rc2",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyUserCenterOperateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-rc2",
+          "1.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.heytap.usercenter.account_logout",
+        "com.oppo.usercenter.account_login",
+        "com.oppo.usercenter.account_logout",
+        "com.oppo.usercenter.modify_name",
+        "com.usercenter.action.receiver.account_login"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

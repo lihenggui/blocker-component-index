@@ -1,0 +1,46 @@
+{
+  "coordinate": "io.github.yyxxgame.sdk:qingshi-gamesdk-labs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T08:24:15Z",
+      "sha256": "15a0971ee1ce29ff19838692b06c7ddb3f41f28506887bf536daed901ae6930d",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T08:24:14Z",
+      "sha256": "15a0971ee1ce29ff19838692b06c7ddb3f41f28506887bf536daed901ae6930d",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.qingshi.gamesdk.labs.LabsGameActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}-labs-game",
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

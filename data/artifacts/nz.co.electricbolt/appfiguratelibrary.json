@@ -1,0 +1,73 @@
+{
+  "coordinate": "nz.co.electricbolt:appfiguratelibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T09:48:59Z",
+      "sha256": "b9589bc0609e9b517700ca9a290be145788ceffc287679df6e53d3509339653c",
+      "dependencies": [
+        "androidx.security:security-crypto:1.1.0-alpha03"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T09:48:56Z",
+      "sha256": "8466f663be86dcab7afc824b9835af9b9adf0dfd036ba09f28c18ea6e9fb03bb",
+      "dependencies": [
+        "androidx.security:security-crypto:1.1.0-alpha05"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T09:48:58Z",
+      "sha256": "4d0c5312246be63070f81598e5fe3a2cc50186d902a73ad4103a4a42a3b44aff",
+      "dependencies": [
+        "androidx.security:security-crypto:1.1.0"
+      ]
+    },
+    "4.0.1": {
+      "fetchedAt": "2026-10-25T09:48:57Z",
+      "sha256": "4d0c5312246be63070f81598e5fe3a2cc50186d902a73ad4103a4a42a3b44aff",
+      "dependencies": [
+        "androidx.security:security-crypto:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "nz.co.electricbolt.appfiguratelibrary.InitializationContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.appfiguratelibraryinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "nz.co.electricbolt.appfiguratelibrary.TimeChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DATE_CHANGED",
+        "android.intent.action.TIME_SET"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

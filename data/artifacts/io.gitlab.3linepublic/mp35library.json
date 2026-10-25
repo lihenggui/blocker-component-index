@@ -1,0 +1,42 @@
+{
+  "coordinate": "io.gitlab.3linepublic:mp35library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:28:03Z",
+      "sha256": "cf56f1d36d0e11f56d312a168a0cbf68182fa6ac207ad6ba9c1abbdb1b21eeb5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.fragment:fragment-ktx:1.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "com.google.android.material:material:1.3.0-alpha02",
+        "com.google.code.gson:gson:2.10",
+        "com.madgag.spongycastle:core:1.58.0.0",
+        "com.madgag.spongycastle:prov:1.58.0.0",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.threeline.librarysdk.ui.EmvEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

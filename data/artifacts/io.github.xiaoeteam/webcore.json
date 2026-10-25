@@ -1,0 +1,122 @@
+{
+  "coordinate": "io.github.xiaoeteam:webcore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.9": {
+      "fetchedAt": "2026-10-25T08:16:23Z",
+      "sha256": "6de1d43f1036a6e41ef9fc24ded92c5dbca40036ea2a3c2f12bf5d912a381dbc",
+      "dependencies": []
+    },
+    "2.1.9.1": {
+      "fetchedAt": "2026-10-25T08:16:23Z",
+      "sha256": "d1c6670a8378bc9ef90040e64baa7b4c54c557ad3063857745ad8cc66bd49728",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.9",
+          "2.1.9.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.core.file.FileValueCallbackMiddleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.9",
+          "2.1.9.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.core.file.XEFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.9",
+          "2.1.9.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.core.permission.PermissionMiddleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.9",
+          "2.1.9.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.jssdk.image.imageselector.ImageSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.9",
+          "2.1.9.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.jssdk.image.preview.MoreImageShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.9",
+          "2.1.9.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

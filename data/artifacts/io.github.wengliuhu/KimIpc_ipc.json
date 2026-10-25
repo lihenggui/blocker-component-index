@@ -1,0 +1,66 @@
+{
+  "coordinate": "io.github.wengliuhu:KimIpc_ipc",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:06:50Z",
+      "sha256": "9f25f6bec84636461741c11907e2e48aa2febc66bd2fd6a190f2584d042aa29e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.2.1"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T08:06:49Z",
+      "sha256": "47386a31bb5838151c9b1fc5479bb93d334a2c97065a0b5e6eef14d0784f16ab",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.6",
+        "io.github.wengliuhu:Bus:1.7",
+        "io.reactivex.rxjava2:rxandroid:2.0.2",
+        "io.reactivex.rxjava2:rxjava:2.1.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.kim.ipc.IpcService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.kim.ipc"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.kim.ipc.KimContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

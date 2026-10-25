@@ -1,0 +1,207 @@
+{
+  "coordinate": "ir.metrix.notification:metrix-webview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.1.alpha": {
+      "fetchedAt": "2026-10-25T09:04:28Z",
+      "sha256": "e0f3536ff9429e1be3363a49a36d91c2f2168cb2dc2af72bc697bc083bd46a97",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "androidx.work:work-rxjava2:2.7.1",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-base:17.0.0",
+        "com.google.firebase:firebase-messaging:21.0.0",
+        "com.squareup.moshi:moshi:1.12.0",
+        "ir.metrix:core:1.6.1.alpha",
+        "ir.metrix:lifecycle:1.6.1.alpha",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
+      ]
+    },
+    "2.0.0.beta": {
+      "fetchedAt": "2026-10-25T09:04:28Z",
+      "sha256": "6997925813b985de1dd6f5ef7cf676c48f8720a3f1e073f2a643ea146d34c895",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "androidx.work:work-rxjava2:2.7.1",
+        "com.google.firebase:firebase-messaging:21.0.0",
+        "com.squareup.moshi:moshi:1.12.0",
+        "ir.metrix:core:2.0.0.beta",
+        "ir.metrix:lifecycle:2.0.0.beta",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
+      ]
+    },
+    "2.0.0.beta5": {
+      "fetchedAt": "2026-10-25T09:04:27Z",
+      "sha256": "6997925813b985de1dd6f5ef7cf676c48f8720a3f1e073f2a643ea146d34c895",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "androidx.work:work-rxjava2:2.7.1",
+        "com.google.firebase:firebase-messaging:21.0.0",
+        "com.squareup.moshi:moshi:1.12.0",
+        "ir.metrix:core:2.0.0.beta5",
+        "ir.metrix:lifecycle:2.0.0.beta5",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
+      ]
+    },
+    "2.0.0.beta7": {
+      "fetchedAt": "2026-10-25T09:04:27Z",
+      "sha256": "6997925813b985de1dd6f5ef7cf676c48f8720a3f1e073f2a643ea146d34c895",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "androidx.work:work-rxjava2:2.7.1",
+        "com.google.firebase:firebase-messaging:21.0.0",
+        "com.squareup.moshi:moshi:1.12.0",
+        "ir.metrix:core:2.0.0.beta7",
+        "ir.metrix:lifecycle:2.0.0.beta7",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
+      ]
+    },
+    "2.0.0.beta8": {
+      "fetchedAt": "2026-10-25T09:04:26Z",
+      "sha256": "6997925813b985de1dd6f5ef7cf676c48f8720a3f1e073f2a643ea146d34c895",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.work:work-runtime-ktx:2.7.1",
+        "androidx.work:work-rxjava2:2.7.1",
+        "com.google.firebase:firebase-messaging:21.0.0",
+        "com.squareup.moshi:moshi:1.12.0",
+        "ir.metrix:core:2.0.0.beta8",
+        "ir.metrix:lifecycle:2.0.0.beta8",
+        "me.leolin:ShortcutBadger:1.1.22",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ir.metrix.notification.push.NotificationActionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.6.1.alpha",
+          "2.0.0.beta8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.metrix.notification.push.NotificationAppInstaller$DownloadCompleteNotificationClickReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.1.alpha",
+          "2.0.0.beta8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.metrix.notification.push.NotificationAppInstaller$DownloadCompleteReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.1.alpha",
+          "2.0.0.beta8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.metrix.notification.push.ScheduledNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.1.alpha",
+          "2.0.0.beta8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.metrix.notification.receivers.BootCompletedIntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.1.alpha",
+          "2.0.0.beta8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.metrix.notification.ui.PopupDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.1.alpha",
+          "2.0.0.beta8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.metrix.notification.ui.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.1.alpha",
+          "2.0.0.beta8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "coordinate": "ru.bartwell:ultradebugger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T10:18:55Z",
+      "sha256": "d48d11253fe2c9ce20a8391939bdd02f3d03076717c8f5971f1f7ee2237ba75c",
+      "dependencies": [
+        "org.nanohttpd:nanohttpd:2.3.1",
+        "ru.bartwell:ultradebugger.base:1.0",
+        "ru.bartwell:ultradebugger.module.files:1.0",
+        "ru.bartwell:ultradebugger.module.info:1.0",
+        "ru.bartwell:ultradebugger.module.reflection:1.0",
+        "ru.bartwell:ultradebugger.module.sharedpreferences:1.0",
+        "ru.bartwell:ultradebugger.module.sqlite:1.0"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T10:18:55Z",
+      "sha256": "d48d11253fe2c9ce20a8391939bdd02f3d03076717c8f5971f1f7ee2237ba75c",
+      "dependencies": [
+        "org.nanohttpd:nanohttpd:2.3.1",
+        "ru.bartwell:ultradebugger.base:1.1",
+        "ru.bartwell:ultradebugger.module.files:1.1",
+        "ru.bartwell:ultradebugger.module.info:1.1",
+        "ru.bartwell:ultradebugger.module.logger:1.1",
+        "ru.bartwell:ultradebugger.module.reflection:1.1",
+        "ru.bartwell:ultradebugger.module.sharedpreferences:1.1",
+        "ru.bartwell:ultradebugger.module.sqlite:1.1"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T10:18:54Z",
+      "sha256": "344640683979f4c7455116dffeb411215699fcea9359e052a11347f54074e395",
+      "dependencies": [
+        "org.nanohttpd:nanohttpd:2.3.1",
+        "ru.bartwell:ultradebugger.base:1.2",
+        "ru.bartwell:ultradebugger.module.files:1.2",
+        "ru.bartwell:ultradebugger.module.info:1.2",
+        "ru.bartwell:ultradebugger.module.logger:1.2",
+        "ru.bartwell:ultradebugger.module.reflection:1.2",
+        "ru.bartwell:ultradebugger.module.sharedpreferences:1.2",
+        "ru.bartwell:ultradebugger.module.sqlite:1.2"
+      ]
+    },
+    "1.3": {
+      "fetchedAt": "2026-10-25T10:18:54Z",
+      "sha256": "03247e31cb40c2da3f1caf478409f7841f337053791f8c7dd5404346ce097d47",
+      "dependencies": [
+        "org.nanohttpd:nanohttpd:2.3.1",
+        "ru.bartwell:ultradebugger.base:1.3",
+        "ru.bartwell:ultradebugger.module.files:1.3",
+        "ru.bartwell:ultradebugger.module.info:1.3",
+        "ru.bartwell:ultradebugger.module.logger:1.3",
+        "ru.bartwell:ultradebugger.module.reflection:1.3",
+        "ru.bartwell:ultradebugger.module.sharedpreferences:1.3",
+        "ru.bartwell:ultradebugger.module.sqlite:1.3",
+        "ru.bartwell:ultradebugger.wrapper:1.3"
+      ]
+    },
+    "1.4": {
+      "fetchedAt": "2026-10-25T10:18:53Z",
+      "sha256": "03247e31cb40c2da3f1caf478409f7841f337053791f8c7dd5404346ce097d47",
+      "dependencies": [
+        "org.nanohttpd:nanohttpd:2.3.1",
+        "ru.bartwell:ultradebugger.base:1.4",
+        "ru.bartwell:ultradebugger.module.files:1.4",
+        "ru.bartwell:ultradebugger.module.info:1.4",
+        "ru.bartwell:ultradebugger.module.logger:1.4",
+        "ru.bartwell:ultradebugger.module.reflection:1.4",
+        "ru.bartwell:ultradebugger.module.sharedpreferences:1.4",
+        "ru.bartwell:ultradebugger.module.sqlite:1.4",
+        "ru.bartwell:ultradebugger.wrapper:1.4"
+      ]
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T10:18:52Z",
+      "sha256": "e9577104f346dd6fdd7e9f050f8381e8af70214661a12f44689893343168a0c2",
+      "dependencies": [
+        "org.nanohttpd:nanohttpd:2.3.1",
+        "ru.bartwell:ultradebugger.base:1.4.1",
+        "ru.bartwell:ultradebugger.module.files:1.4.1",
+        "ru.bartwell:ultradebugger.module.info:1.4.1",
+        "ru.bartwell:ultradebugger.module.logger:1.4.1",
+        "ru.bartwell:ultradebugger.module.reflection:1.4.1",
+        "ru.bartwell:ultradebugger.module.sharedpreferences:1.4.1",
+        "ru.bartwell:ultradebugger.module.sqlite:1.4.1",
+        "ru.bartwell:ultradebugger.wrapper:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.bartwell.ultradebugger.ServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

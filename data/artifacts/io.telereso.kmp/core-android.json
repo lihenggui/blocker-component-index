@@ -1,0 +1,32 @@
+{
+  "coordinate": "io.telereso.kmp:core-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.20.0-wasm.1": {
+      "fetchedAt": "2026-10-25T08:59:35Z",
+      "sha256": "2cc79d6c77ae67f3122e39cf20c5ebe252b727b1b6f773e19de8fc1ca4e2991f",
+      "dependencies": [
+        "androidx.core:core:1.12.0",
+        "androidx.lifecycle:lifecycle-process:2.8.0",
+        "app.cash.sqldelight:android-driver:2.1.0-wasm.2",
+        "app.cash.sqldelight:runtime:2.1.0-wasm.2",
+        "com.russhwolf:multiplatform-settings-coroutines:1.2.0",
+        "com.russhwolf:multiplatform-settings-no-arg:1.2.0",
+        "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "io.github.aakira:napier:2.7.1",
+        "io.ktor:ktor-client-auth:3.0.1",
+        "io.ktor:ktor-client-content-negotiation:3.0.1",
+        "io.ktor:ktor-client-core:3.0.1",
+        "io.ktor:ktor-client-logging:3.0.1",
+        "io.ktor:ktor-client-okhttp:3.0.1",
+        "io.ktor:ktor-serialization-kotlinx-json:3.0.1",
+        "io.telereso.kmp:annotations:0.20.0-wasm.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.6.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    }
+  },
+  "components": []
+}

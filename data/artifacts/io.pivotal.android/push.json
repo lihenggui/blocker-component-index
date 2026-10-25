@@ -1,0 +1,162 @@
+{
+  "coordinate": "io.pivotal.android:push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.1": {
+      "fetchedAt": "2026-10-25T08:49:36Z",
+      "sha256": "5f3bb3539c97bd9f5e9bc00a4940e26546046436b06a28f16a4a5cd8d8655b78",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.android.support:support-annotations:23.3.0",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.android.gms:play-services-location:8.4.0",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "1.6.2": {
+      "fetchedAt": "2026-10-25T08:49:36Z",
+      "sha256": "77ebed433745f50fc735f88c54a90b5b79b92aca7f932c14a3630c8004f9c5a7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.android.support:support-annotations:23.3.0",
+        "com.google.android.gms:play-services-gcm:8.4.0",
+        "com.google.android.gms:play-services-location:8.4.0",
+        "com.google.code.gson:gson:2.4"
+      ]
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-25T08:49:35Z",
+      "sha256": "9e41621f3fb76ba2ebafe627f170d33f9c94a7cdaabfc62e4d6f479548ed9050",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:support-annotations:24.2.1",
+        "com.google.android.gms:play-services-location:9.4.0",
+        "com.google.code.gson:gson:2.4",
+        "com.google.firebase:firebase-core:9.4.0",
+        "com.google.firebase:firebase-messaging:9.4.0"
+      ]
+    },
+    "1.7.1": {
+      "fetchedAt": "2026-10-25T08:49:34Z",
+      "sha256": "c2b7695f60a3a78bd7e1f7bd88c0393d4fe097e23692daf83becb0031474e042",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.android.support:support-annotations:24.2.1",
+        "com.google.android.gms:play-services-location:9.4.0",
+        "com.google.code.gson:gson:2.4",
+        "com.google.firebase:firebase-core:9.4.0",
+        "com.google.firebase:firebase-messaging:9.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.pivotal.android.push.fcm.FcmTokenIDService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.7.0",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pivotal.android.push.receiver.AnalyticsEventsSenderAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pivotal.android.push.receiver.BootCompletedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.pivotal.android.push.service.AnalyticsEventService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.6.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pivotal.android.push.service.GcmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.6.1",
+          "1.6.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.pivotal.android.push.service.GeofenceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.6.1",
+          "1.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

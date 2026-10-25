@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.replay:replay-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.1": {
+      "fetchedAt": "2026-10-25T08:54:45Z",
+      "sha256": "8126c5b3afc2dd9014ee6bde146a2c4654066088865543fcae3a76d91af13867",
+      "dependencies": [
+        "replay-android:jobqueue:unspecified"
+      ]
+    },
+    "0.9.2": {
+      "fetchedAt": "2026-10-25T08:54:44Z",
+      "sha256": "4e278e27f428f58eacee1d803833cf61913cba04582071fe1b4d4a76ea977fe6",
+      "dependencies": []
+    },
+    "0.9.4": {
+      "fetchedAt": "2026-10-25T08:54:43Z",
+      "sha256": "61b349416235750003abfead92c354b6335ee719c0ed5f91143e7ad75b7a2e7a",
+      "dependencies": []
+    },
+    "0.9.5": {
+      "fetchedAt": "2026-10-25T08:54:43Z",
+      "sha256": "7ba9d1f2a7e0e77da9c1003983980e0c68836f08bbb18ebda79aac4999cfe10f",
+      "dependencies": []
+    },
+    "0.9.6": {
+      "fetchedAt": "2026-10-25T08:54:42Z",
+      "sha256": "03eaabea9e6b4a1edb6ff1b4eb3353c41ccd2a0cee7600693403d93095c71af0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "io.replay.framework.ReplayWatchdogService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.1",
+          "0.9.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

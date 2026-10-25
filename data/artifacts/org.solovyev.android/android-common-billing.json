@@ -1,0 +1,51 @@
+{
+  "coordinate": "org.solovyev.android:android-common-billing",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.18": {
+      "fetchedAt": "2026-10-25T10:11:52Z",
+      "sha256": "6dc084f7708ccbc1f2f0b41897faee4be020178b9a7141d3c6c8bb84fd01b687",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "net.robotmedia.billing.BillingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.18",
+          "1.1.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.billing.IN_APP_NOTIFY",
+        "com.android.vending.billing.PURCHASE_STATE_CHANGED",
+        "com.android.vending.billing.RESPONSE_CODE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.robotmedia.billing.BillingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.18",
+          "1.1.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

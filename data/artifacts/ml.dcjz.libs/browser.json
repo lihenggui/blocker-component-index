@@ -1,0 +1,30 @@
+{
+  "coordinate": "ml.dcjz.libs:browser",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:32:55Z",
+      "sha256": "054c882c0f701d19f220a2774d5ca0063e01ba015a3b36e43b370a679ce236da",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

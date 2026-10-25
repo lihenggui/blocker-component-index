@@ -1,0 +1,146 @@
+{
+  "coordinate": "io.github.takenet:blipchat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.25": {
+      "fetchedAt": "2026-10-25T07:52:42Z",
+      "sha256": "907379c921e0e839077254a1f611d79ff0701a2a0b24e6a0a2035e6a86ac6c13",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.9"
+      ]
+    },
+    "2.1.25.1": {
+      "fetchedAt": "2026-10-25T07:52:41Z",
+      "sha256": "1e8eb8fd120f9849c9de63a8edffc813d7e6a9280ed4c46a7f80c92680c3d47c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.9"
+      ]
+    },
+    "2.1.25.2": {
+      "fetchedAt": "2026-10-25T07:52:40Z",
+      "sha256": "9afd1f507f5895316f9419d6fa9ae479a368fe4ef7c0a423b5338204c6f05588",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.code.gson:gson:2.8.9"
+      ]
+    },
+    "2.1.25.5": {
+      "fetchedAt": "2026-10-25T07:52:35Z",
+      "sha256": "30d32df0de09410b8e8441a7a674e960f0dc4e40d43bf919c8c9efcbc51d6605",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "3.0.00.7": {
+      "fetchedAt": "2026-10-25T07:52:39Z",
+      "sha256": "fb528164db032fdba64da69c7e48934f0153e8fb4e1f6b0418f4a4508c24cc01",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "3.0.00.8": {
+      "fetchedAt": "2026-10-25T07:52:38Z",
+      "sha256": "fb528164db032fdba64da69c7e48934f0153e8fb4e1f6b0418f4a4508c24cc01",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "3.0.00.9": {
+      "fetchedAt": "2026-10-25T07:52:38Z",
+      "sha256": "fb528164db032fdba64da69c7e48934f0153e8fb4e1f6b0418f4a4508c24cc01",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "3.0.01.0": {
+      "fetchedAt": "2026-10-25T07:52:37Z",
+      "sha256": "fb528164db032fdba64da69c7e48934f0153e8fb4e1f6b0418f4a4508c24cc01",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "3.0.01.1": {
+      "fetchedAt": "2026-10-25T07:52:37Z",
+      "sha256": "fb528164db032fdba64da69c7e48934f0153e8fb4e1f6b0418f4a4508c24cc01",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "3.0.01.2": {
+      "fetchedAt": "2026-10-25T07:52:36Z",
+      "sha256": "fb528164db032fdba64da69c7e48934f0153e8fb4e1f6b0418f4a4508c24cc01",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.take.blipchat.activities.ThreadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.25",
+          "2.1.25"
+        ],
+        [
+          "2.1.25.5",
+          "3.0.01.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.take.blipchat.activities.ThreadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.25.1",
+          "2.1.25.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.take.blipchat.providers.BlipChatProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.25",
+          "3.0.01.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.blipchat.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

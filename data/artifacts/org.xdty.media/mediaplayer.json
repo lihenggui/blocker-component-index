@@ -1,0 +1,34 @@
+{
+  "coordinate": "org.xdty.media:mediaplayer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T10:15:13Z",
+      "sha256": "fa219cd18bd2209ece7651f54e24b2a8c334f52be1b6a89b71d0494deedf30fd",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "tv.danmaku.ijk.media:ijkplayer-armv7a:0.4.4.1",
+        "tv.danmaku.ijk.media:ijkplayer-java:0.4.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tv.danmaku.ijk.mediaplayer.PlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "coordinate": "io.ona.kujaku:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T08:47:44Z",
+      "sha256": "f5acb65dc7f9ce6da719d7c49f58bc5acd582a79e0d4ae9ca2b3191fd576711a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:cardview-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.android.volley:volley:1.1.0",
+        "com.cocoahero.android:geojson:1.0.1",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.jakewharton.threetenabp:threetenabp:1.1.1",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.karumi:dexter:5.0.0",
+        "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v7:0.6.0",
+        "com.mapbox.mapboxsdk:mapbox-android-sdk:8.3.3",
+        "com.snatik:storage:2.1.0",
+        "io.ona.kujaku:utils:0.8.0",
+        "io.realm:realm-android-library:4.1.1",
+        "io.realm:realm-annotations:4.1.1",
+        "org.simpleframework:simple-xml:2.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.ona.kujaku.activities.MapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.ona.kujaku.receivers.KujakuNetworkChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.ona.kujaku.services.MapboxOfflineDownloaderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.ona.kujaku.services.TrackingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

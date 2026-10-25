@@ -1,0 +1,128 @@
+{
+  "coordinate": "net.veloxity.sdk:vlxhybrid-applist",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:45:28Z",
+      "sha256": "5b7d60d8660c27d24ad6559562309c6f7ca6b835623b221b675e0fcf273b655e",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.2",
+        "net.veloxity.sdk:vlxhybrid-core-data:0.0.2",
+        "net.veloxity.sdk:vlxhybrid-core:0.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:45:27Z",
+      "sha256": "5b7d60d8660c27d24ad6559562309c6f7ca6b835623b221b675e0fcf273b655e",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.5",
+        "net.veloxity.sdk:vlxhybrid-core-data:0.0.5",
+        "net.veloxity.sdk:vlxhybrid-core:0.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T09:45:26Z",
+      "sha256": "5b7d60d8660c27d24ad6559562309c6f7ca6b835623b221b675e0fcf273b655e",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.6",
+        "net.veloxity.sdk:vlxhybrid-core-data:0.0.6",
+        "net.veloxity.sdk:vlxhybrid-core:0.0.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T09:45:26Z",
+      "sha256": "5b7d60d8660c27d24ad6559562309c6f7ca6b835623b221b675e0fcf273b655e",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.7",
+        "net.veloxity.sdk:vlxhybrid-core-data:0.0.7",
+        "net.veloxity.sdk:vlxhybrid-core:0.0.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T09:45:25Z",
+      "sha256": "5b7d60d8660c27d24ad6559562309c6f7ca6b835623b221b675e0fcf273b655e",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "net.veloxity.sdk:vlxhybrid-common:0.0.8",
+        "net.veloxity.sdk:vlxhybrid-core-data:0.0.8",
+        "net.veloxity.sdk:vlxhybrid-core:0.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:45:24Z",
+      "sha256": "8433bc2f85ebfac159baffd99017cbe896ed70afc58a03ebc232561138e14b2a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "net.veloxity.sdk:vlxhybrid-common:1.0.1",
+        "net.veloxity.sdk:vlxhybrid-core-data:1.0.1",
+        "net.veloxity.sdk:vlxhybrid-core:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T09:45:23Z",
+      "sha256": "08625491424052191e95792f6ae66242649aa9ccb157ec6b6fa552da68f21f79",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "net.veloxity.sdk:vlxhybrid-common:1.0.3",
+        "net.veloxity.sdk:vlxhybrid-core-data:1.0.3",
+        "net.veloxity.sdk:vlxhybrid-core:1.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.veloxity.sdk.hybrid_applist.PackageActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_FULLY_REMOVED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "net.veloxity.sdk.PackageActionReceiver"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.veloxity.sdk.hybrid_applist.PackageActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_FULLY_REMOVED",
+        "android.intent.action.PACKAGE_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

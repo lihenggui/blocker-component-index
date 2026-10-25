@@ -1,0 +1,89 @@
+{
+  "coordinate": "io.github.wankey.mithril:share",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:06:05Z",
+      "sha256": "c9179bdccd69877525d4617c3ff643900633271e05f3c43e697f488175ee529a",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "io.reactivex.rxjava2:rxjava:2.1.17",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51",
+        "top.zibin:Luban:1.1.8"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T08:06:05Z",
+      "sha256": "e6e73a3589c75d68c07224081c8f14b0b65776a7e41f44389256d97ecd2089ff",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "io.reactivex.rxjava2:rxjava:2.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.60",
+        "top.zibin:Luban:1.1.8"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T08:06:04Z",
+      "sha256": "26ad7f7c3700273944f4588edb334e4f7efe10c28c60a45fd63c896f210aa70e",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.11.0",
+        "io.reactivex.rxjava2:rxjava:2.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.60",
+        "top.zibin:Luban:1.1.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.wankey.mithril.share.ShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

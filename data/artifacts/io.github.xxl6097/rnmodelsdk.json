@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.github.xxl6097:rnmodelsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0": {
+      "fetchedAt": "2026-10-25T08:17:34Z",
+      "sha256": "c37c3e73e09c1a97069d8f26d754254cbc042ac102655a661bb4938934be6ee0",
+      "dependencies": []
+    },
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T08:17:33Z",
+      "sha256": "c37c3e73e09c1a97069d8f26d754254cbc042ac102655a661bb4938934be6ee0",
+      "dependencies": []
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T08:17:32Z",
+      "sha256": "485908058ea891781972d27d186c409e5611291708602429bbf43530d46156d7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.api.broadcast.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

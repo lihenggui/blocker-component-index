@@ -1,0 +1,111 @@
+{
+  "coordinate": "love.nuoyan.android:auth_qq",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:18:22Z",
+      "sha256": "8cebd0c5067e7337d36e29df5605507c8e64090f9164874a5e83c6782e0332f2",
+      "dependencies": []
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:18:22Z",
+      "sha256": "8cebd0c5067e7337d36e29df5605507c8e64090f9164874a5e83c6782e0332f2",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:18:21Z",
+      "sha256": "8cebd0c5067e7337d36e29df5605507c8e64090f9164874a5e83c6782e0332f2",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T09:18:20Z",
+      "sha256": "a3190c752dd588191235486d8ac92955be68c0e9a71128bc634662f90203cc4e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:18:19Z",
+      "sha256": "a3190c752dd588191235486d8ac92955be68c0e9a71128bc634662f90203cc4e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T09:18:19Z",
+      "sha256": "a3190c752dd588191235486d8ac92955be68c0e9a71128bc634662f90203cc4e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T09:18:18Z",
+      "sha256": "a3190c752dd588191235486d8ac92955be68c0e9a71128bc634662f90203cc4e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tauth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "love.nuoyan.android.auth.qq.AuthActivityForQQ",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

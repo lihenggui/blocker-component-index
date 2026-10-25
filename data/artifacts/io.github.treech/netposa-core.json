@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.github.treech:netposa-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:00:52Z",
+      "sha256": "06df92fcaf441d7ba482e51aa2a9b5375a66979cf7dcd6d8a2072bfb00e5eedc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.netposa.commonsdk.core.ContextProviderInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider-init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

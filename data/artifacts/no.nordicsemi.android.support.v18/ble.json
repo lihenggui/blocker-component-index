@@ -1,0 +1,51 @@
+{
+  "coordinate": "no.nordicsemi.android.support.v18:ble",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.4": {
+      "fetchedAt": "2026-10-25T09:48:28Z",
+      "sha256": "e390f5973cc01d7bec50d0cd971d4cf6fdc2138f4993775725b26429d1c3d4b0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.4",
+          "1.4.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "no.nordicsemi.android.support.v18.ACTION_FOUND"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "no.nordicsemi.android.support.v18.scanner.ScannerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.4",
+          "1.4.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

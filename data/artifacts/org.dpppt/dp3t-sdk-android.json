@@ -1,0 +1,463 @@
+{
+  "coordinate": "org.dpppt:dp3t-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T09:54:09Z",
+      "sha256": "81de36ce338a6d904164790853d80abfe5d6690a8a61f947354627cf36bc3ec6",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0-rc03",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.5.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.2.0-calibration": {
+      "fetchedAt": "2026-10-25T09:54:09Z",
+      "sha256": "8ba4258c3e7f7d77dc06b916bccbde893f728172742cc9a1aa54ae8fdde7351c",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0-rc03",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.5.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T09:54:08Z",
+      "sha256": "0c43b44cd84864d3057fef4f9fdf03b3a82f1f9d3bf3ce1b66c5f1ac54a4fe63",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-calibration": {
+      "fetchedAt": "2026-10-25T09:54:07Z",
+      "sha256": "cb29acde4fad10dd7ff27302e7feecdf256a267067a3552c154ef21fb2326f45",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-6": {
+      "fetchedAt": "2026-10-25T09:54:06Z",
+      "sha256": "066e1d7eecd8b673baf6d434f6af29f18683be59039b692ec9ec2fb04e421810",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0-rc03",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.5.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-6-calibration": {
+      "fetchedAt": "2026-10-25T09:54:06Z",
+      "sha256": "766c0dd5e5ecd49068de5c85e4b214d0c08084293b9554b41ba20e19f790e84c",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0-rc03",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.5.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-7": {
+      "fetchedAt": "2026-10-25T09:54:05Z",
+      "sha256": "d2797976824da19d1829f84f2af6a1085d7e1700101e97337252170ffa2a9559",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0-rc03",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.5.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-7-calibration": {
+      "fetchedAt": "2026-10-25T09:54:04Z",
+      "sha256": "8704551ab1ab3f5de6c17c7553b30c576a6e4da0ad0cdab2c1e163f85fef248c",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0-rc03",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.5.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-8": {
+      "fetchedAt": "2026-10-25T09:54:03Z",
+      "sha256": "ec74e4e3d2c2b2cfdba4270d227f95119a639b2779f60963b36c7cc44984be93",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-8-calibration": {
+      "fetchedAt": "2026-10-25T09:54:03Z",
+      "sha256": "fef1ba329ea605134460fc58a59aed0370163cdccdd327f6f726ffc3940e452a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-10": {
+      "fetchedAt": "2026-10-25T09:54:02Z",
+      "sha256": "ebf5d3551bd77d44b5473ebe2476b815a8a708520840457629732bd6acfaf65e",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-10-calibration": {
+      "fetchedAt": "2026-10-25T09:54:01Z",
+      "sha256": "350a7c24afa57989c1dd4e2bf9c88aa2d191071dcbfae11d5095d645ea6cb47a",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-11": {
+      "fetchedAt": "2026-10-25T09:54:00Z",
+      "sha256": "f6cbe326215f38d6048b749cc902dad64dceb291d36464eb1d01de15c8c0a8a3",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.0-dev-11-calibration": {
+      "fetchedAt": "2026-10-25T09:54:00Z",
+      "sha256": "a65a4d2294f2cee3d5da68c1cf634d8c29bff6752bcdb48fe96ab8ef7706d2ee",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T09:53:59Z",
+      "sha256": "28a61c58248c060e54a10ae8933648b4610a82a5078f9eabc05cdfca7d75a726",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.1-calibration": {
+      "fetchedAt": "2026-10-25T09:53:58Z",
+      "sha256": "2f60e4fd832011969d8d255a49ccd7d83e7fa5fc6e0266eaedc8ebae7ead1065",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T09:53:58Z",
+      "sha256": "2a32f3e7e33f8800a5a4cb7ebc9efb26b78ccf004c62fcf6aecb1f92fa284270",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.2-calibration": {
+      "fetchedAt": "2026-10-25T09:53:57Z",
+      "sha256": "65d713a33c0947342033423c0382736d254d4a5bd6a9933fae479631154e3771",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.2-dev-13": {
+      "fetchedAt": "2026-10-25T09:53:56Z",
+      "sha256": "b3f6324093b63ed9a88f21febdea69357e6940aa254632610f222178671220c0",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    },
+    "2.3.2-dev-13-calibration": {
+      "fetchedAt": "2026-10-25T09:53:56Z",
+      "sha256": "dd28853b679104c6f71389266fc6c05236e71cea77eb93a827d4596fa40263bc",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.security:security-crypto:1.0.0",
+        "androidx.work:work-runtime-ktx:2.5.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-tasks:17.2.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.jsonwebtoken:jjwt-api:0.11.2",
+        "io.jsonwebtoken:jjwt-impl:0.11.2",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.2",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.dpppt.android.sdk.internal.BootCompletedBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.3.2-dev-13-calibration"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.dpppt.android.sdk.internal.TracingErrorsBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.3.2-dev-13-calibration"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.dpppt.android.sdk.internal.nearby.ExposureNotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.3.2-dev-13-calibration"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK",
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.exposurenotification.ACTION_EXPOSURE_NOT_FOUND",
+        "com.google.android.gms.exposurenotification.ACTION_EXPOSURE_STATE_UPDATED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

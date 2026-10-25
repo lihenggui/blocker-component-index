@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.github.szhittech:rnmodelsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.9": {
+      "fetchedAt": "2026-10-25T07:51:50Z",
+      "sha256": "75fc8bbcaaf2af644542f91a3f133c826d7ae006d5c49b621c4436254b732bc7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.api.broadcast.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.9",
+          "0.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "intent_alarm_action"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.android.api.broadcast.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.9",
+          "0.0.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "coordinate": "love.nuoyan.android:auth_zfb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:18:49Z",
+      "sha256": "a89cf3a07e15764165e2829b5f4834d1223f070bc0bb4294cbd545eb1e00013d",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:18:48Z",
+      "sha256": "a89cf3a07e15764165e2829b5f4834d1223f070bc0bb4294cbd545eb1e00013d",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:18:47Z",
+      "sha256": "a89cf3a07e15764165e2829b5f4834d1223f070bc0bb4294cbd545eb1e00013d",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T09:18:46Z",
+      "sha256": "76dead43bd2a9cda812520bc2edbb2adc3856a5e144d8367282085e4b1a7941a",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:18:46Z",
+      "sha256": "76dead43bd2a9cda812520bc2edbb2adc3856a5e144d8367282085e4b1a7941a",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T09:18:45Z",
+      "sha256": "76dead43bd2a9cda812520bc2edbb2adc3856a5e144d8367282085e4b1a7941a",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T09:18:44Z",
+      "sha256": "76dead43bd2a9cda812520bc2edbb2adc3856a5e144d8367282085e4b1a7941a",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "love.nuoyan.android.auth.zfb.AuthActivityForZFB",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

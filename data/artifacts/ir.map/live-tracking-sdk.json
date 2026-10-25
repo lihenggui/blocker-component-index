@@ -1,0 +1,117 @@
+{
+  "coordinate": "ir.map:live-tracking-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:02:29Z",
+      "sha256": "229e75e0a830c4c6490c1eebc1195ba6f7fdf12e71475aff8eb079c702fc6897",
+      "dependencies": [
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.protobuf:protobuf-lite:3.0.1",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:02:28Z",
+      "sha256": "d305813b7b0e30dd3d8d8d1c031dd3bebcde6a2d882719be82aba24c3c63b6e1",
+      "dependencies": [
+        "androidx.activity:activity:1.6.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.protobuf:protobuf-lite:3.0.1",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:02:27Z",
+      "sha256": "d305813b7b0e30dd3d8d8d1c031dd3bebcde6a2d882719be82aba24c3c63b6e1",
+      "dependencies": [
+        "androidx.activity:activity:1.6.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.protobuf:protobuf-lite:3.0.1",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ir.map.tracker.Publisher$LiveBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "TrackerServiceError",
+        "TrackerServiceInfo"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.map.tracker.Publisher$LiveBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "TrackerServiceError",
+        "TrackerServiceInfo"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.map.tracker.PublisherService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

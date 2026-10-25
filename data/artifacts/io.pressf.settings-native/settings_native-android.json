@@ -1,0 +1,36 @@
+{
+  "coordinate": "io.pressf.settings-native:settings_native-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T08:50:05Z",
+      "sha256": "6a4f391b0590b9eec630d36b5a0f84b18d388c604a9a28193688d3983bd81f27",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "1.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.pressf.settings_native.SettingsInitializer"
+      ]
+    }
+  ]
+}

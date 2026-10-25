@@ -1,0 +1,150 @@
+{
+  "coordinate": "io.github.mixpush:mixpush-vivo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T07:24:50Z",
+      "sha256": "236c11a6736dafd8265089630a3e696931e5bd10a61a99eca6bd08f5f972f70d",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.1.1"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T07:24:49Z",
+      "sha256": "236c11a6736dafd8265089630a3e696931e5bd10a61a99eca6bd08f5f972f70d",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.1"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T07:24:49Z",
+      "sha256": "de1ea7afc58e2cd2eefa8bde30179a8d1efb8a519337681166b8abe2f0c29618",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.2"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T07:24:48Z",
+      "sha256": "de1ea7afc58e2cd2eefa8bde30179a8d1efb8a519337681166b8abe2f0c29618",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.3"
+      ]
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-25T07:24:48Z",
+      "sha256": "de1ea7afc58e2cd2eefa8bde30179a8d1efb8a519337681166b8abe2f0c29618",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.4"
+      ]
+    },
+    "2.3.6": {
+      "fetchedAt": "2026-10-25T07:24:47Z",
+      "sha256": "de1ea7afc58e2cd2eefa8bde30179a8d1efb8a519337681166b8abe2f0c29618",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.6"
+      ]
+    },
+    "2.3.7": {
+      "fetchedAt": "2026-10-25T07:24:47Z",
+      "sha256": "de1ea7afc58e2cd2eefa8bde30179a8d1efb8a519337681166b8abe2f0c29618",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.7"
+      ]
+    },
+    "2.3.8": {
+      "fetchedAt": "2026-10-25T07:24:46Z",
+      "sha256": "7f8318eec88e41ea3d339f5185efee960436a282357ce862e28bb7e051e092f6",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.8"
+      ]
+    },
+    "2.3.9": {
+      "fetchedAt": "2026-10-25T07:24:46Z",
+      "sha256": "747a9955b24f4f28d933f3702122f03f2f7fe4fad0cb7f4087c6e7941b469e61",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.9"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T07:24:45Z",
+      "sha256": "747a9955b24f4f28d933f3702122f03f2f7fe4fad0cb7f4087c6e7941b469e61",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mixpush.vivo.PushMessageReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mixpush.vivo.PushMessageReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

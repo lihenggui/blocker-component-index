@@ -1,0 +1,125 @@
+{
+  "coordinate": "io.sugo.android:sugo-android-sdk-wxj",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.7.4": {
+      "fetchedAt": "2026-10-25T08:58:56Z",
+      "sha256": "9194dd506a4da597c7e2d3df571aa3454c565a750ef6b9e071312a3dcd910c2f",
+      "dependencies": []
+    },
+    "2.7.5": {
+      "fetchedAt": "2026-10-25T08:58:55Z",
+      "sha256": "f7a62b360f14c1f89cd8dfeb696ab1774ffd5d72cc5406437e4688048a508564",
+      "dependencies": []
+    },
+    "2.7.6": {
+      "fetchedAt": "2026-10-25T08:58:54Z",
+      "sha256": "9e6be7af64ce946d215f66e8c909d40481eebc995cd1122d8e1b4b2915c5d52a",
+      "dependencies": []
+    },
+    "2.7.7": {
+      "fetchedAt": "2026-10-25T08:58:54Z",
+      "sha256": "be6a49ebf791edc46ec3c07afdbe89af4a0fcb4464654f4249c01d17d0cbd9e6",
+      "dependencies": []
+    },
+    "2.7.8": {
+      "fetchedAt": "2026-10-25T08:58:53Z",
+      "sha256": "85baf94c4acc899410f65fd85ed12c476adb19400b435a80d07d153cfc1ade67",
+      "dependencies": []
+    },
+    "2.7.9": {
+      "fetchedAt": "2026-10-25T08:58:53Z",
+      "sha256": "8a982b91d977002a6b2e2c76105e1404df29c3fe5a3090f1530a8e72a969b870",
+      "dependencies": []
+    },
+    "2.8.0": {
+      "fetchedAt": "2026-10-25T08:58:52Z",
+      "sha256": "452705a2d1d46087e23d5b442bd64861d7a8d9ab5d59c4aad31316a1fc960462",
+      "dependencies": []
+    },
+    "2.8.1": {
+      "fetchedAt": "2026-10-25T08:58:52Z",
+      "sha256": "5ce8003412deb02dd8e6d66fc91b8f00f45a399a76b6ddaf867c14973123e0c3",
+      "dependencies": []
+    },
+    "2.8.2": {
+      "fetchedAt": "2026-10-25T08:58:51Z",
+      "sha256": "c469c0491c47cc3761eb334fdb64b38ad8a590a6dd56c058fdde3d3b029466e8",
+      "dependencies": []
+    },
+    "2.8.3": {
+      "fetchedAt": "2026-10-25T08:58:51Z",
+      "sha256": "6651cb6b0d310e7437e3c12cbf62cd1c6871f5ef135ee143987473e12005c666",
+      "dependencies": []
+    },
+    "2.8.4": {
+      "fetchedAt": "2026-10-25T08:58:50Z",
+      "sha256": "b97c08e681e1ddaf763d3edc552decef2ca9e4c6230e6e2fd741ff5f98871ac5",
+      "dependencies": []
+    },
+    "2.8.5": {
+      "fetchedAt": "2026-10-25T08:58:49Z",
+      "sha256": "18b1b1a290e50719fce84a73ca9c486d7b574bbf1569b63b50fc89235b9611ce",
+      "dependencies": []
+    },
+    "2.8.6": {
+      "fetchedAt": "2026-10-25T08:58:49Z",
+      "sha256": "48abf4a05a59ee24dd685b9d238f3d1a9f3ef5e3b601a586d64d63362f379af4",
+      "dependencies": []
+    },
+    "2.8.7": {
+      "fetchedAt": "2026-10-25T08:58:48Z",
+      "sha256": "5ae75742d0f2c8d242afa03ca1268bb991f78113badeb2c33c41e2083edfaab5",
+      "dependencies": []
+    },
+    "2.8.8": {
+      "fetchedAt": "2026-10-25T08:58:47Z",
+      "sha256": "ff933cc15aeb523653bd2ae22b44bde8802a7b686f5f24c6654a9723c8317450",
+      "dependencies": []
+    },
+    "2.8.9": {
+      "fetchedAt": "2026-10-25T08:58:47Z",
+      "sha256": "a87b8d4fd09a273b7bba6014f76cf3fd0c4eae80a09e4eb727256e0b17e62d83",
+      "dependencies": []
+    },
+    "2.9.0": {
+      "fetchedAt": "2026-10-25T08:58:46Z",
+      "sha256": "f16754ef4ecce7ccf98a5b737b4df398311257190435aed78fe5068488f026c5",
+      "dependencies": []
+    },
+    "2.9.1": {
+      "fetchedAt": "2026-10-25T08:58:46Z",
+      "sha256": "b9a5c694d43f0cbe022d1e275561acf240dae63bbddb52832c88291419f25ede",
+      "dependencies": []
+    },
+    "2.9.2": {
+      "fetchedAt": "2026-10-25T08:58:45Z",
+      "sha256": "205e0a81c525a132af28ef76f7626bf60d933f2a1ee18b029930e7afc71fe783",
+      "dependencies": []
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-25T08:58:44Z",
+      "sha256": "d264712aa4d6ebab63d5b3dbe796f6b93dcf2d3b8d70566a8c7a9ea67967745b",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "io.sugo.android.initialize.lifecycle.SugoContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.4.0",
+          "3.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SugoContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "coordinate": "io.github.xanderwang:performance",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T08:16:00Z",
+      "sha256": "77c97bc845636246dcb4dd86fe03daadcf6e263d2dfb87d178ce609f7eb51380",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.github.xanderwang:asu:0.2.0",
+        "io.github.xanderwang:hook:0.3.0",
+        "me.weishu:free_reflection:3.0.1"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-25T08:15:59Z",
+      "sha256": "77c97bc845636246dcb4dd86fe03daadcf6e263d2dfb87d178ce609f7eb51380",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.github.xanderwang:asu:0.2.1",
+        "io.github.xanderwang:hook:0.3.1",
+        "me.weishu:free_reflection:3.0.1"
+      ]
+    },
+    "0.3.2": {
+      "fetchedAt": "2026-10-25T08:15:58Z",
+      "sha256": "cebdfba0c07dc2df2f7fac3051fddb30555be3666bf0362fe825287ecbb28db2",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.github.xanderwang:asu:0.2.1",
+        "io.github.xanderwang:hook:0.3.1",
+        "me.weishu:free_reflection:3.0.1"
+      ]
+    },
+    "0.3.3": {
+      "fetchedAt": "2026-10-25T08:15:58Z",
+      "sha256": "cebdfba0c07dc2df2f7fac3051fddb30555be3666bf0362fe825287ecbb28db2",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "io.github.xanderwang:asu:0.2.1",
+        "io.github.xanderwang:hook:0.3.1",
+        "me.weishu:free_reflection:3.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.3.0",
+          "0.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.github.xanderwang.performance.PerfInitializer"
+      ]
+    }
+  ]
+}

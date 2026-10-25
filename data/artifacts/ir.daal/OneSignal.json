@@ -1,0 +1,319 @@
+{
+  "coordinate": "ir.daal:OneSignal",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.10.2": {
+      "fetchedAt": "2026-10-25T09:02:15Z",
+      "sha256": "60eb31a1bf8f49f72a844fc90ab8dd854d75e02e443447f73a2543fe9be304a3",
+      "dependencies": [
+        "com.android.support:customtabs:[26.0.0, 27.2.0)",
+        "com.android.support:support-v4:[26.0.0, 27.2.0)",
+        "com.google.android.gms:play-services-base:[10.2.1, 12.1.0)",
+        "com.google.android.gms:play-services-location:[10.2.1, 12.1.0)",
+        "com.google.firebase:firebase-messaging:[10.2.1, 12.1.0)"
+      ]
+    },
+    "3.10.3": {
+      "fetchedAt": "2026-10-25T09:02:14Z",
+      "sha256": "60eb31a1bf8f49f72a844fc90ab8dd854d75e02e443447f73a2543fe9be304a3",
+      "dependencies": [
+        "com.android.support:customtabs:[26.0.0, 27.2.0)",
+        "com.android.support:support-v4:[26.0.0, 27.2.0)",
+        "com.google.android.gms:play-services-base:[10.2.1, 12.1.0)",
+        "com.google.android.gms:play-services-location:[10.2.1, 12.1.0)",
+        "com.google.firebase:firebase-messaging:[10.2.1, 12.1.0)"
+      ]
+    },
+    "3.10.6": {
+      "fetchedAt": "2026-10-25T09:02:13Z",
+      "sha256": "592b2b9aaf772746eddf85543053f28c98799981de7039ea65aa81341d4baf1a",
+      "dependencies": [
+        "com.android.support:customtabs:[26.0.0, 27.2.0)",
+        "com.android.support:support-v4:[26.0.0, 27.2.0)",
+        "com.google.android.gms:play-services-base:[10.2.1, 12.1.0)",
+        "com.google.android.gms:play-services-location:[10.2.1, 12.1.0)",
+        "com.google.firebase:firebase-messaging:[10.2.1, 12.1.0)"
+      ]
+    },
+    "3.10.7.1": {
+      "fetchedAt": "2026-10-25T09:02:13Z",
+      "sha256": "592b2b9aaf772746eddf85543053f28c98799981de7039ea65aa81341d4baf1a",
+      "dependencies": [
+        "com.android.support:customtabs:[26.0.0, 27.2.0)",
+        "com.android.support:support-v4:[26.0.0, 27.2.0)",
+        "com.google.android.gms:play-services-base:[10.2.1, 12.1.0)",
+        "com.google.android.gms:play-services-location:[10.2.1, 12.1.0)",
+        "com.google.firebase:firebase-messaging:[10.2.1, 12.1.0)"
+      ]
+    },
+    "3.10.7.2": {
+      "fetchedAt": "2026-10-25T09:02:12Z",
+      "sha256": "592b2b9aaf772746eddf85543053f28c98799981de7039ea65aa81341d4baf1a",
+      "dependencies": [
+        "com.android.support:customtabs:[26.0.0, 27.2.0)",
+        "com.android.support:support-v4:[26.0.0, 27.2.0)",
+        "com.google.android.gms:play-services-base:[10.2.1, 12.1.0)",
+        "com.google.android.gms:play-services-location:[10.2.1, 12.1.0)",
+        "com.google.firebase:firebase-messaging:[10.2.1, 12.1.0)"
+      ]
+    },
+    "3.10.7.3": {
+      "fetchedAt": "2026-10-25T09:02:12Z",
+      "sha256": "592b2b9aaf772746eddf85543053f28c98799981de7039ea65aa81341d4baf1a",
+      "dependencies": [
+        "com.android.support:customtabs:[26.0.0, 27.2.0)",
+        "com.android.support:support-v4:[26.0.0, 27.2.0)",
+        "com.google.android.gms:play-services-base:[10.2.1, 12.1.0)",
+        "com.google.android.gms:play-services-location:[10.2.1, 12.1.0)",
+        "com.google.firebase:firebase-messaging:[10.2.1, 12.1.0)"
+      ]
+    },
+    "3.10.7.4": {
+      "fetchedAt": "2026-10-25T09:02:11Z",
+      "sha256": "592b2b9aaf772746eddf85543053f28c98799981de7039ea65aa81341d4baf1a",
+      "dependencies": [
+        "com.android.support:customtabs:[26.0.0, 27.2.0)",
+        "com.android.support:support-v4:[26.0.0, 27.2.0)",
+        "com.google.android.gms:play-services-base:[10.2.1, 12.1.0)",
+        "com.google.android.gms:play-services-location:[10.2.1, 12.1.0)",
+        "com.google.firebase:firebase-messaging:[10.2.1, 12.1.0)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.onesignal.BootUpReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_BOOT_COMPLETED",
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.BootUpReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.6",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.GcmBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.GcmIntentJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.GcmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.NotificationOpenedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.NotificationRestoreService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.PermissionsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.RestoreJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.RestoreKickoffJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.SyncJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.SyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.onesignal.UpgradeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.10.2",
+          "3.10.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

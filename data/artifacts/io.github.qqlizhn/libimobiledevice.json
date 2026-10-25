@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.github.qqlizhn:libimobiledevice",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-25T07:38:22Z",
+      "sha256": "c7289c953e8b303afb8ab86cd21c9867274e5a295054aed5a87dbe2432abb325",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.10.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:38:21Z",
+      "sha256": "c7289c953e8b303afb8ab86cd21c9867274e5a295054aed5a87dbe2432abb325",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.10.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T07:38:20Z",
+      "sha256": "c7289c953e8b303afb8ab86cd21c9867274e5a295054aed5a87dbe2432abb325",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.magic.libimobiledevice.DataService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

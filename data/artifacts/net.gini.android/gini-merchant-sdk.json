@@ -1,0 +1,67 @@
+{
+  "coordinate": "net.gini.android:gini-merchant-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:41:27Z",
+      "sha256": "0a39c2497b02acc5bd65743bbf6aa25a254a3a5ba5f86409e90f55185dd67960",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.4.2",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.fragment:fragment-ktx:1.6.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.7.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.7.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.google.android.material:material:1.11.0",
+        "dev.chrisbanes.insetter:insetter:0.6.1",
+        "net.gini.android:gini-health-api-lib:4.3.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1",
+        "org.slf4j:slf4j-api:1.7.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.gini.android.merchant.sdk.util.MerchantSDKFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.merchant.sdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "net.gini.android.merchant.sdk.util.ShareWithBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

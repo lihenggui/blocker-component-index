@@ -1,0 +1,233 @@
+{
+  "coordinate": "ir.abrin:abrin-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.7.0": {
+      "fetchedAt": "2026-10-25T09:02:09Z",
+      "sha256": "727004caf2cb44e75993e6be3a536d4f5c82f4387d04113720aba7daccd6c716",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    },
+    "0.7.1": {
+      "fetchedAt": "2026-10-25T09:02:09Z",
+      "sha256": "a45dc59b60e09de8e8fa3edd5c317aa20a0382144d87a00e73043a6a5b11ffd7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    },
+    "0.7.2": {
+      "fetchedAt": "2026-10-25T09:02:08Z",
+      "sha256": "a45dc59b60e09de8e8fa3edd5c317aa20a0382144d87a00e73043a6a5b11ffd7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    },
+    "0.7.3": {
+      "fetchedAt": "2026-10-25T09:02:07Z",
+      "sha256": "0036ec8704169bad44136d79c6fcf65c639ce31ebaf9fdcb3deba7dd09a8305c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.4": {
+      "fetchedAt": "2026-10-25T09:02:07Z",
+      "sha256": "5c8889732e5e42d1d5a902a1be55ab1ffa59eef451bbc5ae0b0f47d9fb05d704",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.5": {
+      "fetchedAt": "2026-10-25T09:02:06Z",
+      "sha256": "caf8365130facff616e6bf978a65d5e7d4032560bb14e67bd0d7407695e2bcb7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.6": {
+      "fetchedAt": "2026-10-25T09:02:05Z",
+      "sha256": "de28dcd454232512fc4138f918457ed215278fc7d00f850f00a1c3f2a21ae1f6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.7": {
+      "fetchedAt": "2026-10-25T09:02:05Z",
+      "sha256": "c7bd170088a7c7ba4e259230143936a7d0d55945bc023646b2453ed3387f9f06",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.8": {
+      "fetchedAt": "2026-10-25T09:02:04Z",
+      "sha256": "66e30fa7e25b3cc3015d8b68b94bbfce496b8988963be9d7c987c11d69b2820e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.9": {
+      "fetchedAt": "2026-10-25T09:02:04Z",
+      "sha256": "81a60b1654034d78ffc1dfa30311695f99705e7f77188bd615881ccc3c9b3f58",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.10": {
+      "fetchedAt": "2026-10-25T09:02:03Z",
+      "sha256": "278de549615abb3919b6d096907429f6cbf7a342abc985d4368b8e211139ec5d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.7.11": {
+      "fetchedAt": "2026-10-25T09:02:02Z",
+      "sha256": "a977dc0cf69147becd8cdf7bc6694ed9d8cf1e1773451353de3e7742138e351d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-25T09:02:02Z",
+      "sha256": "3e39a94ca06cd47af326607705177fd775db834b0ce503e151da1465908fd589",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ir.abrin.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.abrin.service.AbrinBaseIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.abrin.service.NCenter",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.7.2"
+        ],
+        [
+          "0.7.4",
+          "0.7.8"
+        ]
+      ],
+      "exported": false,
+      "process": ":abrin",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ir.abrin.NetworkDispatcher"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.abrin.service.NCenter",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.7.9",
+          "0.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ir.abrin.NetworkDispatcher"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.abrin.service.NCenterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE",
+        "ir.abrin.intent.INITIATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.abrin.service.RegisterBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "ir.abrin.permission.MESSAGING",
+      "authorities": null,
+      "actions": [
+        "ir.abrin.intent.REGISTRATION_REQUEST"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ir.abrin.service.RegisterIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

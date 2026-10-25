@@ -1,0 +1,125 @@
+{
+  "coordinate": "net.feedify.sdk.push:feedify-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T09:40:28Z",
+      "sha256": "3d9a824f900c3f260256f111ae9661e83297ef6f6c553bf9a05128e5a90e3277",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:40:28Z",
+      "sha256": "3d9a824f900c3f260256f111ae9661e83297ef6f6c553bf9a05128e5a90e3277",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:40:27Z",
+      "sha256": "751e6742a9196dca8cf6725567d44903e8ceab738882cfdd49ab6f4a725a6251",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T09:40:26Z",
+      "sha256": "055f48877920fc6269bb944ed5f666e4be95997a599587395a1d2d937635b402",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T09:40:25Z",
+      "sha256": "fd49b7b14966c17623f7749108ef91c32c3673452438daa6ae180abbf950508c",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T09:40:25Z",
+      "sha256": "fd49b7b14966c17623f7749108ef91c32c3673452438daa6ae180abbf950508c",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T09:40:24Z",
+      "sha256": "fd49b7b14966c17623f7749108ef91c32c3673452438daa6ae180abbf950508c",
+      "dependencies": []
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T09:40:23Z",
+      "sha256": "fd49b7b14966c17623f7749108ef91c32c3673452438daa6ae180abbf950508c",
+      "dependencies": []
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T09:40:22Z",
+      "sha256": "fd49b7b14966c17623f7749108ef91c32c3673452438daa6ae180abbf950508c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.feed.sdk.push.FeedMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.feed.sdk.push.FeedMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.feed.sdk.push.activity.FeedSDKActionButton",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.feed.sdk.push.activity.FeedSDKActionButton$ButtonReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.github.watayouxiang.3rd:openDefault",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.6": {
+      "fetchedAt": "2026-10-25T08:06:08Z",
+      "sha256": "96ed7b2f35311c5bd92639eb94ec06ff7c996960d0f3381e2d31b5d0ba16f419",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sina.weibo.sdk.share.WbShareToStoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.6",
+          "4.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.WbShareTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.6",
+          "4.3.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.web.WeiboSdkWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.6",
+          "4.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "coordinate": "io.github.rakutenanalytics:analytics-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "10.1.0": {
+      "fetchedAt": "2026-10-25T07:39:01Z",
+      "sha256": "df2bc55f2639c19edd6649cf64b98209fe0bd2cdb75e41528e04c48407ca0766",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-appset:16.0.2",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:okhttp-urlconnection:4.11.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "com.squareup.okio:okio:3.2.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "10.1.1": {
+      "fetchedAt": "2026-10-25T07:39:00Z",
+      "sha256": "df2bc55f2639c19edd6649cf64b98209fe0bd2cdb75e41528e04c48407ca0766",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-appset:16.0.2",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:okhttp-urlconnection:4.11.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "com.squareup.okio:okio:3.2.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rakuten.tech.mobile.analytics.AnalyticsInitContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.1.0",
+          "10.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AnalyticsInitContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

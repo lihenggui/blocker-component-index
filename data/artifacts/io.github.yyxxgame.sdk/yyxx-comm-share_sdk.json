@@ -1,0 +1,206 @@
+{
+  "coordinate": "io.github.yyxxgame.sdk:yyxx-comm-share_sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.400": {
+      "fetchedAt": "2026-10-25T08:25:00Z",
+      "sha256": "3f795729459a80611596509370ecb42072860119345da02448549dfa5b35d9ec",
+      "dependencies": []
+    },
+    "3.0.404": {
+      "fetchedAt": "2026-10-25T08:24:59Z",
+      "sha256": "01ac7285234a52fc2d6963159cb8b6113d1c1b57e138ae03630dc1f4556f16d9",
+      "dependencies": []
+    },
+    "3.0.414": {
+      "fetchedAt": "2026-10-25T08:24:59Z",
+      "sha256": "4f8a2a2cb1be247de3a7b39deab306dc4a46a3e2226f0062ee4b299cb3617ca9",
+      "dependencies": []
+    },
+    "3.0.415": {
+      "fetchedAt": "2026-10-25T08:24:58Z",
+      "sha256": "4f8a2a2cb1be247de3a7b39deab306dc4a46a3e2226f0062ee4b299cb3617ca9",
+      "dependencies": []
+    },
+    "3.0.416": {
+      "fetchedAt": "2026-10-25T08:24:57Z",
+      "sha256": "4f8a2a2cb1be247de3a7b39deab306dc4a46a3e2226f0062ee4b299cb3617ca9",
+      "dependencies": []
+    },
+    "3.0.417": {
+      "fetchedAt": "2026-10-25T08:24:57Z",
+      "sha256": "4f8a2a2cb1be247de3a7b39deab306dc4a46a3e2226f0062ee4b299cb3617ca9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.414",
+          "3.0.417"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.400",
+          "3.0.404"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.hjhjy.xy.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.hjhjy.xy.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.400",
+          "3.0.404"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.400",
+          "3.0.417"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.ShareTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.400",
+          "3.0.417"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.web.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.400",
+          "3.0.417"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.400",
+          "3.0.417"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tauth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.400",
+          "3.0.417"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiyuan.hjhjy.gb.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.414",
+          "3.0.417"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

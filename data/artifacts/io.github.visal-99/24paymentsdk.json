@@ -1,0 +1,124 @@
+{
+  "coordinate": "io.github.visal-99:24paymentsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:04:38Z",
+      "sha256": "d8e06f7ea8b43936d8e1abe54976d1c1e276e8629292c0db85c22f1ec15e1823",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.10.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:logging-interceptor:4.11.0",
+        "com.squareup.picasso:picasso:2.8",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.socket:socket.io-client:2.1.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.28"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:04:37Z",
+      "sha256": "d8e06f7ea8b43936d8e1abe54976d1c1e276e8629292c0db85c22f1ec15e1823",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.10.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:logging-interceptor:4.11.0",
+        "com.squareup.picasso:picasso:2.8",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.socket:socket.io-client:2.1.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.28"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:04:37Z",
+      "sha256": "d8e06f7ea8b43936d8e1abe54976d1c1e276e8629292c0db85c22f1ec15e1823",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.10.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:logging-interceptor:4.11.0",
+        "com.squareup.picasso:picasso:2.8",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.socket:socket.io-client:2.1.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.28"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:04:36Z",
+      "sha256": "d8e06f7ea8b43936d8e1abe54976d1c1e276e8629292c0db85c22f1ec15e1823",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.10.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:logging-interceptor:4.11.0",
+        "com.squareup.picasso:picasso:2.8",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.socket:socket.io-client:2.1.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.28"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:04:35Z",
+      "sha256": "d8e06f7ea8b43936d8e1abe54976d1c1e276e8629292c0db85c22f1ec15e1823",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.10.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:logging-interceptor:4.11.0",
+        "com.squareup.picasso:picasso:2.8",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.socket:socket.io-client:2.1.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.28"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.bill24.online-paymentsdk",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bill24.b24paymentsdk.SuccessActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.github.yongzheng7:module-nfc",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:19:01Z",
+      "sha256": "f7fa3fcc010b6776aced2fe26f74a1a889ca73f97705469d432b87893feec3a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.google.android.material:material:1.1.0",
+        "com.google.guava:guava:30.1.1-android"
+      ]
+    },
+    "2.0": {
+      "fetchedAt": "2026-10-25T08:19:01Z",
+      "sha256": "48ae76a34378c41de0ffeeae845d5cb31ea2c7ad4df0e6f01e280ab5a436e09d",
+      "dependencies": [
+        "com.google.guava:guava:30.1.1-android"
+      ]
+    },
+    "3.0": {
+      "fetchedAt": "2026-10-25T08:19:00Z",
+      "sha256": "06dc6856d8c9740b2cf7d1b963c1ca239ca54c6f8fc6a3e5489d461d0d3ebca3",
+      "dependencies": [
+        "com.google.guava:guava:30.1.1-android"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.atom.module.nfc.NFCActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.nfc.action.TAG_DISCOVERED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

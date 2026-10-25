@@ -1,0 +1,144 @@
+{
+  "coordinate": "org.microg.nlp:geocode-v1",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0-alpha1": {
+      "fetchedAt": "2026-10-25T10:05:54Z",
+      "sha256": "178d65ac7100c0e825b71705ebcb28e0cc5c6191daf99b75b63e75533ce6bd24",
+      "dependencies": [
+        "org.microg.nlp:client:2.0-alpha1"
+      ]
+    },
+    "2.0-alpha2": {
+      "fetchedAt": "2026-10-25T10:05:53Z",
+      "sha256": "a0819848baca539985d3a3193069f62d43da00fd5f45cfb926b54d972ccf3136",
+      "dependencies": [
+        "org.microg.nlp:client:2.0-alpha2"
+      ]
+    },
+    "2.0-alpha3": {
+      "fetchedAt": "2026-10-25T10:05:52Z",
+      "sha256": "f6ce3c7b7631648b8cc70f964cab7b6a3a81bec489407857ad3f1b3a371fc06c",
+      "dependencies": [
+        "org.microg.nlp:client:2.0-alpha3"
+      ]
+    },
+    "2.0-alpha4": {
+      "fetchedAt": "2026-10-25T10:05:52Z",
+      "sha256": "95724fc7c77b9490b0a4eb1d44b3d1c34e4413487604b5fa953c67dfaf37519f",
+      "dependencies": [
+        "org.microg.nlp:client:2.0-alpha4"
+      ]
+    },
+    "2.0-alpha5": {
+      "fetchedAt": "2026-10-25T10:05:51Z",
+      "sha256": "ff62c60db5299ea11e9b02523616dabd4e44a35b0d8aecc748ef609cb55e4c78",
+      "dependencies": [
+        "org.microg.nlp:client:2.0-alpha5"
+      ]
+    },
+    "2.0-alpha6": {
+      "fetchedAt": "2026-10-25T10:05:50Z",
+      "sha256": "c7eb61bd32b190f05add9faef7c09632a67ee45038d879f0b57ab39dba18ed4e",
+      "dependencies": [
+        "org.microg.nlp:client:2.0-alpha6"
+      ]
+    },
+    "2.0-alpha7": {
+      "fetchedAt": "2026-10-25T10:05:49Z",
+      "sha256": "f4e32685a1a6d4dea44e71dd961c4f558c8d610285369000eae29a92ee75af26",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:client:2.0-alpha7"
+      ]
+    },
+    "2.0-alpha8": {
+      "fetchedAt": "2026-10-25T10:05:49Z",
+      "sha256": "f4e32685a1a6d4dea44e71dd961c4f558c8d610285369000eae29a92ee75af26",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:client:2.0-alpha8"
+      ]
+    },
+    "2.0-alpha9": {
+      "fetchedAt": "2026-10-25T10:05:48Z",
+      "sha256": "f4e32685a1a6d4dea44e71dd961c4f558c8d610285369000eae29a92ee75af26",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:client:2.0-alpha9"
+      ]
+    },
+    "2.0-alpha10": {
+      "fetchedAt": "2026-10-25T10:05:47Z",
+      "sha256": "f4e32685a1a6d4dea44e71dd961c4f558c8d610285369000eae29a92ee75af26",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "org.microg.nlp:client:2.0-alpha10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.microg.nlp.geocode.v1.GeocodeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0-alpha1",
+          "2.0-alpha2"
+        ]
+      ],
+      "exported": true,
+      "process": ":geocservice",
+      "permission": "android.permission.INTERNET",
+      "authorities": null,
+      "actions": [
+        "com.android.location.service.GeocodeProvider",
+        "com.google.android.location.GeocodeProvider"
+      ],
+      "categories": [],
+      "metaData": [
+        "serviceIsMultiuser",
+        "serviceVersion"
+      ]
+    },
+    {
+      "name": "org.microg.nlp.geocode.v1.GeocodeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0-alpha3",
+          "2.0-alpha10"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INTERNET",
+      "authorities": null,
+      "actions": [
+        "com.android.location.service.GeocodeProvider",
+        "com.google.android.location.GeocodeProvider"
+      ],
+      "categories": [],
+      "metaData": [
+        "serviceIsMultiuser",
+        "serviceVersion"
+      ]
+    }
+  ]
+}

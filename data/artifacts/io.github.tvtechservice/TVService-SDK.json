@@ -1,0 +1,115 @@
+{
+  "coordinate": "io.github.tvtechservice:TVService-SDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "03.00.01": {
+      "fetchedAt": "2026-10-25T08:01:32Z",
+      "sha256": "75562f964423d6a57f118a8a2642f875cfa007db92dd162cfb0e59b798a0fdf4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.concurrent:concurrent-futures:1.1.0",
+        "androidx.core:core:1.9.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.google.code.gson:gson:2.8.6",
+        "org.conscrypt:conscrypt-android:2.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pci.beacon.BeaconIntentProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "03.00.01",
+          "03.00.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pci.beacon.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "03.00.01",
+          "03.00.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pci.beacon.service.ScanJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "03.00.01",
+          "03.00.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "immediateScanJobId",
+        "periodicScanJobId"
+      ]
+    },
+    {
+      "name": "com.pci.beacon.startup.StartupBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "03.00.01",
+          "03.00.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pci.bluetooth.BluetoothTestJob",
+      "type": "service",
+      "versionRanges": [
+        [
+          "03.00.01",
+          "03.00.01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "jobId"
+      ]
+    }
+  ]
+}

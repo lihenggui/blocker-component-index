@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.github.pedrolobo98:SmH-DigitalAssistant-Library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:35:44Z",
+      "sha256": "cba715f59b6494ac21532bbe6afb19b7220b9f8d0f4bf7e020d42b0e18317a09",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.core:core-splashscreen:1.0.0-rc01",
+        "androidx.databinding:viewbinding:4.2.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.preference:preference-ktx:1.2.0",
+        "androidx.security:security-crypto:1.1.0-alpha03",
+        "com.budiyev.android:code-scanner:2.1.0",
+        "com.github.lecho:hellocharts-library:1.5.8",
+        "com.github.mmin18:realtimeblurview:1.2.1",
+        "com.github.zagum:SpeechRecognitionView:1.2.2",
+        "com.google.android.material:material:1.5.0",
+        "com.google.android.material:material:1.7.0-alpha01",
+        "com.squareup.okhttp3:okhttp:4.2.1",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "im.dacer:AndroidCharts:1.0.4",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.smh_digitalassistant_library.activities.MedicActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smh_digitalassistant_library.activities.PatientActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

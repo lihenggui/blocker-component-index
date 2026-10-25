@@ -1,0 +1,202 @@
+{
+  "coordinate": "io.github.mixpush:mixpush-oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T07:24:44Z",
+      "sha256": "8d6c874dcb4de58df051719aef33a984a08adef9cf0b76e85f14ecd6f7ea3d34",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.1.1"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T07:24:44Z",
+      "sha256": "8d6c874dcb4de58df051719aef33a984a08adef9cf0b76e85f14ecd6f7ea3d34",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.1"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T07:24:43Z",
+      "sha256": "819bfdf256940333092a30b093c3945ef24de99201d1a63baef97df6003335ee",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.2"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T07:24:43Z",
+      "sha256": "819bfdf256940333092a30b093c3945ef24de99201d1a63baef97df6003335ee",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.3"
+      ]
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-25T07:24:42Z",
+      "sha256": "819bfdf256940333092a30b093c3945ef24de99201d1a63baef97df6003335ee",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.4"
+      ]
+    },
+    "2.3.6": {
+      "fetchedAt": "2026-10-25T07:24:42Z",
+      "sha256": "819bfdf256940333092a30b093c3945ef24de99201d1a63baef97df6003335ee",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.6"
+      ]
+    },
+    "2.3.7": {
+      "fetchedAt": "2026-10-25T07:24:41Z",
+      "sha256": "819bfdf256940333092a30b093c3945ef24de99201d1a63baef97df6003335ee",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.7"
+      ]
+    },
+    "2.3.8": {
+      "fetchedAt": "2026-10-25T07:24:41Z",
+      "sha256": "819bfdf256940333092a30b093c3945ef24de99201d1a63baef97df6003335ee",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.8"
+      ]
+    },
+    "2.3.9": {
+      "fetchedAt": "2026-10-25T07:24:40Z",
+      "sha256": "1f67db2c868afacb200a04df75fd6f4b5f5bbcbb8ef7825b5b9604e184a4891a",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.9"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T07:24:40Z",
+      "sha256": "1f67db2c868afacb200a04df75fd6f4b5f5bbcbb8ef7825b5b9604e184a4891a",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mixpush.oppo.OppoMessageReceiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "com.mixpush.oppo.message"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.mixpush.oppo.OppoMessageReceiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "com.mixpush.oppo.message"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "coordinate": "io.github.rakutenanalytics:analytics-rat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "10.1.0": {
+      "fetchedAt": "2026-10-25T07:39:02Z",
+      "sha256": "770242d487a95b750f2317e9de6ed9def9531dc6f770c595701256103177740e",
+      "dependencies": [
+        "androidx.concurrent:concurrent-futures-ktx:1.1.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.gson:gson:2.10.1",
+        "io.github.rakutenanalytics:analytics-core:10.1.0"
+      ]
+    },
+    "10.1.1": {
+      "fetchedAt": "2026-10-25T07:39:02Z",
+      "sha256": "770242d487a95b750f2317e9de6ed9def9531dc6f770c595701256103177740e",
+      "dependencies": [
+        "androidx.concurrent:concurrent-futures-ktx:1.1.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.gson:gson:2.10.1",
+        "io.github.rakutenanalytics:analytics-core:10.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rakuten.tech.mobile.analytics.geo.receiver.LocationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "10.1.0",
+          "10.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.rakuten.tech.mobile.analytics.rat.LocationBroadcastReceiver.PROCESS_UPDATES"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

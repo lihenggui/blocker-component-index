@@ -1,0 +1,35 @@
+{
+  "coordinate": "ng.simplepay.gateway-dev:gateway",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T09:47:19Z",
+      "sha256": "144fd4bddabfe4aac2bcfbb3a87a812c53297893fd6d5d697665493161a27113",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.1",
+        "com.android.support:gridlayout-v7:22.2.1",
+        "com.android.support:support-v4:22.2.1",
+        "com.koushikdutta.ion:ion:2.1.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ng.simplepay.gateway.Gateway",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.2",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

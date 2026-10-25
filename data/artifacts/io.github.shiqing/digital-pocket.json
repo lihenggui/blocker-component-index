@@ -1,0 +1,2013 @@
+{
+  "coordinate": "io.github.shiqing:digital-pocket",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.18-wozhaoche1.2": {
+      "fetchedAt": "2026-10-25T07:45:07Z",
+      "sha256": "9117e54846d1466cdfdc2dd28de8419f7f3063b72eaf7afdae101759cc1b945c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcode:1.30.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:Rxpermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.gyf.immersionbar:immersionbar:3.0.0",
+        "com.jacktuotuo.customview:verificationcodeview:1.0.5",
+        "com.scwang.smart:refresh-footer-classics:2.0.3",
+        "com.scwang.smart:refresh-header-classics:2.0.3",
+        "com.scwang.smart:refresh-layout-kernel:2.0.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv-static:1.2.11",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65"
+      ]
+    },
+    "2.1.18-xinke1.1": {
+      "fetchedAt": "2026-10-25T07:45:06Z",
+      "sha256": "1a9aa707ded5cb810fb8b95a53d2879eefcf9d13014015e9b5b6d7b1d8cfa9d8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.camera:camera-camera2:1.1.0-rc02",
+        "androidx.camera:camera-lifecycle:1.1.0-rc02",
+        "androidx.camera:camera-view:1.1.0-rc02",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:Rxpermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.jacktuotuo.customview:verificationcodeview:1.0.5",
+        "com.scwang.smart:refresh-footer-classics:2.0.3",
+        "com.scwang.smart:refresh-header-classics:2.0.3",
+        "com.scwang.smart:refresh-layout-kernel:2.0.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65"
+      ]
+    },
+    "2.1.18-xinke1.3": {
+      "fetchedAt": "2026-10-25T07:45:05Z",
+      "sha256": "9117e54846d1466cdfdc2dd28de8419f7f3063b72eaf7afdae101759cc1b945c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.camera:camera-camera2:1.1.0-rc02",
+        "androidx.camera:camera-lifecycle:1.1.0-rc02",
+        "androidx.camera:camera-view:1.1.0-rc02",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:Rxpermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.jacktuotuo.customview:verificationcodeview:1.0.5",
+        "com.scwang.smart:refresh-footer-classics:2.0.3",
+        "com.scwang.smart:refresh-header-classics:2.0.3",
+        "com.scwang.smart:refresh-layout-kernel:2.0.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65"
+      ]
+    },
+    "2.1.18-xinke1.4": {
+      "fetchedAt": "2026-10-25T07:45:04Z",
+      "sha256": "9117e54846d1466cdfdc2dd28de8419f7f3063b72eaf7afdae101759cc1b945c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.jenly1314:zxing-lite:2.1.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:Rxpermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.jacktuotuo.customview:verificationcodeview:1.0.5",
+        "com.scwang.smart:refresh-footer-classics:2.0.3",
+        "com.scwang.smart:refresh-header-classics:2.0.3",
+        "com.scwang.smart:refresh-layout-kernel:2.0.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65"
+      ]
+    },
+    "2.1.18-xinke1.5": {
+      "fetchedAt": "2026-10-25T07:45:04Z",
+      "sha256": "9117e54846d1466cdfdc2dd28de8419f7f3063b72eaf7afdae101759cc1b945c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.1.0",
+        "androidx.lifecycle:lifecycle-livedata:2.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.1.0",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.jenly1314:zxing-lite:2.1.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:Rxpermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.jacktuotuo.customview:verificationcodeview:1.0.5",
+        "com.scwang.smart:refresh-footer-classics:2.0.3",
+        "com.scwang.smart:refresh-header-classics:2.0.3",
+        "com.scwang.smart:refresh-layout-kernel:2.0.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65"
+      ]
+    },
+    "2.1.18-xinke1.6": {
+      "fetchedAt": "2026-10-25T07:45:03Z",
+      "sha256": "9117e54846d1466cdfdc2dd28de8419f7f3063b72eaf7afdae101759cc1b945c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.1.0",
+        "androidx.lifecycle:lifecycle-livedata:2.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.1.0",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.jenly1314:zxing-lite:2.1.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:Rxpermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.scwang.smart:refresh-footer-classics:2.0.3",
+        "com.scwang.smart:refresh-header-classics:2.0.3",
+        "com.scwang.smart:refresh-layout-kernel:2.0.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65"
+      ]
+    },
+    "2.1.18-xinke1.7": {
+      "fetchedAt": "2026-10-25T07:45:02Z",
+      "sha256": "9117e54846d1466cdfdc2dd28de8419f7f3063b72eaf7afdae101759cc1b945c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.1.0",
+        "androidx.lifecycle:lifecycle-livedata:2.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.1.0",
+        "androidx.multidex:multidex:2.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.jenly1314:zxing-lite:2.1.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:Rxpermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.scwang.smart:refresh-footer-classics:2.0.3",
+        "com.scwang.smart:refresh-header-classics:2.0.3",
+        "com.scwang.smart:refresh-layout-kernel:2.0.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65"
+      ]
+    },
+    "2.1.19": {
+      "fetchedAt": "2026-10-25T07:45:01Z",
+      "sha256": "31a8803348caf85c92fd4f252ceff9a6f0961d5a360ee95c3350abf908b6701c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:RxPermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T07:45:00Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:RxPermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-25T07:44:59Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:RxPermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.2": {
+      "fetchedAt": "2026-10-25T07:44:58Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:RxPermissions:v0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.3": {
+      "fetchedAt": "2026-10-25T07:44:57Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.4": {
+      "fetchedAt": "2026-10-25T07:44:57Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83_noneautotype",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.5": {
+      "fetchedAt": "2026-10-25T07:44:56Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83_noneautotype",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.6": {
+      "fetchedAt": "2026-10-25T07:44:55Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83_noneautotype",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.7": {
+      "fetchedAt": "2026-10-25T07:44:54Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83_noneautotype",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.8": {
+      "fetchedAt": "2026-10-25T07:44:53Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83_noneautotype",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:DeviceCompat:2.3",
+        "com.github.getActivity:XXPermissions:28.0",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "2.2.9": {
+      "fetchedAt": "2026-10-25T07:44:52Z",
+      "sha256": "df707b89de65e6bd416fd49c99d012fe9ceca146a3bd508a935e225b03569ad7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83_noneautotype",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:DeviceCompat:2.3",
+        "com.github.getActivity:XXPermissions:28.0",
+        "com.github.ihsanbal:LoggingInterceptor:3.0.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.3.0",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T07:44:51Z",
+      "sha256": "59e4b2bd77cea3e569b1fb8287ba03959bb8212ae6e2c2049363866ef844c62d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.compose.ui:ui-graphics:1.0.0-rc01",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.1",
+        "androidx.lifecycle:lifecycle-livedata:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.room:room-runtime:2.4.2",
+        "androidx.security:security-crypto:1.1.0-alpha03",
+        "cn.hutool:hutool-all:5.8.4",
+        "com.alibaba:fastjson:1.2.83",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7",
+        "com.github.JessYanCoding:AndroidAutoSize:v1.2.1",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.github.getActivity:XXPermissions:18.63",
+        "com.github.ihsanbal:LoggingInterceptor:3.1.0",
+        "com.github.jenly1314:zxing-lite:2.2.1",
+        "com.github.li-xiaojun:XPopup:2.8.6",
+        "com.github.tbruyelle:rxpermissions:0.12",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.guava:guava:30.1.1-jre",
+        "com.google.zxing:core:3.5.1",
+        "com.jacktuotuo.customview:verificationcodeview:1.0.5",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "com.tencent:mmkv:1.2.13",
+        "com.uber.autodispose2:autodispose-android:2.1.1",
+        "com.uber.autodispose2:autodispose-androidx-lifecycle:2.1.1",
+        "com.umeng.umsdk:asms:1.4.1",
+        "com.umeng.umsdk:common:9.4.4",
+        "io.github.inflationx:calligraphy3:3.1.1",
+        "io.github.jeremyliao:live-event-bus-x:1.8.0",
+        "io.github.lucksiege:compress:v3.11.2",
+        "io.github.lucksiege:pictureselector:v3.11.2",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "jp.wasabeef:blurry:4.0.1",
+        "log4j:log4j:1.2.17",
+        "net.lingala.zip4j:zip4j:2.6.4",
+        "org.apache.commons:commons-lang3:3.0",
+        "org.bouncycastle:bcprov-jdk15on:1.65",
+        "org.projectlombok:lombok:1.18.24",
+        "org.slf4j:slf4j-api:1.7.30",
+        "org.slf4j:slf4j-log4j12:1.7.30",
+        "xerces:xercesImpl:2.11.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.ocr.ui.camera.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.service.LogService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.test.CardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.test.DemoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.test.InnerMemeryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.SplashActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.auth.AuthBridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.auth.AuthCallbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "2.2.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.auth.DidAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.auth.DidVcAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.auth.RouteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.card.ImportOrCreateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.card.createcard.CreateCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.card.importcard.ImportCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.card.importcard.ScanWordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.AgreementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.CardMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.CheckPhoneActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.2.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.CreateAccountActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.LoginByPhoneActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.MyWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "2.2.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.QrCodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.ScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.WebContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.addidentity.AddIdentityActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.addidentity.AuthenticationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.addidentity.CertificateApplyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.addidentity.ChooseUnionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.addidentity.FaceAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.addidentity.InputIdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.addidentity.OpenCtidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.main.authorization.AuthorizationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.ApplyCompanyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.ApplyUnionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.MemberActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.PreferentialBenefitsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.TransferVoucherActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.info.GroupInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.info.MemberCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.info.VerificationCouponActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.transfer.ApplyTransferActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.transfer.TransferInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.transfer.TransferQrCodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.member.welfare.ApplyWelfareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.19",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.AccountActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.AuthInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.AuthManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.AvatarActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.ChengduAreaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.ChengduManagerActiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.CredentialManageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.DeleteHistoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.FixPasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.HelpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.MineDidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.PrivacyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.SecretWordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.SettingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.ui.setting.WordVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youedata.digitalcard.util.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.18-wozhaoche1.2",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.timcommon.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

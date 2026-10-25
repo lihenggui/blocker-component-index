@@ -1,0 +1,147 @@
+{
+  "coordinate": "io.github.sinaweibosdk:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "13.10.4": {
+      "fetchedAt": "2026-10-25T07:46:19Z",
+      "sha256": "381bdf2c066dc0baea1db476c77bc2b59e59251817ffb962c66c9917b41feacc",
+      "dependencies": [
+        "androidx.core:core:1.10.1"
+      ]
+    },
+    "13.10.5": {
+      "fetchedAt": "2026-10-25T07:46:14Z",
+      "sha256": "c93698fb35e20b6cd767debb9a9942f1e8152ec2464ec3d8f09cd4be46e8ebb2",
+      "dependencies": [
+        "androidx.core:core:1.10.1"
+      ]
+    },
+    "13.10.5-ciopt-1": {
+      "fetchedAt": "2026-10-25T07:46:18Z",
+      "sha256": "c87c233d42b082dc2227558f2ad18b19a5aac212c0c3bf01c2e32e3d74646f90",
+      "dependencies": [
+        "androidx.core:core:1.10.1"
+      ]
+    },
+    "13.10.5-ciopt-2": {
+      "fetchedAt": "2026-10-25T07:46:18Z",
+      "sha256": "96481fc0b3001891d3e1804c61a5a1cc0f6002fcc7cf734dc65f1886fc0c41c8",
+      "dependencies": [
+        "androidx.core:core:1.10.1"
+      ]
+    },
+    "13.10.5-ciopt-3": {
+      "fetchedAt": "2026-10-25T07:46:17Z",
+      "sha256": "e1f4af78db2733dcea3d4ed63f9d0fc062d8b56b49f70ed7ddd8e540fca8546b",
+      "dependencies": [
+        "androidx.core:core:1.10.1"
+      ]
+    },
+    "13.10.5-ciopt-4": {
+      "fetchedAt": "2026-10-25T07:46:17Z",
+      "sha256": "fb97df5c54904dc5e187114a9018538ae14afca51c34fa35199739d26c0171f2",
+      "dependencies": [
+        "androidx.core:core:1.10.1"
+      ]
+    },
+    "13.10.6": {
+      "fetchedAt": "2026-10-25T07:46:16Z",
+      "sha256": "c067762a72941c994856fcce8a0fdf326960c8e5c5ebfcfb6f96b159f4527c13",
+      "dependencies": [
+        "androidx.core:core:1.16.0"
+      ]
+    },
+    "13.10.7": {
+      "fetchedAt": "2026-10-25T07:46:15Z",
+      "sha256": "2b6f21ac6d97c519f23b5a79af054a79e08849a02e7e9e31012cd73f003b2caf",
+      "dependencies": [
+        "androidx.core:core:1.16.0"
+      ]
+    },
+    "13.10.8": {
+      "fetchedAt": "2026-10-25T07:46:15Z",
+      "sha256": "763741a12e55458b8025f53a58b03e4b4b05537350fc292f789ad0b9b07ce829",
+      "dependencies": [
+        "androidx.core:core:1.16.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sina.weibo.sdk.content.FileProviderV2",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "13.10.4",
+          "13.10.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sina.weibo.sdk.content.WeiboSDKFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "13.10.4",
+          "13.10.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.wbsdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.ShareTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.10.4",
+          "13.10.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.web.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.10.4",
+          "13.10.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

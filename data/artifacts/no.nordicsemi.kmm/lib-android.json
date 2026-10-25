@@ -1,0 +1,53 @@
+{
+  "coordinate": "no.nordicsemi.kmm:lib-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:48:48Z",
+      "sha256": "a73b05e56b13e161811686c2aba795c4e728791dd371456d255f2ec24f86fd4a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.8.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "cafe.adriel.voyager:voyager-navigator:1.0.0-rc10",
+        "com.benasher44:uuid:0.8.0",
+        "io.github.aakira:napier:2.6.1",
+        "no.nordicsemi.android.common:permissions-ble:1.9.4",
+        "no.nordicsemi.android.common:permissions-internet:1.9.4",
+        "no.nordicsemi.android.kotlin.ble:advertiser:1.0.14",
+        "no.nordicsemi.android.kotlin.ble:client:1.0.14",
+        "no.nordicsemi.android.kotlin.ble:scanner:1.0.14",
+        "no.nordicsemi.android.kotlin.ble:server:1.0.14",
+        "org.jetbrains.compose.components:components-resources:1.5.11",
+        "org.jetbrains.compose.foundation:foundation:1.5.11",
+        "org.jetbrains.compose.material3:material3:1.5.11",
+        "org.jetbrains.compose.material:material-icons-extended:1.5.11",
+        "org.jetbrains.compose.runtime:runtime:1.5.11",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "setup.BleInitializer"
+      ]
+    }
+  ]
+}

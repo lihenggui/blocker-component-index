@@ -1,0 +1,277 @@
+{
+  "coordinate": "io.github.shichuanenhui:pictureselector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:44:33Z",
+      "sha256": "b597820789667a32c94b2df7ba9e628086dd8db2adc5e5ec97a57ce1549c74ce",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.camera:camera-lifecycle:1.1.0-alpha04",
+        "androidx.camera:camera-view:1.0.0-alpha24",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "com.github.zhaolewei:ZlwAudioRecorder:v1.07",
+        "com.squareup.okio:okio:1.17.5",
+        "io.github.shichuanenhui:ucrop:1.0.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:44:32Z",
+      "sha256": "0200d997a8ebbae9c8d77db244c13685b165bc3999ff9e701a22fbe1e310120d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.camera:camera-view:1.0.0-alpha24",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "androidx.transition:transition:1.4.1",
+        "com.squareup.okio:okio:1.17.5",
+        "io.github.shichuanenhui:audiorecorder:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.luck.picture.lib.PictureAudioRecordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureCustomCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureExternalPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.luckProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.luck.picture.lib.PicturePlayAudioActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PicturePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureSelectorCameraEmptyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureSelectorWeChatStyleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.PictureVideoPlayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yalantis.ucrop.PictureMultiCuttingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zlw.main.recorderlib.recorder.RecordService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

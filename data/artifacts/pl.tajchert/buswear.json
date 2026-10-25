@@ -1,0 +1,83 @@
+{
+  "coordinate": "pl.tajchert:buswear",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T10:16:06Z",
+      "sha256": "c0485efd19775ae45d98f8cc8042fbc8c2780362528ce6a2ec5083def5e215e4",
+      "dependencies": [
+        "com.google.android.gms:play-services:6.1.71"
+      ]
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-25T10:16:05Z",
+      "sha256": "a695831dad3195901c3a9bf1c702439b9feb041366911dd7087f4c21b71d2d61",
+      "dependencies": []
+    },
+    "0.9.2": {
+      "fetchedAt": "2026-10-25T10:16:05Z",
+      "sha256": "853b73bc92521ea486f61fbf8714296dae8f195fffd7a3b3526d6332105ee22a",
+      "dependencies": []
+    },
+    "0.9.3": {
+      "fetchedAt": "2026-10-25T10:16:04Z",
+      "sha256": "853b73bc92521ea486f61fbf8714296dae8f195fffd7a3b3526d6332105ee22a",
+      "dependencies": []
+    },
+    "0.9.4": {
+      "fetchedAt": "2026-10-25T10:16:04Z",
+      "sha256": "49df1d359332f81289b04ce217dd1eb0826ea680d6e25c1eb4247446850cc46a",
+      "dependencies": []
+    },
+    "0.9.5": {
+      "fetchedAt": "2026-10-25T10:16:03Z",
+      "sha256": "6521694aa0b63c4279d4e8c84dc6ddb935bf4a6b698b8f2d4b2e58c034d4a4e0",
+      "dependencies": []
+    },
+    "0.9.6": {
+      "fetchedAt": "2026-10-25T10:16:02Z",
+      "sha256": "6521694aa0b63c4279d4e8c84dc6ddb935bf4a6b698b8f2d4b2e58c034d4a4e0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "pl.tajchert.buswear.EventCatcher",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.2",
+          "0.9.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.wearable.BIND_LISTENER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "pl.tajchert.buswear.wear.EventCatcher",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.5",
+          "0.9.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.wearable.BIND_LISTENER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

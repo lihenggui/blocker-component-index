@@ -1,0 +1,107 @@
+{
+  "coordinate": "org.restcomm:restcomm-android-qos-sdk-qoslib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3-alpha-1": {
+      "fetchedAt": "2026-10-25T10:11:07Z",
+      "sha256": "57542473bbb229d4f442fc37a96a72109b8b6bf8185505c01c520dc865b58da8",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.0",
+        "org.restcomm:restcomm-android-qos-sdk-mmcextension:1.0.3-alpha-1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.restcomm.app.qoslib.BootListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3-alpha-1",
+          "1.0.3-alpha-1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.restcomm.app.qoslib.MainService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3-alpha-1",
+          "1.0.3-alpha-1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.restcomm.app.qoslib.Services.Intents.IntentHandler",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3-alpha-1",
+          "1.0.3-alpha-1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.restcomm.app.qoslib.Utils.EventDetailWeb",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3-alpha-1",
+          "1.0.3-alpha-1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.restcomm.app.qoslib.Utils.EventHistory",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3-alpha-1",
+          "1.0.3-alpha-1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

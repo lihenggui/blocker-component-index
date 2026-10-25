@@ -1,0 +1,54 @@
+{
+  "coordinate": "io.github.singlewolf:TakePhoto",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:46:20Z",
+      "sha256": "a5cee511a0d84d5505c12418780ad3e6234569179c4c8f9ad4d438e2731ef524",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.darsh.multipleimageselect:multipleimageselect:1.0.5",
+        "com.soundcloud.android.crop:lib_crop:1.0.0",
+        "me.shaohui.advancedluban:library:1.3.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.soundcloud.android.crop.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.devio.takephoto.app.PhotoFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.PhotoFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "coordinate": "io.upnext.beaconcontrol:beaconcontrol",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:00:40Z",
+      "sha256": "d52cb0070325609be25e33b2dd2b29ed0defb4fb5d760168598b3c858f478ed2",
+      "dependencies": [
+        "com.android.support:support-v4:25.0.1",
+        "com.squareup.okhttp3:okhttp-urlconnection:3.5.0",
+        "com.squareup.okhttp3:okhttp:3.5.0",
+        "com.squareup.retrofit2:converter-jackson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "org.altbeacon:android-beacon-library:2.9.2"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:00:40Z",
+      "sha256": "25eb5ae70f18af79b5f34acfac6adeaf78efd651b0746ac98c93f96c1fb53dcf",
+      "dependencies": [
+        "com.android.support:support-v4:25.0.1",
+        "com.squareup.okhttp3:okhttp-urlconnection:3.5.0",
+        "com.squareup.okhttp3:okhttp:3.5.0",
+        "com.squareup.retrofit2:converter-jackson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "org.altbeacon:android-beacon-library:2.9.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.upnext.beaconcontrol.sdk.backend.events.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.upnext.beaconcontrol.sdk.backend.service.BeaconActionProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.upnext.beaconcontrol.sdk.backend.service.BeaconConfigurationChangeProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.upnext.beaconcontrol.sdk.backend.service.BeaconProximityChangeProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.upnext.beaconcontrol.sdk.backend.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.upnext.beaconcontrol.sdk.BeaconService.ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

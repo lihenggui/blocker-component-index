@@ -1,0 +1,70 @@
+{
+  "coordinate": "me.dm7.jrengage.android:jrengage",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.4": {
+      "fetchedAt": "2026-10-25T09:22:10Z",
+      "sha256": "c443ac4741d653bcf5988c3152233fc6075f072b2cfc25618745440d8c799485",
+      "dependencies": [
+        "com.android.support:support-v4:20.0.0"
+      ]
+    },
+    "3.5": {
+      "fetchedAt": "2026-10-25T09:22:10Z",
+      "sha256": "971f370d613af30e5093e5771577b7927217cd18507983d80aa7800156b1eea5",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    },
+    "3.6": {
+      "fetchedAt": "2026-10-25T09:22:09Z",
+      "sha256": "e45e306a5ab814006472636289f1f821c1ef95de78716ce61a419d570934687b",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.0"
+      ]
+    },
+    "3.8": {
+      "fetchedAt": "2026-10-25T09:22:08Z",
+      "sha256": "c17528038841638ab9e95254993246a8094d2287e5346f99378ed3678bcf9cd4",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.janrain.android.engage.ui.JRFragmentHostActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8",
+          "3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.janrain.android.engage.ui.JRFragmentHostActivity$Fullscreen",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.8",
+          "3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

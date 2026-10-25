@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.veep.android:test_library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:01:18Z",
+      "sha256": "6f7ee0e58856799962b58c4d192c17f6be428578c003e5786cca1bd2025a2a8a",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:26.0.0-alpha1",
+        "com.squareup.picasso:picasso:2.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.veep.test_library.LibraryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

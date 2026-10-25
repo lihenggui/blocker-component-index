@@ -1,0 +1,23 @@
+{
+  "coordinate": "me.proton.core:account-data",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "33.0.0": {
+      "fetchedAt": "2026-10-25T09:24:12Z",
+      "sha256": "4e4b04069cdd2fe142eee8e22d7d101313b017e2cb182ce2637bf10ce7e41b78",
+      "dependencies": [
+        "androidx.room:room-ktx:2.6.1",
+        "javax.inject:javax.inject:1",
+        "me.proton.core:account-domain:33.0.0",
+        "me.proton.core:crypto-common:33.0.0",
+        "me.proton.core:data-room:33.0.0",
+        "me.proton.core:domain:33.0.0",
+        "me.proton.core:network-domain:33.0.0",
+        "me.proton.core:util-kotlin:33.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    }
+  },
+  "components": []
+}

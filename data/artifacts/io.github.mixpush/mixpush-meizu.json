@@ -1,0 +1,138 @@
+{
+  "coordinate": "io.github.mixpush:mixpush-meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T07:24:33Z",
+      "sha256": "d2b4180631b665c489739f0981b896b0443c168d74b49f256f487961a95a908c",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:3.9.7",
+        "io.github.mixpush:mixpush-core:2.1.1"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T07:24:32Z",
+      "sha256": "d2b4180631b665c489739f0981b896b0443c168d74b49f256f487961a95a908c",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:3.9.7",
+        "io.github.mixpush:mixpush-core:2.3.1"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T07:24:31Z",
+      "sha256": "3bac8b8b056b02fbbf72b97735dae3bfefeee4ecb92939ec6908825fb9a2af4d",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.0",
+        "io.github.mixpush:mixpush-core:2.3.2"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T07:24:31Z",
+      "sha256": "3bac8b8b056b02fbbf72b97735dae3bfefeee4ecb92939ec6908825fb9a2af4d",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.0",
+        "io.github.mixpush:mixpush-core:2.3.3"
+      ]
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-25T07:24:30Z",
+      "sha256": "3bac8b8b056b02fbbf72b97735dae3bfefeee4ecb92939ec6908825fb9a2af4d",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.0",
+        "io.github.mixpush:mixpush-core:2.3.4"
+      ]
+    },
+    "2.3.6": {
+      "fetchedAt": "2026-10-25T07:24:30Z",
+      "sha256": "3bac8b8b056b02fbbf72b97735dae3bfefeee4ecb92939ec6908825fb9a2af4d",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.0",
+        "io.github.mixpush:mixpush-core:2.3.6"
+      ]
+    },
+    "2.3.7": {
+      "fetchedAt": "2026-10-25T07:24:29Z",
+      "sha256": "3bac8b8b056b02fbbf72b97735dae3bfefeee4ecb92939ec6908825fb9a2af4d",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.0",
+        "io.github.mixpush:mixpush-core:2.3.7"
+      ]
+    },
+    "2.3.8": {
+      "fetchedAt": "2026-10-25T07:24:29Z",
+      "sha256": "3bac8b8b056b02fbbf72b97735dae3bfefeee4ecb92939ec6908825fb9a2af4d",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "io.github.mixpush:mixpush-core:2.3.8"
+      ]
+    },
+    "2.3.9": {
+      "fetchedAt": "2026-10-25T07:24:28Z",
+      "sha256": "3208002ef244b30367f99d0226002653732e6bc3997d0ecdf489adc6bf1e3e4e",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "io.github.mixpush:mixpush-core:2.3.9"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T07:24:27Z",
+      "sha256": "3208002ef244b30367f99d0226002653732e6bc3997d0ecdf489adc6bf1e3e4e",
+      "dependencies": [
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "io.github.mixpush:mixpush-core:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mixpush.meizu.MeizuPushMsgReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.mixpush.meizu.MeizuPushMsgReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    }
+  ]
+}

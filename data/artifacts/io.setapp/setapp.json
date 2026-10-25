@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.setapp:setapp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:57:05Z",
+      "sha256": "eeef99fbab92f3fc74fcadd0d6d116476bd7d54b34221499503aa20baa3d47c3",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:57:04Z",
+      "sha256": "778a953b73238706c9275f5c926d6c3a8f4b40db99559918e64471da2b0a35a4",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.31"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T08:57:04Z",
+      "sha256": "778a953b73238706c9275f5c926d6c3a8f4b40db99559918e64471da2b0a35a4",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.31"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T08:57:03Z",
+      "sha256": "778a953b73238706c9275f5c926d6c3a8f4b40db99559918e64471da2b0a35a4",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.setapp.android.settings.client.internal.SettingsClientInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.settings.client.initializer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

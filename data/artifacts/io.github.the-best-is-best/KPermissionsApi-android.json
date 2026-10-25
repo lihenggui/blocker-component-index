@@ -1,0 +1,89 @@
+{
+  "coordinate": "io.github.the-best-is-best:KPermissionsApi-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:54:09Z",
+      "sha256": "7797b7652c90bf1e19c95167272901dba028ce6f562564cc8df64a7edaa2ead9",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:54:09Z",
+      "sha256": "3bf2992e089769a065352c6cd8166b8f0a99cf84811b9b6dc6f4268d1a5624b0",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:54:08Z",
+      "sha256": "3bf2992e089769a065352c6cd8166b8f0a99cf84811b9b6dc6f4268d1a5624b0",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:54:05Z",
+      "sha256": "3bf2992e089769a065352c6cd8166b8f0a99cf84811b9b6dc6f4268d1a5624b0",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T07:54:07Z",
+      "sha256": "3bf2992e089769a065352c6cd8166b8f0a99cf84811b9b6dc6f4268d1a5624b0",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T07:54:07Z",
+      "sha256": "e0112e30671a6b772cdbe82d38014a2646fcc4199c46296d2420f76dfaebe75f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T07:54:06Z",
+      "sha256": "3bf2992e089769a065352c6cd8166b8f0a99cf84811b9b6dc6f4268d1a5624b0",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.github.kPermissions_api.ApplicationContextInitializer"
+      ]
+    }
+  ]
+}

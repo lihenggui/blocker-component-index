@@ -1,0 +1,36 @@
+{
+  "coordinate": "io.github.szhittech:hetopensdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.0": {
+      "fetchedAt": "2026-10-25T07:51:46Z",
+      "sha256": "28b102a891ee53ef7092a8dfd9dc96751430f6889e615941fdbbfa8fedf5cdbd",
+      "dependencies": [
+        "com.github.szhittech:hetxmlprotocolsdk:1.0.5",
+        "com.squareup.okhttp3:okhttp:4.2.1",
+        "com.squareup.retrofit2:adapter-rxjava:2.4.0",
+        "io.github.szhittech:cppopensdk:0.0.0",
+        "io.reactivex:rxandroid:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.het.clife.open.service.LogcatIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.0",
+          "0.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "coordinate": "io.github.rohitverma882:fastboot-java",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T07:40:06Z",
+      "sha256": "2e479dedbdb91cbdef27c7d15e3aa0b493490c941c45c77dc7cf77fbb306d71a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rv882.fastbootjava.FastbootInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fastbootInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

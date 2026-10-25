@@ -1,0 +1,55 @@
+{
+  "coordinate": "pl.droidsonroids.foqa:debug-db",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.20": {
+      "fetchedAt": "2026-10-25T10:15:37Z",
+      "sha256": "ef84fcb98daf4d08d8c9dd8f8f6dfdba3c6796acd51878acedf5c10162a59a7e",
+      "dependencies": [
+        "androidx.room:room-runtime:2.5.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.willowtreeapps.hyperion:hyperion-plugin:0.9.34",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20"
+      ]
+    },
+    "0.2.21": {
+      "fetchedAt": "2026-10-25T10:15:37Z",
+      "sha256": "bca47cc4bf2c552dc175245ceb595a8a4ed0210a5d475de7953ee58afa24f1e3",
+      "dependencies": [
+        "androidx.room:room-runtime:2.6.1",
+        "com.google.code.gson:gson:2.9.1",
+        "com.willowtreeapps.hyperion:hyperion-plugin:0.9.37",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.21"
+      ]
+    },
+    "0.2.22": {
+      "fetchedAt": "2026-10-25T10:15:36Z",
+      "sha256": "bca47cc4bf2c552dc175245ceb595a8a4ed0210a5d475de7953ee58afa24f1e3",
+      "dependencies": [
+        "androidx.room:room-runtime:2.6.1",
+        "com.google.code.gson:gson:2.9.1",
+        "com.willowtreeapps.hyperion:hyperion-plugin:0.9.38",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amitshekhar.debug.DebugDBInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.20",
+          "0.2.22"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DebugDBInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

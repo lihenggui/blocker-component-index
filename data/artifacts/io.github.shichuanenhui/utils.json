@@ -1,0 +1,120 @@
+{
+  "coordinate": "io.github.shichuanenhui:utils",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:44:48Z",
+      "sha256": "286f10709f8415c2a4fe9596c7986b154b18661d94f7e3030ab6576767b3cdf2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:44:47Z",
+      "sha256": "286f10709f8415c2a4fe9596c7986b154b18661d94f7e3030ab6576767b3cdf2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T07:44:46Z",
+      "sha256": "286f10709f8415c2a4fe9596c7986b154b18661d94f7e3030ab6576767b3cdf2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T07:44:45Z",
+      "sha256": "c039b71add8ece502787b877b806093cbaa93af2318e4534fbba2b18fe4792ec",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lee.utils.MessengerUtils$ServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.messenger"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lee.utils.UtilsFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.utilcode.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.lee.utils.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lee.utils.UtilsTransActivity4MainProcess",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

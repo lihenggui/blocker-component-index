@@ -1,0 +1,121 @@
+{
+  "coordinate": "net.crofis:ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:39:15Z",
+      "sha256": "930f4cc9656fd575bd9812366678ab747c0657920e3d56f877d104c126decad5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.github.buchandersenn:android-permission-manager:1.0.0",
+        "com.github.bumptech.glide:glide:3.6.0",
+        "com.github.castorflex.smoothprogressbar:library:1.1.0",
+        "com.github.clans:fab:1.6.2",
+        "de.hdodenhof:circleimageview:2.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:39:14Z",
+      "sha256": "930f4cc9656fd575bd9812366678ab747c0657920e3d56f877d104c126decad5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.github.buchandersenn:android-permission-manager:1.0.0",
+        "com.github.bumptech.glide:glide:3.6.0",
+        "com.github.castorflex.smoothprogressbar:library:1.1.0",
+        "com.github.clans:fab:1.6.2",
+        "de.hdodenhof:circleimageview:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.crofis.ui.camera.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.crofis.ui.camera.SquareCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.crofis.ui.custom.cropper.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "net.crofis.ui.custom.imagepicker.activities.AlbumSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "net.crofis.ui.custom.imagepicker.activities.ImageSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

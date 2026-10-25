@@ -1,0 +1,37 @@
+{
+  "coordinate": "me.saket.reuserview:reuserview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.1.2021": {
+      "fetchedAt": "2026-10-25T09:30:15Z",
+      "sha256": "39bf327b22636bcd3592bac8dfae20919c0927c1d4e46a4a8e34a311614328e7",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.0-rc01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.saket.baseandroidproject.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.2021",
+          "4.1.2021"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

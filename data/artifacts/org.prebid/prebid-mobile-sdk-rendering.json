@@ -1,0 +1,61 @@
+{
+  "coordinate": "org.prebid:prebid-mobile-sdk-rendering",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.13.0-beta1": {
+      "fetchedAt": "2026-10-25T10:08:44Z",
+      "sha256": "8d3d05b08d6d8bf5ac0697488946a4e78f783e2ee4e2df326bf82ed20cc7051d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.google.android.exoplayer:exoplayer-core:2.11.0",
+        "com.google.android.exoplayer:exoplayer-ui:2.11.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "org.prebid:prebid-mobile-sdk-open-measurement:1.3.17"
+      ]
+    },
+    "1.13.0-beta2": {
+      "fetchedAt": "2026-10-25T10:08:43Z",
+      "sha256": "0c3d23a34d2cab3581badc8adfa93d39946f50eb9c795cf9203eb4b03b8643ee",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.google.android.exoplayer:exoplayer-core:2.13.3",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.3",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "org.prebid:prebid-mobile-sdk-open-measurement:1.3.17"
+      ]
+    },
+    "1.14.0": {
+      "fetchedAt": "2026-10-25T10:08:42Z",
+      "sha256": "00ee445065cd69fc8906c77472ad4ce4eb6217568eaacd95b3f42e8708fd1699",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.google.android.exoplayer:exoplayer-core:2.13.3",
+        "com.google.android.exoplayer:exoplayer-ui:2.13.3",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "org.prebid:prebid-mobile-sdk-open-measurement:1.3.17"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.prebid.mobile.rendering.views.browser.AdBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.13.0-beta1",
+          "1.14.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

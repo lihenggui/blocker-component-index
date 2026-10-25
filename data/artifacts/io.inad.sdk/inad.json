@@ -1,0 +1,220 @@
+{
+  "coordinate": "io.inad.sdk:inad",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T08:33:15Z",
+      "sha256": "b39e338123e714699070a685c9d5c1fde7d54584d10d498a5290f59c3aa9d331",
+      "dependencies": [
+        "com.android.support:recyclerview-v7:24.0.0",
+        "com.facebook.stetho:stetho-okhttp3:1.3.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.github.bumptech.glide:okhttp3-integration:1.4.0",
+        "com.google.code.gson:gson:2.6.1",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "io.reactivex:rxandroid:1.2.1"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T08:33:14Z",
+      "sha256": "a98bfcaba66b5b46b8f586e550a1b3f8a8520df9fc3963fd1b53028998640a41",
+      "dependencies": [
+        "com.android.support:recyclerview-v7:23.0.0",
+        "com.android.support:support-v4:23.0.0",
+        "com.facebook.stetho:stetho-okhttp3:1.4.1",
+        "com.github.bumptech.glide:glide:3.7.0",
+        "com.github.bumptech.glide:okhttp3-integration:1.4.0",
+        "com.google.code.gson:gson:2.6.1",
+        "com.google.guava:guava:19.0",
+        "com.squareup.okhttp3:okhttp:3.4.2",
+        "com.timehop.stickyheadersrecyclerview:library:0.4.3",
+        "io.reactivex:rxandroid:1.2.1",
+        "io.reactivex:rxjava:1.1.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.inad.activity.OfferwallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.inad.receiver.OfferwallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.inad.ACTION.CHECK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.inad.receiver.PackageAddedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.inad.receiver.PackageRemovedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.inad.service.CheckInstalledAppService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "vk.adnetwork.activity.OfferwallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "vk.adnetwork.receiver.OfferwallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "vk.adnetwork.ACTION.CHECK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "vk.adnetwork.receiver.PackageAddedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "vk.adnetwork.receiver.PackageRemovedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "vk.adnetwork.service.CheckInstalledAppService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

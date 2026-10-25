@@ -1,0 +1,42 @@
+{
+  "coordinate": "io.github.tans5:tapm-autoinit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:52:49Z",
+      "sha256": "b35e08923761ba0954544ef4f59a8986811c3d9a9e669ea1e416747e6404fe22",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:52:49Z",
+      "sha256": "9f3db608d651dc2942bf343e3cd06dda71d78e5013ce8ef5132f4d6bdc28bcee",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:52:49Z",
+      "sha256": "9f3db608d651dc2942bf343e3cd06dda71d78e5013ce8ef5132f4d6bdc28bcee",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.tans.tapm.autoinit.tApmAutoInit"
+      ]
+    }
+  ]
+}

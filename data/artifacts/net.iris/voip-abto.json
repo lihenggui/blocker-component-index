@@ -1,0 +1,98 @@
+{
+  "coordinate": "net.iris:voip-abto",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.7.0.rc01": {
+      "fetchedAt": "2026-10-25T09:42:36Z",
+      "sha256": "45bd2f7698dca0287889394610959795e1eb2167c41f51820fd7ed6992b65cb2",
+      "dependencies": [
+        "com.android.support:multidex:1.0.3",
+        "com.android.support:support-core-utils:28.0.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "5.7.0.rc02": {
+      "fetchedAt": "2026-10-25T09:42:35Z",
+      "sha256": "512b2d501780686cf48a0f655390b35c9b5c6ac2dfca9a5879618c064d6f97b7",
+      "dependencies": [
+        "com.android.support:multidex:1.0.3",
+        "com.android.support:support-core-utils:28.0.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "5.7.0.rc07": {
+      "fetchedAt": "2026-10-25T09:42:34Z",
+      "sha256": "e8422df98f459eaa0bd2db14fde47aa3d0a4a0c1349c0e3f8c37235e965b4c97",
+      "dependencies": [
+        "com.android.support:multidex:1.0.3",
+        "com.android.support:support-core-utils:28.0.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    },
+    "5.7.0.rc11": {
+      "fetchedAt": "2026-10-25T09:42:34Z",
+      "sha256": "cc8efaf590c0ce9bbd96f13fc75dedac776dcce0922970a3d70c21b8ffd5678a",
+      "dependencies": [
+        "com.android.support:multidex:1.0.3",
+        "com.android.support:support-core-utils:28.0.0",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.irisvalet.android.apps.voip.IncomingCallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.7.0.rc01",
+          "5.7.0.rc11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.abtollc.db.DBProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.7.0.rc01",
+          "5.7.0.rc11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.abtollc.service.ABTOSipService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.7.0.rc01",
+          "5.7.0.rc11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.abtollc.service.ABTOSipService",
+        "org.abtollc.service.SipConfiguration"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

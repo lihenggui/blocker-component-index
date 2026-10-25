@@ -1,0 +1,30 @@
+{
+  "coordinate": "io.github.mrocigno:sandman-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T07:27:20Z",
+      "sha256": "aeec9a72c0298ee713c7dcaacf397664a35251ed8f52ff936b74562f76e5f6d0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "br.com.mrocigno.sandman.core.VortexTask",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.VORTEX",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

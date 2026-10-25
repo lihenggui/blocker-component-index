@@ -1,0 +1,40 @@
+{
+  "coordinate": "io.github.zzhhz:BackgroundLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.4": {
+      "fetchedAt": "2026-10-25T08:27:52Z",
+      "sha256": "9e5275548abc7a15819ca49419a330c29932e62e99c4b8238a602c2f87e65371",
+      "dependencies": []
+    },
+    "1.7.7": {
+      "fetchedAt": "2026-10-25T08:27:52Z",
+      "sha256": "5e1c71f86377bdce61335e1a3183a23c9a8dd3640a89d0103fc3435fd5c20f45",
+      "dependencies": []
+    },
+    "1.7.8": {
+      "fetchedAt": "2026-10-25T08:27:51Z",
+      "sha256": "5c57a38d43cd9891fd5f0edfbe17a79f6ed407c6db3e1a6671df5a5952d9fd46",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.noober.background.BackgroundContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.4",
+          "1.7.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.backgroundLibrary",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

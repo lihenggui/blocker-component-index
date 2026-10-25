@@ -1,0 +1,51 @@
+{
+  "coordinate": "io.github.zhangxinmin528.zxing:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:25:34Z",
+      "sha256": "5d9b169dfd8bbefc91511024014d4354ff5dfd1564875f73138b9776a50f3a7c",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.1.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.databinding:viewbinding:4.1.0",
+        "com.google.zxing:core:3.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:25:33Z",
+      "sha256": "473d015eb374a5b3e0fd534615ef930284b8222f4327b31affe0210cd3abb702",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.1.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.databinding:viewbinding:4.1.0",
+        "com.google.zxing:core:3.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.coding.libzxing.activity.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

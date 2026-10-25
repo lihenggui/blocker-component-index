@@ -1,0 +1,71 @@
+{
+  "coordinate": "io.rollout:rox",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.29": {
+      "fetchedAt": "2026-10-25T08:55:36Z",
+      "sha256": "87fbbe8fe5df18c7de24a4339370a9103e08c36dba2a2dc3ca6f4232fa0d10c0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1"
+      ]
+    },
+    "0.0.31": {
+      "fetchedAt": "2026-10-25T08:55:35Z",
+      "sha256": "1e5bf034ca4ba594c83cda6e6f2abbd3f0ae4a665f2f91d43e6642d378b02e55",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "io.rollout.android.activities.FlagsListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.29",
+          "0.0.31"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rollout.android.activities.TargetGroupDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.29",
+          "0.0.31"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rollout.android.activities.TestDeviceDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.29",
+          "0.0.31"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

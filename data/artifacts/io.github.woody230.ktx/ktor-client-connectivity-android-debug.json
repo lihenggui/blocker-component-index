@@ -1,0 +1,105 @@
+{
+  "coordinate": "io.github.woody230.ktx:ktor-client-connectivity-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.0": {
+      "fetchedAt": "2026-10-25T08:12:21Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:6.0.0",
+        "io.ktor:ktor-client-core:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "6.1.0": {
+      "fetchedAt": "2026-10-25T08:12:20Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:6.1.0",
+        "io.ktor:ktor-client-core:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "6.2.0": {
+      "fetchedAt": "2026-10-25T08:12:19Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:6.2.0",
+        "io.ktor:ktor-client-core:2.3.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.22",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "6.3.0": {
+      "fetchedAt": "2026-10-25T08:12:18Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:6.3.0",
+        "io.ktor:ktor-client-core:2.3.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.22",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "6.4.0": {
+      "fetchedAt": "2026-10-25T08:12:18Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:6.4.0",
+        "io.ktor:ktor-client-core:2.3.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.22",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "6.5.0": {
+      "fetchedAt": "2026-10-25T08:12:17Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:6.5.0",
+        "io.ktor:ktor-client-core:2.3.12",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:2.0.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "6.6.0": {
+      "fetchedAt": "2026-10-25T08:12:16Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:6.6.0",
+        "io.ktor:ktor-client-core:3.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:2.0.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "7.0.0": {
+      "fetchedAt": "2026-10-25T08:12:15Z",
+      "sha256": "35046076fd85fa19d20642891337bc8f7b3e62d4b4e2af07b2639052f3ee349c",
+      "dependencies": [
+        "io.github.woody230.ktx:intent:7.0.0",
+        "io.ktor:ktor-client-core:3.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:2.0.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bselzer.ktx.client.connectivity.Connectivity",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.0",
+          "7.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.Connectivity",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

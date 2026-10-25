@@ -1,0 +1,281 @@
+{
+  "coordinate": "io.github.mixpush:mixpush-mi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T07:24:39Z",
+      "sha256": "e7dc28d7c3e43c94704dbaecb14b47d72b711b94ba3e6b968891c983190df232",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.1.1"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T07:24:38Z",
+      "sha256": "e7dc28d7c3e43c94704dbaecb14b47d72b711b94ba3e6b968891c983190df232",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.1"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T07:24:38Z",
+      "sha256": "4716a6e15aae80d20109f1ee452d57fe2d62bccef8cfb332d038645f5e9aaa6d",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.2"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T07:24:37Z",
+      "sha256": "4716a6e15aae80d20109f1ee452d57fe2d62bccef8cfb332d038645f5e9aaa6d",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.3"
+      ]
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-25T07:24:37Z",
+      "sha256": "4716a6e15aae80d20109f1ee452d57fe2d62bccef8cfb332d038645f5e9aaa6d",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.4"
+      ]
+    },
+    "2.3.6": {
+      "fetchedAt": "2026-10-25T07:24:36Z",
+      "sha256": "4716a6e15aae80d20109f1ee452d57fe2d62bccef8cfb332d038645f5e9aaa6d",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.6"
+      ]
+    },
+    "2.3.7": {
+      "fetchedAt": "2026-10-25T07:24:35Z",
+      "sha256": "4716a6e15aae80d20109f1ee452d57fe2d62bccef8cfb332d038645f5e9aaa6d",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.7"
+      ]
+    },
+    "2.3.8": {
+      "fetchedAt": "2026-10-25T07:24:35Z",
+      "sha256": "7bd26cf64bf52d2889e5da433438e9847f91f90c9c77bca572c83981743e8aaf",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.8"
+      ]
+    },
+    "2.3.9": {
+      "fetchedAt": "2026-10-25T07:24:34Z",
+      "sha256": "c349f9b5fb51c44e284a0b65f6c5e6e65fca9f1f46bd8a6187f8089868d6b4ff",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.3.9"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T07:24:33Z",
+      "sha256": "b3695f035a7081515d05331d61e30e6606d5b532ed141b67a3fceb0df0c6f3da",
+      "dependencies": [
+        "io.github.mixpush:mixpush-core:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mixpush.mi.MiPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.3.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.sdk.NotificationClickedActivity"
+      ],
+      "categories": [],
+      "metaData": [
+        "supportStyle"
+      ]
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.0",
+          "2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "supportStyle"
+      ]
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.3.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.8",
+          "2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

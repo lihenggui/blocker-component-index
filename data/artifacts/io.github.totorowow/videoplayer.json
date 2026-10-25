@@ -1,0 +1,145 @@
+{
+  "coordinate": "io.github.totorowow:videoplayer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:00:06Z",
+      "sha256": "efc0c78ba125bf4a0edb09220bcff4f1b0481e3854ae44a3c1f965f4ebb8dc6b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "io.github.totorowow:videokernel:1.0"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T08:00:06Z",
+      "sha256": "dee2a183c92680364d8a05aeddc4e51b0025f740ef7cc79802a4f68d0d449739",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.core:core:1.6.0",
+        "io.github.totorowow:videokernel:1.2"
+      ]
+    },
+    "1.3": {
+      "fetchedAt": "2026-10-25T08:00:05Z",
+      "sha256": "3a270961c53579a8494b25a99c948d1a36b18d4e20f14b2286724a86d7ffc6e3",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.core:core:1.6.0",
+        "io.github.totorowow:videokernel:1.3"
+      ]
+    },
+    "1.4": {
+      "fetchedAt": "2026-10-25T08:00:04Z",
+      "sha256": "77672e06c2edc70eaa04b455e9ddd10871c37d7215419d35b76bcced34b09e7c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.core:core:1.6.0",
+        "io.github.totorowow:videokernel:1.4"
+      ]
+    },
+    "1.5": {
+      "fetchedAt": "2026-10-25T08:00:03Z",
+      "sha256": "e6c1760a99803d06384eebf2e7c56e6020e2ddb5765f5f399d8ac386e771bc0e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.core:core:1.6.0",
+        "io.github.totorowow:videokernel:1.5"
+      ]
+    },
+    "1.6": {
+      "fetchedAt": "2026-10-25T08:00:02Z",
+      "sha256": "e6c1760a99803d06384eebf2e7c56e6020e2ddb5765f5f399d8ac386e771bc0e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.core:core:1.6.0",
+        "io.github.totorowow:videokernel:1.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.woodpecker.video.com.woodpecker.video.old.other.BatterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.woodpecker.video.com.woodpecker.video.old.other.NetChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.woodpecker.video.old.other.BatterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.woodpecker.video.old.other.NetChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5",
+          "1.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "coordinate": "io.github.zsmarter-api:hulk-oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:26:41Z",
+      "sha256": "557c1c26cd4b4f379f2dfb497d6b0f935ed49ab2170a8e0cd7c63599bdddc4a3",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.umeng.umsdk:oppo-push:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:26:41Z",
+      "sha256": "557c1c26cd4b4f379f2dfb497d6b0f935ed49ab2170a8e0cd7c63599bdddc4a3",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.umeng.umsdk:oppo-push:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:26:40Z",
+      "sha256": "557c1c26cd4b4f379f2dfb497d6b0f935ed49ab2170a8e0cd7c63599bdddc4a3",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.umeng.umsdk:oppo-push:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:26:40Z",
+      "sha256": "557c1c26cd4b4f379f2dfb497d6b0f935ed49ab2170a8e0cd7c63599bdddc4a3",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.umeng.umsdk:oppo-push:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:26:39Z",
+      "sha256": "57b924c10aae47a31edc2133a7f704ef7f7a2cac949a16a4c1c42f425a6a1765",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:oppo-push:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T08:26:38Z",
+      "sha256": "57b924c10aae47a31edc2133a7f704ef7f7a2cac949a16a4c1c42f425a6a1765",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:oppo-push:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T08:26:38Z",
+      "sha256": "326a75d1e2a90a754ffccfbd053bb7d5d20c01212617101ce24e6d2ce6b3fed6",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.umeng.umsdk:oppo-push:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zsmarter.hulk.oppo_push.OppoMessageCallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zsmarter.hulk.oppo_push.OppoService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

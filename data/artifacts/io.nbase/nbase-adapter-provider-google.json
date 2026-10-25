@@ -1,0 +1,56 @@
+{
+  "coordinate": "io.nbase:nbase-adapter-provider-google",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:43:50Z",
+      "sha256": "9e22da8dc5d4e672d8919760fe03780d3045bea2e3c781e53a9399e8b4e8da57",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "com.google.android.gms:play-services-auth:20.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T08:43:49Z",
+      "sha256": "eec5e986ca02300e8fcd6e4b887580b128c402c0bf2a2e14124f17cd9cd6364f",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-25T08:43:48Z",
+      "sha256": "eec5e986ca02300e8fcd6e4b887580b128c402c0bf2a2e14124f17cd9cd6364f",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-25T08:43:48Z",
+      "sha256": "eec5e986ca02300e8fcd6e4b887580b128c402c0bf2a2e14124f17cd9cd6364f",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.nbase.adapter.provider.google.GoogleSignInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "3.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

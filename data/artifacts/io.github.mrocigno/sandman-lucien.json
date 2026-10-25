@@ -1,0 +1,30 @@
+{
+  "coordinate": "io.github.mrocigno:sandman-lucien",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T07:27:22Z",
+      "sha256": "7593b2ed52c0367335aacb4eb6f12955c0b21f2994167cbc85e6a9c78d22b2ac",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "br.com.mrocigno.sandman.lucien.ReportTask",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.LUCIEN",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

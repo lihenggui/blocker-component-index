@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.github.oncelabs:onceBLE-Android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T07:31:01Z",
+      "sha256": "c4c142b0f5e52a55e09ac80ab8ab663ca7d8e8e0c12e8655eccc191e48aa6d34",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.2.1",
+        "no.nordicsemi.android:dfu:2.2.2",
+        "no.nordicsemi.android:mcumgr-ble:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "1.0.72": {
+      "fetchedAt": "2026-10-25T07:31:00Z",
+      "sha256": "c4c142b0f5e52a55e09ac80ab8ab663ca7d8e8e0c12e8655eccc191e48aa6d34",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.2.1",
+        "no.nordicsemi.android:dfu:2.2.2",
+        "no.nordicsemi.android:mcumgr-ble:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.oncelabs.onceble.core.dfu.nordic.NordicOtaService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.7",
+          "1.0.72"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

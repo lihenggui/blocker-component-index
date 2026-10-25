@@ -1,0 +1,82 @@
+{
+  "coordinate": "ir.metrix.trusted:webview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:05:11Z",
+      "sha256": "62c3827d8d9d8f138ba4851edbc07cfca7d8770d426785c127fda79f40def137",
+      "dependencies": [
+        "androidx.work:work-runtime-ktx:2.4.0",
+        "androidx.work:work-rxjava3:2.4.0",
+        "com.android.installreferrer:installreferrer:2.1",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.dagger:dagger:2.29.1",
+        "com.jakewharton.rxrelay3:rxrelay:3.0.0",
+        "com.squareup.moshi:moshi:1.8.0",
+        "com.squareup.retrofit2:converter-moshi:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:05:10Z",
+      "sha256": "b03052c0b37218ceae3f7a73285582f76245a36759ef1581bb1f09de17502593",
+      "dependencies": [
+        "androidx.work:work-runtime-ktx:2.4.0",
+        "androidx.work:work-rxjava3:2.4.0",
+        "com.android.installreferrer:installreferrer:2.1",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.dagger:dagger:2.29.1",
+        "com.jakewharton.rxrelay3:rxrelay:3.0.0",
+        "com.squareup.moshi:moshi:1.8.0",
+        "com.squareup.retrofit2:converter-moshi:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T09:05:10Z",
+      "sha256": "ae743bbfcddc6de4328c5e8ee28f4cc70faa5b29c5112f37d88fd3ea7500ca45",
+      "dependencies": [
+        "androidx.work:work-runtime-ktx:2.4.0",
+        "androidx.work:work-rxjava3:2.4.0",
+        "com.android.installreferrer:installreferrer:2.1",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.dagger:dagger:2.29.1",
+        "com.jakewharton.rxrelay3:rxrelay:3.0.0",
+        "com.squareup.moshi:moshi:1.8.0",
+        "com.squareup.retrofit2:converter-moshi:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.7",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ir.metrix.internal.MetrixInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.metrixinitializer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

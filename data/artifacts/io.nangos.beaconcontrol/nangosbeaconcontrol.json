@@ -1,0 +1,107 @@
+{
+  "coordinate": "io.nangos.beaconcontrol:nangosbeaconcontrol",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:43:42Z",
+      "sha256": "95ad036f0c8765923ba1983422f08dc62538fd6737d97169cc540c4d4ba7e3e9",
+      "dependencies": [
+        "com.android.support:support-v4:25.0.1",
+        "com.squareup.okhttp3:okhttp-urlconnection:3.5.0",
+        "com.squareup.okhttp3:okhttp:3.5.0",
+        "com.squareup.retrofit2:converter-jackson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "org.altbeacon:android-beacon-library:2.9.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.nangos.beaconcontrol.sdk.backend.events.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nangos.beaconcontrol.sdk.backend.service.BeaconActionProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nangos.beaconcontrol.sdk.backend.service.BeaconConfigurationChangeProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nangos.beaconcontrol.sdk.backend.service.BeaconProximityChangeProcessor",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.nangos.beaconcontrol.sdk.backend.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.nangos.beaconcontrol.sdk.BeaconService.ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

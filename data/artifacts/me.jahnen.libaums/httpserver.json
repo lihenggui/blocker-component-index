@@ -1,0 +1,85 @@
+{
+  "coordinate": "me.jahnen.libaums:httpserver",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.6.0": {
+      "fetchedAt": "2026-10-25T09:23:01Z",
+      "sha256": "a4795f469bffdc0599d2625b112e0267a3c317f5f6ec41592d9c681137c03c17",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.core:core:1.2.0-rc01",
+        "com.koushikdutta.async:androidasync:2.2.1",
+        "me.jahnen:libaums:0.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.nanohttpd:nanohttpd:2.3.1"
+      ]
+    },
+    "0.6.1": {
+      "fetchedAt": "2026-10-25T09:23:01Z",
+      "sha256": "bec3cf5767f14fc7328b85c53b08b45352a312d5b534295b36dd2229d1ce7384",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.core:core:1.2.0-rc01",
+        "com.koushikdutta.async:androidasync:2.2.1",
+        "me.jahnen.libaums:core:0.9.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.nanohttpd:nanohttpd:2.3.1"
+      ]
+    },
+    "0.6.2": {
+      "fetchedAt": "2026-10-25T09:23:00Z",
+      "sha256": "f3f3138c990e3e3184f6708baa2cef1b786d004858ead2bf478cff19f1941740",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core-ktx:1.1.0",
+        "androidx.core:core:1.2.0-rc01",
+        "com.koushikdutta.async:androidasync:2.2.1",
+        "me.jahnen.libaums:core:0.9.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10",
+        "org.nanohttpd:nanohttpd:2.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.jahnen.libaums.core.server.http.UsbFileHttpServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.6.1",
+          "0.6.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.jahnen.libaums.server.http.UsbFileHttpServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.6.0",
+          "0.6.0"
+        ],
+        [
+          "0.6.2",
+          "0.6.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

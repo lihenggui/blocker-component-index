@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.tim06:xrayNg",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.27": {
+      "fetchedAt": "2026-10-25T07:59:37Z",
+      "sha256": "d2a8ca0b0e9c8834ff35959f9f48c84534444992bc964cca3d1aff4b740e7e42",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "io.github.tim06:basevpnprotocols:1.0.27",
+        "io.github.tim06:vpnprotocolsnotification:1.0.26",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.24",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:59:36Z",
+      "sha256": "4206f43960a1e0273b11498cc18f413cf6b56b0fa818294325e8c8e26a316baa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.2",
+        "io.github.tim06:basevpnprotocols:1.1.0",
+        "io.github.tim06:vpnprotocolsnotification:1.1.0",
+        "io.github.tim06:vpnstate:1.1.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.24",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T07:59:35Z",
+      "sha256": "4206f43960a1e0273b11498cc18f413cf6b56b0fa818294325e8c8e26a316baa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.2",
+        "io.github.tim06:basevpnprotocols:1.1.0",
+        "io.github.tim06:vpnprotocolsnotification:1.1.0",
+        "io.github.tim06:vpnstate:1.1.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.24",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.1.9": {
+      "fetchedAt": "2026-10-25T07:59:34Z",
+      "sha256": "4206f43960a1e0273b11498cc18f413cf6b56b0fa818294325e8c8e26a316baa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.2",
+        "io.github.tim06:basevpnprotocols:1.1.0",
+        "io.github.tim06:vpnprotocolsnotification:1.1.0",
+        "io.github.tim06:vpnstate:1.1.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.24",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tim.vpnprotocols.xrayNg.XRayNgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.9"
+        ]
+      ],
+      "exported": true,
+      "process": ":xrayNg",
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.net.VpnService.SUPPORTS_ALWAYS_ON"
+      ]
+    },
+    {
+      "name": "com.tim.vpnprotocols.xrayNg.XRayNgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.27",
+          "1.0.27"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.net.VpnService.SUPPORTS_ALWAYS_ON"
+      ]
+    }
+  ]
+}

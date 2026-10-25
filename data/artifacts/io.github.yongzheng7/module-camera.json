@@ -1,0 +1,123 @@
+{
+  "coordinate": "io.github.yongzheng7:module-camera",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:18:51Z",
+      "sha256": "cfe9969fc58bdcae705d51835728b68f5a5aaf1313a674a9ff7f55dc192ed53c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.github.bumptech.glide:glide:4.10.0",
+        "com.google.android.material:material:1.3.0",
+        "com.tengine.tenginekit:core:0.0.6",
+        "com.tengine.tenginekit:face:0.0.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "2.0": {
+      "fetchedAt": "2026-10-25T08:18:50Z",
+      "sha256": "b0af7ccdd2ba1751bbe4e9b852e6ec0b05cc78e610d311873d05edfb0493095d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.github.bumptech.glide:glide:4.10.0",
+        "com.google.android.material:material:1.3.0",
+        "com.tengine.tenginekit:core:0.0.6",
+        "com.tengine.tenginekit:face:0.0.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.app.module.camera.ui.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.app.module.camera.ui.PreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.app.module.camera.ui.SetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.app.module.camera2.Camera2Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.app.module.camera2.ui.Camera2Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0",
+          "2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

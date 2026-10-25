@@ -1,0 +1,54 @@
+{
+  "coordinate": "io.github.totorowow:qiqivideoplayer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2": {
+      "fetchedAt": "2026-10-25T08:00:00Z",
+      "sha256": "efc0c78ba125bf4a0edb09220bcff4f1b0481e3854ae44a3c1f965f4ebb8dc6b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "io.github.totorowow:qiqivideoplayer:1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.woodpecker.video.com.woodpecker.video.old.other.BatterReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.woodpecker.video.com.woodpecker.video.old.other.NetChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

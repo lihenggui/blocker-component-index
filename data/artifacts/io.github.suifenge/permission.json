@@ -1,0 +1,76 @@
+{
+  "coordinate": "io.github.suifenge:permission",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T07:50:22Z",
+      "sha256": "e6e40beff853b69aede968ff3979e32925ecaa7145637c900d033b778f47c17f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "io.github.suifenge:dialog:0.0.1",
+        "io.github.suifenge:utils:0.0.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T07:50:21Z",
+      "sha256": "e6e40beff853b69aede968ff3979e32925ecaa7145637c900d033b778f47c17f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "io.github.suifenge:utils:0.0.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T07:50:21Z",
+      "sha256": "e6e40beff853b69aede968ff3979e32925ecaa7145637c900d033b778f47c17f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.8.0",
+        "io.github.suifenge:utils:0.0.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.31",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.suifeng.sdk.permission.widget.AppSettingsHolderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.suifeng.sdk.permission.widget.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

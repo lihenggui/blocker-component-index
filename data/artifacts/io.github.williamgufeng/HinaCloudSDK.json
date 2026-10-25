@@ -1,0 +1,35 @@
+{
+  "coordinate": "io.github.williamgufeng:HinaCloudSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T08:07:29Z",
+      "sha256": "cb47c557b8e75d1c3388af3e5fcaa2b9da2d0868c135ce3d0afcb64c09b11a3d",
+      "dependencies": []
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:07:28Z",
+      "sha256": "59b4efe872757124472ab89688cc4039ea015d5d21abf4118be5187a0777fb1f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SensorsDataContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

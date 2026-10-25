@@ -1,0 +1,43 @@
+{
+  "coordinate": "io.github.ubapp:ubuser-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T08:02:14Z",
+      "sha256": "3f13a838101478af9e5f78abf9eaa22d7db93e2d73b667b43fbc3a187124b8f0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "com.amazonaws:aws-android-sdk-cognitoauth:2.16.8",
+        "com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.16.8",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.okhttp3:okhttp:4.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.urbanbase.sdk.ubuser.ui.auth.AuthLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "coordinate": "org.radarbase:radar-android-phone-usage",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T10:10:24Z",
+      "sha256": "3abc73cbf37cd28fa921c39897fa7ca5d50a8f18fd94e166e72b4bbe46fc007e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.radarbase:radar-commons-android:1.1.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T10:10:23Z",
+      "sha256": "3fded50db4791385a324892c986fd31db817f41cb47f3d94856b588c3366815c",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.radarbase:radar-commons-android:1.1.2"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T10:10:22Z",
+      "sha256": "03819d0b0c0213a568e00df5ffa39cfa3de33e6f3cbb5758cda68465a3e7db62",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0",
+        "org.radarbase:radar-commons-android:1.1.3"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T10:10:22Z",
+      "sha256": "b2f2c6d601525820f1af76762f480be1fcb34c2be95021888ff6ff0444a7b281",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.radarbase:radar-commons-android:1.2.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T10:10:21Z",
+      "sha256": "b2f2c6d601525820f1af76762f480be1fcb34c2be95021888ff6ff0444a7b281",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.radarbase:radar-commons-android:1.2.1"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T10:10:20Z",
+      "sha256": "b3a6e4d94b4aec2e6c8060c2f220da1b799ef7d0db7d25b95ed3eaa8b6f06e8d",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "org.radarbase:radar-commons-android:1.2.2"
+      ]
+    },
+    "1.2.3": {
+      "fetchedAt": "2026-10-25T10:10:20Z",
+      "sha256": "eabaef6d170049fe4a50ca4d193ea01b34e55dc233ec4bccd6e09297e14cd5d1",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "org.radarbase:radar-commons-android:1.2.3"
+      ]
+    },
+    "1.2.5": {
+      "fetchedAt": "2026-10-25T10:10:19Z",
+      "sha256": "67989f97f3ba80373c389985ea338b06c37880e28c79259975e37cefd8bdcc17",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.2.5"
+      ]
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T10:10:16Z",
+      "sha256": "67989f97f3ba80373c389985ea338b06c37880e28c79259975e37cefd8bdcc17",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.4.1"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T10:10:18Z",
+      "sha256": "67989f97f3ba80373c389985ea338b06c37880e28c79259975e37cefd8bdcc17",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.5.1"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-25T10:10:18Z",
+      "sha256": "67989f97f3ba80373c389985ea338b06c37880e28c79259975e37cefd8bdcc17",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.5.3"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T10:10:17Z",
+      "sha256": "67989f97f3ba80373c389985ea338b06c37880e28c79259975e37cefd8bdcc17",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.radarbase.passive.phone.usage.PhoneUsageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.5",
+          "1.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.radarbase.passive.phone.usage.PhoneUsageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.2.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

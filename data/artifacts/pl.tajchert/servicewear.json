@@ -1,0 +1,53 @@
+{
+  "coordinate": "pl.tajchert:servicewear",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:16:09Z",
+      "sha256": "6baebe331d8b8b254ab17538e371d360fe54e3b21567d5af113c4a8e79d2e174",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "pl.tajchert.servicewear.MasterService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.wearable.BIND_LISTENER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "pl.tajchert.servicewear.WearServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "pl.tajchert.servicewear.wearservice"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

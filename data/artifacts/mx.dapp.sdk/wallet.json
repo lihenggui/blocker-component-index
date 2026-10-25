@@ -1,0 +1,79 @@
+{
+  "coordinate": "mx.dapp.sdk:wallet",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T09:35:19Z",
+      "sha256": "1845972303dc5ec43d8d5e9a14c6fcbaf61214616fa9f90af3b3cc794acacbfc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T09:35:19Z",
+      "sha256": "1149dd55a456272e8a80054a7fca3daef9cbd7b5a0d4ef6fde715a2e352164b3",
+      "dependencies": []
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T09:35:18Z",
+      "sha256": "1149dd55a456272e8a80054a7fca3daef9cbd7b5a0d4ef6fde715a2e352164b3",
+      "dependencies": []
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-25T09:35:17Z",
+      "sha256": "aab47f640ff98050ac507661f61c4774084077ccc663ce0dc5bd1b33df2a291a",
+      "dependencies": []
+    },
+    "2.3.5": {
+      "fetchedAt": "2026-10-25T09:35:17Z",
+      "sha256": "da9e9b33bb474d0597b5e7676c249c8a22a722a9b1561f999e7bbeb8928fae47",
+      "dependencies": []
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T09:35:16Z",
+      "sha256": "b9580052e120c9acdbdfeeead4046f9377a3a6f9ff8f07d63223d69b044b9b94",
+      "dependencies": []
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T09:35:15Z",
+      "sha256": "a0ebfc5ef79b32194d04fbcad2022970837a29021c9740f1833bbf29b7ae7059",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "mx.dapp.sdk.wallet.gui.DappReaderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "mx.dapp.sdk.wallet.scanner.DappWalletScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "3.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "coordinate": "io.github.zwonb:record-video",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:27:04Z",
+      "sha256": "12c512e47531e6e35f50066eb2f10cbb936ef267a65d9fec18266b29b121809d",
+      "dependencies": [
+        "androidx.camera:camera-camera2:1.3.2",
+        "androidx.camera:camera-core:1.3.2",
+        "androidx.camera:camera-lifecycle:1.3.2",
+        "androidx.camera:camera-video:1.3.2",
+        "androidx.camera:camera-view:1.3.2",
+        "com.github.getActivity:XXPermissions:18.63",
+        "io.github.zwonb:compose:2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yidont.record.video.RecordVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

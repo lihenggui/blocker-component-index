@@ -1,0 +1,158 @@
+{
+  "coordinate": "nl.ngti:androscope",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0-RC1": {
+      "fetchedAt": "2026-10-25T09:47:52Z",
+      "sha256": "39bb06f363dbf596664aef178b81eeb034b6cc09ee310703c5236302fb5394f0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.nanohttpd:nanohttpd-webserver:2.3.1"
+      ]
+    },
+    "1.0-RC2": {
+      "fetchedAt": "2026-10-25T09:47:52Z",
+      "sha256": "f0e2153efe325c2990f2e27987776d337e6f58576035714065c5579dc6879903",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.nanohttpd:nanohttpd-webserver:2.3.1"
+      ]
+    },
+    "1.0-RC3": {
+      "fetchedAt": "2026-10-25T09:47:51Z",
+      "sha256": "f0e2153efe325c2990f2e27987776d337e6f58576035714065c5579dc6879903",
+      "dependencies": [
+        "androidx.activity:activity:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.nanohttpd:nanohttpd-webserver:2.3.1"
+      ]
+    },
+    "1.0-RC4": {
+      "fetchedAt": "2026-10-25T09:47:50Z",
+      "sha256": "f0e2153efe325c2990f2e27987776d337e6f58576035714065c5579dc6879903",
+      "dependencies": [
+        "androidx.activity:activity:1.1.0",
+        "androidx.core:core-ktx:1.3.0",
+        "androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.nanohttpd:nanohttpd-webserver:2.3.1"
+      ]
+    },
+    "1.0": {
+      "fetchedAt": "2026-10-25T09:47:50Z",
+      "sha256": "9db91ef6e2965a65897dde82fe4fe38c57ca48115797346812133763578d48b9",
+      "dependencies": [
+        "androidx.activity:activity:1.1.0",
+        "androidx.core:core-ktx:1.3.1",
+        "androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10",
+        "org.nanohttpd:nanohttpd-webserver:2.3.1"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T09:47:49Z",
+      "sha256": "2937ad1ee4c4d8dfa9f05701311ed1d358058d9f8fa89223d9ee1c3022f22c0d",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.code.gson:gson:2.8.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30",
+        "org.nanohttpd:nanohttpd-webserver:2.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "nl.ngti.androscope.AndroscopeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0-RC1",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": "@string/androscope_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "nl.ngti.androscope.AndroscopeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": true,
+      "process": "@string/androscope_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "nl.ngti.androscope.AndroscopeContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0-RC1",
+          "1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androscope",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "nl.ngti.androscope.service.AndroscopeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0-RC1",
+          "1.1"
+        ]
+      ],
+      "exported": false,
+      "process": "@string/androscope_process",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

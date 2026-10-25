@@ -1,0 +1,102 @@
+{
+  "coordinate": "org.radarbase:radar-android-ppg",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T10:10:31Z",
+      "sha256": "867d71db9dc7c76125e28780e92d5b5edb6a727095196e025417c8ca36e92dbc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.radarbase:radar-commons-android:1.1.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T10:10:30Z",
+      "sha256": "7b37cba71a6492a5fa817e9adc0868de564356abb2cf7701c9278650607947d3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.radarbase:radar-commons-android:1.1.2"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T10:10:29Z",
+      "sha256": "76af2b485172cbcadecc12a68f60757f24906c58a12b0c5d411ed15d17f7a11f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0",
+        "org.radarbase:radar-commons-android:1.1.3"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T10:10:28Z",
+      "sha256": "abf768a055c1f0e0edea319eed0d721de37447fefd1dc2046485a71469b74a6b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.radarbase:radar-commons-android:1.2.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T10:10:27Z",
+      "sha256": "abf768a055c1f0e0edea319eed0d721de37447fefd1dc2046485a71469b74a6b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.radarbase:radar-commons-android:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.radarbase.passive.ppg.PhonePpgActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.radarbase.passive.ppg.PhonePpgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "coordinate": "net.take:blip-chat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.26": {
+      "fetchedAt": "2026-10-25T09:45:03Z",
+      "sha256": "c83cf396c33d007ee975291dceb87ff7b834bf0b3811e0d7188088624ecc8516",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1"
+      ]
+    },
+    "2.1.12": {
+      "fetchedAt": "2026-10-25T09:45:02Z",
+      "sha256": "082d25821ba9163154e5d3ad719fb4ff202779b377387ef64fb104e4b96f7f68",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.google.code.gson:gson:2.8.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.12",
+          "2.1.12"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "net.take.blipchat.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "net.take.blipchat.activities.ThreadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.26",
+          "2.1.12"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

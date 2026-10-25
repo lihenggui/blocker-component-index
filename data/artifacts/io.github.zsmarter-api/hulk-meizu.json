@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.zsmarter-api:hulk-meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:26:37Z",
+      "sha256": "edd81bdfa37a6bde45ab1a51061807c597a5a1f8ee4aa012d0aa30a7554aa757",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:26:37Z",
+      "sha256": "885c8cedee143a5c3e70ecaa0817fae11778d0563ae3494e34570db6bf2fbedf",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:26:36Z",
+      "sha256": "885c8cedee143a5c3e70ecaa0817fae11778d0563ae3494e34570db6bf2fbedf",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:26:36Z",
+      "sha256": "89c972f20ca8c48dfbcc230f80e1c3fcdf367930c0560ed2b4747f9f7dbc014a",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T08:26:35Z",
+      "sha256": "a2eebe54df97774a17fdbd1705624aefcef97b94ff3fef84604eef715be58b4b",
+      "dependencies": [
+        "com.blankj:utilcodex:1.31.0",
+        "com.meizu.flyme.internet:push-internal:4.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zsmarter.hulk.meizu_push.MeiZuReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.zsmarter.hulk.meizu_push.MeiZuReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.c2dm.intent.RECEIVE",
+        "com.meizu.c2dm.intent.REGISTRATION",
+        "com.meizu.flyme.push.intent.MESSAGE",
+        "com.meizu.flyme.push.intent.REGISTER.FEEDBACK",
+        "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    }
+  ]
+}

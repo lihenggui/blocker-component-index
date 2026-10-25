@@ -1,0 +1,45 @@
+{
+  "coordinate": "net.vmate:android-vmate-aar",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:45:45Z",
+      "sha256": "912c35ee682c8c03c5a8105fba7d50287c075e76a7d98bc83f33ec7b56f6186d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.13"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:45:44Z",
+      "sha256": "b87371d2c1fac0032df80e411a5940415b290a3637e6036432b355f3fa05ecd1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.13"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.vmate.ui.HostActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

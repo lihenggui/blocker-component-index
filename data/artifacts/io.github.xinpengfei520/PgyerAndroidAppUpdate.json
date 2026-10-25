@@ -1,0 +1,69 @@
+{
+  "coordinate": "io.github.xinpengfei520:PgyerAndroidAppUpdate",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T08:16:54Z",
+      "sha256": "b34301e8cb230a2636d951e44c7ad368eb1246cd1ded93a7c5ee3039f8c424bb",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.squareup.okhttp3:okhttp:4.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xsir.pgyerappupdate.library.provider.CustomFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.update.FileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.xsir.pgyerappupdate.library.service.DownLoadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xsir.pgyerappupdate.library.utils.PermissionUtils$PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

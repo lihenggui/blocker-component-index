@@ -1,0 +1,60 @@
+{
+  "coordinate": "io.github.yongzheng7:saop-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:19:10Z",
+      "sha256": "79577978222f6f101fcb7716bd33078226c1738754f4669967406a9db94da6dc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "io.github.yongzheng7:saop-api:1.0.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T08:19:10Z",
+      "sha256": "d59e4ad5af132388db8123e88b5c3e657eaf5376672af349ab7125d2b85957cb",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.core:core:1.5.0",
+        "io.github.yongzheng7:saop-annotation:3.0.0",
+        "org.aspectj:aspectjrt:1.9.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.saop.core.utils.DialogUtils$DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.saop.core.utils.PermissionUtils$PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

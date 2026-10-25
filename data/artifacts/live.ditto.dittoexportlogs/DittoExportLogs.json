@@ -1,0 +1,36 @@
+{
+  "coordinate": "live.ditto.dittoexportlogs:DittoExportLogs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:17:08Z",
+      "sha256": "fc56c1791af2dad1a4610724bb771c543b630b1dd4fde91e322b8eb1d720bc68",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "live.ditto.dittotoolsapp.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

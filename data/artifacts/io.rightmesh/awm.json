@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.rightmesh:awm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T08:55:23Z",
+      "sha256": "1c5f7cb52415b0dc5cc07d4246faa4ab02e96cf80d09232560f2374c740d39cf",
+      "dependencies": [
+        "com.github.anadea:rxbus:1.0.1",
+        "com.google.android.gms:play-services-location:15.0.1",
+        "com.vanniktech:rxpermission:0.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.rightmesh.awm.BluetoothStatsCollector$BluetoothEnableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

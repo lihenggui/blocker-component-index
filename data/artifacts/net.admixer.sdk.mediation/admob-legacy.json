@@ -1,0 +1,39 @@
+{
+  "coordinate": "net.admixer.sdk.mediation:admob-legacy",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.35": {
+      "fetchedAt": "2026-10-25T09:36:20Z",
+      "sha256": "1d5f830363e10ea92cc4e0d9b52947f513234b763bd6f44f0c27320fa898ab83",
+      "dependencies": [
+        "net.admixer.sdk:SDK:unspecified"
+      ]
+    },
+    "0.0.36": {
+      "fetchedAt": "2026-10-25T09:36:19Z",
+      "sha256": "1d5f830363e10ea92cc4e0d9b52947f513234b763bd6f44f0c27320fa898ab83",
+      "dependencies": [
+        "net.admixer.sdk:sdk:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.ads.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.35",
+          "0.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

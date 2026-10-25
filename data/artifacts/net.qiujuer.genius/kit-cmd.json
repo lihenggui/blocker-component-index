@@ -1,0 +1,47 @@
+{
+  "coordinate": "net.qiujuer.genius:kit-cmd",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-beta1": {
+      "fetchedAt": "2026-10-25T09:44:36Z",
+      "sha256": "7fdab4f87e7f86d1f8a7410878b5852afe2efc10ff3330860febcccffb5ca8a0",
+      "dependencies": []
+    },
+    "2.0.0-beta2": {
+      "fetchedAt": "2026-10-25T09:44:35Z",
+      "sha256": "37457f2c39e23cfc383d2a01cbb7772eb2419c87e87e955ef4c9443cee850aef",
+      "dependencies": []
+    },
+    "2.0.0-beta6": {
+      "fetchedAt": "2026-10-25T09:44:35Z",
+      "sha256": "92d4bc4d536e18f1b41ca637c03651666698fd7f2e0b420e7d75ab900b23df72",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T09:44:34Z",
+      "sha256": "0f3f51f53452d03ff7ffb1060f3b4253a44cb7464d60f395427e5cf8e63efb7b",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "net.qiujuer.genius.kit.cmd.CommandService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0-beta1",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":CmdCommandService",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "net.qiujuer.genius.kit.cmd.ICommandInterface"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

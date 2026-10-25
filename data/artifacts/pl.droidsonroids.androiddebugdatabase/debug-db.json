@@ -1,0 +1,40 @@
+{
+  "coordinate": "pl.droidsonroids.androiddebugdatabase:debug-db",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:15:29Z",
+      "sha256": "6c73d30e9d4361a4d23fb313e9121d5ee1a58cbe00f10190c6521698eebd67f9",
+      "dependencies": [
+        "Android-Debug-Database:debug-db-base:0.1.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T10:15:28Z",
+      "sha256": "ca9c7ffe327ee4220220f710da65633678aa89756bc97d8ba4a8a90bb91f6fc1",
+      "dependencies": [
+        "androidx.room:room-runtime:2.5.0",
+        "com.google.code.gson:gson:2.9.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amitshekhar.debug.DebugDBInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DebugDBInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

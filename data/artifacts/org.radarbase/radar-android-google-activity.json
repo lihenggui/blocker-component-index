@@ -1,0 +1,70 @@
+{
+  "coordinate": "org.radarbase:radar-android-google-activity",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.5": {
+      "fetchedAt": "2026-10-25T10:09:37Z",
+      "sha256": "ce2229f9b1116072e7213b0a83925699017db5c953b9d8b59279bc7160436b28",
+      "dependencies": [
+        "com.google.android.gms:play-services-location:21.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.2.5"
+      ]
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T10:09:34Z",
+      "sha256": "ce2229f9b1116072e7213b0a83925699017db5c953b9d8b59279bc7160436b28",
+      "dependencies": [
+        "com.google.android.gms:play-services-location:21.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.4.1"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T10:09:36Z",
+      "sha256": "ce2229f9b1116072e7213b0a83925699017db5c953b9d8b59279bc7160436b28",
+      "dependencies": [
+        "com.google.android.gms:play-services-location:21.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.5.1"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-25T10:09:36Z",
+      "sha256": "ce2229f9b1116072e7213b0a83925699017db5c953b9d8b59279bc7160436b28",
+      "dependencies": [
+        "com.google.android.gms:play-services-location:21.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.5.3"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T10:09:35Z",
+      "sha256": "ce2229f9b1116072e7213b0a83925699017db5c953b9d8b59279bc7160436b28",
+      "dependencies": [
+        "com.google.android.gms:play-services-location:21.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.radarbase.passive.google.activity.GoogleActivityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.5",
+          "1.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

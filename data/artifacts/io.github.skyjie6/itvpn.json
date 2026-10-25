@@ -1,0 +1,427 @@
+{
+  "coordinate": "io.github.skyjie6:itvpn",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T07:47:10Z",
+      "sha256": "5446592ea8703f278df076980d01d841d0c6d23a394d82ecf8768fdaecdf0c20",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.databinding:databinding-adapters:4.2.0",
+        "androidx.databinding:databinding-common:4.2.0",
+        "androidx.databinding:databinding-runtime:4.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "androidx.security:security-crypto:1.0.0",
+        "at.favre.lib:hkdf:1.1.0",
+        "com.squareup.okhttp3:okhttp:3.14.7",
+        "com.squareup.retrofit2:adapter-rxjava2:2.3.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.2.9",
+        "org.jetbrains.anko:anko-commons:0.10.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.netease.libitvpn.VpnPingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.libitvpn.activity.VpnDnsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.libitvpn.downloader.DownloadFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.file.download.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.netease.libitvpn.downloader.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.file.download.DownloadService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.libitvpn.downloader.SystemDownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE",
+        "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.libitvpn.downloader.UpgradeDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.libitvpn.downloader.UpgradePermissionDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netease.libitvpn.sdk.CallbackContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "com.netease.libitvpn.callbackprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.LaunchVPN",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.activities.ConfigConverter",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.activities.DisconnectVPN",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.activities.LogWindow",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.activities.VPNPreferences",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.api.ConfirmDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.api.ConnectVPN",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.api.DisconnectVPN",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.api.ExternalOpenVPNService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": ":openvpn",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "de.blinkt.openvpn.api.IOpenVPNAPIService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.api.GrantPermissionsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.api.RemoteAction",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.core.EasyStatusService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": ":openvpn",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.core.OpenVPNService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": ":openvpn",
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.core.OpenVPNStatusService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":openvpn",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "coordinate": "io.github.mixpush:mixpush-huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T07:24:27Z",
+      "sha256": "f6b80275d5e40f1458359906757411fe9f015c0c8d8a1826e776b2cffbb51073",
+      "dependencies": [
+        "com.huawei.hms:push:5.0.2.300",
+        "io.github.mixpush:mixpush-core:2.1.1"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T07:24:26Z",
+      "sha256": "f6b80275d5e40f1458359906757411fe9f015c0c8d8a1826e776b2cffbb51073",
+      "dependencies": [
+        "com.huawei.hms:push:5.0.2.300",
+        "io.github.mixpush:mixpush-core:2.3.1"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T07:24:26Z",
+      "sha256": "6435e8df98bb4a931f3a569ca107b6f12aadf189fbd9748cdb4648ad8c169acc",
+      "dependencies": [
+        "com.huawei.hms:push:5.1.1.301",
+        "io.github.mixpush:mixpush-core:2.3.2"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T07:24:25Z",
+      "sha256": "6435e8df98bb4a931f3a569ca107b6f12aadf189fbd9748cdb4648ad8c169acc",
+      "dependencies": [
+        "com.huawei.hms:push:5.1.1.301",
+        "io.github.mixpush:mixpush-core:2.3.3"
+      ]
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-25T07:24:24Z",
+      "sha256": "a924f415ff6e06a91580acd6eed8e289f90ec2cdac2b50b6c5cedeb83290c0f1",
+      "dependencies": [
+        "com.huawei.hms:push:5.1.1.301",
+        "io.github.mixpush:mixpush-core:2.3.4"
+      ]
+    },
+    "2.3.6": {
+      "fetchedAt": "2026-10-25T07:24:24Z",
+      "sha256": "a924f415ff6e06a91580acd6eed8e289f90ec2cdac2b50b6c5cedeb83290c0f1",
+      "dependencies": [
+        "com.huawei.hms:push:5.1.1.301",
+        "io.github.mixpush:mixpush-core:2.3.6"
+      ]
+    },
+    "2.3.7": {
+      "fetchedAt": "2026-10-25T07:24:23Z",
+      "sha256": "a924f415ff6e06a91580acd6eed8e289f90ec2cdac2b50b6c5cedeb83290c0f1",
+      "dependencies": [
+        "com.huawei.hms:push:6.1.0.300",
+        "io.github.mixpush:mixpush-core:2.3.7"
+      ]
+    },
+    "2.3.8": {
+      "fetchedAt": "2026-10-25T07:24:23Z",
+      "sha256": "a924f415ff6e06a91580acd6eed8e289f90ec2cdac2b50b6c5cedeb83290c0f1",
+      "dependencies": [
+        "com.huawei.hms:push:6.3.0.304",
+        "io.github.mixpush:mixpush-core:2.3.8"
+      ]
+    },
+    "2.3.9": {
+      "fetchedAt": "2026-10-25T07:24:22Z",
+      "sha256": "a67703dc7ef07997a3288dfefacf4d2c4e05ecce226cac91d9bb2d61de00af48",
+      "dependencies": [
+        "com.huawei.hms:push:6.3.0.304",
+        "io.github.mixpush:mixpush-core:2.3.9"
+      ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T07:24:22Z",
+      "sha256": "a67703dc7ef07997a3288dfefacf4d2c4e05ecce226cac91d9bb2d61de00af48",
+      "dependencies": [
+        "com.huawei.hms:push:6.3.0.304",
+        "io.github.mixpush:mixpush-core:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mixpush.huawei.HmsMessageReceiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.3.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.mixpush.huawei.HmsMessageReceiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.9",
+          "2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.mixpush.huawei.UnifiedHmsMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

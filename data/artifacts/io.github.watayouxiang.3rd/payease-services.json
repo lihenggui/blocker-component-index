@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.watayouxiang.3rd:payease-services",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:06:08Z",
+      "sha256": "56c1646b5b7eedce35dfd8a6a1b5d53332b3a237d3dd27434a7463b87b091050",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.payeasenet.service.sdk.provider.WeboxProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.weboxProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.payeasenet.service.sdk.ui.activity.ServicesWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

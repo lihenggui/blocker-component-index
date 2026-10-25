@@ -1,0 +1,71 @@
+{
+  "coordinate": "org.bitbucket.Muhammad_Zahoor:my_first_lib_test",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-25T09:51:14Z",
+      "sha256": "3c1a135d7f21aed388063bfd28cbab9eb71eda26f4671fb12a2e5afd584dd194",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-25T09:51:13Z",
+      "sha256": "3c1a135d7f21aed388063bfd28cbab9eb71eda26f4671fb12a2e5afd584dd194",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.3": {
+      "fetchedAt": "2026-10-25T09:51:13Z",
+      "sha256": "3c1a135d7f21aed388063bfd28cbab9eb71eda26f4671fb12a2e5afd584dd194",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.4": {
+      "fetchedAt": "2026-10-25T09:51:12Z",
+      "sha256": "e99b9c0f4950e4e6e9f468e2e7850b4357e080cd645de5f102063499e8752a52",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.app.my_toast.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

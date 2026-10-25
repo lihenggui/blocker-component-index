@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.github.worldline-deepalimundaye:myapp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:13:38Z",
+      "sha256": "91684fdfb51b1b9f8016016f4b60984a902358eb9d90c46b043b31d270cdb55f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:13:37Z",
+      "sha256": "8397c08c9f4ece91fbccbbdcb5f68a6bc064da245286ee55a714fc24acbb9ded",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:13:36Z",
+      "sha256": "8397c08c9f4ece91fbccbbdcb5f68a6bc064da245286ee55a714fc24acbb9ded",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.1.60"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T08:13:35Z",
+      "sha256": "8397c08c9f4ece91fbccbbdcb5f68a6bc064da245286ee55a714fc24acbb9ded",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.1.60"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.test.mylibrary.MyApp",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.test.mylibrary.MyClass",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

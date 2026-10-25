@@ -1,0 +1,59 @@
+{
+  "coordinate": "io.matthewnelson.kmp-tor:core-resource-initializer-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-alpha02": {
+      "fetchedAt": "2026-10-25T08:38:08Z",
+      "sha256": "64e898e0cc04360fe11ee8e8707b4db961fbe9eb0d23c925f172f5ebd08b4abb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    },
+    "2.0.0-alpha03": {
+      "fetchedAt": "2026-10-25T08:38:07Z",
+      "sha256": "64e898e0cc04360fe11ee8e8707b4db961fbe9eb0d23c925f172f5ebd08b4abb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    },
+    "2.0.0-alpha04": {
+      "fetchedAt": "2026-10-25T08:38:06Z",
+      "sha256": "64e898e0cc04360fe11ee8e8707b4db961fbe9eb0d23c925f172f5ebd08b4abb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    },
+    "2.0.0-alpha05": {
+      "fetchedAt": "2026-10-25T08:38:05Z",
+      "sha256": "64e898e0cc04360fe11ee8e8707b4db961fbe9eb0d23c925f172f5ebd08b4abb",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0-alpha02",
+          "2.0.0-alpha05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.matthewnelson.kmp.tor.core.resource.initializer.KmpTorResourceInitializer"
+      ]
+    }
+  ]
+}

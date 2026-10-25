@@ -1,0 +1,110 @@
+{
+  "coordinate": "love.nuoyan.android:auth_oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T09:18:17Z",
+      "sha256": "aca09c3f3f6734a028edbdf32f6f33e682418ebcf39a834b8577a4ce09e0733e",
+      "dependencies": []
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:18:16Z",
+      "sha256": "aca09c3f3f6734a028edbdf32f6f33e682418ebcf39a834b8577a4ce09e0733e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:18:15Z",
+      "sha256": "aca09c3f3f6734a028edbdf32f6f33e682418ebcf39a834b8577a4ce09e0733e",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T09:18:14Z",
+      "sha256": "730f0002d783629c3cf729ea82cbc4ffa0781b37fba6e4941b381d9bc631adb2",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:18:14Z",
+      "sha256": "730f0002d783629c3cf729ea82cbc4ffa0781b37fba6e4941b381d9bc631adb2",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T09:18:13Z",
+      "sha256": "730f0002d783629c3cf729ea82cbc4ffa0781b37fba6e4941b381d9bc631adb2",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T09:18:12Z",
+      "sha256": "730f0002d783629c3cf729ea82cbc4ffa0781b37fba6e4941b381d9bc631adb2",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyApiService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyUserCenterOperateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.oppo.usercenter.account_login",
+        "com.oppo.usercenter.account_logout",
+        "com.oppo.usercenter.modify_name"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

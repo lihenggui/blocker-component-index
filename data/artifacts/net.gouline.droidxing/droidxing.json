@@ -1,0 +1,41 @@
+{
+  "coordinate": "net.gouline.droidxing:droidxing",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T09:41:44Z",
+      "sha256": "82fafdecfa95be351344831b3a4fc3ccc94444858908a7d040d26bdd61d47c77",
+      "dependencies": [
+        "com.google.zxing:android-core:3.1.0",
+        "com.google.zxing:core:3.1.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T09:41:44Z",
+      "sha256": "91fe410e04ec84a577d68255cbbbc45175de4ed10651c4de7a2378cb4cca5ef3",
+      "dependencies": [
+        "com.google.zxing:android-core:3.1.0",
+        "com.google.zxing:core:3.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.gouline.droidxing.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

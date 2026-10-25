@@ -1,0 +1,145 @@
+{
+  "coordinate": "live.ditto:dittoexportlogs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T09:17:21Z",
+      "sha256": "fc56c1791af2dad1a4610724bb771c543b630b1dd4fde91e322b8eb1d720bc68",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T09:17:20Z",
+      "sha256": "fc56c1791af2dad1a4610724bb771c543b630b1dd4fde91e322b8eb1d720bc68",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.5.2",
+        "live.ditto:dittoexporter:0.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T09:17:19Z",
+      "sha256": "fc56c1791af2dad1a4610724bb771c543b630b1dd4fde91e322b8eb1d720bc68",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.5.0",
+        "live.ditto:dittoexporter:0.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T09:17:19Z",
+      "sha256": "d77af70931120fa18a5a9e7029623af8635e5f902ab4786448ece23a367d7b28",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.5.0",
+        "live.ditto:dittoexporter:0.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T09:17:18Z",
+      "sha256": "d77af70931120fa18a5a9e7029623af8635e5f902ab4786448ece23a367d7b28",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.5.0",
+        "live.ditto:dittoexporter:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T09:17:18Z",
+      "sha256": "d77af70931120fa18a5a9e7029623af8635e5f902ab4786448ece23a367d7b28",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.5.0",
+        "live.ditto:dittoexporter:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T09:17:17Z",
+      "sha256": "d77af70931120fa18a5a9e7029623af8635e5f902ab4786448ece23a367d7b28",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.7.4",
+        "live.ditto:dittoexporter:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T09:17:16Z",
+      "sha256": "d77af70931120fa18a5a9e7029623af8635e5f902ab4786448ece23a367d7b28",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.7.4",
+        "live.ditto:dittoexporter:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T09:17:16Z",
+      "sha256": "dc09e3d19d272b5f35a5ddb9be5c2840375a2123afa11e0a013e755d91ed9952",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.8.2",
+        "live.ditto:dittoexporter:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T09:17:15Z",
+      "sha256": "dc09e3d19d272b5f35a5ddb9be5c2840375a2123afa11e0a013e755d91ed9952",
+      "dependencies": [
+        "androidx.navigation:navigation-compose:2.5.3",
+        "live.ditto:ditto:4.8.2",
+        "live.ditto:dittoexporter:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.live.ditto.dittotoolsapp.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "live.ditto.dittotoolsapp.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "coordinate": "net.netheos:pcs-api-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T09:43:51Z",
+      "sha256": "1b7b26b7befd45c71494f57694ae5576f29fa7e242d741e043224b43c8cde18d",
+      "dependencies": [
+        "net.netheos:pcs-api-java:1.0.1",
+        "org.slf4j:slf4j-android:1.7.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "net.netheos.pcsapi.OAuth2AuthorizationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

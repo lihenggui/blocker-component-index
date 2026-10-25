@@ -1,0 +1,65 @@
+{
+  "coordinate": "net.admixer.sdk.mediation:chartboost",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T09:36:27Z",
+      "sha256": "1eebc1a9c402b9c4285bae9cf9bf7ce20ef4930e33c12523fe65986516cbac2f",
+      "dependencies": [
+        "com.chartboost:chartboost-sdk:8.1.0",
+        "net.admixer.sdk:sdk:1.1.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T09:36:26Z",
+      "sha256": "1eebc1a9c402b9c4285bae9cf9bf7ce20ef4930e33c12523fe65986516cbac2f",
+      "dependencies": [
+        "com.chartboost:chartboost-sdk:8.1.0",
+        "net.admixer.sdk:sdk:1.1.1"
+      ]
+    },
+    "1.1.2.0": {
+      "fetchedAt": "2026-10-25T09:36:26Z",
+      "sha256": "f4e1631b98ac57430c75c964837ad0439a90c24f4ad7b1af0b1db86588e09c7e",
+      "dependencies": [
+        "com.chartboost:chartboost-sdk:8.1.0",
+        "net.admixer.sdk:sdk:1.1.2"
+      ]
+    },
+    "1.3.2.0": {
+      "fetchedAt": "2026-10-25T09:36:25Z",
+      "sha256": "f4e1631b98ac57430c75c964837ad0439a90c24f4ad7b1af0b1db86588e09c7e",
+      "dependencies": [
+        "com.chartboost:chartboost-sdk:8.1.0",
+        "net.admixer.sdk:sdk:1.3.2"
+      ]
+    },
+    "1.4.5.0": {
+      "fetchedAt": "2026-10-25T09:36:25Z",
+      "sha256": "99b4ad11fc5ce9dc5cfbb63e4df146dd7ec5d28e6f4a3cd5a8717063ff4bdd90",
+      "dependencies": [
+        "com.chartboost:chartboost-sdk:8.3.1",
+        "net.admixer.sdk:sdk:1.4.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chartboost.sdk.CBImpressionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.zwonb:unimp-face-detection",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T08:27:08Z",
+      "sha256": "00176aaccd5568f6797a74ebdc9198dad2e165b719af71f5365d1e537f816bd4",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.3",
+        "androidx.camera:camera-core:1.2.3",
+        "androidx.camera:camera-lifecycle:1.2.3",
+        "androidx.camera:camera-view:1.2.3",
+        "androidx.compose:compose-bom:2023.06.01",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.fragment:fragment:1.6.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1",
+        "com.google.accompanist:accompanist-permissions:0.30.1",
+        "com.google.mlkit:face-detection:16.1.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T08:27:07Z",
+      "sha256": "00176aaccd5568f6797a74ebdc9198dad2e165b719af71f5365d1e537f816bd4",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.3",
+        "androidx.camera:camera-core:1.2.3",
+        "androidx.camera:camera-lifecycle:1.2.3",
+        "androidx.camera:camera-view:1.2.3",
+        "androidx.compose:compose-bom:2023.06.01",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1",
+        "com.google.accompanist:accompanist-permissions:0.30.1",
+        "com.google.mlkit:face-detection:16.1.5",
+        "io.github.zwonb:compose:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T08:27:07Z",
+      "sha256": "00176aaccd5568f6797a74ebdc9198dad2e165b719af71f5365d1e537f816bd4",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.3",
+        "androidx.camera:camera-core:1.2.3",
+        "androidx.camera:camera-lifecycle:1.2.3",
+        "androidx.camera:camera-view:1.2.3",
+        "androidx.compose:compose-bom:2023.06.01",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1",
+        "com.google.accompanist:accompanist-permissions:0.30.1",
+        "com.google.mlkit:face-detection:16.1.5",
+        "io.github.zwonb:compose:1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.3": {
+      "fetchedAt": "2026-10-25T08:27:06Z",
+      "sha256": "00176aaccd5568f6797a74ebdc9198dad2e165b719af71f5365d1e537f816bd4",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.3",
+        "androidx.camera:camera-core:1.2.3",
+        "androidx.camera:camera-lifecycle:1.2.3",
+        "androidx.camera:camera-view:1.2.3",
+        "androidx.compose:compose-bom:2023.05.00",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1",
+        "com.google.accompanist:accompanist-permissions:0.30.1",
+        "com.google.mlkit:face-detection:16.1.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yidont.unimp.face.detection.FaceDetectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

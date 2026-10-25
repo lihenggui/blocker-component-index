@@ -1,0 +1,212 @@
+{
+  "coordinate": "one.credify.sdk:idx-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v0.1.0": {
+      "fetchedAt": "2026-10-25T09:49:31Z",
+      "sha256": "1eb5679bcbcfefe3f26d554668ff71c00691637d885ba3a4514b51a34b060033",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.airbnb.android:lottie:3.4.0",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.chaos.view:pinview:1.4.3",
+        "com.dinuscxj:circleprogressbar:1.3.0",
+        "com.facebook.android:facebook-login:8.1.0",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.credify-pte-ltd:CredifyCryptoAndroid:v0.1.5",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.hbb20:ccp:2.4.0",
+        "com.intuit.sdp:sdp-android:1.0.6",
+        "com.jakewharton.rxrelay2:rxrelay:2.1.1",
+        "com.makeramen:roundedimageview:2.3.0",
+        "com.onfido.sdk.capture:onfido-capture-sdk:6.0.0",
+        "com.squareup.moshi:moshi-kotlin:1.9.2",
+        "com.squareup.okhttp3:logging-interceptor:4.5.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.8.1",
+        "com.squareup.retrofit2:converter-moshi:2.7.1",
+        "com.squareup.retrofit2:retrofit:2.8.1",
+        "de.hdodenhof:circleimageview:3.1.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.20",
+        "io.reactivex.rxjava2:rxkotlin:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.tensorflow:tensorflow-lite:1.13.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vnptit.idg.sdk.activity.VnptFrontActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vnptit.idg.sdk.activity.VnptIdentityActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vnptit.idg.sdk.activity.VnptOcrActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vnptit.idg.sdk.activity.VnptPortraitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "one.credify.sdk.idx.scene.ekyc.vnpt.VNPTKYCActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "one.credify.sdk.idx.scene.facebook.CreateAccountViaFacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "one.credify.sdk.idx.scene.linkedIn.CreateAccountViaLinkedInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "one.credify.sdk.login.scenes.facebook.LoginFacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "one.credify.sdk.login.scenes.linkedIn.LoginLinkedInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v0.1.0",
+          "v0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

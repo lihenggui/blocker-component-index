@@ -1,0 +1,132 @@
+{
+  "coordinate": "org.radarbase:radar-android-empatica",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T10:09:24Z",
+      "sha256": "40dc504393e2d550051236f13a305cefdad93045e7f8efb0991c916121cba587",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31",
+        "org.radarbase:radar-commons-android:1.1.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T10:09:24Z",
+      "sha256": "ac2bf94d9e5a3f5c7d1ec2b36194381edb0b02f11a9530afb1a8d34eeae84003",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.32",
+        "org.radarbase:radar-commons-android:1.1.2"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T10:09:23Z",
+      "sha256": "d76b28557f338ad82e485c7729e28cede0039e614f926df0707accb2d81cd36d",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0",
+        "org.radarbase:radar-commons-android:1.1.3"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T10:09:22Z",
+      "sha256": "83aa8f229f3398b3fc3001b4df9de6650eb3a6ca5f41322be19802bf279e5f32",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.radarbase:radar-commons-android:1.2.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T10:09:21Z",
+      "sha256": "83aa8f229f3398b3fc3001b4df9de6650eb3a6ca5f41322be19802bf279e5f32",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.radarbase:radar-commons-android:1.2.1"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T10:09:20Z",
+      "sha256": "f0286ae9b1949bf671136cf53c6da2248d50a00b072c6f6d394b2eb48e6cb4df",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "org.radarbase:radar-commons-android:1.2.2"
+      ]
+    },
+    "1.2.3": {
+      "fetchedAt": "2026-10-25T10:09:20Z",
+      "sha256": "561855f234f19055c5441f7f9a31187280d111bce7ee45432221959a132c927d",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "org.radarbase:radar-commons-android:1.2.3"
+      ]
+    },
+    "1.2.5": {
+      "fetchedAt": "2026-10-25T10:09:19Z",
+      "sha256": "65311ac372086a7ab5b736019852c0fbefd5ec797e2e9541ab8bd0801a402b41",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.2.5"
+      ]
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T10:09:18Z",
+      "sha256": "65311ac372086a7ab5b736019852c0fbefd5ec797e2e9541ab8bd0801a402b41",
+      "dependencies": [
+        "com.empatica:E4link:1.0.0",
+        "com.squareup.okhttp:okhttp:2.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23",
+        "org.radarbase:radar-commons-android:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.radarbase.passive.empatica.E4Service",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.5",
+          "1.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.radarbase.passive.empatica.E4Service",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.2.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

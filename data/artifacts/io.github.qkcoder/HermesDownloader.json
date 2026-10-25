@@ -1,0 +1,37 @@
+{
+  "coordinate": "io.github.qkcoder:HermesDownloader",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T07:38:05Z",
+      "sha256": "f02045b4da70c055397ede8ee1a0005d22560e740d9604ec941a8e005ed385fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0-rc01",
+        "androidx.constraintlayout:constraintlayout:2.1.0-beta01",
+        "androidx.core:core-ktx:1.3.1",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.qkcoder.hermesdownloader.HermesDownloaderInitiator",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "qkcoder.hermesdownloader",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

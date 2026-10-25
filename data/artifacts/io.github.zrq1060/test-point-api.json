@@ -1,0 +1,113 @@
+{
+  "coordinate": "io.github.zrq1060:test-point-api",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1-alpha01": {
+      "fetchedAt": "2026-10-25T08:26:09Z",
+      "sha256": "736c67f8b9ad981d5bd4ff1186124070331305228c73de17e3aa2e25920ee5cf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "io.github.zrq1060:test-point-annotation:0.0.1-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
+    },
+    "0.0.1-alpha02": {
+      "fetchedAt": "2026-10-25T08:26:08Z",
+      "sha256": "736c67f8b9ad981d5bd4ff1186124070331305228c73de17e3aa2e25920ee5cf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "io.github.zrq1060:test-point-annotation:0.0.1-alpha02",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
+    },
+    "0.0.1-alpha03": {
+      "fetchedAt": "2026-10-25T08:26:08Z",
+      "sha256": "736c67f8b9ad981d5bd4ff1186124070331305228c73de17e3aa2e25920ee5cf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "io.github.zrq1060:test-point-annotation:0.0.1-alpha03",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
+    },
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T08:26:07Z",
+      "sha256": "736c67f8b9ad981d5bd4ff1186124070331305228c73de17e3aa2e25920ee5cf",
+      "dependencies": [
+        "androidx.activity:activity:1.9.3",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "io.github.zrq1060:test-point-annotation:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
+    },
+    "0.0.1-test4": {
+      "fetchedAt": "2026-10-25T08:26:05Z",
+      "sha256": "f507a88116ccf1b3cc826326f3d10920d99285ca903feae60456379bf778f945",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "io.github.zrq1060:test-point-annotation:0.0.1-test4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zrq.test.point.details.TestFragmentDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1-alpha01",
+          "0.0.1-test4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zrq.test.point.init.InitContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1-alpha01",
+          "0.0.1-test4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.test-point-init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zrq.test.point.list.TestListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1-alpha01",
+          "0.0.1-test4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "coordinate": "io.github.treech:net",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T08:00:49Z",
+      "sha256": "be311e7d2b24801969806fb0ba5412b5c4f00f918e825d44a86c038ce7ca5cfe",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "me.jessyan:retrofit-url-manager:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T08:00:48Z",
+      "sha256": "be311e7d2b24801969806fb0ba5412b5c4f00f918e825d44a86c038ce7ca5cfe",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0",
+        "me.jessyan:retrofit-url-manager:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T08:00:48Z",
+      "sha256": "be311e7d2b24801969806fb0ba5412b5c4f00f918e825d44a86c038ce7ca5cfe",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "com.squareup.retrofit2:adapter-rxjava2:2.8.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "me.jessyan:retrofit-url-manager:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T08:00:47Z",
+      "sha256": "be311e7d2b24801969806fb0ba5412b5c4f00f918e825d44a86c038ce7ca5cfe",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "com.squareup.retrofit2:adapter-rxjava2:2.8.1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "me.jessyan:retrofit-url-manager:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.treech.net.utils.ContextProviderInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

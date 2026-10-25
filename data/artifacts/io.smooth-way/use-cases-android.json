@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.smooth-way:use-cases-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T08:57:30Z",
+      "sha256": "a232e0662caca2dcef6a72a2a1221f80f353a7377e8e9a3e9d6a1655928df614",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.work:work-runtime-ktx:2.4.0",
+        "io.smooth-way:constraints-work:0.1.0",
+        "io.smooth-way:store-memory:0.1.0",
+        "io.smooth-way:store:0.1.0",
+        "io.smooth-way:use-cases:0.1.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.4.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.smooth.use_cases.android.starter.UseCasesInitializer"
+      ]
+    }
+  ]
+}

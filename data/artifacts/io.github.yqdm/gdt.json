@@ -1,0 +1,61 @@
+{
+  "coordinate": "io.github.yqdm:gdt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T08:19:42Z",
+      "sha256": "c6a14fe673d7944c0762bc7e9b46e4af9965553d3921a7f4f97e5ba1c18074f0",
+      "dependencies": [
+        "YqAds:core:unspecified",
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.material:material:1.3.0",
+        "com.qq.e.union:union:4.370.1240",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T08:19:41Z",
+      "sha256": "ad1e507928d13dd4f8b23422b6eddb424130766f5d84014c0313452506f2e6ca",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.material:material:1.3.0",
+        "com.qq.e.union:union:4.370.1240",
+        "io.github.yqdm:core:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:19:40Z",
+      "sha256": "58394b3e56d69327f71b38c7e582b122df7eacd1b6f8baa5800fa2c1ead2ea73",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.qq.e.union:union:4.370.1240",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

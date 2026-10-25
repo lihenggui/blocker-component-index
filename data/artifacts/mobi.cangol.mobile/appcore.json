@@ -1,0 +1,62 @@
+{
+  "coordinate": "mobi.cangol.mobile:appcore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.3": {
+      "fetchedAt": "2026-10-25T09:33:19Z",
+      "sha256": "191dbfd16e16df3b0e2f9dde259af564b08ddc2e315b7847ae95972f3261dd9c",
+      "dependencies": []
+    },
+    "1.2.3.1": {
+      "fetchedAt": "2026-10-25T09:33:18Z",
+      "sha256": "110377dd43353c39338f8517e8522d16059e4b07ea8fc898bdf6622a9bad6193",
+      "dependencies": []
+    },
+    "1.2.3.2": {
+      "fetchedAt": "2026-10-25T09:33:18Z",
+      "sha256": "f102ca6e401d2cbe582c4e8a16a965d767d91da45998022b8898bac029835e9c",
+      "dependencies": []
+    },
+    "1.2.4": {
+      "fetchedAt": "2026-10-25T09:33:17Z",
+      "sha256": "2bac014dbc94dfc2d841e4e0d59e276f8320430311fa759ceadf6fa1dd932574",
+      "dependencies": []
+    },
+    "1.2.5": {
+      "fetchedAt": "2026-10-25T09:33:16Z",
+      "sha256": "569b17d20037f0de1a91d5f8330c634154c2f79e6a677a8b52cfb81dd21316bf",
+      "dependencies": []
+    },
+    "1.2.6": {
+      "fetchedAt": "2026-10-25T09:33:16Z",
+      "sha256": "74b2b0d6d5f0dfb5233a3bc6aa6f054e2375af141dfa4344c38d1140f81967b1",
+      "dependencies": []
+    },
+    "1.2.7": {
+      "fetchedAt": "2026-10-25T09:33:15Z",
+      "sha256": "22806ff8db65717115863302fb88b04a41107571a8e2f0d9635de64e4bc315c9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.3",
+          "1.2.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "coordinate": "io.github.sunitsdk:san-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.1.0.2": {
+      "fetchedAt": "2026-10-25T07:50:42Z",
+      "sha256": "c62ed627d73af6b5d6e4a6e039f25513c9d0a519942e16aa3c924d7a77b27936",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.github.bumptech.glide:glide:4.10.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    },
+    "3.1.0.3": {
+      "fetchedAt": "2026-10-25T07:50:41Z",
+      "sha256": "c62ed627d73af6b5d6e4a6e039f25513c9d0a519942e16aa3c924d7a77b27936",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.github.bumptech.glide:glide:4.10.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    },
+    "3.1.0.4": {
+      "fetchedAt": "2026-10-25T07:50:41Z",
+      "sha256": "c62ed627d73af6b5d6e4a6e039f25513c9d0a519942e16aa3c924d7a77b27936",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.github.bumptech.glide:glide:4.10.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.ushareit.ads.baseadapter.landing.AdVideoLandingPageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.baseadapter.landing.MiniVideoLandingPageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.baseadapter.landing.SAdLandingPageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.common.installer.AppReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.download.SapkInstallerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.download.receiver.NetWorkChangReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.download.service.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ushareit.sdk.ACTION_DOWNLOAD_CLOUD_ITEM",
+        "com.ushareit.sdk.ACTION_DOWNLOAD_DISALLOW",
+        "com.ushareit.sdk.ACTION_DOWNLOAD_MULTI_CLOUD_ITEM",
+        "com.ushareit.sdk.ACTION_DOWNLOAD_RESUME",
+        "com.ushareit.sdk.ACTION_DOWNLOAD_START_SILENCE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.interstitial.factories.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.reserve.receive.ReserveAlarmReceive",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.reserve.service.ReserveAlarmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.reserve.service.ReserveNotifyService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.RESERVE_NOTIFY_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.rewardedvideo.factories.RewardedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.sharemob.landing.AdLandingPageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.sharemob.mraid.MraidVideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.sharemob.offline.OfflineNetGuideActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ushareit.ads.sharemob.webview.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0.2",
+          "3.1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

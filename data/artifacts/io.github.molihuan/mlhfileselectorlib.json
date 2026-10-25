@@ -1,0 +1,110 @@
+{
+  "coordinate": "io.github.molihuan:mlhfileselectorlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:25:39Z",
+      "sha256": "b8ff729291a58b2d8e83bdca50e700f02ee6a66fed444bf4dec6afb4dd873feb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:25:38Z",
+      "sha256": "17f8bfa9b1ce83cff185fd25ef4ef2c627eb714e6ef19b128ecf5e1a078adcd4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:25:38Z",
+      "sha256": "17f8bfa9b1ce83cff185fd25ef4ef2c627eb714e6ef19b128ecf5e1a078adcd4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T07:25:37Z",
+      "sha256": "b57bf46564a21866ce75a436ec5499ff24e1642fb0a5ec3ef799364390de4607",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T07:25:36Z",
+      "sha256": "26a6ad73564eb03528b0005f5e379c2c36257012b62cfb4689b8f83c9551cea2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T07:25:36Z",
+      "sha256": "8a9d880cdace24b7714fec67e32188f3ec549a74232f99ae4b2a8e2a861fcd07",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ess.file.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.zlylib.mlhfileselectorlib.activity.FileSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zlylib.mlhfileselectorlib.ui.FileSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

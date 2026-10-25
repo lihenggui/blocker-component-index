@@ -1,0 +1,291 @@
+{
+  "coordinate": "net.cibmall.sdk:oneSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T09:38:53Z",
+      "sha256": "36f2d273a3413cb4d2ae57f2c7551a46000d9f5503b0ef1abe6fec470423c643",
+      "dependencies": []
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T09:38:53Z",
+      "sha256": "3daf590563a51c2c496106edd4f07ecbc142903bf3ef1beae3b20911513fc6db",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T09:38:52Z",
+      "sha256": "3daf590563a51c2c496106edd4f07ecbc142903bf3ef1beae3b20911513fc6db",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.adjust.sdk:adjust-android:4.28.2",
+        "com.android.billingclient:billing:6.0.0",
+        "com.facebook.android:facebook-login:14.0.0",
+        "com.google.android.gms:play-services-auth:20.4.1",
+        "com.google.android.material:material:1.10.0"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T09:38:51Z",
+      "sha256": "3daf590563a51c2c496106edd4f07ecbc142903bf3ef1beae3b20911513fc6db",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.adjust.sdk:adjust-android:4.28.2",
+        "com.android.billingclient:billing:6.0.0",
+        "com.facebook.android:facebook-login:14.0.0",
+        "com.google.android.gms:play-services-auth:20.4.1",
+        "com.google.android.material:material:1.10.0"
+      ]
+    },
+    "1.1.8": {
+      "fetchedAt": "2026-10-25T09:38:51Z",
+      "sha256": "3daf590563a51c2c496106edd4f07ecbc142903bf3ef1beae3b20911513fc6db",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.adjust.sdk:adjust-android:4.28.2",
+        "com.android.billingclient:billing:6.0.0",
+        "com.facebook.android:facebook-login:14.0.0",
+        "com.google.android.gms:play-services-auth:20.4.1",
+        "com.google.android.material:material:1.10.0"
+      ]
+    },
+    "1.1.9": {
+      "fetchedAt": "2026-10-25T09:38:50Z",
+      "sha256": "3daf590563a51c2c496106edd4f07ecbc142903bf3ef1beae3b20911513fc6db",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.adjust.sdk:adjust-android:4.28.2",
+        "com.android.billingclient:billing:6.0.0",
+        "com.facebook.android:facebook-login:14.0.0",
+        "com.google.android.gms:play-services-auth:20.4.1",
+        "com.google.android.material:material:1.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.oauth.onesdk.view.autoLogin.oneSDKAutoLoginView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.forget.oneSDKForgetView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.info.oneSDKUserInfoView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.loading.oneSDKLoadingView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.login.oneSDKAutoLoginView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.login.oneSDKLoginView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.login.oneSDKSelfLoginView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.moreAccount.oneSDKMoreAccount",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.openWeb.oneSDKOpenWeb",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.realName.oneSDKRealNameView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.register.oneSDKSelfRegisterView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.showTips.oneSDKEliminateTipsView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oauth.onesdk.view.showTips.oneSDKTipsView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

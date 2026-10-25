@@ -1,0 +1,143 @@
+{
+  "coordinate": "org.ligboy.android:selectphoto",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:01:38Z",
+      "sha256": "5a3976e53018a59659bfcbf827456f9742d4e84531a0bcfec6e74f50dad7165d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.soundcloud.android:android-crop:1.0.1"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T10:01:37Z",
+      "sha256": "d6570eaa43938b76bd925137c3b0ec119b6332a40e2d7698e4c8d581019a4933",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.soundcloud.android:android-crop:1.0.1"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-25T10:01:37Z",
+      "sha256": "d6570eaa43938b76bd925137c3b0ec119b6332a40e2d7698e4c8d581019a4933",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.soundcloud.android:android-crop:1.0.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T10:01:36Z",
+      "sha256": "6c82a69dad9e5620b927639bcb5a7fbd90924a068b14438bf24366b64a1631fa",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.theartofdev.edmodo:android-image-cropper:2.2.3"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T10:01:36Z",
+      "sha256": "8fda90498aef79a2bb892ac943dec394b1fee0f40da00221d04efef2bc0b8b5f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.theartofdev.edmodo:android-image-cropper:2.2.3"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T10:01:35Z",
+      "sha256": "8fda90498aef79a2bb892ac943dec394b1fee0f40da00221d04efef2bc0b8b5f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.0.0",
+        "com.theartofdev.edmodo:android-image-cropper:2.2.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.soundcloud.android.crop.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.theartofdev.edmodo.cropper.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.ligboy.selectphoto.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.ligboy.selectphoto.SelectImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.ligboy.selectphoto.SpFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "@string/sp_provider_authorities",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

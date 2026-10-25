@@ -1,19 +1,19 @@
 # Component coverage
 
-Repositories: 187
+Repositories: 299
 
 | Capability | Repositories |
 | --- | ---: |
 | central-search | 1 |
 | google-index | 1 |
-| listing | 13 |
-| metadata | 131 |
-| mirror | 23 |
-| nexus3 | 9 |
+| listing | 28 |
+| metadata | 219 |
+| mirror | 31 |
+| nexus3 | 13 |
 
-Artifacts: 24800
-Artifacts with components: 4576
-Components: 20952
+Artifacts: 31578
+Artifacts with components: 5664
+Components: 26119
 
 Components are unique (name, type) pairs per artifact, across fetched versions.
 
@@ -21,13 +21,17 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | --- | ---: | ---: | ---: | --- | --- |
 | ie.equalit.ouinet | 638 | 0 | 638 | org.mozilla.gecko (638) |  |
 | com.sobot.chat | 500 | 0 | 500 | com.sobot.chat (390), com.sobot.online (102), com.sobot.onlinecommon (8) |  |
+| io.github.yuanrui-mdt-info | 461 | 0 | 461 | com.nekteck.common (459), com.nekteck.baselib (2) |  |
+| io.github.sirll | 294 | 2 | 292 | cn.dianyinhuoban.hm (204), cn.dianyinhuoban.szg (80), com.wareroom.versionchecklib (8) | 13 |
 | cn.jiguang.sdk.ad.third | 436 | 149 | 287 | com.junion.biz (31), com.byted.live (27), cn.haorui.sdk (19), com.tianmu.biz (16), com.byazt.cio (7), com.byazt.fk (7), com.byazt.mw (7), com.byazt.ox (7), com.byazt.qhj (7), com.byazt.wq (7) | 1, 15, 16, 19, 458, 476, 8 |
 | io.github.mhqz | 230 | 0 | 230 | org.mozilla.gecko (230) |  |
+| io.github.safe-ending | 225 | 0 | 225 | com.nekteck.common (224), com.nekteck.baselib (1) |  |
 | com.oustme | 181 | 0 | 181 | com.oustme.oustsdk (179), androidx.core.content (1), com.amazonaws.mobileconnectors (1) |  |
 | com.qiyukf.unicorn | 171 | 0 | 171 | com.qiyukf.unicorn (75), com.qiyukf.uikit (40), com.qiyukf.nimlib (37), com.qiyukf.videomodule (11), com.qiyukf.android (5), com.qiyukf.module (3) |  |
 | by.skz | 168 | 0 | 168 | com.ziggeo.androidsdk (156), androidx.core.content (12) |  |
 | com.ziggeo | 168 | 0 | 168 | com.ziggeo.androidsdk (156), androidx.core.content (12) |  |
 | com.yodo1.suit.pay | 161 | 6 | 155 | com.qihoo.pushsdk (16), com.alipay.sdk (13), com.baidu.platformsdk (13), com.duoku.platform (11), com.lenovo.login (9), cn.gundam.sdk (8), ${applicationId}.wxapi (6), android.support.v4 (6), com.yodo1.sdk (6), com.lenovo.game (5) | 20, 345 |
+| io.github.zimu22 | 156 | 2 | 154 | cn.dianyinhuoban.szg (80), cn.dianyinhuoban.hm (74) | 13 |
 | com.tradplusad | 419 | 280 | 139 | com.byted.live (26), com.tapsdk.tapad (17), com.ap.android (13), com.tradplus.ads (11), com.apd.sdk (8), com.tradplus.china (8), com.tradplus.meditaiton (7), com.youdao.sdk (6), com.tencent.klevin (5), com.tradplus.crosspro (5) | 1, 119, 16, 166, 18, 189, 19, 217, 218, 219, 22, 24, 27, 32, 338, 35, 37, 387, 458, 459, 462, 476, 8, 83 |
 | com.myadsget | 135 | 7 | 128 | com.san.mads (15), com.san.hybrid (9), com.san.proaz (8), com.san.reserve (8), com.san.offerwall (7), androidx.core.content (6), com.san.core (6), san.d (6), com.san.common (5), san.a (5) | 119, 166, 27 |
 | cn.rongcloud.sdk | 122 | 4 | 118 | io.rong.imkit (70), com.rongcloud.im (13), io.rong.imlib (8), io.rong.callkit (7), cn.rongcloud.calllib (6), io.rong.location (6), io.rong.sight (3), io.rong.emoji (2), androidx.core.content (1), io.rong.calllib (1) | 28, 371 |
@@ -35,15 +39,19 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.bayescom | 185 | 73 | 112 | com.byted.live (53), com.mercury.sdk (32), com.bykv.vk (11), com.vkyb.kv (11), com.bytedance.msdk (3), com.bytedance.dataplatform (2) | 1, 8 |
 | com.theneura | 107 | 0 | 107 | com.neura.android (72), com.neura.core (26), com.neura.dashboard (6), com.neura.networkproxy (2), com.neura.gms (1) |  |
 | com.tookanapp.app | 107 | 0 | 107 | tookan.activities (72), tookan.metering (8), tookan.receiver (8), tookan.services (4), com.amazonaws.mobileconnectors (2), com.journeyapps.barcodescanner (2), tookan.activities.addNewTask (2), tookan.tookantrack.metering (2), tookan.utility.placeapi (2), androidx.startup (1) |  |
+| io.github.popularcloud | 104 | 0 | 104 | com.app.cy (98), androidx.core.content (2), com.bifan.txtreaderlib (2), com.jieli.component (2) |  |
 | com.netease.yunxin.kit.contact | 103 | 0 | 103 | com.netease.yunxin (103) |  |
+| ir.metrix.notification | 102 | 0 | 102 | ir.metrix.notification (102) |  |
 | com.atommerce | 99 | 0 | 99 | com.atommerce.maca_android_sdk (99) |  |
 | com.netease.yunxin.kit.chat | 98 | 0 | 98 | com.netease.yunxin (98) |  |
 | com.com2us.android.hive | 97 | 0 | 97 | androidx.startup (61), com.hive.push (11), com.hive (5), com.hive.iapv4 (3), ${applicationId}.wxapi (2), com.hive.authv4 (2), com.hive.base (2), com.hive.promotion (2), com.hive.ui (2), com.amazon.device (1) |  |
 | com.sobot.call | 97 | 0 | 97 | com.sobot.callsdk (69), com.sobot.sobotcallsdk (15), com.sobot.telemarketing (11), com.sobot.callbase (2) |  |
 | com.machbird | 95 | 2 | 93 | com.evernote.android (14), com.login.helper (10), com.apollo.downloadlibrary (9), org.hercules.prm (8), org.n.account (8), com.lachesis.account (6), com.wasp.sdk (5), com.lachesis.innerservice (4), org.adoto.xrg (4), org.homeplanet.coreservice (4) | 82 |
 | com.xinliangxiang | 93 | 0 | 93 | com.xlx.speech (92), com.google.android (1) |  |
+| io.hippochat | 93 | 0 | 93 | com.hippoagent.activities (23), com.hippo.activity (15), com.hippo.calling (9), com.hippoagent.utils (8), com.hippo.utils (7), com.hippo.service (4), com.hippoagent.fcm (4), com.hippoagent.confcall (3), com.hippoagent.hippocall (3), androidx.core.content (2) |  |
 | io.github.FailedToRead | 94 | 2 | 92 | com.lenovo.lsf (82), com.alipay.sdk (4), com.huawei.hms (4), com.lenovo.intermodal (2) | 345 |
 | com.yodo1.plugin.uc | 291 | 202 | 89 | com.byted.live (27), com.alipay.sdk (12), cn.gundam.sdk (8), com.byazt.qde (7), cn.uc.paysdk (4), cn.sirius.nga (3), com.byazt.zz (3), cn.uc.gamesdk (2), com.byazt.gg (2), com.byazt.nu (2) | 1, 16, 8 |
+| io.github.wonderandroid | 280 | 193 | 87 | com.facebook (16), com.nearme.game (11), com.wonder.common (8), com.wonder.cn (7), com.alipay.sdk (6), com.example.ad_lib (4), com.wonder.sdk (4), androidx.core.content (3), com.chuanglan.shanyan_sdk (3), com.heytap.msp (3) | 1, 132, 16, 166, 18, 19, 219, 35, 37, 459, 462, 8, 82 |
 | com.netease.yunxin.kit.team | 85 | 0 | 85 | com.netease.yunxin (85) |  |
 | com.google.firebase | 82 | 3 | 79 | com.google.firebase (78), com.google.android (1) | 80 |
 | cn.rongcloud.private.sdk | 79 | 4 | 75 | io.rong.imkit (51), io.rong.imlib (8), io.rong.callkit (7), io.rong.location (6), io.rong.sight (3) | 28, 371 |
@@ -51,13 +59,20 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.jrmf360 | 73 | 0 | 73 | com.jrmf360.rplib (36), com.jrmf360.walletlib (20), com.jrmf360.walletpaylib (11), com.alipay.sdk (6) |  |
 | io.github.ar-tool | 72 | 0 | 72 | com.hiscene.presentation (36), com.hiscene.hileiaps (13), com.hiscene.publiclib (6), com.hiscene.easyphotos (4), com.hiscene.keeplive (4), com.hiscene.mediaengine (3), com.hiscene.permission (3), com.hiar.webcore (2), com.hiar.command (1) |  |
 | com.webex.connect | 67 | 0 | 67 | com.imimobile.connect (46), com.webex.connect (10), androidx.startup (6), org.eclipse.paho (5) |  |
+| net.cibmall.sdk | 65 | 0 | 65 | com.oauth.onesdk (49), com.oauth.huaweibranch (16) |  |
 | com.tencent.timpush | 105 | 43 | 62 | com.tencent.timpush (31), com.tencent.qcloud (26), com.hihonor.push (4), com.xiaomi.channel (1) | 31, 33, 34, 36 |
 | com.midtrans | 61 | 0 | 61 | com.midtrans.sdk (59), com.midtrans.raygun (1), io.card.payment (1) |  |
+| io.github.shiqing | 61 | 0 | 61 | com.youedata.digitalcard (60), com.baidu.ocr (1) |  |
+| io.github.yyxxgame.sdk | 61 | 0 | 61 | com.facebook (10), cn.qingshi.gamesdk (9), cn.yyxx.commsdk (9), cn.yyxx.eyuangame (4), cn.yyxx.ylink (4), com.nearme.game (4), com.xuanwu.jiyansdk (4), cn.yyxx.eyuancomm (3), cn.yyxx.support (3), com.ld.sdk (3) |  |
+| io.nearpay | 61 | 0 | 61 | io.nearpay.sdk (25), io.nearpay.proxy (10), io.nearpay.connect (9), io.nearpay.nearpayMasterConnect (5), io.nearpay.install (4), io.nearpay.sdk_internal (4), androidx.core.content (2), io.nearpay.store (2) |  |
 | com.yodo1.plugin.oppo | 161 | 101 | 60 | com.byted.live (26), com.nearme.game (24), com.heytap.msp (4), com.oplus.cutpayment (2), com.oppo.usercenter (2), com.bytedance.adsdk (1), com.bytedance.dataplatform (1) | 1, 16, 37, 8 |
 | com.metamap | 59 | 0 | 59 | com.incode.welcome_sdk (56), com.metamap.sdk_components (2), com.metamap.metamap_sdk (1) |  |
 | io.github.dteducation | 56 | 0 | 56 | com.pep.dtedu (56) |  |
 | com.baadl | 59 | 4 | 55 | com.baadl.dekkho (52), service (2), com.facebook (1) | 79 |
+| io.github.watayouxiang.tio | 84 | 29 | 55 | com.tiocloud.newpay (21), com.watayouxiang.wallet (14), com.tiocloud.account (9), com.watayouxiang.qrcode (3), com.tiocloud.session (2), com.tencent.connect (1), com.tencent.tauth (1), com.tiocloud.chat (1), com.tiocloud.social (1), com.tiocloud.verification (1) | 15, 31, 34, 36 |
 | com.bigossp | 54 | 0 | 54 | sg.bigo.ads (54) |  |
+| io.github.x7sy-sm | 54 | 0 | 54 | com.smwl.smsdk (30), com.billy.cc (6), com.liulishuo.filedownloader (6), com.netease.nimlib (3), com.tencent.shadow (3), com.bytedance.ads (2), com.gameturbo (2), android.support.v4 (1), androidx.core.content (1) |  |
+| io.github.xgvlsdk | 58 | 4 | 54 | com.mchsdk.paysdk (43), com.alipay.sdk (4), com.chuanglan.shanyan_sdk (3), com.mchsdk.plugin (2), com.cmic.gen (1), com.qq.gdt (1) | 3 |
 | cn.fly2think | 53 | 0 | 53 | com.icatch.panorama (44), com.smart.panorama (2), com.smart.pressure (2), com.vector.update_app (2), com.just.agentweb (1), com.smart.detection (1), com.smart.electric (1) |  |
 | com.gitee.zzhhz | 52 | 0 | 52 | com.zzh.plugin (32), com.zzh.lib (12), com.huantansheng.easyphotos (4), com.google.zxing (2), ${applicationId}.wxapi (1), com.unionpay (1) |  |
 | in.revos.android | 52 | 0 | 52 | com.boltCore.android (45), com.revos.android (6), com.csy.bl (1) |  |
@@ -65,10 +80,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | cloud.shoplive | 49 | 0 | 49 | cloud.shoplive.sdk (46), androidx.core.content (3) |  |
 | io.agora.rtc | 53 | 6 | 47 | io.agora.chat (31), io.agora.avc (11), io.agora.rtc2 (4), androidx.core.content (1) | 31 |
 | com.mistplay | 46 | 0 | 46 | com.mistplay.loyaltyplay (29), com.mistplay.timetracking (10), com.mistplay.common (7) |  |
+| network.particle | 46 | 0 | 46 | com.particle.gui (39), com.particle.auth (6), com.particle.connectkit (1) |  |
 | io.getstream | 44 | 0 | 44 | io.getstream.chat (14), io.getstream.video (12), io.getstream.android (8), io.getstream.log (4), androidx.startup (3), io.getstream.logging (2), androidx.work.impl (1) |  |
 | im.actor | 43 | 0 | 43 | im.actor.sdk (39), im.actor.map (2), com.soundcloud.android (1), im.actor.push (1) |  |
+| org.firstinspires.ftc | 43 | 0 | 43 | com.qualcomm.ftccommon (35), org.firstinspires.ftc (5), org.firstinspires.inspection (2), androidx.core.content (1) |  |
 | com.infobip | 42 | 0 | 42 | org.infobip.mobile (33), com.infobip.webrtc (8), com.google.android (1) |  |
 | com.rsdx | 42 | 0 | 42 | io.dcloud.feature (32), com.tojoy.shop (3), io.dcloud (3), com.dmcbig.mediapicker (2), androidx.startup (1), com.taobao.weex (1) |  |
+| me.proton.core | 42 | 0 | 42 | me.proton.core (35), androidx.startup (7) |  |
 | com.genexus.android | 52 | 11 | 41 | com.genexus.android (38), androidx.core.content (1), androidx.media.session (1), com.facebook (1) | 125, 15, 205, 24, 79 |
 | com.github.tratagroup | 40 | 0 | 40 | com.tratagroup.hse (38), com.tratagroup.vezaonepos (2) |  |
 | com.mojro.partner | 40 | 0 | 40 | com.mojro.partner (39), androidx.core.content (1) |  |
@@ -76,17 +94,23 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | chat.sdk | 39 | 0 | 39 | sdk.chat.ui (19), com.zhihu.matisse (3), sdk.chat.message (3), sdk.chat.sinch (3), app.xmpp.adapter (2), sdk.chat.core (2), sdk.chat.encryption (2), androidx.core.content (1), cafe.adriel.androidaudiorecorder (1), sdk.chat.contact (1) |  |
 | com.apusapps | 40 | 1 | 39 | com.evernote.android (7), com.apollo.downloadlibrary (4), org.hercules.prm (4), com.dckaz (3), com.lachesis.account (3), org.hera.crash (3), com.lachesis.innerservice (2), com.wasp.sdk (2), org.adoto.xrg (2), org.homeplanet.coreservice (2) | 82 |
 | com.umeng.umsdk | 84 | 45 | 39 | com.umeng.union (18), org.android.agoo (8), com.mobile.auth (3), com.huawei.hms (2), ${applicationId}.apshare (1), ${applicationId}.ddshare (1), ${applicationId}.wxapi (1), com.cmic.sso (1), com.efs.sdk (1), com.huawei.android (1) | 31, 33, 34, 345, 36, 6, 7 |
+| io.github.sonicdjgh | 39 | 0 | 39 | com.easygames.platform (11), com.igame.platform (11), com.easygames.support (8), com.igame.support (7), com.egls.game (1), com.egls.lib (1) |  |
 | com.immomo.molive.hello | 38 | 0 | 38 | com.immomo.molive (18), com.immomo.android (10), com.immomo.momo (4), com.alipay.sdk (2), com.immomo.auth2 (1), com.momo.face_editor (1), com.momo.xeengine (1), immomo.com.mklibrary (1) |  |
 | com.whatspos.sdk | 41 | 3 | 38 | com.pax.vas (25), com.pax.market (12), androidx.room (1) | 471 |
+| io.github.skyjie6 | 38 | 0 | 38 | com.skyjie.djlib (16), de.blinkt.openvpn (14), com.netease.libitvpn (8) |  |
+| io.samagra | 38 | 0 | 38 | org.odk.collect (38) |  |
+| me.chatgame.mobilecg | 38 | 0 | 38 | me.chatgame.mobilecg (30), me.chatgame.uisdk (8) |  |
 | cn.entertech.android | 37 | 0 | 37 | cn.entertech.bleuisdk (18), cn.entertech.uicomponentsdk (13), cn.entertech.log (3), cn.entertech.serialport (2), cn.entertech.web (1) |  |
 | com.adobe.creativesdk | 38 | 1 | 37 | com.adobe.creativesdk (19), com.behance.sdk (13), com.aviary.android (4), com.amazonaws.mobileconnectors (1) | 96 |
 | com.fillr | 37 | 0 | 37 | com.fillr.service (30), com.fillr.embedded (6), com.fillr.nativeautofill (1) |  |
 | com.github.vhall.sdk.yinhesdk | 37 | 0 | 37 | com.vhall.uilibray (13), com.donkingliang.imageselector (12), com.vhall.baselib (6), androidx.core.content (2), com.vhall.framework (2), com.vhall.web (2) |  |
 | com.netease.nimlib | 37 | 0 | 37 | com.qiyukf.unicorn (20), com.netease.nimlib (15), com.netease.nim (2) |  |
 | io.github.limsk1993 | 37 | 0 | 37 | com.atommerce.maca_android_sdk (37) |  |
+| ly.warp | 37 | 0 | 37 | ly.warp.sdk (37) |  |
 | com.pulsatehq.sdk | 36 | 0 | 36 | com.pulsatehq.internal (36) |  |
 | io.github.NateshR | 36 | 0 | 36 | com.likeminds.likemindschat (32), com.amazonaws.mobileconnectors (2), com.collabmates.fileutil (2) |  |
 | io.github.mintinglabs | 36 | 0 | 36 | network.mintex.module_kyc (35), com.google.android (1) |  |
+| io.intercom.android | 36 | 0 | 36 | io.intercom.android (36) |  |
 | com.bihe0832.android | 37 | 2 | 35 | com.bihe0832.android (35) | 13 |
 | com.github.vhall.sdk.guosen_sdk | 35 | 0 | 35 | com.vhall.uilibray (14), com.donkingliang.imageselector (10), com.vhall.baselib (6), com.vhall.framework (2), com.vhall.web (2), org.fourthline.cling (1) |  |
 | com.google.android.gms | 48 | 13 | 35 | com.google.android (22), com.google.mlkit (10), net.openid.appauth (2), com.google.firebase (1) | 131, 24, 79, 80 |
@@ -96,8 +120,11 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.tencent.testaar | 53 | 19 | 34 | com.tencent.timpush (26), com.tencent.qcloud (6), com.hihonor.push (2) | 31, 33, 34, 36 |
 | com.tenqube | 34 | 0 | 34 | com.tenqube.visual_third (24), com.tenqube.visualbase (4), com.tenqube.ibkreceipt (3), com.tenqube.ibk (1), com.tenqube.jb (1), com.tenqube.visualibk (1) |  |
 | io.github.freshworks | 34 | 0 | 34 | com.freshchat.consumer (34) |  |
+| io.github.sunitsdk | 51 | 17 | 34 | com.ushareit.ads (32), androidx.core.content (2) | 119, 166, 219, 22, 24, 27 |
 | com.github.7moor-tech | 33 | 0 | 33 | com.m7.imkfsdk (20), com.moor.imkf (4), org.jitsi.meet (3), com.reactnativecommunity.webview (2), android.support.v4 (1), androidx.core.content (1), androidx.startup (1), com.oblador.performance (1) |  |
 | com.nhncloud.android | 33 | 0 | 33 | com.nhncloud.android (20), com.samsung.android (4), soft_world.mycard.paymentapp (4), tw.com.mycard (2), com.amazon.device (1), com.fet.iap (1), com.google.zxing (1) |  |
+| io.goeasy | 69 | 36 | 33 | io.goeasy.client (11), com.google.android (8), com.google.firebase (8), com.huawei.hms (6) | 31, 33, 34, 345, 36 |
+| org.microg.gms | 33 | 0 | 33 | org.microg.gms (24), com.google.android (8), androidx.core.content (1) |  |
 | br.com.off2 | 32 | 0 | 32 | br.com.off2 (32) |  |
 | com.auryc | 32 | 0 | 32 | auryc.com.service (15), auryc.com.job (12), auryc.com.callback (3), auryc.com.voc (2) |  |
 | com.citcon.sdk | 32 | 0 | 32 | com.citconpay.dropin (9), com.alipay.sdk (6), com.citconpay.sdk (5), upisdk (4), com.braintreepayments.api (3), ${applicationId}.wxapi (2), com.unionpay (1), com.unionpay.uppay (1), sdk (1) |  |
@@ -117,16 +144,20 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.mesibo.api | 29 | 0 | 29 | com.mesibo.calls (10), com.mesibo.messaging (6), com.mesibo.api (5), com.mesibo.mediapicker (4), com.mesibo.uihelper (2), android.support.v4 (1), androidx.core.content (1) |  |
 | com.netease.yunxin.kit.meeting | 29 | 0 | 29 | com.pichillilorenzo.flutter_inappwebview_android (13), com.netease.yunxin (9), com.crazecoder.openfile (2), com.netease.meeting (2), androidx.profileinstaller (1), com.netease.nimlib (1), io.flutter.plugins (1) |  |
 | com.yodo1.plugin.xiaomi | 95 | 66 | 29 | com.byted.live (27), com.bytedance.dataplatform (1), com.miui.zeus (1) | 1, 18, 462, 8 |
+| org.myguide | 29 | 0 | 29 | org.player.sdk (14), org.sdk.creator (6), org.myguide.sdk (4), org.sdk.player (3), com.theartofdev.edmodo (2) |  |
 | com.github.javakam | 28 | 0 | 28 | com.luck.picture (10), ando.gallery (9), ando.file.core (2), ando.file.selector (2), ando.gallery.ucrop (2), com.yalantis.ucrop (2), ando.webview.core (1) |  |
 | com.heytap.ad | 60 | 32 | 28 | com.bykv.vk (26), com.heytap.msp (2) | 1, 37, 8 |
 | com.heytap.sdk | 60 | 32 | 28 | com.bykv.vk (26), com.heytap.msp (2) | 1, 37, 8 |
 | com.sobot | 28 | 0 | 28 | com.sobot.chat (28) |  |
+| io.github.sobotsdk | 28 | 0 | 28 | com.sobot.chat (28) |  |
 | com.helpcrunch | 27 | 0 | 27 | com.helpcrunch.library (27) |  |
 | com.izooto | 39 | 12 | 27 | com.izooto (23), androidx.core.content (2), com.izooto.fcmreceiver (2) | 31 |
 | com.nxcloud.nxphone | 27 | 0 | 27 | com.sipdroid.nxcloud (24), android.support.v4 (1), com.sipdroid.codecs (1), com.xiaoqiang.floatwindow (1) |  |
 | com.yoti.mobile.android.sdk | 27 | 0 | 27 | com.yoti.mobile (17), com.microblink.activity (8), com.facetec.sdk (2) |  |
 | io.github.adsplusteam | 119 | 92 | 27 | com.byted.live (26), com.bytedance.dataplatform (1) | 1, 16, 18, 19, 476 |
 | io.github.kllkko | 27 | 0 | 27 | com.lexar.cloudlibrary (26), com.tencent.connect (1) |  |
+| ly.kite | 27 | 0 | 27 | com.paypal.android (5), ly.kite.journey (4), ly.kite.checkout (3), ly.kite.instagramphotopicker (3), io.card.payment (2), ly.kite.address (2), ly.kite.gcm (2), ly.kite.photopicker (2), com.facebook (1), ly.kite.devicephotopicker (1) |  |
+| org.bitbucket.ascendcorp | 27 | 0 | 27 | com.ascendcorp.walletsdk (26), com.ascendcommerce.weomnilivekit (1) |  |
 | com.chalkdigital | 26 | 0 | 26 | com.chalkdigital.common (11), com.chalkdigital.cdads (7), com.chalkdigital.interstitial (3), com.switch_smile.ssbp (3), com.chalkdigital (1), com.chalkdigital.ads (1) |  |
 | com.github.relateddigital | 26 | 0 | 26 | com.relateddigital.relateddigital_android (16), com.visilabs.inApp (2), euromsg.com.euromobileandroid (2), com.visilabs.mailSub (1), com.visilabs.scratchToWin (1), com.visilabs.shakeToWin (1), com.visilabs.spinToWin (1), com.visilabs.story (1), com.visilabs.util (1) |  |
 | com.loopeer.android.reader | 26 | 0 | 26 | org.geometerplus.android (22), com.loopeer.android (3), org.geometerplus.zlibrary (1) |  |
@@ -134,9 +165,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.yandex.android | 50 | 24 | 26 | com.yandex.authsdk (7), com.evernote.android (6), com.yandex.runtime (4), com.yandex.yaloginsdk (3), com.yandex.mapkit (2), ru.yandex.money (2), com.yandex.appmetrica (1), ru.yandex.speechkit (1) | 148, 161 |
 | io.bitbucket.yxin47 | 27 | 1 | 26 | com.baidu.idl (8), com.luck.picture (6), com.shineway.shys (6), com.baidu.liantian (4), com.yalantis.ucrop (2) | 371 |
 | io.github.gao746700783 | 28 | 2 | 26 | com.hongxin.client (16), com.example.mylibrary (4), androidx.startup (2), com.example.lib_webview (2), com.example.lib_keepalive (1), net.gotev.sipservice (1) | 13 |
+| io.github.watayouxiang.3rd | 28 | 2 | 26 | com.ehking.sdk (18), com.sina.weibo (3), com.payeasenet.service (2), com.sensetime.liveness (2), com.livedetect (1) | 36 |
+| is.leap.android | 26 | 0 | 26 | is.leap.android (26) |  |
 | com.github.mrkenitvnn | 29 | 4 | 25 | vn.myg.gamesdk (20), com.valuepotion.sdk (3), com.facebook (2) | 46, 79 |
 | com.yodo1.mas.plugin | 264 | 239 | 25 | com.ss.union (9), com.vivo.ic (4), cn.sirius.nga (2), com.heytap.msp (2), com.kuaishou.weapon (2), com.apm.applog (1), com.bytedance.adsdk (1), com.bytedance.sdk (1), com.miui.zeus (1), com.playgame.buyoutsdk (1) | 1, 16, 18, 3, 35, 37, 462, 8 |
 | fm.bullhorn | 25 | 0 | 25 | com.carrierx.bullhorn (21), androidx.media3.exoplayer (1), androidx.media3.session (1), androidx.mediarouter.media (1), androidx.work.impl (1) |  |
+| io.github.mrocigno | 25 | 0 | 25 | br.com.mrocigno (25) |  |
+| io.github.nasmedia-tech | 25 | 0 | 25 | com.nasmedia.nap (10), com.nasmedia.nstation (9), com.nasmedia.admixerssp (4), androidx.core.content (1), com.nasmedia.admixer (1) |  |
 | cn.6xyun.android | 24 | 0 | 24 | com.liux.android (14), com.alipay.sdk (5), com.yalantis.ucrop (2), ${applicationId}.wxapi (1), com.unionpay (1), com.unionpay.uppay (1) |  |
 | com.echatsoft.echatsdk.platform | 24 | 0 | 24 | com.echatsoft.echatsdk (24) |  |
 | com.glia | 24 | 0 | 24 | com.glia.widgets (23), com.glia.androidsdk (1) |  |
@@ -144,6 +179,8 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.taptap.android.payment | 24 | 0 | 24 | com.taptap.payment (24) |  |
 | com.tencent.imsdk | 24 | 0 | 24 | com.tencent.qcloud (21), com.tencent.liteav (3) |  |
 | com.toast.android.gamebase | 24 | 0 | 24 | com.toast.android (19), com.sina.weibo (2), androidx.core.content (1), com.google.android (1), com.nhncloud.android (1) |  |
+| io.hyphenate | 24 | 0 | 24 | com.hyphenate.easeui (22), androidx.core.content (1), com.hyphenate.chatroom (1) |  |
+| io.mozocoin | 24 | 0 | 24 | io.mozocoin.sdk (23), net.openid.appauth (1) |  |
 | cn.authing | 23 | 0 | 23 | cn.authing.guard (21), com.tencent.connect (1), com.xiaomi.account (1) |  |
 | com.echatsoft.echatsdk.platformx | 23 | 0 | 23 | com.echatsoft.echatsdk (23) |  |
 | com.interswitchng | 23 | 0 | 23 | com.interswitchng.smartpos (16), com.example.isw_smart_till (3), com.example.smart_pos_till (3), com.interswitchng.iswmobilesdk (1) |  |
@@ -152,6 +189,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.ticketmaster.tickets | 23 | 0 | 23 | com.ticketmaster.tickets (22), androidx.core.content (1) |  |
 | io.github.banfengcanyue | 23 | 0 | 23 | com.bfcy.base (20), androidx.core.content (2), androidx.startup (1) |  |
 | io.github.hunimeizi | 23 | 0 | 23 | com.haolin.android (12), com.haolin.swift (6), androidx.core.content (4), com.haolin.network (1) |  |
+| io.github.the-best-is-best | 23 | 0 | 23 | androidx.startup (17), io.github.firebase_messaging (3), io.tbib.klocal_notification (2), io.gitub.kfirebasemessaging (1) |  |
 | com.google.mlkit | 22 | 0 | 22 | com.google.mlkit (22) |  |
 | com.meiqia | 22 | 0 | 22 | com.meiqia.meiqiasdk (18), com.meiqia.core (4) |  |
 | com.sagisu | 22 | 0 | 22 | com.sagisu.vaultLibrary (22) |  |
@@ -160,6 +198,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | im.amomo.paypal | 22 | 0 | 22 | com.paypal.android (20), io.card.payment (2) |  |
 | io.gamedock.sdk | 25 | 3 | 22 | io.gamedock.sdk (14), com.evernote.android (6), net.openid.appauth (2) | 46, 79 |
 | io.github.goallpay | 22 | 0 | 22 | com.alipay.sdk (12), com.iap.cashier (4), com.allpayx.sdk (3), androidx.core.content (1), com.unionpay (1), com.unionpay.uppay (1) |  |
+| io.github.vfhhu | 22 | 0 | 22 | com.hyxen.adlocusaar (11), com.hyxen.privateadlocus (11) |  |
 | com.mapbox.mapboxsdk | 26 | 5 | 21 | com.mapbox.mapboxsdk (16), com.mapbox.services (3), com.mapbox.plugins (2) | 191 |
 | com.ost | 21 | 0 | 21 | com.ost.walletsdk (15), com.ost.mobilesdk (6) |  |
 | dev.jahir | 21 | 0 | 21 | dev.jahir.frames (9), dev.jahir.kuper (6), dev.jahir.blueprint (5), androidx.appcompat.app (1) |  |
@@ -184,6 +223,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.zoloz.android.build | 20 | 0 | 20 | com.alipay.zoloz (7), com.zoloz.webcontainer (6), com.zoloz.android (3), com.zoloz.nfc (2), com.zoloz.zeta (2) |  |
 | community.likeminds | 20 | 0 | 20 | com.likeminds.feed (10), com.likeminds.feedsx (8), com.likeminds.customgallery (2) |  |
 | io.dolby | 20 | 0 | 20 | com.voxeet.uxkit (16), com.voxeet.sdk (3), com.voxeet.authent (1) |  |
+| io.github.shichuanenhui | 20 | 0 | 20 | com.luck.picture (11), com.lee.utils (4), com.yalantis.ucrop (2), com.lee.fileselector (1), com.lxj.xpopup (1), com.zlw.main (1) |  |
+| ir.metrix | 20 | 0 | 20 | ir.metrix.notification (16), ir.metrix.internal (2), ir.metrix.deeplink (1), ir.metrix.referrer (1) |  |
+| kr.motto | 20 | 0 | 20 | kr.motto.mottolib (19), com.kakao.sdk (1) |  |
+| love.nuoyan.android | 20 | 0 | 20 | love.nuoyan.android (9), com.nearme.game (3), ${applicationId}.wxapi (2), androidx.startup (1), com.tencent.connect (1), com.tencent.tauth (1), com.unionpay (1), com.unionpay.uppay (1), com.xiaomi.account (1) |  |
+| ly.appsocial | 20 | 0 | 20 | ly.appsocial.chatcenter (19), android.support.v4 (1) |  |
+| one.credify.sdk | 20 | 0 | 20 | one.credify.sdk (10), com.vnptit.idg (8), com.facebook (1), one.credify.common (1) |  |
+| org.radarbase | 20 | 0 | 20 | org.radarbase.passive (18), com.journeyapps.barcodescanner (1), org.radarbase.monitor (1) |  |
 | cn.qingin | 26 | 7 | 19 | com.bingo.sdk (17), com.mobile.auth (2) | 1, 8 |
 | com.adobe.creativesdk.foundation | 19 | 0 | 19 | com.adobe.creativesdk (19) |  |
 | com.blueshift | 19 | 0 | 19 | com.blueshift.rich_push (5), com.blueshift.batch (4), com.blueshift (2), com.blueshift.httpmanager (2), com.blueshift.pn (2), com.blueshift.receiver (2), com.blueshift.core (1), com.blueshift.inbox (1) |  |
@@ -199,6 +245,10 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.agoraio-community | 19 | 0 | 19 | io.agora.avc (7), io.agora.classroom (7), io.agora.agoraeducore (3), io.agora.online (2) |  |
 | io.github.anylifezlb | 19 | 0 | 19 | com.AI.FaceVerify (6), com.ai.face (4), com.google.android (3), com.zenglb.downloadinstaller (3), com.ai.FaceVerify (1), com.ai.facesearch (1), com.anylife.downloadinstaller (1) |  |
 | io.github.cocomikes | 19 | 0 | 19 | com.luck.picture (10), com.readystatesoftware.chuck (4), com.yalantis.ucrop (2), io.ganguo.library (2), com.soundcloud.android (1) |  |
+| io.github.timehut | 19 | 0 | 19 | com.pixmatrix.shop (19) |  |
+| io.github.wairdell | 19 | 0 | 19 | com.xlx.speech (18), com.google.android (1) |  |
+| net.donky | 19 | 0 | 19 | net.donky.core (18), com.google.android (1) |  |
+| org.iqnect | 19 | 0 | 19 | org.iqnect.iqkit (15), com.facebook (2), io.card.payment (2) |  |
 | co.roverlabs | 20 | 2 | 18 | co.roverlabs.core (7), co.roverlabs.sdk (7), co.roverlabs.estimote (4) | 128 |
 | com.azerion | 24 | 6 | 18 | com.azerion.bluestack (7), com.madvertise.cmp (7), com.azerion.sdk (2), com.azerion.improvedigital (1), com.madvertiselocation.receiver (1) | 118 |
 | com.clover.sdk | 18 | 0 | 18 | com.clover.remote (8), com.clover.payment (6), com.clover.bluetooth (1), com.clover.common (1), com.clover.common2 (1), com.clover.sdk (1) |  |
@@ -218,6 +268,11 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.xlythe | 17 | 0 | 17 | com.xlythe.textmanager (8), com.xlythe.manager (4), com.xlythe.service (3), com.xlythe.preferences (1), com.xlythe.watchface (1) |  |
 | com.yanzhenjie | 17 | 0 | 17 | com.yanzhenjie.album (12), com.yanzhenjie.permission (4), com.yanzhenjie.durban (1) |  |
 | io.github.laiweisheng | 17 | 0 | 17 | com.smwl.smsdk (10), com.billy.cc (2), com.liulishuo.filedownloader (2), androidx.core.content (1), com.netease.nimlib (1), com.tencent.shadow (1) |  |
+| io.github.otpless-tech | 17 | 0 | 17 | com.facebook (4), com.otpless.loginpage (4), com.otpless.android (2), com.otpless.connect (2), androidx.browser.customtabs (1), com.google.androidbrowserhelper (1), com.otpless.autoread (1), com.otpless.fusionimpl (1), com.otpless.main (1) |  |
+| io.github.tianxia-aa | 17 | 0 | 17 | com.oauth.onesdkbranch (9), com.oauth.huaweibranch (8) |  |
+| money.spense | 17 | 0 | 17 | money.spense.library (9), money.spense.sdk (4), in.co.sbmbank (3), androidx.core.content (1) |  |
+| net.iris | 17 | 0 | 17 | com.irisvalet.android (14), com.saltosystems.justinmobile (1), org.abtollc.db (1), org.abtollc.service (1) |  |
+| org.smartregister | 17 | 0 | 17 | org.smartregister.view (15), org.smartregister.service (2) |  |
 | co.pushe.plus | 16 | 0 | 16 | co.pushe.plus (16) |  |
 | com.antdigital.livenessverify | 16 | 0 | 16 | com.dtf.face (16) |  |
 | com.box | 16 | 0 | 16 | com.box.androidsdk (12), com.pspdfkit.document (2), com.pspdfkit (1), com.pspdfkit.media (1) |  |
@@ -239,6 +294,11 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.asmain6 | 16 | 0 | 16 | com.fzm.walletmodule (16) |  |
 | io.github.good-good-study | 16 | 0 | 16 | com.sina.weibo (14), android.support.v4 (2) |  |
 | io.github.ksrainarthas | 16 | 0 | 16 | com.syusuke.camera (8), com.syusuke.utils (4), com.syusuke.mqtt (2), com.syusuke.logreport (1), org.eclipse.paho (1) |  |
+| io.github.qqlizhn | 16 | 0 | 16 | com.evernote.android (7), com.magic.account (3), com.magic.deviceadmin (2), com.magic.accessibility (1), com.magic.libimobiledevice (1), com.magic.remotetask (1), com.magic.unifiedlocation (1) |  |
+| io.github.wangjundev | 16 | 0 | 16 | com.stv.msgservice (16) |  |
+| io.github.yongzheng7 | 16 | 0 | 16 | com.atom.module (9), com.app.module (5), com.saop.core (2) |  |
+| io.looployalty.android | 16 | 0 | 16 | com.lib.loopsdk (16) |  |
+| net.indigitall | 16 | 0 | 16 | net.indigitall.pushsdk (16) |  |
 | br.com.getmo | 15 | 0 | 15 | br.com.getmo (15) |  |
 | cn.moltres.android | 15 | 0 | 15 | cn.moltres.android (9), ${applicationId}.wxapi (2), com.tencent.connect (1), com.tencent.tauth (1), com.unionpay (1), com.xiaomi.account (1) |  |
 | com.amazon.android.amazonpay | 15 | 0 | 15 | com.amazon.android (10), com.amazon.identity (3), com.amazon.apay (2) |  |
@@ -257,6 +317,8 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.cms3102 | 15 | 0 | 15 | com.sinest.adappterap (9), com.cms.lotto (6) |  |
 | io.github.didi.dokit | 15 | 0 | 15 | com.didichuxing.doraemonkit (14), com.kronos.dokit (1) |  |
 | io.github.luoqqsh | 33 | 18 | 15 | com.xing.lib_thirdpush (4), androidx.core.content (2), x.com.base (2), com.push.google (1), com.tencent.connect (1), com.tencent.tauth (1), x.com.fliepick (1), x.com.hl_study (1), x.com.rxHttp (1), x.com.util (1) | 31, 34, 36, 9 |
+| io.onebrick.sdk | 15 | 0 | 15 | io.onebrick.sdk (15) |  |
+| org.chat21.android | 15 | 0 | 15 | org.chat21.android (15) |  |
 | cn.com.analysys | 33 | 19 | 14 | com.analysys.eapushsdk (4), com.analysys.push (4), com.analysys.database (3), com.analysys.easdk (1), com.analysys.tools (1), com.yhao.floatwindow (1) | 31, 34, 36 |
 | com.adyen.checkout | 14 | 0 | 14 | com.adyen.checkout (14) |  |
 | com.braintreepayments.api | 14 | 0 | 14 | com.braintreepayments.api (8), com.paypal.android (6) |  |
@@ -278,6 +340,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.gitee.yjjk_1.android | 14 | 0 | 14 | com.tencent.qcloud (8), com.tencent.trtc (2), com.youjiajk.im (2), com.tencent.rtmp (1), com.youjiajk.jetpackmvvm (1) |  |
 | io.github.chochanaresh | 14 | 0 | 14 | com.nareshchocha.filepickerlibrary (12), androidx.startup (2) |  |
 | io.github.guosuweidev | 14 | 0 | 14 | com.chuckerteam.chucker (10), androidx.startup (4) |  |
+| io.github.xmcamera | 14 | 0 | 14 | com.xm.kotlin (8), com.xm.activity (6) |  |
 | androidx.work | 13 | 0 | 13 | androidx.work.impl (11), androidx.startup (1), androidx.work.multiprocess (1) |  |
 | co.anteia | 13 | 0 | 13 | co.anteia.registrationsdk (7), co.anteia.anteiasdk (6) |  |
 | com.cassbana | 13 | 0 | 13 | com.cassbana.ekyc (8), com.cassbana.risk (4), androidx.core.content (1) |  |
@@ -304,6 +367,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.gamepubcorp | 13 | 0 | 13 | io.github.gamepubcorp (9), com.samsung.android (4) |  |
 | io.github.github-yoyo | 13 | 0 | 13 | com.yoyo.ui (7), cn.smart.yoyolib (6) |  |
 | io.github.maliangxue | 13 | 0 | 13 | cn.udesk.activity (8), cn.udesk.photoselect (3), cn.udesk.camera (1), cn.udesk.provider (1) |  |
+| io.github.slamduck | 13 | 0 | 13 | com.pep.dtedu (13) |  |
+| io.github.waibozi | 13 | 0 | 13 | com.github.shadowsocks (7), com.google.android (2), com.google.firebase (2), androidx.room (1), androidx.startup (1) |  |
+| io.github.wangshuwen1107 | 13 | 0 | 13 | cn.cheney.xpicker (7), androidx.core.content (2), com.cheney.camera2 (2), com.yalantis.ucrop (2) |  |
+| io.github.youmi-obg | 13 | 0 | 13 | net.youmi.overseas (13) |  |
+| io.mehow.squashit | 13 | 0 | 13 | io.mehow.squashit (11), androidx.core.content (2) |  |
+| is.leap.android.compose | 13 | 0 | 13 | is.leap.android (13) |  |
+| is.leap.android.flutter | 13 | 0 | 13 | is.leap.android (13) |  |
 | ai.redpen.capture.sdk | 12 | 0 | 12 | ai.redpen.capture (12) |  |
 | android.arch.work | 12 | 0 | 12 | androidx.work.impl (12) |  |
 | cn.jiguang.sdk | 147 | 135 | 12 | cn.android.service (8), ${JSHARE_PKGNAME}.wxapi (1), android.support.v4 (1), com.cmic.gen (1), com.cmic.sso (1) | 15 |
@@ -327,6 +397,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | dev.hitools.common | 12 | 0 | 12 | com.ishow.common (6), dev.hitools.common (5), dev.hitools.utils (1) |  |
 | dev.kiki | 12 | 0 | 12 | dev.kiki.install (5), dev.kiki.core (4), dev.kiki.update (2), dev.kiki.common (1) |  |
 | io.github.ko-devHong | 12 | 0 | 12 | com.luck.picture (10), com.yalantis.ucrop (2) |  |
+| io.github.tim06 | 12 | 0 | 12 | org.strongswan.android (4), com.tim.vpnprotocols (3), com.tim.shadowsocksr (2), com.tim.singBox (2), com.tim.openvpn (1) |  |
+| io.github.tozmart | 13 | 1 | 12 | com.tozmart.tozmartsdk_s6 (11), io.flutter.plugins (1) | 473 |
+| io.github.yupengver | 30 | 18 | 12 | com.zsmarter.hulk (12) | 31, 34 |
+| io.github.yuzurihainori | 12 | 0 | 12 | com.happygame.sdk (12) |  |
+| io.github.zwonb | 12 | 0 | 12 | com.yidont.unimp (10), com.yidont.barcode (1), com.yidont.record (1) |  |
+| io.requestly | 12 | 0 | 12 | io.requestly.android (12) |  |
+| io.smooth-way | 12 | 0 | 12 | androidx.startup (10), io.smooth.audio (2) |  |
 | cn.enited.union | 11 | 0 | 11 | com.enited.union (9), androidx.core.content (1), com.esign.esignsdk (1) |  |
 | com.5831wan.mavencenter | 11 | 0 | 11 | com.zzyl.view (11) |  |
 | com.appliedrec.verid | 11 | 0 | 11 | com.appliedrec.verid (11) |  |
@@ -351,6 +428,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.ccxxcoder | 11 | 0 | 11 | com.city.code (11) |  |
 | io.github.maratangsoft | 11 | 0 | 11 | com.gamepubjonghwan.testpubsdk (6), com.gamepubjonghwan.tp03testpubsdk (5) |  |
 | io.github.mayzs | 11 | 0 | 11 | com.mayz.ftp (10), com.mayz.server (1) |  |
+| io.github.molihuan | 11 | 0 | 11 | com.blankj.molihuan (4), com.molihuan.pathselector (2), com.zlylib.mlhfileselectorlib (2), io.molihuan.tiandimapsdk (2), androidx.core.content (1) |  |
+| io.github.pengjunke1996 | 11 | 0 | 11 | com.sweet.net_monitor (11) |  |
+| io.github.yaoina | 12 | 1 | 11 | com.haochezhu.ubm (11) | 371 |
+| io.github.zsmarter-api | 18 | 7 | 11 | com.zsmarter.hulk (11) | 31, 34 |
+| io.proxsee | 14 | 3 | 11 | io.proxsee.sdk (11) | 237 |
+| is.leap.android.test | 11 | 0 | 11 | is.leap.android (11) |  |
+| kz.airbapay | 11 | 0 | 11 | kz.airbapay.apay_android (11) |  |
 | cn.qhplus.emo | 13 | 3 | 10 | cn.qhplus.emo (9), androidx.core.content (1) | 34, 36 |
 | co.fast.android.sdk | 10 | 0 | 10 | androidx.startup (5), co.fast.android (5) |  |
 | co.youverify | 10 | 0 | 10 | co.youverify.yvos_sdk (10) |  |
@@ -385,6 +469,10 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.elements.pay | 10 | 0 | 10 | io.elements.pay (10) |  |
 | io.github.CshtZrgk | 10 | 0 | 10 | cn.mtjsoft.ocr_android (2), com.csht.uniplugin (2), com.csht.activity (1), com.csht.autograde (1), com.csht.jni (1), com.csht.service (1), com.csht.utils (1), org.eclipse.paho (1) |  |
 | io.github.fjshun | 10 | 0 | 10 | com.dtf.face (9), com.dtf.wish (1) |  |
+| io.inad.sdk | 10 | 0 | 10 | io.inad.receiver (3), vk.adnetwork.receiver (3), io.inad.activity (1), io.inad.service (1), vk.adnetwork.activity (1), vk.adnetwork.service (1) |  |
+| kr.co.t-id | 10 | 0 | 10 | com.skt.tid (10) |  |
+| mx.openpay | 10 | 0 | 10 | mx.openpay.library (9), androidx.core.content (1) |  |
+| net.gini.android | 10 | 0 | 10 | net.gini.android (9), com.google.android (1) |  |
 | com.adivery | 17 | 8 | 9 | com.adivery.sdk (7), com.adivery.data (1), ir.apptimize.messaging (1) | 219, 25, 83 |
 | com.antsomi | 9 | 0 | 9 | com.antsomi (8), com.antsomi.gamification (1) |  |
 | com.audioburst | 9 | 0 | 9 | com.audioburst.media (3), androidx.startup (2), com.audioburst.audioburst_player (2), androidx.media.session (1), com.audioburst.player (1) |  |
@@ -418,6 +506,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.boswelja.watchconnection | 9 | 0 | 9 | com.samsung.android (6), com.boswelja.watchconnection (3) |  |
 | io.github.jimmy-j | 9 | 0 | 9 | com.szeasco.facesdk (4), com.szeasco.face (2), com.csht.localinit (1), com.csht.pages (1), com.wsm.hidlib (1) |  |
 | io.github.maticooads | 9 | 0 | 9 | com.maticoo.sdk (6), com.zmaticoo.sdk (3) |  |
+| io.github.nbase-io | 9 | 0 | 9 | com.facebook (4), com.nbase.sdk (4), com.nbase.adapter (1) |  |
+| io.github.sinnerlwu | 9 | 0 | 9 | com.wgs.sdk (9) |  |
+| io.github.t-id-aos-beta | 9 | 0 | 9 | com.skt.tid (8), com.kakao.sdk (1) |  |
+| io.github.weishuaidev | 9 | 0 | 9 | com.linwei.tool (8), androidx.core.content (1) |  |
+| io.github.xy10483 | 9 | 0 | 9 | com.bnc.gimac (9) |  |
+| io.requestly.rqinterceptor | 9 | 0 | 9 | io.requestly.rqinterceptor (9) |  |
+| ru.apps-m | 9 | 0 | 9 | ru.appsm.inapphelp (9) |  |
 | cn.ellabook | 8 | 0 | 8 | com.ellabook.saassdk (6), cn.ellabook (2) |  |
 | co.notix | 8 | 0 | 8 | co.notix.push (3), co.notix.interstitial (2), androidx.startup (1), co.notix.appopen (1), co.notix.lsi (1) |  |
 | com.10darts | 8 | 0 | 8 | com.tendarts.sdk (7), com.google.android (1) |  |
@@ -480,6 +575,19 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.j-fooo | 9 | 1 | 8 | com.qysdk.activity (5), com.qysdk.push (2), com.volcengine.onekit (1) | 3 |
 | io.github.jan-tennert.supabase | 8 | 0 | 8 | androidx.startup (8) |  |
 | io.github.kevenzxd | 19 | 11 | 8 | com.adsdk.android (7), com.oxsdk.ads (1) | 1, 101, 166, 22 |
+| io.github.mirzemehdi | 8 | 0 | 8 | androidx.startup (6), com.mmk.kmpnotifier (2) |  |
+| io.github.mouadj92 | 8 | 0 | 8 | com.evernote.android (6), com.test.schedule (2) |  |
+| io.github.spotim.rn | 8 | 0 | 8 | spotIm.core.presentation (6), spotIm.core (1), spotIm.core.android (1) |  |
+| io.github.tdxtxt | 8 | 0 | 8 | com.pingerx.socialgo (3), com.tdxtxt.social (2), com.tdxtxt.liteavplayer (1), com.tencent.connect (1), com.tencent.tauth (1) |  |
+| io.github.treech | 9 | 1 | 8 | io.github.treech (4), com.netposa.component (3), com.netposa.commonsdk (1) | 371 |
+| io.github.vanzoosdk | 8 | 0 | 8 | com.vanzoo.novelsdk (8) |  |
+| io.github.woody230 | 8 | 0 | 8 | com.bselzer.ktx (8) |  |
+| io.github.woody230.ktx | 8 | 0 | 8 | com.bselzer.ktx (8) |  |
+| io.purchasely | 8 | 0 | 8 | io.purchasely.views (5), com.amazon.device (1), io.purchasely.huawei (1), io.purchasely.providers (1) |  |
+| ir.tapsell | 8 | 0 | 8 | ir.tapsell.mediation (6), ir.tapsell.core (1), ir.tapsell.internal (1) |  |
+| net.ilocalize | 8 | 0 | 8 | net.ilocalize.ui (6), net.ilocalize.logic (2) |  |
+| org.microg.nlp | 8 | 0 | 8 | org.microg.nlp (8) |  |
+| org.restcomm | 8 | 0 | 8 | org.restcomm.app (5), org.restcomm.android (3) |  |
 | ai.nextbillion | 7 | 0 | 7 | ai.nextbillion.assettracking (4), ai.nextbillion.navigation (3) |  |
 | app.cybrid | 7 | 0 | 7 | app.cybrid.sdkandroid (7) |  |
 | cn.xfyun.aiui.aiuiplayer | 7 | 0 | 7 | cn.kuwo.service (3), cn.kuwo.base (2), cn.kuwo.unkeep (1), com.iflytek.aiui (1) |  |
@@ -540,6 +648,18 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.kangyee | 7 | 0 | 7 | com.luck.picture (4), com.yalantis.ucrop (2), com.luck.lib (1) |  |
 | io.github.laoyouzhibo | 7 | 0 | 7 | com.luck.picture (4), com.yalantis.ucrop (2), com.luck.lib (1) |  |
 | io.github.leavesczy | 7 | 0 | 7 | github.leavesczy.monitor (4), github.leavesczy.matisse (3) |  |
+| io.github.pao11 | 7 | 0 | 7 | com.pao11.imagepicker (7) |  |
+| io.github.shiyd0516.pictureSelector | 7 | 0 | 7 | com.luck.picture (4), com.yalantis.ucrop (2), com.luck.lib (1) |  |
+| io.github.solrudev | 7 | 0 | 7 | io.github.solrudev (6), androidx.startup (1) |  |
+| io.github.szhittech | 7 | 0 | 7 | com.android.api (2), com.iceteck.silicompressorr (2), com.cho.bility (1), com.het.clife (1), io.github.permission (1) |  |
+| io.github.zzhhz | 7 | 0 | 7 | com.huantansheng.easyphotos (4), androidx.startup (1), com.noober.background (1), me.jessyan.autosize (1) |  |
+| io.hyperswitch | 7 | 0 | 7 | io.hyperswitch.android (2), io.hyperswitch.react (2), com.proyecto26.inappbrowser (1), com.reactnativehyperswitchscancard (1), io.hyperswitch.payments (1) |  |
+| io.matthewnelson.kmp-tor | 7 | 0 | 7 | androidx.startup (6), io.matthewnelson.kmp (1) |  |
+| io.trtc.uikit | 7 | 0 | 7 | com.trtc.tuikit (6), com.trtc.uikit (1) |  |
+| io.v | 7 | 0 | 7 | io.v.android (5), com.google.android (1), io.v.debug (1) |  |
+| live.100ms | 7 | 0 | 7 | live.hms.roomkit (5), live.hms.video (2) |  |
+| me.tatarka.support | 7 | 0 | 7 | me.tatarka.support (7) |  |
+| org.kin.sdk.android | 7 | 0 | 7 | kin.backupandrestore (2), kin.backupandrestore.backup (2), kin.backupandrestore.restore (2), org.kin.sdk (1) |  |
 | ai.redpen | 6 | 0 | 6 | ai.redpen.capture (6) |  |
 | androidx.glance | 6 | 0 | 6 | androidx.glance.appwidget (6) |  |
 | androidx.tracing | 6 | 0 | 6 | androidx.startup (2), androidx.tracing.perfetto (2), androidx.tracing.profiler (2) |  |
@@ -615,6 +735,31 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.jjldxz | 6 | 0 | 6 | com.jjl.dxz (6) |  |
 | io.github.kamaravichow | 6 | 0 | 6 | me.aravi.commons (5), me.aravi.instapi (1) |  |
 | io.github.linpopopo | 6 | 0 | 6 | com.self.tool (6) |  |
+| io.github.mixpush | 16 | 10 | 6 | com.mixpush.huawei (2), com.mixpush.meizu (1), com.mixpush.mi (1), com.mixpush.oppo (1), com.mixpush.vivo (1) | 31, 34, 36 |
+| io.github.pandulapeter.beagle | 6 | 0 | 6 | com.pandulapeter.beagle (6) |  |
+| io.github.qingbaomeng | 8 | 2 | 6 | com.alipay.sdk (2), com.mchsdk.paysdk (2), com.tencent.connect (1), com.tencent.tauth (1) | 3 |
+| io.github.samdev313 | 6 | 0 | 6 | com.sos.busbysideengine (6) |  |
+| io.github.sangcomz | 6 | 0 | 6 | com.sangcomz.fishbun (6) |  |
+| io.github.sethyv | 6 | 0 | 6 | co.youverify.yvos_sdk (6) |  |
+| io.github.totorowow | 6 | 0 | 6 | com.woodpecker.video (6) |  |
+| io.github.track-asia | 6 | 0 | 6 | com.mapbox.services (2), com.trackasia.android (2), org.trackasia.android (2) |  |
+| io.github.tvtechservice | 6 | 0 | 6 | com.pci.beacon (4), androidx.startup (1), com.pci.bluetooth (1) |  |
+| io.github.vinceglb | 6 | 0 | 6 | androidx.startup (3), io.github.vinceglb (2), com.google.android (1) |  |
+| io.github.wankey.mithril | 6 | 0 | 6 | com.alipay.sdk (2), io.github.wankey (2), ${applicationId}.wxapi (1), com.tencent.connect (1) |  |
+| io.github.watayouxiang | 6 | 0 | 6 | com.watayouxiang.androidutils (3), com.watayouxiang.appupdate (2), androidx.core.content (1) |  |
+| io.ionic.libs | 6 | 0 | 6 | com.outsystems.plugins (5), io.ionic.libs (1) |  |
+| io.piano.android | 6 | 0 | 6 | io.piano.android (5), androidx.startup (1) |  |
+| io.pivotal.android | 6 | 0 | 6 | io.pivotal.android (6) |  |
+| io.streamlayer | 6 | 0 | 6 | io.streamlayer.auth (4), io.streamlayer.common (1), io.streamlayer.sdk (1) |  |
+| ir.abrin | 6 | 0 | 6 | ir.abrin.service (5), ir.abrin (1) |  |
+| ir.metrix.deeplink | 6 | 0 | 6 | ir.metrix.deeplink (6) |  |
+| ir.metrix.internal | 6 | 0 | 6 | ir.metrix.internal (6) |  |
+| ir.metrix.trusted | 6 | 0 | 6 | ir.metrix.internal (6) |  |
+| ir.tapsell.sdk | 6 | 0 | 6 | ir.tapsell.sdk (6) |  |
+| live.pbj.sdk | 6 | 0 | 6 | com.pbj.sdk (6) |  |
+| net.auropay | 6 | 0 | 6 | net.auropay.payments (5), androidx.core.content (1) |  |
+| org.thecommonsproject | 6 | 0 | 6 | org.thecommonsproject.android (6) |  |
+| pl.tajchert | 6 | 0 | 6 | pl.tajchert.buswear (2), pl.tajchert.exceptionwear (2), pl.tajchert.servicewear (2) |  |
 | ai.benshi.android.sdk | 5 | 0 | 5 | ai.benshi.android (5) |  |
 | ai.causalfoundry.android.sdk | 5 | 0 | 5 | ai.causalfoundry.android (5) |  |
 | androidx.core | 5 | 0 | 5 | androidx.core.telecom (2), androidx.core.google (1), androidx.core.pip (1), androidx.core.widget (1) |  |
@@ -712,6 +857,34 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.kuloud | 5 | 0 | 5 | com.gyf.cactus (4), com.kuloud.android (1) |  |
 | io.github.libolf | 5 | 0 | 5 | com.ultimate.notification (5) |  |
 | io.github.lygttpod | 5 | 0 | 5 | com.lygttpod.monitor (5) |  |
+| io.github.pedrolobo98 | 5 | 0 | 5 | com.smh_digitalassistant_library.activities (2), com.smh_medicaldevicescan_library (2), com.example.smh_bloodanalysis_library (1) |  |
+| io.github.qweiop12300 | 5 | 0 | 5 | com.william.toolkit (4), androidx.core.content (1) |  |
+| io.github.snaps-eddy | 5 | 0 | 5 | com.eddy.debuglibrary (5) |  |
+| io.github.spotii-me | 5 | 0 | 5 | com.spotiidmcc.spotii (2), com.baresdk (1), com.facebook.react (1), com.theartofdev.edmodo (1) |  |
+| io.github.spotim | 5 | 0 | 5 | spotIm.core.presentation (3), spotIm.core (1), spotIm.core.android (1) |  |
+| io.github.tapprai | 5 | 0 | 5 | com.tappr.mobile (5) |  |
+| io.github.tweener | 5 | 0 | 5 | com.tweener.alarmee (4), androidx.startup (1) |  |
+| io.github.visal-99 | 5 | 0 | 5 | com.bill24.b24paymentsdk (3), androidx.core.content (2) |  |
+| io.github.wangshuogit | 5 | 0 | 5 | com.ws.universal (4), androidx.core.content (1) |  |
+| io.github.xiaoeteam | 6 | 1 | 5 | com.xiaoe.shop (5) | 13 |
+| io.github.xxmd | 5 | 0 | 5 | io.github.xxmd (5) |  |
+| io.github.ydmmocoo | 5 | 0 | 5 | ${applicationId}.wxapi (1), com.unionpay (1), com.unionpay.uppay (1), com.xgr.unionpay (1), com.xgr.wechatpay (1) |  |
+| io.github.yvescheung | 5 | 0 | 5 | com.huya.mobile (2), com.pitaya.mobile (2), androidx.startup (1) |  |
+| io.logto.sdk | 5 | 0 | 5 | io.logto.sdk (4), com.alipay.sdk (1) |  |
+| io.nangos.beaconcontrol | 5 | 0 | 5 | io.nangos.beaconcontrol (5) |  |
+| io.primer | 5 | 0 | 5 | com.ipay (2), com.snowballtech.transit (1), io.primer.android (1), io.primer.ipay88 (1) |  |
+| io.realm.kotlin | 5 | 0 | 5 | androidx.startup (5) |  |
+| io.syrf | 5 | 0 | 5 | com.syrf.location (5) |  |
+| io.upnext.beaconcontrol | 5 | 0 | 5 | io.upnext.beaconcontrol (5) |  |
+| ir.mbaas | 5 | 0 | 5 | ir.mbaas.sdk (5) |  |
+| me.luzhuo.android | 5 | 0 | 5 | ${applicationId}.wxapi (2), me.luzhuo.lib_core (1), me.luzhuo.lib_image_select (1), me.luzhuo.lib_qrcode (1) |  |
+| me.majiajie | 5 | 0 | 5 | me.majiajie.rfid (4), me.majiajie.barcode (1) |  |
+| mx.dapp.sdk | 5 | 0 | 5 | mx.dapp.sdk (5) |  |
+| net.crofis | 5 | 0 | 5 | net.crofis.ui (5) |  |
+| online.devliving | 5 | 0 | 5 | devliving.online.cvscanner (3), android.support.v4 (1), devliving.online.mvbarcodereader (1) |  |
+| org.ligboy.android | 5 | 0 | 5 | org.ligboy.selectphoto (3), com.soundcloud.android (1), com.theartofdev.edmodo (1) |  |
+| pub.adfly | 5 | 0 | 5 | com.adfly.sdk (5) |  |
+| pub.doric | 5 | 0 | 5 | pub.doric.devkit (4), pub.doric (1) |  |
 | ai.engagely | 4 | 0 | 4 | ai.engagely.openbot (3), androidx.core.content (1) |  |
 | androidx.car.app | 4 | 0 | 4 | androidx.car.app (4) |  |
 | cloud.ez-push | 4 | 0 | 4 | cloud.ezpush.android (4) |  |
@@ -844,6 +1017,55 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.luqinx | 4 | 0 | 4 | chao.app.ami (4) |  |
 | io.github.lygttpod.monitor | 4 | 0 | 4 | com.lygttpod.monitor (4) |  |
 | io.github.mihodihasan.chuck | 4 | 0 | 4 | io.github.mihodihasan (4) |  |
+| io.github.mobon | 5 | 1 | 4 | com.mobon.tune (2), com.mobon.call (1), com.mobon.sdk (1) | 190 |
+| io.github.ohuo133233 | 4 | 0 | 4 | com.wang.javatools (4) |  |
+| io.github.ozyl | 4 | 0 | 4 | com.didichuxing.doraemonkit (4) |  |
+| io.github.rakutenanalytics | 4 | 0 | 4 | com.rakuten.tech (4) |  |
+| io.github.riverolls | 4 | 0 | 4 | com.samsung.android (4) |  |
+| io.github.runcomm | 4 | 0 | 4 | kr.co.touchad (4) |  |
+| io.github.sberid | 4 | 0 | 4 | sberid.sdk.auth (1), sberid.sdk.ui (1), sid.sdk.auth (1), sid.sdk.ui (1) |  |
+| io.github.shaon2017 | 4 | 0 | 4 | com.geotourist.sdk (3), com.facebook (1) |  |
+| io.github.shixinzhang | 4 | 0 | 4 | top.shixinzhang.bitmapmonitor (4) |  |
+| io.github.sid-sdk | 4 | 0 | 4 | sid.sdk.core (2), sid.sdk.global (1), sid.sdk.ui (1) |  |
+| io.github.sinaweibosdk | 4 | 0 | 4 | com.sina.weibo (4) |  |
+| io.github.sooyoungjang | 4 | 0 | 4 | com.sooyoungjang.debuglibrary (4) |  |
+| io.github.steinshei | 4 | 0 | 4 | org.devio.takephoto (2), androidx.core.content (1), com.soundcloud.android (1) |  |
+| io.github.tikivn | 4 | 0 | 4 | vn.tiki.android (4) |  |
+| io.github.weilianyang | 4 | 0 | 4 | com.william.toolkit (4) |  |
+| io.github.wgllss | 4 | 0 | 4 | com.wgllss.dynamic (2), com.wx.lrecorder (2) |  |
+| io.github.yidun | 4 | 0 | 4 | com.netease.nis (3), com.cmic.gen (1) |  |
+| io.github.yihu5566 | 4 | 0 | 4 | com.huantansheng.easyphotos (4) |  |
+| io.github.zhangxinmin528.chuck | 4 | 0 | 4 | com.coding.zxm (4) |  |
+| io.github.ztiany | 4 | 0 | 4 | com.bilibili.boxing_impl (3), com.yalantis.ucrop (1) |  |
+| io.github.zy654781296 | 4 | 0 | 4 | com.dhcc.sdk (4) |  |
+| io.gitlab | 4 | 0 | 4 | com.net.routee (4) |  |
+| io.hackle | 4 | 0 | 4 | io.hackle.android (4) |  |
+| io.imoji.sdk | 4 | 0 | 4 | io.imoji.sdk (4) |  |
+| io.kobza.android | 10 | 6 | 4 | io.kobza.ads (4) | 112, 218, 22 |
+| io.objectbox | 4 | 0 | 4 | io.objectbox.android (4) |  |
+| io.ona.kujaku | 4 | 0 | 4 | io.ona.kujaku (4) |  |
+| io.pressf.settings-native | 4 | 0 | 4 | androidx.startup (4) |  |
+| io.tryvital | 4 | 0 | 4 | io.tryvital.vitalhealthconnect (2), androidx.startup (1), androidx.work.impl (1) |  |
+| io.vantiq | 4 | 0 | 4 | io.vantiq.androidlib (4) |  |
+| io.weavr.components | 4 | 0 | 4 | io.weavr.components (4) |  |
+| ir.smartech.intrack | 6 | 2 | 4 | sdk.main.core (3), ir.intrack.android (1) | 345 |
+| is.leap.android.creator | 4 | 0 | 4 | is.leap.android (4) |  |
+| jp.pay | 4 | 0 | 4 | jp.pay.android (4) |  |
+| me.digi | 4 | 0 | 4 | me.digi.sdk (4) |  |
+| me.drakeet.library | 4 | 0 | 4 | me.drakeet.library (4) |  |
+| me.jahnen.libaums | 4 | 0 | 4 | me.jahnen.libaums (4) |  |
+| monster.sultanpower | 6 | 2 | 4 | com.forgame.analyticstools (3), com.facebook (1) | 46 |
+| net.box | 4 | 0 | 4 | com.box.androidsdk (4) |  |
+| net.gotev | 4 | 0 | 4 | net.gotev.hostmonitor (2), net.gotev.sipservice (1), net.gotev.uploadservice (1) |  |
+| net.shinsoft.imagepicker | 4 | 0 | 4 | net.shinsoft.imagepicker (4) |  |
+| no.nordicsemi.android.support.v18 | 4 | 0 | 4 | no.nordicsemi.android (4) |  |
+| org.forgerock | 4 | 0 | 4 | org.forgerock.android (4) |  |
+| org.henjue.library | 4 | 0 | 4 | com.sina.weibo (1), com.tencent.connect (1), com.tencent.tauth (1), org.henjue.library (1) |  |
+| org.joty | 4 | 0 | 4 | org.joty.mobile (4) |  |
+| org.librarysimplified | 4 | 0 | 4 | org.nypl.simplified (4) |  |
+| org.maplibre.gl | 4 | 0 | 4 | com.mapbox.mapboxsdk (2), org.maplibre.android (2) |  |
+| org.opencampaignlink | 4 | 0 | 4 | com.iprd.biometricscapture (3), com.iprd.ocl (1) |  |
+| pl.droidsonroids | 4 | 0 | 4 | com.readystatesoftware.chuck (4) |  |
 | ai.fedml | 3 | 0 | 3 | ai.fedml.edge (3) |  |
 | ai.meson.sdk | 3 | 0 | 3 | ai.meson.rendering (2), ai.meson.sdk (1) |  |
 | androidx.appfunctions | 3 | 0 | 3 | androidx.appfunctions.service (2), androidx.appfunctions.internal (1) |  |
@@ -1044,6 +1266,54 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.m4gr3d | 3 | 0 | 3 | org.godotengine.godot (2), androidx.core.content (1) |  |
 | io.github.marcusx2007.origi | 4 | 1 | 3 | com.gaming.core (2), androidx.core.content (1) | 390 |
 | io.github.mediastream | 3 | 0 | 3 | am.mediastre.mediastreamplatformsdkandroid (3) |  |
+| io.github.pluggableai | 3 | 0 | 3 | com.pluggableai.fanmeter (3) |  |
+| io.github.rakutentech.miniapp | 3 | 0 | 3 | com.rakuten.tech (3) |  |
+| io.github.relateddigital | 3 | 0 | 3 | com.relateddigital.relateddigital_android (3) |  |
+| io.github.rotbolt | 3 | 0 | 3 | io.github.rotbolt (3) |  |
+| io.github.sangx123 | 3 | 0 | 3 | com.base.app (3) |  |
+| io.github.sdwfqin.android | 3 | 0 | 3 | com.sdwfqin.quicklib (3) |  |
+| io.github.shiweibsw | 3 | 0 | 3 | androidx.core.content (1), com.hengda.frame (1), org.eclipse.paho (1) |  |
+| io.github.shuftipro | 3 | 0 | 3 | com.shutipro.sdk (3) |  |
+| io.github.student9128 | 3 | 0 | 3 | com.kevin.albummanager (3) |  |
+| io.github.sumedhe | 3 | 0 | 3 | net.openid.appauth (2), io.asgardeo.android (1) |  |
+| io.github.thk-im | 3 | 0 | 3 | com.thk.im (3) |  |
+| io.github.wengliuhu | 3 | 0 | 3 | com.kim.ipc (2), com.yanantec.ynbus (1) |  |
+| io.github.whitelabelgithubownername | 3 | 0 | 3 | io.github.whitelabelgithubownername (2), com.facebook.react (1) |  |
+| io.github.worldline-deepalimundaye | 3 | 0 | 3 | com.test.mylibrary (3) |  |
+| io.github.xinpengfei520 | 3 | 0 | 3 | com.xsir.pgyerappupdate (3) |  |
+| io.github.yst1011 | 3 | 0 | 3 | androidx.core.content (1), com.asia.base (1), com.asia.qrcode (1) |  |
+| io.github.zrq1060 | 3 | 0 | 3 | com.zrq.test (3) |  |
+| io.groobee.message | 3 | 0 | 3 | io.groobee.message (3) |  |
+| io.liftoff | 3 | 0 | 3 | io.liftoff.liftoffads (3) |  |
+| io.nlopez.smartlocation | 3 | 0 | 3 | io.nlopez.smartlocation (3) |  |
+| io.pushnode | 3 | 0 | 3 | io.pushnode.android (3) |  |
+| io.rollout | 3 | 0 | 3 | io.rollout.android (3) |  |
+| io.rollout.rox | 3 | 0 | 3 | io.rollout.android (3) |  |
+| io.teliver.sdk | 3 | 0 | 3 | io.teliver.sdk (2), org.eclipse.paho (1) |  |
+| ir.map | 3 | 0 | 3 | ir.map.tracker (2), org.eclipse.paho (1) |  |
+| jp.co.nohana | 3 | 0 | 3 | com.laevatein.ui (2), android.support.v4 (1) |  |
+| kz.btsd | 3 | 0 | 3 | io.flutter.plugins (2), kz.btsd.didsdk (1) |  |
+| kz.jetpay | 3 | 0 | 3 | com.paymentpage.msdk (2), androidx.startup (1) |  |
+| live.videosdk | 3 | 0 | 3 | live.videosdk.rtc (3) |  |
+| me.id.sdk | 3 | 0 | 3 | me.id.sdk (3) |  |
+| me.id.webverify | 3 | 0 | 3 | me.id.webverifylib (3) |  |
+| me.zalo | 8 | 5 | 3 | com.zing.zalo (2), me.zalo.startuphelper (1) | 237 |
+| net.4youandme | 3 | 0 | 3 | com.foryouandme.core (2), com.foryouandme.researchkit (1) |  |
+| net.aestron | 3 | 0 | 3 | com.polly.mobile (3) |  |
+| net.aestron.rtc | 3 | 0 | 3 | com.polly.mobile (3) |  |
+| net.feedify.sdk.push | 3 | 0 | 3 | com.feed.sdk (3) |  |
+| net.mobilengage.sdk | 3 | 0 | 3 | com.messaging.sdk (3) |  |
+| ng.simplepay.gateway | 3 | 0 | 3 | ng.simplepay.gateway (3) |  |
+| nl.ngti | 3 | 0 | 3 | nl.ngti.androscope (3) |  |
+| no.nordicsemi.kmm | 3 | 0 | 3 | androidx.startup (3) |  |
+| org.aerobase | 3 | 0 | 3 | org.aerogear.mobile (3) |  |
+| org.aerogear | 3 | 0 | 3 | org.aerogear.mobile (3) |  |
+| org.dpppt | 3 | 0 | 3 | org.dpppt.android (3) |  |
+| org.godotengine | 3 | 0 | 3 | org.godotengine.godot (2), androidx.core.content (1) |  |
+| org.jboss.aerogear | 3 | 0 | 3 | org.jboss.aerogear (3) |  |
+| org.thepalaceproject.audiobook | 3 | 0 | 3 | org.librarysimplified.audiobook (3) |  |
+| pl.droidsonroids.foqa | 3 | 0 | 3 | androidx.startup (1), com.amitshekhar.debug (1), pl.droidsonroids.foqa (1) |  |
+| ru.bartwell.delightsqlviewer | 3 | 0 | 3 | ru.bartwell.delightsqlviewer (3) |  |
 | ai.devrev.sdk | 7 | 5 | 2 | ai.devrev.sdk (2) | 443 |
 | ai.mobid | 2 | 0 | 2 | com.mobid.android (2) |  |
 | ai.tabby | 2 | 0 | 2 | ai.tabby.android (2) |  |
@@ -1403,6 +1673,89 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.lukasdylan | 2 | 0 | 2 | id.lukasdylan.grpc (2) |  |
 | io.github.ma-jian | 2 | 0 | 2 | androidx.core.content (1), com.mm.router (1) |  |
 | io.github.matheus-corregiari | 2 | 0 | 2 | androidx.startup (2) |  |
+| io.github.nangongkuo | 2 | 0 | 2 | com.zjf.yflib (2) |  |
+| io.github.nbox1989 | 2 | 0 | 2 | com.aihuishou.hackserver (2) |  |
+| io.github.netwolf712 | 2 | 0 | 2 | com.hcs.android (2) |  |
+| io.github.nextgis | 2 | 0 | 2 | com.nextgis.maplib (2) |  |
+| io.github.otang45 | 2 | 0 | 2 | otang.crashreport.activity (1), otang.crashreport.provider (1) |  |
+| io.github.pardeepmg | 2 | 0 | 2 | androidx.core.content (1), com.mediapicker.library (1) |  |
+| io.github.pickey-tech | 2 | 0 | 2 | com.pickey.ui (1), com.serenegiant.service (1) |  |
+| io.github.playtech-ezpush | 2 | 0 | 2 | com.playtech.ezpushsdk (2) |  |
+| io.github.polobustillo | 2 | 0 | 2 | io.polobustillo.documentscanner (2) |  |
+| io.github.prashant564 | 2 | 0 | 2 | com.example.onrampwebviewsdk (2) |  |
+| io.github.ringcentral | 2 | 0 | 2 | com.ringcentral.audioroutemanager (1), net.gotev.uploadservice (1) |  |
+| io.github.sambatech | 2 | 0 | 2 | com.google.android (1), com.sambatech.player (1) |  |
+| io.github.samuel-unknown | 2 | 0 | 2 | com.samuelunknown.galleryImagePicker (1), com.samuelunknown.library (1) |  |
+| io.github.singlewolf | 2 | 0 | 2 | com.soundcloud.android (1), org.devio.takephoto (1) |  |
+| io.github.songlonggithub | 2 | 0 | 2 | com.sl.utakephoto (2) |  |
+| io.github.ssq-sdk | 2 | 0 | 2 | com.shieldsquare.ss2_android_sdk (2) |  |
+| io.github.suifenge | 2 | 0 | 2 | com.suifeng.sdk (2) |  |
+| io.github.sunningg | 2 | 0 | 2 | cn.yunxi.analytics (2) |  |
+| io.github.swapnilhuddar | 2 | 0 | 2 | com.easebuzz.library (2) |  |
+| io.github.swatmobility | 6 | 4 | 2 | com.mapbox.services (2) | 191 |
+| io.github.takahirom.roborazzi | 2 | 0 | 2 | com.github.takahirom (2) |  |
+| io.github.takenet | 2 | 0 | 2 | net.take.blipchat (2) |  |
+| io.github.tans5 | 2 | 0 | 2 | androidx.startup (2) |  |
+| io.github.taoqianqian | 2 | 0 | 2 | com.phone2345.godeye (2) |  |
+| io.github.taptime | 2 | 0 | 2 | com.adfly.taptime (2) |  |
+| io.github.tempo-platform | 2 | 0 | 2 | com.tempoplatform.ads (2) |  |
+| io.github.todo2088 | 2 | 0 | 2 | com.yanbo.lib_screen (2) |  |
+| io.github.usmankhan-techloyce | 2 | 0 | 2 | com.example.usmanutils (2) |  |
+| io.github.wdeo3601 | 2 | 0 | 2 | com.darsh.multipleimageselect (2) |  |
+| io.github.xiaolutang | 2 | 0 | 2 | com.txl.blockmoonlighttreasurebox (2) |  |
+| io.github.xiaoseee | 2 | 0 | 2 | androidx.core.content (2) |  |
+| io.github.xiaozeiqwe8 | 2 | 0 | 2 | com.karl.test (2) |  |
+| io.github.yfcyfc123234 | 2 | 0 | 2 | com.yc.video (2) |  |
+| io.github.yuanfengshan | 2 | 0 | 2 | cn.yuanfengshan.base (2) |  |
+| io.github.zguop | 2 | 0 | 2 | com.waitou.wisdom_impl (2) |  |
+| io.hanko | 2 | 0 | 2 | io.hanko.fidouafclient (2) |  |
+| io.heap.autocapture | 2 | 0 | 2 | io.heap.autocapture (2) |  |
+| io.heraldprox | 2 | 0 | 2 | io.heraldprox.herald (2) |  |
+| io.homunculus | 2 | 0 | 2 | org.homunculus.android (2) |  |
+| io.jengapgw | 2 | 0 | 2 | com.jenga.payment (1), io.jengapgw (1) |  |
+| io.jengapgw.prod | 2 | 0 | 2 | io.jengapgw (2) |  |
+| io.karte.android | 2 | 0 | 2 | io.karte.android (2) |  |
+| io.lbry | 2 | 0 | 2 | io.lbry.lbrysdk (2) |  |
+| io.nbase | 2 | 0 | 2 | com.nbase.adapter (1), com.nbase.sdk (1) |  |
+| io.pivotal | 2 | 0 | 2 | io.pivotal.arca (2) |  |
+| io.puremetrics | 2 | 0 | 2 | io.puremetrics.sdk (2) |  |
+| io.readsee | 2 | 0 | 2 | io.readsee.sdk (2) |  |
+| io.relayr | 2 | 0 | 2 | io.relayr.activity (1), io.relayr.android (1) |  |
+| io.sugo.android | 2 | 0 | 2 | io.sugo.android (2) |  |
+| ir.king-app | 2 | 0 | 2 | androidx.core.content (1), app.king.filePicker (1) |  |
+| is.leap.android.aui | 2 | 0 | 2 | is.leap.android (2) |  |
+| me.philio.disqus | 2 | 0 | 2 | me.philio.disqus (2) |  |
+| me.taifuno | 2 | 0 | 2 | me.taifuno (2) |  |
+| media.kamel | 2 | 0 | 2 | androidx.startup (2) |  |
+| ml.dcjz.libs | 3 | 1 | 2 | dc.android.libs (2) | 13 |
+| mobi.alphapush | 2 | 0 | 2 | com.appspress.component (1), com.appspress.push (1) |  |
+| mobi.pocketmedia | 2 | 0 | 2 | mobi.pocketmedia.nativeadslib (2) |  |
+| money.onramp.onrampwebview | 2 | 0 | 2 | com.buyhatke.onrampsdk (2) |  |
+| money.rbk | 2 | 0 | 2 | money.rbk.presentation (2) |  |
+| net.aihelp | 2 | 0 | 2 | net.aihelp.ui (2) |  |
+| net.jahez.packages.kmm-commons | 2 | 0 | 2 | androidx.startup (2) |  |
+| net.mready.picker | 2 | 0 | 2 | net.mready.picker (2) |  |
+| net.openid | 2 | 0 | 2 | net.openid.appauth (2) |  |
+| net.oschina.wp3355168 | 17 | 15 | 2 | org.android.agoo (2) | 31, 6, 7 |
+| net.samystudio.rxlocationmanager | 2 | 0 | 2 | androidx.startup (1), net.samystudio.rxlocationmanager (1) |  |
+| net.sf.sprockets | 2 | 0 | 2 | net.sf.sprockets (2) |  |
+| net.take | 2 | 0 | 2 | android.support.v4 (1), net.take.blipchat (1) |  |
+| net.xdow | 2 | 0 | 2 | com.just.agentwebX5 (2) |  |
+| nz.co.electricbolt | 2 | 0 | 2 | nz.co.electricbolt (2) |  |
+| one.pice | 2 | 0 | 2 | one.pice.sdk (2) |  |
+| org.androidaudioplugin | 2 | 0 | 2 | androidx.startup (1), org.androidaudioplugin.ui (1) |  |
+| org.bitbucket.frankmonza | 2 | 0 | 2 | org.kustom.api (2) |  |
+| org.bitbucket.michal_msapps | 2 | 0 | 2 | com.example.topcard (2) |  |
+| org.eclipse.ecsp | 2 | 0 | 2 | net.openid.appauth (1), org.eclipse.ecsp (1) |  |
+| org.erjia | 2 | 0 | 2 | com.linshuaishuai.erjia (2) |  |
+| org.instnt | 2 | 0 | 2 | com.idmetrics.catfishair (1), org.instnt.instntsdk (1) |  |
+| org.maplibre.navigation | 2 | 0 | 2 | org.maplibre.navigation (2) |  |
+| org.mongodb | 2 | 0 | 2 | com.mongodb.stitch (2) |  |
+| org.openziti | 2 | 0 | 2 | org.openziti.android (2) |  |
+| org.pireco | 2 | 0 | 2 | org.pireco.kypsdk (2) |  |
+| org.solovyev.android | 2 | 0 | 2 | net.robotmedia.billing (2) |  |
+| rest.bef | 2 | 0 | 2 | rest.bef (2) |  |
+| ru.bartwell | 2 | 0 | 2 | ru.bartwell.exfilepicker (1), ru.bartwell.ultradebugger (1) |  |
 | ai.cardscan | 1 | 0 | 1 | ai.cardscan.insurance (1) |  |
 | ai.optiscan | 1 | 0 | 1 | com.optiscan.scanner (1) |  |
 | ai.passio.passiosdk | 1 | 0 | 1 | ai.passio.passiosdk (1) |  |
@@ -1958,6 +2311,167 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.luyw520 | 1 | 0 | 1 | androidx.core.content (1) |  |
 | io.github.m942890653 | 1 | 0 | 1 | com.zheng.library (1) |  |
 | io.github.mgtvmobile | 1 | 0 | 1 | com.mgtv.open (1) |  |
+| io.github.minyushov | 1 | 0 | 1 | com.squareup.picasso (1) |  |
+| io.github.mishaoshuai | 1 | 0 | 1 | com.dsideal.logreport (1) |  |
+| io.github.mrsweeter | 1 | 0 | 1 | be.msdc.hypco (1) |  |
+| io.github.muxiaolin | 1 | 0 | 1 | com.mingyuechunqiu.recordermanager (1) |  |
+| io.github.nagavikram | 1 | 0 | 1 | com.vikram.slider (1) |  |
+| io.github.nishkarsh | 1 | 0 | 1 | com.intentfilter.androidpermissions (1) |  |
+| io.github.nitish111 | 1 | 0 | 1 | io.github.nitish111 (1) |  |
+| io.github.nov-moon | 1 | 0 | 1 | com.meili.moon (1) |  |
+| io.github.offeristasdk | 1 | 0 | 1 | com.offerista.brochurewidget (1) |  |
+| io.github.ohoussein | 1 | 0 | 1 | dev.ohoussein.reportoandroid (1) |  |
+| io.github.oncelabs | 1 | 0 | 1 | com.oncelabs.onceble (1) |  |
+| io.github.onseok | 1 | 0 | 1 | com.preat.peekaboo (1) |  |
+| io.github.panpf.activitymonitor | 1 | 0 | 1 | com.github.panpf (1) |  |
+| io.github.petterpx | 1 | 0 | 1 | com.petterp.floatingx (1) |  |
+| io.github.pettywing | 1 | 0 | 1 | com.youer.floatwindow (1) |  |
+| io.github.qamarelsafadi | 1 | 0 | 1 | com.qamar.qindicators (1) |  |
+| io.github.qkcoder | 1 | 0 | 1 | io.github.qkcoder (1) |  |
+| io.github.raiseyang | 1 | 0 | 1 | com.raise.weapon_base (1) |  |
+| io.github.rakeshchander | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.github.rakutentech.sdkutils | 1 | 0 | 1 | com.rakuten.tech (1) |  |
+| io.github.razerdp | 1 | 0 | 1 | razerdp.basepopup (1) |  |
+| io.github.rohitverma882 | 1 | 0 | 1 | com.rv882.fastbootjava (1) |  |
+| io.github.roofroot | 1 | 0 | 1 | com.media (1) |  |
+| io.github.sakurajimamaii | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.github.shaunaksrivastava | 1 | 0 | 1 | com.auropay.payments (1) |  |
+| io.github.shawxingkwok | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.github.shygiants | 1 | 0 | 1 | io.github.shygiants (1) |  |
+| io.github.sidcr7-likeminds | 1 | 0 | 1 | com.likeminds.samplelibrary (1) |  |
+| io.github.sjj6995 | 1 | 0 | 1 | com.karumi.dexter (1) |  |
+| io.github.smartsoftasia | 1 | 0 | 1 | com.siampiwat.indoormapsdk (1) |  |
+| io.github.surfantmedia | 1 | 0 | 1 | com.upaxis.service (1) |  |
+| io.github.swapnil-musale | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.github.t-regbs | 1 | 0 | 1 | com.timilehinaregbesola.lazerpay (1) |  |
+| io.github.team-preat | 1 | 0 | 1 | com.preat.peekaboo (1) |  |
+| io.github.tiendung717 | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.github.tozmart.thirdparty | 2 | 1 | 1 | io.flutter.plugins (1) | 473 |
+| io.github.tradplus | 1 | 0 | 1 | com.tradplus.ads (1) |  |
+| io.github.triniwiz | 1 | 0 | 1 | io.github.triniwiz (1) |  |
+| io.github.typelogic | 1 | 0 | 1 | org.idpass.smartscanner (1) |  |
+| io.github.ubapp | 1 | 0 | 1 | com.urbanbase.sdk (1) |  |
+| io.github.uspyt | 1 | 0 | 1 | com.yuansfer.pos (1) |  |
+| io.github.uttam-kumar-tak | 1 | 0 | 1 | com.facetec.sdk (1) |  |
+| io.github.victoryckl | 1 | 0 | 1 | me.jessyan.autosize (1) |  |
+| io.github.vincent-series | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.github.vitaliitilner | 1 | 0 | 1 | com.nttsolmare.game (1) |  |
+| io.github.vitalyaoo | 1 | 0 | 1 | com.sesameworkshop.elabcs (1) |  |
+| io.github.vlasentiy | 1 | 0 | 1 | lens24.ui (1) |  |
+| io.github.wgt-ads | 1 | 0 | 1 | org.wgt.ads (1) |  |
+| io.github.wkkdhr | 1 | 0 | 1 | androidx.core.content (1) |  |
+| io.github.wlwoon | 1 | 0 | 1 | com.wlwoon.contactspicker (1) |  |
+| io.github.wnwnwang | 1 | 0 | 1 | com.example.cuplib (1) |  |
+| io.github.xanderwang | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.github.xayahsususu | 1 | 0 | 1 | com.xayah.materialyoufileexplorer (1) |  |
+| io.github.xayahsususu.materialyoufileexplorer | 1 | 0 | 1 | com.xayah.materialyoufileexplorer (1) |  |
+| io.github.xcmain | 1 | 0 | 1 | com.sixe.idplib (1) |  |
+| io.github.xiaomanzijia | 1 | 0 | 1 | com.baidu.ocr (1) |  |
+| io.github.xiaoxiangyeyu123 | 1 | 0 | 1 | com.touna.common (1) |  |
+| io.github.xit0c | 1 | 0 | 1 | io.github.xit0c (1) |  |
+| io.github.xxl6097 | 1 | 0 | 1 | com.android.api (1) |  |
+| io.github.zawn | 1 | 0 | 1 | com.github.lib (1) |  |
+| io.github.zhangqinhao | 1 | 0 | 1 | com.monke.mopermission (1) |  |
+| io.github.zhangxinmin528.zxing | 1 | 0 | 1 | com.coding.libzxing (1) |  |
+| io.github.zhugefe | 1 | 0 | 1 | com.zhuge.analysis (1) |  |
+| io.githunb.renxh4 | 1 | 0 | 1 | com.renxh.mock (1) |  |
+| io.gitlab.3linepublic | 1 | 0 | 1 | com.threeline.librarysdk (1) |  |
+| io.gitlab.ikaros0503 | 1 | 0 | 1 | com.ss.readcoin (1) |  |
+| io.gleap | 1 | 0 | 1 | io.gleap (1) |  |
+| io.groobee.message.csap | 1 | 0 | 1 | io.groobee.message (1) |  |
+| io.growthbook.sdk | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.heap.core | 1 | 0 | 1 | io.heap.core (1) |  |
+| io.inappchat | 3 | 2 | 1 | io.inappchat.sdk (1) | 473 |
+| io.insert-koin | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.johnsonlee.translate | 1 | 0 | 1 | io.johnsonlee.android (1) |  |
+| io.joynr.android | 1 | 0 | 1 | io.joynr.android (1) |  |
+| io.kodif.android | 1 | 0 | 1 | io.kodif.android (1) |  |
+| io.liberalize | 1 | 0 | 1 | liberalize.kotlin.sdk (1) |  |
+| io.livekit | 1 | 0 | 1 | io.livekit.android (1) |  |
+| io.matthewnelson.kotlin-components | 1 | 0 | 1 | io.matthewnelson.kmp (1) |  |
+| io.matthewnelson.pin-authentication | 1 | 0 | 1 | io.matthewnelson.pin_authentication (1) |  |
+| io.matthewnelson.topl-android | 1 | 0 | 1 | io.matthewnelson.topl_service (1) |  |
+| io.mehow.laboratory | 1 | 0 | 1 | io.mehow.laboratory (1) |  |
+| io.mehow.ruler | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.metamask.androidsdk | 1 | 0 | 1 | io.metamask.androidsdk (1) |  |
+| io.monaru | 1 | 0 | 1 | io.monaru.anymo (1) |  |
+| io.netpie | 1 | 0 | 1 | netpie.io.netpiegear (1) |  |
+| io.nlopez.revamp | 1 | 0 | 1 | revamp.testing (1) |  |
+| io.openremote | 1 | 0 | 1 | io.openremote.orlib (1) |  |
+| io.passworks | 2 | 1 | 1 | io.passworks.lighthouse (1) | 128 |
+| io.pokpay | 1 | 0 | 1 | io.pokmerchant.checkoutsdk (1) |  |
+| io.qonversion.android.sdk | 1 | 0 | 1 | com.qonversion.android (1) |  |
+| io.refiner | 1 | 0 | 1 | io.refiner.ui (1) |  |
+| io.replay | 1 | 0 | 1 | io.replay.framework (1) |  |
+| io.rightmesh | 1 | 0 | 1 | io.rightmesh.awm (1) |  |
+| io.secrethero.secrethero | 1 | 0 | 1 | com.secrethero.secrethero (1) |  |
+| io.seon.idvandroid | 1 | 0 | 1 | io.seon.id_verification_android (1) |  |
+| io.setapp | 1 | 0 | 1 | io.setapp.android (1) |  |
+| io.split.client | 2 | 1 | 1 | androidx.startup (1) | 359 |
+| io.toxicity.sqlite-mc | 1 | 0 | 1 | androidx.startup (1) |  |
+| io.userwise.userwise_sdk | 1 | 0 | 1 | io.userwise.userwise_sdk (1) |  |
+| io.veep.android | 1 | 0 | 1 | io.veep.test_library (1) |  |
+| iq.fib.payments | 1 | 0 | 1 | com.lawrencespring.payment (1) |  |
+| ir.apptimize | 1 | 0 | 1 | ir.apptimize.messaging (1) |  |
+| it.czerwinski.android.hilt | 1 | 0 | 1 | it.czerwinski.android (1) |  |
+| it.polimi.spf | 1 | 0 | 1 | it.polimi.spf (1) |  |
+| it.sisal.bill | 1 | 0 | 1 | it.sisal.bill (1) |  |
+| jp.co.cyberagent.katalog | 1 | 0 | 1 | jp.co.cyberagent (1) |  |
+| kh.com.ipay88.sdk | 1 | 0 | 1 | kh.com.ipay88 (1) |  |
+| land.sungbin | 1 | 0 | 1 | io.github.jisungbin (1) |  |
+| live.ditto | 1 | 0 | 1 | androidx.core.content (1) |  |
+| live.ditto.dittoexportlogs | 1 | 0 | 1 | androidx.core.content (1) |  |
+| ltd.dolink | 1 | 0 | 1 | androidx.startup (1) |  |
+| ltd.dolink.arch | 1 | 0 | 1 | androidx.startup (1) |  |
+| me.codeboy.android | 1 | 0 | 1 | me.codeboy.android (1) |  |
+| me.drakeet.billing | 1 | 0 | 1 | com.android.billingclient (1) |  |
+| me.id.idmesocialcontacts | 1 | 0 | 1 | me.id.idmesocialcontacts (1) |  |
+| me.nathanfallet.unlockpremium | 1 | 0 | 1 | me.nathanfallet.unlockpremium (1) |  |
+| me.proton.vpn | 1 | 0 | 1 | com.wireguard.android (1) |  |
+| me.saket.reuserview | 1 | 0 | 1 | me.saket.baseandroidproject (1) |  |
+| me.zhanghai.android.customtabshelper | 1 | 0 | 1 | org.chromium.customtabsclient (1) |  |
+| mobi.cangol.mobile | 1 | 0 | 1 | androidx.core.content (1) |  |
+| money.onramp | 1 | 0 | 1 | com.buyhatke.onrampsdk (1) |  |
+| money.open | 1 | 0 | 1 | com.open.open_web_sdk (1) |  |
+| net.auropay.uat | 1 | 0 | 1 | com.auropay.payments (1) |  |
+| net.consentmanager.sdk | 1 | 0 | 1 | net.consentmanager.sdk (1) |  |
+| net.danlew | 1 | 0 | 1 | androidx.startup (1) |  |
+| net.gouline.droidxing | 1 | 0 | 1 | net.gouline.droidxing (1) |  |
+| net.mready.hover | 1 | 0 | 1 | net.mready.hover (1) |  |
+| net.netheos | 1 | 0 | 1 | net.netheos.pcsapi (1) |  |
+| net.niiranen | 1 | 0 | 1 | net.niiranen.genericfilter (1) |  |
+| net.qiujuer.genius | 1 | 0 | 1 | net.qiujuer.genius (1) |  |
+| net.tajsoft | 1 | 0 | 1 | net.tajsoft.aywa (1) |  |
+| net.vmate | 1 | 0 | 1 | net.vmate.ui (1) |  |
+| ng.okra.com | 1 | 0 | 1 | com.okra.android (1) |  |
+| ng.simplepay.gateway-dev | 1 | 0 | 1 | ng.simplepay.gateway (1) |  |
+| nl.brusque.iou | 1 | 0 | 1 | nl.brusque.iou (1) |  |
+| nl.coffeeit.bagtag | 1 | 0 | 1 | nl.coffeeit.bagtaglibrary (1) |  |
+| nl.weeaboo.vn | 1 | 0 | 1 | nl.weeaboo.vn (1) |  |
+| nz.co.trademe.konfigure | 1 | 0 | 1 | nz.co.trademe (1) |  |
+| org.astarte-platform | 1 | 0 | 1 | org.eclipse.paho (1) |  |
+| org.bitbucket.Muhammad_Zahoor | 1 | 0 | 1 | com.app.my_toast (1) |  |
+| org.bitbucket.pragya-spice | 1 | 0 | 1 | com.spicemoney.searchlib (1) |  |
+| org.bitbucket.samuel8mille | 1 | 0 | 1 | com.samuel.testerepositorio (1) |  |
+| org.cobaltians | 1 | 0 | 1 | org.cobaltians.cobalt (1) |  |
+| org.hisp.dhis | 1 | 0 | 1 | net.openid.appauth (1) |  |
+| org.jetbrains.compose.components | 1 | 0 | 1 | org.jetbrains.compose (1) |  |
+| org.jraf | 1 | 0 | 1 | org.jraf.android (1) |  |
+| org.librarysimplified.audiobook | 1 | 0 | 1 | org.librarysimplified.audiobook (1) |  |
+| org.matrix.android | 1 | 0 | 1 | org.matrix.android (1) |  |
+| org.microg | 1 | 0 | 1 | org.microg.nlp (1) |  |
+| org.multipaz | 1 | 0 | 1 | org.multipaz.compose (1) |  |
+| org.rm3l | 1 | 0 | 1 | org.rm3l.maoni (1) |  |
+| org.teslasoft.core.auth | 1 | 0 | 1 | org.teslasoft.core (1) |  |
+| org.tinylisp | 1 | 0 | 1 | org.tinylisp.activity (1) |  |
+| org.xdty.media | 1 | 0 | 1 | tv.danmaku.ijk (1) |  |
+| pe.nxt | 1 | 0 | 1 | pe.nxt.checkout (1) |  |
+| pl.droidsonroids.androiddebugdatabase | 1 | 0 | 1 | com.amitshekhar.debug (1) |  |
+| plus.adaptive | 1 | 0 | 1 | plus.adaptive.sdk (1) |  |
+| pub.devrel | 1 | 0 | 1 | pub.devrel.easypermissions (1) |  |
+| pub.doric.extension | 1 | 0 | 1 | pub.doric.library (1) |  |
+| rocks.teagantotally | 1 | 0 | 1 | rocks.teagantotally.deepthought_routing (1) |  |
+| rs.arthu | 1 | 0 | 1 | rs.arthu.androidpvt (1) |  |
 | academy.compose.companion | 0 | 0 | 0 |  |  |
 | ai.basemind | 0 | 0 | 0 |  |  |
 | ai.djl.android | 0 | 0 | 0 |  |  |
@@ -6412,6 +6926,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.gitee.xzhix | 0 | 0 | 0 |  |  |
 | io.gitee.zqycl | 0 | 0 | 0 |  |  |
 | io.gitee.zzxygitee | 0 | 0 | 0 |  |  |
+| io.github | 0 | 0 | 0 |  |  |
 | io.github.0xpolygonid.polygonid_android_sdk | 0 | 0 | 0 |  |  |
 | io.github.0xpolygonid.polygonid_flutter_sdk | 0 | 0 | 0 |  |  |
 | io.github.0xpolygonid.polygonid_flutter_wrapper | 0 | 0 | 0 |  |  |
@@ -7260,83 +7775,1660 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.mihodihasan.chuck-no-op | 0 | 0 | 0 |  |  |
 | io.github.mikovali.android | 0 | 0 | 0 |  |  |
 | io.github.miniclip | 0 | 0 | 0 |  |  |
-| io.github.minyushov | 0 | 0 | 0 |  |  |
+| io.github.miraenec | 0 | 0 | 0 |  |  |
+| io.github.missioncommand | 0 | 0 | 0 |  |  |
+| io.github.mkhytarmkhoian | 0 | 0 | 0 |  |  |
+| io.github.mkjung | 0 | 0 | 0 |  |  |
+| io.github.mlytics | 0 | 0 | 0 |  |  |
+| io.github.mmobin789.pixel | 0 | 0 | 0 |  |  |
+| io.github.mobile-development-group | 0 | 0 | 0 |  |  |
+| io.github.moke926 | 0 | 0 | 0 |  |  |
+| io.github.molysulfur | 0 | 0 | 0 |  |  |
+| io.github.mooney-code | 0 | 0 | 0 |  |  |
+| io.github.morayl | 0 | 0 | 0 |  |  |
+| io.github.mortezanedaei | 0 | 0 | 0 |  |  |
+| io.github.morux2 | 0 | 0 | 0 |  |  |
+| io.github.mqcodedev | 0 | 0 | 0 |  |  |
+| io.github.mr0xf00 | 0 | 0 | 0 |  |  |
+| io.github.mrherintsoahasina | 0 | 0 | 0 |  |  |
+| io.github.mridx | 0 | 0 | 0 |  |  |
+| io.github.mrjiangdong | 0 | 0 | 0 |  |  |
+| io.github.mrjino | 0 | 0 | 0 |  |  |
+| io.github.msilemsile | 0 | 0 | 0 |  |  |
+| io.github.msparkk | 0 | 0 | 0 |  |  |
+| io.github.mtj956052456 | 0 | 0 | 0 |  |  |
+| io.github.mtjsoft | 0 | 0 | 0 |  |  |
+| io.github.muddz | 0 | 0 | 0 |  |  |
+| io.github.muhammadfarazahmed | 0 | 0 | 0 |  |  |
+| io.github.muhammednadeeretp | 0 | 0 | 0 |  |  |
+| io.github.mupsnc | 0 | 0 | 0 |  |  |
+| io.github.muthuraj57 | 0 | 0 | 0 |  |  |
+| io.github.muto86 | 0 | 0 | 0 |  |  |
+| io.github.mvn-hungtruong-dn | 0 | 0 | 0 |  |  |
+| io.github.mybigcompanysdk | 0 | 0 | 0 |  |  |
+| io.github.myounis97 | 0 | 0 | 0 |  |  |
+| io.github.mytargetsdk | 0 | 0 | 0 |  |  |
+| io.github.myusernamehsw | 0 | 0 | 0 |  |  |
+| io.github.myvideoyun | 0 | 0 | 0 |  |  |
+| io.github.mzanalyticst | 0 | 0 | 0 |  |  |
+| io.github.mzfkr97 | 0 | 0 | 0 |  |  |
+| io.github.nageshks.kmnumbers | 0 | 0 | 0 |  |  |
+| io.github.nageshks.mad | 0 | 0 | 0 |  |  |
+| io.github.nageshks.materialsheet | 0 | 0 | 0 |  |  |
+| io.github.nageshks.roundedletterview | 0 | 0 | 0 |  |  |
+| io.github.nailik | 0 | 0 | 0 |  |  |
+| io.github.nainapetkar | 0 | 0 | 0 |  |  |
+| io.github.naivekook.zodiacview | 0 | 0 | 0 |  |  |
+| io.github.naivor | 0 | 0 | 0 |  |  |
+| io.github.nameyuan | 0 | 0 | 0 |  |  |
+| io.github.namini40 | 0 | 0 | 0 |  |  |
+| io.github.nanchenyang | 0 | 0 | 0 |  |  |
+| io.github.nandanurseptama | 0 | 0 | 0 |  |  |
+| io.github.narutobratishka | 0 | 0 | 0 |  |  |
+| io.github.nasserkhosravi.devin | 0 | 0 | 0 |  |  |
+| io.github.nathanmeade | 0 | 0 | 0 |  |  |
+| io.github.nathanmeade.connectionerrorjoke | 0 | 0 | 0 |  |  |
+| io.github.naveenthontepu | 0 | 0 | 0 |  |  |
+| io.github.naverz | 0 | 0 | 0 |  |  |
+| io.github.naverz.antonio | 0 | 0 | 0 |  |  |
+| io.github.naverz.pinocchio | 0 | 0 | 0 |  |  |
+| io.github.nayanapetkar | 0 | 0 | 0 |  |  |
+| io.github.nayanapetkar123 | 0 | 0 | 0 |  |  |
+| io.github.nayanapetkar49 | 0 | 0 | 0 |  |  |
+| io.github.neboskreb | 0 | 0 | 0 |  |  |
+| io.github.neo1125 | 0 | 0 | 0 |  |  |
+| io.github.netcosports.compositeadapter | 0 | 0 | 0 |  |  |
+| io.github.nguyenphuc22 | 0 | 0 | 0 |  |  |
+| io.github.nhsconnect | 0 | 0 | 0 |  |  |
+| io.github.nikartm | 0 | 0 | 0 |  |  |
+| io.github.nikoarap | 0 | 0 | 0 |  |  |
+| io.github.ningyuv | 0 | 0 | 0 |  |  |
+| io.github.nitinpraksash9911 | 0 | 0 | 0 |  |  |
+| io.github.nomizodiac | 0 | 0 | 0 |  |  |
+| io.github.nondeepshit | 0 | 0 | 0 |  |  |
+| io.github.nopol10 | 0 | 0 | 0 |  |  |
+| io.github.nopol10.alpha-movie | 0 | 0 | 0 |  |  |
+| io.github.nouvell | 0 | 0 | 0 |  |  |
+| io.github.nova-wallet | 0 | 0 | 0 |  |  |
+| io.github.nova-wallet.substrate-sdk-android | 0 | 0 | 0 |  |  |
+| io.github.npetkar48 | 0 | 0 | 0 |  |  |
+| io.github.nqhuydev | 0 | 0 | 0 |  |  |
+| io.github.nuclominus | 0 | 0 | 0 |  |  |
+| io.github.nunopalma | 0 | 0 | 0 |  |  |
+| io.github.nuonuoOkami | 0 | 0 | 0 |  |  |
+| io.github.nurujjamanpollob.androidmailer | 0 | 0 | 0 |  |  |
+| io.github.nvest-solutions | 0 | 0 | 0 |  |  |
+| io.github.ocean9914 | 0 | 0 | 0 |  |  |
+| io.github.offvanhooijdonk | 0 | 0 | 0 |  |  |
+| io.github.og-abdul-mateen | 0 | 0 | 0 |  |  |
+| io.github.oleksandrbalan | 0 | 0 | 0 |  |  |
+| io.github.omoby | 0 | 0 | 0 |  |  |
+| io.github.oneuiproject | 0 | 0 | 0 |  |  |
+| io.github.oneuiproject.sesl | 0 | 0 | 0 |  |  |
+| io.github.onreg | 0 | 0 | 0 |  |  |
+| io.github.orbweb | 0 | 0 | 0 |  |  |
+| io.github.orixent | 0 | 0 | 0 |  |  |
+| io.github.osakila | 0 | 0 | 0 |  |  |
+| io.github.oscarduartt | 0 | 0 | 0 |  |  |
+| io.github.oshai | 0 | 0 | 0 |  |  |
+| io.github.osipxd | 0 | 0 | 0 |  |  |
+| io.github.ouchangxin | 0 | 0 | 0 |  |  |
+| io.github.out2null | 0 | 0 | 0 |  |  |
+| io.github.ouyang1596 | 0 | 0 | 0 |  |  |
+| io.github.overpas | 0 | 0 | 0 |  |  |
+| io.github.oyama-oyama | 0 | 0 | 0 |  |  |
+| io.github.pablichjenkov | 0 | 0 | 0 |  |  |
+| io.github.pablodxcode | 0 | 0 | 0 |  |  |
+| io.github.pagalaxylab | 0 | 0 | 0 |  |  |
+| io.github.pakorner | 0 | 0 | 0 |  |  |
+| io.github.pandulapeter.kubriko | 0 | 0 | 0 |  |  |
+| io.github.panpf.androidsheller | 0 | 0 | 0 |  |  |
+| io.github.panpf.assemblyadapter | 0 | 0 | 0 |  |  |
+| io.github.panpf.assemblyadapter4 | 0 | 0 | 0 |  |  |
+| io.github.panpf.liveevent | 0 | 0 | 0 |  |  |
+| io.github.panpf.pagerindicator | 0 | 0 | 0 |  |  |
+| io.github.panpf.sketch | 0 | 0 | 0 |  |  |
+| io.github.panpf.sketch3 | 0 | 0 | 0 |  |  |
+| io.github.panpf.sketch4 | 0 | 0 | 0 |  |  |
+| io.github.panpf.spiderwebscoreview | 0 | 0 | 0 |  |  |
+| io.github.panpf.stickyitemdecoration | 0 | 0 | 0 |  |  |
+| io.github.panpf.stickyrecycleritemdecoration | 0 | 0 | 0 |  |  |
+| io.github.panpf.tools4a | 0 | 0 | 0 |  |  |
+| io.github.panpf.viewexpander | 0 | 0 | 0 |  |  |
+| io.github.panpf.zoomimage | 0 | 0 | 0 |  |  |
+| io.github.panyiyiyi | 0 | 0 | 0 |  |  |
+| io.github.paopaosecret | 0 | 0 | 0 |  |  |
+| io.github.par-government | 0 | 0 | 0 |  |  |
+| io.github.paradisehell.middleware.logger | 0 | 0 | 0 |  |  |
+| io.github.patxibocos | 0 | 0 | 0 |  |  |
+| io.github.paulklauser | 0 | 0 | 0 |  |  |
+| io.github.pavan2you | 0 | 0 | 0 |  |  |
+| io.github.pavel-corsaghin | 0 | 0 | 0 |  |  |
+| io.github.pavelannin | 0 | 0 | 0 |  |  |
+| io.github.pavlozorya | 0 | 0 | 0 |  |  |
+| io.github.pawansk214 | 0 | 0 | 0 |  |  |
+| io.github.peakerbee | 0 | 0 | 0 |  |  |
+| io.github.pedro-bachiega | 0 | 0 | 0 |  |  |
+| io.github.pelmenstar1 | 0 | 0 | 0 |  |  |
+| io.github.pengxurui | 0 | 0 | 0 |  |  |
+| io.github.peopletech-sdk | 0 | 0 | 0 |  |  |
+| io.github.peralhuang | 0 | 0 | 0 |  |  |
+| io.github.petretiandrea | 0 | 0 | 0 |  |  |
+| io.github.petrostick | 0 | 0 | 0 |  |  |
+| io.github.pgwiazdowskispyro | 0 | 0 | 0 |  |  |
+| io.github.phaserep | 0 | 0 | 0 |  |  |
+| io.github.pichsy | 0 | 0 | 0 |  |  |
+| io.github.pichsy.xsql | 0 | 0 | 0 |  |  |
+| io.github.pilgr | 0 | 0 | 0 |  |  |
+| io.github.piratenetwork | 0 | 0 | 0 |  |  |
+| io.github.piterrus0102 | 0 | 0 | 0 |  |  |
+| io.github.pknujsp | 0 | 0 | 0 |  |  |
+| io.github.plecesne | 0 | 0 | 0 |  |  |
+| io.github.pluggableai.smartpush.com.pluggableai | 0 | 0 | 0 |  |  |
+| io.github.pluggableai.smartpush.io.github.pluggableai | 0 | 0 | 0 |  |  |
+| io.github.plz-no-anr | 0 | 0 | 0 |  |  |
+| io.github.pojul | 0 | 0 | 0 |  |  |
+| io.github.popularlzp | 0 | 0 | 0 |  |  |
+| io.github.porum | 0 | 0 | 0 |  |  |
+| io.github.ppav | 0 | 0 | 0 |  |  |
+| io.github.ppav.analytics | 0 | 0 | 0 |  |  |
+| io.github.ppav.analyticshub | 0 | 0 | 0 |  |  |
+| io.github.prashantrajput1612 | 0 | 0 | 0 |  |  |
+| io.github.prathameshmm02.themeEngine | 0 | 0 | 0 |  |  |
+| io.github.prettyclown | 0 | 0 | 0 |  |  |
+| io.github.pseudoankit | 0 | 0 | 0 |  |  |
+| io.github.psmorandi | 0 | 0 | 0 |  |  |
+| io.github.pubiqq | 0 | 0 | 0 |  |  |
+| io.github.pureaway | 0 | 0 | 0 |  |  |
+| io.github.pushpalroy | 0 | 0 | 0 |  |  |
+| io.github.q707172686 | 0 | 0 | 0 |  |  |
+| io.github.q7w8e9123456 | 0 | 0 | 0 |  |  |
+| io.github.qdsfdhvh | 0 | 0 | 0 |  |  |
+| io.github.qihuan92.activitystarter | 0 | 0 | 0 |  |  |
+| io.github.qinweiforandroid | 0 | 0 | 0 |  |  |
+| io.github.qq877693928 | 0 | 0 | 0 |  |  |
+| io.github.qqnp1100 | 0 | 0 | 0 |  |  |
+| io.github.qtkun | 0 | 0 | 0 |  |  |
+| io.github.qxtx244.http | 0 | 0 | 0 |  |  |
+| io.github.qxtx244.recyclerview | 0 | 0 | 0 |  |  |
+| io.github.qy-tech | 0 | 0 | 0 |  |  |
+| io.github.raamcosta.compose-destinations | 0 | 0 | 0 |  |  |
+| io.github.racka98 | 0 | 0 | 0 |  |  |
+| io.github.rafaelsramos | 0 | 0 | 0 |  |  |
+| io.github.rafambn.frameseekbar | 0 | 0 | 0 |  |  |
+| io.github.raggedycoder.android | 0 | 0 | 0 |  |  |
+| io.github.raggedycoder.preference | 0 | 0 | 0 |  |  |
+| io.github.raghavsatyadev | 0 | 0 | 0 |  |  |
+| io.github.rain9155 | 0 | 0 | 0 |  |  |
+| io.github.rakibhasan1030 | 0 | 0 | 0 |  |  |
+| io.github.rakuten-advertising-developers | 0 | 0 | 0 |  |  |
+| io.github.rakutentech.inappmessaging | 0 | 0 | 0 |  |  |
+| io.github.ramadhansejati.gridpad | 0 | 0 | 0 |  |  |
+| io.github.ramblerchris | 0 | 0 | 0 |  |  |
+| io.github.ranga543 | 0 | 0 | 0 |  |  |
+| io.github.raphael28 | 0 | 0 | 0 |  |  |
+| io.github.react-native-async-storage | 0 | 0 | 0 |  |  |
+| io.github.reactivecircus.blueprint | 0 | 0 | 0 |  |  |
+| io.github.reactivecircus.composelint | 0 | 0 | 0 |  |  |
+| io.github.reactivecircus.flowbinding | 0 | 0 | 0 |  |  |
+| io.github.reboot297 | 0 | 0 | 0 |  |  |
+| io.github.reha2408 | 0 | 0 | 0 |  |  |
+| io.github.reidsync | 0 | 0 | 0 |  |  |
+| io.github.remielpub | 0 | 0 | 0 |  |  |
+| io.github.remotelog | 0 | 0 | 0 |  |  |
+| io.github.rexmtorres.android | 0 | 0 | 0 |  |  |
+| io.github.rezaiyan | 0 | 0 | 0 |  |  |
+| io.github.rhariskumar3 | 0 | 0 | 0 |  |  |
+| io.github.rizmaulana | 0 | 0 | 0 |  |  |
+| io.github.rk700 | 0 | 0 | 0 |  |  |
+| io.github.robin132929 | 0 | 0 | 0 |  |  |
+| io.github.rockerhieu | 0 | 0 | 0 |  |  |
+| io.github.rohitchavan7 | 0 | 0 | 0 |  |  |
+| io.github.rohitverma882.ndk | 0 | 0 | 0 |  |  |
+| io.github.romansj.tools | 0 | 0 | 0 |  |  |
+| io.github.rongjianrun | 0 | 0 | 0 |  |  |
+| io.github.rool78 | 0 | 0 | 0 |  |  |
+| io.github.routis | 0 | 0 | 0 |  |  |
+| io.github.rqrjc | 0 | 0 | 0 |  |  |
+| io.github.rroohit | 0 | 0 | 0 |  |  |
+| io.github.rubenquadros | 0 | 0 | 0 |  |  |
+| io.github.ruieduardosoares | 0 | 0 | 0 |  |  |
+| io.github.rumitpatel | 0 | 0 | 0 |  |  |
+| io.github.running-libo | 0 | 0 | 0 |  |  |
+| io.github.rupinderjeet | 0 | 0 | 0 |  |  |
+| io.github.rust-nostr | 0 | 0 | 0 |  |  |
+| io.github.rygeltang | 0 | 0 | 0 |  |  |
+| io.github.ryunen344.tink | 0 | 0 | 0 |  |  |
+| io.github.saadahmedscse | 0 | 0 | 0 |  |  |
+| io.github.sabbib-chowdhury | 0 | 0 | 0 |  |  |
+| io.github.sabgilhun | 0 | 0 | 0 |  |  |
+| io.github.sabujak-sabujak | 0 | 0 | 0 |  |  |
+| io.github.sachankapil | 0 | 0 | 0 |  |  |
+| io.github.sachinnagpal.paise | 0 | 0 | 0 |  |  |
+| io.github.sagar-viradiya | 0 | 0 | 0 |  |  |
+| io.github.sammyo | 0 | 0 | 0 |  |  |
+| io.github.samuelzhaoy | 0 | 0 | 0 |  |  |
+| io.github.sanao1006 | 0 | 0 | 0 |  |  |
+| io.github.sanggunpark | 0 | 0 | 0 |  |  |
+| io.github.sangsoonam | 0 | 0 | 0 |  |  |
+| io.github.sapirmedallia | 0 | 0 | 0 |  |  |
+| io.github.sapkotamadhusudan | 0 | 0 | 0 |  |  |
+| io.github.saranya-sajeev | 0 | 0 | 0 |  |  |
+| io.github.sashok1353 | 0 | 0 | 0 |  |  |
+| io.github.saurabhspec | 0 | 0 | 0 |  |  |
+| io.github.scauzhangpeng | 0 | 0 | 0 |  |  |
+| io.github.sceneview | 0 | 0 | 0 |  |  |
+| io.github.schs-robotics | 0 | 0 | 0 |  |  |
+| io.github.sckm | 0 | 0 | 0 |  |  |
+| io.github.scwang90 | 0 | 0 | 0 |  |  |
+| io.github.seagazer | 0 | 0 | 0 |  |  |
+| io.github.sebacipolat | 0 | 0 | 0 |  |  |
+| io.github.sebaslogen | 0 | 0 | 0 |  |  |
+| io.github.secretquestion5 | 0 | 0 | 0 |  |  |
+| io.github.seker | 0 | 0 | 0 |  |  |
+| io.github.senierr | 0 | 0 | 0 |  |  |
+| io.github.september26 | 0 | 0 | 0 |  |  |
+| io.github.september669 | 0 | 0 | 0 |  |  |
+| io.github.seuicapp | 0 | 0 | 0 |  |  |
+| io.github.sevenupup | 0 | 0 | 0 |  |  |
+| io.github.seyoungcho2 | 0 | 0 | 0 |  |  |
+| io.github.sgpublic | 0 | 0 | 0 |  |  |
+| io.github.shabinder | 0 | 0 | 0 |  |  |
+| io.github.shamo42 | 0 | 0 | 0 |  |  |
+| io.github.shannon2014 | 0 | 0 | 0 |  |  |
+| io.github.shaolongfei | 0 | 0 | 0 |  |  |
+| io.github.shashank02051997 | 0 | 0 | 0 |  |  |
+| io.github.shashank1800 | 0 | 0 | 0 |  |  |
+| io.github.shenzhen2017 | 0 | 0 | 0 |  |  |
+| io.github.sherlockshi | 0 | 0 | 0 |  |  |
+| io.github.shinyshine90 | 0 | 0 | 0 |  |  |
+| io.github.shiqos | 0 | 0 | 0 |  |  |
+| io.github.shirav121 | 0 | 0 | 0 |  |  |
+| io.github.shirongkeji | 0 | 0 | 0 |  |  |
+| io.github.shiyd0516.lib | 0 | 0 | 0 |  |  |
+| io.github.shohiebsense | 0 | 0 | 0 |  |  |
+| io.github.showthat | 0 | 0 | 0 |  |  |
+| io.github.shreyashsaitwal.rush | 0 | 0 | 0 |  |  |
+| io.github.shubhamsinghshubham777 | 0 | 0 | 0 |  |  |
+| io.github.shuogesha | 0 | 0 | 0 |  |  |
+| io.github.silentaaa | 0 | 0 | 0 |  |  |
+| io.github.simplation | 0 | 0 | 0 |  |  |
+| io.github.simplejnius | 0 | 0 | 0 |  |  |
+| io.github.singpass | 0 | 0 | 0 |  |  |
+| io.github.sjandy88 | 0 | 0 | 0 |  |  |
+| io.github.skeptick.inputmask | 0 | 0 | 0 |  |  |
+| io.github.skeptick.libres | 0 | 0 | 0 |  |  |
+| io.github.skolson | 0 | 0 | 0 |  |  |
+| io.github.skullper | 0 | 0 | 0 |  |  |
+| io.github.skyofsky | 0 | 0 | 0 |  |  |
+| io.github.smallmarker | 0 | 0 | 0 |  |  |
+| io.github.smartsensesolutions | 0 | 0 | 0 |  |  |
+| io.github.snapp-incubator | 0 | 0 | 0 |  |  |
+| io.github.snehilrx | 0 | 0 | 0 |  |  |
+| io.github.softartdev | 0 | 0 | 0 |  |  |
+| io.github.softmedtanzania | 0 | 0 | 0 |  |  |
+| io.github.sokchanbo | 0 | 0 | 0 |  |  |
+| io.github.songyao1987 | 0 | 0 | 0 |  |  |
+| io.github.sonphan12.corelib | 0 | 0 | 0 |  |  |
+| io.github.space0o0 | 4 | 4 | 0 |  | 19 |
+| io.github.spoqa | 0 | 0 | 0 |  |  |
+| io.github.sporklibrary | 0 | 0 | 0 |  |  |
+| io.github.sportstalk247.sdk-android-kotlin | 0 | 0 | 0 |  |  |
+| io.github.sportstalk247.sdk-multiplatform | 0 | 0 | 0 |  |  |
+| io.github.squart300kg | 0 | 0 | 0 |  |  |
+| io.github.sridhar-sp | 0 | 0 | 0 |  |  |
+| io.github.sslwireless-mobile | 0 | 0 | 0 |  |  |
+| io.github.starktom256 | 0 | 0 | 0 |  |  |
+| io.github.starrayjan | 0 | 0 | 0 |  |  |
+| io.github.stayli117.adbserver | 0 | 0 | 0 |  |  |
+| io.github.stefanosiano.powerful_libraries | 0 | 0 | 0 |  |  |
+| io.github.steinerok.sealant | 0 | 0 | 0 |  |  |
+| io.github.stephenbellanger.kit.lint | 0 | 0 | 0 |  |  |
+| io.github.stevepham | 0 | 0 | 0 |  |  |
+| io.github.stitelnet | 0 | 0 | 0 |  |  |
+| io.github.storix | 0 | 0 | 0 |  |  |
+| io.github.stringcare | 0 | 0 | 0 |  |  |
+| io.github.subsidian-financial-technology-ltd | 0 | 0 | 0 |  |  |
+| io.github.succlz123 | 0 | 0 | 0 |  |  |
+| io.github.sudo248 | 0 | 0 | 0 |  |  |
+| io.github.summerzh | 0 | 0 | 0 |  |  |
+| io.github.sunbird89629 | 0 | 0 | 0 |  |  |
+| io.github.sundoggynew | 0 | 0 | 0 |  |  |
+| io.github.sunjc53yy | 0 | 0 | 0 |  |  |
+| io.github.sunjinxi1994 | 0 | 0 | 0 |  |  |
+| io.github.sunny-chung | 0 | 0 | 0 |  |  |
+| io.github.sunshaobei | 0 | 0 | 0 |  |  |
+| io.github.superbigjian.base | 0 | 0 | 0 |  |  |
+| io.github.superbigjian.libs | 0 | 0 | 0 |  |  |
+| io.github.suyghur.dolin | 0 | 0 | 0 |  |  |
+| io.github.swapnil-musale.klibrary | 0 | 0 | 0 |  |  |
+| io.github.swati4star | 0 | 0 | 0 |  |  |
+| io.github.sweetd3v | 0 | 0 | 0 |  |  |
+| io.github.sy007 | 0 | 0 | 0 |  |  |
+| io.github.syex | 0 | 0 | 0 |  |  |
+| io.github.syrou | 0 | 0 | 0 |  |  |
+| io.github.t-bright | 0 | 0 | 0 |  |  |
+| io.github.t894924815 | 0 | 0 | 0 |  |  |
+| io.github.taewooyo | 0 | 0 | 0 |  |  |
+| io.github.takahirom.rin | 0 | 0 | 0 |  |  |
+| io.github.takusan23 | 0 | 0 | 0 |  |  |
+| io.github.tangchaojian | 0 | 0 | 0 |  |  |
+| io.github.tangnuo | 0 | 0 | 0 |  |  |
+| io.github.tantantan277 | 0 | 0 | 0 |  |  |
+| io.github.taoweiji | 0 | 0 | 0 |  |  |
+| io.github.taoweiji.grouter | 0 | 0 | 0 |  |  |
+| io.github.taoweiji.image | 0 | 0 | 0 |  |  |
+| io.github.taoweiji.kvstorage | 0 | 0 | 0 |  |  |
+| io.github.taoweiji.quickjs | 0 | 0 | 0 |  |  |
+| io.github.taoweiji.single-activity-navigation | 0 | 0 | 0 |  |  |
+| io.github.taoweiji.webviewx | 0 | 0 | 0 |  |  |
+| io.github.tapwithus | 0 | 0 | 0 |  |  |
+| io.github.tashilapathum | 0 | 0 | 0 |  |  |
+| io.github.tencent | 0 | 0 | 0 |  |  |
+| io.github.tencentmusic | 0 | 0 | 0 |  |  |
+| io.github.teobaranga.viewbindingowner | 0 | 0 | 0 |  |  |
+| io.github.ternaryop | 0 | 0 | 0 |  |  |
+| io.github.testplanb | 0 | 0 | 0 |  |  |
+| io.github.thang-uit | 0 | 0 | 0 |  |  |
+| io.github.thanosfisherman.mayi | 0 | 0 | 0 |  |  |
+| io.github.thanosfisherman.wifiutils | 0 | 0 | 0 |  |  |
+| io.github.theapache64 | 0 | 0 | 0 |  |  |
+| io.github.thebabels | 0 | 0 | 0 |  |  |
+| io.github.thechance101 | 0 | 0 | 0 |  |  |
+| io.github.therandomcrafter83 | 0 | 0 | 0 |  |  |
+| io.github.thibaultbee | 0 | 0 | 0 |  |  |
+| io.github.thibaultbee.srtdroid | 0 | 0 | 0 |  |  |
+| io.github.thibaultbee.streampack | 0 | 0 | 0 |  |  |
+| io.github.thibseisel.identikon | 0 | 0 | 0 |  |  |
+| io.github.thinktreestudios | 0 | 0 | 0 |  |  |
+| io.github.thisdk.core | 0 | 0 | 0 |  |  |
+| io.github.thlee-alti | 0 | 0 | 0 |  |  |
+| io.github.thoughtspot | 0 | 0 | 0 |  |  |
+| io.github.thugrzz | 0 | 0 | 0 |  |  |
+| io.github.thunderrule | 0 | 0 | 0 |  |  |
+| io.github.tianshan20081 | 0 | 0 | 0 |  |  |
+| io.github.tianshaokai | 0 | 0 | 0 |  |  |
+| io.github.tick-taku | 0 | 0 | 0 |  |  |
+| io.github.tim06.xray-configuration | 0 | 0 | 0 |  |  |
+| io.github.timspruce | 0 | 0 | 0 |  |  |
+| io.github.tingbob | 0 | 0 | 0 |  |  |
+| io.github.tochy-open | 0 | 0 | 0 |  |  |
+| io.github.tomgarden | 0 | 0 | 0 |  |  |
+| io.github.tommy-geenexus | 0 | 0 | 0 |  |  |
+| io.github.tomoya0x00 | 0 | 0 | 0 |  |  |
+| io.github.tompee26 | 0 | 0 | 0 |  |  |
+| io.github.tonnyl | 0 | 0 | 0 |  |  |
+| io.github.top-100-writer | 0 | 0 | 0 |  |  |
+| io.github.toponteam | 0 | 0 | 0 |  |  |
+| io.github.torrydo | 0 | 0 | 0 |  |  |
+| io.github.toru0239 | 0 | 0 | 0 |  |  |
+| io.github.totomiz | 0 | 0 | 0 |  |  |
+| io.github.toukomine | 0 | 0 | 0 |  |  |
+| io.github.trendyol | 0 | 0 | 0 |  |  |
+| io.github.triniwiz.fancycamera | 0 | 0 | 0 |  |  |
+| io.github.trueangle | 0 | 0 | 0 |  |  |
+| io.github.trustedshops-public | 0 | 0 | 0 |  |  |
+| io.github.tuannq-0847 | 0 | 0 | 0 |  |  |
+| io.github.tutorialsandroid | 0 | 0 | 0 |  |  |
+| io.github.two-coders | 0 | 0 | 0 |  |  |
+| io.github.tyczj | 0 | 0 | 0 |  |  |
+| io.github.tyczj.lumberjack | 0 | 0 | 0 |  |  |
+| io.github.tzizi5566 | 0 | 0 | 0 |  |  |
+| io.github.udhayarajan | 0 | 0 | 0 |  |  |
+| io.github.ugolkov-sv | 0 | 0 | 0 |  |  |
+| io.github.ujizin | 0 | 0 | 0 |  |  |
+| io.github.ulabsdevelopmentteam | 0 | 0 | 0 |  |  |
+| io.github.underwindfall | 0 | 0 | 0 |  |  |
+| io.github.uni-cstar | 0 | 0 | 0 |  |  |
+| io.github.unitbean | 0 | 0 | 0 |  |  |
+| io.github.untactorder | 0 | 0 | 0 |  |  |
+| io.github.unveloper | 0 | 0 | 0 |  |  |
+| io.github.uoooo | 0 | 0 | 0 |  |  |
+| io.github.upstarts | 0 | 0 | 0 |  |  |
+| io.github.usamawizard | 0 | 0 | 0 |  |  |
+| io.github.usefulness | 0 | 0 | 0 |  |  |
+| io.github.usernameyangyan | 0 | 0 | 0 |  |  |
+| io.github.utsmannn | 0 | 0 | 0 |  |  |
+| io.github.v2softwarehouse | 0 | 0 | 0 |  |  |
+| io.github.vadiole | 0 | 0 | 0 |  |  |
+| io.github.valdzx | 0 | 0 | 0 |  |  |
+| io.github.vanpra.compose-material-dialogs | 0 | 0 | 0 |  |  |
+| io.github.vasuthakker | 0 | 0 | 0 |  |  |
+| io.github.veeru453 | 0 | 0 | 0 |  |  |
+| io.github.venkataseshaiahudatha | 0 | 0 | 0 |  |  |
+| io.github.ventsea | 0 | 0 | 0 |  |  |
+| io.github.venturelabsbr | 0 | 0 | 0 |  |  |
+| io.github.verypossible | 0 | 0 | 0 |  |  |
+| io.github.vicmikhailau | 0 | 0 | 0 |  |  |
+| io.github.victorkabata | 0 | 0 | 0 |  |  |
+| io.github.viifo | 0 | 0 | 0 |  |  |
+| io.github.vinrichard | 0 | 0 | 0 |  |  |
+| io.github.vip-test | 0 | 0 | 0 |  |  |
+| io.github.vipvideo | 0 | 0 | 0 |  |  |
+| io.github.virelion | 0 | 0 | 0 |  |  |
+| io.github.vkatz | 0 | 0 | 0 |  |  |
+| io.github.vladimirsergeevichfedorov | 0 | 0 | 0 |  |  |
+| io.github.vldi01 | 0 | 0 | 0 |  |  |
+| io.github.voilet0604 | 0 | 0 | 0 |  |  |
+| io.github.voisen | 0 | 0 | 0 |  |  |
+| io.github.vorvadoss | 0 | 0 | 0 |  |  |
+| io.github.vsukharew | 0 | 0 | 0 |  |  |
+| io.github.vtn-dev-ajay | 0 | 0 | 0 |  |  |
+| io.github.vvb2060.ndk | 0 | 0 | 0 |  |  |
+| io.github.vvvvvoin | 0 | 0 | 0 |  |  |
+| io.github.w1ppie | 0 | 0 | 0 |  |  |
+| io.github.waltercojal | 0 | 0 | 0 |  |  |
+| io.github.wang-guangcheng.maventest | 0 | 0 | 0 |  |  |
+| io.github.wangduanqing5945 | 0 | 0 | 0 |  |  |
+| io.github.wanghonglin | 0 | 0 | 0 |  |  |
+| io.github.waxmoon | 0 | 0 | 0 |  |  |
+| io.github.waynejo | 0 | 0 | 0 |  |  |
+| io.github.wcl9900 | 0 | 0 | 0 |  |  |
+| io.github.wdream101 | 0 | 0 | 0 |  |  |
+| io.github.webrtc-sdk | 0 | 0 | 0 |  |  |
+| io.github.weiggle | 0 | 0 | 0 |  |  |
+| io.github.weihuihuang | 0 | 0 | 0 |  |  |
+| io.github.weiliqiang | 0 | 0 | 0 |  |  |
+| io.github.wellingtoncosta | 0 | 0 | 0 |  |  |
+| io.github.wenlong-guo | 0 | 0 | 0 |  |  |
+| io.github.wesson88 | 0 | 0 | 0 |  |  |
+| io.github.wflin2020 | 0 | 0 | 0 |  |  |
+| io.github.whresk | 0 | 0 | 0 |  |  |
+| io.github.why168 | 0 | 0 | 0 |  |  |
+| io.github.wikimore | 0 | 0 | 0 |  |  |
+| io.github.william353.logger | 0 | 0 | 0 |  |  |
+| io.github.william353.systrace | 0 | 0 | 0 |  |  |
+| io.github.williamgufeng | 2 | 2 | 0 |  | 4 |
+| io.github.williamkwokx | 0 | 0 | 0 |  |  |
+| io.github.williankl.spinnable | 0 | 0 | 0 |  |  |
+| io.github.windedge | 0 | 0 | 0 |  |  |
+| io.github.windedge.copybuilder | 0 | 0 | 0 |  |  |
+| io.github.windedge.table | 0 | 0 | 0 |  |  |
+| io.github.windedge.viform | 0 | 0 | 0 |  |  |
+| io.github.windysha | 0 | 0 | 0 |  |  |
+| io.github.wiwi289 | 0 | 0 | 0 |  |  |
+| io.github.wizzxu | 0 | 0 | 0 |  |  |
+| io.github.wj1990sf | 0 | 0 | 0 |  |  |
+| io.github.wjf510 | 0 | 0 | 0 |  |  |
+| io.github.wjf510.fingerprint.change | 0 | 0 | 0 |  |  |
+| io.github.woody230.gw2 | 0 | 0 | 0 |  |  |
+| io.github.wppcc | 0 | 0 | 0 |  |  |
+| io.github.wsapm | 0 | 0 | 0 |  |  |
+| io.github.wslaimin | 0 | 0 | 0 |  |  |
+| io.github.wufuqi123 | 0 | 0 | 0 |  |  |
+| io.github.wuji-co | 0 | 0 | 0 |  |  |
+| io.github.wurensen | 0 | 0 | 0 |  |  |
+| io.github.wuyan001 | 0 | 0 | 0 |  |  |
+| io.github.wzasd | 0 | 0 | 0 |  |  |
+| io.github.wzy911229 | 0 | 0 | 0 |  |  |
+| io.github.xalistar | 0 | 0 | 0 |  |  |
+| io.github.xatzipe | 0 | 0 | 0 |  |  |
+| io.github.xch168 | 0 | 0 | 0 |  |  |
+| io.github.xdfaisupport | 0 | 0 | 0 |  |  |
+| io.github.xhaodev | 0 | 0 | 0 |  |  |
+| io.github.xiane | 0 | 0 | 0 |  |  |
+| io.github.xiaofeidev | 0 | 0 | 0 |  |  |
+| io.github.xiaojye | 0 | 0 | 0 |  |  |
+| io.github.xiaoshen9404 | 0 | 0 | 0 |  |  |
+| io.github.xiaoweiyo | 0 | 0 | 0 |  |  |
+| io.github.xiaoyuecai | 0 | 0 | 0 |  |  |
+| io.github.xiaoyvyv | 0 | 0 | 0 |  |  |
+| io.github.xinyuan4android | 0 | 0 | 0 |  |  |
+| io.github.xjunz | 0 | 0 | 0 |  |  |
+| io.github.xmaihh | 0 | 0 | 0 |  |  |
+| io.github.xmfuncoding | 0 | 0 | 0 |  |  |
+| io.github.xslczx | 0 | 0 | 0 |  |  |
+| io.github.xuelong1991 | 0 | 0 | 0 |  |  |
+| io.github.xueqiya | 0 | 0 | 0 |  |  |
+| io.github.xuexixuexijpg | 0 | 0 | 0 |  |  |
+| io.github.xujianfen.pram | 0 | 0 | 0 |  |  |
+| io.github.xulailing | 0 | 0 | 0 |  |  |
+| io.github.xumig | 0 | 0 | 0 |  |  |
+| io.github.xuyong1211 | 0 | 0 | 0 |  |  |
+| io.github.xuzhiyong017 | 0 | 0 | 0 |  |  |
+| io.github.xxfast | 0 | 0 | 0 |  |  |
+| io.github.xyznaveen | 0 | 0 | 0 |  |  |
+| io.github.yacyet | 0 | 0 | 0 |  |  |
+| io.github.yahiaangelo.markdownedittext | 0 | 0 | 0 |  |  |
+| io.github.yanggx98.totem | 0 | 0 | 0 |  |  |
+| io.github.yangqingyuan | 0 | 0 | 0 |  |  |
+| io.github.yangxlei | 0 | 0 | 0 |  |  |
+| io.github.yanndroid | 0 | 0 | 0 |  |  |
+| io.github.yanxing | 0 | 0 | 0 |  |  |
+| io.github.yanyonghua | 0 | 0 | 0 |  |  |
+| io.github.ydstar | 0 | 0 | 0 |  |  |
+| io.github.ydxlt | 0 | 0 | 0 |  |  |
+| io.github.yeszj | 0 | 0 | 0 |  |  |
+| io.github.yevheniikollektor | 0 | 0 | 0 |  |  |
+| io.github.yfykisssky | 0 | 0 | 0 |  |  |
+| io.github.yinweichao | 0 | 0 | 0 |  |  |
+| io.github.yjouyang | 0 | 0 | 0 |  |  |
+| io.github.yl172326 | 0 | 0 | 0 |  |  |
+| io.github.yollpoll | 0 | 0 | 0 |  |  |
+| io.github.yongce | 0 | 0 | 0 |  |  |
+| io.github.youads-global | 0 | 0 | 0 |  |  |
+| io.github.youads-global.ironsource | 3 | 3 | 0 |  | 166 |
+| io.github.youmesdk | 0 | 0 | 0 |  |  |
+| io.github.youngtaekh | 0 | 0 | 0 |  |  |
+| io.github.youngwm | 0 | 0 | 0 |  |  |
+| io.github.youth5201314 | 0 | 0 | 0 |  |  |
+| io.github.ypdieguez | 0 | 0 | 0 |  |  |
+| io.github.yqdm | 3 | 3 | 0 |  | 1, 8 |
+| io.github.yuanyang1991 | 0 | 0 | 0 |  |  |
+| io.github.yubyf | 0 | 0 | 0 |  |  |
+| io.github.yubyf.datastorepreferences | 0 | 0 | 0 |  |  |
+| io.github.yueliangrensheng | 0 | 0 | 0 |  |  |
+| io.github.yuexunshi | 0 | 0 | 0 |  |  |
+| io.github.yuitosato | 0 | 0 | 0 |  |  |
+| io.github.yukimatsumura | 0 | 0 | 0 |  |  |
+| io.github.yumimobi | 0 | 0 | 0 |  |  |
+| io.github.yunjaena | 0 | 0 | 0 |  |  |
+| io.github.yunli45 | 0 | 0 | 0 |  |  |
+| io.github.yuriykulikov | 0 | 0 | 0 |  |  |
+| io.github.yuzhiqiang1993 | 0 | 0 | 0 |  |  |
+| io.github.yzw20110902 | 0 | 0 | 0 |  |  |
+| io.github.z2058550226 | 0 | 0 | 0 |  |  |
+| io.github.zagori | 0 | 0 | 0 |  |  |
+| io.github.zahichemaly | 5 | 5 | 0 |  | 237 |
+| io.github.zangp | 0 | 0 | 0 |  |  |
+| io.github.zauther | 0 | 0 | 0 |  |  |
+| io.github.zaze359 | 0 | 0 | 0 |  |  |
+| io.github.zcsdk | 0 | 0 | 0 |  |  |
+| io.github.zcys12173 | 0 | 0 | 0 |  |  |
+| io.github.zdstly | 0 | 0 | 0 |  |  |
+| io.github.zegjoker | 0 | 0 | 0 |  |  |
+| io.github.zegolibrary | 0 | 0 | 0 |  |  |
+| io.github.zengkeming | 0 | 0 | 0 |  |  |
+| io.github.zerotale | 0 | 0 | 0 |  |  |
+| io.github.zhangbaogithub | 0 | 0 | 0 |  |  |
+| io.github.zhangchaojiong | 0 | 0 | 0 |  |  |
+| io.github.zhangguangxuan | 0 | 0 | 0 |  |  |
+| io.github.zhanghao1125 | 0 | 0 | 0 |  |  |
+| io.github.zhangxinmin528.androidutils | 0 | 0 | 0 |  |  |
+| io.github.zhaochengjun | 0 | 0 | 0 |  |  |
+| io.github.zhaofawu | 0 | 0 | 0 |  |  |
+| io.github.zhaojfGithub.SVGView | 0 | 0 | 0 |  |  |
+| io.github.zhiqiang-series | 0 | 0 | 0 |  |  |
+| io.github.zhou-jun-jie | 0 | 0 | 0 |  |  |
+| io.github.zhouhuandev | 0 | 0 | 0 |  |  |
+| io.github.zhouzidan.android | 0 | 0 | 0 |  |  |
+| io.github.zjie1595 | 0 | 0 | 0 |  |  |
+| io.github.zlgspace | 0 | 0 | 0 |  |  |
+| io.github.zotornit | 0 | 0 | 0 |  |  |
+| io.github.zs1973 | 0 | 0 | 0 |  |  |
+| io.github.zsqw123 | 0 | 0 | 0 |  |  |
+| io.github.ztind | 0 | 0 | 0 |  |  |
+| io.github.zumikua | 0 | 0 | 0 |  |  |
+| io.github.zxing-cpp | 0 | 0 | 0 |  |  |
+| io.github.zzechao | 0 | 0 | 0 |  |  |
+| io.github.zzombiee | 0 | 0 | 0 |  |  |
+| io.gitlab.adadapted | 0 | 0 | 0 |  |  |
+| io.gitlab.alexto9090 | 0 | 0 | 0 |  |  |
+| io.gitlab.c297131019 | 0 | 0 | 0 |  |  |
+| io.gitlab.casperix | 0 | 0 | 0 |  |  |
+| io.gitlab.eacf2469 | 0 | 0 | 0 |  |  |
+| io.gitlab.hikariju | 0 | 0 | 0 |  |  |
+| io.gitlab.izabellamconigliaro | 0 | 0 | 0 |  |  |
+| io.gitlab.leewonjong29cm | 0 | 0 | 0 |  |  |
+| io.gitlab.monstm | 0 | 0 | 0 |  |  |
+| io.gitlab.motrack-org | 0 | 0 | 0 |  |  |
+| io.gitlab.nexstream-android | 8 | 8 | 0 |  | 69 |
+| io.gitlab.rudem | 0 | 0 | 0 |  |  |
+| io.gitlab.ssmodules.ads | 4 | 4 | 0 |  | 166 |
+| io.gitlab.swapnilhuddar | 0 | 0 | 0 |  |  |
+| io.glassfy | 0 | 0 | 0 |  |  |
+| io.glimr.geo | 0 | 0 | 0 |  |  |
+| io.grpc | 0 | 0 | 0 |  |  |
+| io.harness | 0 | 0 | 0 |  |  |
+| io.heap.contentsquare.csbridge | 0 | 0 | 0 |  |  |
+| io.heap.core.identifier | 0 | 0 | 0 |  |  |
+| io.heap.core.web | 0 | 0 | 0 |  |  |
+| io.hexhacking | 0 | 0 | 0 |  |  |
+| io.hkhc | 0 | 0 | 0 |  |  |
+| io.hkhc.log | 0 | 0 | 0 |  |  |
+| io.honeycomb.android | 0 | 0 | 0 |  |  |
+| io.hypertrack | 3 | 3 | 0 |  | 106 |
+| io.imqa | 0 | 0 | 0 |  |  |
+| io.inai.payments | 0 | 0 | 0 |  |  |
+| io.intrepid.commonutils | 0 | 0 | 0 |  |  |
+| io.iohk | 0 | 0 | 0 |  |  |
+| io.iohk.atala | 0 | 0 | 0 |  |  |
+| io.iohk.atala.prism.anoncredskmp | 0 | 0 | 0 |  |  |
+| io.iohk.atala.prism.apollo | 0 | 0 | 0 |  |  |
+| io.iohk.atala.prism.didcomm | 0 | 0 | 0 |  |  |
+| io.iohk.atala.prism.walletsdk | 0 | 0 | 0 |  |  |
+| io.ionic | 0 | 0 | 0 |  |  |
+| io.islandtime | 0 | 0 | 0 |  |  |
+| io.jasonatwood | 0 | 0 | 0 |  |  |
+| io.jentz.winter | 0 | 0 | 0 |  |  |
+| io.johnsonlee.initializr | 0 | 0 | 0 |  |  |
+| io.johnsonlee.tracing | 0 | 0 | 0 |  |  |
+| io.journify.analytics | 0 | 0 | 0 |  |  |
+| io.journify.analytics.kotlin | 0 | 0 | 0 |  |  |
+| io.jug6ernaut | 0 | 0 | 0 |  |  |
+| io.karim | 0 | 0 | 0 |  |  |
+| io.keen | 0 | 0 | 0 |  |  |
+| io.kickflip | 0 | 0 | 0 |  |  |
+| io.klogging | 0 | 0 | 0 |  |  |
+| io.kontakt.mvn | 1 | 1 | 0 |  | 89 |
+| io.kornatowicz | 0 | 0 | 0 |  |  |
+| io.kotest.extensions | 0 | 0 | 0 |  |  |
+| io.kotzilla | 0 | 0 | 0 |  |  |
+| io.kronor | 0 | 0 | 0 |  |  |
+| io.kronor.component | 0 | 0 | 0 |  |  |
+| io.ktlab.mvn | 0 | 0 | 0 |  |  |
+| io.kvh | 0 | 0 | 0 |  |  |
+| io.legere | 0 | 0 | 0 |  |  |
+| io.localizable | 0 | 0 | 0 |  |  |
+| io.lunedata.lunesdk | 0 | 0 | 0 |  |  |
+| io.magics.viewmagics | 0 | 0 | 0 |  |  |
+| io.maryk.lz4 | 0 | 0 | 0 |  |  |
+| io.maryk.rocksdb | 0 | 0 | 0 |  |  |
+| io.matthewnelson.encrypted-storage | 0 | 0 | 0 |  |  |
+| io.mavsdk | 0 | 0 | 0 |  |  |
+| io.mehow.hyperion | 0 | 0 | 0 |  |  |
+| io.mehow.threetenbp | 0 | 0 | 0 |  |  |
+| io.metamask.ecies | 0 | 0 | 0 |  |  |
+| io.metarouter.analytics | 0 | 0 | 0 |  |  |
+| io.mhssn | 0 | 0 | 0 |  |  |
+| io.michaelrocks | 0 | 0 | 0 |  |  |
+| io.microcms | 0 | 0 | 0 |  |  |
+| io.mockk | 0 | 0 | 0 |  |  |
+| io.moneyhash | 0 | 0 | 0 |  |  |
+| io.monstarlab.mosaic | 0 | 0 | 0 |  |  |
+| io.mosip | 0 | 0 | 0 |  |  |
+| io.mraa.at | 0 | 0 | 0 |  |  |
+| io.mraa.at.upm | 0 | 0 | 0 |  |  |
+| io.nativeblocks | 0 | 0 | 0 |  |  |
+| io.naviar | 0 | 0 | 0 |  |  |
+| io.nbos | 0 | 0 | 0 |  |  |
+| io.nlopez.clusterer | 0 | 0 | 0 |  |  |
+| io.nlopez.drebin | 0 | 0 | 0 |  |  |
+| io.nlopez.smartadapers | 0 | 0 | 0 |  |  |
+| io.nlopez.smartadapters | 0 | 0 | 0 |  |  |
+| io.nlopez.toolkit | 0 | 0 | 0 |  |  |
+| io.noties | 0 | 0 | 0 |  |  |
+| io.noties.markwon | 0 | 0 | 0 |  |  |
+| io.nrbtech.rxandroidble | 0 | 0 | 0 |  |  |
+| io.nyris.sdk | 0 | 0 | 0 |  |  |
+| io.odeeo | 0 | 0 | 0 |  |  |
+| io.omnisense | 0 | 0 | 0 |  |  |
+| io.omnitalk | 0 | 0 | 0 |  |  |
+| io.openfeedback | 0 | 0 | 0 |  |  |
+| io.openmobilemaps | 0 | 0 | 0 |  |  |
+| io.opentelemetry.android | 0 | 0 | 0 |  |  |
+| io.opentelemetry.android.instrumentation | 0 | 0 | 0 |  |  |
+| io.openwebrtc | 0 | 0 | 0 |  |  |
+| io.palaima | 0 | 0 | 0 |  |  |
+| io.palaima.debugdrawer | 0 | 0 | 0 |  |  |
+| io.paysky | 0 | 0 | 0 |  |  |
+| io.percy | 0 | 0 | 0 |  |  |
+| io.percy.espresso | 0 | 0 | 0 |  |  |
+| io.persona3 | 0 | 0 | 0 |  |  |
+| io.persona3.android | 0 | 0 | 0 |  |  |
+| io.persona3.android.pms | 0 | 0 | 0 |  |  |
+| io.piano | 0 | 0 | 0 |  |  |
+| io.plugy | 0 | 0 | 0 |  |  |
+| io.polywrap | 0 | 0 | 0 |  |  |
+| io.polywrap.plugins | 0 | 0 | 0 |  |  |
+| io.portto | 0 | 0 | 0 |  |  |
+| io.pravikant | 0 | 0 | 0 |  |  |
+| io.qameta.allure | 0 | 0 | 0 |  |  |
+| io.qase | 0 | 0 | 0 |  |  |
+| io.qonversion.sandwich | 0 | 0 | 0 |  |  |
+| io.quee.fragmentation | 0 | 0 | 0 |  |  |
+| io.quee.ktx.layout | 0 | 0 | 0 |  |  |
+| io.quee.mvp | 0 | 0 | 0 |  |  |
+| io.quickverse.androidsdk | 0 | 0 | 0 |  |  |
+| io.r2b2 | 0 | 0 | 0 |  |  |
+| io.radar | 4 | 4 | 0 |  | 305 |
+| io.rakutenadvertising | 0 | 0 | 0 |  |  |
+| io.reactivex | 0 | 0 | 0 |  |  |
+| io.reactivex.rxjava2 | 0 | 0 | 0 |  |  |
+| io.reactivex.rxjava3 | 0 | 0 | 0 |  |  |
+| io.realm | 0 | 0 | 0 |  |  |
+| io.reark | 0 | 0 | 0 |  |  |
+| io.rekast | 0 | 0 | 0 |  |  |
+| io.rekast.momoapi | 0 | 0 | 0 |  |  |
+| io.relevantbox | 0 | 0 | 0 |  |  |
+| io.requery | 0 | 0 | 0 |  |  |
+| io.revenuemonster | 0 | 0 | 0 |  |  |
+| io.revenuemonster.sdk | 0 | 0 | 0 |  |  |
+| io.rownd | 0 | 0 | 0 |  |  |
+| io.runtime.mcumgr | 0 | 0 | 0 |  |  |
+| io.s-healthstack | 0 | 0 | 0 |  |  |
+| io.salyangoz.scrollme | 0 | 0 | 0 |  |  |
+| io.salyangoz.updateme | 0 | 0 | 0 |  |  |
+| io.sanghun | 0 | 0 | 0 |  |  |
+| io.sariska | 0 | 0 | 0 |  |  |
+| io.scal | 0 | 0 | 0 |  |  |
+| io.seald | 0 | 0 | 0 |  |  |
+| io.sealights.on-premise.agents.android | 0 | 0 | 0 |  |  |
+| io.seats | 0 | 0 | 0 |  |  |
+| io.segment.analytics.android | 0 | 0 | 0 |  |  |
+| io.sentry | 4 | 4 | 0 |  | 473 |
+| io.seon.androidsdk | 0 | 0 | 0 |  |  |
+| io.shipbook | 0 | 0 | 0 |  |  |
+| io.shipsy.mobilesdk | 0 | 0 | 0 |  |  |
+| io.sirenapp | 0 | 0 | 0 |  |  |
+| io.smartvaults | 0 | 0 | 0 |  |  |
+| io.split | 0 | 0 | 0 |  |  |
+| io.spokestack | 0 | 0 | 0 |  |  |
+| io.spsw | 0 | 0 | 0 |  |  |
+| io.stape | 0 | 0 | 0 |  |  |
+| io.start | 7 | 7 | 0 |  | 214 |
+| io.storj | 0 | 0 | 0 |  |  |
+| io.supercharge | 0 | 0 | 0 |  |  |
+| io.sweers.arraysetbackport | 0 | 0 | 0 |  |  |
+| io.sweers.barber | 0 | 0 | 0 |  |  |
+| io.sweers.rxpalette | 0 | 0 | 0 |  |  |
+| io.taig | 0 | 0 | 0 |  |  |
+| io.taig.android | 0 | 0 | 0 |  |  |
+| io.taig.android.viewvalue | 0 | 0 | 0 |  |  |
+| io.telereso.kmp | 0 | 0 | 0 |  |  |
+| io.teller | 0 | 0 | 0 |  |  |
+| io.thegrid.backstack | 0 | 0 | 0 |  |  |
+| io.traceguide | 0 | 0 | 0 |  |  |
+| io.transcend.webview | 0 | 0 | 0 |  |  |
+| io.trialy.library | 0 | 0 | 0 |  |  |
+| io.trysiren | 0 | 0 | 0 |  |  |
+| io.turny | 0 | 0 | 0 |  |  |
+| io.tus.android.client | 0 | 0 | 0 |  |  |
+| io.unmock | 0 | 0 | 0 |  |  |
+| io.userfeeds.ads.sdk | 0 | 0 | 0 |  |  |
+| io.userfeeds.sdk | 0 | 0 | 0 |  |  |
+| io.userfeeds.widget | 0 | 0 | 0 |  |  |
+| io.usersight.sdk | 0 | 0 | 0 |  |  |
+| io.velocitycareerlabs | 0 | 0 | 0 |  |  |
+| io.verniv.auth | 0 | 0 | 0 |  |  |
+| io.verniv.support | 0 | 0 | 0 |  |  |
+| io.voucherify.android.client | 0 | 0 | 0 |  |  |
+| io.weex | 0 | 0 | 0 |  |  |
+| io.woong.bindkit | 0 | 0 | 0 |  |  |
+| io.woong.savedstate | 0 | 0 | 0 |  |  |
+| io.woong.scissors | 0 | 0 | 0 |  |  |
+| io.woong.shapedimageview | 0 | 0 | 0 |  |  |
+| io.woong.snappicker | 0 | 0 | 0 |  |  |
+| io.woong.toaster | 0 | 0 | 0 |  |  |
+| io.woong.wheelpicker | 0 | 0 | 0 |  |  |
+| io.writeopia | 0 | 0 | 0 |  |  |
+| io.xenn | 0 | 0 | 0 |  |  |
+| io.xiandan | 0 | 0 | 0 |  |  |
+| io.xorum | 0 | 0 | 0 |  |  |
+| io.zeplin.rally | 0 | 0 | 0 |  |  |
+| io.zocks | 0 | 0 | 0 |  |  |
+| ir.daal | 12 | 12 | 0 |  | 212 |
+| ir.mahozad.android | 0 | 0 | 0 |  |  |
+| ir.mahozad.multiplatform | 0 | 0 | 0 |  |  |
+| ir.malv.utils | 0 | 0 | 0 |  |  |
+| ir.metrix.analytics | 0 | 0 | 0 |  |  |
+| ir.metrix.attribution | 0 | 0 | 0 |  |  |
+| ir.metrix.lifecycle | 0 | 0 | 0 |  |  |
+| ir.metrix.push | 0 | 0 | 0 |  |  |
+| ir.metrix.referrer | 0 | 0 | 0 |  |  |
+| ir.metrix.utils | 0 | 0 | 0 |  |  |
+| ir.mobintabaran.android | 0 | 0 | 0 |  |  |
+| ir.mohammadesteki | 0 | 0 | 0 |  |  |
+| ir.samanjafari.easycountdowntimer | 0 | 0 | 0 |  |  |
+| ir.siaray | 0 | 0 | 0 |  |  |
+| ir.sotoon.ai | 0 | 0 | 0 |  |  |
+| ir.tapsell.mediation | 0 | 0 | 0 |  |  |
+| ir.tapsell.mediation.adapter | 46 | 46 | 0 |  | 119, 166, 25 |
+| ir.tapsell.plus | 0 | 0 | 0 |  |  |
+| ir.twostepverification.sdk | 0 | 0 | 0 |  |  |
+| is.hth | 0 | 0 | 0 |  |  |
+| is.leap.android.core | 0 | 0 | 0 |  |  |
+| is.wednesday | 0 | 0 | 0 |  |  |
+| it.appspice | 0 | 0 | 0 |  |  |
+| it.czerwinski.android | 0 | 0 | 0 |  |  |
+| it.czerwinski.android.lifecycle | 0 | 0 | 0 |  |  |
+| it.czerwinski.android.room | 0 | 0 | 0 |  |  |
+| it.enricocandino | 0 | 0 | 0 |  |  |
+| it.greyfox | 0 | 0 | 0 |  |  |
+| it.krzeminski.vis-assert | 0 | 0 | 0 |  |  |
+| it.lucichkevin | 0 | 0 | 0 |  |  |
+| it.mscuttari.kaoldb | 0 | 0 | 0 |  |  |
+| it.neokree | 0 | 0 | 0 |  |  |
+| it.nicolasfarabegoli | 0 | 0 | 0 |  |  |
+| it.scoppelletti.spaceship | 0 | 0 | 0 |  |  |
+| it.sephiroth | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.exif | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.ab | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.android | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.asm | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.bottomnavigation | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.cache | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.debuglog | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.disklruimagecache | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.disklrumulticache | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.easing | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.exif | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.floatingmenu | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.fork | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.fork.actionbarpulltorefresh | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.fork.grid | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.fork.listviewanimations | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.fork.slideexpandable | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.hlistviewanimations | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.horizontallistview | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.imagezoom | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.media | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.overlaymenu | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.picasso | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.rangeseekbar | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.simplelogger | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.subtlerater | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.targettooltip | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.uigestures | 0 | 0 | 0 |  |  |
+| it.sephiroth.android.library.viewrevealanimator | 0 | 0 | 0 |  |  |
+| it.sephiroth.hugo | 0 | 0 | 0 |  |  |
+| it.sephiroth.hunter | 0 | 0 | 0 |  |  |
+| it.slyce | 0 | 0 | 0 |  |  |
+| it.snada | 0 | 0 | 0 |  |  |
+| it.subito | 0 | 0 | 0 |  |  |
+| it.xabaras.android | 0 | 0 | 0 |  |  |
+| it.xabaras.android.espresso | 0 | 0 | 0 |  |  |
+| jp.bucketeer | 0 | 0 | 0 |  |  |
+| jp.co.cyberagent.android | 0 | 0 | 0 |  |  |
+| jp.co.cyberagent.lounge | 0 | 0 | 0 |  |  |
+| jp.co.genestream | 0 | 0 | 0 |  |  |
+| jp.co.recruit_mp | 0 | 0 | 0 |  |  |
+| jp.jun_nama | 0 | 0 | 0 |  |  |
+| jp.mixi | 0 | 0 | 0 |  |  |
+| jp.pocket-change.pokepay.android-sdk | 0 | 0 | 0 |  |  |
+| jp.studyplus.android.sdk | 0 | 0 | 0 |  |  |
+| jp.wasabeef | 0 | 0 | 0 |  |  |
+| jp.wasabeef.transformers | 0 | 0 | 0 |  |  |
+| jp.westbrook.android | 0 | 0 | 0 |  |  |
+| kiwi.orbit.compose | 0 | 0 | 0 |  |  |
+| kr.co.kdsoft.droidlib | 0 | 0 | 0 |  |  |
+| kr.co.prnd | 0 | 0 | 0 |  |  |
+| kr.co.smartstudy | 0 | 0 | 0 |  |  |
+| kr.motivi.santa | 0 | 0 | 0 |  |  |
+| kr.sparkweb | 0 | 0 | 0 |  |  |
+| land.sungbin.composeinvestigator | 0 | 0 | 0 |  |  |
+| land.sungbin.runnerbe | 0 | 0 | 0 |  |  |
+| land.sungbin.sat | 0 | 0 | 0 |  |  |
+| life.knowledge4 | 0 | 0 | 0 |  |  |
+| link.magic | 0 | 0 | 0 |  |  |
+| link.webarata3.dro.common | 0 | 0 | 0 |  |  |
+| live.100ms.groupie | 0 | 0 | 0 |  |  |
+| live.100ms.room-kit | 0 | 0 | 0 |  |  |
+| live.attach.sdk | 0 | 0 | 0 |  |  |
+| live.ditto.dittodatabrowser | 0 | 0 | 0 |  |  |
+| live.ditto.dittodiskusage | 0 | 0 | 0 |  |  |
+| live.ditto.dittopresenceviewer | 0 | 0 | 0 |  |  |
+| live.osione | 0 | 0 | 0 |  |  |
+| love.liuwen | 0 | 0 | 0 |  |  |
+| lv.androiddev | 0 | 0 | 0 |  |  |
+| lv.draugiem | 0 | 0 | 0 |  |  |
+| ly.com.tahaben | 0 | 0 | 0 |  |  |
+| ly.count.android | 3 | 3 | 0 |  | 146 |
+| ly.iterative.itly | 0 | 0 | 0 |  |  |
+| ly.iterative.mparticle | 0 | 0 | 0 |  |  |
+| ma.hu | 0 | 0 | 0 |  |  |
+| me.actv8 | 1 | 1 | 0 |  | 414 |
+| me.actv8.core | 5 | 5 | 0 |  | 343, 414 |
+| me.adkhambek.pack | 0 | 0 | 0 |  |  |
+| me.aflak.libraries | 0 | 0 | 0 |  |  |
+| me.amiee | 0 | 0 | 0 |  |  |
+| me.angrybyte.blinkerview | 0 | 0 | 0 |  |  |
+| me.angrybyte.goose | 0 | 0 | 0 |  |  |
+| me.angrybyte.picker | 0 | 0 | 0 |  |  |
+| me.angrybyte.sillyandroid | 0 | 0 | 0 |  |  |
+| me.angrybyte.slider | 0 | 0 | 0 |  |  |
+| me.appstud.appstrack | 0 | 0 | 0 |  |  |
+| me.bemind.customfont | 0 | 0 | 0 |  |  |
+| me.biubiubiu.autoview | 0 | 0 | 0 |  |  |
+| me.biubiubiu.coverloading | 0 | 0 | 0 |  |  |
+| me.biubiubiu.droprefreshview | 0 | 0 | 0 |  |  |
+| me.biubiubiu.justifytext | 0 | 0 | 0 |  |  |
+| me.biubiubiu.swipeactivity | 0 | 0 | 0 |  |  |
+| me.biubiubiu.zoomlistview | 0 | 0 | 0 |  |  |
+| me.blogram | 0 | 0 | 0 |  |  |
+| me.cafecode | 0 | 0 | 0 |  |  |
+| me.cafecode.espresso | 0 | 0 | 0 |  |  |
+| me.chenhe | 0 | 0 | 0 |  |  |
+| me.chipdeals.mytivi | 0 | 0 | 0 |  |  |
+| me.darefox | 0 | 0 | 0 |  |  |
+| me.dcnick3.pqrs | 0 | 0 | 0 |  |  |
+| me.decimo | 0 | 0 | 0 |  |  |
+| me.decimo.app | 0 | 0 | 0 |  |  |
+| me.decimo.widget | 0 | 0 | 0 |  |  |
+| me.dlkanth | 0 | 0 | 0 |  |  |
+| me.dm7.android.widget | 0 | 0 | 0 |  |  |
+| me.dm7.barcodescanner | 0 | 0 | 0 |  |  |
+| me.dm7.jrengage.android | 2 | 2 | 0 |  | 404 |
+| me.dmdev.premo | 0 | 0 | 0 |  |  |
+| me.dmdev.rxpm | 0 | 0 | 0 |  |  |
+| me.drakeet | 0 | 0 | 0 |  |  |
+| me.drakeet.agera | 0 | 0 | 0 |  |  |
+| me.drakeet.fingertransparentview | 0 | 0 | 0 |  |  |
+| me.drakeet.floo | 0 | 0 | 0 |  |  |
+| me.drakeet.labelview | 0 | 0 | 0 |  |  |
+| me.drakeet.mailotto | 0 | 0 | 0 |  |  |
+| me.drakeet.materialdialog | 0 | 0 | 0 |  |  |
+| me.drakeet.multitype | 0 | 0 | 0 |  |  |
+| me.drakeet.oasisfeng | 0 | 0 | 0 |  |  |
+| me.drakeet.retrofit2 | 0 | 0 | 0 |  |  |
+| me.drakeet.support | 0 | 0 | 0 |  |  |
+| me.drakeet.uiview | 0 | 0 | 0 |  |  |
+| me.drozdzynski.library.steppers | 0 | 0 | 0 |  |  |
+| me.emmano | 0 | 0 | 0 |  |  |
+| me.eugeniomarletti | 0 | 0 | 0 |  |  |
+| me.fycz.maple | 0 | 0 | 0 |  |  |
+| me.giacoppo | 0 | 0 | 0 |  |  |
+| me.gingerninja.lazy | 0 | 0 | 0 |  |  |
+| me.gingerninja.lazylist | 0 | 0 | 0 |  |  |
+| me.grantland | 0 | 0 | 0 |  |  |
+| me.grishka.appkit | 0 | 0 | 0 |  |  |
+| me.grishka.litex | 0 | 0 | 0 |  |  |
+| me.gujun.android.taggroup | 0 | 0 | 0 |  |  |
+| me.huseyinozer | 0 | 0 | 0 |  |  |
+| me.huteri | 0 | 0 | 0 |  |  |
+| me.hz89.library | 0 | 0 | 0 |  |  |
+| me.idaima.x | 0 | 0 | 0 |  |  |
+| me.imirai | 0 | 0 | 0 |  |  |
+| me.jackdevey | 0 | 0 | 0 |  |  |
+| me.jahnen | 0 | 0 | 0 |  |  |
+| me.jlurena | 0 | 0 | 0 |  |  |
+| me.jorgecastillo | 0 | 0 | 0 |  |  |
+| me.kennethyo.library | 0 | 0 | 0 |  |  |
+| me.kevingleason | 0 | 0 | 0 |  |  |
+| me.laoyuyu.keepassa | 0 | 0 | 0 |  |  |
+| me.leolin | 0 | 0 | 0 |  |  |
+| me.levansmith.logdog | 0 | 0 | 0 |  |  |
+| me.martiii | 0 | 0 | 0 |  |  |
+| me.mattak | 0 | 0 | 0 |  |  |
+| me.naingaungluu.formconductor | 0 | 0 | 0 |  |  |
+| me.nathanfallet.apirequest | 0 | 0 | 0 |  |  |
+| me.nathanfallet.digianalytics | 0 | 0 | 0 |  |  |
+| me.nathanfallet.gamified | 0 | 0 | 0 |  |  |
+| me.nathanfallet.myappsandroid | 0 | 0 | 0 |  |  |
+| me.neavo | 0 | 0 | 0 |  |  |
+| me.nemiron.hyperion | 0 | 0 | 0 |  |  |
+| me.nikhilchaudhari | 0 | 0 | 0 |  |  |
+| me.omico.binder.actionbar | 0 | 0 | 0 |  |  |
+| me.onebone | 0 | 0 | 0 |  |  |
+| me.palazzetti | 0 | 0 | 0 |  |  |
+| me.panavtec | 0 | 0 | 0 |  |  |
+| me.philio | 0 | 0 | 0 |  |  |
+| me.pjq | 0 | 0 | 0 |  |  |
+| me.proton.authenticator.common | 0 | 0 | 0 |  |  |
+| me.proton.crypto | 0 | 0 | 0 |  |  |
+| me.proton.mail.common | 0 | 0 | 0 |  |  |
+| me.proton.pass.common | 0 | 0 | 0 |  |  |
+| me.proton.test | 0 | 0 | 0 |  |  |
+| me.relex | 0 | 0 | 0 |  |  |
+| me.saket | 0 | 0 | 0 |  |  |
+| me.saket.cascade | 0 | 0 | 0 |  |  |
+| me.saket.extendedspans | 0 | 0 | 0 |  |  |
+| me.saket.modernstorage | 0 | 0 | 0 |  |  |
+| me.saket.resourceinterceptor | 0 | 0 | 0 |  |  |
+| me.saket.squigglyslider | 0 | 0 | 0 |  |  |
+| me.saket.telephoto | 0 | 0 | 0 |  |  |
+| me.shikhov | 0 | 0 | 0 |  |  |
+| me.srodrigo | 0 | 0 | 0 |  |  |
+| me.suanmiao.common | 0 | 0 | 0 |  |  |
+| me.suanmiao.ptrlistview | 0 | 0 | 0 |  |  |
+| me.tankery.lib | 0 | 0 | 0 |  |  |
+| me.tatarka | 0 | 0 | 0 |  |  |
+| me.tatarka.android | 0 | 0 | 0 |  |  |
+| me.tatarka.bindingcollectionadapter | 0 | 0 | 0 |  |  |
+| me.tatarka.bindingcollectionadapter2 | 0 | 0 | 0 |  |  |
+| me.tatarka.compose.collapsable | 0 | 0 | 0 |  |  |
+| me.tatarka.compose.nav | 0 | 0 | 0 |  |  |
+| me.tatarka.holdr | 0 | 0 | 0 |  |  |
+| me.tatarka.injectedvmprovider | 0 | 0 | 0 |  |  |
+| me.tatarka.loadie | 0 | 0 | 0 |  |  |
+| me.tatarka.redux | 0 | 0 | 0 |  |  |
+| me.tatarka.retainstate | 0 | 0 | 0 |  |  |
+| me.tatarka.shard | 0 | 0 | 0 |  |  |
+| me.tatarka.silentsupport | 0 | 0 | 0 |  |  |
+| me.tatarka.simplefragment | 0 | 0 | 0 |  |  |
+| me.tatarka.socket | 0 | 0 | 0 |  |  |
+| me.tatarka.webpush.relay | 0 | 0 | 0 |  |  |
+| me.teplyakov | 0 | 0 | 0 |  |  |
+| me.thefreezingchicken.stripper | 0 | 0 | 0 |  |  |
+| me.twocities | 0 | 0 | 0 |  |  |
+| me.xujichang.lib | 0 | 0 | 0 |  |  |
+| me.yuichi0301 | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.appiconloader | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.effortlesspermissions | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.fastscroll | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.foregroundcompat | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.libarchive | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.libselinux | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.linenoise | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.materialedittext | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.materialplaypausedrawable | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.materialprogressbar | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.materialratingbar | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.patternlock | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.retrofile | 0 | 0 | 0 |  |  |
+| me.zhanghai.android.systemuihelper | 0 | 0 | 0 |  |  |
+| me.zhanghai.compose.preference | 0 | 0 | 0 |  |  |
+| me.zhanghq | 0 | 0 | 0 |  |  |
+| me.zhennan.android.easyui | 0 | 0 | 0 |  |  |
+| me.zongren | 0 | 0 | 0 |  |  |
+| me.zsr | 0 | 0 | 0 |  |  |
+| mil.nga | 0 | 0 | 0 |  |  |
+| mil.nga.gars | 0 | 0 | 0 |  |  |
+| mil.nga.geopackage | 0 | 0 | 0 |  |  |
+| mil.nga.geopackage.map | 0 | 0 | 0 |  |  |
+| mil.nga.mgrs | 0 | 0 | 0 |  |  |
+| mk.0x.ndk | 0 | 0 | 0 |  |  |
+| ml.dcjz | 0 | 0 | 0 |  |  |
+| ml.sky233.suiteki | 0 | 0 | 0 |  |  |
+| mobi.lab.labcomponents | 0 | 0 | 0 |  |  |
+| mobi.lab.labencryptedstorage | 0 | 0 | 0 |  |  |
+| mobi.lab.mvvm | 0 | 0 | 0 |  |  |
+| mobi.lab.scrolls | 0 | 0 | 0 |  |  |
+| mobi.stos | 0 | 0 | 0 |  |  |
+| mobi.stos.podataka_lib | 0 | 0 | 0 |  |  |
+| moe.tlaster | 0 | 0 | 0 |  |  |
+| moe.tlaster.compose.icons | 0 | 0 | 0 |  |  |
+| money.link | 0 | 0 | 0 |  |  |
+| net.36dr.library | 0 | 0 | 0 |  |  |
+| net.accelf.accompanist | 0 | 0 | 0 |  |  |
+| net.accelf.contral | 0 | 0 | 0 |  |  |
+| net.admixer.sdk | 6 | 6 | 0 |  | 27, 292 |
+| net.admixer.sdk.mediation | 15 | 15 | 0 |  | 119, 132, 166, 22, 24, 27, 83 |
+| net.admixer.sdk.mediation-adapter | 0 | 0 | 0 |  |  |
+| net.admixer.sdk.unity | 0 | 0 | 0 |  |  |
+| net.akaish.ikey.hkb | 0 | 0 | 0 |  |  |
+| net.akaish.kab | 0 | 0 | 0 |  |  |
+| net.akaish.kitty.orm | 0 | 0 | 0 |  |  |
+| net.alphatab | 0 | 0 | 0 |  |  |
+| net.artemkv | 0 | 0 | 0 |  |  |
+| net.atomcode | 0 | 0 | 0 |  |  |
+| net.badgekeeper.android | 0 | 0 | 0 |  |  |
+| net.bingosoft.oss | 0 | 0 | 0 |  |  |
+| net.cacheux.crudroid | 0 | 0 | 0 |  |  |
+| net.calit2.mooc.iot_db410c | 0 | 0 | 0 |  |  |
+| net.callumtaylor | 0 | 0 | 0 |  |  |
+| net.callumtaylor.asynchttp | 0 | 0 | 0 |  |  |
+| net.cattaka | 0 | 0 | 0 |  |  |
+| net.clintarmstrong | 0 | 0 | 0 |  |  |
+| net.codeedu | 0 | 0 | 0 |  |  |
+| net.codinux.invoicing | 0 | 0 | 0 |  |  |
+| net.codinux.kotlin | 0 | 0 | 0 |  |  |
+| net.codinux.log | 0 | 0 | 0 |  |  |
+| net.crashsight | 0 | 0 | 0 |  |  |
+| net.crosp.libs.android | 0 | 0 | 0 |  |  |
+| net.dankito.filechooserdialog | 0 | 0 | 0 |  |  |
+| net.dankito.richtexteditor | 0 | 0 | 0 |  |  |
+| net.dankito.text.extraction | 0 | 0 | 0 |  |  |
+| net.dankito.utils | 0 | 0 | 0 |  |  |
+| net.darkguard.drtools | 0 | 0 | 0 |  |  |
+| net.devslash | 0 | 0 | 0 |  |  |
+| net.droidlabs.mvvm | 0 | 0 | 0 |  |  |
+| net.edwardday.serialization | 0 | 0 | 0 |  |  |
+| net.engawapg.lib | 0 | 0 | 0 |  |  |
+| net.evendanan.anysoftkeyboard | 0 | 0 | 0 |  |  |
+| net.evilmouth | 0 | 0 | 0 |  |  |
+| net.folivo | 0 | 0 | 0 |  |  |
+| net.frakbot.glowpadbackport | 0 | 0 | 0 |  |  |
+| net.gulbers | 0 | 0 | 0 |  |  |
+| net.hockeyapp.android | 5 | 5 | 0 |  | 58 |
+| net.humans.android.ui | 0 | 0 | 0 |  |  |
+| net.humans.android.ui.recycler | 0 | 0 | 0 |  |  |
+| net.humans.android.ui.recycler.di | 0 | 0 | 0 |  |  |
+| net.humans.kmm.mvi | 0 | 0 | 0 |  |  |
+| net.i2p.android | 0 | 0 | 0 |  |  |
+| net.i2p.android.ext | 0 | 0 | 0 |  |  |
+| net.idfr | 0 | 0 | 0 |  |  |
+| net.iriscan | 0 | 0 | 0 |  |  |
+| net.jokubasdargis.rxbus | 0 | 0 | 0 |  |  |
+| net.kensand | 0 | 0 | 0 |  |  |
+| net.kianoni | 0 | 0 | 0 |  |  |
+| net.kidoz.sdk | 1 | 1 | 0 |  | 253 |
+| net.kyu_mu | 0 | 0 | 0 |  |  |
+| net.lachlanmckee | 0 | 0 | 0 |  |  |
+| net.lanxingren | 0 | 0 | 0 |  |  |
+| net.mamoe | 0 | 0 | 0 |  |  |
+| net.markenwerk | 0 | 0 | 0 |  |  |
+| net.mbonnin.sqldelight | 0 | 0 | 0 |  |  |
+| net.mediascope | 0 | 0 | 0 |  |  |
+| net.meilcli.librarian | 0 | 0 | 0 |  |  |
+| net.meilcli.rippletext | 0 | 0 | 0 |  |  |
+| net.metaquotes.finteza | 0 | 0 | 0 |  |  |
+| net.mm2d.color-chooser | 0 | 0 | 0 |  |  |
+| net.mm2d.log | 0 | 0 | 0 |  |  |
+| net.mm2d.preference | 0 | 0 | 0 |  |  |
+| net.mready.frameplayer | 0 | 0 | 0 |  |  |
+| net.mready.progresslayouts | 0 | 0 | 0 |  |  |
+| net.neferett | 0 | 0 | 0 |  |  |
+| net.nicbell.emveeaye | 0 | 0 | 0 |  |  |
+| net.nicbell.material-lists | 0 | 0 | 0 |  |  |
+| net.nueca.androidtoolbox | 0 | 0 | 0 |  |  |
+| net.orandja.shadowlayout | 0 | 0 | 0 |  |  |
+| net.pearx.kasechange | 0 | 0 | 0 |  |  |
+| net.pearx.kpastebin | 0 | 0 | 0 |  |  |
+| net.pixiv | 0 | 0 | 0 |  |  |
+| net.pixiv.charcoal | 0 | 0 | 0 |  |  |
+| net.polyv | 0 | 0 | 0 |  |  |
+| net.polyv.android | 0 | 0 | 0 |  |  |
+| net.polyv.test | 0 | 0 | 0 |  |  |
+| net.qiujuer.common | 0 | 0 | 0 |  |  |
+| net.qiujuer.lame | 0 | 0 | 0 |  |  |
+| net.qiujuer.library.planck | 0 | 0 | 0 |  |  |
+| net.qiujuer.widget | 0 | 0 | 0 |  |  |
+| net.rdrei.android.dirchooser | 0 | 0 | 0 |  |  |
+| net.rimoto | 0 | 0 | 0 |  |  |
+| net.s-arash | 0 | 0 | 0 |  |  |
+| net.samystudio.permissionlauncher | 0 | 0 | 0 |  |  |
+| net.samystudio.rxpicasso | 0 | 0 | 0 |  |  |
+| net.sectorsieteg | 0 | 0 | 0 |  |  |
+| net.servicestack | 0 | 0 | 0 |  |  |
+| net.sf.scuba | 0 | 0 | 0 |  |  |
+| net.simno.kortholt | 0 | 0 | 0 |  |  |
+| net.simonvt.menudrawer | 0 | 0 | 0 |  |  |
+| net.simonvt.messagebar | 0 | 0 | 0 |  |  |
+| net.simonvt.schematic | 0 | 0 | 0 |  |  |
+| net.sjava.appstore | 0 | 0 | 0 |  |  |
+| net.skyscanner.backpack | 0 | 0 | 0 |  |  |
+| net.taler | 0 | 0 | 0 |  |  |
+| net.the4thdimension | 0 | 0 | 0 |  |  |
+| net.time4j | 0 | 0 | 0 |  |  |
+| net.trustly | 0 | 0 | 0 |  |  |
+| net.tvalk.mpformatter | 0 | 0 | 0 |  |  |
+| net.veloxity.sdk | 28 | 28 | 0 |  | 449 |
+| net.voicemod | 0 | 0 | 0 |  |  |
+| net.volcanomobile.fluidsynth-android | 0 | 0 | 0 |  |  |
+| net.vrallev.android | 0 | 0 | 0 |  |  |
+| net.vrallev.ecc | 0 | 0 | 0 |  |  |
+| net.vskor.sdk | 0 | 0 | 0 |  |  |
+| net.wwwhackcom | 0 | 0 | 0 |  |  |
+| net.xpece.android | 0 | 0 | 0 |  |  |
+| net.yangkx | 0 | 0 | 0 |  |  |
+| net.yiim.yismcore | 0 | 0 | 0 |  |  |
+| net.yslibrary.historian | 0 | 0 | 0 |  |  |
+| net.yslibrary.keyboardvisibilityevent | 0 | 0 | 0 |  |  |
+| net.yslibrary.licenseadapter | 0 | 0 | 0 |  |  |
+| net.yslibrary.rxrealm | 0 | 0 | 0 |  |  |
+| net.zaim.android | 0 | 0 | 0 |  |  |
+| net.zetetic | 0 | 0 | 0 |  |  |
+| network.1pay | 0 | 0 | 0 |  |  |
+| network.mysterium | 0 | 0 | 0 |  |  |
+| network.unique | 0 | 0 | 0 |  |  |
+| ng.nownow.newland.emv | 0 | 0 | 0 |  |  |
+| ng.nownow.newland.nsdk | 0 | 0 | 0 |  |  |
+| ng.nownow.urovo | 0 | 0 | 0 |  |  |
+| ninja.ugly | 0 | 0 | 0 |  |  |
+| nl.2312 | 0 | 0 | 0 |  |  |
+| nl.bryanderidder | 0 | 0 | 0 |  |  |
+| nl.coffeeit.appversioning | 0 | 0 | 0 |  |  |
+| nl.coffeeit.aroma | 0 | 0 | 0 |  |  |
+| nl.dionsegijn | 0 | 0 | 0 |  |  |
+| nl.elements.mobilization | 0 | 0 | 0 |  |  |
+| nl.jacobras | 0 | 0 | 0 |  |  |
+| nl.joery.animatedbottombar | 0 | 0 | 0 |  |  |
+| nl.joery.timerangepicker | 0 | 0 | 0 |  |  |
+| nl.littlerobots.bean | 0 | 0 | 0 |  |  |
+| nl.littlerobots.cupboard-tools | 0 | 0 | 0 |  |  |
+| nl.littlerobots.rxlint | 0 | 0 | 0 |  |  |
+| nl.littlerobots.squadleader | 0 | 0 | 0 |  |  |
+| nl.marc-apps | 0 | 0 | 0 |  |  |
+| nl.psdcompany | 0 | 0 | 0 |  |  |
+| nl.wittig | 0 | 0 | 0 |  |  |
+| no.agens.darjeeling | 0 | 0 | 0 |  |  |
+| no.entur.android.nfc | 0 | 0 | 0 |  |  |
+| no.hyper | 0 | 0 | 0 |  |  |
+| no.nordicsemi.android | 0 | 0 | 0 |  |  |
+| no.nordicsemi.android.common | 0 | 0 | 0 |  |  |
+| no.nordicsemi.android.kotlin.ble | 0 | 0 | 0 |  |  |
+| no.nordicsemi.android.wifi | 0 | 0 | 0 |  |  |
+| no.nordicsemi.kotlin.ble | 0 | 0 | 0 |  |  |
+| no.nordicsemi.memfault | 0 | 0 | 0 |  |  |
+| no.sharebox | 0 | 0 | 0 |  |  |
+| np.com.susanthapa | 0 | 0 | 0 |  |  |
+| nu.aaro.gustav | 0 | 0 | 0 |  |  |
+| nz.bradcampbell | 0 | 0 | 0 |  |  |
+| nz.co.trademe.covert | 0 | 0 | 0 |  |  |
+| nz.co.trademe.mapme | 0 | 0 | 0 |  |  |
+| nz.co.trademe.plunge | 0 | 0 | 0 |  |  |
+| nz.geek.android | 0 | 0 | 0 |  |  |
+| one.block | 0 | 0 | 0 |  |  |
+| one.irradia.datepicker | 0 | 0 | 0 |  |  |
+| one.irradia.fieldrush | 0 | 0 | 0 |  |  |
+| one.irradia.http | 0 | 0 | 0 |  |  |
+| one.irradia.mime | 0 | 0 | 0 |  |  |
+| one.irradia.opds1_2 | 0 | 0 | 0 |  |  |
+| one.irradia.servicedirectory | 0 | 0 | 0 |  |  |
+| one.xcorp.widget | 0 | 0 | 0 |  |  |
+| online.armtts | 0 | 0 | 0 |  |  |
+| online.donnimoni | 0 | 0 | 0 |  |  |
+| org.aaronhe.rxgooglemapsbinding | 0 | 0 | 0 |  |  |
+| org.altbeacon | 5 | 5 | 0 |  | 237 |
+| org.aomedia.avif.android | 0 | 0 | 0 |  |  |
+| org.apache.cordova | 0 | 0 | 0 |  |  |
+| org.apmem.tools | 0 | 0 | 0 |  |  |
+| org.automerge | 0 | 0 | 0 |  |  |
+| org.aviran.cookiebar2 | 0 | 0 | 0 |  |  |
+| org.baracus | 0 | 0 | 0 |  |  |
+| org.beigesoft | 0 | 0 | 0 |  |  |
+| org.bidib.com.github.andriydruk | 0 | 0 | 0 |  |  |
+| org.bidon | 0 | 0 | 0 |  |  |
+| org.bitbucket.alezhka | 0 | 0 | 0 |  |  |
+| org.bitbucket.anupharp | 0 | 0 | 0 |  |  |
+| org.bitbucket.comthingsdev | 0 | 0 | 0 |  |  |
+| org.bitbucket.dunglv90 | 0 | 0 | 0 |  |  |
+| org.bitbucket.farahatieh | 0 | 0 | 0 |  |  |
+| org.bitbucket.farahatieh96 | 0 | 0 | 0 |  |  |
+| org.bitbucket.fishbowlindiadeveloper | 0 | 0 | 0 |  |  |
+| org.bitbucket.icebergteam | 0 | 0 | 0 |  |  |
+| org.bitbucket.maverick-prashant | 0 | 0 | 0 |  |  |
+| org.bitbucket.net-practice | 0 | 0 | 0 |  |  |
+| org.bitbucket.robinye | 0 | 0 | 0 |  |  |
+| org.bitbucket.rokejits | 0 | 0 | 0 |  |  |
+| org.bitbucket.sic43xx-family | 0 | 0 | 0 |  |  |
+| org.bitbucket.stefanodp91 | 0 | 0 | 0 |  |  |
+| org.bitbucket.team99array | 0 | 0 | 0 |  |  |
+| org.bitbucket.terragonengineering | 0 | 0 | 0 |  |  |
+| org.bitbucket.topdoctors | 0 | 0 | 0 |  |  |
+| org.bitbucket.vhly | 0 | 0 | 0 |  |  |
+| org.bitbucket.yahor_makouski | 0 | 0 | 0 |  |  |
+| org.bitbucket.ygrigoreva | 0 | 0 | 0 |  |  |
+| org.bitcoindevkit | 0 | 0 | 0 |  |  |
+| org.bluecabin.textoo | 0 | 0 | 0 |  |  |
+| org.boofcv | 0 | 0 | 0 |  |  |
+| org.briarproject | 0 | 0 | 0 |  |  |
+| org.brickred | 0 | 0 | 0 |  |  |
+| org.brightify.hyperdrive | 0 | 0 | 0 |  |  |
+| org.bubenheimer.instancelimit | 0 | 0 | 0 |  |  |
+| org.buraktamturk | 0 | 0 | 0 |  |  |
+| org.burnoutcrew.composereorderable | 0 | 0 | 0 |  |  |
+| org.calypsonet.keyple | 0 | 0 | 0 |  |  |
+| org.casbin | 0 | 0 | 0 |  |  |
+| org.chalup.microorm | 0 | 0 | 0 |  |  |
+| org.chalup.thneed | 0 | 0 | 0 |  |  |
+| org.chromium.net | 0 | 0 | 0 |  |  |
+| org.cleaninsights.sdk | 0 | 0 | 0 |  |  |
+| org.codepond | 0 | 0 | 0 |  |  |
+| org.coderoller | 0 | 0 | 0 |  |  |
+| org.commcarehq.commcare | 0 | 0 | 0 |  |  |
+| org.conscrypt | 0 | 0 | 0 |  |  |
+| org.conscrypt.conscrypt-android.2.5.3.org.conscrypt | 0 | 0 | 0 |  |  |
+| org.cosmosapps.stealth | 0 | 0 | 0 |  |  |
+| org.coursera.android | 0 | 0 | 0 |  |  |
+| org.crowdnotifier | 0 | 0 | 0 |  |  |
+| org.cuongnv | 0 | 0 | 0 |  |  |
+| org.cuongnv.viewbindingdelegate | 0 | 0 | 0 |  |  |
+| org.cyanogenmod | 0 | 0 | 0 |  |  |
+| org.danbrough | 0 | 0 | 0 |  |  |
+| org.danbrough.klog | 0 | 0 | 0 |  |  |
+| org.danilopianini | 0 | 0 | 0 |  |  |
+| org.dashj.android | 0 | 0 | 0 |  |  |
+| org.dashj.platform | 0 | 0 | 0 |  |  |
+| org.dbtools | 0 | 0 | 0 |  |  |
+| org.dbtools.kmp | 0 | 0 | 0 |  |  |
+| org.decsync | 0 | 0 | 0 |  |  |
+| org.deejdev.database.handysqlite | 0 | 0 | 0 |  |  |
+| org.deejdev.database.sqlitecursorloader | 0 | 0 | 0 |  |  |
+| org.deepspeech | 0 | 0 | 0 |  |  |
+| org.demen.android.opencv | 0 | 0 | 0 |  |  |
+| org.divviup.android | 0 | 0 | 0 |  |  |
+| org.djodjo.comm | 0 | 0 | 0 |  |  |
+| org.djodjo.tarator | 0 | 0 | 0 |  |  |
+| org.djodjo.widget | 0 | 0 | 0 |  |  |
+| org.dmfs | 0 | 0 | 0 |  |  |
+| org.drewcarlson | 0 | 0 | 0 |  |  |
+| org.duckitgo | 0 | 0 | 0 |  |  |
+| org.eclipse.keyple | 0 | 0 | 0 |  |  |
+| org.eclipse.kuksa | 0 | 0 | 0 |  |  |
+| org.eclipse.zenoh | 0 | 0 | 0 |  |  |
+| org.elastos | 0 | 0 | 0 |  |  |
+| org.etby | 0 | 0 | 0 |  |  |
+| org.ethereum | 0 | 0 | 0 |  |  |
+| org.fdroid | 0 | 0 | 0 |  |  |
+| org.fisco-bcos.android-sdk | 0 | 0 | 0 |  |  |
+| org.flexlabs | 0 | 0 | 0 |  |  |
+| org.florescu.android.rangeseekbar | 0 | 0 | 0 |  |  |
+| org.ftclib.ftclib | 0 | 0 | 0 |  |  |
+| org.gearvrf | 0 | 0 | 0 |  |  |
+| org.gofeatureflag.openfeature | 0 | 0 | 0 |  |  |
+| org.graphstream | 0 | 0 | 0 |  |  |
+| org.greatfire | 0 | 0 | 0 |  |  |
+| org.greatfire.envoy | 0 | 0 | 0 |  |  |
+| org.greenrobot | 0 | 0 | 0 |  |  |
+| org.gurux | 0 | 0 | 0 |  |  |
+| org.hisp.dhis.mobile | 0 | 0 | 0 |  |  |
+| org.hnau | 0 | 0 | 0 |  |  |
+| org.hnau.android | 0 | 0 | 0 |  |  |
+| org.hnau.db | 0 | 0 | 0 |  |  |
+| org.hnau.logging | 0 | 0 | 0 |  |  |
+| org.hyperledger.identus | 0 | 0 | 0 |  |  |
+| org.hyperledger.identus.apollo | 0 | 0 | 0 |  |  |
+| org.idpass | 0 | 0 | 0 |  |  |
+| org.imaginativeworld.oopsnointernet | 0 | 0 | 0 |  |  |
+| org.isoblue | 0 | 0 | 0 |  |  |
+| org.jdeferred | 0 | 0 | 0 |  |  |
+| org.jdeferred.v2 | 0 | 0 | 0 |  |  |
+| org.jellyfin.exoplayer | 0 | 0 | 0 |  |  |
+| org.jellyfin.media3 | 0 | 0 | 0 |  |  |
+| org.jellyfin.sdk | 0 | 0 | 0 |  |  |
+| org.jesperancinha.itf | 0 | 0 | 0 |  |  |
+| org.jetbrains.androidx.core | 0 | 0 | 0 |  |  |
+| org.jetbrains.compose.ui | 0 | 0 | 0 |  |  |
+| org.jetbrains.kotlinx | 0 | 0 | 0 |  |  |
+| org.jetbrains.lets-plot | 0 | 0 | 0 |  |  |
+| org.jitsi | 0 | 0 | 0 |  |  |
+| org.kaerdan | 0 | 0 | 0 |  |  |
+| org.khronos.openxr | 0 | 0 | 0 |  |  |
+| org.kiwix | 0 | 0 | 0 |  |  |
+| org.kiwix.kiwixlib | 0 | 0 | 0 |  |  |
+| org.kiwix.libkiwix | 0 | 0 | 0 |  |  |
+| org.kobjects | 0 | 0 | 0 |  |  |
+| org.kobjects.konsole | 0 | 0 | 0 |  |  |
+| org.kodein.db | 0 | 0 | 0 |  |  |
+| org.kodein.di | 0 | 0 | 0 |  |  |
+| org.kodein.emoji | 0 | 0 | 0 |  |  |
+| org.kodein.memory | 0 | 0 | 0 |  |  |
+| org.kodein.type | 0 | 0 | 0 |  |  |
+| org.kulabukhov | 0 | 0 | 0 |  |  |
+| org.l6n | 0 | 0 | 0 |  |  |
+| org.libindic | 0 | 0 | 0 |  |  |
+| org.librarysimplified.android.theme | 0 | 0 | 0 |  |  |
+| org.librarysimplified.audiobook.audioengine | 0 | 0 | 0 |  |  |
+| org.librarysimplified.audiobook.overdrive | 0 | 0 | 0 |  |  |
+| org.librarysimplified.drm | 0 | 0 | 0 |  |  |
+| org.librarysimplified.drm.axis | 0 | 0 | 0 |  |  |
+| org.librarysimplified.http | 0 | 0 | 0 |  |  |
+| org.librarysimplified.r2 | 0 | 0 | 0 |  |  |
+| org.ligboy | 0 | 0 | 0 |  |  |
+| org.lighthousegames | 0 | 0 | 0 |  |  |
+| org.lightningdevkit | 0 | 0 | 0 |  |  |
+| org.lovebing.reactnative | 1 | 1 | 0 |  | 125 |
+| org.lsposed.hiddenapibypass | 0 | 0 | 0 |  |  |
+| org.lsposed.libcxx | 0 | 0 | 0 |  |  |
+| org.lsposed.lsplant | 0 | 0 | 0 |  |  |
+| org.lsposed.lsplt | 0 | 0 | 0 |  |  |
+| org.lucasr.dspec | 0 | 0 | 0 |  |  |
+| org.lucasr.probe | 0 | 0 | 0 |  |  |
+| org.lucasr.smoothie | 0 | 0 | 0 |  |  |
+| org.lucasr.twowayview | 0 | 0 | 0 |  |  |
+| org.luckypray | 0 | 0 | 0 |  |  |
+| org.macroid | 0 | 0 | 0 |  |  |
+| org.matrix.rustcomponents | 0 | 0 | 0 |  |  |
+| org.mattshoe.shoebox | 0 | 0 | 0 |  |  |
+| org.michaelevans | 0 | 0 | 0 |  |  |
+| org.michaelevans.colorart | 0 | 0 | 0 |  |  |
+| org.mini2Dx | 0 | 0 | 0 |  |  |
+| org.mmaug.mmfont | 0 | 0 | 0 |  |  |
+| org.mobilenativefoundation.store | 0 | 0 | 0 |  |  |
+| org.mongodb.kbson | 0 | 0 | 0 |  |  |
+| org.mozilla.deepspeech | 0 | 0 | 0 |  |  |
+| org.mrlem.siage3d | 0 | 0 | 0 |  |  |
+| org.mygeotrust.mygtlib | 0 | 0 | 0 |  |  |
+| org.nativescript | 0 | 0 | 0 |  |  |
+| org.nicktate | 0 | 0 | 0 |  |  |
+| org.notlocalhost.superlistview | 0 | 0 | 0 |  |  |
+| org.ooni | 0 | 0 | 0 |  |  |
+| org.openftc | 0 | 0 | 0 |  |  |
+| org.openlmis.mobile | 0 | 0 | 0 |  |  |
+| org.openmined.kotlinsyft | 0 | 0 | 0 |  |  |
+| org.orbit-mvi | 0 | 0 | 0 |  |  |
+| org.osmdroid | 0 | 0 | 0 |  |  |
+| org.prebid | 2 | 2 | 0 |  | 357 |
+| org.privelt | 0 | 0 | 0 |  |  |
+| org.prx | 0 | 0 | 0 |  |  |
+| org.pytorch | 0 | 0 | 0 |  |  |
+| org.quanqi | 0 | 0 | 0 |  |  |
+| org.rajawali3d | 0 | 0 | 0 |  |  |
+| org.ramani-maps | 0 | 0 | 0 |  |  |
+| org.readium.kotlin-toolkit | 0 | 0 | 0 |  |  |
+| org.reduxkotlin | 0 | 0 | 0 |  |  |
+| org.remdev.android | 0 | 0 | 0 |  |  |
+| org.rewedigital.katana | 0 | 0 | 0 |  |  |
+| org.rgbtools | 0 | 0 | 0 |  |  |
+| org.roc-streaming.roctoolkit | 0 | 0 | 0 |  |  |
+| org.roc-streaming.roctoolkit.testing | 0 | 0 | 0 |  |  |
+| org.signal | 0 | 0 | 0 |  |  |
+| org.silpa | 0 | 0 | 0 |  |  |
+| org.snikket | 0 | 0 | 0 |  |  |
+| org.solovyev.android.threadguard | 0 | 0 | 0 |  |  |
+| org.targetagency | 0 | 0 | 0 |  |  |
+| org.telegram | 0 | 0 | 0 |  |  |
+| org.tenkiv.kuantify | 0 | 0 | 0 |  |  |
+| org.tensorflow | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.audiobook.audioengine | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.audiobook.overdrive | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.deploytest | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.drm | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.exoplayer | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.exoplayer.exoplayer-core.2.11.5.org.thepalaceproject.exoplayer | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.http | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.r2 | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.readium | 0 | 0 | 0 |  |  |
+| org.thepalaceproject.theme | 0 | 0 | 0 |  |  |
+| org.theta4j | 0 | 0 | 0 |  |  |
+| org.thoughtcrime.ssl.pinning | 0 | 0 | 0 |  |  |
+| org.tiqr | 0 | 0 | 0 |  |  |
+| org.toile-libre.libe | 0 | 0 | 0 |  |  |
+| org.tuzhao | 0 | 0 | 0 |  |  |
+| org.ufoss.kolog | 0 | 0 | 0 |  |  |
+| org.ufoss.kotysa | 0 | 0 | 0 |  |  |
+| org.unfoldingword.tools | 0 | 0 | 0 |  |  |
+| org.uniflow-kt | 0 | 0 | 0 |  |  |
+| org.uvccamera | 0 | 0 | 0 |  |  |
+| org.videolan.android | 0 | 0 | 0 |  |  |
+| org.wazzapps | 0 | 0 | 0 |  |  |
+| org.web3j | 0 | 0 | 0 |  |  |
+| org.webkit | 0 | 0 | 0 |  |  |
+| org.whispersystems | 0 | 0 | 0 |  |  |
+| org.whispersystems.libpastelog | 0 | 0 | 0 |  |  |
+| org.wmtechnology.wmsweetalert | 0 | 0 | 0 |  |  |
+| org.wordpress | 0 | 0 | 0 |  |  |
+| org.xdty.hugo | 0 | 0 | 0 |  |  |
+| org.xdty.phone.number | 0 | 0 | 0 |  |  |
+| org.xdty.preference | 0 | 0 | 0 |  |  |
+| org.xdty.webdav | 0 | 0 | 0 |  |  |
+| org.xmtp | 0 | 0 | 0 |  |  |
+| org.xutils | 0 | 0 | 0 |  |  |
+| ovh.plrapps | 0 | 0 | 0 |  |  |
+| ovh.plrapps.mapview | 0 | 0 | 0 |  |  |
+| ph.extremelogic | 0 | 0 | 0 |  |  |
+| pl.allegro.android | 0 | 0 | 0 |  |  |
+| pl.allegro.android.slinger | 0 | 0 | 0 |  |  |
+| pl.allegro.android.typedlistadapter | 0 | 0 | 0 |  |  |
+| pl.applover | 0 | 0 | 0 |  |  |
+| pl.bclogic | 0 | 0 | 0 |  |  |
+| pl.charmas.android | 0 | 0 | 0 |  |  |
+| pl.droidsonroids.composekit | 0 | 0 | 0 |  |  |
+| pl.droidsonroids.gif | 0 | 0 | 0 |  |  |
+| pl.droidsonroids.relinker | 0 | 0 | 0 |  |  |
+| pl.mareklangiewicz | 0 | 0 | 0 |  |  |
+| pl.mg6.rxjava2.disposeondestroy | 0 | 0 | 0 |  |  |
+| pl.mg6.veni.divi | 0 | 0 | 0 |  |  |
+| pl.mk5.gdx-fireapp | 0 | 0 | 0 |  |  |
+| pl.rspective.opengdansk | 0 | 0 | 0 |  |  |
+| pl.rspective.pagerdatepicker | 0 | 0 | 0 |  |  |
+| pl.rspective.voucherify.android.client | 0 | 0 | 0 |  |  |
+| pl.speednet.c-shadow | 0 | 0 | 0 |  |  |
+| pl.touk.android | 0 | 0 | 0 |  |  |
+| pro.alexzaitsev | 0 | 0 | 0 |  |  |
+| pro.jayeshseth.madifiers | 0 | 0 | 0 |  |  |
+| pro.jefferson | 0 | 0 | 0 |  |  |
+| pro.labster | 0 | 0 | 0 |  |  |
+| pro.respawn.apiresult | 0 | 0 | 0 |  |  |
+| pro.respawn.flowmvi | 0 | 0 | 0 |  |  |
+| pro.respawn.kmmutils | 0 | 0 | 0 |  |  |
+| pro.streem.pbandk | 0 | 0 | 0 |  |  |
+| pro.streem.sceneform | 0 | 0 | 0 |  |  |
+| pro.useit.recyclerview | 0 | 0 | 0 |  |  |
+| pt.nmusic | 0 | 0 | 0 |  |  |
+| pub.doric.dangle | 0 | 0 | 0 |  |  |
+| ren.imyan.endureblazex.adapter | 0 | 0 | 0 |  |  |
+| ren.imyan.endureblazex.base | 0 | 0 | 0 |  |  |
+| ren.imyan.endureblazex.ktx | 0 | 0 | 0 |  |  |
+| ren.imyan.endureblazex.util | 0 | 0 | 0 |  |  |
+| ro.dragossusi | 0 | 0 | 0 |  |  |
+| ro.dragossusi.android | 0 | 0 | 0 |  |  |
+| ro.dragossusi.kodein.viewmodel | 0 | 0 | 0 |  |  |
+| ro.dragossusi.sevens | 0 | 0 | 0 |  |  |
+| ro.holdone | 0 | 0 | 0 |  |  |
+| ro.mirceanistor | 0 | 0 | 0 |  |  |
+| ro.tudorluca.numberpicker | 0 | 0 | 0 |  |  |
+| rocks.frieler.android | 0 | 0 | 0 |  |  |
+| rocks.voss.androidutils | 0 | 0 | 0 |  |  |
+| ru.androidpirates.permissions | 0 | 0 | 0 |  |  |
+| ru.astrainteractive.klibs | 0 | 0 | 0 |  |  |
+| ru.astrainteractive.mobilex | 0 | 0 | 0 |  |  |
+| ru.avicorp | 0 | 0 | 0 |  |  |
+| ru.beryukhov | 0 | 0 | 0 |  |  |
+| ru.blizzed | 0 | 0 | 0 |  |  |
+| ru.cleverpumpkin | 0 | 0 | 0 |  |  |
+| ru.gildor.databinding | 0 | 0 | 0 |  |  |
+| ru.hnau | 0 | 0 | 0 |  |  |
+| ru.kode | 0 | 0 | 0 |  |  |
+| ru.kode.pathfinder | 0 | 0 | 0 |  |  |
+| ru.kode.uikit | 0 | 0 | 0 |  |  |
+| ru.kraftu | 0 | 0 | 0 |  |  |
+| ru.ldralighieri.composites | 0 | 0 | 0 |  |  |
+| ru.ldralighieri.corbind | 0 | 0 | 0 |  |  |
 
 ## Repositories without enumeration or seeds
 
 - http://cdn.adnxs.com/anx-sdk/maven
 - http://cloudant.github.io/cloudant-sync-eap/repository
+- http://dl.bintray.com/tosinmath007/Carteasy
+- http://download.flutter.io
 - http://jitpack.io
+- http://raw.github.com/saki4510t/libcommon/master/repository
 - https://acinq.co/maven
+- https://androidx.dev/snapshots/builds/6999027/artifacts/repository
+- https://androidx.dev/snapshots/builds/9564757/artifacts/repository
 - https://androidx.dev/snapshots/latest/artifacts/repository
 - https://androidx.dev/storage/compose-compiler/repository
+- https://api.modrinth.com/maven
 - https://artifact.aspose.com/repo
+- https://artifact.bytedance.com/repository/AwemeOpenSDK
+- https://artifact.bytedance.com/repository/pangle
 - https://artifactory-external.vkpartner.ru/artifactory/maven
 - https://artifacts.applovin.com/android
+- https://bitfire.at/maven
 - https://briarproject.org/maven
 - https://build-artifacts.signal.org/libraries/maven
 - https://cubesky-mvn.github.io
+- https://customers.pspdfkit.com/maven
 - https://developer.hihonor.com/repo
+- https://developer.huawei.ru/repo
+- https://devrepo.kakao.com/nexus/repository/kakaomap-releases
+- https://devserver3.ustadmobile.com/maven2
 - https://dl.bintray.com
+- https://dl.bintray.com/adef145/maven
+- https://dl.bintray.com/alexeypanchenko/maven
 - https://dl.bintray.com/amulyakhare/maven
 - https://dl.bintray.com/arthenica/maven
 - https://dl.bintray.com/florent37/maven
+- https://dl.bintray.com/frostwire/maven
 - https://dl.bintray.com/google/webrtc
+- https://dl.bintray.com/jacek-marchwicki/maven
+- https://dl.bintray.com/jenly/maven
 - https://dl.bintray.com/novacrypto/BIP
 - https://dl.bintray.com/pt-midtrans/maven
 - https://dl.bintray.com/rikkaw/Shizuku
+- https://dl.bintray.com/spark/maven
 - https://dl.bintray.com/ssynhtn-org/android-wave-view
+- https://dl.bintray.com/tapsellorg/maven
 - https://dl.bintray.com/terrakok/terramaven
+- https://dl.bintray.com/themidtrans/maven
 - https://dl.bintray.com/videolan/Android
 - https://dl.bintray.com/xdex/socketcluster
 - https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven
+- https://dl.cloudsmith.io/public/cometchat/cometchat/maven
+- https://download.agora.io/sdk/release
+- https://download.osgeo.org/osgeo/download/osmdroid
+- https://europe-maven.pkg.dev/anyline-ttr-sdk/maven
 - https://example.com/maven
 - https://exoplayer.dev/s3maven
+- https://gitcode.net/angcyo/maven/-/raw/hingin
+- https://github-package-registry-mirror.gc.nav.no/cached/maven-release
+- https://github.com/Claudemirovsky/aniyomi-extensions-tester/raw/android-jar
 - https://github.com/jitsi/jitsi-maven-repository/raw/master/releases
+- https://github.com/nickolay168/jni/raw/maven-repo-storage
 - https://github.com/omadahealth/omada-nexus/raw/master/release
+- https://github.com/psiegman/mvn-repo/raw/master/releases
 - https://gitlab.com/api/v4/projects/15615125/packages/maven
 - https://gitlab.com/api/v4/projects/18497829/packages/maven
+- https://gitlab.com/api/v4/projects/38224197/packages/maven
+- https://gitlab.com/api/v4/projects/40053021/packages/maven
 - https://google-ar-csi-prod.storage.googleapis.com/maven2
+- https://maven.aliyun.com/nexus/content/repositories/google
+- https://maven.aliyun.com/nexus/content/repositories/releases
+- https://maven.aliyun.com/repository/apache-snapshots
 - https://maven.aliyun.com/repository/releases
 - https://maven.andob.info/repository/open_source
+- https://maven.box.com/content/repositories/releases
 - https://maven.brott.dev
 - https://maven.cashfree.com/release
 - https://maven.fabric.io/public
 - https://maven.ghostscript.com
 - https://maven.juspay.in/jp-build-packages/release
 - https://maven.mozilla.org/maven2
+- https://maven.ogury.co
+- https://maven.onesignal.com/repo
+- https://maven.openium.fr
 - https://maven.pkg.github.com/TelegramMessenger/TelegramLogin
+- https://maven.pkg.github.com/conexus-mobile-os/conexus-sdk
 - https://maven.pkg.github.com/kotlin/kotlinx.bits
+- https://maven.singular.net
+- https://maven.sumup.com/releases
 - https://maven.theoplayer.com/releases
+- https://maven.toastbits.dev
+- https://maven.tosspayments.com/repository/releases
+- https://maven.y9vad9.com
+- https://maven.yandex.ru/nexus/content/groups/public
 - https://maven.zego.im
 - https://maven.zohodl.com
 - https://mudita.jfrog.io/artifactory/mmd-release
 - https://mvnrepository.com
+- https://mvnrepository.com/artifact/com.android.tools.lint/lint-gradle-api
 - https://mvnrepository.com/artifact/com.google.code.gson/gson
+- https://mvnrepository.com/artifacts
+- https://newtronlabs.jfrog.io/artifactory/libs-release-local
+- https://objectbox.io/download
+- https://oss.jfrog.org/artifactory/libs-snapshot
+- https://oss.sonatype.org/content/repositories/ksoap2-android-releases
 - https://packagecloud.io/anastaciocintra/public/maven2
+- https://pkgs.dev.azure.com/MicrosoftDeviceSDK/DuoSDK-Public/_packaging/Duo-SDK-Feed/maven/v1
 - https://raw.github.com/KeepSafe/repo/master
+- https://raw.github.com/iadvize/iadvize-android-sdk/master
+- https://raw.github.com/jug6ernaut/mvn-repo/mvn-repo
 - https://raw.github.com/psiegman/mvn-repo/master/releases
-- https://raw.github.com/saki4510t/libcommon/master/repository
 - https://raw.github.com/zeeshanejaz/unirest-android/mvn-reop
 - https://raw.githubusercontent.com/NexaAI/core/main
+- https://raw.githubusercontent.com/Pgyer/mvn_repo_pgyer/master
 - https://raw.githubusercontent.com/bravepipeproject/maven-repo/master/repository
-- https://raw.githubusercontent.com/chen504554911/alitajs-native/main
-- https://raw.githubusercontent.com/guardianproject/gpmaven/master
+- https://raw.githubusercontent.com/iProov/android/master/maven
 - https://raw.githubusercontent.com/kotlin-graphics/mary/master
 - https://raw.githubusercontent.com/kuntal-devrat/registry/main
 - https://raw.githubusercontent.com/opencv/opencv/4.x/maven
+- https://raw.githubusercontent.com/sendbird/SendBird-SDK-Android/master
+- https://raw.githubusercontent.com/sendbird/sendbird-syncmanager-android/master
 - https://raw.githubusercontent.com/termux/termux-app/gh-pages/maven-repo
+- https://raw.githubusercontent.com/webrtc-sdk/webrtc/master/repo
 - https://raw.githubusercontent.com/wf9a5m75/redis-android/master/repository
+- https://repo.backbase.com/repo
 - https://repo.lukefz.xyz/releases
-- https://repo.sendbird.com/public/maven
 - https://repo.spring.io/libs-milestone
 - https://repo.typesafe.com/typesafe/releases
 - https://repo.typesafe.com/typesafe/snapshots
+- https://repository.aspose.cloud/repo
+- https://repository.aspose.com/repo
 - https://repository.groupdocs.cloud/repo
 - https://repository.map.naver.com/archive/maven
 - https://repository.openoffice.org/maven
 - https://s01.oss.sonatype.org
+- https://s01.oss.sonatype.org/content/groups/staging
+- https://s01.oss.sonatype.org/content/repositories/staging
+- https://s01.oss.sonatype.org/service/local/repositories/snapshots/content
 - https://s3.amazonaws.com/repo.commonsware.com
+- https://s3.amazonaws.com/salesforce-async-messaging-experimental/public/android
 - https://storage.googleapis.com/devan-maven
 - https://storage.zego.im/maven
+- https://webrtc.github.io/webrtc-maven-repo
 - https://www.myget.org/F/abtsoftware/maven
+- https://www.myget.org/F/arthenica/maven

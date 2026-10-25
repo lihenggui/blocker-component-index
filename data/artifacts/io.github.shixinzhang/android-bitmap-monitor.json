@@ -1,0 +1,139 @@
+{
+  "coordinate": "io.github.shixinzhang:android-bitmap-monitor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T07:45:22Z",
+      "sha256": "3b1d04cb4f7227550cfbaf3c3d66108dc71a6363dfb04d44682c2b804b443fc9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.bytedance.android:shadowhook:1.0.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:45:21Z",
+      "sha256": "e1a979716fa97d6ea876770f361b0112f356b53cd3d975cb454fdb94a263ecf8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.bytedance.android:shadowhook:1.0.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:45:20Z",
+      "sha256": "e1a979716fa97d6ea876770f361b0112f356b53cd3d975cb454fdb94a263ecf8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.bytedance.android:shadowhook:1.0.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T07:45:20Z",
+      "sha256": "e1a979716fa97d6ea876770f361b0112f356b53cd3d975cb454fdb94a263ecf8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.bytedance.android:shadowhook:1.0.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T07:45:19Z",
+      "sha256": "e1a979716fa97d6ea876770f361b0112f356b53cd3d975cb454fdb94a263ecf8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.bytedance.android:shadowhook:1.0.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T07:45:18Z",
+      "sha256": "e1a979716fa97d6ea876770f361b0112f356b53cd3d975cb454fdb94a263ecf8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.bytedance.android:shadowhook:1.0.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T07:45:17Z",
+      "sha256": "94f350844ecf1879cd12b9fb4b9488dc8dacb6cf39fb06f3e5f88acc588f1b78",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.bytedance.android:shadowhook:1.0.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "top.shixinzhang.bitmapmonitor.internal.BitmapMonitorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bitmap-monitor",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "top.shixinzhang.bitmapmonitor.ui.BitmapRecordDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "top.shixinzhang.bitmapmonitor.ui.BitmapRecordsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "top.shixinzhang.bitmapmonitor.ui.FloatWindowService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "coordinate": "io.github.treech:netposa-component-location",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T08:00:51Z",
+      "sha256": "556b83cdd168ced736136d05caf76a78fc267cbf50f4614a1f280a15f94bd417",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.lifecycle:lifecycle-runtime:2.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.alibaba:arouter-api:1.5.0",
+        "com.amap.api:location:4.9.0",
+        "io.github.treech:netposa-common-service:1.0.2",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amap.api.location.APSService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netposa.component.location.service.AMapLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.netposa.component.location.service.GpsLocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

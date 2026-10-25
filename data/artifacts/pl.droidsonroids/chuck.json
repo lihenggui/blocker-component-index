@@ -1,0 +1,106 @@
+{
+  "coordinate": "pl.droidsonroids:chuck",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.36": {
+      "fetchedAt": "2026-10-25T10:15:56Z",
+      "sha256": "5b0849ef3c8676aa5ccee2999f1262a5585acc5853a0c98cf83e3faf2c21526c",
+      "dependencies": [
+        "com.android.support:design:25.3.1",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.6.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    },
+    "1.1.45": {
+      "fetchedAt": "2026-10-25T10:15:55Z",
+      "sha256": "5b0849ef3c8676aa5ccee2999f1262a5585acc5853a0c98cf83e3faf2c21526c",
+      "dependencies": [
+        "com.android.support:design:25.3.1",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:4.0.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    },
+    "1.1.46": {
+      "fetchedAt": "2026-10-25T10:15:54Z",
+      "sha256": "5b0849ef3c8676aa5ccee2999f1262a5585acc5853a0c98cf83e3faf2c21526c",
+      "dependencies": [
+        "com.android.support:design:25.3.1",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:4.0.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.readystatesoftware.chuck.internal.data.ChuckContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.36",
+          "1.1.46"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.chuck.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.readystatesoftware.chuck.internal.support.ClearTransactionsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.36",
+          "1.1.46"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.readystatesoftware.chuck.internal.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.36",
+          "1.1.46"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.readystatesoftware.chuck.internal.ui.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.36",
+          "1.1.46"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

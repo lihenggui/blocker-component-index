@@ -1,0 +1,80 @@
+{
+  "coordinate": "io.github.molihuan:tiandimapsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T07:25:53Z",
+      "sha256": "ce4afa4087df0cbf342e5f8263924dbda044e8e392d5dc9ef74aceade3ba1200",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "com.github.lzyzsd:jsbridge:1.0.4",
+        "com.google.android.material:material:1.12.0",
+        "com.google.code.gson:gson:2.10.1",
+        "io.github.justson:agentweb-core:v5.1.1-androidx"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T07:25:53Z",
+      "sha256": "49123e1b4beb90392b12a732587b135b71e982d2299fcf0c92a86327c12ea11d",
+      "dependencies": [
+        "com.github.lzyzsd:jsbridge:1.0.4",
+        "com.google.code.gson:gson:2.10.1",
+        "io.github.justson:agentweb-core:v5.1.1-androidx"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T07:25:52Z",
+      "sha256": "49123e1b4beb90392b12a732587b135b71e982d2299fcf0c92a86327c12ea11d",
+      "dependencies": [
+        "com.github.lzyzsd:jsbridge:1.0.4",
+        "com.google.code.gson:gson:2.10.1",
+        "io.github.justson:agentweb-core:v5.1.1-androidx"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T07:25:52Z",
+      "sha256": "49123e1b4beb90392b12a732587b135b71e982d2299fcf0c92a86327c12ea11d",
+      "dependencies": [
+        "com.github.lzyzsd:jsbridge:1.0.4",
+        "com.google.code.gson:gson:2.10.1",
+        "io.github.justson:agentweb-core:v5.1.1-androidx"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.molihuan.tiandimapsdk.activity.BaseTianDiMapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.molihuan.tiandimapsdk.activity.SimpleSelectTianDiMapActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}
