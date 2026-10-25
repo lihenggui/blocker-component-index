@@ -10,8 +10,8 @@ from urllib.error import HTTPError
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
-# Maven Central and Google Maven are served from CDNs that tolerate a faster per-host pace.
-CDN_HOSTS = {"dl.google.com", "maven.google.com", "repo1.maven.org", "repo.maven.apache.org"}
+# Maven Central, Google Maven and GitHub raw files are served from CDNs that tolerate a faster per-host pace.
+CDN_HOSTS = {"dl.google.com", "maven.google.com", "repo1.maven.org", "repo.maven.apache.org", "raw.githubusercontent.com"}
 CDN_INTERVAL = 0.1
 USER_AGENT = "blocker-component-index (+https://github.com/lihenggui/blocker-component-index)"
 

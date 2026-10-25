@@ -100,9 +100,16 @@ def _tree_paths(paths):
     ))[:50]
 
 
+def _tree_priority(store, tree):
+    # Repositories with the fewest harvested coordinates (typically closed vendor repos) are harvested first.
+    seeds = store.state.get("coordinates", {})
+    return min((len(seeds.get(url, [])) for url in tree.get("repositories", [])), default=0)
+
+
 def _tree_seeds(store, client, progress, *, limit=None):
     processed = 0
-    for name, tree in list(progress.setdefault("trees", {}).items()):
+    trees = progress.setdefault("trees", {})
+    for name, tree in sorted(trees.items(), key=lambda item: (_tree_priority(store, item[1]), item[0])):
         if tree.get("done"):
             continue
         if limit is not None and processed >= limit:
@@ -111,7 +118,7 @@ def _tree_seeds(store, client, progress, *, limit=None):
         client.check()
         if "branch" not in tree:
             response = client.get(f"https://api.github.com/repos/{name}")
-            if response.status == 404:
+            if response.status in (404, 451):
                 tree["done"] = True
                 store.save()
                 continue
@@ -121,6 +128,11 @@ def _tree_seeds(store, client, progress, *, limit=None):
             store.save()
         if "paths" not in tree:
             response = client.get(f'https://api.github.com/repos/{name}/git/trees/{quote(tree["branch"], safe="")}?recursive=1', limit=64 * 1024 * 1024)
+            if response.status in (404, 409, 422):
+                # Empty, missing or oversized repositories have no harvestable tree.
+                tree["done"] = True
+                store.save()
+                continue
             if response.status != 200:
                 raise OSError(f"GitHub tree HTTP {response.status}: {name}")
             value = response.json()
@@ -186,7 +198,13 @@ def _discover(store, client):
         LOG.warning("Skipping GitHub discovery: CODE_SEARCH_TOKEN and GITHUB_TOKEN are unset")
         return True
     _prepare(store, progress)
-    _tree_seeds(store, client, progress, limit=1)
+    # Harvesting uses the core API and raw files, not search quota: give it half of discovery's time up front
+    # so search rate limits cannot starve the coordinate seeds that closed vendor repositories depend on.
+    if client.deadline is not None:
+        within_share(client, max(0.0, client.deadline - client.clock()) / 2,
+                     lambda: _tree_seeds(store, client, progress), "Coordinate harvesting")
+    else:
+        _tree_seeds(store, client, progress, limit=1)
     # Disjoint size shards rarely repeat a file; dedupe in memory instead of committing every hit URL.
     progress.pop("hits", None)
     seen = set()

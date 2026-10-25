@@ -262,3 +262,39 @@ class DiscoveryTests(FixtureTest):
         client = FixtureClient(handler=limited, token="fixture")
         self.assertFalse(discover(self.store, client))
         self.assertEqual(len(Store(self.root).state["discover"]["queue"]), 1)
+
+    def test_given_pending_trees_and_search_rate_limit_when_discovering_with_deadline_then_trees_are_harvested_rarest_repository_first(self):
+        self.store.state["discover"] = {"queue": [{"file": "build.gradle", "low": 0, "high": 10, "page": 1, "host": ""}],
+                                        "broadCompletedAt": "2026-10-24T00:00:00Z",
+                                        "trees": {"o/common": {"repositories": ["https://common.example.org/repo"]},
+                                                  "o/vendor": {"repositories": ["https://vendor.example.org/repo"]}}}
+        self.store.state["coordinates"] = {"https://common.example.org/repo": ["a:b", "c:d"]}
+        order = []
+
+        def handler(url, **kwargs):
+            if "/search/code?" in url:
+                raise OSError("HTTP 429: https://api.github.com/search/code")
+            if url.startswith("https://api.github.com/repos/") and "/git/trees/" not in url:
+                order.append(url.rsplit("/", 1)[-1])
+                return response({"default_branch": "main"})
+            if "/git/trees/" in url:
+                return response({"tree": [{"path": "build.gradle", "type": "blob"}]})
+            return response('implementation "org.vendor:ads:1"')
+        clock = Clock()
+        client = FixtureClient(handler=handler, token="fixture", clock=clock, deadline=6000)
+        self.assertFalse(discover(self.store, client, max_minutes=100))
+        self.assertEqual(order, ["vendor", "common"])
+        self.assertIn("org.vendor:ads", self.store.state["coordinates"]["https://vendor.example.org/repo"])
+
+    def test_given_empty_repository_tree_when_harvested_then_tree_is_marked_done_without_failing(self):
+        self.store.state["discover"] = {"queue": [], "broadCompletedAt": "2026-10-24T00:00:00Z",
+                                        "trees": {"o/empty": {"repositories": ["https://vendor.example.org/repo"]}}}
+
+        def handler(url, **kwargs):
+            if "/git/trees/" in url:
+                return response({"message": "Git Repository is empty."}, status=409)
+            if url.startswith("https://api.github.com/repos/"):
+                return response({"default_branch": "main"})
+            return response({"total_count": 0, "items": []})
+        self.assertTrue(discover(self.store, FixtureClient(handler=handler, token="fixture")))
+        self.assertTrue(self.store.state["discover"]["trees"]["o/empty"]["done"])
