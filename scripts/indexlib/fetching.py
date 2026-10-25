@@ -5,7 +5,7 @@ import zipfile
 from urllib.parse import quote, urljoin
 from xml.etree.ElementTree import ParseError
 from defusedxml.common import DefusedXmlException
-from .archives import read_manifest
+from .archives import ArchiveMissing, read_manifest
 from .http import within_share
 from .evidence import components_at, merge, parse_manifest
 from .parsing import metadata, module_info, pom
@@ -47,9 +47,14 @@ def _version(store, client, artifact, version, max_aar_mb):
     if packaging != "aar" and not files:
         return None
     url = urljoin(base, files[0]) if files else base + stem + ".aar"
-    manifest, sha256 = read_manifest(client, url, int(max_aar_mb * 1024 * 1024))
+    try:
+        manifest, sha256 = read_manifest(client, url, int(max_aar_mb * 1024 * 1024))
+    except ArchiveMissing:
+        # Treated like a jar: nothing to record, and not a failure worth retrying within the cycle.
+        LOG.info("No AAR published at %s", url)
+        return None
     # The newest manifest determines whether historical versions are worth fetching.
-    components = parse_manifest(manifest)
+    components = parse_manifest(manifest) if manifest is not None else []
     # Extract inline: evidence is written as soon as the manifest is read, so nothing waits in a queue or cache.
     evidence = merge(store.evidence(coordinate), coordinate, repository, version, timestamp(), sha256, dependencies, components)
     write_json(store.evidence_path(coordinate), evidence)
