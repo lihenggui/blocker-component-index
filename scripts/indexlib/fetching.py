@@ -30,7 +30,7 @@ def _version(store, client, artifact, version, max_aar_mb):
         if url not in pending:
             pending.append(url)
     for dependency in dependencies:
-        store.seed(":".join(dependency.split(":")[:2]), repository)
+        store.seed_dependency(":".join(dependency.split(":")[:2]), coordinate, repository)
     store.save()
     files = []
     if response.status == 404 or b"published-with-gradle-metadata" in response.body:
@@ -42,7 +42,7 @@ def _version(store, client, artifact, version, max_aar_mb):
         elif module.status != 404:
             raise OSError(f"Gradle module HTTP {module.status}: {coordinate}:{version}")
     for dependency in dependencies:
-        store.seed(":".join(dependency.split(":")[:2]), repository)
+        store.seed_dependency(":".join(dependency.split(":")[:2]), coordinate, repository)
     store.save()
     if packaging != "aar" and not files:
         return None
