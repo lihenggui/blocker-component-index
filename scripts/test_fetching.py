@@ -197,3 +197,24 @@ class FetchTests(FixtureTest):
         self.assertTrue(extract(self.store, FixtureClient()))
         self.assertTrue(fetch(self.store, FixtureClient(self.routes()), max_versions=1))
         self.assertEqual(list(self.store.evidence(COORDINATE)["versions"]), ["3"])
+
+    def test_given_aar_without_manifest_when_fetched_then_version_is_recorded_with_no_components(self):
+        import io
+        import zipfile
+        self.store.state["artifacts"][COORDINATE]["versions"] = ["1"]
+        stream = io.BytesIO()
+        with zipfile.ZipFile(stream, "w") as zipped:
+            zipped.writestr("classes.jar", b"fixture-only payload")
+        base = REPOSITORY + "/org/example/sdk/1/sdk-1"
+        client = FixtureClient({base + ".pom": response("<project><packaging>aar</packaging></project>"), base + ".aar": response(stream.getvalue())})
+        self.assertTrue(fetch(self.store, client))
+        self.assertEqual(self.store.evidence(COORDINATE)["components"], [])
+        self.assertEqual(list(self.store.evidence(COORDINATE)["versions"]), ["1"])
+
+    def test_given_aar_missing_from_repository_when_fetched_then_it_is_skipped_without_counting_a_failure(self):
+        self.store.state["artifacts"][COORDINATE]["versions"] = ["1"]
+        base = REPOSITORY + "/org/example/sdk/1/sdk-1"
+        client = FixtureClient({base + ".pom": response("<project><packaging>aar</packaging></project>"), base + ".aar": response(status=404)})
+        self.assertTrue(fetch(self.store, client))
+        self.assertIsNone(self.store.evidence(COORDINATE))
+        self.assertEqual(self.store.state["fetch"]["failures"], {})

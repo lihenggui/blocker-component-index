@@ -8,6 +8,10 @@ import zipfile
 import zlib
 
 
+class ArchiveMissing(OSError):
+    """The repository has no AAR at the advertised location (HTTP 404)."""
+
+
 def eocd(raw):
     position = len(raw)
     while True:
@@ -102,13 +106,20 @@ def read_manifest(client, url, max_bytes):
             return manifest, hashlib.sha256(manifest).hexdigest()
         except (ValueError, struct.error, zlib.error):
             response = client.get(url, limit=max_bytes)
+    elif response.status == 404:
+        raise ArchiveMissing(url)
     elif response.status != 200:
         raise OSError(f"HTTP {response.status}: {url}")
+    if response.status == 404:
+        raise ArchiveMissing(url)
     if response.status != 200:
         raise OSError(f"Full AAR HTTP {response.status}: {url}")
     if len(response.body) > max_bytes:
         raise ValueError("AAR exceeds size cap")
     with zipfile.ZipFile(io.BytesIO(response.body)) as zipped:
+        if "AndroidManifest.xml" not in zipped.namelist():
+            # Some AARs ship no manifest at all, which means they declare no components.
+            return None, hashlib.sha256(response.body).hexdigest()
         info = zipped.getinfo("AndroidManifest.xml")
         if info.file_size > min(max_bytes, 16 * 1024 * 1024):
             raise ValueError("Manifest exceeds size cap")
