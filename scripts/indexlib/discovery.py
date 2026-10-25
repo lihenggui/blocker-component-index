@@ -194,8 +194,16 @@ def _discover(store, client):
         client.check()
         shard = progress["queue"][0]
         params = urlencode({"q": _query(shard), "per_page": 100, "page": shard["page"]})
-        response = client.get("https://api.github.com/search/code?" + params,
-                              headers={"Accept": "application/vnd.github.text-match+json"}, search=True)
+        try:
+            response = client.get("https://api.github.com/search/code?" + params,
+                                  headers={"Accept": "application/vnd.github.text-match+json"}, search=True)
+        except OSError as exc:
+            if "HTTP 429" not in str(exc) and "HTTP 403" not in str(exc):
+                raise
+            # A persistent search limit is routine, not a failure: resume the shard on the next run.
+            LOG.warning("GitHub search still rate limited; discovery resumes next run: %s", exc)
+            store.save()
+            return False
         if response.status != 200:
             raise OSError(f"GitHub search HTTP {response.status}")
         value = response.json()
