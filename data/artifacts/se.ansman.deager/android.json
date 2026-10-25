@@ -1,0 +1,38 @@
+{
+  "coordinate": "se.ansman.deager:android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:47:57Z",
+      "sha256": "30dca8c33e49f0418993d3dfba3578a2388ef216c84bd1d89ed8b606e228a27d",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.dagger:dagger:2.44.1",
+        "com.google.dagger:hilt-android:2.44.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "se.ansman.deager:core:0.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "se.ansman.deager.android.DeagerInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "coordinate": "ru.surfstudio.android:permission",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5.0": {
+      "fetchedAt": "2026-10-25T10:44:03Z",
+      "sha256": "58add84edb0f1725da964ae8225fb746e85dba2574c583e411cab1e55f52ab5c",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.71",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.71",
+        "ru.surfstudio.android:activity-holder:0.5.0",
+        "ru.surfstudio.android:core-ui:0.5.0",
+        "ru.surfstudio.android:logger:0.5.0",
+        "ru.surfstudio.android:navigation-observer:0.5.0",
+        "ru.surfstudio.android:navigation-rx:0.5.0",
+        "ru.surfstudio.android:navigation:0.5.0",
+        "ru.surfstudio.android:rx-extension:0.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.surfstudio.android.core.ui.permission.screens.default_permission_rational.DefaultPermissionRationalActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.surfstudio.android.core.ui.permission.screens.settings_rational.DefaultSettingsRationalActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5.0",
+          "0.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

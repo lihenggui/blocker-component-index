@@ -1,0 +1,44 @@
+{
+  "coordinate": "vn.viettelmaps.vtmsdk:vtmap-android-navigation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.42.6": {
+      "fetchedAt": "2026-10-25T11:01:30Z",
+      "sha256": "7cbb59e6c74c1c5ab65aa27e9736a90a44acf351ebba7cfa00066dae025be007",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.squareup.retrofit2:converter-gson:2.6.1",
+        "com.squareup.retrofit2:retrofit:2.6.1",
+        "vn.viettelmaps.vtmsdk:vtmap-android-core:1.0.0",
+        "vn.viettelmaps.vtmsdk:vtmap-android-navigation-native:7.0.0",
+        "vn.viettelmaps.vtmsdk:vtmap-android-services-core:1.0.0",
+        "vn.viettelmaps.vtmsdk:vtmap-android-services-directions-refresh:1.0.1",
+        "vn.viettelmaps.vtmsdk:vtmap-android-services-directions:1.0.5",
+        "vn.viettelmaps.vtmsdk:vtmap-android-services-geocoding:1.0.8",
+        "vn.viettelmaps.vtmsdk:vtmap-android-services-route-tiles:1.0.0",
+        "vn.viettelmaps.vtmsdk:vtmap-android-turf:1.0.0",
+        "vn.viettelmaps.vtmsdk:vtmap-events-android:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapbox.services.android.navigation.v5.navigation.NavigationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.42.6",
+          "0.42.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

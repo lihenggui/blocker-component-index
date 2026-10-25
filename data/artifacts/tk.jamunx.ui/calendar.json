@@ -1,0 +1,52 @@
+{
+  "coordinate": "tk.jamunx.ui:calendar",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:30Z",
+      "sha256": "d54bfb0ce2de06079e67f6935e70afd59795107a520bff55df6379cb7d0d6959",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "com.google.android.material:material:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamunx.ui.calendar.classes.ActivityCalenderDual",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tk.jamunx.ui.calendar.classes.ActivityCalenderSingle",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

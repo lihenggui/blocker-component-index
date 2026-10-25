@@ -1,0 +1,80 @@
+{
+  "coordinate": "tech.scanto:scantokit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0": {
+      "fetchedAt": "2026-10-25T10:53:24Z",
+      "sha256": "0a8e3a0caecc3db2d35d3a3c7fa0a05a0006e0eb87f21716f29875ab176728f6",
+      "dependencies": [
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:support-media-compat:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.makeramen:roundedimageview:2.3.0",
+        "io.ktor:ktor-client-android:1.1.3",
+        "me.dm7.barcodescanner:zbar:1.9.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tech.scanto.kit.ui.app.SearchResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0",
+          "3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "tech.scanto.kit.core.action.ACTION_SEARCH_RESULT_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "tech.scanto.kit.ui.camera.ScantoKitScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0",
+          "3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tech.scanto.kit.ui.web.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0",
+          "3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

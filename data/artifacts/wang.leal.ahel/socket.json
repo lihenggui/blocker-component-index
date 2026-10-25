@@ -1,0 +1,38 @@
+{
+  "coordinate": "wang.leal.ahel:socket",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T11:01:47Z",
+      "sha256": "91b527c85d51af685178fb57b0134fd0caa50d835795fec6b6e76649eb2a461e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "io.netty:netty-codec:5.0.0.Alpha2",
+        "io.netty:netty-handler:5.0.0.Alpha2",
+        "io.netty:netty-transport:5.0.0.Alpha2",
+        "io.reactivex.rxjava3:rxjava:3.0.10",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "wang.leal.ahel.socket.process.SocketService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":socket",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

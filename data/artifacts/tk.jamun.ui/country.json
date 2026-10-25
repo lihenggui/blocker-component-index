@@ -1,0 +1,35 @@
+{
+  "coordinate": "tk.jamun.ui:country",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T10:55:20Z",
+      "sha256": "f483fab4d4d7ac008dafc70b125f6c494a24b13558aa9ffd9e54b725fd8573f9",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:cardview-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "tk.jamun:volley:0.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamun.ui.country.views.PickerCountryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "coordinate": "ru.mail:auth-sdk-pub",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "11.11.0.28962": {
+      "fetchedAt": "2026-10-25T10:41:05Z",
+      "sha256": "9203178d4acad1a414422c1008549308bf780c6d7cb5b8fd34fdefedb28e6de0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.browser:browser:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.mail.auth.sdk.MailRuSdkServiceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "11.11.0.28962",
+          "11.11.0.28962"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.auth.sdk.RedirectReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "11.11.0.28962",
+          "11.11.0.28962"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

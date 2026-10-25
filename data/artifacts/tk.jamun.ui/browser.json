@@ -1,0 +1,48 @@
+{
+  "coordinate": "tk.jamun.ui:browser",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T10:55:18Z",
+      "sha256": "05d098f481a663931ae0a51753f8b2334b3600ceb25ca57e98864ee0cba03596",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:cardview-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "org.jsoup:jsoup:1.10.3",
+        "tk.jamun.ui:share:0.0.1"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:17Z",
+      "sha256": "5ec999df28d8980d233218ef36181dfb22ba59ff68bc7a35c8bdcfd9fa6a249c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:cardview-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:support-v13:28.0.0",
+        "org.jsoup:jsoup:1.12.1",
+        "tk.jamun.ui:share:0.0.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamun.ui.browser.ui.SinglePageBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

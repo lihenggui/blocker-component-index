@@ -1,0 +1,26 @@
+{
+  "coordinate": "tech.amwal.payment:core-network",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T10:52:00Z",
+      "sha256": "b9d991664fe4987235dcb1528cfa77320b7ca8dec38bca86fb416fcbacd57c46",
+      "dependencies": [
+        "com.mohamedrejeb.ksoup:ksoup-entites:0.1.3",
+        "io.insert-koin:koin-core:3.2.0",
+        "io.ktor:ktor-client-content-negotiation:2.3.3",
+        "io.ktor:ktor-client-core:2.3.3",
+        "io.ktor:ktor-client-logging:2.3.3",
+        "io.ktor:ktor-client-okhttp:2.3.3",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0",
+        "tech.amwal.payment:core-common:1.0.0",
+        "tech.amwal.payment:core-domain:1.0.0",
+        "tech.amwal.payment:core-local:1.0.0"
+      ]
+    }
+  },
+  "components": []
+}

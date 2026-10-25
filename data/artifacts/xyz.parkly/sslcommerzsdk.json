@@ -1,0 +1,140 @@
+{
+  "coordinate": "xyz.parkly:sslcommerzsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T11:03:29Z",
+      "sha256": "12da39aaadb251e29c70fb4ba020820ee95b38ff8e1e41684c48917615e5a14c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.databinding:viewbinding:7.1.2",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.1",
+        "com.google.android.material:material:1.2.1",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sslwireless.sslcommerzlibrary.view.activity.ActivityReadNFC",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sslwireless.sslcommerzlibrary.view.activity.FAQActivitySSLC",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sslwireless.sslcommerzlibrary.view.activity.MainUIActivitySSLC",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sslwireless.sslcommerzlibrary.view.activity.SSLOffersActivitySSLC",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sslwireless.sslcommerzlibrary.view.activity.SupportActivitySSLC",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sslwireless.sslcommerzlibrary.view.activity.WebViewActivitySSLC",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sslwireless.sslcommerzlibrary.view.custom.SSLSmsBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.auth.api.phone.SMS_RETRIEVE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "coordinate": "ru.mail:test",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.186-firebase-support-notify-support-v143-sdk-26": {
+      "fetchedAt": "2026-10-25T10:41:35Z",
+      "sha256": "9bbbca2ea1c0608aabb9df3818c7b153fbb60d5249d1b966950a4b1e92d8bee7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.google.dagger:dagger:2.19",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.makeramen:roundedimageview:2.3.0",
+        "ru.mail:notify-core:0.1.186-firebase-support-notify-support-v143-sdk-26"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.mail.libnotify.ui.activities.ImageAndTextActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.186-firebase-support-notify-support-v143-sdk-26",
+          "0.1.186-firebase-support-notify-support-v143-sdk-26"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.libnotify.ui.activities.NewImageAndTextActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.186-firebase-support-notify-support-v143-sdk-26",
+          "0.1.186-firebase-support-notify-support-v143-sdk-26"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.libnotify.utils.InstallReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.186-firebase-support-notify-support-v143-sdk-26",
+          "0.1.186-firebase-support-notify-support-v143-sdk-26"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INSTALL_PACKAGES",
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

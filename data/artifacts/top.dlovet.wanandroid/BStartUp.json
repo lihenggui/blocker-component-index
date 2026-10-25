@@ -1,0 +1,35 @@
+{
+  "coordinate": "top.dlovet.wanandroid:BStartUp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T10:55:45Z",
+      "sha256": "0e3ede4567281ffb0de32fd9eba8aecb91e6aa0d7fd157d501f13a55a088ceae",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lw.b.startup.cp.BStartUpContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.b-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "coordinate": "tk.jamunx.ui:country",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:32Z",
+      "sha256": "8e1f1c76052f7b1c64945adc79620e2afee54f7b01659402dbf8d4d6912ae54f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "com.android.volley:volley:1.1.1",
+        "com.google.android.material:material:1.0.0",
+        "tk.jamun:volley:0.0.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamunx.ui.country.views.PickerCountryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

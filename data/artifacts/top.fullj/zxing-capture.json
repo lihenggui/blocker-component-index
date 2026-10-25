@@ -1,0 +1,71 @@
+{
+  "coordinate": "top.fullj:zxing-capture",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T10:55:49Z",
+      "sha256": "5333fe8baa6bdcf0e546a25527b9e46b5a91201bc009b9fd7652c26b3dafccdd",
+      "dependencies": [
+        "com.google.zxing:core:3.3.3"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T10:55:49Z",
+      "sha256": "f299d5ac3b0a33a695c44e6ecc59accc96ce93d30b6f618d8cdaeb3c3eb5e793",
+      "dependencies": [
+        "com.google.zxing:core:3.3.3"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T10:55:48Z",
+      "sha256": "1aacae7e53e346666d01353ac3f56f26281509410c3a16cc701855f99ef8448f",
+      "dependencies": [
+        "com.google.zxing:core:3.5.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "top.fullj.zxing.capture.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.zxing.client.android.SCAN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "top.fullj.zxing.capture.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.zxing.client.android.SCAN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

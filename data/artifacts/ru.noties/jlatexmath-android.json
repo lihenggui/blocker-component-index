@@ -1,0 +1,53 @@
+{
+  "coordinate": "ru.noties:jlatexmath-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:41:57Z",
+      "sha256": "05ba8345d89fcbaf10105b8511295eeb88b0d8d0f26ae87f70c3b73125198400",
+      "dependencies": [
+        "com.android.support:support-annotations:27.1.1"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T10:41:56Z",
+      "sha256": "6aa196893f870d78b629c9cacca5d9a3c2c1dd5591a73e8ba2780907fcd4019c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T10:41:55Z",
+      "sha256": "08875ce3dd5a1a2438b1d8fff87213fa9213bb17adc03ca38367d63ea7d64dd4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T10:41:55Z",
+      "sha256": "7778b508867895106346e38fdfde9effbb9fec993b92ec2c7a281bcefaf89bf5",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.noties.jlatexmath.JLatexMathInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.jlatexmathinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

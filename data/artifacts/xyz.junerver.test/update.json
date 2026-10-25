@@ -1,0 +1,82 @@
+{
+  "coordinate": "xyz.junerver.test:update",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T11:03:07Z",
+      "sha256": "5b633acce2d9a888a60268abece89550913432458f3e4d3e5dba847cb843a3f7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "com.blankj:utilcodex:1.30.5",
+        "com.google.code.gson:gson:2.8.6",
+        "com.lzy.net:okgo:3.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T11:03:06Z",
+      "sha256": "5b633acce2d9a888a60268abece89550913432458f3e4d3e5dba847cb843a3f7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.7.0",
+        "com.blankj:utilcodex:1.30.5",
+        "com.google.code.gson:gson:2.8.6",
+        "com.lzy.net:okgo:3.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T11:03:05Z",
+      "sha256": "5b633acce2d9a888a60268abece89550913432458f3e4d3e5dba847cb843a3f7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.blankj:utilcodex:1.30.5",
+        "com.google.code.gson:gson:2.8.6",
+        "com.lzy.net:okgo:3.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T11:03:04Z",
+      "sha256": "5b633acce2d9a888a60268abece89550913432458f3e4d3e5dba847cb843a3f7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.blankj:utilcodex:1.30.5",
+        "com.google.code.gson:gson:2.8.6",
+        "com.lzy.net:okgo:3.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T11:03:03Z",
+      "sha256": "5b633acce2d9a888a60268abece89550913432458f3e4d3e5dba847cb843a3f7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.blankj:utilcodex:1.30.5",
+        "com.google.code.gson:gson:2.8.6",
+        "com.lzy.net:okgo:3.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "xyz.junerver.update.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

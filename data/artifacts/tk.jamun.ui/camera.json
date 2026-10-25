@@ -1,0 +1,34 @@
+{
+  "coordinate": "tk.jamun.ui:camera",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T10:55:19Z",
+      "sha256": "20f85279d82dca4521db961a3ec527ed8a9c6212ed69b7e3e8ad14af8487388a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.google.android.gms:play-services-vision:15.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamun.ui.camera.classes.ActivityCamera",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

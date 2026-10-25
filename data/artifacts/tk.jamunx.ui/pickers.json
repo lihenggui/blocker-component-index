@@ -1,0 +1,54 @@
+{
+  "coordinate": "tk.jamunx.ui:pickers",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:35Z",
+      "sha256": "d252b13714c82726a0093db09cda92ff80b1397253cf9048f8574b01e9d2fab3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "com.android.volley:volley:1.1.1",
+        "com.google.android.material:material:1.0.0",
+        "tk.jamun:volley:0.0.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamunx.ui.pickers.views.country.PickerCountryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tk.jamunx.ui.pickers.views.language.PickerLanguageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

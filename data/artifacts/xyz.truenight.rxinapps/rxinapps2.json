@@ -1,0 +1,36 @@
+{
+  "coordinate": "xyz.truenight.rxinapps:rxinapps2",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T11:03:41Z",
+      "sha256": "d9f263c8eef935560b8276af153b7e747701ff02e5945daa0f78cb5f2516a429",
+      "dependencies": [
+        "com.android.support:support-annotations:24.0.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.orhanobut:hawk:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.1.0",
+        "xyz.truenight.utils:utils:1.4.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "xyz.truenight.rxinapps.HiddenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

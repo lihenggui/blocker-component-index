@@ -1,0 +1,75 @@
+{
+  "coordinate": "uk.co.armedpineapple.innoextract:service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T10:58:21Z",
+      "sha256": "b374cce4f87fb8fa001e348e8626c5b9537732610cc5b559fdca4fc732b90198",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.documentfile:documentfile:1.0.1",
+        "com.lazygeniouz:dfc:1.0.7",
+        "joda-time:joda-time:2.12.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T10:58:20Z",
+      "sha256": "b374cce4f87fb8fa001e348e8626c5b9537732610cc5b559fdca4fc732b90198",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.documentfile:documentfile:1.0.1",
+        "com.lazygeniouz:dfc:1.0.7",
+        "joda-time:joda-time:2.12.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T10:58:19Z",
+      "sha256": "36a56e0733e60002702e94c1c98c9870808f7e624fd24dd634872b3f966c0ce3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.documentfile:documentfile:1.0.1",
+        "com.lazygeniouz:dfc:1.0.7",
+        "joda-time:joda-time:2.12.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "uk.co.armedpineapple.innoextract.service.ExtractService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "uk.co.armedpineapple.innoextract.service.LogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

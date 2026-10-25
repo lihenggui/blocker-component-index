@@ -1,0 +1,37 @@
+{
+  "coordinate": "tk.jamunx.ui:singletabbrowser",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:36Z",
+      "sha256": "9b431b469f8a9626e7d20c639472eebb0cd95c499d1bee9dcc8b4d47349356de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "org.jsoup:jsoup:1.12.1",
+        "tk.jamunx.ui:intent:0.0.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamunx.ui.browser.ui.SingleTabBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

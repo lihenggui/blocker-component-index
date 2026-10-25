@@ -1,0 +1,42 @@
+{
+  "coordinate": "tech.nimbbl.sdk:nimbbl-checkout-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T10:53:22Z",
+      "sha256": "5caa36b51ab107c1ec8bd876ab294e7369a7f1ee9a16b94365e32480e4653eb8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.fragment:fragment:1.3.1",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.facebook.react:react-native-safe-area-context:3.2.0-nimbbl-7193503",
+        "com.facebook.react:react-native-webview:11.3.1-nimbbl-7193503",
+        "com.facebook.react:react-native:0.63.4",
+        "com.loopj.android:android-async-http:1.4.9",
+        "org.webkit:android-jsc:r245459"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tech.nimbbl.checkout.sdk.NimbblCheckoutMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

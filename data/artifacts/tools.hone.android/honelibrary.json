@@ -1,0 +1,35 @@
+{
+  "coordinate": "tools.hone.android:honelibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T10:55:39Z",
+      "sha256": "2620de565eb233935449a13617582d0d9a8ab5c2814dbbd7b4319786eca78f79",
+      "dependencies": [
+        "com.android.support:appcompat-v7:22.2.0",
+        "com.fasterxml.jackson.core:jackson-databind:2.6.0-rc2",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "joda-time:joda-time:2.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tools.hone.library.views.HoneDeveloperActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

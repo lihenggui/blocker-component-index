@@ -1,0 +1,150 @@
+{
+  "coordinate": "ru.mail.libnotify:cxhub-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:38:44Z",
+      "sha256": "4cfd33136075d4a36b989ed8befee546e17dff6993970fe5810d8b1d3e326dcd",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.databinding:viewbinding:8.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "androidx.work:work-runtime:2.9.0",
+        "com.google.dagger:dagger:2.51.1",
+        "com.jakewharton:disklrucache:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "ru.mail.libnotify:cxhub-core:0.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "core.ui.notifications.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "core.utils.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "core.utils.TimeChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_DATE_CHANGED",
+        "android.intent.action.TIMEZONE_CHANGED",
+        "android.intent.action.TIME_SET"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cxhub.ui.activities.CxHubStartActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cxhub.ui.activities.ImageAndTextActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cxhub.utils.CxHubFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.cxhubprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cxhub.utils.InstallReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INSTALL_PACKAGES",
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

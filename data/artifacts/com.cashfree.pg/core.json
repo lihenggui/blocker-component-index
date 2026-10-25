@@ -2,6 +2,26 @@
   "coordinate": "com.cashfree.pg:core",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "2.1.23": {
+      "fetchedAt": "2026-10-25T11:04:34Z",
+      "sha256": "8de04c183aa2e921958992fe8c072c3d647749a7e57999311c1e25c316aa296f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.gridlayout:gridlayout:1.0.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.cashfree.pg:analytics:1.0.18",
+        "com.cashfree.pg:base:1.0.4",
+        "com.cashfree.pg:image-caching:1.0.8",
+        "com.cashfree.pg:network:1.0.6",
+        "com.google.android.gms:play-services-auth-api-phone:18.0.1",
+        "com.google.android.gms:play-services-auth:20.6.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.android.play:integrity:1.3.0",
+        "commons-io:commons-io:2.7",
+        "org.apache.commons:commons-collections4:4.4",
+        "org.apache.commons:commons-lang3:3.6"
+      ]
+    },
     "2.1.24": {
       "fetchedAt": "2026-10-23T22:58:51Z",
       "sha256": "8de04c183aa2e921958992fe8c072c3d647749a7e57999311c1e25c316aa296f",
@@ -379,7 +399,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "2.1.24",
+          "2.1.23",
           "2.6.0"
         ]
       ],
@@ -396,7 +416,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "2.1.24",
+          "2.1.23",
           "2.6.0"
         ]
       ],
@@ -447,7 +467,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "2.1.24",
+          "2.1.23",
           "2.6.0"
         ]
       ],

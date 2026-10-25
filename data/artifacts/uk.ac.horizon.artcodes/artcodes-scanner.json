@@ -1,0 +1,97 @@
+{
+  "coordinate": "uk.ac.horizon.artcodes:artcodes-scanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T10:58:12Z",
+      "sha256": "38d9422ae0fe9724cb97ea8716524fa1af933bd09d9d01d7b10665cd8a934402",
+      "dependencies": [
+        "com.android.databinding:adapters:1.1",
+        "com.android.databinding:baseLibrary:2.1.0",
+        "com.android.databinding:library:1.1",
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.google.code.gson:gson:2.6.2",
+        "com.google.guava:guava:19.0"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T10:58:11Z",
+      "sha256": "6d96dc1dce9b092aa47e02e473f2225e30b0793da530df866223ff6a90c2ebbb",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.google.code.gson:gson:2.6.2",
+        "com.google.guava:guava:19.0"
+      ]
+    },
+    "3.3.1": {
+      "fetchedAt": "2026-10-25T10:58:10Z",
+      "sha256": "9151e60470d45823a6af8284627b5eb2f1fc5f3729d32a7da236cdc3f7d898ae",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.google.code.gson:gson:2.6.2",
+        "com.google.guava:guava:19.0"
+      ]
+    },
+    "3.3.2": {
+      "fetchedAt": "2026-10-25T10:58:09Z",
+      "sha256": "00273e7e95794c95c89e62f4f014ad79381e8e095acc4e462358a3e6c6b9c3ee",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.guava:guava:19.0"
+      ]
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-25T10:58:09Z",
+      "sha256": "4c49499bca9fa4711888ed24218347e2247967560d5fc04d6732544f99291171",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.guava:guava:19.0"
+      ]
+    },
+    "3.4.1": {
+      "fetchedAt": "2026-10-25T10:58:08Z",
+      "sha256": "abf8dacac901373866c952fdfb01882fe2e4846a3ca3d7dcd6b16d8b1a241a7f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.guava:guava:19.0"
+      ]
+    },
+    "3.4.2": {
+      "fetchedAt": "2026-10-25T10:58:06Z",
+      "sha256": "c7c675a12a4a5c7ddc962af67e97ae191d8040b0e6ee6bfe6c6321ca7d53cb16",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0",
+        "com.google.code.gson:gson:2.7",
+        "com.google.guava:guava:19.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "uk.ac.horizon.artcodes.scanner.ScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0",
+          "3.4.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW",
+        "uk.ac.horizon.aestheticodes.SCAN"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

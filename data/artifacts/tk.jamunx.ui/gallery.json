@@ -1,0 +1,52 @@
+{
+  "coordinate": "tk.jamunx.ui:gallery",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:33Z",
+      "sha256": "e4ec514f1d12cb0e77e258f533111476489b04d9536b9ee649840975cfda1e7a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.google.android.material:material:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamunx.ui.gallery.classes.ActivityExploreGallery",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tk.jamunx.ui.gallery.classes.ActivityGallery",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "coordinate": "ru.mail.libnotify:libnotify-rustore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.19": {
+      "fetchedAt": "2026-10-25T10:40:12Z",
+      "sha256": "be33df884c46033d272b9c57a7b6b3e20419a9ca0076d15a601aceb11e67ce33",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.databinding:viewbinding:7.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "androidx.work:work-runtime:2.8.1",
+        "com.google.dagger:dagger:2.46.1",
+        "com.jakewharton:disklrucache:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.19"
+      ]
+    },
+    "0.2.20": {
+      "fetchedAt": "2026-10-25T10:40:11Z",
+      "sha256": "be33df884c46033d272b9c57a7b6b3e20419a9ca0076d15a601aceb11e67ce33",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.databinding:viewbinding:7.4.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "androidx.work:work-runtime:2.8.1",
+        "com.google.dagger:dagger:2.46.1",
+        "com.jakewharton:disklrucache:2.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.mail.libnotify.ui.activities.NewImageAndTextActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.libnotify.ui.activities.NotifyStartActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.libnotify.utils.InstallReferrerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INSTALL_PACKAGES",
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.libnotify.utils.NotifyInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.notifyinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.notify.core.ui.notifications.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.notify.core.utils.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.notify.core.utils.TimeChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_DATE_CHANGED",
+        "android.intent.action.TIMEZONE_CHANGED",
+        "android.intent.action.TIME_SET"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.notify.core.utils.VerificationJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.mail.notify.core.utils.VerificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.20"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

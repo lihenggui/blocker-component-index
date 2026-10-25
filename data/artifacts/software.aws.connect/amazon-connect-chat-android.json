@@ -1,0 +1,25 @@
+{
+  "coordinate": "software.aws.connect:amazon-connect-chat-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T10:50:10Z",
+      "sha256": "dc2b8549562ce1e56ae5bfb5168f748cdf26faa30bc8d95591def710db307689",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.8.4",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4",
+        "com.amazonaws:aws-android-sdk-connectparticipant:2.73.0",
+        "com.amazonaws:aws-android-sdk-core:2.73.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.3.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.1"
+      ]
+    }
+  },
+  "components": []
+}

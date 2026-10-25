@@ -1,0 +1,86 @@
+{
+  "coordinate": "vn.sohatv:SDK_Login_Lotus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-lotusking-us": {
+      "fetchedAt": "2026-10-25T11:01:23Z",
+      "sha256": "709145480c74e17ef943589566121617d650521f1740622f2c35e8c07c1b6023",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.1",
+        "com.google.android.material:material:1.2.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vcc.kingidsdk.KingIdAuthenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-lotusking-us",
+          "1.0.0-lotusking-us"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vcc.kingidsdk.KingIdGrantPassiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-lotusking-us",
+          "1.0.0-lotusking-us"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vcc.kingidsdk.KingIdGrantPassiveShareAccountActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-lotusking-us",
+          "1.0.0-lotusking-us"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vcc.kingidsdk.KingIdQuickLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-lotusking-us",
+          "1.0.0-lotusking-us"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

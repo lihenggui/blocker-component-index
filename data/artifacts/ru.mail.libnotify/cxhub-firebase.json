@@ -1,0 +1,38 @@
+{
+  "coordinate": "ru.mail.libnotify:cxhub-firebase",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:38:41Z",
+      "sha256": "d5d3eb9721cd086fa898e3704a27ff51a0a24c4a6c03abf724af7172b41bbfb8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.0",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.google.android.gms:play-services-base:18.4.0",
+        "com.google.firebase:firebase-messaging:24.0.0",
+        "ru.mail.libnotify:cxhub-core:0.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cxhub.api.CxHubFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

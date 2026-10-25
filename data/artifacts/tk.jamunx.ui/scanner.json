@@ -1,0 +1,35 @@
+{
+  "coordinate": "tk.jamunx.ui:scanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:35Z",
+      "sha256": "6f7dd266b9828a3e435029dc66788c196f113a16cb7ccc191e1d5048bf891920",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "com.google.android.gms:play-services-vision:17.0.2",
+        "com.google.android.material:material:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamunx.ui.scanner.classes.ActivityScanner",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

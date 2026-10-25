@@ -1,0 +1,96 @@
+{
+  "coordinate": "tk.jamun.ui:calendar",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T10:55:19Z",
+      "sha256": "a17b968ddeb7e784d793f771848b7e48528b070d486a24be163346e2a5694771",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:cardview-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.android.support:support-v13:27.1.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T10:55:18Z",
+      "sha256": "2bdd383516634d76694f9944b13a47227ebca6bdf916142fa361d2840f44de31",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:cardview-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.android.support:support-v13:27.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamun.ui.calendar.classes.ActivityCalenderDual",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tk.jamun.ui.calendar.classes.ActivityCalenderSingle",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tk.jamun.ui.ui.calendar.classes.ActivityCalenderDual",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tk.jamun.ui.ui.calendar.classes.ActivityCalenderSingle",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

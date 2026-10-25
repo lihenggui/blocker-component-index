@@ -1,0 +1,38 @@
+{
+  "coordinate": "ru.mail.libnotify:cxhub-huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:38:42Z",
+      "sha256": "a39707dc2fa4493fdee867bb31261fc4aa7b7ac6453412c6b413f07e0d4daaa9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.huawei.hms:ads-installreferrer:3.4.62.300",
+        "com.huawei.hms:base:6.11.0.300",
+        "com.huawei.hms:push:6.11.0.300",
+        "ru.mail.libnotify:cxhub-core:0.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cxhub.api.CxHubHmsMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

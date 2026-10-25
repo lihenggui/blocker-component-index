@@ -1,0 +1,83 @@
+{
+  "coordinate": "xyz.metakeep.sdk:lib-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-beta.1": {
+      "fetchedAt": "2026-10-25T11:03:29Z",
+      "sha256": "6a1dd5d6fe2b49caf1a8f455e2eaecfe961883d6e3ef02921a3dd95fe5b16c58",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0",
+        "co.touchlab:kermit:1.2.2",
+        "io.ktor:ktor-client-core:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.22",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.22",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    },
+    "2.0.0-beta.2": {
+      "fetchedAt": "2026-10-25T11:03:28Z",
+      "sha256": "6a1dd5d6fe2b49caf1a8f455e2eaecfe961883d6e3ef02921a3dd95fe5b16c58",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0",
+        "co.touchlab:kermit:1.2.2",
+        "io.ktor:ktor-client-core:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.22",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.22",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-25T11:03:27Z",
+      "sha256": "5fa963504308cd0acfc268d125d110c532ad37f188918c6d44f252f31b545885",
+      "dependencies": [
+        "androidx.browser:browser:1.4.0",
+        "co.touchlab:kermit:1.2.3",
+        "io.ktor:ktor-client-core:2.2.2",
+        "io.ktor:ktor-client-okhttp:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "xyz.metakeep.sdk.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0-beta.1",
+          "2.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "xyz.metakeep.sdk.RedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0-beta.1",
+          "2.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

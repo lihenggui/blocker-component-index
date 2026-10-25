@@ -1,0 +1,104 @@
+{
+  "coordinate": "ru.mail.libnotify:libnotify-platform-rustore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.19": {
+      "fetchedAt": "2026-10-25T10:40:11Z",
+      "sha256": "e7654352623ae0e04988b6f59fbd34be50d1dc880208d2745d5cb114b49319a7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.core:core-ktx:1.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.19",
+        "ru.rustore.sdk:pushclient:0.3.0"
+      ]
+    },
+    "0.2.20": {
+      "fetchedAt": "2026-10-25T10:40:10Z",
+      "sha256": "e7654352623ae0e04988b6f59fbd34be50d1dc880208d2745d5cb114b49319a7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.core:core-ktx:1.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.20",
+        "ru.rustore.sdk:pushclient:0.3.0"
+      ]
+    },
+    "0.2.21": {
+      "fetchedAt": "2026-10-25T10:40:09Z",
+      "sha256": "e7654352623ae0e04988b6f59fbd34be50d1dc880208d2745d5cb114b49319a7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.21",
+        "ru.rustore.sdk:pushclient:1.0.0"
+      ]
+    },
+    "0.2.22": {
+      "fetchedAt": "2026-10-25T10:40:08Z",
+      "sha256": "e7654352623ae0e04988b6f59fbd34be50d1dc880208d2745d5cb114b49319a7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.22",
+        "ru.rustore.sdk:pushclient:1.0.0"
+      ]
+    },
+    "0.2.23": {
+      "fetchedAt": "2026-10-25T10:40:08Z",
+      "sha256": "e7654352623ae0e04988b6f59fbd34be50d1dc880208d2745d5cb114b49319a7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.23",
+        "ru.rustore.sdk:pushclient:1.0.0"
+      ]
+    },
+    "0.2.24": {
+      "fetchedAt": "2026-10-25T10:40:06Z",
+      "sha256": "e7654352623ae0e04988b6f59fbd34be50d1dc880208d2745d5cb114b49319a7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.24",
+        "ru.rustore.sdk:pushclient:1.0.0"
+      ]
+    },
+    "0.2.25": {
+      "fetchedAt": "2026-10-25T10:40:05Z",
+      "sha256": "e7654352623ae0e04988b6f59fbd34be50d1dc880208d2745d5cb114b49319a7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+        "ru.mail.libnotify:libnotify-platform-core:0.2.25",
+        "ru.rustore.sdk:pushclient:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.mail.libnotify.api.RuStoreMessageHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.19",
+          "0.2.25"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ru.rustore.sdk.pushclient.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "coordinate": "tk.jamunx.ui:camera",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T10:55:31Z",
+      "sha256": "2de6b66834a15c767762cffe603206033792b4ec8388bd68572626c91babee83",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.legacy:legacy-support-v13:1.0.0",
+        "com.google.android.gms:play-services-vision:18.0.0",
+        "com.google.android.material:material:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamunx.ui.camera.ui.activities.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.8",
+          "0.0.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

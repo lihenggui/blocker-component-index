@@ -1,0 +1,38 @@
+{
+  "coordinate": "ru.mail.libnotify:cxhub-rustore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T10:38:43Z",
+      "sha256": "532b4940449491365d2404f6381398e0cf326d975779cffbbe9323397f475b1e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.0",
+        "androidx.core:core-ktx:1.13.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "ru.mail.libnotify:cxhub-core:0.1.0",
+        "ru.rustore.sdk:pushclient:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cxhub.api.RuStoreMessageHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ru.rustore.sdk.pushclient.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -217,6 +217,21 @@
         "com.squareup.retrofit2:retrofit:2.11.0",
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
       ]
+    },
+    "5.9.0": {
+      "fetchedAt": "2026-10-25T11:06:02Z",
+      "sha256": "18b128c0fce1b07a614f1012742af53352d70b45a519a7798b3af702e7b5b9e8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.google.dagger:dagger:2.51.1",
+        "com.google.firebase:firebase-messaging:24.1.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.squareup.retrofit2:converter-gson:2.11.0",
+        "com.squareup.retrofit2:retrofit:2.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
+      ]
     }
   },
   "components": [
@@ -245,7 +260,7 @@
       "versionRanges": [
         [
           "5.0.0",
-          "5.8.0"
+          "5.9.0"
         ]
       ],
       "exported": true,
@@ -264,7 +279,7 @@
       "versionRanges": [
         [
           "2.2.4",
-          "5.8.0"
+          "5.9.0"
         ]
       ],
       "exported": false,

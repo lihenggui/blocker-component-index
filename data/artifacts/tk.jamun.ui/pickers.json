@@ -1,0 +1,62 @@
+{
+  "coordinate": "tk.jamun.ui:pickers",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T10:55:23Z",
+      "sha256": "693ca7cb5d1b76c48d1ca2fdee056c27730e0edfb481f2a87f69a983144301fa",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:cardview-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "tk.jamun:volley:0.0.2"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T10:55:22Z",
+      "sha256": "fbc199a10e9d13ef0cdba17311e43d0d4a9b170b1df2640d42bfe304fc4b046b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:cardview-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "tk.jamun:volley:0.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tk.jamun.ui.pickers.views.country.PickerCountryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tk.jamun.ui.pickers.views.language.PickerLanguageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

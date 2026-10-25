@@ -1,0 +1,71 @@
+{
+  "coordinate": "ru.tinkoff.acquiring:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T10:44:27Z",
+      "sha256": "43c69995eea3bef58c795b85678a755b1813dd77cfc4b9547746e3eb45304956",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.github.devnied:bit-lib4j:1.4.10",
+        "io.card:android-sdk:5.2.0",
+        "org.apache.commons:commons-lang3:3.4",
+        "ru.tinkoff.acquiring:core:1.0",
+        "ru.tinkoff.core:core-nfc:3.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.card.payment.CardIOActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.card.payment.DataEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.tinkoff.acquiring.sdk.nfc.NfcCardScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}
