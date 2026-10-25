@@ -277,8 +277,8 @@ class RepositoryTests(FixtureTest):
                         {"key": "npm-local", "type": "LOCAL", "packageType": "Npm"},
                         {"key": "central-cache", "type": "REMOTE", "packageType": "Maven"}]
         client = FixtureClient({"https://art.example.org/artifactory/api/repositories": response(repositories),
-                                "https://art.example.org/sdk/": response('<a href="maven-metadata.xml">metadata</a>'),
-                                "https://art.example.org/sdk/maven-metadata.xml": response(metadata_fixture())})
+                                "https://art.example.org/artifactory/sdk/": response('<a href="maven-metadata.xml">metadata</a>'),
+                                "https://art.example.org/artifactory/sdk/maven-metadata.xml": response(metadata_fixture())})
         self.assertTrue(enumerate_artifacts(self.store, client))
         self.assertNotIn(url + "/", [target for target, _ in client.calls])
         self.assertEqual(self.store.state["artifacts"]["org.example:sdk"]["repository"], url)

@@ -252,3 +252,13 @@ class DiscoveryTests(FixtureTest):
         self.assertEqual(seeds["*"], ["org.config:explicit"])
         self.assertEqual(seeds["https://one.example.org"], ["org.dep:compile"])
         self.assertEqual(seeds["https://two.example.org"], ["org.dep:module"])
+
+    def test_given_search_rate_limit_persists_when_discovering_then_discovery_is_unfinished_not_failed(self):
+        self.store.state["discover"] = {"queue": [{"file": "build.gradle", "low": 0, "high": 1023, "page": 1, "host": ""}],
+                                        "broadCompletedAt": "2026-10-24T00:00:00Z"}
+
+        def limited(*args, **kwargs):
+            raise OSError("HTTP 429: https://api.github.com/search/code")
+        client = FixtureClient(handler=limited, token="fixture")
+        self.assertFalse(discover(self.store, client))
+        self.assertEqual(len(Store(self.root).state["discover"]["queue"]), 1)

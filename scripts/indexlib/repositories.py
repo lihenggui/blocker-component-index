@@ -17,7 +17,7 @@ from .storage import checkpointed, timestamp, valid_coordinate
 LOG = logging.getLogger(__name__)
 CENTRAL = BUILTINS[1]
 # Directory listings can expose huge non-Android trees; bound the crawl per repository and cycle.
-LISTING_LIMIT = 2000
+LISTING_LIMIT = 500
 # Within one cycle a URL is enumerated once; new repositories and seeds still run on every invocation.
 CYCLE_SECONDS = 7 * 86400
 
@@ -77,7 +77,8 @@ def listing_roots(repository, client):
     current = next((item for item in repositories if isinstance(item, dict) and item.get("key") == name), None)
     if not current or current.get("type") == "LOCAL":
         return [repository + "/"]
-    local = sorted(origin + "/" + item["key"] + "/" for item in repositories if isinstance(item, dict) and item.get("key")
+    # The canonical /artifactory/<key>/ path; some front ends route bare /<key>/ back to the virtual repository.
+    local = sorted(origin + "/artifactory/" + item["key"] + "/" for item in repositories if isinstance(item, dict) and item.get("key")
                    and item.get("type") == "LOCAL" and item.get("packageType", "Maven").lower() == "maven")
     return local or [repository + "/"]
 
