@@ -1,0 +1,37 @@
+{
+  "coordinate": "im.zego:zego_uikit_signaling_plugin_android",
+  "repository": "https://storage.zego.im/maven",
+  "versions": {
+    "3.0.3": {
+      "fetchedAt": "2026-10-25T21:03:12Z",
+      "sha256": "cec64b4477ea8fdf7e31793ecfff20c17010b5c0f898b1846f1db228f33cf0a4",
+      "dependencies": [
+        "im.zego:uikitreport:0.5.1",
+        "im.zego:zego_uikit_plugin_adapter_android:+",
+        "im.zego:zim:2.21.1",
+        "im.zego:zpns:2.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zegocloud.uikit.plugin.signaling.ZegoZPNsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.3",
+          "3.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "im.zego.zim.zpns.intent.action.MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.salesforce.android.agentforcesdk:agentforce-sdk-voice",
+  "repository": "https://opensource.salesforce.com/AgentforceMobileSDK-Android/agentforce-sdk-repository",
+  "versions": {
+    "15.195.3": {
+      "fetchedAt": "2026-10-25T20:38:33Z",
+      "sha256": "a202c7379a5e8f3f511111205812de730df2fbf0648a2ca9749e95f0134e1755",
+      "dependencies": [
+        "com.salesforce.service:messaging-inapp-multimedia-core:1.11.0",
+        "io.livekit:livekit-android:2.23.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.salesforce.android.agentforcesdkvoice.telecom.EmployeeAgentVoiceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "15.195.3",
+          "15.195.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

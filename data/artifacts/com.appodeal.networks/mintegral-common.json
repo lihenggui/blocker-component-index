@@ -1,0 +1,42 @@
+{
+  "coordinate": "com.appodeal.networks:mintegral-common",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "9.8.0": {
+      "fetchedAt": "2026-10-25T18:29:43Z",
+      "sha256": "eec71910431e97235a5f9636c22dc4569494cb115b7d8793141ff3984886fe96",
+      "dependencies": []
+    },
+    "9.11.01": {
+      "fetchedAt": "2026-10-25T18:29:41Z",
+      "sha256": "047ec0e981bb1b9b32587db2d055828a9e39438bcd20b50505943abc22f265a1",
+      "dependencies": []
+    },
+    "9.13.21": {
+      "fetchedAt": "2026-10-25T18:29:38Z",
+      "sha256": "af25a45535137dc375a747013a01505f53806f2317617dc3b001356306bb59cf",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.mintegral.msdk.base.utils.MTGFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.8.0",
+          "9.13.21"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mtgFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

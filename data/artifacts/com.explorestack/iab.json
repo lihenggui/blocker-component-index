@@ -1,0 +1,162 @@
+{
+  "coordinate": "com.explorestack:iab",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "1.6.2": {
+      "fetchedAt": "2026-10-25T18:57:54Z",
+      "sha256": "14f1b2012ecbda885698446d3e4a75dfdfe175ff30145f2b131f7dda36a5f901",
+      "dependencies": []
+    },
+    "1.6.3": {
+      "fetchedAt": "2026-10-25T18:57:51Z",
+      "sha256": "268bc5675340d039d1016c899c6f4d1275e0a92b2b74f0ffc10dd6ef33e77a32",
+      "dependencies": []
+    },
+    "1.6.4": {
+      "fetchedAt": "2026-10-25T18:57:49Z",
+      "sha256": "bbbaa8883a9db83c8b75e5a5fe222046063102baed30f34e320272b27d40804e",
+      "dependencies": []
+    },
+    "1.6.5": {
+      "fetchedAt": "2026-10-25T18:57:46Z",
+      "sha256": "9e539820e186cd7677b633dec84dd9fe78d7f8efe8af682912983a9cd54e1ce3",
+      "dependencies": []
+    },
+    "1.6.6": {
+      "fetchedAt": "2026-10-25T18:57:44Z",
+      "sha256": "78cd55fb6b3bfdc5951894e6c70f897f60feab33e67bd78f29ea246ea85b7c13",
+      "dependencies": []
+    },
+    "1.6.7": {
+      "fetchedAt": "2026-10-25T18:57:41Z",
+      "sha256": "065660ee86265e5aad7a4e3c694779fa77f6c32de9797ca8a5595ab3681796b3",
+      "dependencies": []
+    },
+    "1.6.8": {
+      "fetchedAt": "2026-10-25T18:57:39Z",
+      "sha256": "08ae94179d77372da936a08b62ce8268852980884ad571d6753cac043a94ccae",
+      "dependencies": []
+    },
+    "1.6.9": {
+      "fetchedAt": "2026-10-25T18:57:36Z",
+      "sha256": "b9408118676ba547ec46d9b3b1fec0754ef67adbcd5385ae9c4463a1b9b9c88d",
+      "dependencies": []
+    },
+    "1.6.10": {
+      "fetchedAt": "2026-10-25T18:57:34Z",
+      "sha256": "37f192396b9d6bd608589dd3cd76a4877b199be8eea2e3e789652d76a1bee98f",
+      "dependencies": []
+    },
+    "1.6.11": {
+      "fetchedAt": "2026-10-25T18:57:32Z",
+      "sha256": "7c145e58b10cd75bef3fc8055f9074de429208a8b9dd1db97713ed284e4745f0",
+      "dependencies": []
+    },
+    "1.6.12": {
+      "fetchedAt": "2026-10-25T18:57:29Z",
+      "sha256": "02f302de8f9085c44152216d282215744de0e5ec290e69c72b1a2c54bad4843c",
+      "dependencies": []
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-25T18:57:27Z",
+      "sha256": "087dca86d31a29aac17a2df9c6310fecf2c091469b4ffd3cc2514c7c60768167",
+      "dependencies": []
+    },
+    "1.8.0": {
+      "fetchedAt": "2026-10-25T18:57:24Z",
+      "sha256": "69abb1406aa365d435b27352f6fe5619b6b7db644387cd1f46c3a08cdeb52276",
+      "dependencies": []
+    },
+    "1.8.1": {
+      "fetchedAt": "2026-10-25T18:57:22Z",
+      "sha256": "a27acc2c4ed5d3c2ade10afd2e40a35df224b3479910e764e79eda55442249d7",
+      "dependencies": []
+    },
+    "1.9.0": {
+      "fetchedAt": "2026-10-25T18:57:19Z",
+      "sha256": "a16404b7972f4650cf5dfdd38ec5d3ddf9e7cc05d7a2dd920a1638816c7d303a",
+      "dependencies": []
+    },
+    "1.9.1": {
+      "fetchedAt": "2026-10-25T18:57:17Z",
+      "sha256": "8c5d521ee76ebbcb2a83f2c48abe7247d389d133f794d5115d6fec0eac82f21a",
+      "dependencies": []
+    },
+    "1.10.0": {
+      "fetchedAt": "2026-10-25T18:57:15Z",
+      "sha256": "ae7937cc89f04d76739fcce7e571176090ae510a1d92a37c2968ed8b0710d44b",
+      "dependencies": []
+    },
+    "1.11.0": {
+      "fetchedAt": "2026-10-25T18:57:12Z",
+      "sha256": "191e9e26e1a075afaa17f13b3ce3d1d31c500bb53cfa1ea93f5e71e49f354cf7",
+      "dependencies": []
+    },
+    "1.11.1": {
+      "fetchedAt": "2026-10-25T18:57:10Z",
+      "sha256": "96a7ff88f44d22024c59cc287f7067b18c490641395076ef4c5d109cca34941d",
+      "dependencies": []
+    },
+    "1.12.0": {
+      "fetchedAt": "2026-10-25T18:57:07Z",
+      "sha256": "0dd6e1d50d7d56c76fddc2c2cf0e439f1257bc50b3e40e66274212c262dbc76d",
+      "dependencies": [
+        "io.bidmachine.util:app-intents:0.2.0",
+        "io.bidmachine.util:general-util:0.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.explorestack.iab.mraid.MraidActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.2",
+          "1.12.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.explorestack.iab.mraid.MraidDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.2",
+          "1.11.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.explorestack.iab.vast.activity.VastActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.2",
+          "1.12.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

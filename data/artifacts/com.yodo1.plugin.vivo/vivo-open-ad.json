@@ -11,16 +11,72 @@
       "fetchedAt": "2026-10-25T02:36:06Z",
       "sha256": "e30b5af8f22f7675f71ea4274c7c0db4e9c29fe0ab1d2c4878a2b8e8b81dd9af",
       "dependencies": []
+    },
+    "6.2.7.4": {
+      "fetchedAt": "2026-10-25T20:53:08Z",
+      "sha256": "60413f9d2fa9738dfaf3c37dcf01a88c16bc724be773b1869f147217e327f432",
+      "dependencies": []
     }
   },
   "components": [
+    {
+      "name": "com.vivo.adloadsdk.activity.SingleInstanceContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.adloadsdk.activity.SingleTaskContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.adloadsdk.activity.StandardContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
     {
       "name": "com.vivo.ic.dm.DownloadProvider",
       "type": "provider",
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -37,7 +93,7 @@
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -54,7 +110,7 @@
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -71,7 +127,7 @@
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -88,7 +144,7 @@
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -102,12 +158,131 @@
       ]
     },
     {
+      "name": "com.vivo.mobilead.proxy.activity.SingleInstanceContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.proxy.activity.SingleTaskContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.proxy.activity.SingleTopContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.proxy.activity.StandardContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.proxy.activity.StandardContainerActivity01",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.proxy.activity.StandardContainerActivity02",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.proxy.activity.StandardContainerActivity03",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.7.4",
+          "6.2.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.vivo.mobilead.unified.interstitial.InterstitialActivity",
       "type": "activity",
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -124,7 +299,7 @@
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -141,7 +316,7 @@
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -158,7 +333,7 @@
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -175,7 +350,7 @@
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -192,7 +367,7 @@
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -209,7 +384,7 @@
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -226,7 +401,7 @@
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -243,7 +418,7 @@
       "versionRanges": [
         [
           "6.1.0.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": false,
@@ -260,7 +435,7 @@
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": null,
@@ -277,7 +452,7 @@
       "versionRanges": [
         [
           "6.2.5.0",
-          "6.2.5.0"
+          "6.2.7.4"
         ]
       ],
       "exported": null,

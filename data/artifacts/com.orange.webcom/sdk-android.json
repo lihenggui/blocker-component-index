@@ -250,6 +250,18 @@
         "org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.1.0",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
       ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T19:43:52Z",
+      "sha256": "740d239257bc007f2776f3e6b7da91c1fd80603c042bb38f03801c4a00028535",
+      "dependencies": [
+        "androidx.annotation:annotation:1.10.0",
+        "androidx.browser:browser:1.10.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+        "androidx.multidex:multidex:2.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0"
+      ]
     }
   },
   "components": [
@@ -259,7 +271,7 @@
       "versionRanges": [
         [
           "2.0.5",
-          "2.3.14"
+          "2.4.0"
         ]
       ],
       "exported": false,
@@ -276,7 +288,7 @@
       "versionRanges": [
         [
           "2.0.5",
-          "2.3.14"
+          "2.4.0"
         ]
       ],
       "exported": true,
@@ -298,7 +310,7 @@
       "versionRanges": [
         [
           "2.0.5",
-          "2.3.14"
+          "2.4.0"
         ]
       ],
       "exported": false,

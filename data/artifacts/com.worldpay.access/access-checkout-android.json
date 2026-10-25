@@ -192,6 +192,18 @@
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
       ]
+    },
+    "5.0.0": {
+      "fetchedAt": "2026-10-25T20:51:03Z",
+      "sha256": "c4036ff5736e58f8b564308ce8be7371516dddc7a117bc2d01b3726852d9b60c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.21",
+        "org.jetbrains.kotlin:kotlin-reflect:2.1.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
+      ]
     }
   },
   "components": [
@@ -235,7 +247,7 @@
       "versionRanges": [
         [
           "2.0.0",
-          "4.2.1"
+          "5.0.0"
         ]
       ],
       "exported": false,
@@ -252,7 +264,7 @@
       "versionRanges": [
         [
           "2.0.0",
-          "4.2.1"
+          "5.0.0"
         ]
       ],
       "exported": false,

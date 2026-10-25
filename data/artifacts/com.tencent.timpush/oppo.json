@@ -186,6 +186,16 @@
         "com.tencent.timpush:oppo-vendor:3.5.4",
         "commons-codec:commons-codec:1.6"
       ]
+    },
+    "9.1.7754": {
+      "fetchedAt": "2026-10-25T20:47:19Z",
+      "sha256": "815dd0113573ba35db2dca42674a0361a7ccd5ffad825100edb9d5347f53f26a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.tencent.timpush:oppo-vendor:3.5.4",
+        "commons-codec:commons-codec:1.6"
+      ]
     }
   },
   "components": [
@@ -234,7 +244,7 @@
       "versionRanges": [
         [
           "8.1.6109",
-          "9.1.7753-beta02"
+          "9.1.7754"
         ]
       ],
       "exported": true,
@@ -253,7 +263,7 @@
       "versionRanges": [
         [
           "8.1.6109",
-          "9.1.7753-beta02"
+          "9.1.7754"
         ]
       ],
       "exported": true,
@@ -274,6 +284,10 @@
         [
           "8.0.6897",
           "9.0.7652"
+        ],
+        [
+          "9.1.7754",
+          "9.1.7754"
         ]
       ],
       "exported": false,

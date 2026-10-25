@@ -267,6 +267,20 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
         "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2"
       ]
+    },
+    "0.8.4-alpha": {
+      "fetchedAt": "2026-10-25T19:08:28Z",
+      "sha256": "92f315b0821cacce0666f327e5d2f7f0b33c220fa98b78c03ef87fca4fe28715",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.wear:wear-remote-interactions:1.2.0",
+        "com.google.android.gms:play-services-wearable:20.0.1",
+        "com.google.android.horologist:horologist-annotations:0.8.4-alpha",
+        "com.google.android.horologist:horologist-datalayer:0.8.4-alpha",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.11.0"
+      ]
     }
   },
   "components": [
@@ -276,7 +290,7 @@
       "versionRanges": [
         [
           "0.7.1-alpha",
-          "0.8.3-alpha"
+          "0.8.4-alpha"
         ]
       ],
       "exported": true,

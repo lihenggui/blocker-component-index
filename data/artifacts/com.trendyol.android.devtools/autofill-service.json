@@ -41,6 +41,24 @@
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
       ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T20:50:12Z",
+      "sha256": "b96bbd8238b49ffecb2cf2eeb48ab1659fc1d5f1339cdf3518e98586610f6ac6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.databinding:viewbinding:8.10.1",
+        "androidx.fragment:fragment-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.preference:preference-ktx:1.2.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.9.0",
+        "com.squareup.moshi:moshi-kotlin:1.14.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
     }
   },
   "components": [
@@ -50,7 +68,7 @@
       "versionRanges": [
         [
           "0.2.0",
-          "0.2.0"
+          "0.3.0"
         ]
       ],
       "exported": null,

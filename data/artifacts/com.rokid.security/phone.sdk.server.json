@@ -1,0 +1,101 @@
+{
+  "coordinate": "com.rokid.security:phone.sdk.server",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "2.1.6-E": {
+      "fetchedAt": "2026-10-25T20:35:32Z",
+      "sha256": "3346983d9528f9eca60f18c07e65cc35a789d16608ed305e299730de69d79004",
+      "dependencies": []
+    },
+    "2.1.7-E": {
+      "fetchedAt": "2026-10-25T20:35:28Z",
+      "sha256": "3346983d9528f9eca60f18c07e65cc35a789d16608ed305e299730de69d79004",
+      "dependencies": []
+    },
+    "2.1.8-E": {
+      "fetchedAt": "2026-10-25T20:35:24Z",
+      "sha256": "3346983d9528f9eca60f18c07e65cc35a789d16608ed305e299730de69d79004",
+      "dependencies": []
+    },
+    "2.1.9-E": {
+      "fetchedAt": "2026-10-25T20:35:21Z",
+      "sha256": "3346983d9528f9eca60f18c07e65cc35a789d16608ed305e299730de69d79004",
+      "dependencies": []
+    },
+    "2.2.0-E": {
+      "fetchedAt": "2026-10-25T20:35:16Z",
+      "sha256": "3346983d9528f9eca60f18c07e65cc35a789d16608ed305e299730de69d79004",
+      "dependencies": []
+    },
+    "2.2.2-E": {
+      "fetchedAt": "2026-10-25T20:35:12Z",
+      "sha256": "3346983d9528f9eca60f18c07e65cc35a789d16608ed305e299730de69d79004",
+      "dependencies": []
+    },
+    "2.4.3-Coustom-P": {
+      "fetchedAt": "2026-10-25T20:35:08Z",
+      "sha256": "2096b7672890f4ce80885a10e3c542c8ebca62b770079f630e63a2b5f3ee7a5d",
+      "dependencies": []
+    },
+    "2.5.1-P": {
+      "fetchedAt": "2026-10-25T20:35:05Z",
+      "sha256": "2096b7672890f4ce80885a10e3c542c8ebca62b770079f630e63a2b5f3ee7a5d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.6-E",
+          "2.5.1-P"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.rokid.security.phone.sdk.server.RKMobileCoreProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.6-E",
+          "2.5.1-P"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.security.core.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.security.phone.sdk.server.inspection.InspectBoll",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.6-E",
+          "2.2.2-E"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.bidmachine:ads-test",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "1.7.2": {
+      "fetchedAt": "2026-10-25T21:07:22Z",
+      "sha256": "a25b237c117c1c93ddd6760bb87b4ed49620df1ff3b3ffa8c5aecc979cf7dd87",
+      "dependencies": [
+        "com.explorestack:iab:0.9.1",
+        "io.bidmachine.libs:omsdk:1.3.15",
+        "io.bidmachine:protobuf-models:1.1.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.bidmachine.nativead.view.VideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.7.2",
+          "1.7.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

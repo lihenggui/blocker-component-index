@@ -235,6 +235,19 @@
         "com.pingidentity.sdks:logger:2.2.0",
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
       ]
+    },
+    "2.3.0-beta1": {
+      "fetchedAt": "2026-10-25T19:44:07Z",
+      "sha256": "3800698e2f30e95bdbf81b36fd9a1e9423e90e831eb49fa3d562da4baa9c1cd7",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.10.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.browser:browser:1.9.0",
+        "androidx.core:core-ktx:1.17.0",
+        "com.pingidentity.sdks:android:2.3.0-beta1",
+        "com.pingidentity.sdks:logger:2.3.0-beta1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
+      ]
     }
   },
   "components": [
@@ -244,7 +257,7 @@
       "versionRanges": [
         [
           "1.1.0",
-          "2.2.0"
+          "2.3.0-beta1"
         ]
       ],
       "exported": false,
@@ -261,7 +274,7 @@
       "versionRanges": [
         [
           "1.1.0",
-          "2.2.0"
+          "2.3.0-beta1"
         ]
       ],
       "exported": true,

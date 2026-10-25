@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.mjdy.ad:klevin",
+  "repository": "https://maven.7nc.top/repository/mjdy",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T19:35:41Z",
+      "sha256": "af41e7cd3f2a5b8c68ee38b26e82fcdbb26b1b38772a23e0c0f2e07aa6760c5f",
+      "dependencies": [
+        "com.tencent:klevin:2.3.0.17"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.klevin.utils.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.klevin.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -216,6 +216,16 @@
         "com.stripe:stripeterminal-internal-common:5.8.2",
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
       ]
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-25T20:44:00Z",
+      "sha256": "000ac80cd05c97a15f30821d1f041eea3c62505abd54263f72dad48e3be66ac1",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "com.stripe:stripeterminal-external:6.0.0",
+        "com.stripe:stripeterminal-internal-common:6.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.21"
+      ]
     }
   },
   "components": [
@@ -225,7 +235,7 @@
       "versionRanges": [
         [
           "4.5.0",
-          "5.8.2"
+          "6.0.0"
         ]
       ],
       "exported": false,

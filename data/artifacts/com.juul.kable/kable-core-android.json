@@ -301,6 +301,21 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0",
         "org.jetbrains.kotlinx:kotlinx-io-core:0.9.1"
       ]
+    },
+    "0.45.0": {
+      "fetchedAt": "2026-10-25T19:24:00Z",
+      "sha256": "a65b04c3303c0955074c2037c7913c899012a420575a7721256720ec2ec421c2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.juul.tuulbox:coroutines:8.1.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.4.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.10",
+        "org.jetbrains.kotlinx:atomicfu:0.33.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-io-core:0.9.1"
+      ]
     }
   },
   "components": [
@@ -310,7 +325,7 @@
       "versionRanges": [
         [
           "0.36.1",
-          "0.44.3"
+          "0.45.0"
         ]
       ],
       "exported": false,

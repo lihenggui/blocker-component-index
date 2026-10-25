@@ -1,0 +1,603 @@
+{
+  "coordinate": "com.rokid.rtc:meeting-android-xgwj",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.4.20": {
+      "fetchedAt": "2026-10-25T20:27:17Z",
+      "sha256": "8c38a5b16657ed6738b3e1001a730c75f2a768640af2203c04a28585230a5f6e",
+      "dependencies": []
+    },
+    "1.4.21": {
+      "fetchedAt": "2026-10-25T20:27:14Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.22": {
+      "fetchedAt": "2026-10-25T20:27:10Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.23": {
+      "fetchedAt": "2026-10-25T20:27:06Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.24": {
+      "fetchedAt": "2026-10-25T20:27:02Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.26": {
+      "fetchedAt": "2026-10-25T20:26:58Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.27": {
+      "fetchedAt": "2026-10-25T20:26:53Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.28": {
+      "fetchedAt": "2026-10-25T20:26:49Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.29": {
+      "fetchedAt": "2026-10-25T20:26:46Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.30": {
+      "fetchedAt": "2026-10-25T20:26:42Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.31": {
+      "fetchedAt": "2026-10-25T20:26:38Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.32": {
+      "fetchedAt": "2026-10-25T20:26:34Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.33": {
+      "fetchedAt": "2026-10-25T20:26:30Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.34": {
+      "fetchedAt": "2026-10-25T20:26:26Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.35": {
+      "fetchedAt": "2026-10-25T20:26:22Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.36": {
+      "fetchedAt": "2026-10-25T20:26:18Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.37": {
+      "fetchedAt": "2026-10-25T20:26:14Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.38": {
+      "fetchedAt": "2026-10-25T20:26:10Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.4.39": {
+      "fetchedAt": "2026-10-25T20:26:06Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T20:26:02Z",
+      "sha256": "39cf7ab48793a6b080372ef52167bec5b678e3e19301176a64dbadadcbbb3dfd",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.OneStreamShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.chat.MeetingChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.config.RKMeetingConfigActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.detail.RKCameraDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.doodle.RKDoodleShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.file.RkMeetingFileExploreActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.incoming.RKIncomingCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.incoming.RKReceiveCallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.join.MeetingTakePartInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.member.RKMemberManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.play.ImagePreviewAbility",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.play.MediaPlayerAbility",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.rejoin.RKRejoinMeetingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.room.FloatVideoWindowService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.room.RKRoomActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.service.ARCheckService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": true,
+      "process": ".ARCheckService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.slam.RKSlamActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.test.TestSmallSizePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.ui.ContactDetailListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.ui.ContactListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.ui.HistoryOrderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.ui.OrderListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.ui.ServerRatingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.ui.ServerRatingResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.ui.VideoPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.videocontrol.VideoControlActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.videopoint.VideoPointActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.webrtc.RKMediaProjectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.20",
+          "1.5.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

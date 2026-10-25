@@ -728,6 +728,42 @@
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0",
         "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.5.0"
       ]
+    },
+    "2.15.6": {
+      "fetchedAt": "2026-10-25T20:50:16Z",
+      "sha256": "d41a12bfa5b35d20bb2999611144aa7cc61493d305e82d1e3712e202811c4fc6",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.0",
+        "androidx.camera:camera-camera2:1.4.2",
+        "androidx.camera:camera-core:1.4.2",
+        "androidx.camera:camera-lifecycle:1.4.2",
+        "androidx.camera:camera-view:1.4.2",
+        "androidx.compose.foundation:foundation:1.5.3",
+        "androidx.compose.material:material:1.5.3",
+        "androidx.compose.runtime:runtime-livedata:1.5.3",
+        "androidx.compose.ui:ui-tooling-preview:1.5.3",
+        "androidx.constraintlayout:constraintlayout-compose:1.0.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1",
+        "androidx.navigation:navigation-compose:2.7.5",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.airbnb.android:lottie-compose:6.6.9",
+        "com.connectrpc:connect-kotlin-google-javalite-ext:0.6.1",
+        "com.connectrpc:connect-kotlin-okhttp:0.6.1",
+        "com.google.accompanist:accompanist-permissions:0.34.0",
+        "com.google.protobuf:protobuf-javalite:4.28.2",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "io.ktor:ktor-client-content-negotiation:2.3.3",
+        "io.ktor:ktor-client-core:2.3.3",
+        "io.ktor:ktor-client-logging:2.3.3",
+        "io.ktor:ktor-client-okhttp:2.3.3",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.5.0"
+      ]
     }
   },
   "components": [
@@ -737,7 +773,7 @@
       "versionRanges": [
         [
           "2.0.0",
-          "2.15.4"
+          "2.15.6"
         ]
       ],
       "exported": false,
@@ -756,7 +792,7 @@
       "versionRanges": [
         [
           "2.2.0",
-          "2.15.4"
+          "2.15.6"
         ]
       ],
       "exported": null,

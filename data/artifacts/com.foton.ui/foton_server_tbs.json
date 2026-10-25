@@ -1,0 +1,30 @@
+{
+  "coordinate": "com.foton.ui:foton_server_tbs",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T19:02:39Z",
+      "sha256": "ecec055f5dc3ddcae065a7fcf366c112c2356d1f46909c7566fde4bd90e6e275",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.tbs.one.optional.TBSOneStandaloneService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":standalone",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

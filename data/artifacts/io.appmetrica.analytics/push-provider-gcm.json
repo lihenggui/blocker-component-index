@@ -21,6 +21,16 @@
         "io.appmetrica.analytics:push-provider-api:4.2.1",
         "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
       ]
+    },
+    "4.3.0": {
+      "fetchedAt": "2026-10-25T21:03:28Z",
+      "sha256": "2a2765de1ab5d5ad7d02c2762881f6bf7a12aafe1c8c082085b94da380fe455c",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.3.0",
+        "io.appmetrica.analytics:push-logger:4.3.0",
+        "io.appmetrica.analytics:push-provider-api:4.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
+      ]
     }
   },
   "components": [
@@ -30,7 +40,7 @@
       "versionRanges": [
         [
           "4.1.1",
-          "4.2.1"
+          "4.3.0"
         ]
       ],
       "exported": true,
@@ -52,7 +62,7 @@
       "versionRanges": [
         [
           "4.1.1",
-          "4.2.1"
+          "4.3.0"
         ]
       ],
       "exported": false,
@@ -71,7 +81,7 @@
       "versionRanges": [
         [
           "4.1.1",
-          "4.2.1"
+          "4.3.0"
         ]
       ],
       "exported": false,

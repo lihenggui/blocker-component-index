@@ -1,0 +1,108 @@
+{
+  "coordinate": "com.rokid.filereader2:rkfilereader",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T20:00:17Z",
+      "sha256": "e3f033311ac5a475bd6c8ab7dceb4e756ef7bd55ea291506520cdcd106d2c822",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.5.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.material:material:1.0.0",
+        "com.rokid.filereader:pdfviewer:1.0.X-20211102.101405-2",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.player:rkplayer:1.0.9",
+        "com.rokid.utils:rkutils:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T20:00:13Z",
+      "sha256": "e3f033311ac5a475bd6c8ab7dceb4e756ef7bd55ea291506520cdcd106d2c822",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.5.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.google.android.material:material:1.0.0",
+        "com.rokid.filereader2:pdfviewer:1.0.0",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.player:rkplayer:1.0.9",
+        "com.rokid.utils:rkutils:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.rkfilereader.activity.AudioActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.rkfilereader.activity.PdfActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.rkfilereader.activity.PhotoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.rkfilereader.activity.VideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

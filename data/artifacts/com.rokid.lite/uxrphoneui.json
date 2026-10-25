@@ -1,0 +1,53 @@
+{
+  "coordinate": "com.rokid.lite:uxrphoneui",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T20:05:23Z",
+      "sha256": "7fd5ceb0b258f9cefa8e4ac7a82200640859c563d767ce1e12dada5e9d1f5e40",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.afollestad.material-dialogs:core:3.3.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.google.android.material:material:1.0.0",
+        "com.rokid.lite.bridge:unity-bridge:0.0.5-20230725.062016-1",
+        "com.rokid.lite.rlog:rlog:0.0.1-20230720.073501-1",
+        "com.rokid.lite:qrcode:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T20:05:17Z",
+      "sha256": "7fd5ceb0b258f9cefa8e4ac7a82200640859c563d767ce1e12dada5e9d1f5e40",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.afollestad.material-dialogs:core:3.3.0",
+        "com.blankj:utilcodex:1.31.1",
+        "com.google.android.material:material:1.0.0",
+        "com.rokid.lite.bridge:unity-bridge:0.0.5-20230725.062016-1",
+        "com.rokid.lite.rlog:rlog:0.0.1-20230720.073501-1",
+        "com.rokid.lite:qrcode:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.uxrphoneui.ScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

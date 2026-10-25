@@ -1,0 +1,241 @@
+{
+  "coordinate": "com.appodeal.networks:ogury",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "3.0.22": {
+      "fetchedAt": "2026-10-25T18:30:39Z",
+      "sha256": "fcd272cde4bec3e964a81f73321f6847855aad3dc00a8e631c40f51849d705e5",
+      "dependencies": []
+    },
+    "3.0.36": {
+      "fetchedAt": "2026-10-25T18:30:36Z",
+      "sha256": "513bc59cd0c02e3766a9abc3d1461cbbe2bf6347d58af3d170cfd4cb0ee5752c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "io.presage.EulaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.PSD",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.36"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.common.profig.schedule.ProfigAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.common.profig.schedule.ProfigJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.36"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.common.profig.schedule.ProfigSyncIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.36"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.22"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.InterstitialAndroid8RotableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.22"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.InterstitialAndroid8TransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.22"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.ui.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.36",
+          "3.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.ui.InterstitialAndroid8RotableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.36",
+          "3.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.ui.InterstitialAndroid8TransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.36",
+          "3.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.mraid.browser.ShortcutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.receiver.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.22",
+          "3.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

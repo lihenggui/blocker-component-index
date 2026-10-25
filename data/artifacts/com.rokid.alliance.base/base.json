@@ -1,0 +1,67 @@
+{
+  "coordinate": "com.rokid.alliance.base:base",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.1.11": {
+      "fetchedAt": "2026-10-25T19:47:18Z",
+      "sha256": "1bb20269a73176f87c03d3663c379f8a3ea1e13d7b5573ab5387b0ec5f492272",
+      "dependencies": [
+        "android.arch.lifecycle:livedata:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.android.support:support-compat:28.0.0",
+        "com.rokid.alliance:utils:2.1.1"
+      ]
+    },
+    "1.1.12": {
+      "fetchedAt": "2026-10-25T19:47:12Z",
+      "sha256": "9fdf4070f76d499f406e71b2601779ca80b34d203bc1ae64658a3aba161963cd",
+      "dependencies": [
+        "android.arch.lifecycle:livedata:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.android.support:support-compat:28.0.0",
+        "com.rokid.alliance:utils:2.1.1"
+      ]
+    },
+    "1.1.13": {
+      "fetchedAt": "2026-10-25T19:47:08Z",
+      "sha256": "9fdf4070f76d499f406e71b2601779ca80b34d203bc1ae64658a3aba161963cd",
+      "dependencies": [
+        "android.arch.lifecycle:livedata:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.android.support:support-compat:28.0.0",
+        "com.rokid.logger:rklogger:1.0.5",
+        "com.rokid.utils:rkutils:1.0.1"
+      ]
+    },
+    "1.1.14": {
+      "fetchedAt": "2026-10-25T19:47:04Z",
+      "sha256": "e62dc11fbfb592ff6c89878266396fb5eebcd019a22840b8a630cc9b2741f14b",
+      "dependencies": [
+        "android.arch.lifecycle:livedata:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.android.support:support-compat:28.0.0",
+        "com.rokid.logger:rklogger:1.0.5",
+        "com.rokid.utils:rkutils:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.alliance.base.music.MusicPlayService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.11",
+          "1.1.14"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

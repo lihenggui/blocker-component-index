@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.huawei.hms:scan",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "2.15.0.301": {
+      "fetchedAt": "2026-10-25T19:18:43Z",
+      "sha256": "7c531eefa6b92aa923f5ad560a2da0ed6c38ebd9b76006e914e7bfc5111b96a5",
+      "dependencies": [
+        "com.huawei.agconnect:agconnect-core:1.9.4.300",
+        "com.huawei.hmf:tasks:1.5.2.301",
+        "com.huawei.hms:dynamic-api:1.0.25.300",
+        "com.huawei.hms:hatool:6.13.0.303",
+        "com.huawei.hms:ml-computer-sdkbase-inner:3.11.0.301",
+        "com.huawei.hms:network-embedded:8.0.1.316",
+        "com.huawei.hms:network-grs:8.0.1.316"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.hmsscankit.ScanKitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.15.0.301",
+          "2.15.0.301"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

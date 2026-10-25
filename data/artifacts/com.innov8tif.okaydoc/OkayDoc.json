@@ -133,6 +133,28 @@
         "org.tensorflow:tensorflow-lite-support:0.0.0-nightly-SNAPSHOT",
         "org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT"
       ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T19:20:22Z",
+      "sha256": "084c64a5fc302e1e0be428fb7d5d188a2cef2746c77383c97066ded03db8e88d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.navigation:navigation-fragment:2.2.2",
+        "androidx.navigation:navigation-ui:2.2.2",
+        "com.google.android.material:material:1.1.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.retrofit2:converter-gson:2.8.1",
+        "com.squareup.retrofit2:retrofit:2.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0",
+        "org.pytorch:pytorch_android:1.8.0",
+        "org.pytorch:pytorch_android_torchvision:1.8.0",
+        "org.tensorflow:tensorflow-lite-gpu:1.15.0",
+        "org.tensorflow:tensorflow-lite-support:0.3.1",
+        "org.tensorflow:tensorflow-lite:1.15.0"
+      ]
     }
   },
   "components": [
@@ -159,7 +181,7 @@
       "versionRanges": [
         [
           "0.0.1",
-          "1.0.4"
+          "1.0.5"
         ]
       ],
       "exported": null,

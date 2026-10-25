@@ -1,0 +1,128 @@
+{
+  "coordinate": "com.rokid.glass.airsdk:airplugin",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T20:01:27Z",
+      "sha256": "d45f4e04cf460b129a5b923ee7a6edc05968f7a3f4b8b8730f34247950680867",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.23"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T20:01:23Z",
+      "sha256": "d45f4e04cf460b129a5b923ee7a6edc05968f7a3f4b8b8730f34247950680867",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.23"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T20:01:18Z",
+      "sha256": "d45f4e04cf460b129a5b923ee7a6edc05968f7a3f4b8b8730f34247950680867",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.23"
+      ]
+    },
+    "0.1.3": {
+      "fetchedAt": "2026-10-25T20:01:14Z",
+      "sha256": "d45f4e04cf460b129a5b923ee7a6edc05968f7a3f4b8b8730f34247950680867",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.23"
+      ]
+    },
+    "0.1.4": {
+      "fetchedAt": "2026-10-25T20:01:10Z",
+      "sha256": "d45f4e04cf460b129a5b923ee7a6edc05968f7a3f4b8b8730f34247950680867",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.23"
+      ]
+    },
+    "0.1.5": {
+      "fetchedAt": "2026-10-25T20:01:06Z",
+      "sha256": "d45f4e04cf460b129a5b923ee7a6edc05968f7a3f4b8b8730f34247950680867",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.23"
+      ]
+    },
+    "0.1.6": {
+      "fetchedAt": "2026-10-25T20:01:01Z",
+      "sha256": "5d488269abb2ad4a5a5db927e332edbacfca5e338cb9e780287e623243566f97",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.23"
+      ]
+    },
+    "0.1.7": {
+      "fetchedAt": "2026-10-25T20:00:57Z",
+      "sha256": "5d488269abb2ad4a5a5db927e332edbacfca5e338cb9e780287e623243566f97",
+      "dependencies": [
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.rokid.alliance.glasssdk:glasssdk:2.0.25"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.glass.airplugin.AirBuyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.glass.airplugin.AirDownloadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.glass.airplugin.AirMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

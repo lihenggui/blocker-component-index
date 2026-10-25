@@ -259,6 +259,18 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
       ]
+    },
+    "4.11.0": {
+      "fetchedAt": "2026-10-25T20:45:43Z",
+      "sha256": "691f447a65f04b22291f5cfdb8fa27d03ba650e8fe30a1b97a694c7fe8973e32",
+      "dependencies": [
+        "com.taptap.android.payment:base:4.11.0",
+        "com.taptap.sdk:tap-common:4.11.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
     }
   },
   "components": [
@@ -285,7 +297,7 @@
       "versionRanges": [
         [
           "4.7.0-beta.2",
-          "4.11.0-beta.3"
+          "4.11.0"
         ]
       ],
       "exported": true,

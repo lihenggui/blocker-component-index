@@ -23,16 +23,61 @@
         "com.android.support:support-v4:25.0.1",
         "com.madgag.spongycastle:prov:1.54.0.0"
       ]
+    },
+    "1.2.8": {
+      "fetchedAt": "2026-10-25T19:41:13Z",
+      "sha256": "36c053d1c16906ecef3ec9cc049e0880535fca98e39af672b4c7433e516c4037",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.multidex:multidex:2.0.1",
+        "com.google.android.material:material:1.9.0",
+        "com.madgag.spongycastle:prov:1.54.0.0"
+      ]
     }
   },
   "components": [
+    {
+      "name": "com.mypos.mobilepaymentssdk.PreAuthCompleteOrCancelActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.8",
+          "1.2.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mypos.mobilepaymentssdk.PreAuthorizationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.8",
+          "1.2.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
     {
       "name": "com.mypos.mobilepaymentssdk.PurchaseActivity",
       "type": "activity",
       "versionRanges": [
         [
           "1.0.0",
-          "1.0.6"
+          "1.2.8"
         ]
       ],
       "exported": null,
@@ -49,7 +94,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.0.6"
+          "1.2.8"
         ]
       ],
       "exported": null,
@@ -66,7 +111,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.0.6"
+          "1.2.8"
         ]
       ],
       "exported": null,
@@ -83,7 +128,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.0.6"
+          "1.2.8"
         ]
       ],
       "exported": null,
@@ -100,7 +145,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.0.6"
+          "1.2.8"
         ]
       ],
       "exported": null,

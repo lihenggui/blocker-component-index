@@ -1,0 +1,182 @@
+{
+  "coordinate": "com.tencent:klevin",
+  "repository": "https://maven.7nc.top/repository/mjdy",
+  "versions": {
+    "1.5.028": {
+      "fetchedAt": "2026-10-25T20:47:40Z",
+      "sha256": "9bd862e74fb6d2b8c8001cbd9b464b6e7a00b5c306ae8ed1af734cef4d99886d",
+      "dependencies": []
+    },
+    "2.1.0.36": {
+      "fetchedAt": "2026-10-25T20:47:37Z",
+      "sha256": "71aed998cea6b05d46ee51325d6eccc565e21af25aea01ed026df84e7da06d6f",
+      "dependencies": []
+    },
+    "2.3.0.17": {
+      "fetchedAt": "2026-10-25T20:47:33Z",
+      "sha256": "9f11a19f3a9b94fb674d8c2053e3610f53e1676ffac6898d889be86073984357",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.klevin.ads.receiver.DownloadBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.028",
+          "2.1.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.receiver.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.5.028",
+          "2.1.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "notification_cancelled"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.receiver.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.3.0.17",
+          "2.3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.view.AlertDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.028",
+          "2.1.0.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "notification_delete"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.view.AlertDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.0.17",
+          "2.3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.view.InteractiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.0.17",
+          "2.3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.view.InterstitialAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.028",
+          "2.3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.view.RewardAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.028",
+          "2.3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.klevin.ads.view.SplashAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.028",
+          "2.3.0.17"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

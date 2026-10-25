@@ -1,0 +1,346 @@
+{
+  "coordinate": "io.bidmachine:ads",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "2.5.1": {
+      "fetchedAt": "2026-10-25T21:06:23Z",
+      "sha256": "89f3a9fcc596a43c1d718b2e8adb384dc51ce815073a9d6e81fa51af8bf815ff",
+      "dependencies": [
+        "com.explorestack:iab:1.7.0",
+        "io.bidmachine.libs:omsdk:1.3.15",
+        "io.bidmachine:ads.networks.a4g:2.5.1.+",
+        "io.bidmachine:ads.networks.appodeal_gam:2.5.1.+",
+        "io.bidmachine:ads.networks.gam:2.5.1.+",
+        "io.bidmachine:ads.networks.notsy:2.5.1.+",
+        "io.bidmachine:analytics:1.0.5",
+        "io.bidmachine:protobuf-models:1.5.5",
+        "io.bidmachine:rendering:0.7.3"
+      ]
+    },
+    "2.5.2": {
+      "fetchedAt": "2026-10-25T21:06:20Z",
+      "sha256": "0607b02e74ce3e1e799badc218402ac59faf753fc6984c7eb047f3e8325cb87d",
+      "dependencies": [
+        "com.explorestack:iab:1.7.0",
+        "io.bidmachine.libs:omsdk:1.3.15",
+        "io.bidmachine:ads.networks.a4g:2.5.2.+",
+        "io.bidmachine:ads.networks.appodeal_gam:2.5.2.+",
+        "io.bidmachine:ads.networks.gam:2.5.2.+",
+        "io.bidmachine:ads.networks.notsy:2.5.2.+",
+        "io.bidmachine:analytics:1.0.5",
+        "io.bidmachine:protobuf-models:1.5.5",
+        "io.bidmachine:rendering:0.8.1"
+      ]
+    },
+    "2.6.0": {
+      "fetchedAt": "2026-10-25T21:06:18Z",
+      "sha256": "aabf11083d19cf319dccd25ab6b0916f2030028b4f3e3974e4e72f6aced98bda",
+      "dependencies": [
+        "com.explorestack:iab:1.8.0",
+        "io.bidmachine.libs:omsdk:1.4.12",
+        "io.bidmachine:ads.networks.a4g:2.6.0.+",
+        "io.bidmachine:ads.networks.appodeal_gam:2.6.0.+",
+        "io.bidmachine:ads.networks.gam:2.6.0.+",
+        "io.bidmachine:ads.networks.notsy:2.6.0.+",
+        "io.bidmachine:analytics:1.0.5",
+        "io.bidmachine:protobuf-models:1.5.5",
+        "io.bidmachine:rendering:0.8.1"
+      ]
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-25T21:06:15Z",
+      "sha256": "c54ef72248264719686c76336c8659fa4e726da39d372b12022d0fdc8cd463eb",
+      "dependencies": [
+        "com.explorestack:iab:1.8.1",
+        "io.bidmachine.libs:omsdk:1.4.12",
+        "io.bidmachine.media3:media3-exoplayer-dash:1.1.1",
+        "io.bidmachine.media3:media3-exoplayer-hls:1.1.1",
+        "io.bidmachine.media3:media3-exoplayer:1.1.1",
+        "io.bidmachine.media3:media3-ui:1.1.1",
+        "io.bidmachine:ads.networks.a4g:2.7.0.+",
+        "io.bidmachine:ads.networks.appodeal_gam:2.7.0.+",
+        "io.bidmachine:ads.networks.gam:2.7.0.+",
+        "io.bidmachine:ads.networks.notsy:2.7.0.+",
+        "io.bidmachine:analytics:1.0.5",
+        "io.bidmachine:protobuf-models:1.5.5",
+        "io.bidmachine:rendering:0.8.1"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T21:06:12Z",
+      "sha256": "3a62a1e3681fb8b697bac646b963fb7416ee5482be973456dce3a2a4a8b67ef4",
+      "dependencies": [
+        "com.explorestack:iab:1.9.0",
+        "io.bidmachine.libs:omsdk:1.5.0",
+        "io.bidmachine:ads.networks.gam:3.0.0.+",
+        "io.bidmachine:ads.networks.gam_dynamic:3.0.0.+",
+        "io.bidmachine:analytics:1.0.5",
+        "io.bidmachine:protobuf-models:1.9.9",
+        "io.bidmachine:rendering:0.10.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T21:06:10Z",
+      "sha256": "0aaced58539fdbe246d6569c047753c5bce35d7a61bcc8b7f6eef399ab6ae2e1",
+      "dependencies": [
+        "com.explorestack:iab:1.10.0",
+        "io.bidmachine.libs:omsdk:1.5.0",
+        "io.bidmachine:ads.networks.gam:3.0.1.+",
+        "io.bidmachine:ads.networks.gam_dynamic:3.0.1.+",
+        "io.bidmachine:analytics:1.0.7",
+        "io.bidmachine:protobuf-models:1.9.10",
+        "io.bidmachine:rendering:0.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T21:06:07Z",
+      "sha256": "45351622c9280bfb711c32d43bad98fde44f4a9682c8bf36c5855bb7a0522657",
+      "dependencies": [
+        "com.explorestack:iab:1.11.0",
+        "io.bidmachine.libs:omsdk:1.5.2",
+        "io.bidmachine:ads.networks.gam:3.1.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.1.0.0",
+        "io.bidmachine:analytics:2.0.0",
+        "io.bidmachine:protobuf-models:1.10.0",
+        "io.bidmachine:rendering:0.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T21:06:04Z",
+      "sha256": "773ee4933d84d40812975a7039f221f4b74b39a2de0e3c925935b8d9e6222d5a",
+      "dependencies": [
+        "com.explorestack:iab:1.11.1",
+        "io.bidmachine.libs:omsdk:1.5.2",
+        "io.bidmachine:ads.networks.gam:3.1.1.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.1.1.0",
+        "io.bidmachine:analytics:2.0.1",
+        "io.bidmachine:protobuf-models:1.10.0",
+        "io.bidmachine:rendering:0.13.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T21:06:02Z",
+      "sha256": "b2e42a3dad1cd7b150537d8c61a216e0b1a31ab48082a8dac73a3d04c948693f",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.5.2",
+        "io.bidmachine.util:general-util:0.2.0",
+        "io.bidmachine:ads.networks.gam:3.2.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.2.0.0",
+        "io.bidmachine:analytics:2.2.2",
+        "io.bidmachine:protobuf-models:1.11.0",
+        "io.bidmachine:rendering:2.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.2.1": {
+      "fetchedAt": "2026-10-25T21:05:59Z",
+      "sha256": "44d2a378a22577ac3eff904fe24e4e7e53954a76ba2f83b015193abcd1ff96f7",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.5.4",
+        "io.bidmachine.util:general-util:0.2.0",
+        "io.bidmachine:ads.networks.gam:3.2.1.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.2.1.0",
+        "io.bidmachine:analytics:2.2.4",
+        "io.bidmachine:protobuf-models:1.16.0",
+        "io.bidmachine:rendering:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T21:05:56Z",
+      "sha256": "dd8b8159543e045736e38c64454f4423c0963e75026fd128327938743807e21c",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.5.4",
+        "io.bidmachine.util:general-util:0.13.0",
+        "io.bidmachine:ads.networks.gam:3.3.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.3.0.0",
+        "io.bidmachine:analytics:3.3.0",
+        "io.bidmachine:protobuf-models:1.20.0",
+        "io.bidmachine:rendering:2.5.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-25T21:05:54Z",
+      "sha256": "cfcfa02c54e068bd7da6287a7ad49ab240d22c112b118ec2e0039464af8145b6",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.5.5",
+        "io.bidmachine:ads.networks.gam:3.4.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.4.0.0",
+        "io.bidmachine:analytics:3.4.0",
+        "io.bidmachine:protobuf-models:1.21.0",
+        "io.bidmachine:rendering:3.4.0",
+        "io.bidmachine:util:3.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.5.0": {
+      "fetchedAt": "2026-10-25T21:05:51Z",
+      "sha256": "5a0137371add6a3a1f9906104633b7df0473d727927d8ed2c243f10bf40073f4",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.5.5",
+        "io.bidmachine:ads.networks.gam:3.5.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.5.0.0",
+        "io.bidmachine:analytics:3.5.0",
+        "io.bidmachine:protobuf-models:1.30.0",
+        "io.bidmachine:rendering:3.5.0",
+        "io.bidmachine:util:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.5.1": {
+      "fetchedAt": "2026-10-25T21:05:48Z",
+      "sha256": "fec0109b6ede0fc414329b73325a814669a0b7c68ebd5a2bed182f53092c898b",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.5.5",
+        "io.bidmachine:ads.networks.gam:3.5.1.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.5.1.0",
+        "io.bidmachine:analytics:3.5.1",
+        "io.bidmachine:protobuf-models:1.30.0",
+        "io.bidmachine:rendering:3.5.1",
+        "io.bidmachine:util:3.5.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.6.0-beta.4": {
+      "fetchedAt": "2026-10-25T21:05:45Z",
+      "sha256": "03b0c1c9e2c2e2b03c7cf0b411bc3fcb33ba620b49633cd48edcd686dc612d39",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.6.3",
+        "io.bidmachine:ads.networks.gam:3.6.0-beta.4.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.6.0-beta.4.0",
+        "io.bidmachine:analytics:3.6.0-beta.4",
+        "io.bidmachine:protobuf-models:1.51.0",
+        "io.bidmachine:rendering:3.6.0-beta.4",
+        "io.bidmachine:util:3.6.0-beta.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.6.0": {
+      "fetchedAt": "2026-10-25T21:05:42Z",
+      "sha256": "804a44b43c539592f17893e9598c3d3919912410e199e5bfa48fbdae752cd7f5",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.6.1",
+        "io.bidmachine:ads.networks.gam:3.6.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.6.0.0",
+        "io.bidmachine:analytics:3.6.0",
+        "io.bidmachine:protobuf-models:1.46.0",
+        "io.bidmachine:rendering:3.6.0",
+        "io.bidmachine:util:3.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.6.1": {
+      "fetchedAt": "2026-10-25T21:05:39Z",
+      "sha256": "2a15faa00b2a25e3a10d0ece6f138d3c27de9ebca7e85c9139df393d8cc09762",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.6.1",
+        "io.bidmachine:ads.networks.gam:3.6.1.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.6.1.0",
+        "io.bidmachine:analytics:3.6.1",
+        "io.bidmachine:protobuf-models:1.46.0",
+        "io.bidmachine:rendering:3.6.1",
+        "io.bidmachine:util:3.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.7.0": {
+      "fetchedAt": "2026-10-25T21:05:37Z",
+      "sha256": "7ea9107b58eb9353e3a7b66ba42146af48041b381c6f51a996b678bb9a2b9c46",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.6.3",
+        "io.bidmachine:ads.networks.gam:3.7.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.7.0.0",
+        "io.bidmachine:analytics:3.7.0",
+        "io.bidmachine:protobuf-models:1.50.0",
+        "io.bidmachine:rendering:3.7.0",
+        "io.bidmachine:util:3.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.7.1": {
+      "fetchedAt": "2026-10-25T21:05:34Z",
+      "sha256": "60f37f8991c919a7dab76d367d129a17aa1cef6faa0ed31d1d20dbdb41c9accf",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.6.3",
+        "io.bidmachine:ads.networks.gam:3.7.1.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.7.1.0",
+        "io.bidmachine:analytics:3.7.1",
+        "io.bidmachine:protobuf-models:1.51.0",
+        "io.bidmachine:rendering:3.7.1",
+        "io.bidmachine:util:3.7.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    },
+    "3.8.0": {
+      "fetchedAt": "2026-10-25T21:05:31Z",
+      "sha256": "d42f90b8396827782afac8464a86452ce9c40fec5f45f83015a63749026fba88",
+      "dependencies": [
+        "io.bidmachine.libs:omsdk:1.6.3",
+        "io.bidmachine:ads.networks.gam:3.8.0.3",
+        "io.bidmachine:ads.networks.gam_dynamic:3.8.0.0",
+        "io.bidmachine:analytics:3.8.0",
+        "io.bidmachine:protobuf-models:1.59.0",
+        "io.bidmachine:rendering:3.8.0",
+        "io.bidmachine:util:3.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.bidmachine.BidMachineInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.5.1",
+          "3.8.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bidmachineinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.bidmachine.nativead.view.VideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.1",
+          "3.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

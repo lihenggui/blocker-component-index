@@ -57,9 +57,39 @@
         "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
         "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
       ]
+    },
+    "1.6.2": {
+      "fetchedAt": "2026-10-25T20:58:47Z",
+      "sha256": "b753f5deec8ca64a4f76912c58d90b214add5ff1afffcb64b8b5e8bea9a5b54a",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.0",
+        "androidx.appcompat:appcompat:1.0.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.25",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.25"
+      ]
     }
   },
   "components": [
+    {
+      "name": "eu.nets.mia.internal.MiAActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.2",
+          "1.6.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
     {
       "name": "eu.nets.mia.webview.MiAActivity",
       "type": "activity",

@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.rokid.cooperation:appbase",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "0.8.0": {
+      "fetchedAt": "2026-10-25T19:50:04Z",
+      "sha256": "42d09037f9ea89478e26068c9bf853b55bfb88c0bf6138512fb547252e3ac7a6",
+      "dependencies": []
+    },
+    "0.8.1": {
+      "fetchedAt": "2026-10-25T19:49:59Z",
+      "sha256": "42d09037f9ea89478e26068c9bf853b55bfb88c0bf6138512fb547252e3ac7a6",
+      "dependencies": []
+    },
+    "0.8.2": {
+      "fetchedAt": "2026-10-25T19:49:53Z",
+      "sha256": "42d09037f9ea89478e26068c9bf853b55bfb88c0bf6138512fb547252e3ac7a6",
+      "dependencies": []
+    },
+    "0.8.4": {
+      "fetchedAt": "2026-10-25T19:49:49Z",
+      "sha256": "61b73257e45d176e698da88ee6122a1c0a6e0b09a6e62006875bbc462df36519",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.core:core:1.0.0",
+        "androidx.legacy:legacy-support-core-ui:1.0.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.percentlayout:percentlayout:1.0.0",
+        "androidx.preference:preference:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "me.jessyan:autosize:1.2.1"
+      ]
+    },
+    "0.8.5": {
+      "fetchedAt": "2026-10-25T19:49:44Z",
+      "sha256": "61b73257e45d176e698da88ee6122a1c0a6e0b09a6e62006875bbc462df36519",
+      "dependencies": [
+        "me.jessyan:autosize:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.glass.mobileapp.appbase.permission.RequestPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0",
+          "0.8.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

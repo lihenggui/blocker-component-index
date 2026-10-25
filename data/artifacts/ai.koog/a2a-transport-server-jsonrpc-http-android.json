@@ -1,0 +1,23 @@
+{
+  "coordinate": "ai.koog:a2a-transport-server-jsonrpc-http-android",
+  "repository": "https://packages.jetbrains.team/maven/p/grazi/grazie-platform-public",
+  "versions": {
+    "1.3.0-beta-develop-20261014-0210": {
+      "fetchedAt": "2026-10-25T17:56:44Z",
+      "sha256": "15f37e6491d9408193badbdd1fb33dd56221fc81b78ed496c6a7c226f92e3404",
+      "dependencies": [
+        "ai.koog:a2a-transport-core-jsonrpc:1.3.0-beta-develop-20261014-0210",
+        "io.ktor:ktor-serialization-kotlinx-json:3.3.3",
+        "io.ktor:ktor-server-content-negotiation:3.3.3",
+        "io.ktor:ktor-server-core:3.3.3",
+        "io.ktor:ktor-server-cors:3.3.3",
+        "io.ktor:ktor-server-sse:3.3.3",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    }
+  },
+  "components": []
+}

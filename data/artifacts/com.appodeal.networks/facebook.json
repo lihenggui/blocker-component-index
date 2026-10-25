@@ -1,0 +1,98 @@
+{
+  "coordinate": "com.appodeal.networks:facebook",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "5.5.0": {
+      "fetchedAt": "2026-10-25T18:29:33Z",
+      "sha256": "e09105a9fc76853f4a1ddb41848d3d47231f15612fcba31b675f7b97ed94b2d2",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.0",
+          "5.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.AudienceNetworkContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.5.0",
+          "5.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AudienceNetworkContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.internal.ipc.AdsMessengerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.0",
+          "5.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":adnw",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.internal.ipc.AdsProcessPriorityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.5.0",
+          "5.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.internal.ipc.RemoteANActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.5.0",
+          "5.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":adnw",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "coordinate": "com.zoho.salesiq:mobilisten",
+  "repository": "https://maven.zohodl.com",
+  "versions": {
+    "9.0.2": {
+      "fetchedAt": "2026-10-25T20:54:40Z",
+      "sha256": "fc72cfaf73bd7132e2482fb4b663827dbca3bdd5ef2ce9f8943d3f17cc62ef4a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.10.1",
+        "androidx.activity:activity-ktx:1.10.1",
+        "androidx.browser:browser:1.8.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.compose:compose-bom:2026.03.01",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.databinding:viewbinding:8.12.0",
+        "androidx.datastore:datastore-preferences:1.1.1",
+        "androidx.documentfile:documentfile:1.1.0",
+        "androidx.dynamicanimation:dynamicanimation:1.0.0",
+        "androidx.fragment:fragment-ktx:1.8.6",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "androidx.media3:media3-exoplayer:1.8.0",
+        "androidx.media3:media3-transformer:1.9.2",
+        "androidx.media3:media3-ui:1.8.0",
+        "androidx.recyclerview:recyclerview:1.4.0",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "androidx.security:security-crypto-ktx:1.1.0-alpha07",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.webkit:webkit:1.13.0",
+        "androidx.work:work-runtime-ktx:2.10.5",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.google.android.flexbox:flexbox:3.0.0",
+        "com.google.android.gms:play-services-location:21.3.0",
+        "com.google.android.gms:play-services-maps:19.2.0",
+        "com.google.android.gms:play-services-time:16.0.1",
+        "com.google.android.material:material:1.12.0",
+        "com.zoho.messenger:mdrenderer:1.0.5",
+        "com.zoho.messenger:wmslibrary:6.1.3",
+        "com.zoho.salesiq:mobilisten-calls-core:0.1.1",
+        "com.zoho.salesiq:mobilisten-core:0.1.5",
+        "io.coil-kt:coil-compose:2.7.0",
+        "io.coil-kt:coil-gif:2.7.0",
+        "io.coil-kt:coil-video:2.7.0",
+        "io.insert-koin:koin-android:4.1.1",
+        "io.insert-koin:koin-androidx-compose:4.1.1",
+        "io.insert-koin:koin-core:4.1.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.0.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zoho.livechat.android.NotificationDeleteReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.ViewBotCardImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.brand.ui.activities.SupportActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.calls.domain.activities.CallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.common.ui.activities.PreChatFormActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.common.ui.activities.SalesIQActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.conversations.ui.activities.ConversationsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.knowledgebase.ui.activities.SelfServiceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.messages.ui.activities.MobilistenImageViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.modules.notifications.ui.activities.NotificationReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.provider.MobilistenFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.siqfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.zoho.livechat.android.provider.MobilistenInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mobilisteninitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.provider.ZohoLDContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.livechat",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.ui.activities.ChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.livechat.android.ui.activities.ResourceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zoho.salesiqembed.android.TriggerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "9.0.2",
+          "9.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "MOBILISTEN_TRIGGER_RECEIVER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

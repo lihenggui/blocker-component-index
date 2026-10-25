@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.rokid.rokit:rokit",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T20:24:12Z",
+      "sha256": "a96c8fd1c8e55e48a00735ebc4ccb6eb7c52a2ad9c101582ee7aee664eda6138",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:databinding-adapters:7.1.2",
+        "androidx.databinding:databinding-common:7.1.2",
+        "androidx.databinding:databinding-ktx:7.1.2",
+        "androidx.databinding:databinding-runtime:7.1.2",
+        "com.google.android.material:material:1.5.0",
+        "com.google.auto.service:auto-service:1.0",
+        "com.rokid.rokit:util:1.0.0",
+        "com.squareup.leakcanary:leakcanary-android:2.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T20:24:07Z",
+      "sha256": "a96c8fd1c8e55e48a00735ebc4ccb6eb7c52a2ad9c101582ee7aee664eda6138",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:databinding-adapters:7.1.2",
+        "androidx.databinding:databinding-common:7.1.2",
+        "androidx.databinding:databinding-ktx:7.1.2",
+        "androidx.databinding:databinding-runtime:7.1.2",
+        "com.google.android.material:material:1.5.0",
+        "com.google.auto.service:auto-service:1.0",
+        "com.rokid.rokit:util:1.0.0",
+        "com.squareup.leakcanary:leakcanary-android:2.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.rokit.kit.core.UniversalActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

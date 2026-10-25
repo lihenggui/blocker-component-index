@@ -102,6 +102,16 @@
         "com.juul.datadog:datadog:0.6.1",
         "org.jetbrains.kotlin:kotlin-stdlib:2.3.10"
       ]
+    },
+    "0.6.2": {
+      "fetchedAt": "2026-10-25T19:24:00Z",
+      "sha256": "3f8cabc62ce627e67c85a573156f237df607cc3893d6000a5bda74cbce6274da",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.datadoghq:dd-sdk-kotlin-multiplatform-logs:1.8.0",
+        "com.juul.datadog:datadog:0.6.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.20"
+      ]
     }
   },
   "components": [
@@ -111,7 +121,7 @@
       "versionRanges": [
         [
           "0.1.0",
-          "0.6.1"
+          "0.6.2"
         ]
       ],
       "exported": false,

@@ -1,0 +1,102 @@
+{
+  "coordinate": "cn.cusky.ad:sdk",
+  "repository": "https://maven.7nc.top/repository/mjdy",
+  "versions": {
+    "1.0.7.bd": {
+      "fetchedAt": "2026-10-25T18:21:36Z",
+      "sha256": "9aedfe0609f13217adcfb4a27f6990791d0cc7a81779cff0195507bbcea729cd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1"
+      ]
+    },
+    "1.0.8.bd": {
+      "fetchedAt": "2026-10-25T18:21:33Z",
+      "sha256": "1546634ef0ccb59e677663b26bdcfb98afc8f164f67b145ddb25289ff8ef60ff",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1"
+      ]
+    },
+    "1.0.9.bd": {
+      "fetchedAt": "2026-10-25T18:21:30Z",
+      "sha256": "f6d8717c3ce48f9b43f9fbbd3bbaef7bba46dd1675423ed5b321f1f2448fbe3b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T18:21:25Z",
+      "sha256": "c5f328ec615a5d800f0e2f2234f5100a73d4b0e92302c1efdf7c8c87a9c4c0e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T18:21:21Z",
+      "sha256": "c5f328ec615a5d800f0e2f2234f5100a73d4b0e92302c1efdf7c8c87a9c4c0e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T18:21:17Z",
+      "sha256": "c5f328ec615a5d800f0e2f2234f5100a73d4b0e92302c1efdf7c8c87a9c4c0e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1",
+        "androidx.security:security-crypto:1.1.0-alpha06"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T18:21:13Z",
+      "sha256": "c5f328ec615a5d800f0e2f2234f5100a73d4b0e92302c1efdf7c8c87a9c4c0e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1",
+        "androidx.security:security-crypto:1.1.0-alpha06"
+      ]
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-25T18:21:10Z",
+      "sha256": "c5f328ec615a5d800f0e2f2234f5100a73d4b0e92302c1efdf7c8c87a9c4c0e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1",
+        "androidx.security:security-crypto:1.1.0-alpha06"
+      ]
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-25T18:21:05Z",
+      "sha256": "f08fd90a0e6b9a5d8c27ec154322189a0ad69e8ebeb6cc8916cbe6baa18b3f4c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1",
+        "androidx.security:security-crypto:1.1.0-alpha06"
+      ]
+    },
+    "1.1.6": {
+      "fetchedAt": "2026-10-25T18:21:00Z",
+      "sha256": "f08fd90a0e6b9a5d8c27ec154322189a0ad69e8ebeb6cc8916cbe6baa18b3f4c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.1",
+        "androidx.security:security-crypto:1.1.0-alpha06"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.cusky.ad.sdk.provider.SynFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.7.bd",
+          "1.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.syn.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

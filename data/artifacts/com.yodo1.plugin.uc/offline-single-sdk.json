@@ -6,9 +6,35 @@
       "fetchedAt": "2026-10-25T02:35:56Z",
       "sha256": "d3fc6565f7bea4cca192e7023edfe35114221c770c6c85e074e119083b4625b9",
       "dependencies": []
+    },
+    "9.8.11.10": {
+      "fetchedAt": "2026-10-25T20:53:05Z",
+      "sha256": "525422b1c37c15c27037d173862a0ceea0f400496d03ed4d93bb8a3fa528cbb2",
+      "dependencies": []
     }
   },
   "components": [
+    {
+      "name": "cn.gundam.sdk.shell.activity.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.8.11.10",
+          "9.8.11.10"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.uc.gamesdk.sdkweb"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
     {
       "name": "cn.gundam.sdk.shell.activity.ProxyActivity",
       "type": "activity",
@@ -19,6 +45,27 @@
         ]
       ],
       "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.uc.gamesdk.sdkweb"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.gundam.sdk.shell.activity.ThemeProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.8.11.10",
+          "9.8.11.10"
+        ]
+      ],
+      "exported": false,
       "process": null,
       "permission": null,
       "authorities": null,
@@ -57,7 +104,7 @@
       "versionRanges": [
         [
           "9.7.12.0",
-          "9.7.12.0"
+          "9.8.11.10"
         ]
       ],
       "exported": false,
@@ -76,7 +123,7 @@
       "versionRanges": [
         [
           "9.7.12.0",
-          "9.7.12.0"
+          "9.8.11.10"
         ]
       ],
       "exported": true,
@@ -93,7 +140,7 @@
       "versionRanges": [
         [
           "9.7.12.0",
-          "9.7.12.0"
+          "9.8.11.10"
         ]
       ],
       "exported": true,

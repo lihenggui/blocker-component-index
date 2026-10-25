@@ -424,6 +424,30 @@
         "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.21",
         "org.jetbrains.kotlin:kotlin-stdlib:2.1.21"
       ]
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-25T19:23:59Z",
+      "sha256": "eca0dd4919e0bd12d4cbdbd332b1485c47d79d0ca1bba90afbe28b082d5e71f6",
+      "dependencies": [
+        "androidx.ads:ads-identifier:1.0.0-alpha05",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.16.0",
+        "androidx.databinding:viewbinding:9.3.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "androidx.preference:preference-ktx:1.2.1",
+        "com.github.bumptech.glide:glide:5.0.5",
+        "com.google.android.flexbox:flexbox:3.0.0",
+        "com.google.android.material:material:1.13.0",
+        "com.google.code.gson:gson:2.13.2",
+        "com.google.guava:guava:33.6.0-jre",
+        "com.nimbusds:nimbus-jose-jwt:10.9",
+        "com.squareup.okhttp3:okhttp-bom:5.3.2",
+        "org.bouncycastle:bcprov-jdk15to18:1.84",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.20"
+      ]
     }
   },
   "components": [
@@ -433,7 +457,7 @@
       "versionRanges": [
         [
           "1.2.0",
-          "2.2.0"
+          "2.2.1"
         ]
       ],
       "exported": null,

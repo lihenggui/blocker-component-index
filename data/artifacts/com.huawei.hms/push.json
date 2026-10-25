@@ -1,0 +1,109 @@
+{
+  "coordinate": "com.huawei.hms:push",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "6.13.0.301": {
+      "fetchedAt": "2026-10-25T19:18:32Z",
+      "sha256": "93c97266b0330acb61aaa38935fa8a3787c7bdfc9a55bd421ebae51baeab6a31",
+      "dependencies": [
+        "com.huawei.hms:opendevice:6.13.0.301"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.support.api.push.PushMsgReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.13.0.301",
+          "6.13.0.301"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.intent.action.PUSH",
+        "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.PushProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.13.0.301",
+          "6.13.0.301"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.huawei.push.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.13.0.301",
+          "6.13.0.301"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.android.push.intent.RECEIVE",
+        "com.huawei.android.push.intent.REGISTRATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.TransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.13.0.301",
+          "6.13.0.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.service.HmsMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.13.0.301",
+          "6.13.0.301"
+        ]
+      ],
+      "exported": true,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.msg.NOTIFY_MSG",
+        "com.huawei.push.msg.PASSBY_MSG"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

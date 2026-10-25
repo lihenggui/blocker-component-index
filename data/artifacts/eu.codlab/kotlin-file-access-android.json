@@ -238,6 +238,17 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
       ]
+    },
+    "1.17.0": {
+      "fetchedAt": "2026-10-25T20:58:44Z",
+      "sha256": "74cde834badcbedff2e986eea0f6eb29f302c149a4c3551a2ba7dee75185df9f",
+      "dependencies": [
+        "com.soywiz.korlibs.korio:korio-android:4.0.10",
+        "com.soywiz.korlibs.korio:korio:4.0.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
     }
   },
   "components": [
@@ -247,7 +258,7 @@
       "versionRanges": [
         [
           "1.6.0",
-          "1.16.3"
+          "1.17.0"
         ]
       ],
       "exported": false,

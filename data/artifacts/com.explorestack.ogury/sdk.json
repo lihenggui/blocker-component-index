@@ -1,0 +1,719 @@
+{
+  "coordinate": "com.explorestack.ogury:sdk",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "4.1.3": {
+      "fetchedAt": "2026-10-25T18:56:47Z",
+      "sha256": "87d7713737131cb1657837d9bbd76bf7d99039993ea8dce6ccd962c49f6684e6",
+      "dependencies": []
+    },
+    "4.3.7": {
+      "fetchedAt": "2026-10-25T18:56:44Z",
+      "sha256": "4c5bb88e4ce0e5e287004aac94a090c198ad9b78d40167edd18e0866b270896e",
+      "dependencies": []
+    },
+    "4.7.0": {
+      "fetchedAt": "2026-10-25T18:56:41Z",
+      "sha256": "ff273742bb7ed7ee5cd5d3a3516cf1e63b44d186fcee1e05d1fd63284d9f275a",
+      "dependencies": []
+    },
+    "4.7.2": {
+      "fetchedAt": "2026-10-25T18:56:38Z",
+      "sha256": "74cda5096172a197ecffd3345cb350a0ae8fca0bdd73c8f8928f8920674c0a9a",
+      "dependencies": []
+    },
+    "4.7.6": {
+      "fetchedAt": "2026-10-25T18:56:35Z",
+      "sha256": "08aca4c5b9bc46f7aa788509e0743d967b7ff714c7437e627fc40befd235cbc5",
+      "dependencies": []
+    },
+    "5.0.4": {
+      "fetchedAt": "2026-10-25T18:56:33Z",
+      "sha256": "fd2d188d5deed4ec0d0c79740366a131a1461d8448817eee5af7b936d8d0dd4c",
+      "dependencies": []
+    },
+    "5.0.6": {
+      "fetchedAt": "2026-10-25T18:56:30Z",
+      "sha256": "8757fd3baef4036b65eeccc2845c1156d9c67e4db5c9f090097a5097ff4b714d",
+      "dependencies": []
+    },
+    "5.0.7": {
+      "fetchedAt": "2026-10-25T18:56:27Z",
+      "sha256": "1b16e84afb3d2454b97e5524d10d5d65ed6cf650178f0958bc4325801473889c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.billingclient.api.ProxyBillingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.7.0",
+          "5.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.activity.SBActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.BluetoothReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED",
+        "android.hardware.usb.action.USB_ACCESSORY_DETACHED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.BootCompletedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.CarrierConfigChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.telephony.action.CARRIER_CONFIG_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.EventReminderReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.EVENT_REMINDER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.NextAlarmClockChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.app.action.NEXT_ALARM_CLOCK_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.PackageFullyRemovedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_FULLY_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.TimeSetReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.TIME_SET"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.receiver.UserPresentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.USER_PRESENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.service.SMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.service.SdkJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.analytics.service.SdkService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.4",
+          "5.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.cm.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.7.0",
+          "5.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ogury.consent.manager.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.3.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.common.profig.schedule.ProfigAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.common.profig.schedule.ProfigJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.common.profig.schedule.ProfigSyncIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.activity.SBActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.BluetoothReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED",
+        "android.hardware.usb.action.USB_ACCESSORY_DETACHED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.BootCompletedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.CarrierConfigChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.telephony.action.CARRIER_CONFIG_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.EventReminderReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.EVENT_REMINDER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.NextAlarmClockChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.app.action.NEXT_ALARM_CLOCK_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.PackageFullyRemovedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_FULLY_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.TimeSetReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.TIME_SET"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.receiver.UserPresentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.USER_PRESENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.service.SMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.service.SdkJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.core.service.SdkService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "4.7.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.ui.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.ui.InterstitialAndroid8RotableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.interstitial.ui.InterstitialAndroid8TransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.mraid.browser.Android8AndLaterShortcutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.presage.mraid.browser.ShortcutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.3",
+          "5.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

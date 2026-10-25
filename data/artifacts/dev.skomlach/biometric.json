@@ -287,6 +287,22 @@
         "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
         "org.jetbrains.kotlin:kotlin-stdlib:2.3.10"
       ]
+    },
+    "2.4.rc-51": {
+      "fetchedAt": "2026-10-25T20:55:29Z",
+      "sha256": "77caa9cc799ea07848d59da8511341bf37ab3b71f85468c49d671aecd082704a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.biometric:biometric-ktx:1.2.0-alpha05",
+        "androidx.core:core-ktx:1.18.0",
+        "androidx.lifecycle:lifecycle-process:2.10.0",
+        "androidx.palette:palette-ktx:1.0.0",
+        "androidx.vectordrawable:vectordrawable-animated:1.2.0",
+        "com.google.code.gson:gson:2.13.2",
+        "dev.skomlach:common:2.4.rc-51",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10"
+      ]
     }
   },
   "components": [
@@ -296,7 +312,7 @@
       "versionRanges": [
         [
           "2.2.51",
-          "2.4.rc-50"
+          "2.4.rc-51"
         ]
       ],
       "exported": false,
@@ -365,7 +381,7 @@
         ],
         [
           "2.4.rc-48",
-          "2.4.rc-50"
+          "2.4.rc-51"
         ]
       ],
       "exported": true,

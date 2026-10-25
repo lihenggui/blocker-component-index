@@ -340,6 +340,24 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.0",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
       ]
+    },
+    "2.42.0": {
+      "fetchedAt": "2026-10-25T18:26:29Z",
+      "sha256": "7c15a96e7df67c7a585c258338ffb0a9a9682c7a9bc01ee348ff0aa4453d286a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "aws.sdk.kotlin:bom:1.5.123",
+        "com.amplifyframework:aws-core:2.42.0",
+        "com.amplifyframework:aws-pinpoint-core:2.42.0",
+        "com.amplifyframework:aws-push-notifications-pinpoint-common:2.42.0",
+        "com.amplifyframework:common-core:2.42.0",
+        "com.amplifyframework:core:2.42.0",
+        "com.amplifyframework:foundation:2.42.0",
+        "com.google.firebase:firebase-bom:33.16.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
     }
   },
   "components": [
@@ -349,7 +367,7 @@
       "versionRanges": [
         [
           "2.27.4",
-          "2.41.1"
+          "2.42.0"
         ]
       ],
       "exported": false,

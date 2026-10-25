@@ -485,6 +485,32 @@
         "guardian-connect-android:wireguard-tunnel:unspecified",
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.0"
       ]
+    },
+    "0.7.2": {
+      "fetchedAt": "2026-10-25T19:09:11Z",
+      "sha256": "c90bc50e65005ef39a9bc55005c1e0f394c3fd2a8c39787015fec60ad42fbcb3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.databinding:databinding-adapters:8.12.0",
+        "androidx.databinding:databinding-common:8.12.0",
+        "androidx.databinding:databinding-ktx:8.12.0",
+        "androidx.databinding:databinding-runtime:8.12.0",
+        "androidx.datastore:datastore-preferences:1.1.1",
+        "androidx.preference:preference-ktx:1.2.1",
+        "androidx.test.ext:junit-ktx:1.2.1",
+        "com.android.billingclient:billing-ktx:7.0.0",
+        "com.android.billingclient:billing:7.0.0",
+        "com.google.code.gson:gson:2.11.0",
+        "com.journeyapps:zxing-android-embedded:4.3.0",
+        "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "com.squareup.okhttp3:okhttp-dnsoverhttps:4.9.1",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.squareup.retrofit2:converter-gson:2.11.0",
+        "com.squareup.retrofit2:retrofit:2.11.0",
+        "com.wireguard.android:tunnel:1.0.20250531",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.0"
+      ]
     }
   },
   "components": [
@@ -494,7 +520,7 @@
       "versionRanges": [
         [
           "0.3.7",
-          "0.7.1"
+          "0.7.2"
         ]
       ],
       "exported": true,
@@ -513,7 +539,7 @@
       "versionRanges": [
         [
           "0.3.7",
-          "0.7.1"
+          "0.7.2"
         ]
       ],
       "exported": false,

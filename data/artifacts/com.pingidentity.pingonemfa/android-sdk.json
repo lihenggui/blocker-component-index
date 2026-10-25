@@ -346,6 +346,27 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
         "org.slf4j:slf4j-api:2.0.17"
       ]
+    },
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T19:44:05Z",
+      "sha256": "dfb9e0be7fe186166fe9e2216a30abc8213a9116762d1b151b2b8ad7f64f5572",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.11.0",
+        "androidx.work:work-runtime:2.11.0",
+        "com.github.tony19:logback-android:3.0.0",
+        "com.google.android.play:integrity:1.6.0",
+        "com.google.code.gson:gson:2.13.2",
+        "com.google.firebase:firebase-bom:34.3.0",
+        "org.bitbucket.b_c:jose4j:0.9.6",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+        "org.slf4j:slf4j-api:2.0.17"
+      ]
     }
   },
   "components": [
@@ -374,7 +395,7 @@
       "versionRanges": [
         [
           "1.10.1",
-          "2.3.1"
+          "2.4.0"
         ]
       ],
       "exported": false,

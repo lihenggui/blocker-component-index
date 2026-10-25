@@ -95,6 +95,22 @@
         "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.23",
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
       ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T20:50:22Z",
+      "sha256": "834b97808c30d9726fa6976a4ec8649c124a96904a58db6279a3016eec051180",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.7.0",
+        "androidx.compose:compose-bom:2023.08.00",
+        "com.google.android.material:material:1.11.0",
+        "com.squareup.moshi:moshi-kotlin:1.15.0",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.uber.sdk2:core:2.0.5",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.23",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
     }
   },
   "components": [
@@ -104,7 +120,7 @@
       "versionRanges": [
         [
           "2.0.0-BETA",
-          "2.0.4"
+          "2.0.5"
         ]
       ],
       "exported": false,
@@ -121,7 +137,7 @@
       "versionRanges": [
         [
           "2.0.0-BETA",
-          "2.0.4"
+          "2.0.5"
         ]
       ],
       "exported": true,

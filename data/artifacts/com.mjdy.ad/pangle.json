@@ -1,0 +1,698 @@
+{
+  "coordinate": "com.mjdy.ad:pangle",
+  "repository": "https://maven.7nc.top/repository/mjdy",
+  "versions": {
+    "4.0.1.1": {
+      "fetchedAt": "2026-10-25T19:36:02Z",
+      "sha256": "ff76842ce71aacb5bf43bc14141b02e2fd8026e93a36c42047129fc5c2b406d6",
+      "dependencies": []
+    },
+    "4.3.0.6": {
+      "fetchedAt": "2026-10-25T19:35:59Z",
+      "sha256": "d87a737a92f384778e9a9b09177fe59f18bcab65079af23ae3437efbe4624fb0",
+      "dependencies": []
+    },
+    "4.5.1.1": {
+      "fetchedAt": "2026-10-25T19:35:56Z",
+      "sha256": "18f9558ada5663caf9257d163c9b5c9496c093059d05f88abcbf2db69a7c8ec4",
+      "dependencies": []
+    },
+    "4.5.2.2": {
+      "fetchedAt": "2026-10-25T19:35:53Z",
+      "sha256": "4e88fcfd0e566e6f0232d4f85e94040541c74d9abb12c3ab97a546d94420d3dd",
+      "dependencies": []
+    },
+    "4.6.0.7": {
+      "fetchedAt": "2026-10-25T19:35:50Z",
+      "sha256": "16a490e2d2f34d1a9b0d990735c8a624050c1aa18226a7c95cd3ef6e98700faf",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.pangle.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pangle.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.pangle.provider.MainProcessProviderProxy",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pangle.provider.proxy.main",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.pangle.servermanager.MainServerManager",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pangle.servermanager.main",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.5.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.activity.Stub_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Landscape_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": ":downloader",
+      "permission": null,
+      "authorities": "${applicationId}.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.stub.server.MainServerManager",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.3.0.6",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pangle.servermanager.main",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.activity.JumpKllkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.activity.JumpKllkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.activity.TTDelegateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.activity.TTDelegateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.core.download.DownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.downloadlib.core.download.DownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.appdownloader.DownloadHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.appdownloader.DownloadHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.appdownloader.RetryJobSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.downloader.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.downloader.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": ":downloader",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ss.android.socialbase.downloader.remote"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.impls.DownloadHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.impls.DownloadHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.notification.DownloadNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.6.0.7",
+          "4.6.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.android.socialbase.downloader.notification.DownloadNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.1.1",
+          "4.5.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.github.DylanCaiCoding:ActivityResultLauncher",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.1.4": {
+      "fetchedAt": "2026-10-25T19:03:20Z",
+      "sha256": "4621a4c63dc969dfc1c15a9df0a6c3f6bbf5cb000a56edcb529e649d5c082b6a",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "com.github.DylanCaiCoding:Callbacks:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T19:03:15Z",
+      "sha256": "4621a4c63dc969dfc1c15a9df0a6c3f6bbf5cb000a56edcb529e649d5c082b6a",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "com.github.DylanCaiCoding:Callbacks:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dylanc.activityresult.launcher.ActivityLauncherFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.4",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.activitylauncher.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

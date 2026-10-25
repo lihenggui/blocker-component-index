@@ -1,0 +1,95 @@
+{
+  "coordinate": "com.pgyersdk:sdk",
+  "repository": "https://raw.githubusercontent.com/Pgyer/mvn_repo_pgyer/master",
+  "versions": {
+    "3.0.3": {
+      "fetchedAt": "2026-10-25T19:44:05Z",
+      "sha256": "c92eed6ed782d2d6eb5e75f642318f1a6e5d10e3a0cbec88ccf2e5e60c2e3375",
+      "dependencies": []
+    },
+    "3.0.4": {
+      "fetchedAt": "2026-10-25T19:44:04Z",
+      "sha256": "c92eed6ed782d2d6eb5e75f642318f1a6e5d10e3a0cbec88ccf2e5e60c2e3375",
+      "dependencies": []
+    },
+    "3.0.5": {
+      "fetchedAt": "2026-10-25T19:44:04Z",
+      "sha256": "aa1423657dd32f23f8594407332253f63e3fc7326bfc238da9561b5d2b39aaea",
+      "dependencies": []
+    },
+    "3.0.6": {
+      "fetchedAt": "2026-10-25T19:44:03Z",
+      "sha256": "aa1423657dd32f23f8594407332253f63e3fc7326bfc238da9561b5d2b39aaea",
+      "dependencies": []
+    },
+    "3.0.7": {
+      "fetchedAt": "2026-10-25T19:44:03Z",
+      "sha256": "aa1423657dd32f23f8594407332253f63e3fc7326bfc238da9561b5d2b39aaea",
+      "dependencies": []
+    },
+    "3.0.8": {
+      "fetchedAt": "2026-10-25T19:44:02Z",
+      "sha256": "f602e742c71906a087907b1c3359cedbd486551b82fe55ba256b8cc09985f0c6",
+      "dependencies": []
+    },
+    "3.0.9": {
+      "fetchedAt": "2026-10-25T19:44:02Z",
+      "sha256": "ff13b459f84966c37e0e72ac5a5ba396bad0088434fabe953db93d50e16fddb3",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0"
+      ]
+    },
+    "3.0.10": {
+      "fetchedAt": "2026-10-25T19:44:01Z",
+      "sha256": "ff13b459f84966c37e0e72ac5a5ba396bad0088434fabe953db93d50e16fddb3",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0"
+      ]
+    },
+    "3.0.11": {
+      "fetchedAt": "2026-10-25T19:44:01Z",
+      "sha256": "6108280f7f986c81c57149ccaa502f63ebeffdce705083a4dfc6bae7418b79c2",
+      "dependencies": [
+        "com.android.support:support-v4:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.9",
+          "3.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.pgyersdk.PgyerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.3",
+          "3.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.pgyer.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

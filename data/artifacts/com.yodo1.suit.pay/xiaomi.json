@@ -17,6 +17,17 @@
       "fetchedAt": "2026-10-25T02:38:17Z",
       "sha256": "c5b2cef54bf5972269c54f8f2b214fbdd89f57281cc36f832f0b40df326a005d",
       "dependencies": []
+    },
+    "3.4.6.1": {
+      "fetchedAt": "2026-10-25T20:53:22Z",
+      "sha256": "c5b2cef54bf5972269c54f8f2b214fbdd89f57281cc36f832f0b40df326a005d",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.17",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.zxing:core:3.2.0",
+        "com.xiaomi.gamecenter.sdk:mioauth:3.4.6",
+        "com.xiaomi.gamecenter.sdk:onetrack-sdk:2.2.5"
+      ]
     }
   },
   "components": [
@@ -26,7 +37,7 @@
       "versionRanges": [
         [
           "3.3.0.6.0",
-          "3.4.6.0"
+          "3.4.6.1"
         ]
       ],
       "exported": false,

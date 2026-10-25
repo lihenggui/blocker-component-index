@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.huawei.hms:hmscoreinstaller",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "6.13.0.304": {
+      "fetchedAt": "2026-10-25T19:17:28Z",
+      "sha256": "1c6ff82dbaf775d2a2cc0a9548f253caa51d55b92fc7c1a2de6cd01c2faf3aa7",
+      "dependencies": [
+        "com.huawei.hms:availableupdate:6.13.0.304",
+        "com.huawei.hms:base:6.13.0.304",
+        "com.huawei.hms:baselegacyapi:6.13.0.304",
+        "com.huawei.hms:device:6.13.0.304",
+        "com.huawei.hms:log:6.13.0.304",
+        "com.huawei.hms:stats:6.13.0.304",
+        "com.huawei.hms:ui:6.13.0.304",
+        "com.huawei.hms:update:6.0.2.300"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.update.provider.UpdateProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.13.0.304",
+          "6.13.0.304"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hms.update.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

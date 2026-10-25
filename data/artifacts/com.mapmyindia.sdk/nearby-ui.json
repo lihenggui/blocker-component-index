@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.mapmyindia.sdk:nearby-ui",
+  "repository": "https://maven.mapmyindia.com/repository/mapmyindia",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T19:31:22Z",
+      "sha256": "b38bc3041b2fdb619a75f11bd68e773ef52ee909b890d459dc16e5936bb36bb0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.gms:play-services-location:17.1.0",
+        "com.google.android.material:material:1.3.0",
+        "com.mapmyindia.sdk:annotation-plugin:0.2.0",
+        "com.mapmyindia.sdk:mapmyindia-android-sdk:6.8.10",
+        "com.mapmyindia.sdk:place-widget:1.4.0",
+        "com.mapmyindia.sdk:rest-apis:3.0.1"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T19:31:20Z",
+      "sha256": "c69da3beebe65a95c8ca60ea0d345072a849e679a69dbd1cfa82238924cff750",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.gms:play-services-location:17.1.0",
+        "com.google.android.material:material:1.3.0",
+        "com.mapmyindia.sdk:annotation-plugin:0.3.0",
+        "com.mapmyindia.sdk:mapmyindia-android-sdk:7.0.0",
+        "com.mapmyindia.sdk:place-widget:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapmyindia.sdk.nearby.plugin.MapmyIndiaNearbyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

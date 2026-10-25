@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.rokid.meeting.libjuphoon:libjuphoon",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T20:07:22Z",
+      "sha256": "8f3d201e07bf9c43896fef507032f33575ed9d1f678976d26d1999f846b7d724",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.JuphoonCloud:JC-SDK:2.4.3",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "0.8": {
+      "fetchedAt": "2026-10-25T20:07:16Z",
+      "sha256": "4d57ae4fa48c21207a3397e87e61052af3caa318139ea4404774886c645a8706",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.github.juphoon-app:JCSDK:2.8.1",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.android.meeting.juphoon.JuphoonProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.8",
+          "0.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rokid.rtc.startup",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.juphoon.JuphoonProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "rokid.rtc.startup",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

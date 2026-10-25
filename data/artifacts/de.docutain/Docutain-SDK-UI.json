@@ -382,6 +382,29 @@
         "de.docutain:Docutain-SDK-Core:1.8.2.0",
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
       ]
+    },
+    "1.9.0.0": {
+      "fetchedAt": "2026-10-25T20:55:01Z",
+      "sha256": "de3282e0c0bfb17c1e36ef0b27a552cfe0cfd322a769dadaba6f6e08694ffc69",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.8.2",
+        "androidx.camera:camera-camera2:1.6.1",
+        "androidx.camera:camera-core:1.6.1",
+        "androidx.camera:camera-lifecycle:1.6.1",
+        "androidx.camera:camera-view:1.6.1",
+        "androidx.concurrent:concurrent-futures-ktx:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.9.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.2",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0",
+        "com.google.android.material:material:1.4.0",
+        "de.docutain:Docutain-SDK-Core:1.9.0.0",
+        "io.github.zxing-cpp:android:2.3.0",
+        "org.jetbrains.kotlin:kotlin-bom:2.1.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2"
+      ]
     }
   },
   "components": [
@@ -391,7 +414,7 @@
       "versionRanges": [
         [
           "1.5.1.8",
-          "1.8.2.0"
+          "1.9.0.0"
         ]
       ],
       "exported": false,
@@ -437,12 +460,29 @@
       "metaData": []
     },
     {
+      "name": "de.docutain.sdk.ui.girocodegenerator.ActivityGiroCodeGenerator",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.9.0.0",
+          "1.9.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "de.docutain.sdk.ui.photopayment.ActivityPhotoPaymentOnboarding",
       "type": "activity",
       "versionRanges": [
         [
           "1.7.1.0",
-          "1.8.2.0"
+          "1.9.0.0"
         ]
       ],
       "exported": false,

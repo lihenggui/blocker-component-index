@@ -1,0 +1,29 @@
+{
+  "coordinate": "ai.koog:agents-features-opentelemetry-android",
+  "repository": "https://packages.jetbrains.team/maven/p/grazi/grazie-platform-public",
+  "versions": {
+    "1.3.0-develop-20261014-0210": {
+      "fetchedAt": "2026-10-25T18:01:41Z",
+      "sha256": "645db7dec173ff77001a60e2770d2ec99ef3fac545feae1a51de63f30fd91faf",
+      "dependencies": [
+        "ai.koog:agents-core:1.3.0-develop-20261014-0210",
+        "ai.koog:agents-mcp-metadata:1.3.0-develop-20261014-0210",
+        "ai.koog:agents-utils:1.3.0-develop-20261014-0210",
+        "io.ktor:ktor-client-content-negotiation:3.3.3",
+        "io.ktor:ktor-client-core:3.3.3",
+        "io.ktor:ktor-serialization-kotlinx-json:3.3.3",
+        "io.opentelemetry.kotlin:compat:0.3.0",
+        "io.opentelemetry.kotlin:core:0.3.0",
+        "io.opentelemetry.kotlin:exporters-core:0.3.0",
+        "io.opentelemetry.kotlin:implementation:0.3.0",
+        "io.opentelemetry.kotlin:sdk-api:0.3.0",
+        "io.opentelemetry.kotlin:semconv:0.3.0",
+        "io.opentelemetry:opentelemetry-bom:1.61.0",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
+      ]
+    }
+  },
+  "components": []
+}

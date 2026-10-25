@@ -23,6 +23,17 @@
         "io.jsonwebtoken:jjwt:0.12.6",
         "org.slf4j:slf4j-android:1.7.25"
       ]
+    },
+    "10.0.0": {
+      "fetchedAt": "2026-10-25T20:51:01Z",
+      "sha256": "ff05dbb27ab88ba0a6907cb558a980adc339ee2d1e594d19cb6325afe1794bf7",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "com.nimbusds:nimbus-jose-jwt:10.5",
+        "com.whatspos.sdk:paxstore-3rd-app-android-cloud-msg-sdk:10.0.0",
+        "com.whatspos.sdk:paxstore-3rd-app-java-sdk:10.0.0",
+        "org.slf4j:slf4j-android:1.7.25"
+      ]
     }
   },
   "components": [
@@ -32,7 +43,7 @@
       "versionRanges": [
         [
           "9.5.1",
-          "9.7.1"
+          "10.0.0"
         ]
       ],
       "exported": null,
@@ -49,7 +60,7 @@
       "versionRanges": [
         [
           "9.5.1",
-          "9.7.1"
+          "10.0.0"
         ]
       ],
       "exported": true,
@@ -71,7 +82,7 @@
       "versionRanges": [
         [
           "9.5.1",
-          "9.7.1"
+          "10.0.0"
         ]
       ],
       "exported": true,
@@ -92,7 +103,7 @@
       "versionRanges": [
         [
           "9.5.1",
-          "9.7.1"
+          "10.0.0"
         ]
       ],
       "exported": true,

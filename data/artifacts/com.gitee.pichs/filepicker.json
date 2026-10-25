@@ -101,6 +101,21 @@
       "fetchedAt": "2026-10-24T05:52:04Z",
       "sha256": "e00040a3bdaf2d47ec4c3b686c3d3292e19a7be9e99d365c7e27c03204714c14",
       "dependencies": []
+    },
+    "7.4.0": {
+      "fetchedAt": "2026-10-25T19:02:52Z",
+      "sha256": "e00040a3bdaf2d47ec4c3b686c3d3292e19a7be9e99d365c7e27c03204714c14",
+      "dependencies": []
+    },
+    "7.4.1": {
+      "fetchedAt": "2026-10-25T19:02:51Z",
+      "sha256": "e00040a3bdaf2d47ec4c3b686c3d3292e19a7be9e99d365c7e27c03204714c14",
+      "dependencies": []
+    },
+    "7.5.0": {
+      "fetchedAt": "2026-10-25T19:02:51Z",
+      "sha256": "cef2983e73789c0fd06e5b6998e69703fc110e6ed5aec491992b7138e19b456d",
+      "dependencies": []
     }
   },
   "components": [
@@ -129,7 +144,7 @@
       "versionRanges": [
         [
           "5.7.0",
-          "7.3.1"
+          "7.5.0"
         ]
       ],
       "exported": true,
@@ -146,7 +161,7 @@
       "versionRanges": [
         [
           "5.7.0",
-          "7.3.1"
+          "7.5.0"
         ]
       ],
       "exported": true,
@@ -163,7 +178,7 @@
       "versionRanges": [
         [
           "4.0.0",
-          "7.3.1"
+          "7.5.0"
         ]
       ],
       "exported": true,
@@ -182,7 +197,7 @@
       "versionRanges": [
         [
           "4.0.0",
-          "7.3.1"
+          "7.5.0"
         ]
       ],
       "exported": true,
@@ -192,6 +207,23 @@
       "actions": [
         "com.filepicker.VIDEO_PREVIEW"
       ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pichs.filepicker.crop.FilePickerCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.5.0",
+          "7.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
       "categories": [],
       "metaData": []
     }

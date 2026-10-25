@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.salesforce.android.agentforcesdk:agentforce-sdk",
+  "repository": "https://opensource.salesforce.com/AgentforceMobileSDK-Android/agentforce-sdk-repository",
+  "versions": {
+    "15.195.3": {
+      "fetchedAt": "2026-10-25T20:38:27Z",
+      "sha256": "689a291ee2b4804edc3b6310c6524f9d3985e7d9c2a54b2f8e76322b396a2144",
+      "dependencies": [
+        "androidx.compose.material3:material3:1.4.0",
+        "androidx.compose.material:material-icons-extended:1.7.8",
+        "androidx.compose.material:material:1.11.0",
+        "androidx.compose.runtime:runtime-livedata:1.11.0",
+        "androidx.compose.ui:ui-tooling:1.11.0",
+        "androidx.compose.ui:ui:1.11.0",
+        "androidx.databinding:viewbinding:8.9.1",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1",
+        "androidx.navigation:navigation-compose:2.5.3",
+        "com.googlecode.libphonenumber:libphonenumber:9.0.24",
+        "com.salesforce.android.agentforcesdk:agentforce-sdk-components:15.195.3",
+        "com.salesforce.android.agentforcesdk:agentforce-sdk-hybrid-webview:15.195.3",
+        "com.salesforce.android.agentforcesdk:agentforce-service:15.195.3",
+        "com.salesforce.android.mobile.interfaces:logging:1.0.8",
+        "com.salesforce.android.mobile.interfaces:navigation:1.0.8",
+        "com.salesforce.android.mobile.interfaces:network:1.0.8",
+        "com.salesforce.android.mobile.interfaces:user:1.0.8",
+        "io.noties.markwon:core:4.6.2",
+        "io.noties.markwon:ext-strikethrough:4.6.2",
+        "io.noties.markwon:ext-tables:4.6.2",
+        "io.noties.markwon:ext-tasklist:4.6.2",
+        "io.noties.markwon:html:4.6.2",
+        "io.noties.markwon:image-coil:4.6.2",
+        "io.noties.markwon:linkify:4.6.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.salesforce.android.agentforcesdkimpl.utils.AgentforcePDFFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "15.195.3",
+          "15.195.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.agentforcefileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

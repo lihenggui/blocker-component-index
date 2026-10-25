@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.huawei.hms:opendevice",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "6.13.0.301": {
+      "fetchedAt": "2026-10-25T19:18:28Z",
+      "sha256": "931d2477ff77d086543c1104aabd042a7f7761ae5bf6cd7c26eab0ea11d2d7c5",
+      "dependencies": [
+        "com.huawei.android.hms:security-base:1.3.0.301",
+        "com.huawei.android.hms:security-encrypt:1.3.0.301",
+        "com.huawei.hms:base:6.13.0.303"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.aaid.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.13.0.301",
+          "6.13.0.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.aaidinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

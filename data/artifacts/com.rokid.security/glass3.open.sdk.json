@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.rokid.security:glass3.open.sdk",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "2.1.9-E": {
+      "fetchedAt": "2026-10-25T20:34:06Z",
+      "sha256": "9aa47099c74147b65e7d5bb93cf8b29b54cf68e3a845ce6fae9428fbf66a3309",
+      "dependencies": []
+    },
+    "2.2.0-E": {
+      "fetchedAt": "2026-10-25T20:34:02Z",
+      "sha256": "9aa47099c74147b65e7d5bb93cf8b29b54cf68e3a845ce6fae9428fbf66a3309",
+      "dependencies": []
+    },
+    "2.2.2-E": {
+      "fetchedAt": "2026-10-25T20:33:58Z",
+      "sha256": "9aa47099c74147b65e7d5bb93cf8b29b54cf68e3a845ce6fae9428fbf66a3309",
+      "dependencies": []
+    },
+    "2.5.1-P": {
+      "fetchedAt": "2026-10-25T20:33:55Z",
+      "sha256": "7d53e9ae0916e41959bd0187826be8b3539b7f6d9a81547b7921c419c0761a65",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.5.1-P",
+          "2.5.1-P"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rokid.opensdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

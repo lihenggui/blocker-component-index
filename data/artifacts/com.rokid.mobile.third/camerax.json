@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.rokid.mobile.third:camerax",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T20:17:38Z",
+      "sha256": "1ea31f100cd76dd3e79489308fbb428479f31cf116273d339f339cb73a7c41f6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.2.1",
+        "androidx.camera:camera-core:1.2.1",
+        "androidx.camera:camera-lifecycle:1.2.1",
+        "androidx.camera:camera-view:1.2.1",
+        "androidx.concurrent:concurrent-futures:1.1.0",
+        "androidx.transition:transition:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.luck.lib.camerax.PictureCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

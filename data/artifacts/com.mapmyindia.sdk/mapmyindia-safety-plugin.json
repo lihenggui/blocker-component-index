@@ -1,0 +1,174 @@
+{
+  "coordinate": "com.mapmyindia.sdk:mapmyindia-safety-plugin",
+  "repository": "https://maven.mapmyindia.com/repository/mapmyindia",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T19:30:46Z",
+      "sha256": "c87a980e815bd1cd93fdecdedd4e4dc72339303d1514c6be2d7a9536cc0c6626",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.room:room-runtime:2.2.5",
+        "androidx.work:work-runtime:2.3.4",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.firebase:firebase-core:17.4.1",
+        "com.google.firebase:firebase-iid:20.1.7",
+        "com.google.firebase:firebase-messaging:20.1.7",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.squareup.okhttp3:logging-interceptor:4.2.2",
+        "com.squareup.retrofit2:converter-gson:2.6.2",
+        "com.squareup.retrofit2:converter-scalars:2.6.2",
+        "com.squareup.retrofit2:retrofit:2.6.2",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T19:30:44Z",
+      "sha256": "5714e349522f38a94abd5fae7f20cc0a658b2b19d1c720c229e6f5adc02ba59d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.room:room-runtime:2.2.5",
+        "androidx.work:work-runtime:2.3.4",
+        "com.google.android.gms:play-services-location:17.0.0",
+        "com.google.firebase:firebase-core:17.4.1",
+        "com.google.firebase:firebase-iid:20.1.7",
+        "com.google.firebase:firebase-messaging:20.1.7",
+        "com.jakewharton.timber:timber:4.7.1",
+        "com.squareup.okhttp3:logging-interceptor:4.2.2",
+        "com.squareup.retrofit2:converter-gson:2.6.2",
+        "com.squareup.retrofit2:converter-scalars:2.6.2",
+        "com.squareup.retrofit2:retrofit:2.6.2",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapmyindia.sdk.safety.SafetyPluginProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.SecurityPluginProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapmyindia.sdk.safety.core.MapmyIndiaProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MapmyIndiaProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapmyindia.sdk.safety.core.service.BeaconTrackerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapmyindia.sdk.safety.core.service.DetectedActivitiesIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapmyindia.sdk.safety.internal.NetworkChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "com.mmi.beacon.LOGGER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mapmyindia.sdk.safety.internal.permission.LocationPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

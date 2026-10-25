@@ -1,0 +1,71 @@
+{
+  "coordinate": "com.rokid.glass:ui",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.6.4": {
+      "fetchedAt": "2026-10-25T20:03:17Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.1"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T20:03:13Z",
+      "sha256": "084696c544c65067551059695324a3e4d3745ab1ce7e1e608ff299277868232d",
+      "dependencies": [
+        "com.rokid.glass:imu:1.3.8"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T20:03:08Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T20:03:04Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-25T20:02:59Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T20:02:55Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.glass.ui.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.4",
+          "2.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

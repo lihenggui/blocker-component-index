@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.tmapmobility.tmap:tmap-core-sdk",
+  "repository": "https://devrepo.tmapadmin.com/repository/tmap-sdk-release",
+  "versions": {
+    "2.0.36": {
+      "fetchedAt": "2026-10-25T20:49:28Z",
+      "sha256": "f570f831c9c9993a58ede12d8680ac732e1460057a1e10b5663267d69b9341b0",
+      "dependencies": [
+        "com.tmapmobility.tmap:tmap-auto-sdk:0.0.1.0001"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.skt.tmap.receiver.InstallResultReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.36",
+          "2.0.36"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.INSTALL_PACKAGES",
+      "authorities": null,
+      "actions": [
+        "com.android.packageinstaller.ACTION_UNINSTALL_COMMIT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

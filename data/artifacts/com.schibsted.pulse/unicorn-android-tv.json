@@ -101,6 +101,27 @@
         "com.squareup.okhttp3:logging-interceptor:4.12.0",
         "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
       ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T20:38:52Z",
+      "sha256": "f6b011ab721addef65e4199faf5f6edf40880a86fc665544780349e243095b5a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.13.0",
+        "androidx.activity:activity-ktx:1.13.0",
+        "androidx.appcompat:appcompat:1.8.0",
+        "androidx.compose:compose-bom:2026.08.00",
+        "androidx.core:core-ktx:1.19.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.11.0",
+        "androidx.tv:tv-material:1.1.0",
+        "com.google.android.material:material:1.14.0",
+        "com.google.code.gson:gson:2.14.0",
+        "com.schibsted.pulse:di:2.0.0",
+        "com.schibsted.pulse:domain:2.0.0",
+        "com.schibsted.pulse:network:2.0.0",
+        "com.schibsted.pulse:storage:2.0.0",
+        "com.squareup.okhttp3:logging-interceptor:5.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.10"
+      ]
     }
   },
   "components": [
@@ -110,7 +131,7 @@
       "versionRanges": [
         [
           "1.2.0-alpha06",
-          "1.2.0-alpha13"
+          "2.0.0"
         ]
       ],
       "exported": null,

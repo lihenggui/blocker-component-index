@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.huawei.hms:hianalytics",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "6.12.0.301": {
+      "fetchedAt": "2026-10-25T19:17:24Z",
+      "sha256": "843fed12ff1b1b0a025390798fb1797a56efdce85114632be1761aa3fd454239",
+      "dependencies": [
+        "com.huawei.agconnect:agconnect-credential:1.9.1.300",
+        "com.huawei.android.hms:security-encrypt:1.2.0.308",
+        "com.huawei.android.hms:security-ssl:1.2.0.308",
+        "com.huawei.hms:base:6.7.0.300",
+        "com.huawei.hms:hianalytics-core:6.12.0.301",
+        "com.huawei.hms:hianalytics-element:6.12.0.301",
+        "com.huawei.hms:hianalytics-framework:6.12.0.301",
+        "com.huawei.hms:network-grs:6.0.2.300",
+        "com.huawei.hms:opendevice:6.12.0.300"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.analytics.provider.AnalyticsInitializeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.12.0.301",
+          "6.12.0.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AnalyticsKitInitializeProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.12.0.301",
+          "6.12.0.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.hms.analytics.pps.event"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

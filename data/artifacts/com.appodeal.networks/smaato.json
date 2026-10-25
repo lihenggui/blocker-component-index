@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.appodeal.networks:smaato",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "21.1.3": {
+      "fetchedAt": "2026-10-25T18:30:42Z",
+      "sha256": "ad0db1e7bfd8bc5bc377bb6afe91d55630e15bea1e89da3c1cabb12a87c4776f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.smaato.sdk.core.browser.SmaatoSdkBrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "21.1.3",
+          "21.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "21.1.3",
+          "21.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.smaato-lifecycle-process",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.sdk.interstitial.InterstitialAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "21.1.3",
+          "21.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.sdk.rewarded.widget.RewardedInterstitialAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "21.1.3",
+          "21.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

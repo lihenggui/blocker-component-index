@@ -70,6 +70,16 @@
         "com.webex.connect:webexconnect-core:3.0.6",
         "com.webex.connect:webexconnect-push:3.0.6"
       ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T20:50:56Z",
+      "sha256": "371b087c60bc0ea8d3033c9a62ec3ca0686c346059a0de04ba29d32d74e50fe3",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.10.0",
+        "com.google.firebase:firebase-messaging:25.0.2",
+        "com.webex.connect:webexconnect-core:3.1.0",
+        "com.webex.connect:webexconnect-push:3.1.0"
+      ]
     }
   },
   "components": [
@@ -79,7 +89,7 @@
       "versionRanges": [
         [
           "3.0.0",
-          "3.0.6"
+          "3.1.0"
         ]
       ],
       "exported": false,
@@ -98,7 +108,7 @@
       "versionRanges": [
         [
           "3.0.0",
-          "3.0.6"
+          "3.1.0"
         ]
       ],
       "exported": false,

@@ -369,6 +369,26 @@
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.21",
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
       ]
+    },
+    "4.21.0": {
+      "fetchedAt": "2026-10-25T20:50:32Z",
+      "sha256": "506752d0a5a0709f75d95f3fba8b15237cd9f178d196502918222b45bc104add",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.datastore:datastore:1.0.0",
+        "androidx.lifecycle:lifecycle-process:2.6.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.webkit:webkit:1.6.1",
+        "androidx.work:work-runtime-ktx:2.7.0",
+        "com.google.android.gms:play-services-cronet:18.0.1",
+        "com.google.protobuf:protobuf-kotlin-lite:3.25.6",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.unity3d.coherence:coherencelib:[0.2.0,0.3.0)",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
+      ]
     }
   },
   "components": [
@@ -378,7 +398,7 @@
       "versionRanges": [
         [
           "4.13.2",
-          "4.20.1"
+          "4.21.0"
         ]
       ],
       "exported": null,
@@ -393,12 +413,29 @@
       ]
     },
     {
+      "name": "com.unity3d.ads.adplayer.AdTaskRemovalDetectionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.21.0",
+          "4.21.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.unity3d.ads.adplayer.FullScreenWebViewDisplay",
       "type": "activity",
       "versionRanges": [
         [
           "4.13.2",
-          "4.20.1"
+          "4.21.0"
         ]
       ],
       "exported": false,

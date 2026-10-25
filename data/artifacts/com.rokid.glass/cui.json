@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.rokid.glass:cui",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T20:02:31Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T20:02:26Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T20:02:22Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T20:02:19Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T20:02:15Z",
+      "sha256": "b6c5eed99234ae9f8bdcc3b9241c2a90ebb45837f6029afacf50724f699f41f5",
+      "dependencies": [
+        "com.rokid.glass:imu:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.glass.ui.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -361,6 +361,24 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
       ]
+    },
+    "3.26.0-kotlin1.9": {
+      "fetchedAt": "2026-10-25T20:58:49Z",
+      "sha256": "e3a44e0e6a6602a9d60636e0037af26ccb7228ccb5872ea770ba4bf8dd77ef28",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.lifecycle:lifecycle-common:2.8.7",
+        "androidx.lifecycle:lifecycle-process:2.8.7",
+        "androidx.webkit:webkit:1.15.0",
+        "com.google.android.material:material:1.14.0",
+        "com.google.android.play:feature-delivery:2.1.0",
+        "financial.atomic:muppet-legacy:0.0.0-alpha14",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
     }
   },
   "components": [
@@ -370,7 +388,7 @@
       "versionRanges": [
         [
           "3.11.1",
-          "3.26.0"
+          "3.26.0-kotlin1.9"
         ]
       ],
       "exported": null,
@@ -387,7 +405,7 @@
       "versionRanges": [
         [
           "3.11.1",
-          "3.26.0"
+          "3.26.0-kotlin1.9"
         ]
       ],
       "exported": false,

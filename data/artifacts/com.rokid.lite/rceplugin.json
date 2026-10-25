@@ -1,0 +1,108 @@
+{
+  "coordinate": "com.rokid.lite:rceplugin",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T20:04:54Z",
+      "sha256": "d0efb62441814b439d7d368c76975741417a480fa7fd3f03df5d946d0ab4e20a",
+      "dependencies": [
+        "com.rokid.lite.rlog:rlog:0.0.1-20230720.073501-1",
+        "com.rokid.lite:libyuv:2.0.0",
+        "com.rokid.lite:qrcode:2.0.0",
+        "com.rokid.lite:rkaliyunoss:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T20:04:49Z",
+      "sha256": "d0efb62441814b439d7d368c76975741417a480fa7fd3f03df5d946d0ab4e20a",
+      "dependencies": [
+        "com.rokid.lite.rlog:rlog:0.0.1-20230720.073501-1",
+        "com.rokid.lite:libyuv:2.0.0",
+        "com.rokid.lite:qrcode:2.0.0",
+        "com.rokid.lite:rkaliyunoss:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "2.3.3-taidian": {
+      "fetchedAt": "2026-10-25T20:04:44Z",
+      "sha256": "d0efb62441814b439d7d368c76975741417a480fa7fd3f03df5d946d0ab4e20a",
+      "dependencies": [
+        "com.rokid.lite.rlog:rlog:0.0.1-20230720.073501-1",
+        "com.rokid.lite:libyuv:2.0.0",
+        "com.rokid.lite:qrcode:2.0.0",
+        "com.rokid.lite:rkaliyunoss:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "2.3.4-SNAPSHOT-1": {
+      "fetchedAt": "2026-10-25T20:04:39Z",
+      "sha256": "d0efb62441814b439d7d368c76975741417a480fa7fd3f03df5d946d0ab4e20a",
+      "dependencies": [
+        "com.rokid.lite.rlog:rlog:0.0.1-20230720.073501-1",
+        "com.rokid.lite:libyuv:2.0.0",
+        "com.rokid.lite:qrcode:2.0.1",
+        "com.rokid.lite:rkaliyunoss:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "2.3.4": {
+      "fetchedAt": "2026-10-25T20:04:34Z",
+      "sha256": "d0efb62441814b439d7d368c76975741417a480fa7fd3f03df5d946d0ab4e20a",
+      "dependencies": [
+        "com.rokid.lite.rlog:rlog:0.0.1-20230720.073501-1",
+        "com.rokid.lite:libyuv:2.0.0",
+        "com.rokid.lite:qrcode:2.0.0",
+        "com.rokid.lite:rkaliyunoss:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0"
+      ]
+    },
+    "2.3.7": {
+      "fetchedAt": "2026-10-25T20:04:28Z",
+      "sha256": "53279455cab8514e77a3de9f765334f769e9a3642e8243e7d1b5f17a98d16b92",
+      "dependencies": [
+        "com.rokid.lite.rlog:rlog:0.0.3-20250311.085050-1",
+        "com.rokid.lite:libyuv:2.0.0",
+        "com.rokid.lite:qrcode:2.0.2",
+        "com.rokid.lite:rkaliyunoss:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.appcenter.rcebridge.screen.MediaProjectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.2",
+          "2.3.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.appcenter.rcebridge.screen.RKMediaProjectionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.3.2",
+          "2.3.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

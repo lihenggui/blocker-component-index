@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.explorestack:consent",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T18:57:00Z",
+      "sha256": "48fa03669211e45752ec8581df6ae10d83107521944d4839dde733a035bb6716",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T18:56:57Z",
+      "sha256": "65f6b4977065213d7c1fca03a7879a46b762d1a704dd301ed1433a57d744191a",
+      "dependencies": [
+        "com.explorestack:consent-models:1.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T18:56:55Z",
+      "sha256": "94b6ef0a8d996f543af68f2a90aa5b72a0c86ec4edf0a6df25601f323caa5514",
+      "dependencies": [
+        "com.explorestack:consent-models:1.0.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T18:56:53Z",
+      "sha256": "ddc4a507e245a7397631bba868f72dc26fb35f1530709174ee34fb7886f7b65d",
+      "dependencies": [
+        "com.explorestack:consent-models:1.0.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T18:56:51Z",
+      "sha256": "ee02a52078305b49a1313fde6664a49bf30a62ff5b126c88331678fd5e10bd4b",
+      "dependencies": [
+        "com.explorestack:consent-models:1.0.2"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T18:56:49Z",
+      "sha256": "f6c63fc047adfa19132bd7bc7f338881dc742f29992c21e6d0c28420010afdd1",
+      "dependencies": [
+        "com.explorestack:consent-models:1.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.explorestack.consent.activity.ConsentFormActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

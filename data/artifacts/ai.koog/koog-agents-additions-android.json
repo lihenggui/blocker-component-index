@@ -1,0 +1,31 @@
+{
+  "coordinate": "ai.koog:koog-agents-additions-android",
+  "repository": "https://packages.jetbrains.team/maven/p/grazi/grazie-platform-public",
+  "versions": {
+    "1.3.0-beta-develop-20261014-0210": {
+      "fetchedAt": "2026-10-25T18:06:58Z",
+      "sha256": "3c270830583d1b8c0bdbfe725a606b39d72c5f2ac4339751e38c8d0bc4e05543",
+      "dependencies": [
+        "ai.koog:agents-cli:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:agents-features-longterm-memory:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:agents-features-opentelemetry:1.3.0-develop-20261014-0210",
+        "ai.koog:agents-mcp:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:agents-planner:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-cache-redis:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-executor-dashscope-client:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-executor-deepseek-client:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-executor-google-client:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-executor-litert-client:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-executor-llms-all:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-executor-mistralai-client:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:prompt-executor-openrouter-client:1.3.0-develop-20261014-0210",
+        "ai.koog:rag-vector:1.3.0-beta-develop-20261014-0210",
+        "ai.koog:skills:1.3.0-beta-develop-20261014-0210",
+        "io.ktor:ktor-client-okhttp:3.3.3",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10"
+      ]
+    }
+  },
+  "components": []
+}

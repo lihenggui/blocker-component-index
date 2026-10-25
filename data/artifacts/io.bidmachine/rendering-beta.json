@@ -1,0 +1,36 @@
+{
+  "coordinate": "io.bidmachine:rendering-beta",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "0.8.0": {
+      "fetchedAt": "2026-10-25T21:10:09Z",
+      "sha256": "389a83d038255c0ffa174c1477128a6c6a35bc3fb0888a13c722def9181db2e5",
+      "dependencies": [
+        "com.explorestack:iab:1.8.0",
+        "io.bidmachine.media3:media3-exoplayer-dash:1.1.0",
+        "io.bidmachine.media3:media3-exoplayer-hls:1.1.0",
+        "io.bidmachine.media3:media3-exoplayer:1.1.0",
+        "io.bidmachine.media3:media3-ui:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.bidmachine.rendering.ad.fullscreen.FullScreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0",
+          "0.8.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

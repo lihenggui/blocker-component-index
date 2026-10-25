@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.rokid.record:rkrecord",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T20:23:58Z",
+      "sha256": "606728080a5bd2082bb8fe8d232daa8239cfa8feec2ee57bf93f88a51c17b5fa",
+      "dependencies": [
+        "android.arch.lifecycle:livedata:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.android.support:support-compat:28.0.0",
+        "com.rokid.camera:rkcamera:1.0.3"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T20:23:54Z",
+      "sha256": "606728080a5bd2082bb8fe8d232daa8239cfa8feec2ee57bf93f88a51c17b5fa",
+      "dependencies": [
+        "android.arch.lifecycle:livedata:1.1.1",
+        "android.arch.persistence.room:runtime:1.1.1",
+        "com.android.support:support-compat:28.0.0",
+        "com.rokid.camera:rkcamera:1.0.6-camera2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.camera.recorder.RKMediaService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

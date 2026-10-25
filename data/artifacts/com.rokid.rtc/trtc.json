@@ -1,0 +1,129 @@
+{
+  "coordinate": "com.rokid.rtc:trtc",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "2.0.1-global": {
+      "fetchedAt": "2026-10-25T20:31:40Z",
+      "sha256": "da24a109be40a05b2a5db0bca6c1d0f50a00b5a697d625b1743f4d1d2fb6dc03",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.rtc:api:4.0.1-global",
+        "com.rokid.rtc:base:0.0.8",
+        "com.rokid.rtc:signaling:2.0.0",
+        "com.tencent.liteav:LiteAVSDK_TRTC:10.8.0.13052",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "2.0.2-global": {
+      "fetchedAt": "2026-10-25T20:31:35Z",
+      "sha256": "da24a109be40a05b2a5db0bca6c1d0f50a00b5a697d625b1743f4d1d2fb6dc03",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:3.0.5",
+        "com.rokid.rtc:api:4.0.1-global",
+        "com.rokid.rtc:base:0.0.8",
+        "com.rokid.rtc:signaling:2.0.0",
+        "com.tencent.liteav:LiteAVSDK_TRTC:10.8.0.13052",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "4.0.0-global": {
+      "fetchedAt": "2026-10-25T20:31:31Z",
+      "sha256": "d6609316703b78659352b65512c97521f18f35b6df816ba401d16f130a9fd13d",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.rtc:api:4.0.0-global",
+        "com.rokid.rtc:base:0.0.8",
+        "com.rokid.rtc:signaling:1.0.0",
+        "com.tencent.liteav:LiteAVSDK_TRTC:10.8.0.13052",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "4.0.0-trtc": {
+      "fetchedAt": "2026-10-25T20:31:26Z",
+      "sha256": "d6609316703b78659352b65512c97521f18f35b6df816ba401d16f130a9fd13d",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.rtc:api:2.1.0-trtc-20221014.082016-1",
+        "com.rokid.rtc:base:0.0.8",
+        "com.rokid.rtc:signaling:1.1.1-20221129.030028-1",
+        "com.tencent.liteav:LiteAVSDK_TRTC:10.8.0.13052",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "4.0.1-global": {
+      "fetchedAt": "2026-10-25T20:31:21Z",
+      "sha256": "d6609316703b78659352b65512c97521f18f35b6df816ba401d16f130a9fd13d",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.rtc:api:4.0.0-global",
+        "com.rokid.rtc:base:0.0.8",
+        "com.rokid.rtc:signaling:1.0.0",
+        "com.tencent.liteav:LiteAVSDK_TRTC:10.8.0.13052",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.1-global",
+          "4.0.1-global"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rokid.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.rokid.android.meeting.rtc.tx.TxRtcInitializer"
+      ]
+    },
+    {
+      "name": "com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.1-global",
+          "4.0.1-global"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

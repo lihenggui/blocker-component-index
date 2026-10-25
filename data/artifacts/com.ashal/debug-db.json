@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.ashal:debug-db",
+  "repository": "https://mymavenrepo.com/repo/5IrBw2fUFDAHZmlSDhwZ",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T18:31:05Z",
+      "sha256": "020d82c6694a822f8d6a073884a14588e4096412bf97249deb0aa6fb65303ac0",
+      "dependencies": [
+        "com.ashal:debug-db-base:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ashal.debug.DebugDBInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DebugDBInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

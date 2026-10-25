@@ -1,0 +1,167 @@
+{
+  "coordinate": "com.edna.android:voice-push-release",
+  "repository": "https://maven-pub.edna.ru/repository/maven-public",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T18:53:50Z",
+      "sha256": "1b51709be77707a738e333cbe32b0b9a05fa0dcae0835e2e96b929cd9b1fbbbe",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.0",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.fragment:fragment-ktx:1.7.0",
+        "androidx.media3:media3-exoplayer:1.4.0",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.google.android.material:material:1.12.0",
+        "com.google.dagger:dagger:2.48",
+        "com.squareup.moshi:moshi-kotlin:1.15.0",
+        "com.squareup.moshi:moshi:1.15.0",
+        "com.squareup.okhttp3:logging-interceptor:4.10.0",
+        "com.squareup.okhttp3:okhttp:4.10.0",
+        "com.squareup.retrofit2:converter-moshi:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T18:53:46Z",
+      "sha256": "1b51709be77707a738e333cbe32b0b9a05fa0dcae0835e2e96b929cd9b1fbbbe",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.0",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.fragment:fragment-ktx:1.7.0",
+        "androidx.media3:media3-exoplayer:1.4.0",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "com.github.bumptech.glide:glide:4.16.0",
+        "com.google.android.material:material:1.12.0",
+        "com.google.dagger:dagger:2.48",
+        "com.squareup.moshi:moshi-kotlin:1.15.0",
+        "com.squareup.moshi:moshi:1.15.0",
+        "com.squareup.okhttp3:logging-interceptor:4.10.0",
+        "com.squareup.okhttp3:okhttp:4.10.0",
+        "com.squareup.retrofit2:converter-moshi:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.9.0"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-25T18:53:42Z",
+      "sha256": "a1136b6dedea5c07ddca57d6df53d933c04cbff2dd933562f6b0b4efe3938295",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.11.0",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.fragment:fragment-ktx:1.8.9",
+        "androidx.media3:media3-exoplayer:1.8.0",
+        "androidx.room:room-ktx:2.8.3",
+        "androidx.room:room-runtime:2.8.3",
+        "androidx.work:work-runtime-ktx:2.11.0",
+        "com.github.bumptech.glide:glide:5.0.5",
+        "com.google.android.material:material:1.13.0",
+        "com.google.dagger:dagger:2.57.2",
+        "com.squareup.moshi:moshi-kotlin:1.15.2",
+        "com.squareup.moshi:moshi:1.15.2",
+        "com.squareup.okhttp3:logging-interceptor:5.2.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:3.0.0",
+        "com.squareup.retrofit2:retrofit:3.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.edna.android.voicepush.audioservice.AudioService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.edna.android.voicepush.call.CallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.edna.android.voicepush.call.connection.VoicePushConnectionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_TELECOM_CONNECTION_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.telecom.ConnectionService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.edna.android.voicepush.call.incomingCall.CallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.edna.android.voicepush.call.ongoingCall.OngoingCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

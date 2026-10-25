@@ -1,0 +1,44 @@
+{
+  "coordinate": "com.rokid.thirdparty.livekit:livekit-android",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "2.28.0-rokid.1": {
+      "fetchedAt": "2026-10-25T20:36:26Z",
+      "sha256": "75f9c5c9687f02ea17e2909c39c4f99e21f780e7bb66554015ac55c1647a95d3",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.1",
+        "androidx.core:core:1.13.1",
+        "com.auth0.android:jwtdecode:2.0.2",
+        "com.github.davidliu:audioswitch:039a35aefab7747c557242fa216c9ea11743b604",
+        "com.google.dagger:dagger:2.46",
+        "com.google.protobuf:protobuf-javalite:3.22.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.vdurmont:semver4j:3.1.0",
+        "io.github.webrtc-sdk:android-prefixed:144.7559.09",
+        "javax.sip:android-jain-sip-ri:1.3.0-91",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.livekit.android.room.track.screencapture.ScreenCaptureService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.28.0-rokid.1",
+          "2.28.0-rokid.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

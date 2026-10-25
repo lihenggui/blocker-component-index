@@ -1,0 +1,17 @@
+{
+  "coordinate": "io.bidmachine.plus:mytarget-adapter",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "5.52.5.0": {
+      "fetchedAt": "2026-10-25T21:05:06Z",
+      "sha256": "b0c57eec6c8d732afa8d1891a2840d48339f8ae828d4379f1f4b801fdea08b19",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.52.5",
+        "io.bidmachine.plus:sdk:0.2.0-beta.15",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0"
+      ]
+    }
+  },
+  "components": []
+}

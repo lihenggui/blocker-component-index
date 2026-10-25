@@ -1,0 +1,128 @@
+{
+  "coordinate": "com.github.jeancsanchez:JcPlayer",
+  "repository": "https://repository.liferay.com/nexus/content/repositories/public",
+  "versions": {
+    "2.6.12": {
+      "fetchedAt": "2026-10-25T19:06:17Z",
+      "sha256": "232f194a289678e9fc30b9f28e4a9469a90172f781f70c9138b72d984b555339",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:recyclerview-v7:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.daimajia.androidanimations:library:2.3",
+        "com.daimajia.easing:library:2.0",
+        "com.nineoldandroids:library:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.61"
+      ]
+    },
+    "2.6.15": {
+      "fetchedAt": "2026-10-25T19:06:07Z",
+      "sha256": "bcc968ff669fb5a05f59002d3925679339e125cdb28655341b4a7094a9432f55",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.2",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:recyclerview-v7:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.daimajia.androidanimations:library:2.3",
+        "com.daimajia.easing:library:2.0",
+        "com.nineoldandroids:library:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.61"
+      ]
+    },
+    "2.6.16": {
+      "fetchedAt": "2026-10-25T19:06:04Z",
+      "sha256": "f8871651a168bba7d9f127dfddae457eedd4374247d3cd39229175638360eb40",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.daimajia.androidanimations:library:2.3",
+        "com.daimajia.easing:library:2.0",
+        "com.nineoldandroids:library:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-25T19:06:01Z",
+      "sha256": "f8871651a168bba7d9f127dfddae457eedd4374247d3cd39229175638360eb40",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.daimajia.androidanimations:library:2.3",
+        "com.daimajia.easing:library:2.0",
+        "com.nineoldandroids:library:2.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21"
+      ]
+    },
+    "2.7.1": {
+      "fetchedAt": "2026-10-25T19:05:57Z",
+      "sha256": "52e8270a8ad2126f9b11ba9935afc1e80fd7607c531d85787529ad519bd606e4",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.daimajia.androidanimations:library:2.3",
+        "com.daimajia.easing:library:2.0",
+        "com.nineoldandroids:library:2.4.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.21"
+      ]
+    },
+    "2.7.2": {
+      "fetchedAt": "2026-10-25T19:05:54Z",
+      "sha256": "e666962781e92297df524d9c94da4fb9c7e5a3a94f73649239d07dcbb70d2990",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.daimajia.androidanimations:library:2.3",
+        "com.daimajia.easing:library:2.0",
+        "com.nineoldandroids:library:2.4.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.jean.jcplayer.service.JcPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.12",
+          "2.7.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.6.12",
+          "2.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

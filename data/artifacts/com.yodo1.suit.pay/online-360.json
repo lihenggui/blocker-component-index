@@ -6,6 +6,13 @@
       "fetchedAt": "2026-10-25T02:38:02Z",
       "sha256": "c76f1436b5afc2fa3a953d9c42089fa991cc9a97240111a7439f864b556acf63",
       "dependencies": []
+    },
+    "2.4.0.806.3": {
+      "fetchedAt": "2026-10-25T20:53:18Z",
+      "sha256": "436b307aa974cd14e3d6a57f59202653d0600c7e32ff79147a858f195fef859a",
+      "dependencies": [
+        "com.yodo1.plugin.360:360-pay:1002.4.0.806"
+      ]
     }
   },
   "components": [
@@ -15,7 +22,7 @@
       "versionRanges": [
         [
           "2.3.4.782.0",
-          "2.3.4.782.0"
+          "2.4.0.806.3"
         ]
       ],
       "exported": true,
@@ -119,7 +126,7 @@
       "versionRanges": [
         [
           "2.3.4.782.0",
-          "2.3.4.782.0"
+          "2.4.0.806.3"
         ]
       ],
       "exported": true,
@@ -135,6 +142,25 @@
         "android.intent.category.DEFAULT"
       ],
       "metaData": []
+    },
+    {
+      "name": "com.qihoo.gamecenter.sdk.common.utils.QGameFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.4.0.806.3",
+          "2.4.0.806.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.QGameFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
     },
     {
       "name": "com.qihoo.gamecenter.sdk.hook.DownloadService",
@@ -420,6 +446,28 @@
         ]
       ],
       "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tauth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.4.0.806.3",
+          "2.4.0.806.3"
+        ]
+      ],
+      "exported": true,
       "process": null,
       "permission": null,
       "authorities": null,

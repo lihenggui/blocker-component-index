@@ -1,0 +1,51 @@
+{
+  "coordinate": "io.bidmachine:ads-networks-amazon",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "3.5.0.18": {
+      "fetchedAt": "2026-10-25T21:07:07Z",
+      "sha256": "1131f7fc9404c914ea981adb2c469c22272d81a1f66e59a12f0e9f048014392f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "com.amazon.android:aps-sdk:11.0.1",
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amazon.device.ads.DTBAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0.18",
+          "3.5.0.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.amazon.device.ads.DTBInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.5.0.18",
+          "3.5.0.18"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

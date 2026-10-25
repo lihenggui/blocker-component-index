@@ -162,6 +162,15 @@
         "com.google.android.gms:play-services-base:18.0.1",
         "com.google.firebase:firebase-messaging:23.1.2"
       ]
+    },
+    "9.1.7754": {
+      "fetchedAt": "2026-10-25T20:47:17Z",
+      "sha256": "d960ada00938ab3dcb665acf9317def0f0338150ea6018911e2af86917fb4db5",
+      "dependencies": [
+        "androidx.work:work-runtime:2.8.1",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:23.1.2"
+      ]
     }
   },
   "components": [
@@ -171,7 +180,7 @@
       "versionRanges": [
         [
           "8.0.6897",
-          "9.1.7753-beta02"
+          "9.1.7754"
         ]
       ],
       "exported": false,
@@ -191,6 +200,10 @@
         [
           "8.0.6897",
           "9.0.7667"
+        ],
+        [
+          "9.1.7754",
+          "9.1.7754"
         ]
       ],
       "exported": false,

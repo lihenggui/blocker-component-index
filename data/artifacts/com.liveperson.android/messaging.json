@@ -265,6 +265,20 @@
         "com.squareup.okhttp3:okhttp:4.9.3",
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
       ]
+    },
+    "5.28.0": {
+      "fetchedAt": "2026-10-25T19:29:04Z",
+      "sha256": "8af8e0660f54c9ce3a0ee30cf53633c2603587030819293c552c8ca19c980534",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.exifinterface:exifinterface:1.4.1",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "com.liveperson.android:infra:5.28.0",
+        "com.liveperson.android:monitoring:5.28.0",
+        "com.nimbusds:nimbus-jose-jwt:9.37.4",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
+      ]
     }
   },
   "components": [
@@ -274,7 +288,7 @@
       "versionRanges": [
         [
           "5.22.0-beta01",
-          "5.27.2"
+          "5.28.0"
         ]
       ],
       "exported": false,
@@ -291,7 +305,7 @@
       "versionRanges": [
         [
           "5.22.0-beta01",
-          "5.27.2"
+          "5.28.0"
         ]
       ],
       "exported": false,

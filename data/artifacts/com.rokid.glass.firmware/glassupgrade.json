@@ -1,0 +1,89 @@
+{
+  "coordinate": "com.rokid.glass.firmware:glassupgrade",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T20:02:00Z",
+      "sha256": "3bfe3b977e3d0b6ab1c740f0edea27a9553b9d9234d73e0234ac75bb087438a7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.mik3y:usb-serial-for-android:3.4.6",
+        "com.github.stateless4j:stateless4j:2.6.0",
+        "com.google.code.gson:gson:2.9.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T20:01:56Z",
+      "sha256": "a8e9ee4431c45a0a82be1ec7caad40946ebf416f710d7a0a26d1bc56e65fca5c",
+      "dependencies": [
+        "com.github.mik3y:usb-serial-for-android:3.4.6",
+        "com.github.stateless4j:stateless4j:2.6.0",
+        "com.google.code.gson:gson:2.9.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T20:01:51Z",
+      "sha256": "a8e9ee4431c45a0a82be1ec7caad40946ebf416f710d7a0a26d1bc56e65fca5c",
+      "dependencies": [
+        "com.github.mik3y:usb-serial-for-android:3.4.6",
+        "com.github.stateless4j:stateless4j:2.6.0",
+        "com.google.code.gson:gson:2.9.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T20:01:46Z",
+      "sha256": "a8e9ee4431c45a0a82be1ec7caad40946ebf416f710d7a0a26d1bc56e65fca5c",
+      "dependencies": [
+        "com.github.mik3y:usb-serial-for-android:3.4.6",
+        "com.github.stateless4j:stateless4j:2.6.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T20:01:41Z",
+      "sha256": "a8e9ee4431c45a0a82be1ec7caad40946ebf416f710d7a0a26d1bc56e65fca5c",
+      "dependencies": [
+        "com.github.mik3y:usb-serial-for-android:3.4.6",
+        "com.github.stateless4j:stateless4j:2.6.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T20:01:37Z",
+      "sha256": "a8e9ee4431c45a0a82be1ec7caad40946ebf416f710d7a0a26d1bc56e65fca5c",
+      "dependencies": [
+        "com.github.mik3y:usb-serial-for-android:3.4.6",
+        "com.github.stateless4j:stateless4j:2.6.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T20:01:32Z",
+      "sha256": "a8e9ee4431c45a0a82be1ec7caad40946ebf416f710d7a0a26d1bc56e65fca5c",
+      "dependencies": [
+        "com.github.mik3y:usb-serial-for-android:3.7.0",
+        "com.github.stateless4j:stateless4j:2.6.0",
+        "com.google.code.gson:gson:2.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.glass.firmware.UpgradeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

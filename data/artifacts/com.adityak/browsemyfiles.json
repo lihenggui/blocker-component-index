@@ -1,0 +1,196 @@
+{
+  "coordinate": "com.adityak:browsemyfiles",
+  "repository": "http://maven.aliyun.com/nexus/content/groups/public",
+  "versions": {
+    "1.4": {
+      "fetchedAt": "2026-10-25T18:23:59Z",
+      "sha256": "c04ff833699791b95e1bcd30de9ce35cd6d34bd95bffaf563b34ac20f6a59a9c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.0",
+        "com.android.support:recyclerview-v7:25.3.0",
+        "com.beardedhen:androidbootstrap:2.3.1",
+        "com.roughike:bottom-bar:2.3.1",
+        "com.simplecityapps:recyclerview-fastscroll:1.0.14"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T18:23:53Z",
+      "sha256": "6c783b2ac54cd41382f1ece819eacc8e25cacd7624b3a5fa00cb455a9b536b68",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.0",
+        "com.android.support:recyclerview-v7:25.3.0",
+        "com.beardedhen:androidbootstrap:2.3.1",
+        "com.roughike:bottom-bar:2.3.1",
+        "com.simplecityapps:recyclerview-fastscroll:1.0.14"
+      ]
+    },
+    "1.7": {
+      "fetchedAt": "2026-10-25T18:23:46Z",
+      "sha256": "1b3bde54376c30b40e21993b56f1b88a0ce19fddbc4280d7cd074ba688038012",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.0",
+        "com.android.support:recyclerview-v7:25.3.0",
+        "com.beardedhen:androidbootstrap:2.3.1",
+        "com.roughike:bottom-bar:2.3.1",
+        "com.simplecityapps:recyclerview-fastscroll:1.0.14"
+      ]
+    },
+    "1.8": {
+      "fetchedAt": "2026-10-25T18:23:42Z",
+      "sha256": "f89ea8906bf2d9b41f144c0ea8e8b257026c45c095b7b18c00045c4fb9275388",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.android.support:recyclerview-v7:27.1.1",
+        "com.beardedhen:androidbootstrap:2.3.1",
+        "com.roughike:bottom-bar:2.3.1",
+        "com.simplecityapps:recyclerview-fastscroll:1.0.20"
+      ]
+    },
+    "1.9": {
+      "fetchedAt": "2026-10-25T18:23:35Z",
+      "sha256": "61c9143dbb0a616072256235e8db2d168f6cafbf7e2896b3aa96f89d2f56605f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.android.support:recyclerview-v7:27.1.1",
+        "com.beardedhen:androidbootstrap:2.3.1",
+        "com.roughike:bottom-bar:2.3.1",
+        "com.simplecityapps:recyclerview-fastscroll:1.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.9",
+          "1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "@string/filebrowser_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.8",
+          "1.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.aditya.filebrowser.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.aditya.filebrowser.FileBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "com.aditya.filebrowser.FileBrowserWithCustomHandler",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "com.aditya.filebrowser.FileChooser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "com.aditya.filebrowser.FolderChooser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.9",
+          "1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.searchable"
+      ]
+    },
+    {
+      "name": "com.aditya.filebrowser.utils.Permissions",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

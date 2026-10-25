@@ -1,0 +1,129 @@
+{
+  "coordinate": "com.rokid.rtc:rtc",
+  "repository": "https://maven.rokid.com/repository/maven-public",
+  "versions": {
+    "4.8.4": {
+      "fetchedAt": "2026-10-25T20:31:12Z",
+      "sha256": "a4fdd343d2dca09fac6bee558a66faf073ba353c553d2093bc0061091eff4283",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.network:rknetwork:0.9.12-rc1",
+        "com.rokid.rtc:api:4.8.4",
+        "com.rokid.rtc:rokid:4.8.4",
+        "com.rokid.utils:rkutils:1.0.1",
+        "com.squareup.okhttp3:okhttp:4.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "4.8.5": {
+      "fetchedAt": "2026-10-25T20:31:07Z",
+      "sha256": "a4fdd343d2dca09fac6bee558a66faf073ba353c553d2093bc0061091eff4283",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.network:rknetwork:0.9.12-rc1",
+        "com.rokid.rtc:api:4.8.5",
+        "com.rokid.rtc:rokid:4.8.5",
+        "com.rokid.utils:rkutils:1.0.1",
+        "com.squareup.okhttp3:okhttp:4.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "4.8.6": {
+      "fetchedAt": "2026-10-25T20:31:02Z",
+      "sha256": "15f48951dc6eb4bfbc34ba9f70c2b122765a11dc193102b4f71ba817937f5fbd",
+      "dependencies": [
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.network:rknetwork:0.9.12-rc1",
+        "com.rokid.rtc:api:4.8.6",
+        "com.rokid.rtc:rokid:4.8.6",
+        "com.rokid.utils:rkutils:1.0.2",
+        "com.squareup.okhttp3:okhttp:4.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-25T20:30:57Z",
+      "sha256": "6b262bb68b83ba87dd88808e35110885dda396ef4f6b7e835a1580c0e8b51630",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.network:rknetwork:0.9.12-rc1",
+        "com.rokid.rtc:api:6.0.0",
+        "com.rokid.rtc:base:0.0.9",
+        "com.rokid.rtc:livekit:6.0.0",
+        "com.rokid.utils:rkutils:1.0.2",
+        "com.squareup.okhttp3:okhttp:4.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "6.0.1": {
+      "fetchedAt": "2026-10-25T20:30:52Z",
+      "sha256": "6b262bb68b83ba87dd88808e35110885dda396ef4f6b7e835a1580c0e8b51630",
+      "dependencies": [
+        "androidx.core:core-ktx:1.12.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.rokid.logger:rklogger:1.1.9",
+        "com.rokid.network:rknetwork:0.9.12-rc1",
+        "com.rokid.rtc:api:6.0.1",
+        "com.rokid.rtc:base:0.0.9",
+        "com.rokid.rtc:livekit:6.0.1",
+        "com.rokid.utils:rkutils:1.0.2",
+        "com.squareup.okhttp3:okhttp:4.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.rokid.android.meeting.sdk.core.RKRtcCoreProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.8.6",
+          "6.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rtc.core.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.rokid.android.meeting.sdk.core.RKRtcCoreProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.8.4",
+          "4.8.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.rtc.core.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

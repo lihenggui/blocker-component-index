@@ -34,6 +34,17 @@
         "org.fourthline.cling:cling-core:2.1.1",
         "org.fourthline.cling:cling-support:2.1.1"
       ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-25T19:08:18Z",
+      "sha256": "926088ec3ff531ab53c8313a3cff3ca6c3ac149caa2a7700a9244f95f5f99f6a",
+      "dependencies": [
+        "org.eclipse.jetty:jetty-client:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-server:8.1.8.v20121106",
+        "org.eclipse.jetty:jetty-servlet:8.1.8.v20121106",
+        "org.fourthline.cling:cling-core:2.1.1",
+        "org.fourthline.cling:cling-support:2.1.1"
+      ]
     }
   },
   "components": [
@@ -43,7 +54,7 @@
       "versionRanges": [
         [
           "1.0.1",
-          "2.1.1"
+          "2.1.2"
         ]
       ],
       "exported": null,

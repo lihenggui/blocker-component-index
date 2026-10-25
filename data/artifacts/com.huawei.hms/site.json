@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.huawei.hms:site",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "6.2.0.301": {
+      "fetchedAt": "2026-10-25T19:18:59Z",
+      "sha256": "78b94baf14ea56be7eadf16c0f79e3a36bc3b6d51a6f2709861124da36fa5787",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.6",
+        "com.huawei.hms:base:6.2.0.300"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.site.widget.SearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.0.301",
+          "6.2.0.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

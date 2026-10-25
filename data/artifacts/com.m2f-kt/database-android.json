@@ -394,6 +394,22 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
         "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1"
       ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T19:29:31Z",
+      "sha256": "0c29e5506580f4bded49f197b78bde164f55dae7f2f78478d7e5a811f6d875ae",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "app.cash.sqldelight:android-driver:2.1.0",
+        "app.cash.sqldelight:async-extensions:2.1.0",
+        "app.cash.sqldelight:runtime:2.1.0",
+        "io.arrow-kt:arrow-continuations:1.2.4",
+        "io.arrow-kt:arrow-core:2.1.2",
+        "io.arrow-kt:arrow-fx-coroutines:2.1.2",
+        "io.arrow-kt:arrow-fx-stm:2.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1"
+      ]
     }
   },
   "components": [
@@ -403,7 +419,7 @@
       "versionRanges": [
         [
           "0.2.0-dev02",
-          "1.0.7"
+          "1.0.8"
         ]
       ],
       "exported": false,

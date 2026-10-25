@@ -17,6 +17,14 @@
         "com.yodo1.fancraft:fancraft_firebase:1.0.0",
         "com.yodo1.suit.plugin:common:6.3.10.1"
       ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T20:52:50Z",
+      "sha256": "a08ffcc8a2f3140af9ec3eb4b3b12ef3a4f6c3cdff0c1656fae567a729765c25",
+      "dependencies": [
+        "com.yodo1.fancraft:fancraft_firebase:1.0.1",
+        "com.yodo1.suit.plugin:common:6.5.0.0"
+      ]
     }
   },
   "components": [
@@ -26,7 +34,7 @@
       "versionRanges": [
         [
           "1.0.0-beta.2",
-          "1.0.0"
+          "1.0.1"
         ]
       ],
       "exported": false,
@@ -38,12 +46,29 @@
       "metaData": []
     },
     {
+      "name": "com.yodo1.android.fancraft.form.FileChooserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.yodo1.android.fancraft.ui.FanCraftPushReceiver",
       "type": "receiver",
       "versionRanges": [
         [
           "1.0.0-beta.2",
-          "1.0.0"
+          "1.0.1"
         ]
       ],
       "exported": false,
@@ -60,7 +85,7 @@
       "versionRanges": [
         [
           "1.0.0-beta.2",
-          "1.0.0"
+          "1.0.1"
         ]
       ],
       "exported": false,

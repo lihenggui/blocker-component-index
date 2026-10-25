@@ -55,6 +55,15 @@
         "androidx.legacy:legacy-support-v4:1.0.0",
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
       ]
+    },
+    "2.4.5": {
+      "fetchedAt": "2026-10-25T19:20:29Z",
+      "sha256": "e331e504925b3d74b4be46e81a19ca98a605f35ccea273ca14fe08b041cdfe16",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
     }
   },
   "components": [
@@ -160,6 +169,79 @@
         [
           "2.4.3",
           "2.4.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.interswitch.smart_till.TillReceiver$Companion$BluetoothSDKBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.LOCKED_BOOT_COMPLETED",
+        "android.intent.action.REBOOT",
+        "android.intent.category.DEFAULT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.interswitch.smart_till.service.bluetooth.TillBluetoothService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.interswitch.smart_till.service.tcp.TCPService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.interswitch.smart_till.service.usb.USBService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.4.5",
+          "2.4.5"
         ]
       ],
       "exported": true,

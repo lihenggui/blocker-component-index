@@ -96,6 +96,11 @@
       "fetchedAt": "2026-10-24T23:56:49Z",
       "sha256": "e2ea97de6ad845a99b2fe90f3ef6c0d7a75c6fd5c26c76adfbc6b39e7bc10eaf",
       "dependencies": []
+    },
+    "3.6.0.1422": {
+      "fetchedAt": "2026-10-25T20:47:04Z",
+      "sha256": "a739e4c5e7af24121e5b2475820f5e2d6bd45f7cc713e4f19063ab1420a0e5b2",
+      "dependencies": []
     }
   },
   "components": [
@@ -156,13 +161,30 @@
       "versionRanges": [
         [
           "3.0.0.685",
-          "3.5.0.1475"
+          "3.6.0.1422"
         ]
       ],
       "exported": false,
       "process": null,
       "permission": null,
       "authorities": "${applicationId}.Initializer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuicallkit.manager.feature.notification.NotificationRequestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.6.0.1422",
+          "3.6.0.1422"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
       "actions": [],
       "categories": [],
       "metaData": []
@@ -190,7 +212,7 @@
       "versionRanges": [
         [
           "3.0.0.685",
-          "3.5.0.1475"
+          "3.6.0.1422"
         ]
       ],
       "exported": null,
@@ -224,7 +246,7 @@
       "versionRanges": [
         [
           "3.0.0.685",
-          "3.5.0.1475"
+          "3.6.0.1422"
         ]
       ],
       "exported": false,
@@ -262,7 +284,7 @@
       "versionRanges": [
         [
           "3.0.0.685",
-          "3.5.0.1475"
+          "3.6.0.1422"
         ]
       ],
       "exported": null,

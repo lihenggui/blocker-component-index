@@ -187,6 +187,16 @@
         "com.squareup.leakcanary:shark-log:3.0-alpha-8",
         "org.jetbrains.kotlin:kotlin-stdlib:1.8.21"
       ]
+    },
+    "3.0-alpha-9": {
+      "fetchedAt": "2026-10-25T20:43:26Z",
+      "sha256": "db33c5e1f8e77346b62b6f3d403df11a1a55014cced88b3e2346d76601312c0a",
+      "dependencies": [
+        "androidx.work:work-multiprocess:2.7.0",
+        "com.squareup.leakcanary:leakcanary-object-watcher-android-core:3.0-alpha-9",
+        "com.squareup.leakcanary:shark-log:3.0-alpha-9",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
+      ]
     }
   },
   "components": [
@@ -230,7 +240,7 @@
       "versionRanges": [
         [
           "2.8",
-          "3.0-alpha-8"
+          "3.0-alpha-9"
         ]
       ],
       "exported": false,

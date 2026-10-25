@@ -279,6 +279,19 @@
         "org.jetbrains.kotlin:kotlin-stdlib:1.7.21",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
       ]
+    },
+    "4.11.0": {
+      "fetchedAt": "2026-10-25T20:45:42Z",
+      "sha256": "091992d4e3b83bed3b581f8ef4ad1b04bbc1fbb99f6835b266e8fe43ff031daf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "com.stripe:payments-core:20.1.0",
+        "com.taptap.android.payment:base:4.11.0",
+        "com.taptap.sdk:tap-common:4.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
     }
   },
   "components": [
@@ -288,7 +301,7 @@
       "versionRanges": [
         [
           "4.7.0-beta.2",
-          "4.11.0-beta.3"
+          "4.11.0"
         ]
       ],
       "exported": true,

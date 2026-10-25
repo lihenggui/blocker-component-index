@@ -190,6 +190,18 @@
         "com.android.volley:volley:1.2.0",
         "com.google.code.gson:gson:2.10.1"
       ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T19:31:59Z",
+      "sha256": "31cc31cf09deb8f3a879c2015490fe09d0a01f08cbc2045da76852bae2390209",
+      "dependencies": [
+        "androidx.activity:activity:1.9.2",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.core:core:1.13.1",
+        "com.android.volley:volley:1.2.1",
+        "com.google.code.gson:gson:2.11.0"
+      ]
     }
   },
   "components": [
@@ -199,7 +211,7 @@
       "versionRanges": [
         [
           "3.0.6",
-          "3.1.0"
+          "3.2.0"
         ]
       ],
       "exported": true,
@@ -225,6 +237,23 @@
         ]
       ],
       "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mastercard.openbanking.connect.CustomTabsActivityManager",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0",
+          "3.2.0"
+        ]
+      ],
+      "exported": false,
       "process": null,
       "permission": null,
       "authorities": null,

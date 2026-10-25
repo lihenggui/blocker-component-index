@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.mapmyindia.sdk:ble-plugin",
+  "repository": "https://maven.mapmyindia.com/repository/mapmyindia",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T19:29:42Z",
+      "sha256": "282c318fc4a3e7b540bb482f73cb7fa20631f509fa6d775d6904088c3eb14259",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T19:29:40Z",
+      "sha256": "9b5ccdcbc4a9418343ad2334722e81cbef884ba4b53a36315fea2533db958758",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T19:29:38Z",
+      "sha256": "55a0b91b7866f04306baecbbcfb213d40eda9d2195a914a11cc9919e1c49a8cc",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    "0.1.3": {
+      "fetchedAt": "2026-10-25T19:29:36Z",
+      "sha256": "55a0b91b7866f04306baecbbcfb213d40eda9d2195a914a11cc9919e1c49a8cc",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mapmyindia.sdk.bleplugin.BleContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.BleContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}
