@@ -84,7 +84,9 @@ def metadata(raw):
     group, artifact = root.findtext("groupId"), root.findtext("artifactId")
     coordinate = f"{group}:{artifact}" if group and artifact else None
     versions = [node.text.strip() for node in root.findall("versioning/versions/version") if node.text]
-    return coordinate, ordered(v for v in versions if v and "/" not in v and "\\" not in v and v not in (".", ".."))
+    # Snapshots are mutable development builds, not releases apps ship.
+    return coordinate, ordered(v for v in versions if v and "/" not in v and "\\" not in v and v not in (".", "..")
+                               and not v.upper().endswith("-SNAPSHOT"))
 
 
 def pom(raw):

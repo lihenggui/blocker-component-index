@@ -69,3 +69,7 @@ class ParsingTests(FixtureTest):
                                               "dependencies": [None, {"group": None, "module": "x", "version": None},
                                                                {"group": "org.dep", "module": "lib", "version": {"requires": "1"}}]}]})
         self.assertEqual(module_info(raw.encode()), (["sdk.aar"], ["org.dep:lib:1"]))
+
+    def test_given_metadata_with_snapshot_versions_when_parsed_then_snapshots_are_dropped(self):
+        raw = b"<metadata><groupId>g</groupId><artifactId>a</artifactId><versioning><versions><version>1.0</version><version>1.1-SNAPSHOT</version></versions></versioning></metadata>"
+        self.assertEqual(metadata(raw), ("g:a", ["1.0"]))

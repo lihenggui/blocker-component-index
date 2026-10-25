@@ -223,7 +223,8 @@ def _run_task(task, client, store, max_versions=20):
     elif kind == "google-group":
         # group-index.xml already lists versions, so no per-artifact metadata request is needed.
         for artifact in xml(response.body):
-            versions = [v.strip() for v in (artifact.get("versions") or "").split(",") if v.strip()]
+            versions = [v.strip() for v in (artifact.get("versions") or "").split(",")
+                        if v.strip() and not v.strip().upper().endswith("-SNAPSHOT")]
             if versions:
                 store.artifact(repository, task["group"] + ":" + artifact.tag, ordered(versions)[-max_versions:])
             else:
