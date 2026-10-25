@@ -2,6 +2,99 @@
   "coordinate": "in.payu:payu-gpay",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "2.4.0": {
+      "fetchedAt": "2026-10-25T16:01:49Z",
+      "sha256": "634bd150d2e62ba107f790ee30ccd1d6e1e0f60adb1f1503473d0d820b1728e6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.2.6",
+        "in.payu:payu-crash-logger:[1.0.4,1.1.0)",
+        "in.payu:payuanalytics:1.2.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T16:01:48Z",
+      "sha256": "49c91c3fa8fbcdd5a9454bf52f112a07eac2c74d1a92d9c966ba8edead9bdf07",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.3.9",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T16:01:48Z",
+      "sha256": "69427dfa0a2c625953c4291dd9dadaa808d326577d619c755a3e57ca7b1b584d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.3.12",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T16:01:47Z",
+      "sha256": "e9e6b6c539f7dc092b934552ea1b4ee2dcee1350eeee7402654ccafc08f77cc1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.4.0",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T16:01:46Z",
+      "sha256": "6fc444c2656239c34e9b45e66ed5461498f48599cb39cc211ff62e2512ec4961",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.4.1",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)"
+      ]
+    },
+    "3.1.2": {
+      "fetchedAt": "2026-10-25T16:01:46Z",
+      "sha256": "03c8c886d2302f7c845a15f7f86a2bf5af0977cc25a1e6f7b413a91c8df2cc43",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.4.2",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)"
+      ]
+    },
+    "3.1.3": {
+      "fetchedAt": "2026-10-25T16:01:45Z",
+      "sha256": "55fbb6772650e59771b18268ec5f5427a986098b7e10bc887bef852865071b22",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.4.3",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)"
+      ]
+    },
+    "3.1.4": {
+      "fetchedAt": "2026-10-25T16:01:45Z",
+      "sha256": "31d70c578a0e4eca89ac1a16d5e80acd0c774ce940bc7227aacd5a3b65db8b94",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.4.3",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)",
+        "in.payu:payuanalytics:1.5.3"
+      ]
+    },
+    "3.1.5": {
+      "fetchedAt": "2026-10-25T16:01:44Z",
+      "sha256": "b6c01f63d2b88f355f891324f1af4c74ac8f4e54e3c18d8eeb6d69c4c9a1d1ad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.4.4",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)",
+        "in.payu:payuanalytics:1.5.3"
+      ]
+    },
     "3.1.6": {
       "fetchedAt": "2026-10-25T03:30:35Z",
       "sha256": "092559ce1de3f695a5057f02cb81372242f487e5a2a077cd3a2862e3db7030ad",
@@ -12,6 +105,32 @@
         "in.payu:payu-crash-logger:[1.1.1,1.2.0)",
         "in.payu:payuanalytics:1.5.3"
       ]
+    },
+    "3.1.7-alpha1": {
+      "fetchedAt": "2026-10-25T16:01:43Z",
+      "sha256": "067af2942fa084b57ec532d8de632b0538767901878717531682a4aaf1849d6e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.gms:play-services-tasks:17.2.0",
+        "in.payu:payu-core-networking:1.4.5",
+        "in.payu:payu-crash-logger:[1.1.1,1.2.0)",
+        "in.payu:payuanalytics:1.5.3"
+      ]
+    },
+    "3.1.7-alpha2": {
+      "fetchedAt": "2026-10-25T16:01:42Z",
+      "sha256": "40b23fe519247736010938992fa170994bda308431e15f008f222cbeb24b822b",
+      "dependencies": []
+    },
+    "3.1.7-alpha3": {
+      "fetchedAt": "2026-10-25T16:01:42Z",
+      "sha256": "f54e5d02530675b54d1dd453d255cf5c51b628891b36fe4a22337f25648e6245",
+      "dependencies": []
+    },
+    "3.1.7-alpha4": {
+      "fetchedAt": "2026-10-25T16:01:41Z",
+      "sha256": "00e490bd2f3d7d68da707704f8fc28de4f6345b4047f26d0c9ec13791b0c63b4",
+      "dependencies": []
     },
     "3.1.7-alpha5": {
       "fetchedAt": "2026-10-25T03:30:38Z",
@@ -86,7 +205,11 @@
       "type": "activity",
       "versionRanges": [
         [
-          "3.1.6",
+          "2.4.0",
+          "3.1.7-alpha1"
+        ],
+        [
+          "3.1.7-alpha5",
           "4.0.4"
         ]
       ],

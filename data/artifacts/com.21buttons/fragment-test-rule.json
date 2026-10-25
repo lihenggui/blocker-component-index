@@ -2,6 +2,21 @@
   "coordinate": "com.21buttons:fragment-test-rule",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T15:56:48Z",
+      "sha256": "14925cd5963ee8bb5c33bc4344eb25af0d80c17f856fcb5f6e0cbf9fbc0e8314",
+      "dependencies": []
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T15:56:48Z",
+      "sha256": "fea04c37c7dc3282046e4648a8e8d970c050a89afd44246dd311a373211fceb4",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T15:56:47Z",
+      "sha256": "fea04c37c7dc3282046e4648a8e8d970c050a89afd44246dd311a373211fceb4",
+      "dependencies": []
+    },
     "2.0.1": {
       "fetchedAt": "2026-10-23T21:26:36Z",
       "sha256": "3139747ded5c67d8a6e1a1010172d330a9a2643ca72edf85a310734f86fd4b09",
@@ -9,6 +24,23 @@
     }
   },
   "components": [
+    {
+      "name": "android.support.v4.app.FragmentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
     {
       "name": "androidx.fragment.app.FragmentActivity",
       "type": "activity",

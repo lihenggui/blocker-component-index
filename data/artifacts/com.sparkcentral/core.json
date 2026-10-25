@@ -2,6 +2,28 @@
   "coordinate": "com.sparkcentral:core",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "2.2.1": {
+      "fetchedAt": "2026-10-25T16:00:26Z",
+      "sha256": "98e3c41b0e1bcef427f7dc26d4aa7e937ee02b57143d97a3c4c529c5b88647cb",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.4",
+        "com.google.firebase:firebase-core:16.0.9",
+        "com.google.firebase:firebase-messaging:18.0.0",
+        "com.squareup.okhttp3:okhttp:3.11.0"
+      ]
+    },
+    "2.2.2": {
+      "fetchedAt": "2026-10-25T16:00:25Z",
+      "sha256": "97da67b675a43766e721a9f4336f1b7b85ee0f7b8d083e4a61ee83a2e723efd3",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.code.gson:gson:2.4",
+        "com.google.firebase:firebase-core:16.0.9",
+        "com.google.firebase:firebase-messaging:18.0.0",
+        "com.squareup.okhttp3:okhttp:3.11.0"
+      ]
+    },
     "2.2.4": {
       "fetchedAt": "2026-10-24T23:28:19Z",
       "sha256": "c129be676eeccf183331339ecd70a7990c20a411e4edcd72e1750f99534de8cb",
@@ -240,7 +262,7 @@
       "type": "service",
       "versionRanges": [
         [
-          "2.2.4",
+          "2.2.1",
           "4.2.0"
         ]
       ],
@@ -278,7 +300,7 @@
       "type": "service",
       "versionRanges": [
         [
-          "2.2.4",
+          "2.2.1",
           "5.9.0"
         ]
       ],

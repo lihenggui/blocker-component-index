@@ -2,6 +2,35 @@
   "coordinate": "com.github.gperez88:calculatorInputView",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T15:58:40Z",
+      "sha256": "8f88b5fd65d2d2d62eda09de4c77a93cb8f17c7408970b5443a520d735c1c671",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.android.support:gridlayout-v7:23.1.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T15:58:39Z",
+      "sha256": "aae0377003e55c6b1747dc3670eee11d35506f39228df25009198d8d7cb743e0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.android.support:gridlayout-v7:23.1.1",
+        "org.apache.commons:commons-lang3:3.4"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T15:58:39Z",
+      "sha256": "341cbad2d1a2ca011aa341c1ac1dea274f6c6c2d0640b8c705249fefb3a0de9a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.android.support:design:23.1.1",
+        "com.android.support:gridlayout-v7:23.1.1",
+        "org.apache.commons:commons-lang3:3.4"
+      ]
+    },
     "1.0.2": {
       "fetchedAt": "2026-10-24T06:12:09Z",
       "sha256": "4993a2ea4850e81b1b41ff7ca19ff79218c418beec535f2de5e084a3c325742c",
@@ -30,7 +59,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "1.0.2",
+          "0.0.1",
           "1.0.3"
         ]
       ],

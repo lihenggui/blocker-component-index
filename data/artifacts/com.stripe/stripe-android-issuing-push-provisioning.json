@@ -2,6 +2,40 @@
   "coordinate": "com.stripe:stripe-android-issuing-push-provisioning",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T16:00:31Z",
+      "sha256": "2eca634b2121c799d38b40dfa74a985b30de2cf4990207abcc7b15ec2f2607ef",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:16.0.1",
+        "com.google.android.gms:play-services-basement:16.0.1",
+        "com.google.android.gms:play-services-identity:16.0.101",
+        "com.google.android.gms:play-services-tapandpay:16.0.2",
+        "com.google.android.gms:play-services-wallet:16.0.1",
+        "com.squareup.okhttp3:okhttp:3.12.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T16:00:30Z",
+      "sha256": "2eca634b2121c799d38b40dfa74a985b30de2cf4990207abcc7b15ec2f2607ef",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:17.2.1",
+        "com.google.android.gms:play-services-basement:17.2.1",
+        "com.google.android.gms:play-services-tapandpay:17.0.1",
+        "com.google.android.gms:play-services-wallet:18.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T16:00:29Z",
+      "sha256": "6cf45a6241b43f68e2aa1abaa55d1a6ff7fea63a63b1d0c48862dfafab663db7",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.gms:play-services-basement:17.6.0",
+        "com.google.android.gms:play-services-tapandpay:17.1.2",
+        "com.google.android.gms:play-services-wallet:18.1.3",
+        "com.squareup.okhttp3:okhttp:4.9.1"
+      ]
+    },
     "1.0.9": {
       "fetchedAt": "2026-10-24T23:39:28Z",
       "sha256": "f4ebccc52b16fe5518dbbbe45cda0f26cc92834e1d5a9437baf62333a1d07f7b",
@@ -76,7 +110,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "1.0.9",
+          "1.0.0",
           "1.3.0"
         ]
       ],

@@ -2,6 +2,53 @@
   "coordinate": "com.amazon.android:aps-sdk",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "9.10.4": {
+      "fetchedAt": "2026-10-25T15:56:53Z",
+      "sha256": "85af83462cb6c21c54d08f5729038c533bbe32d7795393b2f82d41aef7ffccba",
+      "dependencies": [
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
+    },
+    "10.0.0": {
+      "fetchedAt": "2026-10-25T15:56:52Z",
+      "sha256": "85af83462cb6c21c54d08f5729038c533bbe32d7795393b2f82d41aef7ffccba",
+      "dependencies": [
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
+    },
+    "10.1.0": {
+      "fetchedAt": "2026-10-25T15:56:52Z",
+      "sha256": "85af83462cb6c21c54d08f5729038c533bbe32d7795393b2f82d41aef7ffccba",
+      "dependencies": [
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
+    },
+    "10.1.1": {
+      "fetchedAt": "2026-10-25T15:56:51Z",
+      "sha256": "85af83462cb6c21c54d08f5729038c533bbe32d7795393b2f82d41aef7ffccba",
+      "dependencies": [
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
+    },
+    "11.0.0": {
+      "fetchedAt": "2026-10-25T15:56:51Z",
+      "sha256": "6f5884e9b109c46ce089849db8996b51881fdbf685403664d89aa3168a9c8960",
+      "dependencies": [
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
+    },
+    "11.0.1": {
+      "fetchedAt": "2026-10-25T15:56:50Z",
+      "sha256": "6f5884e9b109c46ce089849db8996b51881fdbf685403664d89aa3168a9c8960",
+      "dependencies": [
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
+    },
+    "11.0.2": {
+      "fetchedAt": "2026-10-25T15:56:50Z",
+      "sha256": "cf2af05ae9b027e66dea446dc1e9d2cbc9a0f4ba618252213f095a033afa81b8",
+      "dependencies": []
+    },
     "11.0.4": {
       "fetchedAt": "2026-10-23T21:47:35Z",
       "sha256": "cf2af05ae9b027e66dea446dc1e9d2cbc9a0f4ba618252213f095a033afa81b8",
@@ -72,6 +119,13 @@
       "dependencies": [
         "com.iabtcf:iabtcf-decoder:2.0.10"
       ]
+    },
+    "12.0.3": {
+      "fetchedAt": "2026-10-25T15:56:49Z",
+      "sha256": "62c856ad7b648126eca93faa5f1349725531e33b4216e599df1b1b6c5a8c58e9",
+      "dependencies": [
+        "com.iabtcf:iabtcf-decoder:2.0.10"
+      ]
     }
   },
   "components": [
@@ -80,8 +134,8 @@
       "type": "activity",
       "versionRanges": [
         [
-          "11.0.4",
-          "12.0.2"
+          "9.10.4",
+          "12.0.3"
         ]
       ],
       "exported": true,
@@ -97,8 +151,8 @@
       "type": "activity",
       "versionRanges": [
         [
-          "11.0.4",
-          "12.0.2"
+          "9.10.4",
+          "12.0.3"
         ]
       ],
       "exported": true,

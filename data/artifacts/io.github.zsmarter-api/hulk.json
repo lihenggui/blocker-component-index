@@ -2,6 +2,51 @@
   "coordinate": "io.github.zsmarter-api:hulk",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "2.0.11": {
+      "fetchedAt": "2026-10-25T16:03:16Z",
+      "sha256": "9befddebc8812b87c606d627ed1565ad3650f1c7402a22cdd8e14c8b87af5d5f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.lifecycle:lifecycle-process:2.3.0",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.blankj:utilcodex:1.31.0",
+        "com.github.bumptech.glide:glide:4.13.2",
+        "com.squareup.moshi:moshi-kotlin:1.11.0",
+        "com.squareup.moshi:moshi:1.11.0",
+        "org.bouncycastle:bcpkix-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "2.0.12": {
+      "fetchedAt": "2026-10-25T16:03:15Z",
+      "sha256": "9a45edf1441781838dfdf62d0c8f9adb845c806a1aafabb2faf98111fd63b76d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.lifecycle:lifecycle-process:2.3.0",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.blankj:utilcodex:1.31.0",
+        "com.github.bumptech.glide:glide:4.13.2",
+        "com.squareup.moshi:moshi-kotlin:1.11.0",
+        "com.squareup.moshi:moshi:1.11.0",
+        "org.bouncycastle:bcpkix-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
+    "2.0.13": {
+      "fetchedAt": "2026-10-25T16:03:14Z",
+      "sha256": "ce374e0c6619c4248368777a67715fbdc7fa8857d875f124fcc712df746e0665",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.lifecycle:lifecycle-process:2.3.0",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.blankj:utilcodex:1.31.0",
+        "com.github.bumptech.glide:glide:4.13.2",
+        "com.squareup.moshi:moshi-kotlin:1.11.0",
+        "com.squareup.moshi:moshi:1.11.0",
+        "org.bouncycastle:bcpkix-jdk15on:1.65",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20"
+      ]
+    },
     "2.0.15": {
       "fetchedAt": "2026-10-25T08:26:26Z",
       "sha256": "30d14fdc64fa60cfc713a857dfa16e9c126350a8d8c945678f82e18d446e143a",
@@ -261,7 +306,7 @@
       "type": "receiver",
       "versionRanges": [
         [
-          "2.0.15",
+          "2.0.11",
           "2.0.16"
         ],
         [
@@ -286,7 +331,29 @@
       "type": "activity",
       "versionRanges": [
         [
-          "2.0.15",
+          "2.0.11",
+          "2.0.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.zsmarter.hulk.MainActivity"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.zsmarter.hulk.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.12",
           "2.0.38"
         ]
       ],
@@ -308,7 +375,7 @@
       "type": "receiver",
       "versionRanges": [
         [
-          "2.0.15",
+          "2.0.11",
           "2.0.38"
         ]
       ],

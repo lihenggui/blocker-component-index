@@ -2,6 +2,51 @@
   "coordinate": "com.liferay.mobile:liferay-android-oauth",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T15:59:25Z",
+      "sha256": "95b5cd54cdaea0c91b0eaec680b522963bdf205256cde3df7d8b610eb7cc8cf9",
+      "dependencies": [
+        "com.liferay.mobile:liferay-android-sdk:6.2.0.12",
+        "com.squareup:otto:1.3.5",
+        "oauth.signpost:signpost-commonshttp4:1.2.1.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T15:59:24Z",
+      "sha256": "95b5cd54cdaea0c91b0eaec680b522963bdf205256cde3df7d8b610eb7cc8cf9",
+      "dependencies": [
+        "com.liferay.mobile:liferay-android-sdk:6.2.0.12",
+        "com.squareup:otto:1.3.5",
+        "oauth.signpost:signpost-commonshttp4:1.2.1.2"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T15:59:23Z",
+      "sha256": "95b5cd54cdaea0c91b0eaec680b522963bdf205256cde3df7d8b610eb7cc8cf9",
+      "dependencies": [
+        "com.liferay.mobile:liferay-android-sdk:6.2.0.19",
+        "com.squareup:otto:1.3.5",
+        "oauth.signpost:signpost-commonshttp4:1.2.1.2"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T15:59:23Z",
+      "sha256": "95b5cd54cdaea0c91b0eaec680b522963bdf205256cde3df7d8b610eb7cc8cf9",
+      "dependencies": [
+        "com.liferay.mobile:liferay-android-sdk:6.2.0.19",
+        "com.squareup:otto:1.3.5",
+        "oauth.signpost:signpost-commonshttp4:1.2.1.2"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T15:59:22Z",
+      "sha256": "95b5cd54cdaea0c91b0eaec680b522963bdf205256cde3df7d8b610eb7cc8cf9",
+      "dependencies": [
+        "com.liferay.mobile:liferay-android-sdk:2.0.3",
+        "com.squareup:otto:1.3.5",
+        "oauth.signpost:signpost-core:1.2.1.2"
+      ]
+    },
     "1.4.1": {
       "fetchedAt": "2026-10-24T18:54:23Z",
       "sha256": "973471de3f1751c08748748344a960805aa122095b5c5c6bca3d34f3d03206f6",
@@ -18,7 +63,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "1.4.1",
+          "1.0.0",
           "1.4.1"
         ]
       ],

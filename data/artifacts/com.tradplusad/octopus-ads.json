@@ -2,6 +2,26 @@
   "coordinate": "com.tradplusad:octopus-ads",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "1.5.9.1": {
+      "fetchedAt": "2026-10-25T16:00:42Z",
+      "sha256": "aa7ef0b304edd752d7efc46bbca09a907d5ae44cf52137132a38fe0371a16da9",
+      "dependencies": []
+    },
+    "1.5.9.13": {
+      "fetchedAt": "2026-10-25T16:00:42Z",
+      "sha256": "1b83a03e977744ae718e5b4031e45fcc7d5dc2c4d872d9eabdf8a5bc55afeaee",
+      "dependencies": []
+    },
+    "1.5.9.16": {
+      "fetchedAt": "2026-10-25T16:00:41Z",
+      "sha256": "f7fdf31ebf197ed84cfc58654d8499f31c8eef65b6d25771625c2bca577d57f2",
+      "dependencies": []
+    },
+    "1.6.0.2": {
+      "fetchedAt": "2026-10-25T16:00:40Z",
+      "sha256": "39b324b8deddaf33f9dd0d27efab1a322d3b14ec30922f50d5f1ae232b85af75",
+      "dependencies": []
+    },
     "1.6.0.5_1": {
       "fetchedAt": "2026-10-25T01:38:08Z",
       "sha256": "9a8ff94e68c6b5a7fc5269fb4f3baf166b6f2bac25701d6cd530282de8f62d46",
@@ -14,7 +34,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "1.6.0.5_1",
+          "1.5.9.1",
           "1.6.0.5_1"
         ]
       ],
@@ -31,7 +51,7 @@
       "type": "service",
       "versionRanges": [
         [
-          "1.6.0.5_1",
+          "1.5.9.1",
           "1.6.0.5_1"
         ]
       ],
@@ -48,7 +68,26 @@
       "type": "provider",
       "versionRanges": [
         [
-          "1.6.0.5_1",
+          "1.5.9.1",
+          "1.5.9.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.octopus.ad.OctopusProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5.9.13",
           "1.6.0.5_1"
         ]
       ],
@@ -67,8 +106,25 @@
       "type": "activity",
       "versionRanges": [
         [
-          "1.6.0.5_1",
+          "1.6.0.2",
           "1.6.0.5_1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.utils.AndroidOPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.9.13",
+          "1.5.9.13"
         ]
       ],
       "exported": null,

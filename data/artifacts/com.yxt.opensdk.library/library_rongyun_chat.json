@@ -2,6 +2,37 @@
   "coordinate": "com.yxt.opensdk.library:library_rongyun_chat",
   "repository": "https://repo1.maven.org/maven2",
   "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T16:01:24Z",
+      "sha256": "be94b0b1e9fadc11f12659f9eb96492c2fbcaf2fee0d1adbd00b1cbc6010a8e6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.0"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T16:01:23Z",
+      "sha256": "be94b0b1e9fadc11f12659f9eb96492c2fbcaf2fee0d1adbd00b1cbc6010a8e6",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.0"
+      ]
+    },
+    "1.3": {
+      "fetchedAt": "2026-10-25T16:01:22Z",
+      "sha256": "2c8c66d012a849b1a93542072b197917dd93018464cfd9e11b3e7af471001beb",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.0"
+      ]
+    },
+    "2.9.24": {
+      "fetchedAt": "2026-10-25T16:01:21Z",
+      "sha256": "dd430755c8e210222a5a8ab7be4fcf9ac76161cf0964c61e5d40d1c48f345318",
+      "dependencies": []
+    },
+    "2.9.25": {
+      "fetchedAt": "2026-10-25T16:01:20Z",
+      "sha256": "76ac52232d917119d92945ed78bf2e119a327e52bad6a2eb58e9f66d166dc5da",
+      "dependencies": []
+    },
     "2.10.4.1": {
       "fetchedAt": "2026-10-25T02:42:26Z",
       "sha256": "8615afedd8bf3d4e6737a4b4e67c345956f12c8816900474dbfafe5b31451c27",
@@ -57,11 +88,28 @@
       "metaData": []
     },
     {
+      "name": "io.rong.imlib.ConnectChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.9.25",
+          "2.9.25"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "io.rong.imlib.HeartbeatReceiver",
       "type": "receiver",
       "versionRanges": [
         [
-          "2.10.4.1",
+          "2.9.25",
           "4.0.0.6"
         ]
       ],
@@ -83,6 +131,23 @@
         ]
       ],
       "exported": null,
+      "process": ":ipc",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.imlib.ipc.RongService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.9.25",
+          "2.9.25"
+        ]
+      ],
+      "exported": true,
       "process": ":ipc",
       "permission": null,
       "authorities": null,
@@ -114,11 +179,31 @@
       "metaData": []
     },
     {
+      "name": "io.rong.push.rongpush.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.9.25",
+          "2.9.25"
+        ]
+      ],
+      "exported": null,
+      "process": "io.rong.push",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "io.rong.push.intent.action.HEART_BEAT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "io.rong.push.rongpush.PushService",
       "type": "service",
       "versionRanges": [
         [
-          "2.10.4.1",
+          "2.9.25",
           "4.0.0.6"
         ]
       ],
