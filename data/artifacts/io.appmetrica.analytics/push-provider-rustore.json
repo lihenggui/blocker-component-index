@@ -1,0 +1,102 @@
+{
+  "coordinate": "io.appmetrica.analytics:push-provider-rustore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T03:39:04Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.0.0",
+        "io.appmetrica.analytics:push-provider-api:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T03:39:03Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.1.0",
+        "io.appmetrica.analytics:push-provider-api:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T03:39:03Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.1.1",
+        "io.appmetrica.analytics:push-provider-api:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T03:39:02Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.2.0",
+        "io.appmetrica.analytics:push-provider-api:3.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T03:39:01Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.3.0",
+        "io.appmetrica.analytics:push-provider-api:3.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T03:39:00Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.0.0",
+        "io.appmetrica.analytics:push-logger:4.0.0",
+        "io.appmetrica.analytics:push-provider-api:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.1.1": {
+      "fetchedAt": "2026-10-25T03:38:59Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.1.1",
+        "io.appmetrica.analytics:push-logger:4.1.1",
+        "io.appmetrica.analytics:push-provider-api:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-25T03:38:59Z",
+      "sha256": "ea5602446186efa07138b3139f2c1f4bdfd38c718579e6e34241aa10e7608f9f",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.2.1",
+        "io.appmetrica.analytics:push-logger:4.2.1",
+        "io.appmetrica.analytics:push-provider-api:4.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.appmetrica.analytics.push.provider.rustore.AppMetricaRuStoreMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ru.rustore.sdk.pushclient.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

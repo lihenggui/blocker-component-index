@@ -1,0 +1,48 @@
+{
+  "coordinate": "io.github.huangzhuhua666:baselib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:01:41Z",
+      "sha256": "783d0177662853013e3df9293948dc4020384a3f7b5e1a4230aec241c4187a83",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:4.1.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.2",
+        "androidx.navigation:navigation-ui-ktx:2.3.2",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.4.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.7",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

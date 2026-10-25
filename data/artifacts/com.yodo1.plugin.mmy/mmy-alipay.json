@@ -1,0 +1,100 @@
+{
+  "coordinate": "com.yodo1.plugin.mmy:mmy-alipay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "15.7.9": {
+      "fetchedAt": "2026-10-25T02:35:41Z",
+      "sha256": "254585a92529f90c37c7b971c77af78350f667459eef9b3577ab823fa65d7252",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.7.9",
+          "15.7.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.7.9",
+          "15.7.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.7.9",
+          "15.7.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.7.9",
+          "15.7.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.7.9",
+          "15.7.9"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

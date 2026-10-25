@@ -1,0 +1,122 @@
+{
+  "coordinate": "io.github.goallpay:alipaysdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "15.8.02": {
+      "fetchedAt": "2026-10-25T04:58:29Z",
+      "sha256": "1ed1a2406c9deac8b95a5bd71bb00aac891f625cd849e0ac2e9fc5c8ae7c493e",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:3.5.2",
+        "com.squareup.okhttp:okhttp-urlconnection:2.2.0",
+        "com.squareup.okhttp:okhttp:2.4.0",
+        "com.squareup.picasso:picasso:2.4.0",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.APayEntranceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.8.02",
+          "15.8.02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.8.02",
+          "15.8.02"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.8.02",
+          "15.8.02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.8.02",
+          "15.8.02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.8.02",
+          "15.8.02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "15.8.02",
+          "15.8.02"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

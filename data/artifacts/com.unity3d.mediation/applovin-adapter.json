@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.unity3d.mediation:applovin-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:55:49Z",
+      "sha256": "402e234e71432bd4444dcfe6c645b93addfb2b8918bbf95d44710ea67aeda105",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.applovin:applovin-sdk:[11.4,11.5[",
+        "com.unity3d.mediation:mediation-adapter:[1.1,1.2[",
+        "com.unity3d.mediation:mediation-logger:[1.1,1.2[",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.unity3d.mediation.applovinadapter.ApplovinModuleInitializer"
+      ]
+    }
+  ]
+}

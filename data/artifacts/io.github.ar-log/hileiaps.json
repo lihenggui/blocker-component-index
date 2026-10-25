@@ -1,0 +1,617 @@
+{
+  "coordinate": "io.github.ar-log:hileiaps",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.13": {
+      "fetchedAt": "2026-10-25T04:18:18Z",
+      "sha256": "7460cd3212ae78e4e16d48f866ead0ad29800b0640324d5cb12bee7a1600b857",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.0",
+        "androidx.appcompat:appcompat:1.3.0-alpha02",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.fragment:fragment-ktx:1.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4",
+        "com.google.android.flexbox:flexbox:3.0.0",
+        "com.google.android.material:material:1.2.1",
+        "com.yanzhenjie.recyclerview:x:1.3.2",
+        "io.sentry:sentry-android:6.14.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hiscene.easyphotos.ui.EasyPhotosActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.easyphotos.ui.PreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.easyphotos.ui.PuzzleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.easyphotos.ui.PuzzleSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.hileiaps.service.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.hileiaps.service.CallingMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.hileiaps.service.KeepSDKService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.hileiaps.service.NotificationKeepReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.hileiaps.service.RecordUploadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.keeplive.activity.OnePixelActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.keeplive.receiver.NotificationClickReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.keeplive.service.HideForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.keeplive.service.JobHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.keeplive.service.LocalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.keeplive.service.RemoteService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": ":remote",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.mediaengine.engines.ScreenCaptureService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.screenshare"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.core.LibraryProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hileiaps.libraryprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.filebrowser.ui.FilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.filebrowser.ui.FileReceiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.receiver.NetworkBroadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.service.FloatVideoWindowService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.CallingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.ComingCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.ContactActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.ImageDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.JoinMeetingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.KeepLiveActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.MakingCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.MultiSelectContactActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.RecordListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.RecordingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.SearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.presentation.ui.activity.VideoPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hiscene.publiclib.custom.HiLeiaPSFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.13",
+          "2.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hileiaps.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

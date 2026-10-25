@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.bitbucket.mikescorporation:mkeyboard",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3.0-preAlpha": {
+      "fetchedAt": "2026-10-25T03:41:17Z",
+      "sha256": "bd20cd44ef95308060bf58a5879f8dbd86dbe8c1a7b17d4faf0e1b6fd009ab9c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "com.google.android.material:material:1.7.0",
+        "com.intuit.sdp:sdp-android:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.3.1-preAlpha": {
+      "fetchedAt": "2026-10-25T03:41:16Z",
+      "sha256": "db057b58e46c1905e1b959b7f236545fe105d22416f57605e05a75622631b5d3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "com.google.android.material:material:1.7.0",
+        "com.intuit.sdp:sdp-android:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.bitbucket.mikescorporation.keyboard.MKeyboard",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.3.0-preAlpha",
+          "0.3.0-preAlpha"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_INPUT_METHOD",
+      "authorities": null,
+      "actions": [
+        "android.view.InputMethod"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.view.im"
+      ]
+    },
+    {
+      "name": "io.mikescorporation.MKeyboard",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.3.1-preAlpha",
+          "0.3.1-preAlpha"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_INPUT_METHOD",
+      "authorities": null,
+      "actions": [
+        "android.view.InputMethod"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.view.im"
+      ]
+    }
+  ]
+}

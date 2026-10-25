@@ -1,0 +1,64 @@
+{
+  "coordinate": "io.gitee.srccode:base",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T03:59:06Z",
+      "sha256": "64dd3d9a33c7059b2f0491a833e971aaac5867855eb96c069682eecd7128097e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.2",
+        "com.google.android.material:material:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T03:59:06Z",
+      "sha256": "64dd3d9a33c7059b2f0491a833e971aaac5867855eb96c069682eecd7128097e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.2",
+        "com.google.android.material:material:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "8.0.0": {
+      "fetchedAt": "2026-10-25T03:59:05Z",
+      "sha256": "17670bdcf3e6a5d60741c70032744985e1b5e3c34b409a6da416816e16ed31e7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.1.4",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "lga.lib.base.ui.activity.FragmentHostActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.2",
+          "8.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

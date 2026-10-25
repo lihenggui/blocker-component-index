@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.yumimobi.ads.mediation:bytedance",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.7.0": {
+      "fetchedAt": "2026-10-25T02:41:59Z",
+      "sha256": "64c56e4a4d420532147075383fdad116533108fa572204a26d23615f276dfb51",
+      "dependencies": [
+        "com.yumimobi.ads.thirdparty:androidquery:0.26.7.1",
+        "com.yumimobi.ads.thirdparty:bytedance:3.0.0.4.0",
+        "com.yumimobi.ads:mediation:4.7.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    },
+    "4.7.0.0.1": {
+      "fetchedAt": "2026-10-25T02:41:58Z",
+      "sha256": "64c56e4a4d420532147075383fdad116533108fa572204a26d23615f276dfb51",
+      "dependencies": [
+        "com.yumimobi.ads.thirdparty:androidquery:0.26.7.1",
+        "com.yumimobi.ads.thirdparty:bytedance:3.0.0.4.0",
+        "com.yumimobi.ads:mediation:4.7.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    },
+    "4.7.0.0.2": {
+      "fetchedAt": "2026-10-25T02:41:58Z",
+      "sha256": "64c56e4a4d420532147075383fdad116533108fa572204a26d23615f276dfb51",
+      "dependencies": [
+        "com.yumimobi.ads.thirdparty:androidquery:0.26.7.1",
+        "com.yumimobi.ads.thirdparty:bytedance:3.0.0.4.0",
+        "com.yumimobi.ads:mediation:4.7.0",
+        "pl.droidsonroids.gif:android-gif-drawable:1.2.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.7.0",
+          "4.7.0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.7.0",
+          "4.7.0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

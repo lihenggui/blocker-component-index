@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.farimarwat:pushpilot",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:50:51Z",
+      "sha256": "5d8a62188b1bc7ba51db28511d340d52541e3575b75d8a8cc7c3664212803fca",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.google.android.material:material:1.9.0",
+        "com.google.firebase:firebase-bom:32.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.farimarwat.pushpilot.PushPilotService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

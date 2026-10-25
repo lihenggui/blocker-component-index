@@ -1,0 +1,95 @@
+{
+  "coordinate": "com.webex.connect:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:12:08Z",
+      "sha256": "13937fd2b607f6553312130d84c14ee1229ce54431f10d1b77ae7026dce66a81",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "androidx.sqlite:sqlite-ktx:2.4.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.10.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.material:material:1.12.0",
+        "net.zetetic:sqlcipher-android:4.5.5"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:12:08Z",
+      "sha256": "13937fd2b607f6553312130d84c14ee1229ce54431f10d1b77ae7026dce66a81",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "androidx.sqlite:sqlite-ktx:2.4.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.10.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.material:material:1.12.0",
+        "net.zetetic:sqlcipher-android:4.5.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.webex.connect.core.startup.CoreModuleInitializer"
+      ]
+    },
+    {
+      "name": "com.webex.connect.core.internal.permissions.PermissionsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.webex.connect.core.internal.receiver.BootCompleteReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

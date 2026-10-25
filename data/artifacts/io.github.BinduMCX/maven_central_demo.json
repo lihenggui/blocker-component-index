@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.BinduMCX:maven_central_demo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:01:07Z",
+      "sha256": "5cde862aafc359ef4dfed02dbe0848eec5945487a6062a4582c6c8a671ff40e5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.maven_central_demo.MathUtils",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

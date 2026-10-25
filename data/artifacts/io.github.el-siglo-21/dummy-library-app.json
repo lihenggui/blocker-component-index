@@ -1,0 +1,45 @@
+{
+  "coordinate": "io.github.el-siglo-21:dummy-library-app",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:48:21Z",
+      "sha256": "99b212a0604122270abecdb7cfe10b1e73962f105de38615de213296a6b00ebb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:48:20Z",
+      "sha256": "99b212a0604122270abecdb7cfe10b1e73962f105de38615de213296a6b00ebb",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.dummylibrary.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

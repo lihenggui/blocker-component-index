@@ -1,0 +1,67 @@
+{
+  "coordinate": "com.yandex.android:appmetricapush-plugin",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T02:25:05Z",
+      "sha256": "9253139f2775c8ca0443ef7d816d8717363f4f6b0d52be717968dbf189d346a0",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-provider-firebase:2.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-25T02:25:04Z",
+      "sha256": "4e63df9c2c2a7d94acb61004b2b9ff1293d1c5ab35dc20b844a2c537e0eb8de6",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T02:25:04Z",
+      "sha256": "5e78f4ed24dd1c59fea5c79a2cea59813f4819e0cb748aa8cb523824c926438f",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yandex.metrica.push.firebase.MetricaMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yandex.metrica.push.plugin.MetricaPushPluginMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.INSTANCE_ID_EVENT",
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

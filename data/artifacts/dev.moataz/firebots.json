@@ -1,0 +1,79 @@
+{
+  "coordinate": "dev.moataz:firebots",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:07:03Z",
+      "sha256": "97f9bcd45acda51360b22b7617463874583e0c3a5976a524e484be4d9e37ef0e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.google.firebase:firebase-messaging:17.1.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T03:07:02Z",
+      "sha256": "c6d50cb89ff0c934efe3f6bde7cc784330a7eea803b15574f57271e21c5777ea",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.google.firebase:firebase-messaging:17.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.moataz.firebots.messaging.FireBotsFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.moataz.firebots.notification.FireBotsNotificationClickListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.moataz.firebots.notification.FireBotsNotificationClickReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.moataz.dev.firepush.action.CLICK"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

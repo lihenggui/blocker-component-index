@@ -1,0 +1,93 @@
+{
+  "coordinate": "io.github.diareuse:gecko-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:42:14Z",
+      "sha256": "a9090399b0fc10dabbac5d34005414d6b31eca65ade44f188569124f81c35023",
+      "dependencies": [
+        "androidx.room:room-runtime:2.4.2",
+        "io.github.diareuse:gecko-core:0.0.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:42:13Z",
+      "sha256": "a9090399b0fc10dabbac5d34005414d6b31eca65ade44f188569124f81c35023",
+      "dependencies": [
+        "androidx.room:room-runtime:2.4.2",
+        "io.github.diareuse:gecko-core:0.0.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:42:13Z",
+      "sha256": "a9090399b0fc10dabbac5d34005414d6b31eca65ade44f188569124f81c35023",
+      "dependencies": [
+        "androidx.room:room-runtime:2.4.2",
+        "io.github.diareuse:gecko-core:0.0.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:42:12Z",
+      "sha256": "4132603575f022ad749b4ba819dd0256bc62217884f55471ab0c948dbc6099f8",
+      "dependencies": [
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.github.diareuse:gecko-core:0.0.4",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T04:42:11Z",
+      "sha256": "4132603575f022ad749b4ba819dd0256bc62217884f55471ab0c948dbc6099f8",
+      "dependencies": [
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.github.diareuse:gecko-core:0.0.5",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T04:42:10Z",
+      "sha256": "4132603575f022ad749b4ba819dd0256bc62217884f55471ab0c948dbc6099f8",
+      "dependencies": [
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.github.diareuse:gecko-core:0.0.6",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "gecko.android.GeckoStartup"
+      ]
+    }
+  ]
+}

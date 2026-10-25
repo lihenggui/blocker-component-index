@@ -1,0 +1,97 @@
+{
+  "coordinate": "com.yallachat.support:platform",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:24:00Z",
+      "sha256": "d591fb6122ef7385f0725629406480f9d51d7199ef92432d01bd6396591c2ad1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.7",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:23:59Z",
+      "sha256": "d591fb6122ef7385f0725629406480f9d51d7199ef92432d01bd6396591c2ad1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.7",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:23:58Z",
+      "sha256": "d591fb6122ef7385f0725629406480f9d51d7199ef92432d01bd6396591c2ad1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.7",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yallatech.support.platform.YCSDKFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.yallatech.support.platform.fileprovider${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.yallatech.support.platform.YallaChatContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "com.yallatech.support.platform.YallaChatContentProvider${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yallatech.support.platform.base.PlatformActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "coordinate": "edu.buffalo.cse.maybe:android-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:13:22Z",
+      "sha256": "dda72ab933095ee06c48065d7da1fca58d3f46ae88b2ecaab2975c7011510560",
+      "dependencies": [
+        "com.google.android.gms:play-services:7.8.0",
+        "com.squareup.retrofit:adapter-rxjava:2.0.0-beta1",
+        "com.squareup.retrofit:converter-gson:2.0.0-beta1",
+        "com.squareup.retrofit:retrofit:2.0.0-beta1",
+        "io.reactivex:rxandroid:1.0.1",
+        "io.reactivex:rxjava:1.0.14"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.gcm.GcmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [
+        "edu.buffalo.cse.maybe_.android.library"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "edu.buffalo.cse.maybe_.android.library.receivers.BatteryReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.BATTERY_CHANGED",
+        "android.intent.action.BATTERY_LOW",
+        "android.intent.action.BATTERY_OKAY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "edu.buffalo.cse.maybe_.android.library.receivers.BootCompletedAndPullReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "edu.buffalo.cse.maybe_.android.library.pull_intent"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "edu.buffalo.cse.maybe_.android.library.receivers.ConnectivityChangeReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "edu.buffalo.cse.maybe_.android.library.services.LogIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE",
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.gcm.ACTION_TASK_READY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "edu.buffalo.cse.maybe_.android.library.services.MyGcmListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "edu.buffalo.cse.maybe_.android.library.services.MyInstanceIDListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

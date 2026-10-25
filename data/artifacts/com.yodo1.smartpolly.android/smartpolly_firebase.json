@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.yodo1.smartpolly.android:smartpolly_firebase",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.2": {
+      "fetchedAt": "2026-10-25T02:36:17Z",
+      "sha256": "216caf44738ae7c461a8dbdc78eb41dbac8e4fcade15e722fbe2d1ed68c7ff98",
+      "dependencies": [
+        "com.google.firebase:firebase-bom:32.6.0",
+        "com.google.firebase:firebase-installations:17.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yodo1.android.smart_firebase.SmartFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0.2",
+          "1.0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

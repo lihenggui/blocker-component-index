@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.khoben.woff2-android:typeface",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:13:37Z",
+      "sha256": "f03e9436cebd80bf1403fa00c3270ab2a01aef30f8aa74da64367e2dff1114ca",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.github.solkin:disk-lru-cache:1.4",
+        "io.github.khoben.woff2-android:decoder:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:13:38Z",
+      "sha256": "a842d1656716b0ee5740921823bb113a4a44941f26a18c10e8a17a3311fecd9d",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.github.khoben:disk-lru-cache:1.7.1",
+        "io.github.khoben.woff2-android:decoder:0.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.github.khoben.woff2android.Woff2Typeface$Initializer"
+      ]
+    }
+  ]
+}

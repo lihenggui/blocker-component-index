@@ -1,0 +1,320 @@
+{
+  "coordinate": "io.agora.rtc:avc",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:34:58Z",
+      "sha256": "00539c7515e1268e67505d57115960348ae9830b475579de4eee99a10005a369",
+      "dependencies": [
+        "io.agora.rtc:avc-frame:1.0.0",
+        "io.agora.rtc:avc-logger:1.0.0",
+        "io.agora.rtc:avc-widget:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.app.master.AgoraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.net.download.DownloadNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.push.fcm.FcmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.push.hms.HuaweiMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.push.xiaomi.MiPushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.push.xiaomi.MiPushMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.receiver.MediaRequestReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.service.DaemonService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.service.RequestService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.utils.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.agora.avc.video.ExternalVideoInputService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":screenshare",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

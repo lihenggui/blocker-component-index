@@ -1,0 +1,74 @@
+{
+  "coordinate": "io.github.fans008:fansLib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:50:24Z",
+      "sha256": "c9b18a597dde39e6250d07a23016b6a8a285f330e4c709d3d6719a193c905fcf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:databinding-adapters:7.1.2",
+        "androidx.databinding:databinding-common:7.1.2",
+        "androidx.databinding:databinding-ktx:7.1.2",
+        "androidx.databinding:databinding-runtime:7.1.2",
+        "androidx.multidex:multidex:2.0.1",
+        "com.github.bumptech.glide:compiler:4.11.0",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.liangjingkanji:Net:3.5.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.gyf.immersionbar:immersionbar:3.0.0",
+        "com.huawei.agconnect:agconnect-core:1.5.2.300",
+        "com.huawei.hms:scan:2.7.0.302",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.okhttp3:okhttp:4.10.0",
+        "com.tencent.tbs.tbssdk:sdk:43939",
+        "io.github.lucksiege:compress:v3.10.6",
+        "io.github.lucksiege:pictureselector:v3.10.6",
+        "io.github.razerdp:BasePopup:3.2.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.common.ducis.component.permission.AcpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

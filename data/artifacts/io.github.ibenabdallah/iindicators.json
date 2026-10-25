@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.ibenabdallah:iindicators",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:02:55Z",
+      "sha256": "0a51a3c44b07255b9eaf5dcbfaf5ef448852a86453c94deb6841f039891c3216",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.compose:compose-bom:2022.10.00",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ibenabdallah.iindicators.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

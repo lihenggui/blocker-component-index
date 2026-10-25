@@ -1,0 +1,74 @@
+{
+  "coordinate": "com.yodo1.suit.advert:meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.4.0.0.2": {
+      "fetchedAt": "2026-10-25T02:36:33Z",
+      "sha256": "cb5e84a7b859d007e65b0d4fb42106e1fc75bad39a3f5a1b28017bb5fe849650",
+      "dependencies": [
+        "com.yodo1.3rdparty.advert.meizu:ads:3.4.0.0",
+        "com.yodo1.3rdparty.advert.meizu:gdt:4.430.1300",
+        "com.yodo1.3rdparty.advert.meizu:mintegral:15.7.77",
+        "com.yodo1.3rdparty.advert.meizu:open_ad:4.1.0.5",
+        "com.yodo1.3rdparty.advert.meizu:wind:3.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.4.0.0.2",
+          "3.4.0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.4.0.0.2",
+          "3.4.0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.SigmobFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.4.0.0.2",
+          "3.4.0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sigprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

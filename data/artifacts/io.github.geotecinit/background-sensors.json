@@ -1,0 +1,84 @@
+{
+  "coordinate": "io.github.geotecinit:background-sensors",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:55:22Z",
+      "sha256": "57aa56b0de9b05957fc1b342ad4d0d4773e7370ae8f9d4f015aa65aee860985e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:55:21Z",
+      "sha256": "57aa56b0de9b05957fc1b342ad4d0d4773e7370ae8f9d4f015aa65aee860985e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:55:20Z",
+      "sha256": "1dc2a5ffcc0256f0071b89c474ea142603c3b650b828eb05883cffd132bf95d9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T04:55:19Z",
+      "sha256": "1dc2a5ffcc0256f0071b89c474ea142603c3b650b828eb05883cffd132bf95d9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T04:55:18Z",
+      "sha256": "ded3f93bcda12aae8b8d60e0d3092b483e980d3b517b3f84e229ed2688d77582",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-25T04:55:17Z",
+      "sha256": "a6bbc5415dc502929da58d8059af5c81f4f3bf9b05323e6183e69c221ff7495c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "es.uji.geotec.backgroundsensors.service.BaseSensorRecordingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "es.uji.geotec.backgroundsensors.service.NTPSyncedSensorRecordingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

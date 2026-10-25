@@ -1,0 +1,116 @@
+{
+  "coordinate": "io.github.guosuweidev:watchdog",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:59:21Z",
+      "sha256": "673a410f032db9a455672906a28060d793d17e81a32160f2be528c48cb7492f4",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.0.2",
+        "androidx.fragment:fragment-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.palette:palette-ktx:1.0.0",
+        "androidx.room:room-ktx:2.5.2",
+        "androidx.room:room-runtime:2.5.2",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:okhttp-bom:4.11.0",
+        "org.brotli:dec:0.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.8.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ChuckerFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.chuckerteam.chucker.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ClearDatabaseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

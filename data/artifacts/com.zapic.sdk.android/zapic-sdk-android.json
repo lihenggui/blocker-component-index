@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.zapic.sdk.android:zapic-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T02:44:21Z",
+      "sha256": "d5eacc14306e1f51ffc3d9bb8ef53c1948d9ac701786456daf50a180d71b18e0",
+      "dependencies": [
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-core-utils:27.1.1"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T02:44:21Z",
+      "sha256": "0e1df09c865bb1dc0b5f7817d9bec7b132906b0922f2ad9a7e54291ea3953edf",
+      "dependencies": [
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-core-utils:27.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.zapic",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.zapic.sdk.android.ZapicActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

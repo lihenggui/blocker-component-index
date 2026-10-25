@@ -1,0 +1,94 @@
+{
+  "coordinate": "ink.lodz:hermes",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T03:33:19Z",
+      "sha256": "a988667995e72184d5988060db86ee0d698b8daba34e110b080c77528c9ef00a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5",
+        "org.java-websocket:Java-WebSocket:1.5.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T03:33:18Z",
+      "sha256": "e0330f55eb266b7dd2597a199459536f18cb425b53c2be5a4e7bb8e8bf0525a3",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5",
+        "org.java-websocket:Java-WebSocket:1.5.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T03:33:18Z",
+      "sha256": "d53dc42b63cf1aa6bb49c4bb7fc287b7dd232a769eb66b5f3ea919722923b75e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5",
+        "org.java-websocket:Java-WebSocket:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-25T03:33:17Z",
+      "sha256": "d53dc42b63cf1aa6bb49c4bb7fc287b7dd232a769eb66b5f3ea919722923b75e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5",
+        "org.java-websocket:Java-WebSocket:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "2.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "coordinate": "dev.assemblage:fcm-client",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.1.0": {
+      "fetchedAt": "2026-10-25T02:56:57Z",
+      "sha256": "e46995e7a09242fbf6db111d8a3448478732545c7d5be76c2564010db5ce6802",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:2.7.0",
+        "com.google.firebase:firebase-messaging:23.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.assemblage.fcm.client.FcmClientMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.1.0",
+          "5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

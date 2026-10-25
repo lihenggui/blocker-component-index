@@ -1,0 +1,240 @@
+{
+  "coordinate": "io.github.dteducation:dtebook-sdk-cq",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:45:38Z",
+      "sha256": "c0436508bf3fe5d65cb81227ae4ae24be661c88ef3eb5aeb4f2c9973ee822fea",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.pep.dtedu.exam.view.DTExerciseDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.main.view.DTBookMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.claritypotion.ClarityPotion",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.claritypotion",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.rxpicker.ui.picker.RxPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.rxpicker.ui.preview.PreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.rxpicker.utils.RxPickerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.utilcode.util.MessengerUtils$ServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.messenger"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.utilcode.util.UtilsFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.utilcode.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.utilcode.util.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.opensourceframework.utilcode.util.UtilsTransActivity4MainProcess",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.service.DTEbookDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.service.localhttp.DTVFSService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pep.dtedu.video.view.DTVideoPlayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

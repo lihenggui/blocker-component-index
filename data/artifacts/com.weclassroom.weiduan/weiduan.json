@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.weclassroom.weiduan:weiduan",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1.teacher": {
+      "fetchedAt": "2026-10-25T02:14:50Z",
+      "sha256": "973f6667b4bd50803f657606fe3261dd1c0269579b2409b0332c040d335feffb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.github.stealthcopter:AndroidNetworkTools:0.4.0",
+        "com.squareup.okhttp3:logging-interceptor:4.1.0",
+        "com.weclassroom.commonutils:commonutils:0.1.1.teacher",
+        "com.weclassroom.logger:logger:0.1.1.teacher",
+        "com.weclassroom.talmedialibrary:talmedialibrary:0.1.1.teacher"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T02:14:49Z",
+      "sha256": "eceb1998a571a559230e1533ff122433e1f6e2a6aff6f964f0766008c8ca5d0b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.github.stealthcopter:AndroidNetworkTools:0.3.08",
+        "com.orhanobut:logger:2.2.0",
+        "com.squareup.okhttp3:logging-interceptor:3.8.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.squareup.retrofit2:retrofit:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.weclassroom.weiduan.service.LogFileUpLoadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.umeng.umsdk:vivo-push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.9.0": {
+      "fetchedAt": "2026-10-25T01:53:22Z",
+      "sha256": "5a75d2ae37797f1260524af8e667076a76849dd072351470ef84c3979836f76b",
+      "dependencies": []
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T01:53:21Z",
+      "sha256": "955ede2c28a5ae8acf16dc44d499134c736124ddc3b288e9bcbc01ff0031d2b5",
+      "dependencies": []
+    },
+    "3.0.0.3": {
+      "fetchedAt": "2026-10-25T01:53:21Z",
+      "sha256": "55f732ddf04567a99bbac8139b317e5ec74c6ea15a01a400e014ce56d3c67d84",
+      "dependencies": []
+    },
+    "3.0.0.4": {
+      "fetchedAt": "2026-10-25T01:53:20Z",
+      "sha256": "76f607ef943ac1ec4cb38e5a753cbdbe053244608a0172d36eb1f2ea19937cbb",
+      "dependencies": []
+    },
+    "3.0.0.7": {
+      "fetchedAt": "2026-10-25T01:53:20Z",
+      "sha256": "b3972d5c4a8841baf803171e30816f9e8c1228bfffc0b8da7d95c208c854549d",
+      "dependencies": []
+    },
+    "4.0.6.0": {
+      "fetchedAt": "2026-10-25T01:53:19Z",
+      "sha256": "ac6bdc49561185eaed5e5eba2996248c508a2ec60e6d44f085f04a4bab15b30c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.6.0",
+          "4.0.6.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.0.7"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

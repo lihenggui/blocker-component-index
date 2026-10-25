@@ -1,0 +1,36 @@
+{
+  "coordinate": "ink.lodz:conjurer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:33:15Z",
+      "sha256": "8be921f6ff441e603bd61f014581ac0ad5c9af815137b7b55aa40746c7e719a7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.databinding:viewbinding:7.2.2",
+        "com.rmtheis:tess-two:9.1.0",
+        "org.greenrobot:eventbus:3.3.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lodz.android.conjurer.ocr.OcrCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

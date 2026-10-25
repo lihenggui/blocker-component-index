@@ -1,0 +1,39 @@
+{
+  "coordinate": "io.github.ParkSangGwon:tedbottompicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T04:04:39Z",
+      "sha256": "c2c5c8ac28d3a917f040a6c726fe75327c02281109979fd04cd3b6c6299fba0c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.android.support:support-annotations:27.1.1",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "gun0912.ted:tedonactivityresult:1.0.6",
+        "io.reactivex.rxjava2:rxjava:2.2.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

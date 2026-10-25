@@ -1,0 +1,159 @@
+{
+  "coordinate": "com.yodo1.suit.pay:huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.6.0.301.0": {
+      "fetchedAt": "2026-10-25T02:37:42Z",
+      "sha256": "410e37bca4c6c5c370c912e852df40ed31707dbe110e77b708dfdf1c348a4f4d",
+      "dependencies": [
+        "com.huawei.hms:base:6.6.0.300",
+        "com.huawei.hms:game:6.6.0.301",
+        "com.huawei.hms:hwid:6.4.0.301",
+        "com.huawei.hms:iap:6.4.0.301",
+        "com.huawei.hms:push:6.5.0.300"
+      ]
+    },
+    "6.10.0.300.10": {
+      "fetchedAt": "2026-10-25T02:37:38Z",
+      "sha256": "ec5aa2fc9f826dc670595ce97ffae9c4817583a7aa822b79748345e03d26d2ca",
+      "dependencies": [
+        "com.huawei.hms:game:6.10.0.300",
+        "com.huawei.hms:hwid:6.11.0.300",
+        "com.huawei.hms:iap:6.10.0.300",
+        "com.huawei.hms:push:6.11.0.300"
+      ]
+    },
+    "6.13.0.300.2": {
+      "fetchedAt": "2026-10-25T02:37:41Z",
+      "sha256": "ad4b5b4dd2f257803e57257cd67208a3e1ac0550a9a3f9c404df74dc9c75fa24",
+      "dependencies": [
+        "com.huawei.hms:game:6.13.0.300",
+        "com.huawei.hms:hwid:6.12.0.300",
+        "com.huawei.hms:iap:6.13.0.300",
+        "com.huawei.hms:push:6.12.0.300"
+      ]
+    },
+    "6.13.0.300.3": {
+      "fetchedAt": "2026-10-25T02:37:41Z",
+      "sha256": "ad4b5b4dd2f257803e57257cd67208a3e1ac0550a9a3f9c404df74dc9c75fa24",
+      "dependencies": [
+        "com.huawei.hms:game:6.13.0.300",
+        "com.huawei.hms:hwid:6.12.0.300",
+        "com.huawei.hms:iap:6.13.0.300",
+        "com.huawei.hms:push:6.12.0.300"
+      ]
+    },
+    "6.13.0.300.4": {
+      "fetchedAt": "2026-10-25T02:37:40Z",
+      "sha256": "ad4b5b4dd2f257803e57257cd67208a3e1ac0550a9a3f9c404df74dc9c75fa24",
+      "dependencies": [
+        "com.huawei.hms:game:6.13.0.300",
+        "com.huawei.hms:hwid:6.12.0.300",
+        "com.huawei.hms:iap:6.13.0.300",
+        "com.huawei.hms:push:6.12.0.300"
+      ]
+    },
+    "6.13.0.300.5": {
+      "fetchedAt": "2026-10-25T02:37:40Z",
+      "sha256": "ad4b5b4dd2f257803e57257cd67208a3e1ac0550a9a3f9c404df74dc9c75fa24",
+      "dependencies": [
+        "com.huawei.hms:game:6.13.0.300",
+        "com.huawei.hms:hwid:6.12.0.300",
+        "com.huawei.hms:iap:6.13.0.300",
+        "com.huawei.hms:push:6.12.0.300"
+      ]
+    },
+    "6.13.0.300.6": {
+      "fetchedAt": "2026-10-25T02:37:39Z",
+      "sha256": "ad4b5b4dd2f257803e57257cd67208a3e1ac0550a9a3f9c404df74dc9c75fa24",
+      "dependencies": [
+        "com.huawei.hms:game:6.13.0.300",
+        "com.huawei.hms:hwid:6.12.0.300",
+        "com.huawei.hms:iap:6.13.0.300",
+        "com.huawei.hms:push:6.12.0.300"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.6.0.301.0",
+          "6.13.0.300.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.updateSdk.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.sdk.push.PushDeepLinkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.6.0.301.0",
+          "6.6.0.301.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.sdk.push.PushDeepLinkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.10.0.300.10",
+          "6.13.0.300.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.sdk.push.PushServiceHuawei",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.6.0.301.0",
+          "6.13.0.300.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

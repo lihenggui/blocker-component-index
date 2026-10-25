@@ -1,0 +1,113 @@
+{
+  "coordinate": "io.github.itest-apm:apmlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.4": {
+      "fetchedAt": "2026-10-25T05:04:24Z",
+      "sha256": "e2d922694dd744855b84cdaeb3ed18bd24de65c45fd0c5c849d69bb3b6c2621c",
+      "dependencies": [
+        "cglib:cglib-nodep:3.2.10",
+        "com.alibaba:fastjson:1.1.54.android",
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:26.1.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.loopj.android:android-async-http:1.4.9",
+        "com.squareup.leakcanary:leakcanary-android:1.5.4",
+        "com.squareup.okhttp3:logging-interceptor:3.12.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    },
+    "1.2.4.1": {
+      "fetchedAt": "2026-10-25T05:04:23Z",
+      "sha256": "e2d922694dd744855b84cdaeb3ed18bd24de65c45fd0c5c849d69bb3b6c2621c",
+      "dependencies": [
+        "cglib:cglib-nodep:3.2.10",
+        "com.alibaba:fastjson:1.1.54.android",
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:26.1.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.loopj.android:android-async-http:1.4.9",
+        "com.squareup.leakcanary:leakcanary-android:1.5.4",
+        "com.squareup.okhttp3:logging-interceptor:3.12.0",
+        "com.squareup.okhttp3:okhttp:3.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.luluteam.itestlib.push.NewsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.4.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luluteam.itestlib.push.service.LocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luluteam.itestlib.push.service.mqtt.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luluteam.itestlib.push.tools.NotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.4",
+          "1.2.4.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "notification_cancelled",
+        "notification_clicked"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

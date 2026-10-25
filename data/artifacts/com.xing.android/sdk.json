@@ -1,0 +1,61 @@
+{
+  "coordinate": "com.xing.android:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T02:22:05Z",
+      "sha256": "dc093a79262b17183fb26216d17a32017b67d778f974fb4dcb68ff6196ec878d",
+      "dependencies": [
+        "com.squareup.okhttp:okhttp-urlconnection:2.4.0",
+        "com.squareup.okhttp:okhttp:2.4.0",
+        "oauth.signpost:signpost-core:1.2.1.2"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:22:04Z",
+      "sha256": "8a78d72ef5cf8c9b8d744773676651f6ab0450647bdc59c156f5aef02519f757",
+      "dependencies": [
+        "com.squareup.okhttp:okhttp-urlconnection:2.4.0",
+        "com.squareup.okhttp:okhttp:2.4.0",
+        "oauth.signpost:signpost-core:1.2.1.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:22:04Z",
+      "sha256": "b9f35c0a86561ec2ba10f83112b508a634c11cb0bddabe418b6c48511ed1e4c5",
+      "dependencies": [
+        "com.squareup.okhttp:okhttp-urlconnection:2.4.0",
+        "com.squareup.okhttp:okhttp:2.4.0",
+        "oauth.signpost:signpost-core:1.2.1.2"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:22:03Z",
+      "sha256": "5312ae09d61604ee0e859910cffcb414b7a5fb48ec1bcc4632be3e753dd8b7a0",
+      "dependencies": [
+        "com.squareup.okhttp:okhttp-urlconnection:2.7.1",
+        "com.squareup.okhttp:okhttp:2.7.1",
+        "oauth.signpost:signpost-core:1.2.1.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xing.android.sdk.login.OauthCallbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

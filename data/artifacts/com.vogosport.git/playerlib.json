@@ -1,0 +1,206 @@
+{
+  "coordinate": "com.vogosport.git:playerlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:07:41Z",
+      "sha256": "dcc6f062f23f8d7811add457d7a26fadd88f36547063cc916294d0dea5abd15c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T02:07:40Z",
+      "sha256": "dcc6f062f23f8d7811add457d7a26fadd88f36547063cc916294d0dea5abd15c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "6.0.9.1": {
+      "fetchedAt": "2026-10-25T02:07:39Z",
+      "sha256": "dcc6f062f23f8d7811add457d7a26fadd88f36547063cc916294d0dea5abd15c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "6.0.9.2": {
+      "fetchedAt": "2026-10-25T02:07:38Z",
+      "sha256": "dcc6f062f23f8d7811add457d7a26fadd88f36547063cc916294d0dea5abd15c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "6.9.1": {
+      "fetchedAt": "2026-10-25T02:07:37Z",
+      "sha256": "dcc6f062f23f8d7811add457d7a26fadd88f36547063cc916294d0dea5abd15c",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "6.10": {
+      "fetchedAt": "2026-10-25T02:07:37Z",
+      "sha256": "5b5e052ffdd7ab3a8afc143beaa9f41b39afc189506d9d5b2893fbc6dd69b03e",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "6.10.1": {
+      "fetchedAt": "2026-10-25T02:07:36Z",
+      "sha256": "5b5e052ffdd7ab3a8afc143beaa9f41b39afc189506d9d5b2893fbc6dd69b03e",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "6.10.1.1": {
+      "fetchedAt": "2026-10-25T02:07:35Z",
+      "sha256": "5b5e052ffdd7ab3a8afc143beaa9f41b39afc189506d9d5b2893fbc6dd69b03e",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    },
+    "6.10.2": {
+      "fetchedAt": "2026-10-25T02:07:34Z",
+      "sha256": "5b5e052ffdd7ab3a8afc143beaa9f41b39afc189506d9d5b2893fbc6dd69b03e",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.android.volley:volley:1.2.1",
+        "com.google.android.gms:play-services-location:19.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "6.10.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contentvogo",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.vogo.playerlib.CGUActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "6.10.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vogo.playerlib.MainPlayer",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "6.10.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vogo.playerlib.NotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "6.10.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vogo.playerlib.action.DISPLAY_NOTIFICATION"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.vogo.playerlib.PlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "6.10.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vogo.playerlib.RoamingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "6.10.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

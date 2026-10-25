@@ -1,0 +1,86 @@
+{
+  "coordinate": "com.yeepay.cashierandroid:ypcashierlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:31:11Z",
+      "sha256": "808f876632dd08325af336d9d10b7a2c16bd647b1ba356ea5d0c54a35c3a4061",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:1.0.2",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yeepay.cashierandroid.PaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yeepay.cashierandroid.YPCashierEntry",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yeepay.cashierandroid.YeepayView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

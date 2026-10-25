@@ -1,0 +1,59 @@
+{
+  "coordinate": "io.github.leobert-lan:davinci-style-viewer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:16:39Z",
+      "sha256": "9c434e9fb13eb5614584bed66875e121ba58f66bed24e484c32629b774356505",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.databinding:databinding-adapters:4.1.1",
+        "androidx.databinding:databinding-common:4.1.1",
+        "androidx.databinding:databinding-runtime:4.1.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.android.material:material:1.2.1",
+        "io.github.leobert-lan:pandora:0.0.8",
+        "io.github.leobert-lan:pandorarv_kt:0.0.4"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:16:39Z",
+      "sha256": "972e94fdda583af465cc39ab421f36089a42edfb7a137e9db37dd78c41e51ee0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.databinding:databinding-adapters:4.1.1",
+        "androidx.databinding:databinding-common:4.1.1",
+        "androidx.databinding:databinding-runtime:4.1.1",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "com.google.android.material:material:1.3.0",
+        "io.github.leobert-lan:pandora:0.0.8",
+        "io.github.leobert-lan:pandorarv_kt:0.0.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "osp.leobert.android.davinci.viewer.StylesActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

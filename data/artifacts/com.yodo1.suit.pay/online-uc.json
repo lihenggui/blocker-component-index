@@ -1,0 +1,248 @@
+{
+  "coordinate": "com.yodo1.suit.pay:online-uc",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.3.12.7639.2": {
+      "fetchedAt": "2026-10-25T02:38:10Z",
+      "sha256": "bff5666937f1ace9c62e726afcf360b7bba57d16d27f94368918ee9be1879dd3",
+      "dependencies": [
+        "com.yodo1.3rdparty.pay.uc:alipay:15.6.4",
+        "com.yodo1.3rdparty.pay.uc:net:9.3.12",
+        "com.yodo1.3rdparty.pay.uc:ugpsdk_net:7.6.3.9"
+      ]
+    },
+    "9.7.12.0.0": {
+      "fetchedAt": "2026-10-25T02:38:09Z",
+      "sha256": "3644d2ee7700e928975a3dce8c75e1866687377ab7df5b2094f0cfd665e6efa3",
+      "dependencies": [
+        "com.yodo1.plugin.uc:online-alipaysdk-noutdid:15.8.03",
+        "com.yodo1.plugin.uc:online-net-sdk:9.7.12.0",
+        "com.yodo1.plugin.uc:online-ugpsdk-net:7.7.1.0"
+      ]
+    },
+    "9.7.12.0.1": {
+      "fetchedAt": "2026-10-25T02:38:10Z",
+      "sha256": "3644d2ee7700e928975a3dce8c75e1866687377ab7df5b2094f0cfd665e6efa3",
+      "dependencies": [
+        "com.yodo1.plugin.uc:online-alipaysdk-noutdid:15.8.03",
+        "com.yodo1.plugin.uc:online-net-sdk:9.7.12.0",
+        "com.yodo1.plugin.uc:online-ugpsdk-net:7.7.1.0"
+      ]
+    },
+    "9.7.12.0.2": {
+      "fetchedAt": "2026-10-25T02:38:09Z",
+      "sha256": "3644d2ee7700e928975a3dce8c75e1866687377ab7df5b2094f0cfd665e6efa3",
+      "dependencies": [
+        "com.yodo1.plugin.uc:online-alipaysdk-noutdid:15.8.03",
+        "com.yodo1.plugin.uc:online-net-sdk:9.7.12.0",
+        "com.yodo1.plugin.uc:online-ugpsdk-net:7.7.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.gundam.sdk.shell.activity.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.7.12.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.uc.gamesdk.sdkweb"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.gundam.sdk.shell.activity.ThemeProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.7.12.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.uc.gamesdk.sdkweb"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.gundam.sdk.shell.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.7.12.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gamesdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.gundam.sdk.shell.service.ResProxyService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.7.12.0.0",
+          "9.7.12.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.uc.gamesdk.activity.PullupActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.7.12.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.uc.paysdk.SDKActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.7.12.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.uc.paysdk.service.SDKService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.7.12.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.3.12.7639.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.3.12.7639.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.3.12.7639.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3.12.7639.2",
+          "9.3.12.7639.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

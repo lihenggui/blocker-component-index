@@ -1,0 +1,84 @@
+{
+  "coordinate": "io.github.imchina:x5webview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:04:05Z",
+      "sha256": "bb6433d7a1ac553fd16ec0a80765e1fb8243a19bdd2edc5927424994580f8a65",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "com.download.library:Downloader:4.1.4",
+        "com.google.android.material:material:1.7.0",
+        "com.tencent.tbs.tbssdk:sdk:43903"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:04:04Z",
+      "sha256": "5ff4bb0e483af675fb3629f5eb84f48f93a79d8239caa2c476fc7bcb5e3e2b6e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "com.github.Justson:Downloader:v5.0.4-androidx",
+        "com.google.android.material:material:1.7.0",
+        "com.tencent.tbs:tbssdk:44286"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:04:04Z",
+      "sha256": "5ff4bb0e483af675fb3629f5eb84f48f93a79d8239caa2c476fc7bcb5e3e2b6e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "com.github.Justson:Downloader:v5.0.4-androidx",
+        "com.google.android.material:material:1.6.0",
+        "com.tencent.tbs:tbssdk:44286"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:04:03Z",
+      "sha256": "5ff4bb0e483af675fb3629f5eb84f48f93a79d8239caa2c476fc7bcb5e3e2b6e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.Justson:Downloader:v5.0.4-androidx",
+        "com.google.android.material:material:1.8.0",
+        "com.tencent.tbs:tbssdk:44286"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.devmo.web.ActionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.devmo.web.AgentWebFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AgentWebFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

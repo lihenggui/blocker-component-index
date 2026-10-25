@@ -1,0 +1,44 @@
+{
+  "coordinate": "com.wajahatkarim:roomexplorer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:10:23Z",
+      "sha256": "e182246bf78ad92da4364eab6963c4e1388ad3ab6235d5ff188a06c098e44c67",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.room:room-runtime:2.2.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.60",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.60"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:10:22Z",
+      "sha256": "c940a5015a1ca23896662f3571821c846d547a448c9754d57c82c90d6c55e4f3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.room:room-runtime:2.2.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wajahatkarim3.roomexplorer.RoomExplorerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "coordinate": "de.nilsdruyen.snappy:snappy",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T02:54:45Z",
+      "sha256": "81b4fa3f8f658e45d1f1cb1c1d1dc0526181f15abdd804fdc8dc2ce73181982d",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.0",
+        "androidx.camera:camera-camera2:1.1.0",
+        "androidx.camera:camera-lifecycle:1.1.0",
+        "androidx.camera:camera-view:1.1.0",
+        "androidx.compose.animation:animation:1.2.0-rc03",
+        "androidx.compose.foundation:foundation:1.2.0-rc03",
+        "androidx.compose.material3:material3:1.0.0-alpha14",
+        "androidx.compose.material:material-icons-extended:1.2.0-rc03",
+        "androidx.compose.runtime:runtime:1.2.0-rc03",
+        "androidx.compose.ui:ui-tooling-preview:1.2.0-rc03",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0",
+        "androidx.window:window:1.1.0-alpha02",
+        "com.google.accompanist:accompanist-pager-indicators:0.24.13-rc",
+        "com.google.accompanist:accompanist-pager:0.24.13-rc",
+        "com.google.android.material:material:1.6.1",
+        "io.coil-kt:coil-compose:2.1.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.nilsdruyen.snappy.SnappyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    }
+  ]
+}

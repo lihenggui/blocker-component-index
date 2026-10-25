@@ -1,0 +1,36 @@
+{
+  "coordinate": "dev.teogor.drifter:wallpaper",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:10:48Z",
+      "sha256": "ada783df48156548409c8c8e2cd70754a6c72d4ec97e0838870593c1a7d476da",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.code.gson:gson:2.10.1",
+        "dev.teogor.drifter:integration:1.0.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.teogor.drifter.wallpaper.activities.StartWallpaperPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha01"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

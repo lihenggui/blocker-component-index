@@ -1,0 +1,45 @@
+{
+  "coordinate": "io.github.htjywl:com.lyb.besttimer.cameracore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T05:01:39Z",
+      "sha256": "ea3dfc4fed8bccd141e1a8797fe78cc21186a9051464c3b38b011c18ba4ce57e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "io.github.htjywl:com.lyb.besttimer.commonutil:2.0.0",
+        "io.github.htjywl:com.lyb.besttimer.pluginwidget:2.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T05:01:38Z",
+      "sha256": "ea3dfc4fed8bccd141e1a8797fe78cc21186a9051464c3b38b011c18ba4ce57e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "io.github.htjywl:com.lyb.besttimer.commonutil:2.0.0",
+        "io.github.htjywl:com.lyb.besttimer.pluginwidget:2.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lyb.besttimer.cameracore.activity.CameraMixActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

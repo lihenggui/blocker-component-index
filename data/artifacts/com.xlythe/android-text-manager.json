@@ -1,0 +1,169 @@
+{
+  "coordinate": "com.xlythe:android-text-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1": {
+      "fetchedAt": "2026-10-25T02:22:33Z",
+      "sha256": "b5cf3b342277299dda91238519a216185531bb459fccc5e2a95af120e00efd35",
+      "dependencies": [
+        "androidx.legacy:legacy-support-v4:[1.0.0,)",
+        "com.googlecode.libphonenumber:libphonenumber:[8.9.12,)",
+        "com.loopj.android:android-async-http:[1.4.9,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xlythe.textmanager.text.MmsReceiveService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.textmanager.text.SendService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.textmanager.text.SendService$MmsSentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xlythe.textmanager.text.MMS_SENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.textmanager.text.SendService$SmsDeliveredReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xlythe.textmanager.text.SMS_DELIVERED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.textmanager.text.SendService$SmsSentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xlythe.textmanager.text.SMS_SENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.textmanager.text.receiver.MmsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BROADCAST_WAP_PUSH",
+      "authorities": null,
+      "actions": [
+        "android.provider.Telephony.WAP_PUSH_DELIVER",
+        "android.provider.Telephony.WAP_PUSH_RECEIVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.textmanager.text.receiver.SmsReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BROADCAST_SMS",
+      "authorities": null,
+      "actions": [
+        "android.provider.Telephony.SMS_DELIVER",
+        "android.provider.Telephony.SMS_RECEIVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.textmanager.text.service.HeadlessSmsSendService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.SEND_RESPOND_VIA_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.RESPOND_VIA_MESSAGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

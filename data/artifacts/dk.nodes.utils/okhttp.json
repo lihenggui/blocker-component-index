@@ -1,0 +1,142 @@
+{
+  "coordinate": "dk.nodes.utils:okhttp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3": {
+      "fetchedAt": "2026-10-25T03:13:20Z",
+      "sha256": "be975827f7124fd3b0f85c511eff2a82bc95dccf346396b199cba8c6b41b1687",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4",
+        "com.squareup.okhttp3:okhttp:3.2.0"
+      ]
+    },
+    "0.4": {
+      "fetchedAt": "2026-10-25T03:13:19Z",
+      "sha256": "be975827f7124fd3b0f85c511eff2a82bc95dccf346396b199cba8c6b41b1687",
+      "dependencies": [
+        "com.google.code.gson:gson:2.4",
+        "com.squareup.okhttp3:okhttp:3.2.0"
+      ]
+    },
+    "0.5": {
+      "fetchedAt": "2026-10-25T03:13:18Z",
+      "sha256": "be975827f7124fd3b0f85c511eff2a82bc95dccf346396b199cba8c6b41b1687",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0"
+      ]
+    },
+    "0.6": {
+      "fetchedAt": "2026-10-25T03:13:18Z",
+      "sha256": "52d72a4a4f236f692f6bfd428a2644b6e4af516439ee8477ce03ff25f75a8622",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0"
+      ]
+    },
+    "0.8": {
+      "fetchedAt": "2026-10-25T03:13:17Z",
+      "sha256": "00a2a90a2701d9451980a9ead9a58a4f032063bfadf3b72e10e851966985dff4",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0"
+      ]
+    },
+    "0.9": {
+      "fetchedAt": "2026-10-25T03:13:17Z",
+      "sha256": "00a2a90a2701d9451980a9ead9a58a4f032063bfadf3b72e10e851966985dff4",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0"
+      ]
+    },
+    "0.10": {
+      "fetchedAt": "2026-10-25T03:13:16Z",
+      "sha256": "00a2a90a2701d9451980a9ead9a58a4f032063bfadf3b72e10e851966985dff4",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0"
+      ]
+    },
+    "0.11": {
+      "fetchedAt": "2026-10-25T03:13:16Z",
+      "sha256": "00a2a90a2701d9451980a9ead9a58a4f032063bfadf3b72e10e851966985dff4",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.4.1",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0"
+      ]
+    },
+    "0.12.1": {
+      "fetchedAt": "2026-10-25T03:13:15Z",
+      "sha256": "cd7633009579e72459793b9eef260aa4766b58077a8a6abecafd990698806a38",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:logging-interceptor:4.3.1",
+        "com.squareup.okhttp3:okhttp:4.3.1",
+        "com.squareup.retrofit2:converter-gson:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    },
+    "0.12.2": {
+      "fetchedAt": "2026-10-25T03:13:14Z",
+      "sha256": "cd7633009579e72459793b9eef260aa4766b58077a8a6abecafd990698806a38",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:logging-interceptor:4.3.1",
+        "com.squareup.okhttp3:okhttp:4.3.1",
+        "com.squareup.retrofit2:converter-gson:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dk.nodes.okhttputils.error.HttpErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.6",
+          "0.12.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dk.nodes.okhttputils.error.HttpErrorInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.6",
+          "0.12.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.HttpErrorContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

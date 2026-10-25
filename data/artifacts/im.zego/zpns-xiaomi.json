@@ -1,0 +1,173 @@
+{
+  "coordinate": "im.zego:zpns-xiaomi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T03:28:33Z",
+      "sha256": "90872ab1e879775c383e87dcb2fdf8d24a23f2f343eeb0aa78a1e3fbeac11b9b",
+      "dependencies": []
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-25T03:28:32Z",
+      "sha256": "fb411b89f8675dda0222d7dde4639b514516ce2e7479857db22da2d795ba5530",
+      "dependencies": []
+    },
+    "2.7.1": {
+      "fetchedAt": "2026-10-25T03:28:32Z",
+      "sha256": "8e8615c9557bb5059cda8902622d4de937c1ab4aadb5c0f675a36f00a377fae5",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "im.zego.zpns.internal.receiver.XiaoMiMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "im.zego.zpns_android_plugin_xiaomi.XiaoMiMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.7.0",
+          "2.7.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

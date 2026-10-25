@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.wallee.resources:react-native-firebase_crashlytics",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:10:32Z",
+      "sha256": "afb1a20bdea6d5081c66eec53c2ae116b892e4e257c59d74878fdbfea512533a",
+      "dependencies": [
+        "com.wallee.resources:react-native-firebase_app:1.0.0",
+        "com.wallee.resources:react-native:1.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:10:31Z",
+      "sha256": "afb1a20bdea6d5081c66eec53c2ae116b892e4e257c59d74878fdbfea512533a",
+      "dependencies": [
+        "com.wallee.resources:react-native-firebase_app:1.0.2",
+        "com.wallee.resources:react-native:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.reactnativefirebasecrashlyticsinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

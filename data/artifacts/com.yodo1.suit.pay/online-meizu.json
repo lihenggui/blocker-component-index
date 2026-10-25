@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.yodo1.suit.pay:online-meizu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.6.0.4": {
+      "fetchedAt": "2026-10-25T02:38:05Z",
+      "sha256": "b223f1105d0df26658d7048bc7068ad3460e96adf06a70982762c443d52fdd51",
+      "dependencies": []
+    },
+    "7.11.2.0": {
+      "fetchedAt": "2026-10-25T02:38:04Z",
+      "sha256": "26251093e9ee4e3d43a1a2cb1d55c5a9d95a60e3ee6c9c2a8ef394c034ee721d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.6.0.4",
+          "7.11.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

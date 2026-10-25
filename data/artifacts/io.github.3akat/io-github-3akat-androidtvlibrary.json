@@ -1,0 +1,115 @@
+{
+  "coordinate": "io.github.3akat:io-github-3akat-androidtvlibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3.2": {
+      "fetchedAt": "2026-10-25T04:00:37Z",
+      "sha256": "60ddb499959b790910609bb128d585d5159fa70bac430ebc1f2a25041e5bd6cb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.leanback:leanback:1.0.0",
+        "androidx.media3:media3-common:1.1.1",
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.29.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.3.3": {
+      "fetchedAt": "2026-10-25T04:00:36Z",
+      "sha256": "60ddb499959b790910609bb128d585d5159fa70bac430ebc1f2a25041e5bd6cb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.leanback:leanback:1.0.0",
+        "androidx.media3:media3-common:1.1.1",
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.29.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.3.4": {
+      "fetchedAt": "2026-10-25T04:00:35Z",
+      "sha256": "60ddb499959b790910609bb128d585d5159fa70bac430ebc1f2a25041e5bd6cb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.leanback:leanback:1.0.0",
+        "androidx.media3:media3-common:1.1.1",
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.29.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.3.5": {
+      "fetchedAt": "2026-10-25T04:00:34Z",
+      "sha256": "60ddb499959b790910609bb128d585d5159fa70bac430ebc1f2a25041e5bd6cb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.leanback:leanback:1.0.0",
+        "androidx.media3:media3-common:1.1.1",
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.29.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.3.6": {
+      "fetchedAt": "2026-10-25T04:00:33Z",
+      "sha256": "69ac27c66841f35b0a17f21c8dbcb99fe235df09f171233116d1ff312292ab97",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.leanback:leanback:1.0.0",
+        "androidx.media3:media3-common:1.1.1",
+        "com.google.ads.interactivemedia.v3:interactivemedia:3.29.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.androidtvlibrary.main.player_screen.PlayerScreen",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3.6",
+          "1.0.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.google.android.gms.common.api.GoogleApiActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3.2",
+          "1.0.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "android.intent.category.LEANBACK_LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

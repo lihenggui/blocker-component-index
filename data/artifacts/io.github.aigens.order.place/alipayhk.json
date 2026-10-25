@@ -1,0 +1,75 @@
+{
+  "coordinate": "io.github.aigens.order.place:alipayhk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.22": {
+      "fetchedAt": "2026-10-25T04:11:42Z",
+      "sha256": "cccf149ac54ef598444dc77c692544e83b850115bc8767a7e6728f02e85ceb2a",
+      "dependencies": [
+        "order-place-androidsdk-maven:core:unspecified"
+      ]
+    },
+    "0.0.23": {
+      "fetchedAt": "2026-10-25T04:11:41Z",
+      "sha256": "cccf149ac54ef598444dc77c692544e83b850115bc8767a7e6728f02e85ceb2a",
+      "dependencies": [
+        "order-place-androidsdk-maven:core:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.22",
+          "0.0.23"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.22",
+          "0.0.23"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.auth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.22",
+          "0.0.23"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

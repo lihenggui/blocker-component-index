@@ -1,0 +1,79 @@
+{
+  "coordinate": "fr.bmartel:fadecandy-service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4": {
+      "fetchedAt": "2026-10-25T03:21:26Z",
+      "sha256": "07098e05ba414ae74ab13be5587141cac718da64bd91589c5ba838d9936df50f",
+      "dependencies": [
+        "com.android.support:support-v4:24.2.0"
+      ]
+    },
+    "1.6": {
+      "fetchedAt": "2026-10-25T03:21:25Z",
+      "sha256": "66fb69ed02c6856f97fba60c63326f33f6426eff1bcdcbb0196fcc3b92481740",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.21"
+      ]
+    },
+    "1.61": {
+      "fetchedAt": "2026-10-25T03:21:24Z",
+      "sha256": "74dfb2ac966e7fc2efe15b7c43b613e382c53bc1df6c884dc76ee6913c2c4f65",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.21"
+      ]
+    },
+    "1.62": {
+      "fetchedAt": "2026-10-25T03:21:24Z",
+      "sha256": "616654257bcd21777844b8421a1f9e69e9f725a5ed1929330a9f76e949a1e519",
+      "dependencies": [
+        "com.android.support:support-v4:27.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "fr.bmartel.android.fadecandy.activity.UsbEventReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.62"
+        ]
+      ],
+      "exported": false,
+      "process": ":UsbEventReceiverActivityProcess",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+      ]
+    },
+    {
+      "name": "fr.bmartel.android.fadecandy.service.FadecandyService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4",
+          "1.62"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "fr.bmartel.android.fadecandy.IFadecandyService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

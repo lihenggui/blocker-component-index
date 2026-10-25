@@ -1,0 +1,88 @@
+{
+  "coordinate": "com.zeoflow.depot:dispatcher-runtime",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T02:46:15Z",
+      "sha256": "48ce43d1f79822e18c0c053e5d39811b506be49345dbe5167641ea52a5b5b1df",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T02:46:14Z",
+      "sha256": "48ce43d1f79822e18c0c053e5d39811b506be49345dbe5167641ea52a5b5b1df",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:46:14Z",
+      "sha256": "48ce43d1f79822e18c0c053e5d39811b506be49345dbe5167641ea52a5b5b1df",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:46:13Z",
+      "sha256": "48ce43d1f79822e18c0c053e5d39811b506be49345dbe5167641ea52a5b5b1df",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.2-alpha": {
+      "fetchedAt": "2026-10-25T02:46:12Z",
+      "sha256": "48ce43d1f79822e18c0c053e5d39811b506be49345dbe5167641ea52a5b5b1df",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:46:11Z",
+      "sha256": "b49e520d098d229b3a3e944af1bdbd1ed396f678cb83808e4f898fe4d070bc29",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:46:11Z",
+      "sha256": "b49e520d098d229b3a3e944af1bdbd1ed396f678cb83808e4f898fe4d070bc29",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T02:46:10Z",
+      "sha256": "b49e520d098d229b3a3e944af1bdbd1ed396f678cb83808e4f898fe4d070bc29",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T02:46:09Z",
+      "sha256": "d9b4c031b1ca86976f9e1c5dfa64209b16e75879a55e91566a8f09726c4cc779",
+      "dependencies": [
+        "androidx.annotation:annotation:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zeoflow.depot.dispatcher.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.Initializer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

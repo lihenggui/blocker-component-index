@@ -1,0 +1,83 @@
+{
+  "coordinate": "io.github.chomeng:rnmodelsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:35:16Z",
+      "sha256": "fce8f2046e206197f6e52f5034b3981589e5968ca879d85aadffdb33ded338e4",
+      "dependencies": []
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:35:15Z",
+      "sha256": "fce8f2046e206197f6e52f5034b3981589e5968ca879d85aadffdb33ded338e4",
+      "dependencies": []
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:35:14Z",
+      "sha256": "fce8f2046e206197f6e52f5034b3981589e5968ca879d85aadffdb33ded338e4",
+      "dependencies": []
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T04:35:14Z",
+      "sha256": "fce8f2046e206197f6e52f5034b3981589e5968ca879d85aadffdb33ded338e4",
+      "dependencies": []
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T04:35:13Z",
+      "sha256": "fce8f2046e206197f6e52f5034b3981589e5968ca879d85aadffdb33ded338e4",
+      "dependencies": []
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T04:35:13Z",
+      "sha256": "fce8f2046e206197f6e52f5034b3981589e5968ca879d85aadffdb33ded338e4",
+      "dependencies": []
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T04:35:12Z",
+      "sha256": "fce8f2046e206197f6e52f5034b3981589e5968ca879d85aadffdb33ded338e4",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.api.broadcast.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "intent_alarm_action"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.android.api.broadcast.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.8"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

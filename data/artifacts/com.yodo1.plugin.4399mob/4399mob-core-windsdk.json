@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.yodo1.plugin.4399mob:4399mob-core-windsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.12.11": {
+      "fetchedAt": "2026-10-25T02:35:27Z",
+      "sha256": "e0baeb3c34f7af0f26fc7a420c15bbc56621fea4204bdcf0b7b418c32dcc9b10",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sigmob.sdk.SigmobFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.12.11",
+          "4.12.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sigprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.12.11",
+          "4.12.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.TransparentAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.12.11",
+          "4.12.11"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

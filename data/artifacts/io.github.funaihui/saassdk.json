@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.funaihui:saassdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:53:09Z",
+      "sha256": "ff717cb8fb0281646fe04178c9c597256a905154b584f3aebf6066461d316d56",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:53:08Z",
+      "sha256": "ff717cb8fb0281646fe04178c9c597256a905154b584f3aebf6066461d316d56",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:53:07Z",
+      "sha256": "ff717cb8fb0281646fe04178c9c597256a905154b584f3aebf6066461d316d56",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:53:06Z",
+      "sha256": "ff717cb8fb0281646fe04178c9c597256a905154b584f3aebf6066461d316d56",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.ellabook.EllaBookViewerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ellabook.saassdk.EllaContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MyContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ellabook.saassdk.EllaReaderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ellabook.saassdk.utils.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

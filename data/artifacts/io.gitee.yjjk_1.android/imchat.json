@@ -1,0 +1,184 @@
+{
+  "coordinate": "io.gitee.yjjk_1.android:imchat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:59:35Z",
+      "sha256": "7a642ebbc99c70533cb072546c6659b29ff83738f145a683b5a80eee9600d60b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "cat.ereza:customactivityoncrash:2.3.0",
+        "com.github.SherlockGougou:BigImageViewPager:androidx-6.2.1",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.11.0",
+        "com.github.ome450901:SimpleRatingBar:1.5.1",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.7",
+        "io.gitee.yjjk_1.android:imcore:0.0.1",
+        "io.gitee.yjjk_1.android:jetpack:0.0.1",
+        "io.github.razerdp:BasePopup:3.2.0",
+        "me.jessyan:autosize:1.2.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:59:35Z",
+      "sha256": "20779a126d50cfb1e61e842ab570f57f6bf000227fa1711366d2afd01cd6532f",
+      "dependencies": [
+        "cat.ereza:customactivityoncrash:2.3.0",
+        "com.github.SherlockGougou:BigImageViewPager:androidx-6.2.1",
+        "com.github.bumptech.glide:glide:4.13.1",
+        "com.github.bumptech.glide:okhttp3-integration:4.11.0",
+        "com.github.ome450901:SimpleRatingBar:1.5.1",
+        "com.google.android.material:material:1.3.0-alpha03",
+        "com.google.code.gson:gson:2.8.7",
+        "io.gitee.yjjk_1.android:imcore:0.0.2",
+        "io.gitee.yjjk_1.android:jetpack:0.0.2",
+        "io.github.razerdp:BasePopup:3.2.0",
+        "me.jessyan:autosize:1.2.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T03:59:33Z",
+      "sha256": "9a0137f05368574970c9d994d313c5b74f83bd78df1cc4df85975845b0ed9cfe",
+      "dependencies": [
+        "cat.ereza:customactivityoncrash:2.3.0",
+        "com.github.SherlockGougou:BigImageViewPager:androidx-6.2.1",
+        "com.github.bumptech.glide:glide:4.13.1",
+        "com.github.bumptech.glide:okhttp3-integration:4.11.0",
+        "com.github.ome450901:SimpleRatingBar:1.5.1",
+        "com.google.android.material:material:1.3.0-alpha03",
+        "com.google.code.gson:gson:2.8.7",
+        "io.gitee.yjjk_1.android:imcore:0.0.3",
+        "io.gitee.yjjk_1.android:jetpack:0.0.3",
+        "io.github.razerdp:BasePopup:3.2.0",
+        "me.jessyan:autosize:1.2.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.qcloud.tuikit.tuichat.TUIChatService",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TUIChat.Init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuichat.component.camera.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuichat.component.imagevideoscan.ImageVideoScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuichat.component.photoview.PhotoViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qcloud.tuikit.tuichat.component.video.VideoViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youjiajk.im.page.TUIC2CChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youjiajk.im.page.TUIGroupChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

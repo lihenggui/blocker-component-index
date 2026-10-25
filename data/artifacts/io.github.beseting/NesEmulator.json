@@ -1,0 +1,408 @@
+{
+  "coordinate": "io.github.beseting:NesEmulator",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:23:44Z",
+      "sha256": "be14ee80466bce299662c25b63b833e910375619fb28a7384c027c155d579f98",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "org.greenrobot:eventbus:3.2.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:23:43Z",
+      "sha256": "30cb78042e3dd10f32af5a6e3f62f22c8494960593894a351821b5c05126ea96",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.androidemu.nes.CheatsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":emulator",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.DeviceListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.EmulatorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.EmulatorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":emulator",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.EmulatorSettings",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":emulator",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.FileChooser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.HelpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.KeyProfilesActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.androidemu.nes.StateSlotsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.base.BaseEmulatorShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    },
+    {
+      "name": "com.ym.library.base.OpenGLTestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.base.RestarterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":restarter",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.ui.cheats.CheatsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.ui.gamegallery.SlotSelectionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.ui.preferences.GamePreferenceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.ui.preferences.GeneralPreferenceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ym.nes.GENERALPREF"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.ui.preferences.KeyboardSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ym.nes.KEYBOARDPREF"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.ui.preferences.ScreenViewPortSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ym.nes.SCREENPREF"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.ym.library.ui.preferences.TouchControllerSettingsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ym.nes.TOUCHPREF"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

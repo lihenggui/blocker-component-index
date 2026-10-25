@@ -1,0 +1,55 @@
+{
+  "coordinate": "io.github.SimpleCodeMaker:FlowcallAdapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:06:04Z",
+      "sha256": "66e5b882a98383c4901757a87f234b8a8f6205e18c53a5d28d1242459439a313",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "com.squareup.okhttp3:okhttp:4.2.2",
+        "com.squareup.retrofit2:retrofit:2.6.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:06:04Z",
+      "sha256": "66e5b882a98383c4901757a87f234b8a8f6205e18c53a5d28d1242459439a313",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "com.squareup.okhttp3:okhttp:4.2.2",
+        "com.squareup.retrofit2:retrofit:2.6.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:06:03Z",
+      "sha256": "66e5b882a98383c4901757a87f234b8a8f6205e18c53a5d28d1242459439a313",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "com.squareup.okhttp3:okhttp:4.2.2",
+        "com.squareup.retrofit2:retrofit:2.6.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.simplecodemaker.flowcalladapter.FlowAdapterContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.FlowAdapterContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

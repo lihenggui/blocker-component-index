@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.verygoodsecurity:adapter-cardio",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:01:54Z",
+      "sha256": "3470f5f3ca8aa82a6efc6c4ca28b0836766189ceebde56544a41cfc7b4f3a89d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "io.card:android-sdk:5.5.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30",
+        "vgs-collect-android:vgscollect:unspecified"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:01:53Z",
+      "sha256": "96722984e799b4b550f74daec973225116932bbb49ac0996117ba2882baee743",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.verygoodsecurity:vgscollect:1.6.2",
+        "io.card:android-sdk:5.5.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.30",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.30"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:01:53Z",
+      "sha256": "64cf51a58ef0c0c614e6b395c8e915c4b77d7d586575a49f1529585fb5984b4c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.verygoodsecurity:vgscollect:1.6.18",
+        "io.card:android-sdk:5.5.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T02:01:51Z",
+      "sha256": "d2f7ff3b930b274528690a522e222d7fe7d200c722305c3cdf6a393dc2af32c6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.verygoodsecurity:vgscollect:1.9.3",
+        "io.card:android-sdk:5.5.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T02:01:52Z",
+      "sha256": "d2f7ff3b930b274528690a522e222d7fe7d200c722305c3cdf6a393dc2af32c6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.core:core-ktx:1.16.0",
+        "com.verygoodsecurity:vgscollect:1.9.15",
+        "io.card:android-sdk:5.5.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.verygoodsecurity.api.cardio.ScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

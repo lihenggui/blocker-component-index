@@ -1,0 +1,163 @@
+{
+  "coordinate": "io.github.joker-fu:EasyPhotos",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "andX-2.5.7": {
+      "fetchedAt": "2026-10-25T05:10:26Z",
+      "sha256": "aa961f3949bd903a5b1fc7d63b67a80da9305d8cd7fdebeeb943c299f8417111",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.github.yalantis:ucrop:2.2.6",
+        "com.google.android.exoplayer:exoplayer:2.17.1",
+        "com.google.android.material:material:1.5.0"
+      ]
+    },
+    "2.5.3": {
+      "fetchedAt": "2026-10-25T05:10:26Z",
+      "sha256": "aa961f3949bd903a5b1fc7d63b67a80da9305d8cd7fdebeeb943c299f8417111",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.github.yalantis:ucrop:2.2.6",
+        "com.google.android.exoplayer:exoplayer:2.17.1",
+        "com.google.android.material:material:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huantansheng.easyphotos.ui.EasyCameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "andX-2.5.7",
+          "2.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.max_aspect",
+        "android.notch_support",
+        "notch.config"
+      ]
+    },
+    {
+      "name": "com.huantansheng.easyphotos.ui.EasyPhotosActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "andX-2.5.7",
+          "2.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huantansheng.easyphotos.ui.PreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "andX-2.5.7",
+          "2.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huantansheng.easyphotos.ui.PuzzleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "andX-2.5.7",
+          "2.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huantansheng.easyphotos.ui.PuzzleSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "andX-2.5.7",
+          "2.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huantansheng.easyphotos.utils.provider.EasyPhotosFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "andX-2.5.7",
+          "2.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "andX-2.5.7",
+          "2.5.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

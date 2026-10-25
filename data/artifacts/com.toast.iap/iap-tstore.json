@@ -1,0 +1,79 @@
+{
+  "coordinate": "com.toast.iap:iap-tstore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T01:36:24Z",
+      "sha256": "cc23171c830141583a62036f01a6f2e9e232bfc8f69ddf8d6611d71dfa5f8b5a",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.squareup.okhttp:okhttp:1.5.4",
+        "com.toast.iap:iap:1.4.1"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-25T01:36:23Z",
+      "sha256": "620638b1489606e6078027a151e2567792d1422dc3d79f4e301fdc9827631c57",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.squareup.okhttp:okhttp:1.5.4",
+        "com.toast.iap:iap:1.5.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T01:36:23Z",
+      "sha256": "f671b584f4119d24bab9dbeaed70b082c146c8c857f65daf41f58c9bb1cf6686",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.squareup.okhttp:okhttp:1.5.4",
+        "com.toast.iap:iap:1.5.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-25T01:36:22Z",
+      "sha256": "d6ea4064b22f18b1cce90030803c22a98a35652319dd193eaa92c086a5cd3573",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.squareup.okhttp:okhttp:1.5.4",
+        "com.toast.iap:iap:1.5.2"
+      ]
+    },
+    "1.5.3-rc0": {
+      "fetchedAt": "2026-10-25T01:36:22Z",
+      "sha256": "7b867e00a51eaabad45d0241630cab30180ef92d7402800362637354c9049c20",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.squareup.okhttp:okhttp:1.5.4",
+        "com.toast.iap:iap:1.5.3-rc0"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-25T01:36:21Z",
+      "sha256": "ec70768d545d0ca7e17b6b1297a654322dffc0f13ee70372c2ff17b07e9c4733",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.squareup.okhttp:okhttp:1.5.4",
+        "com.toast.iap:iap:1.5.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.skplanet.dodo.IapWeb",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

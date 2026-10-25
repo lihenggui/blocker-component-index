@@ -1,0 +1,77 @@
+{
+  "coordinate": "io.github.TengShiSource:TengShiLive_Android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T04:06:19Z",
+      "sha256": "f9a884ec53356d866817e9b9392afb3164abb86831b6eb03ee2b81e8a05450be",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T04:06:17Z",
+      "sha256": "f4ac5b7a57585b320ad7ae7f1a721aed73098b8e784e29810c88cc96aba474e6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.qm.qmclass.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qm.qmclass.a.s",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qm.qmclass.a.t",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

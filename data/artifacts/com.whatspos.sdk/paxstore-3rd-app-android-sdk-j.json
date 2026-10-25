@@ -1,0 +1,109 @@
+{
+  "coordinate": "com.whatspos.sdk:paxstore-3rd-app-android-sdk-j",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.5.1": {
+      "fetchedAt": "2026-10-25T02:16:20Z",
+      "sha256": "c72603777e7de0ed3944d3f3687491a42dbf1f3ced81c407acdf8f2859ebe7d1",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "com.whatspos.sdk:paxstore-3rd-app-android-cloud-msg-sdk:9.5.0",
+        "com.whatspos.sdk:paxstore-3rd-app-java-sdk:9.4.1",
+        "io.jsonwebtoken:jjwt:0.12.6",
+        "org.slf4j:slf4j-android:1.7.25"
+      ]
+    },
+    "9.7.1": {
+      "fetchedAt": "2026-10-25T02:16:19Z",
+      "sha256": "7ff1987f280bc214f0b3c2e8b0194c37bd8a9ad28d2612866bc4e47b0adb4867",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "com.whatspos.sdk:paxstore-3rd-app-android-cloud-msg-sdk:9.5.1",
+        "com.whatspos.sdk:paxstore-3rd-app-java-sdk:9.7.1",
+        "io.jsonwebtoken:jjwt:0.12.6",
+        "org.slf4j:slf4j-android:1.7.25"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pax.market.android.app.sdk.DelayService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.5.1",
+          "9.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pax.market.android.app.sdk.DownloadParamReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "9.5.1",
+          "9.7.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.market.android.app.sdk.DOWNLOAD_PARAM_BD",
+      "authorities": null,
+      "actions": [
+        "com.paxmarket.ACTION_TO_DOWNLOAD_PARAMS",
+        "com.sdk.ACTION_TO_DOWNLOAD_PARAMS"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.pax.market.android.app.sdk.ParamService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.5.1",
+          "9.7.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.market.android.app.sdk.DOWNLOAD_PARAM_SERVICE",
+      "authorities": null,
+      "actions": [
+        "com.market.service.ACTION_TO_DOWNLOAD_PARAMS"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.pax.market.android.app.sdk.RPCService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.5.1",
+          "9.7.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.market.android.app.sdk.INSTALL_INQUIRER",
+      "authorities": null,
+      "actions": [
+        "${applicationId}.ACTION_RPC_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

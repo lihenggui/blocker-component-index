@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.vipulasri.kachetor:kachetor-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:06:05Z",
+      "sha256": "f3104290e184bdbecb9916e0fc4c50d4e3baf9862481a7ad736c46137da26906",
+      "dependencies": [
+        "com.mayakapps.kache:file-kache:2.1.0-beta05",
+        "com.squareup.okio:okio:3.7.0",
+        "io.ktor:ktor-client-core:2.3.8",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T02:06:04Z",
+      "sha256": "f3104290e184bdbecb9916e0fc4c50d4e3baf9862481a7ad736c46137da26906",
+      "dependencies": [
+        "com.mayakapps.kache:file-kache:2.1.1",
+        "com.squareup.okio:okio:3.10.2",
+        "io.ktor:ktor-client-core:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vipulasri.kachetor.KachetorContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.kachetorcontentprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

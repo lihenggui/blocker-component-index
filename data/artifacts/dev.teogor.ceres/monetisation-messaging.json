@@ -1,0 +1,100 @@
+{
+  "coordinate": "dev.teogor.ceres:monetisation-messaging",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:10:25Z",
+      "sha256": "e3c81cf9b23e5c7f63b987ce32ec5da134e913dd80083b0569443751b0c4f615",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.09.01",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.ump:user-messaging-platform:2.1.0",
+        "com.google.dagger:hilt-android:2.47",
+        "dev.teogor.ceres:core-runtime:1.0.0-alpha01",
+        "dev.teogor.ceres:core-startup:1.0.0-alpha01",
+        "dev.teogor.ceres:monetisation-admob:1.0.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-25T03:10:24Z",
+      "sha256": "5c9d9515459e3fc3d2c8d64a186038578cf2af3da6d84403a14e36521a87396c",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.09.01",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.ump:user-messaging-platform:2.1.0",
+        "com.google.dagger:hilt-android:2.47",
+        "dev.teogor.ceres:core-runtime:1.0.0-alpha02",
+        "dev.teogor.ceres:core-startup:1.0.0-alpha02",
+        "dev.teogor.ceres:monetisation-admob:1.0.0-alpha02",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-25T03:10:23Z",
+      "sha256": "3f9e00b260edd9cb3580c4ca737a4c08472fd8430dd372389d4cceaeaf9e3148",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.09.02",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.ump:user-messaging-platform:2.1.0",
+        "com.google.dagger:hilt-android:2.47",
+        "dev.teogor.ceres:core-runtime:1.0.0-alpha03",
+        "dev.teogor.ceres:core-startup:1.0.0-alpha03",
+        "dev.teogor.ceres:monetisation-admob:1.0.0-alpha03",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-10-25T03:10:22Z",
+      "sha256": "3f9e00b260edd9cb3580c4ca737a4c08472fd8430dd372389d4cceaeaf9e3148",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.10.01",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.android.ump:user-messaging-platform:2.1.0",
+        "com.google.dagger:hilt-android:2.48.1",
+        "dev.teogor.ceres:core-register:1.0.0-alpha04",
+        "dev.teogor.ceres:core-runtime:1.0.0-alpha04",
+        "dev.teogor.ceres:core-startup:1.0.0-alpha04",
+        "dev.teogor.ceres:monetisation-admob:1.0.0-alpha04",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "1.0.0-alpha05": {
+      "fetchedAt": "2026-10-25T03:10:21Z",
+      "sha256": "849910cc05bab3c06fc9198a496f3ad5b77adfaa867171aa4c0439d3c95424bf",
+      "dependencies": [
+        "androidx.compose:compose-bom:2024.04.00",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "androidx.tracing:tracing-ktx:1.3.0-alpha02",
+        "com.google.android.ump:user-messaging-platform:2.2.0",
+        "com.google.dagger:hilt-android:2.51.1",
+        "dev.teogor.ceres:core-register:1.0.0-alpha05",
+        "dev.teogor.ceres:core-runtime:1.0.0-alpha05",
+        "dev.teogor.ceres:core-start-up:1.0.0-alpha05",
+        "dev.teogor.ceres:monetisation-admob:1.0.0-alpha05",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.teogor.ceres.monetisation.messaging.MessagingManagerInitializer"
+      ]
+    }
+  ]
+}

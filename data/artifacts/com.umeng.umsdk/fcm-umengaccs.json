@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.umeng.umsdk:fcm-umengaccs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T01:51:30Z",
+      "sha256": "413a9febbc029e12b8e86c1574f4b0260671223fae6248ff898d1d2881dcdd87",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T01:51:29Z",
+      "sha256": "57a1050ba0d9297cc93e2f2547eaa3af4931a3788b945157e695d6bc6a1323e1",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T01:51:29Z",
+      "sha256": "684563243f7fbc08c475cace6f6d3591ad33df853ea86b23ec57c198876cfce7",
+      "dependencies": []
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T01:51:28Z",
+      "sha256": "32d321573e4a2fbbaaaff7647c4dea8a7678d4c407122f7f858f1085c65e21e8",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "org.android.agoo.fcm.AgooFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

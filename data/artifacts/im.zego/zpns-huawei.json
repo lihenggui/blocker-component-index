@@ -1,0 +1,42 @@
+{
+  "coordinate": "im.zego:zpns-huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T03:28:29Z",
+      "sha256": "94a0558bd6a0aa3fbfe69b1120e27a88cf5fed467e4af306d093f99ada1ff5b6",
+      "dependencies": []
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T03:28:28Z",
+      "sha256": "94a0558bd6a0aa3fbfe69b1120e27a88cf5fed467e4af306d093f99ada1ff5b6",
+      "dependencies": []
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-25T03:28:27Z",
+      "sha256": "861cc4ab00327bbb4b768241eadd697a8143f9bb67d0b166aed702fa665e9b97",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "im.zego.zpns_android_plugin_huawei.HuaWeiMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "2.7.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

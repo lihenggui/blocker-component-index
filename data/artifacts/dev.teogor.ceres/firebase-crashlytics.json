@@ -1,0 +1,74 @@
+{
+  "coordinate": "dev.teogor.ceres:firebase-crashlytics",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:10:11Z",
+      "sha256": "076e407700ebef7ed431b7301c97745c4e0774d1d58ef571707944a95a304280",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.09.01",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.dagger:hilt-android:2.47",
+        "com.google.firebase:firebase-bom:32.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-25T03:10:10Z",
+      "sha256": "4d5c5ea9a0abf07b1ab266c644e634387787d123331b2b57cae7f32aaf2e8444",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.09.01",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.dagger:hilt-android:2.47",
+        "com.google.firebase:firebase-bom:32.3.1",
+        "dev.teogor.ceres:core-foundation:1.0.0-alpha02",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.0-alpha03": {
+      "fetchedAt": "2026-10-25T03:10:09Z",
+      "sha256": "4d5c5ea9a0abf07b1ab266c644e634387787d123331b2b57cae7f32aaf2e8444",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.09.02",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.dagger:hilt-android:2.47",
+        "com.google.firebase:firebase-bom:32.3.1",
+        "dev.teogor.ceres:core-foundation:1.0.0-alpha03",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-10-25T03:10:08Z",
+      "sha256": "4d5c5ea9a0abf07b1ab266c644e634387787d123331b2b57cae7f32aaf2e8444",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.10.01",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.dagger:hilt-android:2.48.1",
+        "com.google.firebase:firebase-bom:32.6.0",
+        "dev.teogor.ceres:core-foundation:1.0.0-alpha04",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha04"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.teogor.ceres.firebase.crashlytics.CrashlyticsManagerInitializer"
+      ]
+    }
+  ]
+}

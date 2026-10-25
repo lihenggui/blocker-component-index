@@ -1,0 +1,45 @@
+{
+  "coordinate": "io.github.lavalike:network",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:15:55Z",
+      "sha256": "1bf8917219dd6b535f6a1d4f26629505924cb53a1ec770de60518c2ccfa34f04",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:okhttp:4.7.2"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:15:55Z",
+      "sha256": "1bf8917219dd6b535f6a1d4f26629505924cb53a1ec770de60518c2ccfa34f04",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:okhttp:4.7.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wangzhen.network.provider.ContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.network.context.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

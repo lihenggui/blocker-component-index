@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.wordpress.vijaychutty:mylibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:19:17Z",
+      "sha256": "9bef99eb5d9ee6e8ace5ce0fe9c61503757352b443c381c3d1d900d76e42111d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:19:16Z",
+      "sha256": "9bef99eb5d9ee6e8ace5ce0fe9c61503757352b443c381c3d1d900d76e42111d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "upload.mavenjcenter.com.mylibrary.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

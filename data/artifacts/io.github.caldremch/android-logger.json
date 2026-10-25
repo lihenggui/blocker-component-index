@@ -1,0 +1,64 @@
+{
+  "coordinate": "io.github.caldremch:android-logger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-rc1": {
+      "fetchedAt": "2026-10-25T04:32:01Z",
+      "sha256": "2950a664d4cf5c731ac843f51bbb4a4b7526817d9ac17294fa82336c38b7c440",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "io.github.caldremch:core-logger:1.0.5-rc1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:32:00Z",
+      "sha256": "a04f0a83353ffa36f97d4d8436cf77ba1908804c755bed6786cfec7f7afbdb74",
+      "dependencies": [
+        "org.java-websocket:Java-WebSocket:1.5.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "1.0.6-rc1": {
+      "fetchedAt": "2026-10-25T04:31:58Z",
+      "sha256": "2950a664d4cf5c731ac843f51bbb4a4b7526817d9ac17294fa82336c38b7c440",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "io.github.caldremch:core-logger:1.0.6-rc1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T04:31:57Z",
+      "sha256": "2950a664d4cf5c731ac843f51bbb4a4b7526817d9ac17294fa82336c38b7c440",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "io.github.caldremch:core-logger:1.0.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.caldremch.android.logger.LoggerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-rc1",
+          "1.0.0-rc1"
+        ],
+        [
+          "1.0.6-rc1",
+          "1.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.net-LoggerProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

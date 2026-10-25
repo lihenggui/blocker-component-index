@@ -1,0 +1,37 @@
+{
+  "coordinate": "io.github.henryzhu-dev:lib_download",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:00:58Z",
+      "sha256": "9ff6b73a718703e61df6513dc628ffae9ab56a6e2cb6da6b100d778bdcc3ac43",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zhl.libdownload.DownloadBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_NOTIFICATION_CLICKED",
+        "android.intent.action.DOWNLOAD_COMPLETE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "coordinate": "com.zeoflow.flowly:process",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha1": {
+      "fetchedAt": "2026-10-25T02:46:21Z",
+      "sha256": "cbae9aec4c2353b1b73023a7bec54525c6ddd476a846c5f8874949052a75baf9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "com.zeoflow.flowly:runtime:1.0.0-alpha1",
+        "com.zeoflow:startup:1.0.0"
+      ]
+    },
+    "1.0.0-alpha2": {
+      "fetchedAt": "2026-10-25T02:46:20Z",
+      "sha256": "9f0ec6cf03502e4ca370c004fccca26b22e70c93a63e255cd6e91eda0b681e6b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "com.zeoflow.flowly:runtime:1.0.0-alpha2",
+        "com.zeoflow:startup:1.0.0"
+      ]
+    },
+    "1.0.0-alpha3": {
+      "fetchedAt": "2026-10-25T02:46:19Z",
+      "sha256": "9f0ec6cf03502e4ca370c004fccca26b22e70c93a63e255cd6e91eda0b681e6b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "com.zeoflow.flowly:runtime:1.0.0-alpha3",
+        "com.zeoflow:startup:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zeoflow.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha2",
+          "1.0.0-alpha3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.zeoflow-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.zeoflow.flowly.ProcessFlowlyInitializer"
+      ]
+    },
+    {
+      "name": "com.zeoflow.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha1",
+          "1.0.0-alpha1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.zeoflow-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.zeoflow.flowly.ProcessLifecycleInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "coordinate": "io.appgrades:appgrades",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T03:37:56Z",
+      "sha256": "722fb8da5d14617c6a758d67d8157742de2521411b97584c101b8917f9986210",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T03:37:55Z",
+      "sha256": "3c776db7172da2e4e848f3cbc4b69c48ae53c97df6e7b7c9676539e5c5e1491b",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.2",
+        "com.android.support:appcompat-v7:25.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.appgrades.sdk.ui.popup.PopupRestrictionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.appgrades.sdk.action.POPUP_RESTRICTION"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.appgrades.sdk.ui.view.ViewRestrictionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.appgrades.sdk.action.VIEW_RESTRICTION"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

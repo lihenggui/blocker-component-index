@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.weicools:mmkv-ktx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T02:15:00Z",
+      "sha256": "6dc7c2dca9e19aad18666134966294d1b198661a7aab208ca9d81c99056b38c2",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "com.tencent:mmkv:1.2.11",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.weiwei.extensions.mmkv.MMKVInitializer"
+      ]
+    }
+  ]
+}

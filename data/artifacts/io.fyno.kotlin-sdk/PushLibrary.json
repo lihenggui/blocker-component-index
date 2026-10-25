@@ -1,0 +1,234 @@
+{
+  "coordinate": "io.fyno.kotlin-sdk:PushLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T03:52:04Z",
+      "sha256": "f0a04004fc726a6f4ba4b70b3192970da7af5244de7a79ea725200f5e5433239",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.github.bumptech.glide:glide:4.15.1",
+        "com.google.firebase:firebase-messaging-ktx:23.2.1",
+        "io.fyno.kotlin-sdk:callback:0.0.3",
+        "io.fyno.kotlin-sdk:core:0.0.5",
+        "io.socket:socket.io-client:2.1.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.8.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.fyno.pushlibrary.GetPermissions",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.fyno.pushlibrary.firebase.FcmHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.fyno.pushlibrary.mipush.MiPushHelper",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.fyno.pushlibrary.notificationIntents.NotificationActionClickActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.fyno.pushlibrary.notificationIntents.NotificationClickActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.fyno.pushlibrary.notificationIntents.NotificationDismissedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "coordinate": "io.github.daoyixun:amap-navi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:40:54Z",
+      "sha256": "7c5609c83a7c454c32fe99841c6785cfb9c73d7f98548f06f51357bb6bed10a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.material:material:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amap.api.location.APSService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.amap.api.navi.AmapRouteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.daoyixun.amap_navi.ui.BusRouteDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.daoyixun.amap_navi.ui.MultiTypeRouteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.daoyixun.amap_navi"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

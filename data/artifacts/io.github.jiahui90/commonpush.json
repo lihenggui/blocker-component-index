@@ -1,0 +1,388 @@
+{
+  "coordinate": "io.github.jiahui90:commonpush",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T05:07:59Z",
+      "sha256": "c6336d5b011525b1074d4371f0c3b8567bc38a270326cca6cd0506816e634f06",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.huawei.android.hms:base:2.6.3.306",
+        "com.huawei.android.hms:push:2.6.3.306"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.coloros.mcssdk.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.android.hms.agent.common.HMSAgentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.hms.activity.BridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.service.HmsMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.msg.NOTIFY_MSG",
+        "com.huawei.push.msg.PASSBY_MSG"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.update.provider.UpdateProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.hms.update.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.updateSdk.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.updatesdk.service.deamon.download.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.updatesdk.service.otaupdate.AppUpdateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.updatesdk.support.pm.PackageInstallerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.moyun365.commonpush.receiver.HuaweiPushRevicer",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.android.push.intent.CLICK",
+        "com.huawei.android.push.intent.RECEIVE",
+        "com.huawei.android.push.intent.REGISTRATION",
+        "com.huawei.intent.action.PUSH_DELAY_NOTIFY",
+        "com.huawei.intent.action.PUSH_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonpush.receiver.MiPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonpush.receiver.VivoPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.LinkProxyClientActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

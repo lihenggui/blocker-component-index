@@ -1,0 +1,93 @@
+{
+  "coordinate": "io.github.mfisme:mfads-bd",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:24:12Z",
+      "sha256": "66a23b66948e45c26da70ff4036f796aa00c95e82fd7a8d2604018e8ea65ec00",
+      "dependencies": []
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:24:11Z",
+      "sha256": "a80e9ea6ccc5cb2987e288b392997faf47dd1f17233441ddd094dabacbf4752e",
+      "dependencies": []
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:24:10Z",
+      "sha256": "7e3dc71d11cd8dc5b9f9dceb6660917ce96393acc117c6288b290a90cb84eb05",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.mobads.sdk.api.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bd.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdShellActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

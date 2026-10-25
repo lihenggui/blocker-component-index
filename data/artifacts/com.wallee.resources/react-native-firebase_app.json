@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.wallee.resources:react-native-firebase_app",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:10:31Z",
+      "sha256": "8b676b848ef05ffa6a6fbd7f5cb30ad5dd8c58a49378d2acc1da86237f327ab2",
+      "dependencies": [
+        "com.google.android.gms:play-services-auth:20.3.0",
+        "com.wallee.resources:react-native:1.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:10:30Z",
+      "sha256": "8b676b848ef05ffa6a6fbd7f5cb30ad5dd8c58a49378d2acc1da86237f327ab2",
+      "dependencies": [
+        "com.google.android.gms:play-services-auth:20.7.0",
+        "com.wallee.resources:react-native:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.firebase.components.ComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+      ]
+    },
+    {
+      "name": "io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.reactnativefirebaseappinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

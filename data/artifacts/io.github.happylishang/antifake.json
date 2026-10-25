@@ -1,0 +1,60 @@
+{
+  "coordinate": "io.github.happylishang:antifake",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.0": {
+      "fetchedAt": "2026-10-25T05:00:35Z",
+      "sha256": "f3412d1761d83ecd7af67852298dd4c8e9c5e260c90b557c716eec2eabe7a7d4",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-25T05:00:35Z",
+      "sha256": "f3412d1761d83ecd7af67852298dd4c8e9c5e260c90b557c716eec2eabe7a7d4",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T05:00:34Z",
+      "sha256": "8b895edd26873a24ab02cd9f6698c598e085c0fffaddf6a01d36594d2bad3909",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1"
+      ]
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-25T05:00:33Z",
+      "sha256": "8b895edd26873a24ab02cd9f6698c598e085c0fffaddf6a01d36594d2bad3909",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1"
+      ]
+    },
+    "1.7.1": {
+      "fetchedAt": "2026-10-25T05:00:33Z",
+      "sha256": "8b895edd26873a24ab02cd9f6698c598e085c0fffaddf6a01d36594d2bad3909",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.snail.antifake.jni.EmulatorCheckService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.0",
+          "1.7.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":EmulatorCheckService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "coordinate": "io.github.adgocompany:hailiang",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.457.12.422x": {
+      "fetchedAt": "2026-10-25T04:08:14Z",
+      "sha256": "1e023bd72e1f02011bc64e5bd174690bf4bc6a8049316110c15e02417280c330",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.hailiang.advlib.core.CPCFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.457.12.422x",
+          "3.457.12.422x"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.CPCFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.hailiang.advlib.ui.front.ADBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.457.12.422x",
+          "3.457.12.422x"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hailiang.advlib.ui.front.InciteADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.457.12.422x",
+          "3.457.12.422x"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "coordinate": "io.github.leslienan:NetworkCapture",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.5-alpha": {
+      "fetchedAt": "2026-10-25T05:16:51Z",
+      "sha256": "f366be4ef5e8478e2b0f299efa474c6fbdc22b1ff25610081fc9395620e552ed",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.0-beta03",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.okhttp3:logging-interceptor:4.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T05:16:50Z",
+      "sha256": "d28eaf95ee93c73380b22389945f8ab21197c6a92844e6877b5c0e3ad9730c83",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.4.1",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.okhttp3:logging-interceptor:4.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.leslienan.wireshark.WiresharkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5-alpha",
+          "0.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.leslienan.wireshark.ui.NetLogDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5-alpha",
+          "0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.leslienan.wireshark.ui.NetLogListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5-alpha",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.leslienan.wireshark.ui.WiresharkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5-alpha",
+          "0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.yodo1.plugin.honor:honor-inter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.10.314": {
+      "fetchedAt": "2026-10-25T02:35:37Z",
+      "sha256": "f3452ed8ad4fac8e2d727d689cb1a1dffb3f510a2af628b783152d80b1c4e573",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.yodo1.plugin.honor:honor-base:1.0.10.314"
+      ]
+    },
+    "1.0.10.315": {
+      "fetchedAt": "2026-10-25T02:35:36Z",
+      "sha256": "f3452ed8ad4fac8e2d727d689cb1a1dffb3f510a2af628b783152d80b1c4e573",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.yodo1.plugin.honor:honor-base:1.0.10.315"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hihonor.adsdk.interstitial.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.10.314",
+          "1.0.10.315"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

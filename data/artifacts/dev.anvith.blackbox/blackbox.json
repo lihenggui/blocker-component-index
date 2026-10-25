@@ -1,0 +1,92 @@
+{
+  "coordinate": "dev.anvith.blackbox:blackbox",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T02:56:50Z",
+      "sha256": "ffe92db33c884dd4641253428caa173d3c0d100add6338bc67b8c7017f4ea33c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.android.material:material:1.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T02:56:49Z",
+      "sha256": "c9915a646e56012b4711cc38a65f4a16c9665b2b82375ec635097dc7dbc7cdcd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.android.material:material:1.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T02:56:48Z",
+      "sha256": "ba67bd33d04a9e16c5651d5a1c4a5d85ba6ecde1d3e8f0b544ac622fbf4673c7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.android.material:material:1.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.anvith.blackbox.FileWatcherService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": ":crash_reporting",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.anvith.blackbox.listeners.ActionsBroadcastListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.anvith.blackbox.ui.ExceptionListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

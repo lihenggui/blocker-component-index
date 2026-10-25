@@ -1,0 +1,110 @@
+{
+  "coordinate": "io.github.adsplusteam:baidu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.35": {
+      "fetchedAt": "2026-10-25T04:08:39Z",
+      "sha256": "422a78d96be661e9434e4a9727e9211e60efb0843889942cd4cff18938e59786",
+      "dependencies": []
+    },
+    "9.324": {
+      "fetchedAt": "2026-10-25T04:08:38Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    },
+    "9.332": {
+      "fetchedAt": "2026-10-25T04:08:37Z",
+      "sha256": "422a78d96be661e9434e4a9727e9211e60efb0843889942cd4cff18938e59786",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.mobads.sdk.api.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.35",
+          "9.332"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.35",
+          "9.332"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bd.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdShellActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.35",
+          "9.332"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobCPUDramaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.35",
+          "9.332"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.35",
+          "9.332"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

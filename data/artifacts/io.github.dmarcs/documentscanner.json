@@ -1,0 +1,55 @@
+{
+  "coordinate": "io.github.dmarcs:documentscanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:44:24Z",
+      "sha256": "b326648706cfef6a482beaeec822cb8ce428d07efa17b3ae2543dead433fa090",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.5.0",
+        "io.github.dmarcs:opencv:4.5.5-1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "io.github.dmarcs.documentscanner.FileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "io.github.dmarcs.documentscanner.DocumentScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

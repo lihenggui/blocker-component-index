@@ -1,0 +1,72 @@
+{
+  "coordinate": "ink.lodz:Component",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T03:33:13Z",
+      "sha256": "3bc0906c4cda99dafd91ee43ebe65e1ed0b70e9fa75093acd7dd1e5da68e0621",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.75",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.trello.rxlifecycle4:rxlifecycle-components:4.0.2",
+        "ink.lodz:core:2.2.0",
+        "io.reactivex.rxjava3:rxjava:3.0.12",
+        "org.greenrobot:eventbus:3.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lodz.android.component.photopicker.picker.PhotoPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lodz.android.component.photopicker.picker.TakePhotoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lodz.android.component.photopicker.preview.PicturePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

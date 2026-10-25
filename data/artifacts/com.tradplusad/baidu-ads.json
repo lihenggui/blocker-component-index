@@ -1,0 +1,202 @@
+{
+  "coordinate": "com.tradplusad:baidu-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.3": {
+      "fetchedAt": "2026-10-25T01:37:27Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    },
+    "9.28": {
+      "fetchedAt": "2026-10-25T01:37:26Z",
+      "sha256": "890c804675c44313efdb7c8b1a468b91d889d8d26125464ea808aceae6f2eb02",
+      "dependencies": []
+    },
+    "9.31": {
+      "fetchedAt": "2026-10-25T01:37:26Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    },
+    "9.32": {
+      "fetchedAt": "2026-10-25T01:37:25Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    },
+    "9.33": {
+      "fetchedAt": "2026-10-25T01:37:24Z",
+      "sha256": "422a78d96be661e9434e4a9727e9211e60efb0843889942cd4cff18938e59786",
+      "dependencies": []
+    },
+    "9.34": {
+      "fetchedAt": "2026-10-25T01:37:24Z",
+      "sha256": "422a78d96be661e9434e4a9727e9211e60efb0843889942cd4cff18938e59786",
+      "dependencies": []
+    },
+    "9.35": {
+      "fetchedAt": "2026-10-25T01:37:23Z",
+      "sha256": "422a78d96be661e9434e4a9727e9211e60efb0843889942cd4cff18938e59786",
+      "dependencies": []
+    },
+    "9.36": {
+      "fetchedAt": "2026-10-25T01:37:22Z",
+      "sha256": "643710a8bb10f614a92482362fceca0409ad0cb09a952f64a61a3a708e723300",
+      "dependencies": []
+    },
+    "9.38": {
+      "fetchedAt": "2026-10-25T01:37:22Z",
+      "sha256": "bf4d6f074b0c4ca5df37c2962c90df4b70b47fb50039f2fd9a85f51791c0fe71",
+      "dependencies": []
+    },
+    "9.241": {
+      "fetchedAt": "2026-10-25T01:37:21Z",
+      "sha256": "890c804675c44313efdb7c8b1a468b91d889d8d26125464ea808aceae6f2eb02",
+      "dependencies": []
+    },
+    "9.251": {
+      "fetchedAt": "2026-10-25T01:37:20Z",
+      "sha256": "890c804675c44313efdb7c8b1a468b91d889d8d26125464ea808aceae6f2eb02",
+      "dependencies": []
+    },
+    "9.271": {
+      "fetchedAt": "2026-10-25T01:37:19Z",
+      "sha256": "890c804675c44313efdb7c8b1a468b91d889d8d26125464ea808aceae6f2eb02",
+      "dependencies": []
+    },
+    "9.313": {
+      "fetchedAt": "2026-10-25T01:37:19Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    },
+    "9.324": {
+      "fetchedAt": "2026-10-25T01:37:18Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    },
+    "9.332": {
+      "fetchedAt": "2026-10-25T01:37:17Z",
+      "sha256": "422a78d96be661e9434e4a9727e9211e60efb0843889942cd4cff18938e59786",
+      "dependencies": []
+    },
+    "9.352": {
+      "fetchedAt": "2026-10-25T01:37:17Z",
+      "sha256": "643710a8bb10f614a92482362fceca0409ad0cb09a952f64a61a3a708e723300",
+      "dependencies": []
+    },
+    "9.371": {
+      "fetchedAt": "2026-10-25T01:37:16Z",
+      "sha256": "643710a8bb10f614a92482362fceca0409ad0cb09a952f64a61a3a708e723300",
+      "dependencies": []
+    },
+    "9.393": {
+      "fetchedAt": "2026-10-25T01:37:15Z",
+      "sha256": "3364ec44863ee847a8c438b97d009b27f070ee56617d6b02def41427f71c42e4",
+      "dependencies": []
+    },
+    "9.3223": {
+      "fetchedAt": "2026-10-25T01:37:15Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.mobads.sdk.api.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3",
+          "9.3223"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.3",
+          "9.3223"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bd.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdShellActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3",
+          "9.3223"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobCPUDramaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3",
+          "9.3"
+        ],
+        [
+          "9.31",
+          "9.38"
+        ],
+        [
+          "9.313",
+          "9.371"
+        ],
+        [
+          "9.3223",
+          "9.3223"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.3",
+          "9.3223"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

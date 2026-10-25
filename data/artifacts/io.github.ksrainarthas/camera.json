@@ -1,0 +1,91 @@
+{
+  "coordinate": "io.github.ksrainarthas:camera",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T05:15:09Z",
+      "sha256": "d7ce040c391d548e81b601b8288555ef99ab32a42bb4d0b2c800e48523e0bb71",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.syusuke.camera.MyWidgetProvider",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.appwidget.action.APPWIDGET_UPDATE"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.appwidget.provider"
+      ]
+    },
+    {
+      "name": "com.syusuke.camera.MyWidgetProviderTakePhoto",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.appwidget.action.APPWIDGET_UPDATE"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.appwidget.provider"
+      ]
+    },
+    {
+      "name": "com.syusuke.camera.OpenCameraMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.syusuke.camera.TakePhoto",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

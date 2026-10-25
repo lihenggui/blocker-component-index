@@ -1,0 +1,75 @@
+{
+  "coordinate": "com.yodo1.smartpolly.android:smartpolly",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:36:17Z",
+      "sha256": "7b07e32cd1e56b0e464f6e162ed8b7cb915ed6a3a015318b0947c38d9c98b21f",
+      "dependencies": [
+        "com.yodo1.smartpolly.android:smartpolly_firebase:1.0.0.2",
+        "com.yodo1.suit.plugin:common:6.3.8.3"
+      ]
+    },
+    "1.0.0.5": {
+      "fetchedAt": "2026-10-25T02:36:16Z",
+      "sha256": "7b07e32cd1e56b0e464f6e162ed8b7cb915ed6a3a015318b0947c38d9c98b21f",
+      "dependencies": [
+        "com.yodo1.smartpolly.android:smartpolly_firebase:1.0.0.2",
+        "com.yodo1.suit.plugin:common:6.3.8.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yodo1.android.smart_polly.biz.SmartPollyLifeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.android.smart_polly.ui.SmartPollyPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.android.smart_polly.ui.SmartPollyPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

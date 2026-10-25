@@ -1,0 +1,211 @@
+{
+  "coordinate": "io.appmetrica.analytics:push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T03:38:39Z",
+      "sha256": "d66c57b221ef93f3727a6e51e9cc3f2b783255b024eb91efd1fbbc27f89ef5ce",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:3.0.0",
+        "io.appmetrica.analytics:push-provider-api:3.0.0",
+        "io.appmetrica.analytics:push-provider-firebase:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T03:38:38Z",
+      "sha256": "d66c57b221ef93f3727a6e51e9cc3f2b783255b024eb91efd1fbbc27f89ef5ce",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:3.1.0",
+        "io.appmetrica.analytics:push-provider-api:3.1.0",
+        "io.appmetrica.analytics:push-provider-firebase:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T03:38:37Z",
+      "sha256": "d66c57b221ef93f3727a6e51e9cc3f2b783255b024eb91efd1fbbc27f89ef5ce",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:3.1.1",
+        "io.appmetrica.analytics:push-provider-api:3.1.1",
+        "io.appmetrica.analytics:push-provider-firebase:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T03:38:36Z",
+      "sha256": "d66c57b221ef93f3727a6e51e9cc3f2b783255b024eb91efd1fbbc27f89ef5ce",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:3.2.0",
+        "io.appmetrica.analytics:push-provider-api:3.2.0",
+        "io.appmetrica.analytics:push-provider-firebase:3.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T03:38:35Z",
+      "sha256": "d66c57b221ef93f3727a6e51e9cc3f2b783255b024eb91efd1fbbc27f89ef5ce",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:3.3.0",
+        "io.appmetrica.analytics:push-provider-api:3.3.0",
+        "io.appmetrica.analytics:push-provider-firebase:3.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T03:38:35Z",
+      "sha256": "c095a43e66117bd934d91f0b9f5b5b8a2379c8a022be581ae7da3620a23ea4bb",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:4.0.0",
+        "io.appmetrica.analytics:push-logger:4.0.0",
+        "io.appmetrica.analytics:push-provider-api:4.0.0",
+        "io.appmetrica.analytics:push-provider-firebase:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.1.1": {
+      "fetchedAt": "2026-10-25T03:38:33Z",
+      "sha256": "c095a43e66117bd934d91f0b9f5b5b8a2379c8a022be581ae7da3620a23ea4bb",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:4.1.1",
+        "io.appmetrica.analytics:push-logger:4.1.1",
+        "io.appmetrica.analytics:push-provider-api:4.1.1",
+        "io.appmetrica.analytics:push-provider-firebase:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-25T03:38:34Z",
+      "sha256": "c095a43e66117bd934d91f0b9f5b5b8a2379c8a022be581ae7da3620a23ea4bb",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "io.appmetrica.analytics:push-core-utils:4.2.1",
+        "io.appmetrica.analytics:push-logger:4.2.1",
+        "io.appmetrica.analytics:push-provider-api:4.2.1",
+        "io.appmetrica.analytics:push-provider-firebase:4.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.appmetrica.analytics.push.internal.activity.AppMetricaPushDummyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.appmetrica.analytics.push.action.NOTIFICATION_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.appmetrica.analytics.push.action.NOTIFICATION_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushNotificationStatusChangeHandler",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.app.action.APP_BLOCK_STATE_CHANGED",
+        "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED",
+        "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.appmetrica.analytics.push.internal.receiver.TtlBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.appmetrica.analytics.push.action.EXPIRED_BY_TTL_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.appmetrica.analytics.push.internal.service.PushJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.appmetrica.analytics.push.internal.service.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "coordinate": "com.zendrive.sdk.android:ZendriveSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.2.0-dev1": {
+      "fetchedAt": "2026-10-25T02:45:42Z",
+      "sha256": "2d6afc9f130661cba58ea5f73a551b92a0e0df521a688afac6aabcbd2a0b24a6",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.4.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.1",
+        "com.google.android.gms:play-services-location:11.2.2",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "7.2.1": {
+      "fetchedAt": "2026-10-25T02:45:41Z",
+      "sha256": "2e1248c115e5ce46ca961d494acab8e68e3adb3a672a7525393d0807679a6dff",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:11.2.2",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "8.0.0": {
+      "fetchedAt": "2026-10-25T02:45:40Z",
+      "sha256": "93281eff79c62f80ff3de1f4e2cfeccc626f8173c5cb48f47e48903d9a9da7ab",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:11.2.2",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "8.0.0-dev1": {
+      "fetchedAt": "2026-10-25T02:45:39Z",
+      "sha256": "93281eff79c62f80ff3de1f4e2cfeccc626f8173c5cb48f47e48903d9a9da7ab",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:11.2.2",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "8.1.0": {
+      "fetchedAt": "2026-10-25T02:45:38Z",
+      "sha256": "93281eff79c62f80ff3de1f4e2cfeccc626f8173c5cb48f47e48903d9a9da7ab",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:11.2.2",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "8.2.0": {
+      "fetchedAt": "2026-10-25T02:45:37Z",
+      "sha256": "93281eff79c62f80ff3de1f4e2cfeccc626f8173c5cb48f47e48903d9a9da7ab",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:11.2.2",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "8.2.0-dev1": {
+      "fetchedAt": "2026-10-25T02:45:36Z",
+      "sha256": "93281eff79c62f80ff3de1f4e2cfeccc626f8173c5cb48f47e48903d9a9da7ab",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:11.2.2",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "8.3.0": {
+      "fetchedAt": "2026-10-25T02:45:35Z",
+      "sha256": "a9d3d2927d4e442ecf882ac2c65f94ae44b85aaffb29ab82451b6c194740c4e1",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "8.3.1": {
+      "fetchedAt": "2026-10-25T02:45:35Z",
+      "sha256": "a9d3d2927d4e442ecf882ac2c65f94ae44b85aaffb29ab82451b6c194740c4e1",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.5.0",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:2.1.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.40",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "9.0.0": {
+      "fetchedAt": "2026-10-25T02:45:34Z",
+      "sha256": "c8d6af1bfc63a5fa855ba83b373a494f7f968143cc127184fe18749dbeab15bb",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "9.0.2": {
+      "fetchedAt": "2026-10-25T02:45:33Z",
+      "sha256": "c8d6af1bfc63a5fa855ba83b373a494f7f968143cc127184fe18749dbeab15bb",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "9.0.3": {
+      "fetchedAt": "2026-10-25T02:45:32Z",
+      "sha256": "c8d6af1bfc63a5fa855ba83b373a494f7f968143cc127184fe18749dbeab15bb",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "9.1.0": {
+      "fetchedAt": "2026-10-25T02:45:31Z",
+      "sha256": "c8d6af1bfc63a5fa855ba83b373a494f7f968143cc127184fe18749dbeab15bb",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "9.1.0-dev1": {
+      "fetchedAt": "2026-10-25T02:45:30Z",
+      "sha256": "c8d6af1bfc63a5fa855ba83b373a494f7f968143cc127184fe18749dbeab15bb",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "9.2.0": {
+      "fetchedAt": "2026-10-25T02:45:29Z",
+      "sha256": "c8d6af1bfc63a5fa855ba83b373a494f7f968143cc127184fe18749dbeab15bb",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.6.30",
+        "com.getkeepsafe.relinker:relinker:1.4.3",
+        "com.google.android.gms:play-services-location:12.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:3.12.2",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+      ]
+    },
+    "10.0.0": {
+      "fetchedAt": "2026-10-25T02:45:28Z",
+      "sha256": "2c79cbd756183b38059da550bfc86b394a77c43bfd8e0a496a04cafa946c9567",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.59.1",
+        "com.getkeepsafe.relinker:relinker:1.4.4",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "10.0.1": {
+      "fetchedAt": "2026-10-25T02:45:27Z",
+      "sha256": "2c79cbd756183b38059da550bfc86b394a77c43bfd8e0a496a04cafa946c9567",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.59.1",
+        "com.getkeepsafe.relinker:relinker:1.4.4",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "10.0.2": {
+      "fetchedAt": "2026-10-25T02:45:26Z",
+      "sha256": "2c79cbd756183b38059da550bfc86b394a77c43bfd8e0a496a04cafa946c9567",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.59.1",
+        "com.getkeepsafe.relinker:relinker:1.4.4",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "10.0.3": {
+      "fetchedAt": "2026-10-25T02:45:25Z",
+      "sha256": "2c79cbd756183b38059da550bfc86b394a77c43bfd8e0a496a04cafa946c9567",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.59.1",
+        "com.getkeepsafe.relinker:relinker:1.4.4",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "10.1.0": {
+      "fetchedAt": "2026-10-25T02:45:24Z",
+      "sha256": "2c79cbd756183b38059da550bfc86b394a77c43bfd8e0a496a04cafa946c9567",
+      "dependencies": [
+        "androidx.preference:preference:1.1.0",
+        "androidx.work:work-runtime:2.7.1",
+        "com.amazonaws:aws-android-sdk-sqs:2.59.1",
+        "com.getkeepsafe.relinker:relinker:1.4.4",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.microsoft.thrifty:thrifty-runtime:3.0.0",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "org.cryptonode.jncryptor:jncryptor:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zendrive.sdk.receiver.BeaconReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.BluetoothConnectionStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "7.2.0-dev1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.BluetoothConnectionStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.1",
+          "10.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.device.action.ACL_CONNECTED",
+        "android.bluetooth.device.action.ACL_DISCONNECTED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.GeofenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.HmsActivityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.HmsGeofenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "7.2.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.NoPowerLocationUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.SetupReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.UserActivityReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.WakeupReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.ZendrivePackageReplacedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.1",
+          "10.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.receiver.ZendrivePackageReplacedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "7.2.0-dev1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.services.FileUploaderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.services.TripService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.services.ZendriveService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zendrive.sdk.utilities.ZendriveContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.2.0-dev1",
+          "10.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.zendrive.ContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

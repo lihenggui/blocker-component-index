@@ -1,0 +1,275 @@
+{
+  "coordinate": "com.yodo1.plugin.233:233-pay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.2.11": {
+      "fetchedAt": "2026-10-25T02:35:08Z",
+      "sha256": "9c4cbcd9b6f712acb8ac540faf90e171934ffc663d3f09ea4eabc0e7666a0458",
+      "dependencies": []
+    },
+    "3.2.16": {
+      "fetchedAt": "2026-10-25T02:35:08Z",
+      "sha256": "3a64689ac523d0828b0ee898c60d51b3cba310dfb75e51dba279c9edca088c3f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.APayEntranceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.android.mpg.assistant.feature.record.ScreenRecorderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.android.mpg.assistant.feature.record.permission.ScreenCapturePermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.android.mpg.authorize.entry.MetaSdkEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.android.mpg.initialize.internal.feature.agreement.UserAgreementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.android.mpg.initialize.internal.feature.maintenance.SystemMaintenanceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.android.mpg.initialize.internal.feature.update.UpdateDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.android.mpg.shared.service.MpgDownloadFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mpg_download",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.meta.android.mpg.web.MpgWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meta.sdk.open.internal.web.AuthorizeWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.11",
+          "3.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

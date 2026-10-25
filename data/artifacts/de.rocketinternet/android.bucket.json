@@ -1,0 +1,113 @@
+{
+  "coordinate": "de.rocketinternet:android.bucket",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "SNAPSHOT-0.3.1": {
+      "fetchedAt": "2026-10-25T02:55:49Z",
+      "sha256": "8da6e1c170a1482083b6160d75a036848d92ebaa2e6f65cf43fb80991b1c48d2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.android.support:support-annotations:23.4.0",
+        "com.squareup.okhttp3:okhttp:3.3.1"
+      ]
+    },
+    "0.1": {
+      "fetchedAt": "2026-10-25T02:55:48Z",
+      "sha256": "6a7979f472d009c4fa015a56270c7dc72294d48cf40b6221e9d35edb2f7121b2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.android.support:recyclerview-v7:23.3.0",
+        "com.android.support:support-annotations:23.3.0",
+        "com.squareup.okhttp:okhttp:2.7.5"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-25T02:55:48Z",
+      "sha256": "f1c0d0783cd70b85e6d26d451bc133fe74dbf6d345fc9804454c0ca38147da65",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.android.support:recyclerview-v7:23.3.0",
+        "com.android.support:support-annotations:23.3.0",
+        "com.squareup.okhttp:okhttp:2.7.5"
+      ]
+    },
+    "0.3": {
+      "fetchedAt": "2026-10-25T02:55:47Z",
+      "sha256": "8da6e1c170a1482083b6160d75a036848d92ebaa2e6f65cf43fb80991b1c48d2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.android.support:support-annotations:23.4.0",
+        "com.squareup.okhttp3:okhttp:3.3.1"
+      ]
+    },
+    "0.4": {
+      "fetchedAt": "2026-10-25T02:55:46Z",
+      "sha256": "8c2d5e3f949546f4c6d5263b468f622e5cffee0b5dacbffef80c7f41cd4fc0b8",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:recyclerview-v7:23.4.0",
+        "com.android.support:support-annotations:23.4.0",
+        "com.squareup.okhttp3:okhttp:3.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.rocketinternet.android.bucket.BucketsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.rocketinternet.android.bucket.ui.BucketDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-0.3.1",
+          "0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.rocketinternet.android.bucket.ui.BucketsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-0.3.1",
+          "SNAPSHOT-0.3.1"
+        ],
+        [
+          "0.3",
+          "0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

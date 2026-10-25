@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.feer921:CommonPaySdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0": {
+      "fetchedAt": "2026-10-25T04:51:11Z",
+      "sha256": "b8aea5bcf4003ad18b4081857f4b911920ca8eb881aa199c3f55af4cd6bc203b",
+      "dependencies": []
+    },
+    "2.1": {
+      "fetchedAt": "2026-10-25T04:51:11Z",
+      "sha256": "b8aea5bcf4003ad18b4081857f4b911920ca8eb881aa199c3f55af4cd6bc203b",
+      "dependencies": [
+        "androidx.activity:activity:1.4.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "com.alipay.sdk:alipaysdk-android:15.8.11",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    },
+    "2.2": {
+      "fetchedAt": "2026-10-25T04:51:10Z",
+      "sha256": "b8aea5bcf4003ad18b4081857f4b911920ca8eb881aa199c3f55af4cd6bc203b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.alipay.sdk:alipaysdk-android:15.8.17",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.24"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "common.pay.sdk.PayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0",
+          "2.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

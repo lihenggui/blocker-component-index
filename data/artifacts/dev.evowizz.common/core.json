@@ -1,0 +1,53 @@
+{
+  "coordinate": "dev.evowizz.common:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T02:58:53Z",
+      "sha256": "51e27d2243e059612c1de6c75cd73afdd7d1e094d6359eb5c1a12aae21f75cfb",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T02:58:52Z",
+      "sha256": "b6f3d1d3ba4601be1b1e63474ad8734f8e1d6f18c14e74b4a17853a6e39502b4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T02:58:51Z",
+      "sha256": "925ce596481705a103fbdf6d46e7c7141ecc0a4c5565ad521615c8dcffe62bb2",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.evowizz.common.init.ApplicationContext"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "coordinate": "com.wireguard.android:tunnel",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.20210211": {
+      "fetchedAt": "2026-10-25T02:18:28Z",
+      "sha256": "0c24a428dcc658413b26624e481406cfc7ef6de6d0319500a024164fcc066424",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.collection:collection:1.1.0",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    "1.0.20210926": {
+      "fetchedAt": "2026-10-25T02:18:27Z",
+      "sha256": "9015bf783b2f152a9f8c2e6209419a104f5312e4b74d49ddb3d639a7678f9d49",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.collection:collection:1.1.0",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    "1.0.20211029": {
+      "fetchedAt": "2026-10-25T02:18:26Z",
+      "sha256": "ff1732dc8c8df0855b0c264200006bd083f17bb770c607407f5f5e5bb6b616da",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.collection:collection:1.1.0"
+      ]
+    },
+    "1.0.20230321": {
+      "fetchedAt": "2026-10-25T02:18:26Z",
+      "sha256": "4181049b87bfa88347df5be71c6cf14e3b1e4cc75c243a1d1e231b34d3fe9de2",
+      "dependencies": [
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.collection:collection:1.2.0"
+      ]
+    },
+    "1.0.20230405": {
+      "fetchedAt": "2026-10-25T02:18:25Z",
+      "sha256": "4181049b87bfa88347df5be71c6cf14e3b1e4cc75c243a1d1e231b34d3fe9de2",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.collection:collection:1.2.0"
+      ]
+    },
+    "1.0.20230427": {
+      "fetchedAt": "2026-10-25T02:18:24Z",
+      "sha256": "4181049b87bfa88347df5be71c6cf14e3b1e4cc75c243a1d1e231b34d3fe9de2",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.collection:collection:1.2.0"
+      ]
+    },
+    "1.0.20230706": {
+      "fetchedAt": "2026-10-25T02:18:22Z",
+      "sha256": "4181049b87bfa88347df5be71c6cf14e3b1e4cc75c243a1d1e231b34d3fe9de2",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.collection:collection:1.2.0"
+      ]
+    },
+    "1.0.20250531": {
+      "fetchedAt": "2026-10-25T02:18:23Z",
+      "sha256": "bd6ad7a18f1f7c9b607989598b0c3f86ef4774fdcc4edfa46a42b32e784795ed",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.collection:collection:1.5.0"
+      ]
+    },
+    "1.0.20251231": {
+      "fetchedAt": "2026-10-25T02:18:23Z",
+      "sha256": "bd6ad7a18f1f7c9b607989598b0c3f86ef4774fdcc4edfa46a42b32e784795ed",
+      "dependencies": [
+        "androidx.annotation:annotation:1.9.1",
+        "androidx.collection:collection:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wireguard.android.backend.GoBackend$VpnService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20230321",
+          "1.0.20251231"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wireguard.android.backend.GoBackend$VpnService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.20210211",
+          "1.0.20211029"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

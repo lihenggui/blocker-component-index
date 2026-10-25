@@ -1,0 +1,69 @@
+{
+  "coordinate": "io.github.brightwellpayments:readyremit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.2": {
+      "fetchedAt": "2026-10-25T04:30:03Z",
+      "sha256": "e81bbdd6acf9f82176fb48f18fb033ba501c9bc0ec666a39ec541c28a04f3834",
+      "dependencies": [
+        "ReadyRemitSDK:visa-sensory-branding-sdk:unspecified",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:databinding-adapters:7.4.2",
+        "androidx.databinding:databinding-common:7.4.2",
+        "androidx.databinding:databinding-ktx:7.4.2",
+        "androidx.databinding:databinding-runtime:7.4.2",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "androidx.navigation:navigation-ui-ktx:2.5.3",
+        "com.acuant:acuantcamera:11.5.4",
+        "com.acuant:acuantcommon:11.5.4",
+        "com.acuant:acuantfacecapture:11.5.4",
+        "com.acuant:acuantimagepreparation:11.5.4",
+        "com.acuant:acuantpassiveliveness:11.5.4",
+        "com.github.barteksc:android-pdf-viewer:3.2.0-beta.1",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.smart-fun:XmlToJson:1.5.1",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.9.1",
+        "com.google.dagger:dagger-android-support:2.46.1",
+        "com.google.dagger:dagger-android:2.46.1",
+        "com.google.dagger:dagger:2.46.1",
+        "com.localebro:okhttpprofiler:1.0.8",
+        "com.squareup.moshi:moshi-adapters:1.14.0",
+        "com.squareup.moshi:moshi:1.14.0",
+        "com.squareup.okhttp3:logging-interceptor:4.11.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "nl.dionsegijn:konfetti-xml:2.0.3",
+        "org.jetbrains.kotlin:kotlin-bom:1.8.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.brightwell.readyremit.sdk.internal.ReadyRemitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2",
+          "5.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

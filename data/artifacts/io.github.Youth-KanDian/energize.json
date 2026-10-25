@@ -1,0 +1,124 @@
+{
+  "coordinate": "io.github.Youth-KanDian:energize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:06:41Z",
+      "sha256": "8212450019f0cc39a2a53923ea2e0f28d761a04f456f604c0b5a4bcc20bac99f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:06:40Z",
+      "sha256": "8212450019f0cc39a2a53923ea2e0f28d761a04f456f604c0b5a4bcc20bac99f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:06:39Z",
+      "sha256": "8212450019f0cc39a2a53923ea2e0f28d761a04f456f604c0b5a4bcc20bac99f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:06:38Z",
+      "sha256": "8212450019f0cc39a2a53923ea2e0f28d761a04f456f604c0b5a4bcc20bac99f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T04:06:38Z",
+      "sha256": "8212450019f0cc39a2a53923ea2e0f28d761a04f456f604c0b5a4bcc20bac99f",
+      "dependencies": [
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jakewharton:disklrucache:2.0.2",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.youth.energize.database.YouthEnergizeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.youthEnergize.database",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youth.energize.module.details.YouthArticleDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youth.energize.module.feed.YouthArticleFeedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

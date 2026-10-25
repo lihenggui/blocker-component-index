@@ -1,0 +1,61 @@
+{
+  "coordinate": "com.vanniktech:rxbilling-google-play-library-v5",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.7.0": {
+      "fetchedAt": "2026-10-25T02:01:15Z",
+      "sha256": "9608deb901ce9d45e287de382569f3ca25787527a8d234dae24c5fd0fbb9035d",
+      "dependencies": [
+        "com.android.billingclient:billing:5.0.0",
+        "com.vanniktech:rxbilling:0.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0"
+      ]
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-25T02:01:14Z",
+      "sha256": "8e502c9ca7a5a6f1d1e907257a0b418dd2ae176165584b334e32d858e272c576",
+      "dependencies": [
+        "com.android.billingclient:billing:5.2.1",
+        "com.vanniktech:rxbilling:0.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T02:01:13Z",
+      "sha256": "8e502c9ca7a5a6f1d1e907257a0b418dd2ae176165584b334e32d858e272c576",
+      "dependencies": [
+        "com.android.billingclient:billing:5.2.1",
+        "com.vanniktech:rxbilling:0.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    },
+    "0.10.0": {
+      "fetchedAt": "2026-10-25T02:01:12Z",
+      "sha256": "d295b326affcf3981db433bd8b9d00176689374f560af6760ac3f57782e2a5b5",
+      "dependencies": [
+        "com.android.billingclient:billing:5.2.1",
+        "com.vanniktech:rxbilling:0.10.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.billingclient.api.ProxyBillingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.10.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

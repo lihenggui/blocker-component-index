@@ -1,0 +1,196 @@
+{
+  "coordinate": "io.gitee.any-design:ad-design",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:58:11Z",
+      "sha256": "3ae79385c21ce5c9e996293487bd94826426e0637c26ca12b12a39648e3d708b",
+      "dependencies": [
+        "com.aliyun.ams:alicloud-android-utdid:1.1.5.3",
+        "com.facebook.stetho:stetho-okhttp3:1.5.0",
+        "com.facebook.stetho:stetho:1.5.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "commons-io:commons-io:2.6",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.5",
+        "org.reactivestreams:reactive-streams:1.0.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:58:10Z",
+      "sha256": "3ae79385c21ce5c9e996293487bd94826426e0637c26ca12b12a39648e3d708b",
+      "dependencies": [
+        "com.aliyun.ams:alicloud-android-utdid:1.1.5.3",
+        "com.facebook.stetho:stetho-okhttp3:1.5.0",
+        "com.google.code.gson:gson:2.8.5",
+        "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "commons-io:commons-io:2.6",
+        "io.reactivex.rxjava2:rxandroid:2.0.1",
+        "io.reactivex.rxjava2:rxjava:2.0.5",
+        "org.reactivestreams:reactive-streams:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.AdSdkFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.adFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.mbridge.msdk.foundation.tools.MBFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mbFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qlslylq.ad.sdk.activity.SchemeReturnBackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sigmob.sdk.SigmobFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sigprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sigmob.sdk.SigmobXFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sigprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

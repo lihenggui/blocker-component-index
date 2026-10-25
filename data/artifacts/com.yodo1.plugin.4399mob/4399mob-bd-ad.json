@@ -1,0 +1,100 @@
+{
+  "coordinate": "com.yodo1.plugin.4399mob:4399mob-bd-ad",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.324": {
+      "fetchedAt": "2026-10-25T02:35:24Z",
+      "sha256": "948f8279b39b97764325f837543f0949d02a6cdf22f0c16de35548e59079d8cf",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.mobads.sdk.api.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.324",
+          "9.324"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.324",
+          "9.324"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bd.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdShellActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.324",
+          "9.324"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobCPUDramaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.324",
+          "9.324"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.324",
+          "9.324"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

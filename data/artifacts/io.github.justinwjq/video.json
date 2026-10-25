@@ -1,0 +1,133 @@
+{
+  "coordinate": "io.github.justinwjq:video",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:11:23Z",
+      "sha256": "ba95cc264af0c2f95a6ff5293680048874b23c67e989cfb9cd5f57736824590b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.navigation:navigation-fragment-ktx:2.0.0-rc02",
+        "androidx.navigation:navigation-ui-ktx:2.0.0-rc02",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.tencent.imsdk:imsdk:5.1.66",
+        "com.tencent.liteav:LiteAVSDK_TRTC:RELEASE",
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.3.1",
+        "com.tencent.teduboard:TEduBoardSdk:2.5.2.48",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.61"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T05:11:22Z",
+      "sha256": "ba95cc264af0c2f95a6ff5293680048874b23c67e989cfb9cd5f57736824590b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.navigation:navigation-fragment-ktx:2.0.0-rc02",
+        "androidx.navigation:navigation-ui-ktx:2.0.0-rc02",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.squareup.retrofit2:converter-gson:2.4.0",
+        "com.tencent.imsdk:imsdk:5.1.66",
+        "com.tencent.liteav:LiteAVSDK_TRTC:RELEASE",
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.3.1",
+        "com.tencent.teduboard:TEduBoardSdk:2.5.2.48",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.61",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.61"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.txt.video.base.ScreenRecordService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.txt.video.common.utils.TxPermissionUtils$TransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.txt.video.ui.boardpage.BoardViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.txt.video.ui.video.VideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

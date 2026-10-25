@@ -1,0 +1,41 @@
+{
+  "coordinate": "io.github.guosuweidev:network",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T04:59:13Z",
+      "sha256": "4ebb9a63e6b33c0fa4fc8671efa939e62fc1e7aa100f94aa938d45c93a579d9a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.documentfile:documentfile:1.0.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.sw.android.platform.network.internal.GNetInitializer"
+      ]
+    }
+  ]
+}

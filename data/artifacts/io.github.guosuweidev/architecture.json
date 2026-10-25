@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.github.guosuweidev:architecture",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T04:59:09Z",
+      "sha256": "89befe71b18b03086cb73c01a8735cbac622415a7ccfef6a6df3efea7565d401",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.1",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.0",
+        "androidx.databinding:viewbinding:8.0.1",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.sw.android.platform.architecture.internal.ArchitectureInitializer"
+      ]
+    }
+  ]
+}

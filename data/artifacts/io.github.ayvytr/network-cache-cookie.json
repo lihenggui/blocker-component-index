@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.ayvytr:network-cache-cookie",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T04:20:45Z",
+      "sha256": "760b5aa59ebc9286df0fc57ea2eaa1f23ad8d616a50d62eb220c85a41260eed3",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:4.6.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-25T04:20:44Z",
+      "sha256": "760b5aa59ebc9286df0fc57ea2eaa1f23ad8d616a50d62eb220c85a41260eed3",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:4.6.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ayvytr.network.ext.provider.ContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider.cp",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

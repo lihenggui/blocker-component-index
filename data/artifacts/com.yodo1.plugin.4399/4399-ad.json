@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.yodo1.plugin.4399:4399-ad",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T02:35:12Z",
+      "sha256": "55fdeefa5e54d76a6cfa44c884276eaecb329187fb2d37d64ea424eb2982dacb",
+      "dependencies": []
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-25T02:35:12Z",
+      "sha256": "9aad256ee2269f0b5c415f4bd6e89b19e76babd8efe7f8bfed7dfd1f27ce0e63",
+      "dependencies": []
+    },
+    "1.7.2.0": {
+      "fetchedAt": "2026-10-25T02:35:11Z",
+      "sha256": "130123be88a03edcf29d71dd49291f7251e90f71c21a61488813759106d31cc6",
+      "dependencies": []
+    },
+    "1.7.4.0": {
+      "fetchedAt": "2026-10-25T02:35:10Z",
+      "sha256": "1a36d785f5904f8df3f201381400da52bd764e26d1891918c35212be26817239",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "1.7.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "1.7.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "1.7.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "coordinate": "io.gitee.yjjk_1.android:jetpack",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:59:38Z",
+      "sha256": "3e54891f18ace51ae66fb695c00c85d2bbd66cc3dac77dda0513f6d24f3a935b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:databinding-adapters:4.1.3",
+        "androidx.databinding:databinding-common:4.1.3",
+        "androidx.databinding:databinding-runtime:4.1.3",
+        "androidx.fragment:fragment-ktx:1.3.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "com.github.franmontiel:PersistentCookieJar:v1.0.1",
+        "com.kunminx.archi:unpeek-livedata:4.4.1-beta1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "me.jessyan:retrofit-url-manager:1.4.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:59:37Z",
+      "sha256": "9c160c9532a8ca0c8986deb316ea40369bfcb0078be38de6cf9a546f595d8b5d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:databinding-adapters:4.1.3",
+        "androidx.databinding:databinding-common:4.1.3",
+        "androidx.databinding:databinding-runtime:4.1.3",
+        "androidx.fragment:fragment-ktx:1.3.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "com.github.franmontiel:PersistentCookieJar:v1.0.1",
+        "com.kunminx.archi:unpeek-livedata:4.4.1-beta1",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "me.jessyan:retrofit-url-manager:1.4.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.youjiajk.jetpackmvvm.base.Ktx",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.KtxInstaller",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "coordinate": "io.github.cyfeer-mobile:fishbun",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T04:39:35Z",
+      "sha256": "8d8a006a9742935f88285aa9a75523cbd9c3880d883757ae049b2b8f428af290",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.2",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sangcomz.fishbun.FishBunFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fishbunfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.album.ui.AlbumActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.detail.ui.DetailImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sangcomz.fishbun.ui.picker.PickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.2",
+          "1.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

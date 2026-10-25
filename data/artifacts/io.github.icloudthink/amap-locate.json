@@ -1,0 +1,82 @@
+{
+  "coordinate": "io.github.icloudthink:amap-locate",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:03:03Z",
+      "sha256": "50be0f0e9cb92f5a75b18c1fc50ef294a150f9c969849438ad9214b9e2195003",
+      "dependencies": [
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:03:03Z",
+      "sha256": "50be0f0e9cb92f5a75b18c1fc50ef294a150f9c969849438ad9214b9e2195003",
+      "dependencies": [
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:03:02Z",
+      "sha256": "50be0f0e9cb92f5a75b18c1fc50ef294a150f9c969849438ad9214b9e2195003",
+      "dependencies": [
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.amap.api:location:5.5.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:03:01Z",
+      "sha256": "50be0f0e9cb92f5a75b18c1fc50ef294a150f9c969849438ad9214b9e2195003",
+      "dependencies": [
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.amap.api:location:5.5.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:03:01Z",
+      "sha256": "50be0f0e9cb92f5a75b18c1fc50ef294a150f9c969849438ad9214b9e2195003",
+      "dependencies": [
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.amap.api:location:5.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.amap.api.location.APSService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.github.icloudthink.locate.amap.AmapLocateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.AmapLocateService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

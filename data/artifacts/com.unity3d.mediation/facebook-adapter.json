@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.unity3d.mediation:facebook-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:55:50Z",
+      "sha256": "278fc4f7bf9dcc03b63390202bd3ff2324ea59878d5c4b25a83af2a935c1043a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.facebook.android:audience-network-sdk:[6.11, 6.12[",
+        "com.unity3d.mediation:mediation-adapter:[1.1,1.2[",
+        "com.unity3d.mediation:mediation-logger:[1.1,1.2[",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T01:55:49Z",
+      "sha256": "278fc4f7bf9dcc03b63390202bd3ff2324ea59878d5c4b25a83af2a935c1043a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.facebook.android:audience-network-sdk:[6.11, 6.12[",
+        "com.unity3d.mediation:mediation-adapter:[1.1,1.2[",
+        "com.unity3d.mediation:mediation-logger:[1.1,1.2[",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.unity3d.mediation.facebookadapter.FacebookModuleInitializer"
+      ]
+    }
+  ]
+}

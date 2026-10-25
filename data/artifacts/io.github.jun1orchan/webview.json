@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.jun1orchan:webview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:11:15Z",
+      "sha256": "c54674f33fe9995f9b1c0f0ddce672615493b6fd3f54006e0a9c386f71c3cca6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.yanzhenjie:permission:2.0.3",
+        "org.jun1or.baselib:dialog:1.0.2",
+        "org.jun1or.baselib:util:1.0.1",
+        "org.jun1or.baselib:widget:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.jun1or.dwebview.fragment.WebViewDownloadCompleteReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

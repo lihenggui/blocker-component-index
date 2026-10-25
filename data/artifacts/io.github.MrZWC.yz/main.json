@@ -1,0 +1,37 @@
+{
+  "coordinate": "io.github.MrZWC.yz:main",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:04:04Z",
+      "sha256": "ac30daa6b799de1e327ba998c83d63f20956eb9072222b2a3f3ab58a4439af3e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.4.2",
+        "com.google.android.material:material:1.5.0",
+        "io.github.MrZWC.yz:common:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ngo100.main.service.FloatingLogService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

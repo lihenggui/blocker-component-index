@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.vanniktech:rxbilling-google-play-library-v7",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.10.0": {
+      "fetchedAt": "2026-10-25T02:01:18Z",
+      "sha256": "eee1709de4c074f7b21179c45515aa03bf49bcd8e4d9b51e9f7bbdd8851912fa",
+      "dependencies": [
+        "com.android.billingclient:billing:7.0.0",
+        "com.vanniktech:rxbilling:0.10.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.android.billingclient.api.ProxyBillingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.10.0",
+          "0.10.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.tradplusad:octopus-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.0.5_1": {
+      "fetchedAt": "2026-10-25T01:38:08Z",
+      "sha256": "9a8ff94e68c6b5a7fc5269fb4f3baf166b6f2bac25701d6cd530282de8f62d46",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.octopus.ad.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.0.5_1",
+          "1.6.0.5_1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.6.0.5_1",
+          "1.6.0.5_1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.OctopusProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.6.0.5_1",
+          "1.6.0.5_1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.octopus.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.octopus.ad.internal.activity.DownloadDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.0.5_1",
+          "1.6.0.5_1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

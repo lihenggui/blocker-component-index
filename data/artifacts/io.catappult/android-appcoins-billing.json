@@ -1,0 +1,481 @@
+{
+  "coordinate": "io.catappult:android-appcoins-billing",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.8.0.0": {
+      "fetchedAt": "2026-10-25T03:43:55Z",
+      "sha256": "8c9e1ad58b8c24eedb3fa47c1c49d5d7040017c90abb9bb7410cc6704ca7f85d",
+      "dependencies": [
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-adyen:0.8.0.0",
+        "io.catappult:appcoins-billing:0.8.0.0",
+        "io.catappult:communication:0.8.0.0",
+        "org.java-websocket:Java-WebSocket:1.5.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.8.0.1": {
+      "fetchedAt": "2026-10-25T03:43:54Z",
+      "sha256": "10a734e2882ff01cee0513377b2a0d48a3bf70634f4b2e8b8fee6c66126a3346",
+      "dependencies": [
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-adyen:0.8.0.1",
+        "io.catappult:appcoins-billing:0.8.0.1",
+        "io.catappult:communication:0.8.0.1",
+        "org.java-websocket:Java-WebSocket:1.5.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.8.0.2": {
+      "fetchedAt": "2026-10-25T03:43:54Z",
+      "sha256": "10a734e2882ff01cee0513377b2a0d48a3bf70634f4b2e8b8fee6c66126a3346",
+      "dependencies": [
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-adyen:0.8.0.2",
+        "io.catappult:appcoins-billing:0.8.0.2",
+        "io.catappult:communication:0.8.0.2",
+        "org.java-websocket:Java-WebSocket:1.5.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.8.0.3": {
+      "fetchedAt": "2026-10-25T03:43:53Z",
+      "sha256": "10a734e2882ff01cee0513377b2a0d48a3bf70634f4b2e8b8fee6c66126a3346",
+      "dependencies": [
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-adyen:0.8.0.3",
+        "io.catappult:appcoins-billing:0.8.0.3",
+        "io.catappult:communication:0.8.0.3",
+        "org.java-websocket:Java-WebSocket:1.5.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.0": {
+      "fetchedAt": "2026-10-25T03:43:52Z",
+      "sha256": "3e5ba4e695224c354dfca451d85478ae68e3dec7000ca0d45cd1ae3f79bdfb5f",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.0",
+        "io.catappult:appcoins-core:0.9.0.0",
+        "io.catappult:communication:0.9.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.1": {
+      "fetchedAt": "2026-10-25T03:43:52Z",
+      "sha256": "4d956b8674c2fa54b782dd8d47fc99d6958abab02bd1bdf072be041084ed314e",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.1",
+        "io.catappult:appcoins-core:0.9.0.1",
+        "io.catappult:communication:0.9.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.2": {
+      "fetchedAt": "2026-10-25T03:43:51Z",
+      "sha256": "4d956b8674c2fa54b782dd8d47fc99d6958abab02bd1bdf072be041084ed314e",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.2",
+        "io.catappult:appcoins-core:0.9.0.2",
+        "io.catappult:communication:0.9.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.3": {
+      "fetchedAt": "2026-10-25T03:43:50Z",
+      "sha256": "4d956b8674c2fa54b782dd8d47fc99d6958abab02bd1bdf072be041084ed314e",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.3",
+        "io.catappult:appcoins-core:0.9.0.3",
+        "io.catappult:communication:0.9.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.4": {
+      "fetchedAt": "2026-10-25T03:43:50Z",
+      "sha256": "e11050a4bcb615d1edaa6414d78c205199b60d6194ba63125ac5fc21e222f621",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.4",
+        "io.catappult:appcoins-core:0.9.0.4",
+        "io.catappult:communication:0.9.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.5": {
+      "fetchedAt": "2026-10-25T03:43:49Z",
+      "sha256": "c1432586a03a21b7531153d65937ebb4b93069a2ca6bb9bb56e965204e421e44",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.5",
+        "io.catappult:appcoins-core:0.9.0.5",
+        "io.catappult:communication:0.9.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.6": {
+      "fetchedAt": "2026-10-25T03:43:48Z",
+      "sha256": "44c665f18be65d5c02561aca11b716d0ad1b874f7710c24d76057622fb858db7",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.6",
+        "io.catappult:appcoins-core:0.9.0.6",
+        "io.catappult:communication:0.9.0.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.7": {
+      "fetchedAt": "2026-10-25T03:43:48Z",
+      "sha256": "44c665f18be65d5c02561aca11b716d0ad1b874f7710c24d76057622fb858db7",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.7",
+        "io.catappult:appcoins-core:0.9.0.7",
+        "io.catappult:communication:0.9.0.7",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.8": {
+      "fetchedAt": "2026-10-25T03:43:47Z",
+      "sha256": "44c665f18be65d5c02561aca11b716d0ad1b874f7710c24d76057622fb858db7",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.8",
+        "io.catappult:appcoins-core:0.9.0.8",
+        "io.catappult:communication:0.9.0.8",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.9": {
+      "fetchedAt": "2026-10-25T03:43:46Z",
+      "sha256": "44c665f18be65d5c02561aca11b716d0ad1b874f7710c24d76057622fb858db7",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.9",
+        "io.catappult:appcoins-core:0.9.0.9",
+        "io.catappult:communication:0.9.0.9",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.10": {
+      "fetchedAt": "2026-10-25T03:43:46Z",
+      "sha256": "44c665f18be65d5c02561aca11b716d0ad1b874f7710c24d76057622fb858db7",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.10",
+        "io.catappult:appcoins-core:0.9.0.10",
+        "io.catappult:communication:0.9.0.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+      ]
+    },
+    "0.9.0.11": {
+      "fetchedAt": "2026-10-25T03:43:43Z",
+      "sha256": "44c665f18be65d5c02561aca11b716d0ad1b874f7710c24d76057622fb858db7",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.github.matomo-org:matomo-sdk-android:4.1.0",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.9.0.11",
+        "io.catappult:appcoins-core:0.9.0.11",
+        "io.catappult:communication:0.9.0.11",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+      ]
+    },
+    "0.10.0.0": {
+      "fetchedAt": "2026-10-25T03:43:45Z",
+      "sha256": "cb84421aec35011274078c9b23e744de11940b2286cbc49afee880512dda5571",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.github.matomo-org:matomo-sdk-android:4.1.0",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.10.0.0",
+        "io.catappult:appcoins-core:0.10.0.0",
+        "io.catappult:communication:0.10.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+      ]
+    },
+    "0.10.0.1": {
+      "fetchedAt": "2026-10-25T03:43:44Z",
+      "sha256": "cb84421aec35011274078c9b23e744de11940b2286cbc49afee880512dda5571",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.github.matomo-org:matomo-sdk-android:4.1.0",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.10.0.1",
+        "io.catappult:appcoins-core:0.10.0.1",
+        "io.catappult:communication:0.10.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+      ]
+    },
+    "0.10.1.0": {
+      "fetchedAt": "2026-10-25T03:43:44Z",
+      "sha256": "cb84421aec35011274078c9b23e744de11940b2286cbc49afee880512dda5571",
+      "dependencies": [
+        "androidx.browser:browser:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.github.matomo-org:matomo-sdk-android:4.1.0",
+        "com.indicative.client.android:Indicative-Android:1.1.0",
+        "io.catappult:appcoins-billing:0.10.1.0",
+        "io.catappult:appcoins-core:0.10.1.0",
+        "io.catappult:communication:0.10.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appcoins.sdk.billing.UriCommunicationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0.0",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.WebIapCommunicationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0.1",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0.0",
+          "0.8.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.activities.BillingFlowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0.0",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.activities.InstallDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0.5",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.activities.UnavailableBillingDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0.6",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.activities.UpdateDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0.5",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.helpers.InstallDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0.0",
+          "0.9.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.helpers.UpdateDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0.0",
+          "0.9.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.payasguest.IabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.0.0",
+          "0.8.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.service.WebPaymentWebSocketService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.8.0.0",
+          "0.8.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.webpayment.ExternalPaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0.4",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.appcoins.sdk.billing.webpayment.WebPaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.0.0",
+          "0.10.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

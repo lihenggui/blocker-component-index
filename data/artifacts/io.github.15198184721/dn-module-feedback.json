@@ -1,0 +1,46 @@
+{
+  "coordinate": "io.github.15198184721:dn-module-feedback",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T04:00:26Z",
+      "sha256": "b98e47d2e8eb43b0c6ac56f9abd1f6d9f2acfc6c85f7a6eff94c2e6ce46184f7",
+      "dependencies": [
+        "androidx.databinding:databinding-adapters:4.1.0",
+        "androidx.databinding:databinding-common:4.1.0",
+        "androidx.databinding:databinding-runtime:4.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31"
+      ]
+    },
+    "1.4.2": {
+      "fetchedAt": "2026-10-25T04:00:26Z",
+      "sha256": "4342889dd955ca75391259b5a7f77cd35b211253ff6ce632e627f7894e0ab5db",
+      "dependencies": [
+        "androidx.databinding:databinding-adapters:4.1.0",
+        "androidx.databinding:databinding-common:4.1.0",
+        "androidx.databinding:databinding-runtime:4.1.0",
+        "lottery.common:library-common:unspecified",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dn.feedback.FeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.1",
+          "1.4.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

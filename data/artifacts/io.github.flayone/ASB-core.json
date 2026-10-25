@@ -1,0 +1,139 @@
+{
+  "coordinate": "io.github.flayone:ASB-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:51:32Z",
+      "sha256": "4a4428d683d5061eacf499f03d513a259108fb1103b3806f50c853436671151e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.mercury.sdk.activity.AskDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mercury.sdk.activity.LandscapeRewardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mercury.sdk.activity.PortraitRewardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mercury.sdk.activity.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.mercury.sdk.core.widget.BYFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mry_fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.mercury.sdk.downloads.AriaDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mercury.sdk.downloads.NotificationClickReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

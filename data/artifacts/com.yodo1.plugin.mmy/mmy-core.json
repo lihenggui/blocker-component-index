@@ -1,0 +1,154 @@
+{
+  "coordinate": "com.yodo1.plugin.mmy:mmy-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.6.4": {
+      "fetchedAt": "2026-10-25T02:35:42Z",
+      "sha256": "88f48ed2c358332e3004d319b6a76f47f7d175c64a04613e9409813ac7b123e5",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.apm.applog.migrate.MigrateDetectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.applog.collector.Collector",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.applog.migrate.MigrateDetectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.permission.dynamic_permission.ui.DynamicPermissionDelegateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.playgame.buyoutsdk.ui.RemindActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.union.game.sdk.core.base.init.provider.LGSDKInitContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ss.union.sdk.init.content",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.union.game.sdk.core.provider.LGCommonFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.LGCommonFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.volcengine.onekit.component.ComponentDiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.bytedance.applog.onekit.AnalyticsComponentRegistrar",
+        "com.bytedance.applog.onekit.DeviceComponentRegistrar"
+      ]
+    }
+  ]
+}

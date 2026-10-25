@@ -1,0 +1,72 @@
+{
+  "coordinate": "dev.hichamboushaba.suspendactivityresult:suspendactivityresult",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T02:59:20Z",
+      "sha256": "0a470ced54abc9c1d80094b34611a7251957722a5bd6e94e0126b036202f5772",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "dev.hichamboushaba.suspendactivityresult:suspendactivityresult-no-startup:0.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T02:59:19Z",
+      "sha256": "0a470ced54abc9c1d80094b34611a7251957722a5bd6e94e0126b036202f5772",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "dev.hichamboushaba.suspendactivityresult:suspendactivityresult-no-startup:0.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "0.1.3": {
+      "fetchedAt": "2026-10-25T02:59:18Z",
+      "sha256": "0a470ced54abc9c1d80094b34611a7251957722a5bd6e94e0126b036202f5772",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "dev.hichamboushaba.suspendactivityresult:suspendactivityresult-no-startup:0.1.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "0.1.4": {
+      "fetchedAt": "2026-10-25T02:59:17Z",
+      "sha256": "0a470ced54abc9c1d80094b34611a7251957722a5bd6e94e0126b036202f5772",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "dev.hichamboushaba.suspendactivityresult:suspendactivityresult-no-startup:0.1.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    },
+    "0.1.5": {
+      "fetchedAt": "2026-10-25T02:59:17Z",
+      "sha256": "0a470ced54abc9c1d80094b34611a7251957722a5bd6e94e0126b036202f5772",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.0",
+        "dev.hichamboushaba.suspendactivityresult:suspendactivityresult-no-startup:0.1.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.hichamboushaba.suspendactivityresult.SuspendActivityResultInitializer"
+      ]
+    }
+  ]
+}

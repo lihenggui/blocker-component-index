@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.eselltech:component_location",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "legacy-1x": {
+      "fetchedAt": "2026-10-25T04:49:07Z",
+      "sha256": "e56f85ba7b0e49a30b8875d062d42ecf89a4877cb0044ba65b9e61e915949e3c",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "io.github.eselltech:component_utils:legacy-1x"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:49:07Z",
+      "sha256": "bcb5d335848ec7fa084d78d3a1a901d3b1260999f5391de13e0cc81c4de6770b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "io.github.eselltech:component_utils:1.0.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:49:06Z",
+      "sha256": "d308fa57d00a828b0126e6aa54ec783433b6862cb703d11edb7c5f983eabcbc5",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "io.github.eselltech:component_utils:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wayz.location.WzService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "legacy-1x",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

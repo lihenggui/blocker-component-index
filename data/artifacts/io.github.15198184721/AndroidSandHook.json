@@ -1,0 +1,35 @@
+{
+  "coordinate": "io.github.15198184721:AndroidSandHook",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:00:24Z",
+      "sha256": "ddf91cbe5db77788ca8935bcc4f7ff6a274df218aa80a3560dae5a252cf67224",
+      "dependencies": [
+        "com.swift.sandhook:hookannotation:4.2.1",
+        "com.swift.sandhook:hooklib:4.2.1",
+        "com.swift.sandhook:xposedcompat:4.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chat_hook.providers.HkInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.providers.HkInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

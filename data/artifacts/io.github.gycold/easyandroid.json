@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.gycold:easyandroid",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T04:59:35Z",
+      "sha256": "a4869356ed2c524488b5cac3b08e5ffafcb3de406ddbb5f59b2c970c7ea725b9",
+      "dependencies": []
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T04:59:35Z",
+      "sha256": "a4869356ed2c524488b5cac3b08e5ffafcb3de406ddbb5f59b2c970c7ea725b9",
+      "dependencies": []
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T04:59:34Z",
+      "sha256": "a4869356ed2c524488b5cac3b08e5ffafcb3de406ddbb5f59b2c970c7ea725b9",
+      "dependencies": []
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-25T04:59:33Z",
+      "sha256": "a4869356ed2c524488b5cac3b08e5ffafcb3de406ddbb5f59b2c970c7ea725b9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.4",
+          "2.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.android7.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "coordinate": "com.webengage:android-sdk-beta",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.18.7": {
+      "fetchedAt": "2026-10-25T02:12:05Z",
+      "sha256": "6a76892462ed56a80c540961dfda2e7846626c93a1924962f68d1c4d617568e3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "4.5.0": {
+      "fetchedAt": "2026-10-25T02:12:04Z",
+      "sha256": "f0c6c53860b81822aa6a95cb55104d1f1f5ed5260852bc09f44a16fd21198553",
+      "dependencies": [
+        "net.sourceforge.htmlcleaner:htmlcleaner:2.26"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.webengage.sdk.android.EventLogService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.18.7",
+          "4.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.webengage.sdk.android.ExecutorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.18.7",
+          "4.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.webengage.sdk.android.NotificationClickHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.18.7",
+          "4.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.webengage.sdk.android.intent.ACTION"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.webengage.sdk.android.WETransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.18.7",
+          "4.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.webengage.sdk.android.WebEngageJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.18.7",
+          "4.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.webengage.sdk.android.WebEngageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.18.7",
+          "4.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.webengage.sdk.android.intent.ACTION"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.webengage.sdk.android.actions.render.WebEngageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.18.7",
+          "4.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

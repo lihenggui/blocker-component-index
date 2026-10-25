@@ -1,0 +1,39 @@
+{
+  "coordinate": "io.github.anylifezlb:downloadInstaller",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T04:17:57Z",
+      "sha256": "456c0ecf4811918a64e9861a3597441a6cc21bf2f1a341b185a3e88b42ce1a19",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.5.0",
+        "com.github.bbssyyuui:ActivityLauncher:1.0.2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zenglb.downloadinstaller.DownloadInstallerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.beeline09.android-uniDevId:uniDevId",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:23:11Z",
+      "sha256": "d51f5716bbef04d09d91321af261e4ec02665d8d9faa715a2702bb308e61c7e4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0",
+        "org.jetbrains:annotations:16.0.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:23:10Z",
+      "sha256": "d51f5716bbef04d09d91321af261e4ec02665d8d9faa715a2702bb308e61c7e4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0",
+        "org.jetbrains:annotations:16.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.unidevid.lib.udid.OpenUdidService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.OpenUDID.GETUDID"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

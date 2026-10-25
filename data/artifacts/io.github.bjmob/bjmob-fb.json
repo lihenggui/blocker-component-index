@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.github.bjmob:bjmob-fb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:24:39Z",
+      "sha256": "9ec477bb00c23472b2514d56fc9c0775ff26aeba72f8811a6533206435c0cd7c",
+      "dependencies": []
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T04:24:38Z",
+      "sha256": "be9a5fa99132395d66b17cffd0a36e77098a927a9f89404cb065df0b4c3f34be",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.AudienceNetworkContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AudienceNetworkContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

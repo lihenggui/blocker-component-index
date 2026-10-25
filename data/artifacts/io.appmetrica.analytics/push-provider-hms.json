@@ -1,0 +1,102 @@
+{
+  "coordinate": "io.appmetrica.analytics:push-provider-hms",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T03:38:58Z",
+      "sha256": "5c5db52abd9d764b55d5641779f05f79518ac3c33023c98b7730fe0bc2723a52",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.0.0",
+        "io.appmetrica.analytics:push-provider-api:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T03:38:57Z",
+      "sha256": "5c5db52abd9d764b55d5641779f05f79518ac3c33023c98b7730fe0bc2723a52",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.1.0",
+        "io.appmetrica.analytics:push-provider-api:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T03:38:56Z",
+      "sha256": "5c5db52abd9d764b55d5641779f05f79518ac3c33023c98b7730fe0bc2723a52",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.1.1",
+        "io.appmetrica.analytics:push-provider-api:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T03:38:55Z",
+      "sha256": "5c5db52abd9d764b55d5641779f05f79518ac3c33023c98b7730fe0bc2723a52",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.2.0",
+        "io.appmetrica.analytics:push-provider-api:3.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T03:38:54Z",
+      "sha256": "5c5db52abd9d764b55d5641779f05f79518ac3c33023c98b7730fe0bc2723a52",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.3.0",
+        "io.appmetrica.analytics:push-provider-api:3.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T03:38:54Z",
+      "sha256": "667029c5d76af1996d083e31cbe361a1fb2ce436d458d6f7d5a111d932d22b54",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.0.0",
+        "io.appmetrica.analytics:push-logger:4.0.0",
+        "io.appmetrica.analytics:push-provider-api:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.1.1": {
+      "fetchedAt": "2026-10-25T03:38:52Z",
+      "sha256": "667029c5d76af1996d083e31cbe361a1fb2ce436d458d6f7d5a111d932d22b54",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.1.1",
+        "io.appmetrica.analytics:push-logger:4.1.1",
+        "io.appmetrica.analytics:push-provider-api:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-25T03:38:53Z",
+      "sha256": "667029c5d76af1996d083e31cbe361a1fb2ce436d458d6f7d5a111d932d22b54",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.2.1",
+        "io.appmetrica.analytics:push-logger:4.2.1",
+        "io.appmetrica.analytics:push-provider-api:4.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.appmetrica.analytics.push.provider.hms.AppMetricaHmsMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

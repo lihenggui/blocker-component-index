@@ -1,0 +1,63 @@
+{
+  "coordinate": "io.github.diareuse:gecko-android-notification",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:42:16Z",
+      "sha256": "cde251559bae3e9eeab461854f8703941f98391716026413ce55ee3353c050e5",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.github.diareuse:gecko-core:0.0.4",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T04:42:16Z",
+      "sha256": "cde251559bae3e9eeab461854f8703941f98391716026413ce55ee3353c050e5",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.github.diareuse:gecko-core:0.0.5",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T04:42:15Z",
+      "sha256": "cde251559bae3e9eeab461854f8703941f98391716026413ce55ee3353c050e5",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "io.github.diareuse:gecko-core:0.0.6",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "gecko.android.notification.startup.GeckoStartup"
+      ]
+    }
+  ]
+}

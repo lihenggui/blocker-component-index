@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.SimpleCodeMaker:LocalX5",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:06:05Z",
+      "sha256": "6ef5f4145b9901a6db55cd27db9e943f17a39d94550a5a0a25f2b76adeafaaf3",
+      "dependencies": [
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.simplecodemaker.x5.StaticX5ContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.contextprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

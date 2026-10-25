@@ -1,0 +1,119 @@
+{
+  "coordinate": "io.gitee.yjjk_1.android:videocallcore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:59:41Z",
+      "sha256": "01b7ba3483051359b8cab5a85cfd831e08aee99a41f5ae02e2e96be65ea5e584",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.3.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "com.blankj:utilcodex:1.26.0",
+        "com.kunminx.archi:unpeek-livedata:4.4.1-beta1",
+        "com.tencent.liteav:LiteAVSDK_Professional:9.0.10437",
+        "me.jessyan:autosize:1.2.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:59:40Z",
+      "sha256": "01b7ba3483051359b8cab5a85cfd831e08aee99a41f5ae02e2e96be65ea5e584",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.3.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "com.blankj:utilcodex:1.26.0",
+        "com.kunminx.archi:unpeek-livedata:4.4.1-beta1",
+        "com.tencent.liteav:LiteAVSDK_Professional:9.5.11207",
+        "me.jessyan:autosize:1.2.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T03:59:39Z",
+      "sha256": "b6dcb81fcdfe6b9625149fb03d36f957b089372994482925729d822a2a5de915",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.3.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "com.blankj:utilcodex:1.26.0",
+        "com.kunminx.archi:unpeek-livedata:4.4.1-beta1",
+        "com.tencent.liteav:LiteAVSDK_Professional:9.5.11207",
+        "me.jessyan:autosize:1.2.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.trtc.videocall.VideoCallingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.trtc.videocall.VideoCallingEnterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

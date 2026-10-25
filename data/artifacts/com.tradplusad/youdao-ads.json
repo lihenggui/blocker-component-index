@@ -1,0 +1,117 @@
+{
+  "coordinate": "com.tradplusad:youdao-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.2.16": {
+      "fetchedAt": "2026-10-25T01:45:25Z",
+      "sha256": "e434836c9a8144e0e6c564addb42c2441776ce423965d908ea7fe5f379cdd8d0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.youdao.sdk.common.YouDaoAppService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.2.16",
+          "4.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youdao.sdk.common.YouDaoBrowser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.16",
+          "4.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youdao.sdk.extra.common.AdDownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.2.16",
+          "4.2.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.youdaosdk",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.youdao.sdk.listvideo.YouDaoListVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.16",
+          "4.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youdao.sdk.nativeads.YouDaoInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.16",
+          "4.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.youdao.sdk.video.YouDaoVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.2.16",
+          "4.2.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

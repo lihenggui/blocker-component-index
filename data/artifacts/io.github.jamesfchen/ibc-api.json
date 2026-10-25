@@ -1,0 +1,123 @@
+{
+  "coordinate": "io.github.jamesfchen:ibc-api",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:05:09Z",
+      "sha256": "35a0bea56ddb529505c7ef50b0a87b4241f3c568807fef882905ab5c93c86cdf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.material:material:1.3.0",
+        "gradle-plugin.ibc:annotations:unspecified",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:05:09Z",
+      "sha256": "35a0bea56ddb529505c7ef50b0a87b4241f3c568807fef882905ab5c93c86cdf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.material:material:1.3.0",
+        "io.github.jamesfchen:ibc-annotations:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T05:05:08Z",
+      "sha256": "f6a64c47f6814e4b2e864fc73247bc2ffa12ec9cadc3120a70d89f1a80e5dc10",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.material:material:1.3.0",
+        "io.github.jamesfchen:ibc-annotations:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-25T05:05:07Z",
+      "sha256": "8d173594cc1e5fab7ba42c7c3ac12b5db2c189acbf05cb781bd2f764fb7ba409",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.material:material:1.3.0",
+        "io.github.jamesfchen:ibc-annotations:1.4.0"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-25T05:05:06Z",
+      "sha256": "453a089c0cf45e6590a5855dc7f5da10f9f3dc34ecd79cd82b18c8d747cde618",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.material:material:1.3.0",
+        "io.github.jamesfchen:ibc-annotations:1.5.0"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T05:05:05Z",
+      "sha256": "be7ce5ba12585cedf97cdd1dbc7c43420f30f0f7a7abe6777ceabc1093001439",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10"
+      ]
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-25T05:05:05Z",
+      "sha256": "be7ce5ba12585cedf97cdd1dbc7c43420f30f0f7a7abe6777ceabc1093001439",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.jamesfchen.ibc.router.SchemaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.0",
+          "1.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.jamesfchen.ibc.router.SchemaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.6.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

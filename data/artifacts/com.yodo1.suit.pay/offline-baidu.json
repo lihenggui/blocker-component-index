@@ -1,0 +1,657 @@
+{
+  "coordinate": "com.yodo1.suit.pay:offline-baidu",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.2.1.1": {
+      "fetchedAt": "2026-10-25T02:37:47Z",
+      "sha256": "1e732da489baddbb93f53e236ad9ec354f95ffc8409fff1b83123a478d31c896",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.android.pushservice.CommandService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.android.pushservice.PushInfoProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bdpush",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.android.pushservice.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": ":bdservice_v1",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.baidu.android.pushservice.action.PUSH_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.android.pushservice.PushServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":bdservice_v1",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MEDIA_MOUNTED",
+        "android.intent.action.USER_PRESENT",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "com.baidu.android.pushservice.action.media.CLICK",
+        "com.baidu.android.pushservice.action.notification.SHOW"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.android.pushservice.RegistrationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":bdservice_v1",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_REMOVED",
+        "com.baidu.android.pushservice.action.BIND_SYNC",
+        "com.baidu.android.pushservice.action.METHOD"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.AuthenticateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.BDPlatformService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.BindPhoneActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.ConcertActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.ModifyPasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.SapiLoginProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.SapiWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.SapiWebActivityNew",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.ThirdPartyLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.VisitorBindActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.platformsdk.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.bdpass.DKAccountContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.gameplus.service.GPDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": "com.baidu.platform.gameplus.service",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.baidu.platform.gameplus.service"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.permission.GamePermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.receiver.PushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.baidu.android.pushservice.action.MESSAGE",
+        "com.baidu.android.pushservice.action.RECEIVE",
+        "com.baidu.android.pushservice.action.notification.CLICK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.ui.DKContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.ui.DKLotteryDrawActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.ui.DKRecommendActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.ui.DKStartDownloadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.ui.DKVerifyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.view.DKPrevtAdcateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.platform.single.view.NetworkErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.sdk.download.receiver.DownloadStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.download.state.broadcast"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.sdk.download.receiver.InstallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_ADDED",
+        "android.intent.action.PACKAGE_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.sdk.download.receiver.NetworkReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.duoku.sdk.download.ui.DKDownloadManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.mid.api.MidProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.2.1.1",
+          "3.2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TENCENT.MID.V3",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

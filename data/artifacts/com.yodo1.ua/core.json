@@ -1,0 +1,45 @@
+{
+  "coordinate": "com.yodo1.ua:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:38:21Z",
+      "sha256": "14579c923e1566b929d5b928c189061007aaf277f0024daeaf980375ed9e0c27",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.8.2",
+        "com.yodo1.suit.plugin:common:6.1.4.4"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:38:20Z",
+      "sha256": "6b1f6eba4b974fa40f4f3e69bf9c15efbb6456e0f49bc46281b83f706bd2e576",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.8.2",
+        "com.yodo1.suit.plugin:common:6.1.4.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appsflyer.MultipleInstallBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "coordinate": "eu.europa.ec.eudi:eudi-lib-android-wallet-document-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.10.0": {
+      "fetchedAt": "2026-10-25T03:16:02Z",
+      "sha256": "96a418241d65f7b9ed51df3d9a28220dbab1cbdffefd35229c5d21687bb68a39",
+      "dependencies": [
+        "com.android.identity:identity-mdoc:202408.1",
+        "com.android.identity:identity:202408.1",
+        "com.augustcellars.cose:cose-java:1.1.0",
+        "com.nimbusds:nimbus-jose-jwt:9.47",
+        "com.upokecenter:cbor:4.5.2",
+        "eu.europa.ec.eudi:eudi-lib-jvm-sdjwt-kt:0.10.0",
+        "io.ktor:ktor-client-content-negotiation:3.0.1",
+        "io.ktor:ktor-client-core:3.0.1",
+        "io.ktor:ktor-client-serialization:3.0.1",
+        "io.ktor:ktor-serialization-kotlinx-json:3.0.1",
+        "org.bouncycastle:bcpkix-jdk18on:1.78.1",
+        "org.bouncycastle:bcprov-jdk18on:1.78.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.6.0",
+        "org.jetbrains.kotlinx:kotlinx-io-bytestring:0.4.0",
+        "org.jetbrains.kotlinx:kotlinx-io-core:0.4.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    }
+  },
+  "components": []
+}

@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.wcdxg.edittextclear:editTextClear",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:11:28Z",
+      "sha256": "960450cfa5737489c056f32c8c4f24ef18eb27f21b9c27ab277c1d2c1d6bbdae",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-rc03",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wcdxg.edittextclear.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "coordinate": "com.usebutton:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.30.0": {
+      "fetchedAt": "2026-10-25T02:00:23Z",
+      "sha256": "43b27e09b1630ae7f2b7456abc5dc14637ea00ab67ecf09918f37ad5755d0272",
+      "dependencies": [
+        "com.android.support:cardview-v7:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    "7.0.0": {
+      "fetchedAt": "2026-10-25T02:00:22Z",
+      "sha256": "4c1882f260c81ee9c0b40bc13c0e30890914fab85515599da2589c075875a919",
+      "dependencies": [
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    "7.1.0": {
+      "fetchedAt": "2026-10-25T02:00:21Z",
+      "sha256": "418e9655a976b0e0ce4d001742eaa753d208fa42a6550680e495fe524f4f8d7f",
+      "dependencies": [
+        "androidx.activity:activity:1.5.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    "7.1.1": {
+      "fetchedAt": "2026-10-25T02:00:21Z",
+      "sha256": "2e430ae4a7ccf46ed202975ae574856f9bf08a211c5fc362995574607ae85987",
+      "dependencies": [
+        "androidx.activity:activity:1.6.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    "7.2.0": {
+      "fetchedAt": "2026-10-25T02:00:20Z",
+      "sha256": "310215f533e30b3f8ddd572e7de4e12b67e94bc74121f9005f280ec6c677a273",
+      "dependencies": [
+        "androidx.activity:activity:1.6.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.usebutton.sdk.internal.InstallCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.30.0",
+          "7.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.usebutton.sdk.internal.InstallSheetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.30.0",
+          "7.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.usebutton.sdk.internal.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.30.0",
+          "7.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.usebutton.sdk.internal.receivers.InstallNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.30.0",
+          "7.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.usebutton.sdk.internal.receivers.LocaleChangedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.30.0",
+          "7.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.LOCALE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.usebutton.sdk.internal.widget.FullScreenWidgetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.30.0",
+          "7.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

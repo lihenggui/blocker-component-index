@@ -1,0 +1,63 @@
+{
+  "coordinate": "io.github.gari-network:GariWallet",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-25T04:54:47Z",
+      "sha256": "4ea9a3971571654f97432480c693fe65c9c00ae06d81808f4eb7628f7c0bc930",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.7.0",
+        "com.google.code.gson:gson:2.10",
+        "com.portto.solana:web3:0.1.3",
+        "com.squareup.okhttp3:logging-interceptor:4.10.0",
+        "com.squareup.okhttp3:okhttp:4.10.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.torusresearch:web3auth-android-sdk:3.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.coin.gari.ui.auth.web3.Web3LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.coin.gari.ui.auth.webgari.WebGariAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

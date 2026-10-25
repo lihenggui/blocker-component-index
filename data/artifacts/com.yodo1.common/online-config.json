@@ -1,0 +1,30 @@
+{
+  "coordinate": "com.yodo1.common:online-config",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:31:37Z",
+      "sha256": "2d6fcdbf51a51f977ee3a8780c468e0b6b25d906b0e3df8a218119bca8d5b377",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.yodo1.onlineconfig.Yodo1OlConfigProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.olprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "coordinate": "io.github.mihodihasan.chuck:chuck",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:24:47Z",
+      "sha256": "5f2b5dc8bae7468686b65f9ca6ae7550a348866628ebca0da279a8b4123f7754",
+      "dependencies": [
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.6.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T05:24:46Z",
+      "sha256": "5f2b5dc8bae7468686b65f9ca6ae7550a348866628ebca0da279a8b4123f7754",
+      "dependencies": [
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.6.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T05:24:45Z",
+      "sha256": "bce4c77db7a0935486bb032ea3950a1392e4cc5e04c0688b592818999e5bd37b",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.6.0"
+      ]
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-25T05:24:44Z",
+      "sha256": "5f2b5dc8bae7468686b65f9ca6ae7550a348866628ebca0da279a8b4123f7754",
+      "dependencies": [
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.6.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    },
+    "1.1.6": {
+      "fetchedAt": "2026-10-25T05:24:43Z",
+      "sha256": "5f2b5dc8bae7468686b65f9ca6ae7550a348866628ebca0da279a8b4123f7754",
+      "dependencies": [
+        "com.google.android.material:material:1.0.0",
+        "com.google.code.gson:gson:2.8.0",
+        "com.squareup.okhttp3:okhttp:3.6.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.mihodihasan.chuck.internal.data.ChuckContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ],
+        [
+          "1.1.5",
+          "1.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.chuck.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.mihodihasan.chuck.internal.support.ClearTransactionsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ],
+        [
+          "1.1.5",
+          "1.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.mihodihasan.chuck.internal.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ],
+        [
+          "1.1.5",
+          "1.1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.mihodihasan.chuck.internal.ui.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.2"
+        ],
+        [
+          "1.1.5",
+          "1.1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

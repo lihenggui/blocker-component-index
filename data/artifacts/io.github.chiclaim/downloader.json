@@ -1,0 +1,124 @@
+{
+  "coordinate": "io.github.chiclaim:downloader",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:34:44Z",
+      "sha256": "71af321249daf5d1d2642c14e81fa628a5396fc815bd3f158ea9757a606f24a8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:34:43Z",
+      "sha256": "71af321249daf5d1d2642c14e81fa628a5396fc815bd3f158ea9757a606f24a8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:34:42Z",
+      "sha256": "71af321249daf5d1d2642c14e81fa628a5396fc815bd3f158ea9757a606f24a8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chiclaim.android.downloader.DownloadFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.file.download.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.chiclaim.android.downloader.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.file.download.DownloadService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chiclaim.android.downloader.SystemDownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE",
+        "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chiclaim.android.downloader.UpgradeDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chiclaim.android.downloader.UpgradePermissionDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "coordinate": "io.chabok:Chabok",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.14.5": {
+      "fetchedAt": "2026-10-25T03:44:05Z",
+      "sha256": "1abe98103892fbdd5083eba7b24a830f395e08bbd9c5d5a26e0d323ba91af71c",
+      "dependencies": [
+        "org.java-websocket:Java-WebSocket:1.5.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.chabok.utils.ChabokContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.14.5",
+          "0.14.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ChabokContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

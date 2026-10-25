@@ -1,0 +1,87 @@
+{
+  "coordinate": "io.github.julystars:autosize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:11:07Z",
+      "sha256": "521acab14ad26c6576808a7f7a96d6040f999e270a963356ca5b696f87fc41ed",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:11:07Z",
+      "sha256": "09c267e8ec373f9726f483f1b3c968c87b33f8209811d73c1af5694062692b26",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:11:06Z",
+      "sha256": "521acab14ad26c6576808a7f7a96d6040f999e270a963356ca5b696f87fc41ed",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:11:06Z",
+      "sha256": "521acab14ad26c6576808a7f7a96d6040f999e270a963356ca5b696f87fc41ed",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:11:05Z",
+      "sha256": "521acab14ad26c6576808a7f7a96d6040f999e270a963356ca5b696f87fc41ed",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T05:11:05Z",
+      "sha256": "521acab14ad26c6576808a7f7a96d6040f999e270a963356ca5b696f87fc41ed",
+      "dependencies": []
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T05:11:04Z",
+      "sha256": "521acab14ad26c6576808a7f7a96d6040f999e270a963356ca5b696f87fc41ed",
+      "dependencies": []
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T05:11:03Z",
+      "sha256": "8b7b5bea4f0b6c4a1b384c93b59a8814b735f461280e7b74215bc28ac5c42265",
+      "dependencies": []
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T05:11:03Z",
+      "sha256": "c6a182f23000c7b800a71222438067a50cd3cfa0fd7c1f7697fab1cb34814281",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.julystars.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.jessyan.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

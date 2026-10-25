@@ -1,0 +1,182 @@
+{
+  "coordinate": "com.yxt.opensdk:library_photoviewer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T02:43:19Z",
+      "sha256": "6456be1a1cc3ac54065c00593749f9e46ccdbbd534e34fba8465348a6df6c8ca",
+      "dependencies": [
+        "cn.finalteam:toolsfinal:1.1.5",
+        "com.yxt.opensdk.library_photoviewer:library_photobrowse:1.0",
+        "com.yxt.opensdk:library_log:2.2",
+        "com.yxt.opensdk:library_permission:1.0.2"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T02:43:19Z",
+      "sha256": "d41a71f04d5af4aa998f828745f517b0a9b73afd6224dd652b3f1a6bf76ec0e2",
+      "dependencies": [
+        "cn.finalteam:toolsfinal:1.1.5",
+        "com.yxt.opensdk.library_photoviewer:library_photobrowse:1.0",
+        "com.yxt.opensdk.library_photoviewer:library_yxtucrop:1.0",
+        "com.yxt.opensdk:library_log:2.2",
+        "com.yxt.opensdk:library_permission:1.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.android.crop.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.photoviewer.PhotoEditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.photoviewer.PhotoPreviewLocalActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.photoviewer.PhotoPreviewNetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.photoviewer.PhotoSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.photoviewer.TestEmptyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.photoviewer.UCropChildActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.ucrop.UCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "coordinate": "io.github.justson:agentweb-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v5.1.1-androidx": {
+      "fetchedAt": "2026-10-25T05:11:24Z",
+      "sha256": "2882fa7aa0e2c2d1d4f2d29af5f6aa44cec54957e7f1ba0b7e5911755f68e71d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.just.agentweb.AgentWebFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "v5.1.1-androidx",
+          "v5.1.1-androidx"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AgentWebFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

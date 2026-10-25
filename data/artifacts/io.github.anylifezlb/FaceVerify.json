@@ -1,0 +1,54 @@
+{
+  "coordinate": "io.github.anylifezlb:FaceVerify",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:17:35Z",
+      "sha256": "3bc49a558c8067278d9b3076a961b71da4882c0aa0d82422345b95bc0b19d842",
+      "dependencies": [
+        "androidx.camera:camera-core:1.1.0-alpha04",
+        "com.google.mlkit:face-detection:16.1.5",
+        "org.tensorflow:tensorflow-lite:2.9.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:17:34Z",
+      "sha256": "3bc49a558c8067278d9b3076a961b71da4882c0aa0d82422345b95bc0b19d842",
+      "dependencies": [
+        "androidx.camera:camera-core:1.1.0-alpha04",
+        "com.google.mlkit:face-detection:16.1.5",
+        "org.tensorflow:tensorflow-lite:2.9.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:17:34Z",
+      "sha256": "b2fcbe59ab1abbd5421d1032455f040cfd3c06c33ba474c22399b1a148a6f8ec",
+      "dependencies": [
+        "androidx.camera:camera-core:1.1.0-alpha04",
+        "com.google.mlkit:face-detection:16.1.5",
+        "org.tensorflow:tensorflow-lite:2.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.AI.FaceVerify.utils.FaceFileProviderUtils",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.AI.test.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

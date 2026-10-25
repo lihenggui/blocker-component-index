@@ -1,0 +1,109 @@
+{
+  "coordinate": "com.webex.connect:webexconnect-hms",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T02:13:04Z",
+      "sha256": "39dc31cacb08210e505932725c97f0d887d755d19b836b1adf4d407aa34abb59",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300",
+        "com.webex.connect:webexconnect-core:3.0.0",
+        "com.webex.connect:webexconnect-push:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T02:13:04Z",
+      "sha256": "39dc31cacb08210e505932725c97f0d887d755d19b836b1adf4d407aa34abb59",
+      "dependencies": [
+        "com.huawei.hms:push:6.11.0.300",
+        "com.webex.connect:webexconnect-core:3.0.1",
+        "com.webex.connect:webexconnect-push:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-25T02:13:03Z",
+      "sha256": "39dc31cacb08210e505932725c97f0d887d755d19b836b1adf4d407aa34abb59",
+      "dependencies": [
+        "com.huawei.hms:push:6.13.0.300",
+        "com.webex.connect:webexconnect-core:3.0.2",
+        "com.webex.connect:webexconnect-push:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-25T02:13:00Z",
+      "sha256": "39dc31cacb08210e505932725c97f0d887d755d19b836b1adf4d407aa34abb59",
+      "dependencies": [
+        "com.huawei.hms:push:6.13.0.300",
+        "com.webex.connect:webexconnect-core:3.0.3",
+        "com.webex.connect:webexconnect-push:3.0.3"
+      ]
+    },
+    "3.0.4": {
+      "fetchedAt": "2026-10-25T02:13:02Z",
+      "sha256": "39dc31cacb08210e505932725c97f0d887d755d19b836b1adf4d407aa34abb59",
+      "dependencies": [
+        "com.huawei.hms:push:6.13.0.300",
+        "com.webex.connect:webexconnect-core:3.0.4",
+        "com.webex.connect:webexconnect-push:3.0.4"
+      ]
+    },
+    "3.0.5": {
+      "fetchedAt": "2026-10-25T02:13:02Z",
+      "sha256": "56095ab526d3234c9cd1ce795c11fe1bd93a386613e7036ef6adfab4f109880a",
+      "dependencies": [
+        "com.huawei.hms:push:6.13.0.300",
+        "com.webex.connect:webexconnect-core:3.0.5",
+        "com.webex.connect:webexconnect-push:3.0.5"
+      ]
+    },
+    "3.0.6": {
+      "fetchedAt": "2026-10-25T02:13:01Z",
+      "sha256": "56095ab526d3234c9cd1ce795c11fe1bd93a386613e7036ef6adfab4f109880a",
+      "dependencies": [
+        "com.huawei.hms:push:6.13.0.300",
+        "com.webex.connect:webexconnect-core:3.0.6",
+        "com.webex.connect:webexconnect-push:3.0.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.webex.connect.push.hms.HmsPushModuleInitializer"
+      ]
+    },
+    {
+      "name": "com.webex.connect.push.hms.WebexConnectHmsMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

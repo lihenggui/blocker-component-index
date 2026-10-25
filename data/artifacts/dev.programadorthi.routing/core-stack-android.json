@@ -1,0 +1,39 @@
+{
+  "coordinate": "dev.programadorthi.routing:core-stack-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.10": {
+      "fetchedAt": "2026-10-25T03:08:06Z",
+      "sha256": "d4cd1950587be24d190d16581449c2c07ece20117454def5d684d3a4987c78ec",
+      "dependencies": [
+        "androidx.activity:activity:1.8.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.programadorthi.routing:core:0.0.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0-RC2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.10",
+          "0.0.10"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.programadorthi.routing.core.StackInitializer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.ibenabdallah:qindicators",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:02:55Z",
+      "sha256": "62be14ca9d1939ced0d427a2c524cb2197b91266c5dc529451088b9b3387a21a",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.compose:compose-bom:2022.10.00",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ibenabdallah.qindicators.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "coordinate": "com.xlythe:weather-service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1": {
+      "fetchedAt": "2026-10-25T02:23:03Z",
+      "sha256": "ffe391774c9485f6e8c68818001f4b0dc835543f269fc05d61d8f6dfcf9fe9ba",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.0,)",
+        "androidx.work:work-runtime:[2.7.1,)",
+        "com.google.android.gms:play-services-location:[20.0.0,)"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T02:23:02Z",
+      "sha256": "ffe391774c9485f6e8c68818001f4b0dc835543f269fc05d61d8f6dfcf9fe9ba",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.0,)",
+        "androidx.work:work-runtime:[2.7.1,)",
+        "com.google.android.gms:play-services-location:[20.0.0,)"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-25T02:23:01Z",
+      "sha256": "4afeb174e6c44bec9ab2c06aec0923813c0f5dea0b93921a004bccba0c74ee7a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.0,)",
+        "androidx.work:work-runtime:[2.7.1,)",
+        "com.google.android.gms:play-services-location:[20.0.0,)"
+      ]
+    },
+    "2.1.3": {
+      "fetchedAt": "2026-10-25T02:23:00Z",
+      "sha256": "1aef157517828a93b0b6d5d92db2a2e2e31550b072e578bb3268be08aa08889c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.1,)",
+        "androidx.work:work-runtime:[2.7.1,)",
+        "com.google.android.gms:play-services-location:[21.0.1,)"
+      ]
+    },
+    "2.1.4": {
+      "fetchedAt": "2026-10-25T02:22:59Z",
+      "sha256": "1aef157517828a93b0b6d5d92db2a2e2e31550b072e578bb3268be08aa08889c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.1,)",
+        "androidx.work:work-runtime:[2.8.0-beta02,)",
+        "com.google.android.gms:play-services-location:[21.0.1,)"
+      ]
+    },
+    "2.1.5": {
+      "fetchedAt": "2026-10-25T02:22:58Z",
+      "sha256": "03672831e009e93182b6862491376af5a1541c366121f738f850a4bbbf1566d3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.6.1,)",
+        "androidx.work:work-runtime:[2.8.1,)",
+        "com.google.android.gms:play-services-location:[21.0.1,)"
+      ]
+    },
+    "2.1.6": {
+      "fetchedAt": "2026-10-25T02:22:57Z",
+      "sha256": "ed857fc31bd219fa32590ac2578951853a734bb6bbc84856151a4753f1680ffe",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.7.0,)",
+        "androidx.work:work-runtime:[2.9.0,)",
+        "com.google.android.gms:play-services-location:[21.3.0,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xlythe.service.weather.OpenWeatherService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1",
+          "2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE",
+        "com.xlythe.service.ACTION_RUN_MANUALLY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.service.weather.UpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.2",
+          "2.1.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.service.weather.UpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1",
+          "2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.service.weather.WeatherUndergroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1",
+          "2.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE",
+        "com.xlythe.service.ACTION_RUN_MANUALLY"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

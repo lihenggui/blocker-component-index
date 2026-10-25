@@ -1,0 +1,162 @@
+{
+  "coordinate": "io.github.jiangjm424:mock-server-api",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:08:21Z",
+      "sha256": "ce62b3d1c07044ebe1d1ef03ab1b80c7d3a94fddd15201bbf9e4dd33967fe7a5",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.fragment:fragment-ktx:1.3.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:mockwebserver:4.4.0",
+        "com.squareup.okhttp3:okhttp-tls:4.4.0",
+        "commons-io:commons-io:2.11.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:08:20Z",
+      "sha256": "6c9ef3179346433d6054614bc249176ca761c89923386e681a871e40ed09c563",
+      "dependencies": [
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:mockwebserver:4.11.0",
+        "com.squareup.okhttp3:okhttp-tls:4.11.0",
+        "commons-io:commons-io:2.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:08:19Z",
+      "sha256": "bc4f64d343a0167d649acae1c62fc82374d4f1b792ae9fea34d9e017e8a460e4",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.2.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.squareup.okhttp3:mockwebserver:4.11.0",
+        "com.squareup.okhttp3:okhttp-tls:4.11.0",
+        "commons-io:commons-io:2.11.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:08:19Z",
+      "sha256": "6c9ef3179346433d6054614bc249176ca761c89923386e681a871e40ed09c563",
+      "dependencies": [
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:mockwebserver:4.11.0",
+        "com.squareup.okhttp3:okhttp-tls:4.11.0",
+        "commons-io:commons-io:2.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:08:18Z",
+      "sha256": "6c9ef3179346433d6054614bc249176ca761c89923386e681a871e40ed09c563",
+      "dependencies": [
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:mockwebserver:4.11.0",
+        "com.squareup.okhttp3:okhttp-tls:4.11.0",
+        "commons-io:commons-io:2.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:08:16Z",
+      "sha256": "6c9ef3179346433d6054614bc249176ca761c89923386e681a871e40ed09c563",
+      "dependencies": [
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:mockwebserver:4.11.0",
+        "com.squareup.okhttp3:okhttp-tls:4.11.0",
+        "commons-io:commons-io:2.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T05:08:17Z",
+      "sha256": "6c9ef3179346433d6054614bc249176ca761c89923386e681a871e40ed09c563",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:mockwebserver:4.11.0",
+        "com.squareup.okhttp3:okhttp-tls:4.11.0",
+        "com.squareup.okio:okio:3.3.0",
+        "commons-io:commons-io:2.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mock.server.MockInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MockInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mock.server.core.MockWebServer",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":mock",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "jm.droid.lib.mock.server.MockInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MockInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "jm.droid.lib.mock.server.core.MockWebServer",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": ":mock",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

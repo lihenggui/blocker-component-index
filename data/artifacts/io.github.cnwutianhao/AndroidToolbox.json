@@ -1,0 +1,59 @@
+{
+  "coordinate": "io.github.cnwutianhao:AndroidToolbox",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:37:22Z",
+      "sha256": "6c1fcdcdfb1be0098c1ab6e147fe1c4cd470ddf40623acebce85236ef5dc0fdc",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:37:22Z",
+      "sha256": "6c1fcdcdfb1be0098c1ab6e147fe1c4cd470ddf40623acebce85236ef5dc0fdc",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:37:21Z",
+      "sha256": "f20a84b91f5c9d1cf669140c372c33d9e7d8a472d0770f3067760471d5e05b84",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-process:2.6.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:37:20Z",
+      "sha256": "cd8d19d308a8eae931a16764b02335fe173a4805026ac63f7f345ec945393d47",
+      "dependencies": [
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.lifecycle:lifecycle-process:2.6.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

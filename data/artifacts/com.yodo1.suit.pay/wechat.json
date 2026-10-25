@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.yodo1.suit.pay:wechat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.8.0.5": {
+      "fetchedAt": "2026-10-25T02:38:16Z",
+      "sha256": "03bf207ccac843d40c325912e7a542fc9711e4be7b73e12fdbe51283281aff25",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.8.0.5",
+          "6.8.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.sdk.basic.AppRegister",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.8.0.5",
+          "6.8.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

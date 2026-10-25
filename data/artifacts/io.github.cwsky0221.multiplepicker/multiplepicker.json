@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.github.cwsky0221.multiplepicker:multiplepicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:39:35Z",
+      "sha256": "7554ea042657ce4e651e44d73ab8a639fbb33682784732e436656ad69315de4c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.github.bumptech.glide:compiler:4.11.0",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.android.material:material:1.2.1",
+        "com.ypx.yimagepicker:androidx:3.1.4",
+        "top.zibin:Luban:1.1.8"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:39:34Z",
+      "sha256": "7554ea042657ce4e651e44d73ab8a639fbb33682784732e436656ad69315de4c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.github.bumptech.glide:compiler:4.11.0",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.google.android.material:material:1.2.1",
+        "com.ypx.yimagepicker:androidx:3.1.4",
+        "top.zibin:Luban:1.1.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.cwsky.multiimagepicker.UtilsFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pickutil.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

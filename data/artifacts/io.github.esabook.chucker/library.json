@@ -1,0 +1,115 @@
+{
+  "coordinate": "io.github.esabook.chucker:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.2": {
+      "fetchedAt": "2026-10-25T04:48:57Z",
+      "sha256": "dd3b6a8244a64a80faa4902e3de466609ba732b7762bc78065231c898986a6b2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:7.2.2",
+        "androidx.fragment:fragment-ktx:1.5.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.palette:palette-ktx:1.0.0",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.9.1",
+        "org.brotli:dec:0.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ChuckerFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.chuckerteam.chucker.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ClearDatabaseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.2",
+          "4.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

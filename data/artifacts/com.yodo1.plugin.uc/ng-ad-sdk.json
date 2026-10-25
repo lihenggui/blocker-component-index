@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.yodo1.plugin.uc:ng-ad-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.2.0.1": {
+      "fetchedAt": "2026-10-25T02:35:53Z",
+      "sha256": "bb99af50497b7395ffb0db2785a1f2d2ce7693cc3b135f41cb7b5750a8401e38",
+      "dependencies": []
+    },
+    "3.2.4.0": {
+      "fetchedAt": "2026-10-25T02:35:53Z",
+      "sha256": "01866784da98c441dccc8c4912225d543d74c2a01428f35fb329393193040f7e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.sirius.nga.provider.NGAdContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.2.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.NGAdContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "coordinate": "io.github.jjldxz:open-platform",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:10:06Z",
+      "sha256": "11adf4d0e3cc678bdf38e3c1ee32ba7476b748869ba91dae3677226a4ebfb11b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.7",
+        "com.google.protobuf:protobuf-java:3.15.3",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.agora.rtc:full-sdk:3.5.0.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:10:06Z",
+      "sha256": "ce9c13f3ee51e74db3a776eb7c874e885b34c6f41f06047d7aa80ebd17433e38",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.7",
+        "com.google.protobuf:protobuf-java:3.15.3",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.agora.rtc:full-sdk:3.5.0.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:10:05Z",
+      "sha256": "ce9c13f3ee51e74db3a776eb7c874e885b34c6f41f06047d7aa80ebd17433e38",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.7",
+        "com.google.protobuf:protobuf-java:3.15.3",
+        "com.squareup.okhttp3:logging-interceptor:4.9.2",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.agora.rtc:full-sdk:3.5.0.4",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.jjl.dxz.platform.meeting.sdk.core.sharing.impl.ScreenCapture$ScreenCaptureAssistantActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":screensharingsvc",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jjl.dxz.platform.meeting.sdk.core.sharing.impl.ScreenSharingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":screensharingsvc",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.screenshare"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jjl.dxz.platform.meeting.sdk.provider.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.meeting-init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jjl.dxz.platform.sdk.core.sharing.impl.ScreenCapture$ScreenCaptureAssistantActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": ":screensharingsvc",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jjl.dxz.platform.sdk.core.sharing.impl.ScreenSharingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":screensharingsvc",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.screenshare"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jjl.dxz.platform.sdk.provider.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.init-sdk",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "coordinate": "io.github.afkt:DevDeprecated",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:09:12Z",
+      "sha256": "c9550f3e7d4091346ab43f84d8d3857a9132fea5083b8c53e44f8c86dc26eb3c",
+      "dependencies": [
+        "io.github.afkt:DevAppX:2.4.8"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:09:14Z",
+      "sha256": "c006792ed56a6c95abc148e808c17291405295a91fbb6241d374deb07c4a4162",
+      "dependencies": [
+        "io.github.afkt:DevAppX:2.4.9"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:09:14Z",
+      "sha256": "c006792ed56a6c95abc148e808c17291405295a91fbb6241d374deb07c4a4162",
+      "dependencies": [
+        "io.github.afkt:DevAppX:2.5.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.utils.app.activity_result.DefaultActivityResult$ResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.utils.app.permission.PermissionUtils$PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

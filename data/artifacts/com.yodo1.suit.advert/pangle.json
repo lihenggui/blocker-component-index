@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.yodo1.suit.advert:pangle",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.6.0.7.0": {
+      "fetchedAt": "2026-10-25T02:36:36Z",
+      "sha256": "3f3512e72b4e388997f82da9daff01d89a8598a0a44dc8ab7fb1379a1e157cff",
+      "dependencies": [
+        "com.pangle.cn:ads-sdk-pro:4.6.0.7"
+      ]
+    },
+    "4.8.0.8.1": {
+      "fetchedAt": "2026-10-25T02:36:36Z",
+      "sha256": "803922611401b644ab09e54c593d2e613d0c245c11f3a553b38fd41e0bbc9c65",
+      "dependencies": [
+        "com.pangle.cn:ads-sdk-pro:4.8.0.8"
+      ]
+    },
+    "5.2.0.5.0": {
+      "fetchedAt": "2026-10-25T02:36:34Z",
+      "sha256": "49cabf933ae34b29ac4e8a7030ec8e54e92e7041744b127a0a6e20986e696cc7",
+      "dependencies": [
+        "com.pangle.cn:ads-sdk-pro:5.2.0.5"
+      ]
+    },
+    "6.7.0.7.0": {
+      "fetchedAt": "2026-10-25T02:36:35Z",
+      "sha256": "cbc37173e6219bd14126d64bb11f9ede67c894e1b10e1a3ecab1a8e1301d4743",
+      "dependencies": [
+        "com.pangle.cn:ads-sdk-pro:6.7.0.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.6.0.7.0",
+          "6.7.0.7.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.6.0.7.0",
+          "6.7.0.7.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

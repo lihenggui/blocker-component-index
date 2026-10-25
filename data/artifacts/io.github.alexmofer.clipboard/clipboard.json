@@ -1,0 +1,57 @@
+{
+  "coordinate": "io.github.alexmofer.clipboard:clipboard",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T04:13:37Z",
+      "sha256": "8cc30b0f23275454572a26ab079c688161b1e9412d9425f89bdf04bbefc2fdfb",
+      "dependencies": []
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T04:13:36Z",
+      "sha256": "8d4c88faa8046fe97b4e1333515c30b732c9057be0d2a964864fa7c1ccb55a10",
+      "dependencies": []
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T04:13:35Z",
+      "sha256": "b2e21fa60cc86d2407065388362275fdb4fe5c3d9c76027f8da2369375b082d6",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.am.clipboard.ClipboardProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.1",
+          "3.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider.clipboard",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.am.clipboard.ClipboardProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.am.clipboard.clipboardprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "coordinate": "com.vmadalin:easypermissions-ktx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:07:28Z",
+      "sha256": "32ffd373bd59601c7ca3810ad45c30b00eb6904ee6e2d8ff45f74252dbe6886d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vmadalin.easypermissions.components.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vmadalin.easypermissions.components.TestAppCompatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vmadalin.easypermissions.components.TestSupportFragmentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "coordinate": "io.github.ilpanda.teemo:teemo-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:03:52Z",
+      "sha256": "d6f6f9a1f54d5402c2cfd7db070c9917d005eaeb5efa6dee1b4c5ef81eb90d31",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.core:core:1.6.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.okio:okio:3.0.0",
+        "io.github.ilpanda.teemo:teemo-android-common:1.0.0",
+        "io.github.ilpanda.teemo:teemo-android-epic-demo:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.32"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T05:03:51Z",
+      "sha256": "d6f6f9a1f54d5402c2cfd7db070c9917d005eaeb5efa6dee1b4c5ef81eb90d31",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.core:core:1.6.0",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.okio:okio:3.0.0",
+        "io.github.ilpanda.teemo:teemo-android-common:1.0.0",
+        "io.github.ilpanda.teemo:teemo-android-epic-demo:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cn.ilpanda.arch.debug.ui.PhoneInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.9"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

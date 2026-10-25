@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.yanzhenjie.permission:support",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T02:30:04Z",
+      "sha256": "2919aea8fab8f59846a0c0fc94ff41f4e3df73dee771f2ed140700afa3bdf345",
+      "dependencies": [
+        "com.android.support:support-fragment:28.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T02:30:03Z",
+      "sha256": "2919aea8fab8f59846a0c0fc94ff41f4e3df73dee771f2ed140700afa3bdf345",
+      "dependencies": [
+        "com.android.support:support-fragment:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yanzhenjie.permission.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.file.path.share",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.yanzhenjie.permission.bridge.BridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

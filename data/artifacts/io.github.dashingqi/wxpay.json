@@ -1,0 +1,35 @@
+{
+  "coordinate": "io.github.dashingqi:wxpay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:41:24Z",
+      "sha256": "3597837f44d70723e331cb09e2a9960448074a11e161492b3f6aca9f07d2dae8",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-with-mta:5.4.0",
+        "io.github.dashingqi:pay:0.0.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dashingqi.wxpay.wxapi.WXPayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

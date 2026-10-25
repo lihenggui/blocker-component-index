@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.urx.android:widgets",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:00:05Z",
+      "sha256": "b31111dc6bfef7d87c100ab9a98affb1f0fe8fd72610ea84a93dbae89541f09b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.squareup.picasso:picasso:2.3.3",
+        "com.urx.android:sdk:1.1.1"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:00:04Z",
+      "sha256": "5c140aede8178bae98f6c2cd88fe697e3e4b4b8f48a4c6901408d46f16412a78",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.squareup.picasso:picasso:2.3.3",
+        "com.urx.android:sdk:1.1.3"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:00:03Z",
+      "sha256": "6356b1b4cd7b56c654282f745eb16b760c92662aea4afebd7f03d843eecd83f8",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.squareup.picasso:picasso:2.3.3",
+        "com.urx.android:sdk:1.1.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.urx.search.SearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

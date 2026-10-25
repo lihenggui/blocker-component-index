@@ -1,0 +1,54 @@
+{
+  "coordinate": "dev.entao.app:hare",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T02:58:36Z",
+      "sha256": "ccadfc8db2be17e9c19918bcc35f2245324b7f7234f063b2ce04b4aa27ac42ad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.9.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.entao.app.hare.FileProv",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.files",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.entao.app.hare.upgrade.UpgradeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

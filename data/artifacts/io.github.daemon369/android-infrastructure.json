@@ -1,0 +1,80 @@
+{
+  "coordinate": "io.github.daemon369:android-infrastructure",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T04:40:25Z",
+      "sha256": "98a93d1319f5c5de68615295034af9224592d25ce60035f7b6e4b048da688228",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-bom:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T04:40:24Z",
+      "sha256": "03f13218a35e48f145b7a6252cefff21625ac234d7b0a2d12f354c9d507e5332",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-bom:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T04:40:24Z",
+      "sha256": "d035277b8e8f2dcfd43a06cec5af8c3f8e86ed273d622491a06194c0e73cba21",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-bom:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T04:40:23Z",
+      "sha256": "4e782b228dd843bedfa996af08b2630e1319ed946644a00e1e79adf6438fc638",
+      "dependencies": [
+        "io.github.daemon369:annotation:0.1.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T04:40:22Z",
+      "sha256": "52e1edc1ef8fb3f9b301e867598db78b8eae2c26a5e9d46e3c1b3bc1d625ebef",
+      "dependencies": [
+        "io.github.daemon369:android-infrastructure-application:0.1.0",
+        "io.github.daemon369:annotation:0.1.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:40:21Z",
+      "sha256": "52e1edc1ef8fb3f9b301e867598db78b8eae2c26a5e9d46e3c1b3bc1d625ebef",
+      "dependencies": [
+        "io.github.daemon369:android-infrastructure-application:1.2.0",
+        "io.github.daemon369:annotation:1.0.0",
+        "org.jetbrains.kotlin:kotlin-bom:1.6.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.daemon.infrastructure.file.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.daemon.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

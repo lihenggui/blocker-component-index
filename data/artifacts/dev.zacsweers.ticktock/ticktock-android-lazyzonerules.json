@@ -1,0 +1,83 @@
+{
+  "coordinate": "dev.zacsweers.ticktock:ticktock-android-lazyzonerules",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T03:12:15Z",
+      "sha256": "ec651170fe339285efcf5bf77a2f34238df3694f8b65b62b2e119144a1eb1020",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0-alpha01",
+        "dev.zacsweers.ticktock:ticktock-android-lazyzonerules-base:0.1.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T03:12:14Z",
+      "sha256": "ec651170fe339285efcf5bf77a2f34238df3694f8b65b62b2e119144a1eb1020",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0-alpha02",
+        "dev.zacsweers.ticktock:ticktock-android-lazyzonerules-base:0.1.1"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T03:12:13Z",
+      "sha256": "ec651170fe339285efcf5bf77a2f34238df3694f8b65b62b2e119144a1eb1020",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0-beta01",
+        "dev.zacsweers.ticktock:ticktock-android-lazyzonerules-base:0.2.0"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-25T03:12:13Z",
+      "sha256": "ec651170fe339285efcf5bf77a2f34238df3694f8b65b62b2e119144a1eb1020",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0-beta01",
+        "dev.zacsweers.ticktock:ticktock-android-lazyzonerules-base:0.2.1"
+      ]
+    },
+    "1.0.0-2020d": {
+      "fetchedAt": "2026-10-25T03:12:12Z",
+      "sha256": "68292fcfab48ec36782be26f53dcf4dbac790b7a01a95ba7def12148a36acd27",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "dev.zacsweers.ticktock:ticktock-runtime:1.0.0-2020d"
+      ]
+    },
+    "1.1.0-2020f": {
+      "fetchedAt": "2026-10-25T03:12:11Z",
+      "sha256": "68292fcfab48ec36782be26f53dcf4dbac790b7a01a95ba7def12148a36acd27",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "dev.zacsweers.ticktock:ticktock-runtime:1.1.0-2020f"
+      ]
+    },
+    "1.2.0-2021e": {
+      "fetchedAt": "2026-10-25T03:12:10Z",
+      "sha256": "68292fcfab48ec36782be26f53dcf4dbac790b7a01a95ba7def12148a36acd27",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.0.0",
+        "dev.zacsweers.ticktock:ticktock-runtime:1.2.0-2021e"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.2.0-2021e"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.zacsweers.ticktock.android.lazyzonerules.startup.AndroidLazyZoneRulesInitializer"
+      ]
+    }
+  ]
+}

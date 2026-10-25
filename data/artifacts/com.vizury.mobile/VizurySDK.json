@@ -1,0 +1,173 @@
+{
+  "coordinate": "com.vizury.mobile:VizurySDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.2.8-beta-1.0": {
+      "fetchedAt": "2026-10-25T02:07:00Z",
+      "sha256": "db8d3113170f32450105640c6d15c08486f7438cc3c8b9d77fce424a639cad06",
+      "dependencies": [
+        "com.android.support:animated-vector-drawable:27.1.1",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:customtabs:27.1.1",
+        "com.android.support:support-compat:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.google.android.gms:play-services-ads:15.0.0",
+        "com.google.firebase:firebase-firestore:17.0.2",
+        "com.google.firebase:firebase-messaging:17.3.4",
+        "joda-time:joda-time:2.9.4"
+      ]
+    },
+    "6.2.8-beta-3.0": {
+      "fetchedAt": "2026-10-25T02:07:00Z",
+      "sha256": "d60ab868b06b2620bede242036828a727e8d5036e80bd85097587bb922b881b8",
+      "dependencies": [
+        "com.android.support:animated-vector-drawable:27.1.1",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:customtabs:27.1.1",
+        "com.android.support:support-compat:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.google.android.gms:play-services-ads:15.0.0",
+        "com.google.firebase:firebase-firestore:17.0.2",
+        "com.google.firebase:firebase-messaging:17.3.4",
+        "joda-time:joda-time:2.9.4"
+      ]
+    },
+    "6.3.1-huawei-test-1": {
+      "fetchedAt": "2026-10-25T02:06:59Z",
+      "sha256": "722b3f301422816740fc3dbf13fa8e970b177b00c8d0c4b8ef368a327c4a14d0",
+      "dependencies": [
+        "com.android.support:animated-vector-drawable:27.1.1",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:customtabs:27.1.1",
+        "com.android.support:support-compat:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.huawei.agconnect:agconnect-core:1.0.0.300",
+        "com.huawei.hms:ads-identifier:3.4.28.305",
+        "com.huawei.hms:push:5.3.0.304",
+        "joda-time:joda-time:2.9.4"
+      ]
+    },
+    "6.3.2-huawei-beta-1.0": {
+      "fetchedAt": "2026-10-25T02:06:58Z",
+      "sha256": "a7fe4b2628347d155d17e0459e6137329003836432a2efb2c0789e62821f6c5f",
+      "dependencies": [
+        "com.android.support:animated-vector-drawable:27.1.1",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:customtabs:27.1.1",
+        "com.android.support:support-compat:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.huawei.agconnect:agconnect-core:1.0.0.300",
+        "com.huawei.hms:ads-identifier:3.4.28.305",
+        "com.huawei.hms:push:5.3.0.304",
+        "joda-time:joda-time:2.9.4"
+      ]
+    },
+    "6.3.2-huawei-test": {
+      "fetchedAt": "2026-10-25T02:06:57Z",
+      "sha256": "5f1fbec2499163c4ddbb31d0287cb921500edde31fe1092464bfe17c5000a262",
+      "dependencies": [
+        "com.android.support:animated-vector-drawable:27.1.1",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:customtabs:27.1.1",
+        "com.android.support:support-compat:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.google.code.gson:gson:2.8.5",
+        "com.huawei.agconnect:agconnect-core:1.0.0.300",
+        "com.huawei.hms:ads-identifier:3.4.28.305",
+        "com.huawei.hms:push:5.3.0.304",
+        "joda-time:joda-time:2.9.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vizury.mobile.AlertDialogue",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.8-beta-1.0",
+          "6.2.8-beta-3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vizury.mobile.InApp.MessageBuilder",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.8-beta-1.0",
+          "6.3.2-huawei-test"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vizury.mobile.Push.VizActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.8-beta-1.0",
+          "6.3.2-huawei-test"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vizury.mobile.Push.VizHmsMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.3.1-huawei-test-1",
+          "6.3.2-huawei-test"
+        ]
+      ],
+      "exported": false,
+      "process": ":HmsMessageService",
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vizury.mobile.VizJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.8-beta-1.0",
+          "6.3.2-huawei-test"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

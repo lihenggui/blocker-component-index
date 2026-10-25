@@ -1,0 +1,59 @@
+{
+  "coordinate": "dev.supasintatiyanupanwong.libraries.android.kits.maps:maps-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T03:09:29Z",
+      "sha256": "6e8495a17afa4df2ad2295e5452e5c0b7fafc710d2952aa7d3d8f2ff729fe164",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.fragment:fragment:1.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T03:09:28Z",
+      "sha256": "f34e4b6245500a949acd49eb2569da43554263c922d82b611e2361375713894a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.fragment:fragment:1.0.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T03:09:27Z",
+      "sha256": "e089a07f602b9d1f811a80bb39433b37fc3a43d1e3e6c1f4e15f68b25de8a123",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.fragment:fragment:1.0.0",
+        "org.jetbrains:annotations:23.0.0"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T03:09:26Z",
+      "sha256": "de8caa445b8404524c11e9ae6aaa7a761893d831009350f8d102ceb98903f586",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.fragment:fragment:1.0.0",
+        "org.jetbrains:annotations:23.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.supasintatiyanupanwong.libraries.android.kits.maps.MapKitInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MapKitInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

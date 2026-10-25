@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.yodo1.social:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:36:20Z",
+      "sha256": "1d529a8e61b991ffb9014f72dc61aed02cc864a0a14b2359c110032d75da7ad2",
+      "dependencies": [
+        "com.yodo1.plugin:z-xing:1.0.0",
+        "com.yodo1.suit.plugin:common:6.3.11.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yodo1.social.Yodo1FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

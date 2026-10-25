@@ -1,0 +1,73 @@
+{
+  "coordinate": "io.github.citcon-aoyansheng.upi_sdk_adnroid:drop-in",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.22.03": {
+      "fetchedAt": "2026-10-25T04:35:58Z",
+      "sha256": "a035c5a144032ca186a09eb501e78e7030dd3c91b18d4c298392363d4aa04300",
+      "dependencies": [
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.braintreepayments.api:braintree:3.17.4",
+        "com.braintreepayments.api:three-d-secure:3.17.4",
+        "com.google.android.gms:play-services-wallet:19.1.0",
+        "com.google.android.material:material:1.5.0",
+        "io.github.citcon-aoyansheng.upi_sdk_adnroid:card-form:4.22.03",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.citconpay.dropin.AddCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.22.03",
+          "4.22.03"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.dropin.DropInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.22.03",
+          "4.22.03"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.dropin.VaultManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.22.03",
+          "4.22.03"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

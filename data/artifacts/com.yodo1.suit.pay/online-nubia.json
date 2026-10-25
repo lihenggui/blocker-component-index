@@ -1,0 +1,100 @@
+{
+  "coordinate": "com.yodo1.suit.pay:online-nubia",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.5.3.1": {
+      "fetchedAt": "2026-10-25T02:38:05Z",
+      "sha256": "f6e0f4b4bafbe0040567ecfa00ecc375b584c3c9f1e26a838980f34e51b885af",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.nubia.componentsdk.ui.CheckActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.3.1",
+          "2.5.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.nubia.componentsdk.ui.ShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.3.1",
+          "2.5.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.nubia.nbgame.sdk.service.GameService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.5.3.1",
+          "2.5.3.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.nubia.nbgame.sdk.service.NubiaFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.5.3.1",
+          "2.5.3.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.NubiaFiles",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.nubia.nbgame.sdk.ui.ShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.3.1",
+          "2.5.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

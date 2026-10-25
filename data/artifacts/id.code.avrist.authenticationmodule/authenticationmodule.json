@@ -1,0 +1,258 @@
+{
+  "coordinate": "id.code.avrist.authenticationmodule:authenticationmodule",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T03:23:12Z",
+      "sha256": "e641775eeceebf408479560c8b8b1d6b73eaa9b3c05ca5ba8216ffba99563f09",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.0",
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.android.support:design:27.0.2",
+        "com.android.volley:volley:1.1.0",
+        "com.facebook.android:facebook-login:4.32.0",
+        "com.google.android.gms:play-services-auth:15.0.1"
+      ]
+    },
+    "0.0.14": {
+      "fetchedAt": "2026-10-25T03:23:11Z",
+      "sha256": "e641775eeceebf408479560c8b8b1d6b73eaa9b3c05ca5ba8216ffba99563f09",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.0",
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.android.support:design:27.0.2",
+        "com.android.volley:volley:1.1.0",
+        "com.facebook.android:facebook-login:4.32.0",
+        "com.google.android.gms:play-services-auth:15.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.CustomTabActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.FacebookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.ChangePasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.CreatePasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.FingerprintActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.ForgotPasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.LoginSuccessActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.Otp1Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.Otp2Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.PhoneNumberActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.RegisterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "id.code.avrist.authenticationmodule.activity.YahooActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

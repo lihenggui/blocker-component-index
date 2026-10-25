@@ -1,0 +1,148 @@
+{
+  "coordinate": "io.github.knight-zxw:blockcanary-ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:14:34Z",
+      "sha256": "1de1aafe561ca5d3d2b86f541c0eb342ea3e76708c538f0aa81d9f5694ae37a5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.0",
+        "io.github.knight-zxw:blockcanary:0.0.1",
+        "io.github.knight-zxw:flamegraph-ui:0.0.1",
+        "io.github.knight-zxw:stacksampler:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    },
+    "0.0.2-beta": {
+      "fetchedAt": "2026-10-25T05:14:33Z",
+      "sha256": "e5c0af3915d66de9d3205981ca5de8d8ca4f41596ef5400e7bc46cef79e12c31",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.0",
+        "io.github.knight-zxw:blockcanary:0.0.2-beta",
+        "io.github.knight-zxw:flamegraph-ui:0.0.2-beta",
+        "io.github.knight-zxw:stacksampler:0.0.2-beta",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    },
+    "0.0.2-beta1": {
+      "fetchedAt": "2026-10-25T05:14:33Z",
+      "sha256": "e5c0af3915d66de9d3205981ca5de8d8ca4f41596ef5400e7bc46cef79e12c31",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.0",
+        "io.github.knight-zxw:blockcanary:0.0.2-beta1",
+        "io.github.knight-zxw:flamegraph-ui:0.0.2-beta1",
+        "io.github.knight-zxw:stacksampler:0.0.2-beta1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:14:32Z",
+      "sha256": "b3fd8140cca50b275915f7ee6018d592d4084cd30997f5b30e9f3d929a6e251f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.0",
+        "io.github.knight-zxw:blockcanary:0.0.3",
+        "io.github.knight-zxw:flamegraph-ui:0.0.3",
+        "io.github.knight-zxw:stacksampler:0.0.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T05:14:31Z",
+      "sha256": "b3fd8140cca50b275915f7ee6018d592d4084cd30997f5b30e9f3d929a6e251f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.0",
+        "io.github.knight-zxw:blockcanary:0.0.4",
+        "io.github.knight-zxw:flamegraph-ui:0.0.4",
+        "io.github.knight-zxw:stacksampler:0.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T05:14:31Z",
+      "sha256": "c21ff9fc8fed25ee5401469fa56055511f79be0182058dbcd180f6b5f18c34e2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.0",
+        "io.github.knight-zxw:blockcanary:0.0.5",
+        "io.github.knight-zxw:flamegraph-ui:0.0.5",
+        "io.github.knight-zxw:stacksampler:0.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "blockcanary.ui.BlockDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "blockcanary.ui.BlockLauncherActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER",
+        "android.intent.category.LEANBACK_LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "blockcanary.ui.BlockListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

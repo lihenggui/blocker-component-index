@@ -1,0 +1,44 @@
+{
+  "coordinate": "com.yandex.android:speechkit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.5.0": {
+      "fetchedAt": "2026-10-25T02:26:51Z",
+      "sha256": "e623ade1fbce2ab4208ee3d7fe68a32a16617116beca8da72cd05e72b226c73b",
+      "dependencies": [
+        "com.android.support:support-v4:23.1.1"
+      ]
+    },
+    "3.12.2": {
+      "fetchedAt": "2026-10-25T02:26:50Z",
+      "sha256": "a3e6947f5fc4bf2b085d0b09044bdf915741076bec92390659368f2f9ed34a49",
+      "dependencies": [
+        "com.android.support:support-v4:25.3.1",
+        "com.getkeepsafe.relinker:relinker:1.2.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.yandex.speechkit.gui.RecognizerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.0",
+          "3.12.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "ru.yandex.speechkit.action.voice_recognition"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

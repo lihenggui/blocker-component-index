@@ -1,0 +1,39 @@
+{
+  "coordinate": "io.github.kamaravichow:instagramsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T05:12:04Z",
+      "sha256": "1880166d42aa6182cb71bf9565dd80d7d2637e09485ac6a4bed47304cffd1fd3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.security:security-crypto:1.1.0-alpha03",
+        "com.google.android.material:material:1.6.0-alpha03",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.aravi.instapi.auth.InstaAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

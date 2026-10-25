@@ -1,0 +1,122 @@
+{
+  "coordinate": "io.github.FailedToRead:huawei-maven-release",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:02:09Z",
+      "sha256": "7f9cddf15427aa65b66de8128bcb078b60669865e4f10cba889cda501fd8ea77",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:02:08Z",
+      "sha256": "7f9cddf15427aa65b66de8128bcb078b60669865e4f10cba889cda501fd8ea77",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.agconnect.core.ServiceDiscovery",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.agconnect.core.provider.AGConnectInitializeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AGCInitializeProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.activity.BridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.hms.activity.EnableServiceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

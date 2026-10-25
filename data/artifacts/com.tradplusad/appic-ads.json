@@ -1,0 +1,1231 @@
+{
+  "coordinate": "com.tradplusad:appic-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.5.7.0": {
+      "fetchedAt": "2026-10-25T01:37:14Z",
+      "sha256": "eda5a2a030c8a0679b6542919c5af639343c1d8d761a7d63d117d54ac5b2844f",
+      "dependencies": []
+    },
+    "4.5.7.4": {
+      "fetchedAt": "2026-10-25T01:37:13Z",
+      "sha256": "79e8ba00b131ad7893bd878913fe7d4761a1e9ced7f68eedcac5dd52ff1c4808",
+      "dependencies": []
+    },
+    "5.0.7.8": {
+      "fetchedAt": "2026-10-25T01:37:13Z",
+      "sha256": "b56e55bd653f9d8761bebfb03420375115f8ec0387824fcd5db36ece1b0f0a0d",
+      "dependencies": []
+    },
+    "5.0.9.14": {
+      "fetchedAt": "2026-10-25T01:37:12Z",
+      "sha256": "837b5cd5f3a7798d74a935edd9d19b8ec7d91a7fa6d562e4923eb00c05d9b7fd",
+      "dependencies": []
+    },
+    "5.0.11.38": {
+      "fetchedAt": "2026-10-25T01:37:11Z",
+      "sha256": "fa4534db25f099eb295cc76d463bbaa4103712e986b338a229a5b6d08992b6c2",
+      "dependencies": []
+    },
+    "5.1.0.10": {
+      "fetchedAt": "2026-10-25T01:37:11Z",
+      "sha256": "b326a87b583ca3c745d06d379bfa8396f1aec6e41441c22c0231216682ff1d50",
+      "dependencies": []
+    },
+    "5.1.0.24": {
+      "fetchedAt": "2026-10-25T01:37:10Z",
+      "sha256": "b326a87b583ca3c745d06d379bfa8396f1aec6e41441c22c0231216682ff1d50",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.ap.android.trunk.sdk.ad.activity.APADViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.ad.activity.APDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.ad.activity.APIVideoADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.ad.provider.AppicAdProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.ad.service.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.ad.wrapper.ks.KsFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.adFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.core.utils.MPSharedPreferences",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.0.7.8",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ap.sharedPreferences",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.core.utils.PermissionAct",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.debug.activity.APADDebugActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.debug.activity.APADDebugRunActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.debug.activity.APCoreDebugActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.dynamic.DynamicProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ap.dynamicProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ap.android.trunk.sdk.tick.bridge.proxy.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.11.38",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.extra.service.APExtraService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.tick.bqqmpwfjo.show.adview.APFullscreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.7.8",
+          "5.0.9.14"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.tick.bqqmpwfjo.show.impl.adview.activity.APFullscreenAdService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.0.7.8",
+          "5.0.11.38"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.tick.bqqmpwfjo.show.sdk.APWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.7.8",
+          "5.0.11.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.tick.ut.show.services.ads.adunit.AdUnitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.9.14",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.tick.ut.show.services.ads.adunit.AdUnitSoftwareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.9.14",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.tick.ut.show.services.ads.adunit.AdUnitTransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.9.14",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.apd.sdk.tick.ut.show.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.0.9.14",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jd.ad.sdk.activity.JadWebviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kuaishou.weapon.WeaponRECE",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.kuaishou.action.WEAPON.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "com.kuaishou.category.WEAPON"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.kuaishou.weapon.WeaponS",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.kuaishou.action.WEAPON.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT",
+        "com.kuaishou.category.WEAPON"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.AdWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$DeveloperConfigActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$EpisodeDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity1",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity10",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity2",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity3",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity4",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity5",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity6",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity7",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity8",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity9",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance1",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance2",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop1",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop2",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$GoodsPlayBackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$KsTrendsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileHomeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileVideoDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$RequestInstallPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "intent.action.requestInstallPermission"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeProfileActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.FeedDownloadActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.KSRewardLandScapeVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.KsFullScreenVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.KsRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kwad.sdk.api.proxy.app.ServiceProxyRemote",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liulishuo.filedownloader.wrap.services.FileDownloadService$SeparateProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.4",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":filedownloader",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liulishuo.filedownloader.wrap.services.FileDownloadService$SeparateProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.0"
+        ],
+        [
+          "5.0.7.8",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": ":filedownloader",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liulishuo.filedownloader.wrap.services.FileDownloadService$SharedMainProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.4",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liulishuo.filedownloader.wrap.services.FileDownloadService$SharedMainProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.0"
+        ],
+        [
+          "5.0.7.8",
+          "5.1.0.24"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nsao.CoreService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.action.service"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.ADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.LandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.PortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoLandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoPortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.comm.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.5.7.0",
+          "4.5.7.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

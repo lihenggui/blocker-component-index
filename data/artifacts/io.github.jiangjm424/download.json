@@ -1,0 +1,62 @@
+{
+  "coordinate": "io.github.jiangjm424:download",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:08:04Z",
+      "sha256": "7ecf38c534990da6e2b5c92c7f79bcb3e396d22356d9ecdc66eae686441448c7",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:08:04Z",
+      "sha256": "7ecf38c534990da6e2b5c92c7f79bcb3e396d22356d9ecdc66eae686441448c7",
+      "dependencies": [
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "jm.droid.lib.download.DefaultDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "jm.droid.lib.download.downloadService.action.RESTART"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "jm.droid.lib.download.scheduler.PlatformScheduler$PlatformSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

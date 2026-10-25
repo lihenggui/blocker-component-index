@@ -1,0 +1,75 @@
+{
+  "coordinate": "com.yodo1.fancraft:fancraft",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta.2": {
+      "fetchedAt": "2026-10-25T02:31:40Z",
+      "sha256": "4f48cdd31fc0739c71d780a126f222997e4c4d1e40e7c89cc1cd348fdeabc7dd",
+      "dependencies": [
+        "com.yodo1.fancraft:fancraft_firebase:1.0.0-beta.2-SNAPSHOT",
+        "com.yodo1.suit.plugin:common:6.3.10.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:31:39Z",
+      "sha256": "4f48cdd31fc0739c71d780a126f222997e4c4d1e40e7c89cc1cd348fdeabc7dd",
+      "dependencies": [
+        "com.yodo1.fancraft:fancraft_firebase:1.0.0",
+        "com.yodo1.suit.plugin:common:6.3.10.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yodo1.android.fancraft.biz.FanCraftLifeProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.android.fancraft.ui.FanCraftPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.android.fancraft.ui.FanCraftPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-beta.2",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

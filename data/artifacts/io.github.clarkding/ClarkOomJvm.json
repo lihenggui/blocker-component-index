@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.github.clarkding:ClarkOomJvm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1-STATIC": {
+      "fetchedAt": "2026-10-25T04:36:13Z",
+      "sha256": "279cc105e91edabc54aae67c8a7f710aa64d07f29819f15e9e727afb83a14a19",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.8.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.0.2-STATIC": {
+      "fetchedAt": "2026-10-25T04:36:12Z",
+      "sha256": "279cc105e91edabc54aae67c8a7f710aa64d07f29819f15e9e727afb83a14a19",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "top.clarkding.oom.jvm.monitor.analysis.HeapAnalysisService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1-STATIC",
+          "1.0.2-STATIC"
+        ]
+      ],
+      "exported": null,
+      "process": ":heap_analysis",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

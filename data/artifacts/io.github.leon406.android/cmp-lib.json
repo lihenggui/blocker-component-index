@@ -1,0 +1,58 @@
+{
+  "coordinate": "io.github.leon406.android:cmp-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:16:45Z",
+      "sha256": "2c54f49ce46017b870c17873e82a1edb9dc8fcf78c9a7fb3d8022b9622c29228",
+      "dependencies": [
+        "androidx.databinding:viewbinding:7.0.4",
+        "androidx.lifecycle:lifecycle-livedata:2.4.0",
+        "androidx.lifecycle:lifecycle-runtime:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.0",
+        "io.github.leon406.android:cmp-base:1.0.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.leon.ext.Utils$LeonFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.utilcode.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "me.leon.ext.android.PermissionUtils$PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

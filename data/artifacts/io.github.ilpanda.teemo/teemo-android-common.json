@@ -1,0 +1,50 @@
+{
+  "coordinate": "io.github.ilpanda.teemo:teemo-android-common",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:03:51Z",
+      "sha256": "4196f020a48633d7a42522131cd7a4b6f4f41d59c73bab301b200b355d075bc6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.exifinterface:exifinterface:1.3.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "androidx.multidex:multidex:2.0.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.7",
+        "com.squareup.okio:okio:3.0.0",
+        "io.github.ilpanda.teemo:teemo-java-base:1.0.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.ilpanda.arch.common.AppInitializer"
+      ]
+    }
+  ]
+}

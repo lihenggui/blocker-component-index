@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.yodo1.suit.pay:4399anti",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.3.4.0": {
+      "fetchedAt": "2026-10-25T02:37:22Z",
+      "sha256": "b495643183c37262f89fcaaf206e9ebf629ab6b4cc092c1dc9ab1cad9a41cd71",
+      "dependencies": [
+        "cn.m4399.sdk:operate:3.3.4",
+        "com.android.volley:volley:1.2.1"
+      ]
+    },
+    "3.7.0.0": {
+      "fetchedAt": "2026-10-25T02:37:21Z",
+      "sha256": "6c1d39cf281bd5d7fca23157cf81e383382861f931a74e4c1dd968312a058c99",
+      "dependencies": [
+        "cn.m4399.sdk:operate:3.7.0",
+        "com.android.volley:volley:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yodo1.sdk.channel.Yodo14399InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.3.4.0",
+          "3.7.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.XiaoMiInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

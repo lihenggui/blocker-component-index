@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.easonliu09.utils:network",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:48:12Z",
+      "sha256": "f2780bbf63f69097f0de33e7cc45bc9fb2c21b7e7b9ca62f90edbb5635e5e1fb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.startup:startup-runtime:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:48:11Z",
+      "sha256": "59bb25ed4e93779ec4c9cb63fee395de7fa2890ae838e27158b8eb5f44d830e7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.startup:startup-runtime:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.eason.network.NetworkInitializer"
+      ]
+    }
+  ]
+}

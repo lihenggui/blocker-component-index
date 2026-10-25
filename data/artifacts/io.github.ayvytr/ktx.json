@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.github.ayvytr:ktx",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.6": {
+      "fetchedAt": "2026-10-25T04:20:28Z",
+      "sha256": "d92a692434b737347713ca1516f11246084c29eab6ddc3276daac1173beaf739",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ayvytr.ktx.provider.ContextProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.6",
+          "3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ktxo.cp",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

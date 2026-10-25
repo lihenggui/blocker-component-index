@@ -1,0 +1,71 @@
+{
+  "coordinate": "io.github.awhalefall:pickgallery",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:20:19Z",
+      "sha256": "3d7613ef9b9198d0c3629413fe880306c92388ab3a247c30c5f0a12f42d4aaae",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.yalantis:ucrop:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.whalefail.gallary.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.tseng.pickgallery.activity.GalleryPickActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

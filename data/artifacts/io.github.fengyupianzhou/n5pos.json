@@ -1,0 +1,33 @@
+{
+  "coordinate": "io.github.fengyupianzhou:n5pos",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2": {
+      "fetchedAt": "2026-10-25T04:51:17Z",
+      "sha256": "63268ccc57d8cdd1b1cb12dfa1bf847eff153f27d6ed179b851d7015b7f90768",
+      "dependencies": [
+        "com.ejlchina:okhttps-gson:3.2.0",
+        "com.flurry.android:analytics:14.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yuansfer.pos.service.SyncService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2",
+          "1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

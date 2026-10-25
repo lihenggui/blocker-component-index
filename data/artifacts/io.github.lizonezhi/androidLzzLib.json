@@ -1,0 +1,61 @@
+{
+  "coordinate": "io.github.lizonezhi:androidLzzLib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:18:00Z",
+      "sha256": "eb2167db5c5683cc501e1397487b76a164849aeb5ec4c6fb5ad0ae388f8950a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.zxing:core:3.3.3",
+        "com.hjq:xxpermissions:9.6",
+        "com.squareup.okhttp3:okhttp:4.6.0",
+        "com.tencent:mmkv-static:1.1.1",
+        "commons-io:commons-io:2.11.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains:annotations:15.0",
+        "org.slf4j:slf4j-api:1.7.26"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lzz.ulog.activity.LogListUlogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lzz.ulog.receiver.AppInstallReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

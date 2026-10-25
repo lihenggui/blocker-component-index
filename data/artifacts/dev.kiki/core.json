@@ -1,0 +1,531 @@
+{
+  "coordinate": "dev.kiki:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.14": {
+      "fetchedAt": "2026-10-25T03:05:50Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.activity:activity:1.3.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.core:core:1.5.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.fragment:fragment:1.4.1",
+        "androidx.lifecycle:lifecycle-common:2.4.0",
+        "androidx.lifecycle:lifecycle-livedata-core:2.4.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.google.archive-patcher:applier:v1.1",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.huawei.hms:base:5.0.5.300",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.okio:okio:1.15.0",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.0.15": {
+      "fetchedAt": "2026-10-25T03:05:49Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.activity:activity:1.3.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.core:core:1.5.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.fragment:fragment:1.4.1",
+        "androidx.lifecycle:lifecycle-common:2.4.0",
+        "androidx.lifecycle:lifecycle-livedata-core:2.4.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.google.archive-patcher:applier:v1.1",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.huawei.hms:base:5.0.5.300",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.okio:okio:1.15.0",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.0.16": {
+      "fetchedAt": "2026-10-25T03:05:48Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.activity:activity:1.3.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.core:core:1.5.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.fragment:fragment:1.4.1",
+        "androidx.lifecycle:lifecycle-common:2.4.0",
+        "androidx.lifecycle:lifecycle-livedata-core:2.4.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.github.google.archive-patcher:applier:v1.1",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.huawei.hms:base:5.0.5.300",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.okio:okio:1.15.0",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.0.17": {
+      "fetchedAt": "2026-10-25T03:05:48Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "com.github.google.archive-patcher:applier:v1.1",
+        "com.google.android.gms:play-services-base:17.6.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.huawei.hms:base:5.0.5.300",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.0.18": {
+      "fetchedAt": "2026-10-25T03:05:47Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "com.github.google.archive-patcher:applier:v1.1",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.0.19": {
+      "fetchedAt": "2026-10-25T03:05:46Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "com.github.google.archive-patcher:applier:v1.1",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.0.20": {
+      "fetchedAt": "2026-10-25T03:05:45Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T03:05:44Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.1-alpha-1": {
+      "fetchedAt": "2026-10-25T03:05:43Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-service:2.4.0",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.1-alpha02": {
+      "fetchedAt": "2026-10-25T03:05:42Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.1-alpha03": {
+      "fetchedAt": "2026-10-25T03:05:41Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.1-alpha04": {
+      "fetchedAt": "2026-10-25T03:05:40Z",
+      "sha256": "5ef193ac8550d780e29a44b6a5e1ce45a69f6dd05541e12ec0caf2e349244485",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.2-alpha02": {
+      "fetchedAt": "2026-10-25T03:05:40Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.2": {
+      "fetchedAt": "2026-10-25T03:05:39Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.3": {
+      "fetchedAt": "2026-10-25T03:05:38Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.3-tb01": {
+      "fetchedAt": "2026-10-25T03:05:37Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.3-tb02": {
+      "fetchedAt": "2026-10-25T03:05:36Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.3-tb03": {
+      "fetchedAt": "2026-10-25T03:05:35Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.4": {
+      "fetchedAt": "2026-10-25T03:05:34Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.9.5": {
+      "fetchedAt": "2026-10-25T03:05:33Z",
+      "sha256": "245087dea33754bdfc2b86a73b82deb41787f008228d5226c654915b808e76a2",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.0",
+        "androidx.databinding:viewbinding:7.1.3",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-service:2.3.1",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.8",
+        "com.liulishuo.okdownload:okdownload:1.0.7",
+        "com.squareup.okhttp3:logging-interceptor:3.12.13",
+        "com.squareup.okhttp3:okhttp:3.12.13",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.kiki.core.installer.legacy.LegacyInstallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.14",
+          "0.9.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.kiki.core.installer.service.InstallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.14",
+          "0.9.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "dev.kiki.core.installer.service.InstallService.launcher.cancel_install_action",
+        "dev.kiki.core.installer.service.InstallService.launcher.create_install_action"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.kiki.core.storage.provider.KikiFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.14",
+          "0.9.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.kiki.core.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "dev.kiki.core.ui.UpdateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.14",
+          "0.9.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "coordinate": "io.github.farimarwat:imagehelper",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:50:43Z",
+      "sha256": "1cf93adb817ad12778a4212a8981ffdc424d25d96823ddcd5c703c0076433bbd",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.1.0",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "androidx.lifecycle:lifecycle-common-java8:2.6.0-alpha03",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.0-alpha03",
+        "androidx.lifecycle:lifecycle-process:2.6.0-alpha03",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "androidx.lifecycle:lifecycle-service:2.6.0-alpha03",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.0-alpha03",
+        "com.github.Baseflow:PhotoView:2.3.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.truescanner.imagehelper.ImageEditor",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

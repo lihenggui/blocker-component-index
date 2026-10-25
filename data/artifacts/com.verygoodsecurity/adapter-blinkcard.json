@@ -1,0 +1,80 @@
+{
+  "coordinate": "com.verygoodsecurity:adapter-blinkcard",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:01:46Z",
+      "sha256": "29598ec25049400990f59a7ad5ecd73ed2f89a04ef407c84c524227e85c20378",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.0-rc01",
+        "androidx.core:core-ktx:1.9.0",
+        "com.microblink:blinkcard:2.7.0",
+        "com.verygoodsecurity:vgscollect:1.7.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:01:45Z",
+      "sha256": "29598ec25049400990f59a7ad5ecd73ed2f89a04ef407c84c524227e85c20378",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.microblink:blinkcard:2.9.3",
+        "com.verygoodsecurity:vgscollect:1.9.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:01:45Z",
+      "sha256": "29598ec25049400990f59a7ad5ecd73ed2f89a04ef407c84c524227e85c20378",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.microblink:blinkcard:2.10.0",
+        "com.verygoodsecurity:vgscollect:1.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T02:01:43Z",
+      "sha256": "29598ec25049400990f59a7ad5ecd73ed2f89a04ef407c84c524227e85c20378",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.microblink:blinkcard:2.10.1",
+        "com.verygoodsecurity:vgscollect:1.9.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T02:01:44Z",
+      "sha256": "29598ec25049400990f59a7ad5ecd73ed2f89a04ef407c84c524227e85c20378",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.core:core-ktx:1.16.0",
+        "com.microblink:blinkcard:2.11.1",
+        "com.verygoodsecurity:vgscollect:1.9.15",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.verygoodsecurity.api.blinkcard.ScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

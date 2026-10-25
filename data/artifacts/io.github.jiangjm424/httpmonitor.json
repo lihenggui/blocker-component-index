@@ -1,0 +1,144 @@
+{
+  "coordinate": "io.github.jiangjm424:httpmonitor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:08:08Z",
+      "sha256": "a37fbe6dcfafb29c241db30dab4d5bb73d8d6f875b41bed5d07a877387cc0dc7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.0.2",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "androidx.navigation:navigation-ui-ktx:2.5.3",
+        "androidx.room:room-ktx:2.5.0",
+        "com.google.android.material:material:1.9.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "io.github.jiangjm424:smart-adapter:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:08:05Z",
+      "sha256": "a37fbe6dcfafb29c241db30dab4d5bb73d8d6f875b41bed5d07a877387cc0dc7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.0.2",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "androidx.navigation:navigation-ui-ktx:2.5.3",
+        "androidx.room:room-ktx:2.5.0",
+        "com.google.android.material:material:1.9.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "io.github.jiangjm424:smart-adapter:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T05:08:07Z",
+      "sha256": "a37fbe6dcfafb29c241db30dab4d5bb73d8d6f875b41bed5d07a877387cc0dc7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.0.2",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "androidx.navigation:navigation-ui-ktx:2.5.3",
+        "androidx.room:room-ktx:2.5.0",
+        "com.google.android.material:material:1.9.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "io.github.jiangjm424:smart-adapter:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T05:08:06Z",
+      "sha256": "48b12b25ad4c113a39865be8ec87cce4c2abe8604ff0f3a30b94373674ea0f3e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:8.13.0",
+        "androidx.navigation:navigation-fragment-ktx:2.5.3",
+        "androidx.navigation:navigation-ui-ktx:2.5.3",
+        "androidx.room:room-ktx:2.7.2",
+        "com.google.android.material:material:1.9.0",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "io.github.jiangjm424:smart-adapter:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.http.monitor.ActivityLauncher",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "jm.droid.lib.httpmonitor.core.HttpMonitorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.HttpMonitorProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "jm.droid.lib.httpmonitor.ui.HttpDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "jm.droid.lib.httpmonitor.ui.HttpMonitorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

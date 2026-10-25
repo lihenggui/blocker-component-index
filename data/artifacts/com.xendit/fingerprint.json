@@ -1,0 +1,63 @@
+{
+  "coordinate": "com.xendit:fingerprint",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:19:54Z",
+      "sha256": "164a1e77d452de650ab94f2f0576bb781d2932ae15413aaa528b7cd32ab7d48c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.test.ext:junit-ktx:1.1.3",
+        "androidx.work:work-runtime-ktx:2.7.0",
+        "androidx.work:work-runtime:2.7.0",
+        "com.google.dagger:dagger:2.38.1",
+        "com.scottyab:rootbeer-lib:0.1.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:19:53Z",
+      "sha256": "164a1e77d452de650ab94f2f0576bb781d2932ae15413aaa528b7cd32ab7d48c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.0",
+        "androidx.test.ext:junit-ktx:1.1.3",
+        "androidx.work:work-runtime-ktx:2.7.0",
+        "androidx.work:work-runtime:2.7.0",
+        "com.google.dagger:dagger:2.38.1",
+        "com.scottyab:rootbeer-lib:0.1.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "coordinate": "com.whatspos.sdk:paxstore-3rd-app-android-sdk-ext",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "8.7.0": {
+      "fetchedAt": "2026-10-25T02:16:19Z",
+      "sha256": "7f07897ddf706e3f8a3fd2d38ec995a361b6ebcba907d3a591aa2979d012c318",
+      "dependencies": []
+    },
+    "8.7.1": {
+      "fetchedAt": "2026-10-25T02:16:18Z",
+      "sha256": "d04c8898cc8740d1d04119370fe26cef4076e9098e69834d1445a0eef9c212fc",
+      "dependencies": []
+    },
+    "8.7.2": {
+      "fetchedAt": "2026-10-25T02:16:18Z",
+      "sha256": "bbe0fd5f409842d76c10ca83dcbdf02ace194b174ffd32f8824d8a8570ab7ad7",
+      "dependencies": []
+    },
+    "9.0.0": {
+      "fetchedAt": "2026-10-25T02:16:17Z",
+      "sha256": "46f97a2289a520691f51ab3cc17d3a0808a425c72b44a2829f528335a2992620",
+      "dependencies": []
+    },
+    "9.2.0": {
+      "fetchedAt": "2026-10-25T02:16:17Z",
+      "sha256": "15fbf0eacdb87b60fe29914fa229625432ada167e1a29e2a0d065000e9439b1b",
+      "dependencies": []
+    },
+    "9.2.1": {
+      "fetchedAt": "2026-10-25T02:16:16Z",
+      "sha256": "68f216b20f63065d2a516d4d52e39837953c370cbbe441f366ff012f56823ef2",
+      "dependencies": []
+    },
+    "9.7.0": {
+      "fetchedAt": "2026-10-25T02:16:10Z",
+      "sha256": "180c28e83e742a2aea25537905d93be937cc180675af6dca691106418cb3c48b",
+      "dependencies": []
+    },
+    "9.8.1": {
+      "fetchedAt": "2026-10-25T02:16:15Z",
+      "sha256": "dad688599c0be55c077cdb0519e7b59036f13cc51826b2d6fa402009abe36c26",
+      "dependencies": []
+    },
+    "10.0.0": {
+      "fetchedAt": "2026-10-25T02:16:15Z",
+      "sha256": "6a77178cc2ead3ebd9f1290696b13ba0ba2d99502ca5485fb7b0bbaded47f3e6",
+      "dependencies": []
+    },
+    "10.0.1": {
+      "fetchedAt": "2026-10-25T02:16:14Z",
+      "sha256": "310b1cdc18ebeeb3fbb757b14d0d7078ec3fe788ba73f6c1775ecf39242e6343",
+      "dependencies": []
+    },
+    "10.0.02": {
+      "fetchedAt": "2026-10-25T02:16:13Z",
+      "sha256": "b6bafa3e40535fd81deae79940a015abc5bd9e0b626aa783574248c4581bab79",
+      "dependencies": []
+    },
+    "10.0.2": {
+      "fetchedAt": "2026-10-25T02:16:12Z",
+      "sha256": "c196efe42acc47d5383d3ae0fc439dbdcd5e072483b0e7e5427e46560de1db65",
+      "dependencies": []
+    },
+    "11.0.0": {
+      "fetchedAt": "2026-10-25T02:16:11Z",
+      "sha256": "cecfb2b067ff197d320c26e58d81c541938a48d7be6399fb03deca0cec4ac6b2",
+      "dependencies": []
+    },
+    "11.0.1": {
+      "fetchedAt": "2026-10-25T02:16:10Z",
+      "sha256": "852ce01e6cbaae5393923f05b818b779a8e4a288d35bd320a660e0e992d702c0",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.pax.market.android.app.sdk.ext.AccessoryNoticeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.0.0",
+          "11.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.market.android.app.sdk.ext.GET_ACCESSORY_NOTICE",
+      "authorities": null,
+      "actions": [
+        "com.pax.market.service.ACTION_TO_NOTIFY_ACCESSORY"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.pax.market.android.app.sdk.ext.ActivateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.0.02",
+          "11.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pax.market.android.app.sdk.ext.ActivateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.7.0",
+          "9.7.0"
+        ],
+        [
+          "10.0.0",
+          "10.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.pax.market.android.app.sdk.ext.ThirdLogcatService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.0.0",
+          "11.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.market.android.app.sdk.ext.UPLOAD_THIRD_LOGCAT",
+      "authorities": null,
+      "actions": [
+        "com.pax.market.service.ACTION_TO_NOTIFY_THIRD_APP_LOGCAT"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    }
+  ]
+}

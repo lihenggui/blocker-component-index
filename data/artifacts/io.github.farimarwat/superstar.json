@@ -1,0 +1,36 @@
+{
+  "coordinate": "io.github.farimarwat:superstar",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:50:54Z",
+      "sha256": "30f61206487e1d391d6817bf909fcaad58149382d98b77ebf48fae2621c03f36",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.farimarwat.audio.helper.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

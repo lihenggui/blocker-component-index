@@ -1,0 +1,111 @@
+{
+  "coordinate": "io.branch.engage:conduit-source",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.3-pocketcasts.4": {
+      "fetchedAt": "2026-10-25T03:42:17Z",
+      "sha256": "3638c073bc7984d6915ba438c1fa90790038ac7e5e4797dd654bb95a035256cb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "io.branch.engage:conduit-common:0.2.3-pocketcasts.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    },
+    "0.2.3-pocketcasts.5": {
+      "fetchedAt": "2026-10-25T03:42:17Z",
+      "sha256": "db898b5da9422c7ae67da97149e94848bc54416ae3838bb7ab051a76b2e650a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "io.branch.engage:conduit-common:0.2.3-pocketcasts.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    },
+    "0.2.3-pocketcasts.6": {
+      "fetchedAt": "2026-10-25T03:42:16Z",
+      "sha256": "db898b5da9422c7ae67da97149e94848bc54416ae3838bb7ab051a76b2e650a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "io.branch.engage:conduit-common:0.2.3-pocketcasts.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    },
+    "0.2.3-pocketcasts.7": {
+      "fetchedAt": "2026-10-25T03:42:15Z",
+      "sha256": "db898b5da9422c7ae67da97149e94848bc54416ae3838bb7ab051a76b2e650a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "io.branch.engage:conduit-common:0.2.3-pocketcasts.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    },
+    "0.2.3-pocketcasts.9": {
+      "fetchedAt": "2026-10-25T03:42:14Z",
+      "sha256": "db898b5da9422c7ae67da97149e94848bc54416ae3838bb7ab051a76b2e650a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "io.branch.engage:conduit-common:0.2.3-pocketcasts.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    },
+    "0.2.3-source-rc.1": {
+      "fetchedAt": "2026-10-25T03:42:13Z",
+      "sha256": "db898b5da9422c7ae67da97149e94848bc54416ae3838bb7ab051a76b2e650a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "io.branch.engage:conduit-common:0.2.3-source-rc.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    },
+    "0.2.3-source-rc.2": {
+      "fetchedAt": "2026-10-25T03:42:13Z",
+      "sha256": "db898b5da9422c7ae67da97149e94848bc54416ae3838bb7ab051a76b2e650a4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "io.branch.engage:conduit-common:0.2.3-source-rc.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.branch.engage.conduit.source.internal.SourceProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.3-pocketcasts.4",
+          "0.2.3-source-rc.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.branch.engage.source.provider",
+      "actions": [
+        "io.branch.engage.CONDUIT_SOURCE_BEACON"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

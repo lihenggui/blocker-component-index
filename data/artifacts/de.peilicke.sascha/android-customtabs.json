@@ -1,0 +1,78 @@
+{
+  "coordinate": "de.peilicke.sascha:android-customtabs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.2": {
+      "fetchedAt": "2026-10-25T02:55:02Z",
+      "sha256": "2c885af8a845ee88cb3032903df702c1a7a8044fe0563af824c58b9e6a040637",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.browser:browser:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-25T02:55:02Z",
+      "sha256": "5687830363e222b416f41e8e53c20624efb7304e4e00c61356623d64d2b739a2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.browser:browser:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T02:55:01Z",
+      "sha256": "a0e0464fac5362bf95a0eeed8f4377dfe777d13c0bd120322895403256718236",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T02:55:00Z",
+      "sha256": "a0e0464fac5362bf95a0eeed8f4377dfe777d13c0bd120322895403256718236",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "saschpe.android.customtabs.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.2",
+          "3.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "saschpe.android.customtabs.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.1.0",
+          "3.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

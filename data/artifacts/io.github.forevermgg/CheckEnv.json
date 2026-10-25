@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.github.forevermgg:CheckEnv",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T04:52:42Z",
+      "sha256": "c294f12320b91f0705e132f97d2bfbbdafccb1b92c9842905592de152a28e015",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.5.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T04:52:41Z",
+      "sha256": "c294f12320b91f0705e132f97d2bfbbdafccb1b92c9842905592de152a28e015",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.5.0"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T04:52:40Z",
+      "sha256": "1f293f34c66aa8724ae7a840ff09dc5d85056d197a167851b9f1995ed71d1f92",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mgg.checkenv.CheckMobEnvInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.mgg.checkenv.CheckMobEnvInitializer.${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.americanexpress.busybee:busybee-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T03:37:18Z",
+      "sha256": "a5bf54326bfd8c561e6c24ccd6fcb8880bc900b74d30553fa46ae75ceabb07da",
+      "dependencies": [
+        "androidx.test.espresso:espresso-idling-resource:3.2.0",
+        "io.americanexpress.busybee:busybee-core:0.0.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.americanexpress.busybee.android.internal.BusyBeeIdlingResourceRegistration",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.busybee",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

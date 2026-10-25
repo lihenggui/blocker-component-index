@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.github.jdpxiaoming:ijkplayer-view",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.24": {
+      "fetchedAt": "2026-10-25T05:07:48Z",
+      "sha256": "4957c62e6124df2e5a1fdc2fe2297fa2ca09cd8ef102985d943ffa8398e81835",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.preference:preference:1.1.1",
+        "io.github.jdpxiaoming:ijkplayer-java:0.0.24"
+      ]
+    },
+    "0.0.25": {
+      "fetchedAt": "2026-10-25T05:07:48Z",
+      "sha256": "9ed2fca908901e51ee00e3c71ad11c96632bcc274cf5aa0ad95048113e12d9fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.preference:preference:1.1.1",
+        "io.github.jdpxiaoming:ijkplayer-java:0.0.25"
+      ]
+    },
+    "0.0.26": {
+      "fetchedAt": "2026-10-25T05:07:47Z",
+      "sha256": "9ed2fca908901e51ee00e3c71ad11c96632bcc274cf5aa0ad95048113e12d9fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.preference:preference:1.1.1",
+        "io.github.jdpxiaoming:ijkplayer-java:0.0.25"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "tv.danmaku.ijk.media.ijkplayerview.services.MediaPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.24",
+          "0.0.26"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "coordinate": "io.github.GameDevTurbo:max-adapter-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "11.3.3.63": {
+      "fetchedAt": "2026-10-25T04:03:28Z",
+      "sha256": "0abcdabe5a1bafd779d99c9c34e91f1fbb4a1e7022e030ebf2cf10a4753eea75",
+      "dependencies": [
+        "com.eyu.opensdk:adapter-base:1.9.11",
+        "com.eyu.opensdk:common-base:1.8.3"
+      ]
+    },
+    "11.3.3.65": {
+      "fetchedAt": "2026-10-25T04:03:27Z",
+      "sha256": "0abcdabe5a1bafd779d99c9c34e91f1fbb4a1e7022e030ebf2cf10a4753eea75",
+      "dependencies": [
+        "io.github.GameDevTurbo:adapter-base:1.9.12",
+        "io.github.GameDevTurbo:common-base:1.8.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "11.3.3.63",
+          "11.3.3.65"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

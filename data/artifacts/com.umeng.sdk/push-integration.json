@@ -1,0 +1,412 @@
+{
+  "coordinate": "com.umeng.sdk:push-integration",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T01:51:04Z",
+      "sha256": "9fb0e569c2263f553c9fffd269069e78d77b09eb972b343ce7eb96807452b2b7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.meizu.cloud.pushsdk.NotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.meizu.cloud.pushsdk.SystemReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.meizu.cloud.pushservice.action.PUSH_SERVICE_START"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.taobao.accs.ChannelService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.taobao.accs.intent.action.ELECTION",
+        "com.taobao.accs.intent.action.SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taobao.accs.ChannelService$KernelService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taobao.accs.EventReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.PACKAGE_REMOVED",
+        "android.intent.action.USER_PRESENT",
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taobao.accs.ServiceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.taobao.accs.intent.action.COMMAND",
+        "com.taobao.accs.intent.action.START_FROM_AGOO"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taobao.accs.data.MsgDistributeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.taobao.accs.intent.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taobao.accs.internal.AccsJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":channel",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.taobao.agoo.AgooCommondReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.intent.action.COMMAND",
+        "android.intent.action.PACKAGE_REMOVED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.message.NotificationProxyBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.message.UmengDownloadResourceService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.message.UmengIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.agoo.android.intent.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.message.UmengMessageCallbackHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.umeng.message.disablecallback.action",
+        "com.umeng.message.enablecallback.action",
+        "com.umeng.message.message.handler.action",
+        "com.umeng.message.message.sendmessage.action",
+        "com.umeng.messge.registercallback.action"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.message.UmengMessageIntentReceiverService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.android.agoo.client.MessageReceiverService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.message.XiaomiIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": ":channel",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.agoo.android.intent.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.message.provider.MessageProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.umeng.message",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.android.agoo.accs.AgooService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.taobao.accs.intent.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.android.agoo.huawei.HuaWeiReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.android.push.intent.RECEIVE",
+        "com.huawei.android.push.intent.REGISTRATION",
+        "com.huawei.intent.action.PUSH",
+        "com.huawei.intent.action.PUSH_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.android.agoo.xiaomi.MiPushBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

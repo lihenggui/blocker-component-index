@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.dashingqi:alipay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:41:16Z",
+      "sha256": "74a6943754e4b98e79684755a31532ca29d6922cf46445767671a3db1d2d4492",
+      "dependencies": [
+        "io.github.dashingqi:pay:0.0.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

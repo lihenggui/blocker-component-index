@@ -1,0 +1,102 @@
+{
+  "coordinate": "com.tradplusad:mimo-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.2.1": {
+      "fetchedAt": "2026-10-25T01:38:06Z",
+      "sha256": "221f79798a8f06cac88a193a618dacb0bbf79a986894818f4ee5133a0586e22c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.market.sdk.DownloadCompleteReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.2.1",
+          "5.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.market.sdk.LazyFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.2.1",
+          "5.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.selfupdate.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.miui.zeus.mimo.sdk.ad.reward.RewardVideoAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2.1",
+          "5.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.miui.zeus.mimo.sdk.ad.reward.RewardVideoAdActivityNew",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2.1",
+          "5.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.miui.zeus.mimo.sdk.view.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.2.1",
+          "5.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

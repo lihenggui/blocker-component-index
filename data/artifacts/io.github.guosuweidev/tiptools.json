@@ -1,0 +1,93 @@
+{
+  "coordinate": "io.github.guosuweidev:tiptools",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:59:20Z",
+      "sha256": "1bd5d7b527fff96ffce0b7341af0f4e66706fe88a7c851b35315d607055d81bc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:59:19Z",
+      "sha256": "bd2df9311778002b53c27dbf6d34b821b02b84bf575d87c366dd4a30855c108e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T04:59:19Z",
+      "sha256": "a6c93774b65a6bc83636fbe8892b48e107d0a419f2f284d140c011728402c637",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.databinding:viewbinding:7.2.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.2.2",
+          "1.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.gsw.android.tiptools.internal.TipToolsInitializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.hanweb.android.platform.tiptools.internal.TipToolsInitializer"
+      ]
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.sw.android.platform.tiptools.internal.TipToolsInitializer"
+      ]
+    }
+  ]
+}

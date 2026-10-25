@@ -1,0 +1,213 @@
+{
+  "coordinate": "io.github.jiahui90:commonui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.7": {
+      "fetchedAt": "2026-10-25T05:08:01Z",
+      "sha256": "aaecb6019561943146224385131706295f8b98b103aeff3741978b7685a643c0",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.4"
+      ]
+    },
+    "0.2.4": {
+      "fetchedAt": "2026-10-25T05:08:01Z",
+      "sha256": "98fd3b20f2cfcb1559a330e7592618a7c703741649d5d9467b38c0fef1b0797f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "de.hdodenhof:circleimageview:3.0.0",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    },
+    "3.1": {
+      "fetchedAt": "2026-10-25T05:08:00Z",
+      "sha256": "78f5d30e5280129466b10e9c8ee641f5c416dc39145d4dd0e308e7533e1d8869",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.0.0",
+        "com.google.android.material:material:1.0.0",
+        "de.hdodenhof:circleimageview:3.0.0",
+        "org.greenrobot:eventbus:3.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.7",
+          "0.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.7",
+          "0.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonui.imagebrowse.GPreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonui.imagepicker.activity.ImagePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonui.imagepicker.activity.ImagePickerBaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonui.imagepicker.activity.crop.ImageCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonui.imagepicker.activity.preview.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonui.imagepicker.activity.preview.ImagePreviewEditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.moyun365.commonui.ninegrid.preview.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.4",
+          "3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

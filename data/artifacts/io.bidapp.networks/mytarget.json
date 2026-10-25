@@ -1,0 +1,121 @@
+{
+  "coordinate": "io.bidapp.networks:mytarget",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T03:40:31Z",
+      "sha256": "652094371bf06d881495eb13f3853db86b7c9ab8dcd22f460eef751bb7e72e37",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.20.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T03:40:30Z",
+      "sha256": "652094371bf06d881495eb13f3853db86b7c9ab8dcd22f460eef751bb7e72e37",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.20.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T03:40:30Z",
+      "sha256": "652094371bf06d881495eb13f3853db86b7c9ab8dcd22f460eef751bb7e72e37",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.20.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T03:40:29Z",
+      "sha256": "652094371bf06d881495eb13f3853db86b7c9ab8dcd22f460eef751bb7e72e37",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.20.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T03:40:28Z",
+      "sha256": "652094371bf06d881495eb13f3853db86b7c9ab8dcd22f460eef751bb7e72e37",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.20.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T03:40:27Z",
+      "sha256": "652094371bf06d881495eb13f3853db86b7c9ab8dcd22f460eef751bb7e72e37",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.21.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T03:40:26Z",
+      "sha256": "255f89b7715b7c94292a951eebf0a54802302204191c3bac69691204b562638d",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.21.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T03:40:25Z",
+      "sha256": "255f89b7715b7c94292a951eebf0a54802302204191c3bac69691204b562638d",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.22.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T03:40:25Z",
+      "sha256": "255f89b7715b7c94292a951eebf0a54802302204191c3bac69691204b562638d",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.2.5": {
+      "fetchedAt": "2026-10-25T03:40:24Z",
+      "sha256": "8c9fd48498af3776289b307cc2653d3885827d7f930af5af8f045c79cb1e441d",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.27.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T03:40:23Z",
+      "sha256": "8c9fd48498af3776289b307cc2653d3885827d7f930af5af8f045c79cb1e441d",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.27.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.3.5": {
+      "fetchedAt": "2026-10-25T03:40:22Z",
+      "sha256": "8c9fd48498af3776289b307cc2653d3885827d7f930af5af8f045c79cb1e441d",
+      "dependencies": [
+        "com.my.target:mytarget-sdk:5.27.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.my.target.common.MyTargetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.5",
+          "2.3.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

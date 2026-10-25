@@ -1,0 +1,117 @@
+{
+  "coordinate": "com.tookanapp.app:tookantracker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.5": {
+      "fetchedAt": "2026-10-25T01:36:43Z",
+      "sha256": "026738d00eda7974755c382f43dcbc928de0ab03d5f7652cd96f55d65b396b13",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.5",
+          "3.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.5",
+          "3.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tookan.tookantrack.TrackioProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.5",
+          "3.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.tookan.tookantrack",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tookan.tookantrack.metering.TMeteringAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.5",
+          "3.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.mapmeter.CHECK_LOCATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tookan.tookantrack.metering.TMeteringService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.5",
+          "3.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "tookan.tookantrack.ui.TrackerFragment",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.5",
+          "3.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "coordinate": "dev.shreyaspatil.bytemask:bytemask-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:08:50Z",
+      "sha256": "e1859bf7a24f3ce68d9d5e761e3409fc5c48886ed0169d035dab3c4487189437",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.shreyaspatil.bytemask:bytemask-core:1.0.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    },
+    "1.0.0-alpha01-dev05": {
+      "fetchedAt": "2026-10-25T03:08:49Z",
+      "sha256": "e1859bf7a24f3ce68d9d5e761e3409fc5c48886ed0169d035dab3c4487189437",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.shreyaspatil.bytemask:bytemask-core:1.0.0-alpha01-dev05",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    },
+    "1.0.0-alpha01-dev06": {
+      "fetchedAt": "2026-10-25T03:08:48Z",
+      "sha256": "e1859bf7a24f3ce68d9d5e761e3409fc5c48886ed0169d035dab3c4487189437",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.shreyaspatil.bytemask:bytemask-core:1.0.0-alpha01-dev06",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-25T03:08:48Z",
+      "sha256": "e1859bf7a24f3ce68d9d5e761e3409fc5c48886ed0169d035dab3c4487189437",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.shreyaspatil.bytemask:bytemask-core:1.0.0-alpha02",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    },
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-25T03:08:47Z",
+      "sha256": "e1859bf7a24f3ce68d9d5e761e3409fc5c48886ed0169d035dab3c4487189437",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.shreyaspatil.bytemask:bytemask-core:1.0.0-beta01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-beta01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.shreyaspatil.bytemask.android.initializer.BytemaskInitializer"
+      ]
+    }
+  ]
+}

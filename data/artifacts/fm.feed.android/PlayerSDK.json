@@ -1,0 +1,52 @@
+{
+  "coordinate": "fm.feed.android:PlayerSDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.6": {
+      "fetchedAt": "2026-10-25T03:17:59Z",
+      "sha256": "bcd0c2964703b7d67c943a927864cac003725fb6f99dacab360e281205fad6fb",
+      "dependencies": [
+        "com.android.support:appcompat-v7:19.1.0",
+        "com.android.support:support-annotations:22.1.1",
+        "com.caverock:androidsvg:1.2.1",
+        "com.squareup.okhttp:okhttp-urlconnection:2.0.0",
+        "com.squareup.okhttp:okhttp:2.0.0",
+        "com.squareup.retrofit:retrofit:1.6.1",
+        "com.squareup:otto:1.3.5",
+        "de.greenrobot:eventbus:2.2.1"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T03:17:58Z",
+      "sha256": "570f1c912361d85f7c29be7ed3d0fcf8b9ca82bb3a9d173a24523ab03312e256",
+      "dependencies": [
+        "com.android.support:appcompat-v7:19.1.0",
+        "com.android.support:support-annotations:22.1.1",
+        "com.caverock:androidsvg:1.2.1",
+        "com.squareup.okhttp:okhttp-urlconnection:2.0.0",
+        "com.squareup.okhttp:okhttp:2.0.0",
+        "com.squareup.retrofit:retrofit:1.6.1",
+        "com.squareup:otto:1.3.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "fm.feed.android.playersdk.service.PlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.6",
+          "3.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

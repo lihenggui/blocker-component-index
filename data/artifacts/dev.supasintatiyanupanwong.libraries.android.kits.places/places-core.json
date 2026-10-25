@@ -1,0 +1,33 @@
+{
+  "coordinate": "dev.supasintatiyanupanwong.libraries.android.kits.places:places-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:09:32Z",
+      "sha256": "8bc3a880721b714ca505da5de7347881687fa0f72abc57ce84b2e3172156cd44",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "dev.supasintatiyanupanwong.libraries.android.kits.base:base-core:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.supasintatiyanupanwong.libraries.android.kits.places.PlaceKitInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.PlaceKitInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "coordinate": "dev.openmobile:ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:07:33Z",
+      "sha256": "86d05bf669cd1736221175c1ebbac0bf5003dadf11de380233a246c20f907924",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.compose.foundation:foundation:1.3.0",
+        "androidx.compose.material:material:1.3.0",
+        "androidx.compose.ui:ui-tooling-preview:1.3.0",
+        "androidx.compose.ui:ui-tooling:1.3.0",
+        "androidx.compose.ui:ui:1.3.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.jayway.jsonpath:json-path:2.7.0",
+        "dev.openmobile:core:0.0.1",
+        "io.coil-kt:coil-compose:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:07:33Z",
+      "sha256": "a27a885204a5e2b03c8147db779ef380d99e3870cb1e6603c0a3d64b512cd671",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.compose.foundation:foundation:1.3.0",
+        "androidx.compose.material:material:1.3.0",
+        "androidx.compose.ui:ui-tooling-preview:1.3.0",
+        "androidx.compose.ui:ui-tooling:1.3.0",
+        "androidx.compose.ui:ui:1.3.0",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.jayway.jsonpath:json-path:2.7.0",
+        "dev.openmobile:core:0.0.3",
+        "io.coil-kt:coil-compose:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T03:07:32Z",
+      "sha256": "469a2b3eb13b9566061a7db0c64033604bfd4ed2dc120fd60bd0d68fe77ca98c",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.appcompat:appcompat:1.6.0",
+        "androidx.compose.foundation:foundation:1.3.1",
+        "androidx.compose.material:material:1.3.1",
+        "androidx.compose.ui:ui-tooling-preview:1.3.3",
+        "androidx.compose.ui:ui-tooling:1.3.3",
+        "androidx.compose.ui:ui:1.3.3",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.openmobile:core:0.0.4",
+        "io.coil-kt:coil-compose:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T03:07:31Z",
+      "sha256": "469a2b3eb13b9566061a7db0c64033604bfd4ed2dc120fd60bd0d68fe77ca98c",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.appcompat:appcompat:1.6.0",
+        "androidx.compose.foundation:foundation:1.3.1",
+        "androidx.compose.material:material:1.3.1",
+        "androidx.compose.ui:ui-tooling-preview:1.3.3",
+        "androidx.compose.ui:ui-tooling:1.3.3",
+        "androidx.compose.ui:ui:1.3.3",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.openmobile:core:0.0.4",
+        "io.coil-kt:coil-compose:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T03:07:30Z",
+      "sha256": "469a2b3eb13b9566061a7db0c64033604bfd4ed2dc120fd60bd0d68fe77ca98c",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.appcompat:appcompat:1.6.0",
+        "androidx.compose.foundation:foundation:1.3.1",
+        "androidx.compose.material:material:1.3.1",
+        "androidx.compose.ui:ui-tooling-preview:1.3.3",
+        "androidx.compose.ui:ui-tooling:1.3.3",
+        "androidx.compose.ui:ui:1.3.3",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "dev.openmobile:core:0.0.4",
+        "io.coil-kt:coil-compose:2.2.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.openmobile.ui.ActionIntentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.openmobile.ui.LayoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

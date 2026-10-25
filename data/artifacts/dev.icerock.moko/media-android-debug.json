@@ -1,0 +1,118 @@
+{
+  "coordinate": "dev.icerock.moko:media-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.6.2": {
+      "fetchedAt": "2026-10-25T03:00:50Z",
+      "sha256": "d4aefd4758f252379ea58eab4a576cd106f0b0758aee209c3ef916134ddf4945",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.nbsp:library:1.8",
+        "dev.icerock.moko:permissions:0.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    },
+    "0.7.0": {
+      "fetchedAt": "2026-10-25T03:00:49Z",
+      "sha256": "d4aefd4758f252379ea58eab4a576cd106f0b0758aee209c3ef916134ddf4945",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.nbsp:library:1.8",
+        "dev.icerock.moko:permissions:0.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    },
+    "0.7.1": {
+      "fetchedAt": "2026-10-25T03:00:49Z",
+      "sha256": "dd1d4ee41d79b5581dfd92f25918e498c6a6579e84e380c28ae8d8dbf47e2e92",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.nbsp:materialfilepicker:1.9.1",
+        "dev.icerock.moko:permissions:0.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-25T03:00:48Z",
+      "sha256": "dd1d4ee41d79b5581dfd92f25918e498c6a6579e84e380c28ae8d8dbf47e2e92",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.nbsp:materialfilepicker:1.9.1",
+        "dev.icerock.moko:permissions:0.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    },
+    "0.8.1": {
+      "fetchedAt": "2026-10-25T03:00:47Z",
+      "sha256": "dd1d4ee41d79b5581dfd92f25918e498c6a6579e84e380c28ae8d8dbf47e2e92",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.nbsp:materialfilepicker:1.9.1",
+        "dev.icerock.moko:permissions:0.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    },
+    "0.8.2": {
+      "fetchedAt": "2026-10-25T03:00:46Z",
+      "sha256": "dd1d4ee41d79b5581dfd92f25918e498c6a6579e84e380c28ae8d8dbf47e2e92",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.github.icerockdev:MaterialFilePicker:1.9.1",
+        "dev.icerock.moko:permissions:0.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.31",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T03:00:45Z",
+      "sha256": "355b15d55a55fc05c67abcdfc6732d71f3a747d5607c555eeed739ac09cea00d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.exifinterface:exifinterface:1.3.2",
+        "com.github.icerockdev:MaterialFilePicker:1.9.1",
+        "dev.icerock.moko:permissions:0.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0-native-mt"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.icerock.moko.media.MokoMediaFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.6.2",
+          "0.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.moko.media.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

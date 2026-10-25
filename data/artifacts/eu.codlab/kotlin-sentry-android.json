@@ -1,0 +1,49 @@
+{
+  "coordinate": "eu.codlab:kotlin-sentry-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:15:04Z",
+      "sha256": "4857ddc00f54fe56ae66d20652fd0a02cfc590f158a5a1c2090a2f61a3b96650",
+      "dependencies": [
+        "io.sentry:sentry-kotlin-multiplatform:0.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:15:04Z",
+      "sha256": "4857ddc00f54fe56ae66d20652fd0a02cfc590f158a5a1c2090a2f61a3b96650",
+      "dependencies": [
+        "io.sentry:sentry:8.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T03:15:03Z",
+      "sha256": "8206b756bd1d2ab35c60dfb0a30396f0e827fa2bae387a97f7d00e6220788cc2",
+      "dependencies": [
+        "io.sentry:sentry-android:8.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "eu.codlab.sentry.wrapper.SentryProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.providers.SentryProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

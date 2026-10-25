@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.yodo1.suit.analytics:appsflyer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.7.0.1": {
+      "fetchedAt": "2026-10-25T02:37:03Z",
+      "sha256": "0c831b02334c97396308f6cec6faa2be4292a5490640341e77de18213004d71d",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.7.0"
+      ]
+    },
+    "6.8.2.0": {
+      "fetchedAt": "2026-10-25T02:37:03Z",
+      "sha256": "6b428a50d13816ef536fc308303a7049874cd49982f26c0bbc01f97695b2317e",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.8.2"
+      ]
+    },
+    "6.9.2.0": {
+      "fetchedAt": "2026-10-25T02:37:02Z",
+      "sha256": "9acf50d3d69f7673d202365e2a19d3e7644d62ddbb25112ab4cc09ba7f3f599e",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.9.2"
+      ]
+    },
+    "6.9.2.3": {
+      "fetchedAt": "2026-10-25T02:37:02Z",
+      "sha256": "9ce69ae9a56ac2116f4d730217a3b4ada337fc858aeb1c3752da013a3e8e8481",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.9.2"
+      ]
+    },
+    "6.10.1.1": {
+      "fetchedAt": "2026-10-25T02:37:01Z",
+      "sha256": "219d6ee6bdccfeaf72b77c798136d02d966b5fece33c2dd017dfb62d7caa2f6d",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.10.1"
+      ]
+    },
+    "6.11.0.0": {
+      "fetchedAt": "2026-10-25T02:37:00Z",
+      "sha256": "d32fe33a9fd5ce624c28f8935ac4f5d10cf0a92edee27d6adf6f97e66a0e9ec3",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.11.0"
+      ]
+    },
+    "6.11.0.5": {
+      "fetchedAt": "2026-10-25T02:37:00Z",
+      "sha256": "968c7c426f8b8957c9a67c77b5968e128715afa62b567c150f654f1665c06b77",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.11.0"
+      ]
+    },
+    "6.11.0.6": {
+      "fetchedAt": "2026-10-25T02:36:59Z",
+      "sha256": "05f5b41d8fa16039d2576106ed7681c5a1fb45f5349b9a85e24b4a1b53a79928",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.11.0"
+      ]
+    },
+    "6.11.0.7": {
+      "fetchedAt": "2026-10-25T02:36:59Z",
+      "sha256": "1f284a50d6055a108fe8c66958e32e60139ae639a6f26fa6958165c2d1101420",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.11.0"
+      ]
+    },
+    "6.12.2.0": {
+      "fetchedAt": "2026-10-25T02:36:58Z",
+      "sha256": "4545027504ffefa66cdca05d3113c4f29ce3ebefab6ceccf012a54555f6e95ae",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.12.2"
+      ]
+    },
+    "6.12.2.1": {
+      "fetchedAt": "2026-10-25T02:36:57Z",
+      "sha256": "42f809e2c702787146a0f8f9f50bc6adc4d4586fe5596b52ec03ed2f25493a8f",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.12.2"
+      ]
+    },
+    "6.12.3.0": {
+      "fetchedAt": "2026-10-25T02:36:57Z",
+      "sha256": "51f926be755a0f90a9c30dcd1dae50dfa1012fe716cdc4957ab2bce5d5a006db",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.appsflyer:af-android-sdk:6.12.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appsflyer.MultipleInstallBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.7.0.1",
+          "6.12.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

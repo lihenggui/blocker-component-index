@@ -1,0 +1,61 @@
+{
+  "coordinate": "io.github.luoqqsh:push-google",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:20:21Z",
+      "sha256": "206bd3b93d2ee9b058836b8ed0105a133a9409b1c4044fa3b6e8b6b939344b4e",
+      "dependencies": [
+        "PushShare:push-core:unspecified",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.firebase:firebase-messaging-ktx:23.0.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:20:20Z",
+      "sha256": "206bd3b93d2ee9b058836b8ed0105a133a9409b1c4044fa3b6e8b6b939344b4e",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging-ktx:23.0.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:20:19Z",
+      "sha256": "206bd3b93d2ee9b058836b8ed0105a133a9409b1c4044fa3b6e8b6b939344b4e",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging-ktx:23.0.1",
+        "io.github.luoqqsh:log:1.2.6",
+        "io.github.luoqqsh:push-core:1.0.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:20:19Z",
+      "sha256": "206bd3b93d2ee9b058836b8ed0105a133a9409b1c4044fa3b6e8b6b939344b4e",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging-ktx:23.0.1",
+        "io.github.luoqqsh:log:1.2.6",
+        "io.github.luoqqsh:push-core:1.0.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.push.google.GoogleMessageReceive",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

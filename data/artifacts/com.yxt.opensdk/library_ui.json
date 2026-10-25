@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.yxt.opensdk:library_ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2": {
+      "fetchedAt": "2026-10-25T02:43:21Z",
+      "sha256": "c1cc270cb6f6aeb09ea6b9ff5f189ef82706915dc499cb7feee28471fd24c067",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.0"
+      ]
+    },
+    "2.5": {
+      "fetchedAt": "2026-10-25T02:43:21Z",
+      "sha256": "c1cc270cb6f6aeb09ea6b9ff5f189ef82706915dc499cb7feee28471fd24c067",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yxt.sdk.ui.activity.ListViewOneActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2",
+          "2.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

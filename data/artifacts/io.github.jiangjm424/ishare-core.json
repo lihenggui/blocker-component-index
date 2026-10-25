@@ -1,0 +1,46 @@
+{
+  "coordinate": "io.github.jiangjm424:ishare-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:08:11Z",
+      "sha256": "0c16efed5fcb4079d22053ec4ab8a07ab3dab4890ef4962e83d43bd22d458e86",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T05:08:10Z",
+      "sha256": "702a70af5ffb742392f330d71f33a230f8b83e3a8f1db362107a49394c150326",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.happy.ishare.core.ShareFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.share.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

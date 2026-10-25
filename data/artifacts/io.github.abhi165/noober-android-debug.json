@@ -1,0 +1,53 @@
+{
+  "coordinate": "io.github.abhi165:noober-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-25T04:07:22Z",
+      "sha256": "67ee36ae6a71ecccd73cad5858f0d915d27de54b6ec32372bb7fea5219c14baa",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.security:security-crypto:1.1.0-alpha06",
+        "com.squareup.okhttp3:okhttp:4.11.0",
+        "com.squareup.okio:okio:3.2.0",
+        "moe.tlaster:precompose:1.5.0",
+        "org.jetbrains.compose.animation:animation:1.4.3",
+        "org.jetbrains.compose.components:components-resources:1.4.3",
+        "org.jetbrains.compose.foundation:foundation:1.4.3",
+        "org.jetbrains.compose.material3:material3:1.4.3",
+        "org.jetbrains.compose.material:material:1.4.3",
+        "org.jetbrains.compose.runtime:runtime:1.4.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.abhi165.noober.NoobActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1",
+          "0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

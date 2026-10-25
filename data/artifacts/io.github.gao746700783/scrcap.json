@@ -1,0 +1,92 @@
+{
+  "coordinate": "io.github.gao746700783:scrcap",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:54:44Z",
+      "sha256": "344c626ab6be339510c10607b136cd449ae7cd0ff10325264b963414fe9b82d9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.10.0",
+        "com.google.code.gson:gson:2.8.5",
+        "io.github.gao746700783:onActivityResult:0.0.5",
+        "org.java-websocket:Java-WebSocket:1.5.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.mylibrary.ClientDemoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.mylibrary.ServerDemoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.mylibrary.common.accessibility.MyAccessibilityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_ACCESSIBILITY_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.accessibilityservice.AccessibilityService"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.accessibilityservice"
+      ]
+    },
+    {
+      "name": "com.example.mylibrary.socket.server.ScreenCapService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

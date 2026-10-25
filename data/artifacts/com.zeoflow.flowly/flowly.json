@@ -1,0 +1,54 @@
+{
+  "coordinate": "com.zeoflow.flowly:flowly",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:46:18Z",
+      "sha256": "ea908617a1566cd9e0406fad54159b0416a1630145d10e6d28bc912e16819ed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "com.zeoflow.startup:startup:1.1.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:46:18Z",
+      "sha256": "ea908617a1566cd9e0406fad54159b0416a1630145d10e6d28bc912e16819ed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "com.zeoflow.startup:startup:1.1.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:46:17Z",
+      "sha256": "ea908617a1566cd9e0406fad54159b0416a1630145d10e6d28bc912e16819ed9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "com.zeoflow.startup:startup:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zeoflow.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.zeoflow-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.zeoflow.flowly.ProcessFlowlyInitializer"
+      ]
+    }
+  ]
+}

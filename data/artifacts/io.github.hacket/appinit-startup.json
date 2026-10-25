@@ -1,0 +1,43 @@
+{
+  "coordinate": "io.github.hacket:appinit-startup",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:59:39Z",
+      "sha256": "3b15509b08b226dbed6440a3bf6360a7d95b4d4b30849a00374170e4d7f38ac1",
+      "dependencies": [
+        "io.github.hacket:appinit-api:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:59:38Z",
+      "sha256": "3b15509b08b226dbed6440a3bf6360a7d95b4d4b30849a00374170e4d7f38ac1",
+      "dependencies": [
+        "io.github.hacket:appinit-api:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "me.hacket.appinit.startup.AppInitInitializer"
+      ]
+    }
+  ]
+}

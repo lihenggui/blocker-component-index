@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.bbggo:module-content",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:22:51Z",
+      "sha256": "350ee2dcf5e782d3327fffaabb1b75d963ce62db461df4d6b00967651b877e1e",
+      "dependencies": [
+        "WanAndroid.common:common-base:unspecified",
+        "WanAndroid.common:common-service:unspecified",
+        "androidx.databinding:viewbinding:7.0.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:22:50Z",
+      "sha256": "350ee2dcf5e782d3327fffaabb1b75d963ce62db461df4d6b00967651b877e1e",
+      "dependencies": [
+        "WanAndroid.common:common-base:unspecified",
+        "WanAndroid.common:common-service:unspecified",
+        "androidx.databinding:viewbinding:7.0.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bbgo.module_content.ui.ContentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

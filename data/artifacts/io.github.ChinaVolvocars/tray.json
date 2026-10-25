@@ -1,0 +1,32 @@
+{
+  "coordinate": "io.github.ChinaVolvocars:tray",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:01:18Z",
+      "sha256": "1ba4fbac57d9ce1e6578ddc22f920493589888f62f8afbb14568bb6d4258bca3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.ChinaVolvocars.tray.provider.TrayContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.tray",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

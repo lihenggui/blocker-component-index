@@ -1,0 +1,475 @@
+{
+  "coordinate": "com.weclassroom.livecore:livecore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5.11": {
+      "fetchedAt": "2026-10-25T02:14:08Z",
+      "sha256": "3efca6cb98e5763392aa380fd2835e624c259e47779472fc536e239ba5984246",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.11",
+        "com.weclassroom.commonutils:commonutils:0.5.11",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.11",
+        "com.weclassroom.livestream:livestream:0.5.11",
+        "com.weclassroom.logger:logger:0.5.11",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.11",
+        "com.weclassroom.msgchannel:msgchannel:0.5.11",
+        "com.weclassroom.scribble:scribble:0.5.11",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.11.yach": {
+      "fetchedAt": "2026-10-25T02:14:07Z",
+      "sha256": "adc950ccf58a3876e1ca4a9cb0f6d75368fae4f5bb3960a1a46779b8b5b608a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.aliyun.dpa:oss-android-sdk:2.9.2",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.11.yach",
+        "com.weclassroom.commonutils:commonutils:0.5.11.yach",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.11.yach",
+        "com.weclassroom.livestream:livestream:0.5.11.yach",
+        "com.weclassroom.logger:logger:0.5.11.yach",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.11.yach",
+        "com.weclassroom.msgchannel:msgchannel:0.5.11.yach",
+        "com.weclassroom.scribble:scribble:0.5.11.yach",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    },
+    "0.5.12": {
+      "fetchedAt": "2026-10-25T02:14:06Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.12",
+        "com.weclassroom.commonutils:commonutils:0.5.12",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.12",
+        "com.weclassroom.livestream:livestream:0.5.12",
+        "com.weclassroom.logger:logger:0.5.12",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.12",
+        "com.weclassroom.msgchannel:msgchannel:0.5.12",
+        "com.weclassroom.scribble:scribble:0.5.12",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.12.yach": {
+      "fetchedAt": "2026-10-25T02:14:05Z",
+      "sha256": "adc950ccf58a3876e1ca4a9cb0f6d75368fae4f5bb3960a1a46779b8b5b608a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.aliyun.dpa:oss-android-sdk:2.9.2",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.12.yach",
+        "com.weclassroom.commonutils:commonutils:0.5.12.yach",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.12.yach",
+        "com.weclassroom.livestream:livestream:0.5.12.yach",
+        "com.weclassroom.logger:logger:0.5.12.yach",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.12.yach",
+        "com.weclassroom.msgchannel:msgchannel:0.5.12.yach",
+        "com.weclassroom.scribble:scribble:0.5.12.yach",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    },
+    "0.5.13.yach": {
+      "fetchedAt": "2026-10-25T02:14:04Z",
+      "sha256": "adc950ccf58a3876e1ca4a9cb0f6d75368fae4f5bb3960a1a46779b8b5b608a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.aliyun.dpa:oss-android-sdk:2.9.2",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.13.yach",
+        "com.weclassroom.commonutils:commonutils:0.5.13.yach",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.13.yach",
+        "com.weclassroom.livestream:livestream:0.5.13.yach",
+        "com.weclassroom.logger:logger:0.5.13.yach",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.13.yach",
+        "com.weclassroom.msgchannel:msgchannel:0.5.13.yach",
+        "com.weclassroom.scribble:scribble:0.5.13.yach",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    },
+    "0.5.14": {
+      "fetchedAt": "2026-10-25T02:14:03Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.14",
+        "com.weclassroom.commonutils:commonutils:0.5.14",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.14",
+        "com.weclassroom.livestream:livestream:0.5.14",
+        "com.weclassroom.logger:logger:0.5.14",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.14",
+        "com.weclassroom.msgchannel:msgchannel:0.5.14",
+        "com.weclassroom.scribble:scribble:0.5.14",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.14.yach": {
+      "fetchedAt": "2026-10-25T02:14:03Z",
+      "sha256": "adc950ccf58a3876e1ca4a9cb0f6d75368fae4f5bb3960a1a46779b8b5b608a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.aliyun.dpa:oss-android-sdk:2.9.2",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.14.yach",
+        "com.weclassroom.commonutils:commonutils:0.5.14.yach",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.14.yach",
+        "com.weclassroom.livestream:livestream:0.5.14.yach",
+        "com.weclassroom.logger:logger:0.5.14.yach",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.14.yach",
+        "com.weclassroom.msgchannel:msgchannel:0.5.14.yach",
+        "com.weclassroom.scribble:scribble:0.5.14.yach",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    },
+    "0.5.15": {
+      "fetchedAt": "2026-10-25T02:14:02Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.15",
+        "com.weclassroom.commonutils:commonutils:0.5.15",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.15",
+        "com.weclassroom.livestream:livestream:0.5.15",
+        "com.weclassroom.logger:logger:0.5.15",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.15",
+        "com.weclassroom.msgchannel:msgchannel:0.5.15",
+        "com.weclassroom.scribble:scribble:0.5.15",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.15.yach": {
+      "fetchedAt": "2026-10-25T02:14:01Z",
+      "sha256": "adc950ccf58a3876e1ca4a9cb0f6d75368fae4f5bb3960a1a46779b8b5b608a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.aliyun.dpa:oss-android-sdk:2.9.2",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.15.yach",
+        "com.weclassroom.commonutils:commonutils:0.5.15.yach",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.15.yach",
+        "com.weclassroom.livestream:livestream:0.5.15.yach",
+        "com.weclassroom.logger:logger:0.5.15.yach",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.15.yach",
+        "com.weclassroom.msgchannel:msgchannel:0.5.15.yach",
+        "com.weclassroom.scribble:scribble:0.5.15.yach",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    },
+    "0.5.16": {
+      "fetchedAt": "2026-10-25T02:14:00Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.16",
+        "com.weclassroom.commonutils:commonutils:0.5.16",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.16",
+        "com.weclassroom.livestream:livestream:0.5.16",
+        "com.weclassroom.logger:logger:0.5.16",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.16",
+        "com.weclassroom.msgchannel:msgchannel:0.5.16",
+        "com.weclassroom.scribble:scribble:0.5.16",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.16.yach": {
+      "fetchedAt": "2026-10-25T02:13:59Z",
+      "sha256": "adc950ccf58a3876e1ca4a9cb0f6d75368fae4f5bb3960a1a46779b8b5b608a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "com.aliyun.dpa:oss-android-sdk:2.9.2",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.16.yach",
+        "com.weclassroom.commonutils:commonutils:0.5.16.yach",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.16.yach",
+        "com.weclassroom.livestream:livestream:0.5.16.yach",
+        "com.weclassroom.logger:logger:0.5.16.yach",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.16.yach",
+        "com.weclassroom.msgchannel:msgchannel:0.5.16.yach",
+        "com.weclassroom.scribble:scribble:0.5.16.yach",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10"
+      ]
+    },
+    "0.5.17": {
+      "fetchedAt": "2026-10-25T02:13:58Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.17",
+        "com.weclassroom.commonutils:commonutils:0.5.17",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.17",
+        "com.weclassroom.livestream:livestream:0.5.17",
+        "com.weclassroom.logger:logger:0.5.17",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.17",
+        "com.weclassroom.msgchannel:msgchannel:0.5.17",
+        "com.weclassroom.scribble:scribble:0.5.17",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.18": {
+      "fetchedAt": "2026-10-25T02:13:57Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.18",
+        "com.weclassroom.commonutils:commonutils:0.5.18",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.18",
+        "com.weclassroom.livestream:livestream:0.5.18",
+        "com.weclassroom.logger:logger:0.5.18",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.18",
+        "com.weclassroom.msgchannel:msgchannel:0.5.18",
+        "com.weclassroom.scribble:scribble:0.5.18",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.19.ef": {
+      "fetchedAt": "2026-10-25T02:13:56Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.19.ef",
+        "com.weclassroom.commonutils:commonutils:0.5.19.ef",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.19.ef",
+        "com.weclassroom.livestream:livestream:0.5.19.ef",
+        "com.weclassroom.logger:logger:0.5.19.ef",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.19.ef",
+        "com.weclassroom.msgchannel:msgchannel:0.5.19.ef",
+        "com.weclassroom.scribble:scribble:0.5.19.ef",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.20.ef": {
+      "fetchedAt": "2026-10-25T02:13:55Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.20.ef",
+        "com.weclassroom.commonutils:commonutils:0.5.20.ef",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.20.ef",
+        "com.weclassroom.livestream:livestream:0.5.20.ef",
+        "com.weclassroom.logger:logger:0.5.20.ef",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.20.ef",
+        "com.weclassroom.msgchannel:msgchannel:0.5.20.ef",
+        "com.weclassroom.scribble:scribble:0.5.20.ef",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.21.ef": {
+      "fetchedAt": "2026-10-25T02:13:54Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.21.ef",
+        "com.weclassroom.commonutils:commonutils:0.5.21.ef",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.21.ef",
+        "com.weclassroom.livestream:livestream:0.5.21.ef",
+        "com.weclassroom.logger:logger:0.5.21.ef",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.21.ef",
+        "com.weclassroom.msgchannel:msgchannel:0.5.21.ef",
+        "com.weclassroom.scribble:scribble:0.5.21.ef",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.22.ef": {
+      "fetchedAt": "2026-10-25T02:13:54Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.22.ef",
+        "com.weclassroom.commonutils:commonutils:0.5.22.ef",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.22.ef",
+        "com.weclassroom.livestream:livestream:0.5.22.ef",
+        "com.weclassroom.logger:logger:0.5.22.ef",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.22.ef",
+        "com.weclassroom.msgchannel:msgchannel:0.5.22.ef",
+        "com.weclassroom.scribble:scribble:0.5.22.ef",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.23.xxj": {
+      "fetchedAt": "2026-10-25T02:13:53Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.23.xxj",
+        "com.weclassroom.commonutils:commonutils:0.5.23.xxj",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.23.xxj",
+        "com.weclassroom.livestream:livestream:0.5.23.xxj",
+        "com.weclassroom.logger:logger:0.5.23.xxj",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.23.xxj",
+        "com.weclassroom.msgchannel:msgchannel:0.5.23.xxj",
+        "com.weclassroom.scribble:scribble:0.5.23.xxj",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.24.xxj": {
+      "fetchedAt": "2026-10-25T02:13:52Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.24.xxj",
+        "com.weclassroom.commonutils:commonutils:0.5.24.xxj",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.24.xxj",
+        "com.weclassroom.livestream:livestream:0.5.24.xxj",
+        "com.weclassroom.logger:logger:0.5.24.xxj",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.24.xxj",
+        "com.weclassroom.msgchannel:msgchannel:0.5.24.xxj",
+        "com.weclassroom.scribble:scribble:0.5.24.xxj",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    },
+    "0.5.25.xxj": {
+      "fetchedAt": "2026-10-25T02:13:51Z",
+      "sha256": "cc0d661ad553d673ce0a85fe46ee6baaa15b34424a3e581834ee0a4ce19a25c0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.work:work-runtime:2.8.0",
+        "com.aliyun.dpa:oss-android-sdk:2.9.13",
+        "com.github.tbruyelle:rxpermissions:0.10.2",
+        "com.weclassroom.chat:chat:0.5.25.xxj",
+        "com.weclassroom.commonutils:commonutils:0.5.25.xxj",
+        "com.weclassroom.documentlibrary:documentlibrary:0.5.25.xxj",
+        "com.weclassroom.livestream:livestream:0.5.25.xxj",
+        "com.weclassroom.logger:logger:0.5.25.xxj",
+        "com.weclassroom.mediaplayerlib:mediaplayerlib:0.5.25.xxj",
+        "com.weclassroom.msgchannel:msgchannel:0.5.25.xxj",
+        "com.weclassroom.scribble:scribble:0.5.25.xxj",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.weclassroom.livecore.receiver.WifiStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.5.11.yach",
+          "0.5.11.yach"
+        ],
+        [
+          "0.5.12.yach",
+          "0.5.13.yach"
+        ],
+        [
+          "0.5.14.yach",
+          "0.5.14.yach"
+        ],
+        [
+          "0.5.15.yach",
+          "0.5.15.yach"
+        ],
+        [
+          "0.5.16.yach",
+          "0.5.16.yach"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.weclassroom.livecore.service.UploadLogService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.5.11",
+          "0.5.25.xxj"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

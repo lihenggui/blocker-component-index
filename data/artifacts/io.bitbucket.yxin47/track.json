@@ -1,0 +1,52 @@
+{
+  "coordinate": "io.bitbucket.yxin47:track",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:42:10Z",
+      "sha256": "805544987a6d824af9b779aa97daddc7e34e61e6432afedcecb4529237b70778",
+      "dependencies": [
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.16",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0",
+        "shys-lib.location:lib:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.shineway.shys.lib.track.LocationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":location",
+      "permission": null,
+      "authorities": "${applicationId}.location.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.shineway.shys.lib.track.LocationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":location",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

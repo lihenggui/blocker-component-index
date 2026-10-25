@@ -1,0 +1,91 @@
+{
+  "coordinate": "io.github.evgeniymish:pingone-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:49:40Z",
+      "sha256": "5eeeac8ac5fdf07391a4d77bb1ee769f5d6d853b44245e6ed79a4a2652255332",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.google.android.gms:play-services-safetynet:17.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.firebase:firebase-bom:26.3.0",
+        "com.madgag.spongycastle:bcpkix-jdk15on:1.58.0.0",
+        "com.madgag.spongycastle:core:1.58.0.0",
+        "org.bitbucket.b_c:jose4j:0.7.1",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T04:49:39Z",
+      "sha256": "be0d19a6f585e8f17337d8f81440ec06a14afa7e88d2250079da068032c9356f",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "com.appmattus.certificatetransparency:certificatetransparency-android:1.0.0",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.google.android.gms:play-services-safetynet:17.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.firebase:firebase-bom:26.3.0",
+        "com.madgag.spongycastle:bcpkix-jdk15on:1.58.0.0",
+        "com.madgag.spongycastle:core:1.58.0.0",
+        "org.bitbucket.b_c:jose4j:0.7.1",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    },
+    "1.1.2-alpha": {
+      "fetchedAt": "2026-10-25T04:49:38Z",
+      "sha256": "be0d19a6f585e8f17337d8f81440ec06a14afa7e88d2250079da068032c9356f",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "com.appmattus.certificatetransparency:certificatetransparency-android:1.0.0",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.google.android.gms:play-services-safetynet:17.0.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.firebase:firebase-bom:26.3.0",
+        "com.madgag.spongycastle:bcpkix-jdk15on:1.58.0.0",
+        "com.madgag.spongycastle:core:1.58.0.0",
+        "org.bitbucket.b_c:jose4j:0.7.1",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.2-alpha"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.pingidentity.pingidsdkv2.PingOneInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.2-alpha"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pingidsdkv2",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

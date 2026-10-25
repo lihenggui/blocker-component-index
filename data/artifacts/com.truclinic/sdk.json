@@ -1,0 +1,33 @@
+{
+  "coordinate": "com.truclinic:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T01:46:51Z",
+      "sha256": "783607b37ce5fd25d42194143e08920cf63a503c05bd3881e45ed1696c5188c8",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.0",
+        "com.loopj.android:android-async-http:1.4.9"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.twilio.client.TwilioClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

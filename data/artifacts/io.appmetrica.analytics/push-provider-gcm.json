@@ -1,0 +1,88 @@
+{
+  "coordinate": "io.appmetrica.analytics:push-provider-gcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.1.1": {
+      "fetchedAt": "2026-10-25T03:38:51Z",
+      "sha256": "2a2765de1ab5d5ad7d02c2762881f6bf7a12aafe1c8c082085b94da380fe455c",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.1.1",
+        "io.appmetrica.analytics:push-logger:4.1.1",
+        "io.appmetrica.analytics:push-provider-api:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-25T03:38:51Z",
+      "sha256": "2a2765de1ab5d5ad7d02c2762881f6bf7a12aafe1c8c082085b94da380fe455c",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.2.1",
+        "io.appmetrica.analytics:push-logger:4.2.1",
+        "io.appmetrica.analytics:push-provider-api:4.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.google.android.gms.gcm.GcmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.1.1",
+          "4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE",
+        "com.google.android.c2dm.intent.REGISTRATION"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.appmetrica.analytics.push.provider.gcm.AppMetricaGcmListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.1",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.appmetrica.analytics.push.provider.gcm.AppMetricaInstanceIDListenerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.1.1",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.iid.InstanceID"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

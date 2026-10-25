@@ -1,0 +1,51 @@
+{
+  "coordinate": "io.github.koder11:anlogger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:14:53Z",
+      "sha256": "872b67c3426b7471a0f1131c30839cb0360ee29dab97dc40f41cc7a192084d1a",
+      "dependencies": [
+        "com.github.MFlisar:CacheFileProvider:0.2",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "org.slf4j:slf4j-api:1.7.32"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:14:52Z",
+      "sha256": "e984f62c2ba775676ceaef55eb47174e687fc3a55ddbe3e900ac28521b2f077f",
+      "dependencies": [
+        "com.github.MFlisar:CacheFileProvider:0.2",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "org.slf4j:slf4j-api:1.7.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.michaelflisar.cachefileprovider.CachedFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.CachedFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

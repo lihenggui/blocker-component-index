@@ -1,0 +1,107 @@
+{
+  "coordinate": "io.github.jeancsanchez.jcplayer:jcplayer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:07:50Z",
+      "sha256": "f03ba0ad78e0dad23228af18cfaf506644774c5dcf47d59916be6f01533f0516",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.0.0-alpha4",
+        "com.android.support:appcompat-v7:24.1.1",
+        "com.android.support:recyclerview-v7:24.1.1"
+      ]
+    },
+    "1.0.0-alpha": {
+      "fetchedAt": "2026-10-25T05:07:50Z",
+      "sha256": "b1cbd82fe6c6beafac5e3f73ec81b005d4b801d99caa9ae1dd14ae9682a55d90",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.0",
+        "com.android.support:recyclerview-v7:24.2.0",
+        "com.daimajia.androidanimations:library:1.1.3",
+        "com.daimajia.easing:library:1.0.1",
+        "com.nineoldandroids:library:2.4.0"
+      ]
+    },
+    "2.6.0-alpha": {
+      "fetchedAt": "2026-10-25T05:07:49Z",
+      "sha256": "972336f5d2b1c274002284e92c7a1a90f68237832a2c288f961d9b1deda07288",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.1",
+        "com.android.support:recyclerview-v7:25.0.1",
+        "com.daimajia.androidanimations:library:1.1.3",
+        "com.daimajia.easing:library:1.0.1",
+        "com.nineoldandroids:library:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.jean.jcplayer.JCPlayerNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "1.0.0-alpha"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.jean.jcplayer.JCPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "1.0.0-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.jean.jcplayer.JcPlayerNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.6.0-alpha",
+          "2.6.0-alpha"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.jean.jcplayer.JcPlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.6.0-alpha",
+          "2.6.0-alpha"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

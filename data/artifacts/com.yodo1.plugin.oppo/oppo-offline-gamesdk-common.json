@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.yodo1.plugin.oppo:oppo-offline-gamesdk-common",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.4": {
+      "fetchedAt": "2026-10-25T02:35:46Z",
+      "sha256": "ee3e237736289a6ce327255f90d9215508122ac02fa3869bc5163fd18c28c52a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.nearme.game.sdk.common.serice.OutPutFileService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "gusdk.children.discern.data"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

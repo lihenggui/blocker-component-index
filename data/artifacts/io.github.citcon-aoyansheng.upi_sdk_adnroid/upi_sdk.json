@@ -1,0 +1,93 @@
+{
+  "coordinate": "io.github.citcon-aoyansheng.upi_sdk_adnroid:upi_sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.22.03": {
+      "fetchedAt": "2026-10-25T04:35:59Z",
+      "sha256": "00c7dd4b3873df7597db6c1ae5746626193cecceff38e25f3279b20f05801fa7",
+      "dependencies": [
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:databinding-adapters:4.2.2",
+        "androidx.databinding:databinding-common:4.2.2",
+        "androidx.databinding:databinding-runtime:4.2.2",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1",
+        "androidx.navigation:navigation-fragment-ktx:2.4.1",
+        "androidx.navigation:navigation-ui-ktx:2.4.1",
+        "com.android.volley:volley:1.2.1",
+        "com.citcon.sdk:alipay:15.8.03",
+        "com.citcon.sdk:cpay-upi:1.0.2-alpha",
+        "com.citcon.sdk:unionpay:3.3.0",
+        "com.google.android.gms:play-services-wallet:19.1.0",
+        "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.4",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.9",
+        "io.github.citcon-aoyansheng.upi_sdk_adnroid:drop-in:4.22.03",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.22.03",
+          "4.22.03"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.braintreepayments.api.BraintreeBrowserSwitchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.22.03",
+          "4.22.03"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.citconpay.sdk.ui.main.view.CUPaySDKActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.22.03",
+          "4.22.03"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

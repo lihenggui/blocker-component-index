@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.youzan.mobile:hybridweb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:41:20Z",
+      "sha256": "e5ecc4d52070c4bcc77fcc80cba527a8050c815b525b199b5c819672837d430c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.youzan.hybridweb.container.HybridWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "coordinate": "io.github.good-good-study:sina-weibo-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.4.4": {
+      "fetchedAt": "2026-10-25T04:58:53Z",
+      "sha256": "316fb85bd9899e5c966a3d2498a1d6febee0ff55e7aef1333ace7ad7988839fa",
+      "dependencies": []
+    },
+    "9.12.0": {
+      "fetchedAt": "2026-10-25T04:58:52Z",
+      "sha256": "f6f665002e7e37f50fbf54a4fa4ddd93e720a793d4fc6c1c63cdd90e6dbe0996",
+      "dependencies": []
+    },
+    "10.7.0": {
+      "fetchedAt": "2026-10-25T04:58:52Z",
+      "sha256": "5dc62b591ec6047864b8578d708a96f806c9ebb6b1de0dcfa79587fb1db041b5",
+      "dependencies": []
+    },
+    "10.8.0": {
+      "fetchedAt": "2026-10-25T04:58:51Z",
+      "sha256": "9d87ed73693840a4d94e4576b7ccaff2b8bf753a2acc38f8753e2a5cce4b1439",
+      "dependencies": []
+    },
+    "10.9.0": {
+      "fetchedAt": "2026-10-25T04:58:50Z",
+      "sha256": "bb00899af142da9dac646d8e0adb19b92b7840e5fd286efe70cd518e1ef3742f",
+      "dependencies": []
+    },
+    "10.10.1": {
+      "fetchedAt": "2026-10-25T04:58:50Z",
+      "sha256": "e48408563c9f4da61025782d0605bc0e2082acd06bf94bbeb97746e34f4692e4",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.10.1",
+          "10.10.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.ShareChatActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "10.7.0",
+          "10.10.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.ShareResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.12.0",
+          "10.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY",
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.ShareStoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.12.0",
+          "10.10.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.ShareTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.12.0",
+          "10.10.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.WbShareResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.4.4",
+          "4.4.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY",
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.WbShareToStoryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.4.4",
+          "4.4.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.WbShareTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.4.4",
+          "4.4.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.web.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.12.0",
+          "10.10.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.web.WeiboSdkWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.4.4",
+          "4.4.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

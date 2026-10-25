@@ -1,0 +1,47 @@
+{
+  "coordinate": "dev.teogor.crosslens:crosslens-core-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:10:39Z",
+      "sha256": "3bd458eeeb6bb0154a2f39467fa0a23e44e0b855d2ec87eaff48eb52d597fe5f",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-25T03:10:38Z",
+      "sha256": "3bd458eeeb6bb0154a2f39467fa0a23e44e0b855d2ec87eaff48eb52d597fe5f",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.20",
+        "org.jetbrains.kotlinx:atomicfu:0.25.0",
+        "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.7",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.teogor.crosslens.core.startup.ActivityInitializer",
+        "dev.teogor.crosslens.core.startup.ContextInitializer"
+      ]
+    }
+  ]
+}

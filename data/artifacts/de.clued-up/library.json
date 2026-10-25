@@ -1,0 +1,71 @@
+{
+  "coordinate": "de.clued-up:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T02:52:50Z",
+      "sha256": "cfac55d5226cbccd1ba2407cb90e33730b1ff2a1ff3edfeac33b5a36d759ec82",
+      "dependencies": [
+        "com.google.android.gms:play-services-wearable:6.1.71",
+        "de.clued-up:Backend:0.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.clued_up.voicecontrols.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "de.clued_up.voicecontrols.services.CallVoiceControlBackendService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.clued_up.voicecontrols.voicereply.ReplyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "coordinate": "io.github.Sum-sdl:library-ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T04:06:10Z",
+      "sha256": "e9c1345d575d0b141eee471f0b79ce93fac3160bbff516f7d371b7c97ce6d7a7",
+      "dependencies": [
+        "AndriodDevelopLibrary:library-adapter:unspecified",
+        "AndriodDevelopLibrary:library-base:unspecified",
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.github.yalantis:ucrop:2.2.3",
+        "com.tencent.sonic:sdk:3.1.0",
+        "me.relex:circleindicator:2.1.4",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "top.zibin:Luban:1.1.8"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T04:06:10Z",
+      "sha256": "e9c1345d575d0b141eee471f0b79ce93fac3160bbff516f7d371b7c97ce6d7a7",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:4.9.0",
+        "com.github.chrisbanes:PhotoView:2.3.0",
+        "com.github.yalantis:ucrop:2.2.3",
+        "com.tencent.sonic:sdk:3.1.0",
+        "io.github.Sum-sdl:library-adapter:2.0.0",
+        "io.github.Sum-sdl:library-base:2.0.0",
+        "me.relex:circleindicator:2.1.4",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "top.zibin:Luban:1.1.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sum.library_ui.camera.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sum.library_ui.image.photoAlbum.PhotoAlbumActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sum.library_ui.image.preview.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sum.library_ui.web.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "coordinate": "com.yubico.yubikit:otp",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T02:41:48Z",
+      "sha256": "91807b627ed03d9a4df0c0c6bb866f20f84ddfa6646e632acab9086db310c859",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.google.android.material:material:1.0.0",
+        "com.yubico.yubikit:yubikit:1.0.0-alpha01"
+      ]
+    },
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-25T02:41:47Z",
+      "sha256": "977435dc21d411cd0260ed5e0c5fbf45fdf40694ba29518f8851e8d2cb1a35eb",
+      "dependencies": [
+        "AndroidYubikit:yubikit:1.0.0-beta01",
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.google.android.material:material:1.0.0"
+      ]
+    },
+    "1.0.0-beta02": {
+      "fetchedAt": "2026-10-25T02:41:47Z",
+      "sha256": "977435dc21d411cd0260ed5e0c5fbf45fdf40694ba29518f8851e8d2cb1a35eb",
+      "dependencies": [
+        "AndroidYubikit:yubikit:1.0.0-beta02",
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.google.android.material:material:1.0.0"
+      ]
+    },
+    "1.0.0-beta03": {
+      "fetchedAt": "2026-10-25T02:41:46Z",
+      "sha256": "977435dc21d411cd0260ed5e0c5fbf45fdf40694ba29518f8851e8d2cb1a35eb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.google.android.material:material:1.0.0"
+      ]
+    },
+    "1.0.0-beta04": {
+      "fetchedAt": "2026-10-25T02:41:45Z",
+      "sha256": "977435dc21d411cd0260ed5e0c5fbf45fdf40694ba29518f8851e8d2cb1a35eb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.google.android.material:material:1.0.0"
+      ]
+    },
+    "1.0.0-beta05": {
+      "fetchedAt": "2026-10-25T02:41:45Z",
+      "sha256": "1f178c80712de30c85e2d974682cc767c8437e9017641c34521242f12955c82f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "com.google.android.material:material:1.0.0"
+      ]
+    },
+    "1.0.0-beta06": {
+      "fetchedAt": "2026-10-25T02:41:44Z",
+      "sha256": "1f178c80712de30c85e2d974682cc767c8437e9017641c34521242f12955c82f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.2.0",
+        "com.google.android.material:material:1.1.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:41:43Z",
+      "sha256": "c3f52dae13f1c3678c90742432739918b5acbcb1e63bf2516ebc5a7079dfd997",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.lifecycle:lifecycle-viewmodel:2.2.0",
+        "com.google.android.material:material:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yubico.yubikit.otp.OtpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

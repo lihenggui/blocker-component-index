@@ -1,0 +1,91 @@
+{
+  "coordinate": "com.tune:tune-marketing-console-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.3.0": {
+      "fetchedAt": "2026-10-25T01:49:10Z",
+      "sha256": "cdc9aafc4a65c74a99a66171ae99769630941a280f0ce7ee02099126bf453a31",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "org.greenrobot:eventbus:3.0.0"
+      ]
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-25T01:49:09Z",
+      "sha256": "02bca407285aba7181ee76773f5f0857515371c2596a65429549cf5da8d88648",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1"
+      ]
+    },
+    "6.0.1": {
+      "fetchedAt": "2026-10-25T01:49:09Z",
+      "sha256": "39503a019f56407e924473f78a3a76ba12bf7a0956d6bfb5b1ece8065a82ee47",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1"
+      ]
+    },
+    "6.0.2": {
+      "fetchedAt": "2026-10-25T01:49:08Z",
+      "sha256": "5e6aac98a4e225fdb30ace174a27f9f4aa79df7b2b2301c2ebdee7dcbef1dae3",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1"
+      ]
+    },
+    "6.0.3": {
+      "fetchedAt": "2026-10-25T01:49:07Z",
+      "sha256": "fa22e7f7655c0a305722b691be19f4794325bb234f5d3cac53e97a9114d7f89a",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1"
+      ]
+    },
+    "6.1.0": {
+      "fetchedAt": "2026-10-25T01:49:07Z",
+      "sha256": "73f4a2798cbfb18a86ea2b16d3766b603b34e926cdd4f21041c1e842c1c747a7",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1"
+      ]
+    },
+    "6.1.1": {
+      "fetchedAt": "2026-10-25T01:49:06Z",
+      "sha256": "b12421107c0d95142d78d8e28a82d540999fd1bd33af5365cd658e1d0f41c59d",
+      "dependencies": [
+        "com.android.installreferrer:installreferrer:1.0",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tune.TuneTracker",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "5.3.0",
+          "6.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

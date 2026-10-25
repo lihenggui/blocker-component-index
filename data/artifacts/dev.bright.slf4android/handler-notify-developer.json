@@ -1,0 +1,53 @@
+{
+  "coordinate": "dev.bright.slf4android:handler-notify-developer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.8": {
+      "fetchedAt": "2026-10-25T02:57:31Z",
+      "sha256": "942839cdd69aab84da2f923c3826ba808470aa5503a6c236c60728d2cc8c9a81",
+      "dependencies": [
+        "androidx.core:core:1.13.1",
+        "com.squareup:seismic:1.0.2",
+        "dev.bright.slf4android:slf4android:0.1.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "pl.brightinventions.slf4android.handler.notifydeveloper.NotifyDeveloperDialogDisplayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.8",
+          "0.1.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "pl.brightinventions.slf4android.handler.notifydeveloper.Slf4AndroidLogFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.8",
+          "0.1.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.slf4android.logs.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

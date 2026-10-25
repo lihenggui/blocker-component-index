@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.yieldnull:alioss-img",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0-beta": {
+      "fetchedAt": "2026-10-25T02:31:16Z",
+      "sha256": "ff93ce7c39ea56d26b218669cd8e832c6fd2c8ee67822cdbb9644c5bd28e6355",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.2.0",
+        "com.aliyun:aliyun-java-sdk-core:2.1.7",
+        "com.aliyun:aliyun-java-sdk-sts:2.1.6",
+        "com.android.support:appcompat-v7:23.4.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T02:31:16Z",
+      "sha256": "6702661fe4148a8bb9228cbeda735d31409cd9843cbcfca67440e0504c8e53df",
+      "dependencies": [
+        "com.aliyun.dpa:oss-android-sdk:2.2.0",
+        "com.aliyun:aliyun-java-sdk-core:2.1.7",
+        "com.aliyun:aliyun-java-sdk-sts:2.1.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yieldnull.alioss.OssService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0-beta",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":alioss",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yieldnull.alioss.OssService$AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0-beta",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": ":remote",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yieldnull.alioss.OssService$WifiStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.0-beta",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "coordinate": "io.github.cocomikes:rx-download",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:37:37Z",
+      "sha256": "92f388f9ea00b7eb1dba6a4266de9182c9452d409bc173a7bbb2ad6ffc168bf4",
+      "dependencies": [
+        "com.squareup.retrofit2:adapter-rxjava2:2.6.0",
+        "com.squareup.retrofit2:converter-scalars:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "io.reactivex.rxjava2:rxjava:2.2.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.ganguo.library.rxdownload.function.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

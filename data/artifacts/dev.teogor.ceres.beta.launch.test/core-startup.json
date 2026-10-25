@@ -1,0 +1,35 @@
+{
+  "coordinate": "dev.teogor.ceres.beta.launch.test:core-startup",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.5.1": {
+      "fetchedAt": "2026-10-25T03:09:37Z",
+      "sha256": "63f1f8d989537bf036bcffe4711e6fdccd684c81c90cb22cf74385759b779e10",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.5.1",
+          "2.5.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.teogor.ceres.core.startup.StartupProvider"
+      ]
+    }
+  ]
+}

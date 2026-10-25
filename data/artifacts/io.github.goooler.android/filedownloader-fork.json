@@ -1,0 +1,61 @@
+{
+  "coordinate": "io.github.goooler.android:filedownloader-fork",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.8": {
+      "fetchedAt": "2026-10-25T04:58:57Z",
+      "sha256": "91e159c8b9c0ef285d56e0fdc0a1931e50a406e78b9fd8601893bcb4ddc42b09",
+      "dependencies": []
+    },
+    "1.7.9": {
+      "fetchedAt": "2026-10-25T04:58:56Z",
+      "sha256": "35675877da06e5f037f88dc54f6c3f9ca9fa5b6e83a78fa8360a00184271504a",
+      "dependencies": [
+        "androidx.core:core:1.13.1"
+      ]
+    },
+    "1.7.10": {
+      "fetchedAt": "2026-10-25T04:58:55Z",
+      "sha256": "91e159c8b9c0ef285d56e0fdc0a1931e50a406e78b9fd8601893bcb4ddc42b09",
+      "dependencies": [
+        "androidx.core:core:1.13.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.7.8",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": ":filedownloader",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.7.8",
+          "1.7.10"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

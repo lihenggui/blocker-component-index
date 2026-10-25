@@ -1,0 +1,81 @@
+{
+  "coordinate": "com.zhusx:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.0": {
+      "fetchedAt": "2026-10-25T02:47:07Z",
+      "sha256": "18854e70064bb072bc665f0ed34de156bb822876030d913fc759183f5b6d3727",
+      "dependencies": []
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-25T02:47:07Z",
+      "sha256": "18854e70064bb072bc665f0ed34de156bb822876030d913fc759183f5b6d3727",
+      "dependencies": []
+    },
+    "0.9.2": {
+      "fetchedAt": "2026-10-25T02:47:06Z",
+      "sha256": "18854e70064bb072bc665f0ed34de156bb822876030d913fc759183f5b6d3727",
+      "dependencies": []
+    },
+    "0.9.3": {
+      "fetchedAt": "2026-10-25T02:47:05Z",
+      "sha256": "900a829a024f4ca12a0513ac580a34c5aed02bf5ce6ba8380443071712daab94",
+      "dependencies": []
+    },
+    "0.9.4": {
+      "fetchedAt": "2026-10-25T02:47:05Z",
+      "sha256": "900a829a024f4ca12a0513ac580a34c5aed02bf5ce6ba8380443071712daab94",
+      "dependencies": []
+    },
+    "0.9.5": {
+      "fetchedAt": "2026-10-25T02:47:04Z",
+      "sha256": "62c20c8c207a4c4e1638fcdb66ccafcb5d485c7708531a37c2386960800ead96",
+      "dependencies": []
+    },
+    "0.9.6": {
+      "fetchedAt": "2026-10-25T02:47:04Z",
+      "sha256": "a9148eba5601670e30657d4894500201c4d4574e7900a9fe149f2af2d4f78f7a",
+      "dependencies": []
+    },
+    "0.9.9": {
+      "fetchedAt": "2026-10-25T02:47:01Z",
+      "sha256": "c91a944e4b6ce50ae7cab8cec23945af86ac2de02d29bee3931e0f0b4aa7ea6d",
+      "dependencies": []
+    },
+    "0.9.10": {
+      "fetchedAt": "2026-10-25T02:47:03Z",
+      "sha256": "c00fff765284b512a197b7ace2a9432fe92a29b03186a2157bae49a60abb7899",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
+      ]
+    },
+    "0.9.11": {
+      "fetchedAt": "2026-10-25T02:47:02Z",
+      "sha256": "4bc9591c7d55011e90f40fa2624deb1536eeaee0425507aa292bfed9048e6892",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zhusx.core.helper.P_FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.9.0",
+          "0.9.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.libFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

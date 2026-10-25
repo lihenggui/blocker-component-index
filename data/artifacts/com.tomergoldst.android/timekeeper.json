@@ -1,0 +1,121 @@
+{
+  "coordinate": "com.tomergoldst.android:timekeeper",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T01:36:30Z",
+      "sha256": "dfd9d0710bb6f1fa3e0235313bb91185c6c9417358d2f34fbbb2d0ce006dc6e7",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tomergoldst.timekeeper.core.OnBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tomergoldst.timekeeper.core.OnMyPackageReplacedReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tomergoldst.timekeeper.core.StatusReviewAlarmJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.firebase.jobdispatcher.ACTION_EXECUTE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tomergoldst.timekeeper.core.StatusReviewAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tomergoldst.timekeeper.core.WakeOnAlarmIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tomergoldst.timekeeper.core.WakeOnAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

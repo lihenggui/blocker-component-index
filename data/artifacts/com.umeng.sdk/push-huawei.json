@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.umeng.sdk:push-huawei",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T01:51:03Z",
+      "sha256": "8d8df2ced9e988e52da39ce6f8844d7e88a60f0fe2102b1b72c66dffab59af0f",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "org.android.agoo.huawei.HuaWeiReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.android.push.intent.RECEIVE",
+        "com.huawei.android.push.intent.REGISTRATION",
+        "com.huawei.intent.action.PUSH",
+        "com.huawei.intent.action.PUSH_STATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

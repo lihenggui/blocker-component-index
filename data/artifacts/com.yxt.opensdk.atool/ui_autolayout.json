@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.yxt.opensdk.atool:ui_autolayout",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T02:42:16Z",
+      "sha256": "3a7f44eb4d8a3527448d4d7936595d3437cd79ce30b6dddcf2ae92949cc9b9c1",
+      "dependencies": []
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T02:42:15Z",
+      "sha256": "6204b0fa36f0bb0f5830414c93a6e8d561b7a563b0f50706abe5cd31b2ab1e96",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.yxt.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.yxt-autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

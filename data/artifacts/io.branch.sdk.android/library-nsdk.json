@@ -1,0 +1,45 @@
+{
+  "coordinate": "io.branch.sdk.android:library-nsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:42:21Z",
+      "sha256": "6ea29d77af01a1ad7f912bf9f396109d5d2c25c1ad846a8bd193f2a7b5d45c0d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.4.0",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.google.android.material:material:1.4.0",
+        "com.google.firebase:firebase-appindexing:19.0.0",
+        "io.branch.sdk.nativecompute:native-compute-sdk-android:0.0.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.branch.referral.validators.NativeSdkDiagnosticsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.branch.referral.validators.NativeSdkDiagnosticsActivity"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

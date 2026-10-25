@@ -1,0 +1,90 @@
+{
+  "coordinate": "io.github.blackfireteam.msimsdk:imsdk-push-fcm-de4",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1-beta0": {
+      "fetchedAt": "2026-10-25T04:24:49Z",
+      "sha256": "e3c371411b8496901605e99e13b2aa92132dc18f4088b52726f3026d4c244449",
+      "dependencies": [
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "io.github.blackfireteam.msimsdk:imsdk-de4:1.1-beta0"
+      ]
+    },
+    "1.1-beta5": {
+      "fetchedAt": "2026-10-25T04:24:49Z",
+      "sha256": "e3c371411b8496901605e99e13b2aa92132dc18f4088b52726f3026d4c244449",
+      "dependencies": [
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "io.github.blackfireteam.msimsdk:imsdk-de4:1.1-beta5"
+      ]
+    },
+    "1.1-beta20": {
+      "fetchedAt": "2026-10-25T04:24:48Z",
+      "sha256": "e3c371411b8496901605e99e13b2aa92132dc18f4088b52726f3026d4c244449",
+      "dependencies": [
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "io.github.blackfireteam.msimsdk:imsdk-de4:1.1-beta20"
+      ]
+    },
+    "1.1-beta22": {
+      "fetchedAt": "2026-10-25T04:24:47Z",
+      "sha256": "e3c371411b8496901605e99e13b2aa92132dc18f4088b52726f3026d4c244449",
+      "dependencies": [
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "io.github.blackfireteam.msimsdk:imsdk-de4:1.1-beta22"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:24:46Z",
+      "sha256": "e3c371411b8496901605e99e13b2aa92132dc18f4088b52726f3026d4c244449",
+      "dependencies": [
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "io.github.blackfireteam.msimsdk:imsdk-de4:1.1.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T04:24:46Z",
+      "sha256": "4a1936ba1fcb5232050817a99a2237e84c6b7e0d2dc68c5a2221a3b450ee7572",
+      "dependencies": [
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "io.github.blackfireteam.msimsdk:imsdk-de4:1.2.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T04:24:45Z",
+      "sha256": "4a1936ba1fcb5232050817a99a2237e84c6b7e0d2dc68c5a2221a3b450ee7572",
+      "dependencies": [
+        "com.google.firebase:firebase-analytics:19.0.0",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "io.github.blackfireteam.msimsdk:imsdk-de4:1.2.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.masonsoft.imsdk.push.fcm.IMFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1-beta0",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "coordinate": "io.bitbucket.mobscannersdk:customdocscannerlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.20": {
+      "fetchedAt": "2026-10-25T03:41:22Z",
+      "sha256": "bef6a5dc17141e2b3c3cbe4b2afa980f33683ee6056adfe6fda87b18843041c8",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.esafirm.android-image-picker:imagepicker:2.4.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:16.1.3",
+        "com.google.android.material:material:1.2.1",
+        "com.itextpdf:itextg:5.5.10",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.8"
+      ]
+    },
+    "0.2.21": {
+      "fetchedAt": "2026-10-25T03:41:20Z",
+      "sha256": "b7c9675b8abb065de113ce44c3379c51afb1d92e748eb2d9972dba22c9ef39c5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.esafirm.android-image-picker:imagepicker:2.4.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:16.1.3",
+        "com.google.android.material:material:1.2.1",
+        "com.itextpdf:itextg:5.5.10",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.8"
+      ]
+    },
+    "0.2.22": {
+      "fetchedAt": "2026-10-25T03:41:19Z",
+      "sha256": "bc821d35f59ba287a1671bcc4d866d48579b0b3fd065b1a2feb769bf18233b88",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.esafirm.android-image-picker:imagepicker:2.4.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:16.1.3",
+        "com.google.android.material:material:1.2.1",
+        "com.itextpdf:itextg:5.5.10",
+        "io.reactivex.rxjava2:rxandroid:2.1.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.8"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mobspace.docscanner.sdk.ui.activity.CameraControlActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.20",
+          "0.2.22"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobspace.docscanner.sdk.ui.activity.CapturePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.20",
+          "0.2.22"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.mobspace.docscanner.sdk.ui.activity.ImageEditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.20",
+          "0.2.22"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

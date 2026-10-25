@@ -1,0 +1,32 @@
+{
+  "coordinate": "com.zhusx:androidx-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T02:47:00Z",
+      "sha256": "d64ff04f6b662ddf1a54dc98ec759bcdd5dbbf18975ace50536634b4a805a434",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.zhusx.core.helper.P_FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.libFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

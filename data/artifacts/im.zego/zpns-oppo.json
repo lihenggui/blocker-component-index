@@ -1,0 +1,57 @@
+{
+  "coordinate": "im.zego:zpns-oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T03:28:30Z",
+      "sha256": "86cee2e32488069d5177d1f32f5be2240e8fcbf1d5ef6546fa9203fcb85b8bd0",
+      "dependencies": []
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-25T03:28:29Z",
+      "sha256": "6f174a25b6fa45527995c16e418273d0d19c9bff787d58c2c63e746f1ece9e41",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "im.zego.zpns_android_plugin_oppo.OppoCompatibleDataService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "im.zego.zpns_android_plugin_oppo.OppoDataMessage",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

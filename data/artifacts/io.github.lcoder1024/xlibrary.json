@@ -1,0 +1,83 @@
+{
+  "coordinate": "io.github.lcoder1024:xlibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:15:59Z",
+      "sha256": "0f137ec8b77f585bea7a42ba3062bbf025cd1f029443e5bee68256a81d8ccac9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "com.blankj:utilcodex:1.31.0",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.bumptech.glide:glide:4.14.2",
+        "com.google.android.material:material:1.7.0",
+        "com.guolindev.permissionx:permissionx:1.7.1",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv:1.2.14",
+        "io.github.cymchad:BaseRecyclerViewAdapterHelper:4.0.0-beta02",
+        "io.github.scwang90:refresh-header-classics:2.0.5",
+        "io.github.scwang90:refresh-header-material:2.0.5",
+        "io.github.scwang90:refresh-layout-kernel:2.0.5",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:15:58Z",
+      "sha256": "a16a004b45319703d96ef9101a50b02b45cfa4851916f6df28bfc036a7f9a610",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:databinding-adapters:8.0.2",
+        "androidx.databinding:databinding-common:8.0.2",
+        "androidx.databinding:databinding-ktx:8.0.2",
+        "androidx.databinding:databinding-runtime:8.0.2",
+        "com.blankj:utilcodex:1.31.1",
+        "com.geyifeng.immersionbar:immersionbar:3.2.2",
+        "com.github.bumptech.glide:glide:4.15.1",
+        "com.github.li-xiaojun:XPopup:2.9.19",
+        "com.google.android.material:material:1.7.0",
+        "com.guolindev.permissionx:permissionx:1.7.1",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv:1.3.0",
+        "io.github.cymchad:BaseRecyclerViewAdapterHelper:4.0.0-beta14",
+        "io.github.scwang90:refresh-header-classics:2.0.6",
+        "io.github.scwang90:refresh-header-material:2.0.6",
+        "io.github.scwang90:refresh-layout-kernel:2.0.6",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "io.reactivex.rxjava3:rxjava:3.1.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.devio.xlibrary.base.XBaseListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

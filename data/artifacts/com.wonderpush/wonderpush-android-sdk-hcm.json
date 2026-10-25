@@ -1,0 +1,78 @@
+{
+  "coordinate": "com.wonderpush:wonderpush-android-sdk-hcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:19:14Z",
+      "sha256": "fe3af9357b2dfb2bd79ab520f96992dd193492311e570882e0929ad1f891ff07",
+      "dependencies": [
+        "com.huawei.hms:push:4.0.3.301",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:19:13Z",
+      "sha256": "2bd11835d9386ab857724b714ce0ed0c7f0e30e14eb93e8ce1b7510da7eea5c1",
+      "dependencies": [
+        "com.huawei.hms:push:5.3.0.304",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:19:12Z",
+      "sha256": "3c7476a355c2fe71be2ca66b8c621803c59f6a7823fc7aee002cefcb8ac3c36c",
+      "dependencies": [
+        "com.huawei.hms:push:6.1.0.300",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:19:12Z",
+      "sha256": "3c7476a355c2fe71be2ca66b8c621803c59f6a7823fc7aee002cefcb8ac3c36c",
+      "dependencies": [
+        "com.huawei.hms:push:6.1.0.300",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wonderpush.sdk.push.DiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.wonderpush.sdk.push:com.wonderpush.sdk.push.hcm.HCMPushService"
+      ]
+    },
+    {
+      "name": "com.wonderpush.sdk.push.hcm.HuaweiMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

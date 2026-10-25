@@ -1,0 +1,69 @@
+{
+  "coordinate": "com.twilio:twilio-verify-passkeys-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T01:49:45Z",
+      "sha256": "5f100a2c884fc17c1659f9a5d7f71820a6a1298debbd8425a6419c85d4d738ae",
+      "dependencies": [
+        "androidx.credentials:credentials-play-services-auth:1.2.0",
+        "androidx.credentials:credentials:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T01:49:44Z",
+      "sha256": "5f100a2c884fc17c1659f9a5d7f71820a6a1298debbd8425a6419c85d4d738ae",
+      "dependencies": [
+        "androidx.credentials:credentials-play-services-auth:1.2.0",
+        "androidx.credentials:credentials:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T01:49:43Z",
+      "sha256": "b347188f89ddec979416fcf3357de16e737e5624b94800c649cd7c1f97c5a57a",
+      "dependencies": [
+        "androidx.credentials:credentials-play-services-auth:1.3.0",
+        "androidx.credentials:credentials:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T01:49:42Z",
+      "sha256": "b347188f89ddec979416fcf3357de16e737e5624b94800c649cd7c1f97c5a57a",
+      "dependencies": [
+        "androidx.credentials:credentials-play-services-auth:1.3.0",
+        "androidx.credentials:credentials:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.twilio.passkeys.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

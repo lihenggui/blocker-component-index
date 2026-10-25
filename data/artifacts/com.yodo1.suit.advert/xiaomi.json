@@ -1,0 +1,122 @@
+{
+  "coordinate": "com.yodo1.suit.advert:xiaomi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.8.1": {
+      "fetchedAt": "2026-10-25T02:36:43Z",
+      "sha256": "eac9c980d5eddfa9781edf30eb11bb96be013778bb90fa861c12ce7e801253f8",
+      "dependencies": [
+        "com.yodo1.3rdparty.advert:xiaomi:1.7.8"
+      ]
+    },
+    "2.4.0.0": {
+      "fetchedAt": "2026-10-25T02:36:44Z",
+      "sha256": "e3ed65914986b14cdb8fbc545d0c873b3ad4bff856a2a3b498708e9f8553699d",
+      "dependencies": [
+        "com.yodo1.plugin.xiaomi:xiaomi-ad:2.4.0"
+      ]
+    },
+    "2.4.0.1": {
+      "fetchedAt": "2026-10-25T02:36:44Z",
+      "sha256": "e3ed65914986b14cdb8fbc545d0c873b3ad4bff856a2a3b498708e9f8553699d",
+      "dependencies": [
+        "com.yodo1.plugin.xiaomi:xiaomi-ad:2.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.8.1",
+          "1.7.8.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.8.1",
+          "2.4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.8.1",
+          "2.4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.7.8.1",
+          "2.4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.yodo1.android.sdk.base.Yodo1BaseFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.4.0.0",
+          "2.4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

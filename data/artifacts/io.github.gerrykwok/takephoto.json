@@ -1,0 +1,85 @@
+{
+  "coordinate": "io.github.gerrykwok:takephoto",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:55:30Z",
+      "sha256": "0178d351c0bc9a15b93cc90ad156ec5c5a95ec86d4e5d4820f07dd4d13066f3b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:55:30Z",
+      "sha256": "0178d351c0bc9a15b93cc90ad156ec5c5a95ec86d4e5d4820f07dd4d13066f3b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:55:29Z",
+      "sha256": "c7e0abf53a1fda9e30808bccd216432c5eba2c84744e1fbdcddb5f125525e421",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:55:29Z",
+      "sha256": "c7e0abf53a1fda9e30808bccd216432c5eba2c84744e1fbdcddb5f125525e421",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T04:55:28Z",
+      "sha256": "c7e0abf53a1fda9e30808bccd216432c5eba2c84744e1fbdcddb5f125525e421",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.syplm.takephoto.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xsj.takephoto.CropImageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.yodo1.plugin.mmy:mmy-account",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.4.6.4": {
+      "fetchedAt": "2026-10-25T02:35:39Z",
+      "sha256": "4b92e09560ded11a5d02787883aaf96ff4393337595f30074925711e8058f4ce",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.account.platform.onekey.SimStateReceive",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.SIM_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.open.aweme.authorize.ui.AwemeWebAuthorizeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.bytedance.sdk.open.aweme.authorize.ui.TikTokWebAuthorizeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ss.union.game.sdk.account.third.activity.TikTokLoginEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.6.4",
+          "1.4.6.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

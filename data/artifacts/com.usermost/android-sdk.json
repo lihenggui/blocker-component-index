@@ -1,0 +1,92 @@
+{
+  "coordinate": "com.usermost:android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.3": {
+      "fetchedAt": "2026-10-25T02:00:44Z",
+      "sha256": "b90bb7ca7e9a9b56c1ecb1327559622d534fe2833d0ea8cb9d23f0cc5da5f9c7",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.github.bumptech.glide:glide:4.13.0",
+        "com.gojek.courier:chuck-mqtt:0.1.6",
+        "com.gojek.courier:courier-message-adapter-gson:0.1.6",
+        "com.gojek.courier:courier-stream-adapter-rxjava2:0.1.6",
+        "com.gojek.courier:courier:0.1.6",
+        "com.gojek.courier:workmanager-pingsender:0.1.6",
+        "com.google.auto.value:auto-value-annotations:1.8.1",
+        "com.google.code.gson:gson:2.9.0",
+        "com.lyft.kronos:kronos-android:0.0.1-alpha11",
+        "io.grpc:grpc-stub:1.44.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.support.api.push.PushMsgReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.3",
+          "0.2.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.intent.action.PUSH",
+        "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.hms.support.api.push.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.3",
+          "0.2.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.android.push.intent.RECEIVE",
+        "com.huawei.android.push.intent.REGISTRATION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "sdk.main.core.PushTrampolineActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.3",
+          "0.2.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

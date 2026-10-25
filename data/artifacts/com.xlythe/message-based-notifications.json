@@ -1,0 +1,130 @@
+{
+  "coordinate": "com.xlythe:message-based-notifications",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1": {
+      "fetchedAt": "2026-10-25T02:22:53Z",
+      "sha256": "7f96d4cf77551543fcd40c1448abc23f64e602f8687036486e64f58ede968d40",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.0,)",
+        "com.google.guava:guava:[31.1-android,)"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T02:22:52Z",
+      "sha256": "7f96d4cf77551543fcd40c1448abc23f64e602f8687036486e64f58ede968d40",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.0,)",
+        "com.google.guava:guava:[31.1-android,)"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T02:22:52Z",
+      "sha256": "7f96d4cf77551543fcd40c1448abc23f64e602f8687036486e64f58ede968d40",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.0,)",
+        "com.google.guava:guava:[31.1-android,)"
+      ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-25T02:22:51Z",
+      "sha256": "7f96d4cf77551543fcd40c1448abc23f64e602f8687036486e64f58ede968d40",
+      "dependencies": [
+        "androidx.appcompat:appcompat:[1.5.0,)",
+        "com.google.guava:guava:[31.1-android,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.xlythe.manager.notifications.messages.MessageBasedNotificationManager$InlineReplyReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.manager.notifications.messages.MessageBasedNotificationManager$OnClickReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.manager.notifications.messages.MessageBasedNotificationManager$OnDismissReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.manager.notifications.messages.ResetReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.FORCED_MY_PACKAGE_REPLACED",
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xlythe.preferences.nonpersistent.IntentReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xlythe.manager.notifications.messages.ACTION_UPDATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

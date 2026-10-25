@@ -1,0 +1,292 @@
+{
+  "coordinate": "com.yodo1.plugin.vivo:vivo-open-ad",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.1.0.0": {
+      "fetchedAt": "2026-10-25T02:36:07Z",
+      "sha256": "18d847b38c449ba538081df5c37dc0c7801c24c049f13fe6db4cb8947d427581",
+      "dependencies": []
+    },
+    "6.2.5.0": {
+      "fetchedAt": "2026-10-25T02:36:06Z",
+      "sha256": "e30b5af8f22f7675f71ea4274c7c0db4e9c29fe0ab1d2c4878a2b8e8b81dd9af",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vivo.ic.dm.DownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ICDM",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.ic.dm.DownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.ic.dm.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.ic.dm.util.KeepAliveService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.manager.VivoDownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.VFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.vivo.mobilead.unified.interstitial.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.unified.interstitial.InterstitialVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.unified.interstitial.newstyle.InterstitialActivityBeta",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.unified.reward.RewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.util.dialogactivity.FeedBackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.util.dialogactivity.GoToAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.util.dialogactivity.InstallHintActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.util.dialogactivity.PrivacyPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.web.VivoADSDKWebView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.1.0.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.hapjs.features.channel.ChannelService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.hapjs.features.channel.transparentactivity.TransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.2.5.0",
+          "6.2.5.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

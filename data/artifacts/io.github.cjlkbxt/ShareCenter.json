@@ -1,0 +1,76 @@
+{
+  "coordinate": "io.github.cjlkbxt:ShareCenter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:36:01Z",
+      "sha256": "8e35aea4f8b7f86feb3d378fd2c4078462f12a5a89bd70baf8b946a6159a4cdf",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0",
+        "com.github.bumptech.glide:glide:4.13.2",
+        "com.google.android.material:material:1.6.0",
+        "com.guolindev.permissionx:permissionx:1.6.4",
+        "com.qmuiteam:arch:2.1.0",
+        "com.qmuiteam:qmui:2.1.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${APPLICATION_ID}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ai.leqi.lib_share_center.ui.ShareCenterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ai.leqi.lib_share_center.ui.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

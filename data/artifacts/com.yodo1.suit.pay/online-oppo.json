@@ -1,0 +1,64 @@
+{
+  "coordinate": "com.yodo1.suit.pay:online-oppo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.5.002.0": {
+      "fetchedAt": "2026-10-25T02:38:08Z",
+      "sha256": "cb8e221c8fdf7ba4165dd0bd6bcd6b60e745c586483043615b8f53251bf6676c",
+      "dependencies": [
+        "com.yodo1.3rdparty.pay.oppo:gamesdk-common:3.0.5.002",
+        "com.yodo1.3rdparty.pay.oppo:gamesdk:3.0.5.002"
+      ]
+    },
+    "3.0.8.101.0": {
+      "fetchedAt": "2026-10-25T02:38:07Z",
+      "sha256": "3bd8930396cf31d5d7938539da5cdeb2cdebb2502559d8c4afb12c93b1d51536",
+      "dependencies": [
+        "com.yodo1.3rdparty.pay.oppo:gamesdk-common:3.0.8.101",
+        "com.yodo1.3rdparty.pay.oppo:gamesdk:3.0.8.101"
+      ]
+    },
+    "3.0.8.101.1": {
+      "fetchedAt": "2026-10-25T02:38:07Z",
+      "sha256": "c769274abb5970333a65aa75ad20f1741738cf962cf227f325763c7fcdb050c1",
+      "dependencies": [
+        "com.yodo1.3rdparty.pay.oppo:gamesdk-common:3.0.8.101",
+        "com.yodo1.3rdparty.pay.oppo:gamesdk:3.0.8.101"
+      ]
+    },
+    "6.0.4.0": {
+      "fetchedAt": "2026-10-25T02:38:06Z",
+      "sha256": "bd87d4061ee031c93c86f87507d537579589badf83a9e27ac48d0a661dfe3cd8",
+      "dependencies": [
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.yodo1.plugin.oppo:oppo-online-gamesdk-common:6.0.4",
+        "com.yodo1.plugin.oppo:oppo-online-gamesdk:6.0.4",
+        "com.yodo1.plugin.oppo:oppo-signal-log:1.0.1",
+        "com.yodo1.plugin.oppo:oppo-signal-sdk:1.0.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.nearme.game.sdk.HangupBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.4.0",
+          "6.0.4.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.nearme.game.sdk.HANGUP_UPDATE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

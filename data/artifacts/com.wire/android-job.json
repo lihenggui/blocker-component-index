@@ -1,0 +1,125 @@
+{
+  "coordinate": "com.wire:android-job",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.6": {
+      "fetchedAt": "2026-10-25T02:18:18Z",
+      "sha256": "1ba1ce5ba8c3c176299928c46b95aa96a05f9a607e5ef5677e189f592b65981c",
+      "dependencies": [
+        "com.android.support:support-compat:26.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wire.android.job.JobBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.6",
+          "1.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "android.intent.action.QUICKBOOT_POWERON",
+        "com.htc.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wire.android.job.JobRescheduleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.6",
+          "1.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wire.android.job.v14.PlatformAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.2.6",
+          "1.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.wire.android.job.v14.RUN_JOB",
+        "net.vrallev.android.job.v14.RUN_JOB"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wire.android.job.v14.PlatformAlarmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.6",
+          "1.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wire.android.job.v14.PlatformAlarmServiceExact",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.6",
+          "1.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wire.android.job.v21.PlatformJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.2.6",
+          "1.2.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

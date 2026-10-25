@@ -1,0 +1,93 @@
+{
+  "coordinate": "com.webex.connect:webexconnect-inappmessaging",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T02:13:09Z",
+      "sha256": "af31a0fa4dafdfb9eaa385c16c4dcbf780de543f4b2c6060c65034fd679452d5",
+      "dependencies": [
+        "com.webex.connect:webexconnect-core:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T02:13:08Z",
+      "sha256": "af31a0fa4dafdfb9eaa385c16c4dcbf780de543f4b2c6060c65034fd679452d5",
+      "dependencies": [
+        "com.webex.connect:webexconnect-core:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-25T02:13:08Z",
+      "sha256": "af31a0fa4dafdfb9eaa385c16c4dcbf780de543f4b2c6060c65034fd679452d5",
+      "dependencies": [
+        "com.webex.connect:webexconnect-core:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-25T02:13:05Z",
+      "sha256": "af31a0fa4dafdfb9eaa385c16c4dcbf780de543f4b2c6060c65034fd679452d5",
+      "dependencies": [
+        "com.webex.connect:webexconnect-core:3.0.3"
+      ]
+    },
+    "3.0.4": {
+      "fetchedAt": "2026-10-25T02:13:07Z",
+      "sha256": "af31a0fa4dafdfb9eaa385c16c4dcbf780de543f4b2c6060c65034fd679452d5",
+      "dependencies": [
+        "com.webex.connect:webexconnect-core:3.0.4"
+      ]
+    },
+    "3.0.5": {
+      "fetchedAt": "2026-10-25T02:13:06Z",
+      "sha256": "22defcb1a09c34b63e3ede39eee4ba42663e84846939b547b99081b3b4b7f2ed",
+      "dependencies": [
+        "com.webex.connect:webexconnect-core:3.0.5"
+      ]
+    },
+    "3.0.6": {
+      "fetchedAt": "2026-10-25T02:13:06Z",
+      "sha256": "22defcb1a09c34b63e3ede39eee4ba42663e84846939b547b99081b3b4b7f2ed",
+      "dependencies": [
+        "com.webex.connect:webexconnect-core:3.0.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.webex.connect.inapp.InAppModuleInitializer"
+      ]
+    },
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

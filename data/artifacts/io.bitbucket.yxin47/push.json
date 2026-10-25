@@ -1,0 +1,57 @@
+{
+  "coordinate": "io.bitbucket.yxin47:push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:42:09Z",
+      "sha256": "739d13278b285021b7b20ba2cc92391c0c7547099f88cd3b86cf7011ace384c8",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:2.2.4",
+        "cn.jiguang.sdk:jpush:3.5.4",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.shineway.shys.lib.push.PushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.RECEIVE_MESSAGE"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.shineway.shys.lib.push.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jiguang.user.service.action"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

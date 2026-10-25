@@ -1,0 +1,130 @@
+{
+  "coordinate": "io.github.libolf:fast-android-notification",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:17:00Z",
+      "sha256": "2fb900692aba4ef553b3f29aead3520076f26d3493a7b7ea5939ca6759f31dbf",
+      "dependencies": [
+        "io.github.libolf:fast-android-common:1.0.11"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:17:00Z",
+      "sha256": "c16956e8fb141b585b60ec05dbcb20527d1a80d28b0a3476b82366fd5b5a400f",
+      "dependencies": [
+        "io.github.libolf:fast-android-common:1.0.11"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:16:59Z",
+      "sha256": "5bece4833341d0d440731cb2f96d9ffa5d2a692d5098ab9e07e80428561289f7",
+      "dependencies": [
+        "io.github.libolf:fast-android-common:1.0.11"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:16:58Z",
+      "sha256": "170259199c213e7025673eea2f1988ed8fad689019c118553fe4fd81cbb2d70a",
+      "dependencies": [
+        "io.github.libolf:fast-android-common:1.0.12",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:16:57Z",
+      "sha256": "170259199c213e7025673eea2f1988ed8fad689019c118553fe4fd81cbb2d70a",
+      "dependencies": [
+        "io.github.libolf:fast-android-common:1.0.13",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.ultimate.notification.manage.NotificationManage$NotificationCancelReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ultimate.notification.test.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ultimate.notification.test.PendingTestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ultimate.notification.test.PendingTestActivity2",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ultimate.notification.test.TestService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

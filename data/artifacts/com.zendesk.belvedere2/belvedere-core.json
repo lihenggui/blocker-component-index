@@ -1,0 +1,91 @@
+{
+  "coordinate": "com.zendesk.belvedere2:belvedere-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T02:45:23Z",
+      "sha256": "0311b4762830cb5ac0b712b0c44686367911ab5035ad4139f2daf5fccd728abd",
+      "dependencies": [
+        "com.android.support:support-core-utils:27.0.2",
+        "com.android.support:support-fragment:27.0.2"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T02:45:22Z",
+      "sha256": "702583ddf1cbb028caf81c8ca6b0b222cf7fe82cb220d0c36cb4d501fc3a054d",
+      "dependencies": [
+        "com.android.support:support-core-utils:27.0.2",
+        "com.android.support:support-fragment:27.0.2"
+      ]
+    },
+    "2.1.0-PCOMP": {
+      "fetchedAt": "2026-10-25T02:45:22Z",
+      "sha256": "d9b1114d666d4ffb305d95614ee10c6086fa814c5d92e2976e4f6510d170ecaa",
+      "dependencies": [
+        "com.android.support:support-core-utils:27.1.0",
+        "com.android.support:support-fragment:27.1.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T02:45:21Z",
+      "sha256": "6c4403634ebb3517dc3e9d41f945e0e59c51f700b11fc0a42ba244cc0e93646d",
+      "dependencies": [
+        "com.android.support:support-core-utils:27.1.0",
+        "com.android.support:support-fragment:27.1.0"
+      ]
+    },
+    "2.2.1": {
+      "fetchedAt": "2026-10-25T02:45:20Z",
+      "sha256": "4cdeb415bc6ec6a2185ad8ab341bd780947a80167299e399ccd6469aef6ab721",
+      "dependencies": [
+        "com.android.support:support-core-utils:27.1.0",
+        "com.android.support:support-fragment:27.1.0"
+      ]
+    },
+    "2.2.2": {
+      "fetchedAt": "2026-10-25T02:45:20Z",
+      "sha256": "9b03b8349148772113db3571a3a233989b82ef1a4e2ae28cd1b9415461c31ea8",
+      "dependencies": [
+        "com.android.support:support-core-utils:27.1.0",
+        "com.android.support:support-fragment:27.1.0"
+      ]
+    },
+    "2.2.3": {
+      "fetchedAt": "2026-10-25T02:45:19Z",
+      "sha256": "48307764f084fb5d84c551023e723ed872b6eac7fa83174c83fb491ec8433016",
+      "dependencies": [
+        "com.android.support:support-core-utils:27.1.0",
+        "com.android.support:support-fragment:27.1.0"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T02:45:18Z",
+      "sha256": "750f17bfe690f8249a8aa10deb2f36840f4033ae0d6f460e4473de865b80d846",
+      "dependencies": [
+        "com.android.support:support-core-utils:28.0.0",
+        "com.android.support:support-fragment:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "zendesk.belvedere.BelvedereFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.belvedere2.attachments",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

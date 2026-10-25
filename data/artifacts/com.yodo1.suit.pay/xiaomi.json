@@ -1,0 +1,41 @@
+{
+  "coordinate": "com.yodo1.suit.pay:xiaomi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.3.0.6.0": {
+      "fetchedAt": "2026-10-25T02:38:17Z",
+      "sha256": "0373ffb591b716bf11109cc89624d4014eaeff5b8ebfd3584b3a9ef80a55c6cd",
+      "dependencies": [
+        "com.alipay.sdk:alipaysdk-android:15.8.09",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.zxing:core:3.2.0",
+        "com.xiaomi.gamecenter.sdk:mioauth:3.3.0.6",
+        "com.xiaomi.gamecenter.sdk:onetrack-sdk:1.2.7"
+      ]
+    },
+    "3.4.6.0": {
+      "fetchedAt": "2026-10-25T02:38:17Z",
+      "sha256": "c5b2cef54bf5972269c54f8f2b214fbdd89f57281cc36f832f0b40df326a005d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.xiaomi.gamecenter.sdk.MiOauthProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.3.0.6.0",
+          "3.4.6.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mi_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

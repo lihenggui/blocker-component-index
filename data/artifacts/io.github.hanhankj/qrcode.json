@@ -1,0 +1,70 @@
+{
+  "coordinate": "io.github.hanhankj:qrcode",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T05:00:24Z",
+      "sha256": "e8438ff6b16df9e6eb172688d3b83168fe510a4970cc6a1724ca2e419b0c074d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.camera:camera-camera2:1.1.0",
+        "androidx.camera:camera-lifecycle:1.1.0",
+        "androidx.camera:camera-view:1.1.0",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.zxing:core:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T05:00:23Z",
+      "sha256": "25d57fa8182851a121d5e12f21f9e646cc9e51956d681d42425ddebd58e8314d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.camera:camera-camera2:1.1.0",
+        "androidx.camera:camera-lifecycle:1.1.0",
+        "androidx.camera:camera-view:1.1.0",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.zxing:core:3.5.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.asia.qrcode.library.ScanCodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hh.qrcode.library.ScanCodeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.7",
+          "1.0.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

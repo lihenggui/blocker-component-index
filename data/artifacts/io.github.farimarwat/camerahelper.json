@@ -1,0 +1,43 @@
+{
+  "coordinate": "io.github.farimarwat:camerahelper",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:50:36Z",
+      "sha256": "d80c936ece2b800a0cc410ecffafb5d7118fddfc57de2bd425ce9c2f2e83c048",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.camera:camera-camera2:1.2.0-rc01",
+        "androidx.camera:camera-core:1.2.0-rc01",
+        "androidx.camera:camera-lifecycle:1.2.0-rc01",
+        "androidx.camera:camera-view:1.2.0-rc01",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.1.0",
+        "com.google.android.material:material:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.truescanner.camerahelper.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    }
+  ]
+}

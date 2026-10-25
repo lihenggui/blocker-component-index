@@ -1,0 +1,160 @@
+{
+  "coordinate": "io.github.mfisme:mfads-ylh",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:24:20Z",
+      "sha256": "95ca0593e566163031e99505fd5bac509257cb3ed481807d348fda1dea63d167",
+      "dependencies": []
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:24:19Z",
+      "sha256": "1d74a2572d5ef72056dee14c5e45754dc5e40cea41f96f29abddba5ac964300b",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.qq.e.ads.ADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.LandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.PortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoLandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoPortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.comm.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

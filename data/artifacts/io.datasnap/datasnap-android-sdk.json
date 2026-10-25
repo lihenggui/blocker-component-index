@@ -1,0 +1,105 @@
+{
+  "coordinate": "io.datasnap:datasnap-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T03:46:40Z",
+      "sha256": "a3172e9052e0631ad7264e05ecf463ba5d733298fd1ab6627b54827ed197d636",
+      "dependencies": [
+        "com.android.support:multidex:1.0.1",
+        "com.google.android.gms:play-services:[6.1.0, 6.2)",
+        "com.google.code.gson:gson:2.6.2",
+        "org.apache.httpcomponents:httpclient-android:4.3.5.1",
+        "org.apache.httpcomponents:httpmime:4.3",
+        "org.slf4j:slf4j-api:1.7.2"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T03:46:39Z",
+      "sha256": "18005698f78ae90616258165be8ab00e675cf352edb0bd5dcc99e3e44d36e119",
+      "dependencies": [
+        "com.android.support:multidex:1.0.1",
+        "com.google.android.gms:play-services:[6.1.0, 6.2)",
+        "com.google.code.gson:gson:2.6.2",
+        "org.apache.httpcomponents:httpclient-android:4.3.5.1",
+        "org.apache.httpcomponents:httpmime:4.3",
+        "org.slf4j:slf4j-api:1.7.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.datasnap.android.services.GimbalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.estimote.sdk.service.BeaconService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gimbal.internal.service.GimbalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.datasnap.android.service.GIMBAL_SERVICE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gimbal.internal.service.GimbalServiceStartStopReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_SHUTDOWN",
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

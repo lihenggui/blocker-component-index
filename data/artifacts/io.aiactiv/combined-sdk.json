@@ -1,0 +1,45 @@
+{
+  "coordinate": "io.aiactiv:combined-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1-alpha01": {
+      "fetchedAt": "2026-10-25T03:36:26Z",
+      "sha256": "a0140af2cac64532e12583ccfe38b134c671e8bb133a6a747b1b71ee48f32a7e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.exoplayer:exoplayer-core:2.10.5",
+        "com.google.android.exoplayer:exoplayer-dash:2.10.5",
+        "com.google.android.exoplayer:exoplayer-hls:2.10.5",
+        "com.google.android.exoplayer:exoplayer-smoothstreaming:2.10.5",
+        "com.google.android.exoplayer:exoplayer-ui:2.10.5",
+        "com.google.android.exoplayer:extension-ima:2.10.5",
+        "com.google.code.gson:gson:2.8.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1-alpha01",
+          "0.0.1-alpha01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "io.aiactiv.sdk.AiactivInitializer"
+      ]
+    }
+  ]
+}

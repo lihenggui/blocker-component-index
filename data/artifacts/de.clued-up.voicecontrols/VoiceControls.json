@@ -1,0 +1,138 @@
+{
+  "coordinate": "de.clued-up.voicecontrols:VoiceControls",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T02:52:49Z",
+      "sha256": "cfac55d5226cbccd1ba2407cb90e33730b1ff2a1ff3edfeac33b5a36d759ec82",
+      "dependencies": [
+        "com.google.android.gms:play-services-wearable:6.1.71",
+        "de.clued-up.voicecontrols:Backend:0.0.2"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T02:52:48Z",
+      "sha256": "bd6cfae6dfa5a24d0e643cfe6eb0a019058812053f96ac6c313385048f373eba",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0",
+        "com.google.android.gms:play-services-wearable:6.1.71",
+        "de.clued-up.voicecontrols:Backend:0.0.6"
+      ]
+    },
+    "0.0.7": {
+      "fetchedAt": "2026-10-25T02:52:47Z",
+      "sha256": "1a21390591d4188fc1590b95fecd53140e8f97ba91a168a34e3c230ff0259056",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0",
+        "com.google.android.gms:play-services-wearable:6.1.71"
+      ]
+    },
+    "0.0.8": {
+      "fetchedAt": "2026-10-25T02:52:46Z",
+      "sha256": "fa0d1f80fd7a7880de49fd8142449207ce23190efaf64216d2a309af8b0c05b5",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0",
+        "com.google.android.gms:play-services-wearable:6.1.71"
+      ]
+    },
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T02:52:46Z",
+      "sha256": "40febd065a7ad4aaaab1c099c2d4a8b63b2e36871b4c8ae0b6748307912603fe",
+      "dependencies": [
+        "com.android.support:support-v4:21.0.0",
+        "com.google.android.gms:play-services-wearable:6.1.71"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.clued_up.voicecontrols.TestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "de.clued_up.voicecontrols.services.CallVoiceControlBackendService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.clued_up.voicecontrols.services.VoiceFormService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.6",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.clued_up.voicecontrols.test.TestVoiceFormService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.clued_up.voicecontrols.voicereply.ReplyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

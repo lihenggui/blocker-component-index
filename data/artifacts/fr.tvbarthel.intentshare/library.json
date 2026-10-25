@@ -1,0 +1,57 @@
+{
+  "coordinate": "fr.tvbarthel.intentshare:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:22:01Z",
+      "sha256": "a63cc2b5f8967193e2d466dff7f2e09598c00f91506bda357cdc0cc44f25a20b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.2.0",
+        "com.android.support:recyclerview-v7:23.2.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:22:00Z",
+      "sha256": "017b6f3eeabfb9f60bfbd245e8a2fa6e9439c67347df96ddcabf37b9f692e9b2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.2.0",
+        "com.android.support:recyclerview-v7:23.2.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T03:22:00Z",
+      "sha256": "fa9ffaf240ef28b2db1a5034ba4b653fae51f3e3360a758ef37491ce4531adb0",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0",
+        "com.android.support:recyclerview-v7:25.0.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T03:21:59Z",
+      "sha256": "8b9989ccb20d5615716657b5574eec013e5dd05ac1af40d705de823131e71211",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.0.0",
+        "com.android.support:recyclerview-v7:25.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "fr.tvbarthel.intentshare.TargetChooserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

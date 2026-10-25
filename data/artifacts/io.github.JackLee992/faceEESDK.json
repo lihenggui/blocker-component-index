@@ -1,0 +1,316 @@
+{
+  "coordinate": "io.github.JackLee992:faceEESDK",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.10.0": {
+      "fetchedAt": "2026-10-25T04:03:36Z",
+      "sha256": "810888a5f195b87e669e77137d123f6d5eb21eef44f13e6a449d0c946b577ecf",
+      "dependencies": [
+        "com.android.databinding:viewbinding:4.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:logging-interceptor:3.4.1",
+        "com.squareup.okhttp3:okhttp:3.14.9",
+        "faceEE_sdk:biometricLib:unspecified",
+        "faceEE_sdk:loaderStatus:unspecified",
+        "faceEE_sdk:optLib:unspecified",
+        "faceEE_sdk:v5SDk:unspecified",
+        "net.sourceforge.streamsupport:streamsupport-cfuture:1.7.4"
+      ]
+    },
+    "1.10.1": {
+      "fetchedAt": "2026-10-25T04:03:35Z",
+      "sha256": "810888a5f195b87e669e77137d123f6d5eb21eef44f13e6a449d0c946b577ecf",
+      "dependencies": [
+        "com.android.databinding:viewbinding:4.1.1",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.squareup.okhttp3:logging-interceptor:3.4.1",
+        "com.squareup.okhttp3:okhttp:3.14.9",
+        "io.github.JackLee992:biometricLib:1.10.0-SNAPSHOT",
+        "io.github.JackLee992:loaderStatus:1.10.0-SNAPSHOT",
+        "io.github.JackLee992:optLib:1.10.0-SNAPSHOT",
+        "io.github.JackLee992:v5SDk:1.10.0-SNAPSHOT",
+        "net.sourceforge.streamsupport:streamsupport-cfuture:1.7.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.megvii.faceee_sdk.module.agrement.AgreementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.auth.AuthManagementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.auth.FastPassNotSupportActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.auth.RegisterFastPassAfterVerifyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.login.LoginLoadingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.otp.FaceEEOfflineOTPActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.otp.FaceEEOtpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.qrcode.VerifyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.register.RegisterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.register.RegisterVerifyTypeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.result.ResultFailedActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.module.result.ResultSuccessActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.view.RegisterVerifyLoadingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.view.VerifyLoadingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.view.VerifyNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.megvii.faceee_sdk.zxinglibrary.android.QrCodeScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "1.10.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

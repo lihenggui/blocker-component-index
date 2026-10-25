@@ -1,0 +1,138 @@
+{
+  "coordinate": "eu.codlab:uxkit-system-service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.7.1": {
+      "fetchedAt": "2026-10-25T03:15:39Z",
+      "sha256": "e34d20a9a5a581883c42aaa8c82740e62e715c93636040d872afb93da95e1404",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "eu.codlab:uxkit-common:3.7.1",
+        "eu.codlab:uxkit:3.7.1"
+      ]
+    },
+    "3.7.3": {
+      "fetchedAt": "2026-10-25T03:15:38Z",
+      "sha256": "e34d20a9a5a581883c42aaa8c82740e62e715c93636040d872afb93da95e1404",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "eu.codlab:uxkit-common:3.7.3",
+        "eu.codlab:uxkit:3.7.3"
+      ]
+    },
+    "3.7.3.1": {
+      "fetchedAt": "2026-10-25T03:15:37Z",
+      "sha256": "e34d20a9a5a581883c42aaa8c82740e62e715c93636040d872afb93da95e1404",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "eu.codlab:uxkit-common:3.7.3.1",
+        "eu.codlab:uxkit:3.7.3.1"
+      ]
+    },
+    "3.7.3.2": {
+      "fetchedAt": "2026-10-25T03:15:36Z",
+      "sha256": "e34d20a9a5a581883c42aaa8c82740e62e715c93636040d872afb93da95e1404",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "eu.codlab:uxkit-common:3.7.3.2",
+        "eu.codlab:uxkit:3.7.3.2"
+      ]
+    },
+    "3.7.3.3": {
+      "fetchedAt": "2026-10-25T03:15:36Z",
+      "sha256": "e34d20a9a5a581883c42aaa8c82740e62e715c93636040d872afb93da95e1404",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "eu.codlab:uxkit-common:3.7.3.3",
+        "eu.codlab:uxkit:3.7.3.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.voxeet.uxkit.service.OnLeaveActionBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.1",
+          "3.7.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.voxeet.uxkit.service.OnMuteActionBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.1",
+          "3.7.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.voxeet.uxkit.service.OnUnMuteActionBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.1",
+          "3.7.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.voxeet.uxkit.service.VoxeetSystemService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.7.1",
+          "3.7.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.voxeet.uxkit.service.manifests.VoxeetSystemServiceManifestComponent",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.7.1",
+          "3.7.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.manifests.VoxeetSystemServiceManifestComponent",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

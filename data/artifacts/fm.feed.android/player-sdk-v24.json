@@ -1,0 +1,49 @@
+{
+  "coordinate": "fm.feed.android:player-sdk-v24",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.1.8": {
+      "fetchedAt": "2026-10-25T03:21:15Z",
+      "sha256": "7bea2be6002de38eb318d85682c75b1414decd60d792f8372c94698904846d8c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.google.android.exoplayer:exoplayer-core:r2.5.4",
+        "com.google.code.gson:gson:2.8.2",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "net.jodah:concurrentunit:0.4.3"
+      ]
+    },
+    "5.1.8-2": {
+      "fetchedAt": "2026-10-25T03:21:14Z",
+      "sha256": "4182b8de5477d2cf2a3547162bb8b05f561840cf9c27b7dbc222354f7690e81d",
+      "dependencies": [
+        "com.android.support:appcompat-v7:24.2.1",
+        "com.google.android.exoplayer:exoplayer-core:r2.5.4",
+        "com.google.code.gson:gson:2.8.2",
+        "com.squareup.retrofit2:converter-gson:2.3.0",
+        "com.squareup.retrofit2:retrofit:2.3.0",
+        "net.jodah:concurrentunit:0.4.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "fm.feed.android.playersdk.PlayerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.1.8",
+          "5.1.8-2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

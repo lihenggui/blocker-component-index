@@ -1,0 +1,91 @@
+{
+  "coordinate": "io.github.firstletterz:support",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T04:51:20Z",
+      "sha256": "61c482132c56764d56bc79e8cc6a6acd7575648d7ce0b61cd6d6c8f47b01c163",
+      "dependencies": [
+        "io.github.firstletterz:api-base:0.2.4",
+        "io.github.firstletterz:api-parse:1.0.0",
+        "io.github.firstletterz:tool-central:1.0.0",
+        "io.github.firstletterz:tool-compat-permission:0.1.2",
+        "io.github.firstletterz:tool-expand:0.2.2",
+        "io.github.firstletterz:tool-file:0.1.0",
+        "io.github.firstletterz:tool-kit:0.1.2",
+        "io.github.firstletterz:tool-stack:1.0.3",
+        "io.github.firstletterz:ui-kit:0.2.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zpf.support.base.CompatContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zpf.support.base.ContainerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zpf.support.single.base.CompatSinglePageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.zpf.support.single.base.SinglePageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "coordinate": "io.github.jiahui90:commonoauth",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:07:57Z",
+      "sha256": "65f813806a3c8e93cb8bebad2a14708b033c14506e01952a2c3e938d3699ef64",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.moyun.commonui:commonui:0.2.1",
+        "com.sina.weibo.sdk:core:4.4.4",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.4"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:07:57Z",
+      "sha256": "0826a3c9c4da73a9b65f40499c6551b19391df3b22743d97e19c901c5266ec12",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.sina.weibo.sdk:core:4.4.4",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.4",
+        "io.github.jiahui90:commonui:0.2.4"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:07:56Z",
+      "sha256": "8029515803a580fe9ed537be8c2b0dbe1dd51b91fe2763d44359962fa3067234",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.sina.weibo.sdk:core:4.4.4",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.4",
+        "io.github.jiahui90:commonui:0.2.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tauth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

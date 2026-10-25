@@ -1,0 +1,67 @@
+{
+  "coordinate": "com.trendyol.android.devtools:autofill-service",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T01:46:07Z",
+      "sha256": "6fac8f55269cba8064b3cec1ce1c958cfaad45902fe3cdac7e5793e02e7c3610",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.3",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:viewbinding:7.0.4",
+        "androidx.fragment:fragment-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0",
+        "androidx.preference:preference-ktx:1.1.1",
+        "com.github.Trendyol.android-ui-components:dialogs:dialogs-1.2.7",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.moshi:moshi-kotlin:1.13.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    },
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T01:46:06Z",
+      "sha256": "b96bbd8238b49ffecb2cf2eeb48ab1659fc1d5f1339cdf3518e98586610f6ac6",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.fragment:fragment-ktx:1.6.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1",
+        "androidx.preference:preference-ktx:1.2.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.google.android.material:material:1.9.0",
+        "com.squareup.moshi:moshi-kotlin:1.14.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.trendyol.android.devtools.autofillservice.AutofillInitializer"
+      ]
+    }
+  ]
+}

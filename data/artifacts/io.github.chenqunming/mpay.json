@@ -1,0 +1,88 @@
+{
+  "coordinate": "io.github.chenqunming:mpay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "SNAPSHOT-1.0.0": {
+      "fetchedAt": "2026-10-25T04:34:31Z",
+      "sha256": "981f564c99ece1df0e4ff22c7e7a21bf8a60294fcc78254e905671129b711487",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "com.codeqm.sdk:alipay:15.8.03",
+        "com.google.android.material:material:1.3.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    },
+    "SNAPSHOT-1.0.1": {
+      "fetchedAt": "2026-10-25T04:34:31Z",
+      "sha256": "cb4f0a0d998a9c3eadade80d8952b68c2dba00f13b5ea12d0a2d4abe008e3226",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:34:30Z",
+      "sha256": "cb4f0a0d998a9c3eadade80d8952b68c2dba00f13b5ea12d0a2d4abe008e3226",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:34:30Z",
+      "sha256": "cb4f0a0d998a9c3eadade80d8952b68c2dba00f13b5ea12d0a2d4abe008e3226",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0",
+        "io.github.chenqunming:alipaysdk:15.8.05"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.codeqm.mpay.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-1.0.0",
+          "SNAPSHOT-1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.codeqm.mpay.wx.WXPayEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

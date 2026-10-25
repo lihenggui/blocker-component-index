@@ -1,0 +1,45 @@
+{
+  "coordinate": "io.github.Sum-sdl:library-base",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T04:06:08Z",
+      "sha256": "596e423d44d123db21f3acd7a61e5f03a981efcc93683ddfbb5825d93b366b73",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.2.1",
+        "com.scwang.smart:refresh-layout-kernel:2.0.1"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T04:06:08Z",
+      "sha256": "596e423d44d123db21f3acd7a61e5f03a981efcc93683ddfbb5825d93b366b73",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.2.1",
+        "com.scwang.smart:refresh-layout-kernel:2.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sum.library.storage.BaseSdkFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sdkFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

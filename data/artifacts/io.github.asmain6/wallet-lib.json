@@ -1,0 +1,405 @@
+{
+  "coordinate": "io.github.asmain6:wallet-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:20:01Z",
+      "sha256": "0f794f5018abbd75d2cbc785063c4c617c60ac04ef34dc2c4d5a7162c6480d60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "cn.finalteam.loadingviewfinal:loading-more-view:1.0.1",
+        "cn.finalteam.loadingviewfinal:swipe-refresh-layout:1.0.1",
+        "cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1",
+        "com.alibaba.android:vlayout:1.2.36",
+        "com.alibaba:fastjson:1.2.48",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.8.0",
+        "com.github.wendux:DSBridge-Android:3.0-SNAPSHOT",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.zxing:core:3.3.3",
+        "com.king.zxing:zxing-lite:1.1.2",
+        "com.makeramen:roundedimageview:2.3.0",
+        "com.qmuiteam:qmui:1.1.3",
+        "com.readystatesoftware.systembartint:systembartint:1.0.3",
+        "com.snail:antifake:1.4",
+        "com.squareup.okhttp3:logging-interceptor:3.14.9",
+        "com.squareup.okhttp3:okhttp:3.14.9",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "com.tencent:mmkv-static:1.2.10",
+        "com.wang.avi:library:2.1.3",
+        "com.zhy:base-adapter:3.0.3",
+        "com.zhy:base-rvadapter:3.0.3",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.anko:anko:0.10.8",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.koin:koin-androidx-ext:2.1.5",
+        "org.koin:koin-androidx-fragment:2.1.5",
+        "org.koin:koin-androidx-scope:2.1.5",
+        "org.koin:koin-androidx-viewmodel:2.1.5",
+        "org.litepal.android:kotlin:3.0.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:20:00Z",
+      "sha256": "0f794f5018abbd75d2cbc785063c4c617c60ac04ef34dc2c4d5a7162c6480d60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "cn.finalteam.loadingviewfinal:loading-more-view:1.0.1",
+        "cn.finalteam.loadingviewfinal:swipe-refresh-layout:1.0.1",
+        "cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1",
+        "com.alibaba:fastjson:1.2.48",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.8.0",
+        "com.github.wendux:DSBridge-Android:3.0-SNAPSHOT",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.zxing:core:3.3.3",
+        "com.king.zxing:zxing-lite:1.1.2",
+        "com.makeramen:roundedimageview:2.3.0",
+        "com.qmuiteam:qmui:1.1.3",
+        "com.readystatesoftware.systembartint:systembartint:1.0.3",
+        "com.snail:antifake:1.4",
+        "com.squareup.okhttp3:logging-interceptor:3.14.9",
+        "com.squareup.okhttp3:okhttp:3.14.9",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "com.tencent:mmkv-static:1.2.10",
+        "com.wang.avi:library:2.1.3",
+        "com.zhy:base-adapter:3.0.3",
+        "com.zhy:base-rvadapter:3.0.3",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.anko:anko:0.10.8",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.koin:koin-androidx-ext:2.1.5",
+        "org.koin:koin-androidx-fragment:2.1.5",
+        "org.koin:koin-androidx-scope:2.1.5",
+        "org.koin:koin-androidx-viewmodel:2.1.5",
+        "org.litepal.android:kotlin:3.0.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T04:19:58Z",
+      "sha256": "0f794f5018abbd75d2cbc785063c4c617c60ac04ef34dc2c4d5a7162c6480d60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "cn.finalteam.loadingviewfinal:loading-more-view:1.0.1",
+        "cn.finalteam.loadingviewfinal:swipe-refresh-layout:1.0.1",
+        "cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40",
+        "com.github.bumptech.glide:glide:4.8.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.king.zxing:zxing-lite:1.1.2",
+        "com.readystatesoftware.systembartint:systembartint:1.0.3",
+        "com.snail:antifake:1.4",
+        "com.squareup.okhttp3:logging-interceptor:3.14.9",
+        "com.squareup.okhttp3:okhttp:3.14.9",
+        "com.squareup.retrofit2:converter-gson:2.8.2",
+        "com.squareup.retrofit2:retrofit:2.8.2",
+        "com.tencent:mmkv-static:1.2.10",
+        "com.wang.avi:library:2.1.3",
+        "com.zhy:base-adapter:3.0.3",
+        "com.zhy:base-rvadapter:3.0.3",
+        "org.greenrobot:eventbus:3.1.1",
+        "org.jetbrains.anko:anko:0.10.8",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72",
+        "org.koin:koin-androidx-ext:2.1.5",
+        "org.koin:koin-androidx-fragment:2.1.5",
+        "org.koin:koin-androidx-scope:2.1.5",
+        "org.koin:koin-androidx-viewmodel:2.1.5",
+        "org.litepal.android:kotlin:3.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.fzm.walletmodule.ui.activity.BackUpWalletActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.CaptureCustomActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.ChangePasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.CheckMnemActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.CreateMnemActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.CreateWalletActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.ImportWalletActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.InActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.MnemPasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.MyWalletsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.OutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.SetPasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.TransactionDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.TransactionsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.WalletDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.fzm.walletmodule.ui.activity.WebAppDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

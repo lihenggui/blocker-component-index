@@ -1,0 +1,40 @@
+{
+  "coordinate": "io.gitee.tengjijing:contactspicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:59:25Z",
+      "sha256": "9a5051e558a46baab05c48d99c6a32adaf61f6d40b7a982a152b09c3f243b094",
+      "dependencies": [
+        "io.gitee.tengjijing:contactspicker:1.0.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T03:59:24Z",
+      "sha256": "e84b091d58f3e021612f01785afebee46e6002b984eaf269fee0c152d8421467",
+      "dependencies": [
+        "com.l4digital.fastscroll:fastscroll:1.0.4",
+        "com.miguelcatalan:materialsearchview:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.contactspicker.MultiContactPickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

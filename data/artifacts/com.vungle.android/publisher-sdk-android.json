@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.vungle.android:publisher-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.9.1": {
+      "fetchedAt": "2026-10-25T02:09:17Z",
+      "sha256": "7c763cef8c8b73447e90f204082f5a3708a61dc56cb935badeba6908e22067e4",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:okhttp:3.12.12",
+        "com.squareup.okio:okio:1.15.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50",
+        "vungle-android-sdk:OMsdk:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vungle.warren.NetworkProviderReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.9.1",
+          "6.9.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.vungle.warren.ui.VungleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.9.1",
+          "6.9.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vungle.warren.utility.VungleProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.9.1",
+          "6.9.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.vungle-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

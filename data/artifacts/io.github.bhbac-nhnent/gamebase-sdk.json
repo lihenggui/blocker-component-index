@@ -1,0 +1,68 @@
+{
+  "coordinate": "io.github.bhbac-nhnent:gamebase-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T04:24:00Z",
+      "sha256": "63d1242a6cba9fb6aef465b45215e0fe27436cdbe3ff74855e9d5d7fddca0425",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.6.0",
+        "io.github.bhbac-nhnent:gamebase-sdk-base:0.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.toast.android.gamebase.GamebaseWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.toast.android.gamebase.observer.heartbeat.HeartbeatAlertActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.toast.android.gamebase.serverpush.kickout.KickoutAlertActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "0.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "coordinate": "io.github.andrnv:sonamaven",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:15:21Z",
+      "sha256": "62bd746e0d1d4814d962d3289d375d4322c6216d3147b7986f521fdd0cb25b21",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.material:material:1.3.0"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:15:21Z",
+      "sha256": "62bd746e0d1d4814d962d3289d375d4322c6216d3147b7986f521fdd0cb25b21",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.material:material:1.3.0"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T04:15:21Z",
+      "sha256": "0feb2e435b238a1529dfc4d3b0a0ea98568ba6cc96eb2fe1128be89408624633",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.material:material:1.3.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:15:20Z",
+      "sha256": "b30e25b123f430f4bde66b045d2c1fb84f7b0b938158a0cdbcccddd819f879a5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "com.google.android.material:material:1.3.0"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T04:15:20Z",
+      "sha256": "4d25726e73a46e01b68208ce2dcd650e57806abbf233a1a740f4b7450d092962",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.recyclerview:recyclerview:1.2.0",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.firebase:firebase-core:17.2.2",
+        "com.google.firebase:firebase-messaging:20.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.andrnv.AppUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.notifyvisitors.custom.PERMISSION",
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MY_PACKAGE_REPLACED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.CheckUpdateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.notifyvisitors.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.ModeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.2"
+        ],
+        [
+          "0.0.4",
+          "0.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.bot.NotifyChatBotActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.center.NotificationsListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.geofence.GeofenceTransitionsIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.inapp.FullScreenPopup",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.inapp.FullScreenPopupTranslucent",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.internal.InAppRedirection",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.internal.OpenUrlService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.notifyvisitors.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.internal.TempActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.push.PushDismissListener",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.notifyvisitors.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.push.PushIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.push.StickyPN$StickyPushCloseReceiver",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.notifyvisitors.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.push.crousel.UpdateCrouselPN",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.notifyvisitors.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.andrnv.push.rate.UpdateRatingPN",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "0.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "${applicationId}.notifyvisitors.custom.PERMISSION",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

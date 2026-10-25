@@ -1,0 +1,99 @@
+{
+  "coordinate": "com.willowtreeapps.hyperion:hyperion-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.37": {
+      "fetchedAt": "2026-10-25T02:16:45Z",
+      "sha256": "866b3592e911f6bf88d38d5c9d698a68db0a77c4eedbe2bf7fd334ff4e927318",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.dagger:dagger:2.24",
+        "com.willowtreeapps.hyperion:hyperion-plugin:0.9.37"
+      ]
+    },
+    "0.9.38": {
+      "fetchedAt": "2026-10-25T02:16:44Z",
+      "sha256": "ad121d8cbf7f7b85015cf8b34b67e91888f68809d5627be699a922802789dc5c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.dagger:dagger:2.24",
+        "com.willowtreeapps.hyperion:hyperion-plugin:0.9.38"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.9.38",
+          "0.9.38"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.willowtreeapps.hyperion.core.internal.HyperionInitializer"
+      ]
+    },
+    {
+      "name": "com.willowtreeapps.hyperion.core.StandaloneActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.37",
+          "0.9.38"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.willowtreeapps.hyperion.core.internal.HyperionInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.9.37",
+          "0.9.37"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.HyperionInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.willowtreeapps.hyperion.core.internal.HyperionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.9.37",
+          "0.9.38"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

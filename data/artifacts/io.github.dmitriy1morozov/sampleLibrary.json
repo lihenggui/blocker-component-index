@@ -1,0 +1,105 @@
+{
+  "coordinate": "io.github.dmitriy1morozov:sampleLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:44:55Z",
+      "sha256": "dfae7c83f19ae35d6e968654902300b3a4bcb710b091e1877cc87d32184ffd72",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:44:54Z",
+      "sha256": "27132e2b4406d4e7e7d53cf967c5c8fed5da5a6420d0f1bef7e5f014eec0ccd1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-appset:16.0.2",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:okhttp-bom:4.10.0",
+        "io.sentry:sentry-android:6.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:44:53Z",
+      "sha256": "27132e2b4406d4e7e7d53cf967c5c8fed5da5a6420d0f1bef7e5f014eec0ccd1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-appset:16.0.2",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.squareup.okhttp3:okhttp-bom:4.10.0",
+        "io.sentry:sentry-android:6.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dmitriy1morozov.sample.library.InterceptorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.app.lib_name"
+      ]
+    },
+    {
+      "name": "com.dmitriy1morozov.sample.library.NotificationListenerExampleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.service.notification.NotificationListenerService"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.dmitriy1morozov.sample.library.YespoPushBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

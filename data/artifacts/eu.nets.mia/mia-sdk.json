@@ -1,0 +1,123 @@
+{
+  "coordinate": "eu.nets.mia:mia-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T03:16:50Z",
+      "sha256": "8881fe9e045ca626dd473091eba6ff0010f413943f0f22b154094c18161e6863",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+      ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-25T03:16:49Z",
+      "sha256": "a410a37a1b5a45bb2ef9091999a5d32acb0ca50255241135ae367efe7d47abdd",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11"
+      ]
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T03:16:48Z",
+      "sha256": "e53a1632f00d8c1e3f568f7ad441d8fa5ae37e222568e44a0fa1ffa2e7ea4eac",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11"
+      ]
+    },
+    "1.5.0": {
+      "fetchedAt": "2026-10-25T03:16:48Z",
+      "sha256": "4e9aa7af4a5aaff9335a3a7b353da11445458a50f144c18337f7ca3a4e995b62",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11"
+      ]
+    },
+    "1.6.0": {
+      "fetchedAt": "2026-10-25T03:16:47Z",
+      "sha256": "5cba30a11e632891db79ad73d324242a71b13b7222fd7f321f07bc8c6f441444",
+      "dependencies": [
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:28.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11"
+      ]
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-25T03:16:46Z",
+      "sha256": "b521c0563e5589abf4625372c40f7dd1e5e4127e57815c34aff0d0010c94836c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.32",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "eu.nets.mia.webview.MiAActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.4.0",
+          "1.6.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "eu.nets.mia.webview.MiAActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.1",
+          "1.6.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "eu.nets.mia.webview.MiAActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

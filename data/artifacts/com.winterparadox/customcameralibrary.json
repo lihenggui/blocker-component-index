@@ -1,0 +1,65 @@
+{
+  "coordinate": "com.winterparadox:customcameralibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T02:18:17Z",
+      "sha256": "e119e65a1221c8f99e190f3df46a3eef0171574df1c6b1b579ed4a938dfa351e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1"
+      ]
+    },
+    "0.2.2": {
+      "fetchedAt": "2026-10-25T02:18:16Z",
+      "sha256": "e119e65a1221c8f99e190f3df46a3eef0171574df1c6b1b579ed4a938dfa351e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    },
+    "0.2.4": {
+      "fetchedAt": "2026-10-25T02:18:15Z",
+      "sha256": "1f35cb7ebf19abb40f1876e7069122f194d9fa665c891935341c4e3a85ff67ba",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T02:18:14Z",
+      "sha256": "c20decc024617b5fe113392b7dba556fbdad6cc7f328b9d53a8848bf87effd16",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-25T02:18:14Z",
+      "sha256": "c20decc024617b5fe113392b7dba556fbdad6cc7f328b9d53a8848bf87effd16",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.winterparadox.customcameralibrary.CameraActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.3.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.winterparadox.customcameralibrary.IMAGE_CAPTURE",
+        "com.winterparadox.customcameralibrary.VIDEO_CAPTURE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

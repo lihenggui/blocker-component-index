@@ -1,0 +1,106 @@
+{
+  "coordinate": "com.videoengager:videoengager-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:02:29Z",
+      "sha256": "ec882770224defaa1a9986bdf40955ac6ea75150b72a64076a6219b7592df6bc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.picasso:picasso:2.8",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.webrtc:google-webrtc:1.0.22270"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:02:29Z",
+      "sha256": "ec882770224defaa1a9986bdf40955ac6ea75150b72a64076a6219b7592df6bc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0",
+        "com.google.android.material:material:1.3.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.picasso:picasso:2.8",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.31",
+        "org.webrtc:google-webrtc:1.0.22270"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.videoengager.sdk.view.MissingIntenetActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.videoengager.sdk.view.RingingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.videoengager.sdk.view.TimeoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.videoengager.sdk.view.VideoCallActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

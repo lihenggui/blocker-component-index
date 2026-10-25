@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.unity3d.mediation:unityads-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:55:54Z",
+      "sha256": "f9377a648dca3aaaa5c979f563349f8dc41a30f14a4ded04234facff6a056260",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.unity3d.ads:unity-ads:[4.0,5.0[",
+        "com.unity3d.mediation:mediation-adapter:[1.1,1.2[",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.unity3d.mediation.unityadsadapter.UnityAdsModuleInitializer"
+      ]
+    }
+  ]
+}

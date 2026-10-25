@@ -1,0 +1,129 @@
+{
+  "coordinate": "io.bidapp.networks:startIo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:40:42Z",
+      "sha256": "def0ca21e3a043026baf2445c987e881e2931fc2d9147b0f851cf7b42f2f979c",
+      "dependencies": [
+        "com.startapp:inapp-sdk:4.11.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T03:40:41Z",
+      "sha256": "def0ca21e3a043026baf2445c987e881e2931fc2d9147b0f851cf7b42f2f979c",
+      "dependencies": [
+        "com.startapp:inapp-sdk:4.11.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T03:40:40Z",
+      "sha256": "def0ca21e3a043026baf2445c987e881e2931fc2d9147b0f851cf7b42f2f979c",
+      "dependencies": [
+        "com.startapp:inapp-sdk:4.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T03:40:40Z",
+      "sha256": "def0ca21e3a043026baf2445c987e881e2931fc2d9147b0f851cf7b42f2f979c",
+      "dependencies": [
+        "com.startapp:inapp-sdk:4.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T03:40:39Z",
+      "sha256": "def0ca21e3a043026baf2445c987e881e2931fc2d9147b0f851cf7b42f2f979c",
+      "dependencies": [
+        "com.startapp:inapp-sdk:4.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T03:40:38Z",
+      "sha256": "def0ca21e3a043026baf2445c987e881e2931fc2d9147b0f851cf7b42f2f979c",
+      "dependencies": [
+        "com.startapp:inapp-sdk:4.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T03:40:38Z",
+      "sha256": "def0ca21e3a043026baf2445c987e881e2931fc2d9147b0f851cf7b42f2f979c",
+      "dependencies": [
+        "com.startapp:inapp-sdk:5.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T03:40:37Z",
+      "sha256": "54075d12dd16d767809b1534c3b336eb87a762f01b38f4e014d813043b8d2db1",
+      "dependencies": [
+        "com.startapp:inapp-sdk:5.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T03:40:36Z",
+      "sha256": "54075d12dd16d767809b1534c3b336eb87a762f01b38f4e014d813043b8d2db1",
+      "dependencies": [
+        "com.startapp:inapp-sdk:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T03:40:35Z",
+      "sha256": "54075d12dd16d767809b1534c3b336eb87a762f01b38f4e014d813043b8d2db1",
+      "dependencies": [
+        "com.startapp:inapp-sdk:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.2.5": {
+      "fetchedAt": "2026-10-25T03:40:35Z",
+      "sha256": "ef307efbc58b0aaae529b99312fb0745f768e629880628e4af7a77aad6e0b038",
+      "dependencies": [
+        "com.startapp:inapp-sdk:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T03:40:34Z",
+      "sha256": "ef307efbc58b0aaae529b99312fb0745f768e629880628e4af7a77aad6e0b038",
+      "dependencies": [
+        "com.startapp:inapp-sdk:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "2.3.5": {
+      "fetchedAt": "2026-10-25T03:40:33Z",
+      "sha256": "ef307efbc58b0aaae529b99312fb0745f768e629880628e4af7a77aad6e0b038",
+      "dependencies": [
+        "com.startapp:inapp-sdk:5.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.startapp.sdk.adsbase.StartAppInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.2.5",
+          "2.3.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.startappinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

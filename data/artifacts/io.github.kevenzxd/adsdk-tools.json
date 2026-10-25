@@ -1,0 +1,71 @@
+{
+  "coordinate": "io.github.kevenzxd:adsdk-tools",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.6.0": {
+      "fetchedAt": "2026-10-25T05:13:24Z",
+      "sha256": "5a4786afe39146cdb225e60aba27151ece15f97954d68d211815c3dbec439fc6",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime:2.3.0",
+        "co.ogury:ogury-sdk:5.0.9",
+        "com.amazon.android:aps-sdk:8.4.3",
+        "com.criteo.mediation.mopub:criteo-adapter:4.3.0.0",
+        "com.criteo.publisher:criteo-publisher-sdk:4.3.0",
+        "com.facebook.android:audience-network-sdk:6.5.0",
+        "com.fasterxml.jackson.jr:jackson-jr-all:2.9.8",
+        "com.fyber.vamp:core-sdk:7.8.3",
+        "com.fyber.vamp:mraid-kit:7.8.3",
+        "com.fyber.vamp:video-kit:7.8.3",
+        "com.google.android.gms:play-services-ads:20.2.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.mopub.mediation:fyber:7.8.3.0",
+        "com.mopub.mediation:ogury:5.0.9.1",
+        "com.mopub:mopub-sdk:5.17.0",
+        "com.smaato.android.sdk:mopub-banner-adapter-5-13:21.6.5",
+        "com.smaato.android.sdk:mopub-interstitial-adapter-5-13:21.6.5",
+        "com.smaato.android.sdk:mopub-rewarded-video-adapter-5-13:21.6.5",
+        "com.smaato.android.sdk:smaato-sdk-native:21.6.5",
+        "com.squareup.okhttp3:okhttp:3.12.13"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adsdk.android.consent.ConsentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.6.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.6.0",
+          "2.6.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

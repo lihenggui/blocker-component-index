@@ -1,0 +1,38 @@
+{
+  "coordinate": "io.github.kuloud:location-common",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:15:20Z",
+      "sha256": "07a560aa7b9bcb192f836070dabfe6662b14e63ee99bd2684dd19f07bf14b58f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.room:room-runtime:2.4.2",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.kuloud.android.location.common.LocationUpdatesBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.kuloud.android.location.action.PROCESS_UPDATES"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

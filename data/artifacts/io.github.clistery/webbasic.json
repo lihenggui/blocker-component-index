@@ -1,0 +1,93 @@
+{
+  "coordinate": "io.github.clistery:webbasic",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:37:01Z",
+      "sha256": "5804046d9bb36f1eb8a3318bdf8e2f43763009fc1171b9f2b7015f3f00f7f645",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.1",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.webkit:webkit:1.4.0",
+        "com.google.android.material:material:1.2.1",
+        "com.tencent.tbs:tbssdk:44226",
+        "io.github.clistery:appbasic:2.4.4",
+        "org.java-websocket:Java-WebSocket:1.5.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:37:01Z",
+      "sha256": "5804046d9bb36f1eb8a3318bdf8e2f43763009fc1171b9f2b7015f3f00f7f645",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.1",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.webkit:webkit:1.4.0",
+        "com.google.android.material:material:1.2.1",
+        "com.tencent.tbs:tbssdk:44226",
+        "io.github.clistery:appbasic:2.4.4",
+        "org.java-websocket:Java-WebSocket:1.5.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.smtt.utils.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "io.clistery.webbasic.WebBasicInit",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.webbasic.init",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

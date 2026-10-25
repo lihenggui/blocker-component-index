@@ -1,0 +1,308 @@
+{
+  "coordinate": "io.github.idpbg-it:connectpush",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:03:47Z",
+      "sha256": "444f1fd175f28647ad6526fbee3c1deefcec44dc03785d847790bbfcb3998972",
+      "dependencies": [
+        "CreateLibrary:enroll:unspecified",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.huawei.agconnect:agconnect-core:1.3.1.300",
+        "com.huawei.hms:push:5.0.0.300"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:03:46Z",
+      "sha256": "444f1fd175f28647ad6526fbee3c1deefcec44dc03785d847790bbfcb3998972",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:03:45Z",
+      "sha256": "444f1fd175f28647ad6526fbee3c1deefcec44dc03785d847790bbfcb3998972",
+      "dependencies": [
+        "com.huawei.agconnect:agconnect-core:1.3.1.300",
+        "com.huawei.hms:push:5.0.0.300"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:03:44Z",
+      "sha256": "444f1fd175f28647ad6526fbee3c1deefcec44dc03785d847790bbfcb3998972",
+      "dependencies": [
+        "com.huawei.agconnect:agconnect-core:1.3.1.300",
+        "com.huawei.hms:push:5.0.0.300"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:03:44Z",
+      "sha256": "444f1fd175f28647ad6526fbee3c1deefcec44dc03785d847790bbfcb3998972",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T05:03:43Z",
+      "sha256": "444f1fd175f28647ad6526fbee3c1deefcec44dc03785d847790bbfcb3998972",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.foxconn.connectpush.OnlineService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":OnlineService",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.RESPOND_VIA_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.foxconn.connectpush.TickAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.foxconn.mfrspush.HuaweiPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.foxconn.mfrspush.VivoPushMessageReceiverImpl",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.foxconn.mfrspush.XiaomiMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

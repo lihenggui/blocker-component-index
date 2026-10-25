@@ -1,0 +1,45 @@
+{
+  "coordinate": "io.adapty.internal:crossplatform-ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T03:33:57Z",
+      "sha256": "9b1730e1311bb869b45fb87854cc82dcf9b545a67248a91c71ae283d515b1d06",
+      "dependencies": [
+        "androidx.activity:activity:1.2.3",
+        "androidx.core:core:1.9.0",
+        "androidx.fragment:fragment:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T03:33:57Z",
+      "sha256": "9b1730e1311bb869b45fb87854cc82dcf9b545a67248a91c71ae283d515b1d06",
+      "dependencies": [
+        "androidx.activity:activity:1.2.3",
+        "androidx.core:core:1.9.0",
+        "androidx.fragment:fragment:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.adapty.internal.crossplatform.ui.AdaptyUiActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

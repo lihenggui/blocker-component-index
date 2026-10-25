@@ -1,0 +1,417 @@
+{
+  "coordinate": "com.tradplusad:tapad-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.16.3.30_h2": {
+      "fetchedAt": "2026-10-25T01:38:38Z",
+      "sha256": "2e591d3c9532cd3fd0a0373321561087d083108873b46b483436939e04f9ed7d",
+      "dependencies": []
+    },
+    "3.16.3.31": {
+      "fetchedAt": "2026-10-25T01:38:37Z",
+      "sha256": "b19f5ac286a00908347bba0a85ebfae2ee3d3672556dd0e49a600db3333b59d8",
+      "dependencies": []
+    },
+    "3.16.3.34": {
+      "fetchedAt": "2026-10-25T01:38:37Z",
+      "sha256": "d0f601835265025974cd7c5e71f1d4d51f9a428cd95aa38f2861874564b406e0",
+      "dependencies": []
+    },
+    "3.16.3.35": {
+      "fetchedAt": "2026-10-25T01:38:36Z",
+      "sha256": "636484cc30ce6ec93f1b01076cb12e086a93b4df118cb6c9026074b6e691409d",
+      "dependencies": []
+    },
+    "3.16.3.39": {
+      "fetchedAt": "2026-10-25T01:38:35Z",
+      "sha256": "1a5bfdcb88594db5761d416096f22a1b212671f02dfe5901ce859175222da5a8",
+      "dependencies": []
+    },
+    "3.16.3.40": {
+      "fetchedAt": "2026-10-25T01:38:34Z",
+      "sha256": "8feea3056a6ffa28fcca989fd82c136b47b51a7d9a50433be9066f663ee5e92c",
+      "dependencies": []
+    },
+    "3.16.3.41": {
+      "fetchedAt": "2026-10-25T01:38:34Z",
+      "sha256": "0647fc3a138c631ff1706915e79f4c90ecca55af15da998e4cb486ac82a49cad",
+      "dependencies": []
+    },
+    "3.16.3.43": {
+      "fetchedAt": "2026-10-25T01:38:33Z",
+      "sha256": "5544e723e4b937f303efe6ee24d5e9cd549af0be0eaf0673bb9a3a205572ef1d",
+      "dependencies": []
+    },
+    "3.16.3.45": {
+      "fetchedAt": "2026-10-25T01:38:26Z",
+      "sha256": "9395dbc8225e0cc230ef0ba7a03a69b3be5b67ca5c351cd645197ae640f26787",
+      "dependencies": []
+    },
+    "3.16.3.47": {
+      "fetchedAt": "2026-10-25T01:38:32Z",
+      "sha256": "fe89caa6fa8537043ec844e601f7b992de788c7888c0149c6fa080c33bf1a300",
+      "dependencies": []
+    },
+    "4.1.0.11": {
+      "fetchedAt": "2026-10-25T01:38:32Z",
+      "sha256": "119ace6843dd83db69967ea52d9ce36afe4a0bd1bd7e28fd890416b97ff0b55d",
+      "dependencies": []
+    },
+    "4.1.3.2": {
+      "fetchedAt": "2026-10-25T01:38:31Z",
+      "sha256": "ab9dede981683162a0fd2414a44ae80cd83cc1658f135deabb5d60eb2a69fa94",
+      "dependencies": []
+    },
+    "4.2.0.8": {
+      "fetchedAt": "2026-10-25T01:38:30Z",
+      "sha256": "07e09f329af3721215e2781ec94f4dddf7884241105fceb84e6f54ad51f52515",
+      "dependencies": []
+    },
+    "4.2.1.1": {
+      "fetchedAt": "2026-10-25T01:38:30Z",
+      "sha256": "07e09f329af3721215e2781ec94f4dddf7884241105fceb84e6f54ad51f52515",
+      "dependencies": []
+    },
+    "4.2.3.3": {
+      "fetchedAt": "2026-10-25T01:38:29Z",
+      "sha256": "4d79aa9c29ddba191e84c05bb644b0cf9a2eedd502cadc48cc49ff5ba63e99b8",
+      "dependencies": []
+    },
+    "4.2.3.5": {
+      "fetchedAt": "2026-10-25T01:38:28Z",
+      "sha256": "4d79aa9c29ddba191e84c05bb644b0cf9a2eedd502cadc48cc49ff5ba63e99b8",
+      "dependencies": []
+    },
+    "4.2.4.3": {
+      "fetchedAt": "2026-10-25T01:38:28Z",
+      "sha256": "4d79aa9c29ddba191e84c05bb644b0cf9a2eedd502cadc48cc49ff5ba63e99b8",
+      "dependencies": []
+    },
+    "4.2.4.8": {
+      "fetchedAt": "2026-10-25T01:38:27Z",
+      "sha256": "4d79aa9c29ddba191e84c05bb644b0cf9a2eedd502cadc48cc49ff5ba63e99b8",
+      "dependencies": []
+    },
+    "4.2.7.3": {
+      "fetchedAt": "2026-10-25T01:38:26Z",
+      "sha256": "4d79aa9c29ddba191e84c05bb644b0cf9a2eedd502cadc48cc49ff5ba63e99b8",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tapsdk.tapad.internal.ApkNotificationReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "3.16.3.45"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "TapAd_install_or_launch"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.internal.TapADFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.tds.ad.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.tapsdk.tapad.internal.download.OkDownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "4.2.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.tapsdk.tapad.okdownload",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.internal.ui.views.web.BrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.34",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Install_or_OpenApp_Translucent_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.34",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Install_or_OpenApp_Translucent_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.31",
+          "3.16.3.31"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Interstitial_Graphic_Landscape_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "3.16.3.47"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Interstitial_Graphic_Landscape_Activity$FinishActivityRecevier",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "3.16.3.35"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "receiver_action_finish"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Interstitial_Graphic_Portrait_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "3.16.3.47"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Interstitial_Graphic_Portrait_Activity$FinishActivityRecevier",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "3.16.3.35"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "receiver_action_finish"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Interstitial_Video_Landscape_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "3.16.3.47"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Interstitial_Video_Portrait_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "3.16.3.47"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Landscape_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.0.11",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Playable_Landscape_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.0.11",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Playable_Portrait_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.0.11",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Portrait_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.1.0.11",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Standard_Landscape_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapsdk.tapad.stub.activity.Stub_Standard_Portrait_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.16.3.30_h2",
+          "4.2.7.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "coordinate": "com.verifai:liveness-check",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.0": {
+      "fetchedAt": "2026-10-25T02:01:38Z",
+      "sha256": "b505406b9220046d6eaf15b7785b8748f86214da1d9d542c2adfc5eb9dd0ea04",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.0.2",
+        "androidx.camera:camera-lifecycle:1.0.2",
+        "androidx.camera:camera-view:1.0.0-alpha25",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "com.google.mlkit:face-detection:16.1.5",
+        "com.verifai:core:6.0.0",
+        "io.ktor:ktor-client-android:2.2.4",
+        "io.ktor:ktor-client-content-negotiation:2.2.4",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "6.1.0": {
+      "fetchedAt": "2026-10-25T02:01:37Z",
+      "sha256": "b505406b9220046d6eaf15b7785b8748f86214da1d9d542c2adfc5eb9dd0ea04",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.0.2",
+        "androidx.camera:camera-lifecycle:1.0.2",
+        "androidx.camera:camera-view:1.0.0-alpha25",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "com.google.mlkit:face-detection:16.1.5",
+        "com.verifai:core:6.0.0",
+        "io.ktor:ktor-client-android:2.2.4",
+        "io.ktor:ktor-client-content-negotiation:2.2.4",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    },
+    "6.1.1": {
+      "fetchedAt": "2026-10-25T02:01:37Z",
+      "sha256": "b505406b9220046d6eaf15b7785b8748f86214da1d9d542c2adfc5eb9dd0ea04",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.camera:camera-camera2:1.0.2",
+        "androidx.camera:camera-lifecycle:1.0.2",
+        "androidx.camera:camera-view:1.0.0-alpha25",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.databinding:viewbinding:7.4.2",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "com.google.mlkit:face-detection:16.1.5",
+        "com.verifai:core:6.1.1",
+        "io.ktor:ktor-client-android:2.2.4",
+        "io.ktor:ktor-client-content-negotiation:2.2.4",
+        "io.ktor:ktor-serialization-kotlinx-json:2.2.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.verifai.liveness.VerifaiLivenessActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0",
+          "6.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

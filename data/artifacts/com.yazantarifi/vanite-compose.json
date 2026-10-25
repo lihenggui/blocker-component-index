@@ -1,0 +1,49 @@
+{
+  "coordinate": "com.yazantarifi:vanite-compose",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T02:30:54Z",
+      "sha256": "35f049bfa9bba9a639231c9356cba30822530429b7f4d48272107650369331f0",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.4.0",
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.compose.material3:material3-window-size-class:1.0.1",
+        "androidx.compose.material3:material3:1.0.0-alpha11",
+        "androidx.compose.material3:material3:1.0.1",
+        "androidx.compose:compose-bom:2022.10.00",
+        "androidx.core:core-animation:1.0.0-beta01",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.hilt:hilt-navigation-compose:1.0.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.navigation:navigation-compose:2.4.2",
+        "com.google.accompanist:accompanist-pager-indicators:0.24.8-beta",
+        "com.google.accompanist:accompanist-pager:0.24.8-beta",
+        "com.google.accompanist:accompanist-systemuicontroller:0.24.13-rc",
+        "com.google.android.material:material:1.8.0-alpha01",
+        "io.coil-kt:coil-compose:2.0.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.vanite.android.compose.components.VaniteErrorScreen",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

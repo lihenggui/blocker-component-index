@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.unity3d.mediation:admob-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:55:48Z",
+      "sha256": "f2793c4a0d184a698a52315447df6806a729185de48f0008bd8b35d02e504169",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-ads:20.6.0",
+        "com.unity3d.mediation:mediation-adapter:[1.1,1.2[",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.unity3d.mediation.admobadapter.AdmobModuleInitializer"
+      ]
+    }
+  ]
+}

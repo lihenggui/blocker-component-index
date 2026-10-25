@@ -1,0 +1,105 @@
+{
+  "coordinate": "io.github.juanimoli.strictmode.notifier:notifier",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T05:10:49Z",
+      "sha256": "7220872817588c0b983849bfce0aa5d7ff85be19f0d2ea490a2d492f4aee4f85",
+      "dependencies": [
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.legacy:legacy-support-core-utils:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.30"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T05:10:48Z",
+      "sha256": "7220872817588c0b983849bfce0aa5d7ff85be19f0d2ea490a2d492f4aee4f85",
+      "dependencies": [
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.legacy:legacy-support-core-utils:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T05:10:47Z",
+      "sha256": "7220872817588c0b983849bfce0aa5d7ff85be19f0d2ea490a2d492f4aee4f85",
+      "dependencies": [
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.legacy:legacy-support-core-utils:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T05:10:46Z",
+      "sha256": "88e01dd463396fc476f932b4451bf7caec93bbf06d1ceec98c2696780b96aec9",
+      "dependencies": [
+        "androidx.core:core-ktx:1.2.0",
+        "androidx.legacy:legacy-support-core-utils:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.juanimoli.strictmode.notifier.LogWatchService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.juanimoli.strictmode.notifier.StrictModeReportActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "io.github.juanimoli.strictmode.notifier.StrictModeReportDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

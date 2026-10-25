@@ -1,0 +1,70 @@
+{
+  "coordinate": "com.yodo1.plugin.sina:sina-weibo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "13.10.2": {
+      "fetchedAt": "2026-10-25T02:35:49Z",
+      "sha256": "72acc31ae0912d1abd4e5e2715147d73e527712d0cfdd94ab1654d11f6e92baf",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sina.weibo.sdk.content.FileProviderV2",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "13.10.2",
+          "13.10.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sina.weibo.sdk.share.ShareTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.10.2",
+          "13.10.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.web.WebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.10.2",
+          "13.10.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

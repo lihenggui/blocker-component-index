@@ -1,0 +1,55 @@
+{
+  "coordinate": "dev.teogor.drifter:drifter-integration",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-10-25T03:10:43Z",
+      "sha256": "36bb708887af67c552dd7f2a02fc87cb4e474ffe512d40462258d9171c43f967",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.code.gson:gson:2.10.1",
+        "dev.teogor.drifter:drifter-unity-common:1.0.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha02",
+          "1.0.0-alpha02"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.teogor.drifter.integration.initializer.ActivityTrackerInitializer"
+      ]
+    },
+    {
+      "name": "dev.teogor.drifter.integration.activities.UnityPlayerInstantiatorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha02",
+          "1.0.0-alpha02"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

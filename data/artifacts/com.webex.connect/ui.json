@@ -1,0 +1,96 @@
+{
+  "coordinate": "com.webex.connect:ui",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2.3": {
+      "fetchedAt": "2026-10-25T02:12:50Z",
+      "sha256": "6e364fbf5deee10977976ccfd99db0643cdfed235c9599f850f40304780b6b1e",
+      "dependencies": []
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-25T02:12:49Z",
+      "sha256": "b34f2f789a5fb27fd85c007ef5909e0c6efbb8b18e3c7bc2cf88f994b178d8b3",
+      "dependencies": []
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-25T02:12:49Z",
+      "sha256": "f379f0075d00c1f9964bd5283ce1eb6154d37f25677124c3d093667d26431d8d",
+      "dependencies": []
+    },
+    "1.4.1": {
+      "fetchedAt": "2026-10-25T02:12:48Z",
+      "sha256": "f379f0075d00c1f9964bd5283ce1eb6154d37f25677124c3d093667d26431d8d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.imimobile.connect.ui.conversation.ICConversationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.3",
+          "1.4.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.imimobile.connect.ui.internal.activity.ImagePreviewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.3",
+          "1.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.imimobile.connect.ui.internal.composer.activity.AudioRecorderActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.3",
+          "1.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.imimobile.connect.ui.internal.permission.PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.3",
+          "1.4.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

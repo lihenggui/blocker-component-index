@@ -1,0 +1,106 @@
+{
+  "coordinate": "im.dino:dbinspector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T03:28:09Z",
+      "sha256": "682b6632becfd66707e05152e83ae0ffe2b0a2cae6ccecafe9fc3f82bc8744a1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.1.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "commons-io:commons-io:2.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "im.dino.dbinspector.activities.DbInspectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "im.dino.dbinspector.providers.DatabaseProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "dbInspector_${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "im.dino.dbinspector.services.ClearTableIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "im.dino.dbinspector.services.CopyDbIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "im.dino.dbinspector.services.ImportDbIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.0.0",
+          "4.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

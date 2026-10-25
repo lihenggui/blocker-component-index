@@ -1,0 +1,121 @@
+{
+  "coordinate": "in.navanatech:publisher-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.6-compile29": {
+      "fetchedAt": "2026-10-25T03:29:09Z",
+      "sha256": "9c8d9c724d56bd6d9b2dcf69b1544ab3af73705af9f8d3ec38f1dc1cf0e651c0",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0-alpha04",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0",
+        "com.github.skydoves:sandwich:1.2.0",
+        "com.google.android.material:material:1.4.0",
+        "com.journeyapps:zxing-android-embedded:4.3.0",
+        "com.squareup.moshi:moshi-kotlin:1.13.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "io.github.chaosleung:pinview:1.4.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.1.6-compile29-sandbox": {
+      "fetchedAt": "2026-10-25T03:29:08Z",
+      "sha256": "9c8d9c724d56bd6d9b2dcf69b1544ab3af73705af9f8d3ec38f1dc1cf0e651c0",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0-alpha04",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0",
+        "com.github.skydoves:sandwich:1.2.0",
+        "com.google.android.material:material:1.4.0",
+        "com.journeyapps:zxing-android-embedded:4.3.0",
+        "com.squareup.moshi:moshi-kotlin:1.13.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "io.github.chaosleung:pinview:1.4.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.1.6-t29": {
+      "fetchedAt": "2026-10-25T03:29:07Z",
+      "sha256": "9c8d9c724d56bd6d9b2dcf69b1544ab3af73705af9f8d3ec38f1dc1cf0e651c0",
+      "dependencies": [
+        "androidx.activity:activity:1.2.0-alpha04",
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.5.0",
+        "androidx.lifecycle:lifecycle-process:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0",
+        "com.github.skydoves:sandwich:1.2.0",
+        "com.google.android.material:material:1.4.0",
+        "com.journeyapps:zxing-android-embedded:4.3.0",
+        "com.squareup.moshi:moshi-kotlin:1.13.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "io.github.chaosleung:pinview:1.4.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.journeyapps.barcodescanner.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.6-compile29",
+          "0.1.6-t29"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "in.navanatech.zabaan.publishersdk.EnableBubbleActionBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.6-compile29",
+          "0.1.6-t29"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "in.navanatech.zabaan.publisher.ENABLE_BUBBLE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "in.navanatech.zabaan.publishersdk.ui.CodeScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.6-compile29",
+          "0.1.6-t29"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.yodo1.suit.pay:vivo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.7.2.0.3": {
+      "fetchedAt": "2026-10-25T02:38:15Z",
+      "sha256": "bead392d07e5ab525f58b45f62b22159a11a9bbf88f76e721ab8f26cca8f39f7",
+      "dependencies": []
+    },
+    "4.8.2.0.0": {
+      "fetchedAt": "2026-10-25T02:38:15Z",
+      "sha256": "8160bf4f4992e0469dbde9c17af99ff8d9744b4aba2fe0ee061b99c17d91a098",
+      "dependencies": [
+        "com.yodo1.plugin.vivo:vivo-union-sdk:4.8.2.0",
+        "com.yodo1.plugin:oaid-sdk:1.0.25"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vivo.unionsdk.VivoUnionProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.8.2.0.0",
+          "4.8.2.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.VivoUnionProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.unionsdk.ui.UnionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.7.2.0.3",
+          "4.7.2.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

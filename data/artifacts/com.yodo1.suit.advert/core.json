@@ -1,0 +1,98 @@
+{
+  "coordinate": "com.yodo1.suit.advert:core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.18.6.0": {
+      "fetchedAt": "2026-10-25T02:36:27Z",
+      "sha256": "ab3a467c313ed0eaadfd698c9ba45162ff7ff507a967e9fa735faef47ec22548",
+      "dependencies": [
+        "com.yodo1.advert:libs-advert:3.18.6"
+      ]
+    },
+    "3.18.6.1": {
+      "fetchedAt": "2026-10-25T02:36:27Z",
+      "sha256": "9330ef635fb6bd37107c9098e77a318756104cb91dcaa4d726270f6afb465999",
+      "dependencies": [
+        "com.yodo1.suit.advert:lib:3.18.6"
+      ]
+    },
+    "3.18.6.2": {
+      "fetchedAt": "2026-10-25T02:36:26Z",
+      "sha256": "be660d6ba62656d5ccf92f5ef35df88d1d05fc8ea81957b95c2fb851d2a12319",
+      "dependencies": [
+        "com.yodo1.suit.advert:lib:3.18.6"
+      ]
+    },
+    "3.18.7.1": {
+      "fetchedAt": "2026-10-25T02:36:25Z",
+      "sha256": "3c89052833254304c6635db4eb9b081f7e1de86eb0997b44af941473adeba0ad",
+      "dependencies": [
+        "com.yodo1.suit.advert:lib:3.18.6"
+      ]
+    },
+    "3.18.8.2": {
+      "fetchedAt": "2026-10-25T02:36:25Z",
+      "sha256": "9acdd6014109110923e81d7aede81ae1147ca7e2524184eebf43f341752c9ef7",
+      "dependencies": [
+        "com.yodo1.suit.advert:lib:3.18.8"
+      ]
+    },
+    "3.18.10.3": {
+      "fetchedAt": "2026-10-25T02:36:24Z",
+      "sha256": "9cee3fbba1b61d04c4e6e0647d70d5c9393b478c5665487749fe895b3adafc85",
+      "dependencies": [
+        "com.yodo1.suit.advert:lib:3.18.10"
+      ]
+    },
+    "3.18.10.4": {
+      "fetchedAt": "2026-10-25T02:36:24Z",
+      "sha256": "1a58d7740d2e4f37772e354f24f03e6a6ff4552e23001a3b4939f64bad5c74d2",
+      "dependencies": [
+        "com.yodo1.suit.advert:lib:3.18.10"
+      ]
+    },
+    "3.18.11.1": {
+      "fetchedAt": "2026-10-25T02:36:23Z",
+      "sha256": "7d2c307c11624b3ba11a4bcdf171c9fcefe0c1f742db52a8f7d5f5c9c49bebd1",
+      "dependencies": [
+        "com.yodo1.suit.advert:lib:3.18.11"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yodo1.advert.factory.Yodo1AdvertProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.18.6.0",
+          "3.18.11.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.adprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yodo1.advert.factory.Yodo1SplashAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.18.6.0",
+          "3.18.11.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

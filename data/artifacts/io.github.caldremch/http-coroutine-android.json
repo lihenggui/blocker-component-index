@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.github.caldremch:http-coroutine-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.0-rc1": {
+      "fetchedAt": "2026-10-25T04:32:06Z",
+      "sha256": "ab0195c117ee6e9fa40afcb93e1ddd4ded8d58cc5a645d5acd81b3183dacc912",
+      "dependencies": [
+        "io.github.caldremch:http-core:2.0.0-rc1",
+        "io.github.caldremch:http-coroutine:2.0.0-rc1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.caldremch.android.http.coroutine.CoroutineHttpProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.0-rc1",
+          "2.0.0-rc1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.coroutine-http",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

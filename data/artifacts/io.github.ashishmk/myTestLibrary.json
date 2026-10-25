@@ -1,0 +1,84 @@
+{
+  "coordinate": "io.github.ashishmk:myTestLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.5.7": {
+      "fetchedAt": "2026-10-25T04:19:40Z",
+      "sha256": "1094570a1f5785d5fcca11342eaa982f02847a946849d567acf22efc05f0037e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.1",
+        "androidx.navigation:navigation-ui-ktx:2.5.1",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "4.5.8": {
+      "fetchedAt": "2026-10-25T04:19:39Z",
+      "sha256": "f4a1b9cb6a17ba90e037568bc169054812eb51c14dabf916b24ca7375f820e7d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.1",
+        "androidx.navigation:navigation-ui-ktx:2.5.1",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "4.5.9": {
+      "fetchedAt": "2026-10-25T04:19:38Z",
+      "sha256": "2526dcd6f8a4a8d1002f56b26862fc13d312703162758aebc559881332357ff9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.1",
+        "androidx.navigation:navigation-ui-ktx:2.5.1",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.AshishMk.myTestLibrary.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.7",
+          "4.5.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.AshishMk.myTestLibrary.MainActivityLibrary",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.5.9",
+          "4.5.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

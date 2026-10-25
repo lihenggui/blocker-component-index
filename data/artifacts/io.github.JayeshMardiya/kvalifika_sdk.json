@@ -1,0 +1,85 @@
+{
+  "coordinate": "io.github.JayeshMardiya:kvalifika_sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:03:44Z",
+      "sha256": "7ec31dbb9256dddc0272d7fd4fb1904b92da6c40e20f325f62b3cbe876ec4934",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.3.0",
+        "com.otaliastudios:cameraview:1.6.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "io.github.JayeshMardiya:kavalifika_facetec:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:03:43Z",
+      "sha256": "feb5b3cfc2799d220da84bb3c1066761043bade90505b0ab5e28f66b50d83141",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "com.google.android.material:material:1.3.0",
+        "com.otaliastudios:cameraview:1.6.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "io.github.JayeshMardiya:kvalifika_facetec:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.kvalifika.sdk.ui.KvalifikaCaptureDocumentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kvalifika.sdk.ui.KvalifikaResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.kvalifika.sdk.ui.KvalifikaSelectDocumentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

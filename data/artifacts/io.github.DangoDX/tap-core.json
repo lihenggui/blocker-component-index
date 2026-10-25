@@ -1,0 +1,122 @@
+{
+  "coordinate": "io.github.DangoDX:tap-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:01:46Z",
+      "sha256": "a8b06f5a3c070deb6dfd7dc399496609aaf1b1aea385b306c5726622cf3d4b36",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "com.google.android.material:material:1.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.4": {
+      "fetchedAt": "2026-10-25T04:01:45Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.5": {
+      "fetchedAt": "2026-10-25T04:01:45Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.6": {
+      "fetchedAt": "2026-10-25T04:01:44Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.7": {
+      "fetchedAt": "2026-10-25T04:01:43Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "io.github.DangoDX:lib_kit:0.1.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.8": {
+      "fetchedAt": "2026-10-25T04:01:42Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "io.github.DangoDX:lib_kit:0.1.8",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.9": {
+      "fetchedAt": "2026-10-25T04:01:41Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "io.github.DangoDX:lib_kit:0.1.9",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.10": {
+      "fetchedAt": "2026-10-25T04:01:41Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "io.github.DangoDX:lib_kit:0.1.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.12": {
+      "fetchedAt": "2026-10-25T04:01:40Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "io.github.DangoDX:lib_kit:0.1.12",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.1.13": {
+      "fetchedAt": "2026-10-25T04:01:39Z",
+      "sha256": "dfa9ac569dfcae1f24a599ede9d51c88c44398ddef6bc9b4ba3832640ec423af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "io.github.DangoDX:lib_kit:0.1.13",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.dango.unit.tap.core.internal.TapCoreInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.4",
+          "0.1.13"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TapSDKInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "coordinate": "io.bitbucket.mikescorporation:keyboard",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0-preAlpha": {
+      "fetchedAt": "2026-10-25T03:41:15Z",
+      "sha256": "d0cb3387d3897e3bf54d6addad6168c6fe851d19fde407e8246af9598f43ca61",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "com.google.android.material:material:1.6.1",
+        "com.intuit.sdp:sdp-android:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.shgr.mkeyboard.keyboard.MKeyboard",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.0-preAlpha",
+          "0.1.0-preAlpha"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_INPUT_METHOD",
+      "authorities": null,
+      "actions": [
+        "android.view.InputMethod"
+      ],
+      "categories": [],
+      "metaData": [
+        "android.view.im"
+      ]
+    }
+  ]
+}

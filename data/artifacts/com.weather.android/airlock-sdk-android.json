@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.weather.android:airlock-sdk-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "5.4.0": {
+      "fetchedAt": "2026-10-25T02:11:40Z",
+      "sha256": "1fa2107e91d1218118a0c3a3bab96f60b9528096a82a8b9a8171c865b3258dde",
+      "dependencies": [
+        "airlock-sdk-android:airlock-sdk-common:5.4.true",
+        "com.weather.android:airlytics:1.0.49",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.60"
+      ]
+    },
+    "5.4.1": {
+      "fetchedAt": "2026-10-25T02:11:39Z",
+      "sha256": "1fa2107e91d1218118a0c3a3bab96f60b9528096a82a8b9a8171c865b3258dde",
+      "dependencies": [
+        "airlock-sdk-android:airlock-sdk-common:5.4.1",
+        "com.weather.android:airlytics:1.0.49",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.60"
+      ]
+    },
+    "5.4.2": {
+      "fetchedAt": "2026-10-25T02:11:38Z",
+      "sha256": "1fa2107e91d1218118a0c3a3bab96f60b9528096a82a8b9a8171c865b3258dde",
+      "dependencies": [
+        "airlock-sdk-android:airlock-sdk-common:5.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.60"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.weather.airlytics.sessions.CloseSessionService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.4.0",
+          "5.4.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

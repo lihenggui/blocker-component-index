@@ -1,0 +1,37 @@
+{
+  "coordinate": "io.getstream:stream-android-pushprovider-firebase",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:53:14Z",
+      "sha256": "ead8ee8483a3952d89a9538c47c39df69166b89c61243145fa8bc741c7c0ef66",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:23.1.0",
+        "io.getstream:stream-android-push-delegate:1.0.0",
+        "io.getstream:stream-android-push:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.getstream.android.push.firebase.ChatFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

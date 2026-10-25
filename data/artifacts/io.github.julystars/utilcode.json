@@ -1,0 +1,94 @@
+{
+  "coordinate": "io.github.julystars:utilcode",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T05:11:14Z",
+      "sha256": "c3db5da802f3cf95d114955d9d51d3c72f625f6a5bf3ed8f6d14d09607a347af",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T05:11:13Z",
+      "sha256": "efacf3ec2922f57b4929ee8569f497f250b1ad1984d2eb2427ba4cd82d683d0e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.julystars.utilcode.util.MessengerUtils$ServerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.messenger"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.julystars.utilcode.util.UtilsFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.utilcode.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.julystars.utilcode.util.UtilsTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.julystars.utilcode.util.UtilsTransActivity4MainProcess",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

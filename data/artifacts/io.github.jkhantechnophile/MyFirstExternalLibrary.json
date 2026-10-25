@@ -1,0 +1,36 @@
+{
+  "coordinate": "io.github.jkhantechnophile:MyFirstExternalLibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:10:07Z",
+      "sha256": "bb0f554b6f4d9d3877fc98b3025c4cc250c98c8d758a5c6f12d54ff5abad4671",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.jkhan.myfirstexternallibrary.ExternlaLibraryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

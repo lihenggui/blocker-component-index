@@ -1,0 +1,236 @@
+{
+  "coordinate": "com.yodo1.plugin.honor:honor-gcjoint",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.4.305": {
+      "fetchedAt": "2026-10-25T02:35:35Z",
+      "sha256": "34862bbf2498ec6fe8af6f31977dbf053a354f57109f26f13671b1943593b352",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.framework.activity.GCActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.framework.activity.GCBackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.framework.activity.LGCBackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.framework.provider.GCProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.hihonor.gamecenter.gcjointsdk",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.framework.receiver.GCReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.framework.service.GCService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.sdk.provider.GCJointFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gcjoint.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.hihonor.gamecenter.gcjointsdk.sdk.provider.GcJointProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.GcJointProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.lcore.account.activity.LAccountLoginOutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.lcore.account.activity.LAuthorizeLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.lcore.lib.activity.LAuthorizeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamecenter.lcore.lib.activity.LWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.hihonor.gamesdk.okdownload.OkDownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.4.305",
+          "2.0.4.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.hihonor.gamesdk.okdownload",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

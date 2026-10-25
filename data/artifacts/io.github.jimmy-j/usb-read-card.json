@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.github.jimmy-j:usb-read-card",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.7": {
+      "fetchedAt": "2026-10-25T05:09:14Z",
+      "sha256": "0bc4eb1c3e79a531fc96efa5fce2d6ef63ba5c6552c9b89a56389b81c186d648",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.csht.localinit.usb.boardcast.UsbReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.1.7",
+          "2.1.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MEDIA_MOUNTED",
+        "android.intent.action.MEDIA_REMOVED",
+        "android.intent.action.MEDIA_UNMOUNTED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

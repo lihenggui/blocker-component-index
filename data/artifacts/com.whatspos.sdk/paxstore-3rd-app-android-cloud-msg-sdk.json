@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.whatspos.sdk:paxstore-3rd-app-android-cloud-msg-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.2.0": {
+      "fetchedAt": "2026-10-25T02:15:55Z",
+      "sha256": "a19381c6966852bbc09881f7a6c8b30ef95b118efa8205ae362392c6f3f84010",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "org.slf4j:slf4j-api:1.7.12"
+      ]
+    },
+    "9.5.0": {
+      "fetchedAt": "2026-10-25T02:15:54Z",
+      "sha256": "9dcff646c4fbc7ef7fbc8c4e3850b9e4a8e40db149641ead385cf0aed394fe7b",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "org.slf4j:slf4j-api:1.7.12"
+      ]
+    },
+    "9.5.1": {
+      "fetchedAt": "2026-10-25T02:15:54Z",
+      "sha256": "d994daa3300929ccd0c34abeb462c13dde540ee192b917a3ffbe79b1344f2e4c",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "org.slf4j:slf4j-api:1.7.12"
+      ]
+    },
+    "9.5.2": {
+      "fetchedAt": "2026-10-25T02:15:53Z",
+      "sha256": "c7536e152683ab572c65a5bec5ddc4d8059f528b88bee62f7746732b7b5d9ab0",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "org.slf4j:slf4j-api:1.7.12"
+      ]
+    },
+    "9.5.3": {
+      "fetchedAt": "2026-10-25T02:15:52Z",
+      "sha256": "c9b6fb8cdab3efe26989f2fa58f5bada598e241e676ec6e9841abe58c52f0f0e",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "org.slf4j:slf4j-api:1.7.12"
+      ]
+    },
+    "10.0.0": {
+      "fetchedAt": "2026-10-25T02:15:53Z",
+      "sha256": "46d15d65d8af0e26a961e56794c62e1b831b8fa2eb8e4b065f4dfffd6676129f",
+      "dependencies": [
+        "com.google.code.gson:gson:2.9.0",
+        "org.slf4j:slf4j-api:1.7.12"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.pax.market.android.app.sdk.msg.service.CloudMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.2.0",
+          "10.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.market.android.app.sdk.CLOUD_MSG",
+      "authorities": null,
+      "actions": [
+        "com.paxstore.mpush.CLOUD_MESSAGE_RECEIVED"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "coordinate": "io.github.aigens.order.place:scan",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.22": {
+      "fetchedAt": "2026-10-25T04:11:48Z",
+      "sha256": "7a8ac94d87c3432cdbb9913067b9c2c772feab53af947c0fc3af97bd67ed3532",
+      "dependencies": [
+        "com.google.zxing:core:3.3.0",
+        "order-place-androidsdk-maven:core:unspecified"
+      ]
+    },
+    "0.0.23": {
+      "fetchedAt": "2026-10-25T04:11:47Z",
+      "sha256": "edb1a56b5f8e9cbf4d5e55b47d05877b078130f969c7b204d38fb055372afdc3",
+      "dependencies": [
+        "com.google.zxing:core:3.3.0",
+        "order-place-androidsdk-maven:core:unspecified"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.aigens.sdk.activity.ScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.23",
+          "0.0.23"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.journeyapps.barcodescanner2.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.23",
+          "0.0.23"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.aigens.sdk.activity.ScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.22",
+          "0.0.23"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.github.journeyapps.barcodescanner2.CaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.22",
+          "0.0.23"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

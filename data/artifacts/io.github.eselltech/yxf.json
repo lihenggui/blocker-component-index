@@ -1,0 +1,55 @@
+{
+  "coordinate": "io.github.eselltech:yxf",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.9": {
+      "fetchedAt": "2026-10-25T04:49:14Z",
+      "sha256": "6f492ef4789e1e5c444da115959fb1e6f885743b26f87b597d9335f79e8a24c7",
+      "dependencies": [
+        "io.github.eselltech:component_alioss:legacy-1x",
+        "io.github.eselltech:component_common:legacy-1x",
+        "io.github.eselltech:component_datahub:legacy-1x",
+        "io.github.eselltech:component_location:legacy-1x",
+        "io.github.eselltech:component_log:legacy-1x",
+        "io.github.eselltech:component_mqtt:legacy-1x",
+        "io.github.eselltech:component_utils:legacy-1x",
+        "io.github.eselltech:component_widget:legacy-1x",
+        "io.github.eselltech:mqtt_aliyun:legacy-1x"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T04:49:14Z",
+      "sha256": "062a578a241c277d1efc7abb81d93d05696379f99c3ad7a31099cc6ec14827e5",
+      "dependencies": [
+        "io.github.eselltech:component_alioss:legacy-1x",
+        "io.github.eselltech:component_common:legacy-1x",
+        "io.github.eselltech:component_datahub:legacy-1x",
+        "io.github.eselltech:component_location:legacy-1x",
+        "io.github.eselltech:component_log:legacy-1x",
+        "io.github.eselltech:component_mqtt:legacy-1x",
+        "io.github.eselltech:component_utils:legacy-1x",
+        "io.github.eselltech:component_widget:legacy-1x",
+        "io.github.eselltech:mqtt_aliyun:legacy-1x"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.esell.yxf.Yxf$CheckNonArrivalAdReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.1.9",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "coordinate": "io.github.kuloud:cactus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:15:18Z",
+      "sha256": "be86ab82c2bd417a5a1da5bd588f2ca384c5d1d21fbe316e60df205fc920a00c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "com.google.code.gson:gson:2.9.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gyf.cactus.service.CactusJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gyf.cactus.service.HideForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gyf.cactus.service.LocalService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gyf.cactus.service.RemoteService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": ":cactusRemoteService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

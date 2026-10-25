@@ -1,0 +1,82 @@
+{
+  "coordinate": "io.github.ma-jian:router-api",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T05:21:51Z",
+      "sha256": "a9258bf79fe026559a2a0ddbad86fffc4d1cfb773e7d32fb9aaab92963044610",
+      "dependencies": [
+        "com.google.auto.service:auto-service-annotations:1.0.1",
+        "io.github.ma-jian:router-annotation:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:21:50Z",
+      "sha256": "a9258bf79fe026559a2a0ddbad86fffc4d1cfb773e7d32fb9aaab92963044610",
+      "dependencies": [
+        "com.google.auto.service:auto-service-annotations:1.0.1",
+        "io.github.ma-jian:router-annotation:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:21:48Z",
+      "sha256": "20c20326d6958c2ec2916bd329dcd27b088c66663fbbb1f472de505de93fe850",
+      "dependencies": [
+        "com.google.auto.service:auto-service-annotations:1.0.1",
+        "io.github.ma-jian:router-annotation:1.0.2",
+        "org.jetbrains.kotlin:kotlin-reflect:1.8.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:21:49Z",
+      "sha256": "18b1fa3d6d94fbd09dece2a5d44d78028e647a0747215f6059f60c0854afadc0",
+      "dependencies": [
+        "com.google.auto.service:auto-service-annotations:1.0.1",
+        "io.github.ma-jian:router-annotation:1.0.2",
+        "org.jetbrains.kotlin:kotlin-reflect:1.9.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.mm.router.DefaultInitializer",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DefaultInitializer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

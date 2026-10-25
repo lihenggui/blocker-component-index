@@ -1,0 +1,85 @@
+{
+  "coordinate": "com.yumimobi.ads:mediation",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1-alpha1": {
+      "fetchedAt": "2026-10-25T02:42:01Z",
+      "sha256": "f401873ee91caf727fb82a36cadd78f6da47a1ea02aebcedb18b02e8ad4248d2",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:16.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yumi.android.sdk.ads.mediation.activity.MediationTestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1-alpha1",
+          "0.0.1-alpha1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yumi.android.sdk.ads.self.activity.YumiFullScreenActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1-alpha1",
+          "0.0.1-alpha1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yumi.android.sdk.ads.self.module.receiver.ADReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.0.1-alpha1",
+          "0.0.1-alpha1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.DOWNLOAD_COMPLETE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yumi.android.sdk.ads.self.playableads.presenter.APIAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1-alpha1",
+          "0.0.1-alpha1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

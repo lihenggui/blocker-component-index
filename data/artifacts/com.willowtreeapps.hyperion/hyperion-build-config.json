@@ -1,0 +1,47 @@
+{
+  "coordinate": "com.willowtreeapps.hyperion:hyperion-build-config",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.9.37": {
+      "fetchedAt": "2026-10-25T02:16:43Z",
+      "sha256": "6ed923669d0b55755ddf6dedce1d95aebcdd556069145d14499af0d8a3088b78",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.android.material:material:1.0.0",
+        "com.willowtreeapps.hyperion:hyperion-plugin:0.9.37"
+      ]
+    },
+    "0.9.38": {
+      "fetchedAt": "2026-10-25T02:16:42Z",
+      "sha256": "ef0069f4c55b91493ae8b9aa47c0766571ae848abebe7c06687b5d13b82367fb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.constraintlayout:constraintlayout:1.1.3",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.google.android.material:material:1.0.0",
+        "com.willowtreeapps.hyperion:hyperion-plugin:0.9.38"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.willowtreeapps.hyperion.buildconfig.list.BuildConfigListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.9.37",
+          "0.9.38"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

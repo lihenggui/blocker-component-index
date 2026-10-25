@@ -1,0 +1,63 @@
+{
+  "coordinate": "io.github.mayzs:server",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:23:30Z",
+      "sha256": "31ad5b2ae0dc48657ca7bfb59c4a22d84c91b4f6de76780e7ca52ba56c2c3f78",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.yanzhenjie.andserver:api:2.1.12",
+        "org.apache.commons:commons-collections4:4.4",
+        "org.apache.commons:commons-lang3:3.14.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:23:29Z",
+      "sha256": "31ad5b2ae0dc48657ca7bfb59c4a22d84c91b4f6de76780e7ca52ba56c2c3f78",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.yanzhenjie.andserver:api:2.1.12",
+        "org.apache.commons:commons-collections4:4.4",
+        "org.apache.commons:commons-lang3:3.12.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:23:29Z",
+      "sha256": "b9af8da821ac493f6a7ecd35a7ee792536ea47b0f8993158302e395e4b024fc5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
+        "com.google.android.material:material:1.9.0",
+        "com.google.code.gson:gson:2.10.1",
+        "org.apache.commons:commons-collections4:4.4",
+        "org.apache.commons:commons-lang3:3.12.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.mayz.server.manage.CoreService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

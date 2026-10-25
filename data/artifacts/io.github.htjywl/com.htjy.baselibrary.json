@@ -1,0 +1,71 @@
+{
+  "coordinate": "io.github.htjywl:com.htjy.baselibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.6.3": {
+      "fetchedAt": "2026-10-25T05:01:33Z",
+      "sha256": "a873ce4b1f3eac7892f6fa0d5a9b378e50c0f731779b5e021bda83d09b9df35d",
+      "dependencies": [
+        "cn.bingoogolapple:bga-banner:2.2.6",
+        "cn.qqtheme.framework:WheelPicker:1.5.1",
+        "com.android.databinding:adapters:3.1.2",
+        "com.android.databinding:baseLibrary:3.1.2",
+        "com.android.databinding:library:3.1.2",
+        "com.android.support.constraint:constraint-layout:1.1.3",
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:design:27.1.1",
+        "com.android.support:multidex:1.0.3",
+        "com.android.support:support-annotations:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "com.blankj:utilcode:1.25.4",
+        "com.facebook.stetho:stetho-okhttp3:1.5.0",
+        "com.facebook.stetho:stetho:1.5.0",
+        "com.github.bumptech.glide:glide:4.8.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.8.0",
+        "com.google.code.gson:gson:2.8.2",
+        "com.jakewharton.timber:timber:4.5.1",
+        "com.jakewharton:butterknife:8.6.0",
+        "com.lai.weavey:loadinglayout:1.3.1",
+        "com.lyb.besttimer:pluginwidget:0.0.136",
+        "com.lzy.net:okgo:3.0.4",
+        "com.lzy.net:okrx2:2.0.2",
+        "com.lzy.net:okserver:2.0.5",
+        "com.nineoldandroids:library:2.4.0",
+        "com.orhanobut:logger:1.15",
+        "com.scwang.smart:refresh-footer-classics:2.0.1",
+        "com.scwang.smart:refresh-header-classics:2.0.1",
+        "com.scwang.smart:refresh-layout-kernel:2.0.1",
+        "com.sunfusheng:marqueeview:1.2.0",
+        "com.trello.rxlifecycle2:rxlifecycle-android:2.2.0",
+        "com.trello.rxlifecycle2:rxlifecycle-components:2.0.1",
+        "com.trello.rxlifecycle2:rxlifecycle:2.2.0",
+        "com.yqritc:recyclerview-flexibledivider:1.4.0",
+        "org.greenrobot:greendao:3.3.0",
+        "org.simple:androideventbus:1.0.5.1",
+        "top.zibin:Luban:1.1.3",
+        "uk.co.chrisjenx:calligraphy:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.htjy.baselibrary.receiver.AlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.6.3",
+          "1.6.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.AlarmReceiver"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

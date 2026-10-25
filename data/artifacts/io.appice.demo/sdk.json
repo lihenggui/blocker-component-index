@@ -1,0 +1,220 @@
+{
+  "coordinate": "io.appice.demo:sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:38:00Z",
+      "sha256": "b18c0618a3b6f87f1076ee8f7f041bb307c23a6d4a4b1ec7ac7f927b6c5583ec",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.0",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "appice.io.android.apm:sdk:1.1.0",
+        "appice.io.android:sdk:2.5.62",
+        "com.facebook.shimmer:shimmer:0.5.0",
+        "com.github.jama5262:CarouselView:1.2.2",
+        "com.google.android.material:material:1.6.1",
+        "com.squareup.picasso:picasso:2.71828",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T03:37:59Z",
+      "sha256": "b18c0618a3b6f87f1076ee8f7f041bb307c23a6d4a4b1ec7ac7f927b6c5583ec",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.0",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "androidx.room:room-runtime:2.4.3",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "appice.io.android.apm:sdk:1.1.0",
+        "appice.io.android:sdk:2.5.62",
+        "com.facebook.shimmer:shimmer:0.5.0",
+        "com.github.jama5262:CarouselView:1.2.2",
+        "com.google.android.material:material:1.6.1",
+        "com.squareup.picasso:picasso:2.71828",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T03:37:58Z",
+      "sha256": "b18c0618a3b6f87f1076ee8f7f041bb307c23a6d4a4b1ec7ac7f927b6c5583ec",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T03:37:57Z",
+      "sha256": "b18c0618a3b6f87f1076ee8f7f041bb307c23a6d4a4b1ec7ac7f927b6c5583ec",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.newsapp.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.example.newsapp.ReadNewsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.example.newsapp.SavedNewsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "semusi.geofencing.AIGeofenceBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "semusi.geofencing.AIGeofenceReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.appice.android.geofence.fence.update"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "semusi.geofencing.LocationUpdateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.appice.android.geofence.location.update"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "semusi.ruleengine.pushmanager.NotificationEventService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [
+        "com.appice.campaignEvent"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "semusi.ruleengine.pushmanager.XiaomiMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

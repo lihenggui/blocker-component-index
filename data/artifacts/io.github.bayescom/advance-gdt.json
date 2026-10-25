@@ -1,0 +1,584 @@
+{
+  "coordinate": "io.github.bayescom:advance-gdt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.3.3_4562": {
+      "fetchedAt": "2026-10-25T04:22:15Z",
+      "sha256": "a43656078ad77d22ef084691754ebb81736ec503c32528507ae0f7be5551f9f0",
+      "dependencies": []
+    },
+    "4.3.3_4562_core": {
+      "fetchedAt": "2026-10-25T04:22:14Z",
+      "sha256": "63d5959f610e45362a364ae6c29bc27454a8022f114fbe8834e1933808c89578",
+      "dependencies": []
+    },
+    "4.3.4_4562": {
+      "fetchedAt": "2026-10-25T04:22:13Z",
+      "sha256": "272cb7e5a104c2b091d6fd5451d7dfdf639d4fe5e2c7381a6b00a1a4a1fa3487",
+      "dependencies": []
+    },
+    "4.3.4_4562_core": {
+      "fetchedAt": "2026-10-25T04:22:13Z",
+      "sha256": "4c2bb422ebf180dc80c4fe02dc2c1fbabc2c6bc03ac4c04586fd4a2e96b6ea14",
+      "dependencies": []
+    },
+    "4.3.5_4575": {
+      "fetchedAt": "2026-10-25T04:22:12Z",
+      "sha256": "1669043345574f7e9e43bed89fe825ed68776cc965e9f77c18d47a36c28aca4e",
+      "dependencies": []
+    },
+    "4.3.5_4575_core": {
+      "fetchedAt": "2026-10-25T04:22:11Z",
+      "sha256": "6b393f20892198b55cf9d8361b2d07bf42936ff00fc31e42b940261e5258ed08",
+      "dependencies": []
+    },
+    "5.1.1_4575": {
+      "fetchedAt": "2026-10-25T04:22:11Z",
+      "sha256": "08b0dcc99420f5a6d3052d090bc10843b190a90836aed0b2250b0051f7d65a99",
+      "dependencies": []
+    },
+    "5.1.1_4575_core": {
+      "fetchedAt": "2026-10-25T04:22:10Z",
+      "sha256": "8075c52ae44788287f05615b41854b3264bf21ee9c6c97d70899a24446718306",
+      "dependencies": []
+    },
+    "5.1.2_4575": {
+      "fetchedAt": "2026-10-25T04:22:09Z",
+      "sha256": "c7c6f3d95c2ed4f15012ef9e3d7e0f551c7c4237b87dcb9e82a1ea78058e54a6",
+      "dependencies": []
+    },
+    "5.1.2_4575_core": {
+      "fetchedAt": "2026-10-25T04:22:09Z",
+      "sha256": "d6ce2aa6e031e8f6b613dd46714da41b8de88c9ddb1ab59da282b4eb3cfca5bc",
+      "dependencies": []
+    },
+    "5.1.2_4603": {
+      "fetchedAt": "2026-10-25T04:22:08Z",
+      "sha256": "26ed3b413bc47735495eb29898ab1fbfc0377c52379f85ebdc473f7486282dfb",
+      "dependencies": []
+    },
+    "5.1.2_4603_core": {
+      "fetchedAt": "2026-10-25T04:22:07Z",
+      "sha256": "9fab039b93248ee784311ff18612797087ac06b286fea8b8c4708d55ecf59aca",
+      "dependencies": []
+    },
+    "5.1.2_4640": {
+      "fetchedAt": "2026-10-25T04:22:06Z",
+      "sha256": "bd256516329ccaebafcbbf7bd19abc3230ee0ca5a3fe6e06e467ea4470400b1a",
+      "dependencies": []
+    },
+    "5.1.2_4640_core": {
+      "fetchedAt": "2026-10-25T04:22:06Z",
+      "sha256": "533ee98edbb5a8643214a3e45afd08eaf80d93d0da540f427830c948bb5548a3",
+      "dependencies": []
+    },
+    "5.1.4_4603": {
+      "fetchedAt": "2026-10-25T04:22:05Z",
+      "sha256": "fac2d67dba14a2c47a8d68acfaabaaee89bc6d176522ad7743c56ac82bfdf447",
+      "dependencies": []
+    },
+    "5.1.4_4603_core": {
+      "fetchedAt": "2026-10-25T04:22:04Z",
+      "sha256": "0e5d1fbc130ec78b2148c09a61538cb966b07fe2f79d29716a2979631dc35450",
+      "dependencies": []
+    },
+    "5.1.5_4630": {
+      "fetchedAt": "2026-10-25T04:22:04Z",
+      "sha256": "67bc24d1688edb808fe8e57d80f9f98db4490efc1baa61fd73e4731ae58a06d9",
+      "dependencies": []
+    },
+    "5.1.5_4630_core": {
+      "fetchedAt": "2026-10-25T04:22:03Z",
+      "sha256": "dedfd1d5a2839f43a11adc4a3403d77b6afc4c617ad919d0daeb346bc3c95f6a",
+      "dependencies": []
+    },
+    "5.1.6_4640": {
+      "fetchedAt": "2026-10-25T04:22:02Z",
+      "sha256": "c644de42dca8c703ea4c3d711040af0e4f4d0e0c22519acb21ed02010592acbb",
+      "dependencies": []
+    },
+    "5.1.6_4640_core": {
+      "fetchedAt": "2026-10-25T04:22:02Z",
+      "sha256": "cab548e0a4957dfa7bc36780abd425c508f1632ef38153192ff310499aad877a",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.qq.e.ads.ADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.5_4575",
+          "4.3.5_4575"
+        ],
+        [
+          "5.1.1_4575",
+          "5.1.1_4575"
+        ],
+        [
+          "5.1.2_4575",
+          "5.1.2_4575"
+        ],
+        [
+          "5.1.2_4603",
+          "5.1.2_4603"
+        ],
+        [
+          "5.1.2_4640",
+          "5.1.2_4640"
+        ],
+        [
+          "5.1.4_4603",
+          "5.1.4_4603"
+        ],
+        [
+          "5.1.5_4630",
+          "5.1.5_4630"
+        ],
+        [
+          "5.1.6_4640",
+          "5.1.6_4640"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.ADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "4.3.3_4562"
+        ],
+        [
+          "4.3.4_4562",
+          "4.3.4_4562"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.5_4575",
+          "4.3.5_4575"
+        ],
+        [
+          "5.1.1_4575",
+          "5.1.1_4575"
+        ],
+        [
+          "5.1.2_4575",
+          "5.1.2_4575"
+        ],
+        [
+          "5.1.2_4603",
+          "5.1.2_4603"
+        ],
+        [
+          "5.1.2_4640",
+          "5.1.2_4640"
+        ],
+        [
+          "5.1.4_4603",
+          "5.1.4_4603"
+        ],
+        [
+          "5.1.5_4630",
+          "5.1.5_4630"
+        ],
+        [
+          "5.1.6_4640",
+          "5.1.6_4640"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.DialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "4.3.3_4562"
+        ],
+        [
+          "4.3.4_4562",
+          "4.3.4_4562"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.LandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.5_4575",
+          "4.3.5_4575"
+        ],
+        [
+          "5.1.1_4575",
+          "5.1.1_4575"
+        ],
+        [
+          "5.1.2_4575",
+          "5.1.2_4575"
+        ],
+        [
+          "5.1.2_4603",
+          "5.1.2_4603"
+        ],
+        [
+          "5.1.2_4640",
+          "5.1.2_4640"
+        ],
+        [
+          "5.1.4_4603",
+          "5.1.4_4603"
+        ],
+        [
+          "5.1.5_4630",
+          "5.1.5_4630"
+        ],
+        [
+          "5.1.6_4640",
+          "5.1.6_4640"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.LandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "4.3.3_4562"
+        ],
+        [
+          "4.3.4_4562",
+          "4.3.4_4562"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.PortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.5_4575",
+          "4.3.5_4575"
+        ],
+        [
+          "5.1.1_4575",
+          "5.1.1_4575"
+        ],
+        [
+          "5.1.2_4575",
+          "5.1.2_4575"
+        ],
+        [
+          "5.1.2_4603",
+          "5.1.2_4603"
+        ],
+        [
+          "5.1.2_4640",
+          "5.1.2_4640"
+        ],
+        [
+          "5.1.4_4603",
+          "5.1.4_4603"
+        ],
+        [
+          "5.1.5_4630",
+          "5.1.5_4630"
+        ],
+        [
+          "5.1.6_4640",
+          "5.1.6_4640"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.PortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "4.3.3_4562"
+        ],
+        [
+          "4.3.4_4562",
+          "4.3.4_4562"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoLandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.5_4575",
+          "4.3.5_4575"
+        ],
+        [
+          "5.1.1_4575",
+          "5.1.1_4575"
+        ],
+        [
+          "5.1.2_4575",
+          "5.1.2_4575"
+        ],
+        [
+          "5.1.2_4603",
+          "5.1.2_4603"
+        ],
+        [
+          "5.1.2_4640",
+          "5.1.2_4640"
+        ],
+        [
+          "5.1.4_4603",
+          "5.1.4_4603"
+        ],
+        [
+          "5.1.5_4630",
+          "5.1.5_4630"
+        ],
+        [
+          "5.1.6_4640",
+          "5.1.6_4640"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoLandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "4.3.3_4562"
+        ],
+        [
+          "4.3.4_4562",
+          "4.3.4_4562"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoPortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.5_4575",
+          "4.3.5_4575"
+        ],
+        [
+          "5.1.1_4575",
+          "5.1.1_4575"
+        ],
+        [
+          "5.1.2_4575",
+          "5.1.2_4575"
+        ],
+        [
+          "5.1.2_4603",
+          "5.1.2_4603"
+        ],
+        [
+          "5.1.2_4640",
+          "5.1.2_4640"
+        ],
+        [
+          "5.1.4_4603",
+          "5.1.4_4603"
+        ],
+        [
+          "5.1.5_4630",
+          "5.1.5_4630"
+        ],
+        [
+          "5.1.6_4640",
+          "5.1.6_4640"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.ads.RewardvideoPortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "4.3.3_4562"
+        ],
+        [
+          "4.3.4_4562",
+          "4.3.4_4562"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support"
+      ]
+    },
+    {
+      "name": "com.qq.e.comm.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "4.3.3_4562"
+        ],
+        [
+          "4.3.4_4562",
+          "4.3.4_4562"
+        ],
+        [
+          "4.3.5_4575",
+          "4.3.5_4575"
+        ],
+        [
+          "5.1.1_4575",
+          "5.1.1_4575"
+        ],
+        [
+          "5.1.2_4575",
+          "5.1.2_4575"
+        ],
+        [
+          "5.1.2_4603",
+          "5.1.2_4603"
+        ],
+        [
+          "5.1.2_4640",
+          "5.1.2_4640"
+        ],
+        [
+          "5.1.4_4603",
+          "5.1.4_4603"
+        ],
+        [
+          "5.1.5_4630",
+          "5.1.5_4630"
+        ],
+        [
+          "5.1.6_4640",
+          "5.1.6_4640"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.3.3_4562",
+          "5.1.6_4640_core"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

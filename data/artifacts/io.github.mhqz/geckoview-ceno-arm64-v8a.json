@@ -1,0 +1,803 @@
+{
+  "coordinate": "io.github.mhqz:geckoview-ceno-arm64-v8a",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "107.0.20221005094233": {
+      "fetchedAt": "2026-10-25T05:24:25Z",
+      "sha256": "9aab13a05fb3f03d77c2269961b6cd3ed21cdb842d824667bd8273b1a85e0edb",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "androidx.lifecycle:lifecycle-common-java8:2.4.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "com.google.android.gms:play-services-fido:18.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.yaml:snakeyaml:1.24"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.mozilla.gecko.media.MediaManager",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":media",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$gmplugin",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":gmplugin",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$gpu",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":gpu",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$ipdlunittest",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":ipdlunittest",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$socket",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":socket",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab0",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab0",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab1",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab1",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab10",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab10",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab11",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab11",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab12",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab12",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab13",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab13",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab14",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab14",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab15",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab15",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab16",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab16",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab17",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab17",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab18",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab18",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab19",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab19",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab2",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab2",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab20",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab20",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab21",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab21",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab22",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab22",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab23",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab23",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab24",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab24",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab25",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab25",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab26",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab26",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab27",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab27",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab28",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab28",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab29",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab29",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab3",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab3",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab30",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab30",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab31",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab31",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab32",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab32",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab33",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab33",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab34",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab34",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab35",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab35",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab36",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab36",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab37",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab37",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab38",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab38",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab39",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab39",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab4",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab4",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab5",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab5",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab6",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab6",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab7",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab7",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab8",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab8",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$tab9",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":tab9",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.mozilla.gecko.process.GeckoChildProcessServices$utility",
+      "type": "service",
+      "versionRanges": [
+        [
+          "107.0.20221005094233",
+          "107.0.20221005094233"
+        ]
+      ],
+      "exported": false,
+      "process": ":utility",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

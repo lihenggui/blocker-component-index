@@ -1,0 +1,151 @@
+{
+  "coordinate": "io.github.lygttpod.monitor:monitor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:20:38Z",
+      "sha256": "74f39d57331f85410f45c14570e8f4be92afcc901415cb9d2f49adab4da0bfc1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:4.1.3",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:okhttp:4.3.1",
+        "io.github.lygttpod.android-local-service:annotation:0.0.1",
+        "io.github.lygttpod.android-local-service:core:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:20:38Z",
+      "sha256": "74f39d57331f85410f45c14570e8f4be92afcc901415cb9d2f49adab4da0bfc1",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:4.1.3",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:okhttp:4.3.1",
+        "io.github.lygttpod.android-local-service:annotation:0.0.1",
+        "io.github.lygttpod.android-local-service:core:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:20:37Z",
+      "sha256": "907c649a3924cb02c151148b06961ac6d0a6f125e7d223cda1466ac5841d4ef5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:4.1.3",
+        "androidx.room:room-ktx:2.3.0",
+        "androidx.room:room-runtime:2.3.0",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.squareup.okhttp3:okhttp:4.3.1",
+        "io.github.lygttpod.android-local-service:annotation:0.0.1",
+        "io.github.lygttpod.android-local-service:core:0.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.lygttpod.monitor.provider.MonitorProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.monitor_provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lygttpod.monitor.ui.MonitorConfigActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lygttpod.monitor.ui.MonitorDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lygttpod.monitor.ui.MonitorMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.lygttpod.monitor.ui.MonitorMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

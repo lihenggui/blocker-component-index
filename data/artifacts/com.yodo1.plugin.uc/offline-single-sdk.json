@@ -1,0 +1,113 @@
+{
+  "coordinate": "com.yodo1.plugin.uc:offline-single-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.7.12.0": {
+      "fetchedAt": "2026-10-25T02:35:56Z",
+      "sha256": "d3fc6565f7bea4cca192e7023edfe35114221c770c6c85e074e119083b4625b9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "cn.gundam.sdk.shell.activity.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.7.12.0",
+          "9.7.12.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.uc.gamesdk.sdkweb"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.gundam.sdk.shell.activity.ThemeProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.7.12.0",
+          "9.7.12.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.uc.gamesdk.sdkweb"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cn.gundam.sdk.shell.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.7.12.0",
+          "9.7.12.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gamesdk.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "cn.gundam.sdk.shell.service.ResProxyService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "9.7.12.0",
+          "9.7.12.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cn.uc.gamesdk.activity.PullupActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.7.12.0",
+          "9.7.12.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

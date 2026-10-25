@@ -1,0 +1,57 @@
+{
+  "coordinate": "io.bitbucket.sivaganeshkantamani:mavenpublishlibrary",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1": {
+      "fetchedAt": "2026-10-25T03:41:31Z",
+      "sha256": "0338eb6769d12f8d4b2b256b3c1848b3b30f56c437d0d4e29f9712316d7354ae",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.7.0",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.2": {
+      "fetchedAt": "2026-10-25T03:41:31Z",
+      "sha256": "19c48f83b4c6a5e144a63c1f6b5919b79e4a050973b14422e47c43edfc12ff87",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "0.4": {
+      "fetchedAt": "2026-10-25T03:41:30Z",
+      "sha256": "19c48f83b4c6a5e144a63c1f6b5919b79e4a050973b14422e47c43edfc12ff87",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.mvenpublishlibrary.SampleLibraryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2",
+          "0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "coordinate": "dev.teogor.ceres.beta.launch.test:firebase-crashlytics",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:09:40Z",
+      "sha256": "076e407700ebef7ed431b7301c97745c4e0774d1d58ef571707944a95a304280",
+      "dependencies": [
+        "androidx.compose:compose-bom:2023.08.00",
+        "androidx.startup:startup-runtime:1.2.0-alpha02",
+        "com.google.dagger:hilt-android:2.47",
+        "com.google.firebase:firebase-bom:32.2.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.teogor.ceres.firebase.crashlytics.CrashlyticsManagerInitializer"
+      ]
+    }
+  ]
+}

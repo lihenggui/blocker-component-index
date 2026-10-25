@@ -1,0 +1,37 @@
+{
+  "coordinate": "im.zego:zpns-fcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T03:28:26Z",
+      "sha256": "5c9c0f62e25563507e107ca615987fa5aa7bd78c21dc25efb34355d24b648aed",
+      "dependencies": []
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-25T03:28:26Z",
+      "sha256": "871fb99ad5c78e0dd5c2b35b923930f704cd6868b4f2b9fbd4cc6f286700b24e",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "im.zego.zpns_android_plugin_fcm.FCMMessageService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.yazantarifi:issuer.android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:30:46Z",
+      "sha256": "ca1909aa32b9def07c9a83170412ea6d23268eb44d65f8787ed2be5405776ad3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.core:core-ktx:1.3.1",
+        "androidx.databinding:viewbinding:4.2.2",
+        "androidx.lifecycle:lifecycle-common-java8:2.3.1",
+        "androidx.navigation:navigation-fragment-ktx:2.3.5",
+        "androidx.navigation:navigation-ui-ktx:2.3.5",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "Issuer.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.yazantarifi.issuer.android.IssuerScreen",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.yandex.android:appmetricapush-provider-firebase",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.10.0": {
+      "fetchedAt": "2026-10-25T02:25:12Z",
+      "sha256": "6fd2e01a40896535f4278b6a7e6a7b4754573a87373d18945d498effd5da491d",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.10.0"
+      ]
+    },
+    "1.11.0": {
+      "fetchedAt": "2026-10-25T02:25:12Z",
+      "sha256": "1a642ecd5abedcd6c46f3a6b206c40a1a32448adf0b32698c4e9dff0cb6dcd31",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.11.0"
+      ]
+    },
+    "1.11.1": {
+      "fetchedAt": "2026-10-25T02:25:11Z",
+      "sha256": "a13dadd7b121821ced781a6f6596831ad7775646d3a5f55c47b4d9eea873c60d",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.11.1"
+      ]
+    },
+    "1.12.0": {
+      "fetchedAt": "2026-10-25T02:25:11Z",
+      "sha256": "d22b2c30b847fb5ea65680fc9a8092d4bd131e883155317b1c2b0dbae8ee85f9",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.12.0"
+      ]
+    },
+    "1.13.0": {
+      "fetchedAt": "2026-10-25T02:25:10Z",
+      "sha256": "cfff81c70c9eb2733eeac61139c883b5c535d618fb3a633d62ce55a43135657e",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.13.0"
+      ]
+    },
+    "1.14.0": {
+      "fetchedAt": "2026-10-25T02:25:10Z",
+      "sha256": "3ae086ae36ab6c19ebe16d35119f640320590c88be3bada082b80e736841c598",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.14.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T02:25:09Z",
+      "sha256": "23b2ec8e6ac76dc9aa5f05f99c4e663fd68cf3a20d5877e17ccc81192434bc39",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T02:25:08Z",
+      "sha256": "b44b8adca6840441e02d9698f7258ced227fcca361e6ede6403dee9265da1331",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.1.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T02:25:08Z",
+      "sha256": "d45ff2101e07bd1f4a94f4e9282d4e912c767332e3088fef1679d1164bc84711",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T02:25:07Z",
+      "sha256": "ca3e295b3d09f99fd3de5e303e85837168b7677b0ceb49e5acc07a51acd3a5d3",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T02:25:07Z",
+      "sha256": "8faf4c1e6b641f2878b2bc34d0bea19b182a46869a032a7c72d20bcc75ca5818",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T02:25:06Z",
+      "sha256": "06f2ec1f1ba56e8e55c21c2deb7b69745274fe99f2881e2c660035c452be8740",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T02:25:05Z",
+      "sha256": "e076b9a8dc1ade36ed54693c7b400314e826f9107d70c2c6867b5add17a6d2dc",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.3.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yandex.metrica.push.firebase.MetricaMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "2.3.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

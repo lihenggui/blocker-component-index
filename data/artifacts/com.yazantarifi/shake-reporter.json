@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.yazantarifi:shake-reporter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:30:51Z",
+      "sha256": "7fff7fa83269b61f65a920ce7998b08388e01da722292ad95d4e553fe0ecf793",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T02:30:50Z",
+      "sha256": "5e060b5e32241b2974a0ee6228137a9c19ff0e9abb70517670f644beaafa40aa",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T02:30:49Z",
+      "sha256": "3f4b3ee8c8b3a018ecf75640c8ba1ec45ba9f95102d4325ffcbde474c339b95c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.google.android.material:material:1.4.0",
+        "com.squareup.okhttp3:okhttp:4.9.1",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yazantarifi.android.reporter.screens.ShakeReporterScreen",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yazantarifi.reporter.screens.ShakeReporterScreen",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.1",
+          "1.1.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER",
+        "android.intent.category.LEANBACK_LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

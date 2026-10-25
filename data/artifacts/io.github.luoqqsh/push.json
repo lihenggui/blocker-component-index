@@ -1,0 +1,702 @@
+{
+  "coordinate": "io.github.luoqqsh:push",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:20:14Z",
+      "sha256": "c804503e0b8ce3ebd4779f718df0fb08d4dd94cbf829b806940981292b5cbfd2",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.aliyun.ams:alicloud-android-push:3.4.0",
+        "com.google.firebase:firebase-bom:28.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "com.huawei.hms:push:5.3.0.301",
+        "com.tencent.jg:jg:1.1",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.0",
+        "com.tencent.tauth:qqopensdk:3.52.0",
+        "com.tencent.tpns:tpns:1.2.5.0-release",
+        "com.umeng.umsdk:apm:1.2.0",
+        "com.umeng.umsdk:asms:1.2.2",
+        "com.umeng.umsdk:common:9.3.8",
+        "com.umeng.umsdk:share-core:7.1.4",
+        "com.umeng.umsdk:share-qq:7.1.4",
+        "com.umeng.umsdk:share-wx:7.1.4"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:20:13Z",
+      "sha256": "29bed255d100d319fc46d390af2e96120a238942cbd4cc4957ebba1539334244",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.aliyun.ams:alicloud-android-push:3.4.0",
+        "com.google.firebase:firebase-bom:28.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "com.huawei.hms:push:5.3.0.301",
+        "com.tencent.jg:jg:1.1",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.5",
+        "com.tencent.tauth:qqopensdk:3.52.0",
+        "com.tencent.tpns:tpns:1.2.6.0-release",
+        "com.umeng.umsdk:apm:1.3.1",
+        "com.umeng.umsdk:asms:1.4.0",
+        "com.umeng.umsdk:common:9.4.0",
+        "com.umeng.umsdk:share-core:7.1.5",
+        "com.umeng.umsdk:share-qq:7.1.5",
+        "com.umeng.umsdk:share-wx:7.1.5"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:20:13Z",
+      "sha256": "75aa51ca33cf1b83cac32e9178c88cdef3b35237510a941be63ddf25a2951fd9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.aliyun.ams:alicloud-android-push:3.4.0",
+        "com.github:oppo:1.0.0",
+        "com.github:vivo:1.0.0",
+        "com.google.firebase:firebase-bom:28.0.1",
+        "com.google.firebase:firebase-messaging-ktx:22.0.0",
+        "com.huawei.hms:push:5.3.0.304",
+        "com.tencent.jg:jg:1.1",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.9",
+        "com.tencent.tauth:qqopensdk:3.52.0",
+        "com.tencent.tpns:tpns:1.2.6.0-release",
+        "com.umeng.umsdk:apm:1.3.1",
+        "com.umeng.umsdk:asms:1.4.0",
+        "com.umeng.umsdk:common:9.4.0",
+        "com.umeng.umsdk:share-core:7.1.5",
+        "com.umeng.umsdk:share-qq:7.1.5",
+        "com.umeng.umsdk:share-wx:7.1.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.umeng.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.SettingsContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TPUSH_PROVIDER",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.TpnsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.TpnsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.XGPushProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.XGVIP_PUSH_AUTH",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.XGPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":xg_vip_service",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.adapter.action.STATE_CHANGED",
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.USER_PRESENT",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE",
+        "com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE",
+        "com.tencent.android.xg.vip.action.SDK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.XGPushReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":xg_vip_service",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.adapter.action.STATE_CHANGED",
+        "android.intent.action.ACTION_POWER_CONNECTED",
+        "android.intent.action.ACTION_POWER_DISCONNECTED",
+        "android.intent.action.USER_PRESENT",
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE",
+        "com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE",
+        "com.tencent.android.xg.vip.action.SDK"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.XGVipPushKAProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AUTH_XGPUSH_KEEPALIVE",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.rpc.XGRemoteService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "${applicationId}.XGVIP_PUSH_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.service.XGVipPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":xg_vip_service",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.android.tpush.service.XGVipPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":xg_vip_service",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tauth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tauth.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tpns.baseapi.base.SettingsContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.XG_SETTINGS_PROVIDER",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tpns.mqttchannel.services.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":xg_vip_service",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.2",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.XMPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushservice",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.push.PING_TIMER"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xing.lib_thirdpush.google.GoogleMessageReceive",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xing.lib_thirdpush.huawei.hmsMessageReceive",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xing.lib_thirdpush.vivo.VivoMessageReceive",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xing.lib_thirdpush.xiaomi.MiMessageReceive",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.xiaomi.mipush.ERROR",
+        "com.xiaomi.mipush.MESSAGE_ARRIVED",
+        "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

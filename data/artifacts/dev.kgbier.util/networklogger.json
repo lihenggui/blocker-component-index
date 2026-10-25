@@ -1,0 +1,68 @@
+{
+  "coordinate": "dev.kgbier.util:networklogger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T03:05:13Z",
+      "sha256": "8703d0d68a7d605c1bfc6e85cb1302e0a64750a1dedffe61853900da437e2b72",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "app.cash.contour:contour:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T03:05:12Z",
+      "sha256": "7f305803357a1e4eeb529cc080d4ed0198ff56f62bca3c209d6817d3c29ef9e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "app.cash.contour:contour:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.kgbier.util.networklogger.view.NetworkLogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.kgbier.util.networklogger.view.NetworkLogEventActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

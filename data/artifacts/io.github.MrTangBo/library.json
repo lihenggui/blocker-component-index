@@ -1,0 +1,128 @@
+{
+  "coordinate": "io.github.MrTangBo:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "7.1.5": {
+      "fetchedAt": "2026-10-25T04:04:02Z",
+      "sha256": "dad7534501f51eccd0273ea0de816235413a372001f95956dfadd1ddb2d667d6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:databinding-adapters:4.0.1",
+        "androidx.databinding:databinding-common:4.0.1",
+        "androidx.databinding:databinding-runtime:4.0.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0",
+        "com.alibaba:arouter-api:1.4.1",
+        "com.bigkoo:convenientbanner:2.1.5",
+        "com.bm.photoview:library:1.4.1",
+        "com.contrarywind:Android-PickerView:4.1.9",
+        "com.flyco.roundview:FlycoRoundView_Lib:1.1.4",
+        "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2",
+        "com.github.Jay-Goo:RangeSeekBar:3.0.0",
+        "com.github.LuckSiege.PictureSelector:picture_library:v2.5.3",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.czy1121:settingscompat:1.1.4",
+        "com.google.android.material:material:1.2.1",
+        "com.google.android:flexbox:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.zxing:core:3.3.1",
+        "com.makeramen:roundedimageview:2.3.0",
+        "com.scwang.smartrefresh:SmartRefreshLayout:1.1.2",
+        "com.squareup.okhttp3:logging-interceptor:3.8.1",
+        "com.squareup.retrofit2:adapter-rxjava2:2.6.0",
+        "com.squareup.retrofit2:converter-gson:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.6.0",
+        "com.tbruyelle.rxpermissions2:rxpermissions:0.9.5",
+        "com.tencent:mmkv-static:1.0.24",
+        "com.yanzhenjie.recyclerview:x:1.3.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.10",
+        "jp.wasabeef:recyclerview-animators:3.0.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "q.rorbin:badgeview:1.1.3"
+      ]
+    },
+    "7.1.6": {
+      "fetchedAt": "2026-10-25T04:04:01Z",
+      "sha256": "dad7534501f51eccd0273ea0de816235413a372001f95956dfadd1ddb2d667d6",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "androidx.databinding:databinding-adapters:4.0.1",
+        "androidx.databinding:databinding-common:4.0.1",
+        "androidx.databinding:databinding-runtime:4.0.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "com.alibaba:arouter-api:1.4.1",
+        "com.bigkoo:convenientbanner:2.1.5",
+        "com.bm.photoview:library:1.4.1",
+        "com.contrarywind:Android-PickerView:4.1.9",
+        "com.flyco.roundview:FlycoRoundView_Lib:1.1.4",
+        "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2",
+        "com.github.Jay-Goo:RangeSeekBar:3.0.0",
+        "com.github.LuckSiege.PictureSelector:picture_library:v2.5.3",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "com.github.czy1121:settingscompat:1.1.4",
+        "com.google.android.material:material:1.3.0",
+        "com.google.android:flexbox:1.0.0",
+        "com.google.code.gson:gson:2.8.6",
+        "com.google.zxing:core:3.3.1",
+        "com.makeramen:roundedimageview:2.3.0",
+        "com.scwang.smartrefresh:SmartRefreshLayout:1.1.2",
+        "com.squareup.okhttp3:logging-interceptor:3.8.1",
+        "com.squareup.retrofit2:adapter-rxjava2:2.6.0",
+        "com.squareup.retrofit2:converter-gson:2.6.0",
+        "com.squareup.retrofit2:retrofit:2.7.1",
+        "com.tbruyelle.rxpermissions2:rxpermissions:0.9.5",
+        "com.tencent:mmkv-static:1.0.24",
+        "com.yanzhenjie.recyclerview:x:1.3.2",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.10",
+        "jp.wasabeef:recyclerview-animators:3.0.0",
+        "org.greenrobot:eventbus:3.2.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72",
+        "q.rorbin:badgeview:1.1.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tb.library.tbService.FloatWindowService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.1.5",
+          "7.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tb.library.tbZxingUtil.android.TbCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.1.5",
+          "7.1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

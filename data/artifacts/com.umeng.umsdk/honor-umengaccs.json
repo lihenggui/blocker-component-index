@@ -1,0 +1,52 @@
+{
+  "coordinate": "com.umeng.umsdk:honor-umengaccs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T01:51:34Z",
+      "sha256": "2f17529b3eb053bc5d1334fc7fcf92f826c64a583af3b0b9f33052b6d9e0b201",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:51:33Z",
+      "sha256": "2f17529b3eb053bc5d1334fc7fcf92f826c64a583af3b0b9f33052b6d9e0b201",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T01:51:33Z",
+      "sha256": "bcdf2c7aac3b07f4f0669ae1da4ee5cd01653cd25b2f7d0dd00e7c93ec85b910",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T01:51:32Z",
+      "sha256": "e418465a106b22446f6259dcbb5e03b28577f9422f9065a5b5db91242baceccc",
+      "dependencies": []
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T01:51:31Z",
+      "sha256": "751cb1c5394878a47f124875ebc0875348e8b0ac80f9abb9292fdf67e9dcf26c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "org.android.agoo.honor.HonorMsgService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.hihonor.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "coordinate": "com.xiaoetong.android.sdk:webcore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.2.10": {
+      "fetchedAt": "2026-10-25T02:20:45Z",
+      "sha256": "66a97c9294de45b9334e6ac715361addd3e9bbfda7962357ac3538d6b71f6a3d",
+      "dependencies": []
+    },
+    "2.2.12": {
+      "fetchedAt": "2026-10-25T02:20:44Z",
+      "sha256": "3a5b4904eb3d1f1ec0b8fdb652fefd4e261b546b5f0d66ee97e32bebc456e98b",
+      "dependencies": []
+    },
+    "2.2.13": {
+      "fetchedAt": "2026-10-25T02:20:44Z",
+      "sha256": "fbe2d68a142127610da190f1e79819705de0647f3640f12bca775460bcea94c2",
+      "dependencies": []
+    },
+    "2.2.15": {
+      "fetchedAt": "2026-10-25T02:20:43Z",
+      "sha256": "ec7229d57e8314e11d345e3baf28336c89938dbe51f7bbaafc92201aac534bbe",
+      "dependencies": []
+    },
+    "2.2.17": {
+      "fetchedAt": "2026-10-25T02:20:42Z",
+      "sha256": "7a67b70366dd0cc85e0b0c0f4031761a5f8c75e5a1bd2d2dafccca56a022c280",
+      "dependencies": []
+    },
+    "2.2.19": {
+      "fetchedAt": "2026-10-25T02:20:41Z",
+      "sha256": "44aacb42267a5b5d647abd2ec62819bb456a15ab9357b50ee5e34bdc6db85f2e",
+      "dependencies": []
+    },
+    "2.2.21": {
+      "fetchedAt": "2026-10-25T02:20:41Z",
+      "sha256": "9dd4baa3b371ff01f95e7c40227e673a2a267e5085281b7d56d3e0d21b29f9f6",
+      "dependencies": []
+    },
+    "2.2.23": {
+      "fetchedAt": "2026-10-25T02:20:40Z",
+      "sha256": "1dbc214a25dce10e2c387f7eec07ab2055ef92592772854c0e349ee53f176a81",
+      "dependencies": []
+    },
+    "2.2.25": {
+      "fetchedAt": "2026-10-25T02:20:39Z",
+      "sha256": "ed5c2e23c766d3f74ad3d9e4f82e368560d6cdbca39f1ad6bdeb2c423d79bc82",
+      "dependencies": []
+    },
+    "2.2.29": {
+      "fetchedAt": "2026-10-25T02:20:39Z",
+      "sha256": "d343bc4ad800a01d5ad6a593f6f8345100a7d17798e4153514001d4cb2ce42d5",
+      "dependencies": []
+    },
+    "2.2.31": {
+      "fetchedAt": "2026-10-25T02:20:38Z",
+      "sha256": "04f456cea2e09f18ca55658b3e74ef1360993641fb30ddcaf7df9cea0f231238",
+      "dependencies": []
+    },
+    "2.2.33": {
+      "fetchedAt": "2026-10-25T02:20:37Z",
+      "sha256": "8ab721c5cdfc6d295cc1b947b1214db8e44a88eb2d6225b7b74a53800dacacd1",
+      "dependencies": []
+    },
+    "2.2.35": {
+      "fetchedAt": "2026-10-25T02:20:36Z",
+      "sha256": "24f056667c3cd0f3d65261121ed0f142a95b4fd53aadd95e0f7241b790a4d902",
+      "dependencies": []
+    },
+    "2.2.37": {
+      "fetchedAt": "2026-10-25T02:20:36Z",
+      "sha256": "82304e04529fc863bfc0092626a8e60ea185ede761f31fe638d44acc524e2609",
+      "dependencies": []
+    },
+    "2.2.39": {
+      "fetchedAt": "2026-10-25T02:20:35Z",
+      "sha256": "41a5d7dfcce45fea8509a132abaee5ef59c66d51833a0395c537642cfab98103",
+      "dependencies": []
+    },
+    "2.2.41": {
+      "fetchedAt": "2026-10-25T02:20:34Z",
+      "sha256": "62b3db30489deeefa0255f4c1164e7b7ab278a360064639d3e1043cebf800418",
+      "dependencies": []
+    },
+    "2.2.44": {
+      "fetchedAt": "2026-10-25T02:20:34Z",
+      "sha256": "e48b31ca6018c37e65b74100325321330b5288c5838b8e85f4993e6988adbb00",
+      "dependencies": []
+    },
+    "2.2.46": {
+      "fetchedAt": "2026-10-25T02:20:33Z",
+      "sha256": "e08d612055615c0e907950d216ea802ebe94f01bc5d79f863ac6da7befb1f0a9",
+      "dependencies": []
+    },
+    "2.2.50": {
+      "fetchedAt": "2026-10-25T02:20:32Z",
+      "sha256": "f14a0c347479b6e5247f77d723a77db11f6aa3fe08d201be3b7cc2a930cd22a2",
+      "dependencies": []
+    },
+    "2.2.58": {
+      "fetchedAt": "2026-10-25T02:20:31Z",
+      "sha256": "eddc94ce62739cf637540efb8f6c984bdc577d25447a9566cf9f33743b4c7682",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.2.10",
+          "2.2.58"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.core.file.FileValueCallbackMiddleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.10",
+          "2.2.58"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.core.file.XEFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.2.10",
+          "2.2.58"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.core.imageloader.PicassoProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.2.15",
+          "2.2.58"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.squareup.picasso",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.jssdk.image.imageselector.ImageSelectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.10",
+          "2.2.58"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.xiaoe.shop.webcore.jssdk.image.preview.MoreImageShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.10",
+          "2.2.58"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "coordinate": "io.github.kangyee:pictureselector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v3.11.2": {
+      "fetchedAt": "2026-10-25T05:12:12Z",
+      "sha256": "99f19b125591ce16dc0a97127595d9e44eff577ce0b3b2949a2cdb19f9267774",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.fragment:fragment:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0"
+      ]
+    },
+    "v3.11.4": {
+      "fetchedAt": "2026-10-25T05:12:11Z",
+      "sha256": "99f19b125591ce16dc0a97127595d9e44eff577ce0b3b2949a2cdb19f9267774",
+      "dependencies": [
+        "androidx.activity:activity:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.exifinterface:exifinterface:1.3.3",
+        "androidx.fragment:fragment:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.luck.picture.lib.basic.PictureFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.luckProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.luck.picture.lib.basic.PictureSelectorSupporterActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.basic.PictureSelectorTransparentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.luck.picture.lib.service.ForegroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "v3.11.2",
+          "v3.11.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

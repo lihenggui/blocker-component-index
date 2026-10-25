@@ -1,0 +1,38 @@
+{
+  "coordinate": "com.uber.sdk2:rides-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.10.11": {
+      "fetchedAt": "2026-10-25T01:50:22Z",
+      "sha256": "8f4116494fe8e60fc03dbef35f602240c509259c5a66e4fcafbebfb89b0bb5c6",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.browser:browser:1.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.uber.sdk2:core-android:0.10.11",
+        "com.uber.sdk:uber-rides:0.8.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.uber.sdk.android.rides.RideRequestActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.10.11",
+          "0.10.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

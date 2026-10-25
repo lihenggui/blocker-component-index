@@ -1,0 +1,111 @@
+{
+  "coordinate": "io.dolby:uxkit-screenshare",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.7.3": {
+      "fetchedAt": "2026-10-25T03:48:34Z",
+      "sha256": "a10895b99825b1a8d977c56c01861e5bcc7dff1d52fc1f087a63cc36d9b07ba6",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.3"
+      ]
+    },
+    "3.7.4": {
+      "fetchedAt": "2026-10-25T03:48:33Z",
+      "sha256": "a10895b99825b1a8d977c56c01861e5bcc7dff1d52fc1f087a63cc36d9b07ba6",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.4"
+      ]
+    },
+    "3.7.5": {
+      "fetchedAt": "2026-10-25T03:48:32Z",
+      "sha256": "a34cde78942008030663365c37e831d7c2a7f25e1813efef7cfa14726fa232a7",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.7.6": {
+      "fetchedAt": "2026-10-25T03:48:32Z",
+      "sha256": "a34cde78942008030663365c37e831d7c2a7f25e1813efef7cfa14726fa232a7",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.0": {
+      "fetchedAt": "2026-10-25T03:48:31Z",
+      "sha256": "8e630f4f55a6bdb0fd73431b02d1baa3846f05ce24e11039ceb3864e92d7144f",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.1": {
+      "fetchedAt": "2026-10-25T03:48:30Z",
+      "sha256": "8e630f4f55a6bdb0fd73431b02d1baa3846f05ce24e11039ceb3864e92d7144f",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.2": {
+      "fetchedAt": "2026-10-25T03:48:30Z",
+      "sha256": "8e630f4f55a6bdb0fd73431b02d1baa3846f05ce24e11039ceb3864e92d7144f",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.3": {
+      "fetchedAt": "2026-10-25T03:48:29Z",
+      "sha256": "8e630f4f55a6bdb0fd73431b02d1baa3846f05ce24e11039ceb3864e92d7144f",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.4": {
+      "fetchedAt": "2026-10-25T03:48:29Z",
+      "sha256": "8e630f4f55a6bdb0fd73431b02d1baa3846f05ce24e11039ceb3864e92d7144f",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.5": {
+      "fetchedAt": "2026-10-25T03:48:28Z",
+      "sha256": "8e630f4f55a6bdb0fd73431b02d1baa3846f05ce24e11039ceb3864e92d7144f",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.9.0": {
+      "fetchedAt": "2026-10-25T03:48:27Z",
+      "sha256": "8e630f4f55a6bdb0fd73431b02d1baa3846f05ce24e11039ceb3864e92d7144f",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.voxeet.uxkit.screenshare.manifests.ScreenShareMediaPresentationProviderManifestComponent",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.7.3",
+          "3.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.manifests.ScreenShareMediaPresentationProviderManifestComponent",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

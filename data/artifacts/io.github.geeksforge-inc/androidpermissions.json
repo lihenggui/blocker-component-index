@@ -1,0 +1,36 @@
+{
+  "coordinate": "io.github.geeksforge-inc:androidpermissions",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:54:58Z",
+      "sha256": "6dfda87e27001aead9f2d6d33f2c3e893b00038af2a3902196b011de7abb34fe",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.3.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.30",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.geeksforgeinc.androidpermissions.ShadowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "coordinate": "com.umeng.sdk:share-sina",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.9.0": {
+      "fetchedAt": "2026-10-25T01:51:09Z",
+      "sha256": "753ed352d8872fc3a309a42f0513d4f33f7f0103fefa0f9d39dcbd2a17696bb7",
+      "dependencies": []
+    },
+    "6.9.1": {
+      "fetchedAt": "2026-10-25T01:51:09Z",
+      "sha256": "753ed352d8872fc3a309a42f0513d4f33f7f0103fefa0f9d39dcbd2a17696bb7",
+      "dependencies": []
+    },
+    "6.9.1.1": {
+      "fetchedAt": "2026-10-25T01:51:08Z",
+      "sha256": "d5837dca7d369b7a234256a701325e0dd0f8646e47efedf059cdc6d4fc25b495",
+      "dependencies": []
+    },
+    "6.9.2": {
+      "fetchedAt": "2026-10-25T01:51:07Z",
+      "sha256": "d5837dca7d369b7a234256a701325e0dd0f8646e47efedf059cdc6d4fc25b495",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sina.weibo.sdk.share.WbShareTransActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.9.0",
+          "6.9.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.sina.weibo.sdk.web.WeiboSdkWebActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.9.0",
+          "6.9.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.umeng.socialize.media.WBShareCallBackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.9.0",
+          "6.9.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

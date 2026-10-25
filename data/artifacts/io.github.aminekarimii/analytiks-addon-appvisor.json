@@ -1,0 +1,64 @@
+{
+  "coordinate": "io.github.aminekarimii:analytiks-addon-appvisor",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:14:54Z",
+      "sha256": "6c18573d3d06f1d06174ff9c7ab4189da89be2d2d30ccf2b0762460a1343c8bb",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "com.google.android.material:material:1.7.0",
+        "io.github.aminekarimii:analytiks-core:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T04:14:56Z",
+      "sha256": "93ef8d199a74e9fd3c03e60300bf86eea6f7020ff61170e029cdd54485325219",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:viewbinding:8.5.2",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "com.google.android.material:material:1.7.0",
+        "io.github.aminekarimii:analytiks-core:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T04:14:55Z",
+      "sha256": "93ef8d199a74e9fd3c03e60300bf86eea6f7020ff61170e029cdd54485325219",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:viewbinding:8.5.2",
+        "androidx.recyclerview:recyclerview:1.3.2",
+        "com.google.android.material:material:1.7.0",
+        "io.github.aminekarimii:analytiks-core:1.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.analytiks.addon.appvisor.ui.AppVisorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

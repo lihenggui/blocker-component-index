@@ -1,0 +1,60 @@
+{
+  "coordinate": "io.github.kiberneticworm:awesome-buttons",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:13:44Z",
+      "sha256": "7adbba85dd72cd8e87d4973c6705174d523535f655b97b2f712d0cc4823adcb3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.constraintlayout:constraintlayout:2.1.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:13:43Z",
+      "sha256": "7ee7605565b44e4e994cd5d2353518ef47323921dabb3707389cc73cc37e1a73",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T05:13:42Z",
+      "sha256": "c897e0d8e480370b3a50abbdf5dbbb32db4ff4fd4f823b480dc1f676b57120dc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.core:core-ktx:1.6.0",
+        "com.google.android.material:material:1.4.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.freeit.awesomebuttons.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.6"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "coordinate": "io.github.alifgarindra:webview",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1": {
+      "fetchedAt": "2026-10-25T04:14:24Z",
+      "sha256": "ec564badfd041abd9e11ae4376bd5182d98a02d248f6f76b3ecc29b82dc4ad68",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.6.1"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T04:14:23Z",
+      "sha256": "ec564badfd041abd9e11ae4376bd5182d98a02d248f6f76b3ecc29b82dc4ad68",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "com.google.android.material:material:1.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.example.webviewlib.FromLib",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

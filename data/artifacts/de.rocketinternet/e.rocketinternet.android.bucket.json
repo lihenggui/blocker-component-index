@@ -1,0 +1,52 @@
+{
+  "coordinate": "de.rocketinternet:e.rocketinternet.android.bucket",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.2": {
+      "fetchedAt": "2026-10-25T02:55:50Z",
+      "sha256": "6a7979f472d009c4fa015a56270c7dc72294d48cf40b6221e9d35edb2f7121b2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.3.0",
+        "com.android.support:recyclerview-v7:23.3.0",
+        "com.android.support:support-annotations:23.3.0",
+        "com.squareup.okhttp:okhttp:2.7.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.rocketinternet.android.bucket.BucketsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.rocketinternet.android.bucket.ui.BucketDetailsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2",
+          "1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "coordinate": "com.yxt.opensdk.library_http:library_networkstate",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.3": {
+      "fetchedAt": "2026-10-25T02:42:28Z",
+      "sha256": "bc9c497b5e5b2d843cf821711aca895decd3128db19349c986059553486788c5",
+      "dependencies": [
+        "com.yxt.opensdk:library_log:2.2"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T02:42:27Z",
+      "sha256": "99f4f112d3ecfdb85722c1f980e415ec31bbd590127764fb6f2363b2de5a073a",
+      "dependencies": [
+        "com.yxt.opensdk:library_log:2.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yxt.sdk.networkstate.receiver.CommitteeNetworkReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.3",
+          "0.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yxt.sdk.networkstate.receiver.NetWorkStatueService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.3",
+          "0.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

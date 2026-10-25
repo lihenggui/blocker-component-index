@@ -1,0 +1,115 @@
+{
+  "coordinate": "io.elements.pay:core-components",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-beta01": {
+      "fetchedAt": "2026-10-25T03:50:33Z",
+      "sha256": "86c269e99417a95bccc883e17bcf6ff882ea724338e8db11643f990a17bc5168",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta02": {
+      "fetchedAt": "2026-10-25T03:50:33Z",
+      "sha256": "f90882ddb64639417508b0b873b3297de26d1f9a4bd752b0cba3caffd49eecb2",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta02",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta03": {
+      "fetchedAt": "2026-10-25T03:50:32Z",
+      "sha256": "6364034575678150aee5293a19dec85739c9c2d7b1177682c46566028f0105c6",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta03",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta04": {
+      "fetchedAt": "2026-10-25T03:50:31Z",
+      "sha256": "92ea23fb10e2be12ecd0b816e23e8cd9a26406b6a1d810e5a734e490f0865540",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta04",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta05": {
+      "fetchedAt": "2026-10-25T03:50:31Z",
+      "sha256": "6ed013eaa9278f9b12b6b465f6fbe2a03bd171657dc50ffa53add788399fb2dd",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta05",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta06": {
+      "fetchedAt": "2026-10-25T03:50:30Z",
+      "sha256": "4b7342d45dde21742c659e95f64db9bd9400f5cdc54ad93178366a419dcb6dff",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta06",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta07": {
+      "fetchedAt": "2026-10-25T03:50:29Z",
+      "sha256": "0462cacc30b47cc5f7738ebd19954a2527c842cbf617d553af4c9a5753815d98",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta07",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta08": {
+      "fetchedAt": "2026-10-25T03:50:29Z",
+      "sha256": "a1f0113ffb428df4590d76587a1e33bbed50c2ade069c1baa315d217cfeb5257",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta08",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    },
+    "1.0.0-beta09": {
+      "fetchedAt": "2026-10-25T03:50:28Z",
+      "sha256": "5e7b84ba857c1acd3efee238f1380997acc1283cdac3ba6c29cb29f22b53122f",
+      "dependencies": [
+        "androidx.fragment:fragment-ktx:1.2.5",
+        "io.elements.pay:core-module:1.0.0-beta09",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.elements.pay.components.analytics.AnalyticsDispatcher",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-beta01",
+          "1.0.0-beta09"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

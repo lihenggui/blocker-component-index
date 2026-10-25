@@ -1,0 +1,178 @@
+{
+  "coordinate": "io.github.jiangjm424:view-db",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:08:28Z",
+      "sha256": "f189b9bdf9a0582aa7f583fd9192da24e5a207e0a06ace3aafe669e0933f858e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:1.4.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.paging:paging-runtime-ktx:3.1.0-alpha03",
+        "androidx.sqlite:sqlite-ktx:2.2.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.5",
+        "net.zetetic:android-database-sqlcipher:4.5.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T05:08:28Z",
+      "sha256": "f189b9bdf9a0582aa7f583fd9192da24e5a207e0a06ace3aafe669e0933f858e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:1.4.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.paging:paging-runtime-ktx:3.1.0-alpha03",
+        "androidx.sqlite:sqlite-ktx:2.2.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.5",
+        "net.zetetic:android-database-sqlcipher:4.5.1"
+      ]
+    },
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:08:27Z",
+      "sha256": "f189b9bdf9a0582aa7f583fd9192da24e5a207e0a06ace3aafe669e0933f858e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:1.4.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.paging:paging-runtime-ktx:3.1.0-alpha03",
+        "androidx.sqlite:sqlite-ktx:2.2.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.5",
+        "net.zetetic:android-database-sqlcipher:4.5.1"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T05:08:25Z",
+      "sha256": "f189b9bdf9a0582aa7f583fd9192da24e5a207e0a06ace3aafe669e0933f858e",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:1.4.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.paging:paging-runtime-ktx:3.1.0-alpha03",
+        "androidx.sqlite:sqlite-ktx:2.2.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.5",
+        "net.zetetic:android-database-sqlcipher:4.5.1"
+      ]
+    },
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T05:08:26Z",
+      "sha256": "c135f65f401a70cd1771fdd19f7ff981721c744d946aace166037f0ea44a83f5",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.3.1",
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:1.4.0",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:8.13.0",
+        "androidx.paging:paging-runtime-ktx:3.1.0-alpha03",
+        "androidx.sqlite:sqlite-ktx:2.2.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.8.5",
+        "net.zetetic:android-database-sqlcipher:4.5.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.db.runtime.DBViewInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DBViewInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.db.view.page.data.DataActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.db.view.page.db.DbActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.db.view.page.table.TableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.viewdb.ui.db.DBActivityLauncher",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

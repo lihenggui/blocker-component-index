@@ -1,0 +1,104 @@
+{
+  "coordinate": "dev.hitools.android:utils-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0.1": {
+      "fetchedAt": "2026-10-25T02:59:24Z",
+      "sha256": "0fd3defe97506394d10d0769e81ac9e745f7fa45291655e9960a01e7981ae0a4",
+      "dependencies": [
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.12.0",
+        "dev.hitools.android:utils-kts:1.0.0.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.0.5": {
+      "fetchedAt": "2026-10-25T02:59:23Z",
+      "sha256": "e0d5ca67b7bb894687e48c582b8192233da34ac36356a7916eb8352e42b9656b",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.core:core-splashscreen:1.0.0",
+        "androidx.databinding:databinding-adapters:7.4.0",
+        "androidx.databinding:databinding-common:7.4.0",
+        "androidx.databinding:databinding-ktx:7.4.0",
+        "androidx.databinding:databinding-runtime:7.4.0",
+        "androidx.databinding:viewbinding:7.4.0",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "androidx.viewpager:viewpager:1.0.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.12.0",
+        "com.google.android.material:material:1.7.0",
+        "com.google.code.gson:gson:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    },
+    "1.0.0.6": {
+      "fetchedAt": "2026-10-25T02:59:22Z",
+      "sha256": "e0d5ca67b7bb894687e48c582b8192233da34ac36356a7916eb8352e42b9656b",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.1",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.core:core-splashscreen:1.0.0",
+        "androidx.databinding:databinding-adapters:7.4.0",
+        "androidx.databinding:databinding-common:7.4.0",
+        "androidx.databinding:databinding-ktx:7.4.0",
+        "androidx.databinding:databinding-runtime:7.4.0",
+        "androidx.databinding:viewbinding:7.4.0",
+        "androidx.fragment:fragment-ktx:1.5.5",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "androidx.viewpager:viewpager:1.0.0",
+        "com.github.bumptech.glide:glide:4.12.0",
+        "com.github.bumptech.glide:okhttp3-integration:4.12.0",
+        "com.google.android.material:material:1.7.0",
+        "com.google.code.gson:gson:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.hitools.utils.core.permission.RequestPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0.1",
+          "1.0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.hitools.utils.provider.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0.5",
+          "1.0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.initprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

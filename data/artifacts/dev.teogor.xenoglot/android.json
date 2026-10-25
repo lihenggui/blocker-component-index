@@ -1,0 +1,35 @@
+{
+  "coordinate": "dev.teogor.xenoglot:android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:10:52Z",
+      "sha256": "dbfaf90d83bf0f1d0736cf88f85c3765fe92f19d84ef1eefa8f3c2637306876d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.appcompat.app.AppLocalesMetadataHolderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha01"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "autoStoreLocales"
+      ]
+    }
+  ]
+}

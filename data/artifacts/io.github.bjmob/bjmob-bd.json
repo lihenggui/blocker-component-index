@@ -1,0 +1,88 @@
+{
+  "coordinate": "io.github.bjmob:bjmob-bd",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T04:24:26Z",
+      "sha256": "6cf20963b3e73b25e0669fdeaa3f8ab43d1200a0e0494a683e45035a61aa149a",
+      "dependencies": []
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T04:24:25Z",
+      "sha256": "aa685ce56e92ac83f93943cc71bc56bbb4a0cebe292732ed6a354cfb0dc436cc",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.mobads.sdk.api.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bd.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdShellActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.4",
+          "0.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "coordinate": "io.github.appspirimentlabs:kashproxy-chucker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:18:12Z",
+      "sha256": "c0439dfc2cbc2e3b721cc50aac8160d5add3202ecb93f8fac5328db3e796a4e9",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.2.4",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:7.3.1",
+        "androidx.fragment:fragment-ktx:1.3.6",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+        "androidx.palette:palette-ktx:1.0.0",
+        "androidx.room:room-ktx:2.4.3",
+        "androidx.room:room-runtime:2.4.3",
+        "com.google.android.material:material:1.4.0",
+        "com.google.code.gson:gson:2.8.7",
+        "com.squareup.okhttp3:okhttp-bom:3.12.10",
+        "io.github.appspirimentlabs:kashproxy-core:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ChuckerFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.com.chuckerteam.chucker.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.support.ClearDatabaseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.throwable.ThrowableActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "coordinate": "com.umeng.sdk:share-wechat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.9.0": {
+      "fetchedAt": "2026-10-25T01:51:11Z",
+      "sha256": "3130eb6568e789ee611e3fd8a21521dcbf68ed20bf3dd2911c6249450a043af8",
+      "dependencies": []
+    },
+    "6.9.1": {
+      "fetchedAt": "2026-10-25T01:51:11Z",
+      "sha256": "9812820c3fb243e2f983d4b6462105e165ee48eca195e5acbd4bc69cadc50f5d",
+      "dependencies": []
+    },
+    "6.9.2": {
+      "fetchedAt": "2026-10-25T01:51:10Z",
+      "sha256": "9812820c3fb243e2f983d4b6462105e165ee48eca195e5acbd4bc69cadc50f5d",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.9.0",
+          "6.9.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

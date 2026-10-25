@@ -1,0 +1,30 @@
+{
+  "coordinate": "io.gitee.osarms:autosize",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:58:58Z",
+      "sha256": "6a8e1e8f0cd2116ae0be2807f81761fa2bca7a3f3403d913b354e13d52fbc75c",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.me.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

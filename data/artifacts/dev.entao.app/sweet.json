@@ -1,0 +1,106 @@
+{
+  "coordinate": "dev.entao.app:sweet",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.8.3": {
+      "fetchedAt": "2026-10-25T02:58:47Z",
+      "sha256": "279c67a900e5ef746b9c17e8eda062da059c646b92b4a7a89fdba6f2c89b5e45",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.5.0",
+        "dev.entao.app:http:0.7.3",
+        "dev.entao.app:imageloader:0.7.3",
+        "dev.entao.app:inst:0.7.3",
+        "dev.entao.app:json:0.7.3",
+        "dev.entao.app:jsonhttp:0.7.3",
+        "dev.entao.app:jsonsql:0.8.3",
+        "dev.entao.app:log:0.7.3",
+        "dev.entao.app:page:0.7.3",
+        "dev.entao.app:sql:0.8.3",
+        "dev.entao.app:task:0.7.3",
+        "dev.entao.app:ui:0.7.3",
+        "dev.entao.app:viewbuilder:0.8.3",
+        "dev.entao.app:viewname:0.7.3",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:58:46Z",
+      "sha256": "279c67a900e5ef746b9c17e8eda062da059c646b92b4a7a89fdba6f2c89b5e45",
+      "dependencies": [
+        "androidx.annotation:annotation:1.3.0",
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.constraintlayout:constraintlayout:2.1.3",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "com.google.android.material:material:1.5.0",
+        "dev.entao.app:basic:1.0.0",
+        "dev.entao.app:http:1.0.0",
+        "dev.entao.app:imageloader:1.0.0",
+        "dev.entao.app:inst:1.0.0",
+        "dev.entao.app:json:1.0.0",
+        "dev.entao.app:jsonhttp:1.0.0",
+        "dev.entao.app:jsonsql:1.0.0",
+        "dev.entao.app:log:1.0.0",
+        "dev.entao.app:orm:1.0.0",
+        "dev.entao.app:page:1.0.0",
+        "dev.entao.app:sql:1.0.0",
+        "dev.entao.app:task:1.0.0",
+        "dev.entao.app:ui:1.0.0",
+        "dev.entao.app:viewbuilder:1.0.0",
+        "dev.entao.app:viewname:1.0.0",
+        "org.jetbrains.kotlin:kotlin-reflect:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "dev.entao.app.sweet.FileProv",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.8.3",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.files",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "dev.entao.app.sweet.upgrade.UpgradeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.8.3",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

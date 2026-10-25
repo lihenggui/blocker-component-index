@@ -1,0 +1,57 @@
+{
+  "coordinate": "io.github.alkincakiralar1996.vidoven:vidovensdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:14:45Z",
+      "sha256": "722590bab86cdd070a4d86004d7b4e3c8732018f7da90b84ccabb56a86dee823",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.socket:socket.io-client:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:14:44Z",
+      "sha256": "722590bab86cdd070a4d86004d7b4e3c8732018f7da90b84ccabb56a86dee823",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "io.socket:socket.io-client:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.vidoven.vidovensdk.presentation.browser.BrowserActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

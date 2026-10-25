@@ -1,0 +1,199 @@
+{
+  "coordinate": "io.github.airwallex:airwallex-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.4-support": {
+      "fetchedAt": "2026-10-25T04:12:04Z",
+      "sha256": "9f5318e4c90a451cfe01cd85c5c374d523acc96b7bbbee38ad88b637204981df",
+      "dependencies": [
+        "com.android.support:customtabs:28.0.0",
+        "com.android.support:design:28.0.0",
+        "io.github.airwallex:TrustDefender:5.0-96",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1",
+        "org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.3-2"
+      ]
+    },
+    "2.0.4-1-support": {
+      "fetchedAt": "2026-10-25T04:12:04Z",
+      "sha256": "c1bf6032cafd06480d0b2bf2b5dba2bad886a8571e9e2f881d561f13bfcbc199",
+      "dependencies": [
+        "com.android.databinding:viewbinding:4.2.2",
+        "com.android.support.constraint:constraint-layout:2.0.1",
+        "com.android.support:customtabs:28.0.0",
+        "com.android.support:design:28.0.0",
+        "io.github.airwallex:TrustDefender:5.0-96",
+        "io.github.airwallex:cardinalmobilesdk:2.2.3-2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "2.0.4-2-support": {
+      "fetchedAt": "2026-10-25T04:12:03Z",
+      "sha256": "c1bf6032cafd06480d0b2bf2b5dba2bad886a8571e9e2f881d561f13bfcbc199",
+      "dependencies": [
+        "com.android.databinding:viewbinding:4.2.2",
+        "com.android.support.constraint:constraint-layout:2.0.1",
+        "com.android.support:customtabs:28.0.0",
+        "com.android.support:design:28.0.0",
+        "io.github.airwallex:TrustDefender:5.0-96",
+        "io.github.airwallex:cardinalmobilesdk:2.2.3-2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "2.0.4-3-support": {
+      "fetchedAt": "2026-10-25T04:12:02Z",
+      "sha256": "c1bf6032cafd06480d0b2bf2b5dba2bad886a8571e9e2f881d561f13bfcbc199",
+      "dependencies": [
+        "com.android.databinding:viewbinding:4.2.2",
+        "com.android.support.constraint:constraint-layout:2.0.4",
+        "com.android.support:customtabs:28.0.0",
+        "com.android.support:design:28.0.0",
+        "io.github.airwallex:TrustDefender:5.0-96",
+        "io.github.airwallex:cardinalmobilesdk:2.2.3-2",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T04:12:01Z",
+      "sha256": "c1bf6032cafd06480d0b2bf2b5dba2bad886a8571e9e2f881d561f13bfcbc199",
+      "dependencies": [
+        "androidx.browser:browser:1.3.0",
+        "androidx.databinding:viewbinding:4.2.1",
+        "com.google.android.material:material:1.3.0",
+        "com.threatmetrix.TrustDefender:TrustDefender:5.0-96",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0",
+        "org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.3-2"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T04:12:00Z",
+      "sha256": "c1bf6032cafd06480d0b2bf2b5dba2bad886a8571e9e2f881d561f13bfcbc199",
+      "dependencies": [
+        "androidx.browser:browser:1.3.0",
+        "androidx.databinding:viewbinding:4.2.2",
+        "com.google.android.material:material:1.4.0",
+        "io.github.airwallex:TrustDefender:5.0-96",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0",
+        "org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.3-2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.airwallex.android.view.AddPaymentMethodActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4-support",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.airwallex.android.view.DccActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4-support",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.airwallex.android.view.PaymentCheckoutActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4-support",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.airwallex.android.view.PaymentMethodsActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4-support",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.airwallex.android.view.PaymentShippingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4-support",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.airwallex.android.view.ThreeDSecureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.4-support",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

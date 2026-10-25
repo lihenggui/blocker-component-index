@@ -1,0 +1,72 @@
+{
+  "coordinate": "com.yodo1.suit.advert:gdt",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.471.1341.0": {
+      "fetchedAt": "2026-10-25T02:36:30Z",
+      "sha256": "9dba2d7aa248837bab80452a61d11c31a379d9f64fb8c57c6071838e7ea8e7f5",
+      "dependencies": [
+        "com.qq.e.union:union:4.471.1341"
+      ]
+    },
+    "4.491.1361.1": {
+      "fetchedAt": "2026-10-25T02:36:29Z",
+      "sha256": "d4c1b86ef44780eebb3c1e6de0e181d01b93c10f265e706ec0c16b49729a885f",
+      "dependencies": [
+        "com.qq.e.union:union:4.491.1361"
+      ]
+    },
+    "4.520.1390.0": {
+      "fetchedAt": "2026-10-25T02:36:28Z",
+      "sha256": "646bbc5971407b631cb8a50165fc0a781fc8cc4d166eacf6b41872d21eed04bf",
+      "dependencies": [
+        "com.qq.e.union:union:4.520.1390"
+      ]
+    },
+    "4.630.1500.0": {
+      "fetchedAt": "2026-10-25T02:36:29Z",
+      "sha256": "37d9706594e9ad2966b73ff566b2b07de1bf3bec5d03bd824d44a04e8acbf347",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.471.1341.0",
+          "4.630.1500.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.yodo1.android.sdk.base.Yodo1BaseFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.471.1341.0",
+          "4.630.1500.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

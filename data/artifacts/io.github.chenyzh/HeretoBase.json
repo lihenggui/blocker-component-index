@@ -1,0 +1,65 @@
+{
+  "coordinate": "io.github.chenyzh:HeretoBase",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0.2-snapshot": {
+      "fetchedAt": "2026-10-25T04:34:39Z",
+      "sha256": "be9e93c6fccd9ccf1fb6b2d9ec36ebbd340e6810bd6a6c11bcd5272964729acb",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10"
+      ]
+    },
+    "1.1.0.2": {
+      "fetchedAt": "2026-10-25T04:34:38Z",
+      "sha256": "be9e93c6fccd9ccf1fb6b2d9ec36ebbd340e6810bd6a6c11bcd5272964729acb",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10"
+      ]
+    },
+    "1.1.0.3-snapshot": {
+      "fetchedAt": "2026-10-25T04:34:37Z",
+      "sha256": "be9e93c6fccd9ccf1fb6b2d9ec36ebbd340e6810bd6a6c11bcd5272964729acb",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0.2-snapshot",
+          "1.1.0.3-snapshot"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.hereto.library.base.HeretoWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0.2-snapshot",
+          "1.1.0.3-snapshot"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

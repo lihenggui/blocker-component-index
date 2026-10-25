@@ -1,0 +1,360 @@
+{
+  "coordinate": "com.tradplusad:sigmob-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.19.4": {
+      "fetchedAt": "2026-10-25T01:38:24Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.19.5": {
+      "fetchedAt": "2026-10-25T01:38:24Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.20.0": {
+      "fetchedAt": "2026-10-25T01:38:23Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.22.0": {
+      "fetchedAt": "2026-10-25T01:38:22Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.22.1": {
+      "fetchedAt": "2026-10-25T01:38:12Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.23.0": {
+      "fetchedAt": "2026-10-25T01:38:22Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.23.2": {
+      "fetchedAt": "2026-10-25T01:38:21Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.24.0": {
+      "fetchedAt": "2026-10-25T01:38:20Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.24.1": {
+      "fetchedAt": "2026-10-25T01:38:20Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.24.4": {
+      "fetchedAt": "2026-10-25T01:38:19Z",
+      "sha256": "1b2053993bff05535c1d104e99684adbe4e0ddf065467460a514c5d2d59b3558",
+      "dependencies": []
+    },
+    "4.24.6": {
+      "fetchedAt": "2026-10-25T01:38:18Z",
+      "sha256": "0e95c92b682b25b17b46fa292aafc406e0d306f9a0540616e65ffa818ed3f244",
+      "dependencies": []
+    },
+    "4.24.7": {
+      "fetchedAt": "2026-10-25T01:38:18Z",
+      "sha256": "0e95c92b682b25b17b46fa292aafc406e0d306f9a0540616e65ffa818ed3f244",
+      "dependencies": []
+    },
+    "4.25.2": {
+      "fetchedAt": "2026-10-25T01:38:17Z",
+      "sha256": "0e95c92b682b25b17b46fa292aafc406e0d306f9a0540616e65ffa818ed3f244",
+      "dependencies": []
+    },
+    "4.25.11": {
+      "fetchedAt": "2026-10-25T01:38:16Z",
+      "sha256": "1f8ce62cd7ece58b7421c9fa3c3574780c448e8521b576ed0894db6a04ec35ca",
+      "dependencies": []
+    },
+    "4.25.12": {
+      "fetchedAt": "2026-10-25T01:38:16Z",
+      "sha256": "1f8ce62cd7ece58b7421c9fa3c3574780c448e8521b576ed0894db6a04ec35ca",
+      "dependencies": []
+    },
+    "4.25.14": {
+      "fetchedAt": "2026-10-25T01:38:15Z",
+      "sha256": "1f8ce62cd7ece58b7421c9fa3c3574780c448e8521b576ed0894db6a04ec35ca",
+      "dependencies": []
+    },
+    "4.25.21": {
+      "fetchedAt": "2026-10-25T01:38:14Z",
+      "sha256": "1f8ce62cd7ece58b7421c9fa3c3574780c448e8521b576ed0894db6a04ec35ca",
+      "dependencies": []
+    },
+    "4.25.23": {
+      "fetchedAt": "2026-10-25T01:38:14Z",
+      "sha256": "725652d3d9fae40bfc8ee877d515c371a0c0eab9d7ff76fd6c4fa0e8201b9f72",
+      "dependencies": []
+    },
+    "4.25.80": {
+      "fetchedAt": "2026-10-25T01:38:13Z",
+      "sha256": "c98ccbc71358976df269465b0d25ed7f59c768d76bb55b64946b317e4e484aa1",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.sigmob.sdk.SigmobFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "4.19.4",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sigprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.sigmob.sdk.base.PrivacyQueryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.80",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.11",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.19.4",
+          "4.25.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.LandscapeAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.11",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.LandscapeAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.19.4",
+          "4.25.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.LandscapeTransparentAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.11",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.LandscapeTransparentAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.19.4",
+          "4.25.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.PortraitAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.11",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.PortraitAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.19.4",
+          "4.25.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.PortraitTransparentAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.11",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.PortraitTransparentAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.19.4",
+          "4.25.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.TransparentAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.11",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.base.common.TransparentAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.19.4",
+          "4.25.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sigmob.sdk.nova.ui.reward.QuickRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.25.23",
+          "4.25.80"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

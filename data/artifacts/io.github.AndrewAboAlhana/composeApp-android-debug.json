@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.github.AndrewAboAlhana:composeApp-android-debug",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "Beta-0.0.1": {
+      "fetchedAt": "2026-10-25T04:00:49Z",
+      "sha256": "4fbaef73774c9d04e24036760c322b50dd2e857a372958c91e495082fe7b029c",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.7.2",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.compose.ui:ui-tooling:1.5.1",
+        "cafe.adriel.voyager:voyager-navigator:1.0.0-rc07",
+        "org.jetbrains.compose.components:components-resources:1.5.1",
+        "org.jetbrains.compose.material3:material3:1.5.1",
+        "org.jetbrains.compose.runtime:runtime:1.5.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.jewel.app.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "Beta-0.0.1",
+          "Beta-0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

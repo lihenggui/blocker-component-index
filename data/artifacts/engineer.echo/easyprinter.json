@@ -1,0 +1,34 @@
+{
+  "coordinate": "engineer.echo:easyprinter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:13:44Z",
+      "sha256": "ea1ef2f14a2e8b070d73f51ee987b99dc58f7c8c44c17a64082c0fcf7e890867",
+      "dependencies": [
+        "DDU:easylib:unspecified",
+        "androidx.appcompat:appcompat:1.0.0-beta01",
+        "androidx.core:core-ktx:1.2.0-alpha01"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "engineer.echo.easyprinter.PrinterService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

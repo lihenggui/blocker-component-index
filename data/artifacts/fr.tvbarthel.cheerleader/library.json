@@ -1,0 +1,156 @@
+{
+  "coordinate": "fr.tvbarthel.cheerleader:library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T03:21:58Z",
+      "sha256": "3756963c1207b299bab2c7874e6ff6f29934f14275f91a546ed2642e221f9fd1",
+      "dependencies": [
+        "com.android.support:appcompat-v7:21.0.3",
+        "com.android.support:mediarouter-v7:21.0.3",
+        "com.squareup.picasso:picasso:2.4.0",
+        "com.squareup.retrofit:retrofit:1.8.0",
+        "io.reactivex:rxandroid:0.24.0"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:21:58Z",
+      "sha256": "c345e0765fd5e8bfdcb5dac0b87204dc107adee7f5892614acac1a27060c35a5",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:mediarouter-v7:23.4.0",
+        "com.squareup.okhttp3:logging-interceptor:3.3.1",
+        "com.squareup.okhttp3:okhttp:3.3.1",
+        "com.squareup.picasso:picasso:2.4.0",
+        "com.squareup.retrofit2:adapter-rxjava:2.0.2",
+        "com.squareup.retrofit2:converter-gson:2.0.2",
+        "com.squareup.retrofit2:retrofit:2.0.2",
+        "io.reactivex:rxandroid:1.2.0",
+        "io.reactivex:rxjava:1.1.5"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:21:57Z",
+      "sha256": "2c177ef55964463f1e74a33b38c125d9dc81ca4b876efd4872764ea028e7a55f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.4.0",
+        "com.android.support:mediarouter-v7:23.4.0",
+        "com.squareup.okhttp3:logging-interceptor:3.3.1",
+        "com.squareup.okhttp3:okhttp:3.3.1",
+        "com.squareup.picasso:picasso:2.4.0",
+        "com.squareup.retrofit2:adapter-rxjava:2.0.2",
+        "com.squareup.retrofit2:converter-gson:2.0.2",
+        "com.squareup.retrofit2:retrofit:2.0.2",
+        "io.reactivex:rxandroid:1.2.0",
+        "io.reactivex:rxjava:1.1.5"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T03:21:57Z",
+      "sha256": "2a3810e004355235277cb7bf9df766b6fb32f459820b30032d89ebcc29fcf7fd",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.1.0",
+        "com.android.support:mediarouter-v7:25.1.0",
+        "com.squareup.okhttp3:logging-interceptor:3.5.0",
+        "com.squareup.okhttp3:okhttp:3.5.0",
+        "com.squareup.picasso:picasso:2.5.2",
+        "com.squareup.retrofit2:adapter-rxjava:2.1.0",
+        "com.squareup.retrofit2:converter-gson:2.1.0",
+        "com.squareup.retrofit2:retrofit:2.1.0",
+        "io.reactivex:rxandroid:1.2.1",
+        "io.reactivex:rxjava:1.2.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "fr.tvbarthel.cheerleader.library.media.MediaSessionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MEDIA_BUTTON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "fr.tvbarthel.cheerleader.library.offline.OfflinerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.Cheerleader.OfflineProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "fr.tvbarthel.cheerleader.library.offline.OfflinerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "fr.tvbarthel.cheerleader.library.Cheerleader.OfflineProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "fr.tvbarthel.cheerleader.library.player.PlaybackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "fr.tvbarthel.cheerleader.library.player.PlayerReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.media.AUDIO_BECOMING_NOISY"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

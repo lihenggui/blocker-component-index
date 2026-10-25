@@ -1,0 +1,37 @@
+{
+  "coordinate": "com.zhjl37.permission:permission",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:46:56Z",
+      "sha256": "e32a12e13e3507cfd0547bff15cd6f7e284f41166be801e44e11e90f5eb15b1e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.databinding:viewbinding:7.0.4",
+        "com.google.android.material:material:1.4.0",
+        "com.intuit.sdp:sdp-android:1.0.6",
+        "com.intuit.ssp:ssp-android:1.0.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zhjl37.permission.PermissionsRationaleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

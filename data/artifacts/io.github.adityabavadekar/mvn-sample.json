@@ -1,0 +1,57 @@
+{
+  "coordinate": "io.github.adityabavadekar:mvn-sample",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "unspecified": {
+      "fetchedAt": "2026-10-25T04:08:34Z",
+      "sha256": "6121ae8255349f27dff85beaa39b8e56d66ce6ad61cc5e17fb74fcc55de2f8d2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "1.0": {
+      "fetchedAt": "2026-10-25T04:08:33Z",
+      "sha256": "6121ae8255349f27dff85beaa39b8e56d66ce6ad61cc5e17fb74fcc55de2f8d2",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "1.1": {
+      "fetchedAt": "2026-10-25T04:08:33Z",
+      "sha256": "b5f13021bc38097e976ec6c9ae3468602036259abe15728ebe372018bb7a0105",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    },
+    "1.2": {
+      "fetchedAt": "2026-10-25T04:08:32Z",
+      "sha256": "39a176793868dc96ed2a7aa6cbce5ebbf1c78e200f9b13b694d1884f47d548b0",
+      "dependencies": [
+        "androidx.core:core-ktx:1.7.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1",
+          "1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.mvn_sample.provider.file",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

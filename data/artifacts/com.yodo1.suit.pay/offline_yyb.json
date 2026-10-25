@@ -1,0 +1,274 @@
+{
+  "coordinate": "com.yodo1.suit.pay:offline_yyb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.8.14.0": {
+      "fetchedAt": "2026-10-25T02:38:00Z",
+      "sha256": "71297e0f7bff740afc9ac3a6eabbefb19f9992dc5730349d0d2a8c97dfcacdbe",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.10.0",
+        "com.yodo1.3rdparty.pay:yyb:1.8.14",
+        "com.yodo1.3rdparty.pay:yybshell:1.8.14"
+      ]
+    },
+    "2.2.3.0": {
+      "fetchedAt": "2026-10-25T02:38:01Z",
+      "sha256": "c9368a74fea17e08c8acd693ee05e798bb9af50f8f90dade4493e7d29eb6cb6c",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "com.yodo1.plugin.yyb:shell:2.2.3",
+        "com.yodo1.plugin.yyb:ysdk:2.2.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "1.8.14.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.connect.common.AssistActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.3.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.midas.jsbridge.APWebJSBridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "1.8.14.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.midas.jsbridge.APWebJSBridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.3.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.midas.proxyactivity.APMidasPayProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "1.8.14.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.midas.proxyactivity.APMidasPayProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.3.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.midas.qq.APMidasQQWalletActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.midas.wx.APMidasWXPayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.qqdownloader.pay.QQDownloaderEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "1.8.14.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.tmdownloader.TMAssistantDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "1.8.14.0"
+        ]
+      ],
+      "exported": false,
+      "process": ":TMAssistantDownloadSDKService",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.ysdk.module.user.impl.freelogin.FreeLoginInfoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.ysdk.module.user.impl.wx.qrcode.QRActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.8.14.0",
+          "1.8.14.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tencent.ysdk.module.user.impl.wx.qrcode.QRActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.2.3.0",
+          "2.2.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

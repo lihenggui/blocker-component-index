@@ -1,0 +1,37 @@
+{
+  "coordinate": "io.github.guosuweidev:serializer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:59:15Z",
+      "sha256": "81a4a31ca6d550849978c22d59e840c63ffe48bde61350cd0428e245a64ac0d3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.tencent:mmkv-static:1.2.14",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.sw.android.platform.serializer.internal.SerializerInitializer"
+      ]
+    }
+  ]
+}

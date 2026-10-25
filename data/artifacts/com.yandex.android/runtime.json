@@ -1,0 +1,142 @@
+{
+  "coordinate": "com.yandex.android:runtime",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T02:26:49Z",
+      "sha256": "a61172b5e4db9aa828f7ffd044d3d09ad991350f36bb679004fcc95eb1f85fbd",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:[9.0,)"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T02:26:48Z",
+      "sha256": "fe67cc9b6d913a4d51d12ae3850b45a0c560705ec306c14d1513f431f5e8e18d",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T02:26:48Z",
+      "sha256": "46f1f6839dd636636d5b8fec3dfbcfc187221af2c45649dc898b3bbbc468bf82",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6.2"
+      ]
+    },
+    "3.1.2": {
+      "fetchedAt": "2026-10-25T02:26:47Z",
+      "sha256": "260749e94aea437c41c24cd92e4d6ddbf7817ee97cc1e20062e03681113993e7",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6.2"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T02:26:46Z",
+      "sha256": "2f76fc9b0918490e410b69fb7a02b17d3f993cdc03dd3b9211e2b88c59f7dc81",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6.2"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T02:26:45Z",
+      "sha256": "4d756c162a3b0c3a30d4163f46bdcca4a5af9a82e8b953505c45cb70e3e4b499",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6.2"
+      ]
+    },
+    "3.3.1": {
+      "fetchedAt": "2026-10-25T02:26:44Z",
+      "sha256": "4d756c162a3b0c3a30d4163f46bdcca4a5af9a82e8b953505c45cb70e3e4b499",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6.2"
+      ]
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-25T02:26:43Z",
+      "sha256": "be00f7e1410bebf5c925ed7635d62a3f4f024d5119750043010635a123fec4eb",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6.2"
+      ]
+    },
+    "3.5.0": {
+      "fetchedAt": "2026-10-25T02:26:42Z",
+      "sha256": "56304b2d947f98e4a4c9e47b6065bb5f7d9594e9ac4bf55ee2032709514dd201",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.android.support:support-v4:27.0.0",
+        "com.google.android.gms:play-services-location:11.6.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yandex.runtime.connectivity.internal.ConnectivityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yandex.runtime.rpc.IServiceImpl",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.yandex.runtime.rpc.IServiceImpl"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yandex.runtime.sensors.internal.ActivityService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.3.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

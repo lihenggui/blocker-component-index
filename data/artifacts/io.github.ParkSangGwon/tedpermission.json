@@ -1,0 +1,119 @@
+{
+  "coordinate": "io.github.ParkSangGwon:tedpermission",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.3.0": {
+      "fetchedAt": "2026-10-25T04:05:13Z",
+      "sha256": "52b25fb6965aeee7338c2be21f8635c3a88ed206935a947eee4557619431b897",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T04:05:12Z",
+      "sha256": "098c9dfc37574bcba2bffa849f8adb36fe77c0e9798cc153519ce18829a890de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T04:05:11Z",
+      "sha256": "098c9dfc37574bcba2bffa849f8adb36fe77c0e9798cc153519ce18829a890de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T04:05:11Z",
+      "sha256": "098c9dfc37574bcba2bffa849f8adb36fe77c0e9798cc153519ce18829a890de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.2.1": {
+      "fetchedAt": "2026-10-25T04:05:10Z",
+      "sha256": "098c9dfc37574bcba2bffa849f8adb36fe77c0e9798cc153519ce18829a890de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.2.2": {
+      "fetchedAt": "2026-10-25T04:05:09Z",
+      "sha256": "098c9dfc37574bcba2bffa849f8adb36fe77c0e9798cc153519ce18829a890de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.2.3": {
+      "fetchedAt": "2026-10-25T04:05:08Z",
+      "sha256": "098c9dfc37574bcba2bffa849f8adb36fe77c0e9798cc153519ce18829a890de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T04:05:07Z",
+      "sha256": "098c9dfc37574bcba2bffa849f8adb36fe77c0e9798cc153519ce18829a890de",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-25T04:05:06Z",
+      "sha256": "461964461211deb5783677b59515edda13d3a2ce8aaf6a5eddfd77f72abfebf3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.4.1": {
+      "fetchedAt": "2026-10-25T04:05:06Z",
+      "sha256": "461964461211deb5783677b59515edda13d3a2ce8aaf6a5eddfd77f72abfebf3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    },
+    "3.4.2": {
+      "fetchedAt": "2026-10-25T04:05:05Z",
+      "sha256": "461964461211deb5783677b59515edda13d3a2ce8aaf6a5eddfd77f72abfebf3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.gun0912.tedpermission.TedPermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.3.0",
+          "3.4.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.gun0912.tedpermission.provider.TedPermissionProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.4.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.tedpermissionprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

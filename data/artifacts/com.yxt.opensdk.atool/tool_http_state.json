@@ -1,0 +1,34 @@
+{
+  "coordinate": "com.yxt.opensdk.atool:tool_http_state",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T02:42:12Z",
+      "sha256": "a5947ef959435a100800ab1e335d1be5db34eb0f9ccb7113188b538ac4b92a95",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.yxt.sdk.networkstate.receiver.CommitteeNetworkReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.net.conn.CONNECTIVITY_CHANGE",
+        "android.net.wifi.STATE_CHANGE",
+        "android.net.wifi.WIFI_STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

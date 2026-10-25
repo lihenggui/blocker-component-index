@@ -1,0 +1,102 @@
+{
+  "coordinate": "in.payu:payu-nfc-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:30:41Z",
+      "sha256": "53528d352b5cd2e876a0998a89eb4526604c6d3f99eb4b6f42f403694b33a2b0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.5.0",
+        "com.android.support.constraint:constraint-layout:1.0.0",
+        "com.github.devnied:bit-lib4j:1.5.0",
+        "commons-io:commons-io:2.6",
+        "net.sf.scuba:scuba-smartcards:0.0.18",
+        "org.apache.commons:commons-collections4:4.1",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:30:41Z",
+      "sha256": "a7658bade1916d2997871e79607590b49247f6002c2d72e90b33f36bce98657f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.5.0",
+        "com.github.devnied:bit-lib4j:1.5.0",
+        "commons-io:commons-io:2.6",
+        "net.sf.scuba:scuba-smartcards:0.0.18",
+        "org.apache.commons:commons-collections4:4.1",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T03:30:40Z",
+      "sha256": "e869edd178ee3722c25d7daf6237111f25bc40427f8d591271a26b26c4dcba1e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.5.0",
+        "com.github.devnied:bit-lib4j:1.5.0",
+        "commons-io:commons-io:2.6",
+        "net.sf.scuba:scuba-smartcards:0.0.18",
+        "org.apache.commons:commons-collections4:4.1",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T03:30:40Z",
+      "sha256": "ea56cbe43c499a4cfa9900d29830e220a3839902c8b748cd34976479d76c6bdd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.5.0",
+        "com.github.devnied:bit-lib4j:1.5.0",
+        "commons-io:commons-io:2.6",
+        "net.sf.scuba:scuba-smartcards:0.0.18",
+        "org.apache.commons:commons-collections4:4.1",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.payu.nfc.view.NFCActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.payu.nfc.view.NFCActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

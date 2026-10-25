@@ -1,0 +1,147 @@
+{
+  "coordinate": "io.github.chochanaresh:FilePicker",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.9": {
+      "fetchedAt": "2026-10-25T04:34:56Z",
+      "sha256": "8aa72a3dd25bd036e3747c71d7791ed3c22946d616ead65c95faecdc951f2848",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:viewbinding:8.1.2",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.10.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "io.coil-kt:coil:2.4.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.9",
+          "0.1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.nareshchocha.filepickerlibrary.initializer.TimberInitializer"
+      ]
+    },
+    {
+      "name": "com.nareshchocha.filepickerlibrary.ui.activitys.DocumentFilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.9",
+          "0.1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nareshchocha.filepickerlibrary.ui.activitys.ImageCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.9",
+          "0.1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nareshchocha.filepickerlibrary.ui.activitys.MediaFilePickerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.9",
+          "0.1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nareshchocha.filepickerlibrary.ui.activitys.PopUpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.9",
+          "0.1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nareshchocha.filepickerlibrary.ui.activitys.VideoCaptureActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.9",
+          "0.1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nareshchocha.filepickerlibrary.utilities.CustomFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.1.9",
+          "0.1.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.library.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

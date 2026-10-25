@@ -1,0 +1,51 @@
+{
+  "coordinate": "io.github.SharinPix:sharinpixwebview-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.4": {
+      "fetchedAt": "2026-10-25T04:06:02Z",
+      "sha256": "c68bdbfcecd7b0e3b2e3abda5eac0688f62b4a8e77531f3b05ece258f32a0d76",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "2.1.5": {
+      "fetchedAt": "2026-10-25T04:06:01Z",
+      "sha256": "c68bdbfcecd7b0e3b2e3abda5eac0688f62b4a8e77531f3b05ece258f32a0d76",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    },
+    "2.1.6": {
+      "fetchedAt": "2026-10-25T04:06:00Z",
+      "sha256": "c68bdbfcecd7b0e3b2e3abda5eac0688f62b4a8e77531f3b05ece258f32a0d76",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "com.google.android.material:material:1.4.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.1.4",
+          "2.1.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.sharinpix.webview.SharinPixFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

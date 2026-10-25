@@ -1,0 +1,35 @@
+{
+  "coordinate": "fr.bmartel:iotf-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.3": {
+      "fetchedAt": "2026-10-25T03:21:26Z",
+      "sha256": "6c98954324f1f1450ebdbc3430e1fd9db5ca9bdce7f3241ffc1895ea8ba519c9",
+      "dependencies": [
+        "com.android.support:support-v4:22.1.0",
+        "com.google.android.gms:play-services:6.5.87",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.0.3-SNAPSHOT",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.3-SNAPSHOT"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.3",
+          "0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

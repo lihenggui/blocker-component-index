@@ -1,0 +1,52 @@
+{
+  "coordinate": "fr.baloomba:feeligo_android_sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:21:20Z",
+      "sha256": "70445ba9b02b2b4cfc71d8c43026cdcbec21aed1f8018f24e688326c754928a8",
+      "dependencies": [
+        "com.android.support:appcompat-v7:19.1.0",
+        "com.android.support:support-v4:19.1.0",
+        "fr.baloomba:viewpagerindicator:2.4.+",
+        "fr.baloomba:wsvolley:1.0.+"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "fr.baloomba.feeligo.store.FeeligoStickerStoreActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "fr.baloomba.feeligo.store.FeeligoStickerStoreDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

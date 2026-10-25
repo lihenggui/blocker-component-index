@@ -1,0 +1,59 @@
+{
+  "coordinate": "com.uber.sdk2:core-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.10.11": {
+      "fetchedAt": "2026-10-25T01:50:21Z",
+      "sha256": "a152cc05f7dc20c436af621805b2470158014f5b634f9b301cbef3153b13481b",
+      "dependencies": [
+        "androidx.annotation:annotation:1.0.0",
+        "androidx.appcompat:appcompat:1.0.0",
+        "androidx.browser:browser:1.0.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.uber.sdk:uber-core:0.8.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.uber.sdk.android.core.auth.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.10.11",
+          "0.10.11"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.uber.sdk.android.core.auth.LoginRedirectReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.10.11",
+          "0.10.11"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

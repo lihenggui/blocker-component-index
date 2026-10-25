@@ -1,0 +1,93 @@
+{
+  "coordinate": "io.github.ksrainarthas:MQTT",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:15:04Z",
+      "sha256": "7a253ee78110c1c8dfc0a68a986c290e7f5bf89c37fd0b18f10912b6135bda45",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:4.2.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.android.support:support-v4:4.4.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jeremyliao:live-event-bus-x:1.7.3",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T05:15:03Z",
+      "sha256": "7a253ee78110c1c8dfc0a68a986c290e7f5bf89c37fd0b18f10912b6135bda45",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.databinding:viewbinding:4.2.1",
+        "androidx.recyclerview:recyclerview:1.1.0",
+        "com.android.support:support-v4:4.4.1",
+        "com.google.code.gson:gson:2.8.6",
+        "com.jeremyliao:live-event-bus-x:1.7.3",
+        "org.eclipse.paho:org.eclipse.paho.android.service:1.1.1",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.syusuke.mqtt.service.MQTTService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.syusuke.mqtt.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "org.eclipse.paho.android.service.MqttService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

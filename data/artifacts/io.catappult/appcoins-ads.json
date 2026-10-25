@@ -1,0 +1,92 @@
+{
+  "coordinate": "io.catappult:appcoins-ads",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.6.7.0": {
+      "fetchedAt": "2026-10-25T03:44:00Z",
+      "sha256": "50fb0cc139a3ce7432c2470f2791630c56ad71e3a1245974959949e7085dcc60",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.6.7.0",
+        "io.catappult:appcoins-lifecycle:0.6.7.0"
+      ]
+    },
+    "0.6.7.2": {
+      "fetchedAt": "2026-10-25T03:44:00Z",
+      "sha256": "6a825c698c980b095dcbae31bda642baf75ccf0b87e31ca29cbd5758afae33ea",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.6.7.2",
+        "io.catappult:appcoins-lifecycle:0.6.7.2"
+      ]
+    },
+    "0.7.3.0": {
+      "fetchedAt": "2026-10-25T03:43:59Z",
+      "sha256": "26202bcfb3633284f61587888dcbf0217ba57e42a393c431932d91764eb6ef6c",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.7.3.0",
+        "io.catappult:appcoins-lifecycle:0.7.3.0"
+      ]
+    },
+    "0.7.4.0": {
+      "fetchedAt": "2026-10-25T03:43:59Z",
+      "sha256": "26202bcfb3633284f61587888dcbf0217ba57e42a393c431932d91764eb6ef6c",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.7.4.0",
+        "io.catappult:appcoins-lifecycle:0.7.4.0"
+      ]
+    },
+    "0.8.0.0": {
+      "fetchedAt": "2026-10-25T03:43:58Z",
+      "sha256": "26202bcfb3633284f61587888dcbf0217ba57e42a393c431932d91764eb6ef6c",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.8.0.0",
+        "io.catappult:appcoins-lifecycle:0.8.0.0"
+      ]
+    },
+    "0.8.0.1": {
+      "fetchedAt": "2026-10-25T03:43:58Z",
+      "sha256": "26202bcfb3633284f61587888dcbf0217ba57e42a393c431932d91764eb6ef6c",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.8.0.1",
+        "io.catappult:appcoins-lifecycle:0.8.0.1"
+      ]
+    },
+    "0.8.0.2": {
+      "fetchedAt": "2026-10-25T03:43:57Z",
+      "sha256": "26202bcfb3633284f61587888dcbf0217ba57e42a393c431932d91764eb6ef6c",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.8.0.2",
+        "io.catappult:appcoins-lifecycle:0.8.0.2"
+      ]
+    },
+    "0.8.0.3": {
+      "fetchedAt": "2026-10-25T03:43:56Z",
+      "sha256": "26202bcfb3633284f61587888dcbf0217ba57e42a393c431932d91764eb6ef6c",
+      "dependencies": [
+        "io.catappult:android-appcoins-billing:0.8.0.3",
+        "io.catappult:appcoins-lifecycle:0.8.0.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.asf.appcoins.sdk.ads.poa.SDKPoAService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.6.7.0",
+          "0.8.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.asf.appcoins.service.ACTION_ACK_BROADCAST",
+        "com.asf.appcoins.service.ACTION_BIND"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

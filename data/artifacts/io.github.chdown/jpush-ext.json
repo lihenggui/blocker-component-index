@@ -1,0 +1,84 @@
+{
+  "coordinate": "io.github.chdown:jpush-ext",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:33:57Z",
+      "sha256": "e18c3f0f754fc4dd73ad4cbce27309731efe77ea687f4ae408e7958bf1dda053",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:3.3.0",
+        "cn.jiguang.sdk:jpush:4.7.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:33:56Z",
+      "sha256": "d5a24de4f8ca3604baa9770f4e9b5f0ff3e1c27687b58a50256edd2f6bd78ccd",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:4.1.0",
+        "cn.jiguang.sdk:jpush:4.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:33:55Z",
+      "sha256": "d5a24de4f8ca3604baa9770f4e9b5f0ff3e1c27687b58a50256edd2f6bd78ccd",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:4.1.0",
+        "cn.jiguang.sdk:jpush:4.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:33:54Z",
+      "sha256": "d5a24de4f8ca3604baa9770f4e9b5f0ff3e1c27687b58a50256edd2f6bd78ccd",
+      "dependencies": [
+        "cn.jiguang.sdk:jcore:4.1.0",
+        "cn.jiguang.sdk:jpush:4.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.chdown.jpush.PushMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jpush.android.intent.RECEIVE_MESSAGE"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.chdown.jpush.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": ":pushcore",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "cn.jiguang.user.service.action"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

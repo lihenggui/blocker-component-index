@@ -1,0 +1,78 @@
+{
+  "coordinate": "io.github.luoqqsh:push-core",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:20:18Z",
+      "sha256": "cc1ba47139f5f3f80034b67377a34c3026238f1eb129951a43cea82647817a60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "androidx.core:core-ktx:1.7.0"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:20:17Z",
+      "sha256": "cc1ba47139f5f3f80034b67377a34c3026238f1eb129951a43cea82647817a60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "io.github.luoqqsh:log:1.2.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:20:17Z",
+      "sha256": "cc1ba47139f5f3f80034b67377a34c3026238f1eb129951a43cea82647817a60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "io.github.luoqqsh:log:1.2.6"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:20:16Z",
+      "sha256": "cc1ba47139f5f3f80034b67377a34c3026238f1eb129951a43cea82647817a60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "com.google.code.gson:gson:2.9.0",
+        "io.github.luoqqsh:log:1.2.6"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T05:20:16Z",
+      "sha256": "cc1ba47139f5f3f80034b67377a34c3026238f1eb129951a43cea82647817a60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "com.google.code.gson:gson:2.9.0",
+        "io.github.luoqqsh:log:1.2.6"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T05:20:15Z",
+      "sha256": "cc1ba47139f5f3f80034b67377a34c3026238f1eb129951a43cea82647817a60",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.1",
+        "com.google.code.gson:gson:2.9.0",
+        "io.github.luoqqsh:log:1.2.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.push.share.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

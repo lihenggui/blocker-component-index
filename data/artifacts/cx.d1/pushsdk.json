@@ -1,0 +1,154 @@
+{
+  "coordinate": "cx.d1:pushsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.8.2": {
+      "fetchedAt": "2026-10-25T02:51:55Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    },
+    "0.8.7": {
+      "fetchedAt": "2026-10-25T02:51:54Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    },
+    "0.8.8": {
+      "fetchedAt": "2026-10-25T02:51:53Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    },
+    "0.8.9": {
+      "fetchedAt": "2026-10-25T02:51:52Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    },
+    "0.8.10": {
+      "fetchedAt": "2026-10-25T02:51:52Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    },
+    "0.8.12": {
+      "fetchedAt": "2026-10-25T02:51:51Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    },
+    "0.8.14": {
+      "fetchedAt": "2026-10-25T02:51:51Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    },
+    "0.8.15": {
+      "fetchedAt": "2026-10-25T02:51:50Z",
+      "sha256": "982606ff5e8bc1b2e2e109e75fe70616d5215ae55dfd42f97a52d6a58be07f41",
+      "dependencies": [
+        "androidx.room:room-ktx:2.4.0",
+        "androidx.room:room-runtime:2.4.2",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.firebase:firebase-bom:29.0.3",
+        "com.squareup.okhttp3:okhttp-bom:4.9.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cx.d1.pushsdk.infra.D1PushSdkBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.8.2",
+          "0.8.15"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.google.android.c2dm.permission.SEND",
+      "authorities": null,
+      "actions": [
+        "com.google.android.c2dm.intent.RECEIVE",
+        "com.google.android.c2dm.intent.REGISTRATION"
+      ],
+      "categories": [
+        "${applicationId}"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "cx.d1.pushsdk.infra.D1PushSdkEventActionBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.8.2",
+          "0.8.15"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "cx.d1.pushsdk.infra.D1PushSdkFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.8.2",
+          "0.8.15"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

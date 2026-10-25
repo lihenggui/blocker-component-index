@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.github.dat0106:livekit-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.8": {
+      "fetchedAt": "2026-10-25T04:41:25Z",
+      "sha256": "f54fb3954b71bf9dda132b9b2d88907bb4d70af949806e4c3d72750a10749d49",
+      "dependencies": [
+        "androidx.annotation:annotation:1.4.0",
+        "androidx.compose.ui:ui:1.2.1",
+        "androidx.core:core:1.8.0",
+        "com.github.ajalt:timberkt:1.5.1",
+        "com.github.davidliu:audioswitch:c498d866c57f1d88056d5e7e7a78d622e3b0c046",
+        "com.github.webrtc-sdk:android:104.5112.05",
+        "com.google.dagger:dagger:2.43",
+        "com.google.protobuf:protobuf-javalite:3.21.12",
+        "com.squareup.okhttp3:okhttp:4.10.0",
+        "com.vdurmont:semver4j:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.livekit.android.room.track.screencapture.ScreenCaptureService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.8",
+          "1.1.8"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

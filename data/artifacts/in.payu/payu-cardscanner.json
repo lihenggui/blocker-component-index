@@ -1,0 +1,78 @@
+{
+  "coordinate": "in.payu:payu-cardscanner",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:29:52Z",
+      "sha256": "58439639de124726554860564627dfdd55079c600cc727b0058e4a8d136126e9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.camera:camera-camera2:1.0.2",
+        "androidx.camera:camera-core:1.0.2",
+        "androidx.camera:camera-lifecycle:1.0.2",
+        "androidx.camera:camera-view:1.0.0-alpha23",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:18.0.2",
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:29:52Z",
+      "sha256": "ab10d4cc4cdd3bb23fe907ab3c8cba54b0aafc3db2a3c4c1cce8fe4939804226",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.camera:camera-camera2:1.0.2",
+        "androidx.camera:camera-core:1.0.2",
+        "androidx.camera:camera-lifecycle:1.0.2",
+        "androidx.camera:camera-view:1.0.0-alpha23",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:18.0.2",
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T03:29:51Z",
+      "sha256": "ad0f801d20b6f14dfb522aed50f4132cac3e485dd7df38292d8a9cf87580a35f",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.0",
+        "androidx.camera:camera-camera2:1.0.2",
+        "androidx.camera:camera-core:1.0.2",
+        "androidx.camera:camera-lifecycle:1.0.2",
+        "androidx.camera:camera-view:1.0.0-alpha23",
+        "androidx.core:core-ktx:1.5.0",
+        "com.google.android.gms:play-services-mlkit-text-recognition:18.0.2",
+        "com.google.android.gms:play-services-vision:20.1.3",
+        "com.google.android.material:material:1.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.10",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.payu.cardscanner.CardScannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

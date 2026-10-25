@@ -1,0 +1,124 @@
+{
+  "coordinate": "io.dolby:uxkit-self-managed-call",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.7.3": {
+      "fetchedAt": "2026-10-25T03:48:40Z",
+      "sha256": "9512106c6af210397cb4c59ce6605eddb019980da29a767950f3f292d8ecf665",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.3",
+        "io.dolby:uxkit:3.7.3"
+      ]
+    },
+    "3.7.4": {
+      "fetchedAt": "2026-10-25T03:48:40Z",
+      "sha256": "9512106c6af210397cb4c59ce6605eddb019980da29a767950f3f292d8ecf665",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.4",
+        "io.dolby:uxkit:3.7.4"
+      ]
+    },
+    "3.7.5": {
+      "fetchedAt": "2026-10-25T03:48:39Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.5",
+        "io.dolby:uxkit:3.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.7.6": {
+      "fetchedAt": "2026-10-25T03:48:39Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.7.6",
+        "io.dolby:uxkit:3.7.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.0": {
+      "fetchedAt": "2026-10-25T03:48:38Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.0",
+        "io.dolby:uxkit:3.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.1": {
+      "fetchedAt": "2026-10-25T03:48:37Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.1",
+        "io.dolby:uxkit:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.2": {
+      "fetchedAt": "2026-10-25T03:48:37Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.2",
+        "io.dolby:uxkit:3.8.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.3": {
+      "fetchedAt": "2026-10-25T03:48:36Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.3",
+        "io.dolby:uxkit:3.8.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.4": {
+      "fetchedAt": "2026-10-25T03:48:36Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.4",
+        "io.dolby:uxkit:3.8.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.5": {
+      "fetchedAt": "2026-10-25T03:48:35Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.8.5",
+        "io.dolby:uxkit:3.8.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.9.0": {
+      "fetchedAt": "2026-10-25T03:48:34Z",
+      "sha256": "808fcbbb6eb3bdceffe4566cd1db8d62c9b1f298aa9b49199538ee25095ce70a",
+      "dependencies": [
+        "io.dolby:uxkit-common:3.9.0",
+        "io.dolby:uxkit:3.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.voxeet.uxkit.service.ConferenceTelecomService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.7.3",
+          "3.9.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_TELECOM_CONNECTION_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.telecom.ConnectionService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

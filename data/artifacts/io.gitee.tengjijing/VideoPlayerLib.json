@@ -1,0 +1,96 @@
+{
+  "coordinate": "io.gitee.tengjijing:VideoPlayerLib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T03:59:23Z",
+      "sha256": "c79a2f55b158e9e5f25bc2b6b93110227537e91efc9f02380df4a6a9c24047bd",
+      "dependencies": [
+        "io.gitee.tengjijing:VideoPlayerLib:1.0.6"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T03:59:23Z",
+      "sha256": "f1781887f27b644cbb91434a794c5e0bd571b63ab2740723b87833b4051b04eb",
+      "dependencies": [
+        "com.andkulikov:transitionseverywhere:1.7.0",
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.shuyu:gsyvideoplayer-androidvideocache:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T03:59:22Z",
+      "sha256": "88b325c69409e9e174d3860f3698762c91feb1002faef3d1ffbd448a07714740",
+      "dependencies": [
+        "com.andkulikov:transitionseverywhere:1.7.0",
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.shuyu:gsyvideoplayer-androidvideocache:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T03:59:21Z",
+      "sha256": "4c95ea6b500221365a365ecf82c15f7661811656151ab22b40a98ae2fe345901",
+      "dependencies": [
+        "com.andkulikov:transitionseverywhere:1.7.0",
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.shuyu:gsyvideoplayer-androidvideocache:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    },
+    "1.0.9.1": {
+      "fetchedAt": "2026-10-25T03:59:21Z",
+      "sha256": "500eaaba03d4225b007b8e50c9fe971158ca76953518096a6ecfc7e7eb692f5b",
+      "dependencies": [
+        "com.andkulikov:transitionseverywhere:1.7.0",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.shuyu:gsyvideoplayer-androidvideocache:4.1.1",
+        "hsh_foundation:gsyVideoPlayer:unspecified",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    },
+    "1.0.9.2": {
+      "fetchedAt": "2026-10-25T03:59:20Z",
+      "sha256": "fa979feb9621d1e7adef506d56db7e931023eab7a2d65c2e86ed981422b291b8",
+      "dependencies": [
+        "com.andkulikov:transitionseverywhere:1.7.0",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.shuyu:gsyvideoplayer-androidvideocache:4.1.1",
+        "io.gitee.tengjijing:gsyVideoPlayer:1.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71"
+      ]
+    },
+    "1.0.9.5": {
+      "fetchedAt": "2026-10-25T03:59:20Z",
+      "sha256": "def6aced058267c44af43211476e352db4ac3d5032f914081cee280e706f1f59",
+      "dependencies": [
+        "com.andkulikov:transitionseverywhere:1.7.0",
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.shuyu:gsyvideoplayer-androidvideocache:4.1.1",
+        "io.gitee.tengjijing:gsyVideoPlayer:1.0.5.3",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.hsh.vedioplayerlib.ui.PlayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.9.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "coordinate": "io.bitbucket.kumargrv324:openapi",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T03:41:12Z",
+      "sha256": "38fe9da0757849a119420e32a4077383dea00ff90da8f9635bf05e04c57f1404",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.work:work-runtime:2.7.1",
+        "com.github.mrmike:ok2curl:0.7.0",
+        "com.google.android.gms:play-services-location:20.0.0",
+        "com.google.code.gson:gson:2.9.0",
+        "com.google.firebase:firebase-messaging:23.0.6",
+        "com.squareup.okhttp3:logging-interceptor:4.9.1",
+        "com.squareup.okhttp3:okhttp:5.0.0-alpha.3",
+        "com.squareup.retrofit2:adapter-rxjava3:2.9.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "io.reactivex.rxjava2:rxjava:2.2.21",
+        "io.reactivex.rxjava3:rxandroid:3.0.0",
+        "io.reactivex.rxjava3:rxjava:3.0.0",
+        "io.realm:realm-android-library:10.11.0",
+        "io.realm:realm-annotations:10.11.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sca.in_telligent.openapi.receiver.BootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sca.in_telligent.openapi.receiver.LocationUpdatesBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.android.gms.location.sample.locationupdatespendingintent.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sca.in_telligent.openapi.service.BackgroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sca.in_telligent.openapi.service.HeadsUpNotificationActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sca.in_telligent.openapi.service.LocationBackGroundAPIService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sca.in_telligent.openapi.service.RetryApiService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sca.in_telligent.openapi.util.Geofence.GeofenceBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sca.in_telligent.openapi.util.Geofence.GeofenceTransitionsJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "coordinate": "com.yodo1.plugin.oppo:oppo-online-gamesdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.0.4": {
+      "fetchedAt": "2026-10-25T02:35:47Z",
+      "sha256": "80d6e9c60876d1d91ad999e5998651e87368fc8266dcd497979527039f10efc9",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.heytap.msp.sdk.MspFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": "${applicationId}.MspFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.nearme.game.sdk.FrameInitService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.HangupBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.nearme.game.sdk.HANGUP_UPDATE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.HangupResUpdateService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.nearme.game.res_update"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.account.LoginViewsComponentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.nearme.game.login_component"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.buoy.SdkBuoyComponentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.nearme.game.buoy_component"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ExitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyApiService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": "${applicationId}.proxyFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.component.proxy.ProxyUserCenterOperateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.heytap.usercenter.account_logout",
+        "com.oppo.usercenter.account_login",
+        "com.oppo.usercenter.account_logout",
+        "com.oppo.usercenter.modify_name",
+        "com.usercenter.action.receiver.account_login"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.nearme.game.sdk.provider.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": "${applicationId}.GameInitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oplus.cutpayment.protect.oplusgame.UnLockProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.limitationoplusgame",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.oppo.usercenter.opensdk.dialog.register.UserCenterOperateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.4",
+          "6.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":gcsdk",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

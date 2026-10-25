@@ -1,0 +1,128 @@
+{
+  "coordinate": "hk.advanpro.android:advanpro-ble-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.19": {
+      "fetchedAt": "2026-10-25T03:22:56Z",
+      "sha256": "8c19013ff8cf25a94091af2f944dc7ee46e2ce1ac13ccf11bea294e1fc671f17",
+      "dependencies": [
+        "com.alibaba:fastjson:1.1.58.android",
+        "com.android.support:appcompat-v7:25.3.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "1.0.20": {
+      "fetchedAt": "2026-10-25T03:22:55Z",
+      "sha256": "8c19013ff8cf25a94091af2f944dc7ee46e2ce1ac13ccf11bea294e1fc671f17",
+      "dependencies": [
+        "com.alibaba:fastjson:1.1.58.android",
+        "com.android.support:appcompat-v7:25.3.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T03:22:55Z",
+      "sha256": "22255a83153cce63dafbc04cf79e683cecb112c49310a6beec4fa0bc0f0b6f7c",
+      "dependencies": [
+        "com.alibaba:fastjson:1.1.58.android",
+        "com.android.support:appcompat-v7:25.3.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "1.1.17": {
+      "fetchedAt": "2026-10-25T03:22:54Z",
+      "sha256": "22255a83153cce63dafbc04cf79e683cecb112c49310a6beec4fa0bc0f0b6f7c",
+      "dependencies": [
+        "com.alibaba:fastjson:1.1.58.android",
+        "com.android.support:appcompat-v7:25.3.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T03:22:53Z",
+      "sha256": "5da3648b3092f415deaf73ec2b3a93228f9c1f074fcf197bff80be8bdf86839c",
+      "dependencies": [
+        "com.alibaba:fastjson:1.1.58.android",
+        "com.google.code.gson:gson:2.8.0",
+        "hk.advanpro.android:advanpro-core-android:1.0.2",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T03:22:53Z",
+      "sha256": "17212e653a17d74dfb33ba7b5d7c6291bde4716e73c5352ceccd71b8d446dffa",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.36",
+        "hk.advanpro.android:advanpro-core-android:1.0.3",
+        "no.nordicsemi.android:dfu:1.8.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T03:22:52Z",
+      "sha256": "96cdacefca732b7fd1671cf3eafbcc1ccb82f0fa32cd451336902499cd9c40e4",
+      "dependencies": [
+        "advanpro-sdk-android:advanpro-core-android:unspecified",
+        "com.alibaba:fastjson:1.2.36",
+        "no.nordicsemi.android:dfu:1.8.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T03:22:51Z",
+      "sha256": "cde660501455f3438a640eb72274bd860ea4f01aba32e3748370ca4dd8c74996",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.36",
+        "hk.advanpro.android:advanpro-core-android:1.0.4",
+        "no.nordicsemi.android:dfu:1.8.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    },
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T03:22:50Z",
+      "sha256": "3cf37f8494055ef2882d94a3c0cb86c3fd567506d22d47aade58e429233e9081",
+      "dependencies": [
+        "com.alibaba:fastjson:1.2.36",
+        "hk.advanpro.android:advanpro-core-android:1.0.5",
+        "no.nordicsemi.android:dfu:1.8.0",
+        "org.apache.commons:commons-lang3:3.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "hk.advanpro.android.sdk.device.ota.dfu.DfuUpgradeService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "hk.advanpro.android.sdk.device.ota.dfu.NotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.1",
+          "2.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

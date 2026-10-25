@@ -1,0 +1,54 @@
+{
+  "coordinate": "im.zego:zpns-vivo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T03:28:31Z",
+      "sha256": "694c380b09a705bfff5c4c509d6738b567e03f283d0843265f9c6678d001b0fa",
+      "dependencies": []
+    },
+    "2.7.0": {
+      "fetchedAt": "2026-10-25T03:28:30Z",
+      "sha256": "2f412b273077173cc81ba87771d42b47f26df43e9b7a7faed85cea7404db0b05",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "im.zego.zpns_android_plugin_vivo.VivoMessageReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "2.7.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.vivo.pushclient.action.RECEIVE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

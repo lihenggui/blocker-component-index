@@ -1,0 +1,183 @@
+{
+  "coordinate": "com.umeng.umsdk:oppo-umengaccs",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T01:51:59Z",
+      "sha256": "d61fb5a1596d5a2388536ff448c0d30617598a89f0129e12ae4f1f792418007b",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T01:51:59Z",
+      "sha256": "d80ee398c0cf89e8fda362ba35372ab9cd82924d293231162d5825d2cdd0c36e",
+      "dependencies": []
+    },
+    "1.0.7-fix": {
+      "fetchedAt": "2026-10-25T01:51:58Z",
+      "sha256": "8401204f11ec0c293d4e08458c1cd40df73420f68d9c4ac88e6baa9cbc8d6ec9",
+      "dependencies": []
+    },
+    "1.0.8-fix": {
+      "fetchedAt": "2026-10-25T01:51:58Z",
+      "sha256": "8401204f11ec0c293d4e08458c1cd40df73420f68d9c4ac88e6baa9cbc8d6ec9",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:51:57Z",
+      "sha256": "cc90ad23a83ac31e33d6b06c78ea7725a7db9c423356513c2273bd262a48d5be",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T01:51:56Z",
+      "sha256": "df046429780243ed06aa00e91d7e80d59e1481f60891e9db224efa60f9880824",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T01:51:56Z",
+      "sha256": "c8822072c3a84fe8dc3d29a5043ee4069c3e88c6237686ed6572179303ad79ac",
+      "dependencies": []
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T01:51:55Z",
+      "sha256": "6c4521d55dd468b0fa19d76495c1218d3ac329d9c64a6da63b470f8c1d2bec69",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.coloros.mcssdk.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.mcssdk.AppPushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.mcssdk.PushService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.6",
+          "1.0.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.7-fix",
+          "1.0.8-fix"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.7-fix",
+          "1.0.8-fix"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "2.2.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "authorities": null,
+      "actions": [
+        "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE",
+        "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

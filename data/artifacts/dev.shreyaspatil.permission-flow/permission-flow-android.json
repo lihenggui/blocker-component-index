@@ -1,0 +1,126 @@
+{
+  "coordinate": "dev.shreyaspatil.permission-flow:permission-flow-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "v1.0.1-dev-pre": {
+      "fetchedAt": "2026-10-25T03:08:59Z",
+      "sha256": "d0371657f97d3b3e33e28a0348a13b78892921023f4b83707d7f8ef3d465fda5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.0.0-rc01": {
+      "fetchedAt": "2026-10-25T03:08:58Z",
+      "sha256": "17dfde4b894cde4e3b9c81dedbc36bda331ce4811226345c06e3f34c33b8fdad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2"
+      ]
+    },
+    "1.0.0-rc02": {
+      "fetchedAt": "2026-10-25T03:08:57Z",
+      "sha256": "17dfde4b894cde4e3b9c81dedbc36bda331ce4811226345c06e3f34c33b8fdad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3"
+      ]
+    },
+    "1.0.0-rc03": {
+      "fetchedAt": "2026-10-25T03:08:57Z",
+      "sha256": "17dfde4b894cde4e3b9c81dedbc36bda331ce4811226345c06e3f34c33b8fdad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3"
+      ]
+    },
+    "1.0.0-rc04": {
+      "fetchedAt": "2026-10-25T03:08:56Z",
+      "sha256": "17dfde4b894cde4e3b9c81dedbc36bda331ce4811226345c06e3f34c33b8fdad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:08:55Z",
+      "sha256": "17dfde4b894cde4e3b9c81dedbc36bda331ce4811226345c06e3f34c33b8fdad",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T03:08:54Z",
+      "sha256": "d0371657f97d3b3e33e28a0348a13b78892921023f4b83707d7f8ef3d465fda5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T03:08:54Z",
+      "sha256": "d0371657f97d3b3e33e28a0348a13b78892921023f4b83707d7f8ef3d465fda5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T03:08:53Z",
+      "sha256": "d0371657f97d3b3e33e28a0348a13b78892921023f4b83707d7f8ef3d465fda5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T03:08:52Z",
+      "sha256": "d0371657f97d3b3e33e28a0348a13b78892921023f4b83707d7f8ef3d465fda5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "v1.0.1-dev-pre",
+          "v1.0.1-dev-pre"
+        ],
+        [
+          "1.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "dev.shreyaspatil.permissionFlow.initializer.PermissionFlowInitializer"
+      ]
+    }
+  ]
+}

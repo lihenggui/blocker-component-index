@@ -1,0 +1,77 @@
+{
+  "coordinate": "in.coinn:coinn_delivery_sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T03:28:38Z",
+      "sha256": "59164c6e90a037c2efa2f8127add9e09f00fd21568bc786fd662189285436991",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.squareup.okhttp:okhttp:2.3.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "org.altbeacon:android-beacon-library:2.7"
+      ]
+    },
+    "0.1.3": {
+      "fetchedAt": "2026-10-25T03:28:38Z",
+      "sha256": "ed5b7921bbecb2e6dcc7a4db5842e960fffa1d14cf40b3f5abf6768415bf43a1",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.squareup.okhttp:okhttp:2.3.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "org.altbeacon:android-beacon-library:2.7"
+      ]
+    },
+    "0.1.4": {
+      "fetchedAt": "2026-10-25T03:28:37Z",
+      "sha256": "2dd11ebf68967ec36a925455a335579814adbbf9b4fc8d2077b09159c4c28a38",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.squareup.okhttp:okhttp:2.3.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "org.altbeacon:android-beacon-library:2.7"
+      ]
+    },
+    "0.1.5": {
+      "fetchedAt": "2026-10-25T03:28:36Z",
+      "sha256": "e058891a4f2c3c40438ceece896cdb953e2626b87c4432e6768f7f563b79690a",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.squareup.okhttp:okhttp:2.3.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "org.altbeacon:android-beacon-library:2.7"
+      ]
+    },
+    "0.1.6": {
+      "fetchedAt": "2026-10-25T03:28:36Z",
+      "sha256": "d7d266a34d493b72bd8f813c349c02efe33484c9d6eb98907ee82d0a0427b00b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.0.1",
+        "com.squareup.okhttp:okhttp:2.3.0",
+        "com.squareup.retrofit:retrofit:1.9.0",
+        "org.altbeacon:android-beacon-library:2.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "in.paybycoin.coinn.receiver.BluetoothStateReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.1",
+          "0.1.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.bluetooth.adapter.action.STATE_CHANGED"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

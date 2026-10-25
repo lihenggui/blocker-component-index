@@ -1,0 +1,39 @@
+{
+  "coordinate": "io.bitbucket.vatsshashank:postFixCalculator",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2": {
+      "fetchedAt": "2026-10-25T03:41:57Z",
+      "sha256": "c84522a136f3529d3eef9857b2696fb43f2e046f8ba290fb79e6b3cd111d6b54",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "androidx.navigation:navigation-fragment-ktx:2.5.0",
+        "androidx.navigation:navigation-ui-ktx:2.5.0",
+        "com.google.android.material:material:1.6.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.toppr.postfix_library.PostFixActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2",
+          "0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

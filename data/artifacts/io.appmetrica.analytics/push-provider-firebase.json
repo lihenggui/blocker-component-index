@@ -1,0 +1,102 @@
+{
+  "coordinate": "io.appmetrica.analytics:push-provider-firebase",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T03:38:50Z",
+      "sha256": "a64bf6c85a6f62b012d99edd2626353e35c2ec3157c9d11a67b4867683ae2fdf",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.0.0",
+        "io.appmetrica.analytics:push-provider-api:3.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T03:38:49Z",
+      "sha256": "a64bf6c85a6f62b012d99edd2626353e35c2ec3157c9d11a67b4867683ae2fdf",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.1.0",
+        "io.appmetrica.analytics:push-provider-api:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T03:38:48Z",
+      "sha256": "a64bf6c85a6f62b012d99edd2626353e35c2ec3157c9d11a67b4867683ae2fdf",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.1.1",
+        "io.appmetrica.analytics:push-provider-api:3.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T03:38:48Z",
+      "sha256": "a64bf6c85a6f62b012d99edd2626353e35c2ec3157c9d11a67b4867683ae2fdf",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.2.0",
+        "io.appmetrica.analytics:push-provider-api:3.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T03:38:47Z",
+      "sha256": "a64bf6c85a6f62b012d99edd2626353e35c2ec3157c9d11a67b4867683ae2fdf",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:3.3.0",
+        "io.appmetrica.analytics:push-provider-api:3.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.0.0": {
+      "fetchedAt": "2026-10-25T03:38:46Z",
+      "sha256": "fbc9fad3f18e9b1f7abdcf1327075aa029bfd89976b064ebbe6f66f6b87f0eb2",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.0.0",
+        "io.appmetrica.analytics:push-logger:4.0.0",
+        "io.appmetrica.analytics:push-provider-api:4.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.1.1": {
+      "fetchedAt": "2026-10-25T03:38:45Z",
+      "sha256": "fbc9fad3f18e9b1f7abdcf1327075aa029bfd89976b064ebbe6f66f6b87f0eb2",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.1.1",
+        "io.appmetrica.analytics:push-logger:4.1.1",
+        "io.appmetrica.analytics:push-provider-api:4.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-25T03:38:45Z",
+      "sha256": "fbc9fad3f18e9b1f7abdcf1327075aa029bfd89976b064ebbe6f66f6b87f0eb2",
+      "dependencies": [
+        "io.appmetrica.analytics:push-core-utils:4.2.1",
+        "io.appmetrica.analytics:push-logger:4.2.1",
+        "io.appmetrica.analytics:push-provider-api:4.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.appmetrica.analytics.push.provider.firebase.AppMetricaMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

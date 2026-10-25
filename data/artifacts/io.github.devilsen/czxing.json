@@ -1,0 +1,55 @@
+{
+  "coordinate": "io.github.devilsen:czxing",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T04:42:03Z",
+      "sha256": "6d1d8c8ca06bb2ababa8a92d67dbafa144965c270f88417f97c0457e724cd3e3",
+      "dependencies": []
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T04:42:03Z",
+      "sha256": "a4e7408529875180e49e85e82cc97077126d9f39f99ced9fec0d949e905c9683",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "me.devilsen.czxing.ResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.devilsen.czxing.ScanActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

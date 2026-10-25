@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.mfisme:mfads-fb",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:24:16Z",
+      "sha256": "ed35ca2a6e24f794b596984a0426bbfe05214f5b4f0b64d5a9ea769964b24c64",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.AudienceNetworkContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AudienceNetworkContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

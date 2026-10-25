@@ -1,0 +1,95 @@
+{
+  "coordinate": "io.github.luqinx:ami",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T05:20:25Z",
+      "sha256": "6ba81fad22639a71f1385615d7d91cbff8af279db96d55f027850ec499bab292",
+      "dependencies": [
+        "com.alibaba:fastjson:1.1.68.android",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.android.support:design:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:support-annotations:28.0.0",
+        "com.android.support:support-v4:28.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "chao.app.ami.FragmentContainer",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "chao.app.ami.SupportFragmentContainer",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "chao.app.ami.monitor.CommandService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "service.monitor.cmd",
+        "service.monitor.dump",
+        "service.monitor.gc",
+        "service.monitor.signal"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "chao.app.ami.utils.permission.AmiPermission$PermissionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

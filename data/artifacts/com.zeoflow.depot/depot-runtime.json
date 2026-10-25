@@ -1,0 +1,115 @@
+{
+  "coordinate": "com.zeoflow.depot:depot-runtime",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T02:46:07Z",
+      "sha256": "63752c4c96b63224580db08153038af8ab92b06921689669bb2850f110036677",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow.depot:depot-common:0.0.1",
+        "com.zeoflow.depot:sqlite-framework:0.0.1",
+        "com.zeoflow.depot:sqlite:0.0.1",
+        "com.zeoflow:flow-kit:1.6.1"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T02:46:06Z",
+      "sha256": "63752c4c96b63224580db08153038af8ab92b06921689669bb2850f110036677",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow.depot:depot-common:0.0.2",
+        "com.zeoflow.depot:sqlite-framework:0.0.2",
+        "com.zeoflow:flow-kit:1.6.1"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:46:05Z",
+      "sha256": "63752c4c96b63224580db08153038af8ab92b06921689669bb2850f110036677",
+      "dependencies": [
+        "Depot:common:unspecified",
+        "Depot:sqlite-framework:unspecified",
+        "Depot:sqlite:unspecified",
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow:flow-kit:1.6.0"
+      ]
+    },
+    "1.0.2-alpha": {
+      "fetchedAt": "2026-10-25T02:46:05Z",
+      "sha256": "63752c4c96b63224580db08153038af8ab92b06921689669bb2850f110036677",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow.depot:depot-common:1.0.2-alpha",
+        "com.zeoflow.depot:sqlite-framework:1.0.2-alpha",
+        "com.zeoflow:flow-kit:1.6.1"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:46:04Z",
+      "sha256": "4be980acc81f550451ae393b723e578b7653f00d272cc856c13e9c8eeeee2fb5",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow.depot:depot-common:1.0.2",
+        "com.zeoflow.depot:sqlite-framework:1.0.2",
+        "com.zeoflow:flow-kit:1.6.1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:46:03Z",
+      "sha256": "4be980acc81f550451ae393b723e578b7653f00d272cc856c13e9c8eeeee2fb5",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow.depot:depot-common:1.0.3",
+        "com.zeoflow.depot:sqlite-framework:1.0.3",
+        "com.zeoflow:flow-kit:1.6.1"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T02:46:02Z",
+      "sha256": "4be980acc81f550451ae393b723e578b7653f00d272cc856c13e9c8eeeee2fb5",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow.depot:depot-common:1.0.4",
+        "com.zeoflow.depot:sqlite-framework:1.0.4",
+        "com.zeoflow:flow-kit:1.6.1"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T02:46:01Z",
+      "sha256": "a8c4caad9a704f0df7e7f1582e1b81fbc91f33c34ef7e2f1a2a4e659948132b7",
+      "dependencies": [
+        "androidx.annotation:annotation-experimental:1.1.0-rc01",
+        "androidx.arch.core:core-runtime:2.0.1",
+        "com.zeoflow.depot:depot-common:1.0.5",
+        "com.zeoflow.depot:sqlite-framework:1.0.5",
+        "com.zeoflow:startup:1.0.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zeoflow.depot.MultiInstanceInvalidationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "1.0.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

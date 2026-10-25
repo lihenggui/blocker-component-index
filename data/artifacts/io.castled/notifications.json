@@ -1,0 +1,89 @@
+{
+  "coordinate": "io.castled:notifications",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.2": {
+      "fetchedAt": "2026-10-25T03:43:43Z",
+      "sha256": "a6dcf78eb0474e4a875e3c70cc7de3495d85f6dc7c9d0280212ff9d6fe72dc50",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "com.google.android.material:material:1.7.0",
+        "com.squareup.moshi:moshi-adapters:1.14.0",
+        "com.squareup.moshi:moshi:1.14.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.squareup.tape2:tape:2.0.0-beta1"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T03:43:42Z",
+      "sha256": "a6dcf78eb0474e4a875e3c70cc7de3495d85f6dc7c9d0280212ff9d6fe72dc50",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "com.google.android.material:material:1.7.0",
+        "com.squareup.moshi:moshi-adapters:1.14.0",
+        "com.squareup.moshi:moshi:1.14.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.squareup.tape2:tape:2.0.0-beta1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.castled.notifications.CastledEventListener",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.castled.notifications.CastledEventReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.castled.notifications.CastledMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.1.2",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

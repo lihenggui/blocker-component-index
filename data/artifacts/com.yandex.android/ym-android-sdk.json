@@ -1,0 +1,51 @@
+{
+  "coordinate": "com.yandex.android:ym-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0": {
+      "fetchedAt": "2026-10-25T02:26:53Z",
+      "sha256": "b7a9f56516ccaee98e97f92ce40f8b936f01fd1964dc264eb90ee7c363e1a9a7",
+      "dependencies": [
+        "com.google.code.gson:gson:2.2.4",
+        "com.squareup.okhttp:okhttp:1.6.0",
+        "com.yandex.java:ym-java-epr-sdk:2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.yandex.money.android.PaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.yandex.money.android.services.DataService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0",
+          "1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

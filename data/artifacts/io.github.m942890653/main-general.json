@@ -1,0 +1,43 @@
+{
+  "coordinate": "io.github.m942890653:main-general",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T05:21:46Z",
+      "sha256": "4805f9f3f520c0902f8ce3fe4d616902474e926d962d4e6246bff33fa261edea",
+      "dependencies": [
+        "MyApplication:log:unspecified",
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T05:21:45Z",
+      "sha256": "4805f9f3f520c0902f8ce3fe4d616902474e926d962d4e6246bff33fa261edea",
+      "dependencies": [
+        "MyApplication:log:unspecified",
+        "androidx.appcompat:appcompat:1.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zheng.library.general.provider.CommonFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

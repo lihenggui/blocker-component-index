@@ -1,0 +1,106 @@
+{
+  "coordinate": "io.bayat.android:social-sharing-unity",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:39:58Z",
+      "sha256": "fbd3f9a8ce79994b12306e04b06a01844c49dac85f9577a3739fcca7a35ffb16",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.material:material:1.9.0",
+        "io.bayat.android:social-sharing:1.0.0",
+        "src:unity-player:unspecified"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:39:57Z",
+      "sha256": "fbd3f9a8ce79994b12306e04b06a01844c49dac85f9577a3739fcca7a35ffb16",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.material:material:1.9.0",
+        "io.bayat.android:social-sharing:1.0.0"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T03:39:56Z",
+      "sha256": "7bafaabb272bd15ac563804d087e0174cb40118d0821529a9aecd9909f8fbdc0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.material:material:1.9.0",
+        "io.bayat.android:social-sharing:1.0.3"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T03:39:56Z",
+      "sha256": "79a1a1a89c2479a92332c29678999a0d225e66ebb6902b7911151e0354e343a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.material:material:1.9.0",
+        "io.bayat.android:social-sharing:1.0.4"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T03:39:55Z",
+      "sha256": "79a1a1a89c2479a92332c29678999a0d225e66ebb6902b7911151e0354e343a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.material:material:1.9.0",
+        "io.bayat.android:social-sharing:1.0.5"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T03:39:54Z",
+      "sha256": "79a1a1a89c2479a92332c29678999a0d225e66ebb6902b7911151e0354e343a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "com.google.android.material:material:1.9.0",
+        "io.bayat.android:social-sharing:1.0.6"
+      ]
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T03:39:53Z",
+      "sha256": "79a1a1a89c2479a92332c29678999a0d225e66ebb6902b7911151e0354e343a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.bayat.android:social-sharing:1.0.8"
+      ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T03:39:52Z",
+      "sha256": "79a1a1a89c2479a92332c29678999a0d225e66ebb6902b7911151e0354e343a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.bayat.android:social-sharing:1.0.9"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T03:39:52Z",
+      "sha256": "79a1a1a89c2479a92332c29678999a0d225e66ebb6902b7911151e0354e343a9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "io.bayat.android:social-sharing:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.bayat.android.social.sharing.unity.UnityFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bayat.social.sharing.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

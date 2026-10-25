@@ -1,0 +1,133 @@
+{
+  "coordinate": "com.yoti.mobile.android.sdk:yoti-button-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.5": {
+      "fetchedAt": "2026-10-25T02:38:51Z",
+      "sha256": "4a281b9e7d326795f74ce0f7284dd877fef3a03c83edcb4d7da180fc8bbddda1",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.yoti.mobile.android:base-commons-ui:0.0.3"
+      ]
+    },
+    "0.0.6": {
+      "fetchedAt": "2026-10-25T02:38:50Z",
+      "sha256": "6e470494015cbf3b66135e14b2ee1eb5aefeb1855ffc1f3e1337be16736ec0f1",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.yoti.mobile.android:base-commons-ui:0.0.5"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:38:50Z",
+      "sha256": "62ff0d0123eb8cd6080fdd64f47f77892d58c66dae67c14a8eaaea72c289b051",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.yoti.mobile.android:base-commons-ui:0.0.5"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T02:38:49Z",
+      "sha256": "d28b4b71972caae2536e0328fdc1b84da8391ec1ef324a3940478d19f005a43c",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T02:38:48Z",
+      "sha256": "ace0e9ba860d84cf21f90e873126d2e04cd2e5baa8a6d4b0ac33919e8dfe0eb0",
+      "dependencies": []
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T02:38:48Z",
+      "sha256": "4b78e5ff25abe5ecf76418d9d07c02a0020559be8fba657b6f85dc4f71f28b70",
+      "dependencies": []
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T02:38:47Z",
+      "sha256": "fe9a1bbe857ae006801b8e359ac3a2b6f090d45299933b2f6331dd1fcde8105d",
+      "dependencies": []
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T02:38:46Z",
+      "sha256": "4f2b760ac50065c1395cd0e09d05a343ddd679b3c8d378784dcf9c24588dbc65",
+      "dependencies": []
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T02:38:46Z",
+      "sha256": "9134f4f3f397dd37976c145754c90faee1f2ffaec0b6fa9f9d796df070dd5276",
+      "dependencies": []
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-25T02:38:45Z",
+      "sha256": "9d66c05618b8134236fdf30653d76e098767f175f6649930409570edf027e623",
+      "dependencies": []
+    },
+    "1.3.2": {
+      "fetchedAt": "2026-10-25T02:38:44Z",
+      "sha256": "2c8cc8e05820e6f80f5b878dd704e86bc4514cbf68f78ac3ba88e981b55ad049",
+      "dependencies": []
+    },
+    "1.3.3": {
+      "fetchedAt": "2026-10-25T02:38:44Z",
+      "sha256": "0f366e2f74da2aaebb0d11f28ed97e8f54d6f38e1cde7ea25020cfdc805f97c6",
+      "dependencies": []
+    },
+    "1.3.4": {
+      "fetchedAt": "2026-10-25T02:38:43Z",
+      "sha256": "bbfe1096269f742c9ddae967006a1336beab1415ef50c874e3810d5a7a7b30bd",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.yoti.mobile.android.sdk.ReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.2.1",
+          "1.3.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yoti.mobile.android.sdk.ReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yoti.mobile.android.sdk.kernelSDK.KernelSDKIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.0.5",
+          "1.3.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

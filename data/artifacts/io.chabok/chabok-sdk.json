@@ -1,0 +1,141 @@
+{
+  "coordinate": "io.chabok:chabok-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:44:12Z",
+      "sha256": "5107bc1aa49ee1cc27a23d1c9445bab6127a0032461210b98cd6a23b9604913a",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T03:44:11Z",
+      "sha256": "6ea9e4c052283f33761d14951938164fa898583bb4675191f7351adee89a24c7",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T03:44:10Z",
+      "sha256": "213f0e4a6eaaccdbc9ff7f08a2772c1c1ccbcea8593a5d2e70890ee6259bee8e",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-25T03:44:09Z",
+      "sha256": "a2a5c22b2993999c3d0b4f67c4420eeffc984c5719d11b52834e390f99daf27c",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-25T03:44:08Z",
+      "sha256": "18be2aaf18ff6c64e1b3acef5d3de94a80d8c57ce7a383c294184c332580ba8a",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    },
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T03:44:08Z",
+      "sha256": "0af742d6309fddd2afa2721c688217564c88a8d36f56293932e5167ae33377a5",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    },
+    "1.3.1": {
+      "fetchedAt": "2026-10-25T03:44:07Z",
+      "sha256": "45cc94ac98bce1580a40ed5e044557984f09a95f3f3ddcb1bae3dfc96185231e",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    },
+    "1.3.2": {
+      "fetchedAt": "2026-10-25T03:44:06Z",
+      "sha256": "fb568861ad5449c0012ce8d125ff62ecd4cdfb893c52ade0bb072de9ab0090ab",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:17.1.0",
+        "com.google.android.gms:play-services-base:18.0.1",
+        "com.google.firebase:firebase-messaging:22.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.chabok.messaging.ChabokFirebaseMessaging",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.chabok.messaging.action.NotificationActionBroadcast",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.chabok.utils.ChabokContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.3.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ChabokContentProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

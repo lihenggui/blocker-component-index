@@ -1,0 +1,43 @@
+{
+  "coordinate": "com.yxt.opensdk:atool",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.1": {
+      "fetchedAt": "2026-10-25T02:43:15Z",
+      "sha256": "ac69e941666ff92835a310cef1f521a1ed069e8ecaef7222a9df0e6382d956bb",
+      "dependencies": [
+        "com.yxt.opensdk.atool.subunit:media_photo:1.2",
+        "com.yxt.opensdk.atool.subunit:ui_components:1.2.1",
+        "com.yxt.opensdk.atool.subunit:webview:1.2"
+      ]
+    },
+    "1.3.6": {
+      "fetchedAt": "2026-10-25T02:43:14Z",
+      "sha256": "ac69e941666ff92835a310cef1f521a1ed069e8ecaef7222a9df0e6382d956bb",
+      "dependencies": [
+        "com.yxt.opensdk.atool.subunit:media_photo:1.3.3",
+        "com.yxt.opensdk.atool.subunit:ui_components:1.3.3",
+        "com.yxt.opensdk.atool.subunit:webview:1.3.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yxt.sdk.upgrade.UpgradeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.1",
+          "1.3.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

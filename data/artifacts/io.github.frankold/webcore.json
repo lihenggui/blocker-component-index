@@ -1,0 +1,138 @@
+{
+  "coordinate": "io.github.frankold:webcore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T04:52:58Z",
+      "sha256": "5d5de80451ef6e98fec36dd1f4e13d9b2e611e728a44b3fd0459f05515c7317f",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:52:57Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T04:52:56Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:52:56Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T04:52:55Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T04:52:55Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T04:52:54Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T04:52:53Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T04:52:53Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-25T04:52:52Z",
+      "sha256": "e29ab825303adc3ec2bc69a6bff35e270a5add8a94b5b8058ee3409f471a5ca2",
+      "dependencies": []
+    },
+    "1.0.10": {
+      "fetchedAt": "2026-10-25T04:52:52Z",
+      "sha256": "548b9bc69336205d0f36e1a4259731c22e9cfbcfd82183e88da0a468266b75de",
+      "dependencies": []
+    },
+    "1.0.11": {
+      "fetchedAt": "2026-10-25T04:52:51Z",
+      "sha256": "548b9bc69336205d0f36e1a4259731c22e9cfbcfd82183e88da0a468266b75de",
+      "dependencies": []
+    },
+    "1.0.12": {
+      "fetchedAt": "2026-10-25T04:52:50Z",
+      "sha256": "548b9bc69336205d0f36e1a4259731c22e9cfbcfd82183e88da0a468266b75de",
+      "dependencies": []
+    },
+    "1.0.13": {
+      "fetchedAt": "2026-10-25T04:52:49Z",
+      "sha256": "548b9bc69336205d0f36e1a4259731c22e9cfbcfd82183e88da0a468266b75de",
+      "dependencies": []
+    },
+    "1.0.14": {
+      "fetchedAt": "2026-10-25T04:52:48Z",
+      "sha256": "548b9bc69336205d0f36e1a4259731c22e9cfbcfd82183e88da0a468266b75de",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.qianmo.agentweb.core.AgentWebFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.14"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.AgentWebFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qianmo.agentweb.download.DownloadFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.14"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.DownloadFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.10",
+          "1.0.14"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

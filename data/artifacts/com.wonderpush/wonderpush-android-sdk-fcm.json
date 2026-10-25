@@ -1,0 +1,135 @@
+{
+  "coordinate": "com.wonderpush:wonderpush-android-sdk-fcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:19:11Z",
+      "sha256": "6929e0eb8f57151099a154160a81f3c7f557a043718f92515df5db1c7bac229b",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:17.3.4",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T02:19:10Z",
+      "sha256": "2593594f60985ea2a52254699790c8f4a2e83dc4badf23ffe71dabacff5acc93",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:17.6.0",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T02:19:09Z",
+      "sha256": "7fa24f1d5867ad4e680f205754da0ad1c76fe2709c62fbae3bbad180cfd2abab",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:16.0.1",
+        "com.google.firebase:firebase-messaging:17.6.0",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T02:19:08Z",
+      "sha256": "1174bfb3ec5c02c52a840d1e9fa7a8c1efa3a51aa270baebe264228279198598",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:16.0.1",
+        "com.google.firebase:firebase-messaging:20.3.0",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T02:19:08Z",
+      "sha256": "f1b7e186450c73705152e63bba0c7ad33bb374d761a2aa5e65599a2eae2c2c58",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:16.0.1",
+        "com.google.firebase:firebase-messaging:20.3.0",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T02:19:07Z",
+      "sha256": "1d4329a2f796dcd42b7353eb226bcb29ef400542fd9a6589b6d011b1fca374e7",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:16.0.1",
+        "com.google.firebase:firebase-messaging:20.3.0",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-25T02:19:06Z",
+      "sha256": "1d4329a2f796dcd42b7353eb226bcb29ef400542fd9a6589b6d011b1fca374e7",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:16.0.1",
+        "com.google.firebase:firebase-messaging:20.3.0",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-25T02:19:05Z",
+      "sha256": "1d4329a2f796dcd42b7353eb226bcb29ef400542fd9a6589b6d011b1fca374e7",
+      "dependencies": [
+        "com.google.android.gms:play-services-basement:18.2.0",
+        "com.google.firebase:firebase-messaging:23.2.1",
+        "com.wonderpush:wonderpush-android-sdk:[3.4.0,)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.wonderpush.sdk.push.DiscoveryService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.wonderpush.sdk.push:com.wonderpush.sdk.push.fcm.FCMPushService"
+      ]
+    },
+    {
+      "name": "com.wonderpush.sdk.push.fcm.FirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.wonderpush.sdk.push.fcm.FirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

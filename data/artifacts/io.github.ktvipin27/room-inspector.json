@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.github.ktvipin27:room-inspector",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T05:15:15Z",
+      "sha256": "b8286886c7997a7c26ef2b9c5af35780df1066a5c48be75a4def37387f38b092",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.0",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.room:room-runtime:2.3.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "com.ktvipin.roominspector.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.ktvipin.roominspector.view.RIMainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.ktvipin.roominspector.view.RIQueryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

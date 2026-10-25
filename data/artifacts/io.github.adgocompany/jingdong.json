@@ -1,0 +1,47 @@
+{
+  "coordinate": "io.github.adgocompany:jingdong",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.5.8": {
+      "fetchedAt": "2026-10-25T04:08:14Z",
+      "sha256": "063b9c48db3d75f47e1b9b8cb0f0c16c43d3eebccc2329a52a2c61acb3e63a34",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.jd.ad.sdk.bl.adinteraction.deeplink.JADWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.5.8",
+          "2.5.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.jd.ad.sdk.dl.cache.multiprocess.JADMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.5.8",
+          "2.5.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.JADMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

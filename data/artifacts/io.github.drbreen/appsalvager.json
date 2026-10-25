@@ -1,0 +1,32 @@
+{
+  "coordinate": "io.github.drbreen:appsalvager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T04:45:20Z",
+      "sha256": "cb7cfff8c20312918a68b49eb697f6bc6ab4db650df5c0531285cec91f6c8470",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.drbreen.appsalvager.internal.SalvageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":salvage",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

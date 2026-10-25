@@ -1,0 +1,65 @@
+{
+  "coordinate": "io.bitbucket.manojmiyani99:vpn",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:41:14Z",
+      "sha256": "7e94e0ab5b54beb0232fe8ce0e8027947345a8d1ef98b391a7ccf61dc8220a10",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.1",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.0",
+        "androidx.fragment:fragment-ktx:1.5.7",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0",
+        "com.android.support:multidex:1.0.3",
+        "com.squareup.moshi:moshi:1.14.0",
+        "com.squareup.okhttp3:logging-interceptor:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:converter-scalars:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "org.bouncycastle:bcpkix-jdk15on:1.66",
+        "org.bouncycastle:bcprov-jdk15on:1.66",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.blinkt.openvpn.DisconnectVPNActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.blinkt.openvpn.core.OpenVPNService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.unity3d.mediation:vungle-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:55:55Z",
+      "sha256": "a6099800fa5b9bfabf3eff153f53f0843e57a836d6d67bed58ed53770ff7a4d5",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.core:core-ktx:1.6.0",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.unity3d.mediation:mediation-adapter:[1.1,1.2[",
+        "com.vungle:publisher-sdk-android:[6.0,7.0[",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.unity3d.mediation.vungleadapter.VungleModuleInitializer"
+      ]
+    },
+    {
+      "name": "com.vungle.warren.ui.VungleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

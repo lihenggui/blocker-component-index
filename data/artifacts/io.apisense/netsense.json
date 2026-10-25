@@ -1,0 +1,65 @@
+{
+  "coordinate": "io.apisense:netsense",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:37:53Z",
+      "sha256": "2dc877c426750f1d1fc8f2530853ecc038d05e402fda942208d5e88966c1f0e9",
+      "dependencies": [
+        "io.apisense.sdk:apisense-android-sdk:1.12.0-SNAPSHOT"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:37:52Z",
+      "sha256": "b764f51871ae011cd7f34f14ea42d2d99b2518f066c7d9244cfed073e552cd70",
+      "dependencies": [
+        "io.apisense.sdk:apisense-android-sdk:1.11.0"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-25T03:37:51Z",
+      "sha256": "dd5fdd607bf1bd7df88261158018da49eafd1aa881bb451e6dc4b345240834c6",
+      "dependencies": [
+        "io.apisense.sdk:apisense-android-sdk:1.12.0.beta1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.apisense.sting.netsense.NetsenseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "io.apisense.sting.netsense.NetsenseService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "authorities": null,
+      "actions": [
+        "android.net.VpnService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

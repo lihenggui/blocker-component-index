@@ -1,0 +1,40 @@
+{
+  "coordinate": "io.divide:client-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.5.2": {
+      "fetchedAt": "2026-10-25T03:47:10Z",
+      "sha256": "bb5ea84637aea1a10afbe03df4545a074703106eb082677b891f6b6d073cf7c4",
+      "dependencies": [
+        "com.netflix.rxjava:rxjava-android:0.19.6"
+      ]
+    },
+    "0.5.3": {
+      "fetchedAt": "2026-10-25T03:47:09Z",
+      "sha256": "bb5ea84637aea1a10afbe03df4545a074703106eb082677b891f6b6d073cf7c4",
+      "dependencies": [
+        "com.netflix.rxjava:rxjava-android:0.19.6",
+        "io.divide:client-java:0.5.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.divide.client.android.AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.5.2",
+          "0.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

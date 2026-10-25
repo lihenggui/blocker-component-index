@@ -1,0 +1,92 @@
+{
+  "coordinate": "com.volkhart.feedback:feedback",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-rc1": {
+      "fetchedAt": "2026-10-25T02:07:54Z",
+      "sha256": "2bdbc6726df688cb3cb5d29dfd9df6eee39ef98bace8acd9aa432649cecdcd7e",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.1.1",
+        "com.android.support:design:25.1.1",
+        "com.jakewharton.timber:timber:4.5.1",
+        "me.panavtec:drawableview:0.6.0",
+        "org.rm3l:maoni-common:2.3.1"
+      ]
+    },
+    "1.0.0-rc2": {
+      "fetchedAt": "2026-10-25T02:07:54Z",
+      "sha256": "94e23991674e803d8eb9021d74315692bb423b4e58f20a441378fa41bac3f4b7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.3.1",
+        "com.android.support:design:25.3.1",
+        "com.jakewharton.timber:timber:4.5.1",
+        "me.panavtec:drawableview:0.6.0",
+        "org.rm3l:maoni-common:2.3.1"
+      ]
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:07:53Z",
+      "sha256": "67b435e3058574224eb45ea7f17533c09bb1a94fad8662a6302473b050552019",
+      "dependencies": [
+        "com.android.support:appcompat-v7:26.1.0",
+        "com.android.support:design:26.1.0",
+        "com.jakewharton.timber:timber:4.6.0",
+        "me.panavtec:drawableview:0.6.0",
+        "org.rm3l:maoni-common:2.3.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.volkhart.feedback.internal.FeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-rc2",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.volkhart.feedback.internal.MaoniActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-rc1",
+          "1.0.0-rc1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.volkhart.feedback.internal.ScreenshotEditorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-rc1",
+          "1.0.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

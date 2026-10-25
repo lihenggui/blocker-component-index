@@ -1,0 +1,140 @@
+{
+  "coordinate": "io.github.chenqunming:alipaysdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "SNAPSHOT-15.8.03": {
+      "fetchedAt": "2026-10-25T04:34:29Z",
+      "sha256": "2ec6c1890a561729c38cf1c2133339ac630a76b0fdc83c270c9174e130f41dce",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0"
+      ]
+    },
+    "15.8.03": {
+      "fetchedAt": "2026-10-25T04:34:28Z",
+      "sha256": "1ed1a2406c9deac8b95a5bd71bb00aac891f625cd849e0ac2e9fc5c8ae7c493e",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.4",
+        "androidx.core:core-ktx:1.3.2",
+        "com.codeqm.sdk:alipay:15.8.03",
+        "com.google.android.material:material:1.3.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0"
+      ]
+    },
+    "15.8.05": {
+      "fetchedAt": "2026-10-25T04:34:28Z",
+      "sha256": "2ec6c1890a561729c38cf1c2133339ac630a76b0fdc83c270c9174e130f41dce",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.core:core-ktx:1.3.2",
+        "com.google.android.material:material:1.3.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.APayEntranceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-15.8.03",
+          "15.8.05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-15.8.03",
+          "15.8.05"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-15.8.03",
+          "15.8.05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-15.8.03",
+          "15.8.05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-15.8.03",
+          "15.8.05"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "SNAPSHOT-15.8.03",
+          "15.8.05"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

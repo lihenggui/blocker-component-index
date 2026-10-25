@@ -1,0 +1,69 @@
+{
+  "coordinate": "io.github.luyw520:commlib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T05:20:28Z",
+      "sha256": "6c882f083596772673042f950a3f18e108289fd865176dedcf24638eef03d979",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:databinding-adapters:7.1.2",
+        "androidx.databinding:databinding-common:7.1.2",
+        "androidx.databinding:databinding-ktx:7.1.2",
+        "androidx.databinding:databinding-runtime:7.1.2",
+        "androidx.datastore:datastore-preferences:1.0.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.5.0-alpha05",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.0-alpha05",
+        "androidx.lifecycle:lifecycle-process:2.5.0-alpha05",
+        "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.5.0-alpha05",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.5.0-alpha05",
+        "androidx.lifecycle:lifecycle-service:2.5.0-alpha05",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha05",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0-alpha05",
+        "com.alibaba:arouter-api:1.5.2",
+        "com.blankj:utilcodex:1.30.6",
+        "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.11",
+        "com.github.bumptech.glide:glide:4.14.2",
+        "com.github.chenBingX:SuperTextView:v3.2.5",
+        "com.google.android.material:material:1.5.0",
+        "com.google.code.gson:gson:2.10.1",
+        "com.imuxuan:floatingview:1.6",
+        "com.permissionx.guolindev:permissionx:1.1.1",
+        "com.squareup.okhttp3:logging-interceptor:4.3.0",
+        "com.squareup.retrofit2:adapter-rxjava:2.3.0",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.tencent:mmkv-static:1.2.11",
+        "org.greenrobot:eventbus:3.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

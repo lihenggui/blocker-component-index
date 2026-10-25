@@ -1,0 +1,207 @@
+{
+  "coordinate": "com.vuukle.android:ads-mediation-interstitial",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.0.6": {
+      "fetchedAt": "2026-10-25T02:09:53Z",
+      "sha256": "962855115169fa8d97a7a4e4dddffa757bbdb69e8bb21db972e0193958471b6a",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.0.6",
+        "com.vuukle.android:ads-mediation:2.0.6"
+      ]
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-25T02:09:52Z",
+      "sha256": "ae0592794ecf1c72c2337fd07089fe81e87ed0be03bc1615c6ef4f7f28f5cc71",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.0.7",
+        "com.vuukle.android:ads-mediation:2.0.7"
+      ]
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-25T02:09:51Z",
+      "sha256": "c4f52b579340d56e517cb5f2d425e5c7c31e737a933464c9f0a15d09277d8f4a",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.0.8",
+        "com.vuukle.android:ads-mediation:2.0.8"
+      ]
+    },
+    "2.0.9": {
+      "fetchedAt": "2026-10-25T02:09:50Z",
+      "sha256": "d03303167578d89e26f55e6bc34eab241847529fef42fb85498d74cb5fae7a4e",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.0.9",
+        "com.vuukle.android:ads-mediation:2.0.9"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T02:09:49Z",
+      "sha256": "2dc7a479513e9e42812326438dbb9fc9b037dbd7d877a91e3e3db4c775624fae",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.1.0",
+        "com.vuukle.android:ads-mediation:2.1.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T02:09:49Z",
+      "sha256": "0bd1c9377c7f552023909a4e33f07b060002d2359827c9b955d871753d05e2f9",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.1.1",
+        "com.vuukle.android:ads-mediation:2.1.1"
+      ]
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-25T02:09:48Z",
+      "sha256": "32efd5f74caffac86f82221dd12effa0af8642358ec627cfaf7ed75d852f426d",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.1.2",
+        "com.vuukle.android:ads-mediation:2.1.2"
+      ]
+    },
+    "2.1.3": {
+      "fetchedAt": "2026-10-25T02:09:47Z",
+      "sha256": "0675ae7683c5e18351cf40cde1e1e9a497c7b7739a038685a41077d1060f2a3a",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.1.3",
+        "com.vuukle.android:ads-mediation:2.1.3"
+      ]
+    },
+    "2.1.4": {
+      "fetchedAt": "2026-10-25T02:09:46Z",
+      "sha256": "67e7b640247a1dad6b07bee840e9b759d6ac68b2d765a93f46a30220768dde7e",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.1.4",
+        "com.vuukle.android:ads-mediation:2.1.4"
+      ]
+    },
+    "2.1.5": {
+      "fetchedAt": "2026-10-25T02:09:45Z",
+      "sha256": "1aeb0227558fe7e6591b36bf66a74a3d20d90abe5a22ba1926058448515ae136",
+      "dependencies": [
+        "com.vuukle.android:ads-mediation-mopub-single-listener:2.1.5",
+        "com.vuukle.android:ads-mediation:2.1.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.3"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.ExpandedBannerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.interstitial.InterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.smaato.soma.video.VASTAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapjoy.TJAdUnitActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tapjoy.TJContentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "2.0.6",
+          "2.1.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

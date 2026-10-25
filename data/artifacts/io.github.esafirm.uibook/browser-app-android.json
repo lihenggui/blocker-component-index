@@ -1,0 +1,72 @@
+{
+  "coordinate": "io.github.esafirm.uibook:browser-app-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T04:49:01Z",
+      "sha256": "854fd9cd9542f386cd0cdc4a0615ce9fc3074a780955b7c35cfeca09e7e493a1",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "io.github.esafirm.uibook:annotations:0.1.0",
+        "io.github.esafirm.uibook:browser-core:0.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    },
+    "1.1.0-RC2": {
+      "fetchedAt": "2026-10-25T04:49:01Z",
+      "sha256": "854fd9cd9542f386cd0cdc4a0615ce9fc3074a780955b7c35cfeca09e7e493a1",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "io.github.esafirm.uibook:annotations:1.1.0-RC2",
+        "io.github.esafirm.uibook:browser-core:1.1.0-RC2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "nolambda.uibook.browser.app.UIBookActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.1.0-RC2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "nolambda.uibook.browser.app.UIBookListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "1.1.0-RC2"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MAIN"
+      ],
+      "categories": [
+        "android.intent.category.LAUNCHER"
+      ],
+      "metaData": []
+    }
+  ]
+}

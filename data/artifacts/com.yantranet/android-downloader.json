@@ -1,0 +1,162 @@
+{
+  "coordinate": "com.yantranet:android-downloader",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.20-RC3": {
+      "fetchedAt": "2026-10-25T02:29:47Z",
+      "sha256": "385d36a763ff029a948773023a9da84f007d3a90668f4f30d02838d049a52759",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.13.1",
+        "com.yantranet:utilsLib:1.0.62"
+      ]
+    },
+    "1.0.20-RC4": {
+      "fetchedAt": "2026-10-25T02:29:47Z",
+      "sha256": "a84c5ba53ff86b51c5c15d5d5d5f744c28f84b0b96a4d5a766392855fe5534e0",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.13.1",
+        "com.yantranet:utilsLib:1.0.62"
+      ]
+    },
+    "1.0.20": {
+      "fetchedAt": "2026-10-25T02:29:46Z",
+      "sha256": "ccafd4813242b5ead7269928d38abea8c66e5dab22672aab4180c7c8da8ec3b4",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.13.1",
+        "com.yantranet:utilsLib:1.0.62"
+      ]
+    },
+    "1.0.21": {
+      "fetchedAt": "2026-10-25T02:29:46Z",
+      "sha256": "37afd70870d658f8de4eddf691ce5507b99f025a54bd0176336d71ec2751714d",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.1",
+        "com.yantranet:utilsLib:1.0.62"
+      ]
+    },
+    "1.0.22": {
+      "fetchedAt": "2026-10-25T02:29:45Z",
+      "sha256": "e00194b0df304dbf5d6e995fee272a3f8a47a8ca3e374c2bcc7d6373a566aa45",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.12.3",
+        "com.yantranet:utilsLib:1.0.65"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T02:29:44Z",
+      "sha256": "ef972a441d199ef1888caf16bb4d34e38d3aebb98c6f258957cbed4f081bf739",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.0.2",
+        "com.squareup.okhttp3:okhttp:3.12.3",
+        "com.yantranet:utilsLib:1.0.67"
+      ]
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-25T02:29:44Z",
+      "sha256": "5e58e3bc4a9b4ef3d0a8f5832d83556399a92b16516ffc373308846901abbcee",
+      "dependencies": [
+        "com.yantranet:utilsLib:1.0.68"
+      ]
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-25T02:29:43Z",
+      "sha256": "6352b695da70c5fa741a89233dfa5c030c0d35d685bd3c12de76766a887794f5",
+      "dependencies": [
+        "com.yantranet:utilsLib:1.0.68"
+      ]
+    },
+    "1.1.3": {
+      "fetchedAt": "2026-10-25T02:29:43Z",
+      "sha256": "47a8e973b9b378aed9b3b57dc996e3fa1fde7398bc192020b29ac92bd4234fef",
+      "dependencies": [
+        "com.yantranet:utilsLib:1.0.68"
+      ]
+    },
+    "1.1.4": {
+      "fetchedAt": "2026-10-25T02:29:42Z",
+      "sha256": "ce059abbc09d7278b83e1d2f0a4700d93662597fe3228fc6355ec96d8fece6df",
+      "dependencies": [
+        "com.yantranet:utilsLib:1.0.68"
+      ]
+    },
+    "1.1.5": {
+      "fetchedAt": "2026-10-25T02:29:42Z",
+      "sha256": "fd260f3048d81f8a9151ea305838d9b1e3e5f7b18018b8df61d3463950094e6e",
+      "dependencies": [
+        "com.yantranet:utilsLib:1.0.68"
+      ]
+    },
+    "2.0.20-RC1": {
+      "fetchedAt": "2026-10-25T02:29:41Z",
+      "sha256": "825171c3bd7a7365fb9b5e4daa2fcecdb326ef0b9c0cb8a1f9acd1bfd7dc10ef",
+      "dependencies": [
+        "com.squareup.okhttp3:okhttp:3.9.0",
+        "com.yantranet:utilsLib:1.0.55"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yantranet.downloader.DownloadManagerListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.20-RC3",
+          "1.0.22"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.yantranet.downloadLib.intent.action.download_complete",
+        "com.yantranet.downloadLib.intent.action.download_failed",
+        "com.yantranet.downloadLib.intent.action.download_size_mismatched"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yantranet.downloader.DownloadManagerListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2.0.20-RC1",
+          "2.0.20-RC1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.yantranet.downloader.intent.action.download_complete",
+        "com.yantranet.downloader.intent.action.download_failed"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yantranet.downloader.DownloadWorkflowListener",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.20-RC3",
+          "1.0.22"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.yantranet.downloadLib.intent.action.download_failed",
+        "com.yantranet.downloadLib.intent.action.download_queue_empty",
+        "com.yantranet.downloadLib.intent.action.download_queue_not_empty"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

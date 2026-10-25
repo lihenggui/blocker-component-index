@@ -1,0 +1,39 @@
+{
+  "coordinate": "com.toast.android:pushsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.7.0-rc0": {
+      "fetchedAt": "2026-10-25T01:35:15Z",
+      "sha256": "294d3f3ea2f5aa05811eb1421bca2cfd1f7526edf7a2a45e49ec11285fbb7da4",
+      "dependencies": [
+        "com.android.support:support-v4:26.1.0"
+      ]
+    },
+    "1.7.0": {
+      "fetchedAt": "2026-10-25T01:35:14Z",
+      "sha256": "a7ca16cbd51f52626db992f397587684148b20dd4e2430ac3256fdf4bceb2652",
+      "dependencies": [
+        "com.android.support:support-v4:26.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.toast.android.pushsdk.richmessage.NotificationActionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.7.0-rc0",
+          "1.7.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

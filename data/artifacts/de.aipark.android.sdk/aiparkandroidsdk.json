@@ -1,0 +1,134 @@
+{
+  "coordinate": "de.aipark.android.sdk:aiparkandroidsdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2734": {
+      "fetchedAt": "2026-10-25T02:52:02Z",
+      "sha256": "6b065c3a0b6a957c54b0292b7e184b604bd58907ff71dc22dd69374d19b443f7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.google.android.gms:play-services-location:15.0.1",
+        "com.google.android.gms:play-services-maps:15.0.1",
+        "com.google.maps:google-maps-services:0.2.10",
+        "de.aipark.api:aipark-api:27.4",
+        "io.reactivex:rxandroid:1.1.0"
+      ]
+    },
+    "2735": {
+      "fetchedAt": "2026-10-25T02:52:01Z",
+      "sha256": "63f706bc8acdede3b04f1624a860be02c60fb431e7e4c4804962b767190025dd",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.google.android.gms:play-services-location:15.0.1",
+        "com.google.android.gms:play-services-maps:15.0.1",
+        "com.google.maps:google-maps-services:0.2.10",
+        "de.aipark.api:aipark-api:27.4",
+        "io.reactivex:rxandroid:1.1.0"
+      ]
+    },
+    "2736": {
+      "fetchedAt": "2026-10-25T02:52:01Z",
+      "sha256": "165ebeac9479ac4edc47ca79637e0a9a9821b2e4dcdd08526942b7dbcd82f6bc",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.google.android.gms:play-services-location:15.0.1",
+        "com.google.android.gms:play-services-maps:15.0.1",
+        "com.google.maps:google-maps-services:0.2.10",
+        "de.aipark.api:aipark-api:27.4",
+        "io.reactivex:rxandroid:1.1.0"
+      ]
+    },
+    "2831": {
+      "fetchedAt": "2026-10-25T02:52:00Z",
+      "sha256": "a4f2bfc56e1b25c1aea7bf8b7dbf4f67796ff1db772d707df69242e95f3a24f4",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.google.android.gms:play-services-maps:16.0.0",
+        "com.google.maps:google-maps-services:0.2.10",
+        "de.aipark.api:aipark-api:28.31",
+        "io.reactivex:rxandroid:1.1.0"
+      ]
+    },
+    "2832": {
+      "fetchedAt": "2026-10-25T02:52:00Z",
+      "sha256": "2113401e46f196bd8e3dd0b22eb98e732fa668f6fcec84d60c01aa5664f0df07",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.google.android.gms:play-services-maps:16.0.0",
+        "com.google.maps:google-maps-services:0.2.10",
+        "de.aipark.api:aipark-api:28.32",
+        "io.reactivex:rxandroid:1.1.0"
+      ]
+    },
+    "3001": {
+      "fetchedAt": "2026-10-25T02:51:59Z",
+      "sha256": "dc6577c70f014dc273310472fda453b9391a0361e198f797f4fa58a01bd3f7a2",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.2",
+        "com.google.android.gms:play-services-location:16.0.0",
+        "com.google.android.gms:play-services-maps:16.0.0",
+        "com.google.maps:google-maps-services:0.2.10",
+        "de.aipark.api:aipark-api:30.03",
+        "io.reactivex:rxandroid:1.1.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.aipark.android.sdk.ActivityLocationJobIntentService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2734",
+          "3001"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.aipark.android.sdk.LocationUpdatesBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "2734",
+          "3001"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "de.aipark.android.sdk.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_ACTIVITY_UPDATES",
+        "de.aipark.android.sdk.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "de.aipark.android.sdk.StartInBackgroundService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2734",
+          "2735"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

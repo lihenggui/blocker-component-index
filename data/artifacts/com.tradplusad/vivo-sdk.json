@@ -1,0 +1,151 @@
+{
+  "coordinate": "com.tradplusad:vivo-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.1.7.2": {
+      "fetchedAt": "2026-10-25T01:45:24Z",
+      "sha256": "5c318ce69ffdbaebcd665ad6cc683fadd8df4d5ae0fb16bc8f697ca76691d198",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.vivo.ic.dm.DownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ICDM",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.ic.dm.DownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.ic.dm.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.ic.dm.util.KeepAliveService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.manager.VivoDownloadProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.VFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.vivo.mobilead.unified.interstitial.InterstitialVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.unified.reward.RewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.vivo.mobilead.web.VivoADSDKWebView",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.1.7.2",
+          "6.1.7.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

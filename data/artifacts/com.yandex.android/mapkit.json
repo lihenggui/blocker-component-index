@@ -1,0 +1,233 @@
+{
+  "coordinate": "com.yandex.android:mapkit",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T02:25:36Z",
+      "sha256": "47b4a3318f0df68c61498da3a6fdb68d48c279581e2d69b4d9e197747faa2541",
+      "dependencies": [
+        "com.yandex.android:runtime:3.0.0"
+      ]
+    },
+    "3.1.0": {
+      "fetchedAt": "2026-10-25T02:25:36Z",
+      "sha256": "67f7522f52d0d7c68b54dc69d3b3fd90a9e20158a6e69dc845e5cb03680531d9",
+      "dependencies": [
+        "com.android.support:support-annotations:27.0.0",
+        "com.yandex.android:runtime:3.1.0"
+      ]
+    },
+    "3.1.1": {
+      "fetchedAt": "2026-10-25T02:25:35Z",
+      "sha256": "67f7522f52d0d7c68b54dc69d3b3fd90a9e20158a6e69dc845e5cb03680531d9",
+      "dependencies": [
+        "com.android.support:support-annotations:27.0.0",
+        "com.yandex.android:runtime:3.1.1"
+      ]
+    },
+    "3.1.2": {
+      "fetchedAt": "2026-10-25T02:25:34Z",
+      "sha256": "aa1b5d46ab75fbb611c6163693ffb5c6badd6f896fcb039c221300bd255e3739",
+      "dependencies": [
+        "com.android.support:support-annotations:27.0.0",
+        "com.yandex.android:runtime:3.1.2"
+      ]
+    },
+    "3.2.0": {
+      "fetchedAt": "2026-10-25T02:25:33Z",
+      "sha256": "daa333fea7f2542f1ddd744372f6bac15f9504ab64f5c4f2fea2a6d421c52af7",
+      "dependencies": [
+        "com.android.support:support-annotations:27.0.0",
+        "com.yandex.android:runtime:3.2.0"
+      ]
+    },
+    "3.3.0": {
+      "fetchedAt": "2026-10-25T02:25:33Z",
+      "sha256": "576544a4d7b60451a9df1706e33e32cf56e541cdc6774c40bdc348935ff74c40",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.evernote:android-job:1.2.6",
+        "com.google.android.gms:play-services-gcm:11.6",
+        "com.yandex.android:runtime:3.3.0"
+      ]
+    },
+    "3.3.1": {
+      "fetchedAt": "2026-10-25T02:25:32Z",
+      "sha256": "f684100113c48cdd5ff15d55ff283c2830a9b8d3a50ef603bbcf53d58726a4ed",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.evernote:android-job:1.2.6",
+        "com.google.android.gms:play-services-gcm:11.6.2",
+        "com.yandex.android:runtime:3.3.1"
+      ]
+    },
+    "3.4.0": {
+      "fetchedAt": "2026-10-25T02:25:32Z",
+      "sha256": "cb458e1c3b2405d463978194ab0eae078ac443bd44baff61d5a06db2a0df0b79",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.yandex.android:runtime:3.4.0"
+      ]
+    },
+    "3.5.0": {
+      "fetchedAt": "2026-10-25T02:25:31Z",
+      "sha256": "3caf21cfc12d004c49054860f15cf1e9fbb71f826c3ac54e5636a85b05b5500d",
+      "dependencies": [
+        "com.android.support:support-compat:27.0.0",
+        "com.yandex.android:runtime:3.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.evernote.android.job.patched.internal.JobBootReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.4.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.MY_PACKAGE_REPLACED",
+        "android.intent.action.QUICKBOOT_POWERON",
+        "com.htc.intent.action.QUICKBOOT_POWERON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.patched.internal.JobRescheduleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.4.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.4.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.evernote.android.job.patched.internal.v14.RUN_JOB",
+        "net.vrallev.android.job.v14.RUN_JOB"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.patched.internal.v14.PlatformAlarmService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.4.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.patched.internal.v14.PlatformAlarmServiceExact",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.4.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.evernote.android.job.patched.internal.v21.PlatformJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.4.0",
+          "3.5.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yandex.mapkit.internal.MapkitElection$MapkitElectionReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.BOOT_COMPLETED",
+        "android.intent.action.QUICKBOOT_POWERON",
+        "com.yandex.maps.mapkit.MAPKIT_ELECTION_ACTION",
+        "com.yandex.maps.mapkit.MAPKIT_VERSION_ACTION",
+        "com.yandex.maps.mapkit.MAPKIT_VICTORY_ACTION"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yandex.mapkit.internal.MapkitService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "coordinate": "dev.birju:locus-android",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.0.1": {
+      "fetchedAt": "2026-10-25T02:57:26Z",
+      "sha256": "cd58b276c88f42b04aeb0eed5c6bbaa31998d0ad41cdf6e3e34a6a6f3b3e8d42",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.4.0",
+        "androidx.appcompat:appcompat:1.4.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.5.31"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.birjuvachhani.locus.LocationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.0.1",
+          "4.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.birjuvachhani.locus.LocationProvider.LocationBroadcastReceiver.action.PROCESS_UPDATES"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.birjuvachhani.locus.LocusActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "4.0.1",
+          "4.0.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

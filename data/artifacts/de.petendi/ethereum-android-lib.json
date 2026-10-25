@@ -1,0 +1,43 @@
+{
+  "coordinate": "de.petendi:ethereum-android-lib",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.1": {
+      "fetchedAt": "2026-10-25T02:55:39Z",
+      "sha256": "484b179df7eb935f7545519fcbf0efe7e8ec4816c0360bf18f6c62ad9e50582b",
+      "dependencies": [
+        "com.fasterxml.jackson.core:jackson-databind:2.7.1-1"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T02:55:38Z",
+      "sha256": "784a9fc58016a0622a8ab9df367dd726b80a3dc5c393a8cb0170290c5d89e096",
+      "dependencies": [
+        "com.fasterxml.jackson.core:jackson-databind:2.7.1-1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "de.petendi.ethereum.android.EthereumAndroidService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.1",
+          "0.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "de.petendi.ethereum.android.action.RESPONSE"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

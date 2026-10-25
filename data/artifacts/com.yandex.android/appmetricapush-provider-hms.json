@@ -1,0 +1,123 @@
+{
+  "coordinate": "com.yandex.android:appmetricapush-provider-hms",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.10.0": {
+      "fetchedAt": "2026-10-25T02:25:20Z",
+      "sha256": "4b0c24799148ff967553a774aeb79b2d50b5986035225f8b8685a74316495272",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.10.0"
+      ]
+    },
+    "1.11.0": {
+      "fetchedAt": "2026-10-25T02:25:19Z",
+      "sha256": "f98f4360c08efa6d16afb0d3e50aada47eeecf3983b071ae982571b28aafbaa4",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.11.0"
+      ]
+    },
+    "1.11.1": {
+      "fetchedAt": "2026-10-25T02:25:19Z",
+      "sha256": "644fc768de43dea841b9e4b213fece53397b1b5b913a737b99b40a8346a77974",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.11.1"
+      ]
+    },
+    "1.12.0": {
+      "fetchedAt": "2026-10-25T02:25:18Z",
+      "sha256": "98a649b6d466b6fc65e807c45d891b99a1f722215a1e09c04e43143e169c1788",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.12.0"
+      ]
+    },
+    "1.13.0": {
+      "fetchedAt": "2026-10-25T02:25:18Z",
+      "sha256": "6beaf5aada862287147be973df79c6b62922c0a5b4d4108e63cad8fb94262edc",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.13.0"
+      ]
+    },
+    "1.14.0": {
+      "fetchedAt": "2026-10-25T02:25:17Z",
+      "sha256": "446262c549ffe68a4845c671b12022cf927fe172bbdedd5b9ab576446387ea65",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:1.14.0"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T02:25:16Z",
+      "sha256": "dc19833b5331c54f07e4ad60cd961b981a58c391c19328746217706f1f0e04e1",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.0.0"
+      ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T02:25:16Z",
+      "sha256": "1028309c86862f69bd5ca3b2b58e3169a2e612a4c58a21a1aeee98623094a335",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.1.0"
+      ]
+    },
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T02:25:15Z",
+      "sha256": "c129ea58bb7effdc59b4555477857e03868f86da64ff1785e346e92c27b66b83",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T02:25:15Z",
+      "sha256": "a86d1e67aa472a24c66df14756d428f0d915c43929a40ae24ffb6244c4430669",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.3.1": {
+      "fetchedAt": "2026-10-25T02:25:14Z",
+      "sha256": "d33e3f4d78db991c031918051b997256050c63d46b979c7a72d46b204bea026d",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.3.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.3.2": {
+      "fetchedAt": "2026-10-25T02:25:14Z",
+      "sha256": "e39e26ff284d535494107d1e9109d1bdcecf6d7291d3644073b6ffac5cf9496d",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    },
+    "2.3.3": {
+      "fetchedAt": "2026-10-25T02:25:13Z",
+      "sha256": "f42c3310291ce19c0785bcd7745f27254306878f8e1404959aefdb91c6623dfd",
+      "dependencies": [
+        "com.yandex.android:appmetricapush-core:2.3.3",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.yandex.appmetrica.push.hms.MetricaHmsMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.10.0",
+          "2.3.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": "${applicationId}.permission.PROCESS_PUSH_MSG",
+      "authorities": null,
+      "actions": [
+        "com.huawei.push.action.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

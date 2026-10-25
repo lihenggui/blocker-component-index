@@ -1,0 +1,37 @@
+{
+  "coordinate": "io.gamedock.sdk:gamedock-sdk-appsflyer",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "4.2.0": {
+      "fetchedAt": "2026-10-25T03:52:38Z",
+      "sha256": "df9656a02905204d117e9498f7ec758dba018332a898ecd6b7ac58bd9b59eb62",
+      "dependencies": []
+    },
+    "4.2.1": {
+      "fetchedAt": "2026-10-25T03:52:37Z",
+      "sha256": "ef283356f3bec2b5902b8a3a12777daa9fa6cc94d938d2b5926c3e91b2371b45",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.appsflyer.MultipleInstallBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "4.2.0",
+          "4.2.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.android.vending.INSTALL_REFERRER"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

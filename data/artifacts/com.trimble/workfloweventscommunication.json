@@ -1,0 +1,66 @@
+{
+  "coordinate": "com.trimble:workfloweventscommunication",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.1": {
+      "fetchedAt": "2026-10-25T01:46:37Z",
+      "sha256": "6799e0263b461d8dbbf8c5b92e2d82e11807c3f63d172e64bc14059c526ccbdf",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.lifecycle:lifecycle-service:2.6.2",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3"
+      ]
+    },
+    "2.1.3": {
+      "fetchedAt": "2026-10-25T01:46:37Z",
+      "sha256": "cd9a750172ec5d176b47f5a988dc344bb4307e8b1369ee0627124397aac9ecc3",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.lifecycle:lifecycle-service:2.6.2",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3"
+      ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T01:46:36Z",
+      "sha256": "cd9a750172ec5d176b47f5a988dc344bb4307e8b1369ee0627124397aac9ecc3",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.lifecycle:lifecycle-service:2.6.2",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.trimble.ttm.workfloweventscommunication.service.WorkflowEventsCommunicationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.1",
+          "3.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.trimble.ttm.workfloweventscommunication.service.StartWorkflowEventsCommunicationService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

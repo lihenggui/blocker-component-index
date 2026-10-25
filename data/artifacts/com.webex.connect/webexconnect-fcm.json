@@ -1,0 +1,115 @@
+{
+  "coordinate": "com.webex.connect:webexconnect-fcm",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T02:13:00Z",
+      "sha256": "d3f498055bdd692ee734999cc9ab7c9d707367ed919c50e0ec1f1fe752213eac",
+      "dependencies": [
+        "com.google.firebase:firebase-messaging:24.0.1",
+        "com.webex.connect:webexconnect-core:3.0.0",
+        "com.webex.connect:webexconnect-push:3.0.0"
+      ]
+    },
+    "3.0.1": {
+      "fetchedAt": "2026-10-25T02:12:59Z",
+      "sha256": "d3f498055bdd692ee734999cc9ab7c9d707367ed919c50e0ec1f1fe752213eac",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.firebase:firebase-messaging:24.0.3",
+        "com.webex.connect:webexconnect-core:3.0.1",
+        "com.webex.connect:webexconnect-push:3.0.1"
+      ]
+    },
+    "3.0.2": {
+      "fetchedAt": "2026-10-25T02:12:58Z",
+      "sha256": "d3f498055bdd692ee734999cc9ab7c9d707367ed919c50e0ec1f1fe752213eac",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.firebase:firebase-messaging:24.1.0",
+        "com.webex.connect:webexconnect-core:3.0.2",
+        "com.webex.connect:webexconnect-push:3.0.2"
+      ]
+    },
+    "3.0.3": {
+      "fetchedAt": "2026-10-25T02:12:56Z",
+      "sha256": "d3f498055bdd692ee734999cc9ab7c9d707367ed919c50e0ec1f1fe752213eac",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.firebase:firebase-messaging:24.1.0",
+        "com.webex.connect:webexconnect-core:3.0.3",
+        "com.webex.connect:webexconnect-push:3.0.3"
+      ]
+    },
+    "3.0.4": {
+      "fetchedAt": "2026-10-25T02:12:58Z",
+      "sha256": "d3f498055bdd692ee734999cc9ab7c9d707367ed919c50e0ec1f1fe752213eac",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.5.0",
+        "com.google.firebase:firebase-messaging:24.1.0",
+        "com.webex.connect:webexconnect-core:3.0.4",
+        "com.webex.connect:webexconnect-push:3.0.4"
+      ]
+    },
+    "3.0.5": {
+      "fetchedAt": "2026-10-25T02:12:57Z",
+      "sha256": "371b087c60bc0ea8d3033c9a62ec3ca0686c346059a0de04ba29d32d74e50fe3",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.9.0",
+        "com.google.firebase:firebase-messaging:25.0.1",
+        "com.webex.connect:webexconnect-core:3.0.5",
+        "com.webex.connect:webexconnect-push:3.0.5"
+      ]
+    },
+    "3.0.6": {
+      "fetchedAt": "2026-10-25T02:12:57Z",
+      "sha256": "371b087c60bc0ea8d3033c9a62ec3ca0686c346059a0de04ba29d32d74e50fe3",
+      "dependencies": [
+        "com.google.android.gms:play-services-base:18.9.0",
+        "com.google.firebase:firebase-messaging:25.0.1",
+        "com.webex.connect:webexconnect-core:3.0.6",
+        "com.webex.connect:webexconnect-push:3.0.6"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.webex.connect.push.fcm.FcmPushModuleInitializer"
+      ]
+    },
+    {
+      "name": "com.webex.connect.push.fcm.WebexConnectFirebaseMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.0.0",
+          "3.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

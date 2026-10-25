@@ -1,0 +1,34 @@
+{
+  "coordinate": "io.github.GameDevTurbo:facebook-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "6.5.0.30": {
+      "fetchedAt": "2026-10-25T04:03:25Z",
+      "sha256": "36f4a02df1776c0db5f2adce9aae0c9fe598838ad3e89479081e68a1d8d72236",
+      "dependencies": [
+        "com.facebook.android:audience-network-sdk:6.5.0",
+        "io.github.GameDevTurbo:adapter-base:1.9.13",
+        "io.github.GameDevTurbo:common-base:1.8.5"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.facebook.ads.AudienceNetworkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.5.0.30",
+          "6.5.0.30"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

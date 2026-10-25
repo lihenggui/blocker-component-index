@@ -1,0 +1,44 @@
+{
+  "coordinate": "io.gitee.joychic:TraceTools",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T03:58:17Z",
+      "sha256": "59ade66f2aaf40cad2f55aec26ff82f346fc4ec2964c24cdc8f9946747025c4e",
+      "dependencies": [
+        "com.bytedance.android:shadowhook:1.0.9",
+        "io.github.hexhacking:xdl:2.1.1",
+        "io.github.hexhacking:xunwind:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T03:58:16Z",
+      "sha256": "d9e9c2e9876d1584dfd983278d2f8767ea1da7fd7f866daa82ac2c10027cb146",
+      "dependencies": [
+        "com.bytedance.android:shadowhook:1.0.9",
+        "io.github.hexhacking:xunwind:2.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.joychic.trace.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.2",
+          "0.0.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.trace.InitProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

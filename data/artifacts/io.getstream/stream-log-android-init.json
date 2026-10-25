@@ -1,0 +1,76 @@
+{
+  "coordinate": "io.getstream:stream-log-android-init",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T03:55:25Z",
+      "sha256": "83f36fdef0bb6c770a8612a74152ca17c98d378f2f1e2556ce0cc7d05b5c8a78",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.6.1",
+        "androidx.annotation:annotation:1.5.0",
+        "androidx.appcompat:appcompat:1.5.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.material:material:1.7.0",
+        "io.getstream:stream-log-android:1.0.0",
+        "io.getstream:stream-log-file:1.0.0",
+        "io.getstream:stream-log:1.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T03:55:24Z",
+      "sha256": "83f36fdef0bb6c770a8612a74152ca17c98d378f2f1e2556ce0cc7d05b5c8a78",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "io.getstream:stream-log-android:1.0.1",
+        "io.getstream:stream-log-file:1.0.1",
+        "io.getstream:stream-log:1.0.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.getstream.log.android.init.StreamLogFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.streamlogfileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "io.getstream.log.android.init.StreamLogFileService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "io.getstream.log.android.CLEAR",
+        "io.getstream.log.android.SHARE"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

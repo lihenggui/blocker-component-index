@@ -1,0 +1,82 @@
+{
+  "coordinate": "com.toast.iap:iap-onestore",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.0": {
+      "fetchedAt": "2026-10-25T01:36:20Z",
+      "sha256": "f58ece31610cafaff3a023561dc519bde776e04956b4f6624d8e1c72fd635f1b",
+      "dependencies": [
+        "com.android.support:support-annotations:26.1.0",
+        "com.toast.iap:iap:1.5.0"
+      ]
+    },
+    "1.5.1": {
+      "fetchedAt": "2026-10-25T01:36:20Z",
+      "sha256": "2119c5df8868a8f9beed39cc920cd68d72ab47dea0e1e3602c06f486768054c4",
+      "dependencies": [
+        "com.android.support:support-annotations:26.1.0",
+        "com.toast.iap:iap:1.5.1"
+      ]
+    },
+    "1.5.2": {
+      "fetchedAt": "2026-10-25T01:36:19Z",
+      "sha256": "050599b56d812c8ede15fc480209de7f2f91a77a055f2f4233bea6d7407ba128",
+      "dependencies": [
+        "com.android.support:support-annotations:26.1.0",
+        "com.toast.iap:iap:1.5.2"
+      ]
+    },
+    "1.5.3-rc0": {
+      "fetchedAt": "2026-10-25T01:36:18Z",
+      "sha256": "369d2d1c180d67ab2d1563b8b323e931ef149860455f9a6462cad51934477947",
+      "dependencies": [
+        "com.android.support:support-annotations:26.1.0",
+        "com.toast.iap:iap:1.5.3-rc0"
+      ]
+    },
+    "1.5.3": {
+      "fetchedAt": "2026-10-25T01:36:18Z",
+      "sha256": "4d9d3b6a524716f3e84fbfa649c9f314ec604d00463d60cfcec032bf7201b159",
+      "dependencies": [
+        "com.android.support:support-annotations:26.1.0",
+        "com.toast.iap:iap:1.5.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.toast.android.iap.legacy.IapServiceLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.toast.android.iap.legacy.IapServicePurchaseActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.0",
+          "1.5.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

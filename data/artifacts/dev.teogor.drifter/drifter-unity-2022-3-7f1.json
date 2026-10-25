@@ -1,0 +1,37 @@
+{
+  "coordinate": "dev.teogor.drifter:drifter-unity-2022-3-7f1",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-10-25T03:10:44Z",
+      "sha256": "d003b8104d32864cf6b8ee33a19038ad3b5893af551400b4c894750af7e3c2b8",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.1",
+        "dev.teogor.drifter:drifter-unity-common:1.0.0-alpha01",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.unity3d.player.UnityPlayerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.0-alpha01",
+          "1.0.0-alpha01"
+        ]
+      ],
+      "exported": null,
+      "process": ":livewallpaper.unity",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.notch_support",
+        "unityplayer.UnityActivity"
+      ]
+    }
+  ]
+}

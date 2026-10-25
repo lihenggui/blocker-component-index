@@ -1,0 +1,197 @@
+{
+  "coordinate": "io.github.dumarsma:onewayads-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.1": {
+      "fetchedAt": "2026-10-25T04:47:07Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T04:47:06Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T04:47:05Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-25T04:47:05Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-25T04:47:04Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T04:47:03Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.5": {
+      "fetchedAt": "2026-10-25T04:47:02Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.7": {
+      "fetchedAt": "2026-10-25T04:47:02Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.8": {
+      "fetchedAt": "2026-10-25T04:47:01Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.9": {
+      "fetchedAt": "2026-10-25T04:47:00Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.10": {
+      "fetchedAt": "2026-10-25T04:47:00Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.11": {
+      "fetchedAt": "2026-10-25T04:46:59Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.12": {
+      "fetchedAt": "2026-10-25T04:46:58Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.14": {
+      "fetchedAt": "2026-10-25T04:46:58Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.0.15": {
+      "fetchedAt": "2026-10-25T04:46:57Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T04:46:56Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    },
+    "2.1.2": {
+      "fetchedAt": "2026-10-25T04:46:55Z",
+      "sha256": "2b8a25fd9f69e7421c3f9a472cac8bc6c787a2be16a3653e93f41d46e01b6bc6",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "mobi.oneway.export.AdShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "mobi.oneway.export.OWProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.OWProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "mobi.oneway.sd.core.runtime.container.PluginContainerContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.ow.contentprovider.authority.dynamic",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "mobi.oneway.sd.core.runtime.proxy.activity.PluginDefaultProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "mobi.oneway.sd.core.runtime.proxy.activity.PluginSingleInstance1ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "mobi.oneway.sd.core.runtime.proxy.activity.PluginSingleTask1ProxyActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.1",
+          "2.1.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

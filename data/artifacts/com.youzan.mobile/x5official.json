@@ -1,0 +1,46 @@
+{
+  "coordinate": "com.youzan.mobile:x5official",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T02:41:23Z",
+      "sha256": "3c442eb19df29167accf0f476df1122bc0cd75a315abc2d9fb8eaa359a2d1774",
+      "dependencies": [
+        "com.tencent.tbs:tbssdk:44226"
+      ]
+    },
+    "2.2.0": {
+      "fetchedAt": "2026-10-25T02:41:22Z",
+      "sha256": "3c442eb19df29167accf0f476df1122bc0cd75a315abc2d9fb8eaa359a2d1774",
+      "dependencies": [
+        "com.tencent.tbs:tbssdk:44226"
+      ]
+    },
+    "2.10.0": {
+      "fetchedAt": "2026-10-25T02:41:21Z",
+      "sha256": "02acfc7b24473c225a7daae73f2c28b20e3feff3327147268f94849883f73058",
+      "dependencies": [
+        "com.tencent.tbs:tbssdk:44226"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tencent.smtt.export.external.DexClassLoaderProviderService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.10.0"
+        ]
+      ],
+      "exported": null,
+      "process": ":dexopt",
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

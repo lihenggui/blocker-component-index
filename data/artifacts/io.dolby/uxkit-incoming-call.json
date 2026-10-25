@@ -1,0 +1,175 @@
+{
+  "coordinate": "io.dolby:uxkit-incoming-call",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.7.3": {
+      "fetchedAt": "2026-10-25T03:48:27Z",
+      "sha256": "30274087c6191a8c802d7b47b402e3e8d25a72893a1ecaebb606a1633794491f",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "com.voxeet.sdk:sdk:3.7.1",
+        "io.dolby:uxkit-common:3.7.3"
+      ]
+    },
+    "3.7.4": {
+      "fetchedAt": "2026-10-25T03:48:26Z",
+      "sha256": "30274087c6191a8c802d7b47b402e3e8d25a72893a1ecaebb606a1633794491f",
+      "dependencies": [
+        "androidx.core:core:1.6.0",
+        "com.voxeet.sdk:sdk:3.7.1",
+        "io.dolby:uxkit-common:3.7.4"
+      ]
+    },
+    "3.7.5": {
+      "fetchedAt": "2026-10-25T03:48:25Z",
+      "sha256": "a484e45be60575683ee1a9a158ddcff5fcd7fffea53050ffa6fe55779d5653ec",
+      "dependencies": [
+        "com.voxeet.sdk:sdk:3.7.2",
+        "io.dolby:uxkit-common:3.7.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.7.6": {
+      "fetchedAt": "2026-10-25T03:48:25Z",
+      "sha256": "a484e45be60575683ee1a9a158ddcff5fcd7fffea53050ffa6fe55779d5653ec",
+      "dependencies": [
+        "com.voxeet.sdk:sdk:3.7.3",
+        "io.dolby:uxkit-common:3.7.6",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.0": {
+      "fetchedAt": "2026-10-25T03:48:24Z",
+      "sha256": "976c17b3882024d7a45ad4930a4e39de4d5e70752d929cbff46ba19c0fcdcd4a",
+      "dependencies": [
+        "com.voxeet.sdk:sdk:3.8.0",
+        "io.dolby:uxkit-common:3.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.1": {
+      "fetchedAt": "2026-10-25T03:48:23Z",
+      "sha256": "976c17b3882024d7a45ad4930a4e39de4d5e70752d929cbff46ba19c0fcdcd4a",
+      "dependencies": [
+        "com.voxeet.sdk:sdk:3.8.0",
+        "io.dolby:uxkit-common:3.8.1",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.2": {
+      "fetchedAt": "2026-10-25T03:48:22Z",
+      "sha256": "976c17b3882024d7a45ad4930a4e39de4d5e70752d929cbff46ba19c0fcdcd4a",
+      "dependencies": [
+        "io.dolby:sdk:3.8.1",
+        "io.dolby:uxkit-common:3.8.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.3": {
+      "fetchedAt": "2026-10-25T03:48:22Z",
+      "sha256": "976c17b3882024d7a45ad4930a4e39de4d5e70752d929cbff46ba19c0fcdcd4a",
+      "dependencies": [
+        "io.dolby:sdk:[3.8.1,)",
+        "io.dolby:uxkit-common:3.8.3",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.4": {
+      "fetchedAt": "2026-10-25T03:48:21Z",
+      "sha256": "976c17b3882024d7a45ad4930a4e39de4d5e70752d929cbff46ba19c0fcdcd4a",
+      "dependencies": [
+        "io.dolby:sdk:[3.8.1,)",
+        "io.dolby:uxkit-common:3.8.4",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.8.5": {
+      "fetchedAt": "2026-10-25T03:48:20Z",
+      "sha256": "976c17b3882024d7a45ad4930a4e39de4d5e70752d929cbff46ba19c0fcdcd4a",
+      "dependencies": [
+        "io.dolby:sdk:[3.8.1,)",
+        "io.dolby:uxkit-common:3.8.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    },
+    "3.9.0": {
+      "fetchedAt": "2026-10-25T03:48:20Z",
+      "sha256": "976c17b3882024d7a45ad4930a4e39de4d5e70752d929cbff46ba19c0fcdcd4a",
+      "dependencies": [
+        "io.dolby:sdk:[3.8.1,3.9.0)",
+        "io.dolby:uxkit-common:3.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.voxeet.uxkit.incoming.implementation.AcceptedNotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.3",
+          "3.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.voxeet.uxkit.incoming.implementation.DefaultAndroid12BounceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.7.3",
+          "3.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.voxeet.uxkit.incoming.implementation.DefaultIncomingNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "3.7.3",
+          "3.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.voxeet.uxkit.incoming.manifest.DismissNotificationBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "3.7.3",
+          "3.9.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

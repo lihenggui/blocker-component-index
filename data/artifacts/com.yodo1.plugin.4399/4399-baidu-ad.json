@@ -1,0 +1,127 @@
+{
+  "coordinate": "com.yodo1.plugin.4399:4399-baidu-ad",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "9.36": {
+      "fetchedAt": "2026-10-25T02:35:15Z",
+      "sha256": "643710a8bb10f614a92482362fceca0409ad0cb09a952f64a61a3a708e723300",
+      "dependencies": []
+    },
+    "9.430": {
+      "fetchedAt": "2026-10-25T02:35:14Z",
+      "sha256": "df6c5028187db5377c2847fa136ca7a278e7f98d0abef103f4b546ee0970b980",
+      "dependencies": []
+    },
+    "9.3905": {
+      "fetchedAt": "2026-10-25T02:35:13Z",
+      "sha256": "3364ec44863ee847a8c438b97d009b27f070ee56617d6b02def41427f71c42e4",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.baidu.mobads.sdk.api.AppActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.36",
+          "9.3905"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "9.36",
+          "9.3905"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bd.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.BdShellActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.36",
+          "9.3905"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobCPUDramaActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.36",
+          "9.36"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.mobads.sdk.api.MobRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.36",
+          "9.3905"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.baidu.oauth.sdkbqt.view.WebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "9.430",
+          "9.430"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

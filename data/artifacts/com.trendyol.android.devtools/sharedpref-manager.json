@@ -1,0 +1,78 @@
+{
+  "coordinate": "com.trendyol.android.devtools:sharedpref-manager",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T01:46:23Z",
+      "sha256": "93ce03b812f3e7d7cf72581efe5a1042740edc6d53b1c611c0f638631d1a31b6",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.8.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.compose:compose-bom:2024.04.01",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.navigation:navigation-compose:2.7.7",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-25T01:46:25Z",
+      "sha256": "93ce03b812f3e7d7cf72581efe5a1042740edc6d53b1c611c0f638631d1a31b6",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.8.0",
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.compose.material3:material3:1.3.1",
+        "androidx.compose:compose-bom:2024.04.01",
+        "androidx.navigation:navigation-compose:2.7.7",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-25T01:46:25Z",
+      "sha256": "d93d9aec1f475bedf45393ab502e3bc270f6e4df6c3f5f13e044f165631edb85",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.8.0",
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.compose.material3:material3:1.3.1",
+        "androidx.compose:compose-bom:2024.04.01",
+        "androidx.navigation:navigation-compose:2.7.7",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-25T01:46:24Z",
+      "sha256": "d93d9aec1f475bedf45393ab502e3bc270f6e4df6c3f5f13e044f165631edb85",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.8.0",
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.compose.material3:material3:1.3.1",
+        "androidx.compose:compose-bom:2024.04.01",
+        "androidx.navigation:navigation-compose:2.7.7",
+        "io.insert-koin:embedded-koin-android:3.5.6",
+        "io.insert-koin:embedded-koin-core:3.5.6",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.1.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.trendyol.android.devtools.sharedprefmanager.ui.SharedPrefManagerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.4.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

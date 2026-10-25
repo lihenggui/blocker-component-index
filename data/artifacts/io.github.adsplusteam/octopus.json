@@ -1,0 +1,90 @@
+{
+  "coordinate": "io.github.adsplusteam:octopus",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.5.8.9": {
+      "fetchedAt": "2026-10-25T04:08:47Z",
+      "sha256": "37a91dd8806c0979dc8e88defef519fe7bf9fdde7c75a4b1670e10224b4829a6",
+      "dependencies": []
+    },
+    "1.5.9.16": {
+      "fetchedAt": "2026-10-25T04:08:46Z",
+      "sha256": "f7fdf31ebf197ed84cfc58654d8499f31c8eef65b6d25771625c2bca577d57f2",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.octopus.ad.AdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.5.8.9",
+          "1.5.9.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.5.8.9",
+          "1.5.9.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.octopus.ad.OctopusProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5.8.9",
+          "1.5.8.9"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.octopus.ad.OctopusProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.5.9.16",
+          "1.5.9.16"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.octopus.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

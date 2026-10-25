@@ -1,0 +1,49 @@
+{
+  "coordinate": "io.github.jiahui90:commonpay",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-25T05:07:58Z",
+      "sha256": "9ecb3b318ab6c8eae7beb17fa8cee933e2241d02a29f97b315d8638cb573f9ea",
+      "dependencies": [
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.4"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

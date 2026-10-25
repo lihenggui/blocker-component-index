@@ -1,0 +1,102 @@
+{
+  "coordinate": "io.github.gkashmy:gkash-android-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.3": {
+      "fetchedAt": "2026-10-25T04:57:36Z",
+      "sha256": "f1ef593bd9050580f87d773efebf6a19a96ac56cb7d9acda72153e9895f95ef9",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2"
+      ]
+    },
+    "1.0.4": {
+      "fetchedAt": "2026-10-25T04:57:35Z",
+      "sha256": "75cd65d2a935b26eee0b84622c91c13d077b5daf782a3586be690bbf46277055",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-25T04:57:34Z",
+      "sha256": "57a625f444e1701c0b510d65278ef7462e2cae9b434e6619e4a2476bec315fa4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2"
+      ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T04:57:34Z",
+      "sha256": "75697cf7414145d274ea7aafa83f60d69f8fd2a51ed7c77eb9ba761d57faa4ff",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-25T04:57:32Z",
+      "sha256": "353b35995d200ad583eb06d2e0e4a34319232b30489a70d3b897b3dd6ebb2e01",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.2.0",
+        "androidx.constraintlayout:constraintlayout:2.0.2"
+      ]
+    },
+    "2.0.3": {
+      "fetchedAt": "2026-10-25T04:57:33Z",
+      "sha256": "4041c1270b191542d4360e2e33a5fa8cfaa3cdcb60b346b1c4965bae3bee22c3",
+      "dependencies": []
+    },
+    "2.0.4": {
+      "fetchedAt": "2026-10-25T04:57:32Z",
+      "sha256": "4041c1270b191542d4360e2e33a5fa8cfaa3cdcb60b346b1c4965bae3bee22c3",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "com.gkash.gkashandroidsdk.GkashPaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.3",
+          "1.0.3"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.ACTION_RETURN"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.gkash.gkashandroidsdk.GkashPaymentActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "2.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

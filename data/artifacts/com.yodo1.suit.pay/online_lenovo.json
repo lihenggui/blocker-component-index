@@ -1,0 +1,367 @@
+{
+  "coordinate": "com.yodo1.suit.pay:online_lenovo",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "3.2.0.1": {
+      "fetchedAt": "2026-10-25T02:38:11Z",
+      "sha256": "c89a34bea5eeb5bccb47da2bbbc3e57b458d4e9de5eb7e7647f2fd7f2896b405",
+      "dependencies": [
+        "com.google.code.gson:gson:2.8.6",
+        "com.yodo1.3rdparty.pay:lenovo:3.2.0",
+        "com.yodo1.3rdparty.pay:lenovo_oaid_sdk:1.0.25"
+      ]
+    },
+    "3.3.2.0": {
+      "fetchedAt": "2026-10-25T02:38:13Z",
+      "sha256": "16132cd660428d528917d1c16d9c30cfd186c2c0c129a2cfe16ebd39a88a177f",
+      "dependencies": [
+        "com.yodo1.plugin.lenovo:lenovo-online-alidns:2.2.2",
+        "com.yodo1.plugin.lenovo:lenovo-online-gamesdk:3.3.2",
+        "com.yodo1.plugin:oaid-sdk:1.0.25"
+      ]
+    },
+    "3.3.2.1": {
+      "fetchedAt": "2026-10-25T02:38:13Z",
+      "sha256": "16132cd660428d528917d1c16d9c30cfd186c2c0c129a2cfe16ebd39a88a177f",
+      "dependencies": [
+        "com.yodo1.plugin.lenovo:lenovo-online-alidns:2.2.2",
+        "com.yodo1.plugin.lenovo:lenovo-online-gamesdk:3.3.2",
+        "com.yodo1.plugin:oaid-sdk:1.0.25"
+      ]
+    },
+    "3.3.2.2": {
+      "fetchedAt": "2026-10-25T02:38:12Z",
+      "sha256": "b36a64e67856fca721c267065c5875f92a654b1f59d8b095f7c1f01ee2996d11",
+      "dependencies": [
+        "com.yodo1.plugin.lenovo:lenovo-online-alidns:2.2.2",
+        "com.yodo1.plugin.lenovo:lenovo-online-gamesdk:3.3.2",
+        "com.yodo1.plugin:oaid-sdk:1.0.25"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.game.ui.AdvertisementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.game.ui.FlexibleActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.game.ui.KeyLoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.game.ui.LeGameAcShowActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.game.ui.QuiteActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgFindPasswordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgFindPasswordConfirmActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgPsLoginCommonActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgRegistByPhoneActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgRegistByPhoneConfirmActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgStartGameErrorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgStartLoginingGameActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LgWebViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.login.ui.LoginActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.3.2.2",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.payplus.ui.PayActionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.payplus.ui.PayPhoneCardActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.lenovo.payplussdk.api.PayH5Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.2.0.1",
+          "3.3.2.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

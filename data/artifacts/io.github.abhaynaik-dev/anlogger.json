@@ -1,0 +1,94 @@
+{
+  "coordinate": "io.github.abhaynaik-dev:anlogger",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.1": {
+      "fetchedAt": "2026-10-25T04:07:21Z",
+      "sha256": "2eb4eaff342a5a97a2e0ef0963cd15ff0fb744b5ef1abe4de5a871070d4eba06",
+      "dependencies": [
+        "com.github.tony19:logback-android:2.0.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "org.slf4j:slf4j-api:1.7.32"
+      ]
+    },
+    "0.0.2": {
+      "fetchedAt": "2026-10-25T04:07:20Z",
+      "sha256": "2eb4eaff342a5a97a2e0ef0963cd15ff0fb744b5ef1abe4de5a871070d4eba06",
+      "dependencies": [
+        "com.github.tony19:logback-android:2.0.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0",
+        "org.slf4j:slf4j-api:1.7.32"
+      ]
+    },
+    "0.1.0": {
+      "fetchedAt": "2026-10-25T04:07:20Z",
+      "sha256": "8350c83d4f412e0d634e82ac27187d3feadc7443a2002382d74768e84f3b43b9",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.compose.material:material:1.2.0-beta02",
+        "androidx.compose:compose-bom:2022.10.00",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.slf4j:slf4j-api:1.7.32"
+      ]
+    },
+    "0.1.1": {
+      "fetchedAt": "2026-10-25T04:07:19Z",
+      "sha256": "8350c83d4f412e0d634e82ac27187d3feadc7443a2002382d74768e84f3b43b9",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.5.1",
+        "androidx.compose.material:material:1.2.0-beta02",
+        "androidx.compose:compose-bom:2022.10.00",
+        "com.github.tony19:logback-android:2.0.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.slf4j:slf4j-api:1.7.32"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.naik.logger.fileprovider.ANCachedFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.0.1",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.CachedFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.naik.logger.ui.ShareLogDialogActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.1.0",
+          "0.1.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

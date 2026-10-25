@@ -1,0 +1,41 @@
+{
+  "coordinate": "cz.applifting:firebase-wrapper-sdk",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-25T02:51:56Z",
+      "sha256": "d60ab97b6adc98def722234d00e869a55f9a7d20ad4b25cf0ea0898d0473607a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "com.facebook.android:facebook-android-sdk:13.2.0",
+        "com.google.android.gms:play-services-auth:20.2.0",
+        "com.google.android.material:material:1.6.1",
+        "com.google.firebase:firebase-auth-ktx:21.0.5",
+        "com.google.firebase:firebase-messaging-ktx:23.0.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "cz.applifting.firebasewrappersdk.FirebaseCloudMessagingService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.google.firebase.MESSAGING_EVENT"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

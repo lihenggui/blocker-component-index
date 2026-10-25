@@ -1,0 +1,63 @@
+{
+  "coordinate": "io.github.jiangjm424:ishare-wechat",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "0.0.3": {
+      "fetchedAt": "2026-10-25T05:08:15Z",
+      "sha256": "83c191065ec89ec00b2288c1d69a862c758c6c8620ef6835ba48773564a55e8c",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.databinding:viewbinding:7.2.1",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0"
+      ]
+    },
+    "0.0.4": {
+      "fetchedAt": "2026-10-25T05:08:14Z",
+      "sha256": "d00ad4d5d4dcb9c7c65da33fb9288526bb5c7334e31b947ddb97a5308bec2bae",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.9.0",
+        "androidx.databinding:viewbinding:8.0.2",
+        "com.tencent.mm.opensdk:wechat-sdk-android:6.8.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "${applicationId}.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.happy.ishare.wechat.wxapi.WXEntryActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.0.3",
+          "0.0.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

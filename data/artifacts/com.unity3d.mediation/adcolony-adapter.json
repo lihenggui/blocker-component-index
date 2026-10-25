@@ -1,0 +1,73 @@
+{
+  "coordinate": "com.unity3d.mediation:adcolony-adapter",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.1.0": {
+      "fetchedAt": "2026-10-25T01:55:47Z",
+      "sha256": "329affcd180aa7d932ef70949b89cba17ef3fa5d03eedd5ecee62a0303b85f0d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.2.0",
+        "androidx.startup:startup-runtime:1.0.0",
+        "com.adcolony:sdk:[4.8,4.9[",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0",
+        "com.unity3d.mediation:mediation-adapter:[1.1,1.2[",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.5.21"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.androidx-startup",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "com.unity3d.mediation.adcolonyadapter.AdColonyModuleInitializer"
+      ]
+    },
+    {
+      "name": "com.adcolony.sdk.AdColonyAdViewActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adcolony.sdk.AdColonyInterstitialActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.1.0",
+          "1.1.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

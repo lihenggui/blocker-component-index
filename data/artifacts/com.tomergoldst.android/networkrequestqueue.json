@@ -1,0 +1,50 @@
+{
+  "coordinate": "com.tomergoldst.android:networkrequestqueue",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.0.8": {
+      "fetchedAt": "2026-10-25T01:36:29Z",
+      "sha256": "cb95e934dbd003afe3445fac25682e3d005697f6d5e8d320ed581baae5cbe80b",
+      "dependencies": [
+        "com.android.support:support-annotations:25.2.0",
+        "com.android.support:support-compat:25.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.tomergoldst.networkrequestqueue.RequestQueueService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.tomergoldst.networkrequestqueue.RequestQueueWakeUpReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.8",
+          "1.0.8"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

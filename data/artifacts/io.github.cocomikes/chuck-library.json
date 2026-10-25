@@ -1,0 +1,87 @@
+{
+  "coordinate": "io.github.cocomikes:chuck-library",
+  "repository": "https://repo1.maven.org/maven2",
+  "versions": {
+    "1.3.0": {
+      "fetchedAt": "2026-10-25T04:37:26Z",
+      "sha256": "5f111ffadd3c3aec03b28e385eb06f42161176f2f792d3479b275e840eaca323",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.3.1",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "androidx.viewpager:viewpager:1.0.0",
+        "com.google.android.material:material:1.4.0",
+        "nl.qbusict:cupboard:2.2.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.readystatesoftware.chuck.internal.data.ChuckContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.chuck.provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.readystatesoftware.chuck.internal.support.ClearTransactionsService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.readystatesoftware.chuck.internal.ui.MainActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.readystatesoftware.chuck.internal.ui.TransactionActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.3.0",
+          "1.3.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}
