@@ -1,6 +1,7 @@
 """Atomic JSON checkpoints; only data/ holds committed crawl state."""
 
 import json
+from bisect import bisect_left
 import re
 import time
 from datetime import datetime, timezone
@@ -76,6 +77,23 @@ class Store:
                 coordinates.sort()
                 completed = self.state.get("completed", [])
                 completed[:] = [stage for stage in completed if stage in ("discover", "probe")]
+
+    def seed_dependency(self, dependency, parent, repository):
+        """Seed a dependency where its parent lives and, while unresolved, wherever builds declared the parent.
+
+        Vendor SDKs are often pulled in by an adapter hosted elsewhere (an ad-mediation adapter on Google Maven
+        depending on the vendor's SDK); the vendor repository is only known from builds that declared the adapter.
+        """
+        self.seed(dependency, repository)
+        if not valid_coordinate(dependency) or dependency in self.state.get("artifacts", {}) or self.evidence(dependency):
+            return
+        mirrors = {item["url"] for item in self.repositories if item.get("capabilities", [])[:1] == ["mirror"]}
+        for url, coordinates in list(self.state.get("coordinates", {}).items()):
+            if url in ("*", repository) or url in mirrors:
+                continue
+            index = bisect_left(coordinates, parent)
+            if index < len(coordinates) and coordinates[index] == parent:
+                self.seed(dependency, url)
 
     def artifact(self, repository, coordinate, versions, *, latest_only=False):
         if not valid_coordinate(coordinate) or not versions:

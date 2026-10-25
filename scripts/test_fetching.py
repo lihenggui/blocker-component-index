@@ -1,6 +1,6 @@
 from indexlib.fetching import extract, fetch
 from indexlib.http import DeadlineReached
-from indexlib.storage import Store
+from indexlib.storage import Store, write_json
 from test_support import FIXTURES, FixtureClient, FixtureTest, aar, metadata_fixture, response
 
 REPOSITORY = "https://sdk.example.org/repo"
@@ -31,6 +31,22 @@ class FetchTests(FixtureTest):
         self.assertEqual(evidence["components"][0]["versionRanges"], [["1", "1"], ["3", "3"]])
         self.assertFalse(list(self.root.rglob("*.aar")))
         self.assertFalse((self.root / ".cache").exists())
+
+    def test_given_parent_declared_with_vendor_repository_when_fetched_then_unresolved_dependency_is_seeded_there(self):
+        vendor, mirror, other = "https://vendor.example.org/maven", "https://mirror.example.org/maven", "https://other.example.org/maven"
+        self.store.repositories.extend([{"url": vendor, "capabilities": ["metadata"]}, {"url": mirror, "capabilities": ["mirror"]},
+                                        {"url": other, "capabilities": ["metadata"]}])
+        for url in (vendor, mirror):
+            self.store.seed(COORDINATE, url)
+        self.store.seed("org.unrelated:lib", other)
+        write_json(self.store.evidence_path("org.dep:compile"), {"coordinate": "org.dep:compile", "repository": "https://repo1.maven.org/maven2"})
+        self.assertTrue(fetch(self.store, FixtureClient(self.routes())))
+        coordinates = self.store.state["coordinates"]
+        self.assertIn("org.dep:runtime", coordinates[vendor])
+        self.assertIn("org.dep:runtime", coordinates[REPOSITORY])
+        self.assertNotIn("org.dep:compile", coordinates[vendor])
+        self.assertNotIn("org.dep:runtime", coordinates[mirror])
+        self.assertNotIn("org.dep:runtime", coordinates[other])
 
     def test_given_latest_has_no_components_when_fetched_then_older_versions_are_not_downloaded(self):
         client = FixtureClient(self.routes(empty_latest=True))
