@@ -58,6 +58,16 @@ class ArchiveTests(FixtureTest):
         self.assertEqual(manifest, (FIXTURES / "manifest.xml").read_bytes())
         self.assertEqual(digest, hashlib.sha256(raw).hexdigest())
 
+    def test_given_server_rejects_suffix_range_longer_than_file_when_manifest_read_then_full_download_is_used(self):
+        raw = aar()
+
+        def handler(url, headers=None, **kwargs):
+            if headers and "Range" in headers:
+                return response(b"", 416, {"Content-Range": f"bytes */{len(raw)}"})
+            return response(raw)
+        manifest, _ = read_manifest(FixtureClient(handler=handler), "https://sdk.example/a.aar", 1024 * 1024)
+        self.assertEqual(manifest, (FIXTURES / "manifest.xml").read_bytes())
+
     def test_given_oversized_full_download_when_server_ignores_range_then_download_is_rejected(self):
         raw = aar()
         client = HttpClient(transport=lambda *args: response(raw))
