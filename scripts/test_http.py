@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+from urllib.error import URLError
 from indexlib.http import DeadlineReached, DownloadTooLarge, HttpClient, USER_AGENT, retry_delay
 from test_support import FixtureTest, response
 
@@ -100,3 +101,28 @@ class HttpTests(FixtureTest):
         client.get("https://vendor.example/a")
         client.get("https://vendor.example/b")
         self.assertEqual(self.clock.sleeps, [0.1, 0.5])
+
+    def transport_timing_out(self, deadline, outcomes):
+        self.clock = Clock()
+
+        def transport(url, headers, limit, timeout):
+            outcome = outcomes.pop(0)
+            if isinstance(outcome, Exception):
+                self.clock.now += timeout
+                raise outcome
+            return outcome
+        return HttpClient(clock=self.clock, wall=self.clock, sleep=self.clock.sleep, transport=transport, deadline=deadline)
+
+    def test_given_timeout_clipped_by_deadline_when_requested_then_deadline_reached_is_raised(self):
+        client = self.transport_timing_out(0.25, [TimeoutError("The read operation timed out")])
+        with self.assertRaises(DeadlineReached):
+            client.get("https://repo.example/a")
+
+    def test_given_transient_timeout_when_requested_then_request_is_retried(self):
+        client = self.transport_timing_out(None, [TimeoutError("timed out"), URLError(TimeoutError("timed out")), response(b"ok")])
+        self.assertEqual(client.get("https://repo.example/a").body, b"ok")
+
+    def test_given_dns_failure_when_requested_then_error_is_not_retried(self):
+        client = self.transport_timing_out(None, [URLError("Name or service not known")])
+        with self.assertRaises(URLError):
+            client.get("https://repo.example/a")

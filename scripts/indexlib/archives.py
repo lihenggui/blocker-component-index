@@ -106,6 +106,9 @@ def read_manifest(client, url, max_bytes):
             return manifest, hashlib.sha256(manifest).hexdigest()
         except (ValueError, struct.error, zlib.error):
             response = client.get(url, limit=max_bytes)
+    elif response.status == 416:
+        # Some servers reject a suffix range longer than a small file instead of returning all of it.
+        response = client.get(url, limit=max_bytes)
     elif response.status == 404:
         raise ArchiveMissing(url)
     elif response.status != 200:

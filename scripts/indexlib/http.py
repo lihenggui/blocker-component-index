@@ -6,7 +6,7 @@ import json
 import time
 from collections import deque
 from dataclasses import dataclass
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
@@ -107,7 +107,18 @@ class HttpClient:
             timeout = 30.0
             if self.deadline is not None:
                 timeout = min(timeout, max(0.001, self.deadline - self.clock()))
-            response = self.transport(url, request_headers, limit, timeout)
+            try:
+                response = self.transport(url, request_headers, limit, timeout)
+            except (TimeoutError, URLError) as exc:
+                if isinstance(exc, URLError) and not isinstance(exc.reason, TimeoutError):
+                    raise
+                # A timeout clipped by the stage deadline means the budget ran out, not that the host failed.
+                if self.deadline is not None and self.clock() + 1 >= self.deadline:
+                    raise DeadlineReached() from exc
+                if attempt == 4:
+                    raise
+                self.pause(retry_delay({}, attempt, self.wall()))
+                continue
             if len(response.body) > limit:
                 raise DownloadTooLarge(url)
             if host == "api.github.com":
