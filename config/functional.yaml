@@ -1,0 +1,55 @@
+# Prefixes reviewed as functional (non-tracker) SDKs; the coverage report stops listing them and their sub-packages.
+- prefix: androidx.work.impl
+  sdk: Jetpack WorkManager
+  reason: Background job scheduler from AndroidX
+- prefix: com.chuckerteam.chucker
+  sdk: Chucker
+  reason: In-app HTTP inspector for debug builds
+- prefix: com.dtf.face
+  sdk: Ant Digital liveness verification
+  reason: Face and NFC identity verification
+- prefix: com.evernote.android
+  sdk: Evernote android-job
+  reason: Background job scheduler library
+- prefix: com.hyperwallet.android
+  sdk: Hyperwallet
+  reason: Payout and prepaid card UI SDK
+- prefix: com.luck.picture
+  sdk: PictureSelector
+  reason: Image and video picker library
+- prefix: com.megvii.faceee_sdk
+  sdk: Megvii Face++
+  reason: Face verification SDK
+- prefix: com.netease.nimlib
+  sdk: NetEase Yunxin IM
+  reason: Instant messaging SDK
+- prefix: com.netease.yunxin
+  sdk: NetEase Yunxin UIKit
+  reason: Instant messaging and RTC UI kits
+- prefix: com.qiyukf.unicorn
+  sdk: NetEase Qiyu
+  reason: Customer service chat SDK
+- prefix: com.sobot.chat
+  sdk: Sobot
+  reason: Customer service chat SDK
+- prefix: com.tencent.qcloud
+  sdk: Tencent Cloud
+  reason: Cloud storage and image codec SDKs
+- prefix: de.blinkt.openvpn
+  sdk: OpenVPN for Android
+  reason: VPN client library
+- prefix: io.getstream.chat
+  sdk: Stream Chat
+  reason: Chat messaging SDK
+- prefix: io.rong.imkit
+  sdk: RongCloud IMKit
+  reason: Instant messaging UI kit
+- prefix: org.mozilla.gecko
+  sdk: GeckoView
+  reason: Mozilla browser engine
+- prefix: ru.tinkoff.acquiring
+  sdk: Tinkoff Acquiring
+  reason: Payment form and card scanning SDK
+- prefix: ru.yoomoney.sdk
+  sdk: YooMoney
+  reason: Payment and authorization SDK

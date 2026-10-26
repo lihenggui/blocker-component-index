@@ -75,22 +75,30 @@ class ReportingTests(FixtureTest):
         self.assertIn("| org.vendor.related | 5 | 10 | 0.80 | 4 |", text)
         self.assertNotIn("org.vendor.covered", text)
 
-    def test_given_functional_prefixes_in_rules_checkout_when_reported_then_they_and_their_children_leave_review_sections(self):
+    def test_given_functional_prefixes_in_config_when_reported_then_they_and_their_children_leave_review_sections(self):
         entry = {"groups": ["a"], "examples": [], "coveredBy": [], "cooccursWith": []}
         write_json(self.root / "data/prefixes.json", [
             dict(entry, prefix="org.useful", components=3), dict(entry, prefix="org.useful.ui", components=2),
             dict(entry, prefix="org.usefulness", components=1),
             dict(entry, prefix="org.bundled", components=1, cooccursWith=[{"rule": 2, "ratio": 1.0, "artifacts": 2}])])
-        rules_dir = self.rules()
-        (rules_dir / "upstream/component-index").mkdir(parents=True)
-        (rules_dir / "upstream/component-index/functional.yaml").write_text(
+        (self.root / "config").mkdir(exist_ok=True)
+        (self.root / "config/functional.yaml").write_text(
             "- prefix: org.useful\n  sdk: Useful\n  reason: Reviewed\n- prefix: org.bundled\n  sdk: Bundled\n  reason: Reviewed\n")
-        report(self.store, FixtureClient(), rules_dir=rules_dir)
+        report(self.store, FixtureClient(), rules_dir=self.rules())
         text = (self.root / "reports/coverage.md").read_text()
         self.assertNotIn("| org.useful |", text)
         self.assertNotIn("| org.useful.ui |", text)
         self.assertNotIn("| org.bundled |", text)
         self.assertIn("| org.usefulness | 1 |", text)
+
+    def test_given_malformed_or_duplicate_functional_entries_when_reported_then_report_is_rejected(self):
+        (self.root / "config").mkdir(exist_ok=True)
+        for text in ("- prefix: org.useful\n", "- prefix: org.useful\n  sdk: ' '\n  reason: Reviewed\n",
+                     "- {prefix: org.a, sdk: A, reason: R}\n- {prefix: org.a, sdk: A, reason: R}\n"):
+            with self.subTest(text=text):
+                (self.root / "config/functional.yaml").write_text(text)
+                with self.assertRaises(ValueError):
+                    report(self.store, FixtureClient(), rules_dir=self.rules())
 
     def test_given_deadline_during_report_when_artifacts_scanned_then_remaining_files_are_not_loaded_past_budget(self):
         rules = self.rules()
