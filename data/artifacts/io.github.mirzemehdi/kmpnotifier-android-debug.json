@@ -240,6 +240,19 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.0",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
       ]
+    },
+    "1.6.1": {
+      "fetchedAt": "2026-10-25T23:44:44Z",
+      "sha256": "2e353b74514d366483750241a34c7af9827ffa1600af28c112db70ab2c3c963b",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.12.1",
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.google.firebase:firebase-messaging:25.0.1",
+        "io.insert-koin:koin-core:4.2.0-beta2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
     }
   },
   "components": [
@@ -249,7 +262,7 @@
       "versionRanges": [
         [
           "0.1.9",
-          "1.6.0"
+          "1.6.1"
         ]
       ],
       "exported": false,
@@ -268,7 +281,7 @@
       "versionRanges": [
         [
           "0.1.9",
-          "1.6.0"
+          "1.6.1"
         ]
       ],
       "exported": false,

@@ -241,6 +241,18 @@
         "com.google.android.gms:play-services-location:21.0.1",
         "com.google.android.play:integrity:1.1.0"
       ]
+    },
+    "4.29.0-navikit": {
+      "fetchedAt": "2026-10-26T00:46:00Z",
+      "sha256": "7654f25e759596cd265a101e4c2ca23cb7849875af7db546dc59056dd146b9f7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.1.0",
+        "androidx.core:core:1.9.0",
+        "androidx.lifecycle:lifecycle-common:2.2.0",
+        "androidx.work:work-runtime:2.8.1",
+        "com.google.android.gms:play-services-location:21.0.1",
+        "com.google.android.play:integrity:1.1.0"
+      ]
     }
   },
   "components": [
@@ -250,7 +262,7 @@
       "versionRanges": [
         [
           "4.17.0-navikit",
-          "4.29.0-lite"
+          "4.29.0-navikit"
         ]
       ],
       "exported": true,

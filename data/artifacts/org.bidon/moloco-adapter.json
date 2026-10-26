@@ -1,0 +1,19 @@
+{
+  "coordinate": "org.bidon:moloco-adapter",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "4.12.0.0": {
+      "fetchedAt": "2026-10-26T00:04:51Z",
+      "sha256": "c2026e20175ac321cdea6c42238967694f21cd0e1f74e967e3b2871ea81ac608",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.moloco.sdk:moloco-sdk:4.12.0",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    }
+  },
+  "components": []
+}

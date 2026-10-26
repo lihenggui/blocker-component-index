@@ -1,0 +1,39 @@
+{
+  "coordinate": "ru.rustore.sdk:imaging",
+  "repository": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed",
+  "versions": {
+    "10.5.1": {
+      "fetchedAt": "2026-10-26T00:37:43Z",
+      "sha256": "fb952a60fbd711f9a7010c29aa553ea93700cb4968ea1a64120d6626cd8c39bb",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    },
+    "10.5.2": {
+      "fetchedAt": "2026-10-26T00:37:40Z",
+      "sha256": "fb952a60fbd711f9a7010c29aa553ea93700cb4968ea1a64120d6626cd8c39bb",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.rustore.sdk.imaging.ImageLoaderContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.5.1",
+          "10.5.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sdk.imaging",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

@@ -247,6 +247,20 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
       ]
+    },
+    "2.0.0-rc12": {
+      "fetchedAt": "2026-10-25T23:44:37Z",
+      "sha256": "938bb8681a2aa7a7aabfcb4b8539774a485fb9f64328dd80c72eff0116d562c5",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-livedata:2.10.0",
+        "androidx.security:security-crypto-ktx:1.1.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "io.github.matheus-corregiari:arch-lumber:1.0.2",
+        "io.github.matheus-corregiari:util:2.0.0-rc12",
+        "org.jetbrains.kotlin:kotlin-reflect:2.3.10",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+      ]
     }
   },
   "components": [
@@ -256,7 +270,7 @@
       "versionRanges": [
         [
           "1.8.0",
-          "2.0.0-rc11"
+          "2.0.0-rc12"
         ]
       ],
       "exported": false,

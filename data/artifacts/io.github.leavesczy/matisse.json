@@ -210,6 +210,19 @@
         "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.21",
         "org.jetbrains.kotlin:kotlin-stdlib:2.3.21"
       ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-25T23:44:21Z",
+      "sha256": "1543a04f42a907e9772790a4883eec53165fc5264f10e7089e632b0fec861ac7",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.13.0",
+        "androidx.appcompat:appcompat:1.8.0",
+        "androidx.compose:compose-bom:2026.09.00",
+        "androidx.lifecycle:lifecycle-runtime-compose:2.11.0",
+        "androidx.paging:paging-compose:3.5.1",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.4.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.20"
+      ]
     }
   },
   "components": [
@@ -219,7 +232,7 @@
       "versionRanges": [
         [
           "1.1.1",
-          "2.3.2"
+          "3.0.0"
         ]
       ],
       "exported": false,
@@ -236,7 +249,7 @@
       "versionRanges": [
         [
           "1.1.1",
-          "2.3.2"
+          "3.0.0"
         ]
       ],
       "exported": false,

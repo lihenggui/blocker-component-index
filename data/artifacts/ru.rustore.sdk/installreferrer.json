@@ -1,0 +1,161 @@
+{
+  "coordinate": "ru.rustore.sdk:installreferrer",
+  "repository": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed",
+  "versions": {
+    "10.0.0": {
+      "fetchedAt": "2026-10-26T00:38:15Z",
+      "sha256": "65f7734f59d4047449786d89980a5f8122e11ab0ab43ec5c4b0d8d01ba2ece30",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.0.0",
+        "ru.rustore.sdk:metrics:10.0.0",
+        "ru.rustore.sdk:reactive:10.0.0"
+      ]
+    },
+    "10.1.0": {
+      "fetchedAt": "2026-10-26T00:38:12Z",
+      "sha256": "65f7734f59d4047449786d89980a5f8122e11ab0ab43ec5c4b0d8d01ba2ece30",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.1.0",
+        "ru.rustore.sdk:metrics:10.1.0",
+        "ru.rustore.sdk:reactive:10.1.0"
+      ]
+    },
+    "10.2.0": {
+      "fetchedAt": "2026-10-26T00:38:09Z",
+      "sha256": "65f7734f59d4047449786d89980a5f8122e11ab0ab43ec5c4b0d8d01ba2ece30",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.2.0",
+        "ru.rustore.sdk:metrics:10.2.0",
+        "ru.rustore.sdk:reactive:10.2.0"
+      ]
+    },
+    "10.3.0": {
+      "fetchedAt": "2026-10-26T00:38:06Z",
+      "sha256": "5be9100b426661cc276086ea912cbd22cba69123b05769f0f87cdb73b046c9f5",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.3.0",
+        "ru.rustore.sdk:metrics:10.3.0",
+        "ru.rustore.sdk:reactive:10.3.0"
+      ]
+    },
+    "10.3.1": {
+      "fetchedAt": "2026-10-26T00:38:03Z",
+      "sha256": "5be9100b426661cc276086ea912cbd22cba69123b05769f0f87cdb73b046c9f5",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.3.1",
+        "ru.rustore.sdk:metrics:10.3.1",
+        "ru.rustore.sdk:reactive:10.3.1"
+      ]
+    },
+    "10.4.0": {
+      "fetchedAt": "2026-10-26T00:38:00Z",
+      "sha256": "5be9100b426661cc276086ea912cbd22cba69123b05769f0f87cdb73b046c9f5",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.4.0",
+        "ru.rustore.sdk:metrics:10.4.0",
+        "ru.rustore.sdk:reactive:10.4.0"
+      ]
+    },
+    "10.5.0": {
+      "fetchedAt": "2026-10-26T00:37:57Z",
+      "sha256": "5be9100b426661cc276086ea912cbd22cba69123b05769f0f87cdb73b046c9f5",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.5.0",
+        "ru.rustore.sdk:metrics:10.5.0",
+        "ru.rustore.sdk:reactive:10.5.0"
+      ]
+    },
+    "10.6.0": {
+      "fetchedAt": "2026-10-26T00:37:55Z",
+      "sha256": "89736ad978f12596697b78fe6aad99f7710b2373f872b7436112d682f8b2a4de",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.5.0",
+        "ru.rustore.sdk:metrics:10.5.0",
+        "ru.rustore.sdk:reactive:10.5.0"
+      ]
+    },
+    "10.6.1": {
+      "fetchedAt": "2026-10-26T00:37:52Z",
+      "sha256": "89736ad978f12596697b78fe6aad99f7710b2373f872b7436112d682f8b2a4de",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.5.0",
+        "ru.rustore.sdk:metrics:10.5.1",
+        "ru.rustore.sdk:reactive:10.5.0"
+      ]
+    },
+    "10.6.2": {
+      "fetchedAt": "2026-10-26T00:37:49Z",
+      "sha256": "89736ad978f12596697b78fe6aad99f7710b2373f872b7436112d682f8b2a4de",
+      "dependencies": [
+        "androidx.core:core-ktx:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22",
+        "ru.rustore.sdk:core:10.5.0",
+        "ru.rustore.sdk:metrics:10.5.2",
+        "ru.rustore.sdk:reactive:10.5.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "ru.rustore.sdk.install.referrer.InstallReferrerContentProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "10.6.0",
+          "10.6.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.sdk.install.referrer",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.rustore.sdk.install.referrer.internal.presentation.FsaEventSenderJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.0.0",
+          "10.6.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "ru.rustore.sdk.install.referrer.internal.presentation.VkrEventSenderJobService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "10.3.0",
+          "10.6.2"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

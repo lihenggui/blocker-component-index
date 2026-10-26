@@ -261,6 +261,20 @@
         "com.google.code.gson:gson:2.13.2",
         "org.jetbrains.kotlin:kotlin-stdlib:2.3.0"
       ]
+    },
+    "1.9.0": {
+      "fetchedAt": "2026-10-25T23:44:22Z",
+      "sha256": "f46cdcb8645e8d93ab1c087cb6ed5de7eda47df4094b5668dcecb3598da5ad70",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.13.0",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.compose:compose-bom:2026.03.00",
+        "androidx.paging:paging-compose:3.4.2",
+        "androidx.room:room-paging:2.8.4",
+        "androidx.room:room-runtime:2.8.4",
+        "com.google.code.gson:gson:2.13.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
+      ]
     }
   },
   "components": [
@@ -287,7 +301,7 @@
       "versionRanges": [
         [
           "1.8.6",
-          "1.8.6"
+          "1.9.0"
         ]
       ],
       "exported": false,
@@ -344,7 +358,7 @@
       "versionRanges": [
         [
           "1.4.1",
-          "1.8.6"
+          "1.9.0"
         ]
       ],
       "exported": false,
@@ -361,7 +375,7 @@
       "versionRanges": [
         [
           "1.4.1",
-          "1.8.6"
+          "1.9.0"
         ]
       ],
       "exported": false,

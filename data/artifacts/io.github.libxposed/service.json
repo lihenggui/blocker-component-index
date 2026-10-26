@@ -1,0 +1,40 @@
+{
+  "coordinate": "io.github.libxposed:service",
+  "repository": "https://s01.oss.sonatype.org/content/repositories/releases",
+  "versions": {
+    "101.0.0": {
+      "fetchedAt": "2026-10-25T23:44:30Z",
+      "sha256": "c14365a4d21711a21a915afcc8aca00db859182e73c8376093ccc19da9771683",
+      "dependencies": [
+        "io.github.libxposed:interface:101.0.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.10"
+      ]
+    },
+    "102.0.0": {
+      "fetchedAt": "2026-10-25T23:44:27Z",
+      "sha256": "c14365a4d21711a21a915afcc8aca00db859182e73c8376093ccc19da9771683",
+      "dependencies": [
+        "io.github.libxposed:interface:102.0.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "io.github.libxposed.service.XposedProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "101.0.0",
+          "102.0.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.XposedService",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

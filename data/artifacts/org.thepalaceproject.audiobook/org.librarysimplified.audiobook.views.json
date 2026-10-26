@@ -1501,6 +1501,86 @@
         "org.thepalaceproject.http:org.librarysimplified.http.downloads:2.3.0",
         "org.thepalaceproject.theme:org.thepalaceproject.theme.core:1.7.0"
       ]
+    },
+    "24.3.0": {
+      "fetchedAt": "2026-10-26T00:35:21Z",
+      "sha256": "cd4ecda55f3c9c57b97c064d149b9d080351a1f0e3143f7452f0328ebc2a2bfa",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.7.2",
+        "androidx.activity:activity:1.7.2",
+        "androidx.annotation:annotation:1.6.0",
+        "androidx.appcompat:appcompat-resources:1.6.1",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.cardview:cardview:1.0.0",
+        "androidx.collection:collection:1.2.0",
+        "androidx.constraintlayout:constraintlayout-core:1.0.4",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.coordinatorlayout:coordinatorlayout:1.2.0",
+        "androidx.core:core-ktx:1.10.1",
+        "androidx.core:core-splashscreen:1.1.0-alpha02",
+        "androidx.core:core:1.10.1",
+        "androidx.customview:customview-poolingcontainer:1.0.0",
+        "androidx.customview:customview:1.1.0",
+        "androidx.drawerlayout:drawerlayout:1.2.0",
+        "androidx.emoji2:emoji2-views-helper:1.4.0",
+        "androidx.emoji2:emoji2-views:1.4.0",
+        "androidx.emoji2:emoji2:1.4.0",
+        "androidx.fragment:fragment-ktx:1.6.1",
+        "androidx.fragment:fragment:1.6.1",
+        "androidx.interpolator:interpolator:1.0.0",
+        "androidx.lifecycle:lifecycle-common:2.6.1",
+        "androidx.lifecycle:lifecycle-extensions:2.2.0",
+        "androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-livedata-core:2.6.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1",
+        "androidx.lifecycle:lifecycle-livedata:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1",
+        "androidx.lifecycle:lifecycle-viewmodel:2.6.1",
+        "androidx.media3:media3-common:1.2.0",
+        "androidx.media3:media3-session:1.2.0",
+        "androidx.media:media:1.6.0",
+        "androidx.preference:preference-ktx:1.2.1",
+        "androidx.preference:preference:1.2.1",
+        "androidx.recyclerview:recyclerview:1.3.1",
+        "androidx.savedstate:savedstate:1.2.1",
+        "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+        "androidx.vectordrawable:vectordrawable:1.1.0",
+        "androidx.viewpager2:viewpager2:1.0.0",
+        "androidx.viewpager:viewpager:1.0.0",
+        "com.google.android.material:material:1.9.0",
+        "com.google.guava:guava:32.1.2-android",
+        "com.io7m.jattribute:com.io7m.jattribute.core:1.0.1",
+        "com.io7m.kabstand:com.io7m.kabstand.core:1.0.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.21",
+        "joda-time:joda-time:2.10.10",
+        "one.irradia.mime:one.irradia.mime.api:1.1.1",
+        "one.irradia.mime:one.irradia.mime.vanilla:1.1.1",
+        "org.jetbrains.kotlin:kotlin-reflect:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0",
+        "org.readium.kotlin-toolkit:readium-lcp:3.3.0",
+        "org.readium.kotlin-toolkit:readium-shared:3.3.0",
+        "org.slf4j:slf4j-api:2.0.7",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.api:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.downloads:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.lcp.downloads:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.api:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.license_check.spi:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest.api:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.basic:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_fulfill.spi:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.api:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.manifest_parser.extension_spi:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.parser.api:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.persistence:24.3.0",
+        "org.thepalaceproject.audiobook:org.librarysimplified.audiobook.time_tracking:24.3.0",
+        "org.thepalaceproject.http:org.librarysimplified.http.api:2.3.0",
+        "org.thepalaceproject.http:org.librarysimplified.http.downloads:2.3.0",
+        "org.thepalaceproject.theme:org.thepalaceproject.theme.core:1.7.0"
+      ]
     }
   },
   "components": [
@@ -1524,12 +1604,31 @@
       "metaData": []
     },
     {
+      "name": "org.librarysimplified.audiobook.views.mediacontrols.PlayerMediaButtonReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "24.3.0",
+          "24.3.0"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.MEDIA_BUTTON"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "org.librarysimplified.audiobook.views.mediacontrols.PlayerService",
       "type": "service",
       "versionRanges": [
         [
           "16.0.0",
-          "24.2.0"
+          "24.3.0"
         ]
       ],
       "exported": false,

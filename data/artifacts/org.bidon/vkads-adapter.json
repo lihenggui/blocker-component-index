@@ -1,0 +1,19 @@
+{
+  "coordinate": "org.bidon:vkads-adapter",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "5.51.2.0": {
+      "fetchedAt": "2026-10-26T00:05:16Z",
+      "sha256": "fc0e324b295c4c938820a1396cf1249203ab84cd056f346af0ca81bf87224a33",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.my.target:mytarget-sdk:5.51.2",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    }
+  },
+  "components": []
+}

@@ -33,6 +33,17 @@
         "io.getstream:stream-webrtc-android:1.2.1",
         "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
       ]
+    },
+    "1.17": {
+      "fetchedAt": "2026-10-25T23:47:09Z",
+      "sha256": "b074ec4aba9d7ba3c3ea3c2d4e880be34b94ac12d4c30bd772cc908972e4cfd9",
+      "dependencies": [
+        "androidx.core:core-ktx:1.15.0",
+        "com.github.getActivity:XXPermissions:20.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "io.getstream:stream-webrtc-android:1.2.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
+      ]
     }
   },
   "components": [
@@ -43,6 +54,23 @@
         [
           "1.8",
           "1.16"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.yidont.voice.call.VoiceCallService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.17",
+          "1.17"
         ]
       ],
       "exported": null,

@@ -345,6 +345,22 @@
         "io.github.anylifezlb:silentEngine:1.0.6",
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.20"
       ]
+    },
+    "2.0.0": {
+      "fetchedAt": "2026-10-25T23:43:15Z",
+      "sha256": "ff6175eef3477d6c7a31c5610f5d4d2086ce582258fa3b123d4629df1142f335",
+      "dependencies": [
+        "androidx.camera:camera-camera2:1.2.3",
+        "androidx.camera:camera-core:1.2.3",
+        "androidx.camera:camera-lifecycle:1.2.3",
+        "androidx.camera:camera-view:1.2.3",
+        "androidx.room:room-runtime:2.5.2",
+        "com.google.ai.edge.litert:litert:1.2.0",
+        "com.google.mlkit:face-detection:16.1.7",
+        "com.vanniktech.maven.publish.base:com.vanniktech.maven.publish.base.gradle.plugin:0.32.0",
+        "io.github.faceaisdk:silentEngine:2025.07.12",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+      ]
     }
   },
   "components": [
@@ -354,7 +370,7 @@
       "versionRanges": [
         [
           "1.8.80.oau",
-          "1.9.9.beta2"
+          "2.0.0"
         ]
       ],
       "exported": false,
@@ -377,7 +393,7 @@
         ],
         [
           "1.9.0.season",
-          "1.9.9.beta2"
+          "2.0.0"
         ]
       ],
       "exported": null,

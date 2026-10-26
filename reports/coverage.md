@@ -1,19 +1,19 @@
 # Component coverage
 
-Repositories: 321
+Repositories: 363
 
 | Capability | Repositories |
 | --- | ---: |
 | central-search | 1 |
 | google-index | 1 |
-| listing | 31 |
-| metadata | 234 |
-| mirror | 31 |
-| nexus3 | 13 |
+| listing | 34 |
+| metadata | 261 |
+| mirror | 37 |
+| nexus3 | 25 |
 
-Artifacts: 33316
-Artifacts with components: 5981
-Components: 27711
+Artifacts: 33380
+Artifacts with components: 5999
+Components: 27946
 
 Components are unique (name, type) pairs per artifact, across fetched versions.
 
@@ -27,6 +27,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.mhqz | 230 | 0 | 230 | org.mozilla.gecko (230) |  |
 | io.github.safe-ending | 225 | 0 | 225 | com.nekteck.common (224), com.nekteck.baselib (1) |  |
 | com.oustme | 181 | 0 | 181 | com.oustme.oustsdk (179), androidx.core.content (1), com.amazonaws.mobileconnectors (1) |  |
+| org.mozilla.geckoview | 180 | 0 | 180 | org.mozilla.gecko (180) |  |
 | com.qiyukf.unicorn | 171 | 0 | 171 | com.qiyukf.unicorn (75), com.qiyukf.uikit (40), com.qiyukf.nimlib (37), com.qiyukf.videomodule (11), com.qiyukf.android (5), com.qiyukf.module (3) |  |
 | by.skz | 168 | 0 | 168 | com.ziggeo.androidsdk (156), androidx.core.content (12) |  |
 | com.ziggeo | 168 | 0 | 168 | com.ziggeo.androidsdk (156), androidx.core.content (12) |  |
@@ -86,8 +87,8 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.mistplay | 46 | 0 | 46 | com.mistplay.loyaltyplay (29), com.mistplay.timetracking (10), com.mistplay.common (7) |  |
 | network.particle | 46 | 0 | 46 | com.particle.gui (39), com.particle.auth (6), com.particle.connectkit (1) |  |
 | io.getstream | 44 | 0 | 44 | io.getstream.chat (14), io.getstream.video (12), io.getstream.android (8), io.getstream.log (4), androidx.startup (3), io.getstream.logging (2), androidx.work.impl (1) |  |
+| org.firstinspires.ftc | 44 | 0 | 44 | com.qualcomm.ftccommon (36), org.firstinspires.ftc (5), org.firstinspires.inspection (2), androidx.core.content (1) |  |
 | im.actor | 43 | 0 | 43 | im.actor.sdk (39), im.actor.map (2), com.soundcloud.android (1), im.actor.push (1) |  |
-| org.firstinspires.ftc | 43 | 0 | 43 | com.qualcomm.ftccommon (35), org.firstinspires.ftc (5), org.firstinspires.inspection (2), androidx.core.content (1) |  |
 | chat.sdk | 42 | 0 | 42 | sdk.chat.ui (19), com.zhihu.matisse (3), sdk.chat.core (3), sdk.chat.message (3), sdk.chat.sinch (3), app.xmpp.adapter (2), sdk.chat.encryption (2), androidx.core.content (1), cafe.adriel.androidaudiorecorder (1), com.lassi.presentation (1) |  |
 | com.infobip | 42 | 0 | 42 | org.infobip.mobile (33), com.infobip.webrtc (8), com.google.android (1) |  |
 | com.rsdx | 42 | 0 | 42 | io.dcloud.feature (32), com.tojoy.shop (3), io.dcloud (3), com.dmcbig.mediapicker (2), androidx.startup (1), com.taobao.weex (1) |  |
@@ -112,6 +113,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.netease.nimlib | 37 | 0 | 37 | com.qiyukf.unicorn (20), com.netease.nimlib (15), com.netease.nim (2) |  |
 | io.github.limsk1993 | 37 | 0 | 37 | com.atommerce.maca_android_sdk (37) |  |
 | ly.warp | 37 | 0 | 37 | ly.warp.sdk (37) |  |
+| org.microg.gms | 37 | 0 | 37 | org.microg.gms (28), com.google.android (8), androidx.core.content (1) |  |
 | com.pulsatehq.sdk | 36 | 0 | 36 | com.pulsatehq.internal (36) |  |
 | io.github.NateshR | 36 | 0 | 36 | com.likeminds.likemindschat (32), com.amazonaws.mobileconnectors (2), com.collabmates.fileutil (2) |  |
 | io.github.mintinglabs | 36 | 0 | 36 | network.mintex.module_kyc (35), com.google.android (1) |  |
@@ -135,7 +137,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.mapp.sdk | 33 | 0 | 33 | com.appoxee.internal (24), com.appoxee.push (4), androidx.media.session (2), webtrekk.android.sdk (2), com.appoxee (1) |  |
 | com.nhncloud.android | 33 | 0 | 33 | com.nhncloud.android (20), com.samsung.android (4), soft_world.mycard.paymentapp (4), tw.com.mycard (2), com.amazon.device (1), com.fet.iap (1), com.google.zxing (1) |  |
 | io.goeasy | 69 | 36 | 33 | io.goeasy.client (11), com.google.android (8), com.google.firebase (8), com.huawei.hms (6) | 31, 33, 34, 345, 36 |
-| org.microg.gms | 33 | 0 | 33 | org.microg.gms (24), com.google.android (8), androidx.core.content (1) |  |
 | br.com.off2 | 32 | 0 | 32 | br.com.off2 (32) |  |
 | com.auryc | 32 | 0 | 32 | auryc.com.service (15), auryc.com.job (12), auryc.com.callback (3), auryc.com.voc (2) |  |
 | com.citcon.sdk | 32 | 0 | 32 | com.citconpay.dropin (9), com.alipay.sdk (6), com.citconpay.sdk (5), upisdk (4), com.braintreepayments.api (3), ${applicationId}.wxapi (2), com.unionpay (1), com.unionpay.uppay (1), sdk (1) |  |
@@ -214,6 +215,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.gamedock.sdk | 25 | 3 | 22 | io.gamedock.sdk (14), com.evernote.android (6), net.openid.appauth (2) | 46, 79 |
 | io.github.goallpay | 22 | 0 | 22 | com.alipay.sdk (12), com.iap.cashier (4), com.allpayx.sdk (3), androidx.core.content (1), com.unionpay (1), com.unionpay.uppay (1) |  |
 | io.github.vfhhu | 22 | 0 | 22 | com.hyxen.adlocusaar (11), com.hyxen.privateadlocus (11) |  |
+| io.kommunicate.sdk | 22 | 0 | 22 | io.kommunicate.ui (8), com.applozic.mobicomkit (7), io.kommunicate.devkit (7) |  |
 | tw.com.ecpay | 22 | 0 | 22 | tw.com.ecpay (22) |  |
 | com.ost | 21 | 0 | 21 | com.ost.walletsdk (15), com.ost.mobilesdk (6) |  |
 | dev.jahir | 21 | 0 | 21 | dev.jahir.frames (9), dev.jahir.kuper (6), dev.jahir.blueprint (5), androidx.appcompat.app (1) |  |
@@ -224,6 +226,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.flayone | 188 | 167 | 21 | com.mercury.sdk (21) | 1, 16, 8 |
 | io.github.jiahui90 | 35 | 14 | 21 | com.moyun365.commonui (7), com.alipay.sdk (4), com.moyun365.commonpush (3), com.huawei.hms (2), androidx.core.content (1), com.huawei.android (1), com.moyun365.commonutil (1), com.tencent.connect (1), com.tencent.tauth (1) | 31, 34, 345, 36 |
 | io.github.jiangjm424 | 21 | 0 | 21 | jm.droid.lib (7), com.happy.ishare (4), com.db.view (3), ${applicationId}.wxapi (2), com.mock.server (2), com.db.runtime (1), com.http.monitor (1), com.viewdb.ui (1) |  |
+| org.radarbase | 21 | 0 | 21 | org.radarbase.passive (19), com.journeyapps.barcodescanner (1), org.radarbase.monitor (1) |  |
 | com.2c2p | 20 | 0 | 20 | com.gac.view (10), com.ccpp.softpos (4), com.ccpp.pgw (3), androidx.core.content (1), com.gac.utils (1), io.flutter.embedding (1) |  |
 | com.github.250767Liu.test | 20 | 0 | 20 | com.jrmf360.rplib (18), com.alipay.sdk (2) |  |
 | com.github.auryc-inc | 20 | 0 | 20 | auryc.com.service (10), auryc.com.job (8), auryc.com.callback (2) |  |
@@ -244,7 +247,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | love.nuoyan.android | 20 | 0 | 20 | love.nuoyan.android (9), com.nearme.game (3), ${applicationId}.wxapi (2), androidx.startup (1), com.tencent.connect (1), com.tencent.tauth (1), com.unionpay (1), com.unionpay.uppay (1), com.xiaomi.account (1) |  |
 | ly.appsocial | 20 | 0 | 20 | ly.appsocial.chatcenter (19), android.support.v4 (1) |  |
 | one.credify.sdk | 20 | 0 | 20 | one.credify.sdk (10), com.vnptit.idg (8), com.facebook (1), one.credify.common (1) |  |
-| org.radarbase | 20 | 0 | 20 | org.radarbase.passive (18), com.journeyapps.barcodescanner (1), org.radarbase.monitor (1) |  |
 | tk.jamun.ui | 20 | 0 | 20 | tk.jamun.ui (20) |  |
 | cn.qingin | 26 | 7 | 19 | com.bingo.sdk (17), com.mobile.auth (2) | 1, 8 |
 | com.adobe.creativesdk.foundation | 19 | 0 | 19 | com.adobe.creativesdk (19) |  |
@@ -341,6 +343,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.luoqqsh | 33 | 18 | 15 | com.xing.lib_thirdpush (4), androidx.core.content (2), x.com.base (2), com.push.google (1), com.tencent.connect (1), com.tencent.tauth (1), x.com.fliepick (1), x.com.hl_study (1), x.com.rxHttp (1), x.com.util (1) | 31, 34, 36, 9 |
 | io.onebrick.sdk | 15 | 0 | 15 | io.onebrick.sdk (15) |  |
 | org.chat21.android | 15 | 0 | 15 | org.chat21.android (15) |  |
+| ru.rustore.sdk | 15 | 0 | 15 | ru.rustore.sdk (12), com.vk.push (2), com.sdkit.paylib (1) |  |
 | com.adyen.checkout | 14 | 0 | 14 | com.adyen.checkout (14) |  |
 | com.braintreepayments.api | 14 | 0 | 14 | com.braintreepayments.api (8), com.paypal.android (6) |  |
 | com.devsu | 14 | 0 | 14 | com.devsu.library (13), com.google.android (1) |  |
@@ -392,6 +395,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.waibozi | 13 | 0 | 13 | com.github.shadowsocks (7), com.google.android (2), com.google.firebase (2), androidx.room (1), androidx.startup (1) |  |
 | io.github.wangshuwen1107 | 13 | 0 | 13 | cn.cheney.xpicker (7), androidx.core.content (2), com.cheney.camera2 (2), com.yalantis.ucrop (2) |  |
 | io.github.youmi-obg | 13 | 0 | 13 | net.youmi.overseas (13) |  |
+| io.github.zwonb | 13 | 0 | 13 | com.yidont.unimp (10), com.yidont.barcode (1), com.yidont.record (1), com.yidont.voice (1) |  |
 | io.mehow.squashit | 13 | 0 | 13 | io.mehow.squashit (11), androidx.core.content (2) |  |
 | is.leap.android.compose | 13 | 0 | 13 | is.leap.android (13) |  |
 | is.leap.android.flutter | 13 | 0 | 13 | is.leap.android (13) |  |
@@ -425,7 +429,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.tozmart | 13 | 1 | 12 | com.tozmart.tozmartsdk_s6 (11), io.flutter.plugins (1) | 473 |
 | io.github.yupengver | 30 | 18 | 12 | com.zsmarter.hulk (12) | 31, 34 |
 | io.github.yuzurihainori | 12 | 0 | 12 | com.happygame.sdk (12) |  |
-| io.github.zwonb | 12 | 0 | 12 | com.yidont.unimp (10), com.yidont.barcode (1), com.yidont.record (1) |  |
 | io.requestly | 12 | 0 | 12 | io.requestly.android (12) |  |
 | io.smooth-way | 12 | 0 | 12 | androidx.startup (10), io.smooth.audio (2) |  |
 | ru.solrudev.ackpine | 12 | 0 | 12 | ru.solrudev.ackpine (11), androidx.startup (1) |  |
@@ -695,6 +698,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.szhittech | 7 | 0 | 7 | com.android.api (2), com.iceteck.silicompressorr (2), com.cho.bility (1), com.het.clife (1), io.github.permission (1) |  |
 | io.github.zzhhz | 7 | 0 | 7 | com.huantansheng.easyphotos (4), androidx.startup (1), com.noober.background (1), me.jessyan.autosize (1) |  |
 | io.hyperswitch | 7 | 0 | 7 | io.hyperswitch.android (2), io.hyperswitch.react (2), com.proyecto26.inappbrowser (1), com.reactnativehyperswitchscancard (1), io.hyperswitch.payments (1) |  |
+| io.ionic.libs | 7 | 0 | 7 | com.outsystems.plugins (6), io.ionic.libs (1) |  |
 | io.matthewnelson.kmp-tor | 7 | 0 | 7 | androidx.startup (6), io.matthewnelson.kmp (1) |  |
 | io.trtc.uikit | 7 | 0 | 7 | com.trtc.tuikit (6), com.trtc.uikit (1) |  |
 | io.v | 7 | 0 | 7 | io.v.android (5), com.google.android (1), io.v.debug (1) |  |
@@ -790,7 +794,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.vinceglb | 6 | 0 | 6 | androidx.startup (3), io.github.vinceglb (2), com.google.android (1) |  |
 | io.github.wankey.mithril | 6 | 0 | 6 | com.alipay.sdk (2), io.github.wankey (2), ${applicationId}.wxapi (1), com.tencent.connect (1) |  |
 | io.github.watayouxiang | 6 | 0 | 6 | com.watayouxiang.androidutils (3), com.watayouxiang.appupdate (2), androidx.core.content (1) |  |
-| io.ionic.libs | 6 | 0 | 6 | com.outsystems.plugins (5), io.ionic.libs (1) |  |
 | io.piano.android | 6 | 0 | 6 | io.piano.android (5), androidx.startup (1) |  |
 | io.pivotal.android | 6 | 0 | 6 | io.pivotal.android (6) |  |
 | io.streamlayer | 6 | 0 | 6 | io.streamlayer.auth (4), io.streamlayer.common (1), io.streamlayer.sdk (1) |  |
@@ -931,6 +934,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | mx.dapp.sdk | 5 | 0 | 5 | mx.dapp.sdk (5) |  |
 | net.crofis | 5 | 0 | 5 | net.crofis.ui (5) |  |
 | online.devliving | 5 | 0 | 5 | devliving.online.cvscanner (3), android.support.v4 (1), devliving.online.mvbarcodereader (1) |  |
+| org.jitsi.react | 5 | 0 | 5 | org.jitsi.meet (3), androidx.startup (1), com.reactnativecommunity.webview (1) |  |
 | org.ligboy.android | 5 | 0 | 5 | org.ligboy.selectphoto (3), com.soundcloud.android (1), com.theartofdev.edmodo (1) |  |
 | pub.adfly | 5 | 0 | 5 | com.adfly.sdk (5) |  |
 | pub.doric | 5 | 0 | 5 | pub.doric.devkit (4), pub.doric (1) |  |
@@ -1073,6 +1077,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.mobon | 5 | 1 | 4 | com.mobon.tune (2), com.mobon.call (1), com.mobon.sdk (1) | 190 |
 | io.github.ohuo133233 | 4 | 0 | 4 | com.wang.javatools (4) |  |
 | io.github.ozyl | 4 | 0 | 4 | com.didichuxing.doraemonkit (4) |  |
+| io.github.pluggableai | 4 | 0 | 4 | com.pluggableai.fanmeter (4) |  |
 | io.github.rakutenanalytics | 4 | 0 | 4 | com.rakuten.tech (4) |  |
 | io.github.riverolls | 4 | 0 | 4 | com.samsung.android (4) |  |
 | io.github.runcomm | 4 | 0 | 4 | kr.co.touchad (4) |  |
@@ -1333,7 +1338,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.m4gr3d | 3 | 0 | 3 | org.godotengine.godot (2), androidx.core.content (1) |  |
 | io.github.marcusx2007.origi | 4 | 1 | 3 | com.gaming.core (2), androidx.core.content (1) | 390 |
 | io.github.mediastream | 3 | 0 | 3 | am.mediastre.mediastreamplatformsdkandroid (3) |  |
-| io.github.pluggableai | 3 | 0 | 3 | com.pluggableai.fanmeter (3) |  |
 | io.github.rakutentech.miniapp | 3 | 0 | 3 | com.rakuten.tech (3) |  |
 | io.github.relateddigital | 3 | 0 | 3 | com.relateddigital.relateddigital_android (3) |  |
 | io.github.rotbolt | 3 | 0 | 3 | io.github.rotbolt (3) |  |
@@ -2426,6 +2430,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.lcoder1024 | 1 | 0 | 1 | org.devio.xlibrary (1) |  |
 | io.github.leobert-lan | 1 | 0 | 1 | osp.leobert.android (1) |  |
 | io.github.li-xiaojun | 1 | 0 | 1 | com.lxj.xpopup (1) |  |
+| io.github.libxposed | 1 | 0 | 1 | io.github.libxposed (1) |  |
 | io.github.limxtop1989 | 1 | 0 | 1 | com.maxim.versatilelog (1) |  |
 | io.github.lovelz | 1 | 0 | 1 | com.android.lovelz (1) |  |
 | io.github.luca992.libphonenumber-kotlin | 1 | 0 | 1 | androidx.startup (1) |  |
@@ -2543,6 +2548,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | land.sungbin | 1 | 0 | 1 | io.github.jisungbin (1) |  |
 | live.ditto | 1 | 0 | 1 | androidx.core.content (1) |  |
 | live.ditto.dittoexportlogs | 1 | 0 | 1 | androidx.core.content (1) |  |
+| lk.payhere | 1 | 0 | 1 | lk.payhere.androidsdk (1) |  |
 | ltd.dolink | 1 | 0 | 1 | androidx.startup (1) |  |
 | ltd.dolink.arch | 1 | 0 | 1 | androidx.startup (1) |  |
 | me.codeboy.android | 1 | 0 | 1 | me.codeboy.android (1) |  |
@@ -7910,6 +7916,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.judegpinto | 0 | 0 | 0 |  |  |
 | io.github.julianfalcionelli | 0 | 0 | 0 |  |  |
 | io.github.junjiejack | 0 | 0 | 0 |  |  |
+| io.github.junkfood02.youtubedl-android | 0 | 0 | 0 |  |  |
 | io.github.juphoon-app | 0 | 0 | 0 |  |  |
 | io.github.just0119 | 0 | 0 | 0 |  |  |
 | io.github.justin-lewis | 0 | 0 | 0 |  |  |
@@ -8294,6 +8301,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | io.github.ranga543 | 0 | 0 | 0 |  |  |
 | io.github.raphael28 | 0 | 0 | 0 |  |  |
 | io.github.react-native-async-storage | 0 | 0 | 0 |  |  |
+| io.github.react-native-community | 0 | 0 | 0 |  |  |
 | io.github.reactivecircus.blueprint | 0 | 0 | 0 |  |  |
 | io.github.reactivecircus.composelint | 0 | 0 | 0 |  |  |
 | io.github.reactivecircus.flowbinding | 0 | 0 | 0 |  |  |
@@ -9062,11 +9070,13 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | me.jorgecastillo | 0 | 0 | 0 |  |  |
 | me.kennethyo.library | 0 | 0 | 0 |  |  |
 | me.kevingleason | 0 | 0 | 0 |  |  |
+| me.laoyuyu.aria | 0 | 0 | 0 |  |  |
 | me.laoyuyu.keepassa | 0 | 0 | 0 |  |  |
 | me.leolin | 0 | 0 | 0 |  |  |
 | me.levansmith.logdog | 0 | 0 | 0 |  |  |
 | me.martiii | 0 | 0 | 0 |  |  |
 | me.mattak | 0 | 0 | 0 |  |  |
+| me.msoul | 0 | 0 | 0 |  |  |
 | me.naingaungluu.formconductor | 0 | 0 | 0 |  |  |
 | me.nathanfallet.apirequest | 0 | 0 | 0 |  |  |
 | me.nathanfallet.digianalytics | 0 | 0 | 0 |  |  |
@@ -9118,6 +9128,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | me.teplyakov | 0 | 0 | 0 |  |  |
 | me.thefreezingchicken.stripper | 0 | 0 | 0 |  |  |
 | me.twocities | 0 | 0 | 0 |  |  |
+| me.wcy | 0 | 0 | 0 |  |  |
 | me.xujichang.lib | 0 | 0 | 0 |  |  |
 | me.yuichi0301 | 0 | 0 | 0 |  |  |
 | me.zhanghai.android.appiconloader | 0 | 0 | 0 |  |  |
@@ -9338,7 +9349,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | org.baracus | 0 | 0 | 0 |  |  |
 | org.beigesoft | 0 | 0 | 0 |  |  |
 | org.bidib.com.github.andriydruk | 0 | 0 | 0 |  |  |
-| org.bidon | 0 | 0 | 0 |  |  |
+| org.bidon | 2 | 2 | 0 |  | 214, 23 |
 | org.bitbucket.alezhka | 0 | 0 | 0 |  |  |
 | org.bitbucket.anupharp | 0 | 0 | 0 |  |  |
 | org.bitbucket.comthingsdev | 0 | 0 | 0 |  |  |
@@ -9439,6 +9450,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | org.jellyfin.sdk | 0 | 0 | 0 |  |  |
 | org.jesperancinha.itf | 0 | 0 | 0 |  |  |
 | org.jetbrains.androidx.core | 0 | 0 | 0 |  |  |
+| org.jetbrains.anko | 0 | 0 | 0 |  |  |
 | org.jetbrains.compose.ui | 0 | 0 | 0 |  |  |
 | org.jetbrains.kotlinx | 0 | 0 | 0 |  |  |
 | org.jetbrains.lets-plot | 0 | 0 | 0 |  |  |
@@ -9468,6 +9480,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | org.ligboy | 0 | 0 | 0 |  |  |
 | org.lighthousegames | 0 | 0 | 0 |  |  |
 | org.lightningdevkit | 0 | 0 | 0 |  |  |
+| org.litepal.guolindev | 0 | 0 | 0 |  |  |
 | org.lovebing.reactnative | 1 | 1 | 0 |  | 125 |
 | org.lsposed.hiddenapibypass | 0 | 0 | 0 |  |  |
 | org.lsposed.libcxx | 0 | 0 | 0 |  |  |
@@ -9486,6 +9499,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | org.mini2Dx | 0 | 0 | 0 |  |  |
 | org.mmaug.mmfont | 0 | 0 | 0 |  |  |
 | org.mobilenativefoundation.store | 0 | 0 | 0 |  |  |
+| org.mockito | 0 | 0 | 0 |  |  |
 | org.mongodb.kbson | 0 | 0 | 0 |  |  |
 | org.mozilla.deepspeech | 0 | 0 | 0 |  |  |
 | org.mrlem.siage3d | 0 | 0 | 0 |  |  |
@@ -9591,10 +9605,12 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | pro.useit.recyclerview | 0 | 0 | 0 |  |  |
 | pt.nmusic | 0 | 0 | 0 |  |  |
 | pub.doric.dangle | 0 | 0 | 0 |  |  |
+| q.rorbin | 0 | 0 | 0 |  |  |
 | ren.imyan.endureblazex.adapter | 0 | 0 | 0 |  |  |
 | ren.imyan.endureblazex.base | 0 | 0 | 0 |  |  |
 | ren.imyan.endureblazex.ktx | 0 | 0 | 0 |  |  |
 | ren.imyan.endureblazex.util | 0 | 0 | 0 |  |  |
+| ro.andob.androidawt | 0 | 0 | 0 |  |  |
 | ro.dragossusi | 0 | 0 | 0 |  |  |
 | ro.dragossusi.android | 0 | 0 | 0 |  |  |
 | ro.dragossusi.kodein.viewmodel | 0 | 0 | 0 |  |  |
@@ -9632,6 +9648,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | ru.pocketbyte.kydra | 0 | 0 | 0 |  |  |
 | ru.pocketbyte.locolaser | 0 | 0 | 0 |  |  |
 | ru.pravbeseda | 0 | 0 | 0 |  |  |
+| ru.rustore | 0 | 0 | 0 |  |  |
 | ru.rutoken.rtcore | 0 | 0 | 0 |  |  |
 | ru.rutoken.rtpcscbridge | 0 | 0 | 0 |  |  |
 | ru.sberdevices.smartapp | 0 | 0 | 0 |  |  |
@@ -9777,6 +9794,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | top.mankin | 0 | 0 | 0 |  |  |
 | top.qinbaowei | 0 | 0 | 0 |  |  |
 | top.wdsf | 0 | 0 | 0 |  |  |
+| top.yukonga.miuix.kmp | 0 | 0 | 0 |  |  |
 | tr.com.mobilex | 0 | 0 | 0 |  |  |
 | tr.com.turkcellteknoloji.turkcellupdater | 0 | 0 | 0 |  |  |
 | travel.izi.api | 0 | 0 | 0 |  |  |
@@ -9872,15 +9890,27 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 
 ## Repositories without enumeration or seeds
 
+- http://bits.netbeans.org/maven2
 - http://cdn.adnxs.com/anx-sdk/maven
 - http://cloudant.github.io/cloudant-sync-eap/repository
+- http://dev.imagejdev.org/maven2/releases
+- http://dev.imagejdev.org/maven2/snapshots
+- http://dev.loci.wisc.edu/maven2/releases
+- http://dev.loci.wisc.edu/maven2/snapshots
+- http://download.java.net/maven/2
+- http://download.oracle.com/maven
+- http://mirrors.ibiblio.org/pub/mirrors/maven2
+- http://nativelibs4java.sourceforge.net/maven
+- https://artifacts.unidata.ucar.edu/repository/unidata-all
 - https://csspeechstorage.blob.core.windows.net/maven
 - https://dl.bintray.com/xdex/socketcluster
 - https://github.com/omadahealth/omada-nexus/raw/master/release
 - https://gitlab.com/api/v4/projects/40053021/packages/maven
+- https://packages.jetbrains.team/maven/p/grazi/grazie-platform
 - https://raw.github.com/jug6ernaut/mvn-repo/mvn-repo
 - https://raw.githubusercontent.com/sendbird/SendBird-SDK-Android/master
 - https://raw.githubusercontent.com/sendbird/sendbird-syncmanager-android/master
 - https://repo.typesafe.com/typesafe/releases
 - https://repo.typesafe.com/typesafe/snapshots
+- https://saalfeldlab.github.io/maven
 - https://storage.googleapis.com/devan-maven

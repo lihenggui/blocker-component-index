@@ -157,6 +157,18 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0"
       ]
+    },
+    "0.12.0": {
+      "fetchedAt": "2026-10-26T00:03:13Z",
+      "sha256": "42cfa61fd51099c1b87d73c888c9490eea4029ece9acdeac83b5a552c09754c8",
+      "dependencies": [
+        "androidx.core:core-ktx:1.19.1",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.google.oboe:oboe:1.11.0",
+        "org.androidaudioplugin:androidaudioplugin:0.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0"
+      ]
     }
   },
   "components": [
@@ -166,7 +178,7 @@
       "versionRanges": [
         [
           "0.7.7",
-          "0.11.2"
+          "0.12.0"
         ]
       ],
       "exported": false,

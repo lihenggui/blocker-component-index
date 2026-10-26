@@ -122,6 +122,19 @@
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.20",
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.20"
       ]
+    },
+    "0.12.0": {
+      "fetchedAt": "2026-10-26T00:03:14Z",
+      "sha256": "8be4cb691c209b14310dc0ea23e454e87c9b1ce672a42ca219edec9926cc7bbc",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.8.0",
+        "androidx.core:core-ktx:1.19.1",
+        "androidx.webkit:webkit:1.17.1",
+        "dev.atsushieno:ktmidi:0.12.0",
+        "org.androidaudioplugin:androidaudioplugin:0.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.3.20",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.20"
+      ]
     }
   },
   "components": [
@@ -131,7 +144,7 @@
       "versionRanges": [
         [
           "0.7.7",
-          "0.11.2"
+          "0.12.0"
         ]
       ],
       "exported": true,

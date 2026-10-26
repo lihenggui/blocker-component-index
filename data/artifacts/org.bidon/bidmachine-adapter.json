@@ -1,0 +1,19 @@
+{
+  "coordinate": "org.bidon:bidmachine-adapter",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "3.8.0.0": {
+      "fetchedAt": "2026-10-26T00:04:26Z",
+      "sha256": "db99e4d13ca8d822799fe5ec62855ffc422204d560878653ce60605e18a33c11",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "io.bidmachine:ads:3.8.0",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    }
+  },
+  "components": []
+}

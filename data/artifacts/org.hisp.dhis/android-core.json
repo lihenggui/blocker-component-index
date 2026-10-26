@@ -637,6 +637,42 @@
         "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
       ]
+    },
+    "1.15.0": {
+      "fetchedAt": "2026-10-26T00:08:41Z",
+      "sha256": "667551ce68861798c90064f97a8e83a3258ac47477e3af88317f01bd65b3886e",
+      "dependencies": [
+        "androidx.annotation:annotation:1.10.0",
+        "androidx.core:core:1.19.0",
+        "androidx.exifinterface:exifinterface:1.4.2",
+        "androidx.paging:paging-runtime:3.3.6",
+        "androidx.room:room-paging:2.8.4",
+        "androidx.room:room-runtime:2.8.4",
+        "androidx.sqlite:sqlite-bundled:2.5.2",
+        "com.github.dhis2:sms-compression:0.2.0",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.squareup.okhttp3:mockwebserver:5.3.2",
+        "com.squareup.okhttp3:okhttp:5.3.2",
+        "io.insert-koin:koin-annotations:4.2.2",
+        "io.insert-koin:koin-core:4.2.2",
+        "io.ktor:ktor-client-content-negotiation:3.4.0",
+        "io.ktor:ktor-client-core:3.4.0",
+        "io.ktor:ktor-client-mock:3.4.0",
+        "io.ktor:ktor-client-okhttp:3.4.0",
+        "io.ktor:ktor-serialization-kotlinx-json:3.4.0",
+        "io.reactivex.rxjava2:rxandroid:2.1.1",
+        "io.reactivex.rxjava2:rxjava:2.2.21",
+        "net.lingala.zip4j:zip4j:2.11.6",
+        "net.openid:appauth:0.11.1",
+        "net.zetetic:sqlcipher-android:4.9.0",
+        "org.hisp.dhis.lib.expression:expression-parser:1.5.0",
+        "org.hisp.dhis.parser:dhis-antlr-expression-parser:1.0.39",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.4.10",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.11.0",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0"
+      ]
     }
   },
   "components": [
@@ -646,7 +682,7 @@
       "versionRanges": [
         [
           "1.8.1.1",
-          "1.14.2"
+          "1.15.0"
         ]
       ],
       "exported": false,

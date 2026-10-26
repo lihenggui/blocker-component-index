@@ -79,6 +79,25 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
       ]
+    },
+    "0.4.0": {
+      "fetchedAt": "2026-10-25T23:43:20Z",
+      "sha256": "70f5248135f09c4552c43cd3b215e8ddb6dd0f5b5295f2b8e51559c557aae54c",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.okio:okio:3.10.2",
+        "io.ktor:ktor-client-content-negotiation:3.1.2",
+        "io.ktor:ktor-client-core:3.1.2",
+        "io.ktor:ktor-client-logging:3.1.2",
+        "io.ktor:ktor-client-okhttp:3.1.2",
+        "io.ktor:ktor-client-serialization:3.1.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.1",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.6.2",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+      ]
     }
   },
   "components": [
@@ -89,6 +108,10 @@
         [
           "0.0.1",
           "0.0.2"
+        ],
+        [
+          "0.4.0",
+          "0.4.0"
         ]
       ],
       "exported": false,

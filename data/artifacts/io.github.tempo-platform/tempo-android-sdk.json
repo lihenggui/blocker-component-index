@@ -155,6 +155,20 @@
         "commons-net:commons-net:3.9.0",
         "org.jetbrains.kotlin:kotlin-stdlib:[1.8, 1.9]"
       ]
+    },
+    "1.7.2-rc.20": {
+      "fetchedAt": "2026-10-25T23:46:01Z",
+      "sha256": "c9a0f0afca3c7d3c18186a778924bb10e45ebc966b0efe33d21121ef2b19d0eb",
+      "dependencies": [
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.google.android.gms:play-services-location:18.0.0",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.stripe:payments-core:[17, 18]",
+        "commons-net:commons-net:3.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:[1.8, 1.9]"
+      ]
     }
   },
   "components": [
@@ -164,7 +178,7 @@
       "versionRanges": [
         [
           "1.7.1-rc.1",
-          "1.7.2-rc.18"
+          "1.7.2-rc.20"
         ]
       ],
       "exported": null,
@@ -181,7 +195,7 @@
       "versionRanges": [
         [
           "1.7.1-rc.1",
-          "1.7.2-rc.18"
+          "1.7.2-rc.20"
         ]
       ],
       "exported": null,

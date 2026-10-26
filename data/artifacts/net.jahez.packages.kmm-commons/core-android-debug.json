@@ -401,6 +401,31 @@
         "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.0",
         "org.threeten:threetenbp:1.6.0"
       ]
+    },
+    "0.31.0": {
+      "fetchedAt": "2026-10-26T00:01:56Z",
+      "sha256": "7f522cb34e93e13adf7c71cee8a58da00f7dead15840d43ebd966487b3745e7b",
+      "dependencies": [
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-beta01",
+        "androidx.startup:startup-runtime:1.1.1",
+        "androidx.work:work-runtime:2.7.1",
+        "com.github.chuckerteam.chucker:library:4.1.0",
+        "com.squareup.okhttp3:okhttp:4.9.0",
+        "io.github.aakira:napier:2.6.1",
+        "io.insert-koin:koin-bom:3.5.3",
+        "io.ktor:ktor-client-auth:2.3.5",
+        "io.ktor:ktor-client-content-negotiation:2.3.5",
+        "io.ktor:ktor-client-core:2.3.5",
+        "io.ktor:ktor-client-logging:2.3.5",
+        "io.ktor:ktor-client-okhttp:2.3.5",
+        "io.ktor:ktor-client-serialization:2.3.5",
+        "io.ktor:ktor-serialization-kotlinx-json:2.3.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.4.1",
+        "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.0",
+        "org.threeten:threetenbp:1.6.0"
+      ]
     }
   },
   "components": [
@@ -410,7 +435,7 @@
       "versionRanges": [
         [
           "0.30.0",
-          "0.30.2"
+          "0.31.0"
         ]
       ],
       "exported": false,

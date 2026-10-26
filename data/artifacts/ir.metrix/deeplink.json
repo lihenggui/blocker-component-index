@@ -229,6 +229,19 @@
         "ir.metrix:lifecycle:2.8.2",
         "ir.metrix:referrer:2.8.2"
       ]
+    },
+    "2.9.0": {
+      "fetchedAt": "2026-10-25T23:55:55Z",
+      "sha256": "7efe01dcb9083cd2ba79d100d3983919da9be18020ae4f6f1bd1b5776cf77838",
+      "dependencies": [
+        "com.squareup.moshi:moshi:1.15.2",
+        "com.squareup.retrofit2:converter-moshi:2.11.0",
+        "com.squareup.retrofit2:retrofit:2.11.0",
+        "ir.metrix:core:2.9.0",
+        "ir.metrix:lifecycle:2.9.0",
+        "ir.metrix:referrer:2.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
     }
   },
   "components": [
@@ -238,7 +251,7 @@
       "versionRanges": [
         [
           "2.2.12",
-          "2.8.2"
+          "2.9.0"
         ]
       ],
       "exported": true,

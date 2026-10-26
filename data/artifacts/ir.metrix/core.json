@@ -229,6 +229,19 @@
         "com.squareup.retrofit2:retrofit:2.11.0",
         "org.conscrypt:conscrypt-android:2.6.2"
       ]
+    },
+    "2.9.0": {
+      "fetchedAt": "2026-10-25T23:55:54Z",
+      "sha256": "8eec4baa600d2a568615a494977b5358e658ce069453bf0dd4f563d83e9be99e",
+      "dependencies": [
+        "androidx.concurrent:concurrent-futures:1.1.0",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "com.squareup.moshi:moshi:1.15.2",
+        "com.squareup.retrofit2:converter-moshi:2.11.0",
+        "com.squareup.retrofit2:retrofit:2.11.0",
+        "org.conscrypt:conscrypt-android:2.6.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+      ]
     }
   },
   "components": [
@@ -238,7 +251,7 @@
       "versionRanges": [
         [
           "2.2.12",
-          "2.8.2"
+          "2.9.0"
         ]
       ],
       "exported": false,

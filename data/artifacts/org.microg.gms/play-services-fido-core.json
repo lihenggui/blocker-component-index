@@ -244,6 +244,35 @@
         "org.microg.gms:play-services-safetynet:0.3.6.244735",
         "org.microg.gms:play-services-tasks-ktx:0.3.6.244735"
       ]
+    },
+    "0.3.14.250932": {
+      "fetchedAt": "2026-10-26T00:17:22Z",
+      "sha256": "a902a69b6ad36c2c1133c68ca8d6748ea44c0f926bf1688148e740bf77aee68b",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.biometric:biometric:1.1.0",
+        "androidx.core:core-ktx:1.12.0",
+        "androidx.databinding:databinding-adapters:8.2.2",
+        "androidx.databinding:databinding-common:8.2.2",
+        "androidx.databinding:databinding-ktx:8.2.2",
+        "androidx.databinding:databinding-runtime:8.2.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.7.0",
+        "androidx.lifecycle:lifecycle-service:2.7.0",
+        "androidx.navigation:navigation-fragment-ktx:2.7.7",
+        "androidx.navigation:navigation-ui-ktx:2.7.7",
+        "com.android.volley:volley:1.2.1",
+        "com.google.guava:guava:31.1-android",
+        "com.google.zxing:core:3.5.2",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.upokecenter:cbor:4.5.2",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+        "org.microg.gms:play-services-base-core:0.3.14.250932",
+        "org.microg.gms:play-services-fido:0.3.14.250932",
+        "org.microg.gms:play-services-safetynet:0.3.14.250932",
+        "org.microg.gms:play-services-tasks-ktx:0.3.14.250932"
+      ]
     }
   },
   "components": [
@@ -253,7 +282,7 @@
       "versionRanges": [
         [
           "0.2.25.223616",
-          "0.3.6.244735"
+          "0.3.14.250932"
         ]
       ],
       "exported": true,
@@ -274,7 +303,7 @@
       "versionRanges": [
         [
           "0.3.4.240913",
-          "0.3.6.244735"
+          "0.3.14.250932"
         ]
       ],
       "exported": true,
@@ -295,7 +324,7 @@
       "versionRanges": [
         [
           "0.3.4.240913",
-          "0.3.6.244735"
+          "0.3.14.250932"
         ]
       ],
       "exported": false,
@@ -325,6 +354,28 @@
       "authorities": null,
       "actions": [],
       "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.microg.gms.fido.core.ui.hybrid.HybridAuthenticateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.3.14.250932",
+          "0.3.14.250932"
+        ]
+      ],
+      "exported": true,
+      "process": ":ui",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
       "metaData": []
     }
   ]

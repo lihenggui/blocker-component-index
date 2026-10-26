@@ -1,0 +1,109 @@
+{
+  "coordinate": "org.bidon:startio-adapter",
+  "repository": "https://artifactory.appodeal.com/appodeal-public",
+  "versions": {
+    "5.2.4.0": {
+      "fetchedAt": "2026-10-26T00:05:09Z",
+      "sha256": "9869b5d95fb1e017972e422af99964127eb359a97b78e30d94e02cdde57c2a3a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.startapp:inapp-sdk:5.2.4",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    },
+    "5.2.4.1": {
+      "fetchedAt": "2026-10-26T00:05:06Z",
+      "sha256": "9869b5d95fb1e017972e422af99964127eb359a97b78e30d94e02cdde57c2a3a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.startapp:inapp-sdk:5.2.4",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    },
+    "5.2.5.0": {
+      "fetchedAt": "2026-10-26T00:05:04Z",
+      "sha256": "9869b5d95fb1e017972e422af99964127eb359a97b78e30d94e02cdde57c2a3a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.startapp:inapp-sdk:5.2.5",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    },
+    "5.2.6.0": {
+      "fetchedAt": "2026-10-26T00:05:01Z",
+      "sha256": "9869b5d95fb1e017972e422af99964127eb359a97b78e30d94e02cdde57c2a3a",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.startapp:inapp-sdk:5.2.6",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    },
+    "5.3.0.0": {
+      "fetchedAt": "2026-10-26T00:04:59Z",
+      "sha256": "c3940fdb4cc45021c638738392e00d54bcdf99635c6673da11dabe4811c237d0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.startapp:inapp-sdk:5.3.0",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    },
+    "5.3.1.0": {
+      "fetchedAt": "2026-10-26T00:04:56Z",
+      "sha256": "c3940fdb4cc45021c638738392e00d54bcdf99635c6673da11dabe4811c237d0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.startapp:inapp-sdk:5.3.1",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    },
+    "5.3.2.0": {
+      "fetchedAt": "2026-10-26T00:04:54Z",
+      "sha256": "c3940fdb4cc45021c638738392e00d54bcdf99635c6673da11dabe4811c237d0",
+      "dependencies": [
+        "androidx.annotation:annotation:1.6.0",
+        "com.startapp:inapp-sdk:5.3.2",
+        "org.bidon:bidon-sdk:[0.10.0,1.0.0)",
+        "org.jetbrains.kotlin:kotlin-bom:2.3.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.0"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.startapp.sdk.adsbase.StartAppInitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.2.4.0",
+          "5.3.2.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.startappinitprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

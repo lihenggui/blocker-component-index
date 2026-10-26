@@ -353,6 +353,25 @@
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20",
         "tech.beepbeep:common:1.6.0-dev-vol-4948"
       ]
+    },
+    "1.6.0-dev-vol-4948-test2": {
+      "fetchedAt": "2026-10-26T00:45:26Z",
+      "sha256": "e0cbeb9eda4e9bdbe0b316d160c0b4e87dddcd302e46beec948bda4afcccea9e",
+      "dependencies": [
+        "com.github.kenglxn.QRGen:android:2.6.0",
+        "com.parse.bolts:bolts-applinks:1.4.0",
+        "com.parse.bolts:bolts-tasks:1.4.0",
+        "com.squareup.retrofit2:adapter-rxjava2:2.6.4",
+        "com.squareup.retrofit2:converter-gson:2.6.4",
+        "com.squareup.retrofit2:retrofit:2.6.4",
+        "eu.chainfire:libsuperuser:1.1.1",
+        "io.opentelemetry:opentelemetry-api:0.8.0",
+        "io.reactivex.rxjava2:rxjava:2.2.21",
+        "org.bouncycastle:bcpkix-jdk15on:1.60",
+        "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20",
+        "tech.beepbeep:common:1.6.0-dev-vol-4948-test"
+      ]
     }
   },
   "components": [
@@ -362,7 +381,7 @@
       "versionRanges": [
         [
           "1.1.11-dev",
-          "1.6.0-dev-vol-4948-test"
+          "1.6.0-dev-vol-4948-test2"
         ]
       ],
       "exported": null,

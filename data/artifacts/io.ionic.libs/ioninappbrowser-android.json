@@ -205,6 +205,23 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
       ]
+    },
+    "2.1.0": {
+      "fetchedAt": "2026-10-25T23:47:40Z",
+      "sha256": "bf53d4269928853ebfd0c195339c8199270a2ad6028c57a7bb890840b92afafb",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.3",
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.constraintlayout:constraintlayout:2.2.0",
+        "androidx.core:core-ktx:1.15.0",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7",
+        "androidx.webkit:webkit:1.12.1",
+        "com.google.code.gson:gson:2.10.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+      ]
     }
   },
   "components": [
@@ -214,7 +231,7 @@
       "versionRanges": [
         [
           "1.6.0",
-          "2.0.3"
+          "2.1.0"
         ]
       ],
       "exported": false,
@@ -228,12 +245,29 @@
       ]
     },
     {
+      "name": "com.outsystems.plugins.inappbrowser.osinappbrowserlib.OSIABKeepAliveService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "2.1.0",
+          "2.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.outsystems.plugins.inappbrowser.osinappbrowserlib.views.OSIABCustomTabsControllerActivity",
       "type": "activity",
       "versionRanges": [
         [
           "1.2.1",
-          "2.0.3"
+          "2.1.0"
         ]
       ],
       "exported": false,
@@ -250,7 +284,7 @@
       "versionRanges": [
         [
           "2.0.0",
-          "2.0.3"
+          "2.1.0"
         ]
       ],
       "exported": false,
@@ -284,7 +318,7 @@
       "versionRanges": [
         [
           "2.0.0",
-          "2.0.3"
+          "2.1.0"
         ]
       ],
       "exported": false,

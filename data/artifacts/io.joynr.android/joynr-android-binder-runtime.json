@@ -247,6 +247,20 @@
         "io.joynr.android.messaging.mqtt:hivemq-mqtt-client:1.26.6",
         "io.joynr.android:slf4j-android-bindings:1.26.6"
       ]
+    },
+    "1.26.7": {
+      "fetchedAt": "2026-10-25T23:47:41Z",
+      "sha256": "6a8d664b950e1d7917dcaeabd0f3b45e3d0c00590ec11726711d61b1843c6fc5",
+      "dependencies": [
+        "com.android.support:support-annotations:28.0.0",
+        "com.google.inject.extensions:guice-assistedinject:7.0.0",
+        "com.google.inject:guice:4.2.3",
+        "io.joynr.android.common:guice-integration:1.26.7",
+        "io.joynr.android.core:clustercontroller:1.26.7",
+        "io.joynr.android.core:libjoynr:1.26.7",
+        "io.joynr.android.messaging.mqtt:hivemq-mqtt-client:1.26.7",
+        "io.joynr.android:slf4j-android-bindings:1.26.7"
+      ]
     }
   },
   "components": [
@@ -256,7 +270,7 @@
       "versionRanges": [
         [
           "1.24.2",
-          "1.26.6"
+          "1.26.7"
         ]
       ],
       "exported": true,
