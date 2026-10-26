@@ -2,7 +2,6 @@
 
 from collections import Counter
 from pathlib import Path
-import yaml
 from .storage import checkpointed, read_json
 
 
@@ -35,11 +34,18 @@ def load_rules(rules_dir):
     return read_json(rules_path, [])
 
 
-def load_functional(rules_dir):
-    """Prefixes reviewed as functional SDKs in the rules repository; they no longer need review here."""
-    path = Path(rules_dir) / "upstream/component-index/functional.yaml"
-    entries = (yaml.safe_load(path.read_text(encoding="utf-8")) or []) if path.is_file() else []
-    return {entry["prefix"] for entry in entries}
+def load_functional(store):
+    """Prefixes reviewed as functional SDKs in config/functional.yaml; they no longer need review."""
+    entries = store.config("functional.yaml") or []
+    prefixes = set()
+    for entry in entries:
+        if not isinstance(entry, dict) or set(entry) != {"prefix", "sdk", "reason"} or not all(
+                isinstance(value, str) and value.strip() for value in entry.values()):
+            raise ValueError(f"config/functional.yaml entries need non-empty prefix, sdk and reason: {entry!r}")
+        if entry["prefix"] in prefixes:
+            raise ValueError(f"Duplicate functional prefix: {entry['prefix']}")
+        prefixes.add(entry["prefix"])
+    return prefixes
 
 
 def _reviewed(prefix, functional):
@@ -84,7 +90,7 @@ def report(store, client, *, rules_dir=None, **_):
     for label, value in sorted(groups.items(), key=lambda item: (-(item[1]["total"] - item[1]["covered"]), item[0])):
         prefixes = ", ".join(f"{prefix} ({count})" for prefix, count in sorted(value["prefixes"].items(), key=lambda item: (-item[1], item[0]))[:10])
         lines.append(f"| {_cell(label)} | {value['total']} | {value['covered']} | {value['total'] - value['covered']} | {_cell(prefixes)} | {_cell(', '.join(sorted(value['rules'])))} |")
-    functional = load_functional(rules_dir)
+    functional = load_functional(store)
     prefixes = sorted((item for item in read_json(store.root / "data/prefixes.json", []) if not _reviewed(item["prefix"], functional)),
                       key=lambda item: (-item["components"], item["prefix"]))
     candidates = [item for item in prefixes if not item["coveredBy"] and not item["cooccursWith"]]

@@ -9,7 +9,8 @@ A weekly GitHub Actions job (`.github/workflows/crawl.yml`) runs `scripts/crawl.
 2. **probe**: detects how each repository can be listed (Google index, Central search, Nexus 2/3, Artifactory, directory listing, or metadata only). Proxy mirrors of Central are detected and skipped.
 3. **enumerate**: lists artifacts; repositories that cannot be listed are queried with coordinates harvested from GitHub builds.
 4. **fetch / extract**: reads only `AndroidManifest.xml` from each AAR (HTTP Range when supported) and records declared components in `data/artifacts/<groupId>/<artifactId>.json`.
-5. **report**: `reports/coverage.md` compares components against blocker-general-rules keywords.
+5. **prefixes**: `data/prefixes.json` groups component names by package prefix and records which rules cover or co-occur with each prefix.
+6. **report**: `reports/coverage.md` compares components against blocker-general-rules keywords and lists uncovered prefixes for review. Prefixes reviewed as functional (non-tracker) SDKs go in `config/functional.yaml` and drop out of the review lists; trackers get keywords in blocker-general-rules.
 
 Runs are resumable: progress lives in `data/state/`, and each run stops cleanly at `--max-minutes`.
 
