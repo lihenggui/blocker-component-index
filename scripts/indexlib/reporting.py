@@ -1,6 +1,7 @@
 """Rule-compatible substring coverage, grouped only for presentation."""
 
 from collections import Counter
+from pathlib import Path
 from .storage import checkpointed, read_json
 
 
@@ -24,6 +25,15 @@ def matching_rules(name, rules):
                    if any(str(keyword).lower() in name for keyword in rule.get("searchKeyword", []))})
 
 
+def load_rules(rules_dir):
+    if rules_dir is None:
+        raise ValueError("prefixes/report requires --rules-dir")
+    rules_path = Path(rules_dir) / "rules/en/general.json"
+    if not rules_path.is_file():
+        raise ValueError(f"Published rules not found: {rules_path}")
+    return read_json(rules_path, [])
+
+
 def _cell(value):
     return str(value).replace("|", "\\|").replace("\n", " ")
 
@@ -31,13 +41,7 @@ def _cell(value):
 @checkpointed
 def report(store, client, *, rules_dir=None, **_):
     client.check()
-    if rules_dir is None:
-        raise ValueError("report requires --rules-dir")
-    from pathlib import Path
-    rules_path = Path(rules_dir) / "rules/en/general.json"
-    if not rules_path.is_file():
-        raise ValueError(f"Published rules not found: {rules_path}")
-    rules = read_json(rules_path, [])
+    rules = load_rules(rules_dir)
     overrides = store.config("sdk-overrides.yaml").get("groups", {})
     totals, groups = Counter(), {}
     for path in sorted((store.root / "data/artifacts").glob("*/*.json")):
@@ -68,6 +72,21 @@ def report(store, client, *, rules_dir=None, **_):
     for label, value in sorted(groups.items(), key=lambda item: (-(item[1]["total"] - item[1]["covered"]), item[0])):
         prefixes = ", ".join(f"{prefix} ({count})" for prefix, count in sorted(value["prefixes"].items(), key=lambda item: (-item[1], item[0]))[:10])
         lines.append(f"| {_cell(label)} | {value['total']} | {value['covered']} | {value['total'] - value['covered']} | {_cell(prefixes)} | {_cell(', '.join(sorted(value['rules'])))} |")
+    prefixes = sorted(read_json(store.root / "data/prefixes.json", []),
+                      key=lambda item: (-item["components"], item["prefix"]))
+    candidates = [item for item in prefixes if not item["coveredBy"] and not item["cooccursWith"]]
+    lines.extend(["", "## Candidate prefixes", "",
+                  "| Prefix | Components | Groups (count) | Example |", "| --- | ---: | ---: | --- |"])
+    for item in candidates[:200]:
+        example = item["examples"][0] if item["examples"] else ""
+        lines.append(f"| {_cell(item['prefix'])} | {item['components']} | {len(item['groups'])} | {_cell(example)} |")
+    lines.extend(["", "## Co-occurring uncovered prefixes", "",
+                  "| Prefix | Components | Rule | Ratio | Artifacts |", "| --- | ---: | ---: | ---: | ---: |"])
+    for item in prefixes:
+        if item["coveredBy"]:
+            continue
+        for match in item["cooccursWith"]:
+            lines.append(f"| {_cell(item['prefix'])} | {item['components']} | {match['rule']} | {match['ratio']:.2f} | {match['artifacts']} |")
     lines.extend(["", "## Repositories without enumeration or seeds", ""])
     unseeded = []
     coordinates = store.state.get("coordinates", {})

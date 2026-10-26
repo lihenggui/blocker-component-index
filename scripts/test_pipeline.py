@@ -6,7 +6,7 @@ from indexlib.evidence import components_at
 from indexlib.http import DeadlineReached, HttpClient
 from indexlib.parsing import BUILTINS
 from indexlib.repositories import metadata_url
-from indexlib.storage import Store
+from indexlib.storage import Store, write_json
 from test_http import Clock
 from test_support import FixtureClient, FixtureTest, aar, metadata_fixture, response
 
@@ -34,12 +34,15 @@ class PipelineTests(FixtureTest):
                 return response(aar(b"<manifest><application/></manifest>" if "/2/" in url else None))
             raise AssertionError(url)
         client = FixtureClient(handler=handler)
-        self.assertEqual(run(self.store, client, "all", rules_dir=self.rules()), 0)
+        rules_dir = self.rules()
+        write_json(rules_dir / "rules/en/general.json", [{"id": 42, "searchKeyword": ["provider"]}])
+        self.assertEqual(run(self.store, client, "all", rules_dir=rules_dir), 0)
         evidence = self.store.evidence("org.example:sdk")
         self.assertEqual(list(evidence["versions"]), ["1", "2", "3"])
         self.assertEqual(len(components_at(evidence, "1")), 5)
         self.assertEqual(len(components_at(evidence, "2")), 0)
         self.assertTrue((self.root / "reports/coverage.md").exists())
+        self.assertTrue((self.root / "data/prefixes.json").exists())
         self.assertEqual(Store(self.root).state["completed"], [])
 
     def test_given_time_budget_exhausted_mid_pipeline_when_resumed_then_completed_stages_are_skipped(self):
@@ -58,7 +61,7 @@ class PipelineTests(FixtureTest):
         calls.clear()
         with patch.dict(STAGES, {name: stage(name) for name in STAGES}):
             self.assertEqual(run(Store(self.root), FixtureClient(), "all"), 0)
-        self.assertEqual(calls, ["discover", "fetch", "extract", "group", "report"])
+        self.assertEqual(calls, ["discover", "fetch", "extract", "group", "prefixes", "report"])
 
     def test_given_partial_upstream_stage_when_pipeline_runs_then_later_stages_remain_eligible_for_next_run(self):
         stages = {name: (lambda *args, **kwargs: True) for name in STAGES}
@@ -85,7 +88,7 @@ class PipelineTests(FixtureTest):
             return execute
         with patch.dict(STAGES, {name: stage(name) for name in STAGES if name != "discover"}):
             self.assertEqual(run(self.store, client, "all", max_minutes=3), 0)
-        self.assertEqual(calls, ["probe", "enumerate", "fetch", "extract", "group", "report"])
+        self.assertEqual(calls, ["probe", "enumerate", "fetch", "extract", "group", "prefixes", "report"])
         self.assertEqual(len(requests), 1)
         self.assertEqual(clock.sleeps, [])
         self.assertEqual(len(Store(self.root).state["discover"]["queue"]), 16)
@@ -110,3 +113,6 @@ class PipelineTests(FixtureTest):
         with patch.dict(STAGES, stages):
             self.assertEqual(run(self.store, FixtureClient(), "all"), 1)
         self.assertEqual(calls, [name for name in STAGES if name != "discover"])
+
+    def test_given_crawl_stages_when_ordered_then_prefix_attribution_runs_between_group_and_report(self):
+        self.assertEqual(list(STAGES), ["discover", "probe", "enumerate", "fetch", "extract", "group", "prefixes", "report"])
