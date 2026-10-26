@@ -1,0 +1,122 @@
+{
+  "coordinate": "me.jessyan:autosize",
+  "repository": "https://maven.aliyun.com/repository/public",
+  "versions": {
+    "0.5.0": {
+      "fetchedAt": "2026-10-26T06:13:04Z",
+      "sha256": "cbb3b414935786872405389d3096bfe8f2f52653f958745ff7756742a63c3160",
+      "dependencies": []
+    },
+    "0.6.0": {
+      "fetchedAt": "2026-10-26T06:13:01Z",
+      "sha256": "37c4edddc144ae674ff42f90cd1f40a2f7ce0abd4687ffad950877e26f6177d3",
+      "dependencies": []
+    },
+    "0.7.0": {
+      "fetchedAt": "2026-10-26T06:12:57Z",
+      "sha256": "8e2e51e3eb6bd64389a78b9730e9d30199f03ad0c2d872f72a75140d540c7df5",
+      "dependencies": []
+    },
+    "0.8.0": {
+      "fetchedAt": "2026-10-26T06:12:54Z",
+      "sha256": "bb762a6e16648513c160bf5c8cbf5b36a02812a71fe7eaf7da36f0786bf6bc34",
+      "dependencies": []
+    },
+    "0.9.0": {
+      "fetchedAt": "2026-10-26T06:12:51Z",
+      "sha256": "1f40a811c49fe482e4a9a402802a4e6b93f9cbdf88a26e461a24b76a71cf4cc8",
+      "dependencies": []
+    },
+    "0.9.1": {
+      "fetchedAt": "2026-10-26T06:12:48Z",
+      "sha256": "9182b591a0de66dd0b5b21a7f78f8c81d3306acb18b9cd2eb84a009ddf9750ac",
+      "dependencies": []
+    },
+    "0.9.5": {
+      "fetchedAt": "2026-10-26T06:12:45Z",
+      "sha256": "d2ec9e227af353ad0139dc1bcc4017145471adf9c1d036002c302e1203c381e1",
+      "dependencies": []
+    },
+    "1.0.0": {
+      "fetchedAt": "2026-10-26T06:12:41Z",
+      "sha256": "d059b4305172f557e17e5e702bb39ed0cc9ebba856df60217aa698a1a10c0030",
+      "dependencies": []
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-26T06:12:39Z",
+      "sha256": "615832ca15364b11959c7c2a67f1017f79376ae65ed69343308b1b389c88195b",
+      "dependencies": []
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-26T06:12:36Z",
+      "sha256": "a2e63a44e80e24dc55adde0e9118b2c9381ba9c4e8bc19512e514e547942e071",
+      "dependencies": []
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-26T06:12:33Z",
+      "sha256": "72e39c8e23438cd337dc5a5b01e22af586a0d0798155a8326350b14c85e309cc",
+      "dependencies": []
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-26T06:12:30Z",
+      "sha256": "cec4dd7277532a167162f1ab9daf57e01fb67ac83b78d9df66d696e868877bfa",
+      "dependencies": []
+    },
+    "1.1.1": {
+      "fetchedAt": "2026-10-26T06:12:26Z",
+      "sha256": "cb8d75d895be25a599ca3f7a7ebdbe31585e1b1e6ae29c0859691b52e3e01121",
+      "dependencies": []
+    },
+    "1.1.2": {
+      "fetchedAt": "2026-10-26T06:12:25Z",
+      "sha256": "5b6e0ef2b0591aebe977a249f43d6b795adcf1233c3ec92e47e6d71c0c2cae59",
+      "dependencies": []
+    },
+    "1.2.0": {
+      "fetchedAt": "2026-10-26T06:12:24Z",
+      "sha256": "b098189865d233877aaf5d588121d295787434f862939a4cc78876684e063ad4",
+      "dependencies": []
+    },
+    "1.2.1": {
+      "fetchedAt": "2026-10-26T06:12:22Z",
+      "sha256": "91a58261d112a932702eb4f82e9391321357d16bd802601948bbee1eabf92264",
+      "dependencies": []
+    }
+  },
+  "components": [
+    {
+      "name": "me.jessyan.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.8.0",
+          "1.2.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.autosize-init-provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "me.jessyan.autosize.InitProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "0.7.0",
+          "0.7.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.init-Provider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

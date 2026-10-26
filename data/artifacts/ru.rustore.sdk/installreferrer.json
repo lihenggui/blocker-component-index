@@ -2,6 +2,96 @@
   "coordinate": "ru.rustore.sdk:installreferrer",
   "repository": "https://nexus-external.rustore.ru/repository/maven-rustore-exposed",
   "versions": {
+    "8.0.0-alpha02": {
+      "fetchedAt": "2026-10-26T04:52:25Z",
+      "sha256": "07d98c380624cc1202c9e82153d7a7c790f6aa7ac97df53dc54417d5d91eab02",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:8.0.0-alpha02",
+        "ru.rustore.sdk:reactive:8.0.0-alpha02"
+      ]
+    },
+    "8.0.0-alpha03": {
+      "fetchedAt": "2026-10-26T04:52:23Z",
+      "sha256": "5d600811e7974f6bc86f4b59cfe839d932e2cb797544040752a3150a17d4ce28",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:8.0.0-alpha03",
+        "ru.rustore.sdk:reactive:8.0.0-alpha03"
+      ]
+    },
+    "8.0.0": {
+      "fetchedAt": "2026-10-26T04:52:21Z",
+      "sha256": "a3b77306da29bc6b1e5283bd56b1a4f9a7ed4d61fcbe5f937c1c24136a680011",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:8.0.0",
+        "ru.rustore.sdk:reactive:8.0.0"
+      ]
+    },
+    "8.0.1-alpha01": {
+      "fetchedAt": "2026-10-26T04:52:19Z",
+      "sha256": "745c971a4c9465d629b57cc8fe793b58631c380d4fa3fc20430810a63393b7d2",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:8.0.1-alpha01",
+        "ru.rustore.sdk:reactive:8.0.1-alpha01"
+      ]
+    },
+    "8.0.1-alpha02": {
+      "fetchedAt": "2026-10-26T04:52:17Z",
+      "sha256": "c233a57f26d417c6cf820ccaba96eb58b44b8428b011cae4dab871a759ec3f22",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:8.0.1-alpha02",
+        "ru.rustore.sdk:reactive:8.0.1-alpha02"
+      ]
+    },
+    "8.0.1-alpha03": {
+      "fetchedAt": "2026-10-26T04:52:15Z",
+      "sha256": "d5bf1b0b8c89ef4d72a3a19680f9fe2884d13abdd0d3c4d85712afe7bb771930",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:8.0.1-alpha03",
+        "ru.rustore.sdk:reactive:8.0.1-alpha03"
+      ]
+    },
+    "9.0.0": {
+      "fetchedAt": "2026-10-26T04:52:13Z",
+      "sha256": "89036c266137d4403c7357623e1b11aa637963b9121d9009f9610e5b0dc083a3",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:9.0.0",
+        "ru.rustore.sdk:reactive:9.0.0"
+      ]
+    },
+    "9.0.1": {
+      "fetchedAt": "2026-10-26T04:52:10Z",
+      "sha256": "89036c266137d4403c7357623e1b11aa637963b9121d9009f9610e5b0dc083a3",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:9.0.1",
+        "ru.rustore.sdk:reactive:9.0.1"
+      ]
+    },
+    "9.0.2": {
+      "fetchedAt": "2026-10-26T04:52:08Z",
+      "sha256": "ccca9fc2c6038aa1c24c27f617cfd8f41a182f960e4c89a5e7b4421888553d6f",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:9.0.2",
+        "ru.rustore.sdk:reactive:9.0.2"
+      ]
+    },
+    "9.1.0": {
+      "fetchedAt": "2026-10-26T04:52:06Z",
+      "sha256": "48244e7b5e0fd7c31e379462a25de3ff1b96ffc666c368221599cd537032b917",
+      "dependencies": [
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "ru.rustore.sdk:core:9.1.0",
+        "ru.rustore.sdk:reactive:9.1.0"
+      ]
+    },
     "10.0.0": {
       "fetchedAt": "2026-10-26T00:38:15Z",
       "sha256": "65f7734f59d4047449786d89980a5f8122e11ab0ab43ec5c4b0d8d01ba2ece30",

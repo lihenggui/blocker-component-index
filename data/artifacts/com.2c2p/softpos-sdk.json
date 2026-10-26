@@ -116,6 +116,21 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.10",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
       ]
+    },
+    "1.2.2": {
+      "fetchedAt": "2026-10-26T05:19:08Z",
+      "sha256": "f8a33d8ae12e8f1515c8c5fc3b6655b49b9045e48baad4785182492e580ce244",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.13.0",
+        "androidx.activity:activity-ktx:1.13.0",
+        "androidx.compose.material3:material3-android:1.4.0",
+        "androidx.compose.runtime:runtime:1.11.1",
+        "com.2c2p:pgw-sdk:4.7.1",
+        "com.theminesec.sdk:headless:1.2.44",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0"
+      ]
     }
   },
   "components": [
@@ -125,7 +140,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.2.1"
+          "1.2.2"
         ]
       ],
       "exported": false,
@@ -142,7 +157,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.2.1"
+          "1.2.2"
         ]
       ],
       "exported": false,

@@ -55,6 +55,21 @@
         "net.zetetic:android-database-sqlcipher:4.5.1",
         "org.bouncycastle:bcpkix-jdk15to18:1.71"
       ]
+    },
+    "2.6.00": {
+      "fetchedAt": "2026-10-26T05:22:58Z",
+      "sha256": "1c8656bfc66aedceea7d8f5c5c35d12777029db665b3b37063e3f35087c521b1",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.2",
+        "androidx.core:core:1.5.0",
+        "androidx.loader:loader:1.1.0",
+        "androidx.security:security-crypto:1.1.0",
+        "androidx.sqlite:sqlite:2.4.0",
+        "com.google.zxing:core:3.4.0",
+        "com.nimbusds:nimbus-jose-jwt:9.22",
+        "net.zetetic:sqlcipher-android:4.12.0",
+        "org.bouncycastle:bcpkix-jdk15to18:1.71"
+      ]
     }
   },
   "components": [
@@ -64,7 +79,7 @@
       "versionRanges": [
         [
           "2.2.0",
-          "2.5.00"
+          "2.6.00"
         ]
       ],
       "exported": false,

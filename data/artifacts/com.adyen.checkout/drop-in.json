@@ -846,6 +846,59 @@
         "com.google.android.material:material:1.12.0",
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
       ]
+    },
+    "6.0.0-alpha.1": {
+      "fetchedAt": "2026-10-26T05:19:38Z",
+      "sha256": "eb3ffd0ab0aee55c541273fb345c67987db4bd26744bfc818258444b4434fa4c",
+      "dependencies": [
+        "androidx.compose.material3:material3:1.5.0-alpha15",
+        "androidx.compose.material:material-icons-core:1.7.8",
+        "androidx.databinding:viewbinding:9.2.1",
+        "androidx.lifecycle:lifecycle-service:2.10.0",
+        "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+        "androidx.navigation3:navigation3-runtime:1.1.2",
+        "androidx.navigation3:navigation3-ui:1.1.2",
+        "androidx.recyclerview:recyclerview:1.4.0",
+        "com.adyen.checkout:3ds2:6.0.0-alpha.1",
+        "com.adyen.checkout:ach:6.0.0-alpha.1",
+        "com.adyen.checkout:action-core:6.0.0-alpha.1",
+        "com.adyen.checkout:authentication:6.0.0-alpha.1",
+        "com.adyen.checkout:bacs:6.0.0-alpha.1",
+        "com.adyen.checkout:bcmc:6.0.0-alpha.1",
+        "com.adyen.checkout:blik:6.0.0-alpha.1",
+        "com.adyen.checkout:boleto:6.0.0-alpha.1",
+        "com.adyen.checkout:card:6.0.0-alpha.1",
+        "com.adyen.checkout:cashapppay:6.0.0-alpha.1",
+        "com.adyen.checkout:convenience-stores-jp:6.0.0-alpha.1",
+        "com.adyen.checkout:dotpay:6.0.0-alpha.1",
+        "com.adyen.checkout:entercash:6.0.0-alpha.1",
+        "com.adyen.checkout:eps:6.0.0-alpha.1",
+        "com.adyen.checkout:giftcard:6.0.0-alpha.1",
+        "com.adyen.checkout:googlepay:6.0.0-alpha.1",
+        "com.adyen.checkout:ideal:6.0.0-alpha.1",
+        "com.adyen.checkout:instant:6.0.0-alpha.1",
+        "com.adyen.checkout:mbway:6.0.0-alpha.1",
+        "com.adyen.checkout:meal-voucher-fr:6.0.0-alpha.1",
+        "com.adyen.checkout:molpay:6.0.0-alpha.1",
+        "com.adyen.checkout:online-banking-cz:6.0.0-alpha.1",
+        "com.adyen.checkout:online-banking-jp:6.0.0-alpha.1",
+        "com.adyen.checkout:online-banking-pl:6.0.0-alpha.1",
+        "com.adyen.checkout:online-banking-sk:6.0.0-alpha.1",
+        "com.adyen.checkout:openbanking:6.0.0-alpha.1",
+        "com.adyen.checkout:paybybank-us:6.0.0-alpha.1",
+        "com.adyen.checkout:paybybank:6.0.0-alpha.1",
+        "com.adyen.checkout:payeasy:6.0.0-alpha.1",
+        "com.adyen.checkout:payto:6.0.0-alpha.1",
+        "com.adyen.checkout:sepa:6.0.0-alpha.1",
+        "com.adyen.checkout:sessions-core:6.0.0-alpha.1",
+        "com.adyen.checkout:seven-eleven:6.0.0-alpha.1",
+        "com.adyen.checkout:twint:6.0.0-alpha.1",
+        "com.adyen.checkout:upi:6.0.0-alpha.1",
+        "com.adyen.checkout:wechatpay:6.0.0-alpha.1",
+        "com.google.android.material:material:1.14.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.3.21",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.21"
+      ]
     }
   },
   "components": [
@@ -886,6 +939,79 @@
         "android.intent.category.BROWSABLE",
         "android.intent.category.DEFAULT"
       ],
+      "metaData": []
+    },
+    {
+      "name": "com.adyen.checkout.dropin.internal.ui.DropInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0-alpha.1",
+          "6.0.0-alpha.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adyen.checkout.dropin.old.DropInRedirectHandlingActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0-alpha.1",
+          "6.0.0-alpha.1"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.adyen.checkout.dropin.old.SessionDropInService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "6.0.0-alpha.1",
+          "6.0.0-alpha.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.adyen.checkout.dropin.old.internal.ui.DropInActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0-alpha.1",
+          "6.0.0-alpha.1"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
       "metaData": []
     }
   ]

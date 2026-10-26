@@ -1,0 +1,62 @@
+{
+  "coordinate": "com.darsh.multipleimageselect:multipleimageselect",
+  "repository": "https://maven.aliyun.com/repository/public",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-26T05:31:15Z",
+      "sha256": "766c741122d16d26c2de5c8965576d4e3caee8b80209da950b8dbfb6e3491796",
+      "dependencies": [
+        "com.android.support:appcompat-v7:23.1.1",
+        "com.github.bumptech.glide:glide:3.6.0"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-26T05:31:10Z",
+      "sha256": "1b3b7ab1b7b0dda24f98dd95b395a74ce6f56dab079785b41bdae393ef259ac7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.0.1",
+        "com.github.bumptech.glide:glide:4.6.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.darsh.multipleimageselect.activities.AlbumSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "com.darsh.multipleimageselect.activities.ImageSelectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.5"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

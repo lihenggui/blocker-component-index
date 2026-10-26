@@ -61,6 +61,11 @@
       "fetchedAt": "2026-10-23T20:49:58Z",
       "sha256": "b76b599c1b17de7a4b1a14352a6c1694427c3736664060593df15395e4677b55",
       "dependencies": []
+    },
+    "5.6.1.7": {
+      "fetchedAt": "2026-10-26T05:18:09Z",
+      "sha256": "c7151e89858f14cf92325ecf04edcea69ceeb0a11e92d4ec828f05950a2b4d28",
+      "dependencies": []
     }
   },
   "components": [
@@ -87,7 +92,7 @@
       "versionRanges": [
         [
           "5.2.1.3",
-          "5.3.0.3"
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -104,7 +109,7 @@
       "versionRanges": [
         [
           "5.2.1.3",
-          "5.3.0.3"
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -121,7 +126,24 @@
       "versionRanges": [
         [
           "5.2.1.3",
-          "5.3.0.3"
+          "5.6.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.ad.v2.activity.BZDpActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -138,7 +160,7 @@
       "versionRanges": [
         [
           "5.3.0.3",
-          "5.3.0.3"
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -155,7 +177,7 @@
       "versionRanges": [
         [
           "5.3.0.3",
-          "5.3.0.3"
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -172,7 +194,7 @@
       "versionRanges": [
         [
           "5.2.1.3",
-          "5.3.0.3"
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -189,7 +211,7 @@
       "versionRanges": [
         [
           "5.3.0.3",
-          "5.3.0.3"
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -206,7 +228,7 @@
       "versionRanges": [
         [
           "5.2.1.3",
-          "5.3.0.3"
+          "5.6.1.7"
         ]
       ],
       "exported": false,
@@ -216,6 +238,161 @@
       "actions": [],
       "categories": [],
       "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.download.service.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.plugin.pfg.sy.adsdk.adx.dialog.AdxPlgDownloadDetailDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.plugin.pfg.sy.adsdk.ui.dialog.AdComplianceDialog",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.widget.activity.ASNPAdActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.widget.activity.ASNPDlInfoDetailActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.widget.activity.ASNPDownloadPromptActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.widget.activity.ASNPLandingPageActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.asnp.adn.ad.widget.activity.ASNPRewardVideoActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.beizi.fusion.provider.BZFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "5.6.1.7",
+          "5.6.1.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.bz.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
     }
   ]
 }

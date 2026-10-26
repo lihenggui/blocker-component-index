@@ -207,6 +207,19 @@
         "com.apollographql.execution:apollo-execution-runtime:0.1.0",
         "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
       ]
+    },
+    "5.0.0-alpha.2": {
+      "fetchedAt": "2026-10-26T05:20:50Z",
+      "sha256": "3252919d14438b62194f40e0959fc7fbd59271bd372f287e8ce3b1fd9b064f19",
+      "dependencies": [
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.apollographql.apollo:apollo-ast:5.0.0-alpha.2",
+        "com.apollographql.apollo:apollo-normalized-cache-api:5.0.0-alpha.2",
+        "com.apollographql.apollo:apollo-normalized-cache:5.0.0-alpha.2",
+        "com.apollographql.apollo:apollo-runtime:5.0.0-alpha.2",
+        "com.apollographql.execution:apollo-execution-runtime:0.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.0"
+      ]
     }
   },
   "components": [
@@ -216,7 +229,7 @@
       "versionRanges": [
         [
           "4.0.0-rc.1",
-          "5.0.0-alpha.1"
+          "5.0.0-alpha.2"
         ]
       ],
       "exported": false,

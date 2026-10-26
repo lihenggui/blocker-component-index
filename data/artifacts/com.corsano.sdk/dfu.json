@@ -241,6 +241,18 @@
         "no.nordicsemi.android:dfu:2.11.0",
         "org.jetbrains.kotlin:kotlin-stdlib:2.3.21"
       ]
+    },
+    "2.3.0-kotlin2.2.21": {
+      "fetchedAt": "2026-10-26T05:31:00Z",
+      "sha256": "73abce0e87919e29a115d6ba2517124e7970488f010f96bc312baf17d34abe04",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.core:core-ktx:1.18.0",
+        "com.corsano.sdk:ble:2.3.0-kotlin2.2.21",
+        "com.corsano.sdk:core:2.3.0-kotlin2.2.21",
+        "no.nordicsemi.android:dfu:2.11.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+      ]
     }
   },
   "components": [
@@ -250,7 +262,7 @@
       "versionRanges": [
         [
           "1.1.19",
-          "2.3.0"
+          "2.3.0-kotlin2.2.21"
         ]
       ],
       "exported": false,

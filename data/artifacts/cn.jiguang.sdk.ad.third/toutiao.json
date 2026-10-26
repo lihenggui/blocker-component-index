@@ -96,6 +96,11 @@
       "fetchedAt": "2026-10-23T20:51:41Z",
       "sha256": "d2ef27396d3b2ff256f296f72d56836d301d63a05cbddc0815181a8e22cc015e",
       "dependencies": []
+    },
+    "7.8.1.4": {
+      "fetchedAt": "2026-10-26T05:18:13Z",
+      "sha256": "d462246c2ca77ad87a853cac1f071c4e036edd95189518a5f0ae42369071cae5",
+      "dependencies": []
     }
   },
   "components": [
@@ -253,6 +258,23 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.c.DownloadHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.c.JumpUnknownSourceActivity",
       "type": "activity",
       "versionRanges": [
@@ -264,6 +286,23 @@
       "exported": false,
       "process": null,
       "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.c.RetryJobSchedulerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
       "authorities": null,
       "actions": [],
       "categories": [],
@@ -395,6 +434,40 @@
         [
           "7.4.2.0",
           "7.4.2.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.cw.ApiDownloadHandleNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.cw.ApiDownloadHandlerService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -835,6 +908,23 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.gd.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.gg.MainServerManager",
       "type": "provider",
       "versionRanges": [
@@ -1007,6 +1097,23 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.i.DownloadNotificationService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.iv.Collector",
       "type": "receiver",
       "versionRanges": [
@@ -1019,6 +1126,23 @@
       "process": null,
       "permission": null,
       "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.iz.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pangle.fileprovider",
       "actions": [],
       "categories": [],
       "metaData": []
@@ -1092,6 +1216,23 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.jx.DownloadReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.k.DownloadNotificationService",
       "type": "service",
       "versionRanges": [
@@ -1121,6 +1262,40 @@
       "process": null,
       "permission": null,
       "authorities": "${applicationId}.pangle.servermanager.main",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.kr.BinderPoolService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.lc.Collector",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
       "actions": [],
       "categories": [],
       "metaData": []
@@ -1570,12 +1745,65 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.o.CSJDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.o.CSJIndependentProcessDownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":downloader",
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.ss.android.socialbase.downloader.remote"
+      ],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.o.DownloadHandleService",
       "type": "service",
       "versionRanges": [
         [
           "7.5.1.0",
           "7.5.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.o.SqlDownloadCacheService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -1627,6 +1855,23 @@
         [
           "7.3.0.7",
           "7.3.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.ox.JumpKllkActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -1752,6 +1997,23 @@
       "process": null,
       "permission": null,
       "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.pd.MainProcessProviderProxy",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pangle.provider.proxy.main",
       "actions": [],
       "categories": [],
       "metaData": []
@@ -2150,6 +2412,125 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.rp.Stub_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.rp.Stub_SingleTask_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.rp.Stub_SingleTask_Activity_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.rp.Stub_Standard_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.rp.Stub_Standard_Activity_T",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.rp.Stub_Standard_Landscape_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.rp.Stub_Standard_Portrait_Activity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.rs.ApiDownloadHandleNotificationActivity",
       "type": "activity",
       "versionRanges": [
@@ -2541,6 +2922,23 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.v.JumpUnknownSourceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.vij.DownloadHandleService",
       "type": "service",
       "versionRanges": [
@@ -2570,6 +2968,40 @@
       "process": null,
       "permission": null,
       "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.vw.DownloaderServerManager",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": ":downloader",
+      "permission": null,
+      "authorities": "${applicationId}.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.byazt.vw.MainServerManager",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pangle.servermanager.main",
       "actions": [],
       "categories": [],
       "metaData": []
@@ -2915,6 +3347,23 @@
       "metaData": []
     },
     {
+      "name": "com.byazt.y.DownloadHandleService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "7.8.1.4",
+          "7.8.1.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
       "name": "com.byazt.yd.DownloadHandlerService",
       "type": "service",
       "versionRanges": [
@@ -3228,7 +3677,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3245,7 +3694,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3262,7 +3711,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3279,7 +3728,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3296,7 +3745,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3313,7 +3762,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3330,7 +3779,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3347,7 +3796,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3364,7 +3813,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3381,7 +3830,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3398,7 +3847,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3415,7 +3864,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3432,7 +3881,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3449,7 +3898,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3466,7 +3915,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3483,7 +3932,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3500,7 +3949,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3517,7 +3966,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3534,7 +3983,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3551,7 +4000,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3568,7 +4017,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3585,7 +4034,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3602,7 +4051,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3619,7 +4068,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3636,7 +4085,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3653,7 +4102,7 @@
       "versionRanges": [
         [
           "6.8.1.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3670,7 +4119,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3687,7 +4136,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3704,7 +4153,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": true,
@@ -3721,7 +4170,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": true,
@@ -3738,7 +4187,7 @@
       "versionRanges": [
         [
           "6.8.1.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3755,7 +4204,7 @@
       "versionRanges": [
         [
           "6.8.1.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3772,7 +4221,7 @@
       "versionRanges": [
         [
           "6.8.1.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3789,7 +4238,7 @@
       "versionRanges": [
         [
           "6.8.1.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3806,7 +4255,7 @@
       "versionRanges": [
         [
           "6.8.1.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3823,7 +4272,7 @@
       "versionRanges": [
         [
           "5.9.0.8",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3869,7 +4318,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3894,7 +4343,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -3974,7 +4423,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4020,7 +4469,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4058,7 +4507,7 @@
       "versionRanges": [
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4083,7 +4532,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4108,7 +4557,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4133,7 +4582,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4158,7 +4607,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4183,7 +4632,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4208,7 +4657,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4233,7 +4682,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4496,7 +4945,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4602,7 +5051,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,
@@ -4623,7 +5072,7 @@
         ],
         [
           "7.4.0.7",
-          "7.6.4.3"
+          "7.8.1.4"
         ]
       ],
       "exported": false,

@@ -85,9 +85,33 @@
       "dependencies": [
         "cn.rongcloud.private.sdk:im_kit:5.20.0.50"
       ]
+    },
+    "5.30.0.50": {
+      "fetchedAt": "2026-10-26T05:18:28Z",
+      "sha256": "3a02850b743152f48a607b0b591746a4967687fcf08907156e1af8db36db47db",
+      "dependencies": [
+        "cn.rongcloud.private.sdk:im_kit:5.30.0.50"
+      ]
     }
   },
   "components": [
+    {
+      "name": "io.rong.sight.player.SightListActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.30.0.50",
+          "5.30.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
     {
       "name": "io.rong.sight.player.SightListActivity",
       "type": "activity",
@@ -132,7 +156,7 @@
       "versionRanges": [
         [
           "5.3.3.52",
-          "5.20.0.50"
+          "5.30.0.50"
         ]
       ],
       "exported": true,
@@ -145,6 +169,23 @@
       "categories": [
         "android.intent.category.DEFAULT"
       ],
+      "metaData": []
+    },
+    {
+      "name": "io.rong.sight.record.SightRecordActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "5.30.0.50",
+          "5.30.0.50"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
       "metaData": []
     },
     {

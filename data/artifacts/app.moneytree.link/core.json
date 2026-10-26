@@ -381,6 +381,26 @@
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.21",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
       ]
+    },
+    "6.9.0": {
+      "fetchedAt": "2026-10-26T05:15:36Z",
+      "sha256": "94cdf982fb382e148732837640ef559614ddbc43a51587ee8be03f8975f8c7ae",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.core:core-ktx:1.13.1",
+        "androidx.lifecycle:lifecycle-common-java8:2.8.7",
+        "androidx.security:security-crypto:1.1.0-alpha06",
+        "at.favre.lib:armadillo:1.0.0",
+        "com.google.androidbrowserhelper:androidbrowserhelper:2.3.0",
+        "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0",
+        "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "com.squareup.retrofit2:retrofit:2.11.0",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.0.21",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+      ]
     }
   },
   "components": [
@@ -390,7 +410,7 @@
       "versionRanges": [
         [
           "6.3.0",
-          "6.8.0"
+          "6.9.0"
         ]
       ],
       "exported": true,
@@ -456,7 +476,7 @@
       "versionRanges": [
         [
           "6.7.1",
-          "6.8.0"
+          "6.9.0"
         ]
       ],
       "exported": false,

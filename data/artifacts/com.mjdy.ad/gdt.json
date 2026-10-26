@@ -1,0 +1,142 @@
+{
+  "coordinate": "com.mjdy.ad:gdt",
+  "repository": "https://maven.7nc.top/repository/mjdy",
+  "versions": {
+    "1.0.4": {
+      "fetchedAt": "2026-10-26T04:56:25Z",
+      "sha256": "6af280055075b831df9b828a81befe76aeb3da65e511b4c83a50d851a0151fcc",
+      "dependencies": [
+        "com.qq.e:gdt:4.251.1121"
+      ]
+    },
+    "1.0.5": {
+      "fetchedAt": "2026-10-26T04:56:21Z",
+      "sha256": "7c41c4582aeff8bbd98dd0731cce15bea82dc201a4a247450e639091dfe2eb43",
+      "dependencies": [
+        "com.qq.e:gdt:4.351.1221"
+      ]
+    },
+    "1.0.6": {
+      "fetchedAt": "2026-10-26T04:56:18Z",
+      "sha256": "be0827b10d5c01f0414abcb9c088bf2dc61652fe8c93ea93056d3f734b6e6914",
+      "dependencies": [
+        "com.qq.e:gdt:4.351.1221"
+      ]
+    },
+    "1.0.7": {
+      "fetchedAt": "2026-10-26T04:56:12Z",
+      "sha256": "5d8d64f2b16b598354a489cfa57e512ef556aeb8c9cf0f8557e8b12df52e4537",
+      "dependencies": [
+        "com.qq.e.union:union:4.453.1323"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "android.support.v4.content.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.qq.e.ads.ADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.LandscapeADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.ads.PortraitADActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.4"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.comm.DownloadService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "1.0.4",
+          "1.0.6"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.qq.e.comm.GDTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.7"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.gdt.fileprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -133,6 +133,22 @@
         "com.google.android.ump:user-messaging-platform:3.0.0",
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
       ]
+    },
+    "3.0.0": {
+      "fetchedAt": "2026-10-26T05:30:12Z",
+      "sha256": "efa377bedd06640dbb26c450ca39b82e220aaf5d250b02e9b32fad53700e305a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.0",
+        "androidx.databinding:viewbinding:8.2.2",
+        "androidx.lifecycle:lifecycle-process:2.5.1",
+        "androidx.preference:preference-ktx:1.2.1",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.google.android.gms:play-services-ads:24.0.0",
+        "com.google.android.ump:user-messaging-platform:3.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
     }
   },
   "components": [
@@ -142,7 +158,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "2.1.3"
+          "3.0.0"
         ]
       ],
       "exported": false,

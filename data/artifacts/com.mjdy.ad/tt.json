@@ -1,0 +1,58 @@
+{
+  "coordinate": "com.mjdy.ad:tt",
+  "repository": "https://maven.7nc.top/repository/mjdy",
+  "versions": {
+    "1.0.9": {
+      "fetchedAt": "2026-10-26T04:57:52Z",
+      "sha256": "f716883a8c4888ab6c43a1e3a43fbb14de55cbd711d7e1db70845f6fa8f5ef4a",
+      "dependencies": [
+        "com.bytedance.sdk.openadsdk:ttadsdk:3.3.1.0"
+      ]
+    },
+    "1.1.0": {
+      "fetchedAt": "2026-10-26T04:57:48Z",
+      "sha256": "8c7fa7e5f8e67b812732384a6b15d740ef20c1116464b90e8e01894c4c1a4815",
+      "dependencies": [
+        "com.bytedance.sdk.openadsdk:ttadsdk:3.6.1.7"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.bykv.vk.openvk.TTFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTFileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
+      "name": "com.bykv.vk.openvk.multipro.TTMultiProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.9",
+          "1.1.0"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.TTMultiProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

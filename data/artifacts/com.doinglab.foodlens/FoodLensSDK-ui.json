@@ -541,6 +541,33 @@
         "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.23",
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
       ]
+    },
+    "3.4.6": {
+      "fetchedAt": "2026-10-26T05:31:27Z",
+      "sha256": "b5097c26e699c4a7dc972cba338b02d8130feff2cfc9e84effa7218d201413f3",
+      "dependencies": [
+        "androidx.activity:activity-ktx:1.9.3",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.7.0",
+        "androidx.databinding:databinding-adapters:8.5.1",
+        "androidx.databinding:databinding-common:8.5.1",
+        "androidx.databinding:databinding-ktx:8.5.1",
+        "androidx.databinding:databinding-runtime:8.5.1",
+        "androidx.databinding:viewbinding:8.5.1",
+        "androidx.exifinterface:exifinterface:1.4.2",
+        "androidx.fragment:fragment-ktx:1.3.5",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "com.doinglab.foodlens:FoodLensSDK-core:3.4.5",
+        "com.github.bumptech.glide:glide:5.0.7",
+        "com.google.android.flexbox:flexbox:3.0.0",
+        "com.google.android.material:material:1.7.0",
+        "com.otaliastudios:cameraview:2.7.2",
+        "com.squareup.retrofit2:converter-gson:2.9.0",
+        "com.wdullaer:materialdatetimepicker:4.2.3",
+        "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.23",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.23"
+      ]
     }
   },
   "components": [
@@ -550,7 +577,24 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.doinglab.foodlens.sdk.ui.activity.dailyreport.DailyReportActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.4.6",
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -567,7 +611,7 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -584,7 +628,7 @@
       "versionRanges": [
         [
           "3.4.0",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -601,7 +645,7 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -618,7 +662,7 @@
       "versionRanges": [
         [
           "3.4.0",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -635,7 +679,41 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.doinglab.foodlens.sdk.ui.activity.ingredient.FoodLensIngredientEditActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.4.6",
+          "3.4.6"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.doinglab.foodlens.sdk.ui.activity.ingredient.FoodLensIngredientSearchActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "3.4.6",
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -652,7 +730,7 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -669,7 +747,7 @@
       "versionRanges": [
         [
           "3.4.0",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -686,7 +764,7 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -703,7 +781,7 @@
       "versionRanges": [
         [
           "3.3.0",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -720,7 +798,7 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": null,
@@ -737,7 +815,7 @@
       "versionRanges": [
         [
           "3.1.6",
-          "3.4.5"
+          "3.4.6"
         ]
       ],
       "exported": false,

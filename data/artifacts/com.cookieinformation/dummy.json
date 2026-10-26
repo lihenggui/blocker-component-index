@@ -131,6 +131,22 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
         "org.slf4j:slf4j-simple:2.0.17"
       ]
+    },
+    "3.0.2.beta": {
+      "fetchedAt": "2026-10-26T05:30:56Z",
+      "sha256": "eb9de806063adeafeaad12eb00ee65a38cf1465a8000f90cb7c9e3205263c9f4",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.13.0",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.compose:compose-bom:2026.03.01",
+        "androidx.constraintlayout:constraintlayout:2.2.1",
+        "androidx.core:core-ktx:1.18.0",
+        "androidx.databinding:viewbinding:8.13.2",
+        "androidx.navigation:navigation-compose:2.9.7",
+        "com.cookieinformation:core:1.0.0",
+        "com.google.android.material:material:1.13.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.20"
+      ]
     }
   },
   "components": [
@@ -141,6 +157,10 @@
         [
           "0.0.2",
           "0.0.6"
+        ],
+        [
+          "3.0.2.beta",
+          "3.0.2.beta"
         ]
       ],
       "exported": false,

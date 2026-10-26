@@ -1,0 +1,77 @@
+{
+  "coordinate": "com.appspector:android-core",
+  "repository": "https://maven.appspector.com/artifactory/android-sdk",
+  "versions": {
+    "1.6.0": {
+      "fetchedAt": "2026-10-26T05:21:32Z",
+      "sha256": "04a8d0d9c9b932217de89c7fba4769940745e727378f9e3986380ea02267e5a5",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.core:core-ktx:1.10.1",
+        "com.appspector:core-api:1.6.0",
+        "com.fasterxml.jackson.core:jackson-annotations:2.10.3",
+        "com.fasterxml.jackson.core:jackson-core:2.10.3",
+        "com.fasterxml.jackson.core:jackson-databind:2.10.3",
+        "com.squareup.okhttp3:logging-interceptor:4.12.0",
+        "com.squareup.okhttp3:okhttp:4.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.25",
+        "org.lz4:lz4-java:1.8.0",
+        "org.msgpack:jackson-dataformat-msgpack:0.8.24",
+        "org.msgpack:msgpack-core:0.8.24"
+      ]
+    },
+    "1.7.1": {
+      "fetchedAt": "2026-10-26T05:21:29Z",
+      "sha256": "ada2cc2330f4d14cad8aeb07d9a65bbf70e04805118920bf53f2896563791b46",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.core:core-ktx:1.17.0",
+        "at.yawk.lz4:lz4-java:1.10.3",
+        "com.appspector:core-api:1.7.1",
+        "com.fasterxml.jackson.core:jackson-annotations:2.10.3",
+        "com.fasterxml.jackson.core:jackson-core:2.10.3",
+        "com.fasterxml.jackson.core:jackson-databind:2.10.3",
+        "com.squareup.okhttp3:okhttp-bom:5.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.msgpack:jackson-dataformat-msgpack:0.8.24",
+        "org.msgpack:msgpack-core:0.8.24"
+      ]
+    },
+    "1.7.2": {
+      "fetchedAt": "2026-10-26T05:21:27Z",
+      "sha256": "ada2cc2330f4d14cad8aeb07d9a65bbf70e04805118920bf53f2896563791b46",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.core:core-ktx:1.17.0",
+        "at.yawk.lz4:lz4-java:1.10.3",
+        "com.appspector:core-api:1.7.2",
+        "com.fasterxml.jackson.core:jackson-annotations:2.10.3",
+        "com.fasterxml.jackson.core:jackson-core:2.10.3",
+        "com.fasterxml.jackson.core:jackson-databind:2.10.3",
+        "com.squareup.okhttp3:okhttp-bom:5.3.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.3.0",
+        "org.msgpack:jackson-dataformat-msgpack:0.8.24",
+        "org.msgpack:msgpack-core:0.8.24"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.appspector.sdk.platform.AppSpectorActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.6.0",
+          "1.7.2"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

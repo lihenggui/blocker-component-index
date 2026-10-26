@@ -1,0 +1,42 @@
+{
+  "coordinate": "com.zoho.messenger:mdrenderer",
+  "repository": "https://maven.zohodl.com",
+  "versions": {
+    "1.0.5": {
+      "fetchedAt": "2026-10-26T06:02:51Z",
+      "sha256": "8e6b81769dbb7d07f1fc2595a196cd75126d8767b09e3e01913e78ac1a3ef8ec",
+      "dependencies": [
+        "androidx.activity:activity-compose:1.10.1",
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.compose:compose-bom:2025.05.00",
+        "com.google.android.material:material:1.13.0",
+        "io.noties:prism4j:2.0.0",
+        "org.commonmark:commonmark-ext-gfm-strikethrough:0.24.0",
+        "org.commonmark:commonmark-ext-gfm-tables:0.24.0",
+        "org.commonmark:commonmark-ext-task-list-items:0.24.0",
+        "org.commonmark:commonmark:0.24.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zoho.mdrenderer.MarkdownActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "1.0.5",
+          "1.0.5"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

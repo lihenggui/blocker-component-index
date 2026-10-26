@@ -1,0 +1,534 @@
+{
+  "coordinate": "com.sumup.identity.auth:auth-sdk",
+  "repository": "https://maven.sumup.com/releases",
+  "versions": {
+    "5.0.2": {
+      "fetchedAt": "2026-10-26T05:59:33Z",
+      "sha256": "2c080d8f96487a2a8ad54250b1ff4d06f78ff4a9b90934a1c932c1d13f0f33fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.browser:browser:1.4.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.5",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+      ]
+    },
+    "5.0.3": {
+      "fetchedAt": "2026-10-26T05:59:31Z",
+      "sha256": "2c080d8f96487a2a8ad54250b1ff4d06f78ff4a9b90934a1c932c1d13f0f33fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.4.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.5",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "5.0.4": {
+      "fetchedAt": "2026-10-26T05:59:29Z",
+      "sha256": "2c080d8f96487a2a8ad54250b1ff4d06f78ff4a9b90934a1c932c1d13f0f33fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.6",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "5.1.0": {
+      "fetchedAt": "2026-10-26T05:59:26Z",
+      "sha256": "2c080d8f96487a2a8ad54250b1ff4d06f78ff4a9b90934a1c932c1d13f0f33fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.6",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "5.1.1": {
+      "fetchedAt": "2026-10-26T05:59:24Z",
+      "sha256": "2c080d8f96487a2a8ad54250b1ff4d06f78ff4a9b90934a1c932c1d13f0f33fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.6",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "5.1.2": {
+      "fetchedAt": "2026-10-26T05:59:21Z",
+      "sha256": "2c080d8f96487a2a8ad54250b1ff4d06f78ff4a9b90934a1c932c1d13f0f33fd",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.startup:startup-runtime:1.1.1",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.6",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.0.0": {
+      "fetchedAt": "2026-10-26T05:59:19Z",
+      "sha256": "8e3e055a3365e2fa4d6af531e175c9313bea444b181117998dd1dddfc752ec4a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.7",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.0.1": {
+      "fetchedAt": "2026-10-26T05:59:16Z",
+      "sha256": "8e3e055a3365e2fa4d6af531e175c9313bea444b181117998dd1dddfc752ec4a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.7",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.0.2": {
+      "fetchedAt": "2026-10-26T05:59:14Z",
+      "sha256": "8e3e055a3365e2fa4d6af531e175c9313bea444b181117998dd1dddfc752ec4a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.7",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.0.3": {
+      "fetchedAt": "2026-10-26T05:59:11Z",
+      "sha256": "8e3e055a3365e2fa4d6af531e175c9313bea444b181117998dd1dddfc752ec4a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.7",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.0.4": {
+      "fetchedAt": "2026-10-26T05:59:09Z",
+      "sha256": "8e3e055a3365e2fa4d6af531e175c9313bea444b181117998dd1dddfc752ec4a",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.7",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.0.5": {
+      "fetchedAt": "2026-10-26T05:59:06Z",
+      "sha256": "c01129df4b1bd85f5e4934282cff18fb9a248f18c91e0a5fe70222d26a275df3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.7",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.0.6": {
+      "fetchedAt": "2026-10-26T05:59:04Z",
+      "sha256": "c01129df4b1bd85f5e4934282cff18fb9a248f18c91e0a5fe70222d26a275df3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:4.9.3",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.2.7",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0"
+      ]
+    },
+    "6.1.0": {
+      "fetchedAt": "2026-10-26T05:59:01Z",
+      "sha256": "c01129df4b1bd85f5e4934282cff18fb9a248f18c91e0a5fe70222d26a275df3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.4.1",
+        "com.sumup.observability:observability-lib:3.1.0",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "6.2.0": {
+      "fetchedAt": "2026-10-26T05:58:59Z",
+      "sha256": "c01129df4b1bd85f5e4934282cff18fb9a248f18c91e0a5fe70222d26a275df3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.4.1",
+        "com.sumup.observability:observability-lib:3.1.0",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "6.3.0": {
+      "fetchedAt": "2026-10-26T05:58:56Z",
+      "sha256": "c01129df4b1bd85f5e4934282cff18fb9a248f18c91e0a5fe70222d26a275df3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.4.1",
+        "com.sumup.observability:observability-lib:3.1.0",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "6.3.1": {
+      "fetchedAt": "2026-10-26T05:58:54Z",
+      "sha256": "c01129df4b1bd85f5e4934282cff18fb9a248f18c91e0a5fe70222d26a275df3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.4.1",
+        "com.sumup.observability:observability-lib:3.1.0",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "6.3.2": {
+      "fetchedAt": "2026-10-26T05:58:51Z",
+      "sha256": "c01129df4b1bd85f5e4934282cff18fb9a248f18c91e0a5fe70222d26a275df3",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.4.1",
+        "com.sumup.observability:observability-lib:3.1.0",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "6.3.3": {
+      "fetchedAt": "2026-10-26T05:58:49Z",
+      "sha256": "19803e8d5ad29bc7448c3d1da02c2c5cfde679e685ea035740e0412b0afa2324",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.4.1",
+        "com.sumup.observability:observability-lib:3.1.0",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    },
+    "6.3.4": {
+      "fetchedAt": "2026-10-26T05:58:46Z",
+      "sha256": "19803e8d5ad29bc7448c3d1da02c2c5cfde679e685ea035740e0412b0afa2324",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.0",
+        "androidx.browser:browser:1.8.0",
+        "androidx.datastore:datastore-preferences:1.1.2",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.squareup.moshi:moshi-adapters:1.15.1",
+        "com.squareup.moshi:moshi:1.15.1",
+        "com.squareup.okhttp3:okhttp:5.2.1",
+        "com.squareup.retrofit2:converter-moshi:2.9.0",
+        "com.squareup.retrofit2:retrofit:2.9.0",
+        "com.sumup.android:logging:2.4.1",
+        "com.sumup.observability:observability-lib:3.1.0",
+        "io.insert-koin:koin-android:3.5.0",
+        "io.jsonwebtoken:jjwt-api:0.11.5",
+        "io.jsonwebtoken:jjwt-impl:0.11.5",
+        "io.jsonwebtoken:jjwt-orgjson:0.11.5",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.sumup.identity.auth.oauth2.AuthorizationManagementActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0",
+          "6.3.4"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.sumup.identity.auth.oauth2.OAuthRedirectActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0",
+          "6.3.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    },
+    {
+      "name": "net.openid.appauth.RedirectUriReceiverActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.0",
+          "6.3.4"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": []
+    }
+  ]
+}

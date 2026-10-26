@@ -2,6 +2,36 @@
   "coordinate": "com.mjdy.ad:klevin",
   "repository": "https://maven.7nc.top/repository/mjdy",
   "versions": {
+    "1.0.0": {
+      "fetchedAt": "2026-10-26T04:56:48Z",
+      "sha256": "a32862fb828f881fc331acc0153893c2ceb39ae8bf9c8ddffcc497853b01f60c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.tencent:klevin:1.5.028"
+      ]
+    },
+    "1.0.1": {
+      "fetchedAt": "2026-10-26T04:56:43Z",
+      "sha256": "da7399a8d2909fbc95badb9f442303119a21b260ce4107f957adfeb81c5631a7",
+      "dependencies": [
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.tencent:klevin:1.5.028"
+      ]
+    },
+    "1.0.2": {
+      "fetchedAt": "2026-10-26T04:56:38Z",
+      "sha256": "099a2d6921d69dc56e070fd20c24f79db556d1f4357ea4d6e0ff70d33ef0a25c",
+      "dependencies": [
+        "com.tencent:klevin:2.1.0.36"
+      ]
+    },
+    "1.0.3": {
+      "fetchedAt": "2026-10-26T04:56:34Z",
+      "sha256": "ae9e2e391dc6cdc80ff1fc91effa8c96045b1253faab05fd3c974a837d3e9a37",
+      "dependencies": [
+        "com.tencent:klevin:2.3.0.17"
+      ]
+    },
     "1.0.4": {
       "fetchedAt": "2026-10-25T19:35:41Z",
       "sha256": "af41e7cd3f2a5b8c68ee38b26e82fcdbb26b1b38772a23e0c0f2e07aa6760c5f",
@@ -12,11 +42,30 @@
   },
   "components": [
     {
+      "name": "com.mjdy.ad.klevin.kelvin.fileProvider.FileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "1.0.0",
+          "1.0.1"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.klevin.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    },
+    {
       "name": "com.tencent.klevin.utils.FileProvider",
       "type": "provider",
       "versionRanges": [
         [
-          "1.0.4",
+          "1.0.2",
           "1.0.4"
         ]
       ],

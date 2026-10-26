@@ -1,0 +1,35 @@
+{
+  "coordinate": "com.huawei.hms:ads-native",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "13.4.91.301": {
+      "fetchedAt": "2026-10-26T05:44:00Z",
+      "sha256": "248a5bc1a42794aa13a0e35ace3c867ebad1840c9ee1cdc2734b8e4e476865e2",
+      "dependencies": [
+        "com.huawei.hms:ads-base:13.4.91.301"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.openalliance.ad.activity.FeedbackActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    }
+  ]
+}

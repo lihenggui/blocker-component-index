@@ -1,0 +1,75 @@
+{
+  "coordinate": "com.huawei.hms:update",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "6.0.2.300": {
+      "fetchedAt": "2026-10-26T05:48:10Z",
+      "sha256": "3afb26b0b529a68fa132dd99a4cfd99cf69314b7f6306307f58eed0ebee2330b",
+      "dependencies": [
+        "com.huawei.android.hms:security-ssl:2.0.0.302",
+        "com.huawei.hms:ag-homecountry:12.4.1.302",
+        "com.huawei.hms:componentverifysdk:13.3.1.301",
+        "com.huawei.hms:network-grs:8.0.1.316"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "6.0.2.300",
+          "6.0.2.300"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.updateSdk.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "com.huawei.updatesdk.service.otaupdate.AppUpdateActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.2.300",
+          "6.0.2.300"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.updatesdk.support.pm.PackageInstallerActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "6.0.2.300",
+          "6.0.2.300"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    }
+  ]
+}

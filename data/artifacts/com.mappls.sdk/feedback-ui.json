@@ -2,6 +2,36 @@
   "coordinate": "com.mappls.sdk:feedback-ui",
   "repository": "https://maven.mappls.com/repository/mappls",
   "versions": {
+    "2.0.0": {
+      "fetchedAt": "2026-10-26T04:55:51Z",
+      "sha256": "2dfdd49dd5c8ce8ee1191f7718f9850ae15d20ef736ed94b2a6e7e3315afa5b0",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.mappls.sdk:mappls-android-sdk:8.0.0"
+      ]
+    },
+    "2.0.1": {
+      "fetchedAt": "2026-10-26T04:55:49Z",
+      "sha256": "b58cfc4b73c1af4032076ec6eb1a397df77641ee2a9294434890456a8cf2e94d",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.mappls.sdk:mappls-android-sdk:8.0.2"
+      ]
+    },
+    "2.0.2": {
+      "fetchedAt": "2026-10-26T04:55:48Z",
+      "sha256": "6fed8de585e91cf0afa6fda6feaac51a4099901763ed0ba74e8298826d150372",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.4.2",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.mappls.sdk:mappls-android-sdk:8.0.2"
+      ]
+    },
     "3.0.0": {
       "fetchedAt": "2026-10-24T21:43:29Z",
       "sha256": "665e4d2b2aa3a8695fc700a91c36bc5dfbd4eae57705307b0116e18dfcf748a7",
@@ -33,7 +63,7 @@
       "type": "activity",
       "versionRanges": [
         [
-          "3.0.0",
+          "2.0.0",
           "4.0.0"
         ]
       ],

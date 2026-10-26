@@ -1,0 +1,40 @@
+{
+  "coordinate": "im.zego:zego_uikit_android",
+  "repository": "https://maven.zego.im",
+  "versions": {
+    "3.6.5": {
+      "fetchedAt": "2026-10-26T06:04:44Z",
+      "sha256": "7aeccc920058795ae5e866843f5b0f4952da0fc8691a2f8f95104c1c954208e4",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.5.1",
+        "com.github.bumptech.glide:glide:4.14.2",
+        "com.google.android.material:material:1.6.1",
+        "com.google.code.gson:gson:2.9.1",
+        "im.zego:express-video:3.21.0",
+        "im.zego:uikitreport:0.5.1",
+        "im.zego:zego_uikit_plugin_adapter_android:+"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.zegocloud.uikit.internal.ZegoUIKitFileProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.6.5",
+          "3.6.5"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.UIKit.fileProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "android.support.FILE_PROVIDER_PATHS"
+      ]
+    }
+  ]
+}

@@ -375,6 +375,28 @@
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
         "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4"
       ]
+    },
+    "2.16.0-rc": {
+      "fetchedAt": "2026-10-26T05:17:55Z",
+      "sha256": "ddb0620e162a330ec4cdd0b74c98616a8b8e5ae7800b8cdb1f1bfcfdd36b9935",
+      "dependencies": [
+        "androidx.appcompat:appcompat:1.7.1",
+        "androidx.constraintlayout:constraintlayout:2.1.4",
+        "androidx.core:core-ktx:1.13.0",
+        "androidx.lifecycle:lifecycle-process:2.8.7",
+        "androidx.lifecycle:lifecycle-runtime:2.8.7",
+        "androidx.room:room-ktx:2.6.1",
+        "androidx.room:room-runtime:2.6.1",
+        "androidx.startup:startup-runtime:1.2.0",
+        "androidx.work:work-runtime-ktx:2.8.1",
+        "cloud.mindbox:mindbox-common:2.16.0-rc",
+        "com.android.volley:volley:1.2.1",
+        "com.github.bumptech.glide:glide:4.15.1",
+        "com.google.code.gson:gson:2.8.9",
+        "com.jakewharton.threetenabp:threetenabp:1.4.6",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4"
+      ]
     }
   },
   "components": [
@@ -384,7 +406,7 @@
       "versionRanges": [
         [
           "2.15.3",
-          "2.15.5"
+          "2.16.0-rc"
         ]
       ],
       "exported": false,
@@ -403,7 +425,7 @@
       "versionRanges": [
         [
           "2.13.3",
-          "2.15.5"
+          "2.16.0-rc"
         ]
       ],
       "exported": false,

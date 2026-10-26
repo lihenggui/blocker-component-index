@@ -274,6 +274,20 @@
         "com.apollographql.apollo:apollo-normalized-cache-api:5.1.0",
         "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
       ]
+    },
+    "5.2.0": {
+      "fetchedAt": "2026-10-26T05:20:50Z",
+      "sha256": "16a48c522c358a8d0e846d38632cc1e4dfea30ab2ce62044a47a4ef8d99e9a1c",
+      "dependencies": [
+        "androidx.sqlite:sqlite-framework:2.6.0",
+        "androidx.sqlite:sqlite:2.6.0",
+        "androidx.startup:startup-runtime:1.2.0",
+        "app.cash.sqldelight:android-driver:2.1.0",
+        "app.cash.sqldelight:runtime:2.1.0",
+        "com.apollographql.apollo:apollo-api:5.2.0",
+        "com.apollographql.apollo:apollo-normalized-cache-api:5.2.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.0"
+      ]
     }
   },
   "components": [
@@ -283,7 +297,7 @@
       "versionRanges": [
         [
           "4.3.1",
-          "5.1.0"
+          "5.2.0"
         ]
       ],
       "exported": false,

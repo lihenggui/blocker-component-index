@@ -213,6 +213,18 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.4.10",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0"
       ]
+    },
+    "3.11.4": {
+      "fetchedAt": "2026-10-26T05:32:14Z",
+      "sha256": "25f998cb8ff2c42a9c1e19daf6633f66b9acfdff699e2c71a9d8903b38fca0c1",
+      "dependencies": [
+        "androidx.activity:activity:1.12.4",
+        "androidx.startup:startup-runtime:1.2.0",
+        "com.emarsys:core-api:3.11.4",
+        "com.google.crypto.tink:tink-android:1.23.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0"
+      ]
     }
   },
   "components": [
@@ -222,7 +234,7 @@
       "versionRanges": [
         [
           "3.7.7",
-          "3.11.3"
+          "3.11.4"
         ]
       ],
       "exported": false,

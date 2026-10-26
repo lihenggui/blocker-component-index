@@ -121,6 +121,36 @@
         "org.jetbrains.kotlinx:kotlinx-datetime:0.6.2",
         "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1"
       ]
+    },
+    "1.4.0": {
+      "fetchedAt": "2026-10-26T05:19:11Z",
+      "sha256": "8a30403337963bfccdc14345ed63e28a93dc8e9f4547a657931d02c0def61970",
+      "dependencies": [
+        "androidx.core:core-ktx:1.17.0",
+        "androidx.preference:preference-ktx:1.2.1",
+        "androidx.startup:startup-runtime:1.2.0",
+        "app.cash.sqldelight:android-driver:2.1.0",
+        "app.cash.sqldelight:coroutines-extensions:2.1.0",
+        "app.cash.sqldelight:primitive-adapters:2.1.0",
+        "app.cash.sqldelight:runtime:2.1.0",
+        "co.touchlab:kermit:2.0.8",
+        "com.addhen.kanalytics:kanalytics:1.4.0",
+        "com.russhwolf:multiplatform-settings-coroutines:1.3.0",
+        "com.russhwolf:multiplatform-settings:1.3.0",
+        "com.seanproctor:data-table-material3:0.11.4",
+        "com.sebastianneubauer.jsontree:jsontree:2.5.0",
+        "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4",
+        "org.jetbrains.androidx.navigation:navigation-compose:2.9.0",
+        "org.jetbrains.compose.components:components-resources:1.9.0",
+        "org.jetbrains.compose.material3:material3:1.8.2",
+        "org.jetbrains.compose.material:material-icons-extended:1.7.3",
+        "org.jetbrains.compose.runtime:runtime:1.9.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+        "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.4.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+        "org.jetbrains.kotlinx:kotlinx-datetime:0.7.1-0.6.x-compat",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+      ]
     }
   },
   "components": [
@@ -130,7 +160,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.3.0"
+          "1.4.0"
         ]
       ],
       "exported": false,
@@ -149,7 +179,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.3.0"
+          "1.4.0"
         ]
       ],
       "exported": true,

@@ -280,6 +280,20 @@
         "com.apollographql.apollo:apollo-api:4.4.2",
         "com.apollographql.cache:normalized-cache:1.0.8"
       ]
+    },
+    "1.0.9": {
+      "fetchedAt": "2026-10-26T05:20:53Z",
+      "sha256": "6c647e4016d589ee7af52bec14c7eb3747f829c45d19abe7c9e07881160a7969",
+      "dependencies": [
+        "androidx.sqlite:sqlite-framework:2.6.1",
+        "androidx.sqlite:sqlite:2.6.1",
+        "androidx.startup:startup-runtime:1.2.0",
+        "app.cash.sqldelight:android-driver:2.1.0",
+        "app.cash.sqldelight:async-extensions:2.1.0",
+        "app.cash.sqldelight:runtime:2.1.0",
+        "com.apollographql.apollo:apollo-api:4.4.2",
+        "com.apollographql.cache:normalized-cache:1.0.9"
+      ]
     }
   },
   "components": [
@@ -289,7 +303,7 @@
       "versionRanges": [
         [
           "1.0.0-alpha.3",
-          "1.0.8"
+          "1.0.9"
         ]
       ],
       "exported": false,

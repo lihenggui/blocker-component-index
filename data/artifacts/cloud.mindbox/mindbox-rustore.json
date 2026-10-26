@@ -229,6 +229,18 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4",
         "ru.rustore.sdk:pushclient:7.4.1"
       ]
+    },
+    "2.16.0-rc": {
+      "fetchedAt": "2026-10-26T05:17:54Z",
+      "sha256": "3ba2832d626db572a46225d21a59ffe978e8a83aea2db41201e4a9f164ece41c",
+      "dependencies": [
+        "androidx.core:core-ktx:1.13.0",
+        "cloud.mindbox:mobile-sdk:2.16.0-rc",
+        "com.google.code.gson:gson:2.8.9",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.22",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4",
+        "ru.rustore.sdk:pushclient:7.2.0"
+      ]
     }
   },
   "components": [
@@ -238,7 +250,7 @@
       "versionRanges": [
         [
           "2.13.3",
-          "2.15.5"
+          "2.16.0-rc"
         ]
       ],
       "exported": false,

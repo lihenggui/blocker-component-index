@@ -229,6 +229,26 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.4.20",
         "org.stagemonitor:stagemonitor-configuration:0.89.1"
       ]
+    },
+    "1.10.0": {
+      "fetchedAt": "2026-10-26T05:18:51Z",
+      "sha256": "76e6f59e0065c4d91965f989ef4782b3e2081c28045fe0984b0c58665cbe2d71",
+      "dependencies": [
+        "androidx.annotation:annotation:1.11.0",
+        "co.elastic.otel.android.instrumentation:api:1.10.0",
+        "co.elastic.otel.android:agent-api:1.10.0",
+        "co.elastic.otel.android:agent-common:1.10.0",
+        "com.dslplatform:dsl-json-java8:1.10.0",
+        "com.squareup.okhttp3:okhttp:5.4.0",
+        "io.opentelemetry.contrib:opentelemetry-disk-buffering:1.60.0-alpha",
+        "io.opentelemetry.contrib:opentelemetry-opamp-client:1.60.0-alpha",
+        "io.opentelemetry.semconv:opentelemetry-semconv-incubating:1.44.0-alpha",
+        "io.opentelemetry.semconv:opentelemetry-semconv:1.44.0",
+        "io.opentelemetry:opentelemetry-api-incubator:1.66.0-alpha",
+        "io.opentelemetry:opentelemetry-exporter-otlp:1.66.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "org.stagemonitor:stagemonitor-configuration:0.89.1"
+      ]
     }
   },
   "components": [
@@ -238,7 +258,7 @@
       "versionRanges": [
         [
           "1.0.0",
-          "1.9.0"
+          "1.10.0"
         ]
       ],
       "exported": true,
