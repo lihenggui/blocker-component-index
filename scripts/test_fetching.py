@@ -48,6 +48,15 @@ class FetchTests(FixtureTest):
         self.assertNotIn("org.dep:runtime", coordinates[mirror])
         self.assertNotIn("org.dep:runtime", coordinates[other])
 
+    def test_given_only_retries_queued_when_fetched_then_newly_enumerated_artifact_is_fetched_in_the_same_run(self):
+        self.store.artifact(REPOSITORY, "org.example:broken", ["1"])
+        self.store.state["fetch"] = {"queue": ["org.example:broken"], "failures": {"org.example:broken": 2}}
+        routes = self.routes()
+        routes[f"{REPOSITORY}/org/example/broken/1/broken-1.pom"] = response(b"", 500)
+        fetch(self.store, FixtureClient(routes))
+        self.assertIsNotNone(self.store.evidence(COORDINATE))
+        self.assertEqual(self.store.state["fetch"]["failures"]["org.example:broken"], 3)
+
     def test_given_latest_has_no_components_when_fetched_then_older_versions_are_not_downloaded(self):
         client = FixtureClient(self.routes(empty_latest=True))
         self.assertTrue(fetch(self.store, client))

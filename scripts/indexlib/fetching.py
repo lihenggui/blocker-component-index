@@ -108,6 +108,10 @@ def _fetch(store, client, max_versions, max_aar_mb):
         store.save()
     failures = progress.setdefault("failures", {})
     pending = progress["queue"]
+    if all(coordinate in failures for coordinate in pending):
+        # Only retries are left: start the next pass now so newly enumerated artifacts do not wait behind them.
+        queued = set(pending)
+        pending.extend(coordinate for coordinate in sorted(store.state.get("artifacts", {})) if coordinate not in queued)
     for _ in range(len(pending)):
         client.check()
         coordinate = pending[0]
