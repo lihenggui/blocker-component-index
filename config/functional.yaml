@@ -2,54 +2,165 @@
 - prefix: androidx.work.impl
   sdk: Jetpack WorkManager
   reason: Background job scheduler from AndroidX
+- prefix: com.adyen.checkout
+  sdk: Adyen Checkout
+  reason: Payment checkout components
+- prefix: com.authme.lib
+  sdk: AuthMe
+  reason: Identity verification and liveness
+- prefix: com.cashfree.pg
+  sdk: Cashfree
+  reason: Payment gateway SDK
 - prefix: com.chuckerteam.chucker
   sdk: Chucker
   reason: In-app HTTP inspector for debug builds
+- prefix: com.didichuxing.doraemonkit
+  sdk: DoKit
+  reason: Debug toolkit
 - prefix: com.dtf.face
   sdk: Ant Digital liveness verification
   reason: Face and NFC identity verification
 - prefix: com.evernote.android
   sdk: Evernote android-job
   reason: Background job scheduler library
+- prefix: com.firebase.ui
+  sdk: FirebaseUI
+  reason: Sign-in and database UI components
+- prefix: com.freshchat.consumer
+  sdk: Freshchat
+  reason: Customer support chat
+- prefix: com.glia.widgets
+  sdk: Glia
+  reason: Customer engagement chat and calls
+- prefix: com.helpcrunch.library
+  sdk: HelpCrunch
+  reason: Customer support chat
+- prefix: com.helpscout.beacon
+  sdk: Help Scout Beacon
+  reason: Customer support widget
 - prefix: com.hyperwallet.android
   sdk: Hyperwallet
   reason: Payout and prepaid card UI SDK
+- prefix: com.hyphenate.easeui
+  sdk: Easemob
+  reason: Instant messaging UI kit
+- prefix: com.incode.welcome_sdk
+  sdk: Incode
+  reason: Identity verification and liveness
+- prefix: com.lenovo.lsf
+  sdk: Lenovo ID
+  reason: Lenovo account sign-in
 - prefix: com.luck.picture
   sdk: PictureSelector
   reason: Image and video picker library
 - prefix: com.megvii.faceee_sdk
   sdk: Megvii Face++
   reason: Face verification SDK
+- prefix: com.mercadopago
+  sdk: Mercado Pago
+  reason: Payment checkout SDK
+- prefix: com.midtrans.sdk
+  sdk: Midtrans
+  reason: Payment gateway checkout UI
 - prefix: com.netease.nimlib
   sdk: NetEase Yunxin IM
   reason: Instant messaging SDK
 - prefix: com.netease.yunxin
   sdk: NetEase Yunxin UIKit
   reason: Instant messaging and RTC UI kits
+- prefix: com.onfido.android
+  sdk: Onfido
+  reason: Identity document and biometric verification
+- prefix: com.processout.sdk
+  sdk: ProcessOut
+  reason: Payment and card scanning SDK
 - prefix: com.qiyukf.unicorn
   sdk: NetEase Qiyu
   reason: Customer service chat SDK
-- prefix: com.sobot.chat
+- prefix: com.rongcloud.im
+  sdk: RongCloud
+  reason: Instant messaging UI kit
+- prefix: com.sendbird.uikit
+  sdk: Sendbird
+  reason: Chat UI kit
+- prefix: com.sina.weibo
+  sdk: Weibo SDK
+  reason: Weibo login and sharing
+- prefix: com.sobot
   sdk: Sobot
   reason: Customer service chat SDK
+- prefix: com.stripe
+  sdk: Stripe
+  reason: Payment and card checkout SDKs
+- prefix: com.taptap.payment
+  sdk: TapTap SDK
+  reason: TapTap payments
+- prefix: com.taptap.sdk
+  sdk: TapTap SDK
+  reason: TapTap login
 - prefix: com.tencent.qcloud
   sdk: Tencent Cloud
   reason: Cloud storage and image codec SDKs
+- prefix: com.tencent.timpush
+  sdk: Tencent Cloud IM Push
+  reason: Offline push channels for Tencent Cloud IM
+- prefix: com.ticketmaster
+  sdk: Ticketmaster Presence SDK
+  reason: Event ticket display
+- prefix: com.unblu.sdk
+  sdk: Unblu
+  reason: Co-browsing and support calls
+- prefix: com.willowtreeapps.hyperion
+  sdk: Hyperion
+  reason: Debug menu
+- prefix: com.yoti.mobile
+  sdk: Yoti
+  reason: Identity document capture
+- prefix: com.zipow.videobox
+  sdk: Zoom Meeting SDK
+  reason: Video meeting SDK
+- prefix: com.zoho.livechat
+  sdk: Zoho SalesIQ
+  reason: Live chat support SDK
 - prefix: de.blinkt.openvpn
   sdk: OpenVPN for Android
   reason: VPN client library
+- prefix: io.agora.chat
+  sdk: Agora Chat
+  reason: Instant messaging UI kit
 - prefix: io.getstream.chat
   sdk: Stream Chat
   reason: Chat messaging SDK
+- prefix: io.intercom.android
+  sdk: Intercom
+  reason: Customer support messenger
 - prefix: io.rong.imkit
   sdk: RongCloud IMKit
   reason: Instant messaging UI kit
+- prefix: me.proton.core
+  sdk: Proton Core
+  reason: Proton account and auth libraries
+- prefix: org.microg.gms
+  sdk: microG
+  reason: Open-source Google Play services replacement
 - prefix: org.mozilla.gecko
   sdk: GeckoView
   reason: Mozilla browser engine
+- prefix: ru.mail.libverify
+  sdk: VK libverify
+  reason: Phone number verification
+- prefix: ru.rustore.sdk
+  sdk: RuStore SDK
+  reason: App store billing, review and update APIs
 - prefix: ru.tinkoff.acquiring
   sdk: Tinkoff Acquiring
   reason: Payment form and card scanning SDK
 - prefix: ru.yoomoney.sdk
   sdk: YooMoney
   reason: Payment and authorization SDK
+- prefix: tw.com.ecpay
+  sdk: ECPay
+  reason: Payment gateway kit
+- prefix: us.zoom
+  sdk: Zoom Meeting SDK
+  reason: Video meeting SDK
