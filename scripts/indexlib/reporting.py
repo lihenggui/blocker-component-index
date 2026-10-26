@@ -2,6 +2,7 @@
 
 from collections import Counter
 from pathlib import Path
+import yaml
 from .storage import checkpointed, read_json
 
 
@@ -32,6 +33,17 @@ def load_rules(rules_dir):
     if not rules_path.is_file():
         raise ValueError(f"Published rules not found: {rules_path}")
     return read_json(rules_path, [])
+
+
+def load_functional(rules_dir):
+    """Prefixes reviewed as functional SDKs in the rules repository; they no longer need review here."""
+    path = Path(rules_dir) / "upstream/component-index/functional.yaml"
+    entries = (yaml.safe_load(path.read_text(encoding="utf-8")) or []) if path.is_file() else []
+    return {entry["prefix"] for entry in entries}
+
+
+def _reviewed(prefix, functional):
+    return any(prefix == item or prefix.startswith(item + ".") for item in functional)
 
 
 def _cell(value):
@@ -72,7 +84,8 @@ def report(store, client, *, rules_dir=None, **_):
     for label, value in sorted(groups.items(), key=lambda item: (-(item[1]["total"] - item[1]["covered"]), item[0])):
         prefixes = ", ".join(f"{prefix} ({count})" for prefix, count in sorted(value["prefixes"].items(), key=lambda item: (-item[1], item[0]))[:10])
         lines.append(f"| {_cell(label)} | {value['total']} | {value['covered']} | {value['total'] - value['covered']} | {_cell(prefixes)} | {_cell(', '.join(sorted(value['rules'])))} |")
-    prefixes = sorted(read_json(store.root / "data/prefixes.json", []),
+    functional = load_functional(rules_dir)
+    prefixes = sorted((item for item in read_json(store.root / "data/prefixes.json", []) if not _reviewed(item["prefix"], functional)),
                       key=lambda item: (-item["components"], item["prefix"]))
     candidates = [item for item in prefixes if not item["coveredBy"] and not item["cooccursWith"]]
     lines.extend(["", "## Candidate prefixes", "",
