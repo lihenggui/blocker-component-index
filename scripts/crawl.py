@@ -9,12 +9,13 @@ import time
 from indexlib.discovery import discover
 from indexlib.fetching import extract, fetch
 from indexlib.http import DeadlineReached, HttpClient
+from indexlib.prefixes import prefixes
 from indexlib.reporting import group, report
 from indexlib.repositories import enumerate_artifacts, probe
 from indexlib.storage import Store
 
 STAGES = {"discover": discover, "probe": probe, "enumerate": enumerate_artifacts,
-          "fetch": fetch, "extract": extract, "group": group, "report": report}
+          "fetch": fetch, "extract": extract, "group": group, "prefixes": prefixes, "report": report}
 
 
 def positive(value):
@@ -74,8 +75,8 @@ def main():
     args = parser.parse_args()
     if args.max_versions < 1:
         parser.error("--max-versions must be at least 1")
-    if args.stage in ("all", "report") and args.rules_dir is None:
-        parser.error("--rules-dir is required for all/report")
+    if args.stage in ("all", "prefixes", "report") and args.rules_dir is None:
+        parser.error("--rules-dir is required for all/prefixes/report")
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     store = Store(Path(__file__).resolve().parent.parent)
     client = HttpClient(deadline=time.monotonic() + args.max_minutes * 60,
