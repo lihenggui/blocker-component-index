@@ -1,0 +1,205 @@
+{
+  "coordinate": "com.huawei.hms:ads-base",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "13.4.91.301": {
+      "fetchedAt": "2026-10-26T15:57:12Z",
+      "sha256": "f1ead77a78b9237d93f98ae8e2ebaf7575d9fff86a1b8e629b7035fbe9cf811c",
+      "dependencies": [
+        "com.huawei.hms:ads-uiengineloader:3.4.91.301"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.openalliance.ad.activity.AgProtocolActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.activity.ComplianceActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.activity.PPSBridgeActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.activity.PPSLauncherActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "android.intent.action.VIEW"
+      ],
+      "categories": [
+        "android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.activity.PPSNotificationActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.activity.PPSShareActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.activity.TemplateStubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.hms.pps.action.PPS_STUB"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.activity.UiengineStubActivity",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "com.huawei.hms.pps.action.PPS_UIENGINE_STUB"
+      ],
+      "categories": [
+        "android.intent.category.DEFAULT"
+      ],
+      "metaData": [
+        "hnc-theme",
+        "hwc-theme"
+      ]
+    },
+    {
+      "name": "com.huawei.openalliance.ad.provider.PPSECProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "13.4.91.301",
+          "13.4.91.301"
+        ]
+      ],
+      "exported": true,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.pps.ecprovider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

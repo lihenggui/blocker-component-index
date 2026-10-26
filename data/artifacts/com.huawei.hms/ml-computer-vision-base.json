@@ -1,0 +1,36 @@
+{
+  "coordinate": "com.huawei.hms:ml-computer-vision-base",
+  "repository": "https://developer.huawei.com/repo",
+  "versions": {
+    "3.18.6.305": {
+      "fetchedAt": "2026-10-26T15:57:28Z",
+      "sha256": "a36d6b25660a6192ac103126914cc74d0ce2abe4b9c4a456af4658e84da4ac49",
+      "dependencies": [
+        "com.huawei.hms:base:6.11.0.302",
+        "com.huawei.hms:ml-computer-agc-inner:3.18.6.305",
+        "com.huawei.hms:ml-computer-commonutils-inner:3.18.6.305",
+        "com.huawei.hms:ml-computer-ha-inner:3.18.6.305",
+        "com.huawei.hms:ml-computer-sdkbase-inner:3.18.6.305"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "com.huawei.hms.mlsdk.common.provider.MLInitializerProvider",
+      "type": "provider",
+      "versionRanges": [
+        [
+          "3.18.6.305",
+          "3.18.6.305"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": "${applicationId}.MLInitializerProvider",
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}
