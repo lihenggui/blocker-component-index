@@ -172,32 +172,53 @@ class DiscoveryTests(FixtureTest):
             self.assertTrue(discover(saved, client))
         self.assertEqual(len(client.calls), 16)
 
-    def test_given_broad_cooldown_when_new_host_and_completed_tree_exist_then_host_search_and_tree_refresh_still_run(self):
+    def test_given_broad_cooldown_when_new_host_and_completed_tree_exist_then_host_search_runs_without_tree_refresh(self):
         epoch = datetime(2026, 10, 22, tzinfo=timezone.utc).timestamp()
         repository = "https://sdk.example.org/repo"
         add_repository(self.store, repository, "pom")
         self.store.state["discover"] = {"broadCompletedAt": "2026-10-22T00:00:00Z", "trees": {
             "o/r": {"repositories": [repository], "done": True, "paths": [], "cursor": 0}}}
-
-        def handler(url, **kwargs):
-            if "/search/code?" in url:
-                return response({"total_count": 0, "items": []})
-            if url == "https://api.github.com/repos/o/r":
-                return response({"default_branch": "main"})
-            if "/git/trees/" in url:
-                return response({"tree": [{"type": "blob", "path": "build.gradle"}]})
-            return response('implementation "org.example:sdk:1"')
-        client = FixtureClient(handler=handler, token="fixture")
+        client = FixtureClient(handler=self._tree_handler, token="fixture")
         with patch("indexlib.discovery.time.time", return_value=epoch):
             self.assertTrue(discover(self.store, client))
             searches = [url for url, _ in client.calls if "/search/code?" in url]
             self.assertEqual(len(searches), 4)
             self.assertTrue(all(parse_qs(urlsplit(url).query)["q"][0].startswith('"sdk.example.org"') for url in searches))
-            client.calls.clear()
+        self.assertFalse(any("raw.githubusercontent.com" in url for url, _ in client.calls))
+        self.assertTrue(self.store.state["discover"]["trees"]["o/r"]["done"])
+
+    def test_given_due_broad_cycle_when_it_starts_then_completed_trees_are_harvested_again(self):
+        repository = "https://sdk.example.org/repo"
+        add_repository(self.store, repository, "pom")
+        self.store.state["discover"] = {"broadCompletedAt": "2026-09-01T00:00:00Z", "hosts": ["sdk.example.org"], "trees": {
+            "o/r": {"repositories": [repository], "done": True, "paths": [], "cursor": 0}}}
+        client = FixtureClient(handler=self._tree_handler, token="fixture")
+        epoch = datetime(2026, 10, 22, tzinfo=timezone.utc).timestamp()
+        with patch("indexlib.discovery.time.time", return_value=epoch):
             self.assertTrue(discover(self.store, client))
         self.assertEqual(len([url for url, _ in client.calls if "raw.githubusercontent.com" in url]), 1)
-        self.assertFalse(any("/search/code?" in url for url, _ in client.calls))
         self.assertEqual(self.store.state["coordinates"][repository], ["org.example:sdk"])
+
+    def test_given_broad_cycle_in_progress_when_discovery_resumes_then_completed_trees_are_not_harvested_again(self):
+        repository = "https://sdk.example.org/repo"
+        add_repository(self.store, repository, "pom")
+        self.store.state["discover"] = {"hosts": ["sdk.example.org"], "queue": [
+            {"file": "build.gradle", "low": 5, "high": 5, "page": 1, "host": ""}], "trees": {
+            "o/r": {"repositories": [repository], "done": True, "paths": [], "cursor": 0}}}
+        client = FixtureClient(handler=self._tree_handler, token="fixture")
+        self.assertTrue(discover(self.store, client))
+        self.assertFalse(any("raw.githubusercontent.com" in url for url, _ in client.calls))
+        self.assertTrue(self.store.state["discover"]["trees"]["o/r"]["done"])
+
+    @staticmethod
+    def _tree_handler(url, **kwargs):
+        if "/search/code?" in url:
+            return response({"total_count": 0, "items": []})
+        if url == "https://api.github.com/repos/o/r":
+            return response({"default_branch": "main"})
+        if "/git/trees/" in url:
+            return response({"tree": [{"type": "blob", "path": "build.gradle"}]})
+        return response('implementation "org.example:sdk:1"')
 
     def test_given_discovery_budget_when_search_remains_then_it_returns_unfinished_restores_deadline_and_saves_progress(self):
         clock = Clock()
