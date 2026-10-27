@@ -167,7 +167,8 @@ def _prepare(store, progress):
                 for shard in queue if shard["host"] or shard["low"] <= 65535]
     completed_at = progress.get("broadCompletedAt")
     due = not completed_at or time.time() - datetime.fromisoformat(completed_at).timestamp() >= 28 * 86400
-    if due and not any(not shard["host"] for shard in queue):
+    starting = due and not any(not shard["host"] for shard in queue)
+    if starting:
         queue.extend(_shards())
     hosts = progress.setdefault("hosts", [])
     builtin_hosts = {urlsplit(url).hostname for url in BUILTINS}
@@ -179,10 +180,13 @@ def _prepare(store, progress):
                 queue.extend(_shards(host))
     queue.sort(key=lambda shard: not bool(shard["host"]))
     trees = progress.setdefault("trees", {})
-    pending = {name: tree for name, tree in trees.items() if not tree.get("done")}
-    refreshed = {name: {"repositories": tree["repositories"], "coordinates": []}
-                 for name, tree in trees.items() if tree.get("done")}
-    progress["trees"] = {**pending, **refreshed}
+    if starting:
+        # Re-harvest finished trees when a broad cycle starts, not every run: a full refresh takes longer than the
+        # harvesting budget, so refreshing each run would starve trees that were never harvested.
+        pending = {name: tree for name, tree in trees.items() if not tree.get("done")}
+        refreshed = {name: {"repositories": tree["repositories"], "coordinates": []}
+                     for name, tree in trees.items() if tree.get("done")}
+        progress["trees"] = {**pending, **refreshed}
     for tree in progress["trees"].values():
         if "paths" in tree and (len(tree["paths"]) > 50 or "coordinates" not in tree):
             tree["paths"] = _tree_paths(tree["paths"])
