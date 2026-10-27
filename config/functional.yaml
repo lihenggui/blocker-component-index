@@ -1,10 +1,16 @@
 # Prefixes reviewed as functional (non-tracker) SDKs; the coverage report stops listing them and their sub-packages.
+- prefix: ando.gallery
+  sdk: Ando Gallery
+  reason: Image picker library
 - prefix: androidx.work.impl
   sdk: Jetpack WorkManager
   reason: Background job scheduler from AndroidX
 - prefix: br.com.mrocigno
   sdk: Big Brother
   reason: Debug toolkit
+- prefix: cn.qhplus.emo
+  sdk: Emo
+  reason: UI and photo utility library
 - prefix: co.youverify.yvos_sdk
   sdk: Youverify
   reason: Identity document capture
@@ -29,6 +35,9 @@
 - prefix: com.authme.lib
   sdk: AuthMe
   reason: Identity verification and liveness
+- prefix: com.azure.android
+  sdk: Azure Communication Services
+  reason: Calling and chat SDK
 - prefix: com.baidu.platformsdk
   sdk: Baidu Game SDK
   reason: Game login and payments
@@ -257,6 +266,9 @@
 - prefix: io.agora.chat
   sdk: Agora Chat
   reason: Instant messaging UI kit
+- prefix: io.elements.pay
+  sdk: Elements Pay
+  reason: Payment checkout components
 - prefix: io.getstream.chat
   sdk: Stream Chat
   reason: Chat messaging SDK
@@ -266,6 +278,9 @@
 - prefix: io.intercom.android
   sdk: Intercom
   reason: Customer support messenger
+- prefix: io.mehow.squashit
+  sdk: SquashIt
+  reason: In-app bug reporting
 - prefix: io.requestly.android
   sdk: Requestly
   reason: Network debugger
@@ -281,6 +296,9 @@
 - prefix: me.proton.core
   sdk: Proton Core
   reason: Proton account and auth libraries
+- prefix: one.credify.sdk
+  sdk: Credify
+  reason: Identity verification (eKYC)
 - prefix: org.microg.gms
   sdk: microG
   reason: Open-source Google Play services replacement
