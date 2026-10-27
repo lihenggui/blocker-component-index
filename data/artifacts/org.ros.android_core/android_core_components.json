@@ -1,0 +1,57 @@
+{
+  "coordinate": "org.ros.android_core:android_core_components",
+  "repository": "https://raw.githubusercontent.com/rosjava/rosjava_mvn_repo/master",
+  "versions": {
+    "0.4.0": {
+      "fetchedAt": "2026-10-27T07:06:42Z",
+      "sha256": "ebc0ed23964d6b1a42f7a8083bdc979b10eed1c0e1322bde3a7b5e2ae24a0f4c",
+      "dependencies": [
+        "com.android.support:appcompat-v7:27.1.1",
+        "com.android.support:support-v4:27.1.1",
+        "org.ros.rosjava_core:rosjava:[0.3.2,0.4)",
+        "org.ros.rosjava_core:rosjava_geometry:[0.3,0.4)",
+        "org.ros.rosjava_messages:diagnostic_msgs:[1.12,1.13)",
+        "org.ros.rosjava_messages:sensor_msgs:[1.12,1.13)",
+        "org.ros.rosjava_messages:visualization_msgs:[1.12,1.13)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.ros.android.MasterChooser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.ros.android.NodeMainExecutorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.4.0",
+          "0.4.0"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.ros.android.NodeMainExecutorService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}
