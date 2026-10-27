@@ -2,12 +2,42 @@
 - prefix: androidx.work.impl
   sdk: Jetpack WorkManager
   reason: Background job scheduler from AndroidX
+- prefix: br.com.mrocigno
+  sdk: Big Brother
+  reason: Debug toolkit
+- prefix: co.youverify.yvos_sdk
+  sdk: Youverify
+  reason: Identity document capture
+- prefix: com.adobe.creativesdk
+  sdk: Adobe Creative SDK
+  reason: Image editing
 - prefix: com.adyen.checkout
   sdk: Adyen Checkout
   reason: Payment checkout components
+- prefix: com.airwallex.android
+  sdk: Airwallex
+  reason: Payment checkout SDK
+- prefix: com.appcoins.sdk
+  sdk: AppCoins
+  reason: In-app billing
+- prefix: com.appliedrec.verid
+  sdk: Ver-ID
+  reason: Face recognition
+- prefix: com.applivery.android
+  sdk: Applivery
+  reason: App distribution and feedback
 - prefix: com.authme.lib
   sdk: AuthMe
   reason: Identity verification and liveness
+- prefix: com.baidu.platformsdk
+  sdk: Baidu Game SDK
+  reason: Game login and payments
+- prefix: com.behance.sdk
+  sdk: Behance SDK
+  reason: Project publishing
+- prefix: com.box.androidsdk
+  sdk: Box
+  reason: Cloud file browsing
 - prefix: com.cashfree.pg
   sdk: Cashfree
   reason: Payment gateway SDK
@@ -20,15 +50,27 @@
 - prefix: com.dtf.face
   sdk: Ant Digital liveness verification
   reason: Face and NFC identity verification
+- prefix: com.duoku.platform
+  sdk: Baidu Duoku
+  reason: Game login and payments
+- prefix: com.echatsoft.echatsdk
+  sdk: eChat
+  reason: Customer service chat
 - prefix: com.evernote.android
   sdk: Evernote android-job
   reason: Background job scheduler library
+- prefix: com.exyui.android
+  sdk: Debug Bottle
+  reason: Debug toolkit
 - prefix: com.firebase.ui
   sdk: FirebaseUI
   reason: Sign-in and database UI components
 - prefix: com.freshchat.consumer
   sdk: Freshchat
   reason: Customer support chat
+- prefix: com.github.kaygenzo
+  sdk: BugReporter
+  reason: In-app bug reporting
 - prefix: com.glia.widgets
   sdk: Glia
   reason: Customer engagement chat and calls
@@ -38,6 +80,9 @@
 - prefix: com.helpscout.beacon
   sdk: Help Scout Beacon
   reason: Customer support widget
+- prefix: com.hihonor.gamecenter
+  sdk: HONOR Game Center
+  reason: Game login and payments
 - prefix: com.hyperwallet.android
   sdk: Hyperwallet
   reason: Payout and prepaid card UI SDK
@@ -47,21 +92,42 @@
 - prefix: com.incode.welcome_sdk
   sdk: Incode
   reason: Identity verification and liveness
+- prefix: com.infinum.dbinspector
+  sdk: DbInspector
+  reason: Database inspector for debug builds
+- prefix: com.infinum.sentinel
+  sdk: Sentinel
+  reason: Debug tools menu
+- prefix: com.innov8tif.okaycam
+  sdk: OkayCam
+  reason: Identity document capture
 - prefix: com.lenovo.lsf
   sdk: Lenovo ID
   reason: Lenovo account sign-in
+- prefix: com.liferay.mobile
+  sdk: Liferay Mobile SDK
+  reason: Liferay portal client
 - prefix: com.luck.picture
   sdk: PictureSelector
   reason: Image and video picker library
+- prefix: com.m7.imkfsdk
+  sdk: 7moor
+  reason: Customer service chat
 - prefix: com.megvii.faceee_sdk
   sdk: Megvii Face++
   reason: Face verification SDK
 - prefix: com.mercadopago
   sdk: Mercado Pago
   reason: Payment checkout SDK
+- prefix: com.microsoft.identity
+  sdk: MSAL
+  reason: Microsoft account sign-in
 - prefix: com.midtrans.sdk
   sdk: Midtrans
   reason: Payment gateway checkout UI
+- prefix: com.nearme.game
+  sdk: OPPO Game SDK
+  reason: Game login and payments
 - prefix: com.netease.nimlib
   sdk: NetEase Yunxin IM
   reason: Instant messaging SDK
@@ -71,12 +137,18 @@
 - prefix: com.onfido.android
   sdk: Onfido
   reason: Identity document and biometric verification
+- prefix: com.paypal.android
+  sdk: PayPal
+  reason: Payment checkout SDK
 - prefix: com.processout.sdk
   sdk: ProcessOut
   reason: Payment and card scanning SDK
-- prefix: com.qiyukf.unicorn
+- prefix: com.qiyukf
   sdk: NetEase Qiyu
   reason: Customer service chat SDK
+- prefix: com.quash.bugs
+  sdk: Quash
+  reason: In-app bug reporting
 - prefix: com.rongcloud.im
   sdk: RongCloud
   reason: Instant messaging UI kit
@@ -86,12 +158,21 @@
 - prefix: com.sina.weibo
   sdk: Weibo SDK
   reason: Weibo login and sharing
+- prefix: com.snap.shopping
+  sdk: Snap Camera Kit
+  reason: AR shopping camera
 - prefix: com.sobot
   sdk: Sobot
   reason: Customer service chat SDK
 - prefix: com.stripe
   sdk: Stripe
   reason: Payment and card checkout SDKs
+- prefix: com.sumup.merchant
+  sdk: SumUp
+  reason: Card reader payments
+- prefix: com.swirepay.android_sdk
+  sdk: Swirepay
+  reason: Payment checkout SDK
 - prefix: com.taptap.payment
   sdk: TapTap SDK
   reason: TapTap payments
@@ -110,12 +191,24 @@
 - prefix: com.unblu.sdk
   sdk: Unblu
   reason: Co-browsing and support calls
+- prefix: com.vhall.appui
+  sdk: Vhall
+  reason: Live streaming UI
+- prefix: com.voxeet.uxkit
+  sdk: Dolby.io Communications
+  reason: Video conferencing UI kit
 - prefix: com.willowtreeapps.hyperion
   sdk: Hyperion
   reason: Debug menu
+- prefix: com.yanzhenjie.album
+  sdk: Album
+  reason: Image and video picker library
 - prefix: com.yoti.mobile
   sdk: Yoti
   reason: Identity document capture
+- prefix: com.ziggeo.androidsdk
+  sdk: Ziggeo
+  reason: Video recording and playback
 - prefix: com.zipow.videobox
   sdk: Zoom Meeting SDK
   reason: Video meeting SDK
@@ -131,9 +224,15 @@
 - prefix: io.getstream.chat
   sdk: Stream Chat
   reason: Chat messaging SDK
+- prefix: io.getstream.video
+  sdk: Stream Video
+  reason: Video calling SDK
 - prefix: io.intercom.android
   sdk: Intercom
   reason: Customer support messenger
+- prefix: io.requestly.android
+  sdk: Requestly
+  reason: Network debugger
 - prefix: io.rong.imkit
   sdk: RongCloud IMKit
   reason: Instant messaging UI kit
@@ -152,8 +251,8 @@
 - prefix: ru.rustore.sdk
   sdk: RuStore SDK
   reason: App store billing, review and update APIs
-- prefix: ru.tinkoff.acquiring
-  sdk: Tinkoff Acquiring
+- prefix: ru.tinkoff
+  sdk: Tinkoff SDKs
   reason: Payment form and card scanning SDK
 - prefix: ru.yoomoney.sdk
   sdk: YooMoney
