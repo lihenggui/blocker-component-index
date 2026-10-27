@@ -1,0 +1,101 @@
+{
+  "coordinate": "org.ros.android_core:android_10",
+  "repository": "https://raw.githubusercontent.com/rosjava/rosjava_mvn_repo/master",
+  "versions": {
+    "0.2.0": {
+      "fetchedAt": "2026-10-27T02:21:53Z",
+      "sha256": "ffb4a8188ca08018c148fd221cb07e0db4678a556ffb52c31f953811d3323a7f",
+      "dependencies": [
+        "org.ros.rosjava_core:rosjava:[0.2,0.3)",
+        "org.ros.rosjava_messages:diagnostic_msgs:[1.11,1.12)",
+        "org.ros.rosjava_messages:sensor_msgs:[1.11,1.12)"
+      ]
+    },
+    "0.2.1": {
+      "fetchedAt": "2026-10-27T02:21:53Z",
+      "sha256": "ffb4a8188ca08018c148fd221cb07e0db4678a556ffb52c31f953811d3323a7f",
+      "dependencies": [
+        "org.ros.rosjava_core:rosjava:[0.2.2,0.3)",
+        "org.ros.rosjava_messages:diagnostic_msgs:[1.11,1.12)",
+        "org.ros.rosjava_messages:sensor_msgs:[1.11,1.12)"
+      ]
+    },
+    "0.3.0": {
+      "fetchedAt": "2026-10-27T02:21:52Z",
+      "sha256": "ffb4a8188ca08018c148fd221cb07e0db4678a556ffb52c31f953811d3323a7f",
+      "dependencies": [
+        "org.ros.rosjava_core:rosjava:[0.3,0.4)",
+        "org.ros.rosjava_messages:diagnostic_msgs:[1.12,1.13)",
+        "org.ros.rosjava_messages:sensor_msgs:[1.12,1.13)"
+      ]
+    },
+    "0.3.1": {
+      "fetchedAt": "2026-10-27T02:21:52Z",
+      "sha256": "ffb4a8188ca08018c148fd221cb07e0db4678a556ffb52c31f953811d3323a7f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.1.0",
+        "org.ros.rosjava_core:rosjava:[0.3,0.4)",
+        "org.ros.rosjava_messages:diagnostic_msgs:[1.12,1.13)",
+        "org.ros.rosjava_messages:sensor_msgs:[1.12,1.13)"
+      ]
+    },
+    "0.3.2": {
+      "fetchedAt": "2026-10-27T02:21:52Z",
+      "sha256": "ffb4a8188ca08018c148fd221cb07e0db4678a556ffb52c31f953811d3323a7f",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.1.0",
+        "org.ros.rosjava_core:rosjava:[0.3.2,0.4)",
+        "org.ros.rosjava_messages:diagnostic_msgs:[1.12,1.13)",
+        "org.ros.rosjava_messages:sensor_msgs:[1.12,1.13)"
+      ]
+    },
+    "0.3.3": {
+      "fetchedAt": "2026-10-27T02:21:51Z",
+      "sha256": "3676db3c23922c248e661af156dd0c9385584084c3cddcb64d528db143f5753b",
+      "dependencies": [
+        "com.android.support:appcompat-v7:25.1.0",
+        "org.ros.rosjava_core:rosjava:[0.3.2,0.4)",
+        "org.ros.rosjava_messages:diagnostic_msgs:[1.12,1.13)",
+        "org.ros.rosjava_messages:sensor_msgs:[1.12,1.13)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "org.ros.android.MasterChooser",
+      "type": "activity",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.3.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    },
+    {
+      "name": "org.ros.android.NodeMainExecutorService",
+      "type": "service",
+      "versionRanges": [
+        [
+          "0.2.0",
+          "0.3.3"
+        ]
+      ],
+      "exported": null,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [
+        "org.ros.android.NodeMainExecutorService"
+      ],
+      "categories": [],
+      "metaData": []
+    }
+  ]
+}

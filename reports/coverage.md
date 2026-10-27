@@ -1,19 +1,19 @@
 # Component coverage
 
-Repositories: 447
+Repositories: 484
 
 | Capability | Repositories |
 | --- | ---: |
 | central-search | 1 |
 | google-index | 1 |
-| listing | 63 |
-| metadata | 325 |
-| mirror | 44 |
-| nexus3 | 29 |
+| listing | 64 |
+| metadata | 352 |
+| mirror | 47 |
+| nexus3 | 31 |
 
-Artifacts: 33752
-Artifacts with components: 6029
-Components: 28093
+Artifacts: 33770
+Artifacts with components: 6030
+Components: 28095
 
 Components are unique (name, type) pairs per artifact, across fetched versions.
 
@@ -1850,6 +1850,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | org.mongodb | 2 | 0 | 2 | com.mongodb.stitch (2) |  |
 | org.openziti | 2 | 0 | 2 | org.openziti.android (2) |  |
 | org.pireco | 2 | 0 | 2 | org.pireco.kypsdk (2) |  |
+| org.ros.android_core | 2 | 0 | 2 | org.ros.android (2) |  |
 | org.solovyev.android | 2 | 0 | 2 | net.robotmedia.billing (2) |  |
 | rest.bef | 2 | 0 | 2 | rest.bef (2) |  |
 | ru.bartwell | 2 | 0 | 2 | ru.bartwell.exfilepicker (1), ru.bartwell.ultradebugger (1) |  |
@@ -3590,6 +3591,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.contentsquare.android.internal | 0 | 0 | 0 |  |  |
 | com.contentstack | 0 | 0 | 0 |  |  |
 | com.contextcue | 0 | 0 | 0 |  |  |
+| com.contrarywind | 0 | 0 | 0 |  |  |
 | com.convertigo.sdk | 0 | 0 | 0 |  |  |
 | com.conviva.sdk | 2 | 2 | 0 |  | 221 |
 | com.cookpad.puree-kotlin | 0 | 0 | 0 |  |  |
@@ -3944,6 +3946,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.github.92tonywills | 0 | 0 | 0 |  |  |
 | com.github.AAChartModel | 0 | 0 | 0 |  |  |
 | com.github.ASKabanets | 0 | 0 | 0 |  |  |
+| com.github.AgoraIO-Community | 0 | 0 | 0 |  |  |
 | com.github.AmalH | 0 | 0 | 0 |  |  |
 | com.github.AmalLibs | 0 | 0 | 0 |  |  |
 | com.github.AppDevNext.AndroidChart | 0 | 0 | 0 |  |  |
@@ -3964,6 +3967,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.github.JamalMulla | 0 | 0 | 0 |  |  |
 | com.github.Jasonchenlijian | 0 | 0 | 0 |  |  |
 | com.github.LavishSwarnkar | 0 | 0 | 0 |  |  |
+| com.github.MRwangqi | 0 | 0 | 0 |  |  |
 | com.github.Microsoft.AdaptiveCards | 0 | 0 | 0 |  |  |
 | com.github.MikeOrtiz | 0 | 0 | 0 |  |  |
 | com.github.MostafaGazar | 0 | 0 | 0 |  |  |
@@ -4662,6 +4666,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.github.rmielnik | 0 | 0 | 0 |  |  |
 | com.github.romangromov | 0 | 0 | 0 |  |  |
 | com.github.roroche | 0 | 0 | 0 |  |  |
+| com.github.rosjava.android_remocons | 0 | 0 | 0 |  |  |
 | com.github.rpradal.lettrine | 0 | 0 | 0 |  |  |
 | com.github.rtoshiro | 0 | 0 | 0 |  |  |
 | com.github.rtoshiro.fullscreenvideoview | 0 | 0 | 0 |  |  |
@@ -5230,6 +5235,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.iotecksolutions | 0 | 0 | 0 |  |  |
 | com.iqiyi.xcrash | 0 | 0 | 0 |  |  |
 | com.ironcorelabs | 0 | 0 | 0 |  |  |
+| com.ironsource | 0 | 0 | 0 |  |  |
 | com.ironsource.adapters | 0 | 0 | 0 |  |  |
 | com.irurueta | 0 | 0 | 0 |  |  |
 | com.isaacrf.epicbitmaprenderer | 0 | 0 | 0 |  |  |
@@ -5733,6 +5739,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.ncona | 0 | 0 | 0 |  |  |
 | com.ncorti | 0 | 0 | 0 |  |  |
 | com.nec.baas | 0 | 0 | 0 |  |  |
+| com.necer.ncalendar | 0 | 0 | 0 |  |  |
 | com.negusoft.holoaccent | 0 | 0 | 0 |  |  |
 | com.netease | 0 | 0 | 0 |  |  |
 | com.netease.cloudmusic.adsparrow | 3 | 3 | 0 |  | 1, 8 |
@@ -9863,6 +9870,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | tr.com.turkcellteknoloji.turkcellupdater | 0 | 0 | 0 |  |  |
 | travel.izi.api | 0 | 0 | 0 |  |  |
 | tv.brid.sdk | 0 | 0 | 0 |  |  |
+| tv.danmaku.ijk.media | 0 | 0 | 0 |  |  |
 | tv.loilo.pdf | 0 | 0 | 0 |  |  |
 | tv.loilo.promise | 0 | 0 | 0 |  |  |
 | tv.mycujoo.mcls | 0 | 0 | 0 |  |  |
@@ -9976,7 +9984,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.streethawk.library | 38 | 2 | com.streethawk.library.ActivityRecognitionIntentService |
 | org.odk.collect | 38 | 1 | org.odk.collect.android.activities.AboutActivity |
 | tookan.activities | 38 | 1 | tookan.activities.AgentIncentivesActivity |
-| com.adobe.creativesdk | 37 | 2 | com.adobe.creativesdk.aviary.AdobeImageBillingService |
 | ly.warp.sdk | 37 | 1 | ly.warp.sdk.activities.ActiveCouponsActivity |
 | com.qualcomm.ftccommon | 36 | 1 | com.qualcomm.ftccommon.AboutActivity |
 | network.mintex.module_kyc | 35 | 1 | network.mintex.module_kyc.ui.activity.ApplicationReviewActivity |
@@ -9989,9 +9996,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.yxt.sdk | 27 | 6 | com.yxt.sdk.android.crop.CropImageActivity |
 | com.lexar.cloudlibrary | 26 | 1 | com.lexar.cloudlibrary.aodplayer.MusicService |
 | print.io | 26 | 1 | print.io.ActivityAbout |
-| br.com.mrocigno | 25 | 1 | br.com.mrocigno.bigbrother.core.BigBrotherDatabaseTask |
 | com.pax.vas | 25 | 1 | com.pax.vas.stackly.NativeWatchService |
-| com.echatsoft.echatsdk | 24 | 3 | com.echatsoft.echatsdk.agentweb.ActionActivity |
 | com.sipdroid.nxcloud | 24 | 1 | com.sipdroid.nxcloud.sipsdk.SipSdkActivity |
 | com.toast.android | 24 | 4 | com.toast.android.gamebase.GamebaseInitProvider |
 | com.pulsatehq.internal | 23 | 1 | com.pulsatehq.internal.PulsateBootReceiver |
@@ -9999,20 +10004,16 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.doinglab.foodlens | 22 | 1 | com.doinglab.foodlens.sdk.core.util.FoodLensProvider |
 | com.icatch.panorama | 22 | 1 | com.icatch.panorama.ApplicationContextProvider |
 | com.sagisu.vaultLibrary | 22 | 1 | com.sagisu.vaultLibrary.TransactionDetailsActivity |
-| com.snap.shopping | 22 | 1 | com.snap.shopping.camerakit.fitfinder.FitFinderAgeActivity |
 | org.geometerplus.android | 22 | 1 | org.geometerplus.android.fbreader.BookmarkEditActivity |
 | cn.authing.guard | 21 | 1 | cn.authing.guard.activity.AppScanLoginActivity |
 | com.bytetrack.android | 21 | 1 | com.bytetrack.android.sdk.file.core.ByteTrackFileProvider |
 | com.carrierx.bullhorn | 21 | 1 | com.carrierx.bullhorn.download.MediaDownloadService |
 | com.tiocloud.newpay | 21 | 1 | com.tiocloud.newpay.feature.account.AccountActivity |
-| com.vhall.appui | 21 | 2 | com.vhall.appui.TestActivity |
 | cloud.shoplive.sdk | 20 | 1 | cloud.shoplive.sdk.ShopLivePlayerActivity |
 | com.enioka.scanner | 20 | 1 | com.enioka.scanner.activities.ScannerCompatActivity |
 | com.jrmf360.walletlib | 20 | 1 | com.jrmf360.walletlib.ui.AccountInfoActivity |
 | com.nhncloud.android | 20 | 3 | com.nhncloud.android.NhnCloudInitProvider |
-| ru.tinkoff.tisdk | 20 | 1 | ru.tinkoff.tisdk.auth.AuthActivity |
 | com.pixmatrix.shop | 19 | 1 | com.pixmatrix.shop.ui.PMMainActivity |
-| com.quash.bugs | 19 | 1 | com.quash.bugs.presentation.buglist.activities.QuashBugListActivity |
 | com.relateddigital.relateddigital_android | 19 | 2 | com.relateddigital.relateddigital_android.geofence.GeofenceAlarm |
 | com.tapsdk.tapad | 19 | 2 | com.tapsdk.tapad.internal.ApkNotificationReceiver |
 | com.tratagroup.hse | 19 | 1 | com.tratagroup.hse.AndroidDatabaseManager |
@@ -10052,7 +10053,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.skyjie.djlib | 16 | 1 | com.skyjie.djlib.AnimateActivity |
 | com.stv.msgservice | 16 | 1 | com.stv.msgservice.MainActivity |
 | com.tianmu.biz | 16 | 1 | com.tianmu.biz.activity.AdDetailActivity |
-| com.voxeet.uxkit | 16 | 2 | com.voxeet.uxkit.firebase.implementation.VoxeetFirebaseMessagingService |
 | com.zsmarter.hulk | 16 | 2 | com.zsmarter.hulk.HulkReceiver |
 | io.github.andrnv | 16 | 1 | io.github.andrnv.AppUpdateReceiver |
 | net.indigitall.pushsdk | 16 | 1 | net.indigitall.pushsdk.GCMIntentService |
@@ -10081,82 +10081,90 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | br.com.venturelabs | 13 | 1 | br.com.venturelabs.bluepay.feature.activate.ui.main.ActivateDeviceMainActivity |
 | cn.entertech.uicomponentsdk | 13 | 1 | cn.entertech.uicomponentsdk.activity.AffectiveLineChartFullScreenActivity |
 | com.ap.android | 13 | 1 | com.ap.android.trunk.sdk.ad.activity.APADViewActivity |
-| com.appcoins.sdk | 13 | 1 | com.appcoins.sdk.billing.UriCommunicationActivity |
-| com.baidu.platformsdk | 13 | 1 | com.baidu.platformsdk.AssistActivity |
-| com.behance.sdk | 13 | 1 | com.behance.sdk.services.BehanceSDKPublishProjectService |
 | com.cordial.feature | 13 | 1 | com.cordial.feature.inappmessage.ui.activity.InAppMessageActivity |
 | com.devsu.library | 13 | 1 | com.devsu.library.pushclient.service.IdListenerService |
 | com.drivebuddyapp.drivebuddysdk | 13 | 1 | com.drivebuddyapp.drivebuddysdk.DriveBuddyActivityRecognitionIntentService |
 | com.evokly.sdk | 13 | 1 | com.evokly.sdk.actions.activity.ActionActivity |
-| com.exyui.android | 13 | 1 | com.exyui.android.debugbottle.components.DTDrawerActivity |
 | com.hhmedic.android | 13 | 1 | com.hhmedic.android.sdk.base.utils.HHFileProvider |
-| com.infinum.sentinel | 13 | 1 | com.infinum.sentinel.SentinelLogsProvider |
-| com.liferay.mobile | 13 | 1 | com.liferay.mobile.android.auth.oauth2.OAuth2RedirectActivity |
 | com.mojro.partner | 13 | 1 | com.mojro.partner.core.data.SyncService |
-| com.nearme.game | 13 | 5 | com.nearme.game.sdk.FrameInitService |
 | com.ogury.analytics | 13 | 1 | com.ogury.analytics.activity.SBActivity |
 | com.shopiroller.activities | 13 | 2 | com.shopiroller.activities.CategoryListActivity |
 | com.startpineapple.kblsdkwelfare | 13 | 1 | com.startpineapple.kblsdkwelfare.ui.BigNameHomeActivity |
 | com.yodo1.android | 13 | 5 | com.yodo1.android.fancraft.FanCraftFirebaseMessagingService |
-| com.ziggeo.androidsdk | 13 | 2 | com.ziggeo.androidsdk.analytics.AnalyticsIntentService |
 | io.nearpay.sdk | 13 | 1 | io.nearpay.sdk.NearPayService |
 | net.youmi.overseas | 13 | 1 | net.youmi.overseas.android.background.receiver.PackageReceiver |
 | tk.jamun.ui | 13 | 1 | tk.jamun.ui.browser.ui.SinglePageBrowser |
 | ventures.aag.metaonesdk | 13 | 1 | ventures.aag.metaonesdk.activities.BrowserActivity |
 | com.bfcy.base | 12 | 1 | com.bfcy.base.activity.ActivityA |
 | com.engagelab.privates | 12 | 2 | com.engagelab.privates.common.component.MTCommonActivity |
-| com.github.kaygenzo | 12 | 1 | com.github.kaygenzo.bugreporter.BugReportActivity |
 | com.growingio.android | 12 | 3 | com.growingio.android.database.EventDataContentProvider |
 | com.happygame.sdk | 12 | 1 | com.happygame.sdk.ui.AddTrumpetActivity |
-| com.hihonor.gamecenter | 12 | 1 | com.hihonor.gamecenter.gcjointsdk.framework.activity.GCActivity |
 | com.indigitall.android | 12 | 1 | com.indigitall.android.auto.receivers.SdlReceiver |
 | com.junion.ad | 12 | 1 | com.junion.ad.activity.AdDetailActivity |
 | com.netacom.full | 12 | 1 | com.netacom.full.extensions.SmsBroadcastReceiver |
 | com.notifyvisitors.notifyvisitors | 12 | 1 | com.notifyvisitors.notifyvisitors.AppUpdateReceiver |
 | com.nu.art | 12 | 1 | com.nu.art.cyborg.common.utils.BootStarterReceiver |
 | com.pulseid.sdk | 12 | 1 | com.pulseid.sdk.activities.CampaignWebView |
-| com.swirepay.android_sdk | 12 | 1 | com.swirepay.android_sdk.checkout.ui.activity.CheckoutActivity |
 | com.tenqube.visual_third | 12 | 1 | com.tenqube.visual_third.parser.catcher.NotiCatcher |
 | com.tradplus.ads | 12 | 2 | com.tradplus.ads.checkimport.CheckActivity |
-| com.yanzhenjie.album | 12 | 1 | com.yanzhenjie.album.AlbumActivity |
 | com.zzh.lib | 12 | 1 | com.zzh.lib.pay.PaymentActivity |
 | in.testpress.exam | 12 | 1 | in.testpress.exam.ui.AccessCodeActivity |
-| io.getstream.video | 12 | 1 | io.getstream.video.android.compose.ui.ComposeStreamCallActivity |
-| io.requestly.android | 12 | 1 | io.requestly.android.core.internal.support.CopyIntentServiceReceiver |
 | ir.metrix.notification | 12 | 2 | ir.metrix.notification.inapp.prompt.MetrixPermissionsActivity |
 | tk.jamunx.ui | 12 | 1 | tk.jamunx.ui.browser.ui.SinglePageBrowser |
 | cn.haorui.sdk | 11 | 1 | cn.haorui.sdk.activity.HRAlertDialogActivity |
-| co.youverify.yvos_sdk | 11 | 2 | co.youverify.yvos_sdk.modules.documentcapture.DocumentCaptureActivity |
-| com.airwallex.android | 11 | 1 | com.airwallex.android.card.view.cvc.PaymentCheckoutActivity |
-| com.appliedrec.verid | 11 | 1 | com.appliedrec.verid.core.sharing.VerIDFileProvider |
-| com.applivery.android | 11 | 1 | com.applivery.android.sdk.AppliveryFileProvider |
-| com.box.androidsdk | 11 | 2 | com.box.androidsdk.browse.activities.BoxBrowseFileActivity |
 | com.chalkdigital.common | 11 | 1 | com.chalkdigital.common.CDAdBootReceiver |
 | com.city.code | 11 | 1 | com.city.code.android.filemanager.provider.FileManagerFileProvider |
-| com.duoku.platform | 11 | 1 | com.duoku.platform.single.bdpass.DKAccountContainerActivity |
 | com.easygames.platform | 11 | 1 | com.easygames.platform.account.GameAgreementActivity |
 | com.hyxen.adlocusaar | 11 | 1 | com.hyxen.adlocusaar.AdActivity |
 | com.hyxen.privateadlocus | 11 | 1 | com.hyxen.privateadlocus.AdActivity |
 | com.igame.platform | 11 | 1 | com.igame.platform.account.GameAgreementActivity |
-| com.infinum.dbinspector | 11 | 1 | com.infinum.dbinspector.DbInspectorActivity |
-| com.innov8tif.okaycam | 11 | 1 | com.innov8tif.okaycam.BaseCameraActivity |
 | com.jrmf360.walletpaylib | 11 | 1 | com.jrmf360.walletpaylib.ui.AddCardActivity |
-| com.m7.imkfsdk | 11 | 1 | com.m7.imkfsdk.MoorWebCenter |
 | com.mercury.sdk | 11 | 2 | com.mercury.sdk.activity.AskDialogActivity |
-| com.microsoft.identity | 11 | 3 | com.microsoft.identity.client.BrowserTabActivity |
 | com.mypoolin.sdk | 11 | 1 | com.mypoolin.sdk.AccountListActivity |
 | com.najva.sdk | 11 | 1 | com.najva.sdk.AdvertisementConsentActivity |
 | com.naver.gfpsdk | 11 | 2 | com.naver.gfpsdk.GfpInitProvider |
-| com.paypal.android | 11 | 5 | com.paypal.android.sdk.payments.FuturePaymentConsentActivity |
-| com.qiyukf.videomodule | 11 | 1 | com.qiyukf.videomodule.AnswerAndDialingActivity |
 | com.rokid.sdk | 11 | 1 | com.rokid.sdk.tatooine.lite.H5Activity |
 | com.rookmotion.rook | 11 | 1 | com.rookmotion.rook.sdk.client.permission.RequestHealthConnectPermissionsActivity |
 | com.seantone.xsdk | 11 | 1 | com.seantone.xsdk.facebook_account.FacebookLoginActivity |
 | com.selligent.sdk | 11 | 1 | com.selligent.sdk.SMBackgroundGcmBroadcastReceiver |
 | com.smwl.smsdk | 11 | 2 | com.smwl.smsdk.X7Provider |
-| com.sumup.merchant | 11 | 1 | com.sumup.merchant.reader.autoreceipt.AutoReceiptSettingsActivity |
 | com.tianzunchina.android | 11 | 1 | com.tianzunchina.android.api.MainActivity |
 | com.tozmart.tozmartsdk_s6 | 11 | 1 | com.tozmart.tozmartsdk_s6.CameraActivity |
+| com.vkyb.kv | 11 | 1 | com.vkyb.kv.kvnepo.TTFileProvider |
+| com.zoyi.channel | 11 | 1 | com.zoyi.channel.plugin.android.activity.chat.ChatActivity |
+| com.zzyl.view | 11 | 2 | com.zzyl.view.autoLogin.zzylSDKAutoLoginView |
+| eu.nets.pia | 11 | 1 | eu.nets.pia.cardio.CardIOActivity |
+| id.code.avrist | 11 | 1 | id.code.avrist.authenticationmodule.activity.ChangePasswordActivity |
+| io.agora.avc | 11 | 2 | io.agora.avc.app.master.AgoraActivity |
+| io.proxsee.sdk | 11 | 1 | io.proxsee.sdk.BackgroundService |
+| kz.airbapay.apay_android | 11 | 1 | kz.airbapay.apay_android.ui.pages.acquiring.AcquiringActivity |
+| leakcanary.internal | 11 | 2 | leakcanary.internal.AppWatcherInstaller$LeakCanaryProcess |
+| ru.solrudev.ackpine | 11 | 1 | ru.solrudev.ackpine.AckpineFileProvider |
+| sg.bigo.ads | 11 | 1 | sg.bigo.ads.ad.splash.AdSplashActivity |
+| com.ahmer.afzal | 10 | 2 | com.ahmer.afzal.utils.crashreporting.ReportActivity |
+| com.androidemu.nes | 10 | 1 | com.androidemu.nes.CheatsActivity |
+| com.fillr.service | 10 | 1 | com.fillr.service.AddressImportService |
+| com.gac.view | 10 | 1 | com.gac.view.consent.ConsentActivity |
+| com.github.privacystreams | 10 | 1 | com.github.privacystreams.accessibility.MyAccessibilityService |
+| com.hit_pay.hitpay | 10 | 2 | com.hit_pay.hitpay.activity.HitPayLoginPageActivity |
+| com.iampass.iampass | 10 | 1 | com.iampass.iampass.ui.IPAuthenticatingActivity |
+| com.immomo.android | 10 | 1 | com.immomo.android.mmpay.activity.ChangePhoneCheckPayPwdActivity |
+| com.letscooee | 10 | 1 | com.letscooee.broadcast.ARActionPerformed |
+| com.likeminds.feed | 10 | 1 | com.likeminds.feed.android.core.activityfeed.view.LMFeedActivityFeedActivity |
+| com.login.helper | 10 | 1 | com.login.helper.service.AccountLoginService |
+| com.mappls.sdk | 10 | 1 | com.mappls.sdk.bleplugin.BleContentProvider |
+| com.mayz.ftp | 10 | 1 | com.mayz.ftp.swiftp.FsService |
+| com.mesibo.calls | 10 | 1 | com.mesibo.calls.api.MesiboCallActivity |
+| com.nasmedia.nap | 10 | 1 | com.nasmedia.nap.ui.activity.BenefitsReceivedActivity |
+| com.popdeem.sdk | 10 | 1 | com.popdeem.sdk.core.gcm.GCMBroadcastReceiver |
+| com.reteno.push | 10 | 1 | com.reteno.push.interceptor.click.RetenoNotificationClickedActivity |
+| com.ss.union | 10 | 2 | com.ss.union.game.sdk.account.third.activity.TikTokLoginEntryActivity |
+| com.taurusx.tax | 10 | 1 | com.taurusx.tax.core.TaurusXProvider |
+| com.tencent.cloud | 10 | 1 | com.tencent.cloud.ai.fr.AuthActivity |
+| com.trustdecision.liveness | 10 | 1 | com.trustdecision.liveness.cw.api.ui.TDH5LivenessActivity |
+| com.usercare | 10 | 1 | com.usercare.activities.LandingPageActivity |
+| com.webgeoservices.woosmapgeofencing | 10 | 1 | com.webgeoservices.woosmapgeofencing.GeofenceBroadcastReceiver |
+| com.wonderpush.sdk | 10 | 1 | com.wonderpush.sdk.ConfigurationChangedReceiver |
 
 ## Co-occurring uncovered prefixes
 
@@ -10251,6 +10259,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 
 ## Repositories without enumeration or seeds
 
+- http://android.aldebaran.com/sdk/maven
 - http://bits.netbeans.org/maven2
 - http://bits.netbeans.org/nexus/content/groups/netbeans
 - http://cdn.adnxs.com/anx-sdk/maven
@@ -10286,14 +10295,16 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 - https://artifacts.unidata.ucar.edu/repository/unidata-releases
 - https://csspeechstorage.blob.core.windows.net/maven
 - https://dl.bintray.com/haesleinhuepf/clij
-- https://dl.bintray.com/milaptank/SpannableTextView
+- https://dl.bintray.com/icerockdev/moko
 - https://dl.bintray.com/xdex/socketcluster
 - https://download.osgeo.org/webdav/geotools
+- https://github.com/h4de5ing/SystemFunction/raw/master/SystemLib_repository
 - https://github.com/omadahealth/omada-nexus/raw/master/release
 - https://gitlab.com/api/v4/projects/40053021/packages/maven
 - https://jipipe.hki-jena.de/nexus/repository/jipipe-releases
 - https://jipipe.hki-jena.de/nexus/repository/jipipe-snapshots
 - https://maven.pkg.github.com/saalfeldlab/*
+- https://my.nutrient.io/maven
 - https://packages.jetbrains.team/maven/p/grazi/grazie-platform
 - https://raw.github.com/jug6ernaut/mvn-repo/mvn-repo
 - https://raw.githubusercontent.com/nroduit/mvn-repo/master
