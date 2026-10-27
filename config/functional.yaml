@@ -62,6 +62,9 @@
 - prefix: com.exyui.android
   sdk: Debug Bottle
   reason: Debug toolkit
+- prefix: com.fillr
+  sdk: Fillr
+  reason: Checkout form autofill
 - prefix: com.firebase.ui
   sdk: FirebaseUI
   reason: Sign-in and database UI components
@@ -83,12 +86,18 @@
 - prefix: com.hihonor.gamecenter
   sdk: HONOR Game Center
   reason: Game login and payments
+- prefix: com.hit_pay.hitpay
+  sdk: HitPay
+  reason: Payment SDK
 - prefix: com.hyperwallet.android
   sdk: Hyperwallet
   reason: Payout and prepaid card UI SDK
 - prefix: com.hyphenate.easeui
   sdk: Easemob
   reason: Instant messaging UI kit
+- prefix: com.iampass.iampass
+  sdk: IAMPASS
+  reason: Passwordless authentication
 - prefix: com.incode.welcome_sdk
   sdk: Incode
   reason: Identity verification and liveness
@@ -107,18 +116,33 @@
 - prefix: com.liferay.mobile
   sdk: Liferay Mobile SDK
   reason: Liferay portal client
+- prefix: com.likeminds
+  sdk: LikeMinds
+  reason: Community feed and chat SDK
 - prefix: com.luck.picture
   sdk: PictureSelector
   reason: Image and video picker library
 - prefix: com.m7.imkfsdk
   sdk: 7moor
   reason: Customer service chat
+- prefix: com.mapmyindia.sdk
+  sdk: MapmyIndia
+  reason: Maps SDK
+- prefix: com.mappls.sdk
+  sdk: Mappls
+  reason: Maps SDK
 - prefix: com.megvii.faceee_sdk
   sdk: Megvii Face++
   reason: Face verification SDK
 - prefix: com.mercadopago
   sdk: Mercado Pago
   reason: Payment checkout SDK
+- prefix: com.mesibo.api
+  sdk: mesibo
+  reason: Messaging SDK
+- prefix: com.mesibo.calls
+  sdk: mesibo
+  reason: Voice and video calls
 - prefix: com.microsoft.identity
   sdk: MSAL
   reason: Microsoft account sign-in
@@ -188,9 +212,15 @@
 - prefix: com.ticketmaster
   sdk: Ticketmaster Presence SDK
   reason: Event ticket display
+- prefix: com.trustdecision.liveness
+  sdk: TrustDecision
+  reason: Liveness detection
 - prefix: com.unblu.sdk
   sdk: Unblu
   reason: Co-browsing and support calls
+- prefix: com.usercare
+  sdk: UserCare
+  reason: Customer support SDK
 - prefix: com.vhall.appui
   sdk: Vhall
   reason: Live streaming UI
@@ -215,9 +245,15 @@
 - prefix: com.zoho.livechat
   sdk: Zoho SalesIQ
   reason: Live chat support SDK
+- prefix: com.zoyi.channel
+  sdk: Channel Talk
+  reason: Customer support chat
 - prefix: de.blinkt.openvpn
   sdk: OpenVPN for Android
   reason: VPN client library
+- prefix: eu.nets.pia
+  sdk: Nets PiA
+  reason: Payment SDK
 - prefix: io.agora.chat
   sdk: Agora Chat
   reason: Instant messaging UI kit
@@ -236,6 +272,12 @@
 - prefix: io.rong.imkit
   sdk: RongCloud IMKit
   reason: Instant messaging UI kit
+- prefix: kz.airbapay.apay_android
+  sdk: AirbaPay
+  reason: Payment SDK
+- prefix: leakcanary.internal
+  sdk: LeakCanary
+  reason: Memory leak detection for debug builds
 - prefix: me.proton.core
   sdk: Proton Core
   reason: Proton account and auth libraries
@@ -251,6 +293,9 @@
 - prefix: ru.rustore.sdk
   sdk: RuStore SDK
   reason: App store billing, review and update APIs
+- prefix: ru.solrudev.ackpine
+  sdk: Ackpine
+  reason: Package installer library
 - prefix: ru.tinkoff
   sdk: Tinkoff SDKs
   reason: Payment form and card scanning SDK
