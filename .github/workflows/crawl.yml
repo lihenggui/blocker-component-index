@@ -24,6 +24,7 @@ jobs:
       - uses: actions/checkout@v4.2.2
         with:
           repository: lihenggui/blocker-general-rules
+          ref: main
           path: .rules
           persist-credentials: false
       - uses: actions/cache@v4.2.3
