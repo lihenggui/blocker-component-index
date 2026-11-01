@@ -287,6 +287,20 @@
         "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.1"
       ]
+    },
+    "1.8.0-alpha03": {
+      "fetchedAt": "2026-11-01T12:08:13Z",
+      "sha256": "2ee98359e913a67aac3f92434bb4c558cbe274fbdfc56d9131cab86ac50719f7",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.concurrent:concurrent-futures-ktx:1.2.0",
+        "androidx.lifecycle:lifecycle-common:2.3.1",
+        "androidx.test:monitor:1.9.0-alpha04",
+        "androidx.tracing:tracing:1.1.0",
+        "com.google.guava:listenablefuture:1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.9.21",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.1"
+      ]
     }
   },
   "components": [
@@ -296,7 +310,7 @@
       "versionRanges": [
         [
           "1.5.0-beta01",
-          "1.8.0-alpha01"
+          "1.8.0-alpha03"
         ]
       ],
       "exported": true,
@@ -315,7 +329,7 @@
       "versionRanges": [
         [
           "1.5.0-beta01",
-          "1.8.0-alpha01"
+          "1.8.0-alpha03"
         ]
       ],
       "exported": true,
@@ -334,7 +348,7 @@
       "versionRanges": [
         [
           "1.5.0-beta01",
-          "1.8.0-alpha01"
+          "1.8.0-alpha03"
         ]
       ],
       "exported": true,

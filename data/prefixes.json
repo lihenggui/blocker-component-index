@@ -337,7 +337,9 @@
       "com.neura.android.coordinate.CoordinatorJob",
       "com.neura.android.coordinate.CoordinatorService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      485
+    ],
     "cooccursWith": []
   },
   {
@@ -697,7 +699,9 @@
       "com.bykv.vk.openvk.activity.base.TTFsVkActivity",
       "com.bykv.vk.openvk.activity.base.TTLPActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      1
+    ],
     "cooccursWith": [
       {
         "rule": 1,
@@ -768,7 +772,9 @@
       "com.streethawk.library.GeofenceService",
       "com.streethawk.library.Growth"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      486
+    ],
     "cooccursWith": []
   },
   {
@@ -1055,7 +1061,9 @@
       "cloud.proxi.sdk.analytics.SendAnalyticsJob",
       "cloud.proxi.sdk.analytics.SendAnalyticsReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      488
+    ],
     "cooccursWith": []
   },
   {
@@ -1183,7 +1191,9 @@
       "com.byted.live.lite.Activity_bytelive_singleTask3",
       "com.byted.live.lite.Activity_bytelive_singleTask4"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      1
+    ],
     "cooccursWith": [
       {
         "rule": 1,
@@ -1498,7 +1508,9 @@
       "com.pulsatehq.internal.features.debug.ui.PulsateTestModeActivity",
       "com.pulsatehq.internal.features.debug.ui.inapp.PulsateDebugInAppActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      491
+    ],
     "cooccursWith": []
   },
   {
@@ -2057,7 +2069,9 @@
       "com.relateddigital.relateddigital_android.inapp.InAppFullActivity",
       "com.relateddigital.relateddigital_android.inapp.InAppNotificationActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      487
+    ],
     "cooccursWith": []
   },
   {
@@ -2122,7 +2136,9 @@
       "com.tapsdk.tapad.internal.ui.views.web.BrowserActivity",
       "com.tapsdk.tapad.stub.activity.Stub_Install_or_OpenApp_Translucent_Activity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      477
+    ],
     "cooccursWith": []
   },
   {
@@ -2393,7 +2409,9 @@
       "com.umeng.union.UMWebViewActivity",
       "com.umeng.union.common.downloader.UMDownloadReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      482
+    ],
     "cooccursWith": []
   },
   {
@@ -2452,7 +2470,9 @@
       "org.infobip.mobile.messaging.chat.core.PersonalizationBroadcastReceiver",
       "org.infobip.mobile.messaging.chat.core.PushRegistrationBroadcastReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      489
+    ],
     "cooccursWith": []
   },
   {
@@ -2484,8 +2504,16 @@
       "com.appoxee.internal.geo.GeoFenceTransitionsIntentService",
       "com.appoxee.internal.geo.GeofenceReceiver"
     ],
-    "coveredBy": [],
-    "cooccursWith": []
+    "coveredBy": [
+      490
+    ],
+    "cooccursWith": [
+      {
+        "rule": 490,
+        "ratio": 1.0,
+        "artifacts": 2
+      }
+    ]
   },
   {
     "prefix": "com.bingo.sdk",
@@ -2669,7 +2697,9 @@
       "com.ushareit.ads.baseadapter.landing.SAdLandingPageActivity",
       "com.ushareit.ads.common.installer.AppReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      478
+    ],
     "cooccursWith": []
   },
   {
@@ -2723,7 +2753,9 @@
       "net.donky.core.fcm.PushMessagingService",
       "net.donky.core.gcm.DonkyGCMRegistrationService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      498
+    ],
     "cooccursWith": []
   },
   {
@@ -2739,7 +2771,9 @@
       "co.pushe.plus.fcm.geofence.FcmGeofenceReceiver",
       "co.pushe.plus.hms.HmsService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      492
+    ],
     "cooccursWith": []
   },
   {
@@ -2836,8 +2870,16 @@
       "com.junion.biz.activity.DownloadListActivity",
       "com.junion.biz.activity.FullScreenVodActivity"
     ],
-    "coveredBy": [],
-    "cooccursWith": []
+    "coveredBy": [
+      479
+    ],
+    "cooccursWith": [
+      {
+        "rule": 479,
+        "ratio": 1.0,
+        "artifacts": 2
+      }
+    ]
   },
   {
     "prefix": "com.lib.loopsdk",
@@ -2949,7 +2991,9 @@
       "com.tianmu.biz.activity.DownloadListActivity",
       "com.tianmu.biz.activity.FullScreenVodActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      480
+    ],
     "cooccursWith": []
   },
   {
@@ -3031,7 +3075,9 @@
       "net.indigitall.pushsdk.broadcast.IndigitallBroadcastReceiver",
       "net.indigitall.pushsdk.service.GCMIntentJobService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      494
+    ],
     "cooccursWith": []
   },
   {
@@ -3208,7 +3254,9 @@
       "com.pushpole.sdk.activities.WebviewActivity",
       "com.pushpole.sdk.fcm.FcmService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      493
+    ],
     "cooccursWith": []
   },
   {
@@ -3449,7 +3497,9 @@
       "com.contentsquare.android.analytics.internal.features.clientmode.ui.overlay.OverlayService",
       "com.contentsquare.android.analytics.internal.features.clientmode.ui.settings.DebugLogProvider"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      484
+    ],
     "cooccursWith": []
   },
   {
@@ -3614,7 +3664,9 @@
       "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushBroadcastReceiver",
       "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushNotificationStatusChangeHandler"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      161
+    ],
     "cooccursWith": []
   },
   {
@@ -3799,7 +3851,9 @@
       "com.cordial.feature.notification.appbadge.AppBadgeNotificationClickedReceiver",
       "com.cordial.feature.notification.appbadge.AppBadgeNotificationTrampolineActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      495
+    ],
     "cooccursWith": []
   },
   {
@@ -3985,7 +4039,9 @@
       "com.ogury.analytics.receiver.BootCompletedReceiver",
       "com.ogury.analytics.receiver.CarrierConfigChangedReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      66
+    ],
     "cooccursWith": []
   },
   {
@@ -4188,7 +4244,9 @@
       "net.youmi.overseas.android.ui.activity.YoumiReceivePointDialog",
       "net.youmi.overseas.android.ui.activity.YoumiTaskDetailActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      481
+    ],
     "cooccursWith": []
   },
   {
@@ -4344,7 +4402,9 @@
       "com.engagelab.privates.push.business.ma.MTMAMessageBridge",
       "com.engagelab.privates.push.platform.google.callback.MTGoogleCallback"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      499
+    ],
     "cooccursWith": []
   },
   {
@@ -4378,7 +4438,9 @@
       "com.growingio.android.sdk.gpush.huawei.HuaweiPushAdapterReceiver",
       "com.growingio.android.sdk.gpush.meizu.MeizuPushAdapterReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      483
+    ],
     "cooccursWith": []
   },
   {
@@ -4444,7 +4506,9 @@
       "com.indigitall.android.chat.ChatActivity",
       "com.indigitall.android.chat.views.InfoContact"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      494
+    ],
     "cooccursWith": []
   },
   {
@@ -4460,7 +4524,9 @@
       "com.junion.ad.activity.DownloadListActivity",
       "com.junion.ad.activity.FullScreenVodActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      479
+    ],
     "cooccursWith": []
   },
   {
@@ -4492,7 +4558,9 @@
       "com.notifyvisitors.notifyvisitors.center.NotificationsListActivity",
       "com.notifyvisitors.notifyvisitors.geofence.GeofenceTransitionsIntentService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      496
+    ],
     "cooccursWith": []
   },
   {
@@ -4557,7 +4625,9 @@
       "com.pulseid.sdk.services.BootCompletedIntentReceiver",
       "com.pulseid.sdk.services.ConfigService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      497
+    ],
     "cooccursWith": []
   },
   {
@@ -4622,7 +4692,9 @@
       "com.tradplus.ads.mgr.interstitial.views.InterNativeActivity",
       "com.tradplus.ads.mobileads.gdpr.TradplusGDPRAuthActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      500
+    ],
     "cooccursWith": []
   },
   {
@@ -4719,7 +4791,9 @@
       "ir.metrix.notification.prompt.MetrixPermissionsActivity",
       "ir.metrix.notification.push.NotificationActionService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      501
+    ],
     "cooccursWith": []
   },
   {
@@ -4871,7 +4945,9 @@
       "com.chalkdigital.common.CDAdConnectivityService",
       "com.chalkdigital.common.CDAdIPGeolocationJobService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      505
+    ],
     "cooccursWith": []
   },
   {
@@ -4976,7 +5052,9 @@
       "com.hyxen.adlocusaar.push.PushJobService",
       "com.hyxen.adlocusaar.push.PushReceive"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      368
+    ],
     "cooccursWith": []
   },
   {
@@ -4992,7 +5070,9 @@
       "com.hyxen.privateadlocus.push.PushJobService",
       "com.hyxen.privateadlocus.push.PushReceive"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      368
+    ],
     "cooccursWith": []
   },
   {
@@ -5139,7 +5219,9 @@
       "com.najva.sdk.NotificationActivity",
       "com.najva.sdk.NotificationPermissionActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      503
+    ],
     "cooccursWith": []
   },
   {
@@ -5156,7 +5238,9 @@
       "com.naver.gfpsdk.internal.debugger.ui.adlogs.GfpAdDebuggerAdLogActivity",
       "com.naver.gfpsdk.internal.debugger.ui.cachedads.GfpAdDebuggerCachedAdDetailActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      502
+    ],
     "cooccursWith": []
   },
   {
@@ -5256,7 +5340,9 @@
       "com.selligent.sdk.SMMediaPlayerService",
       "com.selligent.sdk.SMMessagingService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      504
+    ],
     "cooccursWith": []
   },
   {
@@ -5536,7 +5622,9 @@
       "io.proxsee.sdk.android.wakeup.StartupBroadcastReceiver",
       "io.proxsee.sdk.api.job.ActiveBeaconsNetworkJob"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      514
+    ],
     "cooccursWith": []
   },
   {
@@ -5601,7 +5689,9 @@
       "sg.bigo.ads.api.CompanionAdActivity",
       "sg.bigo.ads.api.LandingStyleableActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      506
+    ],
     "cooccursWith": []
   },
   {
@@ -5786,7 +5876,9 @@
       "com.letscooee.device.DebugInfoActivity",
       "com.letscooee.schedular.job.PendingTaskJob"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      511
+    ],
     "cooccursWith": []
   },
   {
@@ -5882,7 +5974,9 @@
       "com.nasmedia.nap.ui.activity.InAppBrowserActivity",
       "com.nasmedia.nap.ui.activity.InappBrowserActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      508
+    ],
     "cooccursWith": []
   },
   {
@@ -5898,7 +5992,9 @@
       "com.popdeem.sdk.uikit.activity.PDUIFeedImageActivity",
       "com.popdeem.sdk.uikit.activity.PDUIHomeFlowActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      512
+    ],
     "cooccursWith": []
   },
   {
@@ -5963,7 +6059,9 @@
       "com.reteno.push.receiver.CustomPushReceiver",
       "com.reteno.push.receiver.NotificationChannelStateChangeReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      510
+    ],
     "cooccursWith": []
   },
   {
@@ -6021,7 +6119,9 @@
       "com.taurusx.tax.ui.AppOpenAdActivity",
       "com.taurusx.tax.ui.AppOpenNativeAdActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      507
+    ],
     "cooccursWith": []
   },
   {
@@ -6085,7 +6185,9 @@
       "com.webgeoservices.woosmapgeofencing.LocationGeofenceService$LocationUpdateReceiver",
       "com.webgeoservices.woosmapgeofencing.LocationUpdatesBroadcastReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      513
+    ],
     "cooccursWith": []
   },
   {
@@ -6101,7 +6203,9 @@
       "com.wonderpush.sdk.WonderPushInitProvider",
       "com.wonderpush.sdk.WonderPushNotificationTrackingReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      509
+    ],
     "cooccursWith": []
   },
   {
@@ -6318,7 +6422,9 @@
       "com.appier.aiqua.sdk.NotificationInterceptionProcessor",
       "com.appier.aiqua.sdk.NotificationJobIntentService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      515
+    ],
     "cooccursWith": []
   },
   {
@@ -6400,7 +6506,9 @@
       "com.beizi.fusion.asnp.adn.ad.widget.activity.ASNPAdActivity",
       "com.beizi.fusion.asnp.adn.ad.widget.activity.ASNPDlInfoDetailActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      458
+    ],
     "cooccursWith": []
   },
   {
@@ -8360,7 +8468,9 @@
       "com.chalkdigital.cdads.CDIPGeolocationService",
       "com.chalkdigital.cdads.CDLocationManagerService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      505
+    ],
     "cooccursWith": []
   },
   {
@@ -9062,7 +9172,9 @@
       "com.tradplus.meditaiton.view.GlobalSetting",
       "com.tradplus.meditaiton.view.NetworkAdUnitActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      500
+    ],
     "cooccursWith": []
   },
   {
@@ -10302,7 +10414,13 @@
     "coveredBy": [
       285
     ],
-    "cooccursWith": []
+    "cooccursWith": [
+      {
+        "rule": 285,
+        "ratio": 1.0,
+        "artifacts": 3
+      }
+    ]
   },
   {
     "prefix": "com.nareshchocha.filepickerlibrary",
@@ -11841,8 +11959,16 @@
       "com.appier.internal.ads.common.AppierContentProvider",
       "com.appier.internal.push.PushServiceManager"
     ],
-    "coveredBy": [],
-    "cooccursWith": []
+    "coveredBy": [
+      515
+    ],
+    "cooccursWith": [
+      {
+        "rule": 515,
+        "ratio": 1.0,
+        "artifacts": 2
+      }
+    ]
   },
   {
     "prefix": "com.appier.sdk",
@@ -11857,7 +11983,9 @@
       "com.appier.sdk.push.fcm.FcmContentProvider",
       "com.appier.sdk.push.fcm.FcmPushReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      515
+    ],
     "cooccursWith": []
   },
   {
@@ -12961,7 +13089,9 @@
       "com.tradplus.crosspro.ui.CPLandscapeActivity",
       "com.tradplus.crosspro.ui.CPPortraitActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      500
+    ],
     "cooccursWith": []
   },
   {
@@ -15140,7 +15270,9 @@
       "com.moe.pushlibrary.activities.MoEActivity",
       "com.moe.pushlibrary.providers.MoEProvider"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      285
+    ],
     "cooccursWith": [
       {
         "rule": 285,
@@ -15903,7 +16035,9 @@
       "com.tradplus.china.common.NotificationBroadcaseReceiver",
       "com.tradplus.china.common.service.ApkDownloadService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      500
+    ],
     "cooccursWith": []
   },
   {
@@ -16019,7 +16153,9 @@
       "com.vivo.ic.dm.DownloadService",
       "com.vivo.ic.dm.util.KeepAliveService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      35
+    ],
     "cooccursWith": [
       {
         "rule": 35,
@@ -17921,7 +18057,9 @@
       "com.appier.ads.VideoInterstitialActivity",
       "com.appier.ads.common.AppierBrowserActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      515
+    ],
     "cooccursWith": []
   },
   {
@@ -18405,7 +18543,9 @@
       "com.bytedance.msdk.api.activity.TTTransparentActivity",
       "com.bytedance.msdk.core.admanager.reward.rewardagain.GMRewardAgainDialogActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      1
+    ],
     "cooccursWith": [
       {
         "rule": 1,
@@ -18510,7 +18650,9 @@
       "com.chalkdigital.interstitial.ads.MraidActivity",
       "com.chalkdigital.interstitial.ads.SparkActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      505
+    ],
     "cooccursWith": []
   },
   {
@@ -19186,7 +19328,9 @@
       "com.growingio.giokit.launch.UniversalActivity",
       "com.growingio.giokit.setting.GiokitSettingActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      483
+    ],
     "cooccursWith": []
   },
   {
@@ -19802,7 +19946,9 @@
       "com.kuaishou.weapon.WeaponS",
       "com.kuaishou.weapon.p0.receiver.WeaponRECE"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      16
+    ],
     "cooccursWith": [
       {
         "rule": 16,
@@ -23396,7 +23542,9 @@
       "cloud.proxi.job.OnBootCompletedReceiver",
       "cloud.proxi.job.v23.ProxiJobV23Service"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      488
+    ],
     "cooccursWith": []
   },
   {
@@ -24126,8 +24274,16 @@
       "com.appoxee.push.PushDataReceiver",
       "com.appoxee.push.fcm.MappMessagingService"
     ],
-    "coveredBy": [],
-    "cooccursWith": []
+    "coveredBy": [
+      490
+    ],
+    "cooccursWith": [
+      {
+        "rule": 490,
+        "ratio": 1.0,
+        "artifacts": 2
+      }
+    ]
   },
   {
     "prefix": "com.appsamurai.storyly",
@@ -25085,7 +25241,9 @@
       "com.cordial.cordialsdk.testdata.DisallowedTestActivity",
       "com.cordial.cordialsdk.testdata.TestActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      495
+    ],
     "cooccursWith": []
   },
   {
@@ -27647,7 +27805,9 @@
       "com.notifyvisitors.twa.NVAppUpdateReceiver",
       "com.notifyvisitors.twa.NVCheckUpdateService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      496
+    ],
     "cooccursWith": []
   },
   {
@@ -28335,7 +28495,9 @@
       "com.qsl.faar.service.location.sensors.playservices.FusedLocationReceiver",
       "com.qsl.faar.service.location.sensors.playservices.GeofenceReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      220
+    ],
     "cooccursWith": [
       {
         "rule": 220,
@@ -29277,7 +29439,9 @@
       "com.tradplus.adx.sdk.ui.InnerActivity",
       "com.tradplus.adx.sdk.ui.InnerWebViewActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      500
+    ],
     "cooccursWith": []
   },
   {
@@ -31242,7 +31406,9 @@
       "ir.metrix.internal.MetrixInitializer",
       "ir.metrix.internal.init.Initializer"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      501
+    ],
     "cooccursWith": []
   },
   {
@@ -33706,7 +33872,9 @@
     "examples": [
       "cn.android.service.JTransitActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      15
+    ],
     "cooccursWith": [
       {
         "rule": 15,
@@ -34848,7 +35016,9 @@
     "examples": [
       "com.apm.applog.migrate.MigrateDetectorActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      3
+    ],
     "cooccursWith": [
       {
         "rule": 3,
@@ -34890,7 +35060,9 @@
     "examples": [
       "com.appier.aideal.console.ConsoleActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      515
+    ],
     "cooccursWith": []
   },
   {
@@ -35180,7 +35352,9 @@
     "examples": [
       "com.appoxee.MappIntelligenceListener"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      490
+    ],
     "cooccursWith": []
   },
   {
@@ -37212,7 +37386,9 @@
     "examples": [
       "com.chalkdigital.CDAdVideoPlayerActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      505
+    ],
     "cooccursWith": []
   },
   {
@@ -37224,7 +37400,9 @@
     "examples": [
       "com.chalkdigital.ads.CDAdVideoPlayerActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      505
+    ],
     "cooccursWith": []
   },
   {
@@ -39653,7 +39831,13 @@
     "coveredBy": [
       220
     ],
-    "cooccursWith": []
+    "cooccursWith": [
+      {
+        "rule": 220,
+        "ratio": 1.0,
+        "artifacts": 2
+      }
+    ]
   },
   {
     "prefix": "com.gimbal.proximity",
@@ -41738,8 +41922,16 @@
     "examples": [
       "com.junion.provider.JUnionAdFileProvider"
     ],
-    "coveredBy": [],
-    "cooccursWith": []
+    "coveredBy": [
+      479
+    ],
+    "cooccursWith": [
+      {
+        "rule": 479,
+        "ratio": 1.0,
+        "artifacts": 2
+      }
+    ]
   },
   {
     "prefix": "com.jupitarwp.multilevelselector",
@@ -43983,7 +44175,9 @@
     "examples": [
       "com.ogury.cm.ConsentActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      66
+    ],
     "cooccursWith": []
   },
   {
@@ -43995,7 +44189,9 @@
     "examples": [
       "com.ogury.consent.manager.ConsentActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      66
+    ],
     "cooccursWith": []
   },
   {
@@ -45432,7 +45628,9 @@
     "examples": [
       "com.reteno.core.RetenoContentProvider"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      510
+    ],
     "cooccursWith": []
   },
   {
@@ -45444,7 +45642,9 @@
     "examples": [
       "com.reteno.fcm.RetenoFirebaseMessagingService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      510
+    ],
     "cooccursWith": []
   },
   {
@@ -47215,7 +47415,9 @@
     "examples": [
       "com.tianmu.provider.AdFileProvider"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      480
+    ],
     "cooccursWith": []
   },
   {
@@ -47712,7 +47914,9 @@
     "examples": [
       "com.unity3d.ironsourceads.internal.services.InlineStoreActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      166
+    ],
     "cooccursWith": [
       {
         "rule": 166,
@@ -48167,7 +48371,9 @@
     "examples": [
       "com.volcengine.onekit.component.ComponentDiscoveryService"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      3
+    ],
     "cooccursWith": [
       {
         "rule": 3,
@@ -48522,7 +48728,9 @@
     "examples": [
       "com.xiaomi.channel.commonutils.android.MIPushProvider"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      31
+    ],
     "cooccursWith": [
       {
         "rule": 31,
@@ -51125,7 +51333,9 @@
     "examples": [
       "ir.metrix.deeplink.MetrixApplinkActivity"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      501
+    ],
     "cooccursWith": []
   },
   {
@@ -51137,7 +51347,9 @@
     "examples": [
       "ir.metrix.referrer.cafebazaar.communicators.broadcast.ClientReceiver"
     ],
-    "coveredBy": [],
+    "coveredBy": [
+      501
+    ],
     "cooccursWith": []
   },
   {
