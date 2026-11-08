@@ -2,6 +2,29 @@
   "coordinate": "androidx.glance.adaptive:adaptive-appwidget",
   "repository": "https://dl.google.com/android/maven2",
   "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-11-08T12:17:27Z",
+      "sha256": "37d5b3af2c1be211f62f359fa0cb12073de4c1affa1ea43a03daba2db11808ba",
+      "dependencies": [
+        "androidx.glance.adaptive:adaptive-core:1.0.0-alpha01",
+        "androidx.glance:glance-appwidget:1.1.1",
+        "androidx.glance:glance:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-11-08T12:17:26Z",
+      "sha256": "fa573e9c12a961cf6c2764692cde4ccd3e784c6a98fe165f1a3cfcda489d5ea3",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.1",
+        "androidx.collection:collection:1.4.2",
+        "androidx.compose.runtime:runtime:1.12.0",
+        "androidx.glance.adaptive:adaptive-core:1.0.0-alpha02",
+        "androidx.glance:glance-appwidget:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
     "1.0.0-alpha03": {
       "fetchedAt": "2026-10-23T17:07:15Z",
       "sha256": "fa573e9c12a961cf6c2764692cde4ccd3e784c6a98fe165f1a3cfcda489d5ea3",
@@ -14,7 +37,40 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
       ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-11-08T12:17:26Z",
+      "sha256": "cd7f05c77fe392bc5426b86c24ec466e69a913ac3925df152df0031d291e8d23",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.1",
+        "androidx.collection:collection:1.4.2",
+        "androidx.compose.remote:remote-creation-compose:1.0.0-alpha20",
+        "androidx.compose.remote:remote-creation:1.0.0-alpha20",
+        "androidx.compose.runtime:runtime:1.12.0",
+        "androidx.glance.adaptive:adaptive-core:1.0.0-alpha04",
+        "androidx.glance:glance-appwidget:1.1.1",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
     }
   },
-  "components": []
+  "components": [
+    {
+      "name": "androidx.glance.adaptive.appwidget.RequestPinCallbackReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-alpha04",
+          "1.0.0-alpha04"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
 }

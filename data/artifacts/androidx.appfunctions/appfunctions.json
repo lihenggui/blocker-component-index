@@ -179,6 +179,20 @@
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
         "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.9.0"
       ]
+    },
+    "1.0.0-rc01": {
+      "fetchedAt": "2026-11-08T12:14:14Z",
+      "sha256": "e835acbad9c1bae5f07b908ac19dcd30b5d2e6033356efd4a27065d9774372c1",
+      "dependencies": [
+        "androidx.annotation:annotation:1.8.1",
+        "androidx.appsearch:appsearch-platform-storage:1.1.0",
+        "androidx.appsearch:appsearch:1.1.0",
+        "com.google.errorprone:error_prone_annotations:2.30.0",
+        "com.google.guava:guava:32.0.1-android",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.9.0"
+      ]
     }
   },
   "components": [
@@ -188,7 +202,7 @@
       "versionRanges": [
         [
           "1.0.0-alpha13",
-          "1.0.0-beta01"
+          "1.0.0-rc01"
         ]
       ],
       "exported": false,

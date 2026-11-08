@@ -2,6 +2,27 @@
   "coordinate": "androidx.glance.adaptive:adaptive-core",
   "repository": "https://dl.google.com/android/maven2",
   "versions": {
+    "1.0.0-alpha01": {
+      "fetchedAt": "2026-11-08T12:17:30Z",
+      "sha256": "e26d3c411a31af4d1f53e5aadfaa416c12395191d68c08ca3056c26a2f1cb23d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.compose.runtime:runtime:1.6.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
+    "1.0.0-alpha02": {
+      "fetchedAt": "2026-11-08T12:17:29Z",
+      "sha256": "e26d3c411a31af4d1f53e5aadfaa416c12395191d68c08ca3056c26a2f1cb23d",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.collection:collection:1.4.2",
+        "androidx.compose.runtime:runtime:1.12.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
+    },
     "1.0.0-alpha03": {
       "fetchedAt": "2026-10-23T17:07:18Z",
       "sha256": "e26d3c411a31af4d1f53e5aadfaa416c12395191d68c08ca3056c26a2f1cb23d",
@@ -11,7 +32,35 @@
         "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
       ]
+    },
+    "1.0.0-alpha04": {
+      "fetchedAt": "2026-11-08T12:17:28Z",
+      "sha256": "60d127ccde0affcb7e2a20110aff32bc34775d331194f44599a01696e75c1431",
+      "dependencies": [
+        "androidx.annotation:annotation:1.7.0",
+        "androidx.collection:collection:1.4.2",
+        "org.jetbrains.kotlin:kotlin-stdlib:2.2.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+      ]
     }
   },
-  "components": []
+  "components": [
+    {
+      "name": "androidx.glance.adaptive.core.ui.action.ActionCallbackBroadcastReceiver",
+      "type": "receiver",
+      "versionRanges": [
+        [
+          "1.0.0-alpha04",
+          "1.0.0-alpha04"
+        ]
+      ],
+      "exported": false,
+      "process": null,
+      "permission": null,
+      "authorities": null,
+      "actions": [],
+      "categories": [],
+      "metaData": []
+    }
+  ]
 }

@@ -7,13 +7,13 @@ Repositories: 509
 | central-search | 1 |
 | google-index | 1 |
 | listing | 65 |
-| metadata | 372 |
+| metadata | 373 |
 | mirror | 48 |
 | nexus3 | 31 |
 
-Artifacts: 33798
-Artifacts with components: 6032
-Components: 28102
+Artifacts: 33803
+Artifacts with components: 6034
+Components: 28104
 
 Components are unique (name, type) pairs per artifact, across fetched versions.
 
@@ -1358,6 +1358,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | androidx.biometric | 2 | 0 | 2 | androidx.biometric (1), androidx.biometric.internal (1) |  |
 | androidx.compose.ui | 2 | 0 | 2 | androidx.activity (1), androidx.compose.ui (1) |  |
 | androidx.emoji2 | 2 | 0 | 2 | androidx.startup (2) |  |
+| androidx.glance.adaptive | 2 | 0 | 2 | androidx.glance.adaptive (2) |  |
 | androidx.health | 2 | 0 | 2 | androidx.health.platform (1), androidx.health.services (1) |  |
 | androidx.profileinstaller | 2 | 0 | 2 | androidx.profileinstaller (1), androidx.startup (1) |  |
 | androidx.wear | 2 | 0 | 2 | androidx.wear.watchface (2) |  |
@@ -2678,7 +2679,6 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | androidx.exifinterface | 0 | 0 | 0 |  |  |
 | androidx.games | 0 | 0 | 0 |  |  |
 | androidx.gaming | 0 | 0 | 0 |  |  |
-| androidx.glance.adaptive | 0 | 0 | 0 |  |  |
 | androidx.glance.wear | 0 | 0 | 0 |  |  |
 | androidx.graphics | 0 | 0 | 0 |  |  |
 | androidx.gridlayout | 0 | 0 | 0 |  |  |
@@ -2738,6 +2738,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | androidx.wear.protolayout | 0 | 0 | 0 |  |  |
 | androidx.wear.tiles | 0 | 0 | 0 |  |  |
 | androidx.wear.watchfacepush | 0 | 0 | 0 |  |  |
+| androidx.web | 0 | 0 | 0 |  |  |
 | androidx.webgpu | 0 | 0 | 0 |  |  |
 | androidx.webkit | 0 | 0 | 0 |  |  |
 | androidx.window | 0 | 0 | 0 |  |  |
@@ -6509,6 +6510,7 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 | com.ticketmaster.retail | 0 | 0 | 0 |  |  |
 | com.ticketmaster.servos | 0 | 0 | 0 |  |  |
 | com.ticketmaster.voltron | 0 | 0 | 0 |  |  |
+| com.tiktok.open.sdk | 0 | 0 | 0 |  |  |
 | com.tilal6991.messageloop | 0 | 0 | 0 |  |  |
 | com.timehop.fragmentswitcher | 0 | 0 | 0 |  |  |
 | com.timehop.stickyheadersrecyclerview | 0 | 0 | 0 |  |  |
@@ -10285,37 +10287,28 @@ Components are unique (name, type) pairs per artifact, across fetched versions.
 - http://timefire-repository.googlecode.com/svn/mavenrepo
 - http://www.ibiblio.org/maven2
 - http://www.sparkjava.com/nexus/content/repositories/spark
-- https://artifactory.img.ly/artifactory/imgly
 - https://artifacts.unidata.ucar.edu/repository/unidata-3rdparty
 - https://artifacts.unidata.ucar.edu/repository/unidata-all
 - https://artifacts.unidata.ucar.edu/repository/unidata-geotoolkit
 - https://artifacts.unidata.ucar.edu/repository/unidata-releases
 - https://csspeechstorage.blob.core.windows.net/maven
 - https://dl.bintray.com/haesleinhuepf/clij
-- https://dl.bintray.com/tencentqcloudterminal/maven
-- https://dl.bintray.com/web3j/maven
 - https://dl.bintray.com/xdex/socketcluster
 - https://download.osgeo.org/webdav/geotools
 - https://download2.dynamsoft.com/maven/aar
-- https://fits.gsfc.nasa.gov/maven
-- https://github.com/akapelrud/Rotary-Seekbar/raw/master/RotaryKnob/snapshots
 - https://github.com/h4de5ing/SystemFunction/raw/master/SystemLib_repository
 - https://github.com/omadahealth/omada-nexus/raw/master/release
 - https://gitlab.com/api/v4/projects/40053021/packages/maven
 - https://jipipe.hki-jena.de/nexus/repository/jipipe-releases
 - https://jipipe.hki-jena.de/nexus/repository/jipipe-snapshots
-- https://maven.nariko.org/release
 - https://maven.pkg.github.com/saalfeldlab/*
-- https://mvnrepository.com/artifact/com.github.gundy/semver4j
 - https://packages.jetbrains.team/maven/p/grazi/grazie-platform
 - https://raw.github.com/jug6ernaut/mvn-repo/mvn-repo
-- https://raw.github.com/zeeshanejaz/unirest-android/mvn-repo
 - https://raw.githubusercontent.com/nroduit/mvn-repo/master
 - https://raw.githubusercontent.com/sendbird/SendBird-SDK-Android/master
 - https://raw.githubusercontent.com/sendbird/sendbird-syncmanager-android/master
 - https://repo.typesafe.com/typesafe/releases
 - https://repo.typesafe.com/typesafe/snapshots
-- https://repo.worldmandia.cc/releases
 - https://repository.jboss.org/nexus
 - https://saalfeldlab.github.io/maven
 - https://storage.googleapis.com/devan-maven
